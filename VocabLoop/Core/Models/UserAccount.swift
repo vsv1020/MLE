@@ -57,6 +57,18 @@ public final class UserAccount {
     /// invalidating existing ones.
     public var passwordIterations: Int
 
+    /// Hash of the one-time recovery code issued at sign-up.
+    ///
+    /// An offline account cannot be recovered by email, so "forgot password" needs
+    /// something the user holds. A recovery code shown once at sign-up is the honest
+    /// answer; a security question would be both weaker and more annoying. Hashed with
+    /// the same PBKDF2 parameters as the password, because a stored recovery code is
+    /// a password.
+    public var recoveryCodeHash: Data?
+    public var recoveryCodeSalt: Data?
+    /// Set when the code has been spent, so it cannot be replayed.
+    public var recoveryCodeUsedAt: Date?
+
     /// Opaque, stable, per-developer-team user ID from Apple. The only reliable
     /// identifier Apple gives us — the email may be a relay address or absent.
     public var appleUserIdentifier: String?

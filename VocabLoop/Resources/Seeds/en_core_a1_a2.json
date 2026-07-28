@@ -1,0 +1,837 @@
+{
+  "packName": "en_core_a1_a2",
+  "version": 1,
+  "languageCode": "en",
+  "deck": {
+    "name": "English Core · A1–A2",
+    "summary": "The everyday words you need before anything else. Beginner to elementary.",
+    "symbolName": "leaf",
+    "colorHex": "#0D9488",
+    "sortOrder": 1
+  },
+  "entries": [
+    {
+      "headword": "because",
+      "phonetic": "/bɪˈkɒz/",
+      "cefr": "A1",
+      "frequencyRank": 91,
+      "senses": [
+        {
+          "partOfSpeech": "conjunction",
+          "definition": "for the reason that",
+          "translations": { "zh": "因为" },
+          "examples": [
+            { "text": "I stayed home because it was raining.", "translations": { "zh": "因为下雨，我留在家里。" } }
+          ],
+          "usageNote": "In writing, avoid starting a sentence with 'Because' unless the main clause follows: 'Because it rained, we stayed in.'"
+        }
+      ]
+    },
+    {
+      "headword": "always",
+      "phonetic": "/ˈɔːlweɪz/",
+      "cefr": "A1",
+      "frequencyRank": 214,
+      "senses": [
+        {
+          "partOfSpeech": "adverb",
+          "definition": "at all times; on every occasion",
+          "translations": { "zh": "总是；一直" },
+          "examples": [
+            { "text": "She always drinks tea in the morning.", "translations": { "zh": "她早上总是喝茶。" } }
+          ],
+          "synonyms": ["constantly", "invariably"],
+          "antonyms": ["never"]
+        }
+      ]
+    },
+    {
+      "headword": "family",
+      "phonetic": "/ˈfæməli/",
+      "cefr": "A1",
+      "frequencyRank": 305,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a group of people who are related to each other",
+          "translations": { "zh": "家庭；家人" },
+          "examples": [
+            { "text": "My whole family came to the wedding.", "translations": { "zh": "我全家都来参加婚礼了。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "friend",
+      "phonetic": "/frend/",
+      "cefr": "A1",
+      "frequencyRank": 411,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "someone you know well and like, who is not family",
+          "translations": { "zh": "朋友" },
+          "examples": [
+            { "text": "He is my oldest friend.", "translations": { "zh": "他是我最老的朋友。" } }
+          ],
+          "antonyms": ["enemy"]
+        }
+      ]
+    },
+    {
+      "headword": "house",
+      "phonetic": "/haʊs/",
+      "cefr": "A1",
+      "frequencyRank": 246,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a building where people live",
+          "translations": { "zh": "房子" },
+          "examples": [
+            { "text": "They bought a house near the river.", "translations": { "zh": "他们在河边买了一栋房子。" } }
+          ],
+          "usageNote": "A 'house' is the building; a 'home' is where you feel you belong."
+        }
+      ]
+    },
+    {
+      "headword": "water",
+      "phonetic": "/ˈwɔːtə/",
+      "cefr": "A1",
+      "frequencyRank": 337,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "the clear liquid that falls as rain and that people drink",
+          "translations": { "zh": "水" },
+          "examples": [
+            { "text": "Could I have a glass of water?", "translations": { "zh": "能给我一杯水吗？" } }
+          ]
+        },
+        {
+          "partOfSpeech": "verb",
+          "definition": "to pour water on plants",
+          "translations": { "zh": "给…浇水" },
+          "examples": [
+            { "text": "Remember to water the plants.", "translations": { "zh": "记得给植物浇水。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "food",
+      "phonetic": "/fuːd/",
+      "cefr": "A1",
+      "frequencyRank": 512,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "the things that people and animals eat",
+          "translations": { "zh": "食物" },
+          "examples": [
+            { "text": "The food at that restaurant is excellent.", "translations": { "zh": "那家餐厅的食物很棒。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "learn",
+      "phonetic": "/lɜːn/",
+      "cefr": "A1",
+      "frequencyRank": 469,
+      "grammarNotes": { "irregularForms": "learn · learned/learnt · learned/learnt" },
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to gain knowledge or a skill by studying or practising",
+          "translations": { "zh": "学习；学会" },
+          "examples": [
+            { "text": "She is learning Thai.", "translations": { "zh": "她在学泰语。" } },
+            { "text": "I learned to swim when I was six.", "translations": { "zh": "我六岁时学会了游泳。" } }
+          ],
+          "usageNote": "'Learn' is what the student does; 'teach' is what the teacher does. They are not interchangeable."
+        }
+      ]
+    },
+    {
+      "headword": "teacher",
+      "phonetic": "/ˈtiːtʃə/",
+      "cefr": "A1",
+      "frequencyRank": 903,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a person whose job is to teach",
+          "translations": { "zh": "老师" },
+          "examples": [
+            { "text": "Our maths teacher is very patient.", "translations": { "zh": "我们的数学老师很有耐心。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "student",
+      "phonetic": "/ˈstjuːdnt/",
+      "cefr": "A1",
+      "frequencyRank": 468,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a person who is studying at a school or university",
+          "translations": { "zh": "学生" },
+          "examples": [
+            { "text": "She was my best student that year.", "translations": { "zh": "那年她是我最好的学生。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "morning",
+      "phonetic": "/ˈmɔːnɪŋ/",
+      "cefr": "A1",
+      "frequencyRank": 587,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "the early part of the day, from when the sun rises until noon",
+          "translations": { "zh": "早上；上午" },
+          "examples": [
+            { "text": "I run every morning before work.", "translations": { "zh": "我每天上班前跑步。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "night",
+      "phonetic": "/naɪt/",
+      "cefr": "A1",
+      "frequencyRank": 331,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "the dark part of the day, when most people sleep",
+          "translations": { "zh": "夜晚" },
+          "examples": [
+            { "text": "It rained all night.", "translations": { "zh": "下了一整夜的雨。" } }
+          ],
+          "antonyms": ["day"]
+        }
+      ]
+    },
+    {
+      "headword": "happy",
+      "phonetic": "/ˈhæpi/",
+      "cefr": "A1",
+      "frequencyRank": 685,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "feeling pleased and satisfied",
+          "translations": { "zh": "快乐的；高兴的" },
+          "examples": [
+            { "text": "I'm happy you could come.", "translations": { "zh": "很高兴你能来。" } }
+          ],
+          "synonyms": ["glad", "pleased", "content"],
+          "antonyms": ["sad", "unhappy"]
+        }
+      ]
+    },
+    {
+      "headword": "tired",
+      "phonetic": "/ˈtaɪəd/",
+      "cefr": "A1",
+      "frequencyRank": 1584,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "needing rest or sleep",
+          "translations": { "zh": "疲倦的；累的" },
+          "examples": [
+            { "text": "I was too tired to cook.", "translations": { "zh": "我太累了，做不了饭。" } }
+          ],
+          "usageNote": "'Tired of something' means bored with it, not sleepy: 'I'm tired of waiting.'"
+        }
+      ]
+    },
+    {
+      "headword": "buy",
+      "phonetic": "/baɪ/",
+      "cefr": "A1",
+      "frequencyRank": 559,
+      "grammarNotes": { "irregularForms": "buy · bought · bought" },
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to get something by paying money for it",
+          "translations": { "zh": "买" },
+          "examples": [
+            { "text": "I bought this jacket yesterday.", "translations": { "zh": "这件夹克是我昨天买的。" } }
+          ],
+          "synonyms": ["purchase"],
+          "antonyms": ["sell"]
+        }
+      ]
+    },
+    {
+      "headword": "sell",
+      "phonetic": "/sel/",
+      "cefr": "A1",
+      "frequencyRank": 764,
+      "grammarNotes": { "irregularForms": "sell · sold · sold" },
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to give something to someone in exchange for money",
+          "translations": { "zh": "卖" },
+          "examples": [
+            { "text": "They sold the shop last year.", "translations": { "zh": "他们去年把店卖了。" } }
+          ],
+          "antonyms": ["buy"]
+        }
+      ]
+    },
+    {
+      "headword": "expensive",
+      "phonetic": "/ɪkˈspensɪv/",
+      "cefr": "A2",
+      "frequencyRank": 2170,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "costing a lot of money",
+          "translations": { "zh": "昂贵的" },
+          "examples": [
+            { "text": "Flights are more expensive in July.", "translations": { "zh": "七月的机票更贵。" } }
+          ],
+          "synonyms": ["costly", "pricey"],
+          "antonyms": ["cheap", "inexpensive"]
+        }
+      ]
+    },
+    {
+      "headword": "cheap",
+      "phonetic": "/tʃiːp/",
+      "cefr": "A2",
+      "frequencyRank": 2318,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "costing little money",
+          "translations": { "zh": "便宜的" },
+          "examples": [
+            { "text": "We found a cheap hotel near the station.", "translations": { "zh": "我们在车站附近找到一家便宜的旅馆。" } }
+          ],
+          "antonyms": ["expensive"],
+          "usageNote": "'Cheap' can suggest poor quality. For a good price with no such hint, use 'inexpensive' or 'good value'."
+        }
+      ]
+    },
+    {
+      "headword": "city",
+      "phonetic": "/ˈsɪti/",
+      "cefr": "A1",
+      "frequencyRank": 320,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a large town",
+          "translations": { "zh": "城市" },
+          "examples": [
+            { "text": "Bangkok is a huge city.", "translations": { "zh": "曼谷是一座巨大的城市。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "country",
+      "phonetic": "/ˈkʌntri/",
+      "cefr": "A1",
+      "frequencyRank": 271,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "an area of land with its own government",
+          "translations": { "zh": "国家" },
+          "examples": [
+            { "text": "She has lived in four countries.", "translations": { "zh": "她在四个国家生活过。" } }
+          ]
+        },
+        {
+          "partOfSpeech": "noun",
+          "definition": "land outside towns and cities",
+          "translations": { "zh": "乡村" },
+          "examples": [
+            { "text": "We spent the weekend in the country.", "translations": { "zh": "我们在乡下度过了周末。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "travel",
+      "phonetic": "/ˈtrævl/",
+      "cefr": "A2",
+      "frequencyRank": 1006,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to go from one place to another, especially over a distance",
+          "translations": { "zh": "旅行；旅游" },
+          "examples": [
+            { "text": "He travels to Japan twice a year.", "translations": { "zh": "他每年去日本两次。" } }
+          ],
+          "usageNote": "'Travel' is usually uncountable as a noun. For one journey say 'a trip' or 'a journey', not 'a travel'."
+        }
+      ]
+    },
+    {
+      "headword": "ticket",
+      "phonetic": "/ˈtɪkɪt/",
+      "cefr": "A1",
+      "frequencyRank": 2205,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a printed piece of paper or a code that shows you have paid to travel or enter",
+          "translations": { "zh": "票" },
+          "examples": [
+            { "text": "Two tickets to Chiang Mai, please.", "translations": { "zh": "请给我两张去清迈的票。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "arrive",
+      "phonetic": "/əˈraɪv/",
+      "cefr": "A1",
+      "frequencyRank": 1129,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to reach a place at the end of a journey",
+          "translations": { "zh": "到达" },
+          "examples": [
+            { "text": "We arrived at the airport an hour early.", "translations": { "zh": "我们提前一小时到了机场。" } }
+          ],
+          "antonyms": ["leave", "depart"],
+          "usageNote": "'Arrive in' a city or country; 'arrive at' a building or a point. Never 'arrive to'."
+        }
+      ]
+    },
+    {
+      "headword": "leave",
+      "phonetic": "/liːv/",
+      "cefr": "A1",
+      "frequencyRank": 322,
+      "grammarNotes": { "irregularForms": "leave · left · left" },
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to go away from a place or person",
+          "translations": { "zh": "离开" },
+          "examples": [
+            { "text": "The train leaves at six.", "translations": { "zh": "火车六点出发。" } }
+          ],
+          "antonyms": ["arrive"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "definition": "to let something stay where it is, often by mistake",
+          "translations": { "zh": "留下；忘带" },
+          "examples": [
+            { "text": "I left my keys at the office.", "translations": { "zh": "我把钥匙忘在办公室了。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "remember",
+      "phonetic": "/rɪˈmembə/",
+      "cefr": "A1",
+      "frequencyRank": 526,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to keep something in your mind, or to bring it back into your mind",
+          "translations": { "zh": "记得；想起" },
+          "examples": [
+            { "text": "I can't remember her name.", "translations": { "zh": "我记不起她的名字。" } }
+          ],
+          "antonyms": ["forget"],
+          "usageNote": "'Remember to do' is about a future task; 'remember doing' is about a past event."
+        }
+      ]
+    },
+    {
+      "headword": "forget",
+      "phonetic": "/fəˈɡet/",
+      "cefr": "A1",
+      "frequencyRank": 1044,
+      "grammarNotes": { "irregularForms": "forget · forgot · forgotten" },
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to be unable to remember something",
+          "translations": { "zh": "忘记" },
+          "examples": [
+            { "text": "Don't forget your umbrella.", "translations": { "zh": "别忘了你的雨伞。" } }
+          ],
+          "antonyms": ["remember"]
+        }
+      ]
+    },
+    {
+      "headword": "understand",
+      "phonetic": "/ˌʌndəˈstænd/",
+      "cefr": "A1",
+      "frequencyRank": 495,
+      "grammarNotes": { "irregularForms": "understand · understood · understood" },
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to know what something means or why it happens",
+          "translations": { "zh": "理解；明白" },
+          "examples": [
+            { "text": "I don't understand this question.", "translations": { "zh": "我不明白这个问题。" } }
+          ],
+          "synonyms": ["grasp", "comprehend"]
+        }
+      ]
+    },
+    {
+      "headword": "explain",
+      "phonetic": "/ɪkˈspleɪn/",
+      "cefr": "A2",
+      "frequencyRank": 878,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make something clear by describing it",
+          "translations": { "zh": "解释；说明" },
+          "examples": [
+            { "text": "Can you explain the rules to me?", "translations": { "zh": "你能给我解释一下规则吗？" } }
+          ],
+          "usageNote": "'Explain something to someone'. Never 'explain me something'."
+        }
+      ]
+    },
+    {
+      "headword": "quickly",
+      "phonetic": "/ˈkwɪkli/",
+      "cefr": "A1",
+      "frequencyRank": 1268,
+      "senses": [
+        {
+          "partOfSpeech": "adverb",
+          "definition": "at a fast speed; in a short time",
+          "translations": { "zh": "快速地" },
+          "examples": [
+            { "text": "She learns new words very quickly.", "translations": { "zh": "她学新词非常快。" } }
+          ],
+          "synonyms": ["rapidly", "fast"],
+          "antonyms": ["slowly"]
+        }
+      ]
+    },
+    {
+      "headword": "slowly",
+      "phonetic": "/ˈsləʊli/",
+      "cefr": "A1",
+      "frequencyRank": 1874,
+      "senses": [
+        {
+          "partOfSpeech": "adverb",
+          "definition": "at a low speed; taking a long time",
+          "translations": { "zh": "缓慢地" },
+          "examples": [
+            { "text": "Could you speak more slowly, please?", "translations": { "zh": "请您说慢一点好吗？" } }
+          ],
+          "antonyms": ["quickly"]
+        }
+      ]
+    },
+    {
+      "headword": "difficult",
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "cefr": "A1",
+      "frequencyRank": 725,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "not easy; needing effort or skill",
+          "translations": { "zh": "困难的" },
+          "examples": [
+            { "text": "Thai tones are difficult for beginners.", "translations": { "zh": "泰语声调对初学者来说很难。" } }
+          ],
+          "synonyms": ["hard", "tough"],
+          "antonyms": ["easy", "simple"]
+        }
+      ]
+    },
+    {
+      "headword": "easy",
+      "phonetic": "/ˈiːzi/",
+      "cefr": "A1",
+      "frequencyRank": 703,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "not difficult; needing little effort",
+          "translations": { "zh": "容易的" },
+          "examples": [
+            { "text": "The test was easier than I expected.", "translations": { "zh": "考试比我想的容易。" } }
+          ],
+          "antonyms": ["difficult", "hard"]
+        }
+      ]
+    },
+    {
+      "headword": "important",
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "cefr": "A1",
+      "frequencyRank": 349,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "having a big effect, or mattering a lot",
+          "translations": { "zh": "重要的" },
+          "examples": [
+            { "text": "It's important to review every day.", "translations": { "zh": "每天复习很重要。" } }
+          ],
+          "synonyms": ["significant", "crucial"],
+          "antonyms": ["unimportant", "trivial"]
+        }
+      ]
+    },
+    {
+      "headword": "beautiful",
+      "phonetic": "/ˈbjuːtɪfl/",
+      "cefr": "A1",
+      "frequencyRank": 795,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "very pleasant to look at or listen to",
+          "translations": { "zh": "美丽的" },
+          "examples": [
+            { "text": "What a beautiful view!", "translations": { "zh": "多美的景色！" } }
+          ],
+          "synonyms": ["lovely", "gorgeous"],
+          "antonyms": ["ugly"]
+        }
+      ]
+    },
+    {
+      "headword": "weather",
+      "phonetic": "/ˈweðə/",
+      "cefr": "A1",
+      "frequencyRank": 1487,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "the conditions outside — rain, sun, wind, temperature",
+          "translations": { "zh": "天气" },
+          "examples": [
+            { "text": "The weather has been terrible all week.", "translations": { "zh": "这一周天气都很糟。" } }
+          ],
+          "usageNote": "Uncountable: 'the weather is', never 'a weather'."
+        }
+      ]
+    },
+    {
+      "headword": "holiday",
+      "phonetic": "/ˈhɒlədeɪ/",
+      "cefr": "A1",
+      "frequencyRank": 1795,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a period of time away from work or school, often spent travelling",
+          "translations": { "zh": "假期；度假" },
+          "examples": [
+            { "text": "We're going on holiday in August.", "translations": { "zh": "我们八月要去度假。" } }
+          ],
+          "usageNote": "British English 'on holiday'; American English 'on vacation'."
+        }
+      ]
+    },
+    {
+      "headword": "doctor",
+      "phonetic": "/ˈdɒktə/",
+      "cefr": "A1",
+      "frequencyRank": 830,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a person trained to treat people who are ill",
+          "translations": { "zh": "医生" },
+          "examples": [
+            { "text": "You should see a doctor about that cough.", "translations": { "zh": "你的咳嗽应该去看医生。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "medicine",
+      "phonetic": "/ˈmedsn/",
+      "cefr": "A2",
+      "frequencyRank": 1918,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a substance you take to treat an illness",
+          "translations": { "zh": "药" },
+          "examples": [
+            { "text": "Take this medicine twice a day.", "translations": { "zh": "这药一天服两次。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "money",
+      "phonetic": "/ˈmʌni/",
+      "cefr": "A1",
+      "frequencyRank": 258,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "coins and notes used to buy things",
+          "translations": { "zh": "钱" },
+          "examples": [
+            { "text": "I don't have enough money for the ticket.", "translations": { "zh": "我的钱不够买票。" } }
+          ],
+          "usageNote": "Uncountable. Say 'a lot of money' or 'much money', never 'many moneys'."
+        }
+      ]
+    },
+    {
+      "headword": "work",
+      "phonetic": "/wɜːk/",
+      "cefr": "A1",
+      "frequencyRank": 145,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to do a job, especially to earn money",
+          "translations": { "zh": "工作" },
+          "examples": [
+            { "text": "She works at a hospital.", "translations": { "zh": "她在一家医院工作。" } }
+          ]
+        },
+        {
+          "partOfSpeech": "verb",
+          "definition": "to function correctly",
+          "translations": { "zh": "运转；起作用" },
+          "examples": [
+            { "text": "The lift isn't working.", "translations": { "zh": "电梯坏了。" } }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "busy",
+      "phonetic": "/ˈbɪzi/",
+      "cefr": "A1",
+      "frequencyRank": 1487,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "having a lot to do",
+          "translations": { "zh": "忙的" },
+          "examples": [
+            { "text": "I'm busy this afternoon.", "translations": { "zh": "我今天下午很忙。" } }
+          ],
+          "antonyms": ["free", "idle"]
+        }
+      ]
+    },
+    {
+      "headword": "favourite",
+      "phonetic": "/ˈfeɪvərɪt/",
+      "cefr": "A1",
+      "frequencyRank": 2274,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "liked more than all others",
+          "translations": { "zh": "最喜欢的" },
+          "examples": [
+            { "text": "This is my favourite song.", "translations": { "zh": "这是我最喜欢的歌。" } }
+          ],
+          "usageNote": "American English spells it 'favorite'. 'Favourite' is already a superlative — never 'most favourite'."
+        }
+      ]
+    },
+    {
+      "headword": "borrow",
+      "phonetic": "/ˈbɒrəʊ/",
+      "cefr": "A2",
+      "frequencyRank": 2949,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to take something from someone, intending to give it back",
+          "translations": { "zh": "借（入）" },
+          "examples": [
+            { "text": "Can I borrow your pen?", "translations": { "zh": "我能借用你的笔吗？" } }
+          ],
+          "antonyms": ["lend"],
+          "usageNote": "You borrow FROM someone; they lend TO you. Mixing these up is one of the most common learner errors."
+        }
+      ]
+    },
+    {
+      "headword": "lend",
+      "phonetic": "/lend/",
+      "cefr": "A2",
+      "frequencyRank": 3068,
+      "grammarNotes": { "irregularForms": "lend · lent · lent" },
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to give something to someone for a short time, expecting it back",
+          "translations": { "zh": "借（出）" },
+          "examples": [
+            { "text": "She lent me her bicycle.", "translations": { "zh": "她把自行车借给了我。" } }
+          ],
+          "antonyms": ["borrow"]
+        }
+      ]
+    },
+    {
+      "headword": "practise",
+      "phonetic": "/ˈpræktɪs/",
+      "cefr": "A2",
+      "frequencyRank": 1611,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to do something repeatedly in order to get better at it",
+          "translations": { "zh": "练习" },
+          "examples": [
+            { "text": "He practises the piano every evening.", "translations": { "zh": "他每天晚上练钢琴。" } }
+          ],
+          "usageNote": "British English: 'practise' is the verb, 'practice' the noun. American English uses 'practice' for both."
+        }
+      ]
+    },
+    {
+      "headword": "enough",
+      "phonetic": "/ɪˈnʌf/",
+      "cefr": "A1",
+      "frequencyRank": 434,
+      "senses": [
+        {
+          "partOfSpeech": "determiner",
+          "definition": "as much or as many as needed",
+          "translations": { "zh": "足够的" },
+          "examples": [
+            { "text": "There isn't enough time.", "translations": { "zh": "时间不够。" } },
+            { "text": "The water is warm enough to swim in.", "translations": { "zh": "水暖得可以游泳了。" } }
+          ],
+          "usageNote": "Before a noun: 'enough time'. After an adjective: 'warm enough'. The order is not optional."
+        }
+      ]
+    }
+  ]
+}
