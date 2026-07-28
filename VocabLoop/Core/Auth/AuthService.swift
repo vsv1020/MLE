@@ -83,7 +83,7 @@ public final class AuthService {
                 return
             }
         } catch let error as AuthError {
-            logger.info("Session restore failed, continuing as guest: \(error.localizedDescription ?? "unknown", privacy: .public)")
+            logger.info("Session restore failed, continuing as guest: \(error.localizedDescription, privacy: .public)")
             try? keychain.delete()
         } catch {
             logger.info("Session restore failed, continuing as guest.")
@@ -302,7 +302,7 @@ public final class AuthService {
             lastError = error.isSilent ? nil : error
             return false
         } catch let error as PasswordHasher.HashError {
-            lastError = .storage(error.localizedDescription ?? "Password hashing failed.")
+            lastError = .storage(error.localizedDescription)
             return false
         } catch {
             lastError = .storage(error.localizedDescription)

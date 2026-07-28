@@ -44,11 +44,13 @@ public final class LocalAuthBackend: AuthBackend {
         // Adopt the guest account rather than creating a new one, so everything the user
         // studied before signing up simply becomes theirs. No migration, no data copy,
         // and nothing to get wrong.
-        let account = try adoptableGuest() ?? {
-            let fresh = UserAccount(displayName: displayName, provider: .local, now: now)
-            context.insert(fresh)
-            return fresh
-        }()
+        let account: UserAccount
+        if let guest = try adoptableGuest() {
+            account = guest
+        } else {
+            account = UserAccount(displayName: displayName, provider: .local, now: now)
+            context.insert(account)
+        }
 
         account.email = normalisedEmail
         account.displayName = displayName.isEmpty ? String(normalisedEmail.prefix(while: { $0 != "@" })) : displayName
@@ -293,11 +295,13 @@ public final class LocalAuthBackend: AuthBackend {
         account.isActive = false
         account.touch()
 
-        let guest = try adoptableGuest() ?? {
-            let fresh = UserAccount.makeGuest()
-            context.insert(fresh)
-            return fresh
-        }()
+        let guest: UserAccount
+        if let existing = try adoptableGuest() {
+            guest = existing
+        } else {
+            guest = UserAccount.makeGuest()
+            context.insert(guest)
+        }
         guest.isActive = true
         guest.touch()
         try deactivateOthers(except: guest)

@@ -92,24 +92,6 @@ struct AuthLandingView: View {
     }
 }
 
-extension View {
-    /// `sheet(item:)` over an `Identifiable` optional, spelled the way `sheet(item:)`
-    /// should have been.
-    func sheet<Item: Identifiable, Content: View>(
-        item: Binding<Item?>,
-        @ViewBuilder content: @escaping (Item) -> Content
-    ) -> some View {
-        sheet(isPresented: Binding(
-            get: { item.wrappedValue != nil },
-            set: { if !$0 { item.wrappedValue = nil } }
-        )) {
-            if let value = item.wrappedValue {
-                content(value)
-            }
-        }
-    }
-}
-
 #Preview {
     AuthLandingView(onFinished: {})
 }
