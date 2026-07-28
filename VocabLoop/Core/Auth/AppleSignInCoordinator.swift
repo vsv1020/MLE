@@ -52,14 +52,16 @@ public final class AppleSignInCoordinator: NSObject {
     }
 }
 
-extension AppleSignInCoordinator: ASAuthorizationControllerDelegate {
-    public func authorizationController(
-        controller: ASAuthorizationController,
-        didCompleteWithAuthorization authorization: ASAuthorization
-    ) {
+extension AppleSignInCoordinator {
+    /// Map an `ASAuthorization` to ``AppleCredential``.
+    ///
+    /// Static, and the only place this mapping exists. `SignInWithAppleButton` in SwiftUI
+    /// delivers its own `ASAuthorization` rather than going through the controller above,
+    /// and both paths must produce an identical credential — two copies of this would
+    /// eventually disagree about, say, whether an empty name becomes `nil`.
+    public static func credential(from authorization: ASAuthorization) throws -> AppleCredential {
         guard let credential = authorization.credential as? ASAuthorizationAppleIDCredential else {
-            finish(with: .failure(AuthError.appleSignInFailed("Unexpected credential type.")))
-            return
+            throw AuthError.appleSignInFailed("Unexpected credential type.")
         }
 
         // Name and email arrive on the *first* authorisation only. Apple will not send
@@ -68,35 +70,46 @@ extension AppleSignInCoordinator: ASAuthorizationControllerDelegate {
             .compactMap { $0 }
             .joined(separator: " ")
 
-        finish(with: .success(
-            AppleCredential(
-                userIdentifier: credential.user,
-                email: credential.email,
-                fullName: name.isEmpty ? nil : name,
-                identityToken: credential.identityToken
-            )
-        ))
+        return AppleCredential(
+            userIdentifier: credential.user,
+            email: credential.email,
+            fullName: name.isEmpty ? nil : name,
+            identityToken: credential.identityToken
+        )
+    }
+
+    /// Translate an authorisation failure into an ``AuthError``.
+    public static func mapError(_ error: Error) -> AuthError {
+        guard let authError = error as? ASAuthorizationError else {
+            return .appleSignInFailed(error.localizedDescription)
+        }
+        switch authError.code {
+        case .canceled:
+            return .appleSignInCancelled
+        case .unknown, .invalidResponse, .notHandled, .failed:
+            // `unknown` is also what you get when the Sign in with Apple *capability* is
+            // missing from the build, which is by far the most likely cause during
+            // development — so the message points there rather than saying "unknown".
+            return .appleSignInUnavailable
+        default:
+            return .appleSignInFailed(authError.localizedDescription)
+        }
+    }
+}
+
+extension AppleSignInCoordinator: ASAuthorizationControllerDelegate {
+    public func authorizationController(
+        controller: ASAuthorizationController,
+        didCompleteWithAuthorization authorization: ASAuthorization
+    ) {
+        finish(with: Result { try Self.credential(from: authorization) })
     }
 
     public func authorizationController(
         controller: ASAuthorizationController,
         didCompleteWithError error: Error
     ) {
-        guard let authError = error as? ASAuthorizationError else {
-            finish(with: .failure(AuthError.appleSignInFailed(error.localizedDescription)))
-            return
-        }
-        switch authError.code {
-        case .canceled:
-            finish(with: .failure(AuthError.appleSignInCancelled))
-        case .unknown, .invalidResponse, .notHandled, .failed:
-            // `unknown` is also what you get when the Sign in with Apple *capability* is
-            // missing from the build, which is by far the most likely cause during
-            // development — so the message points there rather than saying "unknown".
-            finish(with: .failure(AuthError.appleSignInUnavailable))
-        default:
-            finish(with: .failure(AuthError.appleSignInFailed(authError.localizedDescription)))
-        }
+        finish(with: .failure(Self.mapError(error)))
     }
 }
 

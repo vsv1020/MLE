@@ -138,6 +138,10 @@ public final class AuthService {
         }
     }
 
+    /// Present the Apple sheet ourselves, then sign in.
+    ///
+    /// Used where there is no `SignInWithAppleButton` to hang the flow off — currently the
+    /// "link an Apple account" row on the Account screen.
     public func signInWithApple() async -> Bool {
         await perform {
             let credential = try await self.appleCoordinator.requestCredential()
@@ -145,6 +149,25 @@ public final class AuthService {
             try self.keychain.save(session)
             self.current = session
         }
+    }
+
+    /// Sign in with a credential the SwiftUI `SignInWithAppleButton` already obtained.
+    ///
+    /// Apple's HIG requires their button, and that button owns its own presentation, so this
+    /// entry point exists rather than faking a tap on it. Both paths converge on the same
+    /// ``AppleCredential`` mapping.
+    public func signIn(appleCredential: AppleCredential) async -> Bool {
+        await perform {
+            let session = try await self.backend.signIn(apple: appleCredential)
+            try self.keychain.save(session)
+            self.current = session
+        }
+    }
+
+    /// Record an Apple authorisation failure so the UI can react without duplicating the
+    /// error mapping.
+    public func reportAppleSignInFailure(_ error: AuthError) {
+        lastError = error.isSilent ? nil : error
     }
 
     /// Continue without an account. Presented with equal weight to signing in, because
