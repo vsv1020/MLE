@@ -243,12 +243,18 @@ final class FSRSTests: XCTestCase {
     }
 
     /// Adversarial inputs. A corrupt persisted card must degrade, never crash or produce NaN.
+    ///
+    /// The out-of-range `stepIndex` cases matter in practice as well as in theory: shortening the
+    /// learning-step list in Settings leaves existing cards pointing past the end of it.
     func testPathologicalStateDoesNotProduceInvalidSchedule() {
         let broken = [
             SchedulingState(phase: .review, stability: 0, difficulty: 0, intervalDays: 0, due: now, lastReviewedAt: now),
             SchedulingState(phase: .review, stability: .infinity, difficulty: 5, intervalDays: 1, due: now, lastReviewedAt: now),
             SchedulingState(phase: .review, stability: -5, difficulty: 20, intervalDays: -1, due: now, lastReviewedAt: now),
             SchedulingState(phase: .review, stability: .nan, difficulty: .nan, intervalDays: .nan, due: now, lastReviewedAt: now),
+            SchedulingState(phase: .learning, stability: 3, difficulty: 5, intervalDays: 0.01, due: now, lastReviewedAt: now, stepIndex: -4),
+            SchedulingState(phase: .learning, stability: 3, difficulty: 5, intervalDays: 0.01, due: now, lastReviewedAt: now, stepIndex: 99),
+            SchedulingState(phase: .relearning, stability: 3, difficulty: 5, intervalDays: 0.01, due: now, lastReviewedAt: now, stepIndex: 99),
         ]
 
         for state in broken {

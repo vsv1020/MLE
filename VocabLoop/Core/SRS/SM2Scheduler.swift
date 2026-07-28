@@ -67,6 +67,8 @@ public struct SM2Scheduler: Scheduler {
         let relearning = previousPhase == .relearning
         let steps = relearning ? config.relearningStepsMinutes : config.learningStepsMinutes
         let phase: LearningPhase = relearning ? .relearning : .learning
+        // Clamped before use — see the matching note in `FSRSScheduler`.
+        let currentIndex = previousPhase == .new ? 0 : min(max(state.stepIndex, 0), steps.count - 1)
 
         switch rating {
         case .again:
@@ -75,11 +77,10 @@ public struct SM2Scheduler: Scheduler {
             schedule(&state, minutes: steps[0], now: now)
         case .hard:
             state.phase = phase
-            let index = previousPhase == .new ? 0 : min(state.stepIndex, steps.count - 1)
-            state.stepIndex = index
-            schedule(&state, minutes: steps[index], now: now)
+            state.stepIndex = currentIndex
+            schedule(&state, minutes: steps[currentIndex], now: now)
         case .good:
-            let nextIndex = previousPhase == .new ? 1 : state.stepIndex + 1
+            let nextIndex = previousPhase == .new ? 1 : currentIndex + 1
             if nextIndex < steps.count {
                 state.phase = phase
                 state.stepIndex = nextIndex

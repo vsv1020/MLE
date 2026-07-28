@@ -228,16 +228,20 @@ public struct FSRSScheduler: Scheduler {
         let steps = phase == .relearning ? config.relearningStepsMinutes : config.learningStepsMinutes
         state.phase = phase
 
+        // Clamped before use. The step lists are indexed directly, so a persisted index that is
+        // negative or beyond the list — a corrupt store, or a settings change that shortened the
+        // list — would be a crash rather than a wrong interval.
+        let currentIndex = min(max(state.stepIndex, 0), steps.count - 1)
+
         switch rating {
         case .again:
             state.stepIndex = 0
             scheduleIntraday(&state, minutes: steps[0], now: now)
         case .hard:
-            let index = min(state.stepIndex, steps.count - 1)
-            state.stepIndex = index
-            scheduleIntraday(&state, minutes: steps[index], now: now)
+            state.stepIndex = currentIndex
+            scheduleIntraday(&state, minutes: steps[currentIndex], now: now)
         case .good:
-            let nextIndex = state.stepIndex + 1
+            let nextIndex = currentIndex + 1
             if nextIndex < steps.count {
                 state.stepIndex = nextIndex
                 scheduleIntraday(&state, minutes: steps[nextIndex], now: now)

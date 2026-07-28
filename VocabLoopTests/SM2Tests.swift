@@ -94,6 +94,34 @@ final class SM2Tests: XCTestCase {
         XCTAssertEqual(SchedulerFactory.make(.sm2, config: .default).kind, .sm2)
     }
 
+    /// Shortening the learning-step list in Settings leaves existing cards pointing past the end
+    /// of it, so an out-of-range `stepIndex` must clamp rather than trap.
+    func testOutOfRangeStepIndexIsClamped() {
+        let states = [
+            SchedulingState(phase: .learning, easeFactor: 2.5, intervalDays: 0.01, due: now, lastReviewedAt: now, stepIndex: 99),
+            SchedulingState(phase: .learning, easeFactor: 2.5, intervalDays: 0.01, due: now, lastReviewedAt: now, stepIndex: -3),
+            SchedulingState(phase: .relearning, easeFactor: 2.5, intervalDays: 0.01, due: now, lastReviewedAt: now, stepIndex: 99),
+        ]
+        for state in states {
+            for rating in Rating.allCases {
+                let outcome = scheduler.apply(rating: rating, to: state, at: now, fuzzSeed: 1)
+                XCTAssertGreaterThanOrEqual(outcome.state.stepIndex, 0)
+                XCTAssertTrue(outcome.intervalDays.isFinite)
+                XCTAssertGreaterThan(outcome.state.due, Date.distantPast)
+            }
+        }
+    }
+
+    func testZeroEaseFactorIsRepaired() {
+        let state = SchedulingState(
+            phase: .review, easeFactor: 0, intervalDays: 10,
+            due: now, lastReviewedAt: now.addingTimeInterval(-10 * 86_400), reps: 3
+        )
+        let outcome = scheduler.apply(rating: .good, to: state, at: now, fuzzSeed: 1)
+        XCTAssertGreaterThanOrEqual(outcome.state.easeFactor, SM2Scheduler.minimumEaseFactor)
+        XCTAssertGreaterThanOrEqual(outcome.state.intervalDays, 1)
+    }
+
     /// The preview drives the interval labels on the rating buttons, so it must cover all four.
     func testPreviewCoversEveryRating() {
         for kind in SchedulerKind.allCases {
