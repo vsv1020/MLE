@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  Not wired into the target by default, so the project builds and tests with
+	  a free Apple ID and no provisioning profile.
+
+	  To enable Sign in with Apple:
+	    Xcode ▸ VocabLoop target ▸ Signing & Capabilities ▸ + Capability
+	         ▸ Sign in with Apple
+	    (or set CODE_SIGN_ENTITLEMENTS = Config/VocabLoop.entitlements)
+
+	  Until then, AppleSignInCoordinator surfaces a clear "capability not enabled"
+	  error and every other auth path — email/password and guest — works normally.
+	-->
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+</dict>
+</plist>
