@@ -23,6 +23,12 @@ xcodebuild test -scheme VocabLoop \
 > `Config/VocabLoop.entitlements`). Until then the Apple button surfaces a clear
 > "capability not enabled" message and every other auth path works normally.
 
+**Want to see the screens without building?** Open
+[`docs/screens.html`](docs/screens.html) in a browser. All nine screens at true iPhone
+size, following your system light/dark theme, with a live flashcard whose rating
+intervals are real FSRS-5 output. They are mockups transcribed from the design system,
+not screenshots — the app has not been compiled.
+
 ---
 
 ## What it does
@@ -64,7 +70,7 @@ deletion.
 | `VocabLoop/DesignSystem` | Colour and type tokens, shared components |
 | `VocabLoop/Features` | One folder per screen: SwiftUI views plus `@Observable` view models |
 | `VocabLoop/Resources/Seeds` | Content packs as JSON — 146 curated entries across five packs |
-| `docs/` | [Research and decisions](docs/RESEARCH.md) · [UI specification](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) |
+| `docs/` | [Screen preview](docs/screens.html) · [Research and decisions](docs/RESEARCH.md) · [UI specification](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) |
 
 Dependencies point **downward only**: `Core/SRS` knows nothing about SwiftData or
 SwiftUI, which is what makes it testable in isolation and replaceable.

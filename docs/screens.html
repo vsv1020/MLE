@@ -1,0 +1,1545 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VocabLoop — screens</title>
+
+<style>
+/* ============================================================
+   TOKENS
+   Page chrome is a cool, instrument-grey ground so the phones
+   read as objects on display. The accent is the product's own
+   indigo rather than an invented hue.
+   App tokens (--a-*) are copied verbatim from Palette.swift so
+   the mockups shift light/dark exactly as the real app does.
+   ============================================================ */
+:root {
+  color-scheme: light dark;
+
+  --ground:   #EFF1F4;
+  --panel:    #FFFFFF;
+  --panel-2:  #F7F8FA;
+  --ink:      #171A21;
+  --ink-2:    #5B6270;
+  --ink-3:    #8E96A5;
+  --rule:     #D6DAE1;
+  --rule-2:   #E7EAEF;
+  --accent:   #4F46E5;
+  --accent-2: #0D9488;
+  --shadow:   0 1px 2px rgba(20,24,34,.05), 0 12px 32px -12px rgba(20,24,34,.18);
+
+  /* app palette — light */
+  --a-brand:      #4F46E5;
+  --a-brand2:     #0D9488;
+  --a-onbrand:    #FFFFFF;
+  --a-canvas:     #F8FAFC;
+  --a-surface:    #FFFFFF;
+  --a-raised:     #F1F5F9;
+  --a-sep:        #E2E8F0;
+  --a-text:       #0F172A;
+  --a-text2:      #475569;
+  --a-text3:      #94A3B8;
+  --a-again:      #DC2626;
+  --a-hard:       #D97706;
+  --a-good:       #059669;
+  --a-easy:       #2563EB;
+  --a-mat-new:    #94A3B8;
+  --a-mat-learn:  #D97706;
+  --a-mat-young:  #0D9488;
+  --a-mat-mature: #4F46E5;
+  --a-shadow: 0 4px 16px rgba(15,23,42,.08);
+
+  --step--1: .8125rem;
+  --step-0:  1rem;
+  --step-1:  1.1875rem;
+  --step-2:  1.5rem;
+  --step-3:  2.125rem;
+  --step-4:  3.25rem;
+
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --rounded: ui-rounded, "SF Pro Rounded", -apple-system, system-ui, sans-serif;
+  --serif: ui-serif, Georgia, "Times New Roman", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground:   #0C0E13;
+    --panel:    #14171E;
+    --panel-2:  #191D26;
+    --ink:      #E9ECF2;
+    --ink-2:    #98A1B2;
+    --ink-3:    #6B7385;
+    --rule:     #232833;
+    --rule-2:   #1C212B;
+    --accent:   #818CF8;
+    --accent-2: #2DD4BF;
+    --shadow:   0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.7);
+
+    --a-brand:      #818CF8;
+    --a-brand2:     #2DD4BF;
+    --a-onbrand:    #0B1120;
+    --a-canvas:     #0B1120;
+    --a-surface:    #151C2E;
+    --a-raised:     #1E293B;
+    --a-sep:        #25324A;
+    --a-text:       #F8FAFC;
+    --a-text2:      #94A3B8;
+    --a-text3:      #64748B;
+    --a-again:      #F87171;
+    --a-hard:       #FBBF24;
+    --a-good:       #34D399;
+    --a-easy:       #60A5FA;
+    --a-mat-new:    #64748B;
+    --a-mat-learn:  #FBBF24;
+    --a-mat-young:  #2DD4BF;
+    --a-mat-mature: #818CF8;
+    --a-shadow: 0 4px 16px rgba(0,0,0,.45);
+  }
+}
+
+/* the viewer's toggle must beat the media query in both directions */
+:root[data-theme="dark"] {
+  --ground:#0C0E13; --panel:#14171E; --panel-2:#191D26; --ink:#E9ECF2;
+  --ink-2:#98A1B2; --ink-3:#6B7385; --rule:#232833; --rule-2:#1C212B;
+  --accent:#818CF8; --accent-2:#2DD4BF;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.7);
+  --a-brand:#818CF8; --a-brand2:#2DD4BF; --a-onbrand:#0B1120; --a-canvas:#0B1120;
+  --a-surface:#151C2E; --a-raised:#1E293B; --a-sep:#25324A; --a-text:#F8FAFC;
+  --a-text2:#94A3B8; --a-text3:#64748B; --a-again:#F87171; --a-hard:#FBBF24;
+  --a-good:#34D399; --a-easy:#60A5FA; --a-mat-new:#64748B; --a-mat-learn:#FBBF24;
+  --a-mat-young:#2DD4BF; --a-mat-mature:#818CF8; --a-shadow:0 4px 16px rgba(0,0,0,.45);
+}
+:root[data-theme="light"] {
+  --ground:#EFF1F4; --panel:#FFFFFF; --panel-2:#F7F8FA; --ink:#171A21;
+  --ink-2:#5B6270; --ink-3:#8E96A5; --rule:#D6DAE1; --rule-2:#E7EAEF;
+  --accent:#4F46E5; --accent-2:#0D9488;
+  --shadow:0 1px 2px rgba(20,24,34,.05), 0 12px 32px -12px rgba(20,24,34,.18);
+  --a-brand:#4F46E5; --a-brand2:#0D9488; --a-onbrand:#FFFFFF; --a-canvas:#F8FAFC;
+  --a-surface:#FFFFFF; --a-raised:#F1F5F9; --a-sep:#E2E8F0; --a-text:#0F172A;
+  --a-text2:#475569; --a-text3:#94A3B8; --a-again:#DC2626; --a-hard:#D97706;
+  --a-good:#059669; --a-easy:#2563EB; --a-mat-new:#94A3B8; --a-mat-learn:#D97706;
+  --a-mat-young:#0D9488; --a-mat-mature:#4F46E5; --a-shadow:0 4px 16px rgba(15,23,42,.08);
+}
+
+/* ============================================================ PAGE */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: var(--step-0);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); }
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: .6875rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0;
+}
+
+/* --- masthead --- */
+.masthead { padding: clamp(56px, 9vw, 104px) 0 clamp(32px, 5vw, 56px); }
+.masthead h1 {
+  font-size: var(--step-4);
+  line-height: 1.02;
+  letter-spacing: -.035em;
+  font-weight: 800;
+  margin: 14px 0 0;
+  text-wrap: balance;
+}
+.masthead .lede {
+  max-width: 60ch;
+  color: var(--ink-2);
+  font-size: var(--step-1);
+  margin: 20px 0 0;
+  text-wrap: pretty;
+}
+.meta {
+  display: flex; flex-wrap: wrap; gap: 8px 28px;
+  margin-top: 32px; padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono); font-size: .75rem; color: var(--ink-3);
+}
+.meta b { color: var(--ink-2); font-weight: 500; }
+
+.note {
+  margin-top: 28px; padding: 16px 18px;
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 4px; background: var(--panel);
+  font-size: var(--step--1); color: var(--ink-2); max-width: 68ch;
+}
+.note b { color: var(--ink); font-weight: 600; }
+
+/* --- section headers --- */
+.band { padding: clamp(48px, 7vw, 88px) 0 0; }
+.band-head { border-top: 1px solid var(--rule); padding-top: 22px; margin-bottom: 30px; }
+.band-head h2 {
+  font-size: var(--step-2); letter-spacing: -.02em; font-weight: 750;
+  margin: 10px 0 0;
+}
+.band-head p { color: var(--ink-2); max-width: 64ch; margin: 10px 0 0; font-size: var(--step--1); }
+
+/* --- plates --- */
+.plates {
+  display: grid; gap: clamp(28px, 4vw, 48px);
+  grid-template-columns: 1fr;
+  margin-top: 8px;
+}
+@media (min-width: 860px)  { .plates { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1240px) { .plates { grid-template-columns: repeat(3, 1fr); } }
+
+.plate { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.plate-cap { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.plate-cap .route {
+  font-family: var(--mono); font-size: .8125rem; font-weight: 600;
+  color: var(--accent); letter-spacing: -.01em;
+}
+.plate-cap .src {
+  font-family: var(--mono); font-size: .6875rem; color: var(--ink-3);
+  overflow-wrap: anywhere;
+}
+.plate-note { font-size: var(--step--1); color: var(--ink-2); margin: 0; max-width: 46ch; }
+
+/* --- device --- */
+.stage {
+  width: calc(390px * var(--s)); height: calc(844px * var(--s));
+  --s: 1;
+}
+.device {
+  width: 390px; height: 844px;
+  transform: scale(var(--s)); transform-origin: top left;
+  border-radius: 52px;
+  background: var(--a-canvas);
+  border: 1px solid var(--rule);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  position: relative;
+  font-family: var(--sans);
+  color: var(--a-text);
+  display: flex; flex-direction: column;
+}
+@media (max-width: 1239px) { .stage { --s: .84; } }
+@media (max-width: 859px)  { .stage { --s: 1; } }
+@media (max-width: 460px)  { .stage { --s: .78; } }
+@media (max-width: 380px)  { .stage { --s: .66; } }
+
+/* hero device stays full-size where there's room */
+.hero-stage { --s: 1; }
+@media (max-width: 460px) { .hero-stage { --s: .78; } }
+@media (max-width: 380px) { .hero-stage { --s: .66; } }
+
+/* --- iOS chrome --- */
+.island {
+  position: absolute; top: 11px; left: 50%; transform: translateX(-50%);
+  width: 122px; height: 34px; border-radius: 20px; background: #000; z-index: 30;
+}
+.statusbar {
+  height: 56px; flex: none; display: flex; align-items: flex-end;
+  justify-content: space-between; padding: 0 30px 6px;
+  font-size: 15px; font-weight: 600; letter-spacing: -.01em;
+  font-family: var(--sans); color: var(--a-text); z-index: 20;
+}
+.statusbar .sig { display: flex; align-items: center; gap: 6px; }
+.bars { display: flex; align-items: flex-end; gap: 2px; height: 11px; }
+.bars i { width: 3px; border-radius: 1px; background: currentColor; display: block; }
+.bars i:nth-child(1){height:4px}.bars i:nth-child(2){height:6px}
+.bars i:nth-child(3){height:8px}.bars i:nth-child(4){height:11px}
+.batt { width: 25px; height: 12px; border: 1.4px solid currentColor; border-radius: 3.5px; padding: 1.5px; opacity: .85; }
+.batt span { display: block; height: 100%; width: 72%; border-radius: 1.5px; background: currentColor; }
+.screen { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; position: relative; }
+.scroll { flex: 1; overflow: hidden; padding: 0 16px 12px; }
+
+/* --- iOS nav + tab bar --- */
+.navbar {
+  flex: none; display: flex; align-items: center; justify-content: space-between;
+  padding: 2px 16px 10px; font-size: 17px; font-weight: 600; letter-spacing: -.02em;
+}
+.navbar .glyph { color: var(--a-brand); font-size: 17px; font-weight: 500; }
+.navbar-lg { padding: 4px 16px 8px; }
+.navbar-lg h1 { font: 800 34px/1.1 var(--rounded); letter-spacing: -.03em; margin: 0; }
+
+.tabbar {
+  flex: none; height: 78px; padding-top: 9px;
+  border-top: .5px solid var(--a-sep);
+  background: color-mix(in srgb, var(--a-surface) 88%, transparent);
+  display: grid; grid-template-columns: repeat(5, 1fr);
+}
+.tabbar div {
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  font-size: 10px; font-weight: 500; color: var(--a-text3);
+}
+.tabbar div.on { color: var(--a-brand); }
+.tabbar svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.7; }
+.homebar {
+  position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
+  width: 140px; height: 5px; border-radius: 3px; background: var(--a-text);
+  opacity: .28; z-index: 25;
+}
+
+/* --- app primitives (mirrors DesignSystem/Components.swift) --- */
+.card {
+  background: var(--a-surface); border-radius: 20px; padding: 16px;
+  box-shadow: var(--a-shadow);
+}
+.card.raised { background: var(--a-raised); border-radius: 14px; box-shadow: none; }
+.chip {
+  display: inline-flex; align-items: center; gap: 3px;
+  font: 600 11px/1 var(--rounded); letter-spacing: .01em;
+  padding: 4px 7px; border-radius: 8px;
+  color: var(--a-text2); background: color-mix(in srgb, var(--a-text2) 14%, transparent);
+}
+.chip.brand { color: var(--a-brand2); background: color-mix(in srgb, var(--a-brand2) 14%, transparent); }
+.chip.indigo { color: var(--a-brand); background: color-mix(in srgb, var(--a-brand) 14%, transparent); }
+.chip.good  { color: var(--a-good); background: color-mix(in srgb, var(--a-good) 14%, transparent); }
+.chip.warn  { color: var(--a-hard); background: color-mix(in srgb, var(--a-hard) 14%, transparent); }
+.btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 0 16px; border-radius: 14px; border: 0;
+  font: 600 17px/1 var(--rounded); letter-spacing: -.01em;
+  background: var(--a-brand); color: var(--a-onbrand); width: 100%;
+  cursor: pointer; font-family: var(--rounded);
+}
+.btn.ghost { background: color-mix(in srgb, var(--a-brand) 12%, transparent); color: var(--a-brand); }
+.btn.plain { background: transparent; color: var(--a-text2); font-weight: 500; }
+.dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.sect-head { font: 600 17px/1.2 var(--sans); letter-spacing: -.02em; margin: 0; }
+.sect-sub  { font: 500 12px/1.3 var(--rounded); color: var(--a-text2); margin: 2px 0 0; }
+.tile {
+  background: var(--a-raised); border-radius: 14px; padding: 12px; flex: 1; min-width: 0;
+}
+.tile .v { font: 700 22px/1.1 var(--rounded); font-variant-numeric: tabular-nums; }
+.tile .l { font: 500 12px/1.25 var(--rounded); color: var(--a-text2); margin-top: 2px; }
+
+.ipa   { font: 400 15px/1.3 var(--mono); color: var(--a-text2); }
+.ex    { font: italic 400 15px/1.4 var(--serif); color: var(--a-text); }
+.exzh  { font: 400 12px/1.4 var(--sans); color: var(--a-text2); }
+.headword { font: 700 34px/1.1 var(--rounded); letter-spacing: -.02em; }
+.defn  { font: 400 16px/1.45 var(--sans); }
+.trans { font: 400 16px/1.45 var(--sans); color: var(--a-text2); }
+
+.rowlist { display: flex; flex-direction: column; }
+.row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 11px 0; border-bottom: .5px solid var(--a-sep);
+}
+.row:last-child { border-bottom: 0; }
+.row .hw { font: 600 16px/1.2 var(--sans); letter-spacing: -.01em; }
+.row .sub { font: 400 12px/1.3 var(--sans); color: var(--a-text2); margin-top: 2px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.searchfield {
+  display: flex; align-items: center; gap: 7px;
+  background: var(--a-raised); border-radius: 10px; padding: 8px 10px;
+  color: var(--a-text3); font-size: 17px;
+}
+.fchips { display: flex; gap: 8px; padding: 10px 0 4px; overflow: hidden; }
+.fchip {
+  font: 500 12px/1 var(--rounded); padding: 8px 12px; border-radius: 999px;
+  background: var(--a-raised); color: var(--a-text2); white-space: nowrap;
+}
+.fchip.on { background: var(--a-brand); color: var(--a-onbrand); }
+
+/* settings list */
+.slist { background: var(--a-surface); border-radius: 12px; overflow: hidden; }
+.srow {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 14px; border-bottom: .5px solid var(--a-sep); font-size: 16px;
+}
+.srow:last-child { border-bottom: 0; }
+.srow .val { color: var(--a-text2); font-size: 15px; }
+.sfoot { font: 400 12px/1.4 var(--sans); color: var(--a-text2); padding: 7px 4px 0; }
+.shead { font: 400 12px/1 var(--sans); color: var(--a-text2); text-transform: uppercase;
+  letter-spacing: .04em; padding: 18px 4px 6px; }
+.tick { width: 18px; height: 18px; flex: none; }
+
+/* ============================================================ HERO CARD */
+.hero {
+  display: grid; gap: clamp(28px, 4vw, 56px);
+  grid-template-columns: 1fr;
+  align-items: start;
+  padding-bottom: clamp(20px, 3vw, 40px);
+}
+@media (min-width: 1000px) { .hero { grid-template-columns: 390px 1fr; } }
+
+.hero-copy h2 {
+  font-size: var(--step-3); letter-spacing: -.03em; font-weight: 780;
+  margin: 12px 0 0; line-height: 1.08; text-wrap: balance;
+}
+.hero-copy p { color: var(--ink-2); max-width: 56ch; margin: 16px 0 0; }
+.readout {
+  margin-top: 26px; border: 1px solid var(--rule); border-radius: 6px;
+  background: var(--panel); overflow: hidden;
+}
+.readout table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: .75rem; }
+.readout th {
+  text-align: left; font-weight: 600; color: var(--ink-3); text-transform: uppercase;
+  letter-spacing: .1em; font-size: .625rem; padding: 10px 14px;
+  border-bottom: 1px solid var(--rule); background: var(--panel-2);
+}
+.readout td { padding: 9px 14px; border-bottom: 1px solid var(--rule-2);
+  font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.readout tr:last-child td { border-bottom: 0; }
+.readout td:first-child { color: var(--ink); font-weight: 600; }
+.readout .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 8px; vertical-align: baseline; }
+
+figure.curve { margin: 30px 0 0; }
+figure.curve canvas { width: 100%; height: 210px; display: block; }
+figure.curve figcaption {
+  font-family: var(--mono); font-size: .6875rem; color: var(--ink-3);
+  margin-top: 10px; line-height: 1.6;
+}
+
+/* --- flashcard internals --- */
+.study-top { display: flex; align-items: center; gap: 10px; padding: 2px 16px 10px; }
+.study-top .x { color: var(--a-text2); font-size: 17px; width: 28px; }
+.study-bar { flex: 1; height: 5px; border-radius: 3px; background: var(--a-raised); overflow: hidden; }
+.study-bar span { display: block; height: 100%; background: var(--a-brand); border-radius: 3px;
+  transition: width .25s ease-out; }
+.study-count { font: 600 11px/1 var(--mono); color: var(--a-text2); font-variant-numeric: tabular-nums; }
+
+.face { padding: 4px 16px 0; }
+.dirbadge { font: 600 11px/1 var(--rounded); color: var(--a-text3); letter-spacing: .01em;
+  display: flex; align-items: center; gap: 5px; margin-bottom: 10px; }
+.answer { margin-top: 16px; border-top: .5px solid var(--a-sep); padding-top: 16px;
+  display: flex; flex-direction: column; gap: 12px; }
+.answer[hidden] { display: none; }
+.reveal-anim { animation: reveal .3s cubic-bezier(.2,.7,.3,1) both; }
+@keyframes reveal { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+.ratings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.rate {
+  border: 0; border-radius: 14px; min-height: 56px; color: #fff; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  font-family: var(--rounded);
+}
+.rate b { font: 600 16px/1 var(--rounded); }
+.rate small { font: 600 11px/1 var(--mono); opacity: .88; font-variant-numeric: tabular-nums; }
+.rate.again { background: var(--a-again); }
+.rate.hard  { background: var(--a-hard); }
+.rate.good  { background: var(--a-good); }
+.rate.easy  { background: var(--a-easy); }
+.rate:focus-visible { outline: 3px solid var(--a-text); outline-offset: 2px; }
+
+.study-foot { flex: none; padding: 12px 16px 26px; background: var(--a-canvas); }
+.toast {
+  position: absolute; left: 16px; right: 16px; bottom: 96px;
+  background: var(--a-text); color: var(--a-canvas);
+  border-radius: 12px; padding: 11px 14px; font: 500 14px/1.3 var(--sans);
+  text-align: center; opacity: 0; transform: translateY(6px);
+  transition: opacity .2s, transform .2s; pointer-events: none; z-index: 40;
+}
+.toast.on { opacity: 1; transform: none; }
+
+/* ring */
+.ring { position: relative; width: 92px; height: 92px; flex: none; }
+.ring svg { transform: rotate(-90deg); }
+.ring .track { stroke: var(--a-raised); }
+.ring .fill  { stroke: var(--a-brand); stroke-linecap: round; }
+.ring .mid {
+  position: absolute; inset: 0; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+}
+.ring .mid b { font: 700 28px/1 var(--rounded); font-variant-numeric: tabular-nums; }
+.ring .mid s { text-decoration: none; font: 500 12px/1 var(--rounded); color: var(--a-text2); margin-top: 2px; }
+
+/* forecast + heatmap */
+.forecast { display: flex; align-items: flex-end; gap: 3px; height: 108px; }
+.forecast i { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; gap: 1px; }
+.forecast i u { display: block; border-radius: 1px; text-decoration: none; }
+.axis { display: flex; justify-content: space-between; font: 500 10px/1 var(--mono); color: var(--a-text3); margin-top: 6px; }
+.heat { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 11px); gap: 3px; overflow: hidden; }
+.heat i { width: 11px; height: 11px; border-radius: 2px; background: var(--a-raised); }
+.legend { display: flex; gap: 12px; margin-top: 10px; }
+.legend span { display: flex; align-items: center; gap: 5px; font: 600 11px/1 var(--rounded); color: var(--a-text2); }
+.legend u { width: 10px; height: 10px; border-radius: 2px; text-decoration: none; }
+
+/* slider */
+.slider { height: 4px; border-radius: 2px; background: var(--a-raised); position: relative; margin: 14px 2px; }
+.slider u { position: absolute; inset: 0 auto 0 0; border-radius: 2px; background: var(--a-brand); text-decoration: none; }
+.slider b {
+  position: absolute; top: 50%; width: 26px; height: 26px; border-radius: 50%;
+  background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.28); transform: translate(-50%, -50%);
+}
+
+/* auth landing */
+.landing { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 26px; padding: 0 20px 20px; }
+.applebtn {
+  display: flex; align-items: center; justify-content: center; gap: 7px;
+  height: 44px; border-radius: 14px; background: var(--a-text); color: var(--a-canvas);
+  font: 600 17px/1 var(--sans); letter-spacing: -.01em;
+}
+.codebox {
+  font: 600 22px/1.4 var(--mono); letter-spacing: .06em; text-align: center;
+  background: var(--a-raised); border-radius: 14px; padding: 16px;
+}
+
+/* footer */
+.foot {
+  margin-top: clamp(56px, 8vw, 96px); border-top: 1px solid var(--rule);
+  padding: 28px 0 72px; font-family: var(--mono); font-size: .75rem; color: var(--ink-3);
+  display: flex; flex-wrap: wrap; gap: 8px 28px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  .reveal-anim { animation: none; }
+}
+</style></head>
+<body>
+
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">iOS 17 · SwiftUI · SwiftData · FSRS-5</p>
+    <h1>VocabLoop</h1>
+    <p class="lede">
+      An offline-first vocabulary app whose scheduler is a published memory model rather than a
+      fixed interval ladder. Below are the screens, rendered at true iPhone size from the same
+      design tokens the app compiles against.
+    </p>
+    <div class="meta">
+      <span><b>84</b> Swift files</span>
+      <span><b>146</b> dictionary entries</span>
+      <span><b>5</b> content packs · en · fr · th</span>
+      <span><b>10</b> test suites</span>
+      <span>branch <b>claude/english-vocab-ios-app-2r5um5</b></span>
+    </div>
+    <p class="note">
+      <b>These are mockups, not screenshots.</b> There is no macOS or Xcode in this environment, so
+      the app has not been compiled or run. Every colour, type size and string here is transcribed
+      from <span style="font-family:var(--mono)">DesignSystem/</span> and the view files, and the
+      intervals on the rating buttons are real FSRS-5 output — but the first
+      <span style="font-family:var(--mono)">xcodebuild</span> will almost certainly surface
+      compile errors that still need fixing.
+    </p>
+  </header>
+
+  <!-- ══════════════════════════ HERO ══════════════════════════ -->
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="hero-stage stage">
+      <div class="device">
+        <div class="island"></div>
+        <div class="statusbar">
+          <span>9:41</span>
+          <span class="sig">
+            <span class="bars"><i></i><i></i><i></i><i></i></span>
+            <svg width="17" height="12" viewBox="0 0 17 12" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M1 4.2a11 11 0 0 1 15 0M3.6 7a7.3 7.3 0 0 1 9.8 0"/><circle cx="8.5" cy="9.9" r="1.1" fill="currentColor" stroke="none"/>
+            </svg>
+            <span class="batt"><span></span></span>
+          </span>
+        </div>
+
+        <div class="screen">
+          <div class="study-top">
+            <span class="x">✕</span>
+            <span class="study-bar"><span id="pbar" style="width:35%"></span></span>
+            <span class="study-count" id="pcount">7/20</span>
+            <span class="x" style="text-align:right">⋯</span>
+          </div>
+
+          <div class="scroll" style="padding-top:8px">
+            <div class="face">
+              <div class="dirbadge">
+                <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <circle cx="7" cy="7" r="4.2"/><path d="M10.2 10.2 14 14"/>
+                </svg>
+                See the word, recall its meaning
+              </div>
+              <div style="display:flex;align-items:flex-start;gap:8px">
+                <div style="flex:1;min-width:0">
+                  <div class="headword" id="hw">inevitable</div>
+                  <div class="ipa" id="ipa" style="margin-top:4px">/ɪnˈevɪtəbl/</div>
+                </div>
+                <span style="color:var(--a-brand);font-size:20px;padding-top:6px" aria-hidden="true">🔊</span>
+              </div>
+              <div style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap">
+                <span class="chip" id="pos">Adjective</span>
+                <span class="chip brand" id="cefr">B2</span>
+              </div>
+
+              <div class="answer" id="answer" hidden>
+                <div class="card raised" style="display:flex;flex-direction:column;gap:9px">
+                  <div style="display:flex;gap:6px"><span class="chip" id="posa">adj.</span></div>
+                  <div class="defn" id="defn">certain to happen and impossible to avoid</div>
+                  <div class="trans" id="trans">不可避免的</div>
+                  <div>
+                    <div class="ex" id="ex">Forgetting is inevitable — that is why reviews are spaced.</div>
+                    <div class="exzh" id="exzh" style="margin-top:3px">遗忘不可避免——这正是复习要间隔安排的原因。</div>
+                  </div>
+                  <div id="synwrap">
+                    <div style="font:600 11px/1 var(--rounded);color:var(--a-text3);margin-bottom:5px">Similar</div>
+                    <div style="display:flex;gap:5px;flex-wrap:wrap" id="syns">
+                      <span class="chip brand">unavoidable</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card raised" style="font:400 12px/1.45 var(--sans);color:var(--a-text2);background:color-mix(in srgb, var(--a-brand2) 10%, transparent)" id="usage">
+                  Stability 11.1 d · Difficulty 5.3 · you last saw this 11 days ago, when the model
+                  put your recall at 90%.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="study-foot">
+            <button class="btn" id="showbtn" type="button">Show answer</button>
+            <div class="ratings" id="ratings" hidden>
+              <button class="rate again" type="button" data-r="1"><b>Again</b><small id="i1">10m</small></button>
+              <button class="rate hard"  type="button" data-r="2"><b>Hard</b><small id="i2">16d</small></button>
+              <button class="rate good"  type="button" data-r="3"><b>Good</b><small id="i3">5w</small></button>
+              <button class="rate easy"  type="button" data-r="4"><b>Easy</b><small id="i4">3mo</small></button>
+            </div>
+          </div>
+
+          <div class="toast" id="toast"></div>
+        </div>
+        <div class="homebar"></div>
+      </div>
+    </div>
+
+    <div class="hero-copy">
+      <p class="eyebrow">Study session · Features/Study/StudySessionView.swift</p>
+      <h2 id="hero-h">The rating bar shows what each button will actually do.</h2>
+      <p>
+        Tap <b>Show answer</b>, then rate the card. The four intervals are not illustrative —
+        they are FSRS-5 output for this card's stored stability and difficulty, computed with the
+        published default weights. Showing the consequence of every choice is what makes a
+        scheduler feel trustworthy instead of arbitrary.
+      </p>
+      <p>
+        The prompt does not move when the answer appears, the reveal is the app's exact motion spec
+        (0.3&nbsp;s ease-out, opacity plus a 4&nbsp;pt rise), and it collapses to a cross-fade when
+        the viewer prefers reduced motion.
+      </p>
+
+      <div class="readout">
+        <table>
+          <caption class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">FSRS-5 output for the current card</caption>
+          <thead>
+            <tr><th>Rating</th><th>New stability</th><th>New difficulty</th><th>Interval</th></tr>
+          </thead>
+          <tbody id="readout-body"></tbody>
+        </table>
+      </div>
+
+      <figure class="curve">
+        <canvas id="curve" width="900" height="420" role="img"
+                aria-label="Power-law forgetting curve. Recall probability falls to 90 percent after 11 days at the card's current stability, and after 35 days once a Good rating raises stability."></canvas>
+        <figcaption>
+          R(t,S) = (1 + 19⁄81 · t⁄S)<sup>−0.5</sup> — the curve the scheduler inverts to place the
+          next review. Stability is defined as the point where recall reaches 90%.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ DAILY LOOP ══════════════════════════ -->
+  <section class="band" aria-labelledby="b1">
+    <div class="band-head">
+      <p class="eyebrow">Plates 1–3</p>
+      <h2 id="b1">The daily loop</h2>
+      <p>Reviews take visual priority over new words everywhere, because skipping reviews is what
+         actually loses progress — a new word can wait a day at no cost.</p>
+    </div>
+
+    <div class="plates">
+
+      <!-- TODAY -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Today</span>
+          <span class="src">Features/Home/HomeView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="navbar"><span style="font-size:15px">Today</span><span style="color:var(--a-brand2);font:600 13px/1 var(--rounded)">🔥 24</span></div>
+            <div class="scroll">
+              <div style="margin:2px 0 14px">
+                <div style="font:800 22px/1.15 var(--rounded);letter-spacing:-.02em">Good morning</div>
+                <div style="font:500 12px/1.3 var(--rounded);color:var(--a-text2);margin-top:2px">Tuesday 29 July</div>
+              </div>
+
+              <div class="card" style="display:flex;align-items:center;gap:14px">
+                <div class="ring">
+                  <svg width="92" height="92"><circle class="track" cx="46" cy="46" r="40" fill="none" stroke-width="12"/><circle class="fill" cx="46" cy="46" r="40" fill="none" stroke-width="12" stroke-dasharray="251" stroke-dashoffset="88"/></svg>
+                  <span class="mid"><b>18</b><s>due</s></span>
+                </div>
+                <div style="flex:1;min-width:0">
+                  <div class="sect-head">Review 18 cards</div>
+                  <div class="sect-sub">12 of 30 reviews today</div>
+                  <div class="sect-sub" style="color:var(--a-text3)">Next review in 3 hours</div>
+                </div>
+                <span style="color:var(--a-text3)">›</span>
+              </div>
+
+              <div style="display:flex;align-items:baseline;justify-content:space-between;margin:20px 0 10px">
+                <div><div class="sect-head">Today's words</div><div class="sect-sub">2 of 8 added</div></div>
+              </div>
+
+              <div class="card" style="display:flex;flex-direction:column;gap:9px">
+                <div style="display:flex;align-items:flex-start;gap:8px">
+                  <div style="flex:1;min-width:0">
+                    <div style="font:700 22px/1.15 var(--rounded);letter-spacing:-.02em">borrow</div>
+                    <div style="display:flex;gap:5px;align-items:center;margin-top:4px;flex-wrap:wrap">
+                      <span class="ipa" style="font-size:13px">/ˈbɒrəʊ/</span>
+                      <span class="chip">v.</span><span class="chip brand">A2</span>
+                    </div>
+                  </div>
+                  <span style="color:var(--a-brand);font-size:17px">🔊</span>
+                </div>
+                <div class="defn" style="font-size:15px">to take something from someone, intending to give it back</div>
+                <div class="trans" style="font-size:15px">借（入）</div>
+                <div class="card raised" style="padding:11px">
+                  <div class="ex" style="font-size:14px">Can I borrow your pen?</div>
+                  <div class="exzh" style="margin-top:3px">我能借用你的笔吗？</div>
+                </div>
+                <div style="display:flex;gap:8px;margin-top:2px">
+                  <button class="btn" style="min-height:40px;font-size:15px" type="button">＋ Add</button>
+                  <span style="width:40px;height:40px;border-radius:14px;background:var(--a-raised);display:flex;align-items:center;justify-content:center;color:var(--a-text2)">✕</span>
+                </div>
+              </div>
+
+              <div style="display:flex;gap:8px;margin-top:18px">
+                <div class="tile"><div class="v" style="color:var(--a-mat-learn)">9</div><div class="l">Learning</div></div>
+                <div class="tile"><div class="v" style="color:var(--a-mat-young)">62</div><div class="l">Known</div></div>
+                <div class="tile"><div class="v" style="color:var(--a-mat-mature)">41</div><div class="l">Well known</div></div>
+              </div>
+            </div>
+            <nav class="tabbar">
+              <div class="on"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>Today</div>
+              <div><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg>Browse</div>
+              <div><svg viewBox="0 0 24 24"><path d="M12 3 3 7.5 12 12l9-4.5L12 3ZM3 12l9 4.5L21 12M3 16.5 12 21l9-4.5"/></svg>Decks</div>
+              <div><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progress</div>
+              <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 7 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1A1.6 1.6 0 0 0 3 14.6a1.6 1.6 0 0 0-1.5-1H1a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 2.6 8a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1A1.6 1.6 0 0 0 7 3.7h.2A1.6 1.6 0 0 0 8.2 2.2V2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5"/></svg>Settings</div>
+            </nav>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">The ring is the primary call to action — tapping anywhere on that card
+          starts a session. Accepted daily words keep their place with a check rather than vanishing;
+          content that disappears when you tap it reads as a bug.</p>
+      </article>
+
+      <!-- SESSION SUMMARY -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Session end</span>
+          <span class="src">Features/Study/SessionSummaryView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:52</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="scroll" style="padding-top:64px">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center">
+                <div style="font-size:52px;color:var(--a-good);line-height:1">✓</div>
+                <div style="font:800 22px/1.15 var(--rounded);letter-spacing:-.02em">Session complete</div>
+                <div style="font:400 16px/1.45 var(--sans);color:var(--a-text2);max-width:30ch">
+                  6 more cards are still due today.
+                </div>
+              </div>
+
+              <div style="display:flex;gap:8px;margin-top:26px">
+                <div class="tile"><div class="v">20</div><div class="l">Cards reviewed</div></div>
+                <div class="tile"><div class="v" style="color:var(--a-good)">85%</div><div class="l">Recalled</div></div>
+                <div class="tile"><div class="v">4m</div><div class="l">Time</div></div>
+              </div>
+
+              <div style="margin-top:26px">
+                <div class="sect-head" style="margin-bottom:10px">How it went</div>
+                <div style="display:flex;flex-direction:column;gap:9px">
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="width:48px;font:500 12px/1 var(--rounded);color:var(--a-text2)">Again</span>
+                    <span style="flex:1;height:10px;border-radius:5px;background:var(--a-raised);overflow:hidden"><span style="display:block;height:100%;width:25%;background:var(--a-again);border-radius:5px"></span></span>
+                    <span style="width:22px;text-align:right;font:600 11px/1 var(--mono);color:var(--a-text2)">3</span>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="width:48px;font:500 12px/1 var(--rounded);color:var(--a-text2)">Hard</span>
+                    <span style="flex:1;height:10px;border-radius:5px;background:var(--a-raised);overflow:hidden"><span style="display:block;height:100%;width:33%;background:var(--a-hard);border-radius:5px"></span></span>
+                    <span style="width:22px;text-align:right;font:600 11px/1 var(--mono);color:var(--a-text2)">4</span>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="width:48px;font:500 12px/1 var(--rounded);color:var(--a-text2)">Good</span>
+                    <span style="flex:1;height:10px;border-radius:5px;background:var(--a-raised);overflow:hidden"><span style="display:block;height:100%;width:100%;background:var(--a-good);border-radius:5px"></span></span>
+                    <span style="width:22px;text-align:right;font:600 11px/1 var(--mono);color:var(--a-text2)">12</span>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="width:48px;font:500 12px/1 var(--rounded);color:var(--a-text2)">Easy</span>
+                    <span style="flex:1;height:10px;border-radius:5px;background:var(--a-raised);overflow:hidden"><span style="display:block;height:100%;width:8%;background:var(--a-easy);border-radius:5px"></span></span>
+                    <span style="width:22px;text-align:right;font:600 11px/1 var(--mono);color:var(--a-text2)">1</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="study-foot"><button class="btn" type="button">Done</button></div>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">Reports what happened without grading the user — no comparison to
+          yesterday, no “you could do better”. Bars scale against the largest bucket so a session of
+          mostly <i>Good</i> still shows the others legibly.</p>
+      </article>
+
+      <!-- PROGRESS -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Progress</span>
+          <span class="src">Features/Stats/StatsView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="navbar navbar-lg"><h1>Progress</h1></div>
+            <div class="scroll">
+              <div class="card">
+                <div class="sect-head">Recall accuracy</div>
+                <div style="display:flex;align-items:baseline;gap:8px;margin-top:6px">
+                  <span style="font:700 32px/1 var(--rounded);font-variant-numeric:tabular-nums">91%</span>
+                  <span style="font:500 12px/1 var(--rounded);color:var(--a-text2)">last 30 days</span>
+                </div>
+                <div style="font:500 12px/1.4 var(--rounded);color:var(--a-text2);margin-top:6px">
+                  Right on your 90% target — the scheduler is well calibrated for you.
+                </div>
+                <div style="font:500 12px/1.4 var(--rounded);color:var(--a-text3);margin-top:4px">
+                  612 reviews · 20 per day on average
+                </div>
+              </div>
+
+              <div class="card" style="margin-top:12px;display:flex;align-items:center;gap:14px">
+                <div>
+                  <div style="display:flex;align-items:center;gap:4px">
+                    <span style="color:var(--a-brand2)">🔥</span>
+                    <span style="font:700 32px/1 var(--rounded);font-variant-numeric:tabular-nums">24</span>
+                  </div>
+                  <div style="font:500 12px/1 var(--rounded);color:var(--a-text2);margin-top:3px">day streak</div>
+                </div>
+                <div style="width:1px;height:40px;background:var(--a-sep)"></div>
+                <div>
+                  <div style="font:700 20px/1 var(--rounded);font-variant-numeric:tabular-nums">38</div>
+                  <div style="font:500 12px/1 var(--rounded);color:var(--a-text2);margin-top:3px">longest</div>
+                </div>
+              </div>
+
+              <div class="card" style="margin-top:12px">
+                <div class="sect-head">Coming up</div>
+                <div class="sect-sub" style="margin-bottom:10px">Cards already scheduled over the next 30 days</div>
+                <div class="forecast" id="forecast"></div>
+                <div class="axis"><span>Today</span><span>+7d</span><span>+14d</span><span>+21d</span><span>+29d</span></div>
+                <div class="legend">
+                  <span><u style="background:var(--a-mat-learn)"></u>Learning</span>
+                  <span><u style="background:var(--a-mat-young)"></u>Known</span>
+                  <span><u style="background:var(--a-mat-mature)"></u>Well known</span>
+                </div>
+              </div>
+
+              <div class="card" style="margin-top:12px">
+                <div class="sect-head">Review history</div>
+                <div class="sect-sub" style="margin-bottom:10px">Last 12 months</div>
+                <div class="heat" id="heat"></div>
+              </div>
+            </div>
+            <nav class="tabbar">
+              <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>Today</div>
+              <div><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg>Browse</div>
+              <div><svg viewBox="0 0 24 24"><path d="M12 3 3 7.5 12 12l9-4.5L12 3ZM3 12l9 4.5L21 12"/></svg>Decks</div>
+              <div class="on"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progress</div>
+              <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>Settings</div>
+            </nav>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">The forecast projects <i>already scheduled</i> due dates only — it does
+          not simulate future ratings. Retention is compared against the user's own target, not
+          against 100%, so someone aiming at 90% and scoring 89% is told they are on target.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ DICTIONARY ══════════════════════════ -->
+  <section class="band" aria-labelledby="b2">
+    <div class="band-head">
+      <p class="eyebrow">Plates 4–6</p>
+      <h2 id="b2">The dictionary, and the model behind it</h2>
+      <p>Browsing never enrols a word. Entry detail exposes the scheduler's own stability and
+         difficulty — a user should always be able to see <i>why</i> a card is due when it is.</p>
+    </div>
+
+    <div class="plates">
+
+      <!-- BROWSE -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Browse</span>
+          <span class="src">Features/Browse/BrowseView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="navbar navbar-lg"><h1>Browse</h1><span style="color:var(--a-brand);font-size:19px">＋</span></div>
+            <div style="padding:0 16px">
+              <div class="searchfield"><span style="font-size:14px">🔍</span><span>Search English words or meanings</span></div>
+              <div class="fchips">
+                <span class="fchip">Filters</span>
+                <span class="fchip on">A1</span><span class="fchip">A2</span>
+                <span class="fchip">B1</span><span class="fchip">B2</span><span class="fchip">C1</span>
+              </div>
+            </div>
+            <div class="scroll" style="padding-top:6px">
+              <div style="font:400 12px/1 var(--sans);color:var(--a-text2);text-transform:uppercase;letter-spacing:.04em;padding:8px 0">46 words</div>
+              <div class="rowlist">
+                <div class="row"><span class="dot" style="background:var(--a-mat-mature)"></span><div style="min-width:0"><div class="hw">always</div><div class="sub">at all times; on every occasion</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-young)"></span><div style="min-width:0"><div class="hw">arrive</div><div class="sub">to reach a place at the end of a journey</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-mature)"></span><div style="min-width:0"><div class="hw">beautiful</div><div class="sub">very pleasant to look at or listen to</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-learn)"></span><div style="min-width:0"><div class="hw">borrow</div><div class="sub">to take something from someone, intending to…</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-mature)"></span><div style="min-width:0"><div class="hw">because</div><div class="sub">for the reason that</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-new)"></span><div style="min-width:0"><div class="hw">busy</div><div class="sub">having a lot to do</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-young)"></span><div style="min-width:0"><div class="hw">buy</div><div class="sub">to get something by paying money for it</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-new)"></span><div style="min-width:0"><div class="hw">cheap</div><div class="sub">costing little money</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-young)"></span><div style="min-width:0"><div class="hw">city</div><div class="sub">a large town</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-mature)"></span><div style="min-width:0"><div class="hw">country</div><div class="sub">an area of land with its own government</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-learn)"></span><div style="min-width:0"><div class="hw">difficult</div><div class="sub">not easy; needing effort or skill</div></div></div>
+                <div class="row"><span class="dot" style="background:var(--a-mat-new)"></span><div style="min-width:0"><div class="hw">doctor</div><div class="sub">a person trained to treat people who are ill</div></div></div>
+              </div>
+            </div>
+            <nav class="tabbar">
+              <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>Today</div>
+              <div class="on"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg>Browse</div>
+              <div><svg viewBox="0 0 24 24"><path d="M12 3 3 7.5 12 12l9-4.5L12 3ZM3 12l9 4.5L21 12"/></svg>Decks</div>
+              <div><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progress</div>
+              <div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>Settings</div>
+            </nav>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">The dot encodes learning status and carries a VoiceOver label, because
+          colour alone conveys nothing. Search folds diacritics and matches Chinese translations —
+          neither of which a SwiftData predicate can do, which is why matching happens in Swift.</p>
+      </article>
+
+      <!-- ENTRY DETAIL -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Word detail</span>
+          <span class="src">Features/Browse/EntryDetailView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="navbar"><span class="glyph">‹ Browse</span><span style="font-size:15px">borrow</span><span style="width:52px"></span></div>
+            <div class="scroll">
+              <div style="display:flex;align-items:flex-start;gap:8px">
+                <div style="flex:1"><div class="headword">borrow</div>
+                  <div style="display:flex;align-items:center;gap:6px;margin-top:5px">
+                    <span class="ipa">/ˈbɒrəʊ/</span><span class="chip">IPA</span>
+                  </div>
+                </div>
+                <span style="color:var(--a-brand);font-size:20px;padding-top:6px">🔊</span>
+              </div>
+              <div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:10px">
+                <span class="chip brand">A2 · Elementary</span>
+                <span class="chip">📊 Rank #2949</span>
+                <span class="chip">Verb</span>
+              </div>
+
+              <div style="margin-top:14px;display:flex;align-items:center;gap:8px">
+                <span style="color:var(--a-good);font:500 12px/1 var(--rounded)">✓ In your words</span>
+                <span style="flex:1"></span>
+                <span style="color:var(--a-brand);font:500 12px/1 var(--rounded)">Manage ⌄</span>
+              </div>
+
+              <div class="card raised" style="margin-top:14px;display:flex;flex-direction:column;gap:9px">
+                <div><span class="chip">Verb</span></div>
+                <div class="defn">to take something from someone, intending to give it back</div>
+                <div class="trans">借（入）</div>
+                <div>
+                  <div class="ex">Can I borrow your pen?</div>
+                  <div class="exzh" style="margin-top:2px">我能借用你的笔吗？</div>
+                </div>
+                <div>
+                  <div style="font:600 11px/1 var(--rounded);color:var(--a-text3);margin-bottom:5px">Opposite</div>
+                  <div style="display:flex;gap:5px"><span class="chip warn">lend</span></div>
+                </div>
+                <div style="font:400 12px/1.45 var(--sans);color:var(--a-text2);padding:10px;border-radius:14px;background:color-mix(in srgb, var(--a-brand2) 10%, transparent)">
+                  You borrow FROM someone; they lend TO you. Mixing these up is one of the most
+                  common learner errors.
+                </div>
+              </div>
+
+              <div class="card raised" style="margin-top:12px">
+                <div class="sect-head" style="margin-bottom:8px">Scheduling</div>
+                <div style="display:flex;align-items:center;gap:6px;color:var(--a-text2);font:500 12px/1 var(--rounded)">
+                  <span>Recognition</span><span style="flex:1"></span><span class="dot" style="background:var(--a-mat-learn)"></span>
+                </div>
+                <div style="display:flex;gap:18px;margin-top:8px">
+                  <div><div style="font:500 12px/1.2 var(--rounded)">Due in 5 days</div><div style="font:600 11px/1 var(--rounded);color:var(--a-text3)">Next</div></div>
+                  <div><div style="font:500 12px/1.2 var(--rounded)">5d</div><div style="font:600 11px/1 var(--rounded);color:var(--a-text3)">Interval</div></div>
+                </div>
+                <div style="display:flex;gap:18px;margin-top:8px">
+                  <div><div style="font:500 12px/1.2 var(--rounded)">4.8d</div><div style="font:600 11px/1 var(--rounded);color:var(--a-text3)">Stability</div></div>
+                  <div><div style="font:500 12px/1.2 var(--rounded)">6.0</div><div style="font:600 11px/1 var(--rounded);color:var(--a-text3)">Difficulty</div></div>
+                  <div><div style="font:500 12px/1.2 var(--rounded)">4</div><div style="font:600 11px/1 var(--rounded);color:var(--a-text3)">Reviews</div></div>
+                  <div><div style="font:500 12px/1.2 var(--rounded)">1</div><div style="font:600 11px/1 var(--rounded);color:var(--a-text3)">Lapses</div></div>
+                </div>
+                <div style="font:500 12px/1.3 var(--rounded);color:var(--a-text3);margin-top:9px">Scheduled by FSRS 5.</div>
+              </div>
+
+              <div class="card raised" style="margin-top:12px">
+                <div class="sect-head" style="margin-bottom:8px">Review history</div>
+                <div style="display:flex;align-items:center;gap:8px;padding:3px 0">
+                  <span class="dot" style="background:var(--a-hard)"></span>
+                  <span style="font:500 12px/1 var(--rounded);width:44px">Hard</span>
+                  <span style="font:500 12px/1 var(--rounded);color:var(--a-text2)">24 Jul, 08:12</span>
+                  <span style="flex:1"></span>
+                  <span style="font:600 11px/1 var(--mono);color:var(--a-text3)">R 87%</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:8px;padding:3px 0">
+                  <span class="dot" style="background:var(--a-again)"></span>
+                  <span style="font:500 12px/1 var(--rounded);width:44px">Again</span>
+                  <span style="font:500 12px/1 var(--rounded);color:var(--a-text2)">19 Jul, 21:40</span>
+                  <span style="flex:1"></span>
+                  <span style="font:600 11px/1 var(--mono);color:var(--a-text3)">R 78%</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:8px;padding:3px 0">
+                  <span class="dot" style="background:var(--a-good)"></span>
+                  <span style="font:500 12px/1 var(--rounded);width:44px">Good</span>
+                  <span style="font:500 12px/1 var(--rounded);color:var(--a-text2)">12 Jul, 07:55</span>
+                  <span style="flex:1"></span>
+                  <span style="font:600 11px/1 var(--mono);color:var(--a-text3)">R 90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">Every review row shows <i>R</i> — the model's predicted recall at the
+          moment you were asked. Comparing that against what you actually did is how you judge
+          whether the scheduler is working, so it is not hidden behind a debug flag.</p>
+      </article>
+
+      <!-- THAI -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Word detail · ไทย</span>
+          <span class="src">Resources/Seeds/th_starter.json</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="navbar"><span class="glyph">‹ Browse</span><span style="font-size:15px">หนังสือ</span><span style="width:52px"></span></div>
+            <div class="scroll">
+              <div style="display:flex;align-items:flex-start;gap:8px">
+                <div style="flex:1"><div class="headword">หนังสือ</div>
+                  <div style="display:flex;align-items:center;gap:6px;margin-top:5px">
+                    <span class="ipa">nangsue</span><span class="chip">RTGS</span>
+                  </div>
+                </div>
+                <span style="color:var(--a-brand);font-size:20px;padding-top:6px">🔊</span>
+              </div>
+              <div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:10px">
+                <span class="chip brand">A1 · Beginner</span>
+                <span class="chip">📊 Rank #420</span>
+                <span class="chip">Noun</span>
+              </div>
+
+              <div style="margin-top:14px">
+                <button class="btn" type="button">＋ Add to my words</button>
+              </div>
+
+              <div class="card raised" style="margin-top:14px;display:flex;flex-direction:column;gap:9px">
+                <div><span class="chip">Noun</span></div>
+                <div class="defn">สิ่งพิมพ์ที่รวมเป็นเล่ม</div>
+                <div class="trans">book · 书</div>
+                <div>
+                  <div class="ex">หนังสือสองเล่ม</div>
+                  <div class="exzh" style="margin-top:2px">Two books. · 两本书。</div>
+                </div>
+                <div style="font:400 12px/1.45 var(--sans);color:var(--a-text2);padding:10px;border-radius:14px;background:color-mix(in srgb, var(--a-brand2) 10%, transparent)">
+                  Thai counts with a classifier: noun + number + classifier. เล่ม is the classifier
+                  for books.
+                </div>
+              </div>
+
+              <div class="card raised" style="margin-top:12px">
+                <div class="sect-head" style="margin-bottom:8px">Grammar</div>
+                <div style="display:flex;justify-content:space-between;gap:12px;padding:3px 0">
+                  <span style="font:500 12px/1.3 var(--rounded);color:var(--a-text2)">Classifier</span>
+                  <span style="font:500 12px/1.3 var(--rounded)">เล่ม</span>
+                </div>
+                <div style="display:flex;justify-content:space-between;gap:12px;padding:3px 0">
+                  <span style="font:500 12px/1.3 var(--rounded);color:var(--a-text2)">Tone</span>
+                  <span style="font:500 12px/1.3 var(--rounded)">nǎng-sʉ̌ʉ · rising, rising</span>
+                </div>
+              </div>
+
+              <div class="card raised" style="margin-top:12px">
+                <div style="font:400 12px/1.5 var(--sans);color:var(--a-text2)">
+                  Nothing in this screen is special-cased for Thai. The romanisation is labelled
+                  <b style="color:var(--a-text)">RTGS</b> rather than IPA, and the classifier and tone
+                  rows come from the same open <b style="color:var(--a-text)">grammarNotes</b> bag that
+                  holds French gender — adding a language is a seed pack and an enum case.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">The proof that the multi-language claim is real rather than aspirational:
+          non-Latin script, RTGS romanisation, tone marks and classifiers, all through the same views
+          and the same schema — and exercised by <span style="font-family:var(--mono)">SeedLoaderTests</span> today.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ ACCOUNT & CONTROL ══════════════════════════ -->
+  <section class="band" aria-labelledby="b3">
+    <div class="band-head">
+      <p class="eyebrow">Plates 7–9</p>
+      <h2 id="b3">Account, and the dial that matters</h2>
+      <p>Auth never gates studying: guest is offered at equal visual weight, and signing up later
+         adopts that guest's data rather than discarding it.</p>
+    </div>
+
+    <div class="plates">
+
+      <!-- AUTH LANDING -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Welcome</span>
+          <span class="src">Features/Auth/AuthLandingView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="landing">
+              <div style="flex:1"></div>
+              <div style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px">
+                <div style="font-size:56px;color:var(--a-brand);line-height:1">📕</div>
+                <div style="font:800 34px/1.1 var(--rounded);letter-spacing:-.03em">VocabLoop</div>
+                <div style="font:400 16px/1.45 var(--sans);color:var(--a-text2);max-width:28ch">
+                  Vocabulary that sticks, with or without a signal.
+                </div>
+              </div>
+              <div style="flex:1"></div>
+              <div style="display:flex;flex-direction:column;gap:12px">
+                <div class="applebtn"> Sign in with Apple</div>
+                <button class="btn" type="button">✉ Create an account</button>
+                <button class="btn ghost" type="button">I already have an account</button>
+                <button class="btn plain" type="button">Continue without an account</button>
+                <div style="font:500 12px/1.4 var(--rounded);color:var(--a-text3);text-align:center;padding:0 6px">
+                  Guest mode is fully functional. Your progress is saved on this device, and you can
+                  create an account later without losing it.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">“Continue without an account” is a full-width control in the same visual
+          language as the others, not grey small print in a corner. Guest is a supported way to use
+          the app; dressing it up as a downgrade would be a dark pattern.</p>
+      </article>
+
+      <!-- RECOVERY CODE -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Recovery code</span>
+          <span class="src">Features/Auth/SignUpView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen">
+            <div class="landing" style="justify-content:flex-start;padding-top:34px;gap:22px">
+              <div style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px">
+                <div style="font-size:44px;color:var(--a-brand2);line-height:1">🔑</div>
+                <div style="font:800 22px/1.2 var(--rounded);letter-spacing:-.02em">Save your recovery code</div>
+                <div style="font:400 16px/1.45 var(--sans);color:var(--a-text2)">
+                  Your account lives on this device, so there is no email we can send a reset link to.
+                  This code is the only way back in if you forget your password.
+                </div>
+              </div>
+
+              <div class="codebox">K7M2-9XPQ-4TVB-8HRN</div>
+
+              <div style="text-align:center;color:var(--a-brand);font:500 13px/1 var(--rounded)">⧉ Copy code</div>
+
+              <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:16px">
+                <span>I have saved this code somewhere safe</span>
+                <span style="width:51px;height:31px;border-radius:16px;background:var(--a-good);position:relative;flex:none">
+                  <span style="position:absolute;top:2px;right:2px;width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3)"></span>
+                </span>
+              </div>
+
+              <button class="btn" type="button">Continue</button>
+
+              <div style="font:500 12px/1.45 var(--rounded);color:var(--a-text3);text-align:center">
+                You can generate a new code any time in Settings ▸ Account. Generating a new one
+                replaces this one.
+              </div>
+            </div>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">An offline account has no email to reset through, so recovery has to be
+          something you hold. Shown once, stored only as a PBKDF2 hash, invalidated after use — and
+          gated behind an explicit confirmation, because dismissing it costs you the reset path
+          permanently.</p>
+      </article>
+
+      <!-- SCHEDULER SETTINGS -->
+      <article class="plate">
+        <div class="plate-cap">
+          <span class="route">Memory algorithm</span>
+          <span class="src">Features/Settings/SettingsView.swift</span>
+        </div>
+        <div class="stage"><div class="device">
+          <div class="island"></div>
+          <div class="statusbar"><span>9:41</span><span class="sig"><span class="bars"><i></i><i></i><i></i><i></i></span><span class="batt"><span></span></span></span></div>
+          <div class="screen" style="background:var(--a-canvas)">
+            <div class="navbar"><span class="glyph">‹ Settings</span><span style="font-size:15px">Memory algorithm</span><span style="width:60px"></span></div>
+            <div class="scroll">
+              <div class="shead">Algorithm</div>
+              <div class="slist">
+                <div class="srow" style="align-items:flex-start">
+                  <div style="min-width:0">
+                    <div style="font-weight:600">FSRS 5</div>
+                    <div style="font:400 12px/1.4 var(--sans);color:var(--a-text2);margin-top:2px">
+                      Models stability, difficulty and how much you have forgotten right now. Lets you
+                      choose a target retention rate. Recommended.
+                    </div>
+                  </div>
+                  <span style="color:var(--a-brand);flex:none">✓</span>
+                </div>
+                <div class="srow" style="align-items:flex-start">
+                  <div style="min-width:0">
+                    <div style="font-weight:600">SM-2</div>
+                    <div style="font:400 12px/1.4 var(--sans);color:var(--a-text2);margin-top:2px">
+                      The classic SuperMemo 2 algorithm. Simpler, and familiar if you come from Anki,
+                      but it cannot target a retention rate.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sfoot">Switching keeps your review history. Existing cards carry on from where they are.</div>
+
+              <div class="shead">Retention</div>
+              <div class="slist">
+                <div style="padding:14px">
+                  <div style="display:flex;justify-content:space-between;align-items:baseline">
+                    <span style="font-size:16px">Target retention</span>
+                    <span style="font:600 17px/1 var(--rounded);color:var(--a-brand);font-variant-numeric:tabular-nums">90%</span>
+                  </div>
+                  <div class="slider"><u style="width:74%"></u><b style="left:74%"></b></div>
+                </div>
+              </div>
+              <div class="sfoot">
+                The recommended range. Roughly nine words in ten recalled, for the least work per
+                word retained.
+              </div>
+
+              <div class="shead">Intervals</div>
+              <div class="slist">
+                <div class="srow"><span>Maximum interval</span><span class="val">5 years ›</span></div>
+                <div class="srow"><span>Spread review load</span>
+                  <span style="width:51px;height:31px;border-radius:16px;background:var(--a-good);position:relative;flex:none">
+                    <span style="position:absolute;top:2px;right:2px;width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3)"></span>
+                  </span>
+                </div>
+              </div>
+              <div class="sfoot">
+                Spreading nudges each interval by a few percent so words learned on the same day do
+                not all come back on the same day.
+              </div>
+
+              <div class="shead">Learning steps</div>
+              <div class="slist"><div class="srow"><span style="color:var(--a-text2)">1m → 10m</span></div></div>
+            </div>
+          </div>
+          <div class="homebar"></div>
+        </div></div>
+        <p class="plate-note">The slider's footer changes with the value. A raw percentage with no
+          explanation is how users end up setting 97% and then wondering why they have 400 reviews a
+          day — so each band says what it costs.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>VocabLoop · design preview</span>
+    <span>Rendered from DesignSystem/Palette.swift &amp; Typography.swift</span>
+    <span>Rating intervals: FSRS-5 default weights</span>
+    <span>Light and dark follow your system theme</span>
+  </footer>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  /* ── FSRS-5, transcribed from Core/SRS/FSRSScheduler.swift ───────────── */
+  const W = [0.40255,1.18385,3.17300,15.69105,7.19490,0.53450,1.46040,0.00460,1.54575,
+             0.11920,1.01925,1.93950,0.11000,0.29605,2.26980,0.23150,2.98980,0.51655,0.66210];
+  const DECAY = -0.5, FACTOR = Math.pow(0.9, 1/DECAY) - 1;   // 19/81
+
+  const R  = (t,S) => S > 0 ? Math.min(Math.max(Math.pow(1 + FACTOR*t/S, DECAY),0),1) : 1;
+  const I  = (r,S) => Math.min(Math.max((S/FACTOR)*(Math.pow(r,1/DECAY)-1),1),1825);
+  const D0 = g => Math.min(Math.max(W[4] - Math.exp(W[5]*(g-1)) + 1, 1), 10);
+  const nextD = (d,g) => {
+    const damped = d + (-W[6]*(g-3))*(10-d)/9;
+    return Math.min(Math.max(W[7]*D0(4) + (1-W[7])*damped, 1), 10);
+  };
+  const recall = (S,D,r,g) =>
+    S * (1 + Math.exp(W[8]) * (11-D) * Math.pow(S,-W[9]) *
+        (Math.exp(W[10]*(1-r)) - 1) * (g===2?W[15]:1) * (g===4?W[16]:1));
+  const forget = (S,D,r) =>
+    Math.min(W[11]*Math.pow(D,-W[12])*(Math.pow(S+1,W[13])-1)*Math.exp(W[14]*(1-r)), S);
+
+  /* IntervalFormatter.short, transcribed from Core/SRS/IntervalFormatter.swift */
+  function short(days) {
+    if (!isFinite(days) || days <= 0) return "<1m";
+    const m = days*1440;
+    if (m < 1)   return "<1m";
+    if (m < 60)  return Math.round(m) + "m";
+    if (days < 1)   return Math.round(days*24) + "h";
+    if (days < 21)  return Math.round(days) + "d";
+    if (days < 60)  return Math.round(days/7) + "w";
+    if (days < 365) return Math.round(days/30.44) + "mo";
+    const y = days/365.25;
+    return y < 10 ? y.toFixed(1) + "y" : Math.round(y) + "y";
+  }
+
+  /* ── the deck: real entries from the bundled seed packs ─────────────── */
+  const DECK = [
+    { hw:"inevitable", ipa:"/ɪnˈevɪtəbl/", pos:"Adjective", posa:"adj.", cefr:"B2",
+      defn:"certain to happen and impossible to avoid", trans:"不可避免的",
+      ex:"Forgetting is inevitable — that is why reviews are spaced.",
+      exzh:"遗忘不可避免——这正是复习要间隔安排的原因。",
+      syns:["unavoidable"], S:11.14, D:5.27, elapsed:11 },
+    { hw:"borrow", ipa:"/ˈbɒrəʊ/", pos:"Verb", posa:"v.", cefr:"A2",
+      defn:"to take something from someone, intending to give it back", trans:"借（入）",
+      ex:"Can I borrow your pen?", exzh:"我能借用你的笔吗？",
+      syns:[], S:3.173, D:5.28, elapsed:3 },
+    { hw:"ubiquitous", ipa:"/juːˈbɪkwɪtəs/", pos:"Adjective", posa:"adj.", cefr:"C1",
+      defn:"seeming to be everywhere at once", trans:"无处不在的",
+      ex:"Smartphones are now ubiquitous.", exzh:"智能手机现在无处不在。",
+      syns:["omnipresent","pervasive"], S:102, D:5.25, elapsed:102 }
+  ];
+
+  const $ = id => document.getElementById(id);
+  let index = 0, revealed = false, done = 6;
+
+  function outcomes(card) {
+    const r = R(card.elapsed, card.S);
+    return [1,2,3,4].map(g => {
+      const Dn = nextD(card.D, g);
+      const Sn = g === 1 ? forget(card.S, Dn, r) : recall(card.S, Dn, r, g);
+      const ivl = g === 1 ? 10/1440 : I(0.90, Sn);   // Again → first relearning step
+      return { g, Sn, Dn, ivl, label: short(ivl) };
+    });
+  }
+
+  const RATING_NAMES = ["Again","Hard","Good","Easy"];
+  const RATING_VARS  = ["--a-again","--a-hard","--a-good","--a-easy"];
+
+  function render() {
+    const c = DECK[index], out = outcomes(c);
+
+    $("hw").textContent = c.hw;
+    $("ipa").textContent = c.ipa;
+    $("pos").textContent = c.pos;
+    $("posa").textContent = c.posa;
+    $("cefr").textContent = c.cefr;
+    $("defn").textContent = c.defn;
+    $("trans").textContent = c.trans;
+    $("ex").textContent = c.ex;
+    $("exzh").textContent = c.exzh;
+    $("usage").textContent =
+      `Stability ${c.S.toFixed(1)} d · Difficulty ${c.D.toFixed(1)} · you last saw this ` +
+      `${c.elapsed} days ago, when the model put your recall at ${Math.round(R(c.elapsed,c.S)*100)}%.`;
+
+    $("synwrap").hidden = c.syns.length === 0;
+    $("syns").innerHTML = "";
+    c.syns.forEach(s => {
+      const el = document.createElement("span");
+      el.className = "chip brand";
+      el.textContent = s;
+      $("syns").appendChild(el);
+    });
+
+    out.forEach((o,i) => { $("i" + (i+1)).textContent = o.label; });
+
+    const body = $("readout-body");
+    body.innerHTML = "";
+    out.forEach((o,i) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML =
+        `<td><span class="swatch" style="background:var(${RATING_VARS[i]})"></span>${RATING_NAMES[i]}</td>` +
+        `<td>${o.Sn.toFixed(2)} d</td><td>${o.Dn.toFixed(2)}</td><td>${o.label}</td>`;
+      body.appendChild(tr);
+    });
+
+    $("pcount").textContent = done + "/20";
+    $("pbar").style.width = Math.round(done/20*100) + "%";
+    drawCurve();
+  }
+
+  function setRevealed(on) {
+    revealed = on;
+    const answer = $("answer");
+    answer.hidden = !on;
+    if (on) { answer.classList.remove("reveal-anim"); void answer.offsetWidth; answer.classList.add("reveal-anim"); }
+    $("showbtn").hidden = on;
+    $("ratings").hidden = !on;
+  }
+
+  $("showbtn").addEventListener("click", () => setRevealed(true));
+
+  $("ratings").addEventListener("click", e => {
+    const btn = e.target.closest("button[data-r]");
+    if (!btn) return;
+    const g = Number(btn.dataset.r);
+    const o = outcomes(DECK[index])[g-1];
+
+    const toast = $("toast");
+    toast.textContent = g === 1
+      ? "Back in 10 minutes — it stays in this session."
+      : `Next review ${short(o.ivl) === "1d" ? "tomorrow" : "in " + short(o.ivl)}.`;
+    toast.classList.add("on");
+    setTimeout(() => toast.classList.remove("on"), 1500);
+
+    if (done < 20) done += 1;
+    index = (index + 1) % DECK.length;
+    setRevealed(false);
+    render();
+  });
+
+  /* ── forgetting curve ───────────────────────────────────────────────── */
+  const canvas = $("curve");
+  function drawCurve() {
+    if (!canvas) return;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const cssW = canvas.clientWidth || 900, cssH = 210;
+    canvas.width = cssW * dpr; canvas.height = cssH * dpr;
+    const ctx = canvas.getContext("2d");
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, cssW, cssH);
+
+    const cs = getComputedStyle(document.documentElement);
+    const ink3   = cs.getPropertyValue("--ink-3").trim();
+    const rule   = cs.getPropertyValue("--rule").trim();
+    const accent = cs.getPropertyValue("--accent").trim();
+    const teal   = cs.getPropertyValue("--accent-2").trim();
+
+    const card = DECK[index];
+    const S1 = card.S;
+    const S2 = recall(card.S, nextD(card.D, 3), R(card.elapsed, card.S), 3);
+    const tMax = Math.max(S2 * 1.35, S1 * 3);
+
+    const padL = 34, padR = 12, padT = 12, padB = 26;
+    const x = t => padL + (t / tMax) * (cssW - padL - padR);
+    const y = r => padT + (1 - (r - 0.55) / 0.45) * (cssH - padT - padB);
+
+    ctx.font = "10px ui-monospace, SFMono-Regular, Menlo, monospace";
+    ctx.strokeStyle = rule; ctx.fillStyle = ink3; ctx.lineWidth = 1;
+
+    [1, 0.9, 0.8, 0.7, 0.6].forEach(r => {
+      ctx.globalAlpha = r === 0.9 ? 1 : 0.5;
+      ctx.beginPath();
+      ctx.setLineDash(r === 0.9 ? [4, 4] : []);
+      ctx.moveTo(padL, y(r)); ctx.lineTo(cssW - padR, y(r)); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.globalAlpha = 1;
+      ctx.fillText(Math.round(r * 100) + "%", 4, y(r) + 3.5);
+    });
+
+    const curve = (S, colour, dash) => {
+      ctx.beginPath(); ctx.setLineDash(dash);
+      for (let px = 0; px <= cssW - padL - padR; px++) {
+        const t = (px / (cssW - padL - padR)) * tMax;
+        const r = R(t, S);
+        if (r < 0.55) break;
+        px === 0 ? ctx.moveTo(x(t), y(r)) : ctx.lineTo(x(t), y(r));
+      }
+      ctx.strokeStyle = colour; ctx.lineWidth = 2; ctx.stroke(); ctx.setLineDash([]);
+    };
+
+    curve(S2, teal, [5, 4]);
+    curve(S1, accent, []);
+
+    [[S1, accent], [S2, teal]].forEach(([S, colour]) => {
+      ctx.beginPath(); ctx.arc(x(S), y(0.9), 3.5, 0, Math.PI * 2);
+      ctx.fillStyle = colour; ctx.fill();
+      ctx.fillText(short(S), x(S) + 7, y(0.9) - 6);
+    });
+
+    ctx.fillStyle = ink3;
+    ctx.fillText("now", padL, cssH - 8);
+    ctx.fillText("time →", cssW - padR - 40, cssH - 8);
+  }
+
+  /* redraw when the theme changes, in either direction */
+  new MutationObserver(drawCurve).observe(document.documentElement, {
+    attributes: true, attributeFilter: ["data-theme"]
+  });
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", drawCurve);
+  window.addEventListener("resize", drawCurve);
+
+  /* ── forecast + heatmap, deterministic so they don't flicker on redraw ─ */
+  const rng = (() => { let s = 20250729; return () => (s = (s * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff; })();
+
+  const forecast = $("forecast");
+  if (forecast) {
+    for (let d = 0; d < 30; d++) {
+      const learn  = d < 3 ? Math.round(rng() * 6) + 2 : Math.round(rng() * 2);
+      const young  = Math.round(rng() * 14) + (d === 0 ? 10 : 2);
+      const mature = Math.round(rng() * 9);
+      const col = document.createElement("i");
+      [["--a-mat-mature", mature], ["--a-mat-young", young], ["--a-mat-learn", learn]]
+        .forEach(([v, n]) => {
+          const u = document.createElement("u");
+          u.style.height = Math.max(n * 2.2, n ? 2 : 0) + "px";
+          u.style.background = `var(${v})`;
+          col.appendChild(u);
+        });
+      forecast.appendChild(col);
+    }
+  }
+
+  const heat = $("heat");
+  if (heat) {
+    for (let i = 0; i < 7 * 26; i++) {
+      const cell = document.createElement("i");
+      const v = rng();
+      if (v > 0.22) {
+        const bucket = Math.min(4, Math.max(1, Math.ceil(v * 4)));
+        cell.style.background = `color-mix(in srgb, var(--a-brand2) ${bucket * 25}%, var(--a-raised))`;
+      }
+      heat.appendChild(cell);
+    }
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
