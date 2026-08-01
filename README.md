@@ -23,11 +23,20 @@ xcodebuild test -scheme VocabLoop \
 > `Config/VocabLoop.entitlements`). Until then the Apple button surfaces a clear
 > "capability not enabled" message and every other auth path works normally.
 
-**Want to see the screens without building?** Open
-[`docs/screens.html`](docs/screens.html) in a browser. All nine screens at true iPhone
-size, following your system light/dark theme, with a live flashcard whose rating
-intervals are real FSRS-5 output. They are mockups transcribed from the design system,
-not screenshots — the app has not been compiled.
+**Want to see the screens without building?**
+
+| | | |
+|---|---|---|
+| ![Today](docs/screenshots/02-today.png) | ![Study session](docs/screenshots/01b-study-session-revealed.png) | ![Word detail](docs/screenshots/06-word-detail.png) |
+| Today | Study session | Word detail |
+
+Every screen is in [`docs/screenshots/`](docs/screenshots), light and dark, at 3x. Open
+[`docs/screens.html`](docs/screens.html) in a browser for the interactive version — it
+follows your system theme and the flashcard's rating buttons run the real scheduler.
+
+These are renders of a faithful mockup, **not screenshots of the running app** — it has
+never been compiled (see [CI](#ci)). Colour and geometry come from the same tokens the
+app compiles against; only a simulator run can confirm the SwiftUI layout matches.
 
 ---
 
@@ -128,6 +137,22 @@ optimisation instead of having to be rewritten by it.
 
 `VocabLoopUITests` is deliberately small: it checks that a user who never creates
 an account reaches a working app and can search the bundled dictionary.
+
+---
+
+## CI
+
+`.github/workflows/ios.yml` runs on every push and pull request:
+
+- **Content packs** (Ubuntu, seconds) — validates every seed pack: JSON, `packName`
+  matching its file name, no duplicate headwords after case/diacritic folding, no empty
+  definitions, valid CEFR levels. Cheap signal, no macOS minutes spent.
+- **Build and test** (macOS) — `xcodebuild test` on an iPhone 16 simulator, with the
+  `.xcresult` bundle uploaded as an artifact whether it passes or fails.
+
+**The first run is expected to fail.** The project was written in a Linux container with
+no Swift toolchain, so it has never been compiled. That run's error list is the point of
+having CI at all.
 
 ---
 

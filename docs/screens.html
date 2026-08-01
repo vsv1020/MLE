@@ -31,20 +31,21 @@
 
   /* app palette — light */
   --a-brand:      #4F46E5;
-  --a-brand2:     #0D9488;
+  --a-brand2:     #0F766E;
   --a-onbrand:    #FFFFFF;
+  --a-onrating:   #FFFFFF;
   --a-canvas:     #F8FAFC;
   --a-surface:    #FFFFFF;
   --a-raised:     #F1F5F9;
   --a-sep:        #E2E8F0;
   --a-text:       #0F172A;
   --a-text2:      #475569;
-  --a-text3:      #94A3B8;
+  --a-text3:      #5F6B7F;
   --a-again:      #DC2626;
-  --a-hard:       #D97706;
-  --a-good:       #059669;
+  --a-hard:       #B45309;
+  --a-good:       #048062;
   --a-easy:       #2563EB;
-  --a-mat-new:    #94A3B8;
+  --a-mat-new:    #7C8798;
   --a-mat-learn:  #D97706;
   --a-mat-young:  #0D9488;
   --a-mat-mature: #4F46E5;
@@ -80,13 +81,14 @@
     --a-brand:      #818CF8;
     --a-brand2:     #2DD4BF;
     --a-onbrand:    #0B1120;
+    --a-onrating:   #0B1120;
     --a-canvas:     #0B1120;
     --a-surface:    #151C2E;
     --a-raised:     #1E293B;
     --a-sep:        #25324A;
     --a-text:       #F8FAFC;
     --a-text2:      #94A3B8;
-    --a-text3:      #64748B;
+    --a-text3:      #8290A8;
     --a-again:      #F87171;
     --a-hard:       #FBBF24;
     --a-good:       #34D399;
@@ -105,9 +107,9 @@
   --ink-2:#98A1B2; --ink-3:#6B7385; --rule:#232833; --rule-2:#1C212B;
   --accent:#818CF8; --accent-2:#2DD4BF;
   --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.7);
-  --a-brand:#818CF8; --a-brand2:#2DD4BF; --a-onbrand:#0B1120; --a-canvas:#0B1120;
+  --a-brand:#818CF8; --a-brand2:#2DD4BF; --a-onbrand:#0B1120; --a-onrating:#0B1120; --a-canvas:#0B1120;
   --a-surface:#151C2E; --a-raised:#1E293B; --a-sep:#25324A; --a-text:#F8FAFC;
-  --a-text2:#94A3B8; --a-text3:#64748B; --a-again:#F87171; --a-hard:#FBBF24;
+  --a-text2:#94A3B8; --a-text3:#8290A8; --a-again:#F87171; --a-hard:#FBBF24;
   --a-good:#34D399; --a-easy:#60A5FA; --a-mat-new:#64748B; --a-mat-learn:#FBBF24;
   --a-mat-young:#2DD4BF; --a-mat-mature:#818CF8; --a-shadow:0 4px 16px rgba(0,0,0,.45);
 }
@@ -116,15 +118,20 @@
   --ink-2:#5B6270; --ink-3:#8E96A5; --rule:#D6DAE1; --rule-2:#E7EAEF;
   --accent:#4F46E5; --accent-2:#0D9488;
   --shadow:0 1px 2px rgba(20,24,34,.05), 0 12px 32px -12px rgba(20,24,34,.18);
-  --a-brand:#4F46E5; --a-brand2:#0D9488; --a-onbrand:#FFFFFF; --a-canvas:#F8FAFC;
+  --a-brand:#4F46E5; --a-brand2:#0F766E; --a-onbrand:#FFFFFF; --a-onrating:#FFFFFF; --a-canvas:#F8FAFC;
   --a-surface:#FFFFFF; --a-raised:#F1F5F9; --a-sep:#E2E8F0; --a-text:#0F172A;
-  --a-text2:#475569; --a-text3:#94A3B8; --a-again:#DC2626; --a-hard:#D97706;
-  --a-good:#059669; --a-easy:#2563EB; --a-mat-new:#94A3B8; --a-mat-learn:#D97706;
+  --a-text2:#475569; --a-text3:#5F6B7F; --a-again:#DC2626; --a-hard:#B45309;
+  --a-good:#048062; --a-easy:#2563EB; --a-mat-new:#7C8798; --a-mat-learn:#D97706;
   --a-mat-young:#0D9488; --a-mat-mature:#4F46E5; --a-shadow:0 4px 16px rgba(15,23,42,.08);
 }
 
 /* ============================================================ PAGE */
 * { box-sizing: border-box; }
+
+/* `hidden` must beat the class-based `display` rules below, or a hidden flex/grid
+   element keeps rendering — which is how the rating bar ended up sitting under a
+   still-visible "Show answer" button. */
+[hidden] { display: none !important; }
 body {
   margin: 0;
   background: var(--ground);
@@ -416,7 +423,7 @@ figure.curve figcaption {
 
 .ratings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .rate {
-  border: 0; border-radius: 14px; min-height: 56px; color: #fff; cursor: pointer;
+  border: 0; border-radius: 14px; min-height: 56px; color: var(--a-onrating); cursor: pointer;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
   font-family: var(--rounded);
 }
@@ -492,7 +499,8 @@ figure.curve figcaption {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
   .reveal-anim { animation: none; }
 }
-</style></head>
+</style>
+</head>
 <body>
 
 
@@ -1541,5 +1549,6 @@ figure.curve figcaption {
   render();
 })();
 </script>
+
 </body>
 </html>

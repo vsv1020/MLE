@@ -209,7 +209,9 @@ struct RatingBar: View {
                         }
                     }
                     .frame(maxWidth: .infinity, minHeight: Layout.minimumTapTarget + 12)
-                    .foregroundStyle(.white)
+                    // Not `.white` — see `Palette.onRating`. The dark-mode rating fills are
+                    // light by design, and white on them is unreadable.
+                    .foregroundStyle(Palette.onRating)
                     .background(Palette.rating(rating))
                     .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
                 }

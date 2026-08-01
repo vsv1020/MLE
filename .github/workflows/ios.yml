@@ -1,0 +1,159 @@
+name: iOS
+
+# The project has never been compiled — it was written in a Linux container with no
+# Swift toolchain. This workflow exists to answer the one question that cannot be
+# answered there: does it build, and do the tests pass?
+#
+# Expect the first run to fail with a list of compile errors. That list is the
+# deliverable; it is far cheaper to read here than to transcribe by hand from Xcode.
+
+on:
+  push:
+    branches: [main, 'claude/**']
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  # A new push supersedes an in-flight run. macOS runners bill at 10x, so leaving
+  # superseded runs going is a real cost, not just noise.
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ── Cheap signal first ───────────────────────────────────────────────────────
+  # Runs on Ubuntu (1x billing) and finishes in seconds. Content errors are the
+  # most likely thing to break on a routine change, and there is no reason to
+  # spend macOS minutes discovering them.
+  content:
+    name: Content packs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate seed packs
+        run: |
+          python3 - <<'PY'
+          import json, glob, os, sys
+
+          failures = []
+          total = 0
+
+          for path in sorted(glob.glob('VocabLoop/Resources/Seeds/*.json')):
+              name = os.path.basename(path)
+              try:
+                  pack = json.load(open(path, encoding='utf-8'))
+              except Exception as exc:
+                  failures.append(f'{name}: not valid JSON — {exc}')
+                  continue
+
+              # SeedImporter looks packs up by file name, so a mismatch means the pack
+              # silently never loads.
+              if pack.get('packName') != name[:-5]:
+                  failures.append(f'{name}: packName {pack.get("packName")!r} does not match the file name')
+
+              if pack.get('languageCode') not in ('en', 'fr', 'th'):
+                  failures.append(f'{name}: unknown languageCode {pack.get("languageCode")!r}')
+
+              seen = set()
+              for entry in pack.get('entries', []):
+                  total += 1
+                  head = entry.get('headword', '').strip()
+                  if not head:
+                      failures.append(f'{name}: an entry has no headword')
+                      continue
+
+                  # Entry.makeStableID folds case and diacritics, so two entries that
+                  # differ only in case would collide on import and one would be lost.
+                  key = (head.lower(), entry.get('homograph', 1))
+                  if key in seen:
+                      failures.append(f'{name}: duplicate headword {head!r}')
+                  seen.add(key)
+
+                  if not entry.get('senses'):
+                      failures.append(f'{name}: {head!r} has no senses')
+                  for sense in entry.get('senses', []):
+                      if not sense.get('definition', '').strip():
+                          failures.append(f'{name}: {head!r} has an empty definition')
+                  if 'cefr' in entry and entry['cefr'] not in ('A1','A2','B1','B2','C1','C2'):
+                      failures.append(f'{name}: {head!r} has an invalid CEFR level {entry["cefr"]!r}')
+
+              print(f'{name:24s} v{pack.get("version")}  {len(pack.get("entries", []))} entries')
+
+          print(f'\n{total} entries across {len(glob.glob("VocabLoop/Resources/Seeds/*.json"))} packs')
+          if failures:
+              print('\nFailures:')
+              for failure in failures:
+                  print('  ' + failure)
+              sys.exit(1)
+          PY
+
+      - name: Validate asset catalog
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          bad = []
+          for path in glob.glob('VocabLoop/Resources/Assets.xcassets/**/Contents.json', recursive=True):
+              try:
+                  json.load(open(path))
+              except Exception as exc:
+                  bad.append(f'{path}: {exc}')
+          for entry in bad:
+              print(entry)
+          sys.exit(1 if bad else 0)
+          PY
+
+  # ── The real question ────────────────────────────────────────────────────────
+  build-test:
+    name: Build and test
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          ls /Applications | grep -i '^Xcode' || true
+          # The project is objectVersion 77 and uses file-system-synchronized groups,
+          # which need Xcode 16 or later. Fall back to whatever the image ships rather
+          # than hard-failing on an exact version.
+          sudo xcode-select -s /Applications/Xcode_16.4.app 2>/dev/null \
+            || sudo xcode-select -s /Applications/Xcode_16.app 2>/dev/null \
+            || echo "Using the image default Xcode"
+          xcodebuild -version
+          swift --version
+
+      # Printed unconditionally: when the destination below turns out not to exist on
+      # a future runner image, this is the output that says what to change it to.
+      - name: List available simulators
+        run: xcrun simctl list devices available | sed -n '1,60p'
+
+      - name: Build and test
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project VocabLoop.xcodeproj \
+            -scheme VocabLoop \
+            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -resultBundlePath TestResults.xcresult \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO
+        # Signing is disabled because Sign in with Apple is deliberately not wired into
+        # the target (see README) and a simulator build needs no provisioning profile.
+
+      - name: Collect compile errors and test failures
+        if: failure()
+        run: |
+          echo "::group::Errors"
+          xcrun xcresulttool get log --path TestResults.xcresult --type action 2>/dev/null \
+            | grep -E 'error:|warning:|failed' | sort -u | head -200 \
+            || echo "No structured log available — read the raw step output above."
+          echo "::endgroup::"
+
+      - name: Upload result bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcresult
+          path: TestResults.xcresult
+          retention-days: 7
+          if-no-files-found: ignore

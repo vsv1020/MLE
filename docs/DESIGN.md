@@ -29,13 +29,13 @@ Semantic tokens only — views never name a raw colour. Defined in
 | Token | Light | Dark | Use |
 | --- | --- | --- | --- |
 | `brandPrimary` | `#4F46E5` indigo 600 | `#818CF8` indigo 400 | Primary actions, active tab |
-| `brandSecondary` | `#0D9488` teal 600 | `#2DD4BF` teal 400 | Accents, streak flame |
+| `brandSecondary` | `#0F766E` teal 700 | `#2DD4BF` teal 400 | Accents, streak flame |
 | `canvas` | `#F8FAFC` | `#0B1120` | Screen background |
 | `surface` | `#FFFFFF` | `#151C2E` | Cards, sheets |
 | `surfaceRaised` | `#F1F5F9` | `#1E293B` | Nested/secondary cards |
 | `textPrimary` | `#0F172A` | `#F8FAFC` | Headlines, word forms |
 | `textSecondary` | `#475569` | `#94A3B8` | Definitions, metadata |
-| `textTertiary` | `#94A3B8` | `#64748B` | Timestamps, hints |
+| `textTertiary` | `#5F6B7F` | `#8290A8` | Timestamps, hints |
 | `separator` | `#E2E8F0` | `#25324A` | Hairlines |
 
 ### Rating colours
@@ -46,16 +46,24 @@ are consistent everywhere — buttons, statistics, forecast bars, history rows.
 | Rating | Token | Light | Dark |
 | --- | --- | --- | --- |
 | Again | `ratingAgain` | `#DC2626` | `#F87171` |
-| Hard | `ratingHard` | `#D97706` | `#FBBF24` |
-| Good | `ratingGood` | `#059669` | `#34D399` |
+| Hard | `ratingHard` | `#B45309` | `#FBBF24` |
+| Good | `ratingGood` | `#048062` | `#34D399` |
 | Easy | `ratingEasy` | `#2563EB` | `#60A5FA` |
 
 Red/green as the only difference between Again and Good would fail for the most
 common colour-vision deficiency, so the rating buttons always carry a text label
 and a distinct position; colour is redundant reinforcement, never the sole signal.
 
-All foreground/background pairings above are ≥ 4.5:1 against their intended
-surface.
+Rating labels are set in `onRating` (white in light, `#0B1120` in dark), **not** in
+plain white. The dark fills are light by design so they read against a dark canvas,
+which makes white on them unreadable — white on dark-mode Hard measures 1.67:1.
+
+Several values here are a step darker than the obvious 500/600 weights, for one
+reason: they are used as *text*, and the lighter weights do not clear 4.5:1.
+`PaletteContrastTests` measures every pairing in this document through
+`UITraitCollection`, in both appearances, and fails the build if one slips. Text
+pairings are held to 4.5:1; the maturity dots, being non-text UI, to WCAG 1.4.11's
+3:1.
 
 ---
 
