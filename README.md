@@ -79,7 +79,7 @@ deletion.
 | `VocabLoop/DesignSystem` | Colour and type tokens, shared components |
 | `VocabLoop/Features` | One folder per screen: SwiftUI views plus `@Observable` view models |
 | `VocabLoop/Resources/Seeds` | Content packs as JSON — 146 curated entries across five packs |
-| `docs/` | [Screen preview](docs/screens.html) · [Research and decisions](docs/RESEARCH.md) · [UI specification](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) |
+| `docs/` | [Screen preview](docs/screens.html) · [Research and decisions](docs/RESEARCH.md) · [UI specification](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [What to build next](docs/ROADMAP.md) |
 
 Dependencies point **downward only**: `Core/SRS` knows nothing about SwiftData or
 SwiftUI, which is what makes it testable in isolation and replaceable.
