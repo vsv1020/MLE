@@ -71,6 +71,18 @@ public enum LearningLanguage: String, Codable, CaseIterable, Hashable, Sendable,
         }
     }
 
+    /// How to find a headword inside a sentence where it appears inflected.
+    ///
+    /// Only English gets the suffix heuristics. French conjugation is not suffix-append —
+    /// guessing that `apprendre` becomes `apprendres` would be worse than not guessing, so
+    /// French and Thai match exactly and rely on an authored blank for anything irregular.
+    public var inflectionStrategy: InflectionStrategy {
+        switch self {
+        case .english: .englishSuffixes
+        case .french, .thai: .exactOnly
+        }
+    }
+
     /// Thai is tonal, so tone is part of the item being learned and must be shown
     /// and spoken, not treated as decoration.
     public var isTonal: Bool { self == .thai }

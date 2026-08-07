@@ -56,6 +56,12 @@ opaque ease multiplier. SM-2 ships alongside it as a selectable baseline.
 toward corpus frequency, so the same day always offers the same words offline and
 after a reinstall — and a beginner meets *because* before *ubiquitous*.
 
+**Three card types per word**, each scheduled independently: recognition (word →
+meaning), production (meaning → word), and cloze (the word removed from one of its own
+example sentences). Cloze masking is language-aware — a token scan for English and
+French, a substring match for Thai, which has no spaces between words — and a cloze card
+is only created when a blank can genuinely be placed.
+
 **Auth is complete and offline.** Guest is a first-class session that a later
 sign-up *adopts* rather than discards. Email/password uses PBKDF2-HMAC-SHA256 at
 600k iterations with a per-user salt and constant-time verification; recovery uses
@@ -133,6 +139,8 @@ optimisation instead of having to be rewritten by it.
 | `StatsTests` | Due/forecast/maturity buckets, retention excluding introductions |
 | `AuthTests` | PBKDF2 round-trip and NFC normalisation, constant-time compare, guest adoption, no account-enumeration oracle, deletion completeness |
 | `SeedLoaderTests` | Every bundled pack parses, import is idempotent, user words are never overwritten |
+| `ClozeTests` | Token vs substring masking per language, English inflections, authored blanks, 100% coverage of bundled content, enrolment skipping cloze when no sentence can be masked |
+| `PaletteContrastTests` | Every colour pairing measured in both appearances against 4.5:1 (3:1 for non-text) |
 | `StudyCalendarTests` · `StreakTests` | Day boundaries, DST transitions, streak survival rules |
 
 `VocabLoopUITests` is deliberately small: it checks that a user who never creates

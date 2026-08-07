@@ -147,8 +147,10 @@ The only screen most users see on most days. Top to bottom:
 Full-screen cover. Chrome is one thin progress bar and a close button; nothing else.
 
 - **Front:** the prompt only. For recognition cards, the word form plus phonetics
-  and a speaker button. For production cards, the definition. A single
-  `Show answer` button pinned to the bottom safe area.
+  and a speaker button. For production cards, the definition. For cloze cards, the
+  example sentence with the word removed, plus the definition in `textTertiary` as
+  the only help — without it the card is a guessing game. A single `Show answer`
+  button pinned to the bottom safe area.
 - **Back:** the front content stays in place at the top (it must not jump) and the
   answer expands below it — definitions, examples, grammar notes. The rating bar
   replaces `Show answer` in the same position.
@@ -162,6 +164,12 @@ Full-screen cover. Chrome is one thin progress bar and a close button; nothing e
   keyboards; swipe down to close with a confirm if the session is unfinished.
 - **Summary on completion:** cards reviewed, accuracy, time, rating breakdown, and
   the next due time. One button back to Today.
+
+**Cloze blanks** are a fixed width, never scaled to the answer. A blank that grows with
+the word leaks how many letters to produce and turns recall into a crossword clue. The
+answer shown on reveal is the *surface form* found in the sentence — `lent`, not `lend` —
+because that difference is most of what the card teaches; the lemma is shown beside it
+when the two differ.
 
 ### Browse
 

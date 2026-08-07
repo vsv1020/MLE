@@ -299,7 +299,9 @@ struct CardTypeSettingsView: View {
                 } header: {
                     Text("Cards created for each new word")
                 } footer: {
-                    Text("Production cards are harder and roughly double your review load. They are also what makes a word usable rather than merely recognisable. This only affects words you add from now on.")
+                    // Each extra direction is another card per word, so the honest framing is
+                    // what it costs as well as what it buys.
+                    Text("Each type you add is another card per word. Recognition alone is enough to read; production and in-context cards are what make a word usable when you speak or write. In context is only created for words that have a suitable example sentence. This affects words you add from now on.")
                 }
             }
         }

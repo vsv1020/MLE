@@ -31,6 +31,11 @@ public final class ReviewService {
     ) throws -> [Card] {
         var created: [Card] = []
         for direction in preferences.enabledDirections {
+            // A cloze card needs a sentence the headword can actually be removed from. For
+            // an entry without one, a cloze card would present a blank in the wrong place —
+            // worse than not offering the card, so it is skipped rather than approximated.
+            if direction.requiresExampleSentence, !entry.supportsCloze { continue }
+
             let cardID = Card.makeCardID(entryStableID: entry.stableID, direction: direction)
             if try context.card(cardID: cardID) != nil { continue }
 

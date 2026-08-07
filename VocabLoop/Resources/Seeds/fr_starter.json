@@ -1,6 +1,6 @@
 {
   "packName": "fr_starter",
-  "version": 1,
+  "version": 2,
   "languageCode": "fr",
   "deck": {
     "name": "Français · Débutant",
@@ -19,9 +19,18 @@
         {
           "partOfSpeech": "interjection",
           "definition": "salutation utilisée pendant la journée",
-          "translations": { "en": "hello, good day", "zh": "你好" },
+          "translations": {
+            "en": "hello, good day",
+            "zh": "你好"
+          },
           "examples": [
-            { "text": "Bonjour, comment allez-vous ?", "translations": { "en": "Hello, how are you?", "zh": "你好，你好吗？" } }
+            {
+              "text": "Bonjour, comment allez-vous ?",
+              "translations": {
+                "en": "Hello, how are you?",
+                "zh": "你好，你好吗？"
+              }
+            }
           ],
           "usageNote": "Après le coucher du soleil, on dit « bonsoir »."
         }
@@ -32,14 +41,26 @@
       "phonetic": "/livʁ/",
       "cefr": "A1",
       "frequencyRank": 410,
-      "grammarNotes": { "gender": "masculin", "plural": "livres" },
+      "grammarNotes": {
+        "gender": "masculin",
+        "plural": "livres"
+      },
       "senses": [
         {
           "partOfSpeech": "noun",
           "definition": "ensemble de pages imprimées reliées ensemble",
-          "translations": { "en": "book", "zh": "书" },
+          "translations": {
+            "en": "book",
+            "zh": "书"
+          },
           "examples": [
-            { "text": "J'ai lu ce livre deux fois.", "translations": { "en": "I have read this book twice.", "zh": "这本书我读了两遍。" } }
+            {
+              "text": "J'ai lu ce livre deux fois.",
+              "translations": {
+                "en": "I have read this book twice.",
+                "zh": "这本书我读了两遍。"
+              }
+            }
           ],
           "usageNote": "« Le livre » est un livre ; « la livre » est une unité de poids. Le genre change le sens."
         }
@@ -50,14 +71,27 @@
       "phonetic": "/o/",
       "cefr": "A1",
       "frequencyRank": 350,
-      "grammarNotes": { "gender": "féminin", "plural": "eaux" },
+      "grammarNotes": {
+        "gender": "féminin",
+        "plural": "eaux"
+      },
       "senses": [
         {
           "partOfSpeech": "noun",
           "definition": "liquide transparent que l'on boit",
-          "translations": { "en": "water", "zh": "水" },
+          "translations": {
+            "en": "water",
+            "zh": "水"
+          },
           "examples": [
-            { "text": "Un verre d'eau, s'il vous plaît.", "translations": { "en": "A glass of water, please.", "zh": "请给我一杯水。" } }
+            {
+              "text": "Un verre d'eau, s'il vous plaît.",
+              "translations": {
+                "en": "A glass of water, please.",
+                "zh": "请给我一杯水。"
+              },
+              "cloze": "Un verre d'{{eau}}, s'il vous plaît."
+            }
           ]
         }
       ]
@@ -67,14 +101,26 @@
       "phonetic": "/a.pʁɑ̃dʁ/",
       "cefr": "A1",
       "frequencyRank": 620,
-      "grammarNotes": { "conjugation": "irrégulier — j'apprends, nous apprenons, j'ai appris" },
+      "grammarNotes": {
+        "conjugation": "irrégulier — j'apprends, nous apprenons, j'ai appris"
+      },
       "senses": [
         {
           "partOfSpeech": "verb",
           "definition": "acquérir une connaissance ou une compétence",
-          "translations": { "en": "to learn", "zh": "学习" },
+          "translations": {
+            "en": "to learn",
+            "zh": "学习"
+          },
           "examples": [
-            { "text": "J'apprends le français depuis un an.", "translations": { "en": "I have been learning French for a year.", "zh": "我学法语已经一年了。" } }
+            {
+              "text": "J'apprends le français depuis un an.",
+              "translations": {
+                "en": "I have been learning French for a year.",
+                "zh": "我学法语已经一年了。"
+              },
+              "cloze": "J'{{apprends}} le français depuis un an."
+            }
           ]
         }
       ]
@@ -88,9 +134,18 @@
         {
           "partOfSpeech": "adverb",
           "definition": "en tout temps, à chaque occasion",
-          "translations": { "en": "always; still", "zh": "总是；仍然" },
+          "translations": {
+            "en": "always; still",
+            "zh": "总是；仍然"
+          },
           "examples": [
-            { "text": "Elle arrive toujours en avance.", "translations": { "en": "She always arrives early.", "zh": "她总是提前到。" } }
+            {
+              "text": "Elle arrive toujours en avance.",
+              "translations": {
+                "en": "She always arrives early.",
+                "zh": "她总是提前到。"
+              }
+            }
           ]
         }
       ]
@@ -100,14 +155,26 @@
       "phonetic": "/mɛ.zɔ̃/",
       "cefr": "A1",
       "frequencyRank": 280,
-      "grammarNotes": { "gender": "féminin", "plural": "maisons" },
+      "grammarNotes": {
+        "gender": "féminin",
+        "plural": "maisons"
+      },
       "senses": [
         {
           "partOfSpeech": "noun",
           "definition": "bâtiment où l'on habite",
-          "translations": { "en": "house, home", "zh": "房子；家" },
+          "translations": {
+            "en": "house, home",
+            "zh": "房子；家"
+          },
           "examples": [
-            { "text": "Nous rentrons à la maison.", "translations": { "en": "We are going home.", "zh": "我们回家。" } }
+            {
+              "text": "Nous rentrons à la maison.",
+              "translations": {
+                "en": "We are going home.",
+                "zh": "我们回家。"
+              }
+            }
           ]
         }
       ]
@@ -121,11 +188,22 @@
         {
           "partOfSpeech": "adjective",
           "definition": "qui demande un effort ; qui n'est pas facile",
-          "translations": { "en": "difficult", "zh": "困难的" },
+          "translations": {
+            "en": "difficult",
+            "zh": "困难的"
+          },
           "examples": [
-            { "text": "La prononciation est difficile au début.", "translations": { "en": "Pronunciation is difficult at first.", "zh": "发音一开始很难。" } }
+            {
+              "text": "La prononciation est difficile au début.",
+              "translations": {
+                "en": "Pronunciation is difficult at first.",
+                "zh": "发音一开始很难。"
+              }
+            }
           ],
-          "antonyms": ["facile"]
+          "antonyms": [
+            "facile"
+          ]
         }
       ]
     },
@@ -138,9 +216,18 @@
         {
           "partOfSpeech": "interjection",
           "definition": "formule de politesse pour exprimer sa gratitude",
-          "translations": { "en": "thank you", "zh": "谢谢" },
+          "translations": {
+            "en": "thank you",
+            "zh": "谢谢"
+          },
           "examples": [
-            { "text": "Merci beaucoup pour votre aide.", "translations": { "en": "Thank you very much for your help.", "zh": "非常感谢您的帮助。" } }
+            {
+              "text": "Merci beaucoup pour votre aide.",
+              "translations": {
+                "en": "Thank you very much for your help.",
+                "zh": "非常感谢您的帮助。"
+              }
+            }
           ]
         }
       ]

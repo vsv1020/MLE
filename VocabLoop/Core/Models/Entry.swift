@@ -142,6 +142,38 @@ public final class Entry {
             .min { (order.firstIndex(of: $0) ?? 0) < (order.firstIndex(of: $1) ?? 0) } ?? .new
     }
 
+    /// The best cloze prompt this entry can produce, or `nil` if none of its examples
+    /// contain the headword in a locatable form.
+    ///
+    /// Senses are walked in author order and their examples in order, so the prompt a learner
+    /// sees is stable rather than depending on which example happened to match first in an
+    /// unordered fetch. An authored blank is preferred over a heuristic match.
+    public func clozePrompt() -> ClozePrompt? {
+        guard let language else { return nil }
+        var heuristic: ClozePrompt?
+
+        for sense in orderedSenses {
+            for example in sense.examples {
+                if ClozeMasker.hasAuthoredBlank(example.cloze),
+                   let authored = ClozeMasker.makePrompt(
+                       headword: headword, sentence: example.text,
+                       language: language, authored: example.cloze
+                   ) {
+                    return authored
+                }
+                if heuristic == nil {
+                    heuristic = ClozeMasker.makePrompt(
+                        headword: headword, sentence: example.text, language: language
+                    )
+                }
+            }
+        }
+        return heuristic
+    }
+
+    /// `true` when a cloze card is worth creating for this entry.
+    public var supportsCloze: Bool { clozePrompt() != nil }
+
     /// Case- and diacritic-insensitive key. `"Café"` and `"cafe"` collide on purpose
     /// so a user cannot create a duplicate of a word that already exists.
     public static func normalize(_ text: String) -> String {
@@ -235,13 +267,22 @@ public struct ExampleSentence: Codable, Hashable, Sendable, Identifiable {
     public var text: String
     public var translations: [String: String]
 
+    /// The same sentence with the target span marked, e.g.
+    /// `"She {{lent}} me her bicycle."`
+    ///
+    /// Optional, and only needed where ``ClozeMasker`` cannot find the headword on its own —
+    /// irregular verbs (`lend → lent`) and elision (`de + eau → d'eau`). It decodes as `nil`
+    /// when absent, so existing stored blobs and packs without the field stay valid.
+    public var cloze: String?
+
     /// Derived rather than stored — these live inside a `Codable` blob, so a stored
     /// UUID would change on every re-encode and break SwiftUI's diffing.
     public var id: String { text }
 
-    public init(text: String, translations: [String: String] = [:]) {
+    public init(text: String, translations: [String: String] = [:], cloze: String? = nil) {
         self.text = text
         self.translations = translations
+        self.cloze = cloze
     }
 
     public func translation(preferring codes: [String]) -> String? {

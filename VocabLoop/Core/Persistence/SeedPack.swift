@@ -58,6 +58,11 @@ public struct SeedSense: Codable, Hashable, Sendable {
 public struct SeedExample: Codable, Hashable, Sendable {
     public var text: String
     public var translations: [String: String]?
+    /// The same sentence with the cloze target marked: `"She {{lent}} me her bicycle."`
+    ///
+    /// Only needed where ``ClozeMasker`` cannot locate the headword by itself — irregular
+    /// verbs and elision. 97% of the bundled content needs no marker.
+    public var cloze: String?
 }
 
 /// What an import actually did — surfaced in Settings ▸ Data and asserted in tests.

@@ -208,7 +208,11 @@ public actor SeedImporter {
                 definition: seedSense.definition,
                 translations: seedSense.translations ?? [:],
                 examples: (seedSense.examples ?? []).map {
-                    ExampleSentence(text: $0.text, translations: $0.translations ?? [:])
+                    ExampleSentence(
+                        text: $0.text,
+                        translations: $0.translations ?? [:],
+                        cloze: $0.cloze
+                    )
                 },
                 synonyms: seedSense.synonyms ?? [],
                 antonyms: seedSense.antonyms ?? [],

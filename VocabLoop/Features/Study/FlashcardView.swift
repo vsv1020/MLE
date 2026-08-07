@@ -91,7 +91,71 @@ struct FlashcardView: View {
                     Chip(pos.displayName)
                 }
             }
+
+        case .cloze:
+            VStack(alignment: .leading, spacing: Spacing.sm) {
+                directionBadge
+                if let prompt = clozePrompt {
+                    // The sentence is the prompt, so it gets display size rather than the
+                    // small serif used for supporting examples elsewhere.
+                    clozeSentence(prompt, revealed: false)
+                    if let translation = clozeTranslation {
+                        Text(translation)
+                            .font(Typography.body)
+                            .foregroundStyle(Palette.textSecondary)
+                    }
+                    // The definition, without the headword in it, is the only help offered.
+                    // It is what makes the card answerable rather than a guessing game.
+                    Text(entry?.primaryDefinition ?? "")
+                        .font(Typography.caption)
+                        .foregroundStyle(Palette.textTertiary)
+                        .fixedSize(horizontal: false, vertical: true)
+                } else {
+                    // Enrolment refuses to create a cloze card without a maskable sentence,
+                    // so this only appears if content changed under an existing card.
+                    Text(entry?.headword ?? "—")
+                        .font(Typography.wordDisplay)
+                        .foregroundStyle(Palette.textPrimary)
+                    Text("This sentence is no longer available.")
+                        .font(Typography.caption)
+                        .foregroundStyle(Palette.textTertiary)
+                }
+            }
         }
+    }
+
+    private var clozePrompt: ClozePrompt? { entry?.clozePrompt() }
+
+    /// Translation of whichever example the cloze came from, matched by its text.
+    private var clozeTranslation: String? {
+        guard let prompt = clozePrompt, let entry else { return nil }
+        let sentence = prompt.revealed
+        for sense in entry.orderedSenses {
+            for example in sense.examples where example.text == sentence {
+                return example.translation(preferring: nativeCodes)
+            }
+        }
+        return nil
+    }
+
+    /// The sentence with the blank, or with the answer filled in and emphasised.
+    private func clozeSentence(_ prompt: ClozePrompt, revealed: Bool) -> some View {
+        Group {
+            if revealed {
+                (
+                    Text(prompt.before)
+                        + Text(prompt.answer).foregroundColor(Palette.brandPrimary).bold()
+                        + Text(prompt.after)
+                )
+            } else {
+                Text(prompt.masked)
+            }
+        }
+        .font(Typography.wordTitle)
+        .foregroundStyle(Palette.textPrimary)
+        .fixedSize(horizontal: false, vertical: true)
+        // A run of underscores is read out character by character; this says "blank".
+        .accessibilityLabel(revealed ? prompt.revealed : prompt.accessibleMasked)
     }
 
     /// Which way round the card is being tested. Without this, a production card looks like a
@@ -124,6 +188,28 @@ struct FlashcardView: View {
                 }
             }
 
+            if card.direction == .cloze, let entry, let prompt = clozePrompt {
+                // Fill the blank in place rather than restating the sentence below it, so the
+                // eye lands on the word it just tried to produce.
+                clozeSentence(prompt, revealed: true)
+                HStack(alignment: .firstTextBaseline, spacing: Spacing.xs) {
+                    // The surface form is what went in the blank; the headword is what the
+                    // dictionary calls it. When they differ — lend / lent — say both, because
+                    // that difference is most of what the card is teaching.
+                    if prompt.answer.lowercased() != entry.headword.lowercased() {
+                        Text(entry.headword)
+                            .font(Typography.bodyEmphasis)
+                            .foregroundStyle(Palette.textSecondary)
+                    }
+                    if showPhonetics, let phonetic = entry.phonetic {
+                        Text(phonetic)
+                            .font(Typography.phonetic)
+                            .foregroundStyle(Palette.textSecondary)
+                    }
+                    SpeakerButton(text: prompt.revealed, language: language, size: .callout)
+                }
+            }
+
             ForEach(Array((entry?.orderedSenses ?? []).enumerated()), id: \.element.id) { index, sense in
                 senseBlock(sense, index: index)
             }
@@ -143,7 +229,9 @@ struct FlashcardView: View {
                 }
             }
 
-            if card.direction == .recognition || index > 0 {
+            // A production card already asked with the definition, so repeating it as the
+            // answer would be circular. Recognition and cloze both benefit from seeing it.
+            if card.direction != .production || index > 0 {
                 Text(sense.definition)
                     .font(Typography.body)
                     .foregroundStyle(Palette.textPrimary)

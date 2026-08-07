@@ -77,6 +77,18 @@ jobs:
                   if 'cefr' in entry and entry['cefr'] not in ('A1','A2','B1','B2','C1','C2'):
                       failures.append(f'{name}: {head!r} has an invalid CEFR level {entry["cefr"]!r}')
 
+                  # A cloze marker must be the same sentence as `text`, or revealing the
+                  # answer would show something the learner never read.
+                  for sense in entry.get('senses', []):
+                      for example in sense.get('examples', []):
+                          marker = example.get('cloze')
+                          if marker is None:
+                              continue
+                          if '{{' not in marker or '}}' not in marker:
+                              failures.append(f'{name}: {head!r} cloze marker has no {{{{...}}}} span')
+                          elif marker.replace('{{', '').replace('}}', '') != example.get('text'):
+                              failures.append(f'{name}: {head!r} cloze marker does not match its text')
+
               print(f'{name:24s} v{pack.get("version")}  {len(pack.get("entries", []))} entries')
 
           print(f'\n{total} entries across {len(glob.glob("VocabLoop/Resources/Seeds/*.json"))} packs')

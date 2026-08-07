@@ -12,6 +12,12 @@ public enum CardDirection: String, Codable, CaseIterable, Hashable, Sendable, Id
     case recognition
     /// Meaning → word. "What is the word for *to give up completely*?"
     case production
+    /// Sentence with the word removed. "Can I _____ your pen?"
+    ///
+    /// Harder than production and closer to using the language: the blank constrains which
+    /// form is correct, so the learner has to produce `lent`, not `lend`. Only created when
+    /// the entry actually has a maskable example — see ``ClozeMasker``.
+    case cloze
 
     public var id: String { rawValue }
 
@@ -19,6 +25,7 @@ public enum CardDirection: String, Codable, CaseIterable, Hashable, Sendable, Id
         switch self {
         case .recognition: "Recognition"
         case .production: "Production"
+        case .cloze: "In context"
         }
     }
 
@@ -26,6 +33,7 @@ public enum CardDirection: String, Codable, CaseIterable, Hashable, Sendable, Id
         switch self {
         case .recognition: "See the word, recall its meaning"
         case .production: "See the meaning, recall the word"
+        case .cloze: "Fill the word into a real sentence"
         }
     }
 
@@ -33,8 +41,12 @@ public enum CardDirection: String, Codable, CaseIterable, Hashable, Sendable, Id
         switch self {
         case .recognition: "text.magnifyingglass"
         case .production: "pencil.and.scribble"
+        case .cloze: "text.insert"
         }
     }
+
+    /// `true` when a card of this kind can only exist if the entry supplies extra content.
+    public var requiresExampleSentence: Bool { self == .cloze }
 }
 
 /// One schedulable item: an ``Entry`` tested in one ``CardDirection``.
