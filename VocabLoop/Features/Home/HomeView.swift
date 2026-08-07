@@ -7,6 +7,7 @@ import SwiftData
 /// reviews is what actually loses progress, whereas a new word can wait a day with no cost.
 struct HomeView: View {
     @Environment(\.appDependencies) private var dependencies
+    @Environment(\.scenePhase) private var scenePhase
     @State private var model = HomeViewModel()
     @State private var isStudying = false
     @State private var studyOptions = ReviewQueueBuilder.Options()
@@ -34,7 +35,16 @@ struct HomeView: View {
                 }
             }
             .refreshable { reload() }
-            .task { reload() }
+            .task {
+                reload()
+                consumeIntentRequest()
+            }
+            // "Hey Siri, start reviewing" brings the app forward without saying why, so the
+            // note the intent left is checked again once the scene is actually active — on a
+            // warm launch the task above may already have run.
+            .onChange(of: scenePhase) { _, phase in
+                if phase == .active { consumeIntentRequest() }
+            }
             .fullScreenCover(isPresented: $isStudying, onDismiss: reload) {
                 StudySessionView(options: studyOptions)
             }
@@ -215,6 +225,18 @@ struct HomeView: View {
         model.load(dependencies: dependencies)
         Task {
             await dependencies.notifications.updateBadge(to: model.statistics.dueNow)
+        }
+    }
+
+    /// Act on a one-shot instruction left by an App Intent, if there is one.
+    ///
+    /// Taken rather than read, so a session starts exactly once per invocation. Guarded on
+    /// `isStudying` so arriving while already mid-session does nothing rather than restarting.
+    private func consumeIntentRequest() {
+        guard !isStudying, let action = IntentLaunchRequest.shared.take() else { return }
+        switch action {
+        case .startReview:
+            startSession(includeAhead: !model.hasWorkToDo)
         }
     }
 

@@ -208,6 +208,18 @@ not at all.
 
 ---
 
+## Status of the three picks
+
+- **Cloze cards** — done. 100% coverage of the bundled content, language-aware masking,
+  opt-in per user.
+- **App Intents** — done, in the app target: Siri, Shortcuts and Spotlight work now.
+  The Widget Extension target is documented in [`WIDGET.md`](WIDGET.md) rather than
+  hand-written, for the reason given there.
+- **Optimiser** — plumbing done: training-set construction, the readiness gate, CSV export
+  and the apply path. The fit itself still needs the FFI decision.
+
+---
+
 ## If I had to pick three
 
 **Cloze cards** (Tier 1.2) — largest learning gain per line of code, and the schema already

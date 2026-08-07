@@ -82,10 +82,11 @@ deletion.
 | `VocabLoop/Core/Services` | Review grading, queue building, daily words, statistics, streaks, TTS, reminders, search, export |
 | `VocabLoop/Core/Auth` | `AuthBackend` with local and remote implementations, PBKDF2, Keychain, Apple |
 | `VocabLoop/Core/Sync` | Outbox-based sync engine over a REST client (off until a server exists) |
+| `VocabLoop/Core/Intents` | Siri and Shortcuts entry points — also what a widget button calls |
 | `VocabLoop/DesignSystem` | Colour and type tokens, shared components |
 | `VocabLoop/Features` | One folder per screen: SwiftUI views plus `@Observable` view models |
 | `VocabLoop/Resources/Seeds` | Content packs as JSON — 146 curated entries across five packs |
-| `docs/` | [Screen preview](docs/screens.html) · [Research and decisions](docs/RESEARCH.md) · [UI specification](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [What to build next](docs/ROADMAP.md) |
+| `docs/` | [Screen preview](docs/screens.html) · [Research](docs/RESEARCH.md) · [UI spec](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Adding the widget](docs/WIDGET.md) |
 
 Dependencies point **downward only**: `Core/SRS` knows nothing about SwiftData or
 SwiftUI, which is what makes it testable in isolation and replaceable.
@@ -141,6 +142,7 @@ optimisation instead of having to be rewritten by it.
 | `SeedLoaderTests` | Every bundled pack parses, import is idempotent, user words are never overwritten |
 | `ClozeTests` | Token vs substring masking per language, English inflections, authored blanks, 100% coverage of bundled content, enrolment skipping cloze when no sentence can be masked |
 | `PaletteContrastTests` | Every colour pairing measured in both appearances against 4.5:1 (3:1 for non-text) |
+| `OptimizerTests` | Per-card `deltaT` across interleaved reviews, CSV contract, readiness needing breadth as well as volume, invalid weight vectors rejected |
 | `StudyCalendarTests` · `StreakTests` | Day boundaries, DST transitions, streak survival rules |
 
 `VocabLoopUITests` is deliberately small: it checks that a user who never creates
@@ -172,8 +174,16 @@ Stated plainly rather than implied as done:
   against the contract documented in their source, and switch on when
   `APIConfiguration.baseURL` is set. Until then the outbox accumulates locally so
   nothing is lost.
-- **No per-user FSRS weight optimiser.** The data to fit one is being collected
-  from the first review.
+- **No per-user FSRS weight optimiser.** Everything either side of the fit is done —
+  `OptimizerService` builds the training set in the format the published optimisers read,
+  gates on having enough history, and applies a result. The fit itself needs `fsrs-rs` over
+  FFI, which would be the project's first non-Apple dependency. Until then Settings ▸ Memory
+  algorithm ▸ Tune to my memory exports the log so you can fit it yourself.
+- **No widget.** The App Intents are done and drive Siri and Shortcuts today; the Widget
+  Extension target is a thirty-second Xcode template plus an App Group — see
+  [`docs/WIDGET.md`](docs/WIDGET.md), which has the code. Not hand-written here because
+  adding an unverifiable second target to a project that has never compiled is the wrong
+  order to do things in.
 - **UI copy is English only.** The *learning* language is fully abstracted
   (`LearningLanguage`), which is the stated requirement; localising the app's own
   interface is a separate axis and not done.

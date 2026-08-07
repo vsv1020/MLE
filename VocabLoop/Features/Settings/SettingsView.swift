@@ -242,6 +242,10 @@ struct SchedulerSettingsView: View {
                 } footer: {
                     Text("How a brand-new word is introduced before the algorithm takes over. Editing these is planned for a later release.")
                 }
+
+                if preferences.scheduler == .fsrs5 {
+                    NavigationLink("Tune to my memory") { OptimizerSettingsView() }
+                }
             }
         }
         .navigationTitle("Memory algorithm")
