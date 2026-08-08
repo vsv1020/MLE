@@ -42,6 +42,7 @@ struct EntryDetailView: View {
 
     @Environment(\.appDependencies) private var dependencies
     @State private var isShowingResetConfirmation = false
+    @State private var actionError: String?
 
     private var language: LearningLanguage {
         entry.language ?? dependencies.preferences?.activeLanguage ?? .english
@@ -79,13 +80,33 @@ struct EntryDetailView: View {
             titleVisibility: .visible
         ) {
             Button("Reset to new", role: .destructive) {
-                for card in entry.cards {
-                    try? dependencies.review.resetProgress(card: card)
-                }
+                perform { try $0.resetProgress(for: entry) }
             }
             Button("Cancel", role: .cancel) {}
         } message: {
             Text("The card goes back to being unseen. Your past reviews are kept for statistics.")
+        }
+        .alert("That didn’t work", isPresented: Binding(
+            get: { actionError != nil },
+            set: { if !$0 { actionError = nil } }
+        )) {
+            Button("OK") { actionError = nil }
+        } message: {
+            Text(actionError ?? "")
+        }
+    }
+
+    /// Run a mutating action, surfacing a failure instead of swallowing it.
+    ///
+    /// Every control on this screen writes to the store, and `try?` on a button action means a
+    /// failed write looks exactly like a button that does nothing. A save can genuinely fail —
+    /// a full disk is the ordinary case — and the user has to be told rather than left tapping.
+    private func perform(_ action: (ReviewService) throws -> Void) {
+        do {
+            try action(dependencies.review)
+            Haptics.tap()
+        } catch {
+            actionError = error.localizedDescription
         }
     }
 
@@ -144,12 +165,11 @@ struct EntryDetailView: View {
                         isShowingResetConfirmation = true
                     }
                     Button(isSuspended ? "Resume studying" : "Pause studying") {
-                        for card in entry.cards {
-                            try? dependencies.review.setSuspended(!isSuspended, card: card)
-                        }
+                        let shouldSuspend = !isSuspended
+                        perform { try $0.setSuspended(shouldSuspend, for: entry) }
                     }
                     Button("Remove from my words", role: .destructive) {
-                        try? dependencies.review.unenroll(entry: entry)
+                        perform { try $0.unenroll(entry: entry) }
                     }
                 } label: {
                     Label("Manage", systemImage: "ellipsis.circle")
@@ -159,8 +179,7 @@ struct EntryDetailView: View {
         } else {
             PrimaryButton("Add to my words", systemImage: "plus") {
                 guard let preferences = dependencies.preferences else { return }
-                try? dependencies.review.enroll(entry: entry, preferences: preferences)
-                Haptics.tap()
+                perform { _ = try $0.enroll(entry: entry, preferences: preferences) }
             }
         }
     }

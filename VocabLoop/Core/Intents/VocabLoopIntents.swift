@@ -62,11 +62,20 @@ struct ReviewStatusIntent: AppIntent {
             .statistics(for: account, preferences: preferences)
 
         // Phrased so a zero reads as an achievement rather than an error.
+        //
+        // Each branch returns its own literal instead of picking one with a ternary:
+        // `IntentDialog` is only reachable from a string *literal* through
+        // `ExpressibleByStringInterpolation`, and a ternary types its branches as `String`
+        // first, so the conversion never gets a chance to happen.
         if stats.dueNow == 0 {
             let newWords = stats.newAvailable
-            return .result(dialog: newWords > 0
-                ? "You are caught up on reviews. \(newWords) new \(newWords == 1 ? "card is" : "cards are") ready when you want them."
-                : "You are all caught up. Nothing is due right now.")
+            guard newWords > 0 else {
+                return .result(dialog: "You are all caught up. Nothing is due right now.")
+            }
+            let noun = newWords == 1 ? "card is" : "cards are"
+            return .result(
+                dialog: "You are caught up on reviews. \(newWords) new \(noun) ready when you want them."
+            )
         }
 
         let word = stats.dueNow == 1 ? "word" : "words"

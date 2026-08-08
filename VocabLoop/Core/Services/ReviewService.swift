@@ -232,6 +232,29 @@ public final class ReviewService {
         try context.save()
     }
 
+    /// Suspend or resume every card for one word.
+    ///
+    /// Here rather than as a loop at the call site, because the target has to be decided once
+    /// up front. Callers derive "is this word paused?" from the cards themselves, so a loop that
+    /// re-reads that condition each iteration flips the target part way through resuming and
+    /// leaves the word's cards disagreeing with each other.
+    public func setSuspended(_ suspended: Bool, for entry: Entry) throws {
+        for card in entry.cards {
+            card.isSuspended = suspended
+            card.touch()
+        }
+        try context.save()
+    }
+
+    /// Reset every card for one word.
+    public func resetProgress(for entry: Entry, now: Date = Date()) throws {
+        for card in entry.cards {
+            card.schedulingState = .newCard(due: now)
+            card.touch(now)
+        }
+        try context.save()
+    }
+
     /// Hide a card until the next study day. Used by "not this one right now".
     public func bury(card: Card, preferences: StudyPreferences, now: Date = Date()) throws {
         card.buriedUntil = StudyCalendar(preferences: preferences).dayEnd(for: now)

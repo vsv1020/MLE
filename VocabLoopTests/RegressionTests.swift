@@ -122,8 +122,10 @@ final class RegressionTests: XCTestCase {
     /// Pressing Again re-queues the card, so the session really is longer. Without growing the
     /// denominator the header read "25/20", which looks like a bug rather than a consequence.
     func testSessionDenominatorGrowsWhenACardIsRequeued() throws {
-        // One container, shared: AppDependencies uses its `mainContext`, and the fixture writes
-        // through a second context on the same container, so a save makes the cards visible.
+        // The real object graph rather than a bare context: `StudyViewModel.start` reads
+        // `dependencies.preferences` and grades through `dependencies.review`, so a fixture
+        // built on a separate context would not be the one the session sees. `dependencies.context`
+        // *is* the container's `mainContext`, so the cards written below are the cards queued.
         let container = try PersistenceController.makeInMemoryContainer()
         let dependencies = AppDependencies(container: container)
         let context = dependencies.context
@@ -163,6 +165,63 @@ final class RegressionTests: XCTestCase {
         let model = StudyViewModel()
         XCTAssertEqual(model.progress, 0, "an unstarted session is not complete")
         XCTAssertNil(model.accuracy, "accuracy is unknown before the first answer, not 0%")
+    }
+
+    // MARK: - Pausing and resuming a whole word
+
+    /// Resuming a word must unsuspend *all* of its cards.
+    ///
+    /// The bug was a loop at the call site: "is this word paused?" is derived from the cards, so
+    /// unsuspending the first one made the condition false and the loop suspended the second one
+    /// instead. A word with two directions could not be resumed at all — it just swapped which
+    /// card was paused.
+    func testResumingAWordUnsuspendsEveryOneOfItsCards() throws {
+        let context = try TestStore.makeContext()
+        _ = try context.activeAccount()
+        let review = ReviewService(context: context)
+
+        let entry = try TestStore.makeEntry(in: context, headword: "reversible")
+        for direction in [CardDirection.recognition, .production] {
+            let card = try TestStore.makeCard(
+                in: context, for: entry, direction: direction, due: referenceDate
+            )
+            card.isSuspended = true
+        }
+        try context.save()
+        XCTAssertEqual(entry.cards.count, 2)
+        XCTAssertTrue(entry.cards.allSatisfy(\.isSuspended), "the fixture starts fully paused")
+
+        try review.setSuspended(false, for: entry)
+        XCTAssertTrue(
+            entry.cards.allSatisfy { !$0.isSuspended },
+            "every card must resume, not just the first"
+        )
+
+        // And the other direction, which never had the bug — the target only flips while resuming.
+        try review.setSuspended(true, for: entry)
+        XCTAssertTrue(entry.cards.allSatisfy(\.isSuspended))
+    }
+
+    /// Resetting a word resets every card, and keeps the review log.
+    func testResettingAWordResetsEveryOneOfItsCards() throws {
+        let context = try TestStore.makeContext()
+        _ = try context.activeAccount()
+        let review = ReviewService(context: context)
+
+        let entry = try TestStore.makeEntry(in: context, headword: "recoverable")
+        for direction in [CardDirection.recognition, .production] {
+            try TestStore.makeCard(
+                in: context, for: entry, direction: direction,
+                phase: .review, due: referenceDate, intervalDays: 40, stability: 40
+            )
+        }
+        try context.save()
+
+        try review.resetProgress(for: entry, now: referenceDate)
+        for card in entry.cards {
+            XCTAssertEqual(card.phase, .new, "\(card.direction) was left scheduled")
+            XCTAssertEqual(card.intervalDays, 0, accuracy: 1e-9)
+        }
     }
 
     // MARK: - HTTPS enforcement

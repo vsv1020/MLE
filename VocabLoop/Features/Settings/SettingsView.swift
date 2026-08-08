@@ -393,7 +393,10 @@ struct PresentationSettingsView: View {
 
     var body: some View {
         Form {
-            if let preferences = dependencies.preferences {
+            // Existence check only — every row here binds through `toggle`, which reads
+            // `dependencies.preferences` itself so a change is written to the live object
+            // rather than to a copy captured when the body ran.
+            if dependencies.preferences != nil {
                 Section {
                     Toggle("Show pronunciation", isOn: toggle(\.showPhonetics))
                     Toggle("Play audio automatically", isOn: toggle(\.autoPlayAudio))
