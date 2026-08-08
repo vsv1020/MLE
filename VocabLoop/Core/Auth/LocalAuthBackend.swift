@@ -163,13 +163,20 @@ public final class LocalAuthBackend: AuthBackend {
     public func completePasswordReset(email: String, proof: String, newPassword: String) async throws {
         if let problem = CredentialValidator.validatePassword(newPassword) { throw problem }
 
-        guard let account = try findAccount(withEmail: email.normalizedEmail),
-              let recoveryHash = account.recoveryCodeHash,
+        guard let account = try findAccount(withEmail: email.normalizedEmail) else {
+            // Same error as a wrong code, so this form cannot be used to find out which
+            // addresses have an account.
+            throw AuthError.recoveryCodeInvalid
+        }
+        // Checked before the hash, because the hash is cleared on use: without this the
+        // second attempt would report "invalid" when the truthful answer is "already spent",
+        // and the user would go looking for a typo that isn't there.
+        guard account.recoveryCodeUsedAt == nil else { throw AuthError.recoveryCodeAlreadyUsed }
+        guard let recoveryHash = account.recoveryCodeHash,
               let recoverySalt = account.recoveryCodeSalt
         else {
             throw AuthError.recoveryCodeInvalid
         }
-        guard account.recoveryCodeUsedAt == nil else { throw AuthError.recoveryCodeAlreadyUsed }
 
         guard PasswordHasher.verify(
             password: RecoveryCode.normalise(proof),
@@ -183,9 +190,19 @@ public final class LocalAuthBackend: AuthBackend {
         account.passwordSalt = salt
         account.passwordHash = try PasswordHasher.hash(password: newPassword, salt: salt)
         account.passwordIterations = PasswordHasher.iterations
-        // Spent codes cannot be replayed. The user gets a fresh one so they are not left
-        // without a recovery path.
+        // A spent code is destroyed, not merely flagged. Keeping the hash and relying on
+        // `recoveryCodeUsedAt` alone would mean one field standing between a written-down
+        // code and a second password reset; a migration that dropped the flag would quietly
+        // revive every code ever used. There is nothing to revive now.
+        //
+        // This leaves the account with no recovery path until the user generates a new code
+        // in Settings ▸ Account, which the reset screen tells them to do. Minting one here
+        // instead would mean showing a second code on a screen the user reached by having
+        // lost the first, and `AuthBackend.completePasswordReset` returns nothing for the
+        // remote case — a server sends an email and has no code to hand back.
         account.recoveryCodeUsedAt = Date()
+        account.recoveryCodeHash = nil
+        account.recoveryCodeSalt = nil
         account.touch()
         try saveOrThrow()
     }

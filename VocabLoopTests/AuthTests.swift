@@ -272,6 +272,45 @@ final class AuthTests: XCTestCase {
         }
     }
 
+    /// A spent code must be *destroyed*, not merely flagged.
+    ///
+    /// `recoveryCodeUsedAt` alone would be the single field standing between a code written on
+    /// paper and a second password reset. With the hash gone there is nothing left to verify
+    /// against, so no future migration or partial restore can revive it.
+    func testASpentRecoveryCodeLeavesNoHashBehind() async throws {
+        let context = try TestStore.makeContext()
+        _ = try context.activeAccount()
+        let backend = LocalAuthBackend(context: context)
+        let result = try await backend.signUp(
+            email: "user@example.com", password: "the original password", displayName: "Tester"
+        )
+        let code = try XCTUnwrap(result.recoveryCode)
+
+        let account = try context.activeAccount()
+        XCTAssertNotNil(account.recoveryCodeHash, "sign-up must issue a code")
+
+        try await backend.completePasswordReset(
+            email: "user@example.com", proof: code, newPassword: "the replacement password"
+        )
+        XCTAssertNil(account.recoveryCodeHash, "the spent code's hash must be gone")
+        XCTAssertNil(account.recoveryCodeSalt)
+        XCTAssertNotNil(account.recoveryCodeUsedAt)
+
+        // Regenerating restores a working recovery path, including clearing the spent marker —
+        // otherwise the replacement code could never be redeemed.
+        let session = try await backend.signIn(
+            email: "user@example.com", password: "the replacement password"
+        )
+        let replacement = try await backend.regenerateRecoveryCode(session: session)
+        XCTAssertNotEqual(replacement, code)
+        XCTAssertNil(account.recoveryCodeUsedAt, "a fresh code must not start out spent")
+
+        try await backend.completePasswordReset(
+            email: "user@example.com", proof: replacement, newPassword: "a third password here"
+        )
+        _ = try await backend.signIn(email: "user@example.com", password: "a third password here")
+    }
+
     func testWrongRecoveryCodeIsRejected() async throws {
         let context = try TestStore.makeContext()
         _ = try context.activeAccount()
