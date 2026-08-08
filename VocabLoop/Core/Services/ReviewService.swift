@@ -152,6 +152,13 @@ public final class ReviewService {
         card.stability = last.stabilityBefore
         card.difficulty = last.difficultyBefore
         card.intervalDays = last.scheduledDays
+        // SM-2's ease factor is cumulative — Again subtracts 0.2 and nothing gives it back — so
+        // leaving it alone would let an undone review shorten every future interval of this card
+        // forever. `stepIndex` matters for the same reason in miniature: without it, undoing a
+        // Good on the first learning step leaves the card advanced, and answering again graduates
+        // it instead of moving it to the second step.
+        card.easeFactor = last.easeFactorBefore
+        card.stepIndex = last.stepIndexBefore
         card.reps = max(0, card.reps - 1)
         if last.rating == .again, last.phaseBefore == .review {
             card.lapses = max(0, card.lapses - 1)
@@ -169,6 +176,12 @@ public final class ReviewService {
             day.reviewsCompleted = max(0, day.reviewsCompleted - 1)
             if last.rating.isSuccess { day.correctCount = max(0, day.correctCount - 1) }
             if last.phaseBefore == .new { day.newCardsIntroduced = max(0, day.newCardsIntroduced - 1) }
+            // Same cap `recordActivity` applied on the way in, so the two cannot drift and the
+            // day's time-studied does not creep upwards with every undo.
+            day.studySeconds = max(0, day.studySeconds - Self.cappedSeconds(last.durationMS))
+            // `goalMet` is latched on purpose — see `recordActivity` — but a day with zero
+            // reviews cannot have met any positive goal, and that case is unambiguous.
+            if day.reviewsCompleted == 0 { day.goalMet = false }
         }
 
         context.delete(last)
@@ -176,6 +189,16 @@ public final class ReviewService {
     }
 
     // MARK: - Daily rollup
+
+    /// One card's contribution to time studied, capped.
+    ///
+    /// A session left open on a locked phone would otherwise report hours of study for a single
+    /// card. Shared by `recordActivity` and `undoLastReview` as one function rather than the same
+    /// expression twice: if the cap changed in one place only, undo would subtract more than was
+    /// ever added and the day's total would drift downwards.
+    static func cappedSeconds(_ durationMS: Int) -> Int {
+        min(max(0, durationMS) / 1000, 120)
+    }
 
     /// Update today's ``StudyDay``.
     ///
@@ -192,9 +215,7 @@ public final class ReviewService {
         day.reviewsCompleted += 1
         if rating.isSuccess { day.correctCount += 1 }
         if wasIntroduction { day.newCardsIntroduced += 1 }
-        // Cap a single card's contribution: a session left open on a locked phone
-        // would otherwise report hours of study.
-        day.studySeconds += min(durationMS / 1000, 120)
+        day.studySeconds += Self.cappedSeconds(durationMS)
         if !day.goalMet, day.reviewsCompleted >= preferences.dailyGoal {
             day.goalMet = true
         }

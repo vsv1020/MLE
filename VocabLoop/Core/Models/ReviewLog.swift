@@ -46,6 +46,22 @@ public final class ReviewLog {
     public var stabilityAfter: Double
     public var difficultyBefore: Double
     public var difficultyAfter: Double
+
+    /// SM-2's ease factor before the review.
+    ///
+    /// Recorded because SM-2 is a selectable scheduler and its ease factor is *cumulative*:
+    /// pressing Again subtracts 0.2 permanently. Without this, `undoLastReview` could not put
+    /// it back, and an undone review would keep shortening every future interval for that card
+    /// — silent, unattributable, and exactly what the log exists to make impossible.
+    /// Defaulted so a row written before this field existed still decodes.
+    public var easeFactorBefore: Double = SchedulingState.defaultEaseFactor
+
+    /// Position in the learning or relearning step list before the review.
+    ///
+    /// Also needed by undo: without it, undoing a `Good` on the first learning step leaves the
+    /// card back in `.learning` but already advanced, so answering again graduates it instead of
+    /// moving it to the second step.
+    public var stepIndexBefore: Int = 0
     /// Model's predicted recall probability at the moment of the review. The single
     /// most important field for evaluating and refitting the scheduler.
     public var retrievabilityBefore: Double
@@ -91,6 +107,8 @@ public final class ReviewLog {
         self.stabilityAfter = outcome.state.stability
         self.difficultyBefore = stateBefore.difficulty
         self.difficultyAfter = outcome.state.difficulty
+        self.easeFactorBefore = stateBefore.easeFactor
+        self.stepIndexBefore = stateBefore.stepIndex
         self.retrievabilityBefore = outcome.retrievabilityBefore
         self.durationMS = durationMS
         self.schedulerRaw = scheduler.rawValue

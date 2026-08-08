@@ -230,6 +230,82 @@ final class ReviewServiceTests: XCTestCase {
         XCTAssertEqual(day.newCardsIntroduced, 0)
     }
 
+    /// SM-2's ease factor is cumulative, so undo has to put it back.
+    ///
+    /// Nothing ever raises it after a lapse: `Again` subtracts 0.2 and that is permanent. An undo
+    /// that left it lowered would shorten every future interval for that card forever, with no
+    /// visible cause and nothing in the history to explain it.
+    func testUndoRestoresTheSM2EaseFactor() throws {
+        let (_, service, preferences, entry) = try makeFixture()
+        preferences.scheduler = .sm2
+        let card = try XCTUnwrap(
+            try service.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+
+        // Graduate, then lapse, which is what moves the ease factor.
+        try service.grade(card: card, rating: .easy, preferences: preferences, now: referenceDate)
+        let easeBeforeLapse = card.easeFactor
+
+        let later = referenceDate.addingTimeInterval(10 * 86_400)
+        try service.grade(card: card, rating: .again, preferences: preferences, now: later)
+        XCTAssertLessThan(card.easeFactor, easeBeforeLapse, "the fixture must actually move the ease")
+
+        try service.undoLastReview(card: card, preferences: preferences)
+        XCTAssertEqual(card.easeFactor, easeBeforeLapse, accuracy: 1e-9)
+    }
+
+    /// Undoing mid-steps must put the card back on the step it was on, not the one it advanced to.
+    ///
+    /// Learning steps are `[1, 10]` by default. `Good` on step 0 moves to step 1; undoing that has
+    /// to return `stepIndex` to 0, or answering `Good` again graduates the card straight out of
+    /// learning and the second step is silently skipped.
+    func testUndoRestoresThePositionInTheLearningSteps() throws {
+        let (_, service, preferences, entry) = try makeFixture()
+        preferences.learningStepsMinutes = [1, 10]
+        let card = try XCTUnwrap(
+            try service.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+        XCTAssertEqual(card.stepIndex, 0)
+
+        try service.grade(card: card, rating: .good, preferences: preferences, now: referenceDate)
+        XCTAssertEqual(card.phase, .learning)
+        XCTAssertEqual(card.stepIndex, 1, "Good on the first step advances to the second")
+
+        let later = referenceDate.addingTimeInterval(600)
+        try service.grade(card: card, rating: .good, preferences: preferences, now: later)
+        XCTAssertEqual(card.phase, .review, "the second Good graduates it")
+
+        try service.undoLastReview(card: card, preferences: preferences)
+        XCTAssertEqual(card.phase, .learning)
+        XCTAssertEqual(card.stepIndex, 1, "back on the second step, not the first and not graduated")
+
+        try service.undoLastReview(card: card, preferences: preferences)
+        XCTAssertEqual(card.phase, .new)
+        XCTAssertEqual(card.stepIndex, 0)
+    }
+
+    /// Time studied must come back off the day, using the same cap it went on with.
+    func testUndoRollsBackTimeStudiedWithTheSameCap() throws {
+        let (_, service, preferences, entry) = try makeFixture()
+        let card = try XCTUnwrap(
+            try service.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+
+        // Well past the 120s cap, so a mismatched cap on either side would show up.
+        try service.grade(
+            card: card, rating: .good, preferences: preferences,
+            durationMS: 9_000_000, now: referenceDate
+        )
+        let day = try XCTUnwrap(
+            try service.studyDay(for: referenceDate, preferences: preferences, createIfMissing: false)
+        )
+        XCTAssertEqual(day.studySeconds, 120, "one card cannot contribute more than the cap")
+
+        try service.undoLastReview(card: card, preferences: preferences)
+        XCTAssertEqual(day.studySeconds, 0)
+        XCTAssertFalse(day.goalMet, "a day with no reviews cannot have met a goal")
+    }
+
     func testUndoWithNoHistoryIsANoOp() throws {
         let (_, service, preferences, entry) = try makeFixture()
         let card = try XCTUnwrap(
