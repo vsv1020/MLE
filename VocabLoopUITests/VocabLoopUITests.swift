@@ -12,9 +12,14 @@ final class VocabLoopUITests: XCTestCase {
         super.setUp()
         continueAfterFailure = false
         app = XCUIApplication()
-        // Reset onboarding so each run starts from a first-launch state; without this the suite
-        // passes locally and fails on a clean simulator, or vice versa.
-        app.launchArguments = ["-onboarding.completed", "NO", "-auth.landingShown", "NO"]
+        // A flag the app acts on, not a value that overrides what the app reads.
+        //
+        // The previous form — `["-onboarding.completed", "NO"]` — put those keys in
+        // `NSArgumentDomain`, which sits above the application domain and is read-only. Every
+        // `@AppStorage` read then returned `false` regardless of what onboarding wrote, so
+        // `RootView` bounced back to onboarding forever and no test in this file could reach the
+        // tab bar. See `VocabLoopApp.resetFirstRunStateIfUITesting`.
+        app.launchArguments = ["-uiTestingResetFirstRun"]
         app.launch()
     }
 
@@ -24,25 +29,25 @@ final class VocabLoopUITests: XCTestCase {
     }
 
     /// The core claim: a user who never creates an account reaches a working app.
+    ///
+    /// Asserts the two things that make the claim true — that skipping is *offered* rather than
+    /// buried, and that taking it lands on the app — instead of walking a fixed number of
+    /// onboarding steps, which is a content decision that would break this test whenever it changes.
     func testGuestCanReachTodayWithoutAnAccount() throws {
-        completeOnboarding()
+        advanceThroughFirstRun(stoppingAt: "Continue without an account")
 
         let skip = app.buttons["Continue without an account"]
-        XCTAssertTrue(skip.waitForExistence(timeout: 10), "guest mode must be offered, not buried")
+        XCTAssertTrue(skip.waitForExistence(timeout: 20), "guest mode must be offered, not buried")
         skip.tap()
 
         XCTAssertTrue(
-            app.tabBars.buttons["Today"].waitForExistence(timeout: 10),
+            app.tabBars.buttons["Today"].waitForExistence(timeout: 20),
             "guest mode must land on the app, not a paywall"
         )
     }
 
     func testEveryTabIsReachableAsAGuest() throws {
-        completeOnboarding()
-        tapIfPresent(app.buttons["Continue without an account"])
-
-        let tabBar = app.tabBars.firstMatch
-        XCTAssertTrue(tabBar.waitForExistence(timeout: 10))
+        let tabBar = reachMainTabs()
 
         for label in ["Browse", "Decks", "Progress", "Settings", "Today"] {
             let tab = tabBar.buttons[label]
@@ -54,10 +59,8 @@ final class VocabLoopUITests: XCTestCase {
 
     /// The dictionary is bundled, so search must return results with no network involved.
     func testDictionarySearchFindsBundledContent() throws {
-        completeOnboarding()
-        tapIfPresent(app.buttons["Continue without an account"])
-
-        app.tabBars.buttons["Browse"].tap()
+        let tabBar = reachMainTabs()
+        tabBar.buttons["Browse"].tap()
 
         let searchField = app.searchFields.firstMatch
         XCTAssertTrue(searchField.waitForExistence(timeout: 10))
@@ -72,11 +75,12 @@ final class VocabLoopUITests: XCTestCase {
 
     /// Settings must state plainly that studying works without an account.
     func testAccountScreenOffersSignInWithoutRequiringIt() throws {
-        completeOnboarding()
-        tapIfPresent(app.buttons["Continue without an account"])
+        let tabBar = reachMainTabs()
+        tabBar.buttons["Settings"].tap()
 
-        app.tabBars.buttons["Settings"].tap()
-        app.staticTexts["Guest"].firstMatch.tap()
+        let guestRow = app.staticTexts["Guest"].firstMatch
+        XCTAssertTrue(guestRow.waitForExistence(timeout: 10), "Settings must show the guest identity")
+        guestRow.tap()
 
         XCTAssertTrue(
             app.buttons["Create an account"].waitForExistence(timeout: 10)
@@ -87,25 +91,59 @@ final class VocabLoopUITests: XCTestCase {
 
     // MARK: - Helpers
 
-    /// Walk the onboarding flow using its default answers.
-    private func completeOnboarding() {
-        let continueButton = app.buttons["Continue"]
-        guard continueButton.waitForExistence(timeout: 10) else { return }
+    /// Buttons that move the first-run flow forward, most-specific first.
+    ///
+    /// Ordered so the terminal actions win: on the last onboarding step both "Start learning" and
+    /// nothing else is present, but checking "Continue" first would be wrong the moment a screen
+    /// shows both.
+    private static let firstRunAdvanceButtons = [
+        "Continue without an account", "Start learning", "Continue", "Get started",
+    ]
 
-        // Four steps, the last of which changes label. Bounded so a layout change cannot spin here.
-        for _ in 0..<6 {
-            if app.buttons["Start learning"].exists {
-                app.buttons["Start learning"].tap()
-                return
-            }
-            guard continueButton.exists else { return }
-            continueButton.tap()
-        }
+    /// Drive the first-run screens until the tab bar is up.
+    ///
+    /// One loop rather than "complete onboarding, then dismiss the auth landing". The number of
+    /// onboarding steps and the order of the first-run screens are product decisions; a test that
+    /// encodes them fails on every copy change, and a UI test that fails for a reason other than a
+    /// real regression stops being read. What every test here actually needs is the tab bar.
+    ///
+    /// The first launch also imports the bundled content packs before `RootView` advances, so the
+    /// budget is generous: a cold simulator is slow and a flaky timeout is worse than a slow test.
+    @discardableResult
+    private func reachMainTabs(timeout: TimeInterval = 90) -> XCUIElement {
+        advanceThroughFirstRun(timeout: timeout)
+        let tabBar = app.tabBars.firstMatch
+        XCTAssertTrue(
+            tabBar.waitForExistence(timeout: 10),
+            "never reached the tab bar; the app is stuck on a first-run screen"
+        )
+        return tabBar
     }
 
-    private func tapIfPresent(_ element: XCUIElement) {
-        if element.waitForExistence(timeout: 5) {
-            element.tap()
+    /// Tap first-run buttons until the tab bar appears, or until `stoppingAt` is on screen.
+    ///
+    /// `stoppingAt` exists so a test can assert something *about* a first-run screen — that the
+    /// guest option is offered, say — rather than only about what is past it.
+    private func advanceThroughFirstRun(timeout: TimeInterval = 90, stoppingAt label: String? = nil) {
+        let tabBar = app.tabBars.firstMatch
+        let deadline = Date().addingTimeInterval(timeout)
+
+        while Date() < deadline {
+            if tabBar.exists { return }
+            if let label, app.buttons[label].exists { return }
+
+            let next = Self.firstRunAdvanceButtons
+                .map { app.buttons[$0] }
+                .first { $0.exists && $0.isHittable }
+
+            guard let next else {
+                // Nothing to tap yet — most likely still on the launch screen while content
+                // imports. Poll rather than give up; `waitForExistence` on the tab bar is a
+                // one-second sleep with a useful side effect.
+                _ = tabBar.waitForExistence(timeout: 1)
+                continue
+            }
+            next.tap()
         }
     }
 }

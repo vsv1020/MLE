@@ -135,14 +135,40 @@ public struct FSRSScheduler: Scheduler {
 
     /// Guards every stability computation. A non-finite or non-positive `S` would
     /// silently corrupt the card's schedule forever, so it is never persisted.
+    ///
+    /// `fallback` is assumed finite, which is why ``sanitised(_:)`` runs first: this cannot fix a
+    /// non-finite input, because the input *is* the fallback.
     private func sanitiseStability(_ value: Double, fallback: Double) -> Double {
-        guard value.isFinite, value > 0 else { return max(fallback, 0.01) }
+        guard value.isFinite, value > 0 else { return max(fallback.isFinite ? fallback : 0, 0.01) }
         return min(value, config.maximumInterval)
+    }
+
+    /// Bring a persisted state back into the domain the formulas are defined on.
+    ///
+    /// `stability` folds to `0` rather than to some plausible-looking number: zero is the
+    /// "unseen card" value the model already handles everywhere, so a corrupt card is rescheduled
+    /// as though it were new instead of carrying an invented history. Nothing here is a
+    /// substitute for not writing bad values — it is the floor under the ones that arrive anyway.
+    static func sanitised(_ state: SchedulingState) -> SchedulingState {
+        var clean = state
+        if !clean.stability.isFinite || clean.stability < 0 { clean.stability = 0 }
+        clean.difficulty = clean.difficulty.isFinite ? min(max(clean.difficulty, 1), 10) : 5
+        if !clean.intervalDays.isFinite || clean.intervalDays < 0 { clean.intervalDays = 0 }
+        if !clean.easeFactor.isFinite || clean.easeFactor <= 0 {
+            clean.easeFactor = SchedulingState.defaultEaseFactor
+        }
+        return clean
     }
 
     // MARK: - Grading
 
     public func apply(rating: Rating, to state: SchedulingState, at now: Date, fuzzSeed: UInt64) -> SchedulingOutcome {
+        // Sanitised once, on the way in. Every formula below reads `stability` and `difficulty`,
+        // and `sanitiseStability` cannot rescue a non-finite *input*: its fallback is that same
+        // input, so `max(.infinity, 0.01)` is infinity and `max(.nan, 0.01)` is NaN. A NaN
+        // stability becomes a NaN due date, and a card with a NaN due date can never be
+        // scheduled again — a corrupt store or a sync payload from a buggy peer is enough.
+        let state = Self.sanitised(state)
         let rBefore = retrievability(of: state, at: now)
         var next = state
         next.reps += 1

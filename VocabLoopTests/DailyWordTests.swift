@@ -12,6 +12,9 @@ final class DailyWordTests: XCTestCase {
         let context = try TestStore.makeContext()
         let account = try context.activeAccount()
         let preferences = try XCTUnwrap(account.preferences)
+        // A batch's key contains a study-day key, so this suite is asserting about day boundaries
+        // whether it means to or not. Without pinning, it asserts about the machine's timezone.
+        pinToUTC(preferences)
         preferences.newWordsPerDay = 5
         preferences.cefrFloor = .a1
         preferences.cefrCeiling = .c2

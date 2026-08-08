@@ -30,10 +30,24 @@ public struct StudyCalendar: Sendable, Hashable {
     }
 
     /// Instant at which the study day containing `date` began.
+    ///
+    /// The boundary is built by *setting* the hour, not by adding hours to midnight. Adding
+    /// hours adds absolute time, so on a spring-forward day midnight + 4h is 05:00 on the wall
+    /// clock — while `date(byAdding: .day, ...)` preserves wall-clock time and lands on 04:00.
+    /// The two then disagree: 04:00 on the transition day looks like it is *before* that day's
+    /// own boundary, so it is attributed to the previous day. The result is one day key
+    /// duplicated and its neighbour skipped entirely, twice a year, which shows up as a streak
+    /// resetting for no reason and a hole in the heatmap. Confirmed by CI: Europe/London on
+    /// 30 March 2025 produced `[…, "2025-03-29", "2025-03-29", "2025-03-31", …]`.
     public func dayStart(for date: Date) -> Date {
         let calendar = self.calendar
-        let midnight = calendar.startOfDay(for: date)
-        let boundary = calendar.date(byAdding: .hour, value: dayStartHour, to: midnight) ?? midnight
+        var components = calendar.dateComponents([.year, .month, .day], from: date)
+        components.hour = dayStartHour
+        components.minute = 0
+        components.second = 0
+        // `date(from:)` resolves an hour that a DST gap skipped to the next valid instant, and
+        // picks the first occurrence of one a DST overlap repeated — the same way every time.
+        let boundary = calendar.date(from: components) ?? calendar.startOfDay(for: date)
         if date < boundary {
             // Before the rollover hour, so we are still inside yesterday's study day.
             return calendar.date(byAdding: .day, value: -1, to: boundary) ?? boundary

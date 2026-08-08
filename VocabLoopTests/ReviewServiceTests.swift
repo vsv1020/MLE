@@ -12,6 +12,9 @@ final class ReviewServiceTests: XCTestCase {
         let context = try TestStore.makeContext()
         let account = try context.activeAccount()
         let preferences = try XCTUnwrap(account.preferences)
+        // `recordActivity` writes a StudyDay keyed by study day, so the rollup assertions in this
+        // suite depend on a day boundary. Pinned, so they do not depend on the runner's timezone.
+        pinToUTC(preferences)
         let entry = try TestStore.makeEntry(in: context, headword: "abandon")
         return (context, ReviewService(context: context), preferences, entry)
     }

@@ -113,7 +113,22 @@ enum TestStore {
 extension XCTestCase {
     /// A fixed instant, so nothing in the suite depends on when it runs.
     ///
-    /// Chosen mid-morning UTC and away from a month boundary — a reference time near midnight
-    /// makes day-boundary tests pass or fail depending on the machine's timezone.
-    var referenceDate: Date { Date(timeIntervalSince1970: 1_700_000_000) }
+    /// 2023-11-15 10:00:00 UTC. Genuinely mid-morning and away from a month boundary, so a test
+    /// that adds a few hours to it and expects the same study day gets one.
+    ///
+    /// The previous value, `1_700_000_000`, carried this same comment but was 22:13 UTC — late
+    /// evening. `DailyWordTests.testBatchIsPersistedAndReusedWithinTheSameDay` adds eight hours to
+    /// represent "the same evening" and landed on the next study day, so it created a second batch
+    /// and failed. The comment was aspirational; the number is now what it claimed.
+    var referenceDate: Date { Date(timeIntervalSince1970: 1_700_042_400) }
+
+    /// A study calendar's worth of certainty: pin preferences to UTC.
+    ///
+    /// Day boundaries are computed in `preferences.timeZone`, which defaults to `TimeZone.current`
+    /// — so any test reasoning about "the same day" is otherwise asserting something about the
+    /// machine it runs on. CI runners are UTC and a developer's laptop is not.
+    func pinToUTC(_ preferences: StudyPreferences) {
+        preferences.timeZoneIdentifier = "UTC"
+        preferences.dayStartHour = 4
+    }
 }

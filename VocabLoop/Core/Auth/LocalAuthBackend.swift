@@ -280,15 +280,30 @@ public final class LocalAuthBackend: AuthBackend {
         let account = try requireAccount(for: session)
         let userID = account.userID
 
-        try context.delete(model: ReviewLog.self)
-        try context.delete(model: Card.self)
-        try context.delete(model: StudyDay.self, where: #Predicate { $0.userID == userID })
-        try context.delete(model: DailyBatch.self, where: #Predicate { $0.userID == userID })
-        try context.delete(model: SyncOutboxItem.self)
+        // Deleted row by row, not with `context.delete(model:)`.
+        //
+        // A batch delete is issued straight to the store and never loads the objects, so it
+        // cannot maintain a relationship's inverse. `Card.entry` is a required to-one with
+        // `Entry.cards` as its inverse, and the batch form fails outright:
+        //
+        //   Constraint trigger violation: Batch delete failed due to mandatory OTO nullify
+        //   inverse on Card/entry
+        //
+        // which threw out of "delete my account" entirely — a flow App Store guideline 5.1.1(v)
+        // requires to work, and the one place in the app where a half-completed operation is
+        // least acceptable. Fetching first is slower and correct; at one user's volume the
+        // difference is not measurable.
+        try deleteAll(FetchDescriptor<ReviewLog>())
+        try deleteAll(FetchDescriptor<Card>())
+        try deleteAll(FetchDescriptor<StudyDay>(predicate: #Predicate { $0.userID == userID }))
+        try deleteAll(FetchDescriptor<DailyBatch>(predicate: #Predicate { $0.userID == userID }))
+        try deleteAll(FetchDescriptor<SyncOutboxItem>())
 
         // User-authored words are user data and go with the account; bundled entries stay.
-        try context.delete(model: Entry.self, where: #Predicate { $0.isUserCreated })
-        try context.delete(model: Deck.self, where: #Predicate { !$0.isBuiltIn })
+        // Senses go with them: they are a cascade from `Entry`, and the cards that referenced
+        // them are already gone by this point.
+        try deleteAll(FetchDescriptor<Entry>(predicate: #Predicate { $0.isUserCreated }))
+        try deleteAll(FetchDescriptor<Deck>(predicate: #Predicate { !$0.isBuiltIn }))
 
         context.delete(account)
         try saveOrThrow()
@@ -358,6 +373,16 @@ public final class LocalAuthBackend: AuthBackend {
 
     /// The active guest account, if there is one — the row whose data a new sign-up
     /// should adopt.
+    /// Fetch and delete, so relationship inverses are maintained.
+    ///
+    /// The alternative — `context.delete(model:where:)` — is a store-level batch delete that never
+    /// loads the objects and therefore cannot nullify an inverse. See ``deleteAccount(session:)``.
+    private func deleteAll<Model: PersistentModel>(_ descriptor: FetchDescriptor<Model>) throws {
+        for object in try context.fetch(descriptor) {
+            context.delete(object)
+        }
+    }
+
     private func adoptableGuest() throws -> UserAccount? {
         let guestRaw = AuthProvider.guest.rawValue
         var descriptor = FetchDescriptor<UserAccount>(

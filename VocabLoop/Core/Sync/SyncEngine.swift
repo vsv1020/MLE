@@ -308,6 +308,9 @@ public final class SyncEngine {
     /// Clear the queue. Offered in Settings as the escape hatch for a permanently stuck
     /// item; it discards unsent changes, so the UI must say so before calling it.
     public func discardPending() {
+        // A batch delete is safe here, unlike in `LocalAuthBackend.deleteAccount`: `SyncOutboxItem`
+        // has no relationships, so there is no inverse for the store-level delete to fail to
+        // maintain.
         try? context.delete(model: SyncOutboxItem.self)
         try? context.save()
         refreshStatus()

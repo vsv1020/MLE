@@ -8,6 +8,8 @@ struct VocabLoopApp: App {
     private let launchFailure: String?
 
     init() {
+        Self.resetFirstRunStateIfUITesting()
+
         // The container is the one thing that must exist before anything else can. If it
         // genuinely cannot be created — after PersistenceController has already tried
         // quarantining a corrupt store — the app shows an explanation rather than crashing
@@ -26,6 +28,25 @@ struct VocabLoopApp: App {
             _dependencies = State(initialValue: AppDependencies.preview())
             launchFailure = error.localizedDescription
         }
+    }
+
+    /// Put the first-run flags back to their unset state when the UI suite asks for it.
+    ///
+    /// The UI tests used to pass `-onboarding.completed NO` as a launch argument, which does not
+    /// work: launch arguments land in `NSArgumentDomain`, which sits *above* the application
+    /// domain and is read-only. `@AppStorage` therefore kept reading `false` no matter what the
+    /// app wrote, so `RootView.advance()` sent the user back to onboarding forever and the tab bar
+    /// was never reachable. Every UI test failed on a missing tab bar.
+    ///
+    /// A flag the app acts on, rather than a value the app is forced to read, means the reset is a
+    /// real write to the domain `@AppStorage` owns — so finishing onboarding sticks.
+    private static func resetFirstRunStateIfUITesting() {
+        #if DEBUG
+        guard ProcessInfo.processInfo.arguments.contains("-uiTestingResetFirstRun") else { return }
+        for key in ["onboarding.completed", "auth.landingShown"] {
+            UserDefaults.standard.removeObject(forKey: key)
+        }
+        #endif
     }
 
     var body: some Scene {
