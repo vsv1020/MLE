@@ -114,6 +114,10 @@ public enum RecoveryCode {
         guard status == errSecSuccess else {
             throw PasswordHasher.HashError.randomGenerationFailed(status: status)
         }
+        // `% alphabet.count` is unbiased *only* because 256 is an exact multiple of 32. With any
+        // other alphabet size the low symbols would be over-represented and the code would have
+        // less entropy than it looks like it has, so the property is asserted rather than assumed.
+        assert(256 % alphabet.count == 0, "a non-power-of-two alphabet makes this draw biased")
         let characters = bytes.map { alphabet[Int($0) % alphabet.count] }
         return stride(from: 0, to: characters.count, by: groupLength)
             .map { String(characters[$0..<min($0 + groupLength, characters.count)]) }

@@ -109,10 +109,13 @@ public final class OptimizerService {
         let set = try trainingSet(preferences: preferences)
         let stamp = ISO8601DateFormatter().string(from: Date())
             .replacingOccurrences(of: ":", with: "-")
-        let url = URL.temporaryDirectory
-            .appending(path: "vocabloop-revlog-\(preferences.activeLanguageCode)-\(stamp).csv")
-        try Data(set.csv().utf8).write(to: url, options: .atomic)
-        return url
+        // Through DataExporter's helper, so this file gets the same treatment: previous exports
+        // removed, encrypted at rest while the device is locked, excluded from backup. A review
+        // log is a detailed record of when the user was awake and studying.
+        return try DataExporter.writeTemporaryFile(
+            Data(set.csv().utf8),
+            named: "vocabloop-revlog-\(preferences.activeLanguageCode)-\(stamp).csv"
+        )
     }
 
     // MARK: - Applying a result

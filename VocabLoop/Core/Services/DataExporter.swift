@@ -94,8 +94,41 @@ public struct DataExporter {
 
         let stamp = ISO8601DateFormatter().string(from: Date())
             .replacingOccurrences(of: ":", with: "-")
-        let url = URL.temporaryDirectory.appending(path: "vocabloop-export-\(stamp).json")
-        try encoder.encode(export).write(to: url, options: .atomic)
+        return try Self.writeTemporaryFile(
+            try encoder.encode(export), named: "vocabloop-export-\(stamp).json"
+        )
+    }
+
+    /// Directory for generated exports.
+    ///
+    /// A dedicated subdirectory rather than the bare temporary directory, so the previous
+    /// export can be found and removed without guessing at filenames.
+    static let exportDirectory = URL.temporaryDirectory.appending(path: "exports", directoryHint: .isDirectory)
+
+    /// Write an export where the share sheet can reach it, and nowhere else.
+    ///
+    /// Three things this does that a plain `write(to:)` does not, all because the file holds the
+    /// user's email and their entire study history in clear text:
+    ///
+    /// - Removes earlier exports first. Every export has a timestamped name, so without this
+    ///   each tap of "Export my data" leaves another full copy behind for as long as iOS chooses
+    ///   to keep the temporary directory — which is not a guarantee, and not the user's choice.
+    /// - Sets `.completeFileProtection`, so the file is encrypted at rest whenever the device is
+    ///   locked. The default is "until first unlock", which for a file that exists only to be
+    ///   handed to a share sheet on an unlocked device is weaker than it needs to be.
+    /// - Marks the directory as excluded from backup, so a copy does not travel to iCloud.
+    static func writeTemporaryFile(_ data: Data, named name: String) throws -> URL {
+        let manager = FileManager.default
+        try? manager.removeItem(at: exportDirectory)
+        try manager.createDirectory(at: exportDirectory, withIntermediateDirectories: true)
+
+        var directory = exportDirectory
+        var resourceValues = URLResourceValues()
+        resourceValues.isExcludedFromBackup = true
+        try? directory.setResourceValues(resourceValues)
+
+        let url = exportDirectory.appending(path: name)
+        try data.write(to: url, options: [.atomic, .completeFileProtection])
         return url
     }
 }
