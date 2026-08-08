@@ -126,7 +126,8 @@ public final class SearchService {
                 .sorted { lhs, rhs in
                     lhs.rank == rhs.rank ? lhs.index < rhs.index : lhs.rank < rhs.rank
                 }
-                .map(\.result)
+                // `$0.result`, not `\.result`: a key path cannot address a tuple element.
+                .map { $0.result }
         }
         return Array(results.prefix(limit))
     }

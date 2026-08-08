@@ -377,7 +377,10 @@ public final class LocalAuthBackend: AuthBackend {
     ///
     /// The alternative — `context.delete(model:where:)` — is a store-level batch delete that never
     /// loads the objects and therefore cannot nullify an inverse. See ``deleteAccount(session:)``.
-    private func deleteAll<Model: PersistentModel>(_ descriptor: FetchDescriptor<Model>) throws {
+    ///
+    /// The generic parameter is `Row` rather than the more natural `Model`, which would shadow
+    /// SwiftData's `Model` macro inside this file.
+    private func deleteAll<Row: PersistentModel>(_ descriptor: FetchDescriptor<Row>) throws {
         for object in try context.fetch(descriptor) {
             context.delete(object)
         }
