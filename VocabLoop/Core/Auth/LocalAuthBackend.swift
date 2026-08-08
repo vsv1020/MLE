@@ -30,7 +30,7 @@ public final class LocalAuthBackend: AuthBackend {
         // Validate the password *before* checking whether the email is taken, so a
         // caller cannot probe for registered addresses using a throwaway password.
         if let problem = CredentialValidator.validatePassword(password) { throw problem }
-        guard try account(withEmail: normalisedEmail) == nil else { throw AuthError.emailAlreadyRegistered }
+        guard try findAccount(withEmail: normalisedEmail) == nil else { throw AuthError.emailAlreadyRegistered }
 
         let salt = try PasswordHasher.makeSalt()
         let hash = try PasswordHasher.hash(password: password, salt: salt)
@@ -75,7 +75,7 @@ public final class LocalAuthBackend: AuthBackend {
 
     public func signIn(email: String, password: String) async throws -> Session {
         let normalisedEmail = email.normalizedEmail
-        guard let account = try account(withEmail: normalisedEmail),
+        guard let account = try findAccount(withEmail: normalisedEmail),
               let hash = account.passwordHash,
               let salt = account.passwordSalt
         else {
@@ -163,7 +163,7 @@ public final class LocalAuthBackend: AuthBackend {
     public func completePasswordReset(email: String, proof: String, newPassword: String) async throws {
         if let problem = CredentialValidator.validatePassword(newPassword) { throw problem }
 
-        guard let account = try account(withEmail: email.normalizedEmail),
+        guard let account = try findAccount(withEmail: email.normalizedEmail),
               let recoveryHash = account.recoveryCodeHash,
               let recoverySalt = account.recoveryCodeSalt
         else {
@@ -243,7 +243,7 @@ public final class LocalAuthBackend: AuthBackend {
             let normalised = email.normalizedEmail
             guard CredentialValidator.isValidEmail(normalised) else { throw AuthError.invalidEmail }
             if normalised != account.email {
-                guard try self.account(withEmail: normalised) == nil else {
+                guard try findAccount(withEmail: normalised) == nil else {
                     throw AuthError.emailAlreadyRegistered
                 }
                 account.email = normalised
@@ -291,7 +291,7 @@ public final class LocalAuthBackend: AuthBackend {
     public func signOut(session: Session) async throws {
         // Signing out of a local account does not delete it; the row stays so signing
         // back in restores everything. A guest is left active so the app stays usable.
-        guard let account = try self.account(withUserID: session.userID) else { return }
+        guard let account = try findAccount(withUserID: session.userID) else { return }
         account.isActive = false
         account.touch()
 
@@ -320,20 +320,20 @@ public final class LocalAuthBackend: AuthBackend {
         )
     }
 
-    private func account(withEmail email: String) throws -> UserAccount? {
+    private func findAccount(withEmail email: String) throws -> UserAccount? {
         var descriptor = FetchDescriptor<UserAccount>(predicate: #Predicate { $0.email == email })
         descriptor.fetchLimit = 1
         return try context.fetch(descriptor).first
     }
 
-    private func account(withUserID userID: String) throws -> UserAccount? {
+    private func findAccount(withUserID userID: String) throws -> UserAccount? {
         var descriptor = FetchDescriptor<UserAccount>(predicate: #Predicate { $0.userID == userID })
         descriptor.fetchLimit = 1
         return try context.fetch(descriptor).first
     }
 
     private func requireAccount(for session: Session) throws -> UserAccount {
-        guard let account = try account(withUserID: session.userID) else {
+        guard let account = try findAccount(withUserID: session.userID) else {
             throw AuthError.notSignedIn
         }
         return account
