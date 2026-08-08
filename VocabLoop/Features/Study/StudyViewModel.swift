@@ -131,6 +131,10 @@ final class StudyViewModel {
             // by which point the learning step has expired anyway.
             let target = min(currentIndex + 3, queue.count)
             queue.insert(card, at: target)
+            // The session genuinely got longer. Without this the counter reads "25/20" once
+            // enough cards have come back, which looks like a bug rather than like the
+            // consequence of pressing Again.
+            plannedCount += 1
         }
 
         if currentIndex >= queue.count { currentIndex = 0 }

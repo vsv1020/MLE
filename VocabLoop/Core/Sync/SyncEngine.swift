@@ -224,23 +224,47 @@ public final class SyncEngine {
 
     /// Enqueue the user's preferences.
     ///
-    /// Preferences are last-write-wins per field group — the only records where that is
-    /// safe, because they hold no history worth merging.
+    /// Preferences are last-write-wins — the only records where that is safe, because they hold
+    /// no history worth merging. So a pending row is **replaced** rather than appended to.
+    ///
+    /// This matters more than it looks: the target-retention slider saves on every tick, so
+    /// dragging it from 70% to 97% at 1% steps called this 27 times. Appending would leave 27
+    /// rows in the store, each carrying a full preferences payload, all but the last of them
+    /// dead. `SyncEngine` already collapses same-subject upserts inside one batch, so they
+    /// would have sent correctly — they would just have sat in the database until then.
     public func enqueuePreferences(_ preferences: StudyPreferences) {
         do {
-            let item = SyncOutboxItem(
-                operation: .preferencesUpdated,
-                subjectID: "preferences",
-                payload: try JSONEncoder().encode(PreferencesSyncPayload(preferences: preferences)),
-                sequence: try context.nextOutboxSequence()
+            let payload = try JSONEncoder().encode(PreferencesSyncPayload(preferences: preferences))
+            let subject = Self.preferencesSubjectID
+
+            let pending = try context.fetch(
+                FetchDescriptor<SyncOutboxItem>(predicate: #Predicate { $0.subjectID == subject })
             )
-            context.insert(item)
+            if let existing = pending.max(by: { $0.sequence < $1.sequence }) {
+                // Keep the original sequence: the server needs to see this change where the
+                // user made it, not jumped to the end of the queue.
+                existing.payload = payload
+                // Any earlier duplicates are dead weight from before this fix, or from a
+                // concurrent write; drop them.
+                for stale in pending where stale !== existing {
+                    context.delete(stale)
+                }
+            } else {
+                context.insert(SyncOutboxItem(
+                    operation: .preferencesUpdated,
+                    subjectID: subject,
+                    payload: payload,
+                    sequence: try context.nextOutboxSequence()
+                ))
+            }
             try context.save()
             refreshStatus()
         } catch {
             logger.error("Could not enqueue preferences: \(error.localizedDescription, privacy: .public)")
         }
     }
+
+    static let preferencesSubjectID = "preferences"
 
     /// Clear the queue. Offered in Settings as the escape hatch for a permanently stuck
     /// item; it discards unsent changes, so the UI must say so before calling it.

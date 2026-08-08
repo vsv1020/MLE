@@ -154,16 +154,23 @@ public final class DailyWordService {
     // MARK: - Actions
 
     /// Enrol a daily word and record the acceptance.
+    ///
+    /// - Returns: The cards actually created. This is **not** always
+    ///   `preferences.enabledDirections.count` — a cloze card is skipped for an entry with no
+    ///   maskable example, and re-accepting a word creates nothing. Callers that display a
+    ///   card count must use this rather than assuming.
+    @discardableResult
     public func accept(
         entry: Entry,
         in batch: DailyBatch,
         preferences: StudyPreferences,
         reviewService: ReviewService,
         now: Date = Date()
-    ) throws {
-        try reviewService.enroll(entry: entry, preferences: preferences, now: now)
+    ) throws -> [Card] {
+        let created = try reviewService.enroll(entry: entry, preferences: preferences, now: now)
         batch.markAccepted(entry.stableID, now: now)
         try context.save()
+        return created
     }
 
     /// Decline a daily word. It will not be offered again.

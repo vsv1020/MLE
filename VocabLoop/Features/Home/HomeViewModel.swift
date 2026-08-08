@@ -49,11 +49,14 @@ final class HomeViewModel {
         guard let batch, let preferences = dependencies.preferences else { return }
         acceptedStableIDs.insert(entry.stableID)
         do {
-            try dependencies.dailyWords.accept(
+            let created = try dependencies.dailyWords.accept(
                 entry: entry, in: batch, preferences: preferences,
                 reviewService: dependencies.review
             )
-            statistics.newAvailable += preferences.enabledDirections.count
+            // The count of cards actually created, not the number of enabled directions: a
+            // cloze card is skipped when the entry has no maskable example, so assuming would
+            // overstate the new-card count on the tile the user is looking at.
+            statistics.newAvailable += created.count
             Haptics.tap()
         } catch {
             acceptedStableIDs.remove(entry.stableID)

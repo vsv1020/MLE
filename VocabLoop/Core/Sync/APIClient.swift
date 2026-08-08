@@ -14,16 +14,29 @@ public struct APIConfiguration: Sendable {
     public var timeout: TimeInterval
 
     public init(baseURL: URL? = nil, timeout: TimeInterval = 20) {
-        // Refuse anything but HTTPS rather than trusting App Transport Security to catch it.
-        // ATS can be weakened by an Info.plist exception, and a bearer token must never leave
-        // the device in clear text because someone added one for a local test server.
-        if let baseURL, baseURL.scheme?.lowercased() != "https" {
-            assertionFailure("VocabLoop's API base URL must be https, got \(baseURL.scheme ?? "none")")
-            self.baseURL = nil
-        } else {
+        if Self.isTransportAcceptable(baseURL) {
             self.baseURL = baseURL
+        } else {
+            // Trap in development so the mistake is found immediately, but still refuse the URL
+            // in release rather than shipping a build that talks plaintext.
+            assertionFailure("VocabLoop's API base URL must be https, got \(baseURL?.scheme ?? "none")")
+            self.baseURL = nil
         }
         self.timeout = timeout
+    }
+
+    /// Whether a base URL may be used.
+    ///
+    /// Checked here rather than relying on App Transport Security: ATS can be weakened by an
+    /// Info.plist exception, and a bearer token must never leave the device in clear text
+    /// because someone pointed the app at a local test server. `nil` is acceptable — it is the
+    /// shipping configuration.
+    ///
+    /// Separated from the initialiser so it is testable; constructing a bad configuration would
+    /// trip the assertion above and abort the test run.
+    public static func isTransportAcceptable(_ url: URL?) -> Bool {
+        guard let url else { return true }
+        return url.scheme?.lowercased() == "https"
     }
 
     /// No server configured — the shipping default.
