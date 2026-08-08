@@ -96,7 +96,12 @@ enum TestStore {
         reviews: Int,
         from reference: Date
     ) throws -> StudyDay {
-        let date = Calendar.current.date(byAdding: .day, value: -daysAgo, to: reference) ?? reference
+        // Day arithmetic in the *given* calendar's timezone, not `Calendar.current`. Mixing the
+        // two makes the fixture depend on the machine's zone while the assertions depend on the
+        // calendar's, which is how a suite passes in CI and fails on a laptop.
+        var gregorian = Calendar(identifier: .gregorian)
+        gregorian.timeZone = calendar.timeZone
+        let date = gregorian.date(byAdding: .day, value: -daysAgo, to: reference) ?? reference
         let day = StudyDay(
             userID: userID,
             dayKey: calendar.dayKey(for: date),

@@ -17,6 +17,41 @@ final class StreakTests: XCTestCase {
         }
     }
 
+    /// A streak must survive a daylight-saving transition.
+    ///
+    /// This is the user-visible half of the `StudyCalendar` bug CI found. `dayStart` computed its
+    /// rollover boundary as midnight plus N *hours* — absolute time — so on a spring-forward day
+    /// it landed an hour later on the wall clock than `date(byAdding: .day,)` did. One day key came
+    /// back duplicated and its neighbour vanished, which reads to the user as a streak resetting
+    /// for no reason, twice a year. `StudyCalendarTests` pins the keys; this pins the consequence.
+    func testStreakSpansASpringForwardTransition() throws {
+        let london = StudyCalendar(timeZone: TimeZone(identifier: "Europe/London")!, dayStartHour: 4)
+        var gregorian = Calendar(identifier: .gregorian)
+        gregorian.timeZone = london.timeZone
+        // London sprang forward on 30 March 2025, so a week ending 2 April straddles it.
+        let now = try XCTUnwrap(
+            gregorian.date(from: DateComponents(year: 2025, month: 4, day: 2, hour: 12))
+        )
+
+        let context = try TestStore.makeContext()
+        let account = try TestStore.makeAccount(in: context)
+        let days = try (0..<7).map { daysAgo in
+            try TestStore.makeStudyDay(
+                in: context, userID: account.userID, calendar: london,
+                daysAgo: daysAgo, reviews: 5, from: now
+            )
+        }
+        XCTAssertEqual(
+            Set(days.map(\.dayKey)).count, 7,
+            "seven days must produce seven keys: \(days.map(\.dayKey).sorted())"
+        )
+
+        let streak = StreakService.streak(days: days, calendar: london, now: now)
+        XCTAssertEqual(streak.current, 7, "the transition must not shorten the streak")
+        XCTAssertEqual(streak.longest, 7)
+        XCTAssertFalse(streak.isAtRiskToday, "today has reviews")
+    }
+
     func testNoDaysMeansNoStreak() throws {
         let streak = StreakService.streak(days: [], calendar: calendar, now: referenceDate)
         XCTAssertEqual(streak.current, 0)
