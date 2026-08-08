@@ -102,7 +102,10 @@ public final class SyncEngine {
             refreshStatus()
         }
 
-        let total = pendingCount()
+        // Only the rows this build can send. `pendingCount()` includes operations awaiting
+        // their own endpoint, and counting those would leave the progress bar short of full
+        // on a sync that in fact sent everything it could.
+        let total = pushablePendingCount()
         guard total > 0 else {
             status = .idle(lastSyncedAt: lastSyncedAt)
             return
@@ -148,16 +151,46 @@ public final class SyncEngine {
         lastSyncedAt = Date()
     }
 
+    /// Operations `buildRequest` can actually put on the wire.
+    ///
+    /// The `sync/push` endpoint carries reviews, cards, entries, preferences and entry
+    /// deletions. Decks and account deletion get their own endpoints once a server exists.
+    /// Until then their rows must be *skipped*, not drained: ``sync`` deletes every item in a
+    /// batch once the server accepts it, so an unsupported row picked up here would be thrown
+    /// away by a request that never mentioned it. Skipping is also what keeps ``sync``'s loop
+    /// finite — a row that is kept but still fetched would be re-read forever.
+    static let pushableOperations: Set<SyncOperation> = [
+        .reviewLogged, .cardUpserted, .entryUpserted, .preferencesUpdated, .entryDeleted,
+    ]
+
     /// The next batch, oldest first, skipping items still in backoff.
     ///
     /// Ordered by ``SyncOutboxItem/sequence`` because the server must see the changes in
     /// the order the user made them — `createdAt` is not enough when two writes land in
     /// the same millisecond.
-    private func readyBatch() throws -> [SyncOutboxItem] {
+    /// Internal rather than private so a test can assert on the selection itself. What it
+    /// excludes is the difference between a sync and silent data loss, and asserting that
+    /// through `sync()` would need a live server to accept the batch first.
+    func readyBatch() throws -> [SyncOutboxItem] {
         let now = Date()
-        var descriptor = FetchDescriptor<SyncOutboxItem>(sortBy: [SortDescriptor(\.sequence)])
-        descriptor.fetchLimit = Self.batchSize
-        return try context.fetch(descriptor).filter { $0.isReady(at: now) }
+        // No `fetchLimit`: the limit has to be applied *after* filtering, or a run of
+        // unsupported rows at the head of the queue would fill the batch, come back empty of
+        // anything sendable, and stall every real change behind it.
+        let descriptor = FetchDescriptor<SyncOutboxItem>(sortBy: [SortDescriptor(\.sequence)])
+        let ready = try context.fetch(descriptor).filter { item in
+            guard item.isReady(at: now) else { return false }
+            // A nil operation is a raw string this build does not know — written by a newer
+            // version, or corrupt. Never drained, because draining means deleting.
+            guard let operation = item.operation else { return false }
+            return Self.pushableOperations.contains(operation)
+        }
+        return Array(ready.prefix(Self.batchSize))
+    }
+
+    /// Rows this build could actually send, for an honest progress fraction.
+    private func pushablePendingCount() -> Int {
+        let all = (try? context.fetch(FetchDescriptor<SyncOutboxItem>())) ?? []
+        return all.filter { $0.operation.map(Self.pushableOperations.contains) ?? false }.count
     }
 
     /// Group an outbox batch into one request.
@@ -196,8 +229,11 @@ public final class SyncEngine {
             case .entryDeleted:
                 deletedEntryIDs.append(item.subjectID)
             case .deckUpserted, .deckDeleted, .accountDeleted:
-                // Handled by dedicated endpoints once a server exists; the outbox rows are
-                // kept so nothing is lost in the meantime.
+                // Unreachable: `readyBatch` filters these out via `pushableOperations`, because
+                // a batch is deleted wholesale once the server accepts it and a row this
+                // request never mentioned would be silently discarded. Kept as a case rather
+                // than a `default` so adding an operation to the enum without deciding whether
+                // it is pushable is a compile error.
                 continue
             }
         }

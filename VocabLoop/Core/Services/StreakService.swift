@@ -37,9 +37,15 @@ public enum StreakService {
         let studiedToday = activeKeys.contains(todayKey)
 
         // Walk backwards from today (or from yesterday, when today is still open).
+        //
+        // Bounded by the number of active days, which no streak can exceed. The loop already
+        // terminates on the first inactive day, but this is a `while` over a date calculation
+        // whose result feeds a number on the Home screen: if some calendar ever returned the
+        // same key for two different offsets, the alternative to a bound is a spin on the main
+        // actor with the app frozen.
         var current = 0
         var offset = studiedToday ? 0 : 1
-        while true {
+        while current < activeKeys.count {
             guard let key = calendar.dayKey(daysAgo: offset, from: now) else { break }
             guard activeKeys.contains(key) else { break }
             current += 1

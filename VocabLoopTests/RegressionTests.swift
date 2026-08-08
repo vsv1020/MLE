@@ -79,6 +79,62 @@ final class RegressionTests: XCTestCase {
         )
     }
 
+    // MARK: - Operations the push endpoint cannot carry
+
+    /// Every ``SyncOperation`` must be either pushable or deliberately excluded.
+    ///
+    /// `sync` deletes a whole batch once the server accepts it, so an operation that
+    /// `buildRequest` does not put on the wire but `readyBatch` hands over would be discarded
+    /// by a request that never mentioned it — silent data loss on the first successful sync.
+    /// This test is what makes adding a case to the enum a decision rather than an oversight.
+    func testEveryOperationIsEitherPushableOrKnowinglyExcluded() {
+        let excluded: Set<SyncOperation> = [.deckUpserted, .deckDeleted, .accountDeleted]
+        XCTAssertEqual(
+            SyncEngine.pushableOperations.union(excluded),
+            Set(SyncOperation.allCases),
+            "a new SyncOperation must be added to pushableOperations or to this list"
+        )
+        XCTAssertTrue(
+            SyncEngine.pushableOperations.isDisjoint(with: excluded),
+            "an operation cannot be both pushable and excluded"
+        )
+    }
+
+    /// `readyBatch` must not hand over a row the request cannot represent.
+    ///
+    /// `sync` deletes every item in the batch once the server accepts it, and an all-excluded
+    /// batch produces an *empty* request — which "succeeds" trivially and then drains rows that
+    /// were never sent. So the guard has to be at selection time, and that is what is asserted.
+    func testReadyBatchSkipsOperationsThePushRequestCannotCarry() throws {
+        let context = try TestStore.makeContext()
+        _ = try context.activeAccount()
+
+        // Excluded rows first, so they would fill a batch that applied its limit before
+        // filtering and stall the sendable row behind them.
+        var sequence = 0
+        for operation in [SyncOperation.deckUpserted, .deckDeleted, .accountDeleted] {
+            context.insert(SyncOutboxItem(
+                operation: operation, subjectID: "subject-\(sequence)",
+                payload: Data("{}".utf8), sequence: sequence
+            ))
+            sequence += 1
+        }
+        context.insert(SyncOutboxItem(
+            operation: .reviewLogged, subjectID: "review-1",
+            payload: Data("{}".utf8), sequence: sequence
+        ))
+        try context.save()
+
+        let engine = SyncEngine(
+            context: context, client: APIClient(configuration: .offline),
+            monitor: NetworkMonitor(), isServerConfigured: false
+        )
+        XCTAssertEqual(engine.pendingCount(), 4, "all four rows are recorded")
+
+        let batch = try engine.readyBatch()
+        XCTAssertEqual(batch.map(\.subjectID), ["review-1"], "only the sendable row may be drained")
+    }
+
     // MARK: - New-card count after accepting a daily word
 
     /// `enabledDirections.count` is not the number of cards created: cloze is skipped for an
