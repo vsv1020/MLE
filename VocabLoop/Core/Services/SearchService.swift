@@ -121,15 +121,31 @@ public final class SearchService {
         // differently-ordered list each time it ran. The index preserves the alphabetical order
         // the fetch already established.
         if !needle.isEmpty {
-            results = results.enumerated()
-                .map { (rank: rank($0.element, needle: needle), index: $0.offset, result: $0.element) }
-                .sorted { lhs, rhs in
-                    lhs.rank == rhs.rank ? lhs.index < rhs.index : lhs.rank < rhs.rank
-                }
-                // `$0.result`, not `\.result`: a key path cannot address a tuple element.
-                .map { $0.result }
+            var ranked: [RankedResult] = []
+            ranked.reserveCapacity(results.count)
+            for (index, result) in results.enumerated() {
+                ranked.append(
+                    RankedResult(rank: rank(result, needle: needle), index: index, result: result)
+                )
+            }
+            ranked.sort { lhs, rhs in
+                lhs.rank == rhs.rank ? lhs.index < rhs.index : lhs.rank < rhs.rank
+            }
+            results = ranked.map(\.result)
         }
         return Array(results.prefix(limit))
+    }
+
+    /// A result with the two keys it is ordered by.
+    ///
+    /// A named type rather than a labelled tuple in a `map`/`sorted`/`map` chain: that version
+    /// defeated the type checker outright — `error: the compiler is unable to type-check this
+    /// expression in reasonable time` — and a struct holding two `Int`s costs nothing at runtime
+    /// and says what the two numbers are for.
+    private struct RankedResult {
+        let rank: Int
+        let index: Int
+        let result: Result
     }
 
     /// Also searches translations, so a Chinese-speaking learner can find a word by

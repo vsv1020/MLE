@@ -1,5 +1,9 @@
 import Foundation
-import UserNotifications
+// `@preconcurrency`, as the compiler itself suggests. `UNNotificationSettings` is not
+// `Sendable`, so `await center.notificationSettings()` warns about crossing an isolation
+// boundary — a warning about UserNotifications' own annotations, not about anything this file
+// can fix. Silencing it here keeps the build's warning list to things that are actionable.
+@preconcurrency import UserNotifications
 import OSLog
 
 /// Local study reminders.
