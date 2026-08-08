@@ -86,8 +86,11 @@ public final class NotificationService {
         content.interruptionLevel = .passive
 
         // Morning, and deliberately not the same time as the review reminder — two
-        // notifications in the same minute read as a bug.
-        var components = DateComponents(hour: 9, minute: 0)
+        // notifications in the same minute read as a bug. The reminder time is the user's to
+        // choose, though, and 9am is a perfectly ordinary choice, so the collision has to be
+        // checked rather than assumed away.
+        let nudgeHour = (preferences.reminderHour == 9 && preferences.reminderMinute == 0) ? 8 : 9
+        var components = DateComponents(hour: nudgeHour, minute: 0)
         components.timeZone = preferences.timeZone
         let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: true)
 
