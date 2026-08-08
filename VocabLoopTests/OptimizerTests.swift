@@ -126,6 +126,72 @@ final class OptimizerTests: XCTestCase {
         XCTAssertTrue(lines[1].contains(",\(Rating.hard.rawValue),"))
     }
 
+    /// A card ID containing a comma must not silently add columns to the export.
+    ///
+    /// `Entry.normalize` folds case and diacritics but keeps punctuation, and a user can type
+    /// whatever they like into Add a word — so `"more, or less"` becomes the card ID
+    /// `en:more, or less:1#recognition`. Unquoted, that row reaches the optimiser with three
+    /// extra columns and either fails to parse or, worse, parses into nonsense.
+    func testCSVQuotesCardIDsContainingSeparators() throws {
+        let (context, service, preferences, review) = try makeFixture()
+        let entry = try TestStore.makeEntry(in: context, headword: "more, or less")
+        let card = try XCTUnwrap(try review.enroll(entry: entry, preferences: preferences).first)
+        try review.grade(card: card, rating: .good, preferences: preferences, now: referenceDate)
+
+        let csv = try service.trainingSet(preferences: preferences).csv()
+        let row = String(try XCTUnwrap(csv.split(separator: "\n").last))
+        XCTAssertTrue(card.cardID.contains(","), "the fixture only means something if the ID has a comma")
+        XCTAssertTrue(row.hasPrefix("\"\(card.cardID)\","), "got: \(row)")
+
+        // Five columns, once the quoted field is accounted for.
+        let fields = splitCSVRow(row)
+        XCTAssertEqual(fields.count, 5)
+        XCTAssertEqual(fields[0], card.cardID)
+    }
+
+    func testCSVFieldQuotingFollowsRFC4180() {
+        XCTAssertEqual(FSRSTrainingSet.csvField("en:plain:1#recognition"), "en:plain:1#recognition")
+        XCTAssertEqual(FSRSTrainingSet.csvField("a,b"), "\"a,b\"")
+        XCTAssertEqual(FSRSTrainingSet.csvField("say \"hi\""), "\"say \"\"hi\"\"\"")
+        XCTAssertEqual(FSRSTrainingSet.csvField("two\nlines"), "\"two\nlines\"")
+        XCTAssertEqual(FSRSTrainingSet.csvField("carriage\rreturn"), "\"carriage\rreturn\"")
+    }
+
+    /// Minimal RFC 4180 reader, so the test parses the export the way a consumer would rather
+    /// than re-implementing the writer's own assumptions.
+    private func splitCSVRow(_ row: String) -> [String] {
+        var fields: [String] = []
+        var current = ""
+        var inQuotes = false
+        let characters = Array(row)
+        var index = 0
+        while index < characters.count {
+            let character = characters[index]
+            if inQuotes {
+                if character == "\"" {
+                    if index + 1 < characters.count, characters[index + 1] == "\"" {
+                        current.append("\"")
+                        index += 1
+                    } else {
+                        inQuotes = false
+                    }
+                } else {
+                    current.append(character)
+                }
+            } else if character == "\"" {
+                inQuotes = true
+            } else if character == "," {
+                fields.append(current)
+                current = ""
+            } else {
+                current.append(character)
+            }
+            index += 1
+        }
+        fields.append(current)
+        return fields
+    }
+
     func testEmptyHistoryProducesAnEmptySetRatherThanFailing() throws {
         let (_, service, preferences, _) = try makeFixture()
         let set = try service.trainingSet(preferences: preferences)

@@ -51,9 +51,26 @@ public struct FSRSTrainingSet: Sendable {
     public func csv() -> String {
         var out = "card_id,review_time,review_rating,review_state,delta_t\n"
         for row in rows {
-            out += "\(row.cardID),\(row.reviewTime),\(row.rating),\(row.state),\(row.deltaT)\n"
+            // Only `card_id` needs quoting; the other four are numbers. It needs it because it
+            // is built from the headword — `Entry.normalize` folds case and diacritics but keeps
+            // punctuation, so a user's own word like "more, or less" yields
+            // `en:more, or less:1#recognition` and an unquoted row would arrive at the optimiser
+            // with three extra columns.
+            out += "\(Self.csvField(row.cardID)),\(row.reviewTime),\(row.rating),\(row.state),\(row.deltaT)\n"
         }
         return out
+    }
+
+    /// One CSV field, quoted per RFC 4180 when it has to be.
+    ///
+    /// Quoted only when necessary rather than always, because the overwhelming majority of card
+    /// IDs need no quoting and a file full of redundant quotes is harder for a human to read —
+    /// and reading it is half of why the export exists.
+    static func csvField(_ value: String) -> String {
+        let needsQuoting = value.contains(",") || value.contains("\"")
+            || value.contains("\n") || value.contains("\r")
+        guard needsQuoting else { return value }
+        return "\"" + value.replacingOccurrences(of: "\"", with: "\"\"") + "\""
     }
 }
 
