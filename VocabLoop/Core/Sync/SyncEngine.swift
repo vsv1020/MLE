@@ -190,7 +190,10 @@ public final class SyncEngine {
     /// Rows this build could actually send, for an honest progress fraction.
     private func pushablePendingCount() -> Int {
         let all = (try? context.fetch(FetchDescriptor<SyncOutboxItem>())) ?? []
-        return all.filter { $0.operation.map(Self.pushableOperations.contains) ?? false }.count
+        return all.filter { item in
+            guard let operation = item.operation else { return false }
+            return Self.pushableOperations.contains(operation)
+        }.count
     }
 
     /// Group an outbox batch into one request.
