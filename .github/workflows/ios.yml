@@ -134,38 +134,52 @@ jobs:
           xcodebuild -version
           swift --version
 
-      # Printed unconditionally: when the destination below turns out not to exist on
-      # a future runner image, this is the output that says what to change it to.
-      - name: List available simulators
-        run: xcrun simctl list devices available | sed -n '1,60p'
+      # Both printed unconditionally. `-list` is what would have caught the scheme's
+      # broken test action immediately instead of after a build attempt; `simctl` is what
+      # says which destination to use when a future runner image drops iPhone 16.
+      - name: Show scheme and destinations
+        run: |
+          xcodebuild -list -project VocabLoop.xcodeproj
+          xcrun simctl list devices available | grep -A6 '^-- iOS'
 
       - name: Build and test
         run: |
           set -o pipefail
+          # Tee'd to a file rather than relying on xcresulttool: its `get log` subcommand
+          # changed shape in Xcode 16 and returned nothing useful in CI run #6, so the one
+          # step whose whole job is to surface errors was silently empty.
           xcodebuild test \
             -project VocabLoop.xcodeproj \
             -scheme VocabLoop \
             -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
             -resultBundlePath TestResults.xcresult \
             CODE_SIGNING_ALLOWED=NO \
-            CODE_SIGNING_REQUIRED=NO
+            CODE_SIGNING_REQUIRED=NO \
+            2>&1 | tee build.log
         # Signing is disabled because Sign in with Apple is deliberately not wired into
         # the target (see README) and a simulator build needs no provisioning profile.
 
-      - name: Collect compile errors and test failures
+      - name: Compile errors
         if: failure()
         run: |
-          echo "::group::Errors"
-          xcrun xcresulttool get log --path TestResults.xcresult --type action 2>/dev/null \
-            | grep -E 'error:|warning:|failed' | sort -u | head -200 \
-            || echo "No structured log available — read the raw step output above."
+          echo "::group::error: lines (deduplicated)"
+          grep -E '(error|warning): ' build.log | sed 's#^/Users/runner/work/MLE/MLE/##' \
+            | sort -u | head -150 || echo "no error: lines — the failure is above, not a compile error"
+          echo "::endgroup::"
+          echo "::group::test failures"
+          grep -E 'XCTAssert|failed -|Test Case .* failed' build.log | sort -u | head -80 || true
+          echo "::endgroup::"
+          echo "::group::last 60 lines"
+          tail -60 build.log
           echo "::endgroup::"
 
-      - name: Upload result bundle
+      - name: Upload logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: xcresult
-          path: TestResults.xcresult
+          name: build-log
+          path: |
+            build.log
+            TestResults.xcresult
           retention-days: 7
           if-no-files-found: ignore

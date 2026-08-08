@@ -27,8 +27,11 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <TestPlans>
-      </TestPlans>
+      <!--
+        No <TestPlans> element. An empty one makes Xcode believe this scheme is driven by
+        test plans, find none, and report "Scheme VocabLoop is not currently configured for
+        the test action" — ignoring <Testables> entirely. Confirmed by CI run #6.
+      -->
       <Testables>
          <TestableReference
             skipped = "NO">

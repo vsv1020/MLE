@@ -1,5 +1,6 @@
 import AppIntents
 import Foundation
+import Observation
 import SwiftData
 
 /// Siri and Shortcuts entry points.
