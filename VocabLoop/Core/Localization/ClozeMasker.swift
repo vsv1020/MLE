@@ -114,9 +114,15 @@ public enum ClozeMasker {
             .replacingOccurrences(of: closeMarker, with: "")
     }
 
+    /// Whether a string carries a usable authored blank.
+    ///
+    /// Order matters, and a plain "contains both" would accept `"}}word{{"` — which
+    /// ``fromAuthoredMarkup`` then rejects, so the two functions would disagree about the same
+    /// string. `Entry.clozePrompt` asks this before asking for the prompt, and a disagreement
+    /// there means the authored span is silently skipped in favour of a heuristic guess.
     public static func hasAuthoredBlank(_ text: String?) -> Bool {
         guard let text else { return false }
-        return text.contains(openMarker) && text.contains(closeMarker)
+        return fromAuthoredMarkup(text) != nil
     }
 
     // MARK: - Word-separated languages

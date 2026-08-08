@@ -140,7 +140,19 @@ final class ClozeMaskerTests: XCTestCase {
                 language: .english, authored: broken
             )
             XCTAssertEqual(prompt?.answer, "borrow", "should have fallen back for: \(broken)")
+
+            // And the cheap predicate must agree with the parser about the same string.
+            // `Entry.clozePrompt` asks `hasAuthoredBlank` first, so a disagreement means an
+            // authored span gets skipped in favour of a guess — or worse, the other way round.
+            XCTAssertFalse(
+                ClozeMasker.hasAuthoredBlank(broken),
+                "hasAuthoredBlank accepted markup fromAuthoredMarkup rejects: \(broken)"
+            )
         }
+
+        XCTAssertTrue(ClozeMasker.hasAuthoredBlank("She {{lent}} me her bicycle."))
+        XCTAssertFalse(ClozeMasker.hasAuthoredBlank(nil))
+        XCTAssertFalse(ClozeMasker.hasAuthoredBlank("No markers at all."))
     }
 
     func testStripMarkupRestoresThePlainSentence() {
