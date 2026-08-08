@@ -112,8 +112,21 @@ public final class SearchService {
         }
 
         // Rank before truncating, or the limit would cut off the best matches.
+        //
+        // Decorated with the rank *and* the original position, for two reasons. `sort` calls its
+        // predicate O(n log n) times and `rank` walks strings, so computing it once per result
+        // rather than once per comparison is the difference on a 10,000-word dictionary. And
+        // Swift's sort is not stable: with only four rank buckets almost everything ties, and
+        // ties would come back in an arbitrary order — the same search would produce a
+        // differently-ordered list each time it ran. The index preserves the alphabetical order
+        // the fetch already established.
         if !needle.isEmpty {
-            results.sort { rank($0, needle: needle) < rank($1, needle: needle) }
+            results = results.enumerated()
+                .map { (rank: rank($0.element, needle: needle), index: $0.offset, result: $0.element) }
+                .sorted { lhs, rhs in
+                    lhs.rank == rhs.rank ? lhs.index < rhs.index : lhs.rank < rhs.rank
+                }
+                .map(\.result)
         }
         return Array(results.prefix(limit))
     }
@@ -123,7 +136,13 @@ public final class SearchService {
     private func matchesDefinitionOrTranslation(_ entry: Entry, needle: String) -> Bool {
         entry.senses.contains { sense in
             if Entry.normalize(sense.definition).contains(needle) { return true }
-            if sense.translations.values.contains(where: { $0.contains(needle) }) { return true }
+            // Normalised like everything else. `needle` has already been folded, so comparing it
+            // against a raw translation meant "Abandonner" never matched "abandonner" — the
+            // Chinese case happened to work because the script has no case or diacritics, which
+            // is exactly the kind of coincidence that hides a bug for every other language.
+            if sense.translations.values.contains(where: { Entry.normalize($0).contains(needle) }) {
+                return true
+            }
             if sense.synonyms.contains(where: { Entry.normalize($0).contains(needle) }) { return true }
             return false
         }
