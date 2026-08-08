@@ -34,9 +34,10 @@ Every screen is in [`docs/screenshots/`](docs/screenshots), light and dark, at 3
 [`docs/screens.html`](docs/screens.html) in a browser for the interactive version — it
 follows your system theme and the flashcard's rating buttons run the real scheduler.
 
-These are renders of a faithful mockup, **not screenshots of the running app** — it has
-never been compiled (see [CI](#ci)). Colour and geometry come from the same tokens the
-app compiles against; only a simulator run can confirm the SwiftUI layout matches.
+These are renders of a faithful mockup, **not screenshots of the running app**. Colour and
+geometry come from the same tokens the app compiles against, and the app now builds and runs
+in CI — but nobody has yet captured simulator screenshots to compare against these, so treat
+them as the design, not as evidence of the layout.
 
 ---
 
@@ -160,9 +161,15 @@ an account reaches a working app and can search the bundled dictionary.
 - **Build and test** (macOS) — `xcodebuild test` on an iPhone 16 simulator, with the
   `.xcresult` bundle uploaded as an artifact whether it passes or fails.
 
-**The first run is expected to fail.** The project was written in a Linux container with
-no Swift toolchain, so it has never been compiled. That run's error list is the point of
-having CI at all.
+The project was written in a Linux container with no Swift toolchain, so CI is the only
+thing that has ever compiled it. That was the point of having it, and it earned its keep:
+the compiler found a design-system enum shadowing SwiftUI's `Layout` protocol and a local
+constant shadowing the method it was calling, and once the build went green the test suite
+immediately found five more defects that no amount of reading could have — a batch delete
+that made "delete my account" throw, a DST transition that duplicated one day key and
+skipped its neighbour, a corrupt card that produced a NaN due date, a launch argument that
+pinned the UI tests in a first-run loop, and a fixture date whose own comment described a
+different time of day. Each is fixed with a test.
 
 ---
 
