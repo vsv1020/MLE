@@ -272,7 +272,7 @@ private struct SelectableRow: View {
                     .font(.title3)
             }
             .padding(Spacing.md)
-            .frame(minHeight: Layout.minimumTapTarget)
+            .frame(minHeight: LayoutMetrics.minimumTapTarget)
             .background(Palette.surface)
             .clipShape(RoundedRectangle(cornerRadius: Radius.nested, style: .continuous))
             .overlay(

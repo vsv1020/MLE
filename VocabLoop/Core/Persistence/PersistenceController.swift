@@ -41,6 +41,27 @@ public enum PersistenceController {
         }
     }
 
+    /// Cache for ``sharedContainer()``.
+    @MainActor private static var cachedContainer: ModelContainer?
+
+    /// The one container for this process.
+    ///
+    /// App Intents have no extension target here, so they run **inside the app's process** —
+    /// launched into the background when the app is not already running. Without this, an
+    /// intent calling `makeContainer()` would open a *second* `ModelContainer` on the same
+    /// store file in the same process. That is not a supported configuration, and it makes the
+    /// quarantine path in ``makeContainer()`` genuinely dangerous: a transient open failure in
+    /// a background intent could move the store aside while the app has it open.
+    ///
+    /// Everything that needs the on-disk store goes through here.
+    @MainActor
+    public static func sharedContainer() throws -> ModelContainer {
+        if let cachedContainer { return cachedContainer }
+        let container = try makeContainer()
+        cachedContainer = container
+        return container
+    }
+
     /// In-memory container for tests and SwiftUI previews.
     public static func makeInMemoryContainer() throws -> ModelContainer {
         let configuration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)

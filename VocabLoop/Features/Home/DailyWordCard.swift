@@ -99,14 +99,14 @@ struct DailyWordCard: View {
                 Label("Added to your words", systemImage: "checkmark.circle.fill")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.success)
-                    .frame(maxWidth: .infinity, minHeight: Layout.minimumTapTarget)
+                    .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget)
             } else {
                 PrimaryButton("Add", systemImage: "plus", action: onAccept)
                 Button {
                     onDismiss()
                 } label: {
                     Image(systemName: "xmark")
-                        .frame(width: Layout.minimumTapTarget, height: Layout.minimumTapTarget)
+                        .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                         .foregroundStyle(Palette.textSecondary)
                         .background(Palette.surfaceRaised)
                         .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))

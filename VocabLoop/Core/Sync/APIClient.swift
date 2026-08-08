@@ -8,11 +8,21 @@ import OSLog
 /// itself unavailable, and ``SyncEngine`` never leaves the outbox. Nothing else in the
 /// app has to know.
 public struct APIConfiguration: Sendable {
-    public var baseURL: URL?
+    /// `private(set)` so the HTTPS check in the initialiser cannot be bypassed by assigning
+    /// to it afterwards.
+    public private(set) var baseURL: URL?
     public var timeout: TimeInterval
 
     public init(baseURL: URL? = nil, timeout: TimeInterval = 20) {
-        self.baseURL = baseURL
+        // Refuse anything but HTTPS rather than trusting App Transport Security to catch it.
+        // ATS can be weakened by an Info.plist exception, and a bearer token must never leave
+        // the device in clear text because someone added one for a local test server.
+        if let baseURL, baseURL.scheme?.lowercased() != "https" {
+            assertionFailure("VocabLoop's API base URL must be https, got \(baseURL.scheme ?? "none")")
+            self.baseURL = nil
+        } else {
+            self.baseURL = baseURL
+        }
         self.timeout = timeout
     }
 
@@ -53,6 +63,14 @@ public actor APIClient {
             // Never serve a cached response for an API call: a stale review count is
             // worse than no review count.
             config.requestCachePolicy = .reloadIgnoringLocalCacheData
+            // And never *write* one either. `requestCachePolicy` only stops reads; without
+            // this, authenticated API responses would sit in an on-disk URLCache that no
+            // sign-out clears.
+            config.urlCache = nil
+            // Cookies would be a second, invisible source of session state alongside the
+            // Keychain. The API is bearer-token only.
+            config.httpCookieAcceptPolicy = .never
+            config.httpShouldSetCookies = false
             // Let the OS wait for connectivity rather than failing instantly — this is an
             // app that expects to be offline.
             config.waitsForConnectivity = true

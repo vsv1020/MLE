@@ -75,7 +75,7 @@ public struct PrimaryButton: View {
                 Text(title)
                     .font(Typography.buttonLabel)
             }
-            .frame(maxWidth: .infinity, minHeight: Layout.minimumTapTarget)
+            .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget)
             .padding(.horizontal, Spacing.md)
             .foregroundStyle(foreground)
             .background(background)
@@ -153,7 +153,7 @@ public struct FilterChip: View {
             Text(title)
                 .font(Typography.caption)
                 .padding(.horizontal, Spacing.sm)
-                .frame(minHeight: Layout.minimumTapTarget - 12)
+                .frame(minHeight: LayoutMetrics.minimumTapTarget - 12)
                 .foregroundStyle(isSelected ? Palette.onBrand : Palette.textSecondary)
                 .background(isSelected ? Palette.brandPrimary : Palette.surfaceRaised)
                 .clipShape(Capsule())
@@ -382,7 +382,7 @@ public struct SpeakerButton: View {
                 Image(systemName: "speaker.wave.2.fill")
                     .font(size)
                     .foregroundStyle(Palette.brandPrimary)
-                    .frame(width: Layout.minimumTapTarget, height: Layout.minimumTapTarget)
+                    .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                     .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
@@ -396,7 +396,7 @@ public struct SpeakerButton: View {
 extension View {
     /// Cap content width and centre it, so screens stay readable on iPad.
     public func readableWidth() -> some View {
-        frame(maxWidth: Layout.maximumContentWidth)
+        frame(maxWidth: LayoutMetrics.maximumContentWidth)
             .frame(maxWidth: .infinity)
     }
 

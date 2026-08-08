@@ -13,7 +13,13 @@ struct VocabLoopApp: App {
         // quarantining a corrupt store — the app shows an explanation rather than crashing
         // on a force-unwrap in front of the user.
         do {
-            let container = try PersistenceController.makeContainer()
+            // `sharedContainer` rather than `makeContainer`: an App Intent may have already
+            // opened it by launching the app in the background, and two containers on one
+            // store file in one process is not a supported configuration.
+            //
+            // Both this and `AppDependencies.init` are main-actor isolated, which is fine —
+            // SwiftUI's `App` is itself `@MainActor`, so this initialiser already is.
+            let container = try PersistenceController.sharedContainer()
             _dependencies = State(initialValue: AppDependencies(container: container))
             launchFailure = nil
         } catch {

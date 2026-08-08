@@ -56,7 +56,7 @@ struct AuthLandingView: View {
                 }
                 .font(Typography.buttonLabel)
                 .foregroundStyle(Palette.textSecondary)
-                .frame(maxWidth: .infinity, minHeight: Layout.minimumTapTarget)
+                .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget)
 
                 Text("Guest mode is fully functional. Your progress is saved on this device, and you can create an account later without losing it.")
                     .font(Typography.caption)

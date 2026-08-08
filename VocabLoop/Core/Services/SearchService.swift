@@ -53,7 +53,12 @@ public final class SearchService {
     }
 
     /// One search result, with the reason it matched so the UI can show context.
-    public struct Result: Identifiable, Sendable {
+    ///
+    /// Deliberately **not** `Sendable`: it holds an `Entry`, which is a SwiftData `@Model`
+    /// class bound to a `ModelContext` and unsafe to move across actors. Search runs on the
+    /// main actor and its results are consumed there, so claiming `Sendable` would have been
+    /// a false promise the compiler flagged.
+    public struct Result: Identifiable {
         public let entry: Entry
         /// Where the match was found. Definition matches show the matching definition
         /// in the row, because otherwise the result looks like a mistake.

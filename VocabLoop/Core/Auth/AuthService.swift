@@ -34,17 +34,20 @@ public final class AuthService {
     private let appleCoordinator: AppleSignInCoordinator
     private let logger = Logger(subsystem: "com.vocabloop.app", category: "auth")
 
+    /// - Parameter appleCoordinator: Pass a stub in tests. Defaults to `nil` rather than to
+    ///   `AppleSignInCoordinator()`, because a default argument is evaluated in a *nonisolated*
+    ///   context and that type is `@MainActor` — the direct default did not compile.
     public init(
         context: ModelContext,
         keychain: KeychainStore = KeychainStore(),
         remoteBackend: RemoteAuthBackend? = nil,
-        appleCoordinator: AppleSignInCoordinator = AppleSignInCoordinator()
+        appleCoordinator: AppleSignInCoordinator? = nil
     ) {
         self.context = context
         self.keychain = keychain
         self.localBackend = LocalAuthBackend(context: context)
         self.remoteBackend = remoteBackend
-        self.appleCoordinator = appleCoordinator
+        self.appleCoordinator = appleCoordinator ?? AppleSignInCoordinator()
     }
 
     /// The backend to use: the remote one when a server is configured, otherwise local.

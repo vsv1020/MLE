@@ -90,7 +90,7 @@ struct StudySessionView: View {
                 } label: {
                     Image(systemName: "xmark")
                         .font(.body.weight(.semibold))
-                        .frame(width: Layout.minimumTapTarget, height: Layout.minimumTapTarget)
+                        .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                 }
                 .foregroundStyle(Palette.textSecondary)
                 .accessibilityLabel("Close session")
@@ -141,7 +141,7 @@ struct StudySessionView: View {
                 } label: {
                     Image(systemName: "ellipsis.circle")
                         .font(.body)
-                        .frame(width: Layout.minimumTapTarget, height: Layout.minimumTapTarget)
+                        .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                 }
                 .foregroundStyle(Palette.textSecondary)
                 .accessibilityLabel("Session options")
@@ -208,7 +208,7 @@ struct RatingBar: View {
                                 .opacity(0.85)
                         }
                     }
-                    .frame(maxWidth: .infinity, minHeight: Layout.minimumTapTarget + 12)
+                    .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget + 12)
                     // Not `.white` — see `Palette.onRating`. The dark-mode rating fills are
                     // light by design, and white on them is unreadable.
                     .foregroundStyle(Palette.onRating)

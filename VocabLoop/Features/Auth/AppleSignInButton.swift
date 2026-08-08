@@ -23,7 +23,7 @@ struct AppleSignInButton: View {
         }
         // Match the system appearance so the button does not look pasted on in dark mode.
         .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
-        .frame(height: Layout.minimumTapTarget)
+        .frame(height: LayoutMetrics.minimumTapTarget)
         .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
     }
 

@@ -71,7 +71,7 @@ public enum Elevation {
 }
 
 /// Minimum interactive size, per Apple's Human Interface Guidelines.
-public enum Layout {
+public enum LayoutMetrics {
     public static let minimumTapTarget: CGFloat = 44
     /// Cap line length on iPad — a definition running the full width of a 13" screen is
     /// genuinely harder to read than one at phone width.

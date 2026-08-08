@@ -81,12 +81,22 @@ public final class SpeechService: NSObject {
 }
 
 extension SpeechService: AVSpeechSynthesizerDelegate {
-    public func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        isSpeaking = false
-        releaseAudioSession()
+    // `nonisolated`, with a hop inside. `AVSpeechSynthesizerDelegate`'s requirements are not
+    // actor-isolated, so a `@MainActor` implementation cannot satisfy them — the compiler
+    // warns today and rejects it under the Swift 6 language mode.
+    public nonisolated func speechSynthesizer(
+        _ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance
+    ) {
+        Task { @MainActor in finishSpeaking() }
     }
 
-    public func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
+    public nonisolated func speechSynthesizer(
+        _ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance
+    ) {
+        Task { @MainActor in finishSpeaking() }
+    }
+
+    private func finishSpeaking() {
         isSpeaking = false
         releaseAudioSession()
     }

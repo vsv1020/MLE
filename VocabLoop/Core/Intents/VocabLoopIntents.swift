@@ -18,14 +18,18 @@ import SwiftData
 
 /// Opens the store for an intent.
 ///
-/// Intents run in a short-lived process that is *not* the app, so `AppDependencies` does not
-/// exist here. A fresh container per invocation is the correct trade: an intent does a
-/// handful of reads and exits, and holding a shared container across processes is what
-/// causes SQLite lock contention with the app.
+/// With no App Intents extension target, these intents run **inside the app's process** —
+/// launched into the background when the app is not already open. So this must not create its
+/// own `ModelContainer`: that would be a second container on the same store file in the same
+/// process, and it would put the destructive quarantine path in `makeContainer()` behind a
+/// background launch. ``PersistenceController/sharedContainer()`` opens once and caches.
+///
+/// A fresh `ModelContext` per invocation is correct and cheap — contexts are lightweight, and
+/// a long-lived one would accumulate an unbounded object graph across intent calls.
 @MainActor
 enum IntentStore {
     static func context() throws -> ModelContext {
-        ModelContext(try PersistenceController.makeContainer())
+        ModelContext(try PersistenceController.sharedContainer())
     }
 
     /// The active account and its preferences, or `nil` if the app has never launched.
