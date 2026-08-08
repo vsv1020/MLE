@@ -20,6 +20,7 @@ struct AccountView: View {
     @State private var newRecoveryCode: IdentifiableValue<String>?
     @State private var exportURL: IdentifiableValue<URL>?
     @State private var exportError: String?
+    @State private var profileError: String?
 
     private var auth: AuthService { dependencies.auth }
     private var session: Session? { auth.current }
@@ -78,6 +79,14 @@ struct AccountView: View {
             Button("OK") { exportError = nil }
         } message: {
             Text(exportError ?? "")
+        }
+        .alert("Could not save your name", isPresented: Binding(
+            get: { profileError != nil },
+            set: { if !$0 { profileError = nil } }
+        )) {
+            Button("OK") { profileError = nil }
+        } message: {
+            Text(profileError ?? "")
         }
     }
 
@@ -140,8 +149,15 @@ struct AccountView: View {
                     Spacer()
                     Button("Save") {
                         Task {
-                            await auth.updateProfile(displayName: draftName, email: nil)
-                            isEditingProfile = false
+                            // Only close the editor when the save actually landed. Closing
+                            // regardless discards what the user typed while looking like it
+                            // worked — the failure is silent and the old name reappears.
+                            if await auth.updateProfile(displayName: draftName, email: nil) {
+                                isEditingProfile = false
+                            } else {
+                                profileError = auth.lastError?.localizedDescription
+                                    ?? "Your name could not be saved."
+                            }
                         }
                     }
                     .fontWeight(.semibold)

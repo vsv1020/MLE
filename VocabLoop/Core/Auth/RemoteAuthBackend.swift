@@ -130,7 +130,7 @@ public final class RemoteAuthBackend: AuthBackend {
             as: SessionResponse.self
         )
         let session = try await adopt(response, provider: .apple)
-        if let account = try account(withUserID: session.userID) {
+        if let account = try findAccount(withUserID: session.userID) {
             account.appleUserIdentifier = credential.userIdentifier
             try context.save()
         }
@@ -210,7 +210,10 @@ public final class RemoteAuthBackend: AuthBackend {
     private func adopt(_ response: SessionResponse, provider: AuthProvider) async throws -> Session {
         let now = Date()
         let account: UserAccount
-        if let existing = try account(withRemoteID: response.userId) {
+        // `findAccount` rather than `account`: a local constant named `account` shadows a
+        // method of the same name for the whole scope, including the line that declares it,
+        // so `try account(withRemoteID:)` reads as calling a `UserAccount` value.
+        if let existing = try findAccount(withRemoteID: response.userId) {
             account = existing
         } else if let guest = try adoptableGuest() {
             account = guest
@@ -249,13 +252,13 @@ public final class RemoteAuthBackend: AuthBackend {
         )
     }
 
-    private func account(withRemoteID remoteID: String) throws -> UserAccount? {
+    private func findAccount(withRemoteID remoteID: String) throws -> UserAccount? {
         var descriptor = FetchDescriptor<UserAccount>(predicate: #Predicate { $0.remoteID == remoteID })
         descriptor.fetchLimit = 1
         return try context.fetch(descriptor).first
     }
 
-    private func account(withUserID userID: String) throws -> UserAccount? {
+    private func findAccount(withUserID userID: String) throws -> UserAccount? {
         var descriptor = FetchDescriptor<UserAccount>(predicate: #Predicate { $0.userID == userID })
         descriptor.fetchLimit = 1
         return try context.fetch(descriptor).first
