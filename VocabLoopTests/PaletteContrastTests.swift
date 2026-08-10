@@ -144,6 +144,65 @@ final class PaletteContrastTests: XCTestCase {
         )
     }
 
+    // MARK: - Translucent fills
+
+    /// `Chip` text over `Chip`'s own tint, on every surface a chip can sit on.
+    ///
+    /// This is the assertion whose absence let a 2.52:1 chip ship. The suite measured every tone
+    /// against every *surface* and concluded the palette was safe, while `Chip` quietly composited
+    /// its foreground at 14% to make a background nothing had a name for. Eight of twelve
+    /// token/appearance combinations were under 4.5:1 — and these chips render on the flashcard,
+    /// carrying part of speech, register and synonyms.
+    func testChipTextIsLegibleOverItsOwnTint() {
+        let tokens: [(String, Color)] = [
+            ("brandPrimary", Palette.brandPrimary),
+            ("brandSecondary", Palette.brandSecondary),
+            ("textSecondary", Palette.textSecondary),
+            ("success", Palette.success),
+            ("warning", Palette.warning),
+            ("danger", Palette.danger),
+        ]
+        let surfaces: [(String, Color)] = [
+            ("surface", Palette.surface),
+            ("surfaceRaised", Palette.surfaceRaised),
+            ("canvas", Palette.canvas),
+        ]
+
+        for (appearance, style) in appearances {
+            for (tokenName, token) in tokens {
+                for (surfaceName, surface) in surfaces {
+                    let tint = blend(token, over: surface, alpha: Chip.fillOpacity, style: style)
+                    assertContrast(
+                        Palette.textPrimary, on: tint, style: style,
+                        because: "chip text on a \(tokenName) tint over \(surfaceName) in \(appearance) mode"
+                    )
+                }
+            }
+        }
+    }
+
+    /// The old scheme must stay broken, so nobody "simplifies" it back.
+    ///
+    /// If someone restores `foregroundStyle(color)` this fails and says why, rather than the
+    /// regression going unnoticed for another release.
+    func testTintedForegroundOnItsOwnTintWouldStillFail() {
+        let worst = [Palette.warning, Palette.success, Palette.danger]
+            .map { token in
+                contrast(
+                    token,
+                    blend(token, over: Palette.surfaceRaised, alpha: Chip.fillOpacity, style: .light),
+                    style: .light
+                )
+            }
+            .min() ?? 99
+
+        XCTAssertLessThan(
+            worst, minimumRatio,
+            "Colouring chip text with its own hue has become legible over its own tint. If the "
+            + "fill opacity changed, re-derive the foreground rather than deleting this test."
+        )
+    }
+
     private func contrast(_ a: Color, _ b: Color, style: UIUserInterfaceStyle) -> Double {
         let la = luminance(a, style)
         let lb = luminance(b, style)
@@ -161,5 +220,31 @@ final class PaletteContrastTests: XCTestCase {
             return v <= 0.04045 ? v / 12.92 : pow((v + 0.055) / 1.055, 2.4)
         }
         return 0.2126 * channel(red) + 0.7152 * channel(green) + 0.0722 * channel(blue)
+    }
+    /// Composite a translucent colour over an opaque one, the way the renderer does.
+    ///
+    /// The gap this closes is the reason a real failure shipped. Every other assertion here
+    /// measures a tone against one of the three named surfaces — but a translucent fill creates a
+    /// colour that is in no token at all, and the text sits on *that*. `Chip` drew `color` on
+    /// `color.opacity(0.14)`, so its true background was a tint of its own foreground, and the
+    /// suite had no way to name it, let alone measure it.
+    private func blend(
+        _ foreground: Color, over background: Color, alpha: Double, style: UIUserInterfaceStyle
+    ) -> Color {
+        let traits = UITraitCollection(userInterfaceStyle: style)
+        let f = UIColor(foreground).resolvedColor(with: traits)
+        let b = UIColor(background).resolvedColor(with: traits)
+        var fr: CGFloat = 0, fg: CGFloat = 0, fb: CGFloat = 0, fa: CGFloat = 0
+        var br: CGFloat = 0, bg: CGFloat = 0, bb: CGFloat = 0, ba: CGFloat = 0
+        f.getRed(&fr, green: &fg, blue: &fb, alpha: &fa)
+        b.getRed(&br, green: &bg, blue: &bb, alpha: &ba)
+        let a = CGFloat(alpha)
+        return Color(
+            .sRGB,
+            red: Double(fr * a + br * (1 - a)),
+            green: Double(fg * a + bg * (1 - a)),
+            blue: Double(fb * a + bb * (1 - a)),
+            opacity: 1
+        )
     }
 }

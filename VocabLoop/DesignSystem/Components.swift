@@ -196,6 +196,16 @@ public struct PrimaryButton: View {
 
 /// Small metadata pill: CEFR level, part of speech, tag.
 public struct Chip: View {
+    /// Strength of the tint behind the label.
+    ///
+    /// `internal`, not private, so `PaletteContrastTests` measures the value the component
+    /// actually draws. A duplicated literal in the test would keep passing after this changed,
+    /// which is precisely how the 2.52:1 chip survived.
+    static let fillOpacity: Double = 0.22
+
+    /// Strength of the edge. Redundant reinforcement of the label, so it is allowed below 3:1.
+    static let borderOpacity: Double = 0.55
+
     private let text: String
     private let color: Color
     private let systemImage: String?
@@ -217,9 +227,27 @@ public struct Chip: View {
         }
         .padding(.horizontal, Spacing.xs)
         .padding(.vertical, Spacing.xxs)
-        .foregroundStyle(color)
-        .background(color.opacity(0.14))
+        // `textPrimary`, not `color`.
+        //
+        // Drawing `color` on `color.opacity(0.14)` was a real WCAG failure that shipped, and the
+        // contrast suite could not see it: the suite measures a tone against `surface`,
+        // `canvas` and `surfaceRaised`, and this chip's actual background is none of those — it is
+        // a tint of the foreground itself, composited over one of them. Eight of the twelve
+        // token/appearance combinations came in under 4.5:1, the worst being light `warning` at
+        // **2.52:1** — and these chips render on the flashcard, carrying part of speech, register
+        // and synonyms. A reading surface.
+        //
+        // Dark ink on a stronger tint clears 8.49:1 at worst. The hue survives as the fill and as
+        // the border, so nothing is lost but the illegibility.
+        .foregroundStyle(Palette.textPrimary)
+        .background(color.opacity(Self.fillOpacity))
         .clipShape(RoundedRectangle(cornerRadius: Radius.chip, style: .continuous))
+        // Redundant reinforcement, never a sole signal: the text already carries the meaning, so
+        // this edge is allowed to sit below 1.4.11's 3:1 for the palest tokens.
+        .overlay(
+            RoundedRectangle(cornerRadius: Radius.chip, style: .continuous)
+                .strokeBorder(color.opacity(Self.borderOpacity), lineWidth: 1)
+        )
     }
 }
 

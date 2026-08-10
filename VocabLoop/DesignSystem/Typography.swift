@@ -53,7 +53,9 @@ public enum Spacing {
 public enum Radius {
     public static let card: CGFloat = 20
     public static let nested: CGFloat = 14
-    public static let chip: CGFloat = 8
+    /// Bumped 8 → 10 so a chip reads as a bubble rather than a tag. `Chip` is small enough
+    /// that 8 rendered almost square.
+    public static let chip: CGFloat = 10
     public static let button: CGFloat = 14
 }
 
