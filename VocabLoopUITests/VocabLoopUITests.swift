@@ -158,6 +158,55 @@ final class VocabLoopUITests: XCTestCase {
         )
     }
 
+    /// Capture every top-level screen from the running app.
+    ///
+    /// `docs/screenshots/` holds renders of a faithful mockup, not the app — the project was
+    /// written without a Swift toolchain, so until CI compiled it nobody had seen a single real
+    /// frame. Colour and geometry come from the same tokens either way, but only a simulator can
+    /// say whether the SwiftUI layout actually matches: whether anything clips, wraps, or overflows
+    /// at a real width.
+    ///
+    /// The attachments land in `TestResults.xcresult`, which the workflow already uploads on every
+    /// run, so this is browsable evidence rather than a claim. It asserts nothing beyond each screen
+    /// being reachable — judging a layout is a human's job, and a test that pretended otherwise
+    /// would only be a screenshot-diff suite that fails on every intentional change.
+    func testCaptureEveryScreenForVisualReview() throws {
+        let tabBar = reachMainTabs()
+        attach(name: "01-today")
+
+        for label in ["Browse", "Decks", "Progress", "Settings"] {
+            let tab = tabBar.buttons[label]
+            guard tab.waitForExistence(timeout: 5) else {
+                XCTFail("\(label) tab is missing")
+                continue
+            }
+            tab.tap()
+            attach(name: "0\(["Browse": 2, "Decks": 3, "Progress": 4, "Settings": 5][label]!)-\(label.lowercased())")
+        }
+
+        // One screen deeper, because a word's detail view is the densest layout in the app and the
+        // most likely to overflow.
+        tabBar.buttons["Browse"].tap()
+        let firstWord = app.collectionViews.cells.firstMatch.exists
+            ? app.collectionViews.cells.firstMatch
+            : app.cells.firstMatch
+        if firstWord.waitForExistence(timeout: 10), firstWord.isHittable {
+            firstWord.tap()
+            attach(name: "06-word-detail")
+        }
+    }
+
+    /// Attach a full-screen capture that survives a passing run.
+    ///
+    /// `.keepAlways`, because the default discards attachments when the test passes — and a passing
+    /// run is exactly when these are wanted.
+    private func attach(name: String) {
+        let attachment = XCTAttachment(screenshot: app.screenshot())
+        attachment.name = name
+        attachment.lifetime = .keepAlways
+        add(attachment)
+    }
+
     // MARK: - Helpers
 
     /// Bring an element into view, swiping up until it can be tapped.

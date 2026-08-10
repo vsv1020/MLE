@@ -159,6 +159,28 @@ jobs:
         # Signing is disabled because Sign in with Apple is deliberately not wired into
         # the target (see README) and a simulator build needs no provisioning profile.
 
+      # Runs on success too, which is the point. Most of the remaining warnings come from
+      # inside expanded `#Predicate` macros and from `SortDescriptor(\.keyPath)` on `@Model`
+      # classes — `ReferenceWritableKeyPath` is not `Sendable`, which is an error under the
+      # Swift 6 language mode and is SwiftData's own generated code, so there is nothing to
+      # fix at the call site. What *can* go wrong is the count quietly growing until a Swift 6
+      # migration is a wall instead of a task. Printing it on every green run is how that stays
+      # visible; the split tells actionable warnings apart from framework noise.
+      - name: Warning census
+        if: always()
+        run: |
+          if [ ! -f build.log ]; then echo "no build.log"; exit 0; fi
+          census() { grep -E 'warning: ' build.log | sed 's#^/Users/runner/work/MLE/MLE/##' | sort -u; }
+          total=$(census | wc -l | tr -d ' ')
+          sendable=$(census | grep -c 'does not conform to the .Sendable' || true)
+          echo "### Warnings: $total unique ($sendable of them keypath-Sendable)" >> "$GITHUB_STEP_SUMMARY"
+          echo "::group::actionable warnings ($((total - sendable)))"
+          census | grep -v 'does not conform to the .Sendable' || echo "none"
+          echo "::endgroup::"
+          echo "::group::keypath Sendable, from SwiftData macro expansion ($sendable) — not fixable here"
+          census | grep 'does not conform to the .Sendable' | head -60 || echo "none"
+          echo "::endgroup::"
+
       - name: Compile errors
         if: failure()
         run: |
