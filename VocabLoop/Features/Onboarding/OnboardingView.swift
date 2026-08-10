@@ -280,7 +280,7 @@ private struct SelectableRow: View {
                     .stroke(isSelected ? Palette.brandPrimary : Palette.separator, lineWidth: isSelected ? 2 : 1)
             )
         }
-        .buttonStyle(.plain)
+        .pressable(scale: 0.985)
         .accessibilityAddTraits(isSelected ? [.isSelected, .isButton] : .isButton)
     }
 }

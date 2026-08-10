@@ -214,8 +214,24 @@ struct RatingBar: View {
                     .foregroundStyle(Palette.onRating)
                     .background(Palette.rating(rating))
                     .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
+                    // A ring on `Good` only, because in a well-scheduled deck it is the answer
+                    // four times out of five and nothing said so. All four buttons carry the same
+                    // width and the same weight, which means the most common action is no easier
+                    // to find than the rarest.
+                    //
+                    // Deliberately *only* visual. Making it easier to physically hit needs the
+                    // row to reflow — Good wider, or the other three smaller on a second line —
+                    // and that is a layout decision worth feeling on a real device before
+                    // committing to it, not one to slip in here.
+                    .overlay(
+                        RoundedRectangle(cornerRadius: Radius.button, style: .continuous)
+                            .strokeBorder(
+                                Palette.onRating.opacity(rating == .good ? 0.45 : 0),
+                                lineWidth: 1.5
+                            )
+                    )
                 }
-                .buttonStyle(.plain)
+                .pressable(scale: 0.95)
                 .accessibilityLabel(rating.accessibilityDescription)
                 .accessibilityValue(showsIntervals ? "Next review \(intervalLabel(rating))" : "")
                 // Hardware keyboard shortcuts, for iPad and Mac. Free to add, and the way

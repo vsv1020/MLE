@@ -26,6 +26,95 @@ public struct CardContainer<Content: View>: View {
     }
 }
 
+// MARK: - Press feedback
+
+/// Acknowledges a touch the moment it lands.
+///
+/// Every custom button in this app used `.buttonStyle(.plain)`, which does more than remove the
+/// blue tint — it removes SwiftUI's press response entirely. Nothing replaced it, so there was no
+/// `scaleEffect`, no opacity change and no style reading `isPressed` anywhere in the project. Taps
+/// were acknowledged by haptics and by whatever the action changed, and by nothing on screen in
+/// between. On the rating bar, which a user presses hundreds of times a day, that reads as the app
+/// being slow rather than as the app being still.
+///
+/// Deliberately understated: a 3% scale and a small opacity drop. A control the user hits this
+/// often should feel responsive, not springy — a bouncy animation is charming twice and tiring by
+/// the fiftieth card.
+public struct PressableButtonStyle: ButtonStyle {
+    private let pressedScale: CGFloat
+    private let pressedOpacity: Double
+
+    /// - Parameters:
+    ///   - pressedScale: Shrink while held. Values below about 0.94 start to read as a glitch on
+    ///     a wide button, because the edges travel further than the eye expects.
+    ///   - pressedOpacity: Dim while held. Carries the whole effect when Reduce Motion is on.
+    public init(pressedScale: CGFloat = 0.97, pressedOpacity: Double = 0.9) {
+        self.pressedScale = pressedScale
+        self.pressedOpacity = pressedOpacity
+    }
+
+    public func makeBody(configuration: Configuration) -> some View {
+        Body(
+            configuration: configuration,
+            pressedScale: pressedScale,
+            pressedOpacity: pressedOpacity
+        )
+    }
+
+    /// A nested `View` rather than reading the environment in `makeBody`.
+    ///
+    /// `makeBody` is not a `View` body, so `@Environment` declared on the style itself is not
+    /// reliably populated — the accessibility setting would silently read as its default and
+    /// Reduce Motion would do nothing.
+    private struct Body: View {
+        let configuration: ButtonStyleConfiguration
+        let pressedScale: CGFloat
+        let pressedOpacity: Double
+
+        @Environment(\.accessibilityReduceMotion) private var reduceMotion
+        @Environment(\.isEnabled) private var isEnabled
+
+        var body: some View {
+            configuration.label
+                // Scale *is* motion, so Reduce Motion drops it and keeps the dimming. The
+                // feedback survives; only the movement goes.
+                .scaleEffect(shouldScale ? pressedScale : 1)
+                .opacity(configuration.isPressed ? pressedOpacity : 1)
+                .animation(
+                    reduceMotion ? .linear(duration: 0.08) : .spring(duration: 0.22, bounce: 0.1),
+                    value: configuration.isPressed
+                )
+        }
+
+        private var shouldScale: Bool {
+            configuration.isPressed && !reduceMotion && isEnabled
+        }
+    }
+}
+
+public extension View {
+    /// Standard press feedback. Replaces `.buttonStyle(.plain)` on custom button labels.
+    func pressable(scale: CGFloat = 0.97, opacity: Double = 0.9) -> some View {
+        buttonStyle(PressableButtonStyle(pressedScale: scale, pressedOpacity: opacity))
+    }
+
+    /// Extend the tappable area to at least `side`, without changing what is drawn.
+    ///
+    /// For a control whose visual size is deliberately small — a filter capsule should read as a
+    /// chip, not a button — this buys the 44pt target the Human Interface Guidelines ask for while
+    /// the drawn shape keeps its own size. Applied *after* the background and clip shape, so the
+    /// frame grows around the artwork rather than stretching it.
+    ///
+    /// One honest cost: the row containing the control gets taller. A 32pt chip in a 44pt frame
+    /// adds 12pt of height wherever it sits. That is the trade for a compliant target, and in a
+    /// horizontally scrolling filter row a missed tap silently changes the results — which is worse
+    /// than 12pt.
+    func tappableArea(_ side: CGFloat = LayoutMetrics.minimumTapTarget) -> some View {
+        frame(minHeight: side)
+            .contentShape(Rectangle())
+    }
+}
+
 // MARK: - Buttons
 
 /// Filled primary action.
@@ -81,6 +170,7 @@ public struct PrimaryButton: View {
             .background(background)
             .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
         }
+        .pressable()
         .disabled(!isEnabled || isLoading)
         .opacity(isEnabled ? 1 : 0.45)
         // Announce the loading state rather than leaving VoiceOver reading a button that
@@ -157,8 +247,20 @@ public struct FilterChip: View {
                 .foregroundStyle(isSelected ? Palette.onBrand : Palette.textSecondary)
                 .background(isSelected ? Palette.brandPrimary : Palette.surfaceRaised)
                 .clipShape(Capsule())
+                // A ring, not just a fill. Selection carried by colour alone disappears for a
+                // colour-blind user and washes out in sunlight; the border survives both.
+                .overlay(
+                    Capsule().strokeBorder(
+                        isSelected ? Palette.brandPrimary : Palette.separator,
+                        lineWidth: isSelected ? 0 : 1
+                    )
+                )
+                // The capsule stays 32pt because it should read as a chip. The *target* is 44pt,
+                // which is what the guidelines actually ask for — filters sit in a scrolling row
+                // and a 32pt target there is a missed tap that silently changes the results.
+                .tappableArea()
         }
-        .buttonStyle(.plain)
+        .pressable(scale: 0.94)
         // A coloured background is not a state VoiceOver can see; the trait is what makes
         // the filter usable without sight.
         .accessibilityAddTraits(isSelected ? [.isSelected, .isButton] : .isButton)
@@ -385,7 +487,7 @@ public struct SpeakerButton: View {
                     .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                     .contentShape(Rectangle())
             }
-            .buttonStyle(.plain)
+            .pressable(scale: 0.9)
             .accessibilityLabel("Pronounce \(text)")
         }
     }

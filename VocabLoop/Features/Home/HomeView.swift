@@ -139,7 +139,9 @@ struct HomeView: View {
                 }
             }
         }
-        .buttonStyle(.plain)
+        // Gentler than the default: this is a full-width card, and the same 3% on something this
+        // wide moves the edges far enough to read as a jolt rather than a press.
+        .pressable(scale: 0.99)
         .accessibilityElement(children: .combine)
         .accessibilityLabel(
             "\(model.primaryActionTitle). \(model.statistics.reviewsToday) reviews done today."

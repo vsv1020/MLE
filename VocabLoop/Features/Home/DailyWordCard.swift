@@ -111,7 +111,7 @@ struct DailyWordCard: View {
                         .background(Palette.surfaceRaised)
                         .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
                 }
-                .buttonStyle(.plain)
+                .pressable(scale: 0.9)
                 .accessibilityLabel("Skip \(entry.headword). It will not be offered again.")
             }
         }
