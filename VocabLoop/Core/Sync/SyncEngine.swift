@@ -48,7 +48,13 @@ public final class SyncEngine {
 
     /// Rows per request. Large enough that a month of offline study is a handful of
     /// requests, small enough that a failure does not waste much work.
-    static let batchSize = 200
+    ///
+    /// `nonisolated` because it is used as a default argument, and default arguments are evaluated
+    /// in the caller's context — which for a `@MainActor` type's static property means "main
+    /// actor-isolated static property can not be referenced from a nonisolated context", a warning
+    /// today and an error under the Swift 6 language mode. An immutable `Int` has no reason to be
+    /// actor-isolated in the first place.
+    nonisolated static let batchSize = 200
 
     public init(
         context: ModelContext,
