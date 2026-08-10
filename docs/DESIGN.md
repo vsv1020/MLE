@@ -43,27 +43,60 @@ Semantic tokens only — views never name a raw colour. Defined in
 The four review ratings are the most semantically loaded colours in the app. They
 are consistent everywhere — buttons, statistics, forecast bars, history rows.
 
-| Rating | Token | Light | Dark |
-| --- | --- | --- | --- |
-| Again | `ratingAgain` | `#DC2626` | `#F87171` |
-| Hard | `ratingHard` | `#B45309` | `#FBBF24` |
-| Good | `ratingGood` | `#048062` | `#34D399` |
-| Easy | `ratingEasy` | `#2563EB` | `#60A5FA` |
+**Bright fill, dark ink, hard edge** — one value per rating, not one per appearance.
+
+| Rating | Fill (both) | Edge (both) |
+| --- | --- | --- |
+| Again | `#FB7185` | `#881337` |
+| Hard | `#FBBF24` | `#92400E` |
+| Good | `#34D399` | `#065F46` |
+| Easy | `#60A5FA` | `#1E40AF` |
+
+These used to be *darker* in light mode than the obvious 600-weight picks, for a
+stated reason: the rating bar set its labels in white, and white needs a dark fill to
+clear 4.5:1. So the four colours the user looks at hundreds of times a day were the
+dullest in the app — dulled by the accessibility requirement, which is the worst way
+to lose a palette argument.
+
+Inverting the pairing wins both at once. `onRating` is now dark ink in both
+appearances (`#0F172A` light, `#0B1120` dark), and dark ink on a 400-weight fill
+reads at **6.63:1 at worst** against the previous scheme's 4.83:1. Brighter *and*
+more legible; the old scheme had it backwards.
+
+`ratingEdge` is **mandatory wherever a rating fill is drawn**, not decoration. A
+400-weight fill on a light surface is only 1.52:1 at worst, and these colours are not
+just button backgrounds — they are the bars on the session summary and the history
+dots in entry detail, graphical objects WCAG 1.4.11 holds to 3:1. Without an edge,
+brightening the fills would have traded readable data for prettier buttons. The edge
+clears 6.47:1 against every light surface and 3.43:1 at worst against its own fill,
+so the shape has a boundary from both sides. In dark mode the edge is redundant — the
+fill is already 5.44:1 against the darkest surface — but it is drawn anyway, because a
+hard outline is the whole cel-shaded idea and dropping it in one appearance would make
+the two look like different apps.
+
+On the rating bar the edge's *weight* also carries the emphasis on Good — 3pt against
+1.5pt — because in a well-scheduled deck Good is the answer four times out of five and
+nothing said so. Visual only: making it easier to physically hit needs the row to
+reflow, which is a decision worth feeling on a device first.
 
 Red/green as the only difference between Again and Good would fail for the most
 common colour-vision deficiency, so the rating buttons always carry a text label
 and a distinct position; colour is redundant reinforcement, never the sole signal.
 
-Rating labels are set in `onRating` (white in light, `#0B1120` in dark), **not** in
-plain white. The dark fills are light by design so they read against a dark canvas,
-which makes white on them unreadable — white on dark-mode Hard measures 1.67:1.
+Elsewhere in the palette several values *are* a step darker than the obvious 500/600
+weights, and for the reason the ratings no longer need: `brandSecondary`,
+`textTertiary` and the `new` maturity dot are used as **text or as a lone graphic**,
+where there is nothing to put an edge on, so the tone itself has to clear the
+threshold. The ratings escaped that constraint by not being text.
 
-Several values here are a step darker than the obvious 500/600 weights, for one
-reason: they are used as *text*, and the lighter weights do not clear 4.5:1.
 `PaletteContrastTests` measures every pairing in this document through
 `UITraitCollection`, in both appearances, and fails the build if one slips. Text
-pairings are held to 4.5:1; the maturity dots, being non-text UI, to WCAG 1.4.11's
-3:1.
+pairings are held to 4.5:1; non-text UI — the maturity dots, the rating fills and
+their edges — to WCAG 1.4.11's 3:1. The suite also asserts the *negative* cases: that
+plain white would fail on a rating fill in both appearances, and that colouring chip
+text with its own hue would still fail over its own tint. Both are shapes a real
+regression already took, and a test that only checks the good values cannot see them
+coming back.
 
 ---
 

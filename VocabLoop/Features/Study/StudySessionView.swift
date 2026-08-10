@@ -231,25 +231,31 @@ struct RatingBar: View {
                         }
                     }
                     .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget + 12)
-                    // Not `.white` — see `Palette.onRating`. The dark-mode rating fills are
-                    // light by design, and white on them is unreadable.
+                    // Dark ink on a bright fill — see `Palette.onRating`. Reads at 6.63:1 at
+                    // worst, against 4.83:1 for the white-on-dark-fill scheme this replaced.
                     .foregroundStyle(Palette.onRating)
                     .background(Palette.rating(rating))
                     .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
-                    // A ring on `Good` only, because in a well-scheduled deck it is the answer
-                    // four times out of five and nothing said so. All four buttons carry the same
-                    // width and the same weight, which means the most common action is no easier
-                    // to find than the rarest.
+                    // One stroke doing two jobs.
                     //
-                    // Deliberately *only* visual. Making it easier to physically hit needs the
+                    // It is mandatory, not decorative: a 400-weight fill is only 1.52:1 against a
+                    // light surface, so `Palette.ratingEdge` is what gives the button a boundary
+                    // at all. See its documentation.
+                    //
+                    // Its *weight* then carries the emphasis on `Good`, which in a well-scheduled
+                    // deck is the answer four times out of five and which nothing said so. Making
+                    // the required outline twice as thick costs nothing and needs no second layer
+                    // stacked on the first.
+                    //
+                    // Deliberately *only* visual. Making Good easier to physically hit needs the
                     // row to reflow — Good wider, or the other three smaller on a second line —
                     // and that is a layout decision worth feeling on a real device before
                     // committing to it, not one to slip in here.
                     .overlay(
                         RoundedRectangle(cornerRadius: Radius.button, style: .continuous)
                             .strokeBorder(
-                                Palette.onRating.opacity(rating == .good ? 0.45 : 0),
-                                lineWidth: 1.5
+                                Palette.ratingEdge(rating),
+                                lineWidth: rating == .good ? 3 : 1.5
                             )
                     )
                 }

@@ -135,6 +135,11 @@ struct SessionSummaryView: View {
                             Capsule().fill(Palette.surfaceRaised)
                             Capsule()
                                 .fill(Palette.rating(rating))
+                                // Not optional. These bars are the reason `ratingEdge` exists: a
+                                // 400-weight fill on `surfaceRaised` is 1.52:1 at worst, and a bar
+                                // chart is a graphical object WCAG 1.4.11 holds to 3:1. The fill
+                                // alone would have made the data unreadable in light mode.
+                                .overlay(Capsule().strokeBorder(Palette.ratingEdge(rating), lineWidth: 1))
                                 .frame(width: proxy.size.width * (barsRevealed ? share(count) : 0))
                         }
                     }

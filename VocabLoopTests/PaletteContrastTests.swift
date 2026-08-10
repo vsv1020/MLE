@@ -38,17 +38,88 @@ final class PaletteContrastTests: XCTestCase {
         }
     }
 
-    /// White is *not* an acceptable foreground in dark mode — the point of `onRating`.
-    /// If someone reverts to `.foregroundStyle(.white)`, this fails.
-    func testPlainWhiteWouldFailInDarkMode() {
-        let worst = Rating.allCases
-            .map { contrast(.white, Palette.rating($0), style: .dark) }
-            .min() ?? 0
-        XCTAssertLessThan(
-            worst, minimumRatio,
-            "White has become legible on the dark rating fills — if the fills changed, "
-            + "re-derive Palette.onRating rather than deleting this test."
-        )
+    /// White is *not* an acceptable foreground on a rating fill, in **either** appearance.
+    ///
+    /// It used to fail in dark mode only, which is what this test originally asserted. The fills
+    /// are now bright in both appearances, so white fails in both — and the temptation to write
+    /// `.foregroundStyle(.white)` is strongest in light mode, where it used to be correct.
+    func testPlainWhiteWouldFailOnEveryRatingFill() {
+        for (name, style) in appearances {
+            let worst = Rating.allCases
+                .map { contrast(.white, Palette.rating($0), style: style) }
+                .min() ?? 0
+            XCTAssertLessThan(
+                worst, minimumRatio,
+                "White has become legible on the \(name) rating fills — if the fills changed, "
+                + "re-derive Palette.onRating rather than deleting this test."
+            )
+        }
+    }
+
+    /// The assertion that makes the bright fills legal.
+    ///
+    /// `Palette.rating` is a 400-weight fill: on a light surface the amber comes in at **1.52:1**,
+    /// and it is not only a button background — it is the bars on the session summary and the
+    /// history dots in entry detail, graphical objects WCAG 1.4.11 holds to 3:1. Brightening the
+    /// fills without an edge would have traded readable data for prettier buttons.
+    ///
+    /// Measured from both sides, because an outline that vanishes into *either* neighbour is not
+    /// an outline.
+    func testRatingEdgeGivesEveryFillABoundary() {
+        let surfaces: [(String, Color)] = [
+            ("surface", Palette.surface),
+            ("canvas", Palette.canvas),
+            ("surfaceRaised", Palette.surfaceRaised),
+        ]
+
+        for (name, style) in appearances {
+            for rating in Rating.allCases {
+                let edge = Palette.ratingEdge(rating)
+
+                let againstFill = contrast(edge, Palette.rating(rating), style: style)
+                XCTAssertGreaterThanOrEqual(
+                    againstFill, 3.0,
+                    "\(rating.shortLabel) edge on its own fill in \(name) mode is "
+                    + "\(String(format: "%.2f", againstFill)):1"
+                )
+
+                // Light mode only. In dark mode the edge is deliberately *darker* than the dark
+                // surfaces and does not separate from them — it does not need to, because the
+                // bright fill is already 5.44:1 there. Asserting it in both appearances would be
+                // asserting something the design does not claim.
+                guard style == .light else { continue }
+                for (surfaceName, surface) in surfaces {
+                    let ratio = contrast(edge, surface, style: style)
+                    XCTAssertGreaterThanOrEqual(
+                        ratio, 3.0,
+                        "\(rating.shortLabel) edge on \(surfaceName) in light mode is "
+                        + "\(String(format: "%.2f", ratio)):1"
+                    )
+                }
+            }
+        }
+    }
+
+    /// The dark-mode half of the same promise: there, the fill carries its own boundary.
+    ///
+    /// Kept separate from the edge test so that if someone later dims the dark fills, the failure
+    /// says *"the fill stopped separating"* rather than *"the edge is wrong"*.
+    func testRatingFillsSeparateFromDarkSurfaces() {
+        let surfaces: [(String, Color)] = [
+            ("surface", Palette.surface),
+            ("canvas", Palette.canvas),
+            ("surfaceRaised", Palette.surfaceRaised),
+        ]
+        for rating in Rating.allCases {
+            for (surfaceName, surface) in surfaces {
+                let ratio = contrast(Palette.rating(rating), surface, style: .dark)
+                XCTAssertGreaterThanOrEqual(
+                    ratio, 3.0,
+                    "\(rating.shortLabel) fill on \(surfaceName) in dark mode is "
+                    + "\(String(format: "%.2f", ratio)):1"
+                )
+            }
+        }
     }
 
     // MARK: - Text on surfaces

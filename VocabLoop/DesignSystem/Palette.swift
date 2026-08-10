@@ -55,30 +55,65 @@ public enum Palette {
     /// fixed position, because red-vs-green as the sole signal fails for the most common
     /// colour-vision deficiency.
     ///
-    /// The light values for Hard and Good are darker than the obvious 600-weight picks.
-    /// That is deliberate: the rating bar sets its labels in white, and `#D97706` /
-    /// `#059669` only reach 3.2:1 and 3.8:1 against white — below the 4.5:1 this design
-    /// system commits to for 16pt semibold text. Darkening them to `#B45309` / `#048062`
-    /// buys 5.0:1 and 4.9:1 while staying unmistakably amber and green.
+    /// Bright fills with dark ink, and one value per rating rather than one per appearance.
+    ///
+    /// These used to be *darker* in light mode than the obvious 600-weight picks, for a stated
+    /// reason: the rating bar set its labels in white, and white needs a dark fill underneath to
+    /// clear 4.5:1. So the four colours the user looks at hundreds of times a day were the
+    /// dullest in the app — and dulled by the accessibility requirement, which is the worst way
+    /// to lose a palette argument.
+    ///
+    /// Inverting the pairing wins both at once. Dark ink on a 400-weight fill reads at **6.63:1
+    /// at worst** against the previous scheme's 4.83:1, and the fills go from muted to poster
+    /// bright. Brighter *and* more legible; the old scheme had it backwards.
+    ///
+    /// One value per rating also fixes a quiet inconsistency: light Hard was amber-700 while
+    /// dark Hard was amber-400, so the same self-assessment was a different colour depending on
+    /// the time of day.
     public static func rating(_ rating: Rating) -> Color {
         switch rating {
-        case .again: Color(light: 0xDC2626, dark: 0xF87171)
-        case .hard: Color(light: 0xB45309, dark: 0xFBBF24)
-        case .good: Color(light: 0x048062, dark: 0x34D399)
-        case .easy: Color(light: 0x2563EB, dark: 0x60A5FA)
+        case .again: Color(light: 0xFB7185, dark: 0xFB7185)
+        case .hard: Color(light: 0xFBBF24, dark: 0xFBBF24)
+        case .good: Color(light: 0x34D399, dark: 0x34D399)
+        case .easy: Color(light: 0x60A5FA, dark: 0x60A5FA)
+        }
+    }
+
+    /// Outline for a ``rating(_:)`` fill. Always drawn, never optional.
+    ///
+    /// This is what makes the bright fills legal, and it is not decoration. A 400-weight fill on
+    /// a white surface is only 1.52:1 at worst — the amber bar on `surfaceRaised` — and the
+    /// rating colours are not just button backgrounds: they are the bars on the session summary
+    /// and the history dots in entry detail, which are graphical objects WCAG 1.4.11 holds to
+    /// 3:1. Without an edge, brightening the fills would have made the *data* invisible while
+    /// making the buttons prettier.
+    ///
+    /// A darker shade of the same hue clears 6.47:1 against every light surface and 2.98–4.25:1
+    /// against its own fill, so the shape has a boundary from both sides. In dark mode the edge
+    /// is redundant — the fill itself is already 5.44:1 against the darkest surface — but it is
+    /// kept there anyway, because a hard outline is the whole cel-shaded idea and dropping it in
+    /// one appearance would make the two look like different apps.
+    public static func ratingEdge(_ rating: Rating) -> Color {
+        switch rating {
+        // rose-900 rather than rose-800: rose-800 came in at 2.98:1 against its own fill, which
+        // rounds to 3 and is not the same as clearing it.
+        case .again: Color(light: 0x881337, dark: 0x881337)
+        case .hard: Color(light: 0x92400E, dark: 0x92400E)
+        case .good: Color(light: 0x065F46, dark: 0x065F46)
+        case .easy: Color(light: 0x1E40AF, dark: 0x1E40AF)
         }
     }
 
     /// Foreground for text placed *on* a ``rating(_:)`` fill.
     ///
-    /// Not simply `.white`. The dark-mode rating colours are light by design so they read
-    /// against a dark canvas, which makes white-on-them unreadable — white on dark-mode
-    /// Hard is 1.67:1, effectively invisible. Every pairing this produces is at or above
-    /// 4.5:1; the worst is 4.9:1 (light Good), the best 11.3:1 (dark Hard).
+    /// Dark in both appearances now, because the fills are bright in both. Previously this was
+    /// white in light mode and near-black in dark mode — a split that existed only because the
+    /// light fills were dark. Every pairing it produces is at or above 4.5:1: the worst is
+    /// 6.63:1 (Again) and the best 11.28:1 (dark Hard).
     ///
-    /// One foreground per scheme rather than per rating, so the four buttons stay
-    /// consistent with each other.
-    public static let onRating = Color(light: 0xFFFFFF, dark: 0x0B1120)
+    /// One foreground per scheme rather than per rating, so the four buttons stay consistent
+    /// with each other.
+    public static let onRating = Color(light: 0x0F172A, dark: 0x0B1120)
 
     // MARK: Card maturity
 
