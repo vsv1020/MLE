@@ -11,6 +11,21 @@ public enum SyncOperation: String, Codable, CaseIterable, Hashable, Sendable {
     case deckDeleted
     case entryDeleted
     case accountDeleted
+
+    /// Whether a newer change to the same subject makes an older pending one redundant.
+    ///
+    /// True for the upserts: a card, an entry and the preferences each have exactly one current
+    /// state, so the outbox needs the latest and nothing before it. False for deletions, which are
+    /// events rather than states — and false for `reviewLogged`, which no longer uses the outbox at
+    /// all. Losing a single review would corrupt the history a future weight optimiser trains on,
+    /// so reviews are tracked on ``ReviewLog/isSynced`` instead, where they cannot be collapsed by
+    /// accident.
+    public var isLastWriteWins: Bool {
+        switch self {
+        case .cardUpserted, .entryUpserted, .preferencesUpdated, .deckUpserted: true
+        case .reviewLogged, .entryDeleted, .deckDeleted, .accountDeleted: false
+        }
+    }
 }
 
 /// A durable, ordered queue of local changes waiting to reach the server.

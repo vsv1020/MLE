@@ -362,6 +362,10 @@ final class ReviewServiceTests: XCTestCase {
 
     /// Local writes commit immediately and enqueue. Nothing in the UI awaits the network, which is
     /// the whole of the offline-first story.
+    ///
+    /// The review itself is *not* in the outbox: `ReviewLog` is append-only and carries `isSynced`,
+    /// so it is its own queue. A second copy per graded card was the app's largest source of
+    /// unbounded storage growth.
     func testGradingEnqueuesOutboxRowsInOrder() throws {
         let (context, service, preferences, entry) = try makeFixture()
         let card = try XCTUnwrap(
@@ -372,13 +376,23 @@ final class ReviewServiceTests: XCTestCase {
         let items = try context.fetch(
             FetchDescriptor<SyncOutboxItem>(sortBy: [SortDescriptor(\.sequence)])
         )
-        XCTAssertTrue(items.contains { $0.operation == .reviewLogged })
         XCTAssertTrue(items.contains { $0.operation == .cardUpserted })
+        XCTAssertFalse(
+            items.contains { $0.operation == .reviewLogged },
+            "a review is queued on ReviewLog.isSynced, not duplicated into the outbox"
+        )
         XCTAssertEqual(
             items.map(\.sequence), items.map(\.sequence).sorted(),
             "the server must see changes in the order the user made them"
         )
         XCTAssertEqual(Set(items.map(\.sequence)).count, items.count, "sequences must be unique")
+
+        // And the review is genuinely queued somewhere.
+        let unsynced = try context.fetch(
+            FetchDescriptor<ReviewLog>(predicate: #Predicate { !$0.isSynced })
+        )
+        XCTAssertEqual(unsynced.count, 1)
+        XCTAssertEqual(unsynced.first?.cardID, card.cardID)
     }
 
     func testOutboxPayloadDecodesBackToWhatWasWritten() throws {
@@ -390,12 +404,94 @@ final class ReviewServiceTests: XCTestCase {
 
         let item = try XCTUnwrap(
             try context.fetch(FetchDescriptor<SyncOutboxItem>())
-                .first { $0.operation == .reviewLogged }
+                .first { $0.operation == .cardUpserted }
         )
-        let payload = try JSONDecoder().decode(ReviewLogSyncPayload.self, from: item.payload)
-        XCTAssertEqual(payload.rating, Rating.hard.rawValue)
+        let payload = try JSONDecoder().decode(CardSyncPayload.self, from: item.payload)
         XCTAssertEqual(payload.cardID, card.cardID)
-        XCTAssertEqual(payload.entryStableID, entry.stableID)
+
+        // The review payload the server receives is built from the log, so check it there.
+        let log = try XCTUnwrap(try context.fetch(FetchDescriptor<ReviewLog>()).first)
+        let reviewPayload = ReviewLogSyncPayload(log: log)
+        XCTAssertEqual(reviewPayload.rating, Rating.hard.rawValue)
+        XCTAssertEqual(reviewPayload.cardID, card.cardID)
+        XCTAssertEqual(reviewPayload.entryStableID, entry.stableID)
+    }
+
+    /// The outbox must be bounded by how much *state* exists, not by how much the user studies.
+    ///
+    /// This is the growth bug in one test. Grading the same card twenty times used to leave forty
+    /// rows — twenty reviews and twenty card upserts — every one of them dead except the last card
+    /// state, and none of them ever drained because the shipping build has no server. At a hundred
+    /// reviews a day that was tens of thousands of rows in the first year.
+    func testRepeatedGradingDoesNotGrowTheOutbox() throws {
+        let (context, service, preferences, entry) = try makeFixture()
+        let card = try XCTUnwrap(
+            try service.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+
+        var now = referenceDate
+        for _ in 0..<20 {
+            now = now.addingTimeInterval(600)
+            try service.grade(card: card, rating: .good, preferences: preferences, now: now)
+        }
+
+        let items = try context.fetch(FetchDescriptor<SyncOutboxItem>())
+        XCTAssertEqual(
+            items.count, 1,
+            "one card has one current state: \(items.map { "\($0.operation?.rawValue ?? "?"):\($0.subjectID)" })"
+        )
+        XCTAssertEqual(items.first?.operation, .cardUpserted)
+
+        // The reviews themselves are all still there — they are the history, and losing one would
+        // corrupt what a future weight fit trains on.
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 20)
+    }
+
+    /// The replacement must carry the *latest* card state, not the first.
+    func testTheSurvivingCardRowHoldsTheLatestState() throws {
+        let (context, service, preferences, entry) = try makeFixture()
+        let card = try XCTUnwrap(
+            try service.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+
+        try service.grade(card: card, rating: .easy, preferences: preferences, now: referenceDate)
+        let later = referenceDate.addingTimeInterval(30 * 86_400)
+        try service.grade(card: card, rating: .easy, preferences: preferences, now: later)
+
+        let item = try XCTUnwrap(
+            try context.fetch(FetchDescriptor<SyncOutboxItem>())
+                .first { $0.operation == .cardUpserted }
+        )
+        let payload = try JSONDecoder().decode(CardSyncPayload.self, from: item.payload)
+        XCTAssertEqual(payload.intervalDays, card.intervalDays, accuracy: 1e-9)
+        XCTAssertEqual(payload.reps, card.reps)
+        XCTAssertEqual(card.reps, 2)
+    }
+
+    /// Replacing must not reorder the queue.
+    func testReplacedCardRowKeepsItsQueuePosition() throws {
+        let (context, service, preferences, entry) = try makeFixture()
+        let card = try XCTUnwrap(
+            try service.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+        let firstSequence = try XCTUnwrap(
+            try context.fetch(FetchDescriptor<SyncOutboxItem>()).first?.sequence
+        )
+
+        // A later, unrelated write, so there is somewhere for the card row to jump to.
+        let other = try TestStore.makeEntry(in: context, headword: "unrelated")
+        try service.enroll(entry: other, preferences: preferences, now: referenceDate)
+
+        try service.grade(card: card, rating: .good, preferences: preferences, now: referenceDate)
+
+        let item = try XCTUnwrap(
+            try context.fetch(FetchDescriptor<SyncOutboxItem>())
+                .first { $0.subjectID == card.cardID }
+        )
+        XCTAssertEqual(
+            item.sequence, firstSequence,
+            "the row must stay where it was queued, or the server sees the changes out of order"
+        )
     }
 
     func testOutboxBackoffGrowsAndIsBounded() throws {

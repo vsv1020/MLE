@@ -126,7 +126,11 @@ public final class ReviewService {
             now: now
         )
 
-        try enqueueSync(.reviewLogged, subjectID: log.cardID, payload: ReviewLogSyncPayload(log: log))
+        // No outbox row for the review itself. `ReviewLog` is already append-only and never
+        // pruned, and it carries `isSynced` — so it *is* the queue. Copying each review into a
+        // second table doubled the storage for every graded card and, with no server configured,
+        // that copy could never drain: at 100 reviews a day it was tens of thousands of dead rows
+        // in the first year, for a feature that is switched off.
         try enqueueSync(.cardUpserted, subjectID: card.cardID, payload: CardSyncPayload(card: card))
         try context.save()
 
@@ -303,15 +307,43 @@ public final class ReviewService {
         // Sync failing must never fail a review. The local write has already happened;
         // a missing outbox row costs a delayed sync, not the user's session.
         do {
-            let item = SyncOutboxItem(
+            let encoded = try JSONEncoder().encode(payload)
+
+            // Last-write-wins operations *replace* their pending row rather than appending one.
+            // A card has exactly one current state, so a card reviewed fifty times offline needs
+            // one row, not fifty — `buildRequest` already collapses same-subject upserts inside a
+            // batch, so the extra rows never reached the server; they only sat in the database.
+            // Left unbounded that is the app's largest source of storage growth, and with no
+            // server configured it never drains.
+            if operation.isLastWriteWins,
+               let existing = try pendingOutboxItem(operation: operation, subjectID: subjectID) {
+                existing.payload = encoded
+                // Deliberately *not* re-sequenced: the server must see this change where the user
+                // made it, not jumped to the end of the queue.
+                return
+            }
+
+            context.insert(SyncOutboxItem(
                 operation: operation,
                 subjectID: subjectID,
-                payload: try JSONEncoder().encode(payload),
+                payload: encoded,
                 sequence: try context.nextOutboxSequence()
-            )
-            context.insert(item)
+            ))
         } catch {
             logger.error("Could not enqueue \(operation.rawValue, privacy: .public): \(error.localizedDescription, privacy: .public)")
         }
+    }
+
+    /// The pending row for this exact change, if one is already queued.
+    private func pendingOutboxItem(
+        operation: SyncOperation, subjectID: String
+    ) throws -> SyncOutboxItem? {
+        let raw = operation.rawValue
+        var descriptor = FetchDescriptor<SyncOutboxItem>(
+            predicate: #Predicate { $0.operationRaw == raw && $0.subjectID == subjectID },
+            sortBy: [SortDescriptor(\.sequence)]
+        )
+        descriptor.fetchLimit = 1
+        return try context.fetch(descriptor).first
     }
 }

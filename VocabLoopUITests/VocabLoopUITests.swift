@@ -89,7 +89,90 @@ final class VocabLoopUITests: XCTestCase {
         )
     }
 
+    /// A review session, end to end, as a user actually does it.
+    ///
+    /// The unit suite covers grading arithmetic thoroughly — 225 tests over FSRS, SM-2, the queue
+    /// builder and the day rollups — but until now nothing drove the loop the whole app exists for:
+    /// accept a word, start a session, reveal, grade, land on the summary. Every step below is one
+    /// the unit tests cannot see, because each is a wiring question rather than a logic one.
+    func testAcceptingAWordAndReviewingItReachesTheSummary() throws {
+        let tabBar = reachMainTabs()
+        tabBar.buttons["Today"].tap()
+
+        // Today's words are generated on device, so at least one is offered on a fresh install.
+        let add = app.buttons["Add"].firstMatch
+        XCTAssertTrue(add.waitForExistence(timeout: 20), "Today must offer a daily word to enrol")
+        XCTAssertTrue(scrollToHit(add), "the daily word's Add button never became tappable")
+        add.tap()
+
+        // The Today tile is one combined accessibility element whose label leads with the call to
+        // action, so it is matched on that rather than on an exact string that includes counts.
+        let startStudying = app.buttons.matching(
+            NSPredicate(format: "label BEGINSWITH %@", "Learn")
+        ).firstMatch
+        XCTAssertTrue(
+            startStudying.waitForExistence(timeout: 15),
+            "enrolling a word must turn the Today tile into an invitation to learn it"
+        )
+        startStudying.tap()
+
+        let showAnswer = app.buttons["Show answer"]
+        XCTAssertTrue(showAnswer.waitForExistence(timeout: 15), "the session must present a card")
+        showAnswer.tap()
+
+        // All four ratings, because a session offering fewer is a broken scheduler contract.
+        let good = app.buttons["Good — I remembered it"]
+        XCTAssertTrue(good.waitForExistence(timeout: 10), "the rating bar must appear on reveal")
+        for label in ["Again — I did not remember this", "Hard — I remembered it with difficulty",
+                      "Easy — I remembered it immediately"] {
+            XCTAssertTrue(app.buttons[label].exists, "missing rating: \(label)")
+        }
+        XCTAssertFalse(showAnswer.exists, "Show answer must go away once the answer is showing")
+
+        // Grade until the session ends. Bounded: pressing Good on a new card walks it through the
+        // learning steps, so it comes back a couple of times before the queue empties.
+        let done = app.buttons["Done"]
+        var grades = 0
+        while grades < 12, !done.exists {
+            if showAnswer.exists {
+                showAnswer.tap()
+            } else if good.exists {
+                good.tap()
+                grades += 1
+            } else {
+                break
+            }
+        }
+
+        XCTAssertGreaterThan(grades, 0, "no card was ever graded")
+        XCTAssertTrue(
+            done.waitForExistence(timeout: 10),
+            "the session must end on a summary with a way out, not a dead end"
+        )
+        XCTAssertTrue(app.staticTexts["Session complete"].exists)
+
+        done.tap()
+        XCTAssertTrue(
+            tabBar.waitForExistence(timeout: 10),
+            "finishing a session must return to the app, not leave the cover up"
+        )
+    }
+
     // MARK: - Helpers
+
+    /// Bring an element into view, swiping up until it can be tapped.
+    ///
+    /// `XCUIElement.tap()` does not reliably scroll a SwiftUI `ScrollView` to its target, so an
+    /// element that exists but sits below the fold fails with "not hittable" — which reads like a
+    /// missing feature rather than a scroll position. Today's daily-word list is below the primary
+    /// tile on a phone, so this is the ordinary case, not an edge one.
+    private func scrollToHit(_ element: XCUIElement, attempts: Int = 6) -> Bool {
+        for _ in 0..<attempts {
+            if element.isHittable { return true }
+            app.swipeUp()
+        }
+        return element.isHittable
+    }
 
     /// Buttons that move the first-run flow forward, most-specific first.
     ///

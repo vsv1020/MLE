@@ -65,8 +65,13 @@ public final class SyncEngine {
 
     /// Number of changes waiting to be pushed. Shown in Settings even when sync is
     /// disabled, so the user can see their work is being recorded.
+    /// Both queues, because Settings shows this number and half of it would be a lie.
     public func pendingCount() -> Int {
-        (try? context.fetchCount(FetchDescriptor<SyncOutboxItem>())) ?? 0
+        let outbox = (try? context.fetchCount(FetchDescriptor<SyncOutboxItem>())) ?? 0
+        let reviews = (try? context.fetchCount(
+            FetchDescriptor<ReviewLog>(predicate: #Predicate { !$0.isSynced })
+        )) ?? 0
+        return outbox + reviews
     }
 
     public func refreshStatus() {
@@ -113,13 +118,17 @@ public final class SyncEngine {
 
         var sent = 0
         while true {
+            // Two sources, drained together. Reviews live on `ReviewLog` (marked by `isSynced`)
+            // rather than in the outbox, because the log is already append-only and never pruned —
+            // a second copy per review was pure duplication and, with no server, never drained.
+            let reviews = (try? unsyncedReviews()) ?? []
             let batch = (try? readyBatch()) ?? []
-            guard !batch.isEmpty else { break }
+            guard !reviews.isEmpty || !batch.isEmpty else { break }
 
             status = .syncing(progress: total > 0 ? Double(sent) / Double(total) : 0)
 
             do {
-                let request = try buildRequest(from: batch)
+                let request = try buildRequest(from: batch, reviews: reviews)
                 if !request.isEmpty {
                     _ = try await client.send(
                         APIClient.Endpoint(path: "sync/push", method: "POST"),
@@ -127,19 +136,25 @@ public final class SyncEngine {
                         as: SyncPushResponse.self
                     )
                 }
-                // Only delete after the server has accepted. A crash between the request
-                // and this point re-sends the batch, which is why every operation is
+                // Only commit the "sent" markers after the server has accepted. A crash between
+                // the request and this point re-sends the batch, which is why every operation is
                 // idempotent server-side.
+                for review in reviews {
+                    review.isSynced = true
+                }
                 for item in batch {
                     context.delete(item)
                 }
                 try context.save()
-                sent += batch.count
+                // Each iteration either marks a review or deletes a row, so both sources strictly
+                // shrink and the loop terminates.
+                sent += batch.count + reviews.count
             } catch {
                 let message = (error as? AuthError)?.errorDescription ?? error.localizedDescription
                 logger.error("Push failed: \(message, privacy: .public)")
                 // Failure is recorded per item so backoff is per item, and one poison row
-                // cannot stall the queue forever.
+                // cannot stall the queue forever. Reviews need no backoff marker: they are not
+                // deleted on success, so an unsynced one is simply retried next time.
                 for item in batch {
                     item.recordFailure(message)
                 }
@@ -151,6 +166,20 @@ public final class SyncEngine {
         lastSyncedAt = Date()
     }
 
+    /// Reviews the server has not acknowledged yet, oldest first.
+    ///
+    /// `ReviewLog` is the queue for reviews. It is append-only and never pruned — it is what a
+    /// future weight optimiser trains on — so a parallel outbox copy bought nothing and cost a row
+    /// per graded card, permanently, in a build with no server to drain it.
+    func unsyncedReviews(limit: Int = SyncEngine.batchSize) throws -> [ReviewLog] {
+        var descriptor = FetchDescriptor<ReviewLog>(
+            predicate: #Predicate { !$0.isSynced },
+            sortBy: [SortDescriptor(\.reviewedAt)]
+        )
+        descriptor.fetchLimit = limit
+        return try context.fetch(descriptor)
+    }
+
     /// Operations `buildRequest` can actually put on the wire.
     ///
     /// The `sync/push` endpoint carries reviews, cards, entries, preferences and entry
@@ -159,8 +188,12 @@ public final class SyncEngine {
     /// batch once the server accepts it, so an unsupported row picked up here would be thrown
     /// away by a request that never mentioned it. Skipping is also what keeps ``sync``'s loop
     /// finite — a row that is kept but still fetched would be re-read forever.
+    /// `.reviewLogged` is absent on purpose: reviews are queued on ``ReviewLog/isSynced``, not
+    /// here, so an outbox row carrying one is a leftover from an older build. Excluding it means
+    /// such a row is skipped rather than drained — and skipping is what stops a review being
+    /// deleted by a request that never mentioned it.
     static let pushableOperations: Set<SyncOperation> = [
-        .reviewLogged, .cardUpserted, .entryUpserted, .preferencesUpdated, .entryDeleted,
+        .cardUpserted, .entryUpserted, .preferencesUpdated, .entryDeleted,
     ]
 
     /// The next batch, oldest first, skipping items still in backoff.
@@ -187,13 +220,20 @@ public final class SyncEngine {
         return Array(ready.prefix(Self.batchSize))
     }
 
-    /// Rows this build could actually send, for an honest progress fraction.
+    /// Everything this build could actually send, for an honest progress fraction.
+    ///
+    /// Excludes outbox operations still waiting for their own endpoint — counting those would leave
+    /// the bar short of full on a sync that in fact sent everything it could.
     private func pushablePendingCount() -> Int {
         let all = (try? context.fetch(FetchDescriptor<SyncOutboxItem>())) ?? []
-        return all.filter { item in
+        let outbox = all.filter { item in
             guard let operation = item.operation else { return false }
             return Self.pushableOperations.contains(operation)
         }.count
+        let reviews = (try? context.fetchCount(
+            FetchDescriptor<ReviewLog>(predicate: #Predicate { !$0.isSynced })
+        )) ?? 0
+        return outbox + reviews
     }
 
     /// Group an outbox batch into one request.
@@ -202,8 +242,12 @@ public final class SyncEngine {
     /// times offline needs one final state pushed, not five. Reviews are *not* collapsed —
     /// each one is a distinct event, and losing any of them would corrupt the history that
     /// makes future weight optimisation possible.
-    private func buildRequest(from batch: [SyncOutboxItem]) throws -> SyncPushRequest {
-        var reviews: [ReviewLogSyncPayload] = []
+    private func buildRequest(
+        from batch: [SyncOutboxItem], reviews unsynced: [ReviewLog]
+    ) throws -> SyncPushRequest {
+        // Straight from the log, in time order, with no collapsing. Every review is a distinct
+        // event and losing any of them would corrupt the history a future optimiser trains on.
+        var reviews = unsynced.map(ReviewLogSyncPayload.init(log:))
         var cardsBySubject: [String: CardSyncPayload] = [:]
         var entriesBySubject: [String: EntrySyncPayload] = [:]
         var preferences: PreferencesSyncPayload?
@@ -214,6 +258,10 @@ public final class SyncEngine {
             guard let operation = item.operation else { continue }
             switch operation {
             case .reviewLogged:
+                // Only reachable for a row written by a build that still queued reviews here.
+                // `readyBatch` excludes the operation, so this cannot arrive from a current write —
+                // but decoding it is still the right thing to do if one ever does, rather than
+                // dropping a review on the floor during an upgrade.
                 if let payload = try? decoder.decode(ReviewLogSyncPayload.self, from: item.payload) {
                     reviews.append(payload)
                 }
@@ -312,6 +360,16 @@ public final class SyncEngine {
         // has no relationships, so there is no inverse for the store-level delete to fail to
         // maintain.
         try? context.delete(model: SyncOutboxItem.self)
+
+        // Reviews are marked sent rather than deleted. "Discard pending" means "stop trying to
+        // send these", not "erase my history" — the log stays, so statistics and any future weight
+        // fit are untouched. Without this the count in Settings would not budge and the escape
+        // hatch would look broken.
+        for review in (try? context.fetch(
+            FetchDescriptor<ReviewLog>(predicate: #Predicate { !$0.isSynced })
+        )) ?? [] {
+            review.isSynced = true
+        }
         try? context.save()
         refreshStatus()
     }

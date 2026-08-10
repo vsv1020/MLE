@@ -88,7 +88,11 @@ final class RegressionTests: XCTestCase {
     /// by a request that never mentioned it — silent data loss on the first successful sync.
     /// This test is what makes adding a case to the enum a decision rather than an oversight.
     func testEveryOperationIsEitherPushableOrKnowinglyExcluded() {
-        let excluded: Set<SyncOperation> = [.deckUpserted, .deckDeleted, .accountDeleted]
+        // `.reviewLogged` is excluded because reviews travel on `ReviewLog.isSynced` instead; the
+        // other three are waiting for their own endpoints.
+        let excluded: Set<SyncOperation> = [
+            .reviewLogged, .deckUpserted, .deckDeleted, .accountDeleted,
+        ]
         XCTAssertEqual(
             SyncEngine.pushableOperations.union(excluded),
             Set(SyncOperation.allCases),
@@ -120,7 +124,7 @@ final class RegressionTests: XCTestCase {
             sequence += 1
         }
         context.insert(SyncOutboxItem(
-            operation: .reviewLogged, subjectID: "review-1",
+            operation: .cardUpserted, subjectID: "card-1",
             payload: Data("{}".utf8), sequence: sequence
         ))
         try context.save()
@@ -132,7 +136,97 @@ final class RegressionTests: XCTestCase {
         XCTAssertEqual(engine.pendingCount(), 4, "all four rows are recorded")
 
         let batch = try engine.readyBatch()
-        XCTAssertEqual(batch.map(\.subjectID), ["review-1"], "only the sendable row may be drained")
+        XCTAssertEqual(batch.map(\.subjectID), ["card-1"], "only the sendable row may be drained")
+    }
+
+    /// An outbox row carrying a review is a leftover from a build that queued them there.
+    ///
+    /// It must be *skipped*, not drained: `sync` deletes a batch once the server accepts it, and a
+    /// review deleted by a request that never mentioned it is gone from the history a future weight
+    /// fit trains on. Reviews now travel via `ReviewLog.isSynced`.
+    func testALeftoverReviewRowIsNotDrainedByTheOutbox() throws {
+        let context = try TestStore.makeContext()
+        _ = try context.activeAccount()
+        context.insert(SyncOutboxItem(
+            operation: .reviewLogged, subjectID: "review-1",
+            payload: Data("{}".utf8), sequence: 0
+        ))
+        try context.save()
+
+        let engine = SyncEngine(
+            context: context, client: APIClient(configuration: .offline),
+            monitor: NetworkMonitor(), isServerConfigured: false
+        )
+        XCTAssertTrue(
+            try engine.readyBatch().isEmpty,
+            "reviewLogged is not a pushable outbox operation any more"
+        )
+        XCTAssertEqual(engine.pendingCount(), 1, "but it is still counted as pending, not hidden")
+    }
+
+    /// Reviews are queued on the log, and `unsyncedReviews` is what finds them.
+    func testUnsyncedReviewsAreFoundOldestFirstAndMarkableAsSent() throws {
+        let context = try TestStore.makeContext()
+        let account = try context.activeAccount()
+        let preferences = try XCTUnwrap(account.preferences)
+        let review = ReviewService(context: context)
+        let entry = try TestStore.makeEntry(in: context, headword: "queued")
+        let card = try XCTUnwrap(
+            try review.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+
+        var now = referenceDate
+        for _ in 0..<3 {
+            now = now.addingTimeInterval(600)
+            try review.grade(card: card, rating: .good, preferences: preferences, now: now)
+        }
+
+        let engine = SyncEngine(
+            context: context, client: APIClient(configuration: .offline),
+            monitor: NetworkMonitor(), isServerConfigured: false
+        )
+        let unsynced = try engine.unsyncedReviews()
+        XCTAssertEqual(unsynced.count, 3)
+        XCTAssertEqual(
+            unsynced.map(\.reviewedAt), unsynced.map(\.reviewedAt).sorted(),
+            "the server must see reviews in the order they happened"
+        )
+
+        // Marking them sent takes them out of the queue without touching the history.
+        for log in unsynced { log.isSynced = true }
+        try context.save()
+        XCTAssertTrue(try engine.unsyncedReviews().isEmpty)
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 3, "history is kept")
+    }
+
+    /// "Discard pending" must actually clear the number Settings shows.
+    ///
+    /// Reviews are marked sent rather than deleted — the user asked to stop *sending*, not to erase
+    /// their history — but if they stayed unsynced the count would not budge and the escape hatch
+    /// would look broken.
+    func testDiscardPendingClearsBothQueuesButKeepsTheHistory() throws {
+        let context = try TestStore.makeContext()
+        let account = try context.activeAccount()
+        let preferences = try XCTUnwrap(account.preferences)
+        let review = ReviewService(context: context)
+        let entry = try TestStore.makeEntry(in: context, headword: "discarded")
+        let card = try XCTUnwrap(
+            try review.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+        try review.grade(card: card, rating: .good, preferences: preferences, now: referenceDate)
+
+        let engine = SyncEngine(
+            context: context, client: APIClient(configuration: .offline),
+            monitor: NetworkMonitor(), isServerConfigured: false
+        )
+        XCTAssertGreaterThan(engine.pendingCount(), 0)
+
+        engine.discardPending()
+        XCTAssertEqual(engine.pendingCount(), 0)
+        XCTAssertEqual(
+            try context.fetchCount(FetchDescriptor<ReviewLog>()), 1,
+            "discarding a send must not erase the review"
+        )
     }
 
     // MARK: - New-card count after accepting a daily word
