@@ -44,7 +44,7 @@ struct FlashcardView: View {
             .readableWidth()
         }
         .animation(
-            reduceMotion ? .easeInOut(duration: 0.2) : .easeOut(duration: 0.3),
+            Motion.reveal(reduceMotion),
             value: isAnswerRevealed
         )
         .scrollBounceBehavior(.basedOnSize)

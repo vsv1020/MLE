@@ -6,6 +6,7 @@ struct SignUpView: View {
 
     @Environment(\.appDependencies) private var dependencies
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     @State private var displayName = ""
     @State private var email = ""
@@ -117,7 +118,7 @@ struct SignUpView: View {
                     Capsule()
                         .fill(strengthColor(strength))
                         .frame(width: proxy.size.width * strength)
-                        .animation(.easeOut(duration: 0.2), value: strength)
+                        .animation(Motion.value(reduceMotion), value: strength)
                 }
             }
             .frame(height: 6)

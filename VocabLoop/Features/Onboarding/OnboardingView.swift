@@ -12,6 +12,7 @@ struct OnboardingView: View {
     let onFinish: () -> Void
 
     @Environment(\.appDependencies) private var dependencies
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var step = 0
 
     @State private var language: LearningLanguage = .english
@@ -32,7 +33,7 @@ struct OnboardingView: View {
                 summaryStep.tag(3)
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
-            .animation(.easeInOut(duration: 0.25), value: step)
+            .animation(Motion.phase(reduceMotion), value: step)
 
             controls
         }

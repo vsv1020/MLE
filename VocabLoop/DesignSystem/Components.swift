@@ -80,10 +80,7 @@ public struct PressableButtonStyle: ButtonStyle {
                 // feedback survives; only the movement goes.
                 .scaleEffect(shouldScale ? pressedScale : 1)
                 .opacity(configuration.isPressed ? pressedOpacity : 1)
-                .animation(
-                    reduceMotion ? .linear(duration: 0.08) : .spring(duration: 0.22, bounce: 0.1),
-                    value: configuration.isPressed
-                )
+                .animation(Motion.press(reduceMotion), value: configuration.isPressed)
         }
 
         private var shouldScale: Bool {
@@ -275,6 +272,8 @@ public struct ProgressRing: View {
     private let lineWidth: CGFloat
     private let tint: Color
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     public init(progress: Double, lineWidth: CGFloat = 12, tint: Color = Palette.brandPrimary) {
         self.progress = min(max(progress, 0), 1)
         self.lineWidth = lineWidth
@@ -292,7 +291,7 @@ public struct ProgressRing: View {
                     style: StrokeStyle(lineWidth: lineWidth, lineCap: .round)
                 )
                 .rotationEffect(.degrees(-90))
-                .animation(.spring(duration: 0.6), value: progress)
+                .animation(Motion.progress(reduceMotion), value: progress)
         }
         .accessibilityHidden(true)
     }

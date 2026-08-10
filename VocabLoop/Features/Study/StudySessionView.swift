@@ -101,7 +101,7 @@ struct StudySessionView: View {
                         Capsule()
                             .fill(Palette.brandPrimary)
                             .frame(width: proxy.size.width * model.progress)
-                            .animation(.easeOut(duration: 0.25), value: model.progress)
+                            .animation(Motion.value(reduceMotion), value: model.progress)
                     }
                 }
                 .frame(height: 5)

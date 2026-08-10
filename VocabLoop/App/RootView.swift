@@ -15,6 +15,8 @@ struct RootView: View {
     @AppStorage("onboarding.completed") private var hasCompletedOnboarding = false
     @AppStorage("auth.landingShown") private var hasSeenAuthLanding = false
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     @State private var phase: Phase = .launching
 
     private enum Phase {
@@ -45,7 +47,7 @@ struct RootView: View {
                 MainTabView()
             }
         }
-        .animation(.easeInOut(duration: 0.25), value: phase)
+        .animation(Motion.phase(reduceMotion), value: phase)
         .task {
             await dependencies.bootstrap()
             advance()
