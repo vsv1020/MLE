@@ -46,7 +46,7 @@ public final class ReviewService {
             context.insert(card)
             card.entry = entry
             created.append(card)
-            try enqueueSync(.cardUpserted, subjectID: cardID, payload: CardSyncPayload(card: card))
+            try enqueueCardState(card)
         }
         if !created.isEmpty {
             entry.touch(now)
@@ -61,6 +61,12 @@ public final class ReviewService {
     /// word should not have their past reviews vanish from statistics.
     public func unenroll(entry: Entry) throws {
         for card in entry.cards {
+            // Drop any pending upsert first. Left behind, the outbox would tell the server "here is
+            // this card's state" for a card the user just deleted — and the next pull would hand it
+            // straight back. Removing the row is correct whichever way the sync decision goes; a
+            // positive *deletion* signal is not, because `sync/push` has no card-deletion field yet
+            // and inventing one commits to the REST path. See docs/DECISION-SYNC.md.
+            try discardPendingOutbox(operation: .cardUpserted, subjectID: card.cardID)
             context.delete(card)
         }
         try context.save()
@@ -131,7 +137,7 @@ public final class ReviewService {
         // second table doubled the storage for every graded card and, with no server configured,
         // that copy could never drain: at 100 reviews a day it was tens of thousands of dead rows
         // in the first year, for a feature that is switched off.
-        try enqueueSync(.cardUpserted, subjectID: card.cardID, payload: CardSyncPayload(card: card))
+        try enqueueCardState(card)
         try context.save()
 
         return GradeResult(
@@ -189,6 +195,10 @@ public final class ReviewService {
         }
 
         context.delete(last)
+        // The card's state changed, so the server needs the restored version — otherwise an undo
+        // would be a purely local edit that the next push silently overwrites. The review row is
+        // simply gone from the log, which is the queue for reviews, so nothing else is needed.
+        try enqueueCardState(card)
         try context.save()
     }
 
@@ -254,6 +264,7 @@ public final class ReviewService {
     public func setSuspended(_ suspended: Bool, card: Card) throws {
         card.isSuspended = suspended
         card.touch()
+        try enqueueCardState(card)
         try context.save()
     }
 
@@ -267,6 +278,7 @@ public final class ReviewService {
         for card in entry.cards {
             card.isSuspended = suspended
             card.touch()
+            try enqueueCardState(card)
         }
         try context.save()
     }
@@ -276,6 +288,7 @@ public final class ReviewService {
         for card in entry.cards {
             card.schedulingState = .newCard(due: now)
             card.touch(now)
+            try enqueueCardState(card)
         }
         try context.save()
     }
@@ -284,12 +297,14 @@ public final class ReviewService {
     public func bury(card: Card, preferences: StudyPreferences, now: Date = Date()) throws {
         card.buriedUntil = StudyCalendar(preferences: preferences).dayEnd(for: now)
         card.touch(now)
+        try enqueueCardState(card)
         try context.save()
     }
 
     public func setFlagged(_ flagged: Bool, card: Card) throws {
         card.isFlagged = flagged
         card.touch()
+        try enqueueCardState(card)
         try context.save()
     }
 
@@ -298,6 +313,7 @@ public final class ReviewService {
     public func resetProgress(card: Card, now: Date = Date()) throws {
         card.schedulingState = .newCard(due: now)
         card.touch(now)
+        try enqueueCardState(card)
         try context.save()
     }
 
@@ -331,6 +347,28 @@ public final class ReviewService {
             ))
         } catch {
             logger.error("Could not enqueue \(operation.rawValue, privacy: .public): \(error.localizedDescription, privacy: .public)")
+        }
+    }
+
+    /// Queue a card's current state.
+    ///
+    /// Every method that mutates a card calls this. Cheap now that upserts replace rather than
+    /// append: one card is one row no matter how many times it changes, so there is no longer a
+    /// reason to leave suspending, flagging, burying or resetting out of sync — which is exactly
+    /// what they were, silently, because only grading ever enqueued anything.
+    private func enqueueCardState(_ card: Card) throws {
+        try enqueueSync(.cardUpserted, subjectID: card.cardID, payload: CardSyncPayload(card: card))
+    }
+
+    /// Forget a queued change, for a subject that no longer exists.
+    private func discardPendingOutbox(operation: SyncOperation, subjectID: String) throws {
+        let raw = operation.rawValue
+        for item in try context.fetch(
+            FetchDescriptor<SyncOutboxItem>(
+                predicate: #Predicate { $0.operationRaw == raw && $0.subjectID == subjectID }
+            )
+        ) {
+            context.delete(item)
         }
     }
 

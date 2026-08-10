@@ -447,6 +447,84 @@ final class ReviewServiceTests: XCTestCase {
         XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 20)
     }
 
+    /// Un-enrolling must not leave the server told to upsert a card that no longer exists.
+    ///
+    /// The pending row outlived the card it described, so the first successful sync would have
+    /// pushed the state of a deleted card — and the next pull would have handed it straight back.
+    /// A word removed from study would reappear.
+    func testUnenrollingDropsThePendingUpsertForTheDeletedCards() throws {
+        let (context, service, preferences, entry) = try makeFixture()
+        preferences.enabledDirections = [.recognition, .production]
+        let created = try service.enroll(entry: entry, preferences: preferences, now: referenceDate)
+        XCTAssertEqual(created.count, 2)
+        let cardIDs = created.map(\.cardID)
+
+        try service.grade(
+            card: try XCTUnwrap(created.first), rating: .good,
+            preferences: preferences, now: referenceDate
+        )
+        XCTAssertEqual(
+            try context.fetch(FetchDescriptor<SyncOutboxItem>())
+                .filter { cardIDs.contains($0.subjectID) }.count,
+            2, "both cards are queued before un-enrolling"
+        )
+
+        try service.unenroll(entry: entry)
+
+        let leftovers = try context.fetch(FetchDescriptor<SyncOutboxItem>())
+            .filter { cardIDs.contains($0.subjectID) }
+        XCTAssertTrue(
+            leftovers.isEmpty,
+            "queued state for a deleted card would resurrect it: \(leftovers.map(\.subjectID))"
+        )
+        XCTAssertTrue(entry.cards.isEmpty)
+        // The history stays — that is the documented promise of un-enrolling.
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 1)
+    }
+
+    /// Every card mutation must reach the queue, not just grading.
+    ///
+    /// Suspending, flagging, burying, resetting and undoing all change a card, and none of them
+    /// enqueued anything — so on a device with sync on, pausing a word would have been a purely
+    /// local edit that the next push overwrote. Cheap to fix only because upserts now replace: one
+    /// card stays one row however many times it changes.
+    func testEveryCardMutationQueuesTheNewState() throws {
+        let (context, service, preferences, entry) = try makeFixture()
+        let card = try XCTUnwrap(
+            try service.enroll(entry: entry, preferences: preferences, now: referenceDate).first
+        )
+
+        func queuedState() throws -> CardSyncPayload {
+            let item = try XCTUnwrap(
+                try context.fetch(FetchDescriptor<SyncOutboxItem>())
+                    .first { $0.subjectID == card.cardID && $0.operation == .cardUpserted },
+                "nothing queued for this card"
+            )
+            return try JSONDecoder().decode(CardSyncPayload.self, from: item.payload)
+        }
+
+        try service.setSuspended(true, card: card)
+        XCTAssertTrue(try queuedState().isSuspended, "a suspend must be visible to the server")
+
+        try service.setSuspended(false, for: entry)
+        XCTAssertFalse(try queuedState().isSuspended)
+
+        try service.setFlagged(true, card: card)
+        XCTAssertTrue(try queuedState().isFlagged)
+
+        try service.grade(card: card, rating: .easy, preferences: preferences, now: referenceDate)
+        XCTAssertGreaterThan(try queuedState().reps, 0)
+
+        try service.undoLastReview(card: card, preferences: preferences)
+        XCTAssertEqual(try queuedState().reps, 0, "an undo must not be a purely local edit")
+
+        try service.resetProgress(for: entry, now: referenceDate)
+        XCTAssertEqual(try queuedState().phase, LearningPhase.new.rawValue)
+
+        // Six mutations, still one row.
+        XCTAssertEqual(try context.fetchCount(FetchDescriptor<SyncOutboxItem>()), 1)
+    }
+
     /// The replacement must carry the *latest* card state, not the first.
     func testTheSurvivingCardRowHoldsTheLatestState() throws {
         let (context, service, preferences, entry) = try makeFixture()
