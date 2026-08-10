@@ -4,11 +4,33 @@ import SwiftUI
 
 /// The app's standard surface: rounded, one shadow level, `Spacing.md` padding.
 public struct CardContainer<Content: View>: View {
+    /// How the card sits on the page.
+    public enum Style {
+        /// A soft blurred shadow. The original, and still the default.
+        case flat
+        /// A hard offset edge with no blur, plus a visible outline — cel-shaded rather than lit.
+        ///
+        /// This is where the "too dry" brief gets the most character per line: a blurred shadow
+        /// says *photographic*, a hard one says *drawn*. It also fixes a real bug. `Elevation`'s
+        /// shadow is `Color.black.opacity(0.08)` — one fixed value, not an adaptive colour — so on
+        /// the `#0B1120` dark canvas it is entirely invisible and dark mode has had **no depth cue
+        /// at all**. A token-based edge is visible in both appearances.
+        case sticker
+    }
+
     private let isRaised: Bool
+    private let style: Style
     private let content: Content
 
-    public init(isRaised: Bool = false, @ViewBuilder content: () -> Content) {
+    /// `style` defaults to `.flat` so every existing call site renders pixel-for-pixel as before,
+    /// and the new look is opted into rather than inflicted.
+    public init(
+        isRaised: Bool = false,
+        style: Style = .flat,
+        @ViewBuilder content: () -> Content
+    ) {
         self.isRaised = isRaised
+        self.style = style
         self.content = content()
     }
 
@@ -18,11 +40,28 @@ public struct CardContainer<Content: View>: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(isRaised ? Palette.surfaceRaised : Palette.surface)
             .clipShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+            .overlay {
+                if style == .sticker {
+                    RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
+                        .strokeBorder(Palette.separator, lineWidth: 1.5)
+                }
+            }
+            // The two shadows are exclusive, never stacked. Leaving the soft one underneath a hard
+            // one turns the cel-shaded edge into mud, which is the usual way this look is got wrong.
             .shadow(
-                color: isRaised ? .clear : Elevation.shadowColor,
-                radius: Elevation.shadowRadius,
-                y: Elevation.shadowY
+                color: shadowColor,
+                radius: style == .sticker ? 0 : Elevation.shadowRadius,
+                y: style == .sticker ? 3 : Elevation.shadowY
             )
+    }
+
+    private var shadowColor: Color {
+        switch style {
+        // An opacity on an existing token, not a new hex — `Palette` stays closed, and unlike
+        // `Elevation.shadowColor` this one adapts, so the edge survives dark mode.
+        case .sticker: Palette.textTertiary.opacity(0.28)
+        case .flat: isRaised ? .clear : Elevation.shadowColor
+        }
     }
 }
 
@@ -309,19 +348,55 @@ public struct ProgressRing: View {
     }
 
     public var body: some View {
-        ZStack {
-            Circle()
-                .stroke(Palette.surfaceRaised, lineWidth: lineWidth)
-            Circle()
-                .trim(from: 0, to: progress)
-                .stroke(
-                    tint,
-                    style: StrokeStyle(lineWidth: lineWidth, lineCap: .round)
-                )
-                .rotationEffect(.degrees(-90))
-                .animation(Motion.progress(reduceMotion), value: progress)
+        // `GeometryReader` only because the head dot needs the radius, and the ring does not own
+        // its size — every caller sets its own `.frame`.
+        GeometryReader { proxy in
+            let side = min(proxy.size.width, proxy.size.height)
+            let radius = (side - lineWidth) / 2
+
+            ZStack {
+                Circle()
+                    .stroke(Palette.surfaceRaised, lineWidth: lineWidth)
+
+                Circle()
+                    .trim(from: 0, to: progress)
+                    .stroke(sweep, style: StrokeStyle(lineWidth: lineWidth, lineCap: .round))
+                    .rotationEffect(.degrees(-90))
+
+                // The bead at the leading edge. Rotating a bare `Circle()` would spin it about its
+                // own centre and leave it stacked on the count in the middle of the ring, so it is
+                // offset to the rim *inside* the rotated container.
+                if progress > 0.02 {
+                    Circle()
+                        .fill(Palette.brandSecondary)
+                        .frame(width: lineWidth * 0.62, height: lineWidth * 0.62)
+                        .offset(y: -radius)
+                        .rotationEffect(.degrees(360 * progress))
+                }
+            }
+            .frame(width: side, height: side)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .animation(Motion.progress(reduceMotion), value: progress)
         }
         .accessibilityHidden(true)
+    }
+
+    /// Indigo → teal → indigo around the full circle.
+    ///
+    /// Spans 0…360 rather than −90…270. The trimmed circle already carries
+    /// `.rotationEffect(.degrees(-90))` to start the arc at twelve o'clock, and an angular gradient
+    /// rotates with it — so a −90 start would drag the gradient's origin round to nine o'clock and
+    /// render the ring's *beginning* in teal instead of the brand colour.
+    ///
+    /// Both endpoints already clear 4.5:1 as text on every surface, so every colour between them
+    /// clears 1.4.11's 3:1 requirement for a non-text fill. No new hex, so `Palette` stays closed.
+    private var sweep: AngularGradient {
+        AngularGradient(
+            colors: [tint, Palette.brandSecondary, tint],
+            center: .center,
+            startAngle: .degrees(0),
+            endAngle: .degrees(360)
+        )
     }
 }
 
@@ -394,9 +469,19 @@ public struct EmptyStateView: View {
 
     public var body: some View {
         VStack(spacing: Spacing.sm) {
+            // A plate, not a bare 40pt glyph.
+            //
+            // The size was one of seven hard-coded `.system(size:)` values, all now
+            // ``Typography/heroGlyph``. The colour was the worse half: `textTertiary` on `canvas`
+            // is the palest pairing in the whole system, so an empty state — the one screen with
+            // nothing else to look at — was drawn in the faintest ink available. A tinted disc
+            // gives it presence without a new token.
             Image(systemName: systemImage)
-                .font(.system(size: 40))
-                .foregroundStyle(Palette.textTertiary)
+                .font(Typography.heroGlyph)
+                .foregroundStyle(Palette.brandPrimary)
+                .frame(width: 84, height: 84)
+                .background(Palette.brandPrimary.opacity(0.12), in: Circle())
+                .overlay(Circle().strokeBorder(Palette.brandPrimary.opacity(0.28), lineWidth: 1.5))
             Text(title)
                 .font(Typography.sectionHeader)
                 .foregroundStyle(Palette.textPrimary)

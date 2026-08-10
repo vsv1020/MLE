@@ -73,7 +73,7 @@ struct LaunchFailureView: View {
     var body: some View {
         VStack(spacing: Spacing.md) {
             Image(systemName: "exclamationmark.triangle")
-                .font(.system(size: 44))
+                .font(Typography.heroGlyph)
                 .foregroundStyle(Palette.warning)
             Text("VocabLoop could not open its library")
                 .font(Typography.screenTitle)

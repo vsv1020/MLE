@@ -95,20 +95,42 @@ struct StudySessionView: View {
                 .foregroundStyle(Palette.textSecondary)
                 .accessibilityLabel("Close session")
 
-                GeometryReader { proxy in
-                    ZStack(alignment: .leading) {
-                        Capsule().fill(Palette.surfaceRaised)
-                        Capsule()
-                            .fill(Palette.brandPrimary)
-                            .frame(width: proxy.size.width * model.progress)
-                            .animation(Motion.value(reduceMotion), value: model.progress)
+                // Both hidden once the session is over, so the summary is not read through a
+                // 100%-full bar and a redundant count.
+                //
+                // The overflow `Menu` and the X deliberately stay: `lastGraded` is only cleared
+                // inside `undo()`, so `canUndo` survives into `.finished`, and `undo()` sets the
+                // phase back to `.reviewing`. This screen is the one place a mis-tapped final
+                // grade can be taken back before it reaches FSRS.
+                if model.phase != .finished {
+                    GeometryReader { proxy in
+                        ZStack(alignment: .leading) {
+                            Capsule().fill(Palette.surfaceRaised)
+                            Capsule()
+                                .fill(Palette.brandPrimary)
+                                .frame(width: proxy.size.width * model.progress)
+                                .animation(Motion.value(reduceMotion), value: model.progress)
+                        }
                     }
-                }
-                .frame(height: 5)
+                    .frame(height: 5)
 
-                Text("\(model.reviewedCount)/\(model.plannedCount)")
+                    // The numerator counts; the fraction does not.
+                    //
+                    // `plannedCount` increments only on the `returnsThisSession` path — i.e. only
+                    // when the user pressed Again. Animating the denominator would install an
+                    // odometer that rolls *up*, and a progress bar that visibly *shrinks*,
+                    // exclusively when someone grades themselves down. That is a punishment
+                    // animation on the rating surface, which is the same thing `Haptics.error()`
+                    // is refused for on Again.
+                    HStack(spacing: 0) {
+                        CountingNumber(model.reviewedCount)
+                        Text("/\(model.plannedCount)")
+                    }
                     .font(Typography.buttonInterval)
                     .foregroundStyle(Palette.textSecondary)
+                } else {
+                    Spacer()
+                }
 
                 Menu {
                     if model.canUndo {

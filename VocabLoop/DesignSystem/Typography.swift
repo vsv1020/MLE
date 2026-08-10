@@ -10,8 +10,9 @@ public enum Typography {
     public static let wordDisplay = Font.system(.largeTitle, design: .rounded, weight: .bold)
     /// A word in a list row or detail header.
     public static let wordTitle = Font.system(.title2, design: .rounded, weight: .bold)
-    public static let screenTitle = Font.system(.title2, design: .rounded, weight: .bold)
-    public static let sectionHeader = Font.system(.headline, weight: .semibold)
+    /// `.heavy`, not `.bold`. See the note on ``statValue``.
+    public static let screenTitle = Font.system(.title2, design: .rounded, weight: .heavy)
+    public static let sectionHeader = Font.system(.headline, weight: .bold)
     public static let body = Font.system(.body)
     public static let bodyEmphasis = Font.system(.body, weight: .semibold)
 
@@ -30,11 +31,33 @@ public enum Typography {
 
     /// Large numeric statistics, with monospaced digits so a counting animation does not
     /// make the layout twitch.
-    public static let statValue = Font.system(.title, design: .rounded, weight: .bold).monospacedDigit()
-    public static let statValueSmall = Font.system(.title3, design: .rounded, weight: .bold).monospacedDigit()
+    ///
+    /// `.black` rather than `.bold`, and this is the cheapest "more cartoon" change in the app:
+    /// heavy weight on SF Rounded is what makes a number read as *drawn* rather than as data.
+    /// Weight and not size, because size is Dynamic Type's to decide — and not `.width(.expanded)`,
+    /// which is a no-op on SF Rounded and can silently drop the rounded design, nor `.tracking()`,
+    /// which fights `monospacedDigit()`.
+    ///
+    /// Deliberately confined to numerals and headings. `wordDisplay`, `wordTitle`, `example`,
+    /// `phonetic`, `caption` and `chip` keep their weights: those carry the language being taught,
+    /// including Thai tone marks, where extra weight closes counters and costs legibility.
+    public static let statValue = Font.system(.title, design: .rounded, weight: .black).monospacedDigit()
+    public static let statValueSmall = Font.system(.title3, design: .rounded, weight: .heavy).monospacedDigit()
     /// Interval labels on the rating buttons.
     public static let buttonInterval = Font.system(.caption2, design: .rounded, weight: .semibold).monospacedDigit()
     public static let buttonLabel = Font.system(.body, design: .rounded, weight: .semibold)
+
+    /// The decorative symbol at the top of an empty state, a launch screen, an auth step or the
+    /// session summary.
+    ///
+    /// Seven sites hard-coded `.font(.system(size:))` at 40, 44, 44, 52, 52, 56 and 40 — six
+    /// different numbers for one job. They were also the only fixed-size fonts in the app, which
+    /// `DESIGN.md` states do not exist: a user at the largest accessibility size got body text
+    /// twice its default and a hero glyph at exactly the same 44pt as everyone else.
+    ///
+    /// One token, `.largeTitle`, so these scale like the rest. It is a decoration, so the size is
+    /// allowed to be whatever Dynamic Type says — nothing here depends on it.
+    public static let heroGlyph = Font.system(.largeTitle, design: .rounded, weight: .bold)
 }
 
 /// 4pt spacing scale. Views use these rather than literals, so vertical rhythm stays
@@ -60,13 +83,16 @@ public enum Radius {
 }
 
 public enum Elevation {
-    /// One elevation only. Two competing shadow levels always look accidental, and a
-    /// third makes a screen look like a slide deck.
-    public static func card(_ isRaised: Bool = true) -> some View {
-        Color.clear
-            .shadow(color: .black.opacity(isRaised ? 0.08 : 0), radius: 16, x: 0, y: 4)
-    }
-
+    /// One elevation *level*, now in two treatments — see ``CardContainer/Style``.
+    ///
+    /// Still no competing depths: a card is either soft-lit or cel-shaded, never both, and the
+    /// two are mutually exclusive at the one call site that draws them. The `.sticker` treatment
+    /// exists because these tokens have a bug they cannot fix from here: `shadowColor` is a fixed
+    /// `Color.black.opacity(0.08)` rather than an adaptive one, so on the `#0B1120` dark canvas it
+    /// is invisible and dark mode has had no depth cue at all.
+    ///
+    /// The `card(_:)` helper that used to live here was deleted rather than updated: zero call
+    /// sites, and it duplicated these three literals in a form nothing could keep in sync.
     public static let shadowColor = Color.black.opacity(0.08)
     public static let shadowRadius: CGFloat = 16
     public static let shadowY: CGFloat = 4

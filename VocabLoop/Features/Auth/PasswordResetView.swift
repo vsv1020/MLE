@@ -121,7 +121,7 @@ struct PasswordResetView: View {
         Section {
             VStack(spacing: Spacing.sm) {
                 Image(systemName: "checkmark.circle.fill")
-                    .font(.system(size: 40))
+                    .font(Typography.heroGlyph)
                     .foregroundStyle(Palette.success)
                 Text("Password changed")
                     .font(Typography.sectionHeader)

@@ -185,7 +185,7 @@ struct RecoveryCodeView: View {
         VStack(spacing: Spacing.lg) {
             VStack(spacing: Spacing.sm) {
                 Image(systemName: "key.horizontal.fill")
-                    .font(.system(size: 44))
+                    .font(Typography.heroGlyph)
                     .foregroundStyle(Palette.brandSecondary)
                 Text("Save your recovery code")
                     .font(Typography.screenTitle)

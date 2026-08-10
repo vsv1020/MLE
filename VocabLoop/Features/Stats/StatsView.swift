@@ -43,7 +43,7 @@ struct StatsView: View {
     // MARK: - Retention
 
     private var retentionCard: some View {
-        CardContainer {
+        CardContainer(style: .sticker) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 Text("Recall accuracy")
                     .font(Typography.sectionHeader)
@@ -86,7 +86,7 @@ struct StatsView: View {
     // MARK: - Streak
 
     private var streakCard: some View {
-        CardContainer {
+        CardContainer(style: .sticker) {
             HStack(spacing: Spacing.md) {
                 VStack(alignment: .leading, spacing: 2) {
                     HStack(spacing: Spacing.xxs) {
@@ -119,7 +119,7 @@ struct StatsView: View {
     // MARK: - Forecast
 
     private var forecastCard: some View {
-        CardContainer {
+        CardContainer(style: .sticker) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 SectionHeader(
                     "Coming up",
@@ -197,7 +197,7 @@ struct StatsView: View {
     // MARK: - Heatmap
 
     private var heatmapCard: some View {
-        CardContainer {
+        CardContainer(style: .sticker) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 SectionHeader("Review history", subtitle: "Last 12 months")
                 ScrollViewReader { proxy in
@@ -236,7 +236,7 @@ struct StatsView: View {
     // MARK: - Collection
 
     private var collectionCard: some View {
-        CardContainer {
+        CardContainer(style: .sticker) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 SectionHeader("Your collection", subtitle: "\(statistics.totalEnrolled) cards")
                 ForEach(CardMaturity.allCases, id: \.self) { maturity in

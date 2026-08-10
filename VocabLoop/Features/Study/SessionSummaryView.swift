@@ -8,16 +8,53 @@ struct SessionSummaryView: View {
     let model: StudyViewModel
     let onDone: () -> Void
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    /// Flipped once in `.task` so the whole set piece has something to animate *from*. Views born
+    /// holding their final state animate nothing, which is why this screen used to be static
+    /// despite the design system having had a `celebrate` spring the whole time.
+    @State private var appeared = false
+    @State private var barsRevealed = false
+
+    /// Only a finished session earns the set piece.
+    ///
+    /// `phase` becomes `.finished` on three paths that reviewed nothing: the `catch` in
+    /// `StudyViewModel.start`, its `guard let preferences` early return, and `skipCurrent` after a
+    /// bury or suspend. Without this gate, burying your last card fires confetti, and a store
+    /// failure fires confetti behind an error.
+    private var didStudy: Bool { model.reviewedCount > 0 }
+
     var body: some View {
         ScrollView {
             VStack(spacing: Spacing.lg) {
                 Spacer(minLength: Spacing.xl)
 
                 VStack(spacing: Spacing.sm) {
-                    Image(systemName: model.reviewedCount > 0 ? "checkmark.circle.fill" : "sparkles")
-                        .font(.system(size: 52))
-                        .foregroundStyle(Palette.success)
-                    Text(model.reviewedCount > 0 ? "Session complete" : "Nothing due")
+                    // The burst is confined to this 160pt frame and clipped, so no particle ever
+                    // travels behind the headline. Mounting it as the whole block's background put
+                    // confetti under text at 1.16:1 — a WCAG 1.4.3 failure that a decorative-fill
+                    // test would happily report green.
+                    ZStack {
+                        if didStudy {
+                            SummaryBurst()
+                        }
+                        Image(systemName: didStudy ? "checkmark.seal.fill" : "sparkles")
+                            // A token, not `size: 52`. The seal is the reward for finishing a
+                            // session; it should grow with Dynamic Type like everything else.
+                            .font(Typography.heroGlyph)
+                            .foregroundStyle(Palette.success)
+                            .scaleEffect(appeared || !didStudy ? 1 : 0.6)
+                            .symbolEffect(
+                                .bounce.up,
+                                options: .nonRepeating,
+                                // Not trusted to honour the setting on its own.
+                                value: reduceMotion ? 0 : (appeared ? 1 : 0)
+                            )
+                    }
+                    .frame(width: 160, height: 160)
+                    .clipped()
+
+                    Text(didStudy ? "Session complete" : "Nothing due")
                         .font(Typography.screenTitle)
                         .foregroundStyle(Palette.textPrimary)
                     Text(subtitle)
@@ -25,8 +62,9 @@ struct SessionSummaryView: View {
                         .foregroundStyle(Palette.textSecondary)
                         .multilineTextAlignment(.center)
                 }
+                .animation(Motion.celebrate(reduceMotion), value: appeared)
 
-                if model.reviewedCount > 0 {
+                if didStudy {
                     statsGrid
                     ratingBreakdown
                 }
@@ -36,6 +74,14 @@ struct SessionSummaryView: View {
             }
             .padding(Spacing.md)
             .readableWidth()
+        }
+        .task {
+            // No `Haptics.success()` here. It already fires from `StudyViewModel.grade`, and a
+            // second one 100ms later is a double buzz, not a bigger moment.
+            appeared = true
+            guard didStudy else { return }
+            try? await Task.sleep(for: .seconds(0.5))
+            withAnimation(Motion.reveal(reduceMotion)) { barsRevealed = true }
         }
     }
 
@@ -52,10 +98,15 @@ struct SessionSummaryView: View {
     private var statsGrid: some View {
         HStack(spacing: Spacing.xs) {
             StatTile(value: "\(model.reviewedCount)", label: "Cards reviewed")
+            // No green tint on accuracy.
+            //
+            // The grade is a *self-report*, and colouring it as a success rewards the distribution
+            // the user chose. On a screen shown after every session that is a slow nudge toward
+            // pressing Good, and Good-inflation is the one failure mode that corrupts FSRS's input.
+            // The completion count is what deserves the emphasis; it cannot be gamed.
             StatTile(
                 value: model.accuracy.map { "\(Int($0 * 100))%" } ?? "—",
-                label: "Recalled",
-                tint: Palette.success
+                label: "Recalled"
             )
             StatTile(value: formattedDuration, label: "Time")
         }
@@ -84,7 +135,7 @@ struct SessionSummaryView: View {
                             Capsule().fill(Palette.surfaceRaised)
                             Capsule()
                                 .fill(Palette.rating(rating))
-                                .frame(width: proxy.size.width * share(count))
+                                .frame(width: proxy.size.width * (barsRevealed ? share(count) : 0))
                         }
                     }
                     .frame(height: 10)
@@ -96,6 +147,11 @@ struct SessionSummaryView: View {
                 }
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel("\(rating.shortLabel): \(count)")
+                // Staggered by rating so the four bars read as a sequence rather than a jump.
+                .animation(
+                    Motion.reveal(reduceMotion).delay(Double(rating.rawValue - 1) * 0.06),
+                    value: barsRevealed
+                )
             }
         }
     }

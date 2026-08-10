@@ -99,7 +99,7 @@ struct HomeView: View {
         Button {
             startSession(includeAhead: !model.hasWorkToDo)
         } label: {
-            CardContainer {
+            CardContainer(style: .sticker) {
                 HStack(spacing: Spacing.md) {
                     ZStack {
                         ProgressRing(progress: model.goalProgress)

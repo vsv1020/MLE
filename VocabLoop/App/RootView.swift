@@ -73,7 +73,7 @@ struct LaunchView: View {
     var body: some View {
         VStack(spacing: Spacing.md) {
             Image(systemName: "text.book.closed.fill")
-                .font(.system(size: 52))
+                .font(Typography.heroGlyph)
                 .foregroundStyle(Palette.brandPrimary)
             Text("VocabLoop")
                 .font(Typography.screenTitle)

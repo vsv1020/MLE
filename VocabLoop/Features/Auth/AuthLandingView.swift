@@ -24,7 +24,7 @@ struct AuthLandingView: View {
 
             VStack(spacing: Spacing.sm) {
                 Image(systemName: "text.book.closed.fill")
-                    .font(.system(size: 56))
+                    .font(Typography.heroGlyph)
                     .foregroundStyle(Palette.brandPrimary)
                 Text("VocabLoop")
                     .font(.system(.largeTitle, design: .rounded, weight: .bold))

@@ -22,7 +22,7 @@ struct DailyWordCard: View {
     }
 
     var body: some View {
-        CardContainer {
+        CardContainer(style: .sticker) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 headerRow
 

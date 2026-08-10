@@ -76,26 +76,51 @@ No `.font(.system(size:))` anywhere.
 | Role | Style | Weight | Design |
 | --- | --- | --- | --- |
 | Word form on a flashcard | `.largeTitle` | `.bold` | `.rounded` |
-| Screen title | `.title2` | `.bold` | `.rounded` |
-| Section header | `.headline` | `.semibold` | `.default` |
+| Screen title | `.title2` | `.heavy` | `.rounded` |
+| Section header | `.headline` | `.bold` | `.default` |
 | Definition | `.body` | `.regular` | `.default` |
 | Example sentence | `.callout` | `.regular` | `.serif` italic |
 | Phonetics | `.subheadline` | `.regular` | `.monospaced` |
 | Metadata / CEFR chip | `.caption` | `.medium` | `.rounded` |
-| Numeric statistic | `.title` | `.bold` | `.rounded` + monospaced digits |
+| Numeric statistic | `.title` | `.black` | `.rounded` + monospaced digits |
+| Numeric statistic, small | `.title3` | `.heavy` | `.rounded` + monospaced digits |
 
 Example sentences use a serif italic to separate "language being taught" from
 "app chrome" at a glance — the single most useful typographic distinction in a
 dictionary UI.
+
+**Numerals and headings carry the extra weight; language does not.** Statistics and
+titles run `.heavy`/`.black`, because heavy weight on SF Rounded is what makes a
+number read as *drawn* rather than as data — and weight is the one lever that does
+not fight Dynamic Type, unlike size. The word form, example, phonetics, caption and
+chip styles keep their original weights deliberately: those carry the language being
+taught, including Thai tone marks, where extra weight closes counters and costs
+legibility.
 
 ---
 
 ## Layout and spacing
 
 4pt base scale: `xxs 4 · xs 8 · sm 12 · md 16 · lg 24 · xl 32 · xxl 48`.
-Screen gutter is `md` (16). Card corner radius `20`, nested `14`, chips `8`.
-Shadows are a single soft token (`y 4, blur 16, 8% black`) — one elevation only,
-because two competing elevations always look accidental.
+Screen gutter is `md` (16). Card corner radius `20`, nested `14`, chips `10`
+(bumped from 8, which rendered almost square at chip size), buttons `14`.
+
+**Depth: one level, two treatments.** A `CardContainer` is either `.flat` — the
+original soft token, `y 4, blur 16, 8% black` — or `.sticker`, a hard offset edge
+with no blur (`y 3, blur 0`) plus a 1.5pt `separator` outline. Never both on one
+card: a blurred shadow under a hard one turns the cel-shaded edge into mud, which is
+the usual way this look is got wrong.
+
+`.sticker` exists for two reasons. A blurred shadow says *photographic* and a hard
+one says *drawn*, so it is the cheapest character-per-line in the whole system. And
+it fixes a real bug: `Elevation.shadowColor` is a fixed `Color.black.opacity(0.08)`
+rather than an adaptive colour, so on the `#0B1120` dark canvas it is invisible —
+dark mode had **no depth cue at all**. The sticker edge is an opacity on
+`textTertiary`, which adapts, so it survives both appearances.
+
+`.flat` remains the default, so opting in is per-screen. Applied on Progress, the
+daily word and Today; deliberately *not* on the four raised cards in entry detail,
+which are a trust surface and should stay quiet.
 
 Minimum tap target 44×44pt, enforced by `PrimaryButton` and the rating bar.
 
