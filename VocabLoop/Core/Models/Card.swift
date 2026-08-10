@@ -104,7 +104,20 @@ public final class Card {
 
     public var entry: Entry?
 
-    @Relationship(deleteRule: .cascade, inverse: \ReviewLog.card)
+    /// `.nullify`, not `.cascade`.
+    ///
+    /// A cascade contradicted three things this codebase says out loud. `unenroll` promises to keep
+    /// "the review history" so a word removed and re-added does not lose its past;
+    /// ``ReviewLog/cardID`` is denormalised specifically "so logs survive card deletion"; and the
+    /// log is the append-only table a future FSRS weight fit trains on. With a cascade, removing a
+    /// word from study silently destroyed all of it — the statistics, the export, and the training
+    /// data — and the only sign was an accuracy figure that quietly changed.
+    ///
+    /// Nullifying leaves the log orphaned but complete: every field a consumer needs is already on
+    /// the row, which is why it was denormalised in the first place. Deleting the *account* still
+    /// clears the logs, because `LocalAuthBackend.deleteAccount` deletes them explicitly — the one
+    /// place where erasing history is the point.
+    @Relationship(deleteRule: .nullify, inverse: \ReviewLog.card)
     public var reviews: [ReviewLog]
 
     public init(

@@ -478,8 +478,21 @@ final class ReviewServiceTests: XCTestCase {
             "queued state for a deleted card would resurrect it: \(leftovers.map(\.subjectID))"
         )
         XCTAssertTrue(entry.cards.isEmpty)
-        // The history stays — that is the documented promise of un-enrolling.
-        XCTAssertEqual(try context.fetchCount(FetchDescriptor<ReviewLog>()), 1)
+
+        // The history stays. `unenroll` promises it in words, `ReviewLog.cardID` is denormalised
+        // "so logs survive card deletion", and the log is what a future weight fit trains on — but
+        // `Card.reviews` was `.cascade`, so removing a word from study silently destroyed all three.
+        // The only symptom would have been an accuracy figure that quietly changed.
+        let survivors = try context.fetch(FetchDescriptor<ReviewLog>())
+        XCTAssertEqual(survivors.count, 1, "un-enrolling must not delete the review history")
+
+        // Orphaned but complete: everything a consumer reads is on the row itself, which is the
+        // whole reason those fields are denormalised.
+        let log = try XCTUnwrap(survivors.first)
+        XCTAssertNil(log.card, "the card is gone, so the relationship is nullified")
+        XCTAssertEqual(log.cardID, cardIDs.first)
+        XCTAssertEqual(log.entryStableID, entry.stableID)
+        XCTAssertFalse(log.languageCode.isEmpty)
     }
 
     /// Every card mutation must reach the queue, not just grading.
