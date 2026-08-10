@@ -174,23 +174,22 @@ final class VocabLoopUITests: XCTestCase {
         let tabBar = reachMainTabs()
         attach(name: "01-today")
 
-        for label in ["Browse", "Decks", "Progress", "Settings"] {
+        for (index, label) in ["Browse", "Decks", "Progress", "Settings"].enumerated() {
             let tab = tabBar.buttons[label]
             guard tab.waitForExistence(timeout: 5) else {
                 XCTFail("\(label) tab is missing")
                 continue
             }
             tab.tap()
-            attach(name: "0\(["Browse": 2, "Decks": 3, "Progress": 4, "Settings": 5][label]!)-\(label.lowercased())")
+            // Numbered so the attachments sort in tab order rather than alphabetically.
+            attach(name: String(format: "%02d-%@", index + 2, label.lowercased()))
         }
 
-        // One screen deeper, because a word's detail view is the densest layout in the app and the
-        // most likely to overflow.
+        // One screen deeper, because a word's detail view is the densest layout in the app and so
+        // the most likely to clip or overflow at a real width.
         tabBar.buttons["Browse"].tap()
-        let firstWord = app.collectionViews.cells.firstMatch.exists
-            ? app.collectionViews.cells.firstMatch
-            : app.cells.firstMatch
-        if firstWord.waitForExistence(timeout: 10), firstWord.isHittable {
+        let firstWord = app.cells.firstMatch
+        if firstWord.waitForExistence(timeout: 10), scrollToHit(firstWord, attempts: 2) {
             firstWord.tap()
             attach(name: "06-word-detail")
         }
