@@ -1,0 +1,970 @@
+{
+  "packName": "en_core_c1",
+  "version": 1,
+  "languageCode": "en",
+  "deck": {
+    "name": "English Core · C1",
+    "summary": "Precise, academic and professional vocabulary. Advanced.",
+    "symbolName": "graduationcap",
+    "colorHex": "#7C3AED",
+    "sortOrder": 3
+  },
+  "entries": [
+    {
+      "headword": "ambiguous",
+      "phonetic": "/æmˈbɪɡjuəs/",
+      "cefr": "C1",
+      "frequencyRank": 6120,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "having more than one possible meaning, so it is unclear which is intended",
+          "translations": {
+            "zh": "模棱两可的；含义不明的"
+          },
+          "examples": [
+            {
+              "text": "The wording of the clause is ambiguous.",
+              "translations": {
+                "zh": "该条款的措辞含义不明。"
+              }
+            }
+          ],
+          "synonyms": [
+            "equivocal",
+            "unclear"
+          ],
+          "antonyms": [
+            "unambiguous",
+            "explicit"
+          ],
+          "usageNote": "'Ambiguous' means open to two readings; 'ambivalent' means having mixed feelings. They are not synonyms."
+        }
+      ]
+    },
+    {
+      "headword": "arbitrary",
+      "phonetic": "/ˈɑːbɪtrəri/",
+      "cefr": "C1",
+      "frequencyRank": 5254,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "decided by personal choice or chance rather than by reason or rule",
+          "translations": {
+            "zh": "任意的；武断的"
+          },
+          "examples": [
+            {
+              "text": "The deadline felt arbitrary.",
+              "translations": {
+                "zh": "这个截止日期显得很随意。"
+              }
+            }
+          ],
+          "antonyms": [
+            "principled",
+            "reasoned"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "coherent",
+      "phonetic": "/kəʊˈhɪərənt/",
+      "cefr": "C1",
+      "frequencyRank": 6512,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "logically connected and easy to follow",
+          "translations": {
+            "zh": "连贯的；条理清楚的"
+          },
+          "examples": [
+            {
+              "text": "She gave a coherent account of what happened.",
+              "translations": {
+                "zh": "她条理清楚地讲述了发生的事。"
+              }
+            }
+          ],
+          "antonyms": [
+            "incoherent",
+            "disjointed"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "compelling",
+      "phonetic": "/kəmˈpelɪŋ/",
+      "cefr": "C1",
+      "frequencyRank": 5142,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "so strong or interesting that it demands attention or agreement",
+          "translations": {
+            "zh": "令人信服的；引人入胜的"
+          },
+          "examples": [
+            {
+              "text": "There's compelling evidence that spacing works.",
+              "translations": {
+                "zh": "有令人信服的证据表明间隔重复有效。"
+              }
+            }
+          ],
+          "synonyms": [
+            "persuasive",
+            "gripping"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "comprehensive",
+      "phonetic": "/ˌkɒmprɪˈhensɪv/",
+      "cefr": "C1",
+      "frequencyRank": 3480,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "including everything that is relevant",
+          "translations": {
+            "zh": "全面的；综合的"
+          },
+          "examples": [
+            {
+              "text": "The report offers a comprehensive review of the field.",
+              "translations": {
+                "zh": "这份报告对该领域做了全面综述。"
+              }
+            }
+          ],
+          "usageNote": "Do not confuse with 'comprehensible', which means able to be understood."
+        }
+      ]
+    },
+    {
+      "headword": "consensus",
+      "phonetic": "/kənˈsensəs/",
+      "cefr": "C1",
+      "frequencyRank": 5327,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "general agreement among a group",
+          "translations": {
+            "zh": "共识"
+          },
+          "examples": [
+            {
+              "text": "There is no consensus on the optimal review interval.",
+              "translations": {
+                "zh": "关于最佳复习间隔尚无共识。"
+              }
+            }
+          ],
+          "usageNote": "'Consensus' already means general agreement — 'general consensus' is redundant."
+        }
+      ]
+    },
+    {
+      "headword": "discrepancy",
+      "phonetic": "/dɪsˈkrepənsi/",
+      "cefr": "C1",
+      "frequencyRank": 8017,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a difference between two things that should be the same",
+          "translations": {
+            "zh": "差异；不一致"
+          },
+          "examples": [
+            {
+              "text": "There's a discrepancy between the two figures.",
+              "translations": {
+                "zh": "两个数字之间存在差异。"
+              }
+            }
+          ],
+          "synonyms": [
+            "inconsistency"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "elucidate",
+      "phonetic": "/ɪˈluːsɪdeɪt/",
+      "cefr": "C1",
+      "frequencyRank": 14200,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make something clear by explaining it more fully",
+          "translations": {
+            "zh": "阐明；说明"
+          },
+          "examples": [
+            {
+              "text": "The author elucidates a difficult argument.",
+              "translations": {
+                "zh": "作者阐明了一个艰深的论点。"
+              }
+            }
+          ],
+          "register": "formal",
+          "synonyms": [
+            "clarify",
+            "explicate"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "empirical",
+      "phonetic": "/ɪmˈpɪrɪkl/",
+      "cefr": "C1",
+      "frequencyRank": 6836,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "based on observation or experiment rather than on theory alone",
+          "translations": {
+            "zh": "实证的；经验主义的"
+          },
+          "examples": [
+            {
+              "text": "FSRS was fitted to empirical review data.",
+              "translations": {
+                "zh": "FSRS 是基于实证复习数据拟合出来的。"
+              }
+            }
+          ],
+          "antonyms": [
+            "theoretical",
+            "speculative"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "ephemeral",
+      "phonetic": "/ɪˈfemərəl/",
+      "cefr": "C1",
+      "frequencyRank": 15600,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "lasting for a very short time",
+          "translations": {
+            "zh": "短暂的"
+          },
+          "examples": [
+            {
+              "text": "Cramming produces ephemeral knowledge.",
+              "translations": {
+                "zh": "临时抱佛脚产生的是转瞬即逝的知识。"
+              }
+            }
+          ],
+          "register": "literary",
+          "synonyms": [
+            "fleeting",
+            "transient"
+          ],
+          "antonyms": [
+            "enduring",
+            "lasting"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "exacerbate",
+      "phonetic": "/ɪɡˈzæsəbeɪt/",
+      "cefr": "C1",
+      "frequencyRank": 10400,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make a bad situation worse",
+          "translations": {
+            "zh": "加剧；使恶化"
+          },
+          "examples": [
+            {
+              "text": "Skipping reviews exacerbates the backlog.",
+              "translations": {
+                "zh": "跳过复习会加剧积压。"
+              }
+            }
+          ],
+          "register": "formal",
+          "synonyms": [
+            "aggravate",
+            "worsen"
+          ],
+          "antonyms": [
+            "alleviate",
+            "mitigate"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "feasible",
+      "phonetic": "/ˈfiːzəbl/",
+      "cefr": "C1",
+      "frequencyRank": 6689,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "possible to do without great difficulty",
+          "translations": {
+            "zh": "可行的"
+          },
+          "examples": [
+            {
+              "text": "Thirty reviews a day is feasible; three hundred is not.",
+              "translations": {
+                "zh": "一天三十次复习是可行的，三百次则不然。"
+              }
+            }
+          ],
+          "synonyms": [
+            "viable",
+            "practicable"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "implicit",
+      "phonetic": "/ɪmˈplɪsɪt/",
+      "cefr": "C1",
+      "frequencyRank": 5843,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "suggested but not stated directly",
+          "translations": {
+            "zh": "含蓄的；隐含的"
+          },
+          "examples": [
+            {
+              "text": "There was an implicit criticism in her question.",
+              "translations": {
+                "zh": "她的问题里含有隐含的批评。"
+              }
+            }
+          ],
+          "antonyms": [
+            "explicit"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "inherent",
+      "phonetic": "/ɪnˈhɪərənt/",
+      "cefr": "C1",
+      "frequencyRank": 5220,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "existing as a natural and permanent part of something",
+          "translations": {
+            "zh": "固有的；内在的"
+          },
+          "examples": [
+            {
+              "text": "Difficulty is inherent to the item, not to the day you study it.",
+              "translations": {
+                "zh": "难度是词条固有的属性，与你哪天学习无关。"
+              }
+            }
+          ],
+          "synonyms": [
+            "intrinsic",
+            "innate"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "intricate",
+      "phonetic": "/ˈɪntrɪkət/",
+      "cefr": "C1",
+      "frequencyRank": 8390,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "having many small parts arranged in a complicated way",
+          "translations": {
+            "zh": "错综复杂的；精细的"
+          },
+          "examples": [
+            {
+              "text": "The Thai script has an intricate system of tone marks.",
+              "translations": {
+                "zh": "泰文有一套复杂精细的声调符号系统。"
+              }
+            }
+          ],
+          "synonyms": [
+            "elaborate",
+            "complex"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "meticulous",
+      "phonetic": "/məˈtɪkjələs/",
+      "cefr": "C1",
+      "frequencyRank": 10100,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "very careful, with great attention to detail",
+          "translations": {
+            "zh": "一丝不苟的"
+          },
+          "examples": [
+            {
+              "text": "He kept meticulous records of every review.",
+              "translations": {
+                "zh": "他一丝不苟地记录了每一次复习。"
+              }
+            }
+          ],
+          "synonyms": [
+            "scrupulous",
+            "painstaking"
+          ],
+          "antonyms": [
+            "careless",
+            "slapdash"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "mitigate",
+      "phonetic": "/ˈmɪtɪɡeɪt/",
+      "cefr": "C1",
+      "frequencyRank": 8930,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make something bad less severe",
+          "translations": {
+            "zh": "缓解；减轻"
+          },
+          "examples": [
+            {
+              "text": "Interval fuzzing mitigates spikes in daily workload.",
+              "translations": {
+                "zh": "间隔抖动可以缓解每日学习量的高峰。"
+              }
+            }
+          ],
+          "register": "formal",
+          "antonyms": [
+            "exacerbate",
+            "aggravate"
+          ],
+          "usageNote": "'Mitigate' reduces harm; 'militate' means to be a strong influence against. 'Mitigate against' is an error."
+        }
+      ]
+    },
+    {
+      "headword": "nuance",
+      "phonetic": "/ˈnjuːɑːns/",
+      "cefr": "C1",
+      "frequencyRank": 11200,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a very small difference in meaning, feeling or sound",
+          "translations": {
+            "zh": "细微差别"
+          },
+          "examples": [
+            {
+              "text": "Synonyms rarely match in every nuance.",
+              "translations": {
+                "zh": "同义词很少在每个细微之处都吻合。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "paradigm",
+      "phonetic": "/ˈpærədaɪm/",
+      "cefr": "C1",
+      "frequencyRank": 7255,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a typical pattern or model of how something works",
+          "translations": {
+            "zh": "范式；模式"
+          },
+          "examples": [
+            {
+              "text": "Spaced repetition shifted the paradigm for self-study.",
+              "translations": {
+                "zh": "间隔重复改变了自学的范式。"
+              }
+            }
+          ],
+          "usageNote": "The 'g' is silent in the noun but pronounced in 'paradigmatic'."
+        }
+      ]
+    },
+    {
+      "headword": "plausible",
+      "phonetic": "/ˈplɔːzəbl/",
+      "cefr": "C1",
+      "frequencyRank": 7480,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "seeming reasonable or likely to be true",
+          "translations": {
+            "zh": "看似合理的"
+          },
+          "examples": [
+            {
+              "text": "It's a plausible explanation, but the data says otherwise.",
+              "translations": {
+                "zh": "这是个看似合理的解释，但数据并非如此。"
+              }
+            }
+          ],
+          "antonyms": [
+            "implausible"
+          ],
+          "usageNote": "Often carries a hint of doubt: plausible is not the same as proven."
+        }
+      ]
+    },
+    {
+      "headword": "pragmatic",
+      "phonetic": "/præɡˈmætɪk/",
+      "cefr": "C1",
+      "frequencyRank": 7801,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "dealing with problems in a practical way rather than by theory",
+          "translations": {
+            "zh": "务实的"
+          },
+          "examples": [
+            {
+              "text": "A pragmatic goal beats an ambitious one you abandon.",
+              "translations": {
+                "zh": "务实的目标胜过被你放弃的宏大目标。"
+              }
+            }
+          ],
+          "antonyms": [
+            "idealistic",
+            "dogmatic"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "precedent",
+      "phonetic": "/ˈpresɪdənt/",
+      "cefr": "C1",
+      "frequencyRank": 6982,
+      "tags": [
+        "academic",
+        "legal"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "an earlier case or action used as an example or rule for later ones",
+          "translations": {
+            "zh": "先例"
+          },
+          "examples": [
+            {
+              "text": "The ruling set an important precedent.",
+              "translations": {
+                "zh": "该裁决确立了一个重要先例。"
+              }
+            }
+          ],
+          "usageNote": "Stressed on the first syllable, unlike 'president', which it is often confused with in writing."
+        }
+      ]
+    },
+    {
+      "headword": "preclude",
+      "phonetic": "/prɪˈkluːd/",
+      "cefr": "C1",
+      "frequencyRank": 11900,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make something impossible; to prevent it in advance",
+          "translations": {
+            "zh": "排除；阻止"
+          },
+          "examples": [
+            {
+              "text": "Working offline does not preclude syncing later.",
+              "translations": {
+                "zh": "离线使用并不排除以后同步的可能。"
+              }
+            }
+          ],
+          "register": "formal"
+        }
+      ]
+    },
+    {
+      "headword": "prevalent",
+      "phonetic": "/ˈprevələnt/",
+      "cefr": "C1",
+      "frequencyRank": 8264,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "common in a particular place or at a particular time",
+          "translations": {
+            "zh": "普遍的；流行的"
+          },
+          "examples": [
+            {
+              "text": "That mistake is prevalent among learners of English.",
+              "translations": {
+                "zh": "这个错误在英语学习者中很普遍。"
+              }
+            }
+          ],
+          "synonyms": [
+            "widespread",
+            "common"
+          ],
+          "antonyms": [
+            "rare"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "reconcile",
+      "phonetic": "/ˈrekənsaɪl/",
+      "cefr": "C1",
+      "frequencyRank": 7623,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make two different ideas or facts fit together",
+          "translations": {
+            "zh": "调和；使一致"
+          },
+          "examples": [
+            {
+              "text": "It is hard to reconcile the two accounts.",
+              "translations": {
+                "zh": "很难把这两种说法调和起来。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "robust",
+      "phonetic": "/rəʊˈbʌst/",
+      "cefr": "C1",
+      "frequencyRank": 4894,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "strong and able to keep working under difficult conditions",
+          "translations": {
+            "zh": "稳健的；强健的"
+          },
+          "examples": [
+            {
+              "text": "The findings are robust across several datasets.",
+              "translations": {
+                "zh": "这些发现在多个数据集上都很稳健。"
+              }
+            }
+          ],
+          "antonyms": [
+            "fragile"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "salient",
+      "phonetic": "/ˈseɪliənt/",
+      "cefr": "C1",
+      "frequencyRank": 12700,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "most noticeable or most important",
+          "translations": {
+            "zh": "最显著的；要点的"
+          },
+          "examples": [
+            {
+              "text": "Let me summarise the salient points.",
+              "translations": {
+                "zh": "让我总结一下要点。"
+              }
+            }
+          ],
+          "register": "formal",
+          "synonyms": [
+            "prominent",
+            "key"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "scrutinise",
+      "phonetic": "/ˈskruːtənaɪz/",
+      "cefr": "C1",
+      "frequencyRank": 12300,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to examine something very carefully",
+          "translations": {
+            "zh": "仔细审查"
+          },
+          "examples": [
+            {
+              "text": "Every claim in the paper was scrutinised.",
+              "translations": {
+                "zh": "论文中的每一项主张都受到了仔细审查。"
+              }
+            }
+          ],
+          "usageNote": "American English spells it 'scrutinize'."
+        }
+      ]
+    },
+    {
+      "headword": "substantiate",
+      "phonetic": "/səbˈstænʃieɪt/",
+      "cefr": "C1",
+      "frequencyRank": 13400,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to provide evidence that proves something",
+          "translations": {
+            "zh": "证实；为…提供证据"
+          },
+          "examples": [
+            {
+              "text": "He could not substantiate the allegation.",
+              "translations": {
+                "zh": "他无法证实该指控。"
+              }
+            }
+          ],
+          "register": "formal",
+          "synonyms": [
+            "corroborate",
+            "verify"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "tangible",
+      "phonetic": "/ˈtændʒəbl/",
+      "cefr": "C1",
+      "frequencyRank": 7969,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "real and definite enough to be seen or measured",
+          "translations": {
+            "zh": "有形的；实在的"
+          },
+          "examples": [
+            {
+              "text": "After a month there were tangible results.",
+              "translations": {
+                "zh": "一个月后有了实在的成果。"
+              }
+            }
+          ],
+          "antonyms": [
+            "intangible",
+            "abstract"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "ubiquitous",
+      "phonetic": "/juːˈbɪkwɪtəs/",
+      "cefr": "C1",
+      "frequencyRank": 11500,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "seeming to be everywhere at once",
+          "translations": {
+            "zh": "无处不在的"
+          },
+          "examples": [
+            {
+              "text": "Smartphones are now ubiquitous.",
+              "translations": {
+                "zh": "智能手机现在无处不在。"
+              }
+            }
+          ],
+          "register": "formal",
+          "synonyms": [
+            "omnipresent",
+            "pervasive"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "unprecedented",
+      "phonetic": "/ʌnˈpresɪdentɪd/",
+      "cefr": "C1",
+      "frequencyRank": 6203,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "never having happened before",
+          "translations": {
+            "zh": "史无前例的"
+          },
+          "examples": [
+            {
+              "text": "Demand reached unprecedented levels.",
+              "translations": {
+                "zh": "需求达到了史无前例的水平。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "viable",
+      "phonetic": "/ˈvaɪəbl/",
+      "cefr": "C1",
+      "frequencyRank": 6440,
+      "tags": [
+        "academic"
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "able to work successfully",
+          "translations": {
+            "zh": "可行的；能存活的"
+          },
+          "examples": [
+            {
+              "text": "Is that a viable alternative?",
+              "translations": {
+                "zh": "那是个可行的替代方案吗？"
+              }
+            }
+          ],
+          "synonyms": [
+            "feasible",
+            "workable"
+          ]
+        }
+      ]
+    }
+  ]
+}

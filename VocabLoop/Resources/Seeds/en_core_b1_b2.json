@@ -1,0 +1,1363 @@
+{
+  "packName": "en_core_b1_b2",
+  "version": 1,
+  "languageCode": "en",
+  "deck": {
+    "name": "English Core · B1–B2",
+    "summary": "The words that move you from getting by to being fluent. Intermediate to upper intermediate.",
+    "symbolName": "book",
+    "colorHex": "#4F46E5",
+    "sortOrder": 2
+  },
+  "entries": [
+    {
+      "headword": "achieve",
+      "phonetic": "/əˈtʃiːv/",
+      "cefr": "B1",
+      "frequencyRank": 1055,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to succeed in doing something, usually after effort",
+          "translations": {
+            "zh": "实现；取得"
+          },
+          "examples": [
+            {
+              "text": "She achieved her goal of running a marathon.",
+              "translations": {
+                "zh": "她实现了跑马拉松的目标。"
+              }
+            }
+          ],
+          "synonyms": [
+            "accomplish",
+            "attain"
+          ],
+          "usageNote": "You achieve a result or a goal, not an action. 'Achieve to run' is wrong."
+        }
+      ]
+    },
+    {
+      "headword": "afford",
+      "phonetic": "/əˈfɔːd/",
+      "cefr": "B1",
+      "frequencyRank": 1993,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to have enough money or time for something",
+          "translations": {
+            "zh": "买得起；负担得起"
+          },
+          "examples": [
+            {
+              "text": "We can't afford a new car this year.",
+              "translations": {
+                "zh": "今年我们买不起新车。"
+              }
+            }
+          ],
+          "usageNote": "Almost always with 'can', 'could' or a negative."
+        }
+      ]
+    },
+    {
+      "headword": "anxious",
+      "phonetic": "/ˈæŋkʃəs/",
+      "cefr": "B2",
+      "frequencyRank": 3384,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "worried and nervous about something that might happen",
+          "translations": {
+            "zh": "焦虑的；担心的"
+          },
+          "examples": [
+            {
+              "text": "He was anxious about the results.",
+              "translations": {
+                "zh": "他为结果感到焦虑。"
+              }
+            }
+          ],
+          "synonyms": [
+            "worried",
+            "uneasy",
+            "apprehensive"
+          ],
+          "antonyms": [
+            "calm",
+            "relaxed"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "apologise",
+      "phonetic": "/əˈpɒlədʒaɪz/",
+      "cefr": "B1",
+      "frequencyRank": 4460,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to say that you are sorry for something you did",
+          "translations": {
+            "zh": "道歉"
+          },
+          "examples": [
+            {
+              "text": "He apologised for being late.",
+              "translations": {
+                "zh": "他为迟到道歉。"
+              }
+            }
+          ],
+          "usageNote": "'Apologise to someone for something'. American English spells it 'apologize'."
+        }
+      ]
+    },
+    {
+      "headword": "approach",
+      "phonetic": "/əˈprəʊtʃ/",
+      "cefr": "B1",
+      "frequencyRank": 908,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a way of dealing with a problem or task",
+          "translations": {
+            "zh": "方法；途径"
+          },
+          "examples": [
+            {
+              "text": "We need a different approach to this problem.",
+              "translations": {
+                "zh": "这个问题我们需要另一种方法。"
+              }
+            }
+          ],
+          "synonyms": [
+            "method",
+            "strategy"
+          ]
+        },
+        {
+          "partOfSpeech": "verb",
+          "definition": "to come nearer in space or time",
+          "translations": {
+            "zh": "接近"
+          },
+          "examples": [
+            {
+              "text": "As winter approached, the days got shorter.",
+              "translations": {
+                "zh": "随着冬天临近，白天变短了。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "assume",
+      "phonetic": "/əˈsjuːm/",
+      "cefr": "B2",
+      "frequencyRank": 1470,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to accept that something is true without checking",
+          "translations": {
+            "zh": "假定；以为"
+          },
+          "examples": [
+            {
+              "text": "I assumed you had already left.",
+              "translations": {
+                "zh": "我以为你已经走了。"
+              }
+            }
+          ],
+          "synonyms": [
+            "presume",
+            "suppose"
+          ],
+          "usageNote": "Stronger than 'think': it carries the sense that you did not verify."
+        }
+      ]
+    },
+    {
+      "headword": "attitude",
+      "phonetic": "/ˈætɪtjuːd/",
+      "cefr": "B1",
+      "frequencyRank": 1462,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "the way you think and feel about something, shown in how you behave",
+          "translations": {
+            "zh": "态度"
+          },
+          "examples": [
+            {
+              "text": "Her attitude to work changed completely.",
+              "translations": {
+                "zh": "她对工作的态度彻底改变了。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "available",
+      "phonetic": "/əˈveɪləbl/",
+      "cefr": "B1",
+      "frequencyRank": 664,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "able to be used, obtained, or spoken to",
+          "translations": {
+            "zh": "可用的；有空的"
+          },
+          "examples": [
+            {
+              "text": "Is the doctor available this afternoon?",
+              "translations": {
+                "zh": "医生今天下午有空吗？"
+              }
+            }
+          ],
+          "antonyms": [
+            "unavailable"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "avoid",
+      "phonetic": "/əˈvɔɪd/",
+      "cefr": "B1",
+      "frequencyRank": 1027,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to stay away from something, or stop it from happening",
+          "translations": {
+            "zh": "避免"
+          },
+          "examples": [
+            {
+              "text": "Try to avoid making the same mistake.",
+              "translations": {
+                "zh": "尽量避免犯同样的错误。"
+              }
+            }
+          ],
+          "usageNote": "Followed by a gerund, never an infinitive: 'avoid making', not 'avoid to make'."
+        }
+      ]
+    },
+    {
+      "headword": "benefit",
+      "phonetic": "/ˈbenɪfɪt/",
+      "cefr": "B1",
+      "frequencyRank": 1041,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a helpful or good effect",
+          "translations": {
+            "zh": "好处；益处"
+          },
+          "examples": [
+            {
+              "text": "One benefit of reviewing daily is that nothing piles up.",
+              "translations": {
+                "zh": "每天复习的一个好处是不会积压。"
+              }
+            }
+          ],
+          "synonyms": [
+            "advantage"
+          ],
+          "antonyms": [
+            "drawback",
+            "disadvantage"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "challenge",
+      "phonetic": "/ˈtʃælɪndʒ/",
+      "cefr": "B1",
+      "frequencyRank": 1064,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "something difficult that tests your ability",
+          "translations": {
+            "zh": "挑战"
+          },
+          "examples": [
+            {
+              "text": "Learning tones was the biggest challenge.",
+              "translations": {
+                "zh": "学习声调是最大的挑战。"
+              }
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "verb",
+          "definition": "to question whether something is true or right",
+          "translations": {
+            "zh": "质疑"
+          },
+          "examples": [
+            {
+              "text": "She challenged his conclusion.",
+              "translations": {
+                "zh": "她对他的结论提出质疑。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "complain",
+      "phonetic": "/kəmˈpleɪn/",
+      "cefr": "B1",
+      "frequencyRank": 2585,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to say that you are unhappy about something",
+          "translations": {
+            "zh": "抱怨；投诉"
+          },
+          "examples": [
+            {
+              "text": "They complained about the noise.",
+              "translations": {
+                "zh": "他们抱怨噪音。"
+              }
+            }
+          ],
+          "usageNote": "'Complain about' something; 'complain to' a person."
+        }
+      ]
+    },
+    {
+      "headword": "concentrate",
+      "phonetic": "/ˈkɒnsntreɪt/",
+      "cefr": "B1",
+      "frequencyRank": 2571,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to give all your attention to one thing",
+          "translations": {
+            "zh": "集中注意力"
+          },
+          "examples": [
+            {
+              "text": "I can't concentrate with the television on.",
+              "translations": {
+                "zh": "开着电视我无法专心。"
+              }
+            }
+          ],
+          "synonyms": [
+            "focus"
+          ],
+          "usageNote": "'Concentrate on something'."
+        }
+      ]
+    },
+    {
+      "headword": "confident",
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "cefr": "B1",
+      "frequencyRank": 1934,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "sure of yourself or of a result",
+          "translations": {
+            "zh": "自信的；有把握的"
+          },
+          "examples": [
+            {
+              "text": "I'm confident we'll finish on time.",
+              "translations": {
+                "zh": "我有信心我们能按时完成。"
+              }
+            }
+          ],
+          "antonyms": [
+            "insecure",
+            "doubtful"
+          ],
+          "usageNote": "Do not confuse with 'confidant', a person you trust with secrets."
+        }
+      ]
+    },
+    {
+      "headword": "consider",
+      "phonetic": "/kənˈsɪdə/",
+      "cefr": "B1",
+      "frequencyRank": 616,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to think about something carefully before deciding",
+          "translations": {
+            "zh": "考虑"
+          },
+          "examples": [
+            {
+              "text": "We're considering moving abroad.",
+              "translations": {
+                "zh": "我们正在考虑搬到国外。"
+              }
+            }
+          ],
+          "usageNote": "Takes a gerund: 'consider moving', not 'consider to move'."
+        }
+      ]
+    },
+    {
+      "headword": "contribute",
+      "phonetic": "/kənˈtrɪbjuːt/",
+      "cefr": "B2",
+      "frequencyRank": 1846,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to give something, such as money, time or ideas, to help achieve something",
+          "translations": {
+            "zh": "贡献；促成"
+          },
+          "examples": [
+            {
+              "text": "Several factors contributed to the delay.",
+              "translations": {
+                "zh": "多种因素导致了延误。"
+              }
+            }
+          ],
+          "usageNote": "'Contribute to something'."
+        }
+      ]
+    },
+    {
+      "headword": "convince",
+      "phonetic": "/kənˈvɪns/",
+      "cefr": "B2",
+      "frequencyRank": 2418,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make someone believe something or agree to do it",
+          "translations": {
+            "zh": "说服；使确信"
+          },
+          "examples": [
+            {
+              "text": "She convinced me to try again.",
+              "translations": {
+                "zh": "她说服我再试一次。"
+              }
+            }
+          ],
+          "synonyms": [
+            "persuade"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "cope",
+      "phonetic": "/kəʊp/",
+      "cefr": "B2",
+      "frequencyRank": 3416,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to deal successfully with a difficult situation",
+          "translations": {
+            "zh": "应对；处理"
+          },
+          "examples": [
+            {
+              "text": "He's coping well with the pressure.",
+              "translations": {
+                "zh": "他很好地应对着压力。"
+              }
+            }
+          ],
+          "usageNote": "'Cope with'. Used intransitively otherwise: 'I can't cope.'"
+        }
+      ]
+    },
+    {
+      "headword": "curious",
+      "phonetic": "/ˈkjʊəriəs/",
+      "cefr": "B1",
+      "frequencyRank": 2860,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "wanting to know or learn about something",
+          "translations": {
+            "zh": "好奇的"
+          },
+          "examples": [
+            {
+              "text": "I'm curious about how it works.",
+              "translations": {
+                "zh": "我很好奇它是怎么运作的。"
+              }
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "definition": "strange or unusual",
+          "translations": {
+            "zh": "奇怪的"
+          },
+          "examples": [
+            {
+              "text": "There was a curious smell in the room.",
+              "translations": {
+                "zh": "房间里有股奇怪的味道。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "deny",
+      "phonetic": "/dɪˈnaɪ/",
+      "cefr": "B2",
+      "frequencyRank": 1900,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to say that something is not true",
+          "translations": {
+            "zh": "否认"
+          },
+          "examples": [
+            {
+              "text": "He denied taking the money.",
+              "translations": {
+                "zh": "他否认拿了钱。"
+              }
+            }
+          ],
+          "antonyms": [
+            "admit",
+            "confirm"
+          ],
+          "usageNote": "Takes a gerund: 'deny taking', not 'deny to take'."
+        }
+      ]
+    },
+    {
+      "headword": "deserve",
+      "phonetic": "/dɪˈzɜːv/",
+      "cefr": "B2",
+      "frequencyRank": 2359,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to have earned something by what you have done",
+          "translations": {
+            "zh": "值得；应得"
+          },
+          "examples": [
+            {
+              "text": "After all that work, you deserve a break.",
+              "translations": {
+                "zh": "经过这么多努力，你该休息一下了。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "disappointed",
+      "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+      "cefr": "B1",
+      "frequencyRank": 3212,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "unhappy because something was not as good as you hoped",
+          "translations": {
+            "zh": "失望的"
+          },
+          "examples": [
+            {
+              "text": "I was disappointed with the film.",
+              "translations": {
+                "zh": "我对这部电影很失望。"
+              }
+            }
+          ],
+          "usageNote": "'Disappointed with/by' a thing; 'disappointed in' a person."
+        }
+      ]
+    },
+    {
+      "headword": "efficient",
+      "phonetic": "/ɪˈfɪʃnt/",
+      "cefr": "B2",
+      "frequencyRank": 2411,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "working well without wasting time, money or effort",
+          "translations": {
+            "zh": "高效的"
+          },
+          "examples": [
+            {
+              "text": "Spaced repetition is an efficient way to study.",
+              "translations": {
+                "zh": "间隔重复是一种高效的学习方式。"
+              }
+            }
+          ],
+          "antonyms": [
+            "inefficient"
+          ],
+          "usageNote": "'Efficient' is about not wasting effort; 'effective' is about getting the result at all."
+        }
+      ]
+    },
+    {
+      "headword": "encourage",
+      "phonetic": "/ɪnˈkʌrɪdʒ/",
+      "cefr": "B1",
+      "frequencyRank": 1478,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to give someone confidence or support to do something",
+          "translations": {
+            "zh": "鼓励"
+          },
+          "examples": [
+            {
+              "text": "My teacher encouraged me to keep going.",
+              "translations": {
+                "zh": "老师鼓励我继续下去。"
+              }
+            }
+          ],
+          "antonyms": [
+            "discourage"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "essential",
+      "phonetic": "/ɪˈsenʃl/",
+      "cefr": "B2",
+      "frequencyRank": 1364,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "completely necessary",
+          "translations": {
+            "zh": "必不可少的"
+          },
+          "examples": [
+            {
+              "text": "Daily review is essential if you want to remember.",
+              "translations": {
+                "zh": "想记住的话，每天复习必不可少。"
+              }
+            }
+          ],
+          "synonyms": [
+            "vital",
+            "crucial",
+            "indispensable"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "estimate",
+      "phonetic": "/ˈestɪmeɪt/",
+      "cefr": "B2",
+      "frequencyRank": 1591,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to judge an amount or value approximately",
+          "translations": {
+            "zh": "估计"
+          },
+          "examples": [
+            {
+              "text": "They estimate the trip will take five hours.",
+              "translations": {
+                "zh": "他们估计这趟行程要五小时。"
+              }
+            }
+          ],
+          "usageNote": "The verb ends /meɪt/; the noun ends /mət/."
+        }
+      ]
+    },
+    {
+      "headword": "eventually",
+      "phonetic": "/ɪˈventʃuəli/",
+      "cefr": "B1",
+      "frequencyRank": 1732,
+      "senses": [
+        {
+          "partOfSpeech": "adverb",
+          "definition": "in the end, after a long time or much delay",
+          "translations": {
+            "zh": "最终"
+          },
+          "examples": [
+            {
+              "text": "Eventually she agreed.",
+              "translations": {
+                "zh": "她最终同意了。"
+              }
+            }
+          ],
+          "usageNote": "A false friend for speakers of several European languages: it means 'in the end', not 'possibly'."
+        }
+      ]
+    },
+    {
+      "headword": "evidence",
+      "phonetic": "/ˈevɪdəns/",
+      "cefr": "B2",
+      "frequencyRank": 924,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "facts or signs that show whether something is true",
+          "translations": {
+            "zh": "证据"
+          },
+          "examples": [
+            {
+              "text": "There's little evidence to support that claim.",
+              "translations": {
+                "zh": "几乎没有证据支持那个说法。"
+              }
+            }
+          ],
+          "usageNote": "Uncountable: 'a piece of evidence', never 'an evidence'."
+        }
+      ]
+    },
+    {
+      "headword": "fascinating",
+      "phonetic": "/ˈfæsɪneɪtɪŋ/",
+      "cefr": "B2",
+      "frequencyRank": 4100,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "extremely interesting",
+          "translations": {
+            "zh": "极其有趣的"
+          },
+          "examples": [
+            {
+              "text": "The history of writing systems is fascinating.",
+              "translations": {
+                "zh": "文字系统的历史非常有趣。"
+              }
+            }
+          ],
+          "synonyms": [
+            "captivating",
+            "riveting"
+          ],
+          "antonyms": [
+            "dull"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "flexible",
+      "phonetic": "/ˈfleksəbl/",
+      "cefr": "B2",
+      "frequencyRank": 2843,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "able to change or be changed easily to suit a situation",
+          "translations": {
+            "zh": "灵活的"
+          },
+          "examples": [
+            {
+              "text": "My schedule is flexible this week.",
+              "translations": {
+                "zh": "我这周的日程很灵活。"
+              }
+            }
+          ],
+          "antonyms": [
+            "rigid",
+            "inflexible"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "frustrated",
+      "phonetic": "/frʌˈstreɪtɪd/",
+      "cefr": "B2",
+      "frequencyRank": 3941,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "annoyed because you cannot do or change something",
+          "translations": {
+            "zh": "沮丧的；受挫的"
+          },
+          "examples": [
+            {
+              "text": "I get frustrated when I forget words I knew yesterday.",
+              "translations": {
+                "zh": "昨天还记得的词今天忘了，我就很沮丧。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "genuine",
+      "phonetic": "/ˈdʒenjuɪn/",
+      "cefr": "B2",
+      "frequencyRank": 2569,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "real, not false or pretended",
+          "translations": {
+            "zh": "真正的；真诚的"
+          },
+          "examples": [
+            {
+              "text": "She showed genuine interest in the subject.",
+              "translations": {
+                "zh": "她对这个话题表现出真正的兴趣。"
+              }
+            }
+          ],
+          "synonyms": [
+            "authentic",
+            "sincere"
+          ],
+          "antonyms": [
+            "fake",
+            "insincere"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "gradually",
+      "phonetic": "/ˈɡrædʒuəli/",
+      "cefr": "B1",
+      "frequencyRank": 2331,
+      "senses": [
+        {
+          "partOfSpeech": "adverb",
+          "definition": "slowly, over a period of time",
+          "translations": {
+            "zh": "逐渐地"
+          },
+          "examples": [
+            {
+              "text": "The intervals gradually get longer.",
+              "translations": {
+                "zh": "间隔会逐渐变长。"
+              }
+            }
+          ],
+          "antonyms": [
+            "suddenly"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "guarantee",
+      "phonetic": "/ˌɡærənˈtiː/",
+      "cefr": "B2",
+      "frequencyRank": 2489,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to promise that something will happen or is true",
+          "translations": {
+            "zh": "保证"
+          },
+          "examples": [
+            {
+              "text": "I can't guarantee it will work.",
+              "translations": {
+                "zh": "我不能保证它会成功。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "hesitate",
+      "phonetic": "/ˈhezɪteɪt/",
+      "cefr": "B2",
+      "frequencyRank": 3711,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to pause before doing something because you are unsure",
+          "translations": {
+            "zh": "犹豫"
+          },
+          "examples": [
+            {
+              "text": "She hesitated before answering.",
+              "translations": {
+                "zh": "她回答前犹豫了一下。"
+              }
+            }
+          ],
+          "usageNote": "A long hesitation before recalling a word is exactly what 'Hard' means when you rate a card."
+        }
+      ]
+    },
+    {
+      "headword": "impact",
+      "phonetic": "/ˈɪmpækt/",
+      "cefr": "B2",
+      "frequencyRank": 1128,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a strong effect on someone or something",
+          "translations": {
+            "zh": "影响；冲击"
+          },
+          "examples": [
+            {
+              "text": "The change had a real impact on results.",
+              "translations": {
+                "zh": "这一改变对结果产生了实际影响。"
+              }
+            }
+          ],
+          "usageNote": "'Have an impact on', not 'to'."
+        }
+      ]
+    },
+    {
+      "headword": "improve",
+      "phonetic": "/ɪmˈpruːv/",
+      "cefr": "B1",
+      "frequencyRank": 852,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to become better, or make something better",
+          "translations": {
+            "zh": "改善；提高"
+          },
+          "examples": [
+            {
+              "text": "My listening has improved a lot.",
+              "translations": {
+                "zh": "我的听力提高了很多。"
+              }
+            }
+          ],
+          "antonyms": [
+            "worsen",
+            "deteriorate"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "inevitable",
+      "phonetic": "/ɪnˈevɪtəbl/",
+      "cefr": "B2",
+      "frequencyRank": 3316,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "certain to happen and impossible to avoid",
+          "translations": {
+            "zh": "不可避免的"
+          },
+          "examples": [
+            {
+              "text": "Forgetting is inevitable — that is why reviews are spaced.",
+              "translations": {
+                "zh": "遗忘不可避免——这正是复习要间隔安排的原因。"
+              }
+            }
+          ],
+          "synonyms": [
+            "unavoidable"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "influence",
+      "phonetic": "/ˈɪnfluəns/",
+      "cefr": "B1",
+      "frequencyRank": 1067,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "the power to change how someone or something develops",
+          "translations": {
+            "zh": "影响（力）"
+          },
+          "examples": [
+            {
+              "text": "Her teacher had a lasting influence on her.",
+              "translations": {
+                "zh": "她的老师对她有持久的影响。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "involve",
+      "phonetic": "/ɪnˈvɒlv/",
+      "cefr": "B1",
+      "frequencyRank": 855,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to include something as a necessary part",
+          "translations": {
+            "zh": "涉及；包含"
+          },
+          "examples": [
+            {
+              "text": "The job involves a lot of travel.",
+              "translations": {
+                "zh": "这份工作需要经常出差。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "maintain",
+      "phonetic": "/meɪnˈteɪn/",
+      "cefr": "B2",
+      "frequencyRank": 1122,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to keep something at the same level or in good condition",
+          "translations": {
+            "zh": "保持；维护"
+          },
+          "examples": [
+            {
+              "text": "It's easier to maintain a streak than to restart one.",
+              "translations": {
+                "zh": "保持连续记录比重新开始容易。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "obvious",
+      "phonetic": "/ˈɒbviəs/",
+      "cefr": "B1",
+      "frequencyRank": 1601,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "easy to see or understand",
+          "translations": {
+            "zh": "明显的"
+          },
+          "examples": [
+            {
+              "text": "The answer seems obvious now.",
+              "translations": {
+                "zh": "现在答案看起来很明显。"
+              }
+            }
+          ],
+          "synonyms": [
+            "evident",
+            "apparent"
+          ],
+          "antonyms": [
+            "subtle",
+            "obscure"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "opportunity",
+      "phonetic": "/ˌɒpəˈtjuːnəti/",
+      "cefr": "B1",
+      "frequencyRank": 862,
+      "senses": [
+        {
+          "partOfSpeech": "noun",
+          "definition": "a situation that makes it possible to do something you want",
+          "translations": {
+            "zh": "机会"
+          },
+          "examples": [
+            {
+              "text": "It's a good opportunity to practise.",
+              "translations": {
+                "zh": "这是练习的好机会。"
+              }
+            }
+          ],
+          "synonyms": [
+            "chance"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "particular",
+      "phonetic": "/pəˈtɪkjələ/",
+      "cefr": "B1",
+      "frequencyRank": 640,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "one specific thing rather than others",
+          "translations": {
+            "zh": "特定的"
+          },
+          "examples": [
+            {
+              "text": "Is there a particular word you're stuck on?",
+              "translations": {
+                "zh": "有某个特定的词让你卡住了吗？"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "persuade",
+      "phonetic": "/pəˈsweɪd/",
+      "cefr": "B2",
+      "frequencyRank": 2946,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make someone agree to do something by giving reasons",
+          "translations": {
+            "zh": "劝服；说服"
+          },
+          "examples": [
+            {
+              "text": "I persuaded her to join the class.",
+              "translations": {
+                "zh": "我说服她加入了这个班。"
+              }
+            }
+          ],
+          "synonyms": [
+            "convince"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "reduce",
+      "phonetic": "/rɪˈdjuːs/",
+      "cefr": "B1",
+      "frequencyRank": 1041,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to make something smaller in size, amount or number",
+          "translations": {
+            "zh": "减少"
+          },
+          "examples": [
+            {
+              "text": "Lowering the target retention reduces your daily reviews.",
+              "translations": {
+                "zh": "降低目标记忆率会减少每日复习量。"
+              }
+            }
+          ],
+          "antonyms": [
+            "increase"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "reliable",
+      "phonetic": "/rɪˈlaɪəbl/",
+      "cefr": "B2",
+      "frequencyRank": 2967,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "able to be trusted to do what is expected",
+          "translations": {
+            "zh": "可靠的"
+          },
+          "examples": [
+            {
+              "text": "He's a reliable colleague.",
+              "translations": {
+                "zh": "他是个可靠的同事。"
+              }
+            }
+          ],
+          "antonyms": [
+            "unreliable"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "significant",
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "cefr": "B2",
+      "frequencyRank": 861,
+      "senses": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "large or important enough to have an effect",
+          "translations": {
+            "zh": "显著的；重要的"
+          },
+          "examples": [
+            {
+              "text": "There was a significant improvement after a month.",
+              "translations": {
+                "zh": "一个月后有了显著的进步。"
+              }
+            }
+          ],
+          "antonyms": [
+            "negligible",
+            "insignificant"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "struggle",
+      "phonetic": "/ˈstrʌɡl/",
+      "cefr": "B2",
+      "frequencyRank": 1802,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to try very hard to do something difficult",
+          "translations": {
+            "zh": "挣扎；艰难地努力"
+          },
+          "examples": [
+            {
+              "text": "I'm struggling with the pronunciation.",
+              "translations": {
+                "zh": "我在发音上很吃力。"
+              }
+            }
+          ],
+          "usageNote": "'Struggle with' a difficulty; 'struggle to do' something."
+        }
+      ]
+    },
+    {
+      "headword": "suggest",
+      "phonetic": "/səˈdʒest/",
+      "cefr": "B1",
+      "frequencyRank": 683,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to put forward an idea for someone to consider",
+          "translations": {
+            "zh": "建议"
+          },
+          "examples": [
+            {
+              "text": "She suggested reviewing in the morning.",
+              "translations": {
+                "zh": "她建议早上复习。"
+              }
+            }
+          ],
+          "usageNote": "'Suggest doing' or 'suggest that you do'. Never 'suggest me to do'."
+        }
+      ]
+    },
+    {
+      "headword": "tend",
+      "phonetic": "/tend/",
+      "cefr": "B2",
+      "frequencyRank": 1266,
+      "senses": [
+        {
+          "partOfSpeech": "verb",
+          "definition": "to usually do a particular thing",
+          "translations": {
+            "zh": "往往；倾向于"
+          },
+          "examples": [
+            {
+              "text": "Cards you rate 'Hard' tend to come back sooner.",
+              "translations": {
+                "zh": "你评为「难」的卡片往往会更早再出现。"
+              }
+            }
+          ],
+          "usageNote": "'Tend to do', with the infinitive."
+        }
+      ]
+    }
+  ]
+}

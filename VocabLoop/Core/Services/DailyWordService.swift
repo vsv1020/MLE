@@ -1,0 +1,202 @@
+import Foundation
+import SwiftData
+
+/// Chooses each day's new words.
+///
+/// The selection is **deterministic** in `(userID, dayKey, languageCode)`: the same
+/// user on the same day always gets the same words, with no server call, offline, and
+/// identically after a reinstall. That property is what makes "daily word" trustworthy
+/// — a word that changes when you reopen the app reads as a bug — and it is why the
+/// shuffle is seeded rather than random.
+///
+/// Words already enrolled or previously dismissed are excluded, so the surface never
+/// re-offers something the user has already answered.
+@MainActor
+public final class DailyWordService {
+    private let context: ModelContext
+
+    public init(context: ModelContext) {
+        self.context = context
+    }
+
+    /// Today's batch, generating and persisting it if it does not exist yet.
+    ///
+    /// Persisted rather than recomputed on every read because the *acceptance* record
+    /// is not derivable, and because the words a user saw this morning must still be
+    /// there this evening.
+    @discardableResult
+    public func batch(
+        for account: UserAccount,
+        preferences: StudyPreferences,
+        now: Date = Date()
+    ) throws -> DailyBatch {
+        let calendar = StudyCalendar(preferences: preferences)
+        let dayKey = calendar.dayKey(for: now)
+        let language = preferences.activeLanguage
+        let key = DailyBatch.makeKey(
+            userID: account.userID, dayKey: dayKey, languageCode: language.rawValue
+        )
+
+        var descriptor = FetchDescriptor<DailyBatch>(predicate: #Predicate { $0.key == key })
+        descriptor.fetchLimit = 1
+        if let existing = try context.fetch(descriptor).first {
+            return existing
+        }
+
+        let stableIDs = try selectEntryStableIDs(
+            for: account, preferences: preferences, dayKey: dayKey
+        )
+        let batch = DailyBatch(
+            userID: account.userID,
+            dayKey: dayKey,
+            languageCode: language.rawValue,
+            entryStableIDs: stableIDs,
+            now: now
+        )
+        context.insert(batch)
+        try context.save()
+        return batch
+    }
+
+    /// Resolve a batch's IDs to entries, in presentation order.
+    public func entries(in batch: DailyBatch) throws -> [Entry] {
+        try context.entries(stableIDs: batch.entryStableIDs)
+    }
+
+    // MARK: - Selection
+
+    /// Pick this day's candidate words.
+    ///
+    /// Selection is a *weighted* deterministic draw, not a plain shuffle: candidates
+    /// are ordered by frequency rank, then permuted with a seeded generator. The
+    /// weighting matters — a uniform shuffle over a 10,000-word dictionary would serve
+    /// mostly rare words, and a learner meeting "ubiquitous" before "because" will
+    /// conclude the app is broken.
+    func selectEntryStableIDs(
+        for account: UserAccount,
+        preferences: StudyPreferences,
+        dayKey: String
+    ) throws -> [String] {
+        let language = preferences.activeLanguage
+        let languageCode = language.rawValue
+        let floor = preferences.cefrFloor
+        let ceiling = preferences.cefrCeiling
+
+        let candidates = try context.fetch(
+            FetchDescriptor<Entry>(predicate: #Predicate { $0.languageCode == languageCode })
+        )
+
+        // Excluded: already enrolled, dismissed on any earlier day, or offered by a
+        // deck the user has parked.
+        let dismissed = try previouslyDismissed(userID: account.userID, languageCode: languageCode)
+        let activeDeckSlugs = try activeDeckSlugs(languageCode: languageCode)
+
+        let eligible = candidates.filter { entry in
+            guard !entry.isEnrolled else { return false }
+            guard !dismissed.contains(entry.stableID) else { return false }
+            if let level = entry.cefr, level < floor || level > ceiling { return false }
+            // An entry in no deck at all (a user's own word) is always eligible.
+            guard !entry.decks.isEmpty else { return true }
+            return entry.decks.contains { activeDeckSlugs.contains($0.slug) }
+        }
+
+        guard !eligible.isEmpty else { return [] }
+
+        // Rank first so the draw is over useful words, then permute deterministically.
+        let ranked = eligible.sorted { lhs, rhs in
+            let a = lhs.frequencyRank ?? Int.max
+            let b = rhs.frequencyRank ?? Int.max
+            return a == b ? lhs.stableID < rhs.stableID : a < b
+        }
+
+        // Draw from a window at the front of the ranked list rather than the whole
+        // dictionary, so the words offered stay level-appropriate while still varying
+        // day to day.
+        let target = max(0, preferences.newWordsPerDay)
+        let window = Array(ranked.prefix(max(target * 12, 60)))
+
+        var generator = SeededGenerator(
+            seed: Self.seed(userID: account.userID, dayKey: dayKey, languageCode: languageCode)
+        )
+        return window.shuffled(using: &generator).prefix(target).map(\.stableID)
+    }
+
+    private func previouslyDismissed(userID: String, languageCode: String) throws -> Set<String> {
+        let batches = try context.fetch(
+            FetchDescriptor<DailyBatch>(
+                predicate: #Predicate { $0.userID == userID && $0.languageCode == languageCode }
+            )
+        )
+        return Set(batches.flatMap(\.dismissedEntryStableIDs))
+    }
+
+    private func activeDeckSlugs(languageCode: String) throws -> Set<String> {
+        let decks = try context.fetch(
+            FetchDescriptor<Deck>(predicate: #Predicate { $0.languageCode == languageCode })
+        )
+        return Set(decks.filter(\.isActiveForNewWords).map(\.slug))
+    }
+
+    /// Stable 64-bit seed from the three inputs that define a batch.
+    ///
+    /// FNV-1a rather than `Hasher`, because Swift's hashing is seeded per process — the
+    /// same inputs would produce a different batch on every launch, which is precisely
+    /// the bug this whole design exists to prevent.
+    static func seed(userID: String, dayKey: String, languageCode: String) -> UInt64 {
+        var hash: UInt64 = 0xcbf2_9ce4_8422_2325
+        for byte in "\(userID)|\(dayKey)|\(languageCode)".utf8 {
+            hash ^= UInt64(byte)
+            hash = hash &* 0x0000_0100_0000_01B3
+        }
+        return hash
+    }
+
+    // MARK: - Actions
+
+    /// Enrol a daily word and record the acceptance.
+    ///
+    /// - Returns: The cards actually created. This is **not** always
+    ///   `preferences.enabledDirections.count` — a cloze card is skipped for an entry with no
+    ///   maskable example, and re-accepting a word creates nothing. Callers that display a
+    ///   card count must use this rather than assuming.
+    @discardableResult
+    public func accept(
+        entry: Entry,
+        in batch: DailyBatch,
+        preferences: StudyPreferences,
+        reviewService: ReviewService,
+        now: Date = Date()
+    ) throws -> [Card] {
+        let created = try reviewService.enroll(entry: entry, preferences: preferences, now: now)
+        batch.markAccepted(entry.stableID, now: now)
+        try context.save()
+        return created
+    }
+
+    /// Decline a daily word. It will not be offered again.
+    public func dismiss(entry: Entry, in batch: DailyBatch, now: Date = Date()) throws {
+        batch.markDismissed(entry.stableID, now: now)
+        try context.save()
+    }
+}
+
+/// Deterministic pseudo-random generator, for reproducible shuffles.
+///
+/// SplitMix64: tiny, no state to persist, well-distributed, and — critically — gives
+/// the same sequence for the same seed on every platform and every launch.
+struct SeededGenerator: RandomNumberGenerator {
+    private var state: UInt64
+
+    init(seed: UInt64) {
+        // A zero seed makes SplitMix64 degenerate, so it is nudged off zero.
+        self.state = seed == 0 ? 0x9E37_79B9_7F4A_7C15 : seed
+    }
+
+    mutating func next() -> UInt64 {
+        state = state &+ 0x9E37_79B9_7F4A_7C15
+        var z = state
+        z = (z ^ (z >> 30)) &* 0xBF58_476D_1CE4_E5B9
+        z = (z ^ (z >> 27)) &* 0x94D0_49BB_1331_11EB
+        return z ^ (z >> 31)
+    }
+}

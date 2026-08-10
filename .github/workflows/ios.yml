@@ -1,0 +1,207 @@
+name: iOS
+
+# The project has never been compiled — it was written in a Linux container with no
+# Swift toolchain. This workflow exists to answer the one question that cannot be
+# answered there: does it build, and do the tests pass?
+#
+# Expect the first run to fail with a list of compile errors. That list is the
+# deliverable; it is far cheaper to read here than to transcribe by hand from Xcode.
+
+on:
+  push:
+    branches: [main, 'claude/**']
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  # A new push supersedes an in-flight run. macOS runners bill at 10x, so leaving
+  # superseded runs going is a real cost, not just noise.
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ── Cheap signal first ───────────────────────────────────────────────────────
+  # Runs on Ubuntu (1x billing) and finishes in seconds. Content errors are the
+  # most likely thing to break on a routine change, and there is no reason to
+  # spend macOS minutes discovering them.
+  content:
+    name: Content packs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate seed packs
+        run: |
+          python3 - <<'PY'
+          import json, glob, os, sys
+
+          failures = []
+          total = 0
+
+          for path in sorted(glob.glob('VocabLoop/Resources/Seeds/*.json')):
+              name = os.path.basename(path)
+              try:
+                  pack = json.load(open(path, encoding='utf-8'))
+              except Exception as exc:
+                  failures.append(f'{name}: not valid JSON — {exc}')
+                  continue
+
+              # SeedImporter looks packs up by file name, so a mismatch means the pack
+              # silently never loads.
+              if pack.get('packName') != name[:-5]:
+                  failures.append(f'{name}: packName {pack.get("packName")!r} does not match the file name')
+
+              if pack.get('languageCode') not in ('en', 'fr', 'th'):
+                  failures.append(f'{name}: unknown languageCode {pack.get("languageCode")!r}')
+
+              seen = set()
+              for entry in pack.get('entries', []):
+                  total += 1
+                  head = entry.get('headword', '').strip()
+                  if not head:
+                      failures.append(f'{name}: an entry has no headword')
+                      continue
+
+                  # Entry.makeStableID folds case and diacritics, so two entries that
+                  # differ only in case would collide on import and one would be lost.
+                  key = (head.lower(), entry.get('homograph', 1))
+                  if key in seen:
+                      failures.append(f'{name}: duplicate headword {head!r}')
+                  seen.add(key)
+
+                  if not entry.get('senses'):
+                      failures.append(f'{name}: {head!r} has no senses')
+                  for sense in entry.get('senses', []):
+                      if not sense.get('definition', '').strip():
+                          failures.append(f'{name}: {head!r} has an empty definition')
+                  if 'cefr' in entry and entry['cefr'] not in ('A1','A2','B1','B2','C1','C2'):
+                      failures.append(f'{name}: {head!r} has an invalid CEFR level {entry["cefr"]!r}')
+
+                  # A cloze marker must be the same sentence as `text`, or revealing the
+                  # answer would show something the learner never read.
+                  for sense in entry.get('senses', []):
+                      for example in sense.get('examples', []):
+                          marker = example.get('cloze')
+                          if marker is None:
+                              continue
+                          if '{{' not in marker or '}}' not in marker:
+                              failures.append(f'{name}: {head!r} cloze marker has no {{{{...}}}} span')
+                          elif marker.replace('{{', '').replace('}}', '') != example.get('text'):
+                              failures.append(f'{name}: {head!r} cloze marker does not match its text')
+
+              print(f'{name:24s} v{pack.get("version")}  {len(pack.get("entries", []))} entries')
+
+          print(f'\n{total} entries across {len(glob.glob("VocabLoop/Resources/Seeds/*.json"))} packs')
+          if failures:
+              print('\nFailures:')
+              for failure in failures:
+                  print('  ' + failure)
+              sys.exit(1)
+          PY
+
+      - name: Validate asset catalog
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          bad = []
+          for path in glob.glob('VocabLoop/Resources/Assets.xcassets/**/Contents.json', recursive=True):
+              try:
+                  json.load(open(path))
+              except Exception as exc:
+                  bad.append(f'{path}: {exc}')
+          for entry in bad:
+              print(entry)
+          sys.exit(1 if bad else 0)
+          PY
+
+  # ── The real question ────────────────────────────────────────────────────────
+  build-test:
+    name: Build and test
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          ls /Applications | grep -i '^Xcode' || true
+          # The project is objectVersion 77 and uses file-system-synchronized groups,
+          # which need Xcode 16 or later. Fall back to whatever the image ships rather
+          # than hard-failing on an exact version.
+          sudo xcode-select -s /Applications/Xcode_16.4.app 2>/dev/null \
+            || sudo xcode-select -s /Applications/Xcode_16.app 2>/dev/null \
+            || echo "Using the image default Xcode"
+          xcodebuild -version
+          swift --version
+
+      # Both printed unconditionally. `-list` is what would have caught the scheme's
+      # broken test action immediately instead of after a build attempt; `simctl` is what
+      # says which destination to use when a future runner image drops iPhone 16.
+      - name: Show scheme and destinations
+        run: |
+          xcodebuild -list -project VocabLoop.xcodeproj
+          xcrun simctl list devices available | grep -A6 '^-- iOS'
+
+      - name: Build and test
+        run: |
+          set -o pipefail
+          # Tee'd to a file rather than relying on xcresulttool: its `get log` subcommand
+          # changed shape in Xcode 16 and returned nothing useful in CI run #6, so the one
+          # step whose whole job is to surface errors was silently empty.
+          xcodebuild test \
+            -project VocabLoop.xcodeproj \
+            -scheme VocabLoop \
+            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -resultBundlePath TestResults.xcresult \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            2>&1 | tee build.log
+        # Signing is disabled because Sign in with Apple is deliberately not wired into
+        # the target (see README) and a simulator build needs no provisioning profile.
+
+      # Runs on success too, which is the point. Most of the remaining warnings come from
+      # inside expanded `#Predicate` macros and from `SortDescriptor(\.keyPath)` on `@Model`
+      # classes — `ReferenceWritableKeyPath` is not `Sendable`, which is an error under the
+      # Swift 6 language mode and is SwiftData's own generated code, so there is nothing to
+      # fix at the call site. What *can* go wrong is the count quietly growing until a Swift 6
+      # migration is a wall instead of a task. Printing it on every green run is how that stays
+      # visible; the split tells actionable warnings apart from framework noise.
+      - name: Warning census
+        if: always()
+        run: |
+          if [ ! -f build.log ]; then echo "no build.log"; exit 0; fi
+          census() { grep -E 'warning: ' build.log | sed 's#^/Users/runner/work/MLE/MLE/##' | sort -u; }
+          total=$(census | wc -l | tr -d ' ')
+          sendable=$(census | grep -c 'does not conform to the .Sendable' || true)
+          echo "### Warnings: $total unique ($sendable of them keypath-Sendable)" >> "$GITHUB_STEP_SUMMARY"
+          echo "::group::actionable warnings ($((total - sendable)))"
+          census | grep -v 'does not conform to the .Sendable' || echo "none"
+          echo "::endgroup::"
+          echo "::group::keypath Sendable, from SwiftData macro expansion ($sendable) — not fixable here"
+          census | grep 'does not conform to the .Sendable' | head -60 || echo "none"
+          echo "::endgroup::"
+
+      - name: Compile errors
+        if: failure()
+        run: |
+          echo "::group::error: lines (deduplicated)"
+          grep -E '(error|warning): ' build.log | sed 's#^/Users/runner/work/MLE/MLE/##' \
+            | sort -u | head -150 || echo "no error: lines — the failure is above, not a compile error"
+          echo "::endgroup::"
+          echo "::group::test failures"
+          grep -E 'XCTAssert|failed -|Test Case .* failed' build.log | sort -u | head -80 || true
+          echo "::endgroup::"
+          echo "::group::last 60 lines"
+          tail -60 build.log
+          echo "::endgroup::"
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: |
+            build.log
+            TestResults.xcresult
+          retention-days: 7
+          if-no-files-found: ignore
