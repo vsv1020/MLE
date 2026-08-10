@@ -87,7 +87,7 @@ deletion.
 | `VocabLoop/DesignSystem` | Colour and type tokens, shared components |
 | `VocabLoop/Features` | One folder per screen: SwiftUI views plus `@Observable` view models |
 | `VocabLoop/Resources/Seeds` | Content packs as JSON — 146 curated entries across five packs |
-| `docs/` | [Screen preview](docs/screens.html) · [Research](docs/RESEARCH.md) · [UI spec](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Adding the widget](docs/WIDGET.md) |
+| `docs/` | [Screen preview](docs/screens.html) · [Research](docs/RESEARCH.md) · [UI spec](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Adding the widget](docs/WIDGET.md) · **[Open decision: CloudKit or REST](docs/DECISION-SYNC.md)** |
 
 Dependencies point **downward only**: `Core/SRS` knows nothing about SwiftData or
 SwiftUI, which is what makes it testable in isolation and replaceable.
@@ -177,10 +177,15 @@ different time of day. Each is fixed with a test.
 
 Stated plainly rather than implied as done:
 
-- **No sync server.** `SyncEngine` and `RemoteAuthBackend` are written and tested
-  against the contract documented in their source, and switch on when
-  `APIConfiguration.baseURL` is set. Until then the outbox accumulates locally so
-  nothing is lost.
+- **No sync server, and the choice of one is still open.** `SyncEngine` and
+  `RemoteAuthBackend` are written and unit-tested against the contract documented in their
+  source, and switch on when `APIConfiguration.baseURL` is set — but neither has ever spoken
+  to a real server. Whether that server should exist at all, or whether this should be
+  CloudKit, is an open decision with real costs on both sides:
+  **[`docs/DECISION-SYNC.md`](docs/DECISION-SYNC.md)**. It has to be settled before there are
+  users, because both paths are a schema migration and one is an afternoon against an empty
+  database. Until then local changes queue up: reviews on `ReviewLog.isSynced`, everything
+  else in the outbox, bounded by how much state exists rather than by how much you study.
 - **No per-user FSRS weight optimiser.** Everything either side of the fit is done —
   `OptimizerService` builds the training set in the format the published optimisers read,
   gates on having enough history, and applies a result. The fit itself needs `fsrs-rs` over
