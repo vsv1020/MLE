@@ -11,17 +11,23 @@ struct HomeView: View {
     @State private var model = HomeViewModel()
     @State private var isStudying = false
     @State private var studyOptions = ReviewQueueBuilder.Options()
+    @State private var isConfirmingStudyAhead = false
+
+    /// Today lives inside the library sheet presented by the root session, so dismissing it is
+    /// how you get back to a card.
+    @Environment(\.dismiss) private var dismiss
 
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: Spacing.lg) {
                     header
-                    reviewCard
+                    statusCard
                     if !visibleDailyEntries.isEmpty {
                         dailyWordsSection
                     }
                     statsRow
+                    studyAheadFooter
                 }
                 .padding(Spacing.md)
                 .readableWidth()
@@ -35,15 +41,11 @@ struct HomeView: View {
                 }
             }
             .refreshable { reload() }
-            .task {
-                reload()
-                consumeIntentRequest()
-            }
-            // "Hey Siri, start reviewing" brings the app forward without saying why, so the
-            // note the intent left is checked again once the scene is actually active — on a
-            // warm launch the task above may already have run.
+            .task { reload() }
+            // Reload when the app comes forward — the badge and the due count go stale while
+            // it is in the background.
             .onChange(of: scenePhase) { _, phase in
-                if phase == .active { consumeIntentRequest() }
+                if phase == .active { reload() }
             }
             .fullScreenCover(isPresented: $isStudying, onDismiss: reload) {
                 StudySessionView(options: studyOptions)
@@ -93,17 +95,25 @@ struct HomeView: View {
         return "\(days) day streak\(suffix)"
     }
 
-    // MARK: - Review CTA
+    // MARK: - Status
 
-    private var reviewCard: some View {
-        Button {
-            startSession(includeAhead: !model.hasWorkToDo)
-        } label: {
-            CardContainer(style: .crayon, wobbleSeed: 0x_60E0_0001) {
+    /// What is waiting, and the way back to it.
+    ///
+    /// This was one big `Button` covering the whole card, because Today was the app's entry
+    /// point and its entire job was to launch a session. The session is the root now, so the
+    /// card reports state and the *button inside it* takes you back. Tapping a status readout
+    /// and being thrown into a review is the kind of surprise a dashboard should not contain.
+    private var statusCard: some View {
+        CardContainer(style: .crayon, wobbleSeed: 0x_60E0_0001) {
+            VStack(alignment: .leading, spacing: Spacing.md) {
                 HStack(spacing: Spacing.md) {
                     ZStack {
-                        ProgressRing(progress: model.goalProgress)
-                            .frame(width: 92, height: 92)
+                        // Only drawn when there is a goal. An empty ring around the due count
+                        // would imply the user is failing at a target they never set.
+                        if let progress = model.goalProgress {
+                            ProgressRing(progress: progress)
+                                .frame(width: 92, height: 92)
+                        }
                         VStack(spacing: 0) {
                             Text("\(model.reviewsDue)")
                                 .font(Typography.statValue)
@@ -112,14 +122,19 @@ struct HomeView: View {
                                 .font(Typography.caption)
                                 .foregroundStyle(Palette.textSecondary)
                         }
+                        .frame(width: 92, height: 92)
                     }
 
                     VStack(alignment: .leading, spacing: Spacing.xxs) {
-                        Text(model.primaryActionTitle)
+                        Text(model.statusTitle)
                             .font(Typography.sectionHeader)
                             .foregroundStyle(Palette.textPrimary)
                         if let goal = model.goalTarget {
                             Text("\(model.statistics.reviewsToday) of \(goal) reviews today")
+                                .font(Typography.caption)
+                                .foregroundStyle(Palette.textSecondary)
+                        } else {
+                            Text("\(model.statistics.reviewsToday) reviewed today")
                                 .font(Typography.caption)
                                 .foregroundStyle(Palette.textSecondary)
                         }
@@ -133,20 +148,58 @@ struct HomeView: View {
                                 .padding(.top, 2)
                         }
                     }
-                    Spacer()
-                    Image(systemName: "chevron.right")
-                        .foregroundStyle(Palette.textTertiary)
+                    Spacer(minLength: 0)
+                }
+                .accessibilityElement(children: .combine)
+
+                // Dismisses rather than presenting. The session behind this sheet never ended —
+                // it is still holding a card — so "back" is literally what happens, and
+                // `StudySessionView` rebuilds its queue on dismiss to pick up anything changed
+                // in here. Presenting a second session on top would stack a session over a
+                // sheet over a session.
+                PrimaryButton("Back to studying", systemImage: "arrow.uturn.backward") {
+                    dismiss()
                 }
             }
         }
-        // Gentler than the default: this is a full-width card, and the same 3% on something this
-        // wide moves the edges far enough to read as a jolt rather than a press.
-        .pressable(scale: 0.99)
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel(
-            "\(model.primaryActionTitle). \(model.statistics.reviewsToday) reviews done today."
-        )
-        .accessibilityAddTraits(.isButton)
+    }
+
+    /// Study-ahead, offered only when there is genuinely nothing else, and never silently.
+    ///
+    /// This used to be the *default*: `startSession(includeAhead: !model.hasWorkToDo)` meant
+    /// that the moment you were caught up, tapping the card reviewed cards that were not due
+    /// yet. That made the most damaging action in the app its own fallback.
+    ///
+    /// It is damaging because FSRS derives intervals from reviews that happen near the due
+    /// date. Answering a card twelve days early and reporting "I remembered it" tells the model
+    /// you retained it for twelve days when you retained it for minutes; stability is
+    /// over-estimated and the schedule eventually collapses.
+    ///
+    /// It stays available because the need is real — a flight tomorrow, no signal — but it is
+    /// now an explicit choice with the cost written next to it.
+    @ViewBuilder
+    private var studyAheadFooter: some View {
+        if !model.hasWorkToDo {
+            VStack(alignment: .leading, spacing: Spacing.xs) {
+                Text("Nothing is due and there are no new words left to start.")
+                    .font(Typography.caption)
+                    .foregroundStyle(Palette.textSecondary)
+                Button("Study ahead anyway") { isConfirmingStudyAhead = true }
+                    .font(Typography.caption)
+                    .foregroundStyle(Palette.brandPrimary)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .confirmationDialog(
+                "Study cards before they are due?",
+                isPresented: $isConfirmingStudyAhead,
+                titleVisibility: .visible
+            ) {
+                Button("Study ahead") { startStudyAhead() }
+                Button("Cancel", role: .cancel) {}
+            } message: {
+                Text("Answering a card early tells the scheduler you remembered it for longer than you did, so its intervals get less accurate. Useful before a trip; not something to do every day.")
+            }
+        }
     }
 
     // MARK: - Daily words
@@ -230,25 +283,15 @@ struct HomeView: View {
         }
     }
 
-    /// Act on a one-shot instruction left by an App Intent, if there is one.
-    ///
-    /// Taken rather than read, so a session starts exactly once per invocation. Guarded on
-    /// `isStudying` so arriving while already mid-session does nothing rather than restarting.
-    private func consumeIntentRequest() {
-        guard !isStudying, let action = IntentLaunchRequest.shared.take() else { return }
-        switch action {
-        case .startReview:
-            startSession(includeAhead: !model.hasWorkToDo)
-        }
-    }
-
-    private func startSession(includeAhead: Bool) {
+    /// The one path that still presents its own session, because it is genuinely a different
+    /// one: `includeAhead` pulls cards the root session deliberately refuses to show.
+    private func startStudyAhead() {
         guard let preferences = dependencies.preferences else { return }
         studyOptions = ReviewQueueBuilder.Options(
             maxCards: preferences.maxReviewsPerSession,
             maxNewCards: preferences.newWordsPerDay,
             languageCode: preferences.activeLanguageCode,
-            includeAhead: includeAhead
+            includeAhead: true
         )
         isStudying = true
     }

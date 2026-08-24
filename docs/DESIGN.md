@@ -229,11 +229,18 @@ Study is still not a tab. A visible tab bar during review is an invitation to ab
 the session, which is exactly why the tabs live one layer behind the card rather than
 alongside it.
 
-**Known rough edge:** Today still presents a session as a full-screen cover, so
-starting one from inside the library stacks a session over a sheet over the root
-session. It works and nothing is lost — answers go to the store, not to a queue — but
-it takes two dismissals to get back. Today's role needs rethinking now that it is no
-longer the entry point.
+**Today is a dashboard, not a launcher.** It used to be the entry point and its whole
+job was to get you into a session; the session is the root now, so it reports where
+you stand and its button — "Back to studying" — dismisses the library rather than
+presenting a second session on top of the first.
+
+One path still presents its own session, because it genuinely is a different one:
+**study ahead**. That used to be the *fallback* — `includeAhead: !hasWorkToDo` meant
+that the moment you were caught up, tapping the card started reviewing cards that were
+not due yet, making the most damaging action in the app its own default. It is now an
+explicit choice, shown only when nothing is due and no new words remain, behind a
+confirmation that states the cost: answering early tells the scheduler you retained a
+card for longer than you did, so its intervals get less accurate.
 
 ---
 

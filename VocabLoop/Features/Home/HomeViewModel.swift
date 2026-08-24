@@ -80,25 +80,36 @@ final class HomeViewModel {
     var reviewsDue: Int { statistics.dueNow }
     var newAvailable: Int { statistics.newAvailable }
 
-    /// Fill for the daily-goal ring.
-    var goalProgress: Double {
-        // The ring is capped at 1 but the count keeps rising — going round twice would read
-        // as a rendering bug.
-        guard let goal = goalTarget, goal > 0 else { return 0 }
+    /// Fill for the ring, or `nil` when there is nothing to fill toward.
+    ///
+    /// Optional now that the daily goal is optional. Returning 0 would draw an empty ring around
+    /// the due count and imply the user was failing at a target they never set.
+    var goalProgress: Double? {
+        // Capped at 1 but the count keeps rising — going round twice would read as a bug.
+        guard let goal = goalTarget, goal > 0 else { return nil }
         return min(Double(statistics.reviewsToday) / Double(goal), 1)
     }
 
     var goalTarget: Int?
 
-    /// The primary call to action, phrased for the actual situation.
-    var primaryActionTitle: String {
+    /// What is waiting, phrased for the actual situation.
+    ///
+    /// A description now, not a call to action. This screen used to be the app's entry point and
+    /// its job was to get you into a session; the session is the root now, so Today's job is to
+    /// tell you where you stand. The verb moved to the button, which returns you to the card
+    /// you were already on.
+    ///
+    /// "Study ahead" is deliberately *not* one of these any more. It used to be the fallback
+    /// whenever nothing was due, which made the most damaging action in the app its own default
+    /// — see `HomeView.studyAheadFooter`.
+    var statusTitle: String {
         if reviewsDue > 0 {
-            return "Review \(reviewsDue) card\(reviewsDue == 1 ? "" : "s")"
+            return "\(reviewsDue) card\(reviewsDue == 1 ? "" : "s") due"
         }
         if newAvailable > 0 {
-            return "Learn \(newAvailable) new card\(newAvailable == 1 ? "" : "s")"
+            return "\(newAvailable) new word\(newAvailable == 1 ? "" : "s") ready"
         }
-        return "Study ahead"
+        return "Nothing due"
     }
 
     var hasWorkToDo: Bool { reviewsDue > 0 || newAvailable > 0 }

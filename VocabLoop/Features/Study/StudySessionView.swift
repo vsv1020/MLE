@@ -22,6 +22,7 @@ struct StudySessionView: View {
     @Environment(\.appDependencies) private var dependencies
     @Environment(\.dismiss) private var dismiss
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.scenePhase) private var scenePhase
 
     @State private var model = StudyViewModel()
     @State private var isConfirmingExit = false
@@ -70,6 +71,17 @@ struct StudySessionView: View {
         }
         .screenBackground()
         .task { model.start(dependencies: dependencies, options: options) }
+        // "Hey Siri, start reviewing" used to be consumed by Today, which was the app's entry
+        // point. It no longer is — at launch this screen is what exists — so the note would have
+        // sat unread and the intent would have done nothing at all.
+        //
+        // Only the root session takes it. A deck-scoped session presented over the root must not
+        // swallow an instruction meant for the app as a whole.
+        .task { consumeIntentRequest() }
+        .onChange(of: scenePhase) { _, phase in
+            // A warm launch may have run the task above before the intent wrote its note.
+            if phase == .active { consumeIntentRequest() }
+        }
         .sheet(isPresented: $isShowingLibrary, onDismiss: {
             // Words may have been added, enrolled or suspended in there, so the queue is
             // rebuilt rather than resumed. Reviews already graded are in the store, not in
@@ -91,6 +103,23 @@ struct StudySessionView: View {
             Button("OK") { model.errorMessage = nil }
         } message: {
             Text(model.errorMessage ?? "")
+        }
+    }
+
+    /// Act on a one-shot instruction left by an App Intent.
+    ///
+    /// "Start reviewing" no longer has to *start* anything: the root of the app is already a
+    /// session holding a card. So the whole job is to make that card visible — close the library
+    /// if it is covering it, and re-run `start` if the session had finished.
+    private func consumeIntentRequest() {
+        guard presentation == .root else { return }
+        guard let action = IntentLaunchRequest.shared.take() else { return }
+        switch action {
+        case .startReview:
+            isShowingLibrary = false
+            if model.phase == .finished {
+                model.start(dependencies: dependencies, options: options)
+            }
         }
     }
 
