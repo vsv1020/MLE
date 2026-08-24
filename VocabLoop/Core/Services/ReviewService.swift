@@ -230,7 +230,10 @@ public final class ReviewService {
         if rating.isSuccess { day.correctCount += 1 }
         if wasIntroduction { day.newCardsIntroduced += 1 }
         day.studySeconds += Self.cappedSeconds(durationMS)
-        if !day.goalMet, day.reviewsCompleted >= preferences.dailyGoal {
+        // No goal means no goal to meet. Without the `if let`, a `dailyGoal` of 0 would latch
+        // `goalMet` on the very first review of every day and the app would congratulate people
+        // for a target they explicitly declined to set.
+        if !day.goalMet, let target = preferences.dailyGoalTarget, day.reviewsCompleted >= target {
             day.goalMet = true
         }
     }

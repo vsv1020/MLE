@@ -17,10 +17,13 @@ struct OnboardingView: View {
 
     @State private var language: LearningLanguage = .english
     @State private var level: CEFRLevel = .a1
-    @State private var dailyGoal = 30
     @State private var newWordsPerDay = 8
 
-    private let stepCount = 4
+    /// Three, not four. The step this replaced asked the user to commit to a number of reviews
+    /// per day *before they had seen a single card* — a decision nobody can make well at that
+    /// point, and one the app then held them to. The goal now starts unset and lives in
+    /// Settings, where it can be chosen by someone who knows what a review feels like.
+    private let stepCount = 3
 
     var body: some View {
         VStack(spacing: Spacing.lg) {
@@ -29,8 +32,7 @@ struct OnboardingView: View {
             TabView(selection: $step) {
                 languageStep.tag(0)
                 levelStep.tag(1)
-                goalStep.tag(2)
-                summaryStep.tag(3)
+                summaryStep.tag(2)
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
             .animation(Motion.phase(reduceMotion), value: step)
@@ -96,60 +98,6 @@ struct OnboardingView: View {
         }
     }
 
-    private var goalStep: some View {
-        OnboardingStep(
-            title: "How much per day?",
-            subtitle: "Be honest rather than ambitious. A target you keep beats one you abandon."
-        ) {
-            VStack(alignment: .leading, spacing: Spacing.lg) {
-                VStack(alignment: .leading, spacing: Spacing.xs) {
-                    HStack {
-                        Text("Reviews per day")
-                            .font(Typography.bodyEmphasis)
-                        Spacer()
-                        Text("\(dailyGoal)")
-                            .font(Typography.statValueSmall)
-                            .foregroundStyle(Palette.brandPrimary)
-                    }
-                    Slider(
-                        value: Binding(
-                            get: { Double(dailyGoal) },
-                            set: { dailyGoal = Int($0) }
-                        ),
-                        in: 10...200,
-                        step: 5
-                    )
-                    .accessibilityValue("\(dailyGoal) reviews per day")
-                }
-
-                VStack(alignment: .leading, spacing: Spacing.xs) {
-                    HStack {
-                        Text("New words per day")
-                            .font(Typography.bodyEmphasis)
-                        Spacer()
-                        Text("\(newWordsPerDay)")
-                            .font(Typography.statValueSmall)
-                            .foregroundStyle(Palette.brandSecondary)
-                    }
-                    Slider(
-                        value: Binding(
-                            get: { Double(newWordsPerDay) },
-                            set: { newWordsPerDay = Int($0) }
-                        ),
-                        in: 1...40,
-                        step: 1
-                    )
-                    .accessibilityValue("\(newWordsPerDay) new words per day")
-                    // The consequence of this dial is not obvious, and this is the number
-                    // people most often set far too high.
-                    Text("Every new word becomes about \(estimatedReviewsPerNewWord) reviews over the next month.")
-                        .font(Typography.caption)
-                        .foregroundStyle(Palette.textSecondary)
-                }
-            }
-        }
-    }
-
     private var summaryStep: some View {
         OnboardingStep(
             title: "Ready",
@@ -158,7 +106,6 @@ struct OnboardingView: View {
             VStack(spacing: Spacing.sm) {
                 SummaryRow(label: "Learning", value: "\(language.flagEmoji) \(language.displayName)")
                 SummaryRow(label: "Starting level", value: level.rawValue)
-                SummaryRow(label: "Daily reviews", value: "\(dailyGoal)")
                 SummaryRow(label: "New words per day", value: "\(newWordsPerDay)")
                 SummaryRow(label: "Memory algorithm", value: SchedulerKind.fsrs5.displayName)
                 SummaryRow(label: "Works offline", value: "Always")
@@ -203,7 +150,6 @@ struct OnboardingView: View {
             // A2 words they have not met, and being shown only C1 words at B1 is
             // demoralising.
             preferences.cefrCeiling = Self.ceiling(for: level)
-            preferences.dailyGoal = dailyGoal
             preferences.newWordsPerDay = newWordsPerDay
             dependencies.savePreferences()
         }

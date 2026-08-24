@@ -64,6 +64,15 @@ struct StudySessionView: View {
         }
     }
 
+    /// Spoken instead of the raw glyphs, which VoiceOver would read as "12 slash 30".
+    private var countLabel: String {
+        let stage = model.hasMovedPastDue ? ", now on new words" : ""
+        if let goal = model.goalTarget {
+            return "\(model.reviewedCount) reviewed this session, daily goal \(goal)\(stage)"
+        }
+        return "\(model.reviewedCount) reviewed this session\(stage)"
+    }
+
     /// Slide when motion is allowed, cross-fade when it is not. Never a 3D flip — it obscures
     /// the text mid-rotation, which is the one thing the user is trying to read.
     private var cardTransition: AnyTransition {
@@ -103,31 +112,44 @@ struct StudySessionView: View {
                 // phase back to `.reviewing`. This screen is the one place a mis-tapped final
                 // grade can be taken back before it reaches FSRS.
                 if model.phase != .finished {
-                    GeometryReader { proxy in
-                        ZStack(alignment: .leading) {
-                            Capsule().fill(Palette.surfaceRaised)
-                            Capsule()
-                                .fill(Palette.brandPrimary)
-                                .frame(width: proxy.size.width * model.progress)
-                                .animation(Motion.value(reduceMotion), value: model.progress)
+                    // The bar exists only when there is a goal to fill.
+                    //
+                    // With an endless queue there is no denominator to invent. The old bar
+                    // measured progress through one batch, and batches now refill silently —
+                    // so it would have filled up and reset several times a session, which is
+                    // worse than showing nothing.
+                    if let goalProgress = model.goalProgress {
+                        GeometryReader { proxy in
+                            ZStack(alignment: .leading) {
+                                Capsule().fill(Palette.surfaceRaised)
+                                Capsule()
+                                    .fill(Palette.brandPrimary)
+                                    .frame(width: proxy.size.width * goalProgress)
+                                    .animation(Motion.value(reduceMotion), value: goalProgress)
+                            }
+                        }
+                        .frame(height: 5)
+                    } else {
+                        Spacer()
+                    }
+
+                    // A count, never a fraction. Studying as much as you like means the number
+                    // has nothing to be out of — and a counter that ticks upward with no ceiling
+                    // is the honest readout for it.
+                    HStack(spacing: 2) {
+                        CountingNumber(model.reviewedCount)
+                        if let goal = model.goalTarget {
+                            Text("/ \(goal)")
                         }
                     }
-                    .frame(height: 5)
-
-                    // The numerator counts; the fraction does not.
-                    //
-                    // `plannedCount` increments only on the `returnsThisSession` path — i.e. only
-                    // when the user pressed Again. Animating the denominator would install an
-                    // odometer that rolls *up*, and a progress bar that visibly *shrinks*,
-                    // exclusively when someone grades themselves down. That is a punishment
-                    // animation on the rating surface, which is the same thing `Haptics.error()`
-                    // is refused for on Again.
-                    HStack(spacing: 0) {
-                        CountingNumber(model.reviewedCount)
-                        Text("/\(model.plannedCount)")
-                    }
                     .font(Typography.buttonInterval)
-                    .foregroundStyle(Palette.textSecondary)
+                    // Quietly recoloured once the due pile is done and the session has moved on
+                    // to words you have never seen. Colour alone would be a poor signal, which
+                    // is why the accessibility label says it in words too.
+                    .foregroundStyle(model.hasMovedPastDue ? Palette.brandSecondary : Palette.textSecondary)
+                    .animation(Motion.value(reduceMotion), value: model.hasMovedPastDue)
+                    .accessibilityElement(children: .ignore)
+                    .accessibilityLabel(countLabel)
                 } else {
                     Spacer()
                 }

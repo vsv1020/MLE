@@ -367,7 +367,7 @@ struct EntryDetailView: View {
                     ForEach(Array(logs)) { log in
                         HStack(spacing: Spacing.xs) {
                             // The dot is 8pt and the fill is a 400 weight, so on a light surface it
-                            // is 1.52:1 at worst — invisible. The edge is what makes it a dot.
+                            // is 1.46:1 at worst — invisible. The edge is what makes it a dot.
                             // Bumped to 9pt so a 1pt stroke does not eat most of the fill.
                             Circle()
                                 .fill(Palette.rating(log.rating))

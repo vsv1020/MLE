@@ -305,16 +305,167 @@ final class RegressionTests: XCTestCase {
         model.grade(.again, dependencies: dependencies, now: referenceDate)
 
         XCTAssertEqual(model.plannedCount, planned + 1, "Again re-queues, so the session is longer")
-        XCTAssertLessThanOrEqual(model.progress, 1.0, "progress must never exceed 1")
         XCTAssertEqual(model.reviewedCount, 1)
+        // No goal set in these preferences, so there is nothing to show progress against. This
+        // is the endless-queue contract: a session without a daily goal has no denominator, and
+        // the bar is absent rather than stuck at zero.
+        XCTAssertNil(model.goalProgress, "no daily goal means no progress bar")
     }
 
-    /// Progress is a ratio shown as a bar, so it must stay in `0...1` no matter how many times
-    /// a card comes back.
-    func testProgressIsAlwaysClamped() throws {
+    /// Progress is a ratio shown as a bar, so it must stay in `0...1` no matter how many
+    /// reviews a day accumulates — and must be absent entirely when no goal is set.
+    func testProgressIsAbsentWithoutAGoalAndClampedWithOne() throws {
         let model = StudyViewModel()
-        XCTAssertEqual(model.progress, 0, "an unstarted session is not complete")
+        XCTAssertNil(model.goalProgress, "an unstarted session has no goal and so no progress")
         XCTAssertNil(model.accuracy, "accuracy is unknown before the first answer, not 0%")
+    }
+
+    /// A daily goal that has been exceeded must not overfill the bar.
+    ///
+    /// Easy to reach now that the queue never ends: a goal of two and an evening of study puts
+    /// `reviewsToday` well past it, and an unclamped ratio would draw the capsule off the edge
+    /// of the screen.
+    func testProgressClampsWhenTheGoalIsExceeded() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+        let preferences = try XCTUnwrap(dependencies.preferences)
+        preferences.dailyGoal = 2
+
+        for index in 0..<6 {
+            let entry = try TestStore.makeEntry(
+                in: context, headword: "over\(index)", frequencyRank: index
+            )
+            try TestStore.makeCard(
+                in: context, for: entry, phase: .new, due: referenceDate, intervalDays: 0
+            )
+        }
+
+        let model = StudyViewModel()
+        model.start(
+            dependencies: dependencies,
+            options: .init(maxNewCards: 6, languageCode: "en"),
+            now: referenceDate
+        )
+        XCTAssertEqual(model.goalTarget, 2, "a goal above zero is a real target")
+
+        for _ in 0..<5 {
+            model.revealAnswer(now: referenceDate)
+            model.grade(.good, dependencies: dependencies, now: referenceDate)
+        }
+
+        let progress = try XCTUnwrap(model.goalProgress)
+        XCTAssertEqual(progress, 1.0, "five reviews against a goal of two is still a full bar")
+    }
+
+    /// `0` is the sentinel for "no goal", and it must never latch `goalMet`.
+    ///
+    /// Without the guard in `recordActivity`, `reviewsCompleted >= 0` is true on the very first
+    /// review of every day, and the app would congratulate people for a target they declined.
+    func testNoGoalNeverCountsAsMet() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+        let preferences = try XCTUnwrap(dependencies.preferences)
+        XCTAssertEqual(preferences.dailyGoal, 0, "a fresh install starts with no goal")
+        XCTAssertNil(preferences.dailyGoalTarget)
+
+        let entry = try TestStore.makeEntry(in: context, headword: "nogoal", frequencyRank: 1)
+        try TestStore.makeCard(
+            in: context, for: entry, phase: .new, due: referenceDate, intervalDays: 0
+        )
+
+        let model = StudyViewModel()
+        model.start(
+            dependencies: dependencies,
+            options: .init(maxNewCards: 1, languageCode: "en"),
+            now: referenceDate
+        )
+        model.revealAnswer(now: referenceDate)
+        model.grade(.good, dependencies: dependencies, now: referenceDate)
+
+        let day = try XCTUnwrap(
+            try dependencies.review.studyDay(
+                for: referenceDate, preferences: preferences, createIfMissing: false
+            )
+        )
+        XCTAssertEqual(day.reviewsCompleted, 1)
+        XCTAssertFalse(day.goalMet, "no goal set means no goal met")
+    }
+
+    // MARK: - The queue does not end
+
+    /// Finishing a batch must top the queue up, not close the session.
+    ///
+    /// This is the whole "study as much as you like" contract. `maxNewCards: 2` used to be a
+    /// session cap; it is now a batch size, so grading both cards should pull the next two
+    /// rather than reaching `.finished` with four words still unseen.
+    func testExhaustingABatchRefillsInsteadOfFinishing() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+
+        for index in 0..<6 {
+            let entry = try TestStore.makeEntry(
+                in: context, headword: "endless\(index)", frequencyRank: index
+            )
+            try TestStore.makeCard(
+                in: context, for: entry, phase: .new, due: referenceDate, intervalDays: 0
+            )
+        }
+
+        let model = StudyViewModel()
+        model.start(
+            dependencies: dependencies,
+            options: .init(maxNewCards: 2, languageCode: "en"),
+            now: referenceDate
+        )
+        XCTAssertEqual(model.queue.count, 2, "one batch, not the whole library")
+
+        // Grade both cards of the first batch. `.easy` so neither is re-queued as a learning
+        // step, which would refill the queue for the wrong reason.
+        for _ in 0..<2 {
+            model.revealAnswer(now: referenceDate)
+            model.grade(.easy, dependencies: dependencies, now: referenceDate)
+        }
+
+        XCTAssertEqual(model.phase, .reviewing, "a finished batch is not a finished session")
+        XCTAssertFalse(model.queue.isEmpty, "the queue refilled")
+        XCTAssertGreaterThan(model.refillCount, 0)
+        XCTAssertTrue(model.hasMovedPastDue, "a batch of only new cards means the due pile is done")
+    }
+
+    /// The session still ends when the library genuinely runs out.
+    ///
+    /// The counterpart to the test above: refilling must not become an infinite loop that keeps
+    /// a session open with nothing in it.
+    func testSessionFinishesWhenNothingIsLeft() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+
+        let entry = try TestStore.makeEntry(in: context, headword: "onlyone", frequencyRank: 1)
+        try TestStore.makeCard(
+            in: context, for: entry, phase: .new, due: referenceDate, intervalDays: 0
+        )
+
+        let model = StudyViewModel()
+        model.start(
+            dependencies: dependencies,
+            options: .init(maxNewCards: 4, languageCode: "en"),
+            now: referenceDate
+        )
+        XCTAssertEqual(model.queue.count, 1)
+
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+
+        XCTAssertEqual(model.phase, .finished, "one card and nothing else really is the end")
+        XCTAssertTrue(model.queue.isEmpty)
     }
 
     // MARK: - Pausing and resuming a whole word

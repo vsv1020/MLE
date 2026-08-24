@@ -19,8 +19,23 @@ public final class StudyPreferences {
 
     // MARK: Daily targets
 
-    /// Reviews per day the progress ring fills toward.
+    /// Reviews per day the progress ring fills toward. **`0` means no goal is set.**
+    ///
+    /// A sentinel rather than `Int?` on purpose. Making a stored SwiftData property optional is
+    /// a schema change, and a migration that cannot be run here is not a migration anyone should
+    /// ship. `0` is unambiguous — a goal of zero reviews is not a thing a person means — and it
+    /// needs no migration at all: existing installs keep whatever number they already had.
+    ///
+    /// Read it through ``dailyGoalTarget`` rather than comparing to zero at each call site.
     public var dailyGoal: Int
+    /// The daily goal, or `nil` when the user has not set one.
+    ///
+    /// The whole point of the sentinel: every consumer gets an honest optional and none of them
+    /// has to remember what `0` means.
+    public var dailyGoalTarget: Int? {
+        dailyGoal > 0 ? dailyGoal : nil
+    }
+
     /// New words the daily batch may offer.
     public var newWordsPerDay: Int
     /// Cap on one sitting, so a large backlog does not present as an unwinnable wall.
@@ -82,7 +97,9 @@ public final class StudyPreferences {
         self.activeLanguageCode = activeLanguage.rawValue
         self.installedLanguageCodes = [activeLanguage.rawValue]
         self.nativeLanguageCodes = StudyPreferences.systemNativeLanguageCodes()
-        self.dailyGoal = 30
+        // No goal by default. Committing to a number before you have seen a single card is a
+        // decision nobody can make well, and the old onboarding demanded it on step three.
+        self.dailyGoal = 0
         self.newWordsPerDay = 8
         self.maxReviewsPerSession = 60
         self.schedulerRaw = SchedulerKind.fsrs5.rawValue

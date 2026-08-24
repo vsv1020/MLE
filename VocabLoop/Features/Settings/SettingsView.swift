@@ -78,11 +78,14 @@ struct DailyTargetsView: View {
             if let preferences = dependencies.preferences {
                 Section {
                     Stepper(
-                        "Reviews per day: \(preferences.dailyGoal)",
-                        value: binding(\.dailyGoal), in: 5...500, step: 5
+                        preferences.dailyGoalTarget.map { "Reviews per day: \($0)" }
+                            ?? "Daily goal: none",
+                        // Reaches 0 on purpose — that is how a goal is *removed*. The old floor
+                        // of 5 meant the only way out of having a target was never to set one.
+                        value: binding(\.dailyGoal), in: 0...500, step: 5
                     )
                 } footer: {
-                    Text("What the ring on Today fills toward. Changing it does not affect days you have already completed.")
+                    Text("Optional. With a goal, the ring on Today fills toward it; without one, nothing counts down and you simply study for as long as you like. Changing it does not affect days you have already completed.")
                 }
 
                 Section {

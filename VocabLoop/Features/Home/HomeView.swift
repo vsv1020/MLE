@@ -223,7 +223,7 @@ struct HomeView: View {
     // MARK: - Actions
 
     private func reload() {
-        model.goalTarget = dependencies.preferences?.dailyGoal
+        model.goalTarget = dependencies.preferences.flatMap(\.dailyGoalTarget)
         model.load(dependencies: dependencies)
         Task {
             await dependencies.notifications.updateBadge(to: model.statistics.dueNow)

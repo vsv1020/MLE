@@ -18,10 +18,10 @@ struct SessionSummaryView: View {
 
     /// Only a finished session earns the set piece.
     ///
-    /// `phase` becomes `.finished` on three paths that reviewed nothing: the `catch` in
-    /// `StudyViewModel.start`, its `guard let preferences` early return, and `skipCurrent` after a
-    /// bury or suspend. Without this gate, burying your last card fires confetti, and a store
-    /// failure fires confetti behind an error.
+    /// `phase` still becomes `.finished` on paths that reviewed nothing: the `catch` in
+    /// `StudyViewModel.start`, its `guard let preferences` early return, and an empty first
+    /// build. Burying or suspending no longer ends a session — that path refills now — but the
+    /// gate stays, because without it a store failure fires confetti behind an error.
     private var didStudy: Bool { model.reviewedCount > 0 }
 
     var body: some View {
@@ -54,7 +54,7 @@ struct SessionSummaryView: View {
                     .frame(width: 160, height: 160)
                     .clipped()
 
-                    Text(didStudy ? "Session complete" : "Nothing due")
+                    Text(didStudy ? "All caught up" : "Nothing to study")
                         .font(Typography.screenTitle)
                         .foregroundStyle(Palette.textPrimary)
                     Text(subtitle)
@@ -85,14 +85,20 @@ struct SessionSummaryView: View {
         }
     }
 
+    /// Reaching this screen means something much rarer than it used to.
+    ///
+    /// The queue refills itself now, so `.finished` is no longer "this batch is over" — it is
+    /// "there is nothing left in the library at all", which for most people never happens. The
+    /// copy has to say that rather than implying the user should come back tomorrow for more of
+    /// a pile that is already empty.
     private var subtitle: String {
         guard model.reviewedCount > 0 else {
-            return "You are caught up. Come back when the next card is ready, or study ahead from Today."
+            return "Nothing is due and there are no new words waiting. Add some words, or come back when the next card is ready."
         }
         if model.deferredCount > 0 {
             return "\(model.deferredCount) more card\(model.deferredCount == 1 ? "" : "s") are still due today."
         }
-        return "That is everything due for now."
+        return "You have been through everything available — nothing due, and no new words left to start."
     }
 
     private var statsGrid: some View {
@@ -125,10 +131,12 @@ struct SessionSummaryView: View {
             ForEach(Rating.allCases) { rating in
                 let count = model.ratingCounts[rating] ?? 0
                 HStack(spacing: Spacing.sm) {
+                    // Wide enough for "Instant". The old 52 was sized for "Easy", and the
+                    // labels grew when they stopped being scheduler vocabulary.
                     Text(rating.shortLabel)
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
-                        .frame(width: 52, alignment: .leading)
+                        .frame(width: 64, alignment: .leading)
 
                     GeometryReader { proxy in
                         ZStack(alignment: .leading) {
@@ -136,7 +144,7 @@ struct SessionSummaryView: View {
                             Capsule()
                                 .fill(Palette.rating(rating))
                                 // Not optional. These bars are the reason `ratingEdge` exists: a
-                                // 400-weight fill on `surfaceRaised` is 1.52:1 at worst, and a bar
+                                // 400-weight fill on `surfaceRaised` is 1.46:1 at worst, and a bar
                                 // chart is a graphical object WCAG 1.4.11 holds to 3:1. The fill
                                 // alone would have made the data unreadable in light mode.
                                 .overlay(Capsule().strokeBorder(Palette.ratingEdge(rating), lineWidth: 1))
