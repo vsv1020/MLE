@@ -306,7 +306,11 @@ struct RatingBar: View {
                     // drawn shapes rather than one stamp repeated. Derived from `rawValue`, so it
                     // is stable across launches — a border that re-rolls on every appearance
                     // looks like a glitch, not like pencil.
-                    .clipShape(WobbleShape(cornerRadius: Radius.button, amplitude: 1.2, seed: seed(for: rating)))
+                    //
+                    // Amplitude 0.8 against the card's 1.5. The wobble is an absolute distance,
+                    // so the same value is a much larger *proportion* of a 66pt button than of a
+                    // full-width card: at 1.2 these read as melted rather than drawn.
+                    .clipShape(WobbleShape(cornerRadius: Radius.button, amplitude: 0.8, seed: seed(for: rating)))
                     // One stroke doing two jobs.
                     //
                     // It is mandatory, not decorative: a 400-weight fill is only 1.46:1 against
@@ -318,7 +322,7 @@ struct RatingBar: View {
                     // Deliberately *only* visual. Making it easier to physically hit needs the row
                     // to reflow, which is a decision worth feeling on a device first.
                     .overlay(
-                        WobbleShape(cornerRadius: Radius.button, amplitude: 1.2, seed: seed(for: rating))
+                        WobbleShape(cornerRadius: Radius.button, amplitude: 0.8, seed: seed(for: rating))
                             .stroke(
                                 Palette.ratingEdge(rating),
                                 lineWidth: rating == .good ? 3.5 : 2
