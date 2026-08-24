@@ -6,7 +6,18 @@ import SwiftUI
 /// for the moment where the user asks themselves "do I remember this?" — that is the single
 /// decision the screen exists for.
 struct StudySessionView: View {
+    /// Where this session sits in the navigation stack, which decides what its leading button
+    /// does and whether leaving is even a thing.
+    enum Presentation {
+        /// Pushed over something else — a deck, or Today. The X closes it.
+        case sheet
+        /// The root of the app. There is nothing behind it to go back to, so the leading
+        /// control opens the library instead of dismissing.
+        case root
+    }
+
     let options: ReviewQueueBuilder.Options
+    var presentation: Presentation = .sheet
 
     @Environment(\.appDependencies) private var dependencies
     @Environment(\.dismiss) private var dismiss
@@ -14,6 +25,7 @@ struct StudySessionView: View {
 
     @State private var model = StudyViewModel()
     @State private var isConfirmingExit = false
+    @State private var isShowingLibrary = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -43,11 +55,29 @@ struct StudySessionView: View {
                 }
 
             case .finished:
-                SessionSummaryView(model: model) { dismiss() }
+                SessionSummaryView(model: model) {
+                    switch presentation {
+                    case .sheet:
+                        dismiss()
+                    case .root:
+                        // Nothing behind the root to dismiss to. Re-running `start` is the
+                        // honest action: if a card has since come due it appears, and if the
+                        // library is still empty the summary simply comes straight back.
+                        model.start(dependencies: dependencies, options: options)
+                    }
+                }
             }
         }
         .screenBackground()
         .task { model.start(dependencies: dependencies, options: options) }
+        .sheet(isPresented: $isShowingLibrary, onDismiss: {
+            // Words may have been added, enrolled or suspended in there, so the queue is
+            // rebuilt rather than resumed. Reviews already graded are in the store, not in
+            // this queue, so nothing is lost by starting again.
+            model.start(dependencies: dependencies, options: options)
+        }) {
+            MainTabView()
+        }
         .alert("End this session?", isPresented: $isConfirmingExit) {
             Button("Keep studying", role: .cancel) {}
             Button("End session") { dismiss() }
@@ -90,19 +120,27 @@ struct StudySessionView: View {
         VStack(spacing: Spacing.xs) {
             HStack(spacing: Spacing.sm) {
                 Button {
-                    // Only confirm when there is something to lose.
-                    if model.phase == .reviewing && !model.queue.isEmpty {
-                        isConfirmingExit = true
-                    } else {
-                        dismiss()
+                    switch presentation {
+                    case .root:
+                        // No confirmation and no warning about "ending" anything. At the root
+                        // the session never ends — you are opening the library and coming back,
+                        // and every answer is already written to the store.
+                        isShowingLibrary = true
+                    case .sheet:
+                        // Only confirm when there is something to lose.
+                        if model.phase == .reviewing && !model.queue.isEmpty {
+                            isConfirmingExit = true
+                        } else {
+                            dismiss()
+                        }
                     }
                 } label: {
-                    Image(systemName: "xmark")
+                    Image(systemName: presentation == .root ? "books.vertical" : "xmark")
                         .font(.body.weight(.semibold))
                         .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                 }
                 .foregroundStyle(Palette.textSecondary)
-                .accessibilityLabel("Close session")
+                .accessibilityLabel(presentation == .root ? "Open library" : "Close session")
 
                 // Both hidden once the session is over, so the summary is not read through a
                 // 100%-full bar and a redundant count.

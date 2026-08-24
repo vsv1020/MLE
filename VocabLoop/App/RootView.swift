@@ -44,7 +44,15 @@ struct RootView: View {
                     }
                 )
             case .main:
-                MainTabView()
+                // The card *is* the app.
+                //
+                // This used to be `MainTabView`, so opening the app landed you on a dashboard
+                // with a button that started studying. Counting from the icon, a first launch
+                // put seven screens between the user and their first word, four of which were
+                // questions. Now there are none: the session builds itself and everything else
+                // — browse, decks, progress, settings — sits behind the library button in its
+                // top bar.
+                StudySessionView(options: rootOptions, presentation: .root)
             }
         }
         .animation(Motion.phase(reduceMotion), value: phase)
@@ -52,6 +60,16 @@ struct RootView: View {
             await dependencies.bootstrap()
             advance()
         }
+    }
+
+    /// Session options for the root session.
+    ///
+    /// Deliberately the plain defaults rather than anything read from preferences: the root
+    /// session studies everything, in every enrolled language, and the caps are batch sizes the
+    /// queue tops up from. Narrowing by deck or language is what starting a session *from* a
+    /// deck is for.
+    private var rootOptions: ReviewQueueBuilder.Options {
+        ReviewQueueBuilder.Options()
     }
 
     private func advance() {

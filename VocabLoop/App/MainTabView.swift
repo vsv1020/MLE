@@ -1,10 +1,14 @@
 import SwiftUI
 
-/// The five top-level destinations.
+/// The library: everything that is not a card.
 ///
-/// Study is deliberately **not** among them. A review session is presented as a
-/// full-screen cover from Today or from a deck, because a visible tab bar during review is
-/// an invitation to abandon the session.
+/// No longer the app's root — ``StudySessionView`` is, and this is presented from its top bar.
+/// The rename is only in the documentation because the type is still a `TabView` and still owns
+/// the same five destinations; what changed is that it sits one layer *behind* studying rather
+/// than in front of it.
+///
+/// Study is deliberately not among the tabs. A visible tab bar during review is an invitation to
+/// abandon the session, which is the same reason the tabs are a layer down.
 struct MainTabView: View {
     @Environment(\.appDependencies) private var dependencies
     @State private var selection: Tab = .today

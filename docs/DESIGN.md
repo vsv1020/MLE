@@ -202,19 +202,38 @@ Minimum tap target 44×44pt, enforced by `PrimaryButton` and the rating bar.
 
 ```
 RootView
-├─ Onboarding            (first launch only: language → daily goal → level → reminder)
+├─ Onboarding            (first launch only: language → level → summary)
 ├─ AuthLanding           (skippable — "Continue without an account" is equal weight)
-└─ MainTabView
-   ├─ Today       (Home)      due count · daily words · streak · start review
-   ├─ Browse      (Dictionary) search · CEFR/POS/status filters · entry detail
-   ├─ Decks                   built-in packs · custom decks · per-deck progress
-   ├─ Progress    (Stats)     retention · forecast · heatmap · review counts
-   └─ Settings                account · study · languages · notifications · data
+└─ StudySessionView      ← the root. Opening the app lands on a card.
+   └─ MainTabView        (the library, opened from the card's top bar)
+      ├─ Today       (Home)      due count · daily words · streak
+      ├─ Browse      (Dictionary) search · CEFR/POS/status filters · entry detail
+      ├─ Decks                   built-in packs · custom decks · per-deck progress
+      ├─ Progress    (Stats)     retention · forecast · heatmap · review counts
+      └─ Settings                account · study · languages · notifications · data
 ```
 
-Study is deliberately **not** a tab. It is a full-screen modal cover launched from
-Today or from a deck, because a review session must own the screen — a visible tab
-bar during review is an invitation to abandon the session.
+**The card is the root.** This used to be `MainTabView`, so opening the app landed on
+a dashboard with a button that started studying. Counting from the icon, a first
+launch put seven screens between the user and their first word, four of which were
+questions — including a demand to commit to a daily goal before seeing a single card.
+There are none now. The session builds itself and everything else sits behind the
+library button.
+
+At the root the session has no close button, because there is nothing to close: the
+queue refills rather than ending, and every answer is written to the store as it is
+given. The leading control opens the library and returns you to a card. Leaving the
+app *is* stopping — there is no "end session" step to perform.
+
+Study is still not a tab. A visible tab bar during review is an invitation to abandon
+the session, which is exactly why the tabs live one layer behind the card rather than
+alongside it.
+
+**Known rough edge:** Today still presents a session as a full-screen cover, so
+starting one from inside the library stacks a session over a sheet over the root
+session. It works and nothing is lost — answers go to the store, not to a queue — but
+it takes two dismissals to get back. Today's role needs rethinking now that it is no
+longer the entry point.
 
 ---
 
