@@ -15,36 +15,46 @@ import UIKit
 public enum Palette {
     // MARK: Brand
 
-    /// Primary actions, active tab, progress ring.
-    public static let brandPrimary = Color(light: 0x4F46E5, dark: 0x818CF8)
+    /// Primary actions, active tab, progress ring. Crayon blue / chalk blue.
+    public static let brandPrimary = Color(light: 0x2A62A8, dark: 0x8FBEF0)
     /// Accents and the streak flame.
     ///
-    /// The light value is teal-700 rather than the teal-600 the palette started from:
-    /// this colour is used for *text* in CEFR chips and the streak counter, and teal-600
-    /// only reaches 3.7:1 on a white surface.
-    public static let brandSecondary = Color(light: 0x0F766E, dark: 0x2DD4BF)
+    /// Used as *text* in CEFR chips and the streak counter, so the light value is burnt sienna
+    /// rather than the brighter orange a crayon box actually contains — 5.36:1 on paper.
+    public static let brandSecondary = Color(light: 0xA9501C, dark: 0xF0A868)
     /// Tint for text and icons placed *on* `brandPrimary`.
-    public static let onBrand = Color(light: 0xFFFFFF, dark: 0x0B1120)
+    public static let onBrand = Color(light: 0xFFFDF6, dark: 0x1B211D)
 
     // MARK: Surfaces
 
-    public static let canvas = Color(light: 0xF8FAFC, dark: 0x0B1120)
-    public static let surface = Color(light: 0xFFFFFF, dark: 0x151C2E)
-    public static let surfaceRaised = Color(light: 0xF1F5F9, dark: 0x1E293B)
-    public static let separator = Color(light: 0xE2E8F0, dark: 0x25324A)
+    /// Paper in light, blackboard in dark.
+    ///
+    /// The three tones are deliberately close together — closer than the scale they
+    /// replaced. Paper does not come in three obviously different shades, and the previous gap
+    /// between `surface` and `surfaceRaised` was wide enough that ``textTertiary`` could not
+    /// clear 4.5:1 on the darker one without collapsing into ``textSecondary``. Tightening the
+    /// surfaces is what buys the third text tone its own identity.
+    public static let canvas = Color(light: 0xF7EFDC, dark: 0x1B211D)
+    public static let surface = Color(light: 0xFFFDF6, dark: 0x262D28)
+    public static let surfaceRaised = Color(light: 0xFCF6E9, dark: 0x2F3831)
+
+    /// Not a hairline any more — in this design system the separator *is* the drawn outline,
+    /// so it is full-strength ink rather than a tint of the background.
+    public static let separator = Color(light: 0x33291F, dark: 0xC9C4B2)
 
     // MARK: Text
 
-    public static let textPrimary = Color(light: 0x0F172A, dark: 0xF8FAFC)
-    public static let textSecondary = Color(light: 0x475569, dark: 0x94A3B8)
+    /// Crayon black is never actually black — it is a very dark warm brown, which is what
+    /// keeps the page from reading as a printed document.
+    public static let textPrimary = Color(light: 0x33291F, dark: 0xF4F0E2)
+    public static let textSecondary = Color(light: 0x6B5C46, dark: 0xC2BCA8)
     /// Timestamps, hints, field captions.
     ///
-    /// Darker than the slate-400/500 pair this started as. Tertiary text still *carries
-    /// information* — a due date, an interval, a usage hint — so WCAG's exception for
-    /// incidental text does not apply to it, and slate-400 on white is only 2.6:1. These
-    /// values clear 4.5:1 on all three surfaces while staying visibly lighter than
-    /// ``textSecondary``.
-    public static let textTertiary = Color(light: 0x5F6B7F, dark: 0x8290A8)
+    /// Tertiary text still *carries information* — a due date, an interval, a usage hint — so
+    /// WCAG's exception for incidental text does not apply to it. Clears 4.60:1 at worst (on
+    /// `canvas`, the darkest paper tone) while staying visibly lighter than ``textSecondary``:
+    /// 5.17:1 against 6.36:1 on `surface`.
+    public static let textTertiary = Color(light: 0x786A54, dark: 0xA8A18C)
 
     // MARK: Ratings
 
@@ -63,7 +73,7 @@ public enum Palette {
     /// dullest in the app — and dulled by the accessibility requirement, which is the worst way
     /// to lose a palette argument.
     ///
-    /// Inverting the pairing wins both at once. Dark ink on a 400-weight fill reads at **6.63:1
+    /// Inverting the pairing wins both at once. Dark ink on a 400-weight fill reads at **5.28:1
     /// at worst** against the previous scheme's 4.83:1, and the fills go from muted to poster
     /// bright. Brighter *and* more legible; the old scheme had it backwards.
     ///
@@ -82,15 +92,15 @@ public enum Palette {
     /// Outline for a ``rating(_:)`` fill. Always drawn, never optional.
     ///
     /// This is what makes the bright fills legal, and it is not decoration. A 400-weight fill on
-    /// a white surface is only 1.52:1 at worst — the amber bar on `surfaceRaised` — and the
+    /// paper is only 1.46:1 at worst — the amber bar on `surface` — and the
     /// rating colours are not just button backgrounds: they are the bars on the session summary
     /// and the history dots in entry detail, which are graphical objects WCAG 1.4.11 holds to
     /// 3:1. Without an edge, brightening the fills would have made the *data* invisible while
     /// making the buttons prettier.
     ///
-    /// A darker shade of the same hue clears 6.47:1 against every light surface and 2.98–4.25:1
+    /// A darker shade of the same hue clears 6.19:1 against every paper tone and 3.43–4.25:1
     /// against its own fill, so the shape has a boundary from both sides. In dark mode the edge
-    /// is redundant — the fill itself is already 5.44:1 against the darkest surface — but it is
+    /// is redundant — the fill is already 4.51:1 against the nearest blackboard tone — but it is
     /// kept there anyway, because a hard outline is the whole cel-shaded idea and dropping it in
     /// one appearance would make the two look like different apps.
     public static func ratingEdge(_ rating: Rating) -> Color {
@@ -108,32 +118,32 @@ public enum Palette {
     ///
     /// Dark in both appearances now, because the fills are bright in both. Previously this was
     /// white in light mode and near-black in dark mode — a split that existed only because the
-    /// light fills were dark. Every pairing it produces is at or above 4.5:1: the worst is
-    /// 6.63:1 (Again) and the best 11.28:1 (dark Hard).
+    /// light fills were dark. Warm ink now, so it belongs to the paper. Every pairing it
+    /// produces is at or above 4.5:1: the worst 5.28:1 (light Again), the best 9.81:1 (dark Hard).
     ///
     /// One foreground per scheme rather than per rating, so the four buttons stay consistent
     /// with each other.
-    public static let onRating = Color(light: 0x0F172A, dark: 0x0B1120)
+    public static let onRating = Color(light: 0x33291F, dark: 0x1B211D)
 
     // MARK: Card maturity
 
-    /// Dots are non-text UI, so WCAG 1.4.11's 3:1 applies rather than 4.5:1. The light
-    /// `new` value is slate-400 darkened to `#7C8798`; slate-400 itself is only 2.6:1 on
-    /// white, so the "not started" dot was the one state you could not see.
+    /// Dots are non-text UI, so WCAG 1.4.11's 3:1 applies rather than 4.5:1 — but these sit well
+    /// above it anyway (5.08:1 at worst, the light `new` dot), because a dot is small and that
+    /// threshold assumes a shape whose edges you can already make out.
     public static func maturity(_ maturity: CardMaturity) -> Color {
         switch maturity {
-        case .new: Color(light: 0x7C8798, dark: 0x64748B)
-        case .learning: Color(light: 0xD97706, dark: 0xFBBF24)
-        case .young: Color(light: 0x0D9488, dark: 0x2DD4BF)
-        case .mature: Color(light: 0x4F46E5, dark: 0x818CF8)
+        case .new: Color(light: 0x7A6B55, dark: 0x8A8474)
+        case .learning: Color(light: 0xB2681B, dark: 0xF2C46B)
+        case .young: Color(light: 0x2F7A6B, dark: 0x7FD4C4)
+        case .mature: Color(light: 0x2A62A8, dark: 0x8FBEF0)
         }
     }
 
     // MARK: Status
 
-    public static let success = Color(light: 0x059669, dark: 0x34D399)
-    public static let warning = Color(light: 0xD97706, dark: 0xFBBF24)
-    public static let danger = Color(light: 0xDC2626, dark: 0xF87171)
+    public static let success = Color(light: 0x2F7A46, dark: 0x86D9A0)
+    public static let warning = Color(light: 0x9A5B10, dark: 0xF2C46B)
+    public static let danger = Color(light: 0xA83228, dark: 0xF2938A)
 
     /// Heatmap fill for a day, scaled against the busiest day in the window.
     ///

@@ -24,19 +24,40 @@ is the intent behind it; when the two disagree, the code is wrong.
 ## Colour
 
 Semantic tokens only — views never name a raw colour. Defined in
-`DesignSystem/Colors.swift`, each token has a light and dark value.
+`DesignSystem/Palette.swift`, each token has a light and dark value.
 
-| Token | Light | Dark | Use |
+**Light is crayon on paper. Dark is chalk on a blackboard.** Dark mode is not the
+light palette dimmed: paper is a light material, and forcing it dark just produces
+dirty paper. A blackboard is the natural dark counterpart — the same hand-drawn
+language with the material inverted, ink becoming chalk.
+
+| Token | Light (paper) | Dark (board) | Use |
 | --- | --- | --- | --- |
-| `brandPrimary` | `#4F46E5` indigo 600 | `#818CF8` indigo 400 | Primary actions, active tab |
-| `brandSecondary` | `#0F766E` teal 700 | `#2DD4BF` teal 400 | Accents, streak flame |
-| `canvas` | `#F8FAFC` | `#0B1120` | Screen background |
-| `surface` | `#FFFFFF` | `#151C2E` | Cards, sheets |
-| `surfaceRaised` | `#F1F5F9` | `#1E293B` | Nested/secondary cards |
-| `textPrimary` | `#0F172A` | `#F8FAFC` | Headlines, word forms |
-| `textSecondary` | `#475569` | `#94A3B8` | Definitions, metadata |
-| `textTertiary` | `#5F6B7F` | `#8290A8` | Timestamps, hints |
-| `separator` | `#E2E8F0` | `#25324A` | Hairlines |
+| `brandPrimary` | `#2A62A8` crayon blue | `#8FBEF0` chalk blue | Primary actions, active tab |
+| `brandSecondary` | `#A9501C` burnt sienna | `#F0A868` chalk apricot | Accents, streak flame |
+| `canvas` | `#F7EFDC` | `#1B211D` | Screen background |
+| `surface` | `#FFFDF6` | `#262D28` | Cards, sheets |
+| `surfaceRaised` | `#FCF6E9` | `#2F3831` | Nested/secondary cards |
+| `textPrimary` | `#33291F` | `#F4F0E2` | Headlines, word forms |
+| `textSecondary` | `#6B5C46` | `#C2BCA8` | Definitions, metadata |
+| `textTertiary` | `#786A54` | `#A8A18C` | Timestamps, hints |
+| `separator` | `#33291F` | `#C9C4B2` | **Drawn outlines**, not hairlines |
+
+Two things about this table are deliberate and easy to get wrong when editing it.
+
+The three surfaces are **close together** — much closer than the slate scale they
+replaced. Paper does not come in three obviously different shades. The old gap
+between `surface` and `surfaceRaised` was wide enough that `textTertiary` could not
+clear 4.5:1 on the darker one without collapsing into `textSecondary`; tightening the
+surfaces is what buys the third text tone its own identity (5.17:1 against 6.36:1).
+
+`separator` is **full-strength ink**, not a tint of the background. In this system the
+separator *is* the drawn outline, so it is the darkest token in the light palette and
+the lightest in the dark one. Anything that used it expecting a faint hairline needs
+an explicit opacity.
+
+Crayon black is never actually black — `#33291F` is a very dark warm brown. That is
+what keeps a screen from reading as a printed document.
 
 ### Rating colours
 
@@ -45,12 +66,21 @@ are consistent everywhere — buttons, statistics, forecast bars, history rows.
 
 **Bright fill, dark ink, hard edge** — one value per rating, not one per appearance.
 
-| Rating | Fill (both) | Edge (both) |
-| --- | --- | --- |
-| Again | `#FB7185` | `#881337` |
-| Hard | `#FBBF24` | `#92400E` |
-| Good | `#34D399` | `#065F46` |
-| Easy | `#60A5FA` | `#1E40AF` |
+| Grade | Face | Label | Fill (both) | Edge (both) |
+| --- | --- | --- | --- | --- |
+| 1 | 😖 | Forgot | `#FB7185` | `#881337` |
+| 2 | 😐 | Slow | `#FBBF24` | `#92400E` |
+| 3 | 🙂 | Got it | `#34D399` | `#065F46` |
+| 4 | 😎 | Instant | `#60A5FA` | `#1E40AF` |
+
+**The faces changed; the scale did not.** FSRS still receives `1…4`. What the old
+labels asked for was metacognition — deciding whether a recall was "Hard" or "Good"
+is a judgement about your own mental effort, and a child cannot make it consistently.
+An inconsistent answer is noise, and noise in `G` is noise in every interval computed
+afterwards. Adults gain too: "Slow" is a far more answerable question than "Hard".
+
+The face is never alone — the label sits under it and the four keep fixed positions,
+so the bar works with VoiceOver and without colour vision.
 
 These used to be *darker* in light mode than the obvious 600-weight picks, for a
 stated reason: the rating bar set its labels in white, and white needs a dark fill to
@@ -58,28 +88,28 @@ clear 4.5:1. So the four colours the user looks at hundreds of times a day were 
 dullest in the app — dulled by the accessibility requirement, which is the worst way
 to lose a palette argument.
 
-Inverting the pairing wins both at once. `onRating` is now dark ink in both
-appearances (`#0F172A` light, `#0B1120` dark), and dark ink on a 400-weight fill
-reads at **6.63:1 at worst** against the previous scheme's 4.83:1. Brighter *and*
-more legible; the old scheme had it backwards.
+Inverting the pairing wins both at once. `onRating` is dark ink in both appearances
+(`#33291F` light, `#1B211D` dark — warm, so it belongs to the paper), and dark ink on
+a 400-weight fill reads at **5.28:1 at worst** against the previous scheme's 4.83:1.
+Brighter *and* more legible; the old scheme had it backwards.
 
 `ratingEdge` is **mandatory wherever a rating fill is drawn**, not decoration. A
-400-weight fill on a light surface is only 1.52:1 at worst, and these colours are not
+400-weight fill on paper is only 1.46:1 at worst, and these colours are not
 just button backgrounds — they are the bars on the session summary and the history
 dots in entry detail, graphical objects WCAG 1.4.11 holds to 3:1. Without an edge,
 brightening the fills would have traded readable data for prettier buttons. The edge
-clears 6.47:1 against every light surface and 3.43:1 at worst against its own fill,
+clears 6.19:1 against every paper tone and 3.43:1 at worst against its own fill,
 so the shape has a boundary from both sides. In dark mode the edge is redundant — the
-fill is already 5.44:1 against the darkest surface — but it is drawn anyway, because a
+fill is already 4.51:1 against the nearest board tone — but it is drawn anyway, because a
 hard outline is the whole cel-shaded idea and dropping it in one appearance would make
 the two look like different apps.
 
-On the rating bar the edge's *weight* also carries the emphasis on Good — 3pt against
-1.5pt — because in a well-scheduled deck Good is the answer four times out of five and
+On the rating bar the edge's *weight* also carries the emphasis on Got it — 3.5pt
+against 2pt — because in a well-scheduled deck Good is the answer four times out of five and
 nothing said so. Visual only: making it easier to physically hit needs the row to
 reflow, which is a decision worth feeling on a device first.
 
-Red/green as the only difference between Again and Good would fail for the most
+Red/green as the only difference between Forgot and Got it would fail for the most
 common colour-vision deficiency, so the rating buttons always carry a text label
 and a distinct position; colour is redundant reinforcement, never the sole signal.
 
@@ -138,22 +168,31 @@ legibility.
 Screen gutter is `md` (16). Card corner radius `20`, nested `14`, chips `10`
 (bumped from 8, which rendered almost square at chip size), buttons `14`.
 
-**Depth: one level, two treatments.** A `CardContainer` is either `.flat` — the
-original soft token, `y 4, blur 16, 8% black` — or `.sticker`, a hard offset edge
-with no blur (`y 3, blur 0`) plus a 1.5pt `separator` outline. Never both on one
-card: a blurred shadow under a hard one turns the cel-shaded edge into mud, which is
-the usual way this look is got wrong.
+**Depth: one level, three treatments.** A `CardContainer` is `.flat` (the original
+soft token, `y 4, blur 16, 8% black`), `.sticker` (a hard offset edge, `y 3, blur 0`,
+plus a 1.5pt outline), or `.crayon` (a `WobbleShape` outline at 2.5pt). Never two on
+one card: a blurred shadow under a hard one turns a drawn edge into mud, which is the
+usual way this look is got wrong.
 
-`.sticker` exists for two reasons. A blurred shadow says *photographic* and a hard
-one says *drawn*, so it is the cheapest character-per-line in the whole system. And
-it fixes a real bug: `Elevation.shadowColor` is a fixed `Color.black.opacity(0.08)`
-rather than an adaptive colour, so on the `#0B1120` dark canvas it is invisible —
-dark mode had **no depth cue at all**. The sticker edge is an opacity on
-`textTertiary`, which adapts, so it survives both appearances.
+`.crayon` is the house style and every current call site uses it. It is **not** the
+parameter default — `.flat` stays the default so a new `CardContainer` never silently
+inherits a decorative treatment. The screens that stay plain do so by construction
+rather than by passing `.flat`: the trust surfaces (account, password,
+delete-my-data) are built from `Form` and `Section` and never reach this type. That
+is the right outcome — a screen that takes your password and then apologises for it
+in crayon is worse than a plain one, and here it cannot happen by accident.
 
-`.flat` remains the default, so opting in is per-screen. Applied on Progress, the
-daily word and Today; deliberately *not* on the four raised cards in entry detail,
-which are a trust surface and should stay quiet.
+Both drawn styles exist for the same two reasons. A blurred shadow says
+*photographic* and a hard one says *drawn*, so the edge is the cheapest
+character-per-line in the whole system. And it fixes a real bug:
+`Elevation.shadowColor` is a fixed `Color.black.opacity(0.08)` rather than an
+adaptive colour, so on the dark canvas it is invisible and dark mode had **no depth
+cue at all**. The drawn edge is an opacity on `textTertiary`, which adapts, so it
+survives both appearances.
+
+Every `CardContainer` call site is now `.crayon` — the eleven across Progress, Today,
+the daily word and entry detail. `.sticker` is kept as the un-wobbled version of the
+same idea, for anywhere a drawn outline is wanted without the hand-drawn character.
 
 Minimum tap target 44×44pt, enforced by `PrimaryButton` and the rating bar.
 

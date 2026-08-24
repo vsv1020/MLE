@@ -16,21 +16,36 @@ public struct CardContainer<Content: View>: View {
         /// the `#0B1120` dark canvas it is entirely invisible and dark mode has had **no depth cue
         /// at all**. A token-based edge is visible in both appearances.
         case sticker
+        /// Drawn rather than computed: a wobbling ink outline on paper. See ``WobbleShape``.
+        ///
+        /// What every *content* surface should use. It is not the parameter default — that stays
+        /// `.flat` so no call site changes behaviour without being edited — but it is the house
+        /// style, and the screens that keep `.flat` do so for a reason rather than by neglect.
+        ///
+        /// The reason is the trust surfaces: account, password, delete-my-data. A screen that
+        /// takes your password and then apologises for it in crayon is worse than a plain one.
+        case crayon
     }
 
     private let isRaised: Bool
     private let style: Style
+    private let wobbleSeed: UInt64
     private let content: Content
 
     /// `style` defaults to `.flat` so every existing call site renders pixel-for-pixel as before,
     /// and the new look is opted into rather than inflicted.
+    /// - Parameter wobbleSeed: Only read by ``Style/crayon``. Give adjacent cards different
+    ///   seeds — identical wobble on every card is what makes a hand-drawn interface look
+    ///   machine-made, which is the one thing this style cannot afford.
     public init(
         isRaised: Bool = false,
         style: Style = .flat,
+        wobbleSeed: UInt64 = 0x_C7A1_0000_0000_0001,
         @ViewBuilder content: () -> Content
     ) {
         self.isRaised = isRaised
         self.style = style
+        self.wobbleSeed = wobbleSeed
         self.content = content()
     }
 
@@ -39,27 +54,52 @@ public struct CardContainer<Content: View>: View {
             .padding(Spacing.md)
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(isRaised ? Palette.surfaceRaised : Palette.surface)
-            .clipShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+            // One clip and one outline for all three styles. `AnyShape` (iOS 17) is what lets the
+            // shape vary without duplicating the whole modifier chain per case — and duplicating
+            // it is how the three styles would quietly drift apart.
+            .clipShape(shape)
             .overlay {
-                if style == .sticker {
-                    RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
-                        .strokeBorder(Palette.separator, lineWidth: 1.5)
+                if outlineWidth > 0 {
+                    shape.stroke(Palette.separator, lineWidth: outlineWidth)
                 }
             }
-            // The two shadows are exclusive, never stacked. Leaving the soft one underneath a hard
-            // one turns the cel-shaded edge into mud, which is the usual way this look is got wrong.
-            .shadow(
-                color: shadowColor,
-                radius: style == .sticker ? 0 : Elevation.shadowRadius,
-                y: style == .sticker ? 3 : Elevation.shadowY
-            )
+            // Shadows are exclusive, never stacked. Leaving the soft one underneath a hard one
+            // turns a drawn edge into mud, which is the usual way this look is got wrong.
+            .shadow(color: shadowColor, radius: shadowRadius, y: shadowOffsetY)
+    }
+
+    private var shape: AnyShape {
+        switch style {
+        case .crayon:
+            AnyShape(WobbleShape(cornerRadius: Radius.card, seed: wobbleSeed))
+        case .flat, .sticker:
+            AnyShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+        }
+    }
+
+    /// `.crayon` draws heavier than `.sticker`: a wobbling line needs more weight to read as a
+    /// deliberate stroke rather than as an aliasing artefact.
+    private var outlineWidth: CGFloat {
+        switch style {
+        case .crayon: 2.5
+        case .sticker: 1.5
+        case .flat: 0
+        }
+    }
+
+    private var shadowRadius: CGFloat {
+        style == .flat ? Elevation.shadowRadius : 0
+    }
+
+    private var shadowOffsetY: CGFloat {
+        style == .flat ? Elevation.shadowY : 3
     }
 
     private var shadowColor: Color {
         switch style {
         // An opacity on an existing token, not a new hex — `Palette` stays closed, and unlike
         // `Elevation.shadowColor` this one adapts, so the edge survives dark mode.
-        case .sticker: Palette.textTertiary.opacity(0.28)
+        case .sticker, .crayon: Palette.textTertiary.opacity(0.28)
         case .flat: isRaised ? .clear : Elevation.shadowColor
         }
     }
@@ -614,8 +654,16 @@ extension View {
             .frame(maxWidth: .infinity)
     }
 
-    /// Standard screen background.
+    /// Standard screen background: paper in light, blackboard in dark, both with grain.
+    ///
+    /// The grain lives here rather than in a separate modifier so there is exactly one name for
+    /// "the background of a screen". A second modifier would mean some screens got the texture
+    /// and others quietly did not, and the ones that missed it would look like bugs.
     public func screenBackground() -> some View {
-        background(Palette.canvas.ignoresSafeArea())
+        background {
+            Palette.canvas
+                .overlay(PaperGrain())
+                .ignoresSafeArea()
+        }
     }
 }

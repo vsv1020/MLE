@@ -191,7 +191,14 @@ struct EntryDetailView: View {
     // MARK: - Senses
 
     private func senseCard(_ sense: Sense) -> some View {
-        CardContainer(isRaised: true) {
+        // Seeded per sense, not per screen. This one is called inside a `ForEach`, so a fixed
+        // seed would draw the identical outline on every sense card — the "one stamp repeated"
+        // failure that `WobbleShape.seed` exists to avoid.
+        CardContainer(
+            isRaised: true,
+            style: .crayon,
+            wobbleSeed: WobbleShape.seed(for: "\(entry.stableID)#sense\(sense.order)")
+        ) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 HStack(spacing: Spacing.xxs) {
                     Chip(sense.partOfSpeech.displayName)
@@ -262,7 +269,7 @@ struct EntryDetailView: View {
     }
 
     private var grammarCard: some View {
-        CardContainer(isRaised: true) {
+        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0x_E47D_0002) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 Text("Grammar")
                     .font(Typography.sectionHeader)
@@ -285,7 +292,7 @@ struct EntryDetailView: View {
     // MARK: - Scheduling
 
     private var schedulingCard: some View {
-        CardContainer(isRaised: true) {
+        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0x_E47D_0003) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 Text("Scheduling")
                     .font(Typography.sectionHeader)
@@ -343,7 +350,7 @@ struct EntryDetailView: View {
     }
 
     private var historyCard: some View {
-        CardContainer(isRaised: true) {
+        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0x_E47D_0004) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 Text("Review history")
                     .font(Typography.sectionHeader)

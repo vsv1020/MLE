@@ -29,7 +29,17 @@ struct FlashcardView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: Spacing.md) {
+                // Centred horizontally, anchored vertically.
+                //
+                // The poster treatment is what the word deserves — it is the whole reason the
+                // screen exists. But it is *only* horizontal: centring the block vertically would
+                // move the prompt the instant the answer appeared, and the rule at the top of this
+                // file exists because a layout that jumps on reveal makes the user re-find what
+                // they were just reading.
                 prompt
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .multilineTextAlignment(.center)
+
                 if isAnswerRevealed {
                     answer
                         .transition(
@@ -41,6 +51,16 @@ struct FlashcardView: View {
             }
             .padding(Spacing.md)
             .frame(maxWidth: .infinity, alignment: .leading)
+            // The card is a drawn object on paper, not a region of the page. Seeded from
+            // `cardID`, so the wobble is this card's own and stays put across redraws — but
+            // differs from the next card's, which is what stops the outline reading as a stamp.
+            .background {
+                let shape = WobbleShape(cornerRadius: Radius.card, seed: WobbleShape.seed(for: card.cardID))
+                shape.fill(Palette.surface)
+                    .overlay(shape.stroke(Palette.separator, lineWidth: 2.5))
+            }
+            .padding(.horizontal, Spacing.sm)
+            .padding(.vertical, Spacing.xs)
             .readableWidth()
         }
         .animation(
@@ -56,7 +76,7 @@ struct FlashcardView: View {
     private var prompt: some View {
         switch card.direction {
         case .recognition:
-            VStack(alignment: .leading, spacing: Spacing.xs) {
+            VStack(alignment: .center, spacing: Spacing.xs) {
                 directionBadge
                 HStack(alignment: .firstTextBaseline, spacing: Spacing.xs) {
                     Text(entry?.headword ?? "—")
@@ -76,7 +96,7 @@ struct FlashcardView: View {
             }
 
         case .production:
-            VStack(alignment: .leading, spacing: Spacing.xs) {
+            VStack(alignment: .center, spacing: Spacing.xs) {
                 directionBadge
                 Text(entry?.primaryDefinition ?? "—")
                     .font(Typography.wordTitle)
@@ -93,7 +113,7 @@ struct FlashcardView: View {
             }
 
         case .cloze:
-            VStack(alignment: .leading, spacing: Spacing.sm) {
+            VStack(alignment: .center, spacing: Spacing.sm) {
                 directionBadge
                 if let prompt = clozePrompt {
                     // The sentence is the prompt, so it gets display size rather than the
@@ -171,7 +191,11 @@ struct FlashcardView: View {
     @ViewBuilder
     private var answer: some View {
         VStack(alignment: .leading, spacing: Spacing.md) {
-            Divider().background(Palette.separator)
+            // A drawn rule, not a hairline: `Divider` renders a 1px system line that belongs to
+            // a different design system than everything around it.
+            WobbleShape(cornerRadius: 1, amplitude: 0.9, seed: WobbleShape.seed(for: card.cardID) &+ 0x_D1D1)
+                .stroke(Palette.separator.opacity(0.5), lineWidth: 1.5)
+                .frame(height: 2)
 
             if card.direction == .production, let entry {
                 // The answer to a production card is the word itself, so it leads.
@@ -270,14 +294,21 @@ struct FlashcardView: View {
                     .foregroundStyle(Palette.textSecondary)
                     .padding(Spacing.sm)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Palette.brandSecondary.opacity(0.10))
-                    .clipShape(RoundedRectangle(cornerRadius: Radius.nested, style: .continuous))
+                    .background {
+                        let shape = WobbleShape(cornerRadius: Radius.nested, amplitude: 1.0,
+                                                seed: WobbleShape.seed(for: card.cardID)
+                                                    &+ 0x_5A6E_2222 &+ UInt64(index) &* 0x9E37_79B9)
+                        shape.fill(Palette.brandSecondary.opacity(0.10))
+                            .overlay(shape.stroke(Palette.brandSecondary.opacity(0.45), lineWidth: 1.5))
+                    }
             }
         }
         .padding(Spacing.sm)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Palette.surfaceRaised)
-        .clipShape(RoundedRectangle(cornerRadius: Radius.nested, style: .continuous))
+        // Nested blocks are drawn too. A hand-drawn card containing machine-drawn boxes reads as
+        // a mistake — the eye notices the two languages immediately, even when it cannot name
+        // what is wrong. Offset by the sense index so stacked blocks do not share an outline.
+        .drawnPanel(seed: WobbleShape.seed(for: card.cardID) &+ UInt64(index) &* 0x9E37_79B9)
     }
 
     private func labelledList(_ label: String, values: [String], color: Color) -> some View {
@@ -315,8 +346,7 @@ struct FlashcardView: View {
         }
         .padding(Spacing.sm)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Palette.surfaceRaised)
-        .clipShape(RoundedRectangle(cornerRadius: Radius.nested, style: .continuous))
+        .drawnPanel(seed: WobbleShape.seed(for: card.cardID) &+ 0x_67A3_1111)
     }
 }
 

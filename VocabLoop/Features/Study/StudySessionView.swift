@@ -221,41 +221,47 @@ struct RatingBar: View {
                 Button {
                     onRate(rating)
                 } label: {
-                    VStack(spacing: 2) {
+                    VStack(spacing: 1) {
+                        // The face carries the meaning at a glance; the word underneath is what
+                        // makes it unambiguous. Neither is ever alone — an emoji on its own is a
+                        // guess, and the words on their own were the metacognition problem.
+                        Text(rating.face)
+                            // A text style, not `size: 25`. This is the control a user presses
+                            // hundreds of times a day; if the labels grow with Dynamic Type and
+                            // the faces do not, the faces stop being the thing you aim at.
+                            .font(.system(.title2, design: .rounded))
                         Text(rating.shortLabel)
                             .font(Typography.buttonLabel)
                         if showsIntervals {
                             Text(intervalLabel(rating))
                                 .font(Typography.buttonInterval)
-                                .opacity(0.85)
+                                .opacity(0.8)
                         }
                     }
-                    .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget + 12)
-                    // Dark ink on a bright fill — see `Palette.onRating`. Reads at 6.63:1 at
-                    // worst, against 4.83:1 for the white-on-dark-fill scheme this replaced.
+                    .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget + 22)
+                    // Dark ink on a bright fill — see `Palette.onRating`. 5.28:1 at worst.
                     .foregroundStyle(Palette.onRating)
                     .background(Palette.rating(rating))
-                    .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
+                    // Each button gets its own wobble seed, so the four read as four separate
+                    // drawn shapes rather than one stamp repeated. Derived from `rawValue`, so it
+                    // is stable across launches — a border that re-rolls on every appearance
+                    // looks like a glitch, not like pencil.
+                    .clipShape(WobbleShape(cornerRadius: Radius.button, amplitude: 1.2, seed: seed(for: rating)))
                     // One stroke doing two jobs.
                     //
-                    // It is mandatory, not decorative: a 400-weight fill is only 1.52:1 against a
-                    // light surface, so `Palette.ratingEdge` is what gives the button a boundary
-                    // at all. See its documentation.
+                    // It is mandatory, not decorative: a 400-weight fill is only 1.46:1 against
+                    // paper, so `Palette.ratingEdge` is what gives the button a boundary at all.
                     //
-                    // Its *weight* then carries the emphasis on `Good`, which in a well-scheduled
-                    // deck is the answer four times out of five and which nothing said so. Making
-                    // the required outline twice as thick costs nothing and needs no second layer
-                    // stacked on the first.
+                    // Its *weight* then carries the emphasis on `Got it`, which in a well-scheduled
+                    // deck is the answer four times out of five and which nothing said so.
                     //
-                    // Deliberately *only* visual. Making Good easier to physically hit needs the
-                    // row to reflow — Good wider, or the other three smaller on a second line —
-                    // and that is a layout decision worth feeling on a real device before
-                    // committing to it, not one to slip in here.
+                    // Deliberately *only* visual. Making it easier to physically hit needs the row
+                    // to reflow, which is a decision worth feeling on a device first.
                     .overlay(
-                        RoundedRectangle(cornerRadius: Radius.button, style: .continuous)
-                            .strokeBorder(
+                        WobbleShape(cornerRadius: Radius.button, amplitude: 1.2, seed: seed(for: rating))
+                            .stroke(
                                 Palette.ratingEdge(rating),
-                                lineWidth: rating == .good ? 3 : 1.5
+                                lineWidth: rating == .good ? 3.5 : 2
                             )
                     )
                 }
@@ -267,6 +273,15 @@ struct RatingBar: View {
                 .keyboardShortcut(KeyEquivalent(Character("\(rating.rawValue)")), modifiers: [])
             }
         }
+    }
+
+    /// A distinct, stable wobble per button.
+    ///
+    /// Multiplied by a large odd constant rather than used raw: `SeededGenerator` is SplitMix64,
+    /// and seeds 1…4 are close enough in its state space that the first few outputs come out
+    /// visibly similar — which would defeat the whole point of seeding them separately.
+    private func seed(for rating: Rating) -> UInt64 {
+        UInt64(rating.rawValue) &* 0x_9E37_79B9_7F4A_7C15
     }
 }
 
