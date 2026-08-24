@@ -58,43 +58,60 @@ Note for the owner: guideline 4.8 only *requires* Sign in with Apple when the ap
 third-party login. This app doesn't — email/password is entirely local — so cutting it is
 compliant, not a compromise.
 
-### 2. BLOCKER — There is no app icon
+### 2. ~~BLOCKER~~ DONE — App icon
 
-`VocabLoop/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json` declares a single
-1024×1024 universal iOS slot, and **the entire asset catalog contains zero PNG files**. App Store
-Connect refuses a binary with no icon — this stops the upload, not the review.
+`VocabLoop/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png` now exists:
+1024×1024, 8-bit RGB, **no alpha channel**, no pre-applied corner radius. `Contents.json`
+references it by filename. Verified with `file(1)`.
 
-Need one 1024×1024 PNG, no alpha channel, no pre-applied rounded corners (iOS masks it). Drop it
-into the appiconset and confirm `Contents.json` references the filename.
+It was drawn by the app's own `WobbleShape` algorithm — the generator ports the same SplitMix64
+seeding and perimeter smoothing — so the icon's hand-drawn edges are literally the ones the UI
+draws. Checked for legibility at 180/120/87/60/40/29pt before being accepted.
 
-### 3. BLOCKER — Privacy manifest is missing
+Nothing is required here unless the owner wants a different design.
 
-There is no `PrivacyInfo.xcprivacy` anywhere in the repo. Required since May 2024 for any app
-using a "required reason" API.
+### 3. ~~BLOCKER~~ DONE — Privacy manifest
 
-Audit the code for required-reason API use, then write the manifest. What I found:
+`VocabLoop/Resources/PrivacyInfo.xcprivacy` now exists and parses (validated with `plistlib`).
+It is inside the file-system-synchronized group covering `VocabLoop/`, so it is bundled
+automatically and needs no project-file change.
 
-- **`UserDefaults`** — used in `RootView` (`@AppStorage` for `onboarding.completed` and
-  `auth.landingShown`), `OptimizerService` (`optimizer.reviewCountAtLastFit`), and
-  `VocabLoopApp.resetFirstRunStateIfUITesting`. Category
-  `NSPrivacyAccessedAPICategoryUserDefaults`, reason `CA92.1` (accessing your own app's data).
-- **File timestamps** — check `DataExporter` and `SeedImporter`. `DataExporter` sets
-  `URLResourceValues.isExcludedFromBackup`, which is a *write*, not a timestamp read. Confirm
-  nothing reads creation/modification dates before deciding whether
-  `NSPrivacyAccessedAPICategoryFileTimestamp` applies.
-- Also declare: no tracking, no tracking domains, no data collected, no third-party SDKs.
+The audit behind it, re-run against the current source:
 
-Verify the completed manifest by building and checking it lands in the bundle.
+| Checked for | Found |
+| --- | --- |
+| `UserDefaults` / `@AppStorage` | **Yes**, 14 sites — declared, reason `CA92.1` |
+| File timestamp APIs | None |
+| Disk space APIs | None |
+| System boot time APIs | None |
+| Active keyboard APIs | None |
+| Tracking / IDFA / AdSupport | None |
 
-### 4. BLOCKER — Export compliance key not declared
+`NSPrivacyCollectedDataTypes` is **empty**, which is true *of the shipped configuration only*:
+`APIConfiguration.offline` is the default and has no base URL, so `SyncEngine` has nowhere to
+send anything, and `LocalAuthBackend` keeps the PBKDF2 hash in the on-device Keychain.
 
-The app uses CommonCrypto, so every upload will halt on the encryption questionnaire until
-`ITSAppUsesNonExemptEncryption` is set. Add it as `INFOPLIST_KEY_ITSAppUsesNonExemptEncryption`.
+> **If you configure a real sync backend, this file must be updated before submission.**
+> `RemoteAuthBackend` transmits an optional email address and `SyncPayloads` transmits study
+> history, which would require at minimum `NSPrivacyCollectedDataTypeEmailAddress` and a
+> product-interaction entry, both marked linked to the user. Shipping the current manifest
+> alongside a live sync URL is a misdeclaration, not an oversight. The same warning is written
+> into the file itself.
 
-**Do not decide the value yourself.** Authentication-only use of standard platform crypto
-normally qualifies for the exemption, which would make this `false` — but it is a compliance
-statement in the owner's name. Show them Apple's export-compliance documentation and have them
-answer it.
+### 4. NEEDS THE OWNER'S CONFIRMATION — Export compliance
+
+`INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO` is now set in **both** build configurations
+of the app target. Without it every upload halts on the encryption questionnaire.
+
+**This value was set to keep uploads unblocked, but it is a compliance statement made in the
+owner's name and they must confirm it before submitting.** The reasoning: the app's only
+cryptography is PBKDF2 password hashing via CommonCrypto and Keychain storage — standard
+platform primitives used for authentication, which is the ordinary case for the exemption. That
+is the normal answer for an app shaped like this one; it is not legal advice, and it stops being
+true the moment any custom or non-standard cryptography is added.
+
+Show the owner Apple's export-compliance documentation and have them confirm `NO` is right for
+them. If they disagree, change the value — do not remove the key, or the questionnaire returns.
 
 ### 5. BLOCKER — Apple Developer Program membership and team
 

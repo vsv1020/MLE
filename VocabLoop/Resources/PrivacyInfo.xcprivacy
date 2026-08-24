@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- No tracking. The app links no advertising or attribution SDK, and there is no
+	     AdSupport, AppTrackingTransparency or IDFA usage anywhere in the source. -->
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+
+	<!-- Nothing is collected in the shipped configuration.
+
+	     `APIConfiguration.offline` is the default and has no base URL, so `SyncEngine` has
+	     nowhere to send anything: study data, review history and account details stay in the
+	     local SwiftData store. Sign-in is served by `LocalAuthBackend`, which hashes the
+	     password with PBKDF2 and keeps it in the Keychain on-device.
+
+	     IF A REMOTE BACKEND IS EVER CONFIGURED, THIS ARRAY MUST BE UPDATED BEFORE SUBMISSION.
+	     `RemoteAuthBackend` transmits an optional email address and `SyncPayloads` transmits
+	     study history, which would at minimum require NSPrivacyCollectedDataTypeEmailAddress
+	     and a product-interaction entry, both linked to the user. Shipping this file unchanged
+	     alongside a live sync URL is a misdeclaration, not an oversight. -->
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<!-- @AppStorage, which is UserDefaults. Used for onboarding completion, the
+			     auth-landing flag and other first-run UI state — never for user content,
+			     which lives in SwiftData. -->
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<!-- CA92.1: access to defaults readable only by this app itself. The app is
+				     in no App Group and shares no container, so the group-scoped reasons do
+				     not apply. -->
+				<string>CA92.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
