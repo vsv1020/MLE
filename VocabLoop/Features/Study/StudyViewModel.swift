@@ -42,6 +42,9 @@ final class StudyViewModel {
     private var revealedAt: Date?
     private var lastGraded: Card?
 
+    /// The grade just given, for the mascot to react to. `nil` before the first answer.
+    private(set) var lastRating: Rating?
+
     /// Kept so the queue can be topped up on the same terms it was first built on.
     private var options = ReviewQueueBuilder.Options()
 
@@ -93,6 +96,7 @@ final class StudyViewModel {
             return
         }
         self.options = options
+        lastRating = nil
         goalTarget = preferences.dailyGoalTarget
         // `try?` flattens the nested optional (SE-0230), so this is `StudyDay?`, not
         // `StudyDay??`. `createIfMissing: false` because merely opening the study screen is
@@ -146,6 +150,7 @@ final class StudyViewModel {
             if rating.isSuccess { correctCount += 1 }
             ratingCounts[rating, default: 0] += 1
             lastGraded = card
+            lastRating = rating
             Haptics.tap()
 
             advance(
@@ -248,6 +253,7 @@ final class StudyViewModel {
             queue.removeAll { $0.cardID == card.cardID }
             queue.insert(card, at: currentIndex)
             lastGraded = nil
+            lastRating = nil
             isAnswerRevealed = false
             revealedAt = nil
             phase = .reviewing

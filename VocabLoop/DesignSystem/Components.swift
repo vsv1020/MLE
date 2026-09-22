@@ -81,7 +81,7 @@ public struct CardContainer<Content: View>: View {
     /// deliberate stroke rather than as an aliasing artefact.
     private var outlineWidth: CGFloat {
         switch style {
-        case .crayon: 2.5
+        case .crayon: 3
         case .sticker: 1.5
         case .flat: 0
         }
@@ -92,14 +92,21 @@ public struct CardContainer<Content: View>: View {
     }
 
     private var shadowOffsetY: CGFloat {
-        style == .flat ? Elevation.shadowY : 3
+        switch style {
+        case .flat: Elevation.shadowY
+        case .sticker: 3
+        // Matches the flashcard and the rating buttons, so every drawn object in the app sits
+        // on the same thickness of base.
+        case .crayon: Chunky.cardDepth
+        }
     }
 
     private var shadowColor: Color {
         switch style {
         // An opacity on an existing token, not a new hex — `Palette` stays closed, and unlike
         // `Elevation.shadowColor` this one adapts, so the edge survives dark mode.
-        case .sticker, .crayon: Palette.textTertiary.opacity(0.28)
+        case .sticker: Palette.textTertiary.opacity(0.28)
+        case .crayon: Chunky.baseColor
         case .flat: isRaised ? .clear : Elevation.shadowColor
         }
     }
@@ -320,11 +327,13 @@ public struct Chip: View {
         // the border, so nothing is lost but the illegibility.
         .foregroundStyle(Palette.textPrimary)
         .background(color.opacity(Self.fillOpacity))
-        .clipShape(RoundedRectangle(cornerRadius: Radius.chip, style: .continuous))
+        // `Capsule`, not a large corner radius: a pill by construction at every Dynamic Type
+        // size, rather than depending on how an oversized radius happens to be clamped.
+        .clipShape(Capsule(style: .continuous))
         // Redundant reinforcement, never a sole signal: the text already carries the meaning, so
         // this edge is allowed to sit below 1.4.11's 3:1 for the palest tokens.
         .overlay(
-            RoundedRectangle(cornerRadius: Radius.chip, style: .continuous)
+            Capsule(style: .continuous)
                 .strokeBorder(color.opacity(Self.borderOpacity), lineWidth: 1)
         )
     }

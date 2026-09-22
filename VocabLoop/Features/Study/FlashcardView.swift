@@ -56,8 +56,14 @@ struct FlashcardView: View {
             // differs from the next card's, which is what stops the outline reading as a stamp.
             .background {
                 let shape = WobbleShape(cornerRadius: Radius.card, seed: WobbleShape.seed(for: card.cardID))
-                shape.fill(Palette.surface)
-                    .overlay(shape.stroke(Palette.separator, lineWidth: 2.5))
+                // The same thick base the buttons sit on, so the card reads as a chunky object
+                // on the table rather than a drawing on the page. Inside the vertical padding
+                // below, so it never overlaps the rating bar.
+                ZStack {
+                    shape.fill(Chunky.baseColor).offset(y: Chunky.cardDepth)
+                    shape.fill(Palette.surface)
+                        .overlay(shape.stroke(Palette.separator, lineWidth: 3))
+                }
             }
             .padding(.horizontal, Spacing.sm)
             .padding(.vertical, Spacing.xs)

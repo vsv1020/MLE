@@ -90,9 +90,11 @@ struct RootView: View {
 struct LaunchView: View {
     var body: some View {
         VStack(spacing: Spacing.md) {
-            Image(systemName: "text.book.closed.fill")
-                .font(Typography.heroGlyph)
-                .foregroundStyle(Palette.brandPrimary)
+            // The first thing anyone sees is the character, not a book glyph. Static here in
+            // practice — on a warm launch this screen lasts a few frames — but the breathing is
+            // harmless if the store takes longer to open.
+            Mascot(mood: .happy)
+                .frame(width: 96, height: 80)
             Text("VocabLoop")
                 .font(Typography.screenTitle)
                 .foregroundStyle(Palette.textPrimary)

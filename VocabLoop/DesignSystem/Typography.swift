@@ -73,13 +73,19 @@ public enum Spacing {
     public static let xxl: CGFloat = 48
 }
 
+/// Corner radii, pushed well past "friendly" into round — the Q look.
+///
+/// Roundness is most of what reads as *cute* before a single colour or face registers: a
+/// shape with tight corners reads as a document, one with fat corners reads as a toy. These
+/// are roughly half again the previous values (card 20, nested 14, button 14).
+///
+/// There is no chip radius: chips are `Capsule`s, which are fully round by construction at
+/// every Dynamic Type size. A summary row in onboarding had been borrowing the chip value; it
+/// is a nested panel and uses ``nested``.
 public enum Radius {
-    public static let card: CGFloat = 20
-    public static let nested: CGFloat = 14
-    /// Bumped 8 → 10 so a chip reads as a bubble rather than a tag. `Chip` is small enough
-    /// that 8 rendered almost square.
-    public static let chip: CGFloat = 10
-    public static let button: CGFloat = 14
+    public static let card: CGFloat = 30
+    public static let nested: CGFloat = 22
+    public static let button: CGFloat = 22
 }
 
 public enum Elevation {

@@ -45,8 +45,15 @@ struct StudySessionView: View {
                         isAnswerRevealed: model.isAnswerRevealed,
                         reduceMotion: reduceMotion
                     )
-                    // Identity keyed on the card so SwiftUI treats each card as a new view
-                    // and the transition actually animates.
+                    // Mochi peeks over the card's top edge and reacts to the last answer.
+                    // Trailing, because the direction badge and headword are centred and the
+                    // leading corner is under the library button.
+                    .overlay(alignment: .topTrailing) {
+                        Mascot(mood: mascotMood)
+                            .frame(width: 58, height: 48)
+                            .offset(x: -18, y: -12)
+                    }
+                    // Identity keyed on the card so SwiftUI treats each card as a new view.
                     .id(card.cardID)
                     .transition(cardTransition)
                     Spacer(minLength: 0)
@@ -69,6 +76,14 @@ struct StudySessionView: View {
                 }
             }
         }
+        // What makes `cardTransition` actually play.
+        //
+        // The transition has been declared since the first version of this screen and has never
+        // once run: a transition only animates inside an animation transaction, and nothing
+        // provided one — no `.animation(_:value:)` here, no `withAnimation` around `grade`. Every
+        // card change has been a hard cut. Keyed on the card's identity, so revealing an answer
+        // or updating a count does not trigger it.
+        .animation(Motion.pop(reduceMotion), value: model.currentCard?.cardID)
         .screenBackground()
         .task { model.start(dependencies: dependencies, options: options) }
         // "Hey Siri, start reviewing" used to be consumed by Today, which was the app's entry
@@ -138,9 +153,27 @@ struct StudySessionView: View {
         reduceMotion
             ? .opacity
             : .asymmetric(
-                insertion: .move(edge: .trailing).combined(with: .opacity),
+                // The new card pops up from the table; the old one is flicked away. Scaled from
+                // the bottom edge so it grows *up* into place rather than inflating from its
+                // middle, which reads as a toy being set down rather than as a zoom.
+                insertion: .scale(scale: 0.86, anchor: .bottom).combined(with: .opacity),
                 removal: .move(edge: .leading).combined(with: .opacity)
             )
+    }
+
+    /// Mochi's reaction to the most recent answer.
+    ///
+    /// "Forgot" maps to `.encourage`, never to anything sad. A companion that looks disappointed
+    /// at an honest answer teaches people to stop answering honestly, and inflated grades are the
+    /// one input that quietly ruins every interval FSRS computes afterwards.
+    private var mascotMood: Mascot.Mood {
+        switch model.lastRating {
+        case .none: model.isAnswerRevealed ? .happy : .curious
+        case .again?: .encourage
+        case .hard?: .curious
+        case .good?: .happy
+        case .easy?: .cheer
+        }
     }
 
     // MARK: - Chrome
@@ -358,7 +391,13 @@ struct RatingBar: View {
                             )
                     )
                 }
-                .pressable(scale: 0.95)
+                // A candy button: it sits on a base in its own darker edge colour and squashes
+                // down into it. The base is the same wobble as the button, or it would peek out
+                // as a mismatched second outline.
+                .buttonStyle(SquishButtonStyle(
+                    base: WobbleShape(cornerRadius: Radius.button, amplitude: 0.8, seed: seed(for: rating)),
+                    baseColor: Palette.ratingEdge(rating)
+                ))
                 .accessibilityLabel(rating.accessibilityDescription)
                 .accessibilityValue(showsIntervals ? "Next review \(intervalLabel(rating))" : "")
                 // Hardware keyboard shortcuts, for iPad and Mac. Free to add, and the way

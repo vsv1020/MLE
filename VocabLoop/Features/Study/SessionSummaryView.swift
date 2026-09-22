@@ -38,18 +38,13 @@ struct SessionSummaryView: View {
                         if didStudy {
                             SummaryBurst()
                         }
-                        Image(systemName: didStudy ? "checkmark.seal.fill" : "sparkles")
-                            // A token, not `size: 52`. The seal is the reward for finishing a
-                            // session; it should grow with Dynamic Type like everything else.
-                            .font(Typography.heroGlyph)
-                            .foregroundStyle(Palette.success)
+                        // Mochi in the middle of the burst, rather than a seal. The glyph said
+                        // "task complete"; a cheering face says "well done", which is what this
+                        // moment is for. Asleep when there was nothing to study — no confetti,
+                        // and nothing that implies the user failed to do something.
+                        Mascot(mood: didStudy ? .cheer : .sleepy)
+                            .frame(width: 104, height: 86)
                             .scaleEffect(appeared || !didStudy ? 1 : 0.6)
-                            .symbolEffect(
-                                .bounce.up,
-                                options: .nonRepeating,
-                                // Not trusted to honour the setting on its own.
-                                value: reduceMotion ? 0 : (appeared ? 1 : 0)
-                            )
                     }
                     .frame(width: 160, height: 160)
                     .clipped()

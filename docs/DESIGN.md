@@ -165,8 +165,24 @@ legibility.
 ## Layout and spacing
 
 4pt base scale: `xxs 4 · xs 8 · sm 12 · md 16 · lg 24 · xl 32 · xxl 48`.
-Screen gutter is `md` (16). Card corner radius `20`, nested `14`, chips `10`
-(bumped from 8, which rendered almost square at chip size), buttons `14`.
+Screen gutter is `md` (16). Card corner radius `30`, nested `22`, buttons `22`,
+chips always a full pill. Roughly half again the earlier values: tight corners read as
+a document, fat ones read as a toy, and roundness registers as *cute* before any colour
+or face does.
+
+**Q style: round, thick, squashy.** Every drawn object sits on a hard base
+(`Chunky.cardDepth` 5pt for cards, `Chunky.buttonDepth` 4pt for buttons) in
+`textTertiary` at 40% — an adaptive colour, so the base survives the blackboard. The
+rating buttons use `SquishButtonStyle`: each sits on a base in its own darker edge
+colour and squashes down into it when pressed, then springs back with `Motion.squish`
+(half bounce). Under Reduce Motion the button does not travel; the base still shows the
+depth and a dim carries the press. Wobble amplitude dropped from 1.5 to 1.1 — the look
+should read as soft hand-made plastic, not as a pencil that slipped.
+
+New cards pop up from the table (`Motion.pop`, scaled from the bottom edge) and the old
+one is flicked away. That transition had been declared from the first version of the
+study screen and had **never played**: nothing wrapped the card change in an animation
+transaction, so every card change was a hard cut.
 
 **Depth: one level, three treatments.** A `CardContainer` is `.flat` (the original
 soft token, `y 4, blur 16, 8% black`), `.sticker` (a hard offset edge, `y 3, blur 0`,
@@ -195,6 +211,23 @@ the daily word and entry detail. `.sticker` is kept as the un-wobbled version of
 same idea, for anywhere a drawn outline is wanted without the hand-drawn character.
 
 Minimum tap target 44×44pt, enforced by `PrimaryButton` and the rating bar.
+
+
+### Mochi
+
+A small round companion drawn entirely from shapes — a `WobbleShape` body and a
+`Canvas` face — so there is no image asset, it inherits the palette in both appearances,
+and it scales to any frame. It appears on launch, peeks over the top edge of the
+flashcard, and cheers in the middle of the confetti on the summary.
+
+On the flashcard it reacts to the last answer: curious while waiting, happy for Got it,
+cheering for Instant — and **encouraging, never sad, for Forgot**. A companion that
+looks disappointed at an honest answer teaches people to stop answering honestly, and
+inflated grades are the one input that quietly ruins every interval the scheduler
+computes afterwards. Same rule that keeps error haptics off the rating bar.
+
+Decorative only: hidden from VoiceOver, never hit-tested, and under Reduce Motion it
+neither breathes nor hops.
 
 ---
 

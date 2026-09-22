@@ -249,7 +249,7 @@ private struct SummaryRow: View {
         .padding(.vertical, Spacing.xs)
         .padding(.horizontal, Spacing.sm)
         .background(Palette.surfaceRaised)
-        .clipShape(RoundedRectangle(cornerRadius: Radius.chip, style: .continuous))
+        .clipShape(RoundedRectangle(cornerRadius: Radius.nested, style: .continuous))
         .accessibilityElement(children: .combine)
     }
 }

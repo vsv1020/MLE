@@ -82,6 +82,26 @@ public enum Motion {
             : .spring(duration: expressiveDuration, bounce: 0.18)
     }
 
+    /// A squashy press-and-release: the Q-style button and the mascot's reaction.
+    ///
+    /// Half-bounce, which is a lot — deliberately more than ``press(_:)``. It is kept off the
+    /// generic press style for the reason given there: a control pressed hundreds of times a day
+    /// should not wobble. The rating bar is the exception that proves it, because its bounce
+    /// happens *after* the answer is committed; it acknowledges rather than delays.
+    public static func squish(_ reduceMotion: Bool) -> Animation {
+        reduceMotion
+            ? .linear(duration: minimalDuration)
+            : .spring(duration: 0.28, bounce: 0.5)
+    }
+
+    /// A new card arriving. Springy enough to read as popping onto the table, short enough that
+    /// the next answer is never waiting on it.
+    public static func pop(_ reduceMotion: Bool) -> Animation {
+        reduceMotion
+            ? .easeInOut(duration: 0.2)
+            : .spring(duration: 0.42, bounce: 0.32)
+    }
+
     /// A celebration. Deliberately separate from ``progress(_:)`` so that turning celebrations
     /// down later does not also flatten ordinary progress.
     ///

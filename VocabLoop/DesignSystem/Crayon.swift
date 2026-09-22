@@ -27,7 +27,10 @@ public struct WobbleShape: InsettableShape {
 
     private var insetAmount: CGFloat = 0
 
-    public init(cornerRadius: CGFloat = Radius.card, amplitude: CGFloat = 1.5, seed: UInt64 = 0x_C7A1_0000_0000_0001) {
+    /// Default amplitude 1.1, down from 1.5. The Q look is *round*, and a scratchier line pulls
+    /// toward sketchbook rather than toy — the wobble should read as soft hand-made plastic, not
+    /// as a pencil that slipped.
+    public init(cornerRadius: CGFloat = Radius.card, amplitude: CGFloat = 1.1, seed: UInt64 = 0x_C7A1_0000_0000_0001) {
         self.cornerRadius = cornerRadius
         self.amplitude = amplitude
         self.seed = seed
@@ -101,7 +104,25 @@ public struct WobbleShape: InsettableShape {
                 points.append(CGPoint(x: from.x + (target.x - from.x) * t, y: from.y + (target.y - from.y) * t))
             }
         }
-        return points
+
+        // Collapse samples that land on top of each other.
+        //
+        // When the radius is half the short side — every pill, and the mascot's body — the short
+        // edges have zero length, and the loop above still adds four "edge" samples at one spot.
+        // Jittered independently, a cluster of coincident points becomes a spike, so pills came
+        // out with pointed ends. Removing near-duplicates *before* jitter fixes it at the source.
+        // Shapes with no degenerate edge produce no duplicates, so their outlines — and the
+        // seeded jitter sequence behind them — are unchanged.
+        var unique: [CGPoint] = []
+        for point in points {
+            if let last = unique.last, hypot(point.x - last.x, point.y - last.y) < 0.5 { continue }
+            unique.append(point)
+        }
+        if unique.count > 2, let first = unique.first, let last = unique.last,
+           hypot(first.x - last.x, first.y - last.y) < 0.5 {
+            unique.removeLast()
+        }
+        return unique
     }
 
     /// Curve *through* the jittered points rather than connecting them with straight lines.
@@ -176,6 +197,73 @@ public extension View {
             let shape = WobbleShape(cornerRadius: cornerRadius, amplitude: 1.0, seed: seed)
             shape.fill(Palette.surfaceRaised)
                 .overlay(shape.stroke(Palette.separator.opacity(0.55), lineWidth: 1.5))
+        }
+    }
+}
+
+// MARK: - Toy depth
+
+/// The thick "base" under every drawn object — what makes a card read as a chunky toy sitting on
+/// the table rather than a sticker lying flat on it.
+///
+/// A hard offset copy of the shape, never a blur. It is `textTertiary` at 40%, which adapts: a
+/// fixed dark shadow would vanish on the blackboard, which is exactly the bug the old
+/// `Elevation.shadowColor` had.
+public enum Chunky {
+    public static let cardDepth: CGFloat = 5
+    public static let buttonDepth: CGFloat = 4
+    public static var baseColor: Color { Palette.textTertiary.opacity(0.4) }
+}
+
+// MARK: - Squish
+
+/// A button that sits on a base and presses *down into it*, then springs back.
+///
+/// The single most "Q" interaction there is: a candy button with visible thickness that squashes
+/// under your thumb. The label moves three quarters of the way down onto its base while held and
+/// bounces back on release, so the press is felt as depth rather than as dimming.
+///
+/// `base` must be the same shape the label is clipped to, or the base peeks out as a mismatched
+/// outline. Under Reduce Motion the label does not move — the base still shows the depth, and a
+/// dim carries the press, the same split ``PressableButtonStyle`` makes.
+public struct SquishButtonStyle<Base: Shape>: ButtonStyle {
+    private let base: Base
+    private let baseColor: Color
+    private let depth: CGFloat
+
+    public init(base: Base, baseColor: Color, depth: CGFloat = Chunky.buttonDepth) {
+        self.base = base
+        self.baseColor = baseColor
+        self.depth = depth
+    }
+
+    public func makeBody(configuration: Configuration) -> some View {
+        SquishBody(configuration: configuration, base: base, baseColor: baseColor, depth: depth)
+    }
+
+    /// A nested `View` so `@Environment` is actually populated — see `PressableButtonStyle`.
+    private struct SquishBody: View {
+        let configuration: ButtonStyleConfiguration
+        let base: Base
+        let baseColor: Color
+        let depth: CGFloat
+
+        @Environment(\.accessibilityReduceMotion) private var reduceMotion
+        @Environment(\.isEnabled) private var isEnabled
+
+        var body: some View {
+            let pressed = configuration.isPressed && isEnabled
+            configuration.label
+                .offset(y: pressed && !reduceMotion ? depth * 0.75 : 0)
+                // Attached after `offset`, so it is laid out in the label's *unmoved* frame:
+                // the base stays on the table while the button travels down onto it.
+                .background {
+                    base.fill(baseColor).offset(y: depth)
+                }
+                .opacity(pressed ? 0.94 : 1)
+                // Reserve the base's height so it never overlaps whatever sits below.
+                .padding(.bottom, depth)
+                .animation(Motion.squish(reduceMotion), value: pressed)
         }
     }
 }
