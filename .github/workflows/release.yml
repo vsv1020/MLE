@@ -24,6 +24,10 @@ on:
   # every run creates a real build in App Store Connect, so it should take an explicit act.
   push:
     tags: ['v*']
+    # Or: change the RELEASE file on main. Useful where tags cannot be pushed; the file also
+    # records which version was shipped, and bumping it is the explicit act a release needs.
+    branches: [main]
+    paths: [RELEASE]
 
 concurrency:
   group: release
