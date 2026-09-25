@@ -40,9 +40,16 @@ final class VocabLoopUITests: XCTestCase {
         XCTAssertTrue(skip.waitForExistence(timeout: 20), "guest mode must be offered, not buried")
         skip.tap()
 
+        // The app's root is a study session now, not the tab bar — so "landed on the app" means
+        // the session's library button is there, and the tabs are one tap behind it.
         XCTAssertTrue(
-            app.tabBars.buttons["Today"].waitForExistence(timeout: 20),
+            libraryButton.waitForExistence(timeout: 20),
             "guest mode must land on the app, not a paywall"
+        )
+        libraryButton.tap()
+        XCTAssertTrue(
+            app.tabBars.buttons["Today"].waitForExistence(timeout: 10),
+            "the library must open onto the tabs"
         )
     }
 
@@ -105,22 +112,21 @@ final class VocabLoopUITests: XCTestCase {
         XCTAssertTrue(scrollToHit(add), "the daily word's Add button never became tappable")
         add.tap()
 
-        // The Today tile is one combined accessibility element whose label leads with the call to
-        // action, so it is matched on that rather than on an exact string that includes counts.
-        let startStudying = app.buttons.matching(
-            NSPredicate(format: "label BEGINSWITH %@", "Learn")
-        ).firstMatch
-        XCTAssertTrue(
-            startStudying.waitForExistence(timeout: 15),
-            "enrolling a word must turn the Today tile into an invitation to learn it"
-        )
-        startStudying.tap()
+        // Today is a dashboard now, not a launcher: its button closes the library and returns to
+        // the root session, which rebuilds its queue on the way back and so picks up the new word.
+        let back = app.buttons["Back to studying"]
+        XCTAssertTrue(scrollToHit(back), "Today must offer a way back to the card")
+        back.tap()
 
         let showAnswer = app.buttons["Show answer"]
-        XCTAssertTrue(showAnswer.waitForExistence(timeout: 15), "the session must present a card")
+        XCTAssertTrue(
+            showAnswer.waitForExistence(timeout: 15),
+            "returning from the library must present the word just enrolled"
+        )
         showAnswer.tap()
 
-        // All four ratings, because a session offering fewer is a broken scheduler contract.
+        // All four grades, because a session offering fewer is a broken scheduler contract. The
+        // visible labels became faces and plain words; the accessibility descriptions did not.
         let good = app.buttons["Good — I remembered it"]
         XCTAssertTrue(good.waitForExistence(timeout: 10), "the rating bar must appear on reveal")
         for label in ["Again — I did not remember this", "Hard — I remembered it with difficulty",
@@ -129,32 +135,35 @@ final class VocabLoopUITests: XCTestCase {
         }
         XCTAssertFalse(showAnswer.exists, "Show answer must go away once the answer is showing")
 
-        // Grade until the session ends. Bounded: pressing Good on a new card walks it through the
-        // learning steps, so it comes back a couple of times before the queue empties.
+        // Grade until there is nothing left. The queue refills rather than ending, so the summary
+        // only appears once every enrolled card is out of its learning steps — one word enrols a
+        // card per direction, each of which comes back a few times. Bounded all the same.
         let done = app.buttons["Done"]
         var grades = 0
-        while grades < 12, !done.exists {
+        while grades < 40, !done.exists {
             if showAnswer.exists {
                 showAnswer.tap()
             } else if good.exists {
                 good.tap()
                 grades += 1
             } else {
-                break
+                _ = done.waitForExistence(timeout: 2)
             }
         }
 
         XCTAssertGreaterThan(grades, 0, "no card was ever graded")
         XCTAssertTrue(
             done.waitForExistence(timeout: 10),
-            "the session must end on a summary with a way out, not a dead end"
+            "running out of cards must end on a summary with a way out, not a dead end"
         )
-        XCTAssertTrue(app.staticTexts["Session complete"].exists)
+        XCTAssertTrue(app.staticTexts["All caught up"].exists)
 
+        // At the root, Done re-runs the session rather than dismissing anything. The library must
+        // still be reachable afterwards, or finishing would leave the user with nowhere to go.
         done.tap()
         XCTAssertTrue(
-            tabBar.waitForExistence(timeout: 10),
-            "finishing a session must return to the app, not leave the cover up"
+            libraryButton.waitForExistence(timeout: 10),
+            "finishing must leave the app usable, not stranded on the summary"
         )
     }
 
@@ -231,6 +240,9 @@ final class VocabLoopUITests: XCTestCase {
         "Continue without an account", "Start learning", "Continue", "Get started",
     ]
 
+    /// The root session's leading button, which opens the tabs.
+    private var libraryButton: XCUIElement { app.buttons["Open library"] }
+
     /// Drive the first-run screens until the tab bar is up.
     ///
     /// One loop rather than "complete onboarding, then dismiss the auth landing". The number of
@@ -243,6 +255,9 @@ final class VocabLoopUITests: XCTestCase {
     @discardableResult
     private func reachMainTabs(timeout: TimeInterval = 90) -> XCUIElement {
         advanceThroughFirstRun(timeout: timeout)
+        // The first run ends on a card, not on the tabs: the root of the app is a study session
+        // and the tabs live in the library sheet behind its leading button.
+        if libraryButton.waitForExistence(timeout: 10) { libraryButton.tap() }
         let tabBar = app.tabBars.firstMatch
         XCTAssertTrue(
             tabBar.waitForExistence(timeout: 10),
@@ -260,7 +275,7 @@ final class VocabLoopUITests: XCTestCase {
         let deadline = Date().addingTimeInterval(timeout)
 
         while Date() < deadline {
-            if tabBar.exists { return }
+            if tabBar.exists || libraryButton.exists { return }
             if let label, app.buttons[label].exists { return }
 
             let next = Self.firstRunAdvanceButtons
