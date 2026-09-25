@@ -24,8 +24,9 @@ on:
   # every run creates a real build in App Store Connect, so it should take an explicit act.
   push:
     tags: ['v*']
-    # Or: change the RELEASE file on main. Useful where tags cannot be pushed; the file also
-    # records which version was shipped, and bumping it is the explicit act a release needs.
+    # Or: change the RELEASE file on main. Its first line is the version shown in the App
+    # Store (MARKETING_VERSION); anything below is release notes, and editing them re-ships
+    # the same version with a new build number.
     branches: [main]
     paths: [RELEASE]
 
@@ -35,7 +36,7 @@ concurrency:
 
 jobs:
   testflight:
-    runs-on: macos-15
+    runs-on: macos-26
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
@@ -54,7 +55,15 @@ jobs:
           exit $missing
 
       - name: Select Xcode
-        run: sudo xcode-select -s /Applications/Xcode_16.4.app || sudo xcode-select -s /Applications/Xcode.app
+        run: |
+          # App Store Connect only accepts builds made with the iOS 26 SDK or later (Xcode 26+);
+          # the first upload was rejected for being built with 18.5. Take the newest Xcode 26
+          # on the image rather than pinning a point release that the image will eventually drop.
+          XCODE=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1)
+          if [ -z "$XCODE" ]; then echo "::error::No Xcode 26 on this runner image"; ls -d /Applications/Xcode*.app; exit 1; fi
+          sudo xcode-select -s "$XCODE"
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
 
       - name: Install API key
         env:
@@ -86,6 +95,7 @@ jobs:
             DEVELOPMENT_TEAM="$APPLE_TEAM_ID" \
             CODE_SIGN_STYLE=Automatic \
             CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
+            MARKETING_VERSION="$(head -n1 RELEASE | tr -d '[:space:]')" \
             | tee "$RUNNER_TEMP/archive.log" | grep -E "error:|warning: .*deprecated|\*\* ARCHIVE" || true
           test -d "$RUNNER_TEMP/VocabLoop.xcarchive" || { tail -80 "$RUNNER_TEMP/archive.log"; exit 1; }
 

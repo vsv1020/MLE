@@ -117,22 +117,21 @@ jobs:
   # ── The real question ────────────────────────────────────────────────────────
   build-test:
     name: Build and test
-    runs-on: macos-15
+    runs-on: macos-26
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
       - name: Select Xcode
         run: |
-          ls /Applications | grep -i '^Xcode' || true
-          # The project is objectVersion 77 and uses file-system-synchronized groups,
-          # which need Xcode 16 or later. Fall back to whatever the image ships rather
-          # than hard-failing on an exact version.
-          sudo xcode-select -s /Applications/Xcode_16.4.app 2>/dev/null \
-            || sudo xcode-select -s /Applications/Xcode_16.app 2>/dev/null \
-            || echo "Using the image default Xcode"
+          # App Store Connect only accepts builds made with the iOS 26 SDK or later (Xcode 26+);
+          # the first upload was rejected for being built with 18.5. Take the newest Xcode 26
+          # on the image rather than pinning a point release that the image will eventually drop.
+          XCODE=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1)
+          if [ -z "$XCODE" ]; then echo "::error::No Xcode 26 on this runner image"; ls -d /Applications/Xcode*.app; exit 1; fi
+          sudo xcode-select -s "$XCODE"
           xcodebuild -version
-          swift --version
+          xcrun --sdk iphoneos --show-sdk-version
 
       # Both printed unconditionally. `-list` is what would have caught the scheme's
       # broken test action immediately instead of after a build attempt; `simctl` is what
@@ -145,13 +144,23 @@ jobs:
       - name: Build and test
         run: |
           set -o pipefail
+          # The newest available iPhone simulator, by UDID. A hard-coded model name breaks the
+          # first time an image drops it — Xcode 26 images ship the iPhone 17 line, and the
+          # "iPhone 16" this used to name may not be installed.
+          SIM_ID=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          devs = json.load(sys.stdin)["devices"]
+          ios = sorted((k for k in devs if "iOS" in k), key=lambda k: [int(x) for x in k.split("iOS-")[-1].split("-")])
+          phones = [d for d in devs[ios[-1]] if d["name"].startswith("iPhone")]
+          print(sorted(phones, key=lambda d: d["name"])[-1]["udid"])')
+          echo "Testing on simulator $SIM_ID"
           # Tee'd to a file rather than relying on xcresulttool: its `get log` subcommand
           # changed shape in Xcode 16 and returned nothing useful in CI run #6, so the one
           # step whose whole job is to surface errors was silently empty.
           xcodebuild test \
             -project VocabLoop.xcodeproj \
             -scheme VocabLoop \
-            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -destination "platform=iOS Simulator,id=$SIM_ID" \
             -resultBundlePath TestResults.xcresult \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
