@@ -30,7 +30,7 @@ public struct WobbleShape: InsettableShape {
     /// Default amplitude 1.1, down from 1.5. The Q look is *round*, and a scratchier line pulls
     /// toward sketchbook rather than toy — the wobble should read as soft hand-made plastic, not
     /// as a pencil that slipped.
-    public init(cornerRadius: CGFloat = Radius.card, amplitude: CGFloat = 1.1, seed: UInt64 = 0x_C7A1_0000_0000_0001) {
+    public init(cornerRadius: CGFloat = Radius.card, amplitude: CGFloat = 1.1, seed: UInt64 = 0xC7A1_0000_0000_0001) {
         self.cornerRadius = cornerRadius
         self.amplitude = amplitude
         self.seed = seed
@@ -157,7 +157,7 @@ public struct PaperGrain: View {
     private let density: Int
     private let seed: UInt64
 
-    public init(density: Int = 700, seed: UInt64 = 0x_9A9E_5EED_0000_0011) {
+    public init(density: Int = 700, seed: UInt64 = 0x9A9E_5EED_0000_0011) {
         self.density = density
         self.seed = seed
     }

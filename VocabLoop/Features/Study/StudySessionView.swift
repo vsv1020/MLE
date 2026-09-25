@@ -413,7 +413,7 @@ struct RatingBar: View {
     /// and seeds 1…4 are close enough in its state space that the first few outputs come out
     /// visibly similar — which would defeat the whole point of seeding them separately.
     private func seed(for rating: Rating) -> UInt64 {
-        UInt64(rating.rawValue) &* 0x_9E37_79B9_7F4A_7C15
+        UInt64(rating.rawValue) &* 0x9E37_79B9_7F4A_7C15
     }
 }
 

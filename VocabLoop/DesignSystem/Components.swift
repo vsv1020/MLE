@@ -40,7 +40,7 @@ public struct CardContainer<Content: View>: View {
     public init(
         isRaised: Bool = false,
         style: Style = .flat,
-        wobbleSeed: UInt64 = 0x_C7A1_0000_0000_0001,
+        wobbleSeed: UInt64 = 0xC7A1_0000_0000_0001,
         @ViewBuilder content: () -> Content
     ) {
         self.isRaised = isRaised
@@ -140,7 +140,7 @@ public struct PressableButtonStyle: ButtonStyle {
     }
 
     public func makeBody(configuration: Configuration) -> some View {
-        Body(
+        PressedLabel(
             configuration: configuration,
             pressedScale: pressedScale,
             pressedOpacity: pressedOpacity
@@ -152,7 +152,10 @@ public struct PressableButtonStyle: ButtonStyle {
     /// `makeBody` is not a `View` body, so `@Environment` declared on the style itself is not
     /// reliably populated — the accessibility setting would silently read as its default and
     /// Reduce Motion would do nothing.
-    private struct Body: View {
+    /// Not named `Body`: that is `ButtonStyle`'s associated type, so a nested type of the same
+    /// name is taken as the witness for it and must then be public. The first real compile
+    /// (CI, macOS 15) failed on exactly this.
+    private struct PressedLabel: View {
         let configuration: ButtonStyleConfiguration
         let pressedScale: CGFloat
         let pressedOpacity: Double

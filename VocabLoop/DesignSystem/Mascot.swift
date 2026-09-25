@@ -41,7 +41,7 @@ public struct Mascot: View {
     public var body: some View {
         GeometryReader { proxy in
             let side = min(proxy.size.width, proxy.size.height)
-            let shape = WobbleShape(cornerRadius: side / 2, amplitude: 0.7, seed: 0x_0C41_0000_0000_0001)
+            let shape = WobbleShape(cornerRadius: side / 2, amplitude: 0.7, seed: 0x0C41_0000_0000_0001)
             ZStack {
                 shape.fill(Chunky.baseColor).offset(y: max(2, side * 0.06))
                 shape.fill(Palette.surface)

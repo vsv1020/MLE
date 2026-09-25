@@ -269,7 +269,7 @@ struct EntryDetailView: View {
     }
 
     private var grammarCard: some View {
-        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0x_E47D_0002) {
+        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0xE47D_0002) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 Text("Grammar")
                     .font(Typography.sectionHeader)
@@ -292,7 +292,7 @@ struct EntryDetailView: View {
     // MARK: - Scheduling
 
     private var schedulingCard: some View {
-        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0x_E47D_0003) {
+        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0xE47D_0003) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 Text("Scheduling")
                     .font(Typography.sectionHeader)
@@ -350,7 +350,7 @@ struct EntryDetailView: View {
     }
 
     private var historyCard: some View {
-        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0x_E47D_0004) {
+        CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0xE47D_0004) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 Text("Review history")
                     .font(Typography.sectionHeader)

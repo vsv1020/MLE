@@ -104,7 +104,7 @@ struct HomeView: View {
     /// card reports state and the *button inside it* takes you back. Tapping a status readout
     /// and being thrown into a review is the kind of surprise a dashboard should not contain.
     private var statusCard: some View {
-        CardContainer(style: .crayon, wobbleSeed: 0x_60E0_0001) {
+        CardContainer(style: .crayon, wobbleSeed: 0x60E0_0001) {
             VStack(alignment: .leading, spacing: Spacing.md) {
                 HStack(spacing: Spacing.md) {
                     ZStack {

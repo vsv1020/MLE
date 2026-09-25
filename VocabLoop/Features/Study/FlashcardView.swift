@@ -199,7 +199,7 @@ struct FlashcardView: View {
         VStack(alignment: .leading, spacing: Spacing.md) {
             // A drawn rule, not a hairline: `Divider` renders a 1px system line that belongs to
             // a different design system than everything around it.
-            WobbleShape(cornerRadius: 1, amplitude: 0.9, seed: WobbleShape.seed(for: card.cardID) &+ 0x_D1D1)
+            WobbleShape(cornerRadius: 1, amplitude: 0.9, seed: WobbleShape.seed(for: card.cardID) &+ 0xD1D1)
                 .stroke(Palette.separator.opacity(0.5), lineWidth: 1.5)
                 .frame(height: 2)
 
@@ -303,7 +303,7 @@ struct FlashcardView: View {
                     .background {
                         let shape = WobbleShape(cornerRadius: Radius.nested, amplitude: 1.0,
                                                 seed: WobbleShape.seed(for: card.cardID)
-                                                    &+ 0x_5A6E_2222 &+ UInt64(index) &* 0x9E37_79B9)
+                                                    &+ 0x5A6E_2222 &+ UInt64(index) &* 0x9E37_79B9)
                         shape.fill(Palette.brandSecondary.opacity(0.10))
                             .overlay(shape.stroke(Palette.brandSecondary.opacity(0.45), lineWidth: 1.5))
                     }
@@ -352,7 +352,7 @@ struct FlashcardView: View {
         }
         .padding(Spacing.sm)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .drawnPanel(seed: WobbleShape.seed(for: card.cardID) &+ 0x_67A3_1111)
+        .drawnPanel(seed: WobbleShape.seed(for: card.cardID) &+ 0x67A3_1111)
     }
 }
 
