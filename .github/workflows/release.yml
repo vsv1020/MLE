@@ -1,6 +1,7 @@
 name: Release to TestFlight
 
-# Builds, signs and uploads VocabLoop to App Store Connect. Manual only — every run
+# Builds, signs and uploads VocabLoop to App Store Connect. Manual or on a version tag —
+# every run
 # spends macOS minutes (billed at 10x) and produces a real build in your account.
 #
 # One-time setup, all in your own Apple account (nobody else can do these):
@@ -19,6 +20,10 @@ name: Release to TestFlight
 
 on:
   workflow_dispatch:
+  # Pushing a tag like `v1.0.0-b1` ships that commit. Deliberately a tag and not a branch:
+  # every run creates a real build in App Store Connect, so it should take an explicit act.
+  push:
+    tags: ['v*']
 
 concurrency:
   group: release
