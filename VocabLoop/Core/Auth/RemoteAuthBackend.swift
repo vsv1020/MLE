@@ -46,6 +46,10 @@ public final class RemoteAuthBackend: AuthBackend {
         var fullName: String?
     }
 
+    struct GoogleSignInRequest: Encodable {
+        var idToken: String
+    }
+
     struct ResetRequest: Encodable {
         var email: String
     }
@@ -79,6 +83,7 @@ public final class RemoteAuthBackend: AuthBackend {
     private static let signUp = APIClient.Endpoint(path: "auth/sign-up", method: "POST", requiresAuth: false)
     private static let signIn = APIClient.Endpoint(path: "auth/sign-in", method: "POST", requiresAuth: false)
     private static let appleSignIn = APIClient.Endpoint(path: "auth/apple", method: "POST", requiresAuth: false)
+    private static let googleSignIn = APIClient.Endpoint(path: "auth/google", method: "POST", requiresAuth: false)
     private static let resetRequest = APIClient.Endpoint(path: "auth/reset", method: "POST", requiresAuth: false)
     private static let resetComplete = APIClient.Endpoint(path: "auth/reset/complete", method: "POST", requiresAuth: false)
     private static let changePassword = APIClient.Endpoint(path: "auth/password", method: "PUT")
@@ -132,6 +137,22 @@ public final class RemoteAuthBackend: AuthBackend {
         let session = try await adopt(response, provider: .apple)
         if let account = try findAccount(withUserID: session.userID) {
             account.appleUserIdentifier = credential.userIdentifier
+            try context.save()
+        }
+        return session
+    }
+
+    /// The server must verify the ID token itself (signature, `aud`, `iss`, `exp`) — the
+    /// client-side checks only protect the on-device account.
+    public func signIn(google credential: GoogleCredential) async throws -> Session {
+        let response = try await client.send(
+            Self.googleSignIn,
+            body: GoogleSignInRequest(idToken: credential.idToken),
+            as: SessionResponse.self
+        )
+        let session = try await adopt(response, provider: .google)
+        if let account = try findAccount(withUserID: session.userID) {
+            account.googleUserIdentifier = credential.userIdentifier
             try context.save()
         }
         return session

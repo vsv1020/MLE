@@ -11,6 +11,8 @@ public enum AuthProvider: String, Codable, CaseIterable, Hashable, Sendable {
     case apple
     /// Email + password verified by the server.
     case remote
+    /// Google account, via Google's OAuth sign-in page.
+    case google
 
     public var displayName: String {
         switch self {
@@ -18,6 +20,7 @@ public enum AuthProvider: String, Codable, CaseIterable, Hashable, Sendable {
         case .local: "Email"
         case .apple: "Apple"
         case .remote: "Email"
+        case .google: "Google"
         }
     }
 
@@ -72,6 +75,10 @@ public final class UserAccount {
     /// Opaque, stable, per-developer-team user ID from Apple. The only reliable
     /// identifier Apple gives us — the email may be a relay address or absent.
     public var appleUserIdentifier: String?
+
+    /// Google's stable account ID (the ID token's `sub`). Matched on instead of email, for
+    /// the same reason as Apple's: a Google account's address can change.
+    public var googleUserIdentifier: String?
 
     /// Server-side ID, once the account has been registered remotely.
     public var remoteID: String?

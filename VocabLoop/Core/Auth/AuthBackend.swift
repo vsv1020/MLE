@@ -35,6 +35,7 @@ public protocol AuthBackend {
     func signUp(email: String, password: String, displayName: String) async throws -> SignUpResult
     func signIn(email: String, password: String) async throws -> Session
     func signIn(apple credential: AppleCredential) async throws -> Session
+    func signIn(google credential: GoogleCredential) async throws -> Session
 
     /// Begin recovery. The local backend verifies a recovery code offline; a remote one
     /// would send an email. Returns whether a code is required next.

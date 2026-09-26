@@ -39,6 +39,7 @@ struct AuthLandingView: View {
 
             VStack(spacing: Spacing.sm) {
                 AppleSignInButton(onSuccess: onFinished)
+                GoogleSignInButton(onSuccess: onFinished)
 
                 PrimaryButton("Create an account", systemImage: "envelope") {
                     route = .signUp

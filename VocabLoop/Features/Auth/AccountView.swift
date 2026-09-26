@@ -80,6 +80,17 @@ struct AccountView: View {
         } message: {
             Text(exportError ?? "")
         }
+        // Apple and Google report failures through `lastError` with no form of their own to
+        // show it on. The sign-in and sign-up sheets display theirs, so this stays out of the
+        // way while either is open.
+        .alert("Sign in failed", isPresented: Binding(
+            get: { auth.isGuest && auth.lastError != nil && !isShowingSignIn && !isShowingSignUp },
+            set: { if !$0 { auth.clearError() } }
+        )) {
+            Button("OK") { auth.clearError() }
+        } message: {
+            Text(auth.lastError?.localizedDescription ?? "")
+        }
         .alert("Could not save your name", isPresented: Binding(
             get: { profileError != nil },
             set: { if !$0 { profileError = nil } }
@@ -129,6 +140,11 @@ struct AccountView: View {
             AppleSignInButton()
                 .listRowInsets(EdgeInsets())
                 .listRowBackground(Color.clear)
+            if GoogleSignInConfiguration.isConfigured {
+                GoogleSignInButton()
+                    .listRowInsets(EdgeInsets())
+                    .listRowBackground(Color.clear)
+            }
             Button("Create an account") { isShowingSignUp = true }
             Button("Sign in") { isShowingSignIn = true }
         } header: {

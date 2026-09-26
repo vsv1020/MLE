@@ -152,6 +152,51 @@ public final class LocalAuthBackend: AuthBackend {
         return makeSession(for: account)
     }
 
+    public func signIn(google credential: GoogleCredential) async throws -> Session {
+        let now = Date()
+        let identifier = credential.userIdentifier
+
+        var descriptor = FetchDescriptor<UserAccount>(
+            predicate: #Predicate { $0.googleUserIdentifier == identifier }
+        )
+        descriptor.fetchLimit = 1
+
+        let account: UserAccount
+        if let existing = try context.fetch(descriptor).first {
+            account = existing
+        } else if let email = credential.email, let byEmail = try findAccount(withEmail: email.normalizedEmail) {
+            // Google only hands over an address it has verified (the coordinator drops
+            // unverified ones), which is stronger proof of ownership than the unverified
+            // address a local account was created with. Linking beats leaving two accounts
+            // on one device with the same email. The account keeps its provider, so an email
+            // account's password still works afterwards.
+            account = byEmail
+        } else if let guest = try adoptableGuest() {
+            account = guest
+            account.provider = .google
+        } else {
+            let fresh = UserAccount(displayName: credential.fullName ?? "Me", provider: .google, now: now)
+            context.insert(fresh)
+            account = fresh
+        }
+
+        account.googleUserIdentifier = identifier
+        if account.email == nil, let email = credential.email, !email.isEmpty {
+            account.email = email.normalizedEmail
+        }
+        if let name = credential.fullName, !name.isEmpty, account.displayName.isEmpty || account.displayName == "Guest" {
+            account.displayName = name
+        }
+        if account.displayName.isEmpty { account.displayName = "Me" }
+        account.isActive = true
+        account.lastSignedInAt = now
+        account.touch(now)
+
+        try deactivateOthers(except: account)
+        try saveOrThrow()
+        return makeSession(for: account)
+    }
+
     // MARK: - Password reset
 
     public func beginPasswordReset(email: String) async throws -> PasswordResetChallenge {

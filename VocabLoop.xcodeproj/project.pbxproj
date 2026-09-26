@@ -370,7 +370,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/VocabLoop.entitlements;
 				GENERATE_INFOPLIST_FILE = YES;
+				GOOGLE_CLIENT_ID = "";
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VocabLoop;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
@@ -401,7 +404,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/VocabLoop.entitlements;
 				GENERATE_INFOPLIST_FILE = YES;
+				GOOGLE_CLIENT_ID = "";
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VocabLoop;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";

@@ -80,6 +80,9 @@ jobs:
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
           ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
           ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          # Not a secret (an iOS OAuth client has none), so a repository *variable*. Empty
+          # hides the Google button rather than shipping one that cannot work.
+          GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_IOS_CLIENT_ID }}
         run: |
           # Build number = run number, so every upload is unique without editing the project.
           set -o pipefail
@@ -97,6 +100,7 @@ jobs:
             CODE_SIGN_STYLE=Automatic \
             CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
             MARKETING_VERSION="$(head -n1 RELEASE | tr -d '[:space:]')" \
+            GOOGLE_CLIENT_ID="$GOOGLE_CLIENT_ID" \
             | tee "$RUNNER_TEMP/archive.log" | grep -E "error:|warning: .*deprecated|\*\* ARCHIVE" || true
           test -d "$RUNNER_TEMP/VocabLoop.xcarchive" || { tail -80 "$RUNNER_TEMP/archive.log"; exit 1; }
 

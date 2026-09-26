@@ -32,6 +32,7 @@ public final class AuthService {
     private let localBackend: LocalAuthBackend
     private let remoteBackend: RemoteAuthBackend?
     private let appleCoordinator: AppleSignInCoordinator
+    private let googleCoordinator: GoogleSignInCoordinator
     private let logger = Logger(subsystem: "com.vocabloop.app", category: "auth")
 
     /// - Parameter appleCoordinator: Pass a stub in tests. Defaults to `nil` rather than to
@@ -48,6 +49,7 @@ public final class AuthService {
         self.localBackend = LocalAuthBackend(context: context)
         self.remoteBackend = remoteBackend
         self.appleCoordinator = appleCoordinator ?? AppleSignInCoordinator()
+        self.googleCoordinator = GoogleSignInCoordinator()
     }
 
     /// The backend to use: the remote one when a server is configured, otherwise local.
@@ -162,6 +164,16 @@ public final class AuthService {
     public func signIn(appleCredential: AppleCredential) async -> Bool {
         await perform {
             let session = try await self.backend.signIn(apple: appleCredential)
+            try self.keychain.save(session)
+            self.current = session
+        }
+    }
+
+    /// Google's sign-in page, then sign in. Keeps guest progress exactly as Apple does.
+    public func signInWithGoogle() async -> Bool {
+        await perform {
+            let credential = try await self.googleCoordinator.requestCredential()
+            let session = try await self.backend.signIn(google: credential)
             try self.keychain.save(session)
             self.current = session
         }

@@ -75,6 +75,24 @@ public struct AppleCredential: Hashable, Sendable {
     }
 }
 
+/// Credential from Google sign-in, already verified by ``GoogleSignInCoordinator``.
+public struct GoogleCredential: Hashable, Sendable {
+    /// The ID token's `sub`: stable for the life of the Google account.
+    public var userIdentifier: String
+    /// Only set when Google reports the address as verified.
+    public var email: String?
+    public var fullName: String?
+    /// Raw ID token, for a server to verify independently. Unused by the local backend.
+    public var idToken: String
+
+    public init(userIdentifier: String, email: String? = nil, fullName: String? = nil, idToken: String) {
+        self.userIdentifier = userIdentifier
+        self.email = email
+        self.fullName = fullName
+        self.idToken = idToken
+    }
+}
+
 /// Errors surfaced to the user.
 ///
 /// Messages are deliberately vague about *which* credential was wrong.
@@ -95,6 +113,8 @@ public enum AuthError: LocalizedError, Equatable {
     case appleSignInFailed(String)
     case appleSignInUnavailable
     case appleSignInCancelled
+    case googleSignInFailed(String)
+    case googleSignInCancelled
     case providerDoesNotSupportPasswords
     case network(String)
     case server(status: Int, message: String?)
@@ -126,11 +146,13 @@ public enum AuthError: LocalizedError, Equatable {
         case .appleSignInUnavailable:
             "Sign in with Apple is not enabled for this build. "
             + "Add the Sign in with Apple capability in Xcode, or use email instead."
-        case .appleSignInCancelled:
+        case .appleSignInCancelled, .googleSignInCancelled:
             // Not surfaced — the user knows they cancelled.
             nil
+        case .googleSignInFailed(let detail):
+            "Sign in with Google did not complete: \(detail)"
         case .providerDoesNotSupportPasswords:
-            "This account signs in with Apple, so it has no password to change."
+            "This account signs in with Apple or Google, so it has no password to change."
         case .network(let detail):
             "Could not reach the server: \(detail)"
         case .server(let status, let message):
@@ -143,7 +165,7 @@ public enum AuthError: LocalizedError, Equatable {
     }
 
     /// `true` for errors that are not worth showing an alert for.
-    public var isSilent: Bool { self == .appleSignInCancelled }
+    public var isSilent: Bool { self == .appleSignInCancelled || self == .googleSignInCancelled }
 }
 
 /// Email and password validation.
