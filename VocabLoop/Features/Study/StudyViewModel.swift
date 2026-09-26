@@ -106,17 +106,26 @@ final class StudyViewModel {
             for: now, preferences: preferences, createIfMissing: false
         ))?.reviewsCompleted ?? 0
         do {
-            let built = try ReviewQueueBuilder().build(
+            var built = try ReviewQueueBuilder().build(
                 in: dependencies.context, at: now, options: options
             )
+            // A fresh install lands here: thousands of bundled words, none of them enrolled, so
+            // the builder — which only ever draws from enrolled cards — has nothing. Start the
+            // most common words rather than opening the app onto "Nothing to study".
+            if built.items.isEmpty,
+               try introduceNewWords(dependencies: dependencies, preferences: preferences, now: now) {
+                built = try ReviewQueueBuilder().build(
+                    in: dependencies.context, at: now, options: options
+                )
+            }
             deferredCount = built.deferredCount
             queue = try built.items.compactMap { try dependencies.context.card(cardID: $0.cardID) }
             plannedCount = queue.count
             currentIndex = 0
             startedAt = now
             refreshPreviews(preferences: preferences, now: now)
-            // An empty queue here really is "nothing at all" — `build` already looked at both
-            // the due pile and the new-word pool — so this one stays `.finished`.
+            // An empty queue here really is "nothing at all" — `build` already looked at the
+            // due pile and the enrolled new cards, and there were no words left to introduce.
             phase = queue.isEmpty ? .finished : .reviewing
         } catch {
             errorMessage = error.localizedDescription
@@ -220,9 +229,19 @@ final class StudyViewModel {
                 in: dependencies.context, at: now, options: options
             )
             let alreadyQueued = Set(queue.map(\.cardID))
-            let fresh = try built.items
+            var fresh = try built.items
                 .filter { !alreadyQueued.contains($0.cardID) }
                 .compactMap { try dependencies.context.card(cardID: $0.cardID) }
+            // Enrolled cards exhausted: this is where "study as much as you like" continues
+            // into words the user has never added. Without it the endless queue ended the
+            // moment the user's own list ran out.
+            if fresh.isEmpty,
+               try introduceNewWords(dependencies: dependencies, preferences: preferences, now: now) {
+                fresh = try ReviewQueueBuilder().build(in: dependencies.context, at: now, options: options)
+                    .items
+                    .filter { !alreadyQueued.contains($0.cardID) }
+                    .compactMap { try dependencies.context.card(cardID: $0.cardID) }
+            }
             guard !fresh.isEmpty else { return false }
 
             // Every card in the batch being unseen is what "the due pile is finished" looks
@@ -238,6 +257,30 @@ final class StudyViewModel {
             errorMessage = error.localizedDescription
             return false
         }
+    }
+
+    /// How many words to start when the queue runs dry. Small, because each word becomes one
+    /// card per enabled direction, and a batch of new words is followed by their learning steps.
+    static let introductionBatchSize = 5
+
+    /// Enrol the next most useful unstarted words. `true` when at least one card was created.
+    ///
+    /// Skipped for a deck-scoped session — introducing words from outside the deck would put
+    /// them in front of someone who asked to study only that deck — and for study-ahead, whose
+    /// whole point is cards the user already has.
+    private func introduceNewWords(
+        dependencies: AppDependencies, preferences: StudyPreferences, now: Date
+    ) throws -> Bool {
+        guard options.deckSlug == nil, !options.includeAhead, options.maxNewCards > 0 else { return false }
+        let account = try dependencies.context.activeAccount()
+        let entries = try dependencies.dailyWords.nextEntriesToIntroduce(
+            for: account, preferences: preferences, limit: Self.introductionBatchSize
+        )
+        var created = 0
+        for entry in entries {
+            created += try dependencies.review.enroll(entry: entry, preferences: preferences, now: now).count
+        }
+        return created > 0
     }
 
     /// Un-grade the previous card and put it back in front.

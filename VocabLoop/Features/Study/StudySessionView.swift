@@ -68,10 +68,13 @@ struct StudySessionView: View {
                     case .sheet:
                         dismiss()
                     case .root:
-                        // Nothing behind the root to dismiss to. Re-running `start` is the
-                        // honest action: if a card has since come due it appears, and if the
-                        // library is still empty the summary simply comes straight back.
+                        // Nothing behind the root to dismiss to. Re-run `start` first: a card
+                        // may have come due, and it introduces new words if any are left. If
+                        // there is still nothing, open the library — re-rendering the same
+                        // summary made the button look broken, which is exactly how it was
+                        // reported.
                         model.start(dependencies: dependencies, options: options)
+                        if model.phase == .finished { isShowingLibrary = true }
                     }
                 }
             }

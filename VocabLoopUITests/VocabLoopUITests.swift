@@ -46,6 +46,14 @@ final class VocabLoopUITests: XCTestCase {
             libraryButton.waitForExistence(timeout: 20),
             "guest mode must land on the app, not a paywall"
         )
+        // …and onto a card. A fresh install has no enrolled words; the session starts the most
+        // common bundled ones itself. This once opened onto "Nothing to study" with a Done
+        // button that did nothing visible — reported from a real device.
+        XCTAssertTrue(
+            app.buttons["Show answer"].waitForExistence(timeout: 15),
+            "a fresh install must open onto a word card"
+        )
+        XCTAssertFalse(app.staticTexts["Nothing to study"].exists)
         libraryButton.tap()
         XCTAssertTrue(
             app.tabBars.buttons["Today"].waitForExistence(timeout: 10),
@@ -100,9 +108,9 @@ final class VocabLoopUITests: XCTestCase {
     ///
     /// The unit suite covers grading arithmetic thoroughly — 225 tests over FSRS, SM-2, the queue
     /// builder and the day rollups — but until now nothing drove the loop the whole app exists for:
-    /// accept a word, start a session, reveal, grade, land on the summary. Every step below is one
+    /// accept a word, return to the session, reveal, grade, keep going. Every step below is one
     /// the unit tests cannot see, because each is a wiring question rather than a logic one.
-    func testAcceptingAWordAndReviewingItReachesTheSummary() throws {
+    func testAcceptingAWordAndReviewingKeepsGoing() throws {
         let tabBar = reachMainTabs()
         tabBar.buttons["Today"].tap()
 
@@ -135,36 +143,25 @@ final class VocabLoopUITests: XCTestCase {
         }
         XCTAssertFalse(showAnswer.exists, "Show answer must go away once the answer is showing")
 
-        // Grade until there is nothing left. The queue refills rather than ending, so the summary
-        // only appears once every enrolled card is out of its learning steps — one word enrols a
-        // card per direction, each of which comes back a few times. Bounded all the same.
-        let done = app.buttons["Done"]
+        // Keep going. With a bundled library the session never runs out — once the enrolled
+        // cards are out of their steps it introduces more words — so the contract checked here is
+        // that grading keeps producing cards rather than landing on a summary.
         var grades = 0
-        while grades < 40, !done.exists {
+        while grades < 12 {
             if showAnswer.exists {
                 showAnswer.tap()
-            } else if good.exists {
+            } else if good.waitForExistence(timeout: 5) {
                 good.tap()
                 grades += 1
             } else {
-                _ = done.waitForExistence(timeout: 2)
+                break
             }
         }
 
-        XCTAssertGreaterThan(grades, 0, "no card was ever graded")
-        XCTAssertTrue(
-            done.waitForExistence(timeout: 10),
-            "running out of cards must end on a summary with a way out, not a dead end"
-        )
-        XCTAssertTrue(app.staticTexts["All caught up"].exists)
-
-        // At the root, Done re-runs the session rather than dismissing anything. The library must
-        // still be reachable afterwards, or finishing would leave the user with nowhere to go.
-        done.tap()
-        XCTAssertTrue(
-            libraryButton.waitForExistence(timeout: 10),
-            "finishing must leave the app usable, not stranded on the summary"
-        )
+        XCTAssertEqual(grades, 12, "the session stopped offering cards")
+        XCTAssertFalse(app.staticTexts["All caught up"].exists, "an endless session must not end")
+        XCTAssertFalse(app.staticTexts["Nothing to study"].exists)
+        XCTAssertTrue(libraryButton.exists, "the library must stay one tap away mid-session")
     }
 
     /// Capture every top-level screen from the running app.

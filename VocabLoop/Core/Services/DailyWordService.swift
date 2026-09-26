@@ -77,8 +77,44 @@ public final class DailyWordService {
         preferences: StudyPreferences,
         dayKey: String
     ) throws -> [String] {
-        let language = preferences.activeLanguage
-        let languageCode = language.rawValue
+        let languageCode = preferences.activeLanguage.rawValue
+        let ranked = try rankedEligibleEntries(for: account, preferences: preferences)
+        guard !ranked.isEmpty else { return [] }
+
+        // Draw from a window at the front of the ranked list rather than the whole
+        // dictionary, so the words offered stay level-appropriate while still varying
+        // day to day.
+        let target = max(0, preferences.newWordsPerDay)
+        let window = Array(ranked.prefix(max(target * 12, 60)))
+
+        var generator = SeededGenerator(
+            seed: Self.seed(userID: account.userID, dayKey: dayKey, languageCode: languageCode)
+        )
+        return window.shuffled(using: &generator).prefix(target).map(\.stableID)
+    }
+
+    /// The next words to start, most useful first, for a session that has run out of cards.
+    ///
+    /// Not the daily batch. The batch is an *offer* — a handful of words shown for the user to
+    /// accept or decline. This is what the endless card queue draws from once everything due
+    /// and everything already enrolled is done: the same eligibility rules (language, level
+    /// range, not declined, deck active), in plain frequency order, with no daily shuffle,
+    /// because a session that keeps going should keep going through the most common words.
+    public func nextEntriesToIntroduce(
+        for account: UserAccount,
+        preferences: StudyPreferences,
+        limit: Int
+    ) throws -> [Entry] {
+        guard limit > 0 else { return [] }
+        return Array(try rankedEligibleEntries(for: account, preferences: preferences).prefix(limit))
+    }
+
+    /// Unenrolled, undeclined, level-appropriate entries in active decks, by frequency rank.
+    private func rankedEligibleEntries(
+        for account: UserAccount,
+        preferences: StudyPreferences
+    ) throws -> [Entry] {
+        let languageCode = preferences.activeLanguage.rawValue
         let floor = preferences.cefrFloor
         let ceiling = preferences.cefrCeiling
 
@@ -100,25 +136,12 @@ public final class DailyWordService {
             return entry.decks.contains { activeDeckSlugs.contains($0.slug) }
         }
 
-        guard !eligible.isEmpty else { return [] }
-
-        // Rank first so the draw is over useful words, then permute deterministically.
-        let ranked = eligible.sorted { lhs, rhs in
+        // Rank first so any draw is over useful words.
+        return eligible.sorted { lhs, rhs in
             let a = lhs.frequencyRank ?? Int.max
             let b = rhs.frequencyRank ?? Int.max
             return a == b ? lhs.stableID < rhs.stableID : a < b
         }
-
-        // Draw from a window at the front of the ranked list rather than the whole
-        // dictionary, so the words offered stay level-appropriate while still varying
-        // day to day.
-        let target = max(0, preferences.newWordsPerDay)
-        let window = Array(ranked.prefix(max(target * 12, 60)))
-
-        var generator = SeededGenerator(
-            seed: Self.seed(userID: account.userID, dayKey: dayKey, languageCode: languageCode)
-        )
-        return window.shuffled(using: &generator).prefix(target).map(\.stableID)
     }
 
     private func previouslyDismissed(userID: String, languageCode: String) throws -> Set<String> {

@@ -468,6 +468,53 @@ final class RegressionTests: XCTestCase {
         XCTAssertTrue(model.queue.isEmpty)
     }
 
+    /// A fresh install must open onto a card, not onto "Nothing to study".
+    ///
+    /// Reported from a device: the bundled library had thousands of words, none of them
+    /// enrolled, and the queue only ever drew enrolled cards — so the first screen was empty and
+    /// its Done button re-ran the same empty query. The session now starts the most common words
+    /// itself, in frequency order.
+    func testFreshInstallIntroducesWordsInsteadOfFinishing() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+
+        for index in 0..<20 {
+            _ = try TestStore.makeEntry(
+                in: context, headword: "bundled\(index)", frequencyRank: 20 - index
+            )
+        }
+
+        let model = StudyViewModel()
+        model.start(dependencies: dependencies, options: .init(), now: referenceDate)
+
+        XCTAssertEqual(model.phase, .reviewing, "opens onto a card")
+        XCTAssertEqual(model.currentCard?.entry?.headword, "bundled19", "most frequent word first")
+        let enrolled = try context.fetch(FetchDescriptor<Entry>()).filter(\.isEnrolled)
+        XCTAssertEqual(enrolled.count, StudyViewModel.introductionBatchSize, "a small batch, not the dictionary")
+    }
+
+    /// Running out of the user's own words continues into unstarted ones.
+    func testExhaustingEnrolledCardsIntroducesMoreWords() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+
+        let own = try TestStore.makeEntry(in: context, headword: "own", frequencyRank: 1)
+        try TestStore.makeCard(in: context, for: own, phase: .new, due: referenceDate, intervalDays: 0)
+        _ = try TestStore.makeEntry(in: context, headword: "waiting", frequencyRank: 2)
+
+        let model = StudyViewModel()
+        model.start(dependencies: dependencies, options: .init(), now: referenceDate)
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+
+        XCTAssertEqual(model.phase, .reviewing)
+        XCTAssertEqual(model.currentCard?.entry?.headword, "waiting")
+    }
+
     // MARK: - Pausing and resuming a whole word
 
     /// Resuming a word must unsuspend *all* of its cards.
