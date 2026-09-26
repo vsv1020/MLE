@@ -1,0 +1,38 @@
+name: Distribute TestFlight build
+
+# Puts an already-uploaded build in front of testers, without building anything. Runs on
+# Linux in about a minute, so fixing distribution does not cost a 5-minute macOS rebuild and
+# a new build number each time. Triggered by changing DISTRIBUTE on main, or manually.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [DISTRIBUTE]
+
+jobs:
+  distribute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Distribute
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          BUNDLE_ID: com.vocabloop.app
+          TESTFLIGHT_TESTERS: vsv.zhang@gmail.com
+        run: |
+          mkdir -p "$RUNNER_TEMP/keys"
+          printf '%s\n' "$ASC_KEY_P8" > "$RUNNER_TEMP/keys/key.p8"
+          export KEY_PATH="$RUNNER_TEMP/keys/key.p8"
+          export APP_VERSION="$(head -n1 RELEASE | tr -d '[:space:]')"
+          export WHATS_NEW="$(tail -n +2 RELEASE | sed '/./,$!d')"
+          node scripts/testflight-distribute.mjs
+      - name: Remove API key
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys"

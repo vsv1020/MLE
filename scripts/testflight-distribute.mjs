@@ -21,7 +21,8 @@ const ISSUER = env('ASC_ISSUER_ID');
 const KEY = fs.readFileSync(env('KEY_PATH'), 'utf8');
 const BUNDLE_ID = env('BUNDLE_ID');
 const VERSION = env('APP_VERSION');
-const BUILD = env('BUILD_NUMBER');
+// Optional: without it, the newest build of APP_VERSION is used (the distribute-only workflow).
+const BUILD = process.env.BUILD_NUMBER || '';
 const TESTERS = env('TESTFLIGHT_TESTERS').split(/[\s,]+/).filter(Boolean);
 const GROUP_NAME = process.env.TESTFLIGHT_GROUP || 'Internal';
 const NOTES = process.env.WHATS_NEW || '';
@@ -65,11 +66,11 @@ async function main() {
   let build;
   const deadline = Date.now() + 40 * 60 * 1000;
   while (Date.now() < deadline) {
-    const q = `/v1/builds?filter[app]=${appId}&filter[version]=${BUILD}` +
-      `&filter[preReleaseVersion.version]=${VERSION}&fields[builds]=processingState,version&limit=1`;
+    const q = `/v1/builds?filter[app]=${appId}` + (BUILD ? `&filter[version]=${BUILD}` : '') +
+      `&filter[preReleaseVersion.version]=${VERSION}&sort=-uploadedDate&fields[builds]=processingState,version&limit=1`;
     const found = (await api('GET', q)).data[0];
     const state = found?.attributes.processingState ?? 'NOT_YET_VISIBLE';
-    console.log(`build ${VERSION} (${BUILD}): ${state}`);
+    console.log(`build ${VERSION} (${found?.attributes.version ?? BUILD}): ${state}`);
     if (state === 'VALID') { build = found; break; }
     if (state === 'FAILED' || state === 'INVALID') {
       throw new Error(`App Store Connect rejected build ${VERSION} (${BUILD}) during processing: ${state}. Check the email Apple sent.`);
@@ -114,7 +115,20 @@ async function main() {
   }
 
   for (const email of TESTERS) {
-    let tester = (await api('GET', `/v1/betaTesters?filter[email]=${encodeURIComponent(email)}&limit=1`)).data[0];
+    // Internal groups accept only members of the App Store Connect team, so say up front whether
+    // this address is one — the second release run failed on exactly this, silently.
+    try {
+      const users = await api('GET', `/v1/users?filter[username]=${encodeURIComponent(email)}&fields[users]=username,roles,allAppsVisible&limit=1`);
+      const u = users.data[0];
+      console.log(u
+        ? `${email}: team user, roles ${u.attributes.roles.join(', ')}`
+        : `${email}: NOT a user of this App Store Connect team (Users and Access)`);
+    } catch (e) {
+      console.log(`${email}: could not check team membership (${e.message})`);
+    }
+    let tester = (await api('GET', `/v1/betaTesters?filter[email]=${encodeURIComponent(email)}&filter[apps]=${appId}&limit=1`)).data[0]
+      ?? (await api('GET', `/v1/betaTesters?filter[email]=${encodeURIComponent(email)}&limit=1`)).data[0];
+    console.log(`${email}: tester record ${tester ? tester.id : 'none'}`);
     if (!tester) {
       try {
         tester = (await api('POST', '/v1/betaTesters', {
@@ -128,7 +142,13 @@ async function main() {
     } else {
       try {
         await api('POST', `/v1/betaGroups/${group.id}/relationships/betaTesters`, { data: [{ type: 'betaTesters', id: tester.id }] });
-      } catch (e) { if (e.status !== 409 && e.status !== 422) throw e; }
+        console.log(`${email}: added to "${GROUP_NAME}"`);
+      } catch (e) {
+        // Print Apple's own words. This used to swallow 409 *and* 422 as "already a member", and
+        // the 422 was the real refusal — the membership check below then caught it.
+        console.log(`${email}: adding to "${GROUP_NAME}" was refused — ${e.message}`);
+        if (e.status !== 409 && e.status !== 422) throw e;
+      }
     }
     try {
       await api('POST', '/v1/betaTesterInvitations', {
