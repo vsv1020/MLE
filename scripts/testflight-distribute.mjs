@@ -176,7 +176,7 @@ async function main() {
     }
     console.log(`verified: ${email} is in "${GROUP_NAME}" (state: ${byEmail.get(email.toLowerCase()) ?? 'unknown'})`);
   }
-  console.log(`\n${VERSION} (${BUILD}) is available in TestFlight to group "${GROUP_NAME}".`);
+  console.log(`\n${VERSION} (${build.attributes.version}) is available in TestFlight to group "${GROUP_NAME}".`);
 }
 
 main().catch((e) => { console.error(`::error::${e.message}`); process.exit(1); });
