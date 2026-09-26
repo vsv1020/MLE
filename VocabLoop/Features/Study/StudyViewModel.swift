@@ -13,6 +13,9 @@ final class StudyViewModel {
     enum Phase {
         case loading
         case reviewing
+        /// The daily goal was just reached. The queue is untouched underneath, so "keep going"
+        /// resumes exactly where the user was.
+        case goalReached
         case finished
     }
 
@@ -78,6 +81,13 @@ final class StudyViewModel {
         return min(Double(reviewsToday) / Double(goalTarget), 1)
     }
 
+    /// `true` once today's goal is met — the counter stops reading "34 / 30", which looks like
+    /// a bug, and becomes a plain count with a tick.
+    var isGoalMet: Bool {
+        guard let goalTarget, goalTarget > 0 else { return false }
+        return reviewsToday >= goalTarget
+    }
+
     var accuracy: Double? {
         guard reviewedCount > 0 else { return nil }
         return Double(correctCount) / Double(reviewedCount)
@@ -133,6 +143,12 @@ final class StudyViewModel {
         }
     }
 
+    /// "Keep going" from the goal screen.
+    func continueAfterGoal() {
+        guard phase == .goalReached else { return }
+        phase = queue.isEmpty ? .finished : .reviewing
+    }
+
     // MARK: - Reveal and grade
 
     func revealAnswer(now: Date = Date()) {
@@ -155,7 +171,11 @@ final class StudyViewModel {
                 durationMS: durationMS, now: now
             )
             reviewedCount += 1
+            let wasBelowGoal = !isGoalMet
             reviewsToday += 1
+            // Exactly on the crossing, so it celebrates once a day: a session opened after the
+            // goal is already met, or the fortieth card of an evening, does not interrupt.
+            let justReachedGoal = wasBelowGoal && isGoalMet
             if rating.isSuccess { correctCount += 1 }
             ratingCounts[rating, default: 0] += 1
             lastGraded = card
@@ -166,6 +186,11 @@ final class StudyViewModel {
                 after: card, returnsThisSession: result.returnsThisSession,
                 dependencies: dependencies, preferences: preferences, now: now
             )
+            // If the library also ran out on this card, the summary already says "done".
+            if justReachedGoal, phase == .reviewing {
+                phase = .goalReached
+                Haptics.success()
+            }
         } catch {
             errorMessage = error.localizedDescription
         }

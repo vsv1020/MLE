@@ -27,6 +27,8 @@ struct StudySessionView: View {
     @State private var model = StudyViewModel()
     @State private var isConfirmingExit = false
     @State private var isShowingLibrary = false
+    /// "Done for today" at the root: the goal screen stays up in its resting form.
+    @State private var isRestingForToday = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -62,6 +64,22 @@ struct StudySessionView: View {
                     Spacer()
                 }
 
+            case .goalReached:
+                GoalCompleteView(
+                    model: model,
+                    onContinue: {
+                        isRestingForToday = false
+                        model.continueAfterGoal()
+                    },
+                    onDone: {
+                        switch presentation {
+                        case .sheet: dismiss()
+                        case .root: isRestingForToday = true
+                        }
+                    },
+                    isResting: isRestingForToday
+                )
+
             case .finished:
                 SessionSummaryView(model: model) {
                     switch presentation {
@@ -88,6 +106,11 @@ struct StudySessionView: View {
         // or updating a count does not trigger it.
         .animation(Motion.pop(reduceMotion), value: model.currentCard?.cardID)
         .screenBackground()
+        // Resting is a property of *this* goal screen. Without the reset it would outlive it —
+        // an app left open overnight would greet tomorrow's goal already asleep.
+        .onChange(of: model.phase) { _, phase in
+            if phase != .goalReached { isRestingForToday = false }
+        }
         .task { model.start(dependencies: dependencies, options: options) }
         // "Hey Siri, start reviewing" used to be consumed by Today, which was the app's entry
         // point. It no longer is — at launch this screen is what exists — so the note would have
@@ -137,6 +160,9 @@ struct StudySessionView: View {
             isShowingLibrary = false
             if model.phase == .finished {
                 model.start(dependencies: dependencies, options: options)
+            } else if model.phase == .goalReached {
+                // Asking to review is an answer to "stop or keep going?".
+                model.continueAfterGoal()
             }
         }
     }
@@ -145,7 +171,9 @@ struct StudySessionView: View {
     private var countLabel: String {
         let stage = model.hasMovedPastDue ? ", now on new words" : ""
         if let goal = model.goalTarget {
-            return "\(model.reviewedCount) reviewed this session, daily goal \(goal)\(stage)"
+            return model.isGoalMet
+                ? "\(model.reviewsToday) reviewed today, daily goal of \(goal) complete\(stage)"
+                : "\(model.reviewsToday) of \(goal) reviewed today\(stage)"
         }
         return "\(model.reviewedCount) reviewed this session\(stage)"
     }
@@ -214,7 +242,7 @@ struct StudySessionView: View {
                 // inside `undo()`, so `canUndo` survives into `.finished`, and `undo()` sets the
                 // phase back to `.reviewing`. This screen is the one place a mis-tapped final
                 // grade can be taken back before it reaches FSRS.
-                if model.phase != .finished {
+                if model.phase == .reviewing || model.phase == .loading {
                     // The bar exists only when there is a goal to fill.
                     //
                     // With an endless queue there is no denominator to invent. The old bar
@@ -239,10 +267,21 @@ struct StudySessionView: View {
                     // A count, never a fraction. Studying as much as you like means the number
                     // has nothing to be out of — and a counter that ticks upward with no ceiling
                     // is the honest readout for it.
+                    // With a goal it counts *today*, the same number the bar fills with — it used
+                    // to count this session, so a second session read "4 / 30" over a full bar.
+                    // Past the goal the fraction gives way to a tick: "34 / 30" looked like the
+                    // app had not noticed.
                     HStack(spacing: 2) {
-                        CountingNumber(model.reviewedCount)
                         if let goal = model.goalTarget {
-                            Text("/ \(goal)")
+                            CountingNumber(model.reviewsToday)
+                            if model.isGoalMet {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .foregroundStyle(Palette.success)
+                            } else {
+                                Text("/ \(goal)")
+                            }
+                        } else {
+                            CountingNumber(model.reviewedCount)
                         }
                     }
                     .font(Typography.buttonInterval)

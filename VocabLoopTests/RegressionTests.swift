@@ -395,6 +395,75 @@ final class RegressionTests: XCTestCase {
         XCTAssertFalse(day.goalMet, "no goal set means no goal met")
     }
 
+    // MARK: - Daily goal
+
+    /// Meeting the goal stops to celebrate — once — and "keep going" resumes the same queue.
+    ///
+    /// Reported as "34 / 30": the session sailed past the goal with no acknowledgement at all.
+    func testReachingTheGoalCelebratesOnceAndCanContinue() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+        let preferences = try XCTUnwrap(dependencies.preferences)
+        preferences.dailyGoal = 2
+
+        for index in 0..<5 {
+            let entry = try TestStore.makeEntry(in: context, headword: "goal\(index)", frequencyRank: index)
+            try TestStore.makeCard(in: context, for: entry, phase: .new, due: referenceDate, intervalDays: 0)
+        }
+
+        let model = StudyViewModel()
+        model.start(dependencies: dependencies, options: .init(maxNewCards: 5, languageCode: "en"), now: referenceDate)
+
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+        XCTAssertEqual(model.phase, .reviewing, "one short of the goal")
+        XCTAssertFalse(model.isGoalMet)
+
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+        XCTAssertEqual(model.phase, .goalReached, "the card that meets the goal stops to say so")
+        XCTAssertTrue(model.isGoalMet)
+
+        let remaining = model.queue.count
+        model.continueAfterGoal()
+        XCTAssertEqual(model.phase, .reviewing)
+        XCTAssertEqual(model.queue.count, remaining, "keep going resumes the same queue")
+
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+        XCTAssertEqual(model.phase, .reviewing, "past the goal, no second interruption")
+    }
+
+    /// A session opened after the goal is already met must not celebrate it again.
+    func testGoalAlreadyMetDoesNotCelebrateAgain() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+        let preferences = try XCTUnwrap(dependencies.preferences)
+        preferences.dailyGoal = 1
+
+        for index in 0..<3 {
+            let entry = try TestStore.makeEntry(in: context, headword: "again\(index)", frequencyRank: index)
+            try TestStore.makeCard(in: context, for: entry, phase: .new, due: referenceDate, intervalDays: 0)
+        }
+
+        let first = StudyViewModel()
+        first.start(dependencies: dependencies, options: .init(maxNewCards: 3, languageCode: "en"), now: referenceDate)
+        first.revealAnswer(now: referenceDate)
+        first.grade(.easy, dependencies: dependencies, now: referenceDate)
+        XCTAssertEqual(first.phase, .goalReached)
+
+        let second = StudyViewModel()
+        second.start(dependencies: dependencies, options: .init(maxNewCards: 3, languageCode: "en"), now: referenceDate)
+        XCTAssertTrue(second.isGoalMet, "today's count carries over between sessions")
+        second.revealAnswer(now: referenceDate)
+        second.grade(.easy, dependencies: dependencies, now: referenceDate)
+        XCTAssertEqual(second.phase, .reviewing)
+    }
+
     // MARK: - The queue does not end
 
     /// Finishing a batch must top the queue up, not close the session.
