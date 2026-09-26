@@ -1,10 +1,7 @@
-1.0.1
+1.0.2
 
-First build that reaches testers. 1.0.0 was uploaded but never assigned to a
-testing group, so TestFlight showed nothing new.
-
-- Q-style UI: rounder cards, squishy rating buttons, Mochi the mascot
-- Opens straight onto a word card; study as long as you like
-- Daily goal is optional
-
-Build 4: distribution now confirms each tester is in the group.
+- A fresh install now opens straight onto a word card: the most common
+  built-in words are started automatically, instead of "Nothing to study".
+- The card queue keeps going past your own words into new ones.
+- If there is truly nothing left, Done opens the library instead of
+  appearing to do nothing.
