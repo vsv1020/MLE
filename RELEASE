@@ -1,4 +1,8 @@
-1.0.0
+1.0.1
 
-First TestFlight build. Rebuilt with Xcode 26 after App Store Connect rejected the
-iOS 18.5 SDK build.
+First build that reaches testers. 1.0.0 was uploaded but never assigned to a
+testing group, so TestFlight showed nothing new.
+
+- Q-style UI: rounder cards, squishy rating buttons, Mochi the mascot
+- Opens straight onto a word card; study as long as you like
+- Daily goal is optional

@@ -37,7 +37,8 @@ concurrency:
 jobs:
   testflight:
     runs-on: macos-26
-    timeout-minutes: 45
+    # Archive + upload is ~5 minutes; waiting for Apple to process the build is up to 40 more.
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
 
@@ -126,6 +127,21 @@ jobs:
             -authenticationKeyPath "$KEY_PATH" \
             -authenticationKeyID "$ASC_KEY_ID" \
             -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+
+      - name: Distribute to testers
+        # Without this the build is uploaded but invisible: TestFlight only shows a build to
+        # the testers of a group that contains it. 1.0.0 (2) went unseen for exactly that reason.
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          BUNDLE_ID: com.vocabloop.app
+          BUILD_NUMBER: ${{ github.run_number }}
+          # Internal testers; must be users of the App Store Connect team. Space- or comma-separated.
+          TESTFLIGHT_TESTERS: vsv.zhang@gmail.com
+        run: |
+          export APP_VERSION="$(head -n1 RELEASE | tr -d '[:space:]')"
+          export WHATS_NEW="$(tail -n +2 RELEASE | sed '/./,$!d')"
+          node scripts/testflight-distribute.mjs
 
       - name: Upload archive log
         if: always()
