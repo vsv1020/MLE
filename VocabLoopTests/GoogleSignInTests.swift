@@ -17,7 +17,7 @@ final class GoogleSignInTests: XCTestCase {
     /// The worked example from RFC 7636, appendix B.
     func testCodeChallengeMatchesTheRFCVector() {
         let request = GoogleOAuthRequest(
-            clientID: clientID, codeVerifier: "dBjftJeZ4CVP-mJ92K9qR8cd3Wl3dtpaWcYQ7xgxJ3Q"
+            clientID: clientID, codeVerifier: "dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk"
         )
         XCTAssertEqual(request.codeChallenge, "E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM")
     }
