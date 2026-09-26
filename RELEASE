@@ -1,9 +1,7 @@
-1.0.2
+1.0.3
 
-- A fresh install now opens straight onto a word card: the most common
-  built-in words are started automatically, instead of "Nothing to study".
-- The card queue keeps going past your own words into new ones.
-- If there is truly nothing left, Done opens the library instead of
-  appearing to do nothing.
-- Sign in with Apple now works (the capability was missing from the build).
-- Sign in with Google (shown once a Google client ID is configured).
+- Daily goal complete: a celebration when you reach your goal, with
+  "Done for today" or "Keep going".
+- The counter now shows today's total, and a tick once the goal is met,
+  instead of "34 / 30".
+- Tapping the speaker twice quickly no longer silences the word.

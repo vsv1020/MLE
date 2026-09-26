@@ -97,6 +97,9 @@ extension SpeechService: AVSpeechSynthesizerDelegate {
     }
 
     private func finishSpeaking() {
+        // A second tap cancels the first utterance and starts a new one; the cancel callback
+        // lands *after* that. Releasing the session then would silence the word just started.
+        guard !synthesizer.isSpeaking else { return }
         isSpeaking = false
         releaseAudioSession()
     }
