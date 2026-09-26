@@ -130,12 +130,31 @@ async function main() {
         await api('POST', `/v1/betaGroups/${group.id}/relationships/betaTesters`, { data: [{ type: 'betaTesters', id: tester.id }] });
       } catch (e) { if (e.status !== 409 && e.status !== 422) throw e; }
     }
-    await api('POST', '/v1/betaTesterInvitations', {
-      data: { type: 'betaTesterInvitations', relationships: {
-        app: { data: { type: 'apps', id: appId } },
-        betaTester: { data: { type: 'betaTesters', id: tester.id } } } },
-    });
-    console.log(`invitation sent to ${email}`);
+    try {
+      await api('POST', '/v1/betaTesterInvitations', {
+        data: { type: 'betaTesterInvitations', relationships: {
+          app: { data: { type: 'apps', id: appId } },
+          betaTester: { data: { type: 'betaTesters', id: tester.id } } } },
+      });
+      console.log(`invitation sent to ${email}`);
+    } catch (e) {
+      // The invitation endpoint serves external testers. For a member of the App Store Connect
+      // team it answers 404 for a tester the same API just returned — the first real run hit
+      // exactly that. Internal testers are notified by TestFlight itself when a build reaches
+      // their group, so this is not a failure; membership is verified below instead.
+      if (![404, 409, 422].includes(e.status)) throw e;
+      console.log(`${email}: internal tester, no invitation needed (TestFlight notifies on new builds)`);
+    }
+  }
+
+  // Verify rather than assume: read the group back and confirm every tester is in it.
+  const members = await api('GET', `/v1/betaGroups/${group.id}/betaTesters?limit=200&fields[betaTesters]=email,state`);
+  const byEmail = new Map(members.data.map((m) => [m.attributes.email?.toLowerCase(), m.attributes.state]));
+  for (const email of TESTERS) {
+    if (!byEmail.has(email.toLowerCase())) {
+      throw new Error(`${email} is not in group "${GROUP_NAME}" after adding — check App Store Connect ▸ TestFlight`);
+    }
+    console.log(`verified: ${email} is in "${GROUP_NAME}" (state: ${byEmail.get(email.toLowerCase()) ?? 'unknown'})`);
   }
   console.log(`\n${VERSION} (${BUILD}) is available in TestFlight to group "${GROUP_NAME}".`);
 }
