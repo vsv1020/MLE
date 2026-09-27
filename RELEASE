@@ -1,7 +1,3 @@
-1.0.3
+1.0.4
 
-- Daily goal complete: a celebration when you reach your goal, with
-  "Done for today" or "Keep going".
-- The counter now shows today's total, and a tick once the goal is met,
-  instead of "34 / 30".
-- Tapping the speaker twice quickly no longer silences the word.
+- Sign in with Google, in Settings > Account and on the welcome screen.

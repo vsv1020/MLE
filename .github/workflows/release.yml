@@ -84,6 +84,11 @@ jobs:
           # hides the Google button rather than shipping one that cannot work.
           GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_IOS_CLIENT_ID }}
         run: |
+          if [ -n "$GOOGLE_CLIENT_ID" ]; then
+            echo "Google sign-in: configured (${GOOGLE_CLIENT_ID%%-*}-…)"
+          else
+            echo "Google sign-in: not configured — the button will be hidden"
+          fi
           # Build number = run number, so every upload is unique without editing the project.
           set -o pipefail
           xcodebuild archive \
