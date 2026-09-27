@@ -82,10 +82,12 @@ jobs:
           ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
           # Not a secret (an iOS OAuth client has none), so a repository *variable*. Empty
           # hides the Google button rather than shipping one that cannot work.
-          GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_IOS_CLIENT_ID }}
+          # Either place works: it is easy to add it under Secrets by habit, and a build that
+          # silently hides the button over which tab it went in is not worth the purity.
+          GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_IOS_CLIENT_ID || secrets.GOOGLE_IOS_CLIENT_ID }}
         run: |
           if [ -n "$GOOGLE_CLIENT_ID" ]; then
-            echo "Google sign-in: configured (${GOOGLE_CLIENT_ID%%-*}-…)"
+            echo "Google sign-in: configured (${#GOOGLE_CLIENT_ID} chars, ends ${GOOGLE_CLIENT_ID: -27})"
           else
             echo "Google sign-in: not configured — the button will be hidden"
           fi
