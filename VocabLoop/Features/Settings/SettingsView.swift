@@ -28,6 +28,14 @@ struct SettingsView: View {
                     }
                 }
 
+                Section {
+                    DailyGoalStepper()
+                } header: {
+                    Text("Daily goal")
+                } footer: {
+                    Text("Reach it and you get a celebration, then choose to stop or keep going. Set to 0 for no goal.")
+                }
+
                 Section("Studying") {
                     NavigationLink("Daily targets") { DailyTargetsView() }
                     NavigationLink("Memory algorithm") { SchedulerSettingsView() }
@@ -82,6 +90,26 @@ struct SettingsView: View {
 
 // MARK: - Daily targets
 
+/// The daily goal, in cards. Shared by Settings and Daily targets so the two never disagree.
+///
+/// Reaches 0 on purpose — that is how a goal is *removed*.
+struct DailyGoalStepper: View {
+    @Environment(\.appDependencies) private var dependencies
+
+    var body: some View {
+        let goal = dependencies.preferences?.dailyGoal ?? 0
+        Stepper(value: Binding(
+            get: { dependencies.preferences?.dailyGoal ?? 0 },
+            set: { newValue in
+                dependencies.preferences?.dailyGoal = newValue
+                dependencies.savePreferences()
+            }
+        ), in: 0...500, step: 5) {
+            Text(goal > 0 ? "\(goal) cards a day" : "No daily goal")
+        }
+    }
+}
+
 struct DailyTargetsView: View {
     @Environment(\.appDependencies) private var dependencies
 
@@ -89,13 +117,7 @@ struct DailyTargetsView: View {
         Form {
             if let preferences = dependencies.preferences {
                 Section {
-                    Stepper(
-                        preferences.dailyGoalTarget.map { "Reviews per day: \($0)" }
-                            ?? "Daily goal: none",
-                        // Reaches 0 on purpose — that is how a goal is *removed*. The old floor
-                        // of 5 meant the only way out of having a target was never to set one.
-                        value: binding(\.dailyGoal), in: 0...500, step: 5
-                    )
+                    DailyGoalStepper()
                 } footer: {
                     Text("Optional. With a goal, the ring on Today fills toward it; without one, nothing counts down and you simply study for as long as you like. Changing it does not affect days you have already completed.")
                 }

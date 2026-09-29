@@ -101,6 +101,7 @@ public final class AppDependencies {
         }
         isContentReady = true
 
+        applyDailyGoalDefaultOnce()
         Haptics.isEnabled = preferences?.hapticsEnabled ?? true
         // Not awaited before content: a slow App Store must not hold up the first card. The
         // cached flag in `Entitlements` covers the gap.
@@ -163,6 +164,19 @@ public final class AppDependencies {
     ///
     /// Every settings screen routes through here, so no path can save preferences without
     /// the outbox learning about it.
+    /// Installs from 1.0.0–1.0.5 were created with no goal (0), before the goal became the
+    /// default. Give them the new default once; anyone who later sets 0 again keeps it.
+    private func applyDailyGoalDefaultOnce() {
+        let key = "dailyGoal.defaultApplied.v1"
+        let defaults = UserDefaults.standard
+        guard !defaults.bool(forKey: key), let preferences else { return }
+        defaults.set(true, forKey: key)
+        if preferences.dailyGoal == 0 {
+            preferences.dailyGoal = StudyPreferences.defaultDailyGoal
+            savePreferences()
+        }
+    }
+
     public func savePreferences() {
         guard let preferences else { return }
         preferences.touch()

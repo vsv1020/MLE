@@ -369,8 +369,9 @@ final class RegressionTests: XCTestCase {
         let context = dependencies.context
         _ = try context.activeAccount()
         let preferences = try XCTUnwrap(dependencies.preferences)
-        XCTAssertEqual(preferences.dailyGoal, 0, "a fresh install starts with no goal")
-        XCTAssertNil(preferences.dailyGoalTarget)
+        XCTAssertEqual(preferences.dailyGoal, 30, "a fresh install starts with a goal of 30")
+        preferences.dailyGoal = 0
+        XCTAssertNil(preferences.dailyGoalTarget, "0 means no goal")
 
         let entry = try TestStore.makeEntry(in: context, headword: "nogoal", frequencyRank: 1)
         try TestStore.makeCard(

@@ -36,6 +36,8 @@ public final class StudyPreferences {
         dailyGoal > 0 ? dailyGoal : nil
     }
 
+    public static let defaultDailyGoal = 30
+
     /// New words the daily batch may offer.
     public var newWordsPerDay: Int
     /// Cap on one sitting, so a large backlog does not present as an unwinnable wall.
@@ -97,9 +99,10 @@ public final class StudyPreferences {
         self.activeLanguageCode = activeLanguage.rawValue
         self.installedLanguageCodes = [activeLanguage.rawValue]
         self.nativeLanguageCodes = StudyPreferences.systemNativeLanguageCodes()
-        // No goal by default. Committing to a number before you have seen a single card is a
-        // decision nobody can make well, and the old onboarding demanded it on step three.
-        self.dailyGoal = 0
+        // 30 by default: the goal is what earns the "done for today" moment, and without one
+        // the session simply never ends — which read as the app not noticing. Still editable
+        // in Settings, and 0 still means "no goal".
+        self.dailyGoal = StudyPreferences.defaultDailyGoal
         self.newWordsPerDay = 8
         self.maxReviewsPerSession = 60
         self.schedulerRaw = SchedulerKind.fsrs5.rawValue
