@@ -1,7 +1,5 @@
-1.0.5
+1.0.6
 
-- 3,300+ English words: A1–A2 (1,046, free), B1–B2 (1,526) and C1 (729),
-  each with pronunciation, a Chinese definition, an example and its translation.
-- VocabLoop Plus: a one-time purchase that unlocks the B1–B2 and C1 packs
-  and memory tuning (Settings > VocabLoop Plus). TestFlight purchases are free.
-- About: contact support, privacy policy and terms.
+- Daily goal is back: 30 cards a day by default, with the celebration when
+  you reach it, then "Done for today" or "Keep going".
+- Change it right at the top of Settings (0 = no goal).

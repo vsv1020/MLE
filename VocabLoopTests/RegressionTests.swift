@@ -281,6 +281,8 @@ final class RegressionTests: XCTestCase {
         let context = dependencies.context
 
         _ = try context.activeAccount()
+        // This test is about the no-goal case; the default is now a goal of 30.
+        try XCTUnwrap(dependencies.preferences).dailyGoal = 0
 
         // Three separate words, so a re-queued card has somewhere to go.
         for index in 0..<3 {
