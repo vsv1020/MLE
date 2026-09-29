@@ -24,6 +24,8 @@ public final class AppDependencies {
     public let network: NetworkMonitor
     public let sync: SyncEngine
     public let importer: SeedImporter
+    public let entitlements: Entitlements
+    public let purchases: PurchaseService
 
     /// `nil` in this build. Set a `baseURL` and both ``RemoteAuthBackend`` and
     /// ``SyncEngine`` come alive without any other change.
@@ -56,7 +58,10 @@ public final class AppDependencies {
         self.speech = SpeechService()
         self.notifications = NotificationService()
         self.review = ReviewService(context: context)
-        self.dailyWords = DailyWordService(context: context)
+        let entitlements = Entitlements.shared
+        self.entitlements = entitlements
+        self.purchases = PurchaseService(entitlements: entitlements)
+        self.dailyWords = DailyWordService(context: context, entitlements: entitlements)
         self.stats = StatsService(context: context)
         self.search = SearchService(context: context)
         self.importer = SeedImporter(modelContainer: container)
@@ -97,6 +102,9 @@ public final class AppDependencies {
         isContentReady = true
 
         Haptics.isEnabled = preferences?.hapticsEnabled ?? true
+        // Not awaited before content: a slow App Store must not hold up the first card. The
+        // cached flag in `Entitlements` covers the gap.
+        Task { await purchases.load() }
         sync.refreshStatus()
         await sync.sync()
     }

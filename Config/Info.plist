@@ -4,5 +4,7 @@
 <dict>
 	<key>GIDClientID</key>
 	<string>$(GOOGLE_CLIENT_ID)</string>
+	<key>VLWebsiteURL</key>
+	<string>$(WEBSITE_URL)</string>
 </dict>
 </plist>

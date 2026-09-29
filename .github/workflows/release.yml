@@ -85,12 +85,16 @@ jobs:
           # Either place works: it is easy to add it under Secrets by habit, and a build that
           # silently hides the button over which tab it went in is not worth the purity.
           GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_IOS_CLIENT_ID || secrets.GOOGLE_IOS_CLIENT_ID }}
+          # Where site/ is hosted, e.g. https://example.com/vocabloop/ — links to the privacy
+          # policy, terms and support pages are hidden in builds without it.
+          WEBSITE_URL: ${{ vars.WEBSITE_URL }}
         run: |
           if [ -n "$GOOGLE_CLIENT_ID" ]; then
             echo "Google sign-in: configured (${#GOOGLE_CLIENT_ID} chars, ends ${GOOGLE_CLIENT_ID: -27})"
           else
             echo "Google sign-in: not configured — the button will be hidden"
           fi
+          echo "Website: ${WEBSITE_URL:-not configured — legal links hidden}"
           # Build number = run number, so every upload is unique without editing the project.
           set -o pipefail
           xcodebuild archive \
@@ -108,6 +112,7 @@ jobs:
             CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
             MARKETING_VERSION="$(head -n1 RELEASE | tr -d '[:space:]')" \
             GOOGLE_CLIENT_ID="$GOOGLE_CLIENT_ID" \
+            WEBSITE_URL="$WEBSITE_URL" \
             | tee "$RUNNER_TEMP/archive.log" | grep -E "error:|warning: .*deprecated|\*\* ARCHIVE" || true
           test -d "$RUNNER_TEMP/VocabLoop.xcarchive" || { tail -80 "$RUNNER_TEMP/archive.log"; exit 1; }
 

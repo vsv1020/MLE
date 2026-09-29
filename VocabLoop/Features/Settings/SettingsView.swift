@@ -16,6 +16,18 @@ struct SettingsView: View {
                     }
                 }
 
+                Section {
+                    NavigationLink {
+                        PlusView()
+                    } label: {
+                        Label {
+                            Text(dependencies.entitlements.isPlus ? "VocabLoop Plus — unlocked" : "VocabLoop Plus")
+                        } icon: {
+                            Image(systemName: "sparkles").foregroundStyle(Palette.brandSecondary)
+                        }
+                    }
+                }
+
                 Section("Studying") {
                     NavigationLink("Daily targets") { DailyTargetsView() }
                     NavigationLink("Memory algorithm") { SchedulerSettingsView() }
@@ -247,7 +259,19 @@ struct SchedulerSettingsView: View {
                 }
 
                 if preferences.scheduler == .fsrs5 {
-                    NavigationLink("Tune to my memory") { OptimizerSettingsView() }
+                    if dependencies.entitlements.isPlus {
+                        NavigationLink("Tune to my memory") { OptimizerSettingsView() }
+                    } else {
+                        NavigationLink {
+                            PlusView()
+                        } label: {
+                            HStack {
+                                Text("Tune to my memory")
+                                Spacer()
+                                PlusBadge()
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -624,6 +648,8 @@ struct DataSettingsView: View {
 // MARK: - About
 
 struct AboutView: View {
+    @Environment(\.openURL) private var openURL
+
     private var version: String {
         let short = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
         let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
@@ -634,6 +660,21 @@ struct AboutView: View {
         Form {
             Section {
                 LabeledContent("Version", value: version)
+            }
+
+            Section {
+                Button("Contact support") { openURL(AppLinks.supportMail) }
+                if let support = AppLinks.support {
+                    Button("Help and FAQ") { openURL(support) }
+                }
+                if let privacy = AppLinks.privacyPolicy {
+                    Button("Privacy Policy") { openURL(privacy) }
+                }
+                if let terms = AppLinks.termsOfUse {
+                    Button("Terms of Use") { openURL(terms) }
+                }
+            } footer: {
+                Text(AppLinks.supportEmail)
             }
 
             Section {

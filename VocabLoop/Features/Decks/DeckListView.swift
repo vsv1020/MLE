@@ -116,6 +116,9 @@ struct DeckListView: View {
 struct DeckRow: View {
     let deck: Deck
 
+    @Environment(\.appDependencies) private var dependencies
+    private var isLocked: Bool { deck.requiresPlus && !dependencies.entitlements.isPlus }
+
     var body: some View {
         HStack(spacing: Spacing.sm) {
             Image(systemName: deck.symbolName)
@@ -134,7 +137,9 @@ struct DeckRow: View {
                     .tint(Color(hexString: deck.colorHex) ?? Palette.brandPrimary)
             }
 
-            if !deck.isActiveForNewWords {
+            if isLocked {
+                PlusBadge()
+            } else if !deck.isActiveForNewWords {
                 Chip("Paused", color: Palette.warning)
             }
         }
@@ -142,7 +147,7 @@ struct DeckRow: View {
         .accessibilityElement(children: .combine)
         .accessibilityLabel(
             "\(deck.name). \(deck.enrolledCount) of \(deck.entryCount) words started."
-                + (deck.isActiveForNewWords ? "" : " Paused.")
+                + (isLocked ? " Requires Plus." : deck.isActiveForNewWords ? "" : " Paused.")
         )
     }
 }
@@ -175,6 +180,9 @@ struct DeckDetailView: View {
 
     @Environment(\.appDependencies) private var dependencies
     @State private var isStudying = false
+    @State private var isShowingPlus = false
+
+    private var isLocked: Bool { deck.requiresPlus && !dependencies.entitlements.isPlus }
 
     private var sortedEntries: [Entry] {
         deck.entries.sorted {
@@ -205,15 +213,23 @@ struct DeckDetailView: View {
                     PrimaryButton("Study this deck", isEnabled: deck.enrolledCount > 0) {
                         isStudying = true
                     }
-                    Toggle("Offer new words from this deck", isOn: Binding(
-                        get: { deck.isActiveForNewWords },
-                        set: { newValue in
-                            deck.isActiveForNewWords = newValue
-                            deck.updatedAt = Date()
-                            try? dependencies.context.save()
+                    if isLocked {
+                        // Browsing the words stays open — it is how anyone decides the pack is
+                        // worth it. Only *introducing* them waits for Plus.
+                        PrimaryButton("Unlock this pack with Plus", systemImage: "sparkles", role: .secondary) {
+                            isShowingPlus = true
                         }
-                    ))
-                    .font(Typography.body)
+                    } else {
+                        Toggle("Offer new words from this deck", isOn: Binding(
+                            get: { deck.isActiveForNewWords },
+                            set: { newValue in
+                                deck.isActiveForNewWords = newValue
+                                deck.updatedAt = Date()
+                                try? dependencies.context.save()
+                            }
+                        ))
+                        .font(Typography.body)
+                    }
                 }
                 .padding(.vertical, Spacing.xxs)
             }
@@ -228,6 +244,7 @@ struct DeckDetailView: View {
                 }
             }
         }
+        .sheet(isPresented: $isShowingPlus) { NavigationStack { PlusView() } }
         .navigationTitle(deck.name)
         .navigationBarTitleDisplayMode(.inline)
         .fullScreenCover(isPresented: $isStudying) {

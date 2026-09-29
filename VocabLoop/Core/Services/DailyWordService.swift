@@ -14,9 +14,14 @@ import SwiftData
 @MainActor
 public final class DailyWordService {
     private let context: ModelContext
+    private let entitlements: Entitlements
 
-    public init(context: ModelContext) {
+    /// - Parameter entitlements: Defaults to `nil` → the shared instance, rather than to
+    ///   `.shared` directly: a default argument is evaluated nonisolated, and `Entitlements` is
+    ///   `@MainActor`.
+    public init(context: ModelContext, entitlements: Entitlements? = nil) {
         self.context = context
+        self.entitlements = entitlements ?? .shared
     }
 
     /// Today's batch, generating and persisting it if it does not exist yet.
@@ -125,7 +130,12 @@ public final class DailyWordService {
         // Excluded: already enrolled, dismissed on any earlier day, or offered by a
         // deck the user has parked.
         let dismissed = try previouslyDismissed(userID: account.userID, languageCode: languageCode)
-        let activeDeckSlugs = try activeDeckSlugs(languageCode: languageCode)
+        var activeDeckSlugs = try activeDeckSlugs(languageCode: languageCode)
+        // Plus packs still show in Decks and Browse — seeing what is in them is how anyone
+        // decides to buy — but only offer new words once unlocked.
+        if !entitlements.isPlus {
+            activeDeckSlugs.subtract(PlusCatalog.premiumDeckSlugs)
+        }
 
         let eligible = candidates.filter { entry in
             guard !entry.isEnrolled else { return false }

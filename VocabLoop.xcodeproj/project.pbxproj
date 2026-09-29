@@ -373,6 +373,7 @@
 				CODE_SIGN_ENTITLEMENTS = Config/VocabLoop.entitlements;
 				GENERATE_INFOPLIST_FILE = YES;
 				GOOGLE_CLIENT_ID = "";
+				WEBSITE_URL = "";
 				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VocabLoop;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -407,6 +408,7 @@
 				CODE_SIGN_ENTITLEMENTS = Config/VocabLoop.entitlements;
 				GENERATE_INFOPLIST_FILE = YES;
 				GOOGLE_CLIENT_ID = "";
+				WEBSITE_URL = "";
 				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VocabLoop;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
