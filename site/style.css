@@ -1,0 +1,34 @@
+:root {
+  --canvas: #F7EFDC; --surface: #FFFDF6; --text: #33291F; --text2: #6B5C46;
+  --brand: #2A62A8; --brand2: #A9501C; --line: #33291F;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --canvas: #1B211D; --surface: #262D28; --text: #F4F0E2; --text2: #C2BCA8;
+          --brand: #8FBEF0; --brand2: #F0A868; --line: #C9C4B2; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--canvas); color: var(--text);
+  font: 17px/1.65 ui-rounded, "SF Pro Rounded", -apple-system, "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+}
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header.site { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 24px; }
+header.site > a { color: var(--text); text-decoration: none; font-weight: 800; font-size: 22px; }
+.logo { width: 44px; height: 44px; border-radius: 12px; background: var(--brand); color: var(--surface);
+        display: grid; place-items: center; font-weight: 900; font-size: 24px; border: 3px solid var(--line); }
+nav { margin-left: auto; display: flex; gap: 14px; flex-wrap: wrap; font-size: 15px; }
+nav a { color: var(--text2); white-space: nowrap; }
+@media (max-width: 520px) { nav { margin-left: 0; width: 100%; } }
+.card { background: var(--surface); border: 3px solid var(--line); border-radius: 28px;
+        padding: 24px; margin: 20px 0; box-shadow: 0 5px 0 color-mix(in srgb, var(--line) 35%, transparent); }
+h1 { font-size: 32px; line-height: 1.2; margin: 8px 0 4px; }
+h2 { font-size: 22px; margin: 28px 0 8px; }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+p, li { color: var(--text); }
+.muted { color: var(--text2); font-size: 15px; }
+a { color: var(--brand); }
+.lang-divider { border: none; border-top: 2px dashed var(--text2); margin: 40px 0; opacity: .5; }
+.button { display: inline-block; background: var(--brand); color: var(--surface); padding: 12px 22px;
+          border-radius: 22px; font-weight: 800; text-decoration: none; border: 3px solid var(--line); }
+ul.features { padding-left: 1.2em; }
+footer { margin-top: 48px; font-size: 14px; color: var(--text2); text-align: center; }
