@@ -55,9 +55,12 @@ def example_has_target(headword, example):
     if "cloze" in example and example["cloze"]:
         return "{{" in example["cloze"]
     text = example["text"].lower()
-    if " " in headword:  # multi-word expressions: plain substring
-        return headword.lower() in text
-    tokens = re.findall(r"[a-z]+(?:'[a-z]+)?", text)
+    if " " in headword:
+        # ClozeMasker matches single tokens only, so a phrase always needs an authored blank.
+        return False
+    # Apostrophes count as word characters in ClozeMasker, so a quote mark glued to a word
+    # ('Yes) hides it — mirror that rather than being more forgiving than the app.
+    tokens = re.findall(r"[a-z']+", text)
     forms = surface_forms(headword)
     return any(t in forms for t in tokens)
 

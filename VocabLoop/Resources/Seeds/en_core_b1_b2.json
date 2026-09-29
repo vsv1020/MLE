@@ -1435,7 +1435,8 @@
        "text": "According to the weather report, it will rain tomorrow.",
        "translations": {
         "zh": "根据天气预报，明天会下雨。"
-       }
+       },
+       "cloze": "{{According to}} the weather report, it will rain tomorrow."
       }
      ],
      "usageNote": "Don't say 'according to me' for your own opinion; say 'in my opinion' instead."
@@ -7483,7 +7484,8 @@
        "text": "I used to live near the sea.",
        "translations": {
         "zh": "我以前住在海边。"
-       }
+       },
+       "cloze": "I {{used to}} live near the sea."
       }
      ],
      "usageNote": "Don't mix up 'used to do' (past habit) with 'be used to doing' (be familiar with): 'I'm used to getting up early.'"
@@ -16627,7 +16629,8 @@
        "text": "They want to set up a reading club at school.",
        "translations": {
         "zh": "他们想在学校成立一个读书俱乐部。"
-       }
+       },
+       "cloze": "They want to {{set up}} a reading club at school."
       }
      ]
     }
@@ -20806,7 +20809,8 @@
        "text": "Please carry on with your reading.",
        "translations": {
         "zh": "请继续阅读。"
-       }
+       },
+       "cloze": "Please {{carry on}} with your reading."
       }
      ],
      "synonyms": [
@@ -20902,7 +20906,8 @@
        "text": "I can't figure out how to open this box.",
        "translations": {
         "zh": "我弄不明白怎么打开这个盒子。"
-       }
+       },
+       "cloze": "I can't {{figure out}} how to open this box."
       }
      ]
     }
@@ -21224,7 +21229,8 @@
        "text": "We have run out of milk, so I'll buy some.",
        "translations": {
         "zh": "我们的牛奶喝完了，我去买一些。"
-       }
+       },
+       "cloze": "We have {{run out}} of milk, so I'll buy some."
       }
      ],
      "usageNote": "Use 'run out of + thing': 'run out of time', 'run out of money'."
@@ -21712,7 +21718,8 @@
        "text": "I can't work out the answer to this puzzle.",
        "translations": {
         "zh": "我想不出这个谜题的答案。"
-       }
+       },
+       "cloze": "I can't {{work out}} the answer to this puzzle."
       }
      ]
     }
@@ -25416,7 +25423,8 @@
        "text": "I hope the bus doesn't break down again.",
        "translations": {
         "zh": "希望公交车别再抛锚了。"
-       }
+       },
+       "cloze": "I hope the bus doesn't {{break down}} again."
       }
      ]
     }
@@ -25465,7 +25473,8 @@
        "text": "Can you come up with a name for our team?",
        "translations": {
         "zh": "你能给我们队想个名字吗？"
-       }
+       },
+       "cloze": "Can you {{come up with}} a name for our team?"
       }
      ]
     }
@@ -25649,7 +25658,8 @@
        "text": "It took me a week to get over my cold.",
        "translations": {
         "zh": "我花了一个星期才从感冒中恢复过来。"
-       }
+       },
+       "cloze": "It took me a week to {{get over}} my cold."
       }
      ]
     }
@@ -26078,7 +26088,8 @@
        "text": "Can you take over the cooking while I answer the phone?",
        "translations": {
         "zh": "我接个电话，你能接着做饭吗？"
-       }
+       },
+       "cloze": "Can you {{take over}} the cooking while I answer the phone?"
       }
      ]
     }
@@ -27713,7 +27724,8 @@
        "text": "Please fill in this form with your details.",
        "translations": {
         "zh": "请在这张表上填写你的详细信息。"
-       }
+       },
+       "cloze": "Please {{fill in}} this form with your details."
       }
      ],
      "usageNote": "British English says 'fill in a form'; American English often says 'fill out a form'."
@@ -28711,7 +28723,8 @@
        "text": "I was ill last week, so I need to catch up.",
        "translations": {
         "zh": "我上周生病了，所以得把功课补上。"
-       }
+       },
+       "cloze": "I was ill last week, so I need to {{catch up}}."
       }
      ],
      "usageNote": "Use 'catch up with someone': 'Walk slowly so I can catch up with you.'"
@@ -28853,7 +28866,8 @@
        "text": "We often hang out at the park after school.",
        "translations": {
         "zh": "放学后我们经常在公园玩。"
-       }
+       },
+       "cloze": "We often {{hang out}} at the park after school."
       }
      ]
     }
@@ -29098,7 +29112,8 @@
        "text": "I need to sort out my clothes before the trip.",
        "translations": {
         "zh": "旅行前我需要整理一下衣服。"
-       }
+       },
+       "cloze": "I need to {{sort out}} my clothes before the trip."
       }
      ]
     }
@@ -29208,7 +29223,8 @@
        "text": "Please turn down the music — the baby is sleeping.",
        "translations": {
         "zh": "请把音乐调小点，宝宝在睡觉。"
-       }
+       },
+       "cloze": "Please {{turn down}} the music — the baby is sleeping."
       }
      ]
     }
@@ -29231,7 +29247,8 @@
        "text": "I hope more people turn up for the meeting this time.",
        "translations": {
         "zh": "希望这次有更多人来参加会议。"
-       }
+       },
+       "cloze": "I hope more people {{turn up}} for the meeting this time."
       }
      ]
     }
@@ -31092,7 +31109,8 @@
        "text": "Please hand in your homework by Friday.",
        "translations": {
         "zh": "请在周五前交作业。"
-       }
+       },
+       "cloze": "Please {{hand in}} your homework by Friday."
       }
      ]
     }
@@ -33407,7 +33425,8 @@
        "text": "Can you point out any mistakes in my letter?",
        "translations": {
         "zh": "你能指出我信里的错误吗？"
-       }
+       },
+       "cloze": "Can you {{point out}} any mistakes in my letter?"
       }
      ]
     }
@@ -34844,7 +34863,8 @@
        "text": "Let's make up a story about a flying cat.",
        "translations": {
         "zh": "我们来编一个关于会飞的猫的故事吧。"
-       }
+       },
+       "cloze": "Let's {{make up}} a story about a flying cat."
       }
      ]
     }
@@ -34893,7 +34913,8 @@
        "text": "Don't put off your homework until Sunday night.",
        "translations": {
         "zh": "别把作业拖到周日晚上。"
-       }
+       },
+       "cloze": "Don't {{put off}} your homework until Sunday night."
       }
      ],
      "synonyms": [
@@ -35443,7 +35464,8 @@
        "text": "The box says 'Fragile – handle with care'.",
        "translations": {
         "zh": "箱子上写着“易碎——小心轻放”。"
-       }
+       },
+       "cloze": "The box says '{{Fragile}} – handle with care'."
       }
      ]
     }
@@ -36107,7 +36129,8 @@
        "text": "I had to run to keep up with my dad.",
        "translations": {
         "zh": "我得跑步才能跟上爸爸。"
-       }
+       },
+       "cloze": "I had to run to {{keep up with}} my dad."
       }
      ]
     }
@@ -36182,7 +36205,8 @@
        "text": "He likes to show off his new trainers.",
        "translations": {
         "zh": "他喜欢炫耀他的新运动鞋。"
-       }
+       },
+       "cloze": "He likes to {{show off}} his new trainers."
       }
      ]
     }
@@ -36719,7 +36743,8 @@
        "text": "Let's move on to the next question.",
        "translations": {
         "zh": "我们接着看下一个问题吧。"
-       }
+       },
+       "cloze": "Let's {{move on}} to the next question."
       }
      ]
     }
@@ -37295,7 +37320,8 @@
        "text": "The head teacher promised to look into the problem.",
        "translations": {
         "zh": "校长答应调查这个问题。"
-       }
+       },
+       "cloze": "The head teacher promised to {{look into}} the problem."
       }
      ]
     }
@@ -37695,7 +37721,8 @@
        "text": "I felt let down when my friend didn't come.",
        "translations": {
         "zh": "朋友没来，我感到很失望。"
-       }
+       },
+       "cloze": "I felt {{let down}} when my friend didn't come."
       }
      ],
      "usageNote": "With an object, the object usually goes in the middle: 'Don't let me down.'"

@@ -4078,7 +4078,8 @@
        "text": "'Are you ready?' 'Yes, I am.'",
        "translations": {
         "zh": "“你准备好了吗？”“是的，准备好了。”"
-       }
+       },
+       "cloze": "'Are you ready?' '{{Yes}}, I am.'"
       }
      ],
      "usageNote": "To agree with a negative question, English uses 'no': 'You're not hungry?' 'No, I'm not.' Chinese often says 对 here."
@@ -16832,7 +16833,8 @@
        "text": "I wake up at seven every day.",
        "translations": {
         "zh": "我每天七点醒来。"
-       }
+       },
+       "cloze": "I {{wake up}} at seven every day."
       },
       {
        "text": "Please don't wake up the baby.",
@@ -18303,7 +18305,8 @@
        "text": "Can you help me look for my glasses?",
        "translations": {
         "zh": "你能帮我找找眼镜吗？"
-       }
+       },
+       "cloze": "Can you help me {{look for}} my glasses?"
       }
      ]
     }
@@ -20245,7 +20248,8 @@
        "text": "I get up at seven every day.",
        "translations": {
         "zh": "我每天七点起床。"
-       }
+       },
+       "cloze": "I {{get up}} at seven every day."
       }
      ],
      "usageNote": "'Wake up' is when you stop sleeping; 'get up' is when you leave your bed."
@@ -26091,7 +26095,8 @@
        "text": "Can I have a chocolate ice cream?",
        "translations": {
         "zh": "我能要一个巧克力冰激凌吗？"
-       }
+       },
+       "cloze": "Can I have a chocolate {{ice cream}}?"
       }
      ]
     }
