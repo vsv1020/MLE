@@ -64,7 +64,7 @@ async function main() {
 
   // Processing usually takes 5–20 minutes; the upload step returns as soon as it has started.
   let build;
-  const deadline = Date.now() + 40 * 60 * 1000;
+  const deadline = Date.now() + 70 * 60 * 1000;
   while (Date.now() < deadline) {
     const q = `/v1/builds?filter[app]=${appId}` + (BUILD ? `&filter[version]=${BUILD}` : '') +
       `&filter[preReleaseVersion.version]=${VERSION}&sort=-uploadedDate&fields[builds]=processingState,version&limit=1`;

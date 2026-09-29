@@ -38,7 +38,7 @@ jobs:
   testflight:
     runs-on: macos-26
     # Archive + upload is ~5 minutes; waiting for Apple to process the build is up to 40 more.
-    timeout-minutes: 75
+    timeout-minutes: 100
     steps:
       - uses: actions/checkout@v4
 
