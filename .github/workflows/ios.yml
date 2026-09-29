@@ -1,11 +1,13 @@
 name: iOS
 
-# The project has never been compiled — it was written in a Linux container with no
-# Swift toolchain. This workflow exists to answer the one question that cannot be
-# answered there: does it build, and do the tests pass?
+# Two tiers, because macOS minutes bill at 10x and the free monthly allowance ran out.
 #
-# Expect the first run to fail with a list of compile errors. That list is the
-# deliverable; it is far cheaper to read here than to transcribe by hand from Xcode.
+# - Every push: `content` only — Ubuntu, a few seconds, validates the word packs.
+# - The macOS build and full test suite run only when asked for:
+#     * a commit message containing [full ci]
+#     * a pull request, or a manual run (Actions ▸ iOS ▸ Run workflow)
+#   Pushes to main do not run it: the release workflow archives on main anyway, which
+#   catches any compile error, and the change will already have passed [full ci] here.
 
 on:
   push:
@@ -117,6 +119,11 @@ jobs:
   # ── The real question ────────────────────────────────────────────────────────
   build-test:
     name: Build and test
+    needs: content
+    if: >-
+      github.event_name == 'pull_request' ||
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.head_commit.message, '[full ci]')
     runs-on: macos-26
     timeout-minutes: 40
     steps:
