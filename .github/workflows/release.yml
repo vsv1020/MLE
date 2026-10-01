@@ -131,7 +131,17 @@ jobs:
         if: env.VL_WIDGETS == 'off'
         run: |
           python3 scripts/strip-widget-target.py
-          plutil -remove com.apple.security.application-groups Config/VocabLoop.entitlements
+          # Not plutil -remove: plutil reads the dots in the key as a key path and finds nothing.
+          python3 - <<'PY'
+          import plistlib
+          path = "Config/VocabLoop.entitlements"
+          with open(path, "rb") as f:
+              ents = plistlib.load(f)
+          ents.pop("com.apple.security.application-groups", None)
+          with open(path, "wb") as f:
+              plistlib.dump(ents, f)
+          print("removed the App Group entitlement from the app")
+          PY
           echo "Widgets: off — archiving the app alone"
 
       - name: Archive
