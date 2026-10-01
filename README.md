@@ -83,11 +83,13 @@ deletion.
 | `VocabLoop/Core/Services` | Review grading, queue building, daily words, statistics, streaks, TTS, reminders, search, export |
 | `VocabLoop/Core/Auth` | `AuthBackend` with local and remote implementations, PBKDF2, Keychain, Apple |
 | `VocabLoop/Core/Sync` | Outbox-based sync engine over a REST client (off until a server exists) |
-| `VocabLoop/Core/Intents` | Siri and Shortcuts entry points — also what a widget button calls |
+| `VocabLoop/Core/Intents` | Siri and Shortcuts entry points |
+| `VocabLoopShared` | Compiled into the app *and* the widget extension: snapshot file, design system, Live Activity rules. No SwiftData |
+| `VocabLoopWidgets` | Home Screen and Lock Screen widgets, and the study-session Live Activity |
 | `VocabLoop/DesignSystem` | Colour and type tokens, shared components |
 | `VocabLoop/Features` | One folder per screen: SwiftUI views plus `@Observable` view models |
 | `VocabLoop/Resources/Seeds` | Content packs as JSON — 146 curated entries across five packs |
-| `docs/` | [Screen preview](docs/screens.html) · [Research](docs/RESEARCH.md) · [UI spec](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Adding the widget](docs/WIDGET.md) · **[Open decision: CloudKit or REST](docs/DECISION-SYNC.md)** |
+| `docs/` | [Screen preview](docs/screens.html) · [Research](docs/RESEARCH.md) · [UI spec](docs/DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Widgets](docs/WIDGET.md) · **[Open decision: CloudKit or REST](docs/DECISION-SYNC.md)** |
 
 Dependencies point **downward only**: `Core/SRS` knows nothing about SwiftData or
 SwiftUI, which is what makes it testable in isolation and replaceable.
@@ -191,11 +193,6 @@ Stated plainly rather than implied as done:
   gates on having enough history, and applies a result. The fit itself needs `fsrs-rs` over
   FFI, which would be the project's first non-Apple dependency. Until then Settings ▸ Memory
   algorithm ▸ Tune to my memory exports the log so you can fit it yourself.
-- **No widget.** The App Intents are done and drive Siri and Shortcuts today; the Widget
-  Extension target is a thirty-second Xcode template plus an App Group — see
-  [`docs/WIDGET.md`](docs/WIDGET.md), which has the code. Not hand-written here because
-  adding an unverifiable second target to a project that has never compiled is the wrong
-  order to do things in.
 - **UI copy is English only.** The *learning* language is fully abstracted
   (`LearningLanguage`), which is the stated requirement; localising the app's own
   interface is a separate axis and not done.

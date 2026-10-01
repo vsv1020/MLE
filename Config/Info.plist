@@ -6,6 +6,8 @@
 	<string>$(GOOGLE_CLIENT_ID)</string>
 	<key>VLWebsiteURL</key>
 	<string>$(WEBSITE_URL)</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

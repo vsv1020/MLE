@@ -17,9 +17,27 @@ name: Release to TestFlight
 #        ASC_ISSUER_ID      the Issuer ID shown above the key list
 #        ASC_KEY_P8         the full contents of the .p8 file, including BEGIN/END lines
 #   5. Actions ▸ Release to TestFlight ▸ Run workflow.
+#
+# One-time setup for the widgets and Live Activity (1.0.8, docs/WIDGET-PLAN.md §3.1). The App
+# Store Connect API cannot create an App Group or assign one to an App ID, so this is by hand,
+# in developer.apple.com ▸ Certificates, Identifiers & Profiles ▸ Identifiers (about 3 minutes):
+#   6. "+" ▸ App Groups ▸ register `group.com.vocabloop.app` (description "VocabLoop").
+#   7. App IDs ▸ `com.vocabloop.app` ▸ App Groups ▸ enable ▸ Configure ▸ tick the group ▸ Save.
+#   8. "+" ▸ App IDs ▸ App ▸ explicit `com.vocabloop.app.widgets` ("VocabLoop Widgets") ▸
+#      App Groups ▸ Configure ▸ tick the group ▸ Register. (May be skipped: the "Provision
+#      extension App ID" step registers the ID and enables the capability; only the tick in
+#      Configure cannot be scripted — do that after the first run.)
+#   Until then, ship without the extension: run with widgets = off, or set the repository
+#   variable VL_WIDGETS=off (Settings ▸ Secrets and variables ▸ Actions ▸ Variables).
 
 on:
   workflow_dispatch:
+    inputs:
+      widgets:
+        description: 'Include the widget extension and Live Activity (off = ship 1.0.7-style, no App Group)'
+        type: choice
+        options: ['on', 'off']
+        default: 'on'
   # Pushing a tag like `v1.0.0-b1` ships that commit. Deliberately a tag and not a branch:
   # every run creates a real build in App Store Connect, so it should take an explicit act.
   push:
@@ -39,6 +57,9 @@ jobs:
     runs-on: macos-26
     # Archive + upload is ~5 minutes; waiting for Apple to process the build is up to 40 more.
     timeout-minutes: 100
+    env:
+      # The manual input wins; tag and RELEASE pushes read the repository variable; default on.
+      VL_WIDGETS: ${{ github.event.inputs.widgets || vars.VL_WIDGETS || 'on' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -75,6 +96,19 @@ jobs:
           printf '%s\n' "$ASC_KEY_P8" > "$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8"
           echo "KEY_PATH=$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8" >> "$GITHUB_ENV"
 
+      - name: Provision extension App ID
+        # Registers com.vocabloop.app.widgets and enables App Groups on both App IDs, before any
+        # Xcode step, so a provisioning gap fails in seconds. It cannot create or tick the group
+        # itself — see the one-time steps 6–8 at the top of this file.
+        if: env.VL_WIDGETS == 'on'
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          APP_BUNDLE_ID: com.vocabloop.app
+          EXT_BUNDLE_ID: com.vocabloop.app.widgets
+          APP_GROUP: group.com.vocabloop.app
+        run: node scripts/asc-provision.mjs
+
       - name: Revoke development certificates left by earlier runs
         # Every run starts with an empty keychain, so automatic signing mints a new Apple
         # Development certificate and the old one is orphaned. Ten of them filled the account's
@@ -86,6 +120,16 @@ jobs:
           ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
           MODE: prune
         run: node scripts/asc-certificates.mjs
+
+      - name: Ship without widgets
+        # The extension target stays in the project but is no longer a dependency or embedded,
+        # and without the group entitlement SharedStorage falls back to Application Support
+        # exactly as 1.0.7 did. Same commit, no code change.
+        if: env.VL_WIDGETS == 'off'
+        run: |
+          python3 scripts/strip-widget-target.py
+          plutil -remove com.apple.security.application-groups Config/VocabLoop.entitlements
+          echo "Widgets: off — archiving the app alone"
 
       - name: Archive
         env:
@@ -125,7 +169,7 @@ jobs:
             MARKETING_VERSION="$(head -n1 RELEASE | tr -d '[:space:]')" \
             GOOGLE_CLIENT_ID="$GOOGLE_CLIENT_ID" \
             WEBSITE_URL="$WEBSITE_URL" \
-            | tee "$RUNNER_TEMP/archive.log" | grep -E "error:|warning: .*deprecated|\*\* ARCHIVE" || true
+            | tee "$RUNNER_TEMP/archive.log" | grep -E "error:|Provisioning|entitlement|warning: .*deprecated|\*\* ARCHIVE" || true
           test -d "$RUNNER_TEMP/VocabLoop.xcarchive" || { tail -80 "$RUNNER_TEMP/archive.log"; exit 1; }
 
       - name: Upload to App Store Connect
