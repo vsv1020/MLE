@@ -34,9 +34,12 @@
 			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
 			<key>NSPrivacyAccessedAPITypeReasons</key>
 			<array>
-				<!-- CA92.1: access to defaults readable only by this app itself. The app is
-				     in no App Group and shares no container, so the group-scoped reasons do
-				     not apply. -->
+				<!-- CA92.1: access to defaults readable only by this app itself. Since 1.0.8
+				     the app is in the App Group group.com.vocabloop.app, but it shares only a
+				     *file* there (widget-snapshot.json); every defaults read and write, the
+				     Live Activity toggle included, goes to the app's own standard defaults,
+				     never to UserDefaults(suiteName:) for the group, so the group-scoped
+				     reason 1C8F.1 does not apply. -->
 				<string>CA92.1</string>
 			</array>
 		</dict>

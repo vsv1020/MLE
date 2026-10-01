@@ -348,6 +348,10 @@ final class EngagementServiceTests: XCTestCase {
         XCTAssertTrue(first.studiedToday)
         XCTAssertEqual(first.streak, 1)
         XCTAssertEqual(first.updatedAt, referenceDate)
+        // 1.0.8: the widget rolls over at the app's own study-day boundary.
+        XCTAssertEqual(first.dayEndsAt, f.calendar.dayEnd(for: referenceDate))
+        XCTAssertNotNil(first.dueTomorrow)
+        XCTAssertGreaterThanOrEqual(first.dueTomorrow ?? -1, first.dueNow)
 
         let later = referenceDate.addingTimeInterval(60)
         _ = try f.service.record(event(), preferences: f.preferences, now: later)

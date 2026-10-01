@@ -1,6 +1,7 @@
 import Foundation
 import SwiftData
 import OSLog
+import WidgetKit
 
 /// Everything the engagement layer needs to know about one graded review.
 ///
@@ -418,7 +419,13 @@ public final class EngagementService {
                 FetchDescriptor<Card>(predicate: #Predicate { $0.languageCode == languageCode })
             )
             // Same definition of "due now" as `StatsService`: graded cards only, not new ones.
-            let dueNow = cards.filter { $0.phase != .new && $0.isDue(at: now) }.count
+            let graded = cards.filter { $0.phase != .new }
+            let dueNow = graded.filter { $0.isDue(at: now) }.count
+            // What the widget shows after the rollover if the app has not run since: the same
+            // rule, evaluated at the end of tomorrow's study day.
+            let dayEndsAt = calendar.dayEnd(for: now)
+            let tomorrowEnds = calendar.dayEnd(for: dayEndsAt)
+            let dueTomorrow = graded.filter { $0.isDue(at: tomorrowEnds) }.count
             let look = self.look(for: profile)
 
             snapshots.write(
@@ -432,9 +439,14 @@ public final class EngagementService {
                     candy: profile.candyTotal,
                     bodyColor: look.color.rawValue,
                     accessories: look.accessories.map(\.rawValue),
-                    updatedAt: now
+                    updatedAt: now,
+                    dayEndsAt: dayEndsAt,
+                    dueTomorrow: dueTomorrow
                 )
             )
+            // The one place the file changes, so the one place the widgets are told to re-read
+            // it. WidgetKit coalesces app-initiated reloads; see `docs/WIDGET-PLAN.md` §1.1.
+            WidgetCenter.shared.reloadAllTimelines()
         } catch {
             logger.error("Widget snapshot skipped: \(error.localizedDescription, privacy: .public)")
         }

@@ -195,6 +195,8 @@ public final class IntentLaunchRequest {
 
     public enum Action: Equatable {
         case startReview
+        /// Open Mochi's room — the Mochi widget's tap (`vocabloop://mochi`).
+        case showMochi
     }
 
     public var pendingAction: Action?

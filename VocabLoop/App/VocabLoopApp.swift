@@ -49,6 +49,16 @@ struct VocabLoopApp: App {
         #endif
     }
 
+    /// `vocabloop://mochi` opens Mochi's room; `vocabloop://study` — and any other path, so a
+    /// link from a newer widget never does nothing — shows the card.
+    static func action(for url: URL) -> IntentLaunchRequest.Action? {
+        guard url.scheme?.lowercased() == "vocabloop" else { return nil }
+        switch url.host()?.lowercased() {
+        case "mochi": return .showMochi
+        default: return .startReview
+        }
+    }
+
     var body: some Scene {
         WindowGroup {
             if let launchFailure {
@@ -58,6 +68,11 @@ struct VocabLoopApp: App {
                     .environment(\.appDependencies, dependencies)
                     .modelContainer(dependencies.container)
                     .tint(Palette.brandPrimary)
+                    // Widget and Live Activity taps. Left as a note for the root session, exactly
+                    // like an App Intent, so a cold launch and a warm one take the same path.
+                    .onOpenURL { url in
+                        IntentLaunchRequest.shared.pendingAction = Self.action(for: url)
+                    }
             }
         }
     }

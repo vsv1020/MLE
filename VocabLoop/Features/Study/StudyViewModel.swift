@@ -114,6 +114,10 @@ final class StudyViewModel {
     /// parameter that every existing caller would then have to pass.
     private var sounds: SoundService?
 
+    /// The Lock Screen / Dynamic Island mirror of this session. Held for the same reason as
+    /// ``sounds``: ``continueAfterGoal(now:)`` has no `dependencies` to reach it through.
+    private var liveActivity: StudyActivityController?
+
     /// UserDefaults key for the day "Mochi missed you" was last shown. Device-local on purpose:
     /// it is a UI nicety, not something an account needs to carry.
     static let welcomeBackShownDayKey = "mochi.welcomeBackShownDayKey"
@@ -189,6 +193,7 @@ final class StudyViewModel {
         // is not the end of a run.
         events.removeAll()
         sounds = dependencies.sounds
+        liveActivity = dependencies.liveActivity
         policy = dependencies.questionPolicy(for: preferences)
         goalTarget = preferences.dailyGoalTarget
         // `try?` flattens the nested optional (SE-0230), so this is `StudyDay?`, not
@@ -233,6 +238,19 @@ final class StudyViewModel {
             nativeCodes: preferences.nativeLanguageCodes
         )
         refreshQuestion(dependencies: dependencies, now: now)
+
+        // After `openEngagement`, so the activity starts with today's streak and Mochi's look.
+        if phase == .reviewing {
+            liveActivity?.begin(
+                attributes: activityAttributes(now: now),
+                state: activityState(.studying, now: now),
+                isReviewing: true,
+                queueIsEmpty: queue.isEmpty,
+                now: now
+            )
+        } else {
+            syncLiveActivity(now: now)
+        }
     }
 
     /// Read the profile, streak and Mochi's look for the top bar, and say "Mochi missed you"
@@ -284,6 +302,7 @@ final class StudyViewModel {
         // not time spent recalling, so its clock starts now — otherwise every quiz right after
         // the goal would be graded "slow".
         if currentQuestion != nil, !isQuestionAnswered { questionShownAt = now }
+        syncLiveActivity(now: now)
     }
 
     // MARK: - Reveal and grade
@@ -413,6 +432,9 @@ final class StudyViewModel {
                 phase = .goalReached
                 Haptics.success()
             }
+            // After `recordEngagement` and after the phase is settled, so one update carries the
+            // new count, the combo, a lit flame and — on the crossing — the goal.
+            syncLiveActivity(now: now)
         } catch {
             errorMessage = error.localizedDescription
         }
@@ -695,6 +717,8 @@ final class StudyViewModel {
                     streak = current
                 }
             }
+            // The count and combo go back on the Lock Screen too.
+            syncLiveActivity(now: Date())
         } catch {
             errorMessage = error.localizedDescription
         }
@@ -751,6 +775,60 @@ final class StudyViewModel {
             refreshPreviews(preferences: preferences)
         }
         refreshQuestion(dependencies: dependencies, now: now)
+        syncLiveActivity(now: now)
+    }
+
+    // MARK: - Live Activity
+
+    /// End the Lock Screen activity for a reason only the screen knows about: "Done for today"
+    /// (`.resting`) or leaving the study screen (`.left`).
+    func endLiveActivity(_ ending: StudyActivityEnding, now: Date = Date()) {
+        liveActivity?.end(ending, state: activityState(ending.finalPhase, now: now), now: now)
+    }
+
+    /// Back in the foreground: an activity that went stale while the app was away is ended, and
+    /// the next grade starts a fresh one.
+    func liveActivityDidBecomeActive(now: Date = Date()) {
+        liveActivity?.endIfStale(now: now)
+    }
+
+    /// Push the session's numbers to the activity. `.finished` ends it; everything else updates
+    /// it — or, while reviewing with none running, requests a new one.
+    private func syncLiveActivity(now: Date) {
+        guard let liveActivity else { return }
+        switch phase {
+        case .loading:
+            return
+        case .reviewing:
+            liveActivity.update(
+                state: activityState(.studying, now: now), attributes: activityAttributes(now: now), now: now
+            )
+        case .goalReached:
+            liveActivity.update(state: activityState(.goalReached, now: now), now: now)
+        case .finished:
+            liveActivity.end(.finished, state: activityState(.finished, now: now), now: now)
+        }
+    }
+
+    private func activityState(_ phase: StudyActivityPhase, now: Date) -> StudyActivityState {
+        StudyActivityPolicy.state(
+            reviewsToday: reviewsToday,
+            combo: combo,
+            streak: streak.current,
+            studiedToday: studiedToday,
+            phase: phase,
+            now: now
+        )
+    }
+
+    private func activityAttributes(now: Date) -> StudyActivityAttributes {
+        StudyActivityAttributes(
+            mochiLevel: RewardEngine.level(forCandy: candyTotal),
+            bodyColor: look.color.rawValue,
+            accessories: look.accessories.map(\.rawValue),
+            dailyGoal: goalTarget ?? 0,
+            startedAt: startedAt
+        )
     }
 
     // MARK: - Questions

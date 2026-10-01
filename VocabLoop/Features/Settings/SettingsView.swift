@@ -455,6 +455,9 @@ struct LanguageSettingsView: View {
 
 struct PresentationSettingsView: View {
     @Environment(\.appDependencies) private var dependencies
+    /// A device setting rather than a preference: whether this phone shows the session on its
+    /// Lock Screen is nobody else's business, and it is not worth a schema change.
+    @AppStorage(StudyActivityController.enabledKey) private var liveActivityEnabled = true
 
     var body: some View {
         Form {
@@ -480,6 +483,16 @@ struct PresentationSettingsView: View {
                     Toggle("Sound effects", isOn: toggle(\.soundEffectsEnabled))
                 } footer: {
                     Text("Little chimes for right answers, combos and rewards. Never a sound for a forgotten word, and the silent switch always wins.")
+                }
+
+                Section {
+                    Toggle("Show progress on Lock Screen", isOn: $liveActivityEnabled)
+                        .onChange(of: liveActivityEnabled) { _, isOn in
+                            // Off means gone now, not at the end of the session.
+                            if !isOn { dependencies.liveActivity.endAllImmediately() }
+                        }
+                } footer: {
+                    Text("Shows today's goal in the Dynamic Island and on the Lock Screen while you study.")
                 }
 
                 Section {

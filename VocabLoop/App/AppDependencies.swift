@@ -36,6 +36,12 @@ public final class AppDependencies {
     public let sounds: SoundService
     public let widgetSnapshots: WidgetSnapshotWriter
 
+    // MARK: Widgets (1.0.8)
+
+    /// The study-session Live Activity. Inert in the unit-test host and wherever ActivityKit
+    /// says no.
+    public let liveActivity: StudyActivityController
+
     /// `true` when the UI tests launched the app with `-uiTestingFlipOnly`: every card stays a
     /// flip card so their taps stay predictable. Always `false` outside a debug build.
     public let isFlipOnlyForUITesting: Bool
@@ -103,6 +109,7 @@ public final class AppDependencies {
         self.recap = WeeklyRecapService(context: context, engagement: engagement)
         self.questions = QuestionGenerator(context: context)
         self.sounds = SoundService()
+        self.liveActivity = StudyActivityController()
         #if DEBUG
         self.isFlipOnlyForUITesting = ProcessInfo.processInfo.arguments.contains(
             QuestionPolicy.flipOnlyLaunchArgument
@@ -118,6 +125,9 @@ public final class AppDependencies {
     /// therefore the languages to import) are known; content import comes next; the
     /// network monitor starts last because nothing waits on it.
     public func bootstrap() async {
+        // Before anything can start a session: whatever a previous process left on the Lock
+        // Screen describes a session that no longer exists.
+        liveActivity.endAllImmediately()
         await auth.restore()
         network.start()
 

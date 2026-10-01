@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// How grown-up Mochi looks. Derived from the level — see ``RewardEngine/stage(forLevel:)``.
+/// How grown-up Mochi looks. Derived from the level — see ``init(level:)``.
 public enum MochiStage: Int, Sendable {
     /// L1–4.
     case sprout
@@ -10,6 +10,19 @@ public enum MochiStage: Int, Sendable {
     case teen
     /// L15+: a sparkle crown line.
     case grown
+
+    /// Mochi's growth stage for a level. The stage changes the drawing, never the frame.
+    ///
+    /// Lives here rather than in `RewardEngine` so the widget extension, which has no
+    /// `RewardEngine`, draws the same Mochi from the snapshot's level.
+    public init(level: Int) {
+        switch level {
+        case ..<5: self = .sprout
+        case 5..<10: self = .kid
+        case 10..<15: self = .teen
+        default: self = .grown
+        }
+    }
 }
 
 /// Something Mochi can wear. Every item is drawn in `Canvas` — there are no image assets.
@@ -90,24 +103,6 @@ public enum MochiAccessory: String, CaseIterable, Codable, Sendable {
             return nil
         }
     }
-
-    /// Achievement that unlocks this item, or `nil` when something else does.
-    public var unlockAchievement: AchievementID? {
-        switch self {
-        case .nightcap: return .night_owl
-        case .sunVisor: return .early_bird
-        case .goldStarPin: return .combo_50
-        case .graduationCap: return .mastered_100
-        case .redScarf, .partyHat, .roundGlasses, .bow, .strawHat, .crown, .headphones, .cape,
-             .wizardHat, .halo, .rainbowScarf, .astronautHelmet:
-            return nil
-        }
-    }
-
-    /// `true` for the Plus closet. ``PlusCatalog/plusClosetAccessoryIDs`` is the one list.
-    public var requiresPlus: Bool {
-        PlusCatalog.plusClosetAccessoryIDs.contains(rawValue)
-    }
 }
 
 /// Mochi's body colour.
@@ -146,11 +141,6 @@ public enum MochiBodyColor: String, CaseIterable, Codable, Sendable {
         case .mango: return 9
         case .lavender, .mint, .cocoa, .galaxy: return nil
         }
-    }
-
-    /// `true` for the Plus closet. ``PlusCatalog/plusClosetColorIDs`` is the one list.
-    public var requiresPlus: Bool {
-        PlusCatalog.plusClosetColorIDs.contains(rawValue)
     }
 
     /// Body fill.

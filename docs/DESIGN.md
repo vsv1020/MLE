@@ -24,7 +24,7 @@ is the intent behind it; when the two disagree, the code is wrong.
 ## Colour
 
 Semantic tokens only — views never name a raw colour. Defined in
-`DesignSystem/Palette.swift`, each token has a light and dark value.
+`VocabLoopShared/Palette.swift` (shared with the widget extension), each token has a light and dark value.
 
 **Light is crayon on paper. Dark is chalk on a blackboard.** Dark mode is not the
 light palette dimmed: paper is a light material, and forcing it dark just produces

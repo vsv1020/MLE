@@ -1,12 +1,13 @@
 import Foundation
 import OSLog
 
-/// Where files shared with a future widget live.
+/// Where files shared with the widget extension live.
 ///
-/// The App Group container when the capability exists; Application Support otherwise. 1.0.7
-/// ships without the capability (see `docs/ENGAGEMENT-PLAN.md` §1.12), so today this resolves to
-/// Application Support — and the day the entitlement lands, the same code starts writing where a
-/// widget can read, with nothing else to change.
+/// The App Group container when the capability exists; Application Support otherwise. From 1.0.8
+/// both the app and `VocabLoopWidgets` carry the `group.com.vocabloop.app` entitlement, so this is
+/// the group container. A build shipped with `VL_WIDGETS=off` (see `docs/WIDGET-PLAN.md` §3.2) has
+/// no group and falls back to Application Support exactly as 1.0.7 did; an extension without the
+/// entitlement falls back to its own, empty, Application Support and shows "Open VocabLoop".
 public enum SharedStorage {
     public static let appGroupID = "group.com.vocabloop.app"
 
@@ -41,6 +42,13 @@ public struct WidgetSnapshot: Codable, Equatable, Sendable {
     /// ``MochiAccessory`` raw values.
     public var accessories: [String]
     public var updatedAt: Date
+    /// End of the study day `updatedAt` belongs to (`StudyCalendar.dayEnd(for:)`), so the widget
+    /// can roll over to a new day without recomputing the calendar. Added in 1.0.8; `nil` in
+    /// files written by 1.0.7.
+    public var dayEndsAt: Date?
+    /// Graded cards due by the end of the *next* study day — what `dueNow` becomes once
+    /// `dayEndsAt` has passed and the app has not written a new file. Added in 1.0.8.
+    public var dueTomorrow: Int?
 
     public init(
         dueNow: Int,
@@ -52,7 +60,9 @@ public struct WidgetSnapshot: Codable, Equatable, Sendable {
         candy: Int,
         bodyColor: String,
         accessories: [String],
-        updatedAt: Date
+        updatedAt: Date,
+        dayEndsAt: Date? = nil,
+        dueTomorrow: Int? = nil
     ) {
         self.dueNow = dueNow
         self.reviewsToday = reviewsToday
@@ -64,6 +74,8 @@ public struct WidgetSnapshot: Codable, Equatable, Sendable {
         self.bodyColor = bodyColor
         self.accessories = accessories
         self.updatedAt = updatedAt
+        self.dayEndsAt = dayEndsAt
+        self.dueTomorrow = dueTomorrow
     }
 }
 

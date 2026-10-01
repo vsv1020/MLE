@@ -87,16 +87,25 @@ struct StudySessionView: View {
         // Only the root session takes it. A deck-scoped session presented over the root must not
         // swallow an instruction meant for the app as a whole.
         .task { consumeIntentRequest() }
+        // A widget tap on a warm app can deliver its URL after the scene is already active, so
+        // the note is also picked up the moment it is written.
+        .onChange(of: IntentLaunchRequest.shared.pendingAction) { _, action in
+            if action != nil { consumeIntentRequest() }
+        }
         .onChange(of: scenePhase) { _, phase in
             // A warm launch may have run the task above before the intent wrote its note.
             if phase == .active {
                 consumeIntentRequest()
+                // A Lock Screen activity that went stale while the app was away is ended rather
+                // than revived; the next grade starts a fresh one.
+                model.liveActivityDidBecomeActive()
                 // Time spent in another app is not recall time; the quiz on screen starts its
                 // response clock again rather than grading the answer "slow".
                 model.restartQuestionClock()
             }
-            // The future widget reads this file and never the store, so it is refreshed on the way
-            // out as well as after each grade.
+            // The widget reads this file and never the store, so it is refreshed on the way out as
+            // well as after each grade. Backgrounding ends nothing on the Lock Screen: the glance
+            // is the point.
             if phase == .background, let preferences = dependencies.preferences {
                 dependencies.engagement.writeWidgetSnapshot(preferences: preferences, now: Date())
                 // The evening "keep your streak" nudge is scheduled on the way out — the only
@@ -119,6 +128,11 @@ struct StudySessionView: View {
             model.restartQuestionClock()
         }) {
             MochiHomeView()
+        }
+        // Leaving a pushed session — "End session", the X, or a swipe — leaves its activity on the
+        // Lock Screen for five minutes. The root session never leaves.
+        .onDisappear {
+            if presentation == .sheet { model.endLiveActivity(.left) }
         }
         .alert("End this session?", isPresented: $isConfirmingExit) {
             Button("Keep studying", role: .cancel) {}
@@ -182,6 +196,9 @@ struct StudySessionView: View {
                     model.continueAfterGoal()
                 },
                 onDone: {
+                    // "Done for today" — wired here rather than inside `GoalCompleteView`, which
+                    // the sharing workstream owns.
+                    model.endLiveActivity(.resting)
                     switch presentation {
                     case .sheet: dismiss()
                     case .root: isRestingForToday = true
@@ -224,6 +241,18 @@ struct StudySessionView: View {
             } else if model.phase == .goalReached {
                 // Asking to review is an answer to "stop or keep going?".
                 model.continueAfterGoal()
+            }
+        case .showMochi:
+            // The Mochi widget. Two sheets cannot change in one transaction, so when the library
+            // is covering the session it closes first and Mochi's room follows it.
+            if isShowingLibrary {
+                isShowingLibrary = false
+                Task { @MainActor in
+                    try? await Task.sleep(for: .milliseconds(450))
+                    isShowingMochi = true
+                }
+            } else {
+                isShowingMochi = true
             }
         }
     }
