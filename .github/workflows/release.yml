@@ -75,6 +75,18 @@ jobs:
           printf '%s\n' "$ASC_KEY_P8" > "$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8"
           echo "KEY_PATH=$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8" >> "$GITHUB_ENV"
 
+      - name: Revoke development certificates left by earlier runs
+        # Every run starts with an empty keychain, so automatic signing mints a new Apple
+        # Development certificate and the old one is orphaned. Ten of them filled the account's
+        # limit and blocked 1.0.7. Only development certificates "Created via API" (made by CI)
+        # are revoked — never distribution certificates or ones made on a Mac — and revoking
+        # them does not affect any build already uploaded.
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          MODE: prune
+        run: node scripts/asc-certificates.mjs
+
       - name: Archive
         env:
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
