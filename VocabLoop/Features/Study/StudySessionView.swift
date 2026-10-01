@@ -94,6 +94,9 @@ struct StudySessionView: View {
             // out as well as after each grade.
             if phase == .background, let preferences = dependencies.preferences {
                 dependencies.engagement.writeWidgetSnapshot(preferences: preferences, now: Date())
+                // The evening "keep your streak" nudge is scheduled on the way out — the only
+                // moment we know today's studying is finished for now.
+                Task { await dependencies.engagement.refreshStreakReminder(preferences: preferences, now: Date()) }
             }
         }
         .sheet(isPresented: $isShowingLibrary, onDismiss: {

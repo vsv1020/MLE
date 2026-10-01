@@ -617,6 +617,9 @@ struct NotificationSettingsView: View {
             await dependencies.notifications.refreshSchedule(
                 preferences: preferences, dueCount: dueToday
             )
+            // `refreshSchedule` clears the streak nudge along with everything else; put it back
+            // with the real streak rather than leaving it off until the next trip to background.
+            await dependencies.engagement.refreshStreakReminder(preferences: preferences, now: Date())
         }
     }
 }
