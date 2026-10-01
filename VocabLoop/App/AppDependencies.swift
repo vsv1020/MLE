@@ -136,6 +136,7 @@ public final class AppDependencies {
         }
         // Albums are a function of the dictionary, which the import may just have changed.
         collection.invalidateCache()
+        engagement.invalidateAlbumCache()
         isContentReady = true
 
         applyDailyGoalDefaultOnce()
@@ -193,6 +194,7 @@ public final class AppDependencies {
             contentImportError = error.localizedDescription
         }
         collection.invalidateCache()
+        engagement.invalidateAlbumCache()
         isContentReady = true
     }
 
@@ -201,6 +203,7 @@ public final class AppDependencies {
         do {
             try await importer.importPacks(for: [language])
             collection.invalidateCache()
+            engagement.invalidateAlbumCache()
             if let preferences, !preferences.installedLanguageCodes.contains(language.rawValue) {
                 preferences.installedLanguageCodes.append(language.rawValue)
                 preferences.touch()
