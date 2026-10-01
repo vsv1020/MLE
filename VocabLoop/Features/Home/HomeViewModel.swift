@@ -17,6 +17,12 @@ final class HomeViewModel {
     var isLoading = true
     var errorMessage: String?
 
+    // MARK: Mochi (1.0.7)
+
+    var mochiLook: MochiLook = .default
+    var mochiLevel = 1
+    var candyTotal = 0
+
     private var batch: DailyBatch?
 
     func load(dependencies: AppDependencies, now: Date = Date()) {
@@ -40,7 +46,21 @@ final class HomeViewModel {
         } catch {
             errorMessage = error.localizedDescription
         }
+        loadMochi(dependencies: dependencies)
         isLoading = false
+    }
+
+    /// Separate from the statistics so a profile problem never blanks the rest of Today.
+    private func loadMochi(dependencies: AppDependencies) {
+        guard let profile = try? dependencies.engagement.profile() else { return }
+        candyTotal = profile.candyTotal
+        mochiLevel = profile.level
+        mochiLook = dependencies.engagement.currentLook()
+    }
+
+    /// 0…1 toward the next Mochi level.
+    var levelProgress: Double {
+        RewardEngine.progressToNextLevel(candy: candyTotal)
     }
 
     /// Enrol a daily word. Optimistic: the check mark appears immediately and the write

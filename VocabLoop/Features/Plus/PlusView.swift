@@ -24,12 +24,16 @@ struct PlusView: View {
                                 "English Core B1–B2 and C1 — every future pack included.")
                         benefit("brain.head.profile", "Tuned to your memory",
                                 "Fit the scheduler to your own review history.")
+                        benefit("tshirt.fill", "Mochi's Plus closet",
+                                "A wizard hat, a halo, a rainbow scarf and an astronaut helmet, plus lavender, mint, cocoa and galaxy colours.")
+                        benefit("chart.bar.doc.horizontal", "Parent report history",
+                                "Twelve weeks of progress at a glance, and a PDF to save or share.")
                         benefit("heart.fill", "Support an independent app",
                                 "No ads, no tracking, no subscription. Pay once, keep it forever.")
                     }
                 }
 
-                Text("Always free: studying every word you have, reviews, the daily goal, pronunciation, the A1–A2 core and your own words.")
+                Text("Always free: studying every word you have, reviews, quizzes, the daily goal, pronunciation, the A1–A2 core and your own words — and everything a learner earns: star candy, Mochi's levels and every unlocked outfit, stickers, badges, the weekly recap and this week's parent report.")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
                     .multilineTextAlignment(.center)
