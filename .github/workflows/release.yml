@@ -58,8 +58,11 @@ jobs:
     # Archive + upload is ~5 minutes; waiting for Apple to process the build is up to 40 more.
     timeout-minutes: 100
     env:
-      # The manual input wins; tag and RELEASE pushes read the repository variable; default on.
-      VL_WIDGETS: ${{ github.event.inputs.widgets || vars.VL_WIDGETS || 'on' }}
+      # The manual input wins; tag and RELEASE pushes read the repository variable. Default OFF
+      # until the App Group group.com.vocabloop.app is set up in the developer portal (steps in
+      # the header) — 1.0.8 shipped without the extension for that reason. Set the repository
+      # variable VL_WIDGETS=on to ship the widgets and Live Activity.
+      VL_WIDGETS: ${{ github.event.inputs.widgets || vars.VL_WIDGETS || 'off' }}
     steps:
       - uses: actions/checkout@v4
 
