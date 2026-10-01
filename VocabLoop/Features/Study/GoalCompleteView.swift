@@ -31,6 +31,10 @@ struct GoalCompleteView: View {
     /// Decided once on appearance so the chip does not vanish while it is being looked at.
     @State private var offersWeeklyRecap = false
     @State private var isShowingRecap = false
+    /// The study day the goal was met on, for the share card's file name.
+    @State private var dayKey = ShareCard.dayKey(for: Date())
+    /// `true` once Mochi's look and level are read, so the share card is rendered once, right.
+    @State private var didLoadEngagement = false
 
     var body: some View {
         ScrollView {
@@ -70,20 +74,10 @@ struct GoalCompleteView: View {
 
                     rewardsRow
 
-                    if offersWeeklyRecap {
-                        Button {
-                            isShowingRecap = true
-                        } label: {
-                            Label("See your week", systemImage: "calendar")
-                                .font(Typography.bodyEmphasis)
-                                .foregroundStyle(Palette.brandPrimary)
-                                .padding(.horizontal, Spacing.md)
-                                .padding(.vertical, Spacing.xs)
-                                .background(Capsule().fill(Palette.brandPrimary.opacity(0.12)))
-                                .overlay(Capsule().strokeBorder(Palette.brandPrimary.opacity(0.4), lineWidth: 1.5))
-                                .tappableArea()
-                        }
-                        .pressable()
+                    // "See your week" and "Share today" side by side where they fit.
+                    ViewThatFits(in: .horizontal) {
+                        HStack(spacing: Spacing.sm) { celebrationActions }
+                        VStack(spacing: Spacing.sm) { celebrationActions }
                     }
                 }
 
@@ -117,6 +111,45 @@ struct GoalCompleteView: View {
         }
     }
 
+    @ViewBuilder
+    private var celebrationActions: some View {
+        if offersWeeklyRecap {
+            Button {
+                isShowingRecap = true
+            } label: {
+                Label("See your week", systemImage: "calendar")
+                    .font(Typography.bodyEmphasis)
+                    .foregroundStyle(Palette.brandPrimary)
+                    .padding(.horizontal, Spacing.md)
+                    .padding(.vertical, Spacing.xs)
+                    .background(Capsule().fill(Palette.brandPrimary.opacity(0.12)))
+                    .overlay(Capsule().strokeBorder(Palette.brandPrimary.opacity(0.4), lineWidth: 1.5))
+                    .tappableArea()
+            }
+            .pressable()
+        }
+        if didLoadEngagement {
+            ShareCardButton(card: .goalComplete(goalCard), label: "Share today")
+        }
+    }
+
+    /// Today's goal as a share card: counts and Mochi only, nothing that names the child.
+    private var goalCard: GoalCard {
+        GoalCard(
+            reviewsToday: model.reviewsToday,
+            dailyGoal: model.goalTarget ?? model.reviewsToday,
+            streak: streak,
+            minutes: sessionMinutes,
+            look: look,
+            level: level,
+            dayKey: dayKey
+        )
+    }
+
+    /// Whole minutes, rounded up so a two-minute sprint never reads as zero. Read once with the
+    /// rest of the card: a ticking clock would re-render the image every second.
+    @State private var sessionMinutes = 0
+
     /// Streak, Mochi's level and the star candy so far — what today added up to.
     private var rewardsRow: some View {
         // One line where it fits, stacked at large text sizes rather than truncated.
@@ -143,9 +176,15 @@ struct GoalCompleteView: View {
             candyTotal = profile.candyTotal
         }
         look = engagement.currentLook()
-        guard let preferences = dependencies.preferences else { return }
+        sessionMinutes = (model.elapsedSeconds + 59) / 60
+        guard let preferences = dependencies.preferences else {
+            didLoadEngagement = true
+            return
+        }
         let now = Date()
         streak = (try? engagement.streak(preferences: preferences, now: now).current) ?? 0
+        dayKey = StudyCalendar(preferences: preferences).dayKey(for: now)
+        didLoadEngagement = true
 
         // "See your week", once per calendar week, and only on the celebration — not on the
         // resting screen, which is about stopping.

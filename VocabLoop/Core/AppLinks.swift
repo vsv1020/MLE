@@ -9,6 +9,10 @@ import Foundation
 public enum AppLinks {
     public static let supportEmail = "vsv.zhang@gmail.com"
 
+    /// The App Store page. Printed on every share card and appended to the share message, so the
+    /// link survives targets that drop the image.
+    public static let appStore = URL(string: "https://apps.apple.com/app/id6800027452")!
+
     public static var website: URL? {
         guard let raw = Bundle.main.object(forInfoDictionaryKey: "VLWebsiteURL") as? String else { return nil }
         let trimmed = raw.trimmingCharacters(in: .whitespacesAndNewlines)

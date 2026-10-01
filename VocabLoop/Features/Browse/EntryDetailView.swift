@@ -43,6 +43,8 @@ struct EntryDetailView: View {
     @Environment(\.appDependencies) private var dependencies
     @State private var isShowingResetConfirmation = false
     @State private var actionError: String?
+    /// Mochi on the word's share card.
+    @State private var shareLook: MochiLook = .default
 
     private var language: LearningLanguage {
         entry.language ?? dependencies.preferences?.activeLanguage ?? .english
@@ -74,6 +76,16 @@ struct EntryDetailView: View {
         .screenBackground()
         .navigationTitle(entry.headword)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            // Bundled dictionary words only: `WordCard.make` refuses a user-created entry, which
+            // can contain anything a child typed.
+            ToolbarItem(placement: .primaryAction) {
+                if let wordCard = WordCard.make(from: entry, look: shareLook) {
+                    ShareCardButton(card: .word(wordCard), label: "Share this word", style: .toolbar)
+                }
+            }
+        }
+        .task { shareLook = dependencies.engagement.currentLook() }
         .confirmationDialog(
             "Reset progress for “\(entry.headword)”?",
             isPresented: $isShowingResetConfirmation,

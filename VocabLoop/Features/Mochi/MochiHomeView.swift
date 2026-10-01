@@ -24,7 +24,11 @@ struct MochiHomeView: View {
     }
 
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.appDependencies) private var dependencies
     @State private var section: Pane
+    /// Mochi as a share card. Also the level-up share: the level-up toast stays transient, and
+    /// this is where a new level is shown off.
+    @State private var mochiCard: MochiCard?
 
     init(initialSection: Pane = .mochi) {
         _section = State(initialValue: initialSection)
@@ -45,7 +49,7 @@ struct MochiHomeView: View {
 
                 switch section {
                 case .mochi:
-                    MochiWardrobeTab()
+                    MochiWardrobeTab(onLookChange: loadMochiCard)
                 case .stickers:
                     StickerBookView()
                 case .badges:
@@ -56,16 +60,38 @@ struct MochiHomeView: View {
             .navigationTitle(section.title)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    if let mochiCard {
+                        ShareCardButton(card: .mochi(mochiCard), label: "Share Mochi", style: .toolbar)
+                    }
+                }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") { dismiss() }
                 }
             }
         }
+        .task { loadMochiCard() }
+    }
+
+    /// Mochi's look, level, candy and stage — nothing about the child.
+    private func loadMochiCard() {
+        let engagement = dependencies.engagement
+        guard let profile = try? engagement.profile() else { return }
+        let level = profile.level
+        mochiCard = MochiCard(
+            look: engagement.currentLook(),
+            level: level,
+            candy: profile.candyTotal,
+            stageName: WardrobeRules.stageName(RewardEngine.stage(forLevel: level))
+        )
     }
 }
 
 /// The first section: Mochi as they look now, the level card, and the wardrobe.
 private struct MochiWardrobeTab: View {
+    /// Tells the screen the look changed, so its share card shows Mochi as they are now.
+    var onLookChange: () -> Void = {}
+
     @Environment(\.appDependencies) private var dependencies
 
     @State private var snapshot = WardrobeSnapshot.empty
@@ -130,6 +156,7 @@ private struct MochiWardrobeTab: View {
     /// would glide to its new size while the drawn accessories jumped.
     private func apply(cheer: Bool) {
         reload()
+        onLookChange()
         guard cheer else { return }
         cheerTask?.cancel()
         mood = .cheer

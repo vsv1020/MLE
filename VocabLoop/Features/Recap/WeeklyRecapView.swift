@@ -56,8 +56,9 @@ struct WeeklyRecapCard: View {
 struct WeeklyRecapView: View {
     @Environment(\.appDependencies) private var dependencies
     @State private var recap: WeeklyRecap?
-    @State private var shareURL: URL?
-    @State private var shareImage: UIImage?
+    /// The share card, rendered once: shown as the preview and handed to the share sheet.
+    @State private var rendered: RenderedShareCard?
+    @AppStorage(ShareSettings.enabledKey) private var isSharingEnabled = true
     @State private var didLoad = false
 
     init(recap: WeeklyRecap? = nil) {
@@ -91,8 +92,8 @@ struct WeeklyRecapView: View {
     @ViewBuilder
     private func content(_ recap: WeeklyRecap) -> some View {
         VStack(spacing: Spacing.sm) {
-            if let shareImage {
-                Image(uiImage: shareImage)
+            if let rendered {
+                Image(uiImage: rendered.image)
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: 320)
@@ -101,18 +102,11 @@ struct WeeklyRecapView: View {
                         RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
                             .strokeBorder(Palette.separator.opacity(0.5), lineWidth: 2)
                     )
-                    .accessibilityLabel("Share card: \(RecapCopy.headline(wordsMastered: recap.wordsMastered))")
-            }
-            if let shareURL {
-                ShareLink(item: shareURL) {
-                    Label("Share my week", systemImage: "square.and.arrow.up")
-                        .font(Typography.buttonLabel)
-                        .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget)
-                        .foregroundStyle(Palette.onBrand)
-                        .background(Palette.brandPrimary)
-                        .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
+                    .accessibilityLabel(ShareCard.week(recap).accessibilityLabel)
+                // The parent switch hides the button, not the picture of the week.
+                if isSharingEnabled {
+                    ShareCardLink(rendered: rendered, label: "Share my week")
                 }
-                .pressable()
             }
         }
         .frame(maxWidth: .infinity)
@@ -169,10 +163,7 @@ struct WeeklyRecapView: View {
             recap = try? dependencies.recap.recap(for: account, preferences: preferences, endingAt: Date())
         }
         didLoad = true
-        guard let recap, shareURL == nil else { return }
-        if let url = RecapShareRenderer.writePNG(for: recap) {
-            shareURL = url
-            shareImage = (try? Data(contentsOf: url)).flatMap { UIImage(data: $0) }
-        }
+        guard let recap, rendered == nil else { return }
+        rendered = ShareCardRenderer.render(.week(recap))
     }
 }

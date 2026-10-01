@@ -12,6 +12,9 @@ struct StatsView: View {
     /// The rolling seven-day recap (engagement plan §1.9). `nil` until loaded or if it fails —
     /// the rest of Progress never waits on it.
     @State private var recap: WeeklyRecap?
+    /// Mochi as they look now and their level, for the streak share card.
+    @State private var look: MochiLook = .default
+    @State private var level = 1
 
     var body: some View {
         NavigationStack {
@@ -93,6 +96,26 @@ struct StatsView: View {
 
     private var streakCard: some View {
         CardContainer(style: .crayon, wobbleSeed: 0x57A7_0002) {
+            VStack(alignment: .leading, spacing: Spacing.sm) {
+                streakNumbers
+                // Offered from three days: one or two is not yet a habit worth posting.
+                if statistics.currentStreak >= StreakCard.minimumToShare {
+                    ShareCardButton(
+                        card: .streak(StreakCard(
+                            streak: statistics.currentStreak,
+                            longest: statistics.longestStreak,
+                            look: look,
+                            level: level
+                        )),
+                        label: "Share my streak"
+                    )
+                }
+            }
+        }
+    }
+
+    private var streakNumbers: some View {
+        Group {
             HStack(spacing: Spacing.md) {
                 VStack(alignment: .leading, spacing: 2) {
                     HStack(spacing: Spacing.xxs) {
@@ -283,6 +306,11 @@ struct StatsView: View {
         }
         statistics = (try? dependencies.stats.statistics(for: account, preferences: preferences)) ?? .empty
         recap = try? dependencies.recap.recap(for: account, preferences: preferences, endingAt: Date())
+        let engagement = dependencies.engagement
+        look = engagement.currentLook()
+        if let profile = try? engagement.profile() {
+            level = profile.level
+        }
         isLoading = false
     }
 }

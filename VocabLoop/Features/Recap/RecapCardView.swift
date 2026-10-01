@@ -47,128 +47,34 @@ struct RecapDayDots: View {
 /// The shareable "my week" card (engagement plan §1.9): headline, seven dots, Mochi and three
 /// words nailed this week.
 ///
-/// Laid out for exactly ``RecapShareMetrics/pointSize`` and rendered at 3× to 1080×1350, the
-/// 4:5 portrait size social apps show uncropped. Always drawn in the light (paper) appearance and
-/// at a fixed text size: it is an image that leaves the app, and must look the same wherever it
-/// lands.
-///
-/// Contains only first-name-free, account-free facts — no name, no email, nothing that
-/// identifies the child.
+/// Since 1.0.8 it is one case of the shared share-card system (sharing plan §3): the layout lives
+/// in ``ShareCardView`` inside ``ShareCardFrame``, rendered at 3× to 1080×1350 by
+/// ``ShareCardRenderer``. Contains only first-name-free, account-free facts — no name, no email,
+/// nothing that identifies the child.
 struct RecapCardView: View {
     let recap: WeeklyRecap
 
     var body: some View {
-        VStack(spacing: Spacing.md) {
-            HStack(spacing: Spacing.xxs) {
-                Image(systemName: "sparkles")
-                Text("My week on VocabLoop")
-            }
-            .font(Typography.caption)
-            .foregroundStyle(Palette.brandSecondary)
-
-            Text(RecapCopy.headline(wordsMastered: recap.wordsMastered))
-                .font(Typography.screenTitle)
-                .foregroundStyle(Palette.textPrimary)
-                .multilineTextAlignment(.center)
-                .lineLimit(3)
-                .minimumScaleFactor(0.7)
-
-            WidgetMochiView(look: recap.look, level: recap.level, mood: .cheer)
-                .frame(width: 132, height: 128)
-
-            RecapDayDots(dayKeys: recap.dayKeys, studiedDays: recap.studiedDays, dotSize: 24)
-                .padding(.horizontal, Spacing.xs)
-
-            if !recap.nailedWords.isEmpty {
-                VStack(spacing: Spacing.xs) {
-                    Text("Words I nailed")
-                        .font(Typography.caption)
-                        .foregroundStyle(Palette.textSecondary)
-                    HStack(spacing: Spacing.xs) {
-                        ForEach(Array(recap.nailedWords.prefix(3))) { word in
-                            Text(word.headword)
-                                .font(Typography.bodyEmphasis)
-                                .foregroundStyle(Palette.textPrimary)
-                                .lineLimit(1)
-                                .minimumScaleFactor(0.6)
-                                .padding(.horizontal, Spacing.sm)
-                                .padding(.vertical, Spacing.xxs)
-                                .background(Capsule().fill(Palette.surfaceRaised))
-                                .overlay(Capsule().strokeBorder(Palette.separator.opacity(0.5), lineWidth: 1.5))
-                        }
-                    }
-                }
-            }
-
-            Spacer(minLength: 0)
-
-            HStack(spacing: Spacing.md) {
-                footerStat(RecapCopy.count(recap.reviews, "review"), symbol: "checkmark.circle.fill")
-                footerStat(RecapCopy.count(recap.minutes, "min", "min"), symbol: "clock.fill")
-                if recap.streak > 0 {
-                    footerStat("\(recap.streak)-day streak", symbol: "flame.fill")
-                }
-            }
-        }
-        .padding(Spacing.lg)
-        .frame(width: RecapShareMetrics.pointSize.width, height: RecapShareMetrics.pointSize.height)
-        .background(Palette.canvas)
-    }
-
-    private func footerStat(_ text: String, symbol: String) -> some View {
-        HStack(spacing: Spacing.xxs) {
-            Image(systemName: symbol)
-                .foregroundStyle(Palette.brandSecondary)
-            Text(text)
-                .foregroundStyle(Palette.textSecondary)
-                .lineLimit(1)
-        }
-        .font(Typography.caption)
+        ShareCardView(card: .week(recap))
     }
 }
 
-/// Size of the share image. Not actor-bound, so layout and tests can read it anywhere.
-enum RecapShareMetrics {
-    /// Layout size in points.
-    static let pointSize = CGSize(width: 360, height: 450)
-    /// Render scale: 360×450 pt → 1080×1350 px.
-    static let scale: CGFloat = 3
+/// The 1.0.7 name for ``ShareCardMetrics``, kept so existing call sites and tests read on.
+typealias RecapShareMetrics = ShareCardMetrics
 
-    /// The image size the share card is rendered at.
-    static var pixelSize: CGSize {
-        CGSize(width: pointSize.width * scale, height: pointSize.height * scale)
-    }
-}
-
-/// Turns a recap into a PNG file a `ShareLink` can hand to other apps.
-///
-/// A file URL rather than an `Image`: `ShareLink` with an `Image` needs a `Transferable`
-/// wrapper, whereas `URL` is `Transferable` already and a PNG on disk is what every share
-/// target expects (engagement plan §4, risks).
+/// Turns a recap into a PNG file a `ShareLink` can hand to other apps. A thin wrapper over
+/// ``ShareCardRenderer``, kept for the 1.0.7 call sites.
 @MainActor
 enum RecapShareRenderer {
     /// Render `recap` and write it to the temporary directory. `nil` if rendering or the write
     /// fails — the share button is simply not offered then.
     static func writePNG(for recap: WeeklyRecap) -> URL? {
-        let renderer = ImageRenderer(content: shareContent(for: recap))
-        renderer.scale = RecapShareMetrics.scale
-        renderer.proposedSize = ProposedViewSize(RecapShareMetrics.pointSize)
-        guard let data = renderer.uiImage?.pngData() else { return nil }
-        let url = FileManager.default.temporaryDirectory
-            .appendingPathComponent("VocabLoop-my-week-\(recap.weekStartKey).png")
-        do {
-            try data.write(to: url, options: .atomic)
-            return url
-        } catch {
-            return nil
-        }
+        ShareCardRenderer.writePNG(.week(recap))
     }
 
     /// The card exactly as it is rendered, for the on-screen preview too.
     static func shareContent(for recap: WeeklyRecap) -> some View {
-        RecapCardView(recap: recap)
-            .environment(\.colorScheme, .light)
-            .dynamicTypeSize(.large)
+        ShareCardRenderer.content(for: .week(recap))
     }
 }
 

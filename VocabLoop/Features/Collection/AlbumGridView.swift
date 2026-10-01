@@ -9,6 +9,9 @@ struct AlbumGridView: View {
     @Environment(\.appDependencies) private var dependencies
     @State private var progress: AlbumProgress?
     @State private var headwords: [String: String] = [:]
+    /// Mochi on the "page complete" share card.
+    @State private var look: MochiLook = .default
+    @State private var level = 1
 
     private let columns = Array(repeating: GridItem(.flexible(), spacing: Spacing.sm), count: 3)
 
@@ -79,20 +82,37 @@ struct AlbumGridView: View {
 
     private var completeBanner: some View {
         CardContainer(style: .crayon, wobbleSeed: WobbleShape.seed(for: album.id)) {
-            HStack(spacing: Spacing.md) {
-                Mascot(mood: .cheer)
-                    .frame(width: 58, height: 48)
-                VStack(alignment: .leading, spacing: Spacing.xxs) {
-                    Text("Page complete!")
-                        .font(Typography.sectionHeader)
-                        .foregroundStyle(Palette.textPrimary)
-                    Text("Every sticker on this page shines.")
-                        .font(Typography.caption)
-                        .foregroundStyle(Palette.textSecondary)
+            VStack(alignment: .leading, spacing: Spacing.sm) {
+                HStack(spacing: Spacing.md) {
+                    Mascot(mood: .cheer)
+                        .frame(width: 58, height: 48)
+                    VStack(alignment: .leading, spacing: Spacing.xxs) {
+                        Text("Page complete!")
+                            .font(Typography.sectionHeader)
+                            .foregroundStyle(Palette.textPrimary)
+                        Text("Every sticker on this page shines.")
+                            .font(Typography.caption)
+                            .foregroundStyle(Palette.textSecondary)
+                    }
                 }
+                .accessibilityElement(children: .combine)
+
+                ShareCardButton(card: .album(albumCard), label: "Share this page")
             }
         }
-        .accessibilityElement(children: .combine)
+    }
+
+    /// The page as a share card: its title, how many stickers shine, and Mochi.
+    private var albumCard: AlbumCard {
+        AlbumCard(
+            albumTitle: album.title,
+            familyTitle: album.family.title,
+            albumLevel: album.level.rawValue,
+            page: album.page,
+            stickerCount: shinyCount,
+            look: look,
+            level: level
+        )
     }
 
     private var shinyCount: Int { progress?.shinyCount ?? 0 }
@@ -104,6 +124,11 @@ struct AlbumGridView: View {
 
     private func load() {
         progress = try? dependencies.collection.progress(of: album)
+        let engagement = dependencies.engagement
+        look = engagement.currentLook()
+        if let profile = try? engagement.profile() {
+            level = profile.level
+        }
         let entries = (try? dependencies.context.entries(stableIDs: album.entryStableIDs)) ?? []
         var names: [String: String] = [:]
         for entry in entries {

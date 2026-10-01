@@ -11,6 +11,10 @@ struct AchievementsView: View {
     @State private var statuses: [AchievementStatus] = AchievementCatalog.all.map {
         AchievementStatus(achievement: $0, unlockedAt: nil)
     }
+    /// For the badge sheet and its share card.
+    @State private var look: MochiLook = .default
+    @State private var level = 1
+    @State private var selected: AchievementStatus?
 
     private let columns = [GridItem(.adaptive(minimum: 150), spacing: Spacing.sm)]
 
@@ -20,7 +24,18 @@ struct AchievementsView: View {
                 header
                 LazyVGrid(columns: columns, spacing: Spacing.sm) {
                     ForEach(statuses) { status in
-                        BadgeTile(status: status)
+                        if status.isUnlocked {
+                            // Earned badges open their detail sheet, with a share card.
+                            Button {
+                                selected = status
+                            } label: {
+                                BadgeTile(status: status)
+                            }
+                            .pressable()
+                            .accessibilityHint("Shows the badge")
+                        } else {
+                            BadgeTile(status: status)
+                        }
                     }
                 }
             }
@@ -28,6 +43,9 @@ struct AchievementsView: View {
             .readableWidth()
         }
         .task { load() }
+        .sheet(item: $selected) { status in
+            BadgeDetailSheet(status: status, look: look, level: level)
+        }
     }
 
     private var earnedCount: Int { statuses.filter(\.isUnlocked).count }
@@ -53,6 +71,11 @@ struct AchievementsView: View {
     }
 
     private func load() {
+        let engagement = dependencies.engagement
+        look = engagement.currentLook()
+        if let profile = try? engagement.profile() {
+            level = profile.level
+        }
         guard let preferences = dependencies.preferences,
               let loaded = try? dependencies.engagement.achievementStatuses(preferences: preferences, now: .now),
               !loaded.isEmpty
@@ -105,32 +128,8 @@ private struct BadgeTile: View {
         .accessibilityLabel(spokenLabel)
     }
 
-    @ViewBuilder
     private var medallion: some View {
-        let shape = WobbleShape(cornerRadius: 32, amplitude: 1.0, seed: WobbleShape.seed(for: "badge-" + achievement.id.rawValue))
-        ZStack {
-            if status.isUnlocked {
-                shape.fill(Chunky.baseColor).offset(y: 3)
-                shape.fill(Palette.rating(.hard))
-                shape.stroke(Palette.ratingEdge(.hard), lineWidth: 2.5)
-                Image(systemName: achievement.symbolName)
-                    .font(.title2.weight(.bold))
-                    .foregroundStyle(Palette.onRating)
-            } else {
-                shape.fill(Palette.surface)
-                shape.stroke(Palette.textTertiary, style: StrokeStyle(lineWidth: 1.5, lineCap: .round, dash: [3, 4]))
-                Image(systemName: achievement.symbolName)
-                    .font(.title2)
-                    .foregroundStyle(Palette.textTertiary)
-                Image(systemName: "lock.fill")
-                    .font(.caption2)
-                    .foregroundStyle(Palette.textSecondary)
-                    .padding(4)
-                    .background(Circle().fill(Palette.surfaceRaised))
-                    .overlay(Circle().stroke(Palette.textTertiary, lineWidth: 1))
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-            }
-        }
+        BadgeMedallion(id: achievement.id, symbolName: achievement.symbolName, isUnlocked: status.isUnlocked)
     }
 
     private var spokenLabel: String {
@@ -144,5 +143,50 @@ private struct BadgeTile: View {
             parts.append(status.isUnlocked ? "Unlocked \(reward.name) for Mochi" : "Unlocks \(reward.name) for Mochi")
         }
         return parts.joined(separator: ". ")
+    }
+}
+
+/// A badge's drawn medallion: gold with its symbol once earned, a dotted outline with a lock
+/// before. Shared by the grid, the badge sheet and the badge share card.
+struct BadgeMedallion: View {
+    let id: AchievementID
+    let symbolName: String
+    let isUnlocked: Bool
+    var symbolSize: CGFloat?
+
+    var body: some View {
+        let shape = WobbleShape(cornerRadius: 32, amplitude: 1.0, seed: WobbleShape.seed(for: "badge-" + id.rawValue))
+        ZStack {
+            if isUnlocked {
+                shape.fill(Chunky.baseColor).offset(y: 3)
+                shape.fill(Palette.rating(.hard))
+                shape.stroke(Palette.ratingEdge(.hard), lineWidth: 2.5)
+                Image(systemName: symbolName)
+                    .font(symbolFont(weight: .bold))
+                    .foregroundStyle(Palette.onRating)
+            } else {
+                shape.fill(Palette.surface)
+                shape.stroke(Palette.textTertiary, style: StrokeStyle(lineWidth: 1.5, lineCap: .round, dash: [3, 4]))
+                Image(systemName: symbolName)
+                    .font(symbolFont(weight: .regular))
+                    .foregroundStyle(Palette.textTertiary)
+                Image(systemName: "lock.fill")
+                    .font(.caption2)
+                    .foregroundStyle(Palette.textSecondary)
+                    .padding(4)
+                    .background(Circle().fill(Palette.surfaceRaised))
+                    .overlay(Circle().stroke(Palette.textTertiary, lineWidth: 1))
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+            }
+        }
+    }
+
+    /// `.title2` by default, as the grid always drew it; a fixed size where the medallion is
+    /// drawn larger (the sheet, the share card).
+    private func symbolFont(weight: Font.Weight) -> Font {
+        if let symbolSize {
+            return .system(size: symbolSize, weight: weight)
+        }
+        return .title2.weight(weight)
     }
 }
