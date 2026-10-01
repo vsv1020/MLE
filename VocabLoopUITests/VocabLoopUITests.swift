@@ -20,6 +20,8 @@ final class VocabLoopUITests: XCTestCase {
         // `RootView` bounced back to onboarding forever and no test in this file could reach the
         // tab bar. See `VocabLoopApp.resetFirstRunStateIfUITesting`.
         app.launchArguments = ["-uiTestingResetFirstRun"]
+        // Every card a flip card, so taps on "Show answer" and the rating bar stay predictable.
+        app.launchArguments += ["-uiTestingFlipOnly"]
         app.launch()
     }
 

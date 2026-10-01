@@ -48,6 +48,82 @@ final class StudyViewModel {
     /// The grade just given, for the mascot to react to. `nil` before the first answer.
     private(set) var lastRating: Rating?
 
+    // MARK: Questions
+
+    /// How the current card is being asked. `nil` only when there is no current card.
+    ///
+    /// Rebuilt wherever the current card can change (``refreshQuestion(dependencies:now:)``), and
+    /// deterministic from the card, so an undone card comes back as the very same question.
+    private(set) var currentQuestion: Question?
+
+    /// When the current question appeared. A quiz's response time — the one thing that separates
+    /// `good` from `hard` for an auto-graded answer — is measured from here, not from a reveal,
+    /// because a quiz has no reveal before the answer.
+    private(set) var questionShownAt: Date?
+
+    /// The option the learner tapped, for the red/green feedback. `nil` before an answer, and for
+    /// a typed question or "I don't know".
+    private(set) var selectedOption: Int?
+
+    /// What was typed into a `typed` question, kept so the feedback can show it next to the word.
+    private(set) var typedAnswer: String?
+
+    /// `true` once an auto-graded question has been answered and is showing its feedback. The
+    /// grade is not sent until ``continueAfterAnswer(dependencies:now:)``: a child needs time to
+    /// read the right answer, so nothing auto-advances.
+    private(set) var isQuestionAnswered = false
+
+    /// The grade ``AutoGrader`` gave the answer, waiting for Continue.
+    private(set) var pendingAutoRating: Rating?
+
+    /// Response time captured at the moment of the answer, so time spent reading the feedback
+    /// is not counted as recall time.
+    private var pendingResponseMS: Int?
+
+    /// Built once per `start`, from the user's quiz setting, this device's voices and the UI-test
+    /// flag — the same terms for every card in the session.
+    private var policy = QuestionPolicy()
+
+    /// `true` when the current card is asked as a quiz rather than as a self-graded flip card.
+    var isQuizQuestion: Bool { currentQuestion?.kind.isAutoGraded ?? false }
+
+    // MARK: Engagement
+
+    /// Consecutive answers this session that were not *Forgot*. In memory only — a combo is a
+    /// moment, not a record; the best one is kept by ``EngagementService`` instead.
+    private(set) var combo = 0
+    /// The combo before the most recent grade, so undo can put it back exactly.
+    private(set) var comboBeforeLast = 0
+    private(set) var bestComboThisSession = 0
+    /// The milestone the most recent grade reached, for Mochi's reaction. Cleared by the next
+    /// grade, so Mochi cheers once per milestone rather than for the rest of the session.
+    private(set) var lastComboMilestone: Int?
+
+    /// Things to celebrate, oldest first. The screen drains them one at a time with
+    /// ``takeNextEvent()``; nothing here waits on them being shown.
+    private(set) var events: [EngagementEvent] = []
+
+    private(set) var opening: SessionOpening?
+    private(set) var streak: StreakService.Streak = .none
+    /// Drives the flame: grey until the first review of the day lands, then lit.
+    private(set) var studiedToday = false
+    private(set) var candyTotal = 0
+    private(set) var look: MochiLook = .default
+
+    /// Held so ``revealAnswer(now:)`` can play its pop without growing a `dependencies`
+    /// parameter that every existing caller would then have to pass.
+    private var sounds: SoundService?
+
+    /// UserDefaults key for the day "Mochi missed you" was last shown. Device-local on purpose:
+    /// it is a UI nicety, not something an account needs to carry.
+    static let welcomeBackShownDayKey = "mochi.welcomeBackShownDayKey"
+
+    /// Days away before Mochi says it missed you (engagement plan §1.3).
+    static let welcomeBackThresholdDays = 3
+
+    /// The run length from which a broken combo is still celebrated (engagement plan §1.1).
+    static let comboEndedCelebrationThreshold = 5
+
     /// Kept so the queue can be topped up on the same terms it was first built on.
     private var options = ReviewQueueBuilder.Options()
 
@@ -107,6 +183,13 @@ final class StudyViewModel {
         }
         self.options = options
         lastRating = nil
+        lastComboMilestone = nil
+        // Whatever was waiting to be shown belonged to the previous queue. The combo itself is
+        // kept: `start` also runs when the library sheet closes, and a trip to look something up
+        // is not the end of a run.
+        events.removeAll()
+        sounds = dependencies.sounds
+        policy = dependencies.questionPolicy(for: preferences)
         goalTarget = preferences.dailyGoalTarget
         // `try?` flattens the nested optional (SE-0230), so this is `StudyDay?`, not
         // `StudyDay??`. `createIfMissing: false` because merely opening the study screen is
@@ -141,29 +224,141 @@ final class StudyViewModel {
             errorMessage = error.localizedDescription
             phase = .finished
         }
+
+        openEngagement(dependencies: dependencies, preferences: preferences, now: now)
+        // One fetch for the whole session. A failure only means every card stays a flip card,
+        // which is the app as it was — not worth an alert.
+        try? dependencies.questions.prepare(
+            languageCode: options.languageCode ?? preferences.activeLanguageCode,
+            nativeCodes: preferences.nativeLanguageCodes
+        )
+        refreshQuestion(dependencies: dependencies, now: now)
+    }
+
+    /// Read the profile, streak and Mochi's look for the top bar, and say "Mochi missed you"
+    /// once a day to someone returning after a few days away.
+    ///
+    /// Engagement never blocks studying: if the profile cannot be read, the session runs with
+    /// a grey flame and no candy rather than with an error.
+    private func openEngagement(
+        dependencies: AppDependencies, preferences: StudyPreferences, now: Date
+    ) {
+        guard let opening = try? dependencies.engagement.sessionOpened(preferences: preferences, now: now) else {
+            return
+        }
+        self.opening = opening
+        streak = opening.streak
+        studiedToday = opening.studiedToday
+        candyTotal = opening.candyTotal
+        look = opening.look
+
+        guard let daysAway = opening.daysSinceLastStudy,
+              daysAway >= Self.welcomeBackThresholdDays,
+              !opening.studiedToday
+        else { return }
+        // Once per study day, not once per `start`: the root session restarts every time the
+        // library closes, and a welcome repeated on each return stops being a welcome.
+        let todayKey = StudyCalendar(preferences: preferences).dayKey(for: now)
+        let defaults = UserDefaults.standard
+        guard defaults.string(forKey: Self.welcomeBackShownDayKey) != todayKey else { return }
+        defaults.set(todayKey, forKey: Self.welcomeBackShownDayKey)
+        events.append(.welcomeBack(daysAway: daysAway))
     }
 
     /// "Keep going" from the goal screen.
-    func continueAfterGoal() {
+    func continueAfterGoal(now: Date = Date()) {
         guard phase == .goalReached else { return }
         phase = queue.isEmpty ? .finished : .reviewing
+        // The next question was built while the goal screen was up. Time spent celebrating is
+        // not time spent recalling, so its clock starts now — otherwise every quiz right after
+        // the goal would be graded "slow".
+        if currentQuestion != nil, !isQuestionAnswered { questionShownAt = now }
     }
 
     // MARK: - Reveal and grade
 
     func revealAnswer(now: Date = Date()) {
         guard !isAnswerRevealed else { return }
+        // A quiz reveals its answer by being answered. Revealing it first would hand over the
+        // answer and then grade the learner on it.
+        guard !isQuizQuestion || isQuestionAnswered else { return }
         isAnswerRevealed = true
         revealedAt = now
         Haptics.reveal()
+        sounds?.play(.reveal)
+    }
+
+    // MARK: - Quiz answers
+
+    /// The learner tapped option `optionIndex` of a choice question.
+    ///
+    /// Grades it with ``AutoGrader`` but does not send the grade yet — see
+    /// ``continueAfterAnswer(dependencies:now:)``.
+    func answer(optionIndex: Int, now: Date = Date()) {
+        guard let question = currentQuestion,
+              question.kind.isAutoGraded, question.kind != .typed,
+              !isQuestionAnswered,
+              question.options.indices.contains(optionIndex)
+        else { return }
+        selectedOption = optionIndex
+        finishQuestion(
+            question, quality: optionIndex == question.correctIndex ? .exact : .wrong, now: now
+        )
+    }
+
+    /// The learner submitted `text` for a typed question.
+    func submitTyped(_ text: String, now: Date = Date()) {
+        guard let question = currentQuestion, question.kind == .typed, !isQuestionAnswered else { return }
+        typedAnswer = text
+        finishQuestion(
+            question, quality: TypedAnswerMatcher.match(typed: text, answer: question.answerText), now: now
+        )
+    }
+
+    /// "I don't know": an honest lapse, graded exactly like a wrong answer. Offered because a
+    /// child who cannot recall a word should not have to guess at a keyboard to move on.
+    func giveUpOnQuestion(now: Date = Date()) {
+        guard let question = currentQuestion, question.kind.isAutoGraded, !isQuestionAnswered else { return }
+        finishQuestion(question, quality: .wrong, now: now)
+    }
+
+    private func finishQuestion(_ question: Question, quality: MatchQuality, now: Date) {
+        let responseMS = questionShownAt.map { max(0, Int(now.timeIntervalSince($0) * 1000)) } ?? 0
+        pendingResponseMS = responseMS
+        pendingAutoRating = AutoGrader.rating(kind: question.kind, quality: quality, responseMS: responseMS)
+        isQuestionAnswered = true
+        isAnswerRevealed = true
+        revealedAt = now
+        Haptics.reveal()
+        // A near miss is a typo, not a wrong word, so it sounds like success. A wrong answer is
+        // silent — never a buzzer, never an error haptic (engagement plan §1.6).
+        if quality != .wrong { sounds?.play(.correct) }
+    }
+
+    /// Continue from an answered quiz: send the auto-grade and move on.
+    func continueAfterAnswer(dependencies: AppDependencies, now: Date = Date()) {
+        guard isQuestionAnswered, let rating = pendingAutoRating else { return }
+        grade(rating, dependencies: dependencies, now: now)
     }
 
     func grade(_ rating: Rating, dependencies: AppDependencies, now: Date = Date()) {
         guard let card = currentCard, let preferences = dependencies.preferences else { return }
 
-        // Measured from reveal, not from card display: time spent reading the answer is not
-        // recall time, and only the recall attempt is a useful signal.
-        let durationMS = revealedAt.map { Int(now.timeIntervalSince($0) * 1000) } ?? 0
+        let question = currentQuestion?.cardID == card.cardID ? currentQuestion : nil
+        let questionKind = question?.kind ?? .flip
+        let wasAutoGraded = questionKind.isAutoGraded && isQuestionAnswered
+        // Self-graded: measured from reveal, not from card display — time spent reading the
+        // answer is not recall time, and only the recall attempt is a useful signal. Auto-graded:
+        // from the question appearing to the tap, captured at the tap.
+        let durationMS: Int
+        if wasAutoGraded, let pendingResponseMS {
+            durationMS = pendingResponseMS
+        } else {
+            durationMS = revealedAt.map { Int(now.timeIntervalSince($0) * 1000) } ?? 0
+        }
+        // Captured before the service call, which moves the card on.
+        let phaseBefore = card.phase
+        let maturityBefore = card.maturity
 
         do {
             let result = try dependencies.review.grade(
@@ -182,6 +377,13 @@ final class StudyViewModel {
             lastRating = rating
             Haptics.tap()
 
+            recordEngagement(
+                card: card, rating: rating, questionKind: questionKind, wasAutoGraded: wasAutoGraded,
+                responseMS: durationMS, phaseBefore: phaseBefore, maturityBefore: maturityBefore,
+                justReachedGoal: justReachedGoal, dependencies: dependencies,
+                preferences: preferences, now: now
+            )
+
             advance(
                 after: card, returnsThisSession: result.returnsThisSession,
                 dependencies: dependencies, preferences: preferences, now: now
@@ -193,6 +395,137 @@ final class StudyViewModel {
             }
         } catch {
             errorMessage = error.localizedDescription
+        }
+    }
+
+    /// Update the combo, hand the review to ``EngagementService`` and play what it earned.
+    ///
+    /// Runs after ``ReviewService`` has stored the grade and never feeds back into it: nothing
+    /// here can change a rating or an interval. A failure in the engagement layer is swallowed —
+    /// a missed candy is not worth interrupting a review over.
+    private func recordEngagement(
+        card: Card, rating: Rating, questionKind: QuestionKind, wasAutoGraded: Bool,
+        responseMS: Int, phaseBefore: LearningPhase, maturityBefore: CardMaturity,
+        justReachedGoal: Bool, dependencies: AppDependencies,
+        preferences: StudyPreferences, now: Date
+    ) {
+        comboBeforeLast = combo
+        combo = rating == .again ? 0 : combo + 1
+        bestComboThisSession = max(bestComboThisSession, combo)
+        let isMilestone = rating != .again && RewardEngine.isComboMilestone(combo)
+        lastComboMilestone = isMilestone ? combo : nil
+
+        var newEvents: [EngagementEvent] = []
+        // The run is celebrated; the break is never mentioned.
+        if rating == .again && comboBeforeLast >= Self.comboEndedCelebrationThreshold {
+            newEvents.append(.comboEnded(best: comboBeforeLast))
+        }
+
+        let wasFirstReviewToday = !studiedToday
+        let outcome = ReviewOutcomeEvent(
+            cardID: card.cardID,
+            entryStableID: card.entry?.stableID ?? "",
+            rating: rating,
+            questionKind: questionKind,
+            wasAutoGraded: wasAutoGraded,
+            responseMS: responseMS,
+            phaseBefore: phaseBefore,
+            maturityBefore: maturityBefore,
+            maturityAfter: card.maturity,
+            comboAfter: combo,
+            justReachedGoal: justReachedGoal,
+            reviewsToday: reviewsToday
+        )
+        let recorded = (try? dependencies.engagement.record(outcome, preferences: preferences, now: now)) ?? []
+        newEvents.append(contentsOf: recorded)
+        // The service owns the milestone bonus and normally reports it; added here only when it
+        // did not, so the run is still celebrated even if the profile could not be written.
+        if isMilestone && !recorded.contains(.comboMilestone(combo)) {
+            newEvents.append(.comboMilestone(combo))
+        }
+
+        for event in newEvents {
+            switch event {
+            case .candy(let amount):
+                candyTotal += amount
+            case .levelUp:
+                look = dependencies.engagement.currentLook()
+            case .firstReviewToday(let days):
+                streak.current = max(streak.current, days)
+            case .comboMilestone, .comboEnded, .stickerLit, .albumCompleted, .achievement, .welcomeBack:
+                break
+            }
+        }
+
+        if wasFirstReviewToday {
+            // The flame lights on the first review of the day. The streak is re-read rather than
+            // incremented: today may already have been counted by a session on another screen.
+            studiedToday = true
+            if let current = try? dependencies.engagement.streak(preferences: preferences, now: now) {
+                streak = current
+            }
+        }
+
+        if isMilestone { Haptics.success() }
+        playSound(
+            for: newEvents, rating: rating, wasAutoGraded: wasAutoGraded, justReachedGoal: justReachedGoal
+        )
+        events.append(contentsOf: newEvents)
+    }
+
+    /// One sound per answer: the most important one.
+    ///
+    /// System sounds overlap rather than queue, so a level-up landing on a combo milestone on
+    /// the goal-reaching card would otherwise play three chimes at once — noise, not a reward.
+    /// Nothing at all for *Forgot*, *Slow* or a wrong quiz answer (engagement plan §1.6); a
+    /// correct quiz answer already chimed when it was tapped.
+    private func playSound(
+        for events: [EngagementEvent], rating: Rating, wasAutoGraded: Bool, justReachedGoal: Bool
+    ) {
+        guard let sounds else { return }
+        var isLevelUp = false
+        var isBadge = false
+        var isSticker = false
+        var isBonusCandy = false
+        for event in events {
+            switch event {
+            case .levelUp: isLevelUp = true
+            case .achievement, .albumCompleted: isBadge = true
+            case .stickerLit: isSticker = true
+            case .candy(let amount): isBonusCandy = isBonusCandy || amount > RewardEngine.candyPerReview
+            case .firstReviewToday, .comboMilestone, .comboEnded, .welcomeBack: break
+            }
+        }
+        // `.none` except exactly on a milestone, so this is silent between them.
+        let tier = rating == .again ? ComboTier.none : RewardEngine.comboTier(combo)
+
+        if isLevelUp {
+            sounds.play(.levelUp)
+        } else if isBadge {
+            sounds.play(.badge)
+        } else if justReachedGoal {
+            sounds.play(.goal)
+        } else if isSticker {
+            sounds.play(.sticker)
+        } else if tier != .none {
+            sounds.play(comboTier: tier)
+        } else if isBonusCandy {
+            sounds.play(.candy)
+        } else if !wasAutoGraded && (rating == .good || rating == .easy) {
+            sounds.play(.correct)
+        }
+    }
+
+    /// The oldest event waiting to be shown, removed from the queue.
+    func takeNextEvent() -> EngagementEvent? {
+        events.isEmpty ? nil : events.removeFirst()
+    }
+
+    /// Re-read Mochi and the candy total, after the wardrobe may have changed them.
+    func refreshEngagement(dependencies: AppDependencies) {
+        look = dependencies.engagement.currentLook()
+        if let profile = try? dependencies.engagement.profile() {
+            candyTotal = profile.candyTotal
         }
     }
 
@@ -243,6 +576,7 @@ final class StudyViewModel {
         } else {
             refreshPreviews(preferences: preferences, now: now)
         }
+        refreshQuestion(dependencies: dependencies, now: now)
     }
 
     /// Top the queue up in place. `false` only when the store has nothing left to offer.
@@ -326,6 +660,21 @@ final class StudyViewModel {
             revealedAt = nil
             phase = .reviewing
             refreshPreviews(preferences: preferences)
+            // Same card, same repetition count, so the same question comes back.
+            refreshQuestion(dependencies: dependencies)
+            // The combo goes back to what it was before the undone grade — including back *up*
+            // when the undone grade was the Forgot that broke a run.
+            combo = comboBeforeLast
+            lastComboMilestone = nil
+            // Anything not yet shown was about the undone answer.
+            events.removeAll()
+            refreshEngagement(dependencies: dependencies)
+            if reviewsToday == 0 {
+                studiedToday = false
+                if let current = try? dependencies.engagement.streak(preferences: preferences, now: Date()) {
+                    streak = current
+                }
+            }
         } catch {
             errorMessage = error.localizedDescription
         }
@@ -381,6 +730,29 @@ final class StudyViewModel {
         } else {
             refreshPreviews(preferences: preferences)
         }
+        refreshQuestion(dependencies: dependencies, now: now)
+    }
+
+    // MARK: - Questions
+
+    /// Build the question for whatever card is now current, and clear the previous answer.
+    ///
+    /// Called everywhere ``refreshPreviews(preferences:now:)`` is, for the same reason: both
+    /// describe the current card, and a stale question would grade this card against the last
+    /// card's options.
+    private func refreshQuestion(dependencies: AppDependencies, now: Date = Date()) {
+        selectedOption = nil
+        typedAnswer = nil
+        isQuestionAnswered = false
+        pendingAutoRating = nil
+        pendingResponseMS = nil
+        guard let card = currentCard else {
+            currentQuestion = nil
+            questionShownAt = nil
+            return
+        }
+        currentQuestion = dependencies.questions.make(for: card, policy: policy)
+        questionShownAt = now
     }
 
     // MARK: - Previews
