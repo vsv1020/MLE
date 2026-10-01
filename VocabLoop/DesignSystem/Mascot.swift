@@ -41,18 +41,51 @@ public struct Mascot: View {
         self.look = look
     }
 
+    /// Wardrobe tiles show sixteen Mochis at once; sixteen breathing ones is a screen that never
+    /// sits still. See ``still(_:)``.
+    private var isStill = false
+
+    /// A Mochi that does not breathe. For grids of previews, where one idle animation per tile
+    /// adds up to a page that is always moving.
+    public func still(_ isStill: Bool = true) -> Mascot {
+        var copy = self
+        copy.isStill = isStill
+        return copy
+    }
+
     public var body: some View {
         GeometryReader { proxy in
-            let side = min(proxy.size.width, proxy.size.height)
+            // The body fills the frame unless something worn or grown needs room outside it —
+            // then it shrinks, bottom-anchored, and the frame stays the size the caller gave it.
+            let bodyRect = MascotAccessories.bodyRect(for: look, in: proxy.size)
+            let side = min(bodyRect.width, bodyRect.height)
             let shape = WobbleShape(cornerRadius: side / 2, amplitude: 0.7, seed: 0x0C41_0000_0000_0001)
-            ZStack {
-                shape.fill(Chunky.baseColor).offset(y: max(2, side * 0.06))
-                shape.fill(look.color.fill)
-                    .overlay(shape.stroke(Palette.separator, lineWidth: max(2, side * 0.05)))
-                Canvas { context, size in
-                    Self.drawFace(mood, in: &context, size: size)
+            ZStack(alignment: .topLeading) {
+                // Behind the body: the cape.
+                Canvas { context, _ in
+                    MascotAccessories.render(MascotAccessories.behindMarks(for: look, body: bodyRect), in: &context)
+                }
+                ZStack {
+                    shape.fill(Chunky.baseColor).offset(y: max(2, side * 0.06))
+                    shape.fill(look.color.fill)
+                        .overlay(shape.stroke(Palette.separator, lineWidth: max(2, side * 0.05)))
+                }
+                .frame(width: bodyRect.width, height: bodyRect.height)
+                .offset(x: bodyRect.minX, y: bodyRect.minY)
+                Canvas { context, _ in
+                    // Body details and the face in the body's own coordinates, so `drawFace`
+                    // is exactly the function it always was.
+                    var face = context
+                    face.translateBy(x: bodyRect.minX, y: bodyRect.minY)
+                    MascotAccessories.render(
+                        MascotAccessories.underFaceMarks(for: look, size: bodyRect.size), in: &face
+                    )
+                    Self.drawFace(mood, in: &face, size: bodyRect.size)
+                    // Then everything worn, in the frame's coordinates.
+                    MascotAccessories.render(MascotAccessories.frontMarks(for: look, body: bodyRect), in: &context)
                 }
             }
+            .frame(width: proxy.size.width, height: proxy.size.height, alignment: .topLeading)
         }
         // Wider than tall: a mochi sits, it is not a ball.
         .aspectRatio(1.2, contentMode: .fit)
@@ -61,7 +94,7 @@ public struct Mascot: View {
         .accessibilityHidden(true)
         .allowsHitTesting(false)
         .onAppear {
-            guard !reduceMotion else { return }
+            guard !reduceMotion, !isStill else { return }
             withAnimation(.easeInOut(duration: 1.6).repeatForever(autoreverses: true)) {
                 breathing = true
             }
