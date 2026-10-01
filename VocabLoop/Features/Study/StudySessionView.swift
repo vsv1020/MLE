@@ -29,71 +29,30 @@ struct StudySessionView: View {
     @State private var isShowingLibrary = false
     /// "Done for today" at the root: the goal screen stays up in its resting form.
     @State private var isRestingForToday = false
+    @State private var isShowingMochi = false
+    /// The celebration on screen now. The rest wait in ``StudyViewModel/events``.
+    @State private var toast: ToastItem?
+    @State private var isMochiHopping = false
 
     var body: some View {
         VStack(spacing: 0) {
             topBar
 
-            switch model.phase {
-            case .loading:
-                Spacer()
-                ProgressView()
-                Spacer()
-
-            case .reviewing:
-                if let card = model.currentCard {
-                    FlashcardView(
-                        card: card,
-                        isAnswerRevealed: model.isAnswerRevealed,
-                        reduceMotion: reduceMotion
-                    )
-                    // Mochi peeks over the card's top edge and reacts to the last answer.
-                    // Trailing, because the direction badge and headword are centred and the
-                    // leading corner is under the library button.
-                    .overlay(alignment: .topTrailing) {
-                        Mascot(mood: mascotMood)
-                            .frame(width: 58, height: 48)
-                            .offset(x: -18, y: -12)
-                    }
-                    // Identity keyed on the card so SwiftUI treats each card as a new view.
-                    .id(card.cardID)
-                    .transition(cardTransition)
-                    Spacer(minLength: 0)
-                    bottomControls
-                } else {
-                    Spacer()
-                }
-
-            case .goalReached:
-                GoalCompleteView(
-                    model: model,
-                    onContinue: {
-                        isRestingForToday = false
-                        model.continueAfterGoal()
-                    },
-                    onDone: {
-                        switch presentation {
-                        case .sheet: dismiss()
-                        case .root: isRestingForToday = true
-                        }
-                    },
-                    isResting: isRestingForToday
-                )
-
-            case .finished:
-                SessionSummaryView(model: model) {
-                    switch presentation {
-                    case .sheet:
-                        dismiss()
-                    case .root:
-                        // Nothing behind the root to dismiss to. Re-run `start` first: a card
-                        // may have come due, and it introduces new words if any are left. If
-                        // there is still nothing, open the library — re-rendering the same
-                        // summary made the button look broken, which is exactly how it was
-                        // reported.
-                        model.start(dependencies: dependencies, options: options)
-                        if model.phase == .finished { isShowingLibrary = true }
-                    }
+            // Wrapped so the toast overlays the content area — under the top bar, over the top of
+            // the card, and never over the rating bar at the bottom.
+            VStack(spacing: 0) {
+                phaseContent
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .overlay(alignment: .top) {
+                if let toast {
+                    RewardToast(event: toast.event) { showNextToast() }
+                        .id(toast.id)
+                        .padding(.horizontal, Spacing.md)
+                        .padding(.top, Spacing.xs)
+                        .transition(
+                            reduceMotion ? .opacity : .move(edge: .top).combined(with: .opacity)
+                        )
                 }
             }
         }
@@ -111,6 +70,15 @@ struct StudySessionView: View {
         .onChange(of: model.phase) { _, phase in
             if phase != .goalReached { isRestingForToday = false }
         }
+        // Drained one at a time; a new event never interrupts the one being shown.
+        .onChange(of: model.events) { _, _ in
+            if toast == nil { showNextToast() }
+        }
+        // Mochi hops on a combo milestone. Keyed on the review count so the same milestone
+        // reached again later in the session hops again.
+        .onChange(of: model.reviewedCount) { _, _ in
+            if model.lastComboMilestone != nil { hopMochi() }
+        }
         .task { model.start(dependencies: dependencies, options: options) }
         // "Hey Siri, start reviewing" used to be consumed by Today, which was the app's entry
         // point. It no longer is — at launch this screen is what exists — so the note would have
@@ -122,6 +90,11 @@ struct StudySessionView: View {
         .onChange(of: scenePhase) { _, phase in
             // A warm launch may have run the task above before the intent wrote its note.
             if phase == .active { consumeIntentRequest() }
+            // The future widget reads this file and never the store, so it is refreshed on the way
+            // out as well as after each grade.
+            if phase == .background, let preferences = dependencies.preferences {
+                dependencies.engagement.writeWidgetSnapshot(preferences: preferences, now: Date())
+            }
         }
         .sheet(isPresented: $isShowingLibrary, onDismiss: {
             // Words may have been added, enrolled or suspended in there, so the queue is
@@ -130,6 +103,12 @@ struct StudySessionView: View {
             model.start(dependencies: dependencies, options: options)
         }) {
             MainTabView()
+        }
+        .sheet(isPresented: $isShowingMochi, onDismiss: {
+            // A new outfit or colour should be on the Mochi peeking over the card at once.
+            model.refreshEngagement(dependencies: dependencies)
+        }) {
+            MochiHomeView()
         }
         .alert("End this session?", isPresented: $isConfirmingExit) {
             Button("Keep studying", role: .cancel) {}
@@ -144,6 +123,78 @@ struct StudySessionView: View {
             Button("OK") { model.errorMessage = nil }
         } message: {
             Text(model.errorMessage ?? "")
+        }
+    }
+
+    @ViewBuilder
+    private var phaseContent: some View {
+        switch model.phase {
+        case .loading:
+            Spacer()
+            ProgressView()
+            Spacer()
+
+        case .reviewing:
+            if let card = model.currentCard {
+                QuestionCardView(
+                    card: card,
+                    question: model.currentQuestion,
+                    isAnswerRevealed: model.isAnswerRevealed,
+                    isQuestionAnswered: model.isQuestionAnswered,
+                    selectedOption: model.selectedOption,
+                    typedAnswer: model.typedAnswer,
+                    reduceMotion: reduceMotion,
+                    onPick: { model.answer(optionIndex: $0) },
+                    onSubmitTyped: { model.submitTyped($0) },
+                    onGiveUp: { model.giveUpOnQuestion() }
+                )
+                // Mochi peeks over the card's top edge and reacts to the last answer.
+                // Trailing, because the direction badge and headword are centred and the
+                // leading corner is under the library button.
+                .overlay(alignment: .topTrailing) {
+                    mochiButton
+                        .offset(x: -18, y: -12)
+                }
+                // Identity keyed on the card so SwiftUI treats each card as a new view.
+                .id(card.cardID)
+                .transition(cardTransition)
+                Spacer(minLength: 0)
+                bottomControls
+            } else {
+                Spacer()
+            }
+
+        case .goalReached:
+            GoalCompleteView(
+                model: model,
+                onContinue: {
+                    isRestingForToday = false
+                    model.continueAfterGoal()
+                },
+                onDone: {
+                    switch presentation {
+                    case .sheet: dismiss()
+                    case .root: isRestingForToday = true
+                    }
+                },
+                isResting: isRestingForToday
+            )
+
+        case .finished:
+            SessionSummaryView(model: model) {
+                switch presentation {
+                case .sheet:
+                    dismiss()
+                case .root:
+                    // Nothing behind the root to dismiss to. Re-run `start` first: a card
+                    // may have come due, and it introduces new words if any are left. If
+                    // there is still nothing, open the library — re-rendering the same
+                    // summary made the button look broken, which is exactly how it was
+                    // reported.
+                    model.start(dependencies: dependencies, options: options)
+                    if model.phase == .finished { isShowingLibrary = true }
+                }
+            }
         }
     }
 
@@ -197,14 +248,82 @@ struct StudySessionView: View {
     /// "Forgot" maps to `.encourage`, never to anything sad. A companion that looks disappointed
     /// at an honest answer teaches people to stop answering honestly, and inflated grades are the
     /// one input that quietly ruins every interval FSRS computes afterwards.
+    ///
+    /// An answered quiz reacts to that answer before it is graded — happy when right, encouraging
+    /// when not, exactly like the self-graded faces. A combo milestone outranks the plain rating:
+    /// three in a row is a happy hop, five and up a cheer (engagement plan §1.1).
     private var mascotMood: Mascot.Mood {
-        switch model.lastRating {
-        case .none: model.isAnswerRevealed ? .happy : .curious
-        case .again?: .encourage
-        case .hard?: .curious
-        case .good?: .happy
-        case .easy?: .cheer
+        if model.isQuestionAnswered, let pending = model.pendingAutoRating {
+            return pending == .again ? .encourage : .happy
         }
+        if let milestone = model.lastComboMilestone {
+            return milestone >= 5 ? .cheer : .happy
+        }
+        switch model.lastRating {
+        case .none: return model.isAnswerRevealed ? .happy : .curious
+        case .again?: return .encourage
+        case .hard?: return .curious
+        case .good?: return .happy
+        case .easy?: return .cheer
+        }
+    }
+
+    /// Mochi, peeking over the card. A button into Mochi's room — the wardrobe, stickers and
+    /// badges — so the companion is something to visit, not only something to look at.
+    private var mochiButton: some View {
+        Button {
+            isShowingMochi = true
+        } label: {
+            Mascot(mood: mascotMood, look: model.look)
+                .frame(width: 58, height: 48)
+                .contentShape(Rectangle())
+        }
+        .pressable(scale: 0.92)
+        .background { mochiCelebration }
+        .offset(y: isMochiHopping ? -10 : 0)
+        .accessibilityLabel("Mochi")
+        .accessibilityHint("Opens Mochi's room")
+    }
+
+    /// Confetti behind Mochi from a combo of 10, plus a sparkle ring from 20.
+    ///
+    /// A `background` with its own larger frame, so it spills around Mochi without growing the
+    /// button's tap area or moving the card. Keyed on the review count so each milestone plays
+    /// its own burst from the start.
+    @ViewBuilder
+    private var mochiCelebration: some View {
+        if let milestone = model.lastComboMilestone, milestone >= 10 {
+            ZStack {
+                SummaryBurst(count: 12, seed: UInt64(milestone) &* 0x9E37_79B9_7F4A_7C15)
+                if milestone >= 20 {
+                    SparkleRing()
+                }
+            }
+            .frame(width: 150, height: 150)
+            .id(model.reviewedCount)
+            .allowsHitTesting(false)
+            .accessibilityHidden(true)
+        }
+    }
+
+    private func hopMochi() {
+        guard !reduceMotion else { return }
+        withAnimation(Motion.pop(false)) { isMochiHopping = true }
+        Task { @MainActor in
+            try? await Task.sleep(for: .milliseconds(220))
+            withAnimation(Motion.pop(false)) { isMochiHopping = false }
+        }
+    }
+
+    /// Show the next event that has words, skipping the ones that do not (plain candy).
+    private func showNextToast() {
+        while let next = model.takeNextEvent() {
+            if RewardToast.message(for: next) != nil {
+                withAnimation(Motion.pop(reduceMotion)) { toast = ToastItem(event: next) }
+                return
+            }
+        }
+        withAnimation(Motion.value(reduceMotion)) { toast = nil }
     }
 
     // MARK: - Chrome
@@ -296,6 +415,10 @@ struct StudySessionView: View {
                     Spacer()
                 }
 
+                // On every phase, goal screen included: the flame is how today's effort shows up
+                // after the session as well as during it.
+                StreakFlame(streak: model.streak.current, isLit: model.studiedToday)
+
                 Menu {
                     if model.canUndo {
                         Button {
@@ -333,6 +456,12 @@ struct StudySessionView: View {
                 .accessibilityLabel("Session options")
             }
 
+            // Under the progress row rather than in it, so the row keeps its one job. Reviewing
+            // only: the goal and summary screens show their own numbers.
+            if model.phase == .reviewing {
+                ComboBanner(combo: model.combo, candy: model.candyTotal)
+            }
+
             if model.deferredCount > 0 {
                 // Say so explicitly. Capping the session and then implying the backlog is
                 // gone would be dishonest.
@@ -347,24 +476,75 @@ struct StudySessionView: View {
 
     // MARK: - Bottom controls
 
+    /// Show answer and the rating bar for a flip card; a single Continue for an answered quiz.
+    ///
+    /// A quiz never shows the rating bar: the app has already graded it (``AutoGrader``), and
+    /// offering four faces afterwards would invite regrading a wrong pick as "Got it". Before it is
+    /// answered a quiz has nothing down here — its options and "I don't know" are the controls.
+    @ViewBuilder
     private var bottomControls: some View {
-        VStack(spacing: Spacing.sm) {
-            if model.isAnswerRevealed {
-                RatingBar(
-                    showsIntervals: dependencies.preferences?.showIntervalPreview ?? true,
-                    intervalLabel: model.intervalLabel(for:)
-                ) { rating in
-                    model.grade(rating, dependencies: dependencies)
-                }
-            } else {
-                PrimaryButton("Show answer") {
-                    model.revealAnswer()
+        if model.isQuizQuestion {
+            if model.isQuestionAnswered {
+                controlBar {
+                    PrimaryButton("Continue") {
+                        model.continueAfterAnswer(dependencies: dependencies)
+                    }
+                    .keyboardShortcut(.defaultAction)
                 }
             }
+        } else {
+            controlBar {
+                if model.isAnswerRevealed {
+                    RatingBar(
+                        showsIntervals: dependencies.preferences?.showIntervalPreview ?? true,
+                        intervalLabel: model.intervalLabel(for:)
+                    ) { rating in
+                        model.grade(rating, dependencies: dependencies)
+                    }
+                } else {
+                    PrimaryButton("Show answer") {
+                        model.revealAnswer()
+                    }
+                }
+            }
+        }
+    }
+
+    private func controlBar<Content: View>(@ViewBuilder _ content: () -> Content) -> some View {
+        VStack(spacing: Spacing.sm) {
+            content()
         }
         .padding(Spacing.md)
         .readableWidth()
         .background(Palette.canvas)
+    }
+}
+
+/// One toast on screen, with its own identity so two identical events in a row still each get
+/// their full time on screen instead of the second silently reusing the first one's timer.
+private struct ToastItem: Identifiable, Equatable {
+    let id = UUID()
+    let event: EngagementEvent
+}
+
+/// The "superstar" ring behind Mochi from a combo of 20: a dotted circle that turns once.
+private struct SparkleRing: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var isTurned = false
+
+    var body: some View {
+        Circle()
+            .stroke(
+                Palette.brandSecondary,
+                style: StrokeStyle(lineWidth: 3, lineCap: .round, dash: [1, 9])
+            )
+            .frame(width: 84, height: 84)
+            .rotationEffect(.degrees(isTurned ? 120 : 0))
+            .scaleEffect(isTurned || reduceMotion ? 1 : 0.7)
+            .onAppear {
+                guard !reduceMotion else { return }
+                withAnimation(.easeOut(duration: 1.4)) { isTurned = true }
+            }
     }
 }
 
