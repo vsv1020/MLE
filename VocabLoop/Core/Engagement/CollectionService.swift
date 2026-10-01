@@ -219,6 +219,41 @@ public final class CollectionService {
         return (albums: albums.count, complete: complete, shiny: shiny)
     }
 
+    /// Progress through every album of the language, in book order, from one card fetch.
+    ///
+    /// What the sticker book's contents page needs. Calling ``progress(of:)`` per album would
+    /// fetch every card of the language once for each of ~275 pages.
+    public func allProgress(languageCode: String) throws -> [AlbumProgress] {
+        let albums = try albums(languageCode: languageCode)
+        let maturities = try maturityByEntry(languageCode: languageCode)
+        return albums.map { Self.progress(of: $0, maturities: maturities) }
+    }
+
+    /// Entries that only a Plus pack introduces: in a ``PlusCatalog/premiumDeckSlugs`` deck and
+    /// in no free one. Albums made entirely of them wear a small "Plus" tag (§1.7) — they stay
+    /// browsable either way.
+    public func plusOnlyEntryIDs(languageCode: String) throws -> Set<String> {
+        let decks = try context.fetch(
+            FetchDescriptor<Deck>(predicate: #Predicate { $0.languageCode == languageCode })
+        )
+        var premium: Set<String> = []
+        var free: Set<String> = []
+        for deck in decks {
+            let ids = deck.entries.map(\.stableID)
+            if deck.requiresPlus {
+                premium.formUnion(ids)
+            } else {
+                free.formUnion(ids)
+            }
+        }
+        return premium.subtracting(free)
+    }
+
+    /// `true` when every word on the page comes only from a Plus pack.
+    static func isPlusAlbum(_ album: Album, plusOnlyEntryIDs: Set<String>) -> Bool {
+        !album.entryStableIDs.isEmpty && album.entryStableIDs.allSatisfy { plusOnlyEntryIDs.contains($0) }
+    }
+
     public func invalidateCache() {
         cache.removeAll()
     }

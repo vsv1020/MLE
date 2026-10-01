@@ -199,6 +199,74 @@ final class PaletteContrastTests: XCTestCase {
         }
     }
 
+    // MARK: - Sticker book (1.0.7)
+
+    private let allSurfaces: [(String, Color)] = [
+        ("surface", Palette.surface),
+        ("canvas", Palette.canvas),
+        ("surfaceRaised", Palette.surfaceRaised),
+    ]
+
+    /// The four family tints are the sticker edges and the dots in the contents list: graphical
+    /// objects, so WCAG 1.4.11's 3:1 against every surface they can sit on.
+    func testWordFamilyTintsAreVisibleOnEverySurface() {
+        for (appearance, style) in appearances {
+            for family in WordFamily.allCases {
+                for (surfaceName, surface) in allSurfaces {
+                    let ratio = contrast(family.tint, surface, style: style)
+                    XCTAssertGreaterThanOrEqual(
+                        ratio, 3.0,
+                        "\(family.rawValue) tint on \(surfaceName) in \(appearance) mode is "
+                        + "\(String(format: "%.2f", ratio)):1"
+                    )
+                }
+            }
+        }
+    }
+
+    /// A coloured or shiny sticker's word: ink over the family tint at the opacity `StickerView`
+    /// actually draws. The sticker paints opaque `surface` under the tint, but every surface is
+    /// measured so a future change to that underlay cannot quietly break the word.
+    func testStickerWordIsLegibleOnEveryFamilyTint() {
+        for (appearance, style) in appearances {
+            for family in WordFamily.allCases {
+                for (surfaceName, surface) in allSurfaces {
+                    let fill = blend(family.tint, over: surface, alpha: StickerView.fillOpacity, style: style)
+                    assertContrast(
+                        Palette.textPrimary, on: fill, style: style,
+                        because: "sticker word on a \(family.rawValue) tint over \(surfaceName) in \(appearance) mode"
+                    )
+                }
+            }
+        }
+    }
+
+    /// Not-started and sketched stickers carry their word in a lighter tone, on paper.
+    func testUncolouredStickerWordsAreLegible() {
+        for (appearance, style) in appearances {
+            assertContrast(
+                Palette.textTertiary, on: Palette.surface, style: style,
+                because: "not-started sticker word in \(appearance) mode"
+            )
+            assertContrast(
+                Palette.textSecondary, on: Palette.surfaceRaised, style: style,
+                because: "sketched sticker word in \(appearance) mode"
+            )
+        }
+    }
+
+    /// Mochi's face is drawn in `textPrimary` on whatever colour Mochi is wearing.
+    func testMochiFaceIsLegibleOnEveryBodyColour() {
+        for (appearance, style) in appearances {
+            for color in MochiBodyColor.allCases {
+                assertContrast(
+                    Palette.textPrimary, on: color.fill, style: style,
+                    because: "Mochi's face on \(color.rawValue) in \(appearance) mode"
+                )
+            }
+        }
+    }
+
     // MARK: - Measurement
 
     private func assertContrast(
