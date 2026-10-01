@@ -62,7 +62,8 @@ jobs:
       # until the App Group group.com.vocabloop.app is set up in the developer portal (steps in
       # the header) — 1.0.8 shipped without the extension for that reason. Set the repository
       # variable VL_WIDGETS=on to ship the widgets and Live Activity.
-      VL_WIDGETS: ${{ github.event.inputs.widgets || vars.VL_WIDGETS || 'off' }}
+      # Variables or Secrets — either place works, like GOOGLE_IOS_CLIENT_ID.
+      VL_WIDGETS: ${{ github.event.inputs.widgets || vars.VL_WIDGETS || secrets.VL_WIDGETS || 'off' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -164,6 +165,7 @@ jobs:
             echo "Google sign-in: not configured — the button will be hidden"
           fi
           echo "Website: ${WEBSITE_URL:-not configured — legal links hidden}"
+          echo "Widgets: $VL_WIDGETS"
           # Build number = run number, so every upload is unique without editing the project.
           set -o pipefail
           xcodebuild archive \
