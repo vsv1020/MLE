@@ -12,6 +12,7 @@ struct HomeView: View {
     @State private var isStudying = false
     @State private var studyOptions = ReviewQueueBuilder.Options()
     @State private var isConfirmingStudyAhead = false
+    @State private var isShowingMochi = false
 
     /// Today lives inside the library sheet presented by the root session, so dismissing it is
     /// how you get back to a card.
@@ -27,6 +28,7 @@ struct HomeView: View {
                         dailyWordsSection
                     }
                     statsRow
+                    mochiRow
                     studyAheadFooter
                 }
                 .padding(Spacing.md)
@@ -49,6 +51,9 @@ struct HomeView: View {
             }
             .fullScreenCover(isPresented: $isStudying, onDismiss: reload) {
                 StudySessionView(options: studyOptions)
+            }
+            .sheet(isPresented: $isShowingMochi, onDismiss: reload) {
+                MochiHomeView()
             }
             .overlay {
                 if model.isLoading && !dependencies.isContentReady {
@@ -259,6 +264,45 @@ struct HomeView: View {
                 )
             }
         }
+    }
+
+    // MARK: - Mochi
+
+    /// Mochi's level and star candy, and the door to the wardrobe, stickers and badges.
+    private var mochiRow: some View {
+        Button {
+            isShowingMochi = true
+        } label: {
+            CardContainer(style: .crayon, wobbleSeed: 0x60E0_0002) {
+                HStack(spacing: Spacing.md) {
+                    Mascot(mood: .happy, look: model.mochiLook)
+                        .frame(width: 58, height: 48)
+                    VStack(alignment: .leading, spacing: Spacing.xxs) {
+                        Text("Mochi · Level \(model.mochiLevel)")
+                            .font(Typography.sectionHeader)
+                            .foregroundStyle(Palette.textPrimary)
+                        HStack(spacing: Spacing.xxs) {
+                            Image(systemName: "star.fill")
+                                .foregroundStyle(Palette.brandSecondary)
+                            Text("\(model.candyTotal.formatted()) star candy")
+                                .foregroundStyle(Palette.textSecondary)
+                        }
+                        .font(Typography.caption)
+                        ProgressView(value: model.levelProgress)
+                            .tint(Palette.brandSecondary)
+                    }
+                    Spacer(minLength: 0)
+                    Image(systemName: "chevron.right")
+                        .font(.caption)
+                        .foregroundStyle(Palette.textTertiary)
+                }
+            }
+        }
+        .buttonStyle(.plain)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Mochi, level \(model.mochiLevel), \(model.candyTotal) star candy")
+        .accessibilityHint("Opens Mochi's wardrobe, stickers and badges")
+        .accessibilityAddTraits(.isButton)
     }
 
     private var loadingOverlay: some View {

@@ -51,6 +51,22 @@ struct SettingsView: View {
                     NavigationLink("Notifications") { NotificationSettingsView() }
                 }
 
+                Section {
+                    NavigationLink {
+                        ParentGateView()
+                    } label: {
+                        Label {
+                            Text("Parent report")
+                        } icon: {
+                            Image(systemName: "person.2.fill").foregroundStyle(Palette.brandPrimary)
+                        }
+                    }
+                } header: {
+                    Text("For parents")
+                } footer: {
+                    Text("A weekly summary for grown-ups, behind a quick sum. Worked out on this device; nothing is sent anywhere.")
+                }
+
                 Section("Data") {
                     NavigationLink("Storage and sync") { DataSettingsView() }
                 }
@@ -461,6 +477,15 @@ struct PresentationSettingsView: View {
 
                 Section {
                     Toggle("Haptic feedback", isOn: toggle(\.hapticsEnabled))
+                    Toggle("Sound effects", isOn: toggle(\.soundEffectsEnabled))
+                } footer: {
+                    Text("Little chimes for right answers, combos and rewards. Never a sound for a forgotten word, and the silent switch always wins.")
+                }
+
+                Section {
+                    Toggle("Quiz questions", isOn: toggle(\.quizModesEnabled))
+                } footer: {
+                    Text("Mixes pick-the-meaning, listening and typing questions into reviews of words you already know. New words are always shown as plain cards first. Turn off to rate every card yourself.")
                 }
             }
         }
@@ -533,9 +558,32 @@ struct NotificationSettingsView: View {
                         Text("Reminders are scheduled on device — they arrive whether or not you have a signal.")
                     }
                 }
+
+                Section {
+                    Toggle("Streak reminder", isOn: Binding(
+                        get: { preferences.streakReminderEnabled },
+                        set: { setStreakReminder($0, preferences: preferences) }
+                    ))
+                } footer: {
+                    Text("One gentle evening note, only on a day you have not studied yet and only when a streak of two days or more is waiting. Never more than once a day.")
+                }
             }
         }
         .navigationTitle("Notifications")
+    }
+
+    /// Saved first, so the choice sticks even if the permission prompt is declined. Permission
+    /// is asked only when turning it on — the same rule as the daily reminder.
+    private func setStreakReminder(_ isOn: Bool, preferences: StudyPreferences) {
+        preferences.streakReminderEnabled = isOn
+        dependencies.savePreferences()
+        Task {
+            if isOn {
+                let granted = await dependencies.notifications.requestAuthorization()
+                authorizationDenied = !granted
+            }
+            await dependencies.engagement.refreshStreakReminder(preferences: preferences, now: Date())
+        }
     }
 
     /// Permission is requested here, at the moment the user asks for reminders — never at

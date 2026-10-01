@@ -9,6 +9,9 @@ struct StatsView: View {
     @Environment(\.appDependencies) private var dependencies
     @State private var statistics: StudyStatistics = .empty
     @State private var isLoading = true
+    /// The rolling seven-day recap (engagement plan §1.9). `nil` until loaded or if it fails —
+    /// the rest of Progress never waits on it.
+    @State private var recap: WeeklyRecap?
 
     var body: some View {
         NavigationStack {
@@ -23,6 +26,9 @@ struct StatsView: View {
                             message: "Add a few words from Today, and your progress will appear here after the first review."
                         )
                     } else {
+                        if let recap {
+                            WeeklyRecapCard(recap: recap)
+                        }
                         retentionCard
                         streakCard
                         forecastCard
@@ -276,6 +282,7 @@ struct StatsView: View {
             return
         }
         statistics = (try? dependencies.stats.statistics(for: account, preferences: preferences)) ?? .empty
+        recap = try? dependencies.recap.recap(for: account, preferences: preferences, endingAt: Date())
         isLoading = false
     }
 }
