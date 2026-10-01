@@ -559,13 +559,17 @@ struct NotificationSettingsView: View {
                     }
                 }
 
-                Section {
-                    Toggle("Streak reminder", isOn: Binding(
-                        get: { preferences.streakReminderEnabled },
-                        set: { setStreakReminder($0, preferences: preferences) }
-                    ))
-                } footer: {
-                    Text("One gentle evening note, only on a day you have not studied yet and only when a streak of two days or more is waiting. Never more than once a day.")
+                // Only offered while reminders are on: the scheduler requires `remindersEnabled`,
+                // so with the daily reminder off this toggle would do nothing at all.
+                if preferences.remindersEnabled {
+                    Section {
+                        Toggle("Streak reminder", isOn: Binding(
+                            get: { preferences.streakReminderEnabled },
+                            set: { setStreakReminder($0, preferences: preferences) }
+                        ))
+                    } footer: {
+                        Text("One gentle evening note, only on a day you have not studied yet and only when a streak of two days or more is waiting. Never more than once a day.")
+                    }
                 }
             }
         }

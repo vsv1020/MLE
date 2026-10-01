@@ -89,7 +89,12 @@ struct StudySessionView: View {
         .task { consumeIntentRequest() }
         .onChange(of: scenePhase) { _, phase in
             // A warm launch may have run the task above before the intent wrote its note.
-            if phase == .active { consumeIntentRequest() }
+            if phase == .active {
+                consumeIntentRequest()
+                // Time spent in another app is not recall time; the quiz on screen starts its
+                // response clock again rather than grading the answer "slow".
+                model.restartQuestionClock()
+            }
             // The future widget reads this file and never the store, so it is refreshed on the way
             // out as well as after each grade.
             if phase == .background, let preferences = dependencies.preferences {
@@ -110,6 +115,8 @@ struct StudySessionView: View {
         .sheet(isPresented: $isShowingMochi, onDismiss: {
             // A new outfit or colour should be on the Mochi peeking over the card at once.
             model.refreshEngagement(dependencies: dependencies)
+            // Dressing Mochi is not recall time either: the quiz underneath restarts its clock.
+            model.restartQuestionClock()
         }) {
             MochiHomeView()
         }

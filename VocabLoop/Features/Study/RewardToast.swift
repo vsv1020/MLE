@@ -4,9 +4,10 @@ import UIKit
 /// One celebration at a time, at the top of the card.
 ///
 /// The study screen drains ``StudyViewModel/events`` into this one by one; each shows for
-/// ``displaySeconds`` and can be tapped away. It sits over the *top* of the card and never over
+/// ``displaySeconds`` and then goes by itself. It sits over the *top* of the card and never over
 /// the rating bar — a toast that swallows a tap meant for "Got it" would turn a reward into an
-/// obstacle (engagement plan §2.3, §4).
+/// obstacle (engagement plan §2.3, §4). For the same reason it takes no taps at all: over the
+/// top of the card it would otherwise eat a tap meant for the card or a quiz option.
 ///
 /// The copy never mentions a loss. A broken combo is announced as the run it was ("Nice run:
 /// 12 in a row!"), and the plain per-answer candy has no toast at all — it ticks up in the candy
@@ -59,36 +60,36 @@ struct RewardToast: View {
 
     var body: some View {
         if let message = Self.message(for: event) {
-            Button(action: onDismiss) {
-                HStack(spacing: Spacing.xs) {
-                    Text(message.emoji)
-                        .accessibilityHidden(true)
-                    Text(message.text)
-                        .font(Typography.bodyEmphasis)
-                        .foregroundStyle(Palette.textPrimary)
-                        .multilineTextAlignment(.leading)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-                .padding(.horizontal, Spacing.md)
-                .padding(.vertical, Spacing.sm)
-                .background {
-                    let shape = WobbleShape(cornerRadius: Radius.button, amplitude: 0.8, seed: 0x7A57_0000_0000_0001)
-                    ZStack {
-                        shape.fill(Chunky.baseColor).offset(y: 3)
-                        shape.fill(Palette.surface)
-                            .overlay(shape.stroke(Palette.brandSecondary.opacity(0.7), lineWidth: 2))
-                    }
+            HStack(spacing: Spacing.xs) {
+                Text(message.emoji)
+                    .accessibilityHidden(true)
+                Text(message.text)
+                    .font(Typography.bodyEmphasis)
+                    .foregroundStyle(Palette.textPrimary)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(.horizontal, Spacing.md)
+            .padding(.vertical, Spacing.sm)
+            .background {
+                let shape = WobbleShape(cornerRadius: Radius.button, amplitude: 0.8, seed: 0x7A57_0000_0000_0001)
+                ZStack {
+                    shape.fill(Chunky.baseColor).offset(y: 3)
+                    shape.fill(Palette.surface)
+                        .overlay(shape.stroke(Palette.brandSecondary.opacity(0.7), lineWidth: 2))
                 }
             }
-            .buttonStyle(.plain)
+            // Taps go straight through to the card underneath; the toast leaves on its own.
+            .allowsHitTesting(false)
+            // Still one element that reads the reward, for anyone who swipes to it before it goes.
+            .accessibilityElement(children: .ignore)
             .accessibilityLabel(message.text)
-            .accessibilityHint("Dismisses this message")
             .task {
                 // Read out once, without moving VoiceOver's focus off the card.
                 UIAccessibility.post(notification: .announcement, argument: message.text)
                 try? await Task.sleep(for: .seconds(Self.displaySeconds))
-                // Cancelled when the toast is tapped away or replaced; dismissing again then would
-                // skip the next one.
+                // Cancelled when the toast is replaced; dismissing again then would skip the
+                // next one.
                 guard !Task.isCancelled else { return }
                 onDismiss()
             }

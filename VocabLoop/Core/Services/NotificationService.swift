@@ -88,12 +88,14 @@ public final class NotificationService {
 
     // MARK: - Streak nudge
 
-    /// Schedule, or remove, the one-off evening nudge for a streak not yet continued today.
+    /// Schedule, or remove, the one-off evening nudge for the next study day the streak is open.
     ///
-    /// Scheduled only when reminders are on and authorized, the streak reminder toggle is on,
-    /// the streak is at least two days, today has no review yet, and the nudge time is still
-    /// ahead *within today's study day* — a nudge firing tomorrow would talk about a streak that
-    /// by then has already ended. Idempotent: the previous request is always removed first.
+    /// Scheduled only when reminders are on and authorized, the streak reminder toggle is on and
+    /// the streak is at least two days. If today has no review yet it is today's slot, and only
+    /// while that is still ahead *within today's study day* — a nudge firing tomorrow would talk
+    /// about a streak that by then has already ended. If today is done it is tomorrow's slot, so
+    /// backgrounding after a session leaves tomorrow's nudge waiting (a review tomorrow cancels
+    /// it again). Idempotent: the previous request is always removed first.
     public func refreshStreakReminder(
         preferences: StudyPreferences,
         streak: Int,
@@ -134,7 +136,8 @@ public final class NotificationService {
     }
 
     /// Remove the streak nudge now. Called the moment a review is recorded: whoever studied
-    /// today has nothing to be nudged about.
+    /// today has nothing to be nudged about today. The next refresh (on background) schedules
+    /// tomorrow's instead.
     public func cancelStreakReminder() {
         streakReminderGeneration += 1
         center.removePendingNotificationRequests(withIdentifiers: [Self.streakRiskIdentifier])
@@ -157,6 +160,10 @@ public final class NotificationService {
 
     /// When the nudge should fire, or `nil` when there should be none. Pure, so every rule in
     /// the engagement plan (§1.2) is unit-tested without a notification center.
+    ///
+    /// Studied today: the slot in the *next study day*, searched from that day's start rather
+    /// than from `now`, because before 19:30 the next slot after `now` is still today's — and
+    /// today needs no nudge. Not studied today: today's slot while it is still ahead, else none.
     static func streakReminderDate(
         preferences: StudyPreferences,
         streak: Int,
@@ -166,9 +173,20 @@ public final class NotificationService {
     ) -> Date? {
         guard preferences.remindersEnabled,
               preferences.streakReminderEnabled,
-              streak >= 2,
-              !studiedToday,
-              let fireDate = streakReminderFireDate(preferences: preferences, now: now, calendar: calendar),
+              streak >= 2
+        else { return nil }
+
+        if studiedToday {
+            let nextDayStart = calendar.dayEnd(for: now)
+            guard let fireDate = streakReminderFireDate(
+                      preferences: preferences, now: nextDayStart, calendar: calendar
+                  ),
+                  calendar.isSameDay(fireDate, nextDayStart)
+            else { return nil }
+            return fireDate
+        }
+
+        guard let fireDate = streakReminderFireDate(preferences: preferences, now: now, calendar: calendar),
               calendar.isSameDay(fireDate, now)
         else { return nil }
         return fireDate

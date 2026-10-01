@@ -87,8 +87,56 @@ final class StreakReminderTests: XCTestCase {
         ))
     }
 
-    func testNotScheduledOnceTodayHasAReview() throws {
+    /// Today is done, so today needs no nudge — but tomorrow's study day does. Before 19:30 the
+    /// next slot after `now` is still today's, so this checks it skips to tomorrow's.
+    func testOnceTodayHasAReviewTheNudgeIsTomorrows() throws {
         let (preferences, calendar) = try makePreferences()
+        XCTAssertEqual(
+            NotificationService.streakReminderDate(
+                preferences: preferences, streak: 9, studiedToday: true, now: referenceDate, calendar: calendar
+            ),
+            utc(16, 19, 30),
+            "tomorrow's slot, never today's"
+        )
+    }
+
+    /// Studied today, then backgrounded: after today's slot, late at night, and in the small hours
+    /// that still belong to today's study day, the nudge is tomorrow's — at 18:30 when the daily
+    /// reminder owns 19:30. The guards still apply.
+    func testStudiedTodaySchedulesTomorrowsNudge() throws {
+        let (preferences, calendar) = try makePreferences()
+        XCTAssertEqual(
+            NotificationService.streakReminderDate(
+                preferences: preferences, streak: 2, studiedToday: true, now: utc(15, 21), calendar: calendar
+            ),
+            utc(16, 19, 30)
+        )
+        // 2am on the 16th is still the 15th's study day, so "tomorrow" is the 16th.
+        XCTAssertEqual(
+            NotificationService.streakReminderDate(
+                preferences: preferences, streak: 2, studiedToday: true, now: utc(16, 2), calendar: calendar
+            ),
+            utc(16, 19, 30)
+        )
+
+        preferences.reminderHour = 19
+        preferences.reminderMinute = 30
+        XCTAssertEqual(
+            NotificationService.streakReminderDate(
+                preferences: preferences, streak: 2, studiedToday: true, now: referenceDate, calendar: calendar
+            ),
+            utc(16, 18, 30)
+        )
+
+        XCTAssertNil(NotificationService.streakReminderDate(
+            preferences: preferences, streak: 1, studiedToday: true, now: referenceDate, calendar: calendar
+        ))
+        preferences.streakReminderEnabled = false
+        XCTAssertNil(NotificationService.streakReminderDate(
+            preferences: preferences, streak: 9, studiedToday: true, now: referenceDate, calendar: calendar
+        ))
+        preferences.streakReminderEnabled = true
+        preferences.remindersEnabled = false
         XCTAssertNil(NotificationService.streakReminderDate(
             preferences: preferences, streak: 9, studiedToday: true, now: referenceDate, calendar: calendar
         ))

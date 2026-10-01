@@ -265,6 +265,17 @@ final class StudyViewModel {
         events.append(.welcomeBack(daysAway: daysAway))
     }
 
+    /// Restart the current quiz question's response clock, after time spent away from it.
+    ///
+    /// Called when Mochi's sheet closes and when the app comes back to the foreground. A quiz's
+    /// response time separates `good` from `hard`, and minutes spent in a sheet or in another app
+    /// are not recall time — without this the next answer would always be graded "slow". Only a
+    /// showing, unanswered quiz question is touched: an answered one already captured its time.
+    func restartQuestionClock(now: Date = Date()) {
+        guard isQuizQuestion, !isQuestionAnswered else { return }
+        questionShownAt = now
+    }
+
     /// "Keep going" from the goal screen.
     func continueAfterGoal(now: Date = Date()) {
         guard phase == .goalReached else { return }
@@ -359,6 +370,14 @@ final class StudyViewModel {
         // Captured before the service call, which moves the card on.
         let phaseBefore = card.phase
         let maturityBefore = card.maturity
+        // Today's latched `goalMet`, read before the grade can latch it. The in-memory counts
+        // alone cannot tell a first crossing from a second one: undo drops `reviewsToday` back
+        // below the goal, the regrade crosses it again, and the goal bonus would be paid twice.
+        // The stored latch survives the undo, so it can. `createIfMissing: false` for the same
+        // reason as in `start` — reading is not activity.
+        let wasGoalLatched = (try? dependencies.review.studyDay(
+            for: now, preferences: preferences, createIfMissing: false
+        ))?.goalMet ?? false
 
         do {
             let result = try dependencies.review.grade(
@@ -369,8 +388,9 @@ final class StudyViewModel {
             let wasBelowGoal = !isGoalMet
             reviewsToday += 1
             // Exactly on the crossing, so it celebrates once a day: a session opened after the
-            // goal is already met, or the fortieth card of an evening, does not interrupt.
-            let justReachedGoal = wasBelowGoal && isGoalMet
+            // goal is already met, or the fortieth card of an evening, does not interrupt — nor
+            // does crossing it again after an undo, since the day had already latched it.
+            let justReachedGoal = wasBelowGoal && isGoalMet && !wasGoalLatched
             if rating.isSuccess { correctCount += 1 }
             ratingCounts[rating, default: 0] += 1
             lastGraded = card

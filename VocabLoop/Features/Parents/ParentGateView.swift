@@ -52,7 +52,8 @@ struct ParentGateView: View {
                     Text("Not quite — here is a new one. \(RecapCopy.count(gate.attemptsLeft, "try", "tries")) left.")
                         .foregroundStyle(Palette.textSecondary)
                 } else {
-                    Text("This keeps the report, and anything that can be bought, away from small fingers.")
+                    // Only the report sits behind this gate — the copy must not promise more.
+                    Text("This keeps the weekly report just for grown-ups.")
                 }
             }
         }
