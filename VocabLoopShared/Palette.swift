@@ -125,20 +125,6 @@ public enum Palette {
     /// with each other.
     public static let onRating = Color(light: 0x33291F, dark: 0x1B211D)
 
-    // MARK: Card maturity
-
-    /// Dots are non-text UI, so WCAG 1.4.11's 3:1 applies rather than 4.5:1 — but these sit well
-    /// above it anyway (5.08:1 at worst, the light `new` dot), because a dot is small and that
-    /// threshold assumes a shape whose edges you can already make out.
-    public static func maturity(_ maturity: CardMaturity) -> Color {
-        switch maturity {
-        case .new: Color(light: 0x7A6B55, dark: 0x8A8474)
-        case .learning: Color(light: 0xB2681B, dark: 0xF2C46B)
-        case .young: Color(light: 0x2F7A6B, dark: 0x7FD4C4)
-        case .mature: Color(light: 0x2A62A8, dark: 0x8FBEF0)
-        }
-    }
-
     // MARK: Status
 
     public static let success = Color(light: 0x2F7A46, dark: 0x86D9A0)

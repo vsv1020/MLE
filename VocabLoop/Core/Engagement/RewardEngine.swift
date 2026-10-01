@@ -78,12 +78,7 @@ public enum RewardEngine {
 
     /// Mochi's growth stage for a level. The stage changes the drawing, never the frame.
     public static func stage(forLevel level: Int) -> MochiStage {
-        switch level {
-        case ..<5: return .sprout
-        case 5..<10: return .kid
-        case 10..<15: return .teen
-        default: return .grown
-        }
+        MochiStage(level: level)
     }
 
     // MARK: - Combos
