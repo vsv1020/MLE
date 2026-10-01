@@ -18,6 +18,18 @@ public final class NotificationService {
 
     static let dailyReminderIdentifier = "vocabloop.reminder.daily"
     static let dailyWordIdentifier = "vocabloop.dailyword"
+    /// The evening "a few words before bed?" nudge. One request, never repeating, rewritten
+    /// whenever its inputs change — see ``refreshStreakReminder(preferences:streak:studiedToday:now:)``.
+    static let streakRiskIdentifier = "vocabloop.streak.risk"
+
+    /// Bumped by every cancel and every refresh of the streak nudge.
+    ///
+    /// ``refreshStreakReminder(preferences:streak:studiedToday:now:)`` awaits the authorization
+    /// status before it adds the request. A review recorded during that await cancels the nudge
+    /// synchronously — and without this counter the refresh would then resume and schedule
+    /// "your streak is waiting" for someone who has just studied. A refresh only adds its request
+    /// if nothing cancelled or superseded it in the meantime.
+    private var streakReminderGeneration = 0
 
     public init(center: UNUserNotificationCenter = .current()) {
         self.center = center
@@ -46,9 +58,20 @@ public final class NotificationService {
     ///
     /// Idempotent: it removes what it owns and reschedules, so calling it after any
     /// preference change is always correct and never accumulates duplicates.
-    public func refreshSchedule(preferences: StudyPreferences, dueCount: Int) async {
+    ///
+    /// `streak` and `studiedToday` feed the evening streak nudge. Their defaults describe someone
+    /// who has already studied today, so a caller that does not know them removes the nudge
+    /// rather than scheduling one on a guess; `EngagementService.refreshStreakReminder` puts it
+    /// back with real values on the next background or session.
+    public func refreshSchedule(
+        preferences: StudyPreferences,
+        dueCount: Int,
+        streak: Int = 0,
+        studiedToday: Bool = true
+    ) async {
+        streakReminderGeneration += 1
         center.removePendingNotificationRequests(withIdentifiers: [
-            Self.dailyReminderIdentifier, Self.dailyWordIdentifier,
+            Self.dailyReminderIdentifier, Self.dailyWordIdentifier, Self.streakRiskIdentifier,
         ])
 
         guard preferences.remindersEnabled else { return }
@@ -58,6 +81,97 @@ public final class NotificationService {
         if preferences.dailyWordNotificationEnabled {
             await scheduleDailyWordNudge(preferences: preferences)
         }
+        await refreshStreakReminder(
+            preferences: preferences, streak: streak, studiedToday: studiedToday, now: Date()
+        )
+    }
+
+    // MARK: - Streak nudge
+
+    /// Schedule, or remove, the one-off evening nudge for a streak not yet continued today.
+    ///
+    /// Scheduled only when reminders are on and authorized, the streak reminder toggle is on,
+    /// the streak is at least two days, today has no review yet, and the nudge time is still
+    /// ahead *within today's study day* — a nudge firing tomorrow would talk about a streak that
+    /// by then has already ended. Idempotent: the previous request is always removed first.
+    public func refreshStreakReminder(
+        preferences: StudyPreferences,
+        streak: Int,
+        studiedToday: Bool,
+        now: Date
+    ) async {
+        streakReminderGeneration += 1
+        let generation = streakReminderGeneration
+        center.removePendingNotificationRequests(withIdentifiers: [Self.streakRiskIdentifier])
+
+        let calendar = StudyCalendar(preferences: preferences)
+        guard let fireDate = Self.streakReminderDate(
+            preferences: preferences, streak: streak, studiedToday: studiedToday,
+            now: now, calendar: calendar
+        ) else { return }
+        guard await authorizationStatus() == .authorized else { return }
+        // A review, a cancel or a newer refresh happened while this one waited: theirs wins.
+        guard generation == streakReminderGeneration else { return }
+
+        let content = UNMutableNotificationContent()
+        content.title = Self.streakReminderTitle
+        content.body = Self.streakReminderBody(streak: streak)
+        content.sound = .default
+        content.interruptionLevel = .passive
+        // No badge: the nudge is an invitation, not a count of something owed.
+
+        var gregorian = Calendar(identifier: .gregorian)
+        gregorian.timeZone = calendar.timeZone
+        var components = gregorian.dateComponents([.year, .month, .day, .hour, .minute], from: fireDate)
+        components.timeZone = calendar.timeZone
+        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+
+        await add(
+            UNNotificationRequest(
+                identifier: Self.streakRiskIdentifier, content: content, trigger: trigger
+            )
+        )
+    }
+
+    /// Remove the streak nudge now. Called the moment a review is recorded: whoever studied
+    /// today has nothing to be nudged about.
+    public func cancelStreakReminder() {
+        streakReminderGeneration += 1
+        center.removePendingNotificationRequests(withIdentifiers: [Self.streakRiskIdentifier])
+    }
+
+    static let streakReminderTitle = "A few words before bed?"
+
+    /// Kind on purpose: never "lose", "break" or "don't let", and no countdown.
+    static func streakReminderBody(streak: Int) -> String {
+        "Your \(streak)-day streak is waiting for today. Three words keep it going — Mochi saved your spot."
+    }
+
+    /// The next 19:30 after `now` — or 18:30 when the daily reminder is set for 19:30, since two
+    /// notifications in the same minute read as a bug. Strictly after `now`, so once today's slot
+    /// has passed this is tomorrow's.
+    static func streakReminderFireDate(preferences: StudyPreferences, now: Date, calendar: StudyCalendar) -> Date? {
+        let collides = preferences.reminderHour == 19 && preferences.reminderMinute == 30
+        return calendar.nextOccurrence(hour: collides ? 18 : 19, minute: 30, after: now)
+    }
+
+    /// When the nudge should fire, or `nil` when there should be none. Pure, so every rule in
+    /// the engagement plan (§1.2) is unit-tested without a notification center.
+    static func streakReminderDate(
+        preferences: StudyPreferences,
+        streak: Int,
+        studiedToday: Bool,
+        now: Date,
+        calendar: StudyCalendar
+    ) -> Date? {
+        guard preferences.remindersEnabled,
+              preferences.streakReminderEnabled,
+              streak >= 2,
+              !studiedToday,
+              let fireDate = streakReminderFireDate(preferences: preferences, now: now, calendar: calendar),
+              calendar.isSameDay(fireDate, now)
+        else { return nil }
+        return fireDate
     }
 
     private func scheduleDailyReminder(preferences: StudyPreferences, dueCount: Int) async {
@@ -114,8 +228,9 @@ public final class NotificationService {
     }
 
     public func cancelAll() {
+        streakReminderGeneration += 1
         center.removePendingNotificationRequests(withIdentifiers: [
-            Self.dailyReminderIdentifier, Self.dailyWordIdentifier,
+            Self.dailyReminderIdentifier, Self.dailyWordIdentifier, Self.streakRiskIdentifier,
         ])
     }
 

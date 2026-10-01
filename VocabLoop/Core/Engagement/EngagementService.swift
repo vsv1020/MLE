@@ -107,6 +107,12 @@ public final class EngagementService {
     private let entitlements: Entitlements
     private let logger = Logger(subsystem: "com.vocabloop.app", category: "engagement")
 
+    /// Album lookup for the sticker/album events. Its own instance rather than
+    /// `AppDependencies.collection` because the initializer is frozen; it is only consulted when
+    /// a card becomes mature — a handful of times a day — and its per-language cache is
+    /// dropped by ``invalidateAlbumCache()``.
+    private lazy var collection = CollectionService(context: context)
+
     public init(
         context: ModelContext,
         notifications: NotificationService,
@@ -165,17 +171,153 @@ public final class EngagementService {
 
     /// Apply one graded review to the profile and report what to celebrate.
     ///
-    /// Foundation (W0) scope: base candy, `lastStudiedAt`, save. The full sequence — weekly
-    /// rollover, first-review bonus, combo bonus, stickers and albums, achievements, level-up,
-    /// streak reminder and widget snapshot — is specified in `docs/ENGAGEMENT-PLAN.md` §2.2.
+    /// Call it after ``ReviewService/grade(card:rating:preferences:durationMS:now:)`` has saved,
+    /// so today's ``StudyDay`` and the card's new maturity are already in the store. The order
+    /// is `docs/ENGAGEMENT-PLAN.md` §2.2:
+    ///
+    /// 1. week rollover — the weekly fields are reset *before* anything is added to them;
+    /// 2. base candy, `lifetimeReviews`, `lastStudiedAt`;
+    /// 3. first review of the study day: +5, once per day (`lastFirstReviewDayKey`);
+    /// 4. daily goal reached: +10 and `goalDaysTotal`;
+    /// 5. combo milestone bonus, `bestCombo` and `bestComboThisWeek`;
+    /// 6. `quizCorrectTotal`;
+    /// 7. sticker and album, only on the crossing into maturity;
+    /// 8. achievements, each unlocked once, +10 each;
+    /// 9. level-up, comparing the level before this review with the level after it;
+    /// 10. save; then the streak nudge is removed (whoever just studied has nothing to be nudged
+    ///     about) and the widget snapshot is rewritten.
+    ///
+    /// The returned events start with `.candy(total)` — everything this review added — followed
+    /// by the celebrations in the order above. Nothing here reads the rating except to count a
+    /// correct quiz answer: candy is identical for every rating.
+    ///
+    /// Undo does not take anything back. Candy is XP for showing up, and a child watching their
+    /// stars disappear is exactly the guilt this release avoids; the once-per-day and
+    /// once-per-badge guards keep an undo-and-regrade from paying the same bonus twice.
     public func record(_ event: ReviewOutcomeEvent, preferences: StudyPreferences, now: Date) throws -> [EngagementEvent] {
         let profile = try self.profile()
-        let earned = RewardEngine.candyPerReview
-        profile.candyTotal += earned
+        let calendar = StudyCalendar(preferences: preferences)
+        let todayKey = calendar.dayKey(for: now)
+        let levelBefore = profile.level
+        var earned = 0
+        var celebrations: [EngagementEvent] = []
+
+        // 1. Week rollover.
+        let currentWeekKey = Self.weekKey(for: now, calendar: calendar)
+        if profile.weekKey != currentWeekKey {
+            profile.weekKey = currentWeekKey
+            profile.candyThisWeek = 0
+            profile.bestComboThisWeek = 0
+        }
+
+        // 2. Base candy, whatever the rating.
+        earned += RewardEngine.candyPerReview
+        profile.lifetimeReviews += 1
         profile.lastStudiedAt = now
+
+        // The streak including today. `ReviewService` has normally written today's `StudyDay`
+        // already; if it has not, this review is still today's, so it counts.
+        let days = try studyDays()
+        let streak = StreakService.streak(days: days, calendar: calendar, now: now)
+        let studiedTodayInStore = days.contains { $0.dayKey == todayKey && $0.reviewsCompleted > 0 }
+        let currentStreak = studiedTodayInStore ? streak.current : streak.current + 1
+        let longestStreak = max(streak.longest, currentStreak)
+
+        // 3. First review of the study day.
+        if profile.lastFirstReviewDayKey != todayKey {
+            profile.lastFirstReviewDayKey = todayKey
+            earned += RewardEngine.firstReviewBonus
+            celebrations.append(.firstReviewToday(streak: currentStreak))
+        }
+
+        // 4. Daily goal. The view model reports the crossing once; `StudyDay.goalMet` is latched,
+        // so an undo below the goal and a regrade does not report it again.
+        if event.justReachedGoal {
+            earned += RewardEngine.goalBonus
+            profile.goalDaysTotal += 1
+        }
+
+        // 5. Combo.
+        let combo = max(0, event.comboAfter)
+        if RewardEngine.isComboMilestone(combo) {
+            earned += RewardEngine.comboBonus(combo)
+            celebrations.append(.comboMilestone(combo))
+        }
+        profile.bestCombo = max(profile.bestCombo, combo)
+        profile.bestComboThisWeek = max(profile.bestComboThisWeek, combo)
+
+        // 6. Quiz.
+        if event.wasAutoGraded && event.rating.isSuccess {
+            profile.quizCorrectTotal += 1
+        }
+
+        // 7. Sticker and album, exactly on the crossing into maturity.
+        var matureWords: Int?
+        if event.maturityBefore != .mature && event.maturityAfter == .mature {
+            let stickerEvents = stickerAndAlbum(for: event, profile: profile)
+            earned += stickerEvents.candy
+            celebrations += stickerEvents.events
+            matureWords = try? matureWordCount()
+        } else if profile.lifetimeReviews == 1 {
+            // The first review this profile records. On an upgrade with history, words matured
+            // long before 1.0.7 should still earn their badges today, not on the next crossing.
+            matureWords = try? matureWordCount()
+        }
+
+        // 8. Achievements. Re-evaluated until nothing new unlocks, because a badge's own candy
+        // can be what reaches level 10. Bounded by the catalogue size.
+        var unlocked = profile.unlockedAchievementIDs
+        let localHour = Self.localHour(of: now, timeZone: calendar.timeZone)
+        for _ in 0..<AchievementCatalog.all.count {
+            let achievementContext = AchievementContext(
+                lifetimeReviews: profile.lifetimeReviews,
+                currentStreak: currentStreak,
+                longestStreak: longestStreak,
+                bestCombo: profile.bestCombo,
+                matureWords: matureWords ?? 0,
+                completedAlbums: profile.completedAlbumIDs.count,
+                goalDaysTotal: profile.goalDaysTotal,
+                quizCorrectTotal: profile.quizCorrectTotal,
+                level: RewardEngine.level(forCandy: profile.candyTotal + earned),
+                localHour: localHour
+            )
+            let newlyMet = AchievementCatalog.evaluate(achievementContext, alreadyUnlocked: unlocked)
+            if newlyMet.isEmpty { break }
+            for id in newlyMet {
+                unlocked.insert(id.rawValue)
+                profile.unlockedAchievements.append(UnlockedAchievement(id: id.rawValue, unlockedAt: now))
+                earned += RewardEngine.achievementBonus
+                celebrations.append(.achievement(id))
+                for accessory in MochiAccessory.allCases
+                where accessory.unlockAchievement == id
+                    && !profile.unlockedAccessoryIDs.contains(accessory.rawValue) {
+                    profile.unlockedAccessoryIDs.append(accessory.rawValue)
+                }
+            }
+        }
+
+        profile.candyTotal += earned
+        profile.candyThisWeek += earned
+
+        // 9. Level-up. One event with the level reached, even if a big bonus skipped one.
+        let levelAfter = profile.level
+        if levelAfter > levelBefore {
+            celebrations.append(.levelUp(levelAfter))
+        }
+
+        // 10. Save, then side effects that must never fail the review.
         profile.touch(now)
         try context.save()
-        return [.candy(earned)]
+
+        notifications.cancelStreakReminder()
+        writeWidgetSnapshot(preferences: preferences, now: now)
+
+        return [.candy(earned)] + celebrations
+    }
+
+    /// Drop the album cache. Call after a content import changes the dictionary.
+    public func invalidateAlbumCache() {
+        collection.invalidateCache()
     }
 
     public func streak(preferences: StudyPreferences, now: Date) throws -> StreakService.Streak {
@@ -241,12 +383,24 @@ public final class EngagementService {
 
     // MARK: - Side effects
 
-    /// Schedule or remove the evening "streak at risk" nudge.
+    /// Schedule or remove the evening "streak at risk" nudge from the stored study days.
     ///
-    /// Foundation (W0) scope: a no-op. Wired to `NotificationService.refreshStreakReminder`
-    /// when that lands (engagement plan §1.2, §2.2).
+    /// Call on app background and when a session opens. Scheduling rules live in
+    /// ``NotificationService/refreshStreakReminder(preferences:streak:studiedToday:now:)``; this
+    /// supplies the two facts it needs. If the days cannot be read, the nudge is removed rather
+    /// than scheduled on a guess.
     public func refreshStreakReminder(preferences: StudyPreferences, now: Date) async {
-        _ = notifications
+        var streak = 0
+        var studiedToday = true
+        if let days = try? studyDays() {
+            let calendar = StudyCalendar(preferences: preferences)
+            let todayKey = calendar.dayKey(for: now)
+            streak = StreakService.streak(days: days, calendar: calendar, now: now).current
+            studiedToday = days.contains { $0.dayKey == todayKey && $0.reviewsCompleted > 0 }
+        }
+        await notifications.refreshStreakReminder(
+            preferences: preferences, streak: streak, studiedToday: studiedToday, now: now
+        )
     }
 
     /// Write the widget snapshot file. Never throws: a stale widget is not worth an error.
@@ -286,7 +440,79 @@ public final class EngagementService {
         }
     }
 
+    // MARK: - Pure parts
+
+    /// Day key of the Monday that starts the study week containing `date`.
+    ///
+    /// The weekly profile fields (`candyThisWeek`, `bestComboThisWeek`) need a fixed boundary to
+    /// reset at; the recap's rolling seven-day window cannot provide one. Monday in the study
+    /// calendar — so 1am on a Monday still belongs to the week before, like every other day
+    /// boundary in the app.
+    static func weekKey(for date: Date, calendar: StudyCalendar) -> String {
+        var gregorian = Calendar(identifier: .gregorian)
+        gregorian.timeZone = calendar.timeZone
+        // `dayStart` is at the rollover hour of the study day's own date, so its weekday is the
+        // study day's weekday.
+        let weekday = gregorian.component(.weekday, from: calendar.dayStart(for: date)) // 1 = Sunday
+        let daysSinceMonday = (weekday + 5) % 7
+        return calendar.dayKey(daysAgo: daysSinceMonday, from: date) ?? calendar.dayKey(for: date)
+    }
+
+    /// Wall-clock hour of `date`, `0…23`, for the night-owl and early-bird badges.
+    static func localHour(of date: Date, timeZone: TimeZone) -> Int {
+        var gregorian = Calendar(identifier: .gregorian)
+        gregorian.timeZone = timeZone
+        return gregorian.component(.hour, from: date)
+    }
+
     // MARK: - Private
+
+    /// Sticker and album rewards for a card that has just become mature.
+    ///
+    /// The sticker is the *word*, and a word is only as mature as its weakest card (the rule
+    /// ``Entry/maturity`` and the sticker book share). So the sticker lights — and pays — when
+    /// the crossing card makes the whole word mature: at once for a one-direction word, on the
+    /// last card for a word studied both ways. Lookup failures are logged and skipped; a missing
+    /// sticker toast must never cost the review its candy.
+    private func stickerAndAlbum(
+        for event: ReviewOutcomeEvent,
+        profile: EngagementProfile
+    ) -> (candy: Int, events: [EngagementEvent]) {
+        do {
+            guard let entry = try context.entry(stableID: event.entryStableID),
+                  entry.maturity == .mature
+            else { return (0, []) }
+
+            var candy = RewardEngine.stickerBonus
+            var events: [EngagementEvent] = [.stickerLit(entryStableID: event.entryStableID)]
+
+            if let album = try collection.album(containing: entry.stableID, languageCode: entry.languageCode),
+               !profile.completedAlbumIDs.contains(album.id),
+               try collection.progress(of: album).isComplete {
+                profile.completedAlbumIDs.append(album.id)
+                candy += RewardEngine.albumBonus
+                events.append(.albumCompleted(albumID: album.id, title: album.title))
+            }
+            return (candy, events)
+        } catch {
+            logger.error("Sticker check skipped: \(error.localizedDescription, privacy: .public)")
+            return (0, [])
+        }
+    }
+
+    /// Words, across every language, whose cards are all mature.
+    ///
+    /// One card fetch, grouped by the entry part of `cardID` (`"<stableID>#<direction>"`), the
+    /// same way the sticker book counts — so this number and the shiny stickers agree.
+    private func matureWordCount() throws -> Int {
+        var allMature: [String: Bool] = [:]
+        for card in try context.fetch(FetchDescriptor<Card>()) {
+            guard let hash = card.cardID.lastIndex(of: "#") else { continue }
+            let stableID = String(card.cardID[..<hash])
+            allMature[stableID] = (allMature[stableID] ?? true) && card.maturity == .mature
+        }
+        return allMature.values.filter { $0 }.count
+    }
 
     private func studyDays() throws -> [StudyDay] {
         let userID = try context.activeAccount().userID

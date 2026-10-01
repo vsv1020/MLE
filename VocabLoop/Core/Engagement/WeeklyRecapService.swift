@@ -104,9 +104,9 @@ public struct WeeklyRecapDelta: Sendable {
 
 /// Builds the weekly recap from ``StudyDay`` and ``ReviewLog``.
 ///
-/// Foundation (W0) scope: counts from ``StudyDay`` only — reviews, accuracy, minutes, days studied,
-/// words started — plus streak, level and look. Words mastered, the word lists, best combo and
-/// candy are filled in by the full implementation (engagement plan §1.9).
+/// Counts from ``StudyDay``; words from ``ReviewLog`` rows in the window (engagement plan §1.9);
+/// best combo and candy from the ``EngagementProfile`` week when it matches, else candy is
+/// reconstructed as a floor.
 @MainActor
 public final class WeeklyRecapService {
     private let context: ModelContext
@@ -117,6 +117,13 @@ public final class WeeklyRecapService {
         self.engagement = engagement
     }
 
+    /// The seven study days ending with the one containing `now`.
+    ///
+    /// Counts (reviews, accuracy, minutes, days studied) come from ``StudyDay``, the same rollup
+    /// Progress shows, so the two never disagree. Words — mastered, started, nailed, tricky —
+    /// come from the ``ReviewLog`` rows inside the window, fetched by date range only. Whole
+    /// study days: the window runs from the first day's rollover to the last day's, so a recap
+    /// for a past `now` includes the rest of that day exactly as its ``StudyDay`` does.
     public func recap(for account: UserAccount, preferences: StudyPreferences, endingAt now: Date) throws -> WeeklyRecap {
         let calendar = StudyCalendar(preferences: preferences)
         let days = try studyDays(userID: account.userID)
@@ -128,14 +135,56 @@ public final class WeeklyRecapService {
         // The seven study days before the window: the older half of a fourteen-day run.
         let previousKeys = Array(calendar.recentDayKeys(endingAt: now, count: 14).prefix(7))
         let before = Self.totals(dayKeys: previousKeys, byKey: byKey)
+
+        let bounds = Self.windowBounds(endingAt: now, calendar: calendar)
+        let previousStart = bounds.previousStart
+        let windowEnd = bounds.end
+        let logs = try context.fetch(
+            FetchDescriptor<ReviewLog>(
+                predicate: #Predicate { $0.reviewedAt >= previousStart && $0.reviewedAt < windowEnd },
+                sortBy: [SortDescriptor(\.reviewedAt)]
+            )
+        )
+        let thisWeek = logs.filter { $0.reviewedAt >= bounds.start }
+        let lastWeek = logs.filter { $0.reviewedAt < bounds.start }
+
+        let mastered = Self.masteredCount(logs: thisWeek)
         let previous = WeeklyRecapDelta(
             reviews: window.reviews - before.reviews,
             minutes: window.minutes - before.minutes,
-            wordsMastered: 0
+            wordsMastered: mastered - Self.masteredCount(logs: lastWeek)
+        )
+
+        let trickyIDs = Self.trickyWordIDs(logs: thisWeek, limit: 3)
+        let nailedIDs = Self.nailedWordIDs(logs: thisWeek, excluding: Set(trickyIDs), limit: 3)
+        let startedIDs = Self.startedWordIDs(logs: thisWeek)
+        let words = try recapWords(
+            stableIDs: Array(Set(trickyIDs + nailedIDs + startedIDs)),
+            nativeCodes: preferences.nativeLanguageCodes
         )
 
         let profile = try engagement.profile()
         let streak = try engagement.streak(preferences: preferences, now: now)
+
+        // Best combo and candy are kept on the profile per Monday-start week, and only for the
+        // latest week studied. Use them when this window ends inside that week; other windows
+        // have no record of their combos, and their candy is reconstructed from what was logged.
+        let profileWeekMatches = profile.weekKey == EngagementService.weekKey(for: now, calendar: calendar)
+        let bestCombo = profileWeekMatches ? profile.bestComboThisWeek : 0
+
+        let achievementsInWindow = profile.unlockedAchievements.filter {
+            $0.unlockedAt >= bounds.start && $0.unlockedAt < bounds.end
+        }.count
+        let estimatedCandy = Self.estimatedCandy(
+            reviews: window.reviews,
+            studiedDays: window.studiedDays,
+            goalDays: window.goalDays,
+            wordsMastered: mastered,
+            achievements: achievementsInWindow
+        )
+        let candyEarned = profileWeekMatches
+            ? max(estimatedCandy, profile.candyThisWeek)
+            : estimatedCandy
 
         return WeeklyRecap(
             weekStartKey: dayKeys.first ?? calendar.dayKey(for: now),
@@ -144,15 +193,18 @@ public final class WeeklyRecapService {
             reviews: window.reviews,
             accuracy: window.reviews > 0 ? Double(window.correct) / Double(window.reviews) : nil,
             minutes: window.minutes,
-            wordsMastered: 0,
-            wordsStarted: window.started,
-            bestCombo: 0,
-            candyEarned: 0,
+            wordsMastered: mastered,
+            wordsStarted: startedIDs.count,
+            bestCombo: bestCombo,
+            candyEarned: candyEarned,
             level: profile.level,
             look: engagement.currentLook(),
             streak: streak.current,
+            nailedWords: nailedIDs.compactMap { words[$0] },
+            trickyWords: trickyIDs.compactMap { words[$0] },
+            startedWords: startedIDs.compactMap { words[$0] },
             previous: previous,
-            headline: Self.headline(wordsMastered: 0)
+            headline: Self.headline(wordsMastered: mastered)
         )
     }
 
@@ -183,6 +235,81 @@ public final class WeeklyRecapService {
         return words.count
     }
 
+    /// Instants bounding the recap window ending with the study day containing `now`, and the
+    /// seven study days before it: `[previousStart, start)` and `[start, end)`.
+    ///
+    /// Built from day starts with calendar arithmetic, never by subtracting 86,400 seconds, so a
+    /// DST change inside the fortnight cannot shift a boundary by an hour.
+    static func windowBounds(endingAt now: Date, calendar: StudyCalendar) -> (previousStart: Date, start: Date, end: Date) {
+        var gregorian = Calendar(identifier: .gregorian)
+        gregorian.timeZone = calendar.timeZone
+        let today = calendar.dayStart(for: now)
+        let end = calendar.dayEnd(for: now)
+        let start = gregorian.date(byAdding: .day, value: -6, to: today).map(calendar.dayStart(for:)) ?? today
+        let previousStart = gregorian.date(byAdding: .day, value: -13, to: today).map(calendar.dayStart(for:)) ?? start
+        return (previousStart, start, end)
+    }
+
+    /// Words forgotten (``Rating/again``) at least twice in `logs`, most-forgotten first, then
+    /// most recently forgotten. Shown as "worth another look".
+    static func trickyWordIDs(logs: [ReviewLog], limit: Int) -> [String] {
+        var counts: [String: Int] = [:]
+        var latest: [String: Date] = [:]
+        for log in logs where log.rating == .again && !log.entryStableID.isEmpty {
+            counts[log.entryStableID, default: 0] += 1
+            latest[log.entryStableID] = max(latest[log.entryStableID] ?? .distantPast, log.reviewedAt)
+        }
+        let ranked = counts
+            .filter { $0.value >= 2 }
+            .sorted { lhs, rhs in
+                if lhs.value != rhs.value { return lhs.value > rhs.value }
+                let l = latest[lhs.key] ?? .distantPast
+                let r = latest[rhs.key] ?? .distantPast
+                if l != r { return l > r }
+                return lhs.key < rhs.key
+            }
+        return ranked.prefix(max(0, limit)).map { $0.key }
+    }
+
+    /// Words with the highest stability reached this week, from successful recalls only — an
+    /// introduction is not a recall, and a forgotten word was not nailed.
+    static func nailedWordIDs(logs: [ReviewLog], excluding: Set<String>, limit: Int) -> [String] {
+        var best: [String: Double] = [:]
+        for log in logs
+        where log.rating.isSuccess && log.isGradedRecall
+            && !log.entryStableID.isEmpty && !excluding.contains(log.entryStableID) {
+            best[log.entryStableID] = max(best[log.entryStableID] ?? 0, log.stabilityAfter)
+        }
+        let ranked = best.sorted { lhs, rhs in
+            if lhs.value != rhs.value { return lhs.value > rhs.value }
+            return lhs.key < rhs.key
+        }
+        return ranked.prefix(max(0, limit)).map { $0.key }
+    }
+
+    /// Words introduced in `logs` (their first ever answer), once each, in the order started.
+    static func startedWordIDs(logs: [ReviewLog]) -> [String] {
+        var seen = Set<String>()
+        var ordered: [String] = []
+        for log in logs.sorted(by: { $0.reviewedAt < $1.reviewedAt })
+        where log.phaseBefore == .new && !log.entryStableID.isEmpty {
+            if seen.insert(log.entryStableID).inserted { ordered.append(log.entryStableID) }
+        }
+        return ordered
+    }
+
+    /// Candy a window must at least have earned, rebuilt from what was logged: one per review,
+    /// the first-review bonus per day studied, the goal bonus per goal day, a sticker per word
+    /// mastered and the badge bonus per achievement. Combo and album bonuses leave no dated
+    /// trace, so this is a floor.
+    static func estimatedCandy(reviews: Int, studiedDays: Int, goalDays: Int, wordsMastered: Int, achievements: Int) -> Int {
+        reviews * RewardEngine.candyPerReview
+            + studiedDays * RewardEngine.firstReviewBonus
+            + goalDays * RewardEngine.goalBonus
+            + wordsMastered * RewardEngine.stickerBonus
+            + achievements * RewardEngine.achievementBonus
+    }
+
     /// "This week you mastered 42 words", with the singular and a kind zero.
     static func headline(wordsMastered: Int) -> String {
         switch wordsMastered {
@@ -199,6 +326,8 @@ public final class WeeklyRecapService {
         var correct = 0
         var minutes = 0
         var started = 0
+        var studiedDays = 0
+        var goalDays = 0
     }
 
     private static func totals(dayKeys: [String], byKey: [String: StudyDay]) -> Totals {
@@ -209,10 +338,26 @@ public final class WeeklyRecapService {
             totals.reviews += day.reviewsCompleted
             totals.correct += day.correctCount
             totals.started += day.newCardsIntroduced
+            if day.reviewsCompleted > 0 { totals.studiedDays += 1 }
+            if day.goalMet { totals.goalDays += 1 }
             seconds += day.studySeconds
         }
         totals.minutes = seconds / 60
         return totals
+    }
+
+    /// Headword and translation for each word, from one entry fetch. Words whose entry no longer
+    /// exists (a deleted personal word) are left out rather than shown as IDs.
+    private func recapWords(stableIDs: [String], nativeCodes: [String]) throws -> [String: RecapWord] {
+        var result: [String: RecapWord] = [:]
+        for entry in try context.entries(stableIDs: stableIDs) {
+            result[entry.stableID] = RecapWord(
+                entryStableID: entry.stableID,
+                headword: entry.headword,
+                translation: entry.primarySense?.translation(preferring: nativeCodes)
+            )
+        }
+        return result
     }
 
     private func studyDays(userID: String) throws -> [StudyDay] {

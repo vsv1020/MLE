@@ -87,10 +87,12 @@ final class EngagementProfileSchemaTests: XCTestCase {
             comboAfter: 0, justReachedGoal: false, reviewsToday: 1
         )
         let events = try service.record(event, preferences: preferences, now: referenceDate)
-        XCTAssertEqual(events.first, EngagementEvent.candy(RewardEngine.candyPerReview), "a Forgot earns the same base candy")
+        // W2: the first review also pays the first-of-day bonus and unlocks `first_review`.
+        let expected = RewardEngine.candyPerReview + RewardEngine.firstReviewBonus + RewardEngine.achievementBonus
+        XCTAssertEqual(events.first, EngagementEvent.candy(expected), "a Forgot earns the same base candy")
 
         let profile = try service.profile()
-        XCTAssertEqual(profile.candyTotal, RewardEngine.candyPerReview)
+        XCTAssertEqual(profile.candyTotal, expected)
         XCTAssertEqual(profile.lastStudiedAt, referenceDate)
     }
 

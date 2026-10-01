@@ -343,6 +343,8 @@ public final class LocalAuthBackend: AuthBackend {
         try deleteAll(FetchDescriptor<StudyDay>(predicate: #Predicate { $0.userID == userID }))
         try deleteAll(FetchDescriptor<DailyBatch>(predicate: #Predicate { $0.userID == userID }))
         try deleteAll(FetchDescriptor<SyncOutboxItem>())
+        // Candy, badges and Mochi's wardrobe are this account's progress too.
+        try deleteAll(FetchDescriptor<EngagementProfile>(predicate: #Predicate { $0.userID == userID }))
 
         // User-authored words are user data and go with the account; bundled entries stay.
         // Senses go with them: they are a cascade from `Entry`, and the cards that referenced
@@ -358,6 +360,10 @@ public final class LocalAuthBackend: AuthBackend {
         let guest = UserAccount.makeGuest()
         context.insert(guest)
         try saveOrThrow()
+
+        // The widget snapshot repeats the deleted account's streak, candy and Mochi. A fresh
+        // one is written for the guest after its first review or background.
+        try? FileManager.default.removeItem(at: SharedStorage.widgetSnapshotURL)
     }
 
     public func restore(_ session: Session) async throws -> Session {

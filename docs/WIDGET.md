@@ -1,19 +1,57 @@
 # Adding the widget
 
-The App Intents are done and live in the app target (`VocabLoop/Core/Intents/`), so Siri,
-Shortcuts and Spotlight work now. The widget needs one thing I deliberately did not do:
-a second Xcode target.
+**Status (1.0.7): the data path ships, the widget target does not.** See
+`docs/ENGAGEMENT-PLAN.md` §1.12 for the decision. The App Intents are done and live in the app
+target (`VocabLoop/Core/Intents/`), so Siri, Shortcuts and Spotlight work now. Since 1.0.7 the
+app also writes everything a widget shows to a small JSON file after every graded review. What
+remains for 1.0.8 is project plumbing that has to be done in Xcode: a second target, an App
+Group, and the widget's SwiftUI.
 
-## Why this step is yours, not mine
+## Why this step is done in Xcode
 
 A Widget Extension is a whole target — its own build phases, Info.plist, entitlements and
-embed step. I hand-wrote `project.pbxproj` because there is no Xcode in the environment this
-was built in, and adding a second target to a project that **has never once compiled** would
-stack an unverifiable change on an unverified base. Xcode's template generates it correctly in
-about thirty seconds. That is a better trade than me guessing at it.
+embed step. `project.pbxproj` is hand-written because there is no Xcode in the environment this
+is built in, and a second `PBXNativeTarget` with synchronized-group exceptions, an embed phase
+and App Group entitlements cannot be verified without one. It also changes signing for
+`distribute.yml` and `release.yml`. Xcode's template generates it correctly in about thirty
+seconds.
 
-The App Group is the part worth doing early either way: it changes where the store file lives,
-so moving it after there is study data to migrate is meaningfully harder than moving it now.
+## The design: the widget reads a snapshot file, never the store
+
+A widget runs in a second process. **It must never open the SwiftData store** — two processes
+on one SQLite file is how stores get corrupted, and opening it would also mean moving the store
+into the App Group container, a migration for every existing user. Instead:
+
+- `WidgetSnapshotWriter` (`VocabLoop/Core/Services/WidgetSnapshotWriter.swift`) writes
+  `widget-snapshot.json`, atomically, into `SharedStorage.containerURL`.
+- `SharedStorage.containerURL` is the App Group container (`group.com.vocabloop.app`) when the
+  capability exists and Application Support otherwise. 1.0.7 has no App Group, so the file lives
+  in Application Support; the day the entitlement lands, the same code writes where the widget
+  can read, with nothing else to change.
+- `EngagementService.writeWidgetSnapshot(preferences:now:)` builds the snapshot. It runs after
+  every graded review (inside `EngagementService.record`) and when the study screen goes to the
+  background. Failures are logged and swallowed: a stale widget is better than an interrupted
+  session.
+- Deleting an account removes the file (`LocalAuthBackend.deleteAccount`); the guest left
+  behind writes a fresh one on its first review.
+
+The file (`WidgetSnapshot`, `Codable`, dates as seconds since 1970, keys sorted):
+
+| Field | Meaning |
+|---|---|
+| `dueNow` | Graded cards due right now in the active language (same rule as Stats; new cards excluded) |
+| `reviewsToday` | Reviews in today's study day |
+| `dailyGoal` | The goal; `0` means no goal |
+| `streak` | Current streak (today is neutral until it ends) |
+| `studiedToday` | Whether today has a review yet — grey vs orange flame |
+| `mochiLevel` | Mochi's level, derived from candy |
+| `candy` | Lifetime star candy |
+| `bodyColor` | `MochiBodyColor` raw value |
+| `accessories` | `MochiAccessory` raw values currently worn |
+| `updatedAt` | When the app wrote it |
+
+`WidgetMochiView` (a plain SwiftUI view in the app target, used by the weekly recap card) is
+the future widget body: it draws Mochi from `bodyColor`, `accessories` and `mochiLevel` alone.
 
 ## 1. Create the target
 
@@ -22,166 +60,119 @@ so moving it after there is study data to migrate is meaningfully harder than mo
 
 ## 2. Add the App Group
 
-A widget runs in its own process and cannot read the app's container, so both need to share one.
+The widget cannot read the app's container, so both need to share one.
 
 - **VocabLoop target ▸ Signing & Capabilities ▸ + Capability ▸ App Groups**
 - **VocabLoopWidgets target ▸** same
 - Add `group.com.vocabloop.app` to both.
 
-Then point the store at it — `PersistenceController.storeURL` currently returns
-Application Support:
+That is all: `SharedStorage.containerURL` starts resolving to the group container and the next
+review writes the snapshot there. **Do not move `PersistenceController.storeURL`** — the store
+stays in Application Support, where it is today, and no user data migrates.
 
-```swift
-public static var storeURL: URL {
-    // A widget runs in a separate process, so the store has to live somewhere both can
-    // reach. Falls back to Application Support when the App Group is not configured, so
-    // the app still runs without the capability.
-    let base = FileManager.default
-        .containerURL(forSecurityApplicationGroupIdentifier: "group.com.vocabloop.app")
-        ?? URL.applicationSupportDirectory
-    try? FileManager.default.createDirectory(at: base, withIntermediateDirectories: true)
-    return base.appending(path: "VocabLoop.store")
-}
-```
-
-The fallback matters: without it, a build with no App Group capability would fail to open a
-store at all rather than degrading.
-
-**If you already have study data on a device**, copy `VocabLoop.store`, `-wal` and `-shm` from
-Application Support into the group container before first launch, or that data becomes
-invisible. On a fresh install there is nothing to move.
+The first launch after the update writes the file only after a review or a background; until
+then the widget shows its "open VocabLoop" state, which is correct.
 
 ## 3. Add these files to the widget target
 
-Membership matters: the widget target needs the model layer and the services, not the views.
-Add `VocabLoop/Core/**` and `VocabLoop/DesignSystem/Palette.swift` to
-**VocabLoopWidgets ▸ Build Phases ▸ Compile Sources**, and the seed packs to its
-**Copy Bundle Resources** only if you want the widget to survive a first launch before the app
-has imported content (you probably do not — an empty widget on first install is fine).
+Membership is deliberately small — the widget needs the snapshot types, not the model layer:
+
+- `VocabLoop/Core/Services/WidgetSnapshotWriter.swift` (`SharedStorage`, `WidgetSnapshot`,
+  `WidgetSnapshotWriter`)
+- `VocabLoop/Features/Recap/WidgetMochiView.swift` and what it draws with
+  (`VocabLoop/Core/Engagement/MochiWardrobe.swift`, `VocabLoop/DesignSystem/Mascot.swift`,
+  `VocabLoop/DesignSystem/MascotAccessories.swift`, `VocabLoop/DesignSystem/Palette.swift`) —
+  check the compile errors Xcode reports and add the few helpers they name; none of them touch
+  SwiftData
+- `VocabLoop/Core/Intents/VocabLoopIntents.swift` only if the widget's button should run
+  `StartReviewIntent` in-process; otherwise use `openAppWhenRun` via a `Link` to the app
 
 ```swift
 import WidgetKit
 import SwiftUI
-import SwiftData
-import AppIntents
 
-struct DueSnapshot: TimelineEntry {
+struct DueEntry: TimelineEntry {
     let date: Date
-    let dueNow: Int
-    let reviewsToday: Int
-    let dailyGoal: Int
-    let streak: Int
-    /// nil when the app has never launched, so the widget can say so instead of showing zeros.
-    let hasData: Bool
+    /// `nil` when the app has never written a snapshot, so the widget can say so instead of
+    /// showing zeros.
+    let snapshot: WidgetSnapshot?
 
-    static let placeholder = DueSnapshot(
-        date: .now, dueNow: 12, reviewsToday: 8, dailyGoal: 30, streak: 24, hasData: true
+    static let placeholder = DueEntry(
+        date: .now,
+        snapshot: WidgetSnapshot(
+            dueNow: 12, reviewsToday: 8, dailyGoal: 30, streak: 24, studiedToday: true,
+            mochiLevel: 6, candy: 640, bodyColor: "strawberry", accessories: ["redScarf"],
+            updatedAt: .now
+        )
     )
 }
 
 struct DueProvider: TimelineProvider {
-    func placeholder(in context: Context) -> DueSnapshot { .placeholder }
+    func placeholder(in context: Context) -> DueEntry { .placeholder }
 
-    func getSnapshot(in context: Context, completion: @escaping (DueSnapshot) -> Void) {
+    func getSnapshot(in context: Context, completion: @escaping (DueEntry) -> Void) {
         completion(load())
     }
 
-    func getTimeline(in context: Context, completion: @escaping (Timeline<DueSnapshot>) -> Void) {
-        // Refreshing every 30 minutes rather than on a due-date boundary: WidgetKit budgets
-        // refreshes, and a due count that is half an hour stale is not misleading. Scheduling
-        // one per card's due date would exhaust the budget by mid-morning.
+    func getTimeline(in context: Context, completion: @escaping (Timeline<DueEntry>) -> Void) {
+        // Every 30 minutes rather than on due-date boundaries: WidgetKit budgets refreshes, and
+        // the app reloads the timeline itself after each review (step 4).
         let next = Date().addingTimeInterval(30 * 60)
         completion(Timeline(entries: [load()], policy: .after(next)))
     }
 
-    @MainActor
-    private func load() -> DueSnapshot {
-        guard
-            let container = try? PersistenceController.makeContainer(),
-            let account = try? ModelContext(container).activeAccount(),
-            let preferences = account.preferences
-        else {
-            return DueSnapshot(date: .now, dueNow: 0, reviewsToday: 0, dailyGoal: 0,
-                               streak: 0, hasData: false)
-        }
-        let context = ModelContext(container)
-        let stats = (try? StatsService(context: context)
-            .statistics(for: account, preferences: preferences)) ?? .empty
-
-        return DueSnapshot(
-            date: .now,
-            dueNow: stats.dueNow,
-            reviewsToday: stats.reviewsToday,
-            dailyGoal: preferences.dailyGoal,
-            streak: stats.currentStreak,
-            hasData: true
-        )
+    /// Reads the file the app wrote. Never opens the SwiftData store.
+    private func load() -> DueEntry {
+        DueEntry(date: .now, snapshot: WidgetSnapshotWriter().read())
     }
 }
 
 struct DueWidgetView: View {
-    var entry: DueSnapshot
+    var entry: DueEntry
     @Environment(\.widgetFamily) private var family
 
     private var progress: Double {
-        guard entry.dailyGoal > 0 else { return 0 }
-        return min(Double(entry.reviewsToday) / Double(entry.dailyGoal), 1)
+        guard let s = entry.snapshot, s.dailyGoal > 0 else { return 0 }
+        return min(Double(s.reviewsToday) / Double(s.dailyGoal), 1)
     }
 
     var body: some View {
-        switch family {
-        case .accessoryCircular:
-            Gauge(value: progress) {
-                Text("\(entry.dueNow)").font(.system(.body, design: .rounded, weight: .bold))
-            }
-            .gaugeStyle(.accessoryCircularCapacity)
-
-        default:
-            VStack(alignment: .leading, spacing: 6) {
-                HStack {
-                    Text("\(entry.dueNow)")
-                        .font(.system(.largeTitle, design: .rounded, weight: .bold))
-                        .contentTransition(.numericText())
-                    Text(entry.dueNow == 1 ? "due" : "due")
-                        .font(.system(.caption, design: .rounded))
-                        .foregroundStyle(.secondary)
-                    Spacer()
-                    if entry.streak > 0 {
-                        Label("\(entry.streak)", systemImage: "flame.fill")
-                            .font(.system(.caption, design: .rounded, weight: .semibold))
-                            .foregroundStyle(Palette.brandSecondary)
-                            .labelStyle(.titleAndIcon)
+        if let s = entry.snapshot {
+            switch family {
+            case .accessoryCircular:
+                Gauge(value: progress) {
+                    Text("\(s.dueNow)").font(.system(.body, design: .rounded, weight: .bold))
+                }
+                .gaugeStyle(.accessoryCircularCapacity)
+            default:
+                VStack(alignment: .leading, spacing: 6) {
+                    HStack {
+                        Text("\(s.dueNow)")
+                            .font(.system(.largeTitle, design: .rounded, weight: .bold))
+                        Text("due")
+                            .font(.system(.caption, design: .rounded))
+                            .foregroundStyle(.secondary)
+                        Spacer()
+                        if s.streak > 0 {
+                            Label("\(s.streak)", systemImage: "flame.fill")
+                                .font(.system(.caption, design: .rounded, weight: .semibold))
+                                // Grey until today's first review, like the study screen.
+                                .foregroundStyle(s.studiedToday ? Palette.brandSecondary : Palette.textTertiary)
+                        }
+                    }
+                    Spacer(minLength: 0)
+                    if s.dailyGoal > 0 {
+                        ProgressView(value: progress).tint(Palette.brandPrimary)
+                        Text("\(s.reviewsToday) of \(s.dailyGoal) today")
+                            .font(.system(.caption2, design: .rounded))
+                            .foregroundStyle(.tertiary)
                     }
                 }
-
-                if !entry.hasData {
-                    Text("Open VocabLoop to get started")
-                        .font(.system(.caption, design: .rounded))
-                        .foregroundStyle(.secondary)
-                } else if entry.dueNow == 0 {
-                    Text("All caught up")
-                        .font(.system(.caption, design: .rounded))
-                        .foregroundStyle(.secondary)
-                } else {
-                    // The intent is already written; the widget just calls it.
-                    Button(intent: StartReviewIntent()) {
-                        Text("Review")
-                            .font(.system(.caption, design: .rounded, weight: .semibold))
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(Palette.brandPrimary)
-                }
-
-                Spacer(minLength: 0)
-
-                if entry.hasData, entry.dailyGoal > 0 {
-                    ProgressView(value: progress)
-                        .tint(Palette.brandPrimary)
-                    Text("\(entry.reviewsToday) of \(entry.dailyGoal) today")
-                        .font(.system(.caption2, design: .rounded))
-                        .foregroundStyle(.tertiary)
-                }
             }
+        } else {
+            Text("Open VocabLoop to get started")
+                .font(.system(.caption, design: .rounded))
+                .foregroundStyle(.secondary)
         }
     }
 }
@@ -204,9 +195,13 @@ struct VocabLoopWidgetBundle: WidgetBundle {
 }
 ```
 
-## 4. Refresh it when the count changes
+A medium family can add `WidgetMochiView` beside the numbers, built from `bodyColor`,
+`accessories` and `mochiLevel`.
 
-Add to `ReviewService.grade`, after the save:
+## 4. Refresh it when the snapshot changes
+
+Add to `EngagementService.writeWidgetSnapshot`, after `snapshots.write(...)` — the one place the
+file is written, so the widget reloads exactly when its data changed:
 
 ```swift
 #if canImport(WidgetKit)
@@ -215,18 +210,23 @@ WidgetCenter.shared.reloadTimelines(ofKind: "com.vocabloop.due")
 #endif
 ```
 
+(with `import WidgetKit` at the top of that file).
+
 ## What this gets you
 
-One `StartReviewIntent` now drives: the Shortcuts app, Siri, the home-screen widget button,
-a Lock Screen accessory, and — with no extra code — a Control Centre control if you add a
+One `StartReviewIntent` drives the Shortcuts app, Siri, the home-screen widget button, a Lock
+Screen accessory, and — with no extra code — a Control Centre control if you add a
 `ControlWidget`. That is the whole reason the intents were written before the widget.
 
 ## Caveats worth knowing
 
 - **App Groups need a provisioning capability**, like Sign in with Apple. A free Apple ID
   cannot use one, so `xcodebuild` in CI must keep working through the Application Support
-  fallback — do not remove it.
-- **Two processes, one SQLite file.** SwiftData handles the locking, but the widget should only
-  ever read. A widget that writes will eventually contend with a review session.
+  fallback in `SharedStorage.containerURL` — do not remove it.
+- **The widget only reads.** The snapshot is the app's to write; a widget that wrote it would
+  race a review session. The write is atomic, so a read mid-write sees the old file or the new
+  one, never half.
+- **Snapshot fields are additive.** The widget may ship a build behind the app; add new fields
+  as optionals or with decoding defaults, never rename one.
 - **`.accessoryCircular` has no colour**, only a tint mask. The gauge above is deliberately
   shape-only rather than relying on `brandPrimary`.
