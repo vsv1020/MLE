@@ -17,6 +17,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Release configuration
+        # Read-only: what the release workflow will see. Variables are not secret, so the value
+        # prints; for a Secret only its presence is reported.
+        run: |
+          echo "VL_WIDGETS variable: '${{ vars.VL_WIDGETS }}'"
+          echo "VL_WIDGETS secret present: ${{ secrets.VL_WIDGETS != '' }}"
+          echo "GOOGLE_IOS_CLIENT_ID variable present: ${{ vars.GOOGLE_IOS_CLIENT_ID != '' }}"
+          echo "GOOGLE_IOS_CLIENT_ID secret present: ${{ secrets.GOOGLE_IOS_CLIENT_ID != '' }}"
+          echo "WEBSITE_URL variable: '${{ vars.WEBSITE_URL }}'"
+
       - name: Certificates
         env:
           ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
