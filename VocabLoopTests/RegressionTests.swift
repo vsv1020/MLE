@@ -467,6 +467,47 @@ final class RegressionTests: XCTestCase {
         XCTAssertEqual(second.phase, .reviewing)
     }
 
+    /// Undo below the goal and regrade must not celebrate, or pay the goal bonus, a second time.
+    ///
+    /// `justReachedGoal` came from the in-memory count alone, so undo took it back under the goal
+    /// and the regrade crossed it again. The day's `goalMet` latch survives the undo.
+    func testUndoAndRegradeDoesNotReachTheGoalTwice() throws {
+        let container = try PersistenceController.makeInMemoryContainer()
+        let dependencies = AppDependencies(container: container)
+        let context = dependencies.context
+        _ = try context.activeAccount()
+        let preferences = try XCTUnwrap(dependencies.preferences)
+        preferences.dailyGoal = 2
+
+        for index in 0..<4 {
+            let entry = try TestStore.makeEntry(in: context, headword: "undo\(index)", frequencyRank: index)
+            try TestStore.makeCard(in: context, for: entry, phase: .new, due: referenceDate, intervalDays: 0)
+        }
+
+        let model = StudyViewModel()
+        model.start(dependencies: dependencies, options: .init(maxNewCards: 4, languageCode: "en"), now: referenceDate)
+
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+        XCTAssertEqual(model.phase, .goalReached, "the first crossing still celebrates")
+        XCTAssertEqual(try dependencies.engagement.profile().goalDaysTotal, 1, "and pays the goal bonus")
+
+        model.undo(dependencies: dependencies)
+        XCTAssertEqual(model.phase, .reviewing)
+        XCTAssertFalse(model.isGoalMet, "undo takes the count back under the goal")
+
+        model.revealAnswer(now: referenceDate)
+        model.grade(.easy, dependencies: dependencies, now: referenceDate)
+        XCTAssertTrue(model.isGoalMet)
+        XCTAssertEqual(model.phase, .reviewing, "the regrade does not celebrate the goal again")
+        XCTAssertEqual(
+            try dependencies.engagement.profile().goalDaysTotal, 1,
+            "no second goal bonus for the same day"
+        )
+    }
+
     // MARK: - The queue does not end
 
     /// Finishing a batch must top the queue up, not close the session.

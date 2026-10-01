@@ -99,6 +99,27 @@ final class StudyViewModelAutoGradeTests: XCTestCase {
         XCTAssertEqual(model.combo, 1, "an auto-graded answer counts toward the combo")
     }
 
+    /// Time away — Mochi's sheet, another app — is not recall time: the clock restarts on return,
+    /// so a quick answer afterwards is still `good` and is timed from the return.
+    func testRestartingTheClockDiscountsTimeAway() throws {
+        let model = try startSession()
+        let question = try XCTUnwrap(model.currentQuestion)
+
+        let back = referenceDate.addingTimeInterval(300)
+        model.restartQuestionClock(now: back)
+        XCTAssertEqual(model.questionShownAt, back)
+
+        model.answer(optionIndex: question.correctIndex, now: back.addingTimeInterval(2))
+        XCTAssertEqual(model.pendingAutoRating, .good, "five minutes away does not make it slow")
+
+        // Once answered, the time is captured; returning again changes nothing.
+        model.restartQuestionClock(now: back.addingTimeInterval(60))
+        XCTAssertEqual(model.questionShownAt, back)
+
+        model.continueAfterAnswer(dependencies: dependencies, now: back.addingTimeInterval(70))
+        XCTAssertEqual(try lastLog().durationMS, 2_000, "measured from the return, not the first showing")
+    }
+
     func testSlowCorrectPickIsHard() throws {
         let model = try startSession()
         let question = try XCTUnwrap(model.currentQuestion)
