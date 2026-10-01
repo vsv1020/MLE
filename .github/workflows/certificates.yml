@@ -1,0 +1,33 @@
+name: Signing certificates
+
+# Read-only by default: lists the account's certificates. Write "prune" as the first line of
+# CERTIFICATES to revoke the development certificates CI created (see the script's header).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [CERTIFICATES]
+
+jobs:
+  certificates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Certificates
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/keys"
+          printf '%s\n' "$ASC_KEY_P8" > "$RUNNER_TEMP/keys/key.p8"
+          export KEY_PATH="$RUNNER_TEMP/keys/key.p8"
+          export MODE="$(head -n1 CERTIFICATES | tr -d '[:space:]')"
+          node scripts/asc-certificates.mjs
+      - name: Remove API key
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys"
