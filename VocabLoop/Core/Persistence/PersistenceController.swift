@@ -21,6 +21,7 @@ public enum PersistenceController {
         DailyBatch.self,
         StudyDay.self,
         SyncOutboxItem.self,
+        EngagementProfile.self,
     ])
 
     /// The on-disk container used by the app.

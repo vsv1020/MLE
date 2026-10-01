@@ -27,6 +27,19 @@ public final class AppDependencies {
     public let entitlements: Entitlements
     public let purchases: PurchaseService
 
+    // MARK: Engagement (1.0.7)
+
+    public let engagement: EngagementService
+    public let collection: CollectionService
+    public let recap: WeeklyRecapService
+    public let questions: QuestionGenerator
+    public let sounds: SoundService
+    public let widgetSnapshots: WidgetSnapshotWriter
+
+    /// `true` when the UI tests launched the app with `-uiTestingFlipOnly`: every card stays a
+    /// flip card so their taps stay predictable. Always `false` outside a debug build.
+    public let isFlipOnlyForUITesting: Bool
+
     /// `nil` in this build. Set a `baseURL` and both ``RemoteAuthBackend`` and
     /// ``SyncEngine`` come alive without any other change.
     public let apiConfiguration: APIConfiguration
@@ -56,7 +69,8 @@ public final class AppDependencies {
 
         self.network = monitor
         self.speech = SpeechService()
-        self.notifications = NotificationService()
+        let notifications = NotificationService()
+        self.notifications = notifications
         self.review = ReviewService(context: context)
         let entitlements = Entitlements.shared
         self.entitlements = entitlements
@@ -75,6 +89,27 @@ public final class AppDependencies {
                 client: client, context: context, isServerConfigured: isServerConfigured
             )
         )
+
+        let widgetSnapshots = WidgetSnapshotWriter()
+        self.widgetSnapshots = widgetSnapshots
+        let engagement = EngagementService(
+            context: context,
+            notifications: notifications,
+            snapshots: widgetSnapshots,
+            entitlements: entitlements
+        )
+        self.engagement = engagement
+        self.collection = CollectionService(context: context)
+        self.recap = WeeklyRecapService(context: context, engagement: engagement)
+        self.questions = QuestionGenerator(context: context)
+        self.sounds = SoundService()
+        #if DEBUG
+        self.isFlipOnlyForUITesting = ProcessInfo.processInfo.arguments.contains(
+            QuestionPolicy.flipOnlyLaunchArgument
+        )
+        #else
+        self.isFlipOnlyForUITesting = false
+        #endif
     }
 
     /// Everything that must happen before the first meaningful frame.
@@ -99,15 +134,29 @@ public final class AppDependencies {
             contentImportError = error.localizedDescription
             logger.error("Content import failed: \(error.localizedDescription, privacy: .public)")
         }
+        // Albums are a function of the dictionary, which the import may just have changed.
+        collection.invalidateCache()
         isContentReady = true
 
         applyDailyGoalDefaultOnce()
         Haptics.isEnabled = preferences?.hapticsEnabled ?? true
+        sounds.isEnabled = preferences?.soundEffectsEnabled ?? true
+        sounds.preload()
         // Not awaited before content: a slow App Store must not hold up the first card. The
         // cached flag in `Entitlements` covers the gap.
         Task { await purchases.load() }
         sync.refreshStatus()
         await sync.sync()
+    }
+
+    /// How questions may be asked in a session started now: the user's quiz setting, this
+    /// device's voices, and the UI-test flag.
+    public func questionPolicy(for preferences: StudyPreferences) -> QuestionPolicy {
+        QuestionPolicy(
+            flipOnly: isFlipOnlyForUITesting,
+            quizEnabled: preferences.quizModesEnabled,
+            hasSpeech: speech.isSupported(preferences.activeLanguage)
+        )
     }
 
     /// The active account, guaranteed to exist.
@@ -143,6 +192,7 @@ public final class AppDependencies {
         } catch {
             contentImportError = error.localizedDescription
         }
+        collection.invalidateCache()
         isContentReady = true
     }
 
@@ -150,6 +200,7 @@ public final class AppDependencies {
     public func installLanguage(_ language: LearningLanguage) async {
         do {
             try await importer.importPacks(for: [language])
+            collection.invalidateCache()
             if let preferences, !preferences.installedLanguageCodes.contains(language.rawValue) {
                 preferences.installedLanguageCodes.append(language.rawValue)
                 preferences.touch()
@@ -182,6 +233,7 @@ public final class AppDependencies {
         preferences.touch()
         try? context.save()
         Haptics.isEnabled = preferences.hapticsEnabled
+        sounds.isEnabled = preferences.soundEffectsEnabled
         sync.enqueuePreferences(preferences)
     }
 

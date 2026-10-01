@@ -17,6 +17,17 @@ public enum PlusCatalog {
     public static func requiresPlus(deckSlug: String) -> Bool {
         premiumDeckSlugs.contains(deckSlug)
     }
+
+    /// Mochi accessories that are Plus extras (``MochiAccessory`` raw values).
+    ///
+    /// Only the closet: every level- and achievement-unlocked item stays free, because a child
+    /// must never earn something they then cannot wear.
+    public static let plusClosetAccessoryIDs: Set<String> = [
+        "wizardHat", "halo", "rainbowScarf", "astronautHelmet",
+    ]
+
+    /// Mochi body colours that are Plus extras (``MochiBodyColor`` raw values).
+    public static let plusClosetColorIDs: Set<String> = ["lavender", "mint", "cocoa", "galaxy"]
 }
 
 extension Deck {

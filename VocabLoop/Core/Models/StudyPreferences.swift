@@ -79,6 +79,19 @@ public final class StudyPreferences {
     public var showIntervalPreview: Bool
     public var hapticsEnabled: Bool
 
+    // MARK: Engagement (1.0.7)
+    //
+    // Declaration defaults, so a store written before 1.0.7 opens with a lightweight migration —
+    // the same rule as `ReviewLog.easeFactorBefore`. Everything defaults on: the silent switch
+    // still silences sounds, and quizzes never appear on new or learning cards.
+
+    /// Short sound effects for answers, combos and rewards. The silent switch always wins.
+    public var soundEffectsEnabled: Bool = true
+    /// Mix multiple-choice, listening and typed questions into reviews of known words.
+    public var quizModesEnabled: Bool = true
+    /// The one evening "a few words before bed?" nudge when a streak of two or more is waiting.
+    public var streakReminderEnabled: Bool = true
+
     // MARK: Day boundary
 
     /// The user's timezone at last write, so a day boundary computed on one device
@@ -124,6 +137,9 @@ public final class StudyPreferences {
         self.showPhonetics = true
         self.showIntervalPreview = true
         self.hapticsEnabled = true
+        self.soundEffectsEnabled = true
+        self.quizModesEnabled = true
+        self.streakReminderEnabled = true
         self.timeZoneIdentifier = TimeZone.current.identifier
         self.dayStartHour = 4
         self.updatedAt = now

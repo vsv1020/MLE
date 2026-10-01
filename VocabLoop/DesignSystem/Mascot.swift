@@ -29,13 +29,16 @@ public struct Mascot: View {
     }
 
     private let mood: Mood
+    /// Stage, body colour and accessories. `.default` draws the original vanilla Mochi.
+    private let look: MochiLook
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var breathing = false
     @State private var pop: CGFloat = 1
 
-    public init(mood: Mood) {
+    public init(mood: Mood, look: MochiLook = .default) {
         self.mood = mood
+        self.look = look
     }
 
     public var body: some View {
@@ -44,7 +47,7 @@ public struct Mascot: View {
             let shape = WobbleShape(cornerRadius: side / 2, amplitude: 0.7, seed: 0x0C41_0000_0000_0001)
             ZStack {
                 shape.fill(Chunky.baseColor).offset(y: max(2, side * 0.06))
-                shape.fill(Palette.surface)
+                shape.fill(look.color.fill)
                     .overlay(shape.stroke(Palette.separator, lineWidth: max(2, side * 0.05)))
                 Canvas { context, size in
                     Self.drawFace(mood, in: &context, size: size)
