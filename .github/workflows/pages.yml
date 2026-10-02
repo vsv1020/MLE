@@ -4,10 +4,9 @@ name: Website
 #   https://vsv1020.github.io/MLE/
 # These are the URLs App Store Connect, the Google consent screen and the app's About screen
 # link to. Runs on Ubuntu in well under a minute.
+# Manual only: the site is served from https://mle.doge6.com/ (deploy-site.yml). Kept as a
+# fallback host; it needs Settings ▸ Pages ▸ Source = GitHub Actions turned on once.
 on:
-  push:
-    branches: [main]
-    paths: ['site/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 
 permissions:

@@ -1,0 +1,77 @@
+name: Deploy website
+
+# Publishes site/ to https://mle.doge6.com/ on the owner's server over SSH.
+#
+# One-time setup (owner):
+#   1. DNS: an A record  mle.doge6.com → 8.220.133.54
+#   2. Cloud security group / firewall: allow inbound TCP 80 and 443.
+#   3. A deploy key: on your own computer
+#        ssh-keygen -t ed25519 -N "" -C vocabloop-deploy -f ~/.ssh/vocabloop_deploy
+#        ssh-copy-id -i ~/.ssh/vocabloop_deploy.pub -p 22 root@8.220.133.54
+#      then put the PRIVATE key (contents of ~/.ssh/vocabloop_deploy) in the repository
+#      secret DEPLOY_SSH_KEY.
+#
+# Each run: installs nginx/rsync if missing, uploads site/, gets an HTTPS certificate the
+# first time (Let's Encrypt via certbot), and checks the pages are live.
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', '.github/workflows/deploy-site.yml', 'scripts/server-setup-site.sh']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: false
+
+env:
+  HOST: 8.220.133.54
+  PORT: '22'
+  SSH_USER: root
+  DOMAIN: mle.doge6.com
+  WEBROOT: /var/www/mle.doge6.com
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the deploy key is present
+        env:
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "::error::Add the DEPLOY_SSH_KEY repository secret (see the header of this workflow)."
+            exit 1
+          fi
+
+      - name: Set up SSH
+        env:
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/deploy && chmod 600 ~/.ssh/deploy
+          ssh-keyscan -p "$PORT" -T 20 "$HOST" >> ~/.ssh/known_hosts
+          echo "SSH=ssh -i $HOME/.ssh/deploy -p $PORT -o BatchMode=yes" >> "$GITHUB_ENV"
+
+      - name: Prepare the server (nginx, rsync, web root)
+        run: $SSH "$SSH_USER@$HOST" "DOMAIN=$DOMAIN WEBROOT=$WEBROOT STAGE=prepare bash -s" < scripts/server-setup-site.sh
+
+      - name: Upload site/
+        run: rsync -az --delete -e "$SSH" site/ "$SSH_USER@$HOST:$WEBROOT/"
+
+      - name: HTTPS certificate
+        run: $SSH "$SSH_USER@$HOST" "DOMAIN=$DOMAIN WEBROOT=$WEBROOT STAGE=https bash -s" < scripts/server-setup-site.sh
+
+      - name: Check the pages are live
+        run: |
+          for page in "" privacy.html terms.html support.html; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "https://$DOMAIN/$page")
+            echo "https://$DOMAIN/$page → $code"
+            [ "$code" = 200 ] || exit 1
+          done
+
+      - name: Remove the key
+        if: always()
+        run: rm -f ~/.ssh/deploy
