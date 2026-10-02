@@ -86,5 +86,27 @@
       "supportUrl": "https://mle.doge6.com/support.html",
       "marketingUrl": "https://mle.doge6.com/"
     }
+  },
+  "screenshotsIpad": {
+    "dir": "docs/appstore/screenshots/ipad",
+    "pattern": "^0[1-5]-.*\\.png$",
+    "displayTypes": [
+      "APP_IPAD_PRO_3GEN_129",
+      "APP_IPAD_PRO_129"
+    ],
+    "sizes": [
+      [
+        2064,
+        2752
+      ],
+      [
+        2048,
+        2732
+      ]
+    ]
+  },
+  "appPrice": {
+    "baseTerritory": "CHN",
+    "customerPrice": "0"
   }
 }

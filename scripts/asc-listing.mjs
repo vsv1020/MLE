@@ -474,8 +474,7 @@ async function reviewDetailStep(version, L) {
   return created.attributes;
 }
 
-async function screenshotsStep(versionLocs, L) {
-  const S = L.screenshots;
+async function screenshotsStep(versionLocs, L, S = L.screenshots) {
   const dir = path.join(ROOT, S.dir);
   for (const [locale, loc] of Object.entries(versionLocs)) {
     const { ok: ours, rejected } = localScreenshots(dir, S.pattern, S.sizes, locale);
@@ -528,6 +527,38 @@ async function screenshotsStep(versionLocs, L) {
       log(`${locale}: order unchanged`);
     }
   }
+}
+
+/// The app's own price (not the in-app purchase). App Store Connect will not accept a version for
+/// review until one is set; the app is free, so this is the 0 price point in the base territory.
+async function appPriceStep(app, L) {
+  const P = L.appPrice ?? { baseTerritory: 'CHN', customerPrice: '0' };
+  const existing = await api('GET', `/v1/apps/${app.id}/appPriceSchedule?include=manualPrices,baseTerritory`).catch(() => null);
+  const manual = existing?.data?.relationships?.manualPrices?.data ?? [];
+  if (existing?.data && manual.length) {
+    log(`price schedule already set (base ${existing.data.relationships?.baseTerritory?.data?.id ?? '?'}, ${manual.length} manual price(s)) — unchanged`);
+    return;
+  }
+  const points = (await getAll(`/v1/apps/${app.id}/appPricePoints?filter[territory]=${P.baseTerritory}&limit=200`)).data;
+  const point = points.find((p) => Number(p.attributes.customerPrice) === Number(P.customerPrice));
+  if (!point) throw new Error(`no ${P.baseTerritory} price point at ${P.customerPrice} among ${points.length}`);
+  const localId = '${price-free}';
+  await api('POST', '/v1/appPriceSchedules', {
+    data: {
+      type: 'appPriceSchedules',
+      relationships: {
+        app: rel('apps', app.id),
+        baseTerritory: rel('territories', P.baseTerritory),
+        manualPrices: { data: [{ type: 'appPrices', id: localId }] },
+      },
+    },
+    included: [{
+      type: 'appPrices', id: localId,
+      attributes: { startDate: null },
+      relationships: { appPricePoint: rel('appPricePoints', point.id) },
+    }],
+  });
+  log(`price: set to ${P.customerPrice} (free) with base territory ${P.baseTerritory}`);
 }
 
 async function iapStep(app, L) {
@@ -696,7 +727,11 @@ async function main() {
     await step('Build', () => buildStep(app, version, VERSION));
     review = await step('App Review information', () => reviewDetailStep(version, L));
     if (versionLocs) await step('Screenshots', () => screenshotsStep(versionLocs, L));
+    if (versionLocs && L.screenshotsIpad) {
+      await step('Screenshots (13" iPad)', () => screenshotsStep(versionLocs, L, L.screenshotsIpad));
+    }
   }
+  if (app) await step('App price', () => appPriceStep(app, L));
   const iap = await step('In-app purchase', () => iapStep(app, L));
   let iapShot = false;
   if (iap) {

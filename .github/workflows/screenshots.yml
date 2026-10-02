@@ -26,12 +26,34 @@ permissions:
 
 jobs:
   capture:
-    name: Capture and commit
+    name: Capture and commit (${{ matrix.device }})
     runs-on: macos-26
     timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 1   # both commit to main; one after the other
+      matrix:
+        include:
+          # 6.9" iPhone: the five store screenshots plus the purchase review screenshot.
+          - device: iphone
+            shots: docs/appstore/screenshots
+            names: 01-study 02-quiz 03-goal 04-mochi 05-stickers 06-plus
+            wanted: "iPhone 17 Pro Max,iPhone 16 Pro Max"
+            family: Pro Max
+            sizes: 1320x2868 1290x2796
+          # 13" iPad: App Store Connect requires a set because the app runs on iPad.
+          - device: ipad
+            shots: docs/appstore/screenshots/ipad
+            names: 01-study 02-quiz 03-goal 04-mochi 05-stickers
+            wanted: "iPad Pro 13-inch (M5),iPad Pro 13-inch (M4)"
+            family: 13-inch
+            sizes: 2064x2752 2048x2732
     env:
-      SHOTS: docs/appstore/screenshots
-      NAMES: 01-study 02-quiz 03-goal 04-mochi 05-stickers 06-plus
+      SHOTS: ${{ matrix.shots }}
+      NAMES: ${{ matrix.names }}
+      WANTED: ${{ matrix.wanted }}
+      FAMILY: ${{ matrix.family }}
+      SIZES: ${{ matrix.sizes }}
     steps:
       - uses: actions/checkout@v4
 
@@ -43,24 +65,26 @@ jobs:
           sudo xcode-select -s "$XCODE"
           xcodebuild -version
 
-      - name: Pick and prepare a 6.9-inch simulator
+      - name: Pick and prepare the simulator
         run: |
           xcrun simctl list devices available | grep -A12 '^-- iOS' || true
           # The newest iOS runtime's iPhone Pro Max (1320×2868 on the 16 and 17 Pro Max), by UDID.
           SIM_ID=$(xcrun simctl list devices available -j | python3 -c '
-          import json, sys
+          import json, os, sys
           devs = json.load(sys.stdin)["devices"]
+          wanted = os.environ["WANTED"].split(",")
+          family = os.environ["FAMILY"]
           def version(key):
               return [int(x) for x in key.split("iOS-")[-1].split("-") if x.isdigit()]
           for runtime in sorted((k for k in devs if "iOS" in k), key=version, reverse=True):
-              phones = {d["name"]: d["udid"] for d in devs[runtime] if d.get("isAvailable", True)}
-              for wanted in ("iPhone 17 Pro Max", "iPhone 16 Pro Max"):
-                  if wanted in phones:
-                      print(phones[wanted]); sys.exit(0)
-              maxes = sorted(n for n in phones if n.startswith("iPhone") and n.endswith("Pro Max"))
-              if maxes:
-                  print(phones[maxes[-1]]); sys.exit(0)
-          sys.exit("no iPhone Pro Max simulator on this image")')
+              names = {d["name"]: d["udid"] for d in devs[runtime] if d.get("isAvailable", True)}
+              for w in wanted:
+                  if w in names:
+                      print(names[w]); sys.exit(0)
+              matches = sorted(n for n in names if family in n)
+              if matches:
+                  print(names[matches[-1]]); sys.exit(0)
+          sys.exit("no matching simulator on this image: " + ", ".join(wanted))')
           echo "Using simulator $SIM_ID"
           echo "SIM_ID=$SIM_ID" >> "$GITHUB_ENV"
           xcrun simctl boot "$SIM_ID" || true
@@ -120,10 +144,10 @@ jobs:
             w=$(sips -g pixelWidth "$file" | awk '/pixelWidth/ {print $2}')
             h=$(sips -g pixelHeight "$file" | awk '/pixelHeight/ {print $2}')
             echo "$name: ${w}x${h}"
-            if [ "${w}x${h}" != "1320x2868" ] && [ "${w}x${h}" != "1290x2796" ]; then
-              echo "::error::$name is ${w}x${h}; App Store 6.9-inch screenshots must be 1320x2868 or 1290x2796"
-              status=1
-            fi
+            case " $SIZES " in
+              *" ${w}x${h} "*) ;;
+              *) echo "::error::$name is ${w}x${h}; expected one of: $SIZES"; status=1 ;;
+            esac
           done
           exit $status
 
@@ -131,7 +155,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: appstore-screenshots
+          name: appstore-screenshots-${{ matrix.device }}
           path: |
             ${{ runner.temp }}/shots
             ${{ runner.temp }}/screenshots.log
@@ -142,7 +166,7 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: screenshots-xcresult
+          name: screenshots-xcresult-${{ matrix.device }}
           path: ${{ runner.temp }}/Screenshots.xcresult
           retention-days: 7
           if-no-files-found: ignore
@@ -162,7 +186,7 @@ jobs:
             echo "Screenshots unchanged; nothing to commit."
             exit 0
           fi
-          git commit -m "App Store screenshots [skip ci]"
+          git commit -m "App Store screenshots (${{ matrix.device }}) [skip ci]"
           if ! git push origin main; then
             echo "main moved; rebasing once and retrying"
             git pull --rebase origin main

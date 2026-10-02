@@ -121,6 +121,10 @@ final class AppStoreScreenshotTests: XCTestCase {
         }
         settle(1.5)
 
+        // The iPad set is the five store screenshots only; the purchase review screenshot (06)
+        // comes from the iPhone run.
+        if UIDevice.current.userInterfaceIdiom == .pad { return }
+
         // 06 — Settings ▸ VocabLoop Plus, the in-app purchase review screenshot.
         let library = app.buttons["Open library"]
         XCTAssertTrue(library.waitForExistence(timeout: 10))
