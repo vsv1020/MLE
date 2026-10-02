@@ -145,6 +145,17 @@ jobs:
           PY
           echo "Widgets: off — archiving the app alone"
 
+      - name: Check the website the app links to
+        # The About screen links to these pages; App Review opens the privacy policy. A dead
+        # link here is worth knowing before the build goes out (warning only, never blocks).
+        run: |
+          base="${WEBSITE_URL:-${{ vars.WEBSITE_URL || 'https://mle.doge6.com/' }}}"
+          for page in "" privacy.html terms.html support.html; do
+            code=$(curl -s -o /dev/null -m 20 -w '%{http_code}' "${base}${page}" || true)
+            echo "${base}${page} → ${code}"
+            [ "$code" = 200 ] || echo "::warning::${base}${page} returned ${code}"
+          done
+
       - name: Archive
         env:
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
