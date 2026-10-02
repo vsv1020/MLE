@@ -29,7 +29,7 @@ enum AppStoreScreenshots {
 
     /// What the purchase button shows, since the simulator has no App Store product to load.
     /// The U.S. price of the Plus lifetime purchase (`docs/APP-STORE-LISTING.md` §4).
-    static let displayPrice = "$29.99"
+    static let displayPrice = "¥198"
 
     /// The words due today, in the order the session asks them (most overdue first).
     ///
