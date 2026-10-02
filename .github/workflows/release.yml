@@ -157,7 +157,7 @@ jobs:
           GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_IOS_CLIENT_ID || secrets.GOOGLE_IOS_CLIENT_ID }}
           # Where site/ is hosted, e.g. https://example.com/vocabloop/ — links to the privacy
           # policy, terms and support pages are hidden in builds without it.
-          WEBSITE_URL: ${{ vars.WEBSITE_URL }}
+          WEBSITE_URL: ${{ vars.WEBSITE_URL || 'https://vsv1020.github.io/MLE/' }}
         run: |
           if [ -n "$GOOGLE_CLIENT_ID" ]; then
             echo "Google sign-in: configured (${#GOOGLE_CLIENT_ID} chars, ends ${GOOGLE_CLIENT_ID: -27})"

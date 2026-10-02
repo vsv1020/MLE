@@ -9,16 +9,12 @@
 1. **付费 App 协议**：App Store Connect → 商务（Business）→ 协议，签署 **Paid Applications Agreement**，并填好**银行账户**和**税务信息**。
    没签之前，App 里的 Plus 价格加载不出来，TestFlight 里也买不了。
 2. **创建内购项目**（见第 4 节）。
-3. **网站**：把仓库里的 `site/` 文件夹上传到你的网站（例如 `https://你的域名/vocabloop/`），然后在 GitHub 仓库 → Settings → Secrets and variables → Actions → **Variables** 新建：
-   - Name：`WEBSITE_URL`
-   - Value：`https://你的域名/vocabloop/`（以 `/` 结尾）
-
-   下次发版后，App 里的“隐私政策 / 使用条款 / 帮助”链接就会出现。
+3. **网站**：已部署在 GitHub Pages：`https://vsv1020.github.io/MLE/`（`.github/workflows/pages.yml`，`site/` 有改动时自动更新）。发版时 App 默认使用这个网址，无需设置 `WEBSITE_URL`；以后换成自己的域名时，再在 Variables 里设置 `WEBSITE_URL` 覆盖即可。
 4. **Google 登录发布**：Google Cloud → Google Auth Platform → 品牌塑造，填：
-   - 应用首页：`https://你的域名/vocabloop/`
-   - 隐私权政策：`https://你的域名/vocabloop/privacy.html`
-   - 服务条款：`https://你的域名/vocabloop/terms.html`
-   - 已获授权的网域：`你的域名`
+   - 应用首页：`https://vsv1020.github.io/MLE/`
+   - 隐私权政策：`https://vsv1020.github.io/MLE/privacy.html`
+   - 服务条款：`https://vsv1020.github.io/MLE/terms.html`
+   - 已获授权的网域：`vsv1020.github.io`
 
    然后到“目标对象”点“发布应用”。
 
@@ -32,7 +28,7 @@
 | 主要类别 | 教育 Education |
 | 次要类别 | 参考 Reference |
 | 内容版权 | © 2026 你的法定姓名（需与开发者账号一致） |
-| 隐私政策网址 | `https://你的域名/vocabloop/privacy.html` |
+| 隐私政策网址 | `https://vsv1020.github.io/MLE/privacy.html` |
 | 年龄分级 | **4+**（问卷全部选“无”） |
 | 儿童类别（Made for Kids） | **不勾选**。勾选后，App 内购和外部链接都要加家长验证，Google 登录也不允许。“适合孩子”写在描述里即可。 |
 
@@ -76,8 +72,8 @@ VocabLoop 使用 FSRS 记忆算法，为每个单词计算你大概什么时候�
 • English Core B1–B2、C1 进阶词库，以及今后所有新词库
 • 根据你的复习记录调节记忆算法
 
-使用条款：https://你的域名/vocabloop/terms.html
-隐私政策：https://你的域名/vocabloop/privacy.html
+使用条款：https://vsv1020.github.io/MLE/terms.html
+隐私政策：https://vsv1020.github.io/MLE/privacy.html
 ```
 
 **关键词 Keywords（≤100 字符，逗号分隔、不加空格）**
@@ -86,8 +82,8 @@ VocabLoop 使用 FSRS 记忆算法，为每个单词计算你大概什么时候�
 单词,背单词,英语单词,词汇,记单词,英语学习,单词卡,闪卡,记忆曲线,艾宾浩斯,四级,六级,雅思,托福,小学英语
 ```
 
-**技术支持网址** `https://你的域名/vocabloop/support.html`
-**营销网址** `https://你的域名/vocabloop/`
+**技术支持网址** `https://vsv1020.github.io/MLE/support.html`
+**营销网址** `https://vsv1020.github.io/MLE/`
 
 ## 3. 版本信息 — English (U.S.)
 
@@ -129,8 +125,8 @@ Studying is free forever. Plus is a single purchase, not a subscription, and add
 • The English Core B1–B2 and C1 packs, plus every future pack
 • Memory tuning fitted to your own review history
 
-Terms of Use: https://YOUR-DOMAIN/vocabloop/terms.html
-Privacy Policy: https://YOUR-DOMAIN/vocabloop/privacy.html
+Terms of Use: https://vsv1020.github.io/MLE/terms.html
+Privacy Policy: https://vsv1020.github.io/MLE/privacy.html
 ```
 
 **Keywords**
