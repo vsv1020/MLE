@@ -1,0 +1,43 @@
+name: App Store listing
+
+# Fills in the App Store listing and the in-app purchase from appstore/listing.json through the
+# App Store Connect API (scripts/asc-listing.mjs). Idempotent and never submits for review.
+# Triggered by changing APPSTORE, the listing, the screenshots or the script on main, or manually.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - APPSTORE
+      - 'appstore/**'
+      - 'docs/appstore/screenshots/**'
+      - scripts/asc-listing.mjs
+
+jobs:
+  listing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate listing
+        run: node scripts/asc-listing.mjs --check
+      - name: Apply listing
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          # Kept out of the public repository; optional (empty = leave the value in App Store Connect).
+          REVIEW_CONTACT_PHONE: ${{ secrets.REVIEW_CONTACT_PHONE }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/keys"
+          printf '%s\n' "$ASC_KEY_P8" > "$RUNNER_TEMP/keys/key.p8"
+          export KEY_PATH="$RUNNER_TEMP/keys/key.p8"
+          export APP_VERSION="$(head -n1 RELEASE | tr -d '[:space:]')"
+          node scripts/asc-listing.mjs
+      - name: Remove API key
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys"

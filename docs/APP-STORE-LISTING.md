@@ -2,6 +2,8 @@
 
 复制到 App Store Connect → VocabLoop 对应位置即可。字数限制已核对。
 
+**自动填写**：第 1–4、6、7 节已编码在 `appstore/listing.json`，由 `.github/workflows/appstore-listing.yml`（`scripts/asc-listing.mjs`）通过 App Store Connect API 写入（可重复运行，不会提交审核）。改这里的文案时同步改 JSON；改 `APPSTORE` 文件即可重新运行。审核联系电话来自仓库 Secret `REVIEW_CONTACT_PHONE`，不写进仓库。App 隐私问卷（第 5 节）API 不支持，仍需手动。
+
 ---
 
 ## 0. 上架前必须先做的事（不做内购无法使用）
@@ -27,7 +29,7 @@
 | 名称 Name（≤30） | VocabLoop |
 | 主要类别 | 教育 Education |
 | 次要类别 | 参考 Reference |
-| 内容版权 | © 2026 你的法定姓名（需与开发者账号一致） |
+| 内容版权 | © 2026 Zhang Tao |
 | 隐私政策网址 | `https://mle.doge6.com/privacy.html` |
 | 年龄分级 | **4+**（问卷全部选“无”） |
 | 儿童类别（Made for Kids） | **不勾选**。勾选后，App 内购和外部链接都要加家长验证，Google 登录也不允许。“适合孩子”写在描述里即可。 |
