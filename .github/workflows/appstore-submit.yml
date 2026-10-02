@@ -1,0 +1,35 @@
+name: Submit for App Review
+
+# Fills in the listing (including the review contact phone from the REVIEW_CONTACT_PHONE
+# secret), then submits the version and the Plus in-app purchase for review.
+# Triggered only by changing the SUBMIT file on main.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [SUBMIT]
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Listing and submission
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          REVIEW_CONTACT_PHONE: ${{ secrets.REVIEW_CONTACT_PHONE }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/keys"
+          printf '%s\n' "$ASC_KEY_P8" > "$RUNNER_TEMP/keys/key.p8"
+          export KEY_PATH="$RUNNER_TEMP/keys/key.p8"
+          node scripts/asc-listing.mjs || echo "::warning::listing reported problems (see above); checking the review contact before submitting"
+          node scripts/asc-submit.mjs
+      - name: Remove the key
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys"
