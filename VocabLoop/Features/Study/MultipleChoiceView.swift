@@ -165,10 +165,20 @@ struct MultipleChoiceView: View {
         // Answered options stay readable but stop responding: one answer per question.
         .allowsHitTesting(!isAnswered)
         .accessibilityLabel("Option \(index + 1): \(option.text)")
+        .accessibilityIdentifier(optionIdentifier(index))
         .accessibilityValue(accessibilityValue(for: state))
         .accessibilityAddTraits(traits)
         // 1–4 on a hardware keyboard, matching the rating bar's shortcuts.
         .keyboardShortcut(KeyEquivalent(Character("\(index + 1)")), modifiers: [])
+    }
+
+    /// `quiz.option.<index>`. A debug build names the right answer `quiz.option.correct`, so the
+    /// App Store screenshot test can tap it; VoiceOver never reads identifiers.
+    private func optionIdentifier(_ index: Int) -> String {
+        #if DEBUG
+        if index == question.correctIndex { return "quiz.option.correct" }
+        #endif
+        return "quiz.option.\(index)"
     }
 
     private func symbol(for state: OptionState) -> String? {

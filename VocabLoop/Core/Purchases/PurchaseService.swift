@@ -41,7 +41,14 @@ public final class PurchaseService {
         }
     }
 
-    public var displayPrice: String? { product?.displayPrice }
+    public var displayPrice: String? {
+        #if DEBUG
+        // The simulator has no App Store product to load; the App Store screenshot of the
+        // purchase screen still needs to show the button it will have. Debug builds only.
+        if product == nil, AppStoreScreenshots.isActive { return AppStoreScreenshots.displayPrice }
+        #endif
+        return product?.displayPrice
+    }
 
     /// Load the product and re-check what this Apple ID owns. Called at launch.
     public func load() async {

@@ -26,6 +26,7 @@ struct SettingsView: View {
                             Image(systemName: "sparkles").foregroundStyle(Palette.brandSecondary)
                         }
                     }
+                    .accessibilityIdentifier("settings.plus")
                 }
 
                 Section {

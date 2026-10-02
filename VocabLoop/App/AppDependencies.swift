@@ -147,6 +147,10 @@ public final class AppDependencies {
         // Albums are a function of the dictionary, which the import may just have changed.
         collection.invalidateCache()
         engagement.invalidateAlbumCache()
+        #if DEBUG
+        // Before the first screen, so the session opens onto the demo library.
+        if AppStoreScreenshots.isActive { AppStoreScreenshots.seedDemoLibrary(into: self) }
+        #endif
         isContentReady = true
 
         applyDailyGoalDefaultOnce()
