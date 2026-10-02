@@ -55,22 +55,6 @@ if (missing.length) {
   process.exit(1);
 }
 
-// The first in-app purchase goes to review together with the version.
-try {
-  const iaps = (await api('GET', `/v1/apps/${app.id}/inAppPurchasesV2?filter[productId]=${IAP_PRODUCT_ID}&limit=1`)).data;
-  const iap = iaps[0];
-  if (!iap) console.log('IAP not found — skipped');
-  else if (iap.attributes.state !== 'READY_TO_SUBMIT') console.log(`IAP state ${iap.attributes.state} — not submitting it`);
-  else {
-    await api('POST', '/v1/inAppPurchaseSubmissions', {
-      data: { type: 'inAppPurchaseSubmissions', relationships: { inAppPurchaseV2: { data: { type: 'inAppPurchases', id: iap.id } } } },
-    });
-    console.log('IAP added to the submission');
-  }
-} catch (e) {
-  console.log(`IAP: ${e.message}`);
-}
-
 // One open review submission per platform; reuse it if a previous run created it.
 const open = (await api('GET', `/v1/reviewSubmissions?filter[app]=${app.id}&filter[platform]=IOS&filter[state]=READY_FOR_REVIEW&limit=1`)).data[0];
 const submission = open ?? (await api('POST', '/v1/reviewSubmissions', {
@@ -90,6 +74,29 @@ if (!items.some((i) => i.relationships?.appStoreVersion?.data?.id === version.id
     },
   });
   console.log('version added to the submission');
+}
+
+// The first in-app purchase goes to review together with the version: attach it once the
+// version is in the draft submission, and stop if Apple refuses — a version whose Plus page says
+// "not available" would come back rejected.
+const iap = (await api('GET', `/v1/apps/${app.id}/inAppPurchasesV2?filter[productId]=${IAP_PRODUCT_ID}&limit=1`)).data[0];
+if (!iap) {
+  console.error(`::error::In-app purchase ${IAP_PRODUCT_ID} not found`);
+  process.exit(1);
+}
+if (iap.attributes.state === 'READY_TO_SUBMIT') {
+  try {
+    await api('POST', '/v1/inAppPurchaseSubmissions', {
+      data: { type: 'inAppPurchaseSubmissions', relationships: { inAppPurchaseV2: { data: { type: 'inAppPurchases', id: iap.id } } } },
+    });
+    console.log('IAP added to the submission');
+  } catch (e) {
+    console.error(`::error::Could not add the in-app purchase: ${e.message}`);
+    console.error('Nothing was submitted. On the version page, tick it under "In-App Purchases and Subscriptions", then "Add for Review".');
+    process.exit(1);
+  }
+} else {
+  console.log(`IAP state ${iap.attributes.state} — already on its way`);
 }
 
 const done = await api('PATCH', `/v1/reviewSubmissions/${submission.id}`, {
