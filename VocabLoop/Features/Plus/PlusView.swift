@@ -63,6 +63,7 @@ struct PlusView: View {
             Mascot(mood: isPlus ? .cheer : .happy)
                 .frame(width: 104, height: 86)
             Text(isPlus ? "You have Plus 🎉" : "VocabLoop Plus")
+                .accessibilityIdentifier("plus.title")
                 .font(Typography.screenTitle)
                 .foregroundStyle(Palette.textPrimary)
             Text(isPlus ? "Thank you for supporting VocabLoop. Everything is unlocked on this Apple ID." : "One purchase. Yours for good.")

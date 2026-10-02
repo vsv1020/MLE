@@ -267,7 +267,20 @@ public final class QuestionGenerator {
 
         let distractors = Self.pickDistractors(answer: answer, pool: pool, seed: seed)
         let cloze = entry.clozePrompt()
-        let kind = Self.kind(for: card, policy: policy, distractorCount: distractors.count, canCloze: cloze != nil)
+        let decided = Self.kind(for: card, policy: policy, distractorCount: distractors.count, canCloze: cloze != nil)
+        #if DEBUG
+        // App Store screenshots script exactly which card is a quiz. Never in a release build,
+        // and never without the launch argument — see `AppStoreScreenshots`.
+        let kind: QuestionKind
+        if let forced = AppStoreScreenshots.forcedQuestionKind(for: card.cardID),
+           forced == .flip || distractors.count >= 3 {
+            kind = forced
+        } else {
+            kind = decided
+        }
+        #else
+        let kind = decided
+        #endif
         let correctIndex = Int(seed % 4)
 
         switch kind {

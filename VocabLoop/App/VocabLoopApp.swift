@@ -42,6 +42,12 @@ struct VocabLoopApp: App {
     /// real write to the domain `@AppStorage` owns — so finishing onboarding sticks.
     private static func resetFirstRunStateIfUITesting() {
         #if DEBUG
+        // App Store screenshots start from a wiped install with the first run already done; the
+        // demo library is seeded once content has imported (`AppDependencies.bootstrap`).
+        if AppStoreScreenshots.isActive {
+            AppStoreScreenshots.resetToFreshInstall()
+            return
+        }
         guard ProcessInfo.processInfo.arguments.contains("-uiTestingResetFirstRun") else { return }
         for key in ["onboarding.completed", "auth.landingShown"] {
             UserDefaults.standard.removeObject(forKey: key)

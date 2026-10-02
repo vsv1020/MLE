@@ -52,6 +52,7 @@ struct GoalCompleteView: View {
                     .clipped()
 
                     Text(isResting ? "See you tomorrow" : "Daily goal complete 🎉")
+                        .accessibilityIdentifier("goal.title")
                         .font(Typography.screenTitle)
                         .foregroundStyle(Palette.textPrimary)
                         .multilineTextAlignment(.center)

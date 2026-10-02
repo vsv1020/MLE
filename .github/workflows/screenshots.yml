@@ -1,0 +1,170 @@
+name: App Store screenshots
+
+# Captures the six App Store screenshots from the real app on a 6.9" iPhone simulator and commits
+# them to docs/appstore/screenshots/ on main.
+#
+# Run it from Actions ▸ App Store screenshots ▸ Run workflow, or by changing the SCREENSHOTS file
+# on main (any edit — a new date is fine).
+#
+# The app is launched with `-appStoreScreenshots` (debug builds only): it wipes itself to a fresh
+# install and seeds a demo library — see VocabLoop/App/AppStoreScreenshots.swift. The capture is
+# VocabLoopUITests/AppStoreScreenshotTests.swift, which skips itself unless this workflow sets
+# TEST_RUNNER_APPSTORE_SCREENSHOTS=1, so the regular test suite never wipes its own data.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [SCREENSHOTS]
+
+concurrency:
+  group: screenshots
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    name: Capture and commit
+    runs-on: macos-26
+    timeout-minutes: 60
+    env:
+      SHOTS: docs/appstore/screenshots
+      NAMES: 01-study 02-quiz 03-goal 04-mochi 05-stickers 06-plus
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          # Newest Xcode 26 on the image, as in ios.yml.
+          XCODE=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1)
+          if [ -z "$XCODE" ]; then echo "::error::No Xcode 26 on this runner image"; ls -d /Applications/Xcode*.app; exit 1; fi
+          sudo xcode-select -s "$XCODE"
+          xcodebuild -version
+
+      - name: Pick and prepare a 6.9-inch simulator
+        run: |
+          xcrun simctl list devices available | grep -A12 '^-- iOS' || true
+          # The newest iOS runtime's iPhone Pro Max (1320×2868 on the 16 and 17 Pro Max), by UDID.
+          SIM_ID=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          devs = json.load(sys.stdin)["devices"]
+          def version(key):
+              return [int(x) for x in key.split("iOS-")[-1].split("-") if x.isdigit()]
+          for runtime in sorted((k for k in devs if "iOS" in k), key=version, reverse=True):
+              phones = {d["name"]: d["udid"] for d in devs[runtime] if d.get("isAvailable", True)}
+              for wanted in ("iPhone 17 Pro Max", "iPhone 16 Pro Max"):
+                  if wanted in phones:
+                      print(phones[wanted]); sys.exit(0)
+              maxes = sorted(n for n in phones if n.startswith("iPhone") and n.endswith("Pro Max"))
+              if maxes:
+                  print(phones[maxes[-1]]); sys.exit(0)
+          sys.exit("no iPhone Pro Max simulator on this image")')
+          echo "Using simulator $SIM_ID"
+          echo "SIM_ID=$SIM_ID" >> "$GITHUB_ENV"
+          xcrun simctl boot "$SIM_ID" || true
+          xcrun simctl bootstatus "$SIM_ID" -b
+          xcrun simctl ui "$SIM_ID" appearance light
+          xcrun simctl status_bar "$SIM_ID" override --time 9:41 --dataNetwork wifi --wifiBars 3 \
+            --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+
+      - name: Capture
+        run: |
+          set -o pipefail
+          # TEST_RUNNER_-prefixed variables reach the test runner without the prefix.
+          TEST_RUNNER_APPSTORE_SCREENSHOTS=1 xcodebuild test \
+            -project VocabLoop.xcodeproj \
+            -scheme VocabLoop \
+            -configuration Debug \
+            -destination "platform=iOS Simulator,id=$SIM_ID" \
+            -only-testing:VocabLoopUITests/AppStoreScreenshotTests \
+            -resultBundlePath "$RUNNER_TEMP/Screenshots.xcresult" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            2>&1 | tee "$RUNNER_TEMP/screenshots.log"
+
+      - name: Export screenshots
+        run: |
+          OUT="$RUNNER_TEMP/attachments"
+          mkdir -p "$OUT" "$RUNNER_TEMP/shots"
+          xcrun xcresulttool export attachments --path "$RUNNER_TEMP/Screenshots.xcresult" --output-path "$OUT"
+          ls -la "$OUT"
+          python3 - "$OUT" "$RUNNER_TEMP/shots" $NAMES <<'PY'
+          import json, os, shutil, sys
+          src, dst, names = sys.argv[1], sys.argv[2], sys.argv[3:]
+          manifest = json.load(open(os.path.join(src, "manifest.json")))
+          found = {}
+          for test in manifest:
+              for attachment in test.get("attachments", []):
+                  human = attachment.get("suggestedHumanReadableName", "")
+                  exported = attachment.get("exportedFileName", "")
+                  for name in names:
+                      # "01-study_0_<UUID>.png" or similar: the attachment name comes first.
+                      if human.startswith(name):
+                          found[name] = exported
+          missing = [n for n in names if n not in found]
+          if missing:
+              print(json.dumps(manifest, indent=2))
+              sys.exit(f"missing attachments: {missing}")
+          for name in names:
+              shutil.copyfile(os.path.join(src, found[name]), os.path.join(dst, name + ".png"))
+              print(f"{name}: {found[name]}")
+          PY
+
+      - name: Check sizes
+        run: |
+          status=0
+          for name in $NAMES; do
+            file="$RUNNER_TEMP/shots/$name.png"
+            w=$(sips -g pixelWidth "$file" | awk '/pixelWidth/ {print $2}')
+            h=$(sips -g pixelHeight "$file" | awk '/pixelHeight/ {print $2}')
+            echo "$name: ${w}x${h}"
+            if [ "${w}x${h}" != "1320x2868" ] && [ "${w}x${h}" != "1290x2796" ]; then
+              echo "::error::$name is ${w}x${h}; App Store 6.9-inch screenshots must be 1320x2868 or 1290x2796"
+              status=1
+            fi
+          done
+          exit $status
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: appstore-screenshots
+          path: |
+            ${{ runner.temp }}/shots
+            ${{ runner.temp }}/screenshots.log
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Upload result bundle
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-xcresult
+          path: ${{ runner.temp }}/Screenshots.xcresult
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Commit to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Onto the tip of main whichever ref started the run. The working tree is clean: every
+          # build and test output went to $RUNNER_TEMP.
+          git fetch origin main
+          git checkout -B main origin/main
+          mkdir -p "$SHOTS"
+          for name in $NAMES; do cp "$RUNNER_TEMP/shots/$name.png" "$SHOTS/$name.png"; done
+          git add "$SHOTS"
+          if git diff --cached --quiet; then
+            echo "Screenshots unchanged; nothing to commit."
+            exit 0
+          fi
+          git commit -m "App Store screenshots [skip ci]"
+          if ! git push origin main; then
+            echo "main moved; rebasing once and retrying"
+            git pull --rebase origin main
+            git push origin main
+          fi
