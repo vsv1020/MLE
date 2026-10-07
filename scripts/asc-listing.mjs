@@ -669,10 +669,16 @@ async function iapScreenshotStep(iap, L) {
   const local = { file, fileName: path.basename(file), data, size: data.length, md5: md5(data) };
   const cur = await getOrNull(`/v2/inAppPurchases/${iap.id}/appStoreReviewScreenshot`);
   if (cur) {
-    const state = cur?.attributes?.assetDeliveryState?.state;
-    if (state !== 'FAILED') { log(`review screenshot already present (${cur.attributes.fileName}, ${state}) — kept`); return true; }
+    const a = cur.attributes ?? {};
+    const state = a.assetDeliveryState?.state;
+    // Keep only our own, fully processed file. One stored as "SOURCE" (no name, no extension)
+    // left the purchase unreviewable: Apple refused to submit it and rejected 1.0.10 (2.1b).
+    if (state === 'COMPLETE' && a.fileName === local.fileName && a.sourceFileChecksum === local.md5) {
+      log(`review screenshot already present (${a.fileName}, ${state}) — kept`);
+      return true;
+    }
     await api('DELETE', `/v1/inAppPurchaseAppStoreReviewScreenshots/${cur.id}`);
-    log('deleted the failed review screenshot');
+    log(`deleted the review screenshot ${a.fileName ?? '?'} (${state ?? '?'}) — replacing it with ${local.fileName}`);
   }
   await upload('inAppPurchaseAppStoreReviewScreenshots', { inAppPurchaseV2: rel('inAppPurchases', iap.id) }, local);
   return true;
