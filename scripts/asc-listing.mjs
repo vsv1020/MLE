@@ -671,9 +671,9 @@ async function iapScreenshotStep(iap, L) {
   if (cur) {
     const a = cur.attributes ?? {};
     const state = a.assetDeliveryState?.state;
-    // Keep only our own, fully processed file. One stored as "SOURCE" (no name, no extension)
-    // left the purchase unreviewable: Apple refused to submit it and rejected 1.0.10 (2.1b).
-    if (state === 'COMPLETE' && a.fileName === local.fileName && a.sourceFileChecksum === local.md5) {
+    // Keep it when it is our file, fully processed. Apple stores the name as "SOURCE", so match
+    // on the checksum, not the name.
+    if (state === 'COMPLETE' && (a.sourceFileChecksum ? a.sourceFileChecksum === local.md5 : a.fileSize === local.size)) {
       log(`review screenshot already present (${a.fileName}, ${state}) — kept`);
       return true;
     }
