@@ -44,7 +44,34 @@ await safe('review submissions', async () => {
 
 await safe('in-app purchases', async () => {
   const iaps = await get(`/v1/apps/${app.id}/inAppPurchasesV2?limit=10`);
-  for (const p of iaps.data) console.log(`IAP ${p.attributes.productId}: state=${p.attributes.state}`);
+  for (const p of iaps.data) {
+    console.log(`IAP ${p.attributes.productId}: ${JSON.stringify(p.attributes)}`);
+    // Everything App Review needs on the purchase, so a "cannot be reviewed" says which part.
+    await safe('  localizations', async () => {
+      for (const l of (await get(`/v2/inAppPurchases/${p.id}/inAppPurchaseLocalizations?limit=20`)).data) {
+        console.log(`  localization ${JSON.stringify(l.attributes)}`);
+      }
+    });
+    await safe('  review screenshot', async () => {
+      const s = await get(`/v2/inAppPurchases/${p.id}/appStoreReviewScreenshot`).catch(() => null);
+      const a = s?.data?.attributes;
+      console.log(a
+        ? `  review screenshot: ${a.fileName} ${a.fileSize}B ${a.imageAsset?.width ?? '?'}x${a.imageAsset?.height ?? '?'} delivery=${JSON.stringify(a.assetDeliveryState)}`
+        : '  review screenshot: none');
+    });
+    await safe('  price', async () => {
+      const ps = await get(`/v2/inAppPurchases/${p.id}/iapPriceSchedule?include=baseTerritory,manualPrices`);
+      console.log(`  price schedule: base=${ps.data.relationships?.baseTerritory?.data?.id ?? '-'} manual=${(ps.included || []).filter((x) => x.type === 'inAppPurchasePrices').length}`);
+    });
+    await safe('  availability', async () => {
+      const av = await get(`/v2/inAppPurchases/${p.id}/inAppPurchaseAvailability`);
+      console.log(`  availability: ${JSON.stringify(av.data.attributes)}`);
+    });
+    await safe('  content', async () => {
+      const c = await get(`/v2/inAppPurchases/${p.id}/content`).catch(() => null);
+      if (c) console.log(`  content: ${JSON.stringify(c.data.attributes)}`);
+    });
+  }
 });
 
 await safe('review detail', async () => {
