@@ -42,10 +42,10 @@ struct TypedAnswerView: View {
                     .multilineTextAlignment(.center)
                 field
                 HStack(spacing: Spacing.xs) {
-                    PrimaryButton("I don't know", role: .secondary) {
+                    PrimaryButton("我不知道", role: .secondary) {
                         onGiveUp()
                     }
-                    PrimaryButton("Check", isEnabled: !trimmed.isEmpty) {
+                    PrimaryButton("检查", isEnabled: !trimmed.isEmpty) {
                         submit()
                     }
                 }
@@ -71,7 +71,7 @@ struct TypedAnswerView: View {
     @ViewBuilder
     private var prompt: some View {
         VStack(spacing: Spacing.xs) {
-            Label("Type the word", systemImage: "keyboard")
+            Label("输入这个单词", systemImage: "keyboard")
                 .font(Typography.chip)
                 .foregroundStyle(Palette.textTertiary)
             if let cloze = question.clozePrompt {
@@ -102,7 +102,7 @@ struct TypedAnswerView: View {
     }
 
     private var field: some View {
-        TextField("Type the word", text: $text)
+        TextField("输入单词", text: $text)
             .font(Typography.wordTitle)
             .multilineTextAlignment(.center)
             .textInputAutocapitalization(.never)
@@ -123,7 +123,7 @@ struct TypedAnswerView: View {
                 shape.fill(Palette.surface)
                     .overlay(shape.stroke(Palette.separator, lineWidth: 2))
             }
-            .accessibilityLabel("Your answer")
+            .accessibilityLabel("你的答案")
     }
 
     private func submit() {
@@ -141,16 +141,16 @@ struct TypedAnswerView: View {
         let symbol: String
         switch quality {
         case .exact:
-            headline = "You got it!"
+            headline = "答对了！"
             tint = Palette.success
             symbol = "checkmark.circle.fill"
         case .nearMiss:
-            headline = "So close! It's spelled \(question.answerText)."
+            headline = "差一点！正确拼写是 \(question.answerText)。"
             tint = Palette.success
             symbol = "checkmark.circle"
         case .wrong:
             // Kind, never "wrong": the next line is the word itself, which is the useful part.
-            headline = (typedAnswer ?? "").isEmpty ? "Here's the word:" : "Not quite — the word is:"
+            headline = (typedAnswer ?? "").isEmpty ? "这个单词是：" : "差一点，这个单词是："
             tint = Palette.brandSecondary
             symbol = "lightbulb.fill"
         }
@@ -170,7 +170,7 @@ struct TypedAnswerView: View {
                     .foregroundStyle(Palette.brandPrimary)
             }
             if let typedAnswer, !typedAnswer.isEmpty, quality != .exact {
-                Text("You typed: \(typedAnswer)")
+                Text("你输入的是：\(typedAnswer)")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
             }

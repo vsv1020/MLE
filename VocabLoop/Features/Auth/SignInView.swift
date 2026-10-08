@@ -18,7 +18,7 @@ struct SignInView: View {
     var body: some View {
         Form {
             Section {
-                TextField("Email", text: $email)
+                TextField("邮箱", text: $email)
                     .textContentType(.username)
                     .keyboardType(.emailAddress)
                     .textInputAutocapitalization(.never)
@@ -27,7 +27,7 @@ struct SignInView: View {
                     .submitLabel(.next)
                     .onSubmit { focus = .password }
 
-                SecureField("Password", text: $password)
+                SecureField("密码", text: $password)
                     // `.password`, not `.newPassword` — this tells the keychain to *offer*
                     // saved credentials rather than to suggest a new one.
                     .textContentType(.password)
@@ -43,7 +43,7 @@ struct SignInView: View {
 
             Section {
                 PrimaryButton(
-                    "Sign in",
+                    "登录",
                     isLoading: auth.isBusy,
                     isEnabled: canSubmit
                 ) {
@@ -52,7 +52,7 @@ struct SignInView: View {
                 .listRowInsets(EdgeInsets())
                 .listRowBackground(Color.clear)
 
-                Button("Forgot your password?") {
+                Button("忘记密码？") {
                     isShowingReset = true
                 }
                 .font(Typography.caption)
@@ -67,13 +67,13 @@ struct SignInView: View {
                 .listRowInsets(EdgeInsets())
                 .listRowBackground(Color.clear)
             } header: {
-                Text("Or")
+                Text("或者")
             }
         }
-        .navigationTitle("Sign in")
+        .navigationTitle("登录")
         .toolbar {
             ToolbarItem(placement: .cancellationAction) {
-                Button("Cancel") { dismiss() }
+                Button("取消") { dismiss() }
             }
         }
         .sheet(isPresented: $isShowingReset) {

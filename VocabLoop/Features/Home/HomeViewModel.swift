@@ -124,12 +124,12 @@ final class HomeViewModel {
     /// — see `HomeView.studyAheadFooter`.
     var statusTitle: String {
         if reviewsDue > 0 {
-            return "\(reviewsDue) card\(reviewsDue == 1 ? "" : "s") due"
+            return "\(reviewsDue) 张卡片待复习"
         }
         if newAvailable > 0 {
-            return "\(newAvailable) new word\(newAvailable == 1 ? "" : "s") ready"
+            return "\(newAvailable) 个新词可以学"
         }
-        return "Nothing due"
+        return "没有待复习的"
     }
 
     var hasWorkToDo: Bool { reviewsDue > 0 || newAvailable > 0 }
@@ -150,10 +150,10 @@ final class HomeViewModel {
     var greeting: String {
         let hour = Calendar.current.component(.hour, from: Date())
         switch hour {
-        case 5..<12: return "Good morning"
-        case 12..<18: return "Good afternoon"
-        case 18..<23: return "Good evening"
-        default: return "Still up?"
+        case 5..<12: return "早上好"
+        case 12..<18: return "下午好"
+        case 18..<23: return "晚上好"
+        default: return "还没睡呀？"
         }
     }
 

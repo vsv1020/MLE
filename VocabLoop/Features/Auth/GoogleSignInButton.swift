@@ -21,7 +21,7 @@ struct GoogleSignInButton: View {
                 HStack(spacing: Spacing.sm) {
                     GoogleGlyph()
                         .frame(width: 18, height: 18)
-                    Text("Sign in with Google")
+                    Text("通过 Google 登录")
                         .font(.system(size: 19, weight: .medium))
                 }
                 .foregroundStyle(colorScheme == .dark ? Color(white: 0.89) : Color(white: 0.12))
@@ -37,7 +37,7 @@ struct GoogleSignInButton: View {
             }
             .buttonStyle(.plain)
             .disabled(dependencies.auth.isBusy)
-            .accessibilityLabel("Sign in with Google")
+            .accessibilityLabel("通过 Google 登录")
         }
     }
 }

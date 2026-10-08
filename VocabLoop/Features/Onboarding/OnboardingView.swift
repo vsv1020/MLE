@@ -53,15 +53,15 @@ struct OnboardingView: View {
             }
         }
         .padding(.top, Spacing.md)
-        .accessibilityLabel("Step \(step + 1) of \(stepCount)")
+        .accessibilityLabel("第 \(step + 1) 步，共 \(stepCount) 步")
     }
 
     // MARK: - Steps
 
     private var languageStep: some View {
         OnboardingStep(
-            title: "What are you learning?",
-            subtitle: "English is fully stocked. French and Thai ship as starter packs for now."
+            title: "你想学哪种语言？",
+            subtitle: "英语的词库最完整。法语和泰语目前是入门词库。"
         ) {
             VStack(spacing: Spacing.sm) {
                 ForEach(LearningLanguage.allCases) { candidate in
@@ -70,7 +70,7 @@ struct OnboardingView: View {
                         title: "\(candidate.flagEmoji)  \(candidate.displayName)",
                         subtitle: candidate.isFullyStocked
                             ? candidate.endonym
-                            : "\(candidate.endonym) · starter pack"
+                            : "\(candidate.endonym) · 入门词库"
                     ) {
                         language = candidate
                     }
@@ -81,8 +81,8 @@ struct OnboardingView: View {
 
     private var levelStep: some View {
         OnboardingStep(
-            title: "Where are you starting?",
-            subtitle: "This sets which words you are offered. You can widen the range any time."
+            title: "你现在是什么水平？",
+            subtitle: "这决定了给你推荐哪些单词。之后随时可以扩大范围。"
         ) {
             VStack(spacing: Spacing.sm) {
                 ForEach([CEFRLevel.a1, .a2, .b1, .b2, .c1], id: \.self) { candidate in
@@ -100,15 +100,15 @@ struct OnboardingView: View {
 
     private var summaryStep: some View {
         OnboardingStep(
-            title: "Ready",
-            subtitle: "Everything below can be changed in Settings."
+            title: "准备好了",
+            subtitle: "下面这些都可以在设置里修改。"
         ) {
             VStack(spacing: Spacing.sm) {
-                SummaryRow(label: "Learning", value: "\(language.flagEmoji) \(language.displayName)")
-                SummaryRow(label: "Starting level", value: level.rawValue)
-                SummaryRow(label: "New words per day", value: "\(newWordsPerDay)")
-                SummaryRow(label: "Memory algorithm", value: SchedulerKind.fsrs5.displayName)
-                SummaryRow(label: "Works offline", value: "Always")
+                SummaryRow(label: "学习语言", value: "\(language.flagEmoji) \(language.displayName)")
+                SummaryRow(label: "起始水平", value: level.rawValue)
+                SummaryRow(label: "每天新词", value: "\(newWordsPerDay)")
+                SummaryRow(label: "记忆算法", value: SchedulerKind.fsrs5.displayName)
+                SummaryRow(label: "离线可用", value: "一直可以")
             }
         }
     }
@@ -124,12 +124,12 @@ struct OnboardingView: View {
     private var controls: some View {
         HStack(spacing: Spacing.sm) {
             if step > 0 {
-                PrimaryButton("Back", role: .secondary) {
+                PrimaryButton("上一步", role: .secondary) {
                     step -= 1
                 }
                 .frame(maxWidth: 120)
             }
-            PrimaryButton(step == stepCount - 1 ? "Start learning" : "Continue") {
+            PrimaryButton(step == stepCount - 1 ? "开始学习" : "继续") {
                 if step == stepCount - 1 {
                     applyAndFinish()
                 } else {

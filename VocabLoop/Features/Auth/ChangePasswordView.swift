@@ -12,29 +12,29 @@ struct ChangePasswordView: View {
 
     var body: some View {
         Form {
-            Section("Current password") {
-                SecureField("Current password", text: $currentPassword)
+            Section("当前密码") {
+                SecureField("当前密码", text: $currentPassword)
                     .textContentType(.password)
             }
 
             Section {
-                SecureField("New password", text: $newPassword)
+                SecureField("新密码", text: $newPassword)
                     .textContentType(.newPassword)
-                SecureField("Confirm new password", text: $confirmPassword)
+                SecureField("再输入一次新密码", text: $confirmPassword)
                     .textContentType(.newPassword)
             } header: {
-                Text("New password")
+                Text("新密码")
             } footer: {
                 if let error = auth.lastError?.localizedDescription {
                     Text(error).foregroundStyle(Palette.danger)
                 } else {
-                    Text("At least \(CredentialValidator.minimumPasswordLength) characters.")
+                    Text("至少 \(CredentialValidator.minimumPasswordLength) 个字符。")
                 }
             }
 
             Section {
                 PrimaryButton(
-                    "Change password",
+                    "修改密码",
                     isLoading: auth.isBusy,
                     isEnabled: canSubmit
                 ) {
@@ -50,10 +50,10 @@ struct ChangePasswordView: View {
                 .listRowBackground(Color.clear)
             }
         }
-        .navigationTitle("Change password")
+        .navigationTitle("修改密码")
         .toolbar {
             ToolbarItem(placement: .cancellationAction) {
-                Button("Cancel") { dismiss() }
+                Button("取消") { dismiss() }
             }
         }
         .onDisappear { auth.clearError() }

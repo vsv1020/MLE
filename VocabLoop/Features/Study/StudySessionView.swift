@@ -134,17 +134,17 @@ struct StudySessionView: View {
         .onDisappear {
             if presentation == .sheet { model.endLiveActivity(.left) }
         }
-        .alert("End this session?", isPresented: $isConfirmingExit) {
-            Button("Keep studying", role: .cancel) {}
-            Button("End session") { dismiss() }
+        .alert("结束这次学习？", isPresented: $isConfirmingExit) {
+            Button("继续学习", role: .cancel) {}
+            Button("结束学习") { dismiss() }
         } message: {
-            Text("Your answers so far are saved. The remaining \(model.queue.count) card\(model.queue.count == 1 ? "" : "s") stay due.")
+            Text("已经答过的都保存好了。剩下的 \(model.queue.count) 张卡片仍待复习。")
         }
-        .alert("Something went wrong", isPresented: Binding(
+        .alert("出了点问题", isPresented: Binding(
             get: { model.errorMessage != nil },
             set: { if !$0 { model.errorMessage = nil } }
         )) {
-            Button("OK") { model.errorMessage = nil }
+            Button("好") { model.errorMessage = nil }
         } message: {
             Text(model.errorMessage ?? "")
         }
@@ -259,13 +259,13 @@ struct StudySessionView: View {
 
     /// Spoken instead of the raw glyphs, which VoiceOver would read as "12 slash 30".
     private var countLabel: String {
-        let stage = model.hasMovedPastDue ? ", now on new words" : ""
+        let stage = model.hasMovedPastDue ? "，现在在学新词" : ""
         if let goal = model.goalTarget {
             return model.isGoalMet
-                ? "\(model.reviewsToday) reviewed today, daily goal of \(goal) complete\(stage)"
-                : "\(model.reviewsToday) of \(goal) reviewed today\(stage)"
+                ? "今天复习了 \(model.reviewsToday) 张，每日目标 \(goal) 张已完成\(stage)"
+                : "今天复习了 \(model.reviewsToday) 张，目标 \(goal) 张\(stage)"
         }
-        return "\(model.reviewedCount) reviewed this session\(stage)"
+        return "这次复习了 \(model.reviewedCount) 张\(stage)"
     }
 
     /// Slide when motion is allowed, cross-fade when it is not. Never a 3D flip — it obscures
@@ -320,8 +320,8 @@ struct StudySessionView: View {
         .pressable(scale: 0.92)
         .background { mochiCelebration }
         .offset(y: isMochiHopping ? -10 : 0)
-        .accessibilityLabel("Mochi")
-        .accessibilityHint("Opens Mochi's room")
+        .accessibilityLabel("麻薯")
+        .accessibilityHint("打开麻薯的小屋")
     }
 
     /// Confetti behind Mochi from a combo of 10, plus a sparkle ring from 20.
@@ -391,7 +391,7 @@ struct StudySessionView: View {
                         .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                 }
                 .foregroundStyle(Palette.textSecondary)
-                .accessibilityLabel(presentation == .root ? "Open library" : "Close session")
+                .accessibilityLabel(presentation == .root ? "打开词库" : "关闭学习")
 
                 // Both hidden once the session is over, so the summary is not read through a
                 // 100%-full bar and a redundant count.
@@ -463,7 +463,7 @@ struct StudySessionView: View {
                         Button {
                             model.undo(dependencies: dependencies)
                         } label: {
-                            Label("Undo last answer", systemImage: "arrow.uturn.backward")
+                            Label("撤销上一个回答", systemImage: "arrow.uturn.backward")
                         }
                     }
                     if let card = model.currentCard {
@@ -471,19 +471,19 @@ struct StudySessionView: View {
                             model.toggleFlag(dependencies: dependencies)
                         } label: {
                             Label(
-                                card.isFlagged ? "Remove flag" : "Flag for later",
+                                card.isFlagged ? "取消标记" : "标记一下，稍后再看",
                                 systemImage: card.isFlagged ? "flag.slash" : "flag"
                             )
                         }
                         Button {
                             model.bury(dependencies: dependencies)
                         } label: {
-                            Label("Not today", systemImage: "moon.zzz")
+                            Label("今天先跳过", systemImage: "moon.zzz")
                         }
                         Button(role: .destructive) {
                             model.suspend(dependencies: dependencies)
                         } label: {
-                            Label("Stop studying this word", systemImage: "pause.circle")
+                            Label("不再学习这个单词", systemImage: "pause.circle")
                         }
                     }
                 } label: {
@@ -492,7 +492,7 @@ struct StudySessionView: View {
                         .frame(width: LayoutMetrics.minimumTapTarget, height: LayoutMetrics.minimumTapTarget)
                 }
                 .foregroundStyle(Palette.textSecondary)
-                .accessibilityLabel("Session options")
+                .accessibilityLabel("学习选项")
             }
 
             // Under the progress row rather than in it, so the row keeps its one job. Reviewing
@@ -504,7 +504,7 @@ struct StudySessionView: View {
             if model.deferredCount > 0 {
                 // Say so explicitly. Capping the session and then implying the backlog is
                 // gone would be dishonest.
-                Text("\(model.deferredCount) more due after this session")
+                Text("这次学完后还有 \(model.deferredCount) 张待复习")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
             }
@@ -525,7 +525,7 @@ struct StudySessionView: View {
         if model.isQuizQuestion {
             if model.isQuestionAnswered {
                 controlBar {
-                    PrimaryButton("Continue") {
+                    PrimaryButton("继续") {
                         model.continueAfterAnswer(dependencies: dependencies)
                     }
                     .keyboardShortcut(.defaultAction)
@@ -541,7 +541,7 @@ struct StudySessionView: View {
                         model.grade(rating, dependencies: dependencies)
                     }
                 } else {
-                    PrimaryButton("Show answer") {
+                    PrimaryButton("显示答案") {
                         model.revealAnswer()
                     }
                 }
@@ -660,7 +660,7 @@ struct RatingBar: View {
                     baseColor: Palette.ratingEdge(rating)
                 ))
                 .accessibilityLabel(rating.accessibilityDescription)
-                .accessibilityValue(showsIntervals ? "Next review \(intervalLabel(rating))" : "")
+                .accessibilityValue(showsIntervals ? "下次复习：\(intervalLabel(rating))" : "")
                 // Hardware keyboard shortcuts, for iPad and Mac. Free to add, and the way
                 // anyone reviewing hundreds of cards a day will actually work.
                 .keyboardShortcut(KeyEquivalent(Character("\(rating.rawValue)")), modifiers: [])

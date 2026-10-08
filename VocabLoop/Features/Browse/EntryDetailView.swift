@@ -18,8 +18,8 @@ struct EntryDetailScreen: View {
             } else {
                 EmptyStateView(
                     systemImage: "questionmark.circle",
-                    title: "Word not found",
-                    message: "This word may have been removed, or its content pack is no longer installed."
+                    title: "找不到这个单词",
+                    message: "这个单词可能已被删除，或者它所在的词库已经不在了。"
                 )
             }
         }
@@ -81,28 +81,28 @@ struct EntryDetailView: View {
             // can contain anything a child typed.
             ToolbarItem(placement: .primaryAction) {
                 if let wordCard = WordCard.make(from: entry, look: shareLook) {
-                    ShareCardButton(card: .word(wordCard), label: "Share this word", style: .toolbar)
+                    ShareCardButton(card: .word(wordCard), label: "分享这个单词", style: .toolbar)
                 }
             }
         }
         .task { shareLook = dependencies.engagement.currentLook() }
         .confirmationDialog(
-            "Reset progress for “\(entry.headword)”?",
+            "重置“\(entry.headword)”的学习进度？",
             isPresented: $isShowingResetConfirmation,
             titleVisibility: .visible
         ) {
-            Button("Reset to new", role: .destructive) {
+            Button("重置为新词", role: .destructive) {
                 perform { try $0.resetProgress(for: entry) }
             }
-            Button("Cancel", role: .cancel) {}
+            Button("取消", role: .cancel) {}
         } message: {
-            Text("The card goes back to being unseen. Your past reviews are kept for statistics.")
+            Text("卡片会变回没学过的状态。以前的复习记录会保留，用于统计。")
         }
-        .alert("That didn’t work", isPresented: Binding(
+        .alert("没有成功", isPresented: Binding(
             get: { actionError != nil },
             set: { if !$0 { actionError = nil } }
         )) {
-            Button("OK") { actionError = nil }
+            Button("好") { actionError = nil }
         } message: {
             Text(actionError ?? "")
         }
@@ -150,7 +150,7 @@ struct EntryDetailView: View {
                     Chip("\(cefr.rawValue) · \(cefr.description)", color: Palette.brandSecondary)
                 }
                 if let rank = entry.frequencyRank {
-                    Chip("Rank #\(rank)", systemImage: "chart.bar")
+                    Chip("词频第 \(rank) 位", systemImage: "chart.bar")
                 }
                 ForEach(entry.partsOfSpeech) { pos in
                     Chip(pos.displayName)
@@ -168,28 +168,28 @@ struct EntryDetailView: View {
     private var enrolmentControls: some View {
         if entry.isEnrolled {
             HStack(spacing: Spacing.sm) {
-                Label("In your words", systemImage: "checkmark.circle.fill")
+                Label("已在你的单词里", systemImage: "checkmark.circle.fill")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.success)
                 Spacer()
                 Menu {
-                    Button("Reset progress", role: .destructive) {
+                    Button("重置学习进度", role: .destructive) {
                         isShowingResetConfirmation = true
                     }
-                    Button(isSuspended ? "Resume studying" : "Pause studying") {
+                    Button(isSuspended ? "继续学习" : "暂停学习") {
                         let shouldSuspend = !isSuspended
                         perform { try $0.setSuspended(shouldSuspend, for: entry) }
                     }
-                    Button("Remove from my words", role: .destructive) {
+                    Button("从我的单词中移除", role: .destructive) {
                         perform { try $0.unenroll(entry: entry) }
                     }
                 } label: {
-                    Label("Manage", systemImage: "ellipsis.circle")
+                    Label("管理", systemImage: "ellipsis.circle")
                         .font(Typography.caption)
                 }
             }
         } else {
-            PrimaryButton("Add to my words", systemImage: "plus") {
+            PrimaryButton("加入我的单词", systemImage: "plus") {
                 guard let preferences = dependencies.preferences else { return }
                 perform { _ = try $0.enroll(entry: entry, preferences: preferences) }
             }
@@ -248,10 +248,10 @@ struct EntryDetailView: View {
                 }
 
                 if !sense.synonyms.isEmpty {
-                    wordList("Similar", sense.synonyms, color: Palette.brandSecondary)
+                    wordList("近义词", sense.synonyms, color: Palette.brandSecondary)
                 }
                 if !sense.antonyms.isEmpty {
-                    wordList("Opposite", sense.antonyms, color: Palette.warning)
+                    wordList("反义词", sense.antonyms, color: Palette.warning)
                 }
                 if let note = sense.usageNote {
                     Text(note)
@@ -283,7 +283,7 @@ struct EntryDetailView: View {
     private var grammarCard: some View {
         CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0xE47D_0002) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
-                Text("Grammar")
+                Text("语法")
                     .font(Typography.sectionHeader)
                 ForEach(entry.grammarNotes.sorted(by: { $0.key < $1.key }), id: \.key) { key, value in
                     HStack(alignment: .firstTextBaseline) {
@@ -306,7 +306,7 @@ struct EntryDetailView: View {
     private var schedulingCard: some View {
         CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0xE47D_0003) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                Text("Scheduling")
+                Text("复习安排")
                     .font(Typography.sectionHeader)
                 ForEach(entry.cards.sorted(by: { $0.directionRaw < $1.directionRaw })) { card in
                     VStack(alignment: .leading, spacing: Spacing.xxs) {
@@ -318,22 +318,22 @@ struct EntryDetailView: View {
                             Spacer()
                             MaturityDot(card.maturity)
                             if card.isSuspended {
-                                Chip("Paused", color: Palette.warning)
+                                Chip("已暂停", color: Palette.warning)
                             }
                         }
                         .foregroundStyle(Palette.textSecondary)
 
                         HStack(spacing: Spacing.md) {
-                            schedulingValue(IntervalFormatter.dueDescription(due: card.due), label: "Next")
-                            schedulingValue(IntervalFormatter.short(days: card.intervalDays), label: "Interval")
+                            schedulingValue(IntervalFormatter.dueDescription(due: card.due), label: "下次")
+                            schedulingValue(IntervalFormatter.short(days: card.intervalDays), label: "间隔")
                         }
                         HStack(spacing: Spacing.md) {
                             // The model's own numbers, shown plainly. "Stability" is FSRS's S:
                             // days until recall drops to 90%.
-                            schedulingValue(String(format: "%.1fd", card.stability), label: "Stability")
-                            schedulingValue(String(format: "%.1f", card.difficulty), label: "Difficulty")
-                            schedulingValue("\(card.reps)", label: "Reviews")
-                            schedulingValue("\(card.lapses)", label: "Lapses")
+                            schedulingValue(String(format: "%.1f 天", card.stability), label: "稳定度")
+                            schedulingValue(String(format: "%.1f", card.difficulty), label: "难度")
+                            schedulingValue("\(card.reps)", label: "复习次数")
+                            schedulingValue("\(card.lapses)", label: "遗忘次数")
                         }
                     }
                     .padding(.vertical, Spacing.xxs)
@@ -341,7 +341,7 @@ struct EntryDetailView: View {
                         Divider().background(Palette.separator)
                     }
                 }
-                Text("Scheduled by \(entry.cards.first?.scheduler.displayName ?? SchedulerKind.fsrs5.displayName).")
+                Text("复习安排由 \(entry.cards.first?.scheduler.displayName ?? SchedulerKind.fsrs5.displayName) 计算。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
             }
@@ -358,13 +358,13 @@ struct EntryDetailView: View {
                 .foregroundStyle(Palette.textTertiary)
         }
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(label): \(value)")
+        .accessibilityLabel("\(label)：\(value)")
     }
 
     private var historyCard: some View {
         CardContainer(isRaised: true, style: .crayon, wobbleSeed: 0xE47D_0004) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
-                Text("Review history")
+                Text("复习记录")
                     .font(Typography.sectionHeader)
                 let logs = entry.cards
                     .flatMap(\.reviews)
@@ -372,7 +372,7 @@ struct EntryDetailView: View {
                     .prefix(20)
 
                 if logs.isEmpty {
-                    Text("No reviews yet.")
+                    Text("还没有复习记录。")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 } else {
@@ -395,7 +395,7 @@ struct EntryDetailView: View {
                             Spacer()
                             // The model's prediction at the time. Comparing it to what the user
                             // actually did is how you judge whether the scheduler is working.
-                            Text("R \(Int(log.retrievabilityBefore * 100))%")
+                            Text("记住概率 \(Int(log.retrievabilityBefore * 100))%")
                                 .font(Typography.buttonInterval)
                                 .foregroundStyle(Palette.textTertiary)
                         }

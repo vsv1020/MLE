@@ -27,8 +27,8 @@ struct DeckListView: View {
                 if visibleDecks.isEmpty {
                     EmptyStateView(
                         systemImage: "square.stack.3d.up",
-                        title: "No decks yet",
-                        message: "The \(language.displayName) content packs have not been imported. Try re-importing from Settings ▸ Data."
+                        title: "还没有词库",
+                        message: "\(language.displayName)词库还没有导入。可以到“设置 ▸ 数据”里重新导入。"
                     )
                     .listRowSeparator(.hidden)
                     .listRowBackground(Color.clear)
@@ -43,15 +43,15 @@ struct DeckListView: View {
                             }
                         }
                     } header: {
-                        Text("Content packs")
+                        Text("内置词库")
                     } footer: {
-                        Text("Turning a pack off stops new words being offered from it. Words you are already studying are unaffected.")
+                        Text("关掉一个词库后，就不会再从里面推荐新词。正在学的单词不受影响。")
                     }
                 }
 
                 let custom = visibleDecks.filter { !$0.isBuiltIn }
                 if !custom.isEmpty {
-                    Section("Your decks") {
+                    Section("你的词库") {
                         ForEach(custom) { deck in
                             NavigationLink(value: deck.slug) {
                                 DeckRow(deck: deck)
@@ -61,7 +61,7 @@ struct DeckListView: View {
                     }
                 }
             }
-            .navigationTitle("Decks")
+            .navigationTitle("词库")
             .navigationDestination(for: String.self) { slug in
                 DeckDetailScreen(slug: slug)
             }
@@ -73,15 +73,15 @@ struct DeckListView: View {
                     } label: {
                         Image(systemName: "plus")
                     }
-                    .accessibilityLabel("New deck")
+                    .accessibilityLabel("新建词库")
                 }
             }
-            .alert("New deck", isPresented: $isShowingNewDeck) {
-                TextField("Deck name", text: $newDeckName)
-                Button("Create") { createDeck() }
-                Button("Cancel", role: .cancel) {}
+            .alert("新建词库", isPresented: $isShowingNewDeck) {
+                TextField("词库名称", text: $newDeckName)
+                Button("创建") { createDeck() }
+                Button("取消", role: .cancel) {}
             } message: {
-                Text("A place to group words you want to study together.")
+                Text("把想一起学的单词放在一起。")
             }
         }
     }
@@ -130,7 +130,7 @@ struct DeckRow: View {
                 Text(deck.name)
                     .font(Typography.bodyEmphasis)
                     .foregroundStyle(Palette.textPrimary)
-                Text("\(deck.enrolledCount) of \(deck.entryCount) words started")
+                Text("已开始学 \(deck.enrolledCount)/\(deck.entryCount) 个单词")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
                 ProgressView(value: deck.progress)
@@ -140,14 +140,14 @@ struct DeckRow: View {
             if isLocked {
                 PlusBadge()
             } else if !deck.isActiveForNewWords {
-                Chip("Paused", color: Palette.warning)
+                Chip("已暂停", color: Palette.warning)
             }
         }
         .padding(.vertical, 2)
         .accessibilityElement(children: .combine)
         .accessibilityLabel(
-            "\(deck.name). \(deck.enrolledCount) of \(deck.entryCount) words started."
-                + (isLocked ? " Requires Plus." : deck.isActiveForNewWords ? "" : " Paused.")
+            "\(deck.name)。\(deck.entryCount) 个单词中已开始学 \(deck.enrolledCount) 个。"
+                + (isLocked ? "需要麻薯 Plus。" : deck.isActiveForNewWords ? "" : "已暂停。")
         )
     }
 }
@@ -166,8 +166,8 @@ struct DeckDetailScreen: View {
             } else {
                 EmptyStateView(
                     systemImage: "questionmark.folder",
-                    title: "Deck not found",
-                    message: "This deck may have been deleted."
+                    title: "找不到这个词库",
+                    message: "这个词库可能已被删除。"
                 )
             }
         }
@@ -202,25 +202,25 @@ struct DeckDetailView: View {
                             .foregroundStyle(Palette.textSecondary)
                     }
                     HStack(spacing: Spacing.xs) {
-                        StatTile(value: "\(deck.entryCount)", label: "Words")
+                        StatTile(value: "\(deck.entryCount)", label: "单词")
                         StatTile(
                             value: "\(deck.enrolledCount)",
-                            label: "Started",
+                            label: "已开始",
                             tint: Palette.brandSecondary
                         )
-                        StatTile(value: "\(dueCount)", label: "Due now", tint: Palette.brandPrimary)
+                        StatTile(value: "\(dueCount)", label: "待复习", tint: Palette.brandPrimary)
                     }
-                    PrimaryButton("Study this deck", isEnabled: deck.enrolledCount > 0) {
+                    PrimaryButton("学习这个词库", isEnabled: deck.enrolledCount > 0) {
                         isStudying = true
                     }
                     if isLocked {
                         // Browsing the words stays open — it is how anyone decides the pack is
                         // worth it. Only *introducing* them waits for Plus.
-                        PrimaryButton("Unlock this pack with Plus", systemImage: "sparkles", role: .secondary) {
+                        PrimaryButton("解锁麻薯 Plus，学习这个词库", systemImage: "sparkles", role: .secondary) {
                             isShowingPlus = true
                         }
                     } else {
-                        Toggle("Offer new words from this deck", isOn: Binding(
+                        Toggle("从这个词库推荐新词", isOn: Binding(
                             get: { deck.isActiveForNewWords },
                             set: { newValue in
                                 deck.isActiveForNewWords = newValue
@@ -234,7 +234,7 @@ struct DeckDetailView: View {
                 .padding(.vertical, Spacing.xxs)
             }
 
-            Section("Words") {
+            Section("单词") {
                 ForEach(sortedEntries) { entry in
                     NavigationLink {
                         EntryDetailView(entry: entry)

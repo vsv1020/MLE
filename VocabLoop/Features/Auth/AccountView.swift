@@ -42,7 +42,7 @@ struct AccountView: View {
                 dangerSection
             }
         }
-        .navigationTitle("Account")
+        .navigationTitle("账号")
         .sheet(isPresented: $isShowingSignIn) {
             NavigationStack { SignInView() }
         }
@@ -57,45 +57,45 @@ struct AccountView: View {
         }
         .sheet(item: $exportURL) { wrapper in
             ShareLink(item: wrapper.value) {
-                Label("Share export", systemImage: "square.and.arrow.up")
+                Label("分享导出文件", systemImage: "square.and.arrow.up")
             }
             .padding(Spacing.lg)
             .presentationDetents([.height(160)])
         }
-        .alert("Delete your account?", isPresented: $isShowingDeleteConfirmation) {
-            Button("Delete everything", role: .destructive) {
+        .alert("删除你的账号？", isPresented: $isShowingDeleteConfirmation) {
+            Button("全部删除", role: .destructive) {
                 Task { await auth.deleteAccount() }
             }
-            Button("Cancel", role: .cancel) {}
+            Button("取消", role: .cancel) {}
         } message: {
             // Spell out exactly what goes. "This cannot be undone" without a list is how
             // users end up surprised.
-            Text("This permanently removes your account, every card you are studying, your full review history and your streak. The dictionary itself stays. This cannot be undone.")
+            Text("这会永久删除你的账号、正在学的所有卡片、全部复习记录和连续打卡。词典本身会保留。删除后无法恢复。")
         }
-        .alert("Export failed", isPresented: Binding(
+        .alert("导出失败", isPresented: Binding(
             get: { exportError != nil },
             set: { if !$0 { exportError = nil } }
         )) {
-            Button("OK") { exportError = nil }
+            Button("好") { exportError = nil }
         } message: {
             Text(exportError ?? "")
         }
         // Apple and Google report failures through `lastError` with no form of their own to
         // show it on. The sign-in and sign-up sheets display theirs, so this stays out of the
         // way while either is open.
-        .alert("Sign in failed", isPresented: Binding(
+        .alert("登录失败", isPresented: Binding(
             get: { auth.isGuest && auth.lastError != nil && !isShowingSignIn && !isShowingSignUp },
             set: { if !$0 { auth.clearError() } }
         )) {
-            Button("OK") { auth.clearError() }
+            Button("好") { auth.clearError() }
         } message: {
             Text(auth.lastError?.localizedDescription ?? "")
         }
-        .alert("Could not save your name", isPresented: Binding(
+        .alert("名字没能保存", isPresented: Binding(
             get: { profileError != nil },
             set: { if !$0 { profileError = nil } }
         )) {
-            Button("OK") { profileError = nil }
+            Button("好") { profileError = nil }
         } message: {
             Text(profileError ?? "")
         }
@@ -114,7 +114,7 @@ struct AccountView: View {
                     .clipShape(Circle())
 
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(session?.displayName ?? "Guest")
+                    Text(session?.displayName ?? "游客")
                         .font(Typography.bodyEmphasis)
                     if let email = session?.email {
                         Text(email)
@@ -123,7 +123,7 @@ struct AccountView: View {
                     }
                     if let provider = session?.provider {
                         Chip(
-                            provider == .guest ? "No account" : "Signed in with \(provider.displayName)",
+                            provider == .guest ? "未注册账号" : "已通过 \(provider.displayName) 登录",
                             color: provider == .guest ? Palette.textSecondary : Palette.brandSecondary
                         )
                         .padding(.top, 2)
@@ -145,25 +145,25 @@ struct AccountView: View {
                     .listRowInsets(EdgeInsets())
                     .listRowBackground(Color.clear)
             }
-            Button("Create an account") { isShowingSignUp = true }
-            Button("Sign in") { isShowingSignIn = true }
+            Button("注册账号") { isShowingSignUp = true }
+            Button("登录") { isShowingSignIn = true }
         } header: {
-            Text("Sync across devices")
+            Text("多设备同步")
         } footer: {
-            Text("You are studying as a guest, and everything works. An account lets you keep your progress if you change device — and creating one keeps what you have already learned.")
+            Text("你现在以游客身份学习，所有功能都能用。有了账号，换设备也能保留进度；注册时，已经学过的内容也会保留。")
         }
     }
 
     private var profileSection: some View {
-        Section("Profile") {
+        Section("个人资料") {
             if isEditingProfile {
-                TextField("Name", text: $draftName)
+                TextField("名字", text: $draftName)
                     .textContentType(.name)
                 HStack {
-                    Button("Cancel") { isEditingProfile = false }
+                    Button("取消") { isEditingProfile = false }
                         .foregroundStyle(Palette.textSecondary)
                     Spacer()
-                    Button("Save") {
+                    Button("保存") {
                         Task {
                             // Only close the editor when the save actually landed. Closing
                             // regardless discards what the user typed while looking like it
@@ -172,7 +172,7 @@ struct AccountView: View {
                                 isEditingProfile = false
                             } else {
                                 profileError = auth.lastError?.localizedDescription
-                                    ?? "Your name could not be saved."
+                                    ?? "名字没能保存。"
                             }
                         }
                     }
@@ -180,7 +180,7 @@ struct AccountView: View {
                     .disabled(draftName.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
             } else {
-                Button("Edit name") {
+                Button("修改名字") {
                     draftName = session?.displayName ?? ""
                     isEditingProfile = true
                 }
@@ -191,10 +191,10 @@ struct AccountView: View {
     private var securitySection: some View {
         Section {
             if auth.canChangePassword {
-                Button("Change password") { isShowingChangePassword = true }
+                Button("修改密码") { isShowingChangePassword = true }
             }
             if session?.provider == .local {
-                Button("Generate a new recovery code") {
+                Button("生成新的恢复码") {
                     Task {
                         if let code = await auth.regenerateRecoveryCode() {
                             newRecoveryCode = IdentifiableValue(value: code)
@@ -202,36 +202,36 @@ struct AccountView: View {
                     }
                 }
             }
-            Button("Sign out") {
+            Button("退出登录") {
                 Task { await auth.signOut() }
             }
             .foregroundStyle(Palette.brandPrimary)
         } header: {
-            Text("Security")
+            Text("安全")
         } footer: {
             if session?.provider == .apple {
-                Text("This account signs in with Apple, so Apple manages the password.")
+                Text("这个账号通过 Apple 登录，密码由 Apple 管理。")
             } else if session?.provider == .local {
-                Text("Signing out leaves your study data on this device. Signing back in restores it.")
+                Text("退出登录后，学习数据仍留在这台设备上。重新登录就能恢复。")
             }
         }
     }
 
     private var dataSection: some View {
         Section {
-            Button("Export my data") {
+            Button("导出我的数据") {
                 export()
             }
         } header: {
-            Text("Your data")
+            Text("你的数据")
         } footer: {
-            Text("A JSON file containing every word you are studying and your complete review history — the same data a future weight optimiser would use.")
+            Text("一个 JSON 文件，包含你正在学的所有单词和完整的复习记录，也就是以后优化记忆参数要用的数据。")
         }
     }
 
     private var dangerSection: some View {
         Section {
-            Button("Delete account", role: .destructive) {
+            Button("删除账号", role: .destructive) {
                 isShowingDeleteConfirmation = true
             }
         }

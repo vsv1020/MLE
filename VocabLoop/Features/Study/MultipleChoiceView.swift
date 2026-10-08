@@ -52,7 +52,7 @@ struct MultipleChoiceView: View {
         switch question.kind {
         case .listenChoose:
             VStack(spacing: Spacing.sm) {
-                instruction("Listen and pick the word", systemImage: "ear")
+                instruction("听一听，选出这个单词", systemImage: "ear")
                 // A big target, because it is the whole question. The word is spoken once when
                 // the card appears and again on every tap.
                 Button {
@@ -66,13 +66,13 @@ struct MultipleChoiceView: View {
                         .contentShape(Circle())
                 }
                 .pressable(scale: 0.92)
-                .accessibilityLabel("Play the word again")
+                .accessibilityLabel("再听一遍")
             }
             .task(id: question.cardID) { speakAnswer() }
 
         case .clozeChoose:
             VStack(spacing: Spacing.sm) {
-                instruction("Pick the missing word", systemImage: "text.badge.checkmark")
+                instruction("选出空缺的单词", systemImage: "text.badge.checkmark")
                 if let cloze = question.clozePrompt {
                     Text(cloze.masked)
                         .font(Typography.wordTitle)
@@ -87,7 +87,7 @@ struct MultipleChoiceView: View {
             // `flip` and `typed` never reach this view; they get the headword prompt so the switch
             // stays exhaustive without a `default` that would hide a new kind.
             VStack(spacing: Spacing.xs) {
-                instruction("What does it mean?", systemImage: "questionmark.bubble")
+                instruction("这个词是什么意思？", systemImage: "questionmark.bubble")
                 HStack(alignment: .firstTextBaseline, spacing: Spacing.xs) {
                     Text(entry?.headword ?? "—")
                         .font(Typography.wordDisplay)
@@ -164,7 +164,7 @@ struct MultipleChoiceView: View {
         .buttonStyle(SquishButtonStyle(base: shape, baseColor: baseColor(for: state)))
         // Answered options stay readable but stop responding: one answer per question.
         .allowsHitTesting(!isAnswered)
-        .accessibilityLabel("Option \(index + 1): \(option.text)")
+        .accessibilityLabel("选项 \(index + 1)：\(option.text)")
         .accessibilityIdentifier(optionIdentifier(index))
         .accessibilityValue(accessibilityValue(for: state))
         .accessibilityAddTraits(traits)
@@ -191,8 +191,8 @@ struct MultipleChoiceView: View {
 
     private func accessibilityValue(for state: OptionState) -> String {
         switch state {
-        case .correct: "Correct answer"
-        case .wrongPick: "Your answer, not quite"
+        case .correct: "正确答案"
+        case .wrongPick: "你的答案，差一点"
         case .idle, .other: ""
         }
     }

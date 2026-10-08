@@ -49,9 +49,9 @@ struct StreakFlame: View {
     }
 
     private var accessibilityText: String {
-        guard streak > 0 else { return isLit ? "Studied today" : "No streak yet" }
-        let days = "\(streak)-day streak"
-        return isLit ? "\(days), studied today" : "\(days), not studied yet today"
+        guard streak > 0 else { return isLit ? "今天已学习" : "还没有开始连续打卡" }
+        let days = "连续打卡 \(streak) 天"
+        return isLit ? "\(days)，今天已学习" : "\(days)，今天还没学习"
     }
 
     /// The hop and the "+1". The colour change alone carries the meaning, so under Reduce Motion

@@ -51,7 +51,7 @@ struct GoalCompleteView: View {
                     .frame(width: 160, height: 160)
                     .clipped()
 
-                    Text(isResting ? "See you tomorrow" : "Daily goal complete 🎉")
+                    Text(isResting ? "明天见" : "今日目标完成 🎉")
                         .accessibilityIdentifier("goal.title")
                         .font(Typography.screenTitle)
                         .foregroundStyle(Palette.textPrimary)
@@ -65,12 +65,12 @@ struct GoalCompleteView: View {
 
                 if !isResting {
                     HStack(spacing: Spacing.xs) {
-                        StatTile(value: "\(model.reviewsToday)", label: "Today")
+                        StatTile(value: "\(model.reviewsToday)", label: "今天")
                         StatTile(
                             value: model.accuracy.map { "\(Int($0 * 100))%" } ?? "—",
-                            label: "Recalled"
+                            label: "记住了"
                         )
-                        StatTile(value: formattedDuration, label: "Time")
+                        StatTile(value: formattedDuration, label: "用时")
                     }
 
                     rewardsRow
@@ -86,10 +86,10 @@ struct GoalCompleteView: View {
 
                 VStack(spacing: Spacing.sm) {
                     if isResting {
-                        PrimaryButton("Study a bit more", systemImage: "arrow.right", action: onContinue)
+                        PrimaryButton("再学一会儿", systemImage: "arrow.right", action: onContinue)
                     } else {
-                        PrimaryButton("Done for today", systemImage: "checkmark", action: onDone)
-                        PrimaryButton("Keep going", role: .secondary, action: onContinue)
+                        PrimaryButton("今天就到这里", systemImage: "checkmark", action: onDone)
+                        PrimaryButton("继续背", role: .secondary, action: onContinue)
                     }
                 }
             }
@@ -105,7 +105,7 @@ struct GoalCompleteView: View {
                 WeeklyRecapView()
                     .toolbar {
                         ToolbarItem(placement: .confirmationAction) {
-                            Button("Done") { isShowingRecap = false }
+                            Button("完成") { isShowingRecap = false }
                         }
                     }
             }
@@ -118,7 +118,7 @@ struct GoalCompleteView: View {
             Button {
                 isShowingRecap = true
             } label: {
-                Label("See your week", systemImage: "calendar")
+                Label("看看这一周", systemImage: "calendar")
                     .font(Typography.bodyEmphasis)
                     .foregroundStyle(Palette.brandPrimary)
                     .padding(.horizontal, Spacing.md)
@@ -130,7 +130,7 @@ struct GoalCompleteView: View {
             .pressable()
         }
         if didLoadEngagement {
-            ShareCardButton(card: .goalComplete(goalCard), label: "Share today")
+            ShareCardButton(card: .goalComplete(goalCard), label: "分享今天")
         }
     }
 
@@ -164,10 +164,10 @@ struct GoalCompleteView: View {
     @ViewBuilder
     private var rewardChips: some View {
         if streak > 0 {
-            Chip("\(streak)-day streak", color: Palette.brandSecondary, systemImage: "flame.fill")
+            Chip("连续打卡 \(streak) 天", color: Palette.brandSecondary, systemImage: "flame.fill")
         }
-        Chip("Mochi level \(level)", color: Palette.brandPrimary, systemImage: "heart.fill")
-        Chip("\(candyTotal.formatted()) star candy", color: Palette.brandSecondary, systemImage: "star.fill")
+        Chip("麻薯 \(level) 级", color: Palette.brandPrimary, systemImage: "heart.fill")
+        Chip("\(candyTotal.formatted()) 颗星星糖", color: Palette.brandSecondary, systemImage: "star.fill")
     }
 
     private func loadEngagement() {
@@ -201,15 +201,15 @@ struct GoalCompleteView: View {
 
     private var subtitle: String {
         if isResting {
-            return "Today's \(model.goalTarget ?? model.reviewsToday) cards are done. Anything extra is a bonus — it will all still be here."
+            return "今天的 \(model.goalTarget ?? model.reviewsToday) 张卡片都学完了。再多学就是额外收获，卡片都还在这儿。"
         }
-        return "\(model.reviewsToday) cards today. Stop here, or keep going — extra reviews still count toward remembering."
+        return "今天学了 \(model.reviewsToday) 张卡片。可以停在这里，也可以继续背，多复习的也有助于记住。"
     }
 
     private var formattedDuration: String {
         let seconds = model.elapsedSeconds
-        if seconds < 60 { return "\(seconds)s" }
+        if seconds < 60 { return "\(seconds) 秒" }
         let minutes = seconds / 60
-        return minutes < 60 ? "\(minutes)m" : "\(minutes / 60)h \(minutes % 60)m"
+        return minutes < 60 ? "\(minutes) 分钟" : "\(minutes / 60) 小时 \(minutes % 60) 分"
     }
 }

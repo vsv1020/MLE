@@ -37,24 +37,24 @@ struct RewardToast: View {
             return nil
         case .firstReviewToday(let streak):
             return streak > 1
-                ? Message(emoji: "🔥", text: "\(streak) days in a row!")
-                : Message(emoji: "🔥", text: "Your streak has started!")
+                ? Message(emoji: "🔥", text: "连续打卡 \(streak) 天！")
+                : Message(emoji: "🔥", text: "连续打卡开始啦！")
         case .comboMilestone(let combo):
             let bonus = RewardEngine.comboBonus(combo)
-            return Message(emoji: "🔥", text: bonus > 0 ? "\(combo) in a row! +\(bonus) ⭐" : "\(combo) in a row!")
+            return Message(emoji: "🔥", text: bonus > 0 ? "连对 \(combo) 个！+\(bonus) ⭐" : "连对 \(combo) 个！")
         case .comboEnded(let best):
-            return Message(emoji: "🌟", text: "Nice run: \(best) in a row!")
+            return Message(emoji: "🌟", text: "真棒：连对了 \(best) 个！")
         case .stickerLit:
-            return Message(emoji: "✨", text: "A sticker lit up! +\(RewardEngine.stickerBonus) ⭐")
+            return Message(emoji: "✨", text: "一张贴纸闪亮啦！+\(RewardEngine.stickerBonus) ⭐")
         case .albumCompleted(_, let title):
-            return Message(emoji: "📒", text: "\(title) complete! +\(RewardEngine.albumBonus) ⭐")
+            return Message(emoji: "📒", text: "“\(title)”集齐了！+\(RewardEngine.albumBonus) ⭐")
         case .levelUp(let level):
-            return Message(emoji: "🎉", text: "Mochi reached level \(level)!")
+            return Message(emoji: "🎉", text: "麻薯升到 \(level) 级啦！")
         case .achievement(let id):
-            let name = AchievementCatalog.achievement(id)?.name ?? "New badge"
-            return Message(emoji: "🏅", text: "\(name)! +\(RewardEngine.achievementBonus) ⭐")
+            let name = AchievementCatalog.achievement(id)?.name ?? "新徽章"
+            return Message(emoji: "🏅", text: "\(name)！+\(RewardEngine.achievementBonus) ⭐")
         case .welcomeBack:
-            return Message(emoji: "💛", text: "Mochi missed you! Let's do a few words.")
+            return Message(emoji: "💛", text: "麻薯想你啦！我们来背几个单词吧。")
         }
     }
 

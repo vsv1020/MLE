@@ -23,12 +23,12 @@ struct AddWordView: View {
     var body: some View {
         Form {
             Section {
-                TextField("Word or phrase", text: $headword)
+                TextField("单词或短语", text: $headword)
                     .autocorrectionDisabled()
                     // The learner's own language is not the target language, so autocapitalising
                     // a Thai or French headword against an English keyboard is wrong.
                     .textInputAutocapitalization(.never)
-                Picker("Part of speech", selection: $partOfSpeech) {
+                Picker("词性", selection: $partOfSpeech) {
                     ForEach(PartOfSpeech.allCases.filter { $0 != .other }) { pos in
                         Text(pos.displayName).tag(pos)
                     }
@@ -37,17 +37,17 @@ struct AddWordView: View {
                 Text("\(language.flagEmoji) \(language.displayName)")
             }
 
-            Section("Meaning") {
-                TextField("Definition", text: $definition, axis: .vertical)
+            Section("释义") {
+                TextField("释义", text: $definition, axis: .vertical)
                     .lineLimit(2...5)
-                TextField("Translation (optional)", text: $translation)
+                TextField("翻译（选填）", text: $translation)
             }
 
-            Section("Optional") {
-                TextField("Example sentence", text: $example, axis: .vertical)
+            Section("选填") {
+                TextField("例句", text: $example, axis: .vertical)
                     .lineLimit(1...4)
                 TextField(
-                    language.phoneticNotation == .ipa ? "Pronunciation (IPA)" : "Pronunciation",
+                    language.phoneticNotation == .ipa ? "发音（IPA 音标）" : "发音",
                     text: $phonetic
                 )
                 .autocorrectionDisabled()
@@ -55,30 +55,30 @@ struct AddWordView: View {
             }
 
             Section {
-                Toggle("Start studying it now", isOn: $addToStudy)
+                Toggle("现在就开始学习", isOn: $addToStudy)
             } footer: {
                 Text(addToStudy
-                    ? "It will appear in your next review session."
-                    : "It will be saved to the dictionary only. You can add it to your studies later.")
+                    ? "它会出现在你下一次复习里。"
+                    : "只保存到词典里。之后也可以再加入学习。")
             }
 
             Section {
-                PrimaryButton("Save word", isEnabled: canSave) { save() }
+                PrimaryButton("保存单词", isEnabled: canSave) { save() }
                     .listRowInsets(EdgeInsets())
                     .listRowBackground(Color.clear)
             }
         }
-        .navigationTitle("New word")
+        .navigationTitle("添加单词")
         .toolbar {
             ToolbarItem(placement: .cancellationAction) {
-                Button("Cancel") { dismiss() }
+                Button("取消") { dismiss() }
             }
         }
-        .alert("Could not save", isPresented: Binding(
+        .alert("没能保存", isPresented: Binding(
             get: { errorMessage != nil },
             set: { if !$0 { errorMessage = nil } }
         )) {
-            Button("OK") { errorMessage = nil }
+            Button("好") { errorMessage = nil }
         } message: {
             Text(errorMessage ?? "")
         }

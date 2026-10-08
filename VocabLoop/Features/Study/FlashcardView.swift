@@ -142,7 +142,7 @@ struct FlashcardView: View {
                     Text(entry?.headword ?? "—")
                         .font(Typography.wordDisplay)
                         .foregroundStyle(Palette.textPrimary)
-                    Text("This sentence is no longer available.")
+                    Text("这个例句已经不在了。")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textTertiary)
                 }
@@ -289,10 +289,10 @@ struct FlashcardView: View {
             }
 
             if !sense.synonyms.isEmpty {
-                labelledList("Similar", values: sense.synonyms, color: Palette.brandSecondary)
+                labelledList("近义词", values: sense.synonyms, color: Palette.brandSecondary)
             }
             if !sense.antonyms.isEmpty {
-                labelledList("Opposite", values: sense.antonyms, color: Palette.warning)
+                labelledList("反义词", values: sense.antonyms, color: Palette.warning)
             }
             if let note = sense.usageNote {
                 Text(note)
@@ -334,7 +334,7 @@ struct FlashcardView: View {
 
     private func grammarBlock(_ notes: [String: String]) -> some View {
         VStack(alignment: .leading, spacing: Spacing.xxs) {
-            Text("Grammar")
+            Text("语法")
                 .font(Typography.chip)
                 .foregroundStyle(Palette.textTertiary)
             // Sorted so the order does not shuffle between cards — dictionary iteration order
