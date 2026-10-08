@@ -14,9 +14,9 @@ struct ParentGate: Equatable {
 
         var answer: Int { a * b }
         /// "What is 7 × 8?"
-        var prompt: String { "What is \(a) × \(b)?" }
+        var prompt: String { "\(a) × \(b) 等于多少？" }
         /// Spoken form: VoiceOver reads "×" inconsistently.
-        var accessibilityPrompt: String { "What is \(a) times \(b)?" }
+        var accessibilityPrompt: String { "\(a) 乘以 \(b) 等于多少？" }
     }
 
     enum State: Equatable {

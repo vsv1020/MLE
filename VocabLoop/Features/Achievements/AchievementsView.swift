@@ -32,7 +32,7 @@ struct AchievementsView: View {
                                 BadgeTile(status: status)
                             }
                             .pressable()
-                            .accessibilityHint("Shows the badge")
+                            .accessibilityHint("查看这枚徽章")
                         } else {
                             BadgeTile(status: status)
                         }
@@ -56,12 +56,12 @@ struct AchievementsView: View {
                 Mascot(mood: earnedCount > 0 ? .cheer : .happy)
                     .frame(width: 58, height: 48)
                 VStack(alignment: .leading, spacing: Spacing.xxs) {
-                    Text("\(earnedCount) of \(statuses.count) badges")
+                    Text("已获得 \(earnedCount) / \(statuses.count) 枚徽章")
                         .font(Typography.sectionHeader)
                         .foregroundStyle(Palette.textPrimary)
                     Text(earnedCount == statuses.count
-                         ? "Every badge earned. Mochi is so proud!"
-                         : "Each badge adds 10 star candy, and some unlock something for Mochi to wear.")
+                         ? "所有徽章都拿到啦！麻薯为你骄傲！"
+                         : "每枚徽章奖励 10 颗星星糖，有些还能给麻薯解锁新装扮。")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
@@ -109,14 +109,14 @@ private struct BadgeTile: View {
                 .lineLimit(3, reservesSpace: true)
 
             if let unlockedAt = status.unlockedAt {
-                Chip("Earned \(unlockedAt.formatted(.dateTime.day().month(.abbreviated)))",
+                Chip(ShareCopy.earned(unlockedAt),
                      color: Palette.success, systemImage: "checkmark")
             } else {
-                Chip("Not yet", color: Palette.textSecondary, systemImage: "lock.fill")
+                Chip("还没获得", color: Palette.textSecondary, systemImage: "lock.fill")
             }
 
             if let reward {
-                Text(status.isUnlocked ? "Unlocked: \(reward.name)" : "Unlocks: \(reward.name)")
+                Text(status.isUnlocked ? "已解锁：\(reward.name)" : "可解锁：\(reward.name)")
                     .font(Typography.chip)
                     .foregroundStyle(Palette.textSecondary)
             }
@@ -135,14 +135,14 @@ private struct BadgeTile: View {
     private var spokenLabel: String {
         var parts = [achievement.name, achievement.detail]
         if let unlockedAt = status.unlockedAt {
-            parts.append("Earned \(unlockedAt.formatted(date: .long, time: .omitted))")
+            parts.append("获得于 \(unlockedAt.formatted(.dateTime.year().month().day().locale(Locale(identifier: "zh_Hans"))))")
         } else {
-            parts.append("Not earned yet")
+            parts.append("还没获得")
         }
         if let reward {
-            parts.append(status.isUnlocked ? "Unlocked \(reward.name) for Mochi" : "Unlocks \(reward.name) for Mochi")
+            parts.append(status.isUnlocked ? "已为麻薯解锁\(reward.name)" : "可为麻薯解锁\(reward.name)")
         }
-        return parts.joined(separator: ". ")
+        return parts.joined(separator: "。")
     }
 }
 

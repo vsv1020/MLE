@@ -20,20 +20,20 @@ struct PlusView: View {
 
                 CardContainer(style: .crayon) {
                     VStack(alignment: .leading, spacing: Spacing.md) {
-                        benefit("books.vertical.fill", "More word packs",
-                                "English Core B1–B2 and C1 — every future pack included.")
-                        benefit("brain.head.profile", "Tuned to your memory",
-                                "Fit the scheduler to your own review history.")
-                        benefit("tshirt.fill", "Mochi's Plus closet",
-                                "A wizard hat, a halo, a rainbow scarf and an astronaut helmet, plus lavender, mint, cocoa and galaxy colours.")
-                        benefit("chart.bar.doc.horizontal", "Parent report history",
-                                "Twelve weeks of progress at a glance, and a PDF to save or share.")
-                        benefit("heart.fill", "Support an independent app",
-                                "No ads, no tracking, no subscription. Pay once, keep it forever.")
+                        benefit("books.vertical.fill", "更多词库",
+                                "英语核心词 B1–B2 和 C1，以后新出的词库也都包含在内。")
+                        benefit("brain.head.profile", "按你的记忆调节",
+                                "根据你自己的复习记录调整复习安排。")
+                        benefit("tshirt.fill", "麻薯的 Plus 衣橱",
+                                "巫师帽、光环、彩虹围巾和宇航员头盔，还有薰衣草、薄荷、可可和星空四种颜色。")
+                        benefit("chart.bar.doc.horizontal", "家长报告历史",
+                                "一眼看到 12 周的进步，还能导出 PDF 保存或分享。")
+                        benefit("heart.fill", "支持独立开发的 App",
+                                "没有广告，没有追踪，不是订阅。只付一次，永久拥有。")
                     }
                 }
 
-                Text("Always free: studying every word you have, reviews, quizzes, the daily goal, pronunciation, the A1–A2 core and your own words — and everything a learner earns: star candy, Mochi's levels and every unlocked outfit, stickers, badges, the weekly recap and this week's parent report.")
+                Text("永远免费：学习你已有的所有单词、复习、小测验、每日目标、发音、英语核心词 A1–A2 和你自己添加的单词；还有学习中赢得的一切：星星糖、麻薯的等级和所有已解锁的装扮、贴纸、徽章、本周回顾和本周的家长报告。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
                     .multilineTextAlignment(.center)
@@ -46,13 +46,13 @@ struct PlusView: View {
             .readableWidth()
         }
         .screenBackground()
-        .navigationTitle("VocabLoop Plus")
+        .navigationTitle("麻薯 Plus")
         .navigationBarTitleDisplayMode(.inline)
-        .alert("Purchase", isPresented: Binding(
+        .alert("购买", isPresented: Binding(
             get: { purchases.lastError != nil },
             set: { if !$0 { purchases.clearError() } }
         )) {
-            Button("OK") { purchases.clearError() }
+            Button("好") { purchases.clearError() }
         } message: {
             Text(purchases.lastError ?? "")
         }
@@ -62,11 +62,11 @@ struct PlusView: View {
         VStack(spacing: Spacing.sm) {
             Mascot(mood: isPlus ? .cheer : .happy)
                 .frame(width: 104, height: 86)
-            Text(isPlus ? "You have Plus 🎉" : "VocabLoop Plus")
+            Text(isPlus ? "你已拥有麻薯 Plus 🎉" : "麻薯 Plus")
                 .accessibilityIdentifier("plus.title")
                 .font(Typography.screenTitle)
                 .foregroundStyle(Palette.textPrimary)
-            Text(isPlus ? "Thank you for supporting VocabLoop. Everything is unlocked on this Apple ID." : "One purchase. Yours for good.")
+            Text(isPlus ? "谢谢你支持麻薯背单词！这个 Apple ID 上的所有内容都已解锁。" : "一次购买，永久拥有。")
                 .font(Typography.body)
                 .foregroundStyle(Palette.textSecondary)
                 .multilineTextAlignment(.center)
@@ -97,23 +97,23 @@ struct PlusView: View {
     private var actions: some View {
         VStack(spacing: Spacing.sm) {
             if isPlus {
-                PrimaryButton("Done", systemImage: "checkmark") { dismiss() }
+                PrimaryButton("完成", systemImage: "checkmark") { dismiss() }
             } else {
                 switch purchases.state {
                 case .purchasing:
                     ProgressView().frame(minHeight: LayoutMetrics.minimumTapTarget)
                 case .pending:
-                    Text("Waiting for approval. Plus unlocks as soon as the purchase is approved.")
+                    Text("等待批准中。购买一经批准，麻薯 Plus 就会立即解锁。")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                         .multilineTextAlignment(.center)
                 case .idle:
                     if let price = purchases.displayPrice {
-                        PrimaryButton("Unlock Plus · \(price)", systemImage: "sparkles") {
+                        PrimaryButton("解锁麻薯 Plus · \(price)", systemImage: "sparkles") {
                             Task { await purchases.purchase() }
                         }
                     } else if purchases.hasLoaded {
-                        Text("Plus is not available from the App Store right now. Please try again later.")
+                        Text("暂时无法从 App Store 获取麻薯 Plus，请稍后再试。")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.textSecondary)
                             .multilineTextAlignment(.center)
@@ -121,7 +121,7 @@ struct PlusView: View {
                         ProgressView().frame(minHeight: LayoutMetrics.minimumTapTarget)
                     }
                 }
-                PrimaryButton("Restore purchase", role: .secondary) {
+                PrimaryButton("恢复购买", role: .secondary) {
                     Task { await purchases.restore() }
                 }
                 .disabled(purchases.state == .purchasing)
@@ -133,10 +133,10 @@ struct PlusView: View {
     private var legal: some View {
         HStack(spacing: Spacing.md) {
             if let terms = AppLinks.termsOfUse {
-                Button("Terms of Use") { openURL(terms) }
+                Button("使用条款") { openURL(terms) }
             }
             if let privacy = AppLinks.privacyPolicy {
-                Button("Privacy Policy") { openURL(privacy) }
+                Button("隐私政策") { openURL(privacy) }
             }
         }
         .font(Typography.caption)
@@ -153,6 +153,6 @@ struct PlusBadge: View {
             .padding(.horizontal, 6)
             .padding(.vertical, 2)
             .background(Capsule().fill(Palette.brandSecondary))
-            .accessibilityLabel("Requires Plus")
+            .accessibilityLabel("需要麻薯 Plus")
     }
 }

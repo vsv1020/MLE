@@ -54,7 +54,7 @@ enum ShareCard: Sendable {
     /// The text that travels with the image: headline plus the App Store link.
     var message: String { ShareCopy.message(headline: headline) }
 
-    var accessibilityLabel: String { "Share card: \(headline)" }
+    var accessibilityLabel: String { "分享卡片：\(headline)" }
 
     /// Stable for the same card, so a re-render overwrites rather than piling up files, e.g.
     /// `VocabLoop-goal-2026-10-01.png`.
@@ -76,7 +76,7 @@ enum ShareCard: Sendable {
         case .week(let recap):
             stem = "my-week-\(recap.weekStartKey)"
         }
-        return "VocabLoop-\(Self.sanitized(stem)).png"
+        return "麻薯背单词-\(Self.sanitized(stem)).png"
     }
 
     /// Letters, digits and hyphens only: a headword like "c'est" or "à la carte" must still be a

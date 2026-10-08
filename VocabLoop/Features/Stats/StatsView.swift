@@ -25,8 +25,8 @@ struct StatsView: View {
                     } else if statistics.totalEnrolled == 0 {
                         EmptyStateView(
                             systemImage: "chart.bar",
-                            title: "Nothing to show yet",
-                            message: "Add a few words from Today, and your progress will appear here after the first review."
+                            title: "还没有可显示的内容",
+                            message: "在“今天”页添加几个单词，第一次复习后，你的进度就会出现在这里。"
                         )
                     } else {
                         if let recap {
@@ -43,7 +43,7 @@ struct StatsView: View {
                 .readableWidth()
             }
             .screenBackground()
-            .navigationTitle("Progress")
+            .navigationTitle("统计")
             .refreshable { reload() }
             .task { reload() }
         }
@@ -54,13 +54,13 @@ struct StatsView: View {
     private var retentionCard: some View {
         CardContainer(style: .crayon, wobbleSeed: 0x57A7_0001) {
             VStack(alignment: .leading, spacing: Spacing.xs) {
-                Text("Recall accuracy")
+                Text("记忆正确率")
                     .font(Typography.sectionHeader)
                 HStack(alignment: .firstTextBaseline, spacing: Spacing.xs) {
                     Text(statistics.retentionLast30Days.map { "\(Int($0 * 100))%" } ?? "—")
                         .font(Typography.statValue)
                         .foregroundStyle(Palette.textPrimary)
-                    Text("last 30 days")
+                    Text("最近 30 天")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
@@ -74,7 +74,7 @@ struct StatsView: View {
                         .foregroundStyle(Palette.textSecondary)
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                Text("\(statistics.reviewsLast30Days) reviews · \(String(format: "%.0f", statistics.averageDailyReviews)) per day on average")
+                Text("\(statistics.reviewsLast30Days) 次复习 · 平均每天 \(String(format: "%.0f", statistics.averageDailyReviews)) 次")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
             }
@@ -84,12 +84,12 @@ struct StatsView: View {
     private func retentionCommentary(actual: Double, target: Double) -> String {
         let delta = actual - target
         if abs(delta) <= 0.03 {
-            return "Right on your \(Int(target * 100))% target — the scheduler is well calibrated for you."
+            return "正好达到你 \(Int(target * 100))% 的目标，复习安排很适合你。"
         }
         if delta > 0 {
-            return "Above your \(Int(target * 100))% target. You could lower the target in Settings to see fewer reviews for the same result."
+            return "高于你 \(Int(target * 100))% 的目标。可以在“设置”里调低目标，用更少的复习达到同样的效果。"
         }
-        return "Below your \(Int(target * 100))% target. Raising it in Settings will schedule reviews sooner."
+        return "低于你 \(Int(target * 100))% 的目标。在“设置”里调高目标，复习就会安排得更早。"
     }
 
     // MARK: - Streak
@@ -107,7 +107,7 @@ struct StatsView: View {
                             look: look,
                             level: level
                         )),
-                        label: "Share my streak"
+                        label: "分享我的连续打卡"
                     )
                 }
             }
@@ -125,7 +125,7 @@ struct StatsView: View {
                             .font(Typography.statValue)
                             .foregroundStyle(Palette.textPrimary)
                     }
-                    Text("day streak")
+                    Text("连续打卡天数")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
@@ -134,14 +134,14 @@ struct StatsView: View {
                     Text("\(statistics.longestStreak)")
                         .font(Typography.statValueSmall)
                         .foregroundStyle(Palette.textPrimary)
-                    Text("longest")
+                    Text("最长")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
                 Spacer()
             }
             .accessibilityElement(children: .combine)
-            .accessibilityLabel("\(statistics.currentStreak) day streak. Longest: \(statistics.longestStreak) days.")
+            .accessibilityLabel("连续打卡 \(statistics.currentStreak) 天。最长 \(statistics.longestStreak) 天。")
         }
     }
 
@@ -151,28 +151,28 @@ struct StatsView: View {
         CardContainer(style: .crayon, wobbleSeed: 0x57A7_0003) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 SectionHeader(
-                    "Coming up",
-                    subtitle: "Cards already scheduled over the next 30 days"
+                    "接下来",
+                    subtitle: "未来 30 天已安排的卡片"
                 )
                 Chart {
                     ForEach(statistics.forecast) { day in
                         // Stacked by maturity, so a wall of red learning cards reads
                         // differently from a wall of mature ones.
                         BarMark(
-                            x: .value("Day", day.dayOffset),
-                            y: .value("Cards", day.learningCount)
+                            x: .value("天", day.dayOffset),
+                            y: .value("卡片", day.learningCount)
                         )
                         .foregroundStyle(Palette.maturity(.learning))
 
                         BarMark(
-                            x: .value("Day", day.dayOffset),
-                            y: .value("Cards", day.youngCount)
+                            x: .value("天", day.dayOffset),
+                            y: .value("卡片", day.youngCount)
                         )
                         .foregroundStyle(Palette.maturity(.young))
 
                         BarMark(
-                            x: .value("Day", day.dayOffset),
-                            y: .value("Cards", day.matureCount)
+                            x: .value("天", day.dayOffset),
+                            y: .value("卡片", day.matureCount)
                         )
                         .foregroundStyle(Palette.maturity(.mature))
                     }
@@ -181,14 +181,14 @@ struct StatsView: View {
                     AxisMarks(values: [0, 7, 14, 21, 29]) { value in
                         AxisValueLabel {
                             if let offset = value.as(Int.self) {
-                                Text(offset == 0 ? "Today" : "+\(offset)d")
+                                Text(offset == 0 ? "今天" : "+\(offset) 天")
                             }
                         }
                     }
                 }
                 .chartYAxis { AxisMarks(position: .leading) }
                 .frame(height: 160)
-                .accessibilityLabel("Review forecast")
+                .accessibilityLabel("复习预测")
                 .accessibilityValue(forecastSummary)
 
                 legend
@@ -199,15 +199,15 @@ struct StatsView: View {
     private var forecastSummary: String {
         let total = statistics.forecast.reduce(0) { $0 + $1.total }
         let peak = statistics.forecast.max { $0.total < $1.total }
-        guard let peak else { return "No cards scheduled." }
-        return "\(total) cards over 30 days. Busiest day is \(peak.dayOffset == 0 ? "today" : "in \(peak.dayOffset) days") with \(peak.total)."
+        guard let peak else { return "没有安排卡片。" }
+        return "30 天内共 \(total) 张卡片。最多的一天是\(peak.dayOffset == 0 ? "今天" : " \(peak.dayOffset) 天后")，有 \(peak.total) 张。"
     }
 
     private var legend: some View {
         HStack(spacing: Spacing.sm) {
-            legendItem("Learning", .learning)
-            legendItem("Known", .young)
-            legendItem("Well known", .mature)
+            legendItem("学习中", .learning)
+            legendItem("认识了", .young)
+            legendItem("记得很牢", .mature)
         }
         .accessibilityHidden(true)
     }
@@ -228,7 +228,7 @@ struct StatsView: View {
     private var heatmapCard: some View {
         CardContainer(style: .crayon, wobbleSeed: 0x57A7_0004) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader("Review history", subtitle: "Last 12 months")
+                SectionHeader("复习记录", subtitle: "最近 12 个月")
                 ScrollViewReader { proxy in
                     ScrollView(.horizontal, showsIndicators: false) {
                         // Seven rows, one per weekday, filled column by column — the layout every
@@ -239,7 +239,7 @@ struct StatsView: View {
                                     .fill(Palette.heatmapLevel(day.reviews, max: heatmapPeak))
                                     .frame(width: 12, height: 12)
                                     .id(day.dayKey)
-                                    .accessibilityLabel("\(day.dayKey): \(day.reviews) reviews")
+                                    .accessibilityLabel("\(day.dayKey)：\(day.reviews) 次复习")
                             }
                         }
                         .padding(.vertical, 2)
@@ -251,7 +251,7 @@ struct StatsView: View {
                         }
                     }
                 }
-                Text("\(statistics.heatmap.filter { $0.reviews > 0 }.count) active days in the last year")
+                Text("过去一年里有 \(statistics.heatmap.filter { $0.reviews > 0 }.count) 天在学习")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
             }
@@ -267,7 +267,7 @@ struct StatsView: View {
     private var collectionCard: some View {
         CardContainer(style: .crayon, wobbleSeed: 0x57A7_0005) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader("Your collection", subtitle: "\(statistics.totalEnrolled) cards")
+                SectionHeader("你的卡片", subtitle: "\(statistics.totalEnrolled) 张卡片")
                 ForEach(CardMaturity.allCases, id: \.self) { maturity in
                     let count = statistics.countsByMaturity[maturity] ?? 0
                     HStack(spacing: Spacing.sm) {
@@ -283,7 +283,7 @@ struct StatsView: View {
                     }
                     .accessibilityElement(children: .combine)
                 }
-                Text("“Well known” means an interval of \(Int(CardMaturity.matureThresholdDays)) days or more.")
+                Text("“记得很牢”指复习间隔达到 \(Int(CardMaturity.matureThresholdDays)) 天或以上。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
             }
@@ -292,10 +292,10 @@ struct StatsView: View {
 
     private func maturityLabel(_ maturity: CardMaturity) -> String {
         switch maturity {
-        case .new: "Not started"
-        case .learning: "Learning"
-        case .young: "Known"
-        case .mature: "Well known"
+        case .new: "未开始"
+        case .learning: "学习中"
+        case .young: "认识了"
+        case .mature: "记得很牢"
         }
     }
 

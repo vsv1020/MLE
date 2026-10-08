@@ -26,7 +26,7 @@ struct MochiStatusCard: View {
                         Text("\(level)")
                             .font(Typography.statValue)
                             .foregroundStyle(Palette.textPrimary)
-                        Text("level")
+                        Text("级")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.textSecondary)
                     }
@@ -41,21 +41,21 @@ struct MochiStatusCard: View {
                         Image(systemName: "star.fill")
                             .foregroundStyle(Palette.brandSecondary)
                             .accessibilityHidden(true)
-                        Text("\(candy.formatted()) star candy")
+                        Text("\(candy.formatted()) 颗星星糖")
                             .font(Typography.bodyEmphasis)
                             .foregroundStyle(Palette.textPrimary)
                     }
                     if let remaining = WardrobeRules.candyToNextLevel(candy: candy) {
-                        Text("\(remaining.formatted()) more to level \(level + 1)")
+                        Text("再得 \(remaining.formatted()) 颗就到 \(level + 1) 级")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.textSecondary)
                     } else {
-                        Text("Top level. Mochi is as big as Mochi gets!")
+                        Text("已经是最高级啦！麻薯长到最大了！")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.textSecondary)
                     }
                     if let next = WardrobeRules.nextUnlock(after: level) {
-                        Text("Next: \(next.name) at level \(next.level)")
+                        Text("下一个：\(next.level) 级解锁\(next.name)")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.textSecondary)
                     }
@@ -68,13 +68,13 @@ struct MochiStatusCard: View {
     }
 
     private var spokenSummary: String {
-        var parts = ["\(WardrobeRules.stageName(stage)), level \(level)", "\(candy.formatted()) star candy"]
+        var parts = ["\(WardrobeRules.stageName(stage))，\(level) 级", "\(candy.formatted()) 颗星星糖"]
         if let remaining = WardrobeRules.candyToNextLevel(candy: candy) {
-            parts.append("\(remaining.formatted()) more to level \(level + 1)")
+            parts.append("再得 \(remaining.formatted()) 颗就到 \(level + 1) 级")
         }
         if let next = WardrobeRules.nextUnlock(after: level) {
-            parts.append("Next unlock: \(next.name) at level \(next.level)")
+            parts.append("下一个解锁：\(next.level) 级解锁\(next.name)")
         }
-        return parts.joined(separator: ". ")
+        return parts.joined(separator: "。")
     }
 }

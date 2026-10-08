@@ -14,18 +14,18 @@ enum RecapCopy {
     /// "This week you mastered 42 words", with the singular and a kind zero.
     static func headline(wordsMastered: Int) -> String {
         switch wordsMastered {
-        case ..<1: return "This week you kept your words growing"
-        case 1: return "This week you mastered 1 word"
-        default: return "This week you mastered \(wordsMastered) words"
+        case ..<1: return "这一周你的单词还在不断积累"
+        case 1: return "这一周你掌握了 1 个单词"
+        default: return "这一周你掌握了 \(wordsMastered) 个单词"
         }
     }
 
     /// The same headline for a parent reading about their child.
     static func parentHeadline(wordsMastered: Int) -> String {
         switch wordsMastered {
-        case ..<1: return "No new words reached “well known” this week"
-        case 1: return "1 word reached “well known” this week"
-        default: return "\(wordsMastered) words reached “well known” this week"
+        case ..<1: return "本周没有新单词达到“记得很牢”"
+        case 1: return "本周有 1 个单词达到“记得很牢”"
+        default: return "本周有 \(wordsMastered) 个单词达到“记得很牢”"
         }
     }
 
@@ -33,13 +33,13 @@ enum RecapCopy {
 
     /// "1 review", "12 reviews".
     static func count(_ value: Int, _ singular: String, _ plural: String? = nil) -> String {
-        "\(value) \(value == 1 ? singular : (plural ?? singular + "s"))"
+        "\(value) \(singular)"
     }
 
     /// "5 of 7 days".
     static func daysStudied(_ studiedDays: [Bool]) -> String {
         let studied = studiedDays.filter { $0 }.count
-        return "\(studied) of \(studiedDays.count) days"
+        return "\(studiedDays.count) 天中学了 \(studied) 天"
     }
 
     /// "84%", or an em dash with nothing to measure.
@@ -76,10 +76,10 @@ enum RecapCopy {
     /// "+12 vs last week", "−3 vs last week", "Same as last week".
     static func delta(_ delta: Int) -> String {
         switch Trend(delta: delta) {
-        case .up: return "+\(delta) vs last week"
+        case .up: return "比上周 +\(delta)"
         // U+2212, a real minus sign: a hyphen reads as a dash at caption size.
-        case .down: return "\u{2212}\(-delta) vs last week"
-        case .same: return "Same as last week"
+        case .down: return "比上周 \u{2212}\(-delta)"
+        case .same: return "和上周一样"
         }
     }
 
@@ -94,28 +94,28 @@ enum RecapCopy {
             let percent = Int((accuracy * 100).rounded())
             switch accuracy {
             case ..<0.75:
-                notes.append("Accuracy was \(percent) % this week. That usually means a lot of brand-new words at once; the app brings the hard ones back sooner, so it evens out by itself.")
+                notes.append("本周正确率是 \(percent)%。这通常是因为一下子学了很多新词；App 会让难的单词更早回来复习，慢慢就会自己平衡。")
             case ..<0.95:
-                notes.append("Accuracy around 85 % is the scheduler working as intended: words come back just before they would be forgotten, which is when a review does the most good. \(percent) % this week.")
+                notes.append("正确率在 85% 左右，说明复习安排正常运作：单词总在快要忘记之前回来，这时复习效果最好。本周是 \(percent)%。")
             default:
-                notes.append("Accuracy was \(percent) % this week. Very high accuracy is fine; it can also mean the words are on the easy side, and adding a few new ones each day keeps it interesting.")
+                notes.append("本周正确率是 \(percent)%。正确率很高没问题，不过也可能说明单词偏简单，每天加几个新词会更有意思。")
             }
         } else {
-            notes.append("No reviews in the last seven days. Nothing is lost: every word waits where it was, and a few minutes picks it straight back up.")
+            notes.append("最近七天没有复习。什么都不会丢：每个单词都在原地等着，花几分钟就能接着学。")
         }
         if reviews > 0 {
-            notes.append("A word counts as “well known” once the app is confident it will be remembered for three weeks or more.")
+            notes.append("当 App 确信一个单词能记住三周以上时，它就算“记得很牢”。")
         }
         if daysStudied > 0 && daysStudied < 7 {
-            notes.append("Short, regular sessions beat long occasional ones. A few minutes on most days is plenty.")
+            notes.append("短而规律的学习胜过偶尔的长时间学习。大多数日子学几分钟就足够了。")
         }
         if streak >= 7 {
-            notes.append("A \(streak)-day streak. Praise for showing up works better than praise for scores.")
+            notes.append("已经连续打卡 \(streak) 天。表扬孩子坚持学习，比表扬分数更有用。")
         }
         if trickyCount > 0 {
-            notes.append("The words “worth another look” were forgotten twice or more this week. That is normal; they will come back more often until they stick.")
+            notes.append("“值得再看看”的单词本周忘了两次或以上。这很正常，它们会更常回来复习，直到记住为止。")
         }
-        notes.append("Everything in this report is worked out on this device. Nothing is sent anywhere, and no account is needed.")
+        notes.append("这份报告的所有内容都在这台设备上计算，不会发送到任何地方，也不需要账号。")
         return notes
     }
 
@@ -125,7 +125,7 @@ enum RecapCopy {
     ///
     /// Read in UTC from the key's own digits, so the letter never depends on the device's time
     /// zone — the key already *is* the user's study day.
-    static func weekdayInitial(dayKey: String, locale: Locale = .current) -> String {
+    static func weekdayInitial(dayKey: String, locale: Locale = Locale(identifier: "zh_Hans")) -> String {
         let parts = dayKey.split(separator: "-").compactMap { Int($0) }
         guard parts.count == 3 else { return "" }
         var calendar = Calendar(identifier: .gregorian)
@@ -141,7 +141,7 @@ enum RecapCopy {
     }
 
     /// Full weekday name for VoiceOver, e.g. "Monday".
-    static func weekdayName(dayKey: String, locale: Locale = .current) -> String {
+    static func weekdayName(dayKey: String, locale: Locale = Locale(identifier: "zh_Hans")) -> String {
         let parts = dayKey.split(separator: "-").compactMap { Int($0) }
         guard parts.count == 3 else { return dayKey }
         var calendar = Calendar(identifier: .gregorian)
@@ -157,7 +157,7 @@ enum RecapCopy {
     }
 
     /// "Week from 25 Sep 2026" style label for a history row, from its first day key.
-    static func weekLabel(weekStartKey: String, locale: Locale = .current) -> String {
+    static func weekLabel(weekStartKey: String, locale: Locale = Locale(identifier: "zh_Hans")) -> String {
         let parts = weekStartKey.split(separator: "-").compactMap { Int($0) }
         guard parts.count == 3 else { return weekStartKey }
         var calendar = Calendar(identifier: .gregorian)
@@ -169,7 +169,7 @@ enum RecapCopy {
             date: .abbreviated, time: .omitted,
             locale: locale, calendar: calendar, timeZone: calendar.timeZone
         )
-        return "Week from \(date.formatted(style))"
+        return "\(date.formatted(style)) 起的一周"
     }
 }
 

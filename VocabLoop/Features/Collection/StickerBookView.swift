@@ -19,8 +19,8 @@ struct StickerBookView: View {
                 if hasLoaded && progresses.isEmpty {
                     EmptyStateView(
                         systemImage: "book.closed",
-                        title: "No stickers yet",
-                        message: "The sticker book fills in once the word packs have finished loading."
+                        title: "还没有贴纸",
+                        message: "词库加载完成后，贴纸册就会填满。"
                     )
                 } else {
                     summaryCard
@@ -50,10 +50,10 @@ struct StickerBookView: View {
                     .foregroundStyle(Palette.brandPrimary)
                     .accessibilityHidden(true)
                 VStack(alignment: .leading, spacing: Spacing.xxs) {
-                    Text("\(completeCount) of \(progresses.count) pages complete")
+                    Text("\(progresses.count) 页中已集齐 \(completeCount) 页")
                         .font(Typography.sectionHeader)
                         .foregroundStyle(Palette.textPrimary)
-                    Text("\(shinyCount.formatted()) shining stickers")
+                    Text("\(shinyCount.formatted()) 张闪亮贴纸")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
@@ -79,7 +79,7 @@ struct StickerBookView: View {
             }
         }
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("Key: dotted, not started. Pencil, learning. Coloured, known. Shining, well known.")
+        .accessibilityLabel("图例：虚线，还没开始。铅笔稿，正在学。上了色，认识了。闪亮，记得很牢。")
     }
 
     private struct LegendItem: Identifiable {
@@ -89,10 +89,10 @@ struct StickerBookView: View {
     }
 
     private static let legendItems: [LegendItem] = [
-        LegendItem(state: .locked, label: "Not started"),
-        LegendItem(state: .sketch, label: "Learning"),
-        LegendItem(state: .coloured, label: "Known"),
-        LegendItem(state: .shiny, label: "Shining"),
+        LegendItem(state: .locked, label: "未开始"),
+        LegendItem(state: .sketch, label: "学习中"),
+        LegendItem(state: .coloured, label: "认识了"),
+        LegendItem(state: .shiny, label: "闪亮"),
     ]
 
     private var levelPicker: some View {
@@ -119,7 +119,7 @@ struct StickerBookView: View {
         let pages = progresses.filter { $0.album.level == level && $0.album.family == family }
         if !pages.isEmpty {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader(family.title, subtitle: "\(pages.count) \(pages.count == 1 ? "page" : "pages")")
+                SectionHeader(family.title, subtitle: "\(pages.count) 页")
                 ForEach(pages, id: \.album.id) { progress in
                     let isPlus = CollectionService.isPlusAlbum(progress.album, plusOnlyEntryIDs: plusOnlyEntryIDs)
                     NavigationLink {
@@ -158,12 +158,12 @@ private struct StickerAlbumRow: View {
                 .accessibilityHidden(true)
 
             VStack(alignment: .leading, spacing: 2) {
-                Text("Page \(progress.album.page)")
+                Text("第 \(progress.album.page) 页")
                     .font(Typography.bodyEmphasis)
                     .foregroundStyle(Palette.textPrimary)
                 HStack(spacing: Spacing.xs) {
                     if progress.isComplete {
-                        Chip("Complete", color: Palette.success, systemImage: "star.fill")
+                        Chip("已集齐", color: Palette.success, systemImage: "star.fill")
                     }
                     if isPlus {
                         Chip("Plus", color: Palette.brandSecondary, systemImage: "sparkles")
@@ -190,10 +190,10 @@ private struct StickerAlbumRow: View {
     }
 
     private var spokenLabel: String {
-        var label = "\(progress.album.family.title), page \(progress.album.page). "
-            + "\(progress.shinyCount) of \(progress.states.count) stickers shining"
-        if progress.isComplete { label += ". Complete" }
-        if isPlus { label += ". Plus pack" }
+        var label = "\(progress.album.family.title)，第 \(progress.album.page) 页。"
+            + "\(progress.states.count) 张贴纸中有 \(progress.shinyCount) 张闪亮"
+        if progress.isComplete { label += "。已集齐" }
+        if isPlus { label += "。麻薯 Plus 词库" }
         return label
     }
 }

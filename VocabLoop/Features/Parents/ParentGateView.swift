@@ -29,10 +29,10 @@ struct ParentGateView: View {
         Form {
             Section {
                 VStack(alignment: .leading, spacing: Spacing.sm) {
-                    Text("For grown-ups")
+                    Text("大人专区")
                         .font(Typography.sectionHeader)
                         .foregroundStyle(Palette.textPrimary)
-                    Text("Answer this to see the weekly report.")
+                    Text("答对这道题就能查看每周报告。")
                         .font(Typography.body)
                         .foregroundStyle(Palette.textSecondary)
                     Text(gate.question.prompt)
@@ -43,26 +43,26 @@ struct ParentGateView: View {
                 }
                 .padding(.vertical, Spacing.xxs)
 
-                TextField("Answer", text: $answer)
+                TextField("答案", text: $answer)
                     .keyboardType(.numberPad)
                     .focused($isFieldFocused)
                     .onSubmit(check)
-                    .accessibilityLabel("Answer")
+                    .accessibilityLabel("答案")
 
-                Button("Check", action: check)
+                Button("确定", action: check)
                     .disabled(answer.trimmingCharacters(in: .whitespaces).isEmpty)
             } footer: {
                 if showWrongHint {
-                    Text("Not quite — here is a new one. \(RecapCopy.count(gate.attemptsLeft, "try", "tries")) left.")
+                    Text("不太对，换一道题。还剩 \(RecapCopy.count(gate.attemptsLeft, "次机会"))。")
                         .foregroundStyle(Palette.textSecondary)
                 } else {
                     // Only the report and the sharing switch sit behind this gate — the copy must
                     // not promise more.
-                    Text("This keeps the weekly report and the sharing switch just for grown-ups.")
+                    Text("这样每周报告和分享开关就只有大人能打开。")
                 }
             }
         }
-        .navigationTitle("For parents")
+        .navigationTitle("给家长")
         .onAppear { isFieldFocused = true }
     }
 
@@ -70,14 +70,14 @@ struct ParentGateView: View {
     /// email or anything typed, and go only where the share sheet sends them.
     private var sharingSection: some View {
         VStack(alignment: .leading, spacing: Spacing.xxs) {
-            Text("Sharing")
+            Text("分享")
                 .font(Typography.caption)
                 .foregroundStyle(Palette.brandSecondary)
                 .accessibilityAddTraits(.isHeader)
-            Toggle("Allow sharing cards", isOn: $isSharingEnabled)
+            Toggle("允许分享卡片", isOn: $isSharingEnabled)
                 .font(Typography.bodyEmphasis)
                 .tint(Palette.brandPrimary)
-            Text("Picture cards of goals, badges and words, with a link to VocabLoop. They never show a name or anything typed.")
+            Text("分享目标、徽章和单词的图片卡片，附带麻薯背单词的链接。卡片上从不显示名字或任何输入过的内容。")
                 .font(Typography.caption)
                 .foregroundStyle(Palette.textSecondary)
                 .fixedSize(horizontal: false, vertical: true)
@@ -94,12 +94,12 @@ struct ParentGateView: View {
     private var locked: some View {
         EmptyStateView(
             systemImage: "lock.fill",
-            title: "Ask a grown-up",
-            message: "This part of the app is for parents. Go back to try again later."
+            title: "请找大人帮忙",
+            message: "这里是给家长用的。返回后稍后再试。"
         )
         .frame(maxHeight: .infinity)
         .screenBackground()
-        .navigationTitle("For parents")
+        .navigationTitle("给家长")
     }
 
     private func check() {

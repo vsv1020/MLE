@@ -33,20 +33,20 @@ struct OptimizerSettingsView: View {
             }
             explanationSection
         }
-        .navigationTitle("Tune to my memory")
+        .navigationTitle("按我的记忆调节")
         .task { refresh() }
         .sheet(item: $exportURL) { wrapper in
             ShareLink(item: wrapper.value) {
-                Label("Share review history", systemImage: "square.and.arrow.up")
+                Label("分享复习记录", systemImage: "square.and.arrow.up")
             }
             .padding(Spacing.lg)
             .presentationDetents([.height(160)])
         }
-        .alert("Could not do that", isPresented: Binding(
+        .alert("没能完成", isPresented: Binding(
             get: { errorMessage != nil },
             set: { if !$0 { errorMessage = nil } }
         )) {
-            Button("OK") { errorMessage = nil }
+            Button("好") { errorMessage = nil }
         } message: {
             Text(errorMessage ?? "")
         }
@@ -58,11 +58,11 @@ struct OptimizerSettingsView: View {
     private var readinessSection: some View {
         Section {
             if let readiness {
-                LabeledContent("Reviews recorded", value: "\(readiness.reviewCount)")
-                LabeledContent("Cards covered", value: "\(readiness.cardCount)")
+                LabeledContent("已记录的复习", value: "\(readiness.reviewCount)")
+                LabeledContent("涉及的卡片", value: "\(readiness.cardCount)")
                 LabeledContent(
-                    "Currently using",
-                    value: readiness.hasFittedWeights ? "Your fitted weights" : "Published defaults"
+                    "当前使用",
+                    value: readiness.hasFittedWeights ? "你拟合的参数" : "默认参数"
                 )
 
                 // A progress bar toward the recommended volume, so the number means something.
@@ -87,13 +87,13 @@ struct OptimizerSettingsView: View {
                 ProgressView()
             }
         } header: {
-            Text("Your history")
+            Text("你的记录")
         }
     }
 
     private var exportSection: some View {
         Section {
-            Button("Export my review history") {
+            Button("导出我的复习记录") {
                 guard let preferences = dependencies.preferences else { return }
                 do {
                     exportURL = IdentifiableValue(value: try service.exportTrainingSet(preferences: preferences))
@@ -103,9 +103,9 @@ struct OptimizerSettingsView: View {
             }
             .disabled(readiness.map { $0.reviewCount == 0 } ?? true)
         } header: {
-            Text("Fit it yourself")
+            Text("自己拟合")
         } footer: {
-            Text("A CSV in the format the published FSRS optimiser reads — one row per review, with the gap since that card's previous review. Run it through the optimiser and paste the weights below.")
+            Text("导出 FSRS 官方优化器能读取的 CSV 文件：每次复习一行，附带与这张卡片上一次复习的间隔。用优化器跑一遍，再把得到的参数粘贴到下面。")
         }
     }
 
@@ -118,18 +118,18 @@ struct OptimizerSettingsView: View {
                     .autocorrectionDisabled()
                     .textInputAutocapitalization(.never)
                 HStack {
-                    Button("Cancel") {
+                    Button("取消") {
                         isPasting = false
                         pastedWeights = ""
                     }
                     .foregroundStyle(Palette.textSecondary)
                     Spacer()
-                    Button("Apply") { apply() }
+                    Button("应用") { apply() }
                         .fontWeight(.semibold)
                         .disabled(pastedWeights.isEmpty)
                 }
             } else {
-                Button("Paste fitted weights") {
+                Button("粘贴拟合好的参数") {
                     // Pre-fill from the clipboard: the user has just copied them out of the
                     // optimiser, and making them paste again is pure friction.
                     pastedWeights = UIPasteboard.general.string ?? ""
@@ -142,13 +142,13 @@ struct OptimizerSettingsView: View {
                     .foregroundStyle(Palette.success)
             }
         } footer: {
-            Text("Needs exactly \(FSRSParameters.fsrs5WeightCount) numbers. Your cards keep the stability and difficulty they have already earned — only the scheduling of future reviews changes.")
+            Text("必须正好是 \(FSRSParameters.fsrs5WeightCount) 个数字。卡片已有的稳定度和难度会保留，只有之后的复习安排会改变。")
         }
     }
 
     private var resetSection: some View {
         Section {
-            Button("Go back to the default weights", role: .destructive) {
+            Button("恢复默认参数", role: .destructive) {
                 guard let preferences = dependencies.preferences else { return }
                 do {
                     try service.resetToDefaultWeights(preferences: preferences)
@@ -164,15 +164,15 @@ struct OptimizerSettingsView: View {
     private var explanationSection: some View {
         Section {
             VStack(alignment: .leading, spacing: Spacing.xs) {
-                Text("Why this exists")
+                Text("为什么有这个功能")
                     .font(Typography.sectionHeader)
-                Text("FSRS ships with weights fitted to a large pool of learners. Your memory is not the average of that pool — you may hold vocabulary longer than it assumes, or forget faster, and the same is true word by word.")
+                Text("FSRS 自带的参数是根据大量学习者拟合出来的。可你的记忆并不等于他们的平均值：你可能比它假设的记得更久，也可能忘得更快，每个单词也各不相同。")
                     .font(Typography.body)
                     .foregroundStyle(Palette.textSecondary)
-                Text("Every review you do is recorded with what the model predicted at the time. That record is what makes fitting the model to you possible, and it is why the review history is never deleted — not even when you reset a card.")
+                Text("你的每次复习都会连同模型当时的预测一起记录下来。有了这些记录，才能为你拟合模型，所以复习记录永远不会删除，重置卡片时也不会。")
                     .font(Typography.body)
                     .foregroundStyle(Palette.textSecondary)
-                Text("Fitting inside the app is not built yet. Until it is, the export above lets you do it with the published tooling.")
+                Text("App 内还不能直接拟合。在那之前，可以用上面的导出功能配合官方工具自己完成。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
             }
@@ -190,7 +190,7 @@ struct OptimizerSettingsView: View {
     private func apply() {
         guard let preferences = dependencies.preferences else { return }
         guard let weights = OptimizerService.parseWeights(pastedWeights) else {
-            errorMessage = "That does not look like a list of numbers. Paste the weights exactly as the optimiser printed them."
+            errorMessage = "这看起来不是一串数字。请按优化器输出的原样粘贴参数。"
             return
         }
         do {
@@ -202,7 +202,7 @@ struct OptimizerSettingsView: View {
             dependencies.savePreferences()
             isPasting = false
             pastedWeights = ""
-            message = "Applied. Your next reviews will be scheduled with these weights."
+            message = "已应用。之后的复习会按这些参数安排。"
             refresh()
         } catch {
             errorMessage = error.localizedDescription

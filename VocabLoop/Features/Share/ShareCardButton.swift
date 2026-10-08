@@ -21,7 +21,7 @@ struct ShareCardButton: View {
     @AppStorage(ShareSettings.enabledKey) private var isSharingEnabled = true
     @State private var rendered: RenderedShareCard?
 
-    init(card: ShareCard, label: String = "Share today", style: Style = .capsule) {
+    init(card: ShareCard, label: String = "分享今天", style: Style = .capsule) {
         self.card = card
         self.label = label
         self.style = style
@@ -54,7 +54,7 @@ struct ShareCardButton: View {
 /// the weekly recap, which renders once for its on-screen preview and shares that same file.
 struct ShareCardLink: View {
     let rendered: RenderedShareCard
-    var label: String = "Share today"
+    var label: String = "分享今天"
     var style: ShareCardButton.Style = .capsule
 
     var body: some View {
