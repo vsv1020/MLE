@@ -96,12 +96,12 @@ struct DailyWordCard: View {
     private var actions: some View {
         HStack(spacing: Spacing.sm) {
             if isAccepted {
-                Label("Added to your words", systemImage: "checkmark.circle.fill")
+                Label("已加入你的单词", systemImage: "checkmark.circle.fill")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.success)
                     .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget)
             } else {
-                PrimaryButton("Add", systemImage: "plus", action: onAccept)
+                PrimaryButton("添加", systemImage: "plus", action: onAccept)
                 Button {
                     onDismiss()
                 } label: {
@@ -112,7 +112,7 @@ struct DailyWordCard: View {
                         .clipShape(RoundedRectangle(cornerRadius: Radius.button, style: .continuous))
                 }
                 .pressable(scale: 0.9)
-                .accessibilityLabel("Skip \(entry.headword). It will not be offered again.")
+                .accessibilityLabel("跳过 \(entry.headword)，以后不再推荐。")
             }
         }
     }

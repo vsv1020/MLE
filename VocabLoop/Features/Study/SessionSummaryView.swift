@@ -49,7 +49,7 @@ struct SessionSummaryView: View {
                     .frame(width: 160, height: 160)
                     .clipped()
 
-                    Text(didStudy ? "All caught up" : "Nothing to study")
+                    Text(didStudy ? "都复习完了" : "现在没有要学的")
                         .font(Typography.screenTitle)
                         .foregroundStyle(Palette.textPrimary)
                     Text(subtitle)
@@ -65,7 +65,7 @@ struct SessionSummaryView: View {
                 }
 
                 Spacer(minLength: Spacing.lg)
-                PrimaryButton("Done", action: onDone)
+                PrimaryButton("完成", action: onDone)
             }
             .padding(Spacing.md)
             .readableWidth()
@@ -88,17 +88,17 @@ struct SessionSummaryView: View {
     /// a pile that is already empty.
     private var subtitle: String {
         guard model.reviewedCount > 0 else {
-            return "Nothing is due and there are no new words waiting. Add some words, or come back when the next card is ready."
+            return "没有待复习的卡片，也没有新词了。可以添加一些单词，或者等下一张卡片到期再来。"
         }
         if model.deferredCount > 0 {
-            return "\(model.deferredCount) more card\(model.deferredCount == 1 ? "" : "s") are still due today."
+            return "今天还有 \(model.deferredCount) 张卡片待复习。"
         }
-        return "You have been through everything available — nothing due, and no new words left to start."
+        return "能学的都学过了：没有待复习的，也没有新词可以开始了。"
     }
 
     private var statsGrid: some View {
         HStack(spacing: Spacing.xs) {
-            StatTile(value: "\(model.reviewedCount)", label: "Cards reviewed")
+            StatTile(value: "\(model.reviewedCount)", label: "复习卡片")
             // No green tint on accuracy.
             //
             // The grade is a *self-report*, and colouring it as a success rewards the distribution
@@ -107,22 +107,22 @@ struct SessionSummaryView: View {
             // The completion count is what deserves the emphasis; it cannot be gamed.
             StatTile(
                 value: model.accuracy.map { "\(Int($0 * 100))%" } ?? "—",
-                label: "Recalled"
+                label: "记住了"
             )
-            StatTile(value: formattedDuration, label: "Time")
+            StatTile(value: formattedDuration, label: "用时")
         }
     }
 
     private var formattedDuration: String {
         let seconds = model.elapsedSeconds
-        if seconds < 60 { return "\(seconds)s" }
+        if seconds < 60 { return "\(seconds) 秒" }
         let minutes = seconds / 60
-        return minutes < 60 ? "\(minutes)m" : "\(minutes / 60)h \(minutes % 60)m"
+        return minutes < 60 ? "\(minutes) 分钟" : "\(minutes / 60) 小时 \(minutes % 60) 分"
     }
 
     private var ratingBreakdown: some View {
         VStack(alignment: .leading, spacing: Spacing.xs) {
-            SectionHeader("How it went")
+            SectionHeader("这次的表现")
             ForEach(Rating.allCases) { rating in
                 let count = model.ratingCounts[rating] ?? 0
                 HStack(spacing: Spacing.sm) {
@@ -154,7 +154,7 @@ struct SessionSummaryView: View {
                         .frame(width: 28, alignment: .trailing)
                 }
                 .accessibilityElement(children: .ignore)
-                .accessibilityLabel("\(rating.shortLabel): \(count)")
+                .accessibilityLabel("\(rating.shortLabel)：\(count)")
                 // Staggered by rating so the four bars read as a sequence rather than a jump.
                 .animation(
                     Motion.reveal(reduceMotion).delay(Double(rating.rawValue - 1) * 0.06),

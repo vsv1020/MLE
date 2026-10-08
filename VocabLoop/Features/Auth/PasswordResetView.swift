@@ -35,10 +35,10 @@ struct PasswordResetView: View {
                 emailSection
             }
         }
-        .navigationTitle("Reset password")
+        .navigationTitle("重置密码")
         .toolbar {
             ToolbarItem(placement: .cancellationAction) {
-                Button(didReset ? "Done" : "Cancel") { dismiss() }
+                Button(didReset ? "完成" : "取消") { dismiss() }
             }
         }
         .onDisappear { auth.clearError() }
@@ -47,7 +47,7 @@ struct PasswordResetView: View {
     private var emailSection: some View {
         Group {
             Section {
-                TextField("Email", text: $email)
+                TextField("邮箱", text: $email)
                     .textContentType(.username)
                     .keyboardType(.emailAddress)
                     .textInputAutocapitalization(.never)
@@ -59,7 +59,7 @@ struct PasswordResetView: View {
             }
 
             Section {
-                PrimaryButton("Continue", isLoading: auth.isBusy, isEnabled: !email.isEmpty) {
+                PrimaryButton("继续", isLoading: auth.isBusy, isEnabled: !email.isEmpty) {
                     Task { challenge = await auth.beginPasswordReset(email: email) }
                 }
                 .listRowInsets(EdgeInsets())
@@ -76,22 +76,22 @@ struct PasswordResetView: View {
                     .autocorrectionDisabled()
                     .font(challenge == .recoveryCode ? .system(.body, design: .monospaced) : .body)
             } header: {
-                Text(challenge == .recoveryCode ? "Recovery code" : "Reset code")
+                Text(challenge == .recoveryCode ? "恢复码" : "重置码")
             } footer: {
                 Text(
                     challenge == .recoveryCode
-                        ? "The 16-character code shown when you created your account. Dashes and letter case do not matter."
-                        : "Check your email for the code we just sent."
+                        ? "注册账号时显示的 16 位恢复码。横线和大小写都没关系。"
+                        : "去邮箱查看我们刚刚发送的重置码。"
                 )
             }
 
             Section {
-                SecureField("New password", text: $newPassword)
+                SecureField("新密码", text: $newPassword)
                     .textContentType(.newPassword)
-                SecureField("Confirm new password", text: $confirmPassword)
+                SecureField("再输入一次新密码", text: $confirmPassword)
                     .textContentType(.newPassword)
             } header: {
-                Text("New password")
+                Text("新密码")
             } footer: {
                 if let error = auth.lastError?.localizedDescription {
                     Text(error).foregroundStyle(Palette.danger)
@@ -100,7 +100,7 @@ struct PasswordResetView: View {
 
             Section {
                 PrimaryButton(
-                    "Reset password",
+                    "重置密码",
                     isLoading: auth.isBusy,
                     isEnabled: !proof.isEmpty && newPassword.count >= CredentialValidator.minimumPasswordLength
                 ) {
@@ -123,9 +123,9 @@ struct PasswordResetView: View {
                 Image(systemName: "checkmark.circle.fill")
                     .font(Typography.heroGlyph)
                     .foregroundStyle(Palette.success)
-                Text("Password changed")
+                Text("密码已修改")
                     .font(Typography.sectionHeader)
-                Text("Sign in with your new password. Your recovery code has been used up — generate a new one in Settings ▸ Account.")
+                Text("请用新密码登录。原来的恢复码已经用掉了，请到“设置 ▸ 账号”里生成新的。")
                     .font(Typography.body)
                     .foregroundStyle(Palette.textSecondary)
                     .multilineTextAlignment(.center)
@@ -136,7 +136,7 @@ struct PasswordResetView: View {
     }
 
     private func proofFieldLabel(_ challenge: PasswordResetChallenge) -> String {
-        challenge == .recoveryCode ? "XXXX-XXXX-XXXX-XXXX" : "Code from email"
+        challenge == .recoveryCode ? "XXXX-XXXX-XXXX-XXXX" : "邮件里的重置码"
     }
 }
 

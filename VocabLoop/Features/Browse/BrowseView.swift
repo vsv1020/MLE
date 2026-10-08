@@ -24,7 +24,7 @@ struct BrowseView: View {
         NavigationStack {
             List {
                 if filter.isEmpty && !recentlyViewed.isEmpty {
-                    Section("Recently viewed") {
+                    Section("最近看过") {
                         ForEach(recentlyViewed) { entry in
                             NavigationLink(value: entry.stableID) {
                                 EntryRow(entry: entry, matchedInDefinition: false)
@@ -55,9 +55,9 @@ struct BrowseView: View {
             .searchable(
                 text: $filter.query,
                 placement: .navigationBarDrawer(displayMode: .always),
-                prompt: "Search \(language.displayName) words or meanings"
+                prompt: "搜索\(language.displayName)单词或释义"
             )
-            .navigationTitle("Browse")
+            .navigationTitle("浏览")
             .navigationDestination(for: String.self) { stableID in
                 EntryDetailScreen(stableID: stableID)
             }
@@ -69,7 +69,7 @@ struct BrowseView: View {
                     } label: {
                         Image(systemName: "plus")
                     }
-                    .accessibilityLabel("Add your own word")
+                    .accessibilityLabel("添加自己的单词")
                 }
             }
             .sheet(isPresented: $isShowingAddWord, onDismiss: reload) {
@@ -78,11 +78,11 @@ struct BrowseView: View {
             .task { reload() }
             .onChange(of: filter) { _, _ in reload() }
             .onChange(of: language) { _, _ in reload() }
-            .alert("Search failed", isPresented: Binding(
+            .alert("搜索失败", isPresented: Binding(
                 get: { errorMessage != nil },
                 set: { if !$0 { errorMessage = nil } }
             )) {
-                Button("OK") { errorMessage = nil }
+                Button("好") { errorMessage = nil }
             } message: {
                 Text(errorMessage ?? "")
             }
@@ -94,7 +94,7 @@ struct BrowseView: View {
         // Say "200+" rather than "200": the search limit is a cap, and reporting it as an exact
         // count would be a lie.
         let suffix = count >= 200 ? "+" : ""
-        return "\(count)\(suffix) word\(count == 1 ? "" : "s")"
+        return "\(count)\(suffix) 个单词"
     }
 
     // MARK: - Filters
@@ -103,7 +103,7 @@ struct BrowseView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: Spacing.xs) {
                 FilterChip(
-                    filter.activeFilterCount > 0 ? "Filters · \(filter.activeFilterCount)" : "Filters",
+                    filter.activeFilterCount > 0 ? "筛选 · \(filter.activeFilterCount)" : "筛选",
                     isSelected: filter.activeFilterCount > 0
                 ) {
                     isShowingFilters = true
@@ -132,10 +132,10 @@ struct BrowseView: View {
 
     private func maturityLabel(_ maturity: CardMaturity) -> String {
         switch maturity {
-        case .new: "Not started"
-        case .learning: "Learning"
-        case .young: "Known"
-        case .mature: "Well known"
+        case .new: "未开始"
+        case .learning: "在学"
+        case .young: "认识"
+        case .mature: "很熟"
         }
     }
 
@@ -162,26 +162,26 @@ struct BrowseView: View {
         if !filter.query.isEmpty {
             EmptyStateView(
                 systemImage: "magnifyingglass",
-                title: "No match for “\(filter.query)”",
-                message: "Check the spelling, or add it as your own word.",
-                actionTitle: "Add “\(filter.query)”"
+                title: "没有找到“\(filter.query)”",
+                message: "检查一下拼写，或者把它添加为自己的单词。",
+                actionTitle: "添加“\(filter.query)”"
             ) {
                 isShowingAddWord = true
             }
         } else if filter.activeFilterCount > 0 {
             EmptyStateView(
                 systemImage: "line.3.horizontal.decrease.circle",
-                title: "Nothing matches these filters",
-                message: "Try widening the level or status filters.",
-                actionTitle: "Clear filters"
+                title: "没有符合筛选条件的单词",
+                message: "试试放宽等级或状态筛选。",
+                actionTitle: "清除筛选"
             ) {
                 filter = BrowseFilter(query: filter.query)
             }
         } else {
             EmptyStateView(
                 systemImage: "books.vertical",
-                title: "No words yet",
-                message: "The \(language.displayName) dictionary is still importing, or its content pack is missing."
+                title: "还没有单词",
+                message: "\(language.displayName)词典还在导入，或者缺少词库内容。"
             )
         }
     }
@@ -213,7 +213,7 @@ struct EntryRow: View {
                         Chip(cefr.rawValue, color: Palette.brandSecondary)
                     }
                     if entry.isUserCreated {
-                        Chip("Yours", color: Palette.brandPrimary)
+                        Chip("自己添加", color: Palette.brandPrimary)
                     }
                 }
                 Text(entry.primaryDefinition)
@@ -239,7 +239,7 @@ struct BrowseFilterSheet: View {
 
     var body: some View {
         Form {
-            Section("Level") {
+            Section("等级") {
                 ForEach(CEFRLevel.allCases) { level in
                     toggleRow(
                         "\(level.rawValue) · \(level.description)",
@@ -254,7 +254,7 @@ struct BrowseFilterSheet: View {
                 }
             }
 
-            Section("Part of speech") {
+            Section("词性") {
                 ForEach(PartOfSpeech.allCases.filter { $0 != .other }) { pos in
                     toggleRow(pos.displayName, isOn: filter.partsOfSpeech.contains(pos)) {
                         if filter.partsOfSpeech.contains(pos) {
@@ -266,9 +266,9 @@ struct BrowseFilterSheet: View {
                 }
             }
 
-            Section("Deck") {
-                Picker("Deck", selection: $filter.deckSlug) {
-                    Text("All decks").tag(String?.none)
+            Section("词库") {
+                Picker("词库", selection: $filter.deckSlug) {
+                    Text("全部词库").tag(String?.none)
                     ForEach(decks.filter { $0.languageCode == language.rawValue }) { deck in
                         Text(deck.name).tag(String?.some(deck.slug))
                     }
@@ -278,20 +278,20 @@ struct BrowseFilterSheet: View {
             }
 
             Section {
-                Toggle("Only flagged words", isOn: $filter.onlyFlagged)
+                Toggle("只看标记的单词", isOn: $filter.onlyFlagged)
             }
 
             Section {
-                Button("Clear all filters") {
+                Button("清除全部筛选") {
                     filter = BrowseFilter(query: filter.query)
                 }
                 .foregroundStyle(Palette.danger)
             }
         }
-        .navigationTitle("Filters")
+        .navigationTitle("筛选")
         .toolbar {
             ToolbarItem(placement: .confirmationAction) {
-                Button("Done") { dismiss() }
+                Button("完成") { dismiss() }
             }
         }
     }

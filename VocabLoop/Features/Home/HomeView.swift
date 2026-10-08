@@ -35,7 +35,7 @@ struct HomeView: View {
                 .readableWidth()
             }
             .screenBackground()
-            .navigationTitle("Today")
+            .navigationTitle("今天")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -95,9 +95,9 @@ struct HomeView: View {
 
     private var streakAccessibilityLabel: String {
         let days = model.statistics.currentStreak
-        guard days > 0 else { return "No streak yet" }
-        let suffix = model.statistics.reviewsToday == 0 ? ". Not studied today yet." : ""
-        return "\(days) day streak\(suffix)"
+        guard days > 0 else { return "还没有开始连续打卡" }
+        let suffix = model.statistics.reviewsToday == 0 ? "。今天还没学习。" : ""
+        return "连续打卡 \(days) 天\(suffix)"
     }
 
     // MARK: - Status
@@ -123,7 +123,7 @@ struct HomeView: View {
                             Text("\(model.reviewsDue)")
                                 .font(Typography.statValue)
                                 .foregroundStyle(Palette.textPrimary)
-                            Text("due")
+                            Text("待复习")
                                 .font(Typography.caption)
                                 .foregroundStyle(Palette.textSecondary)
                         }
@@ -135,11 +135,11 @@ struct HomeView: View {
                             .font(Typography.sectionHeader)
                             .foregroundStyle(Palette.textPrimary)
                         if let goal = model.goalTarget {
-                            Text("\(model.statistics.reviewsToday) of \(goal) reviews today")
+                            Text("今天已复习 \(model.statistics.reviewsToday) 张，目标 \(goal) 张")
                                 .font(Typography.caption)
                                 .foregroundStyle(Palette.textSecondary)
                         } else {
-                            Text("\(model.statistics.reviewsToday) reviewed today")
+                            Text("今天已复习 \(model.statistics.reviewsToday) 张")
                                 .font(Typography.caption)
                                 .foregroundStyle(Palette.textSecondary)
                         }
@@ -149,7 +149,7 @@ struct HomeView: View {
                                 .foregroundStyle(Palette.textTertiary)
                         }
                         if model.statistics.goalMetToday {
-                            Chip("Goal met", color: Palette.success, systemImage: "checkmark")
+                            Chip("目标达成", color: Palette.success, systemImage: "checkmark")
                                 .padding(.top, 2)
                         }
                     }
@@ -162,7 +162,7 @@ struct HomeView: View {
                 // `StudySessionView` rebuilds its queue on dismiss to pick up anything changed
                 // in here. Presenting a second session on top would stack a session over a
                 // sheet over a session.
-                PrimaryButton("Back to studying", systemImage: "arrow.uturn.backward") {
+                PrimaryButton("回去学习", systemImage: "arrow.uturn.backward") {
                     dismiss()
                 }
             }
@@ -186,23 +186,23 @@ struct HomeView: View {
     private var studyAheadFooter: some View {
         if !model.hasWorkToDo {
             VStack(alignment: .leading, spacing: Spacing.xs) {
-                Text("Nothing is due and there are no new words left to start.")
+                Text("没有待复习的卡片，也没有新词可以开始了。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
-                Button("Study ahead anyway") { isConfirmingStudyAhead = true }
+                Button("还是想提前学习") { isConfirmingStudyAhead = true }
                     .font(Typography.caption)
                     .foregroundStyle(Palette.brandPrimary)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .confirmationDialog(
-                "Study cards before they are due?",
+                "要在卡片到期前提前学习吗？",
                 isPresented: $isConfirmingStudyAhead,
                 titleVisibility: .visible
             ) {
-                Button("Study ahead") { startStudyAhead() }
-                Button("Cancel", role: .cancel) {}
+                Button("提前学习") { startStudyAhead() }
+                Button("取消", role: .cancel) {}
             } message: {
-                Text("Answering a card early tells the scheduler you remembered it for longer than you did, so its intervals get less accurate. Useful before a trip; not something to do every day.")
+                Text("提前回答卡片，会让复习安排以为你记住它的时间比实际更长，之后的间隔就不够准了。出门旅行前可以用一下，但别每天都这样。")
             }
         }
     }
@@ -218,8 +218,8 @@ struct HomeView: View {
     private var dailyWordsSection: some View {
         VStack(alignment: .leading, spacing: Spacing.sm) {
             SectionHeader(
-                "Today's words",
-                subtitle: "\(model.acceptedStableIDs.count) of \(visibleDailyEntries.count) added"
+                "今日单词",
+                subtitle: "已添加 \(model.acceptedStableIDs.count)/\(visibleDailyEntries.count)"
             )
 
             TabView {
@@ -245,21 +245,21 @@ struct HomeView: View {
 
     private var statsRow: some View {
         VStack(alignment: .leading, spacing: Spacing.sm) {
-            SectionHeader("Your collection")
+            SectionHeader("你的单词")
             HStack(spacing: Spacing.xs) {
                 StatTile(
                     value: "\(model.statistics.countsByMaturity[.learning] ?? 0)",
-                    label: "Learning",
+                    label: "在学",
                     tint: Palette.maturity(.learning)
                 )
                 StatTile(
                     value: "\(model.statistics.countsByMaturity[.young] ?? 0)",
-                    label: "Known",
+                    label: "认识",
                     tint: Palette.maturity(.young)
                 )
                 StatTile(
                     value: "\(model.statistics.countsByMaturity[.mature] ?? 0)",
-                    label: "Well known",
+                    label: "很熟",
                     tint: Palette.maturity(.mature)
                 )
             }
@@ -278,13 +278,13 @@ struct HomeView: View {
                     Mascot(mood: .happy, look: model.mochiLook)
                         .frame(width: 58, height: 48)
                     VStack(alignment: .leading, spacing: Spacing.xxs) {
-                        Text("Mochi · Level \(model.mochiLevel)")
+                        Text("麻薯 · \(model.mochiLevel) 级")
                             .font(Typography.sectionHeader)
                             .foregroundStyle(Palette.textPrimary)
                         HStack(spacing: Spacing.xxs) {
                             Image(systemName: "star.fill")
                                 .foregroundStyle(Palette.brandSecondary)
-                            Text("\(model.candyTotal.formatted()) star candy")
+                            Text("\(model.candyTotal.formatted()) 颗星星糖")
                                 .foregroundStyle(Palette.textSecondary)
                         }
                         .font(Typography.caption)
@@ -300,15 +300,15 @@ struct HomeView: View {
         }
         .buttonStyle(.plain)
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Mochi, level \(model.mochiLevel), \(model.candyTotal) star candy")
-        .accessibilityHint("Opens Mochi's wardrobe, stickers and badges")
+        .accessibilityLabel("麻薯，\(model.mochiLevel) 级，\(model.candyTotal) 颗星星糖")
+        .accessibilityHint("打开麻薯的衣橱、贴纸和徽章")
         .accessibilityAddTraits(.isButton)
     }
 
     private var loadingOverlay: some View {
         VStack(spacing: Spacing.sm) {
             ProgressView()
-            Text("Loading your dictionary…")
+            Text("正在加载词典…")
                 .font(Typography.caption)
                 .foregroundStyle(Palette.textSecondary)
         }

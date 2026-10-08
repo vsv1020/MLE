@@ -36,7 +36,7 @@ struct ComboBanner: View {
                 )
                 .transition(reduceMotion ? .opacity : .scale(scale: 0.6).combined(with: .opacity))
                 .accessibilityElement(children: .ignore)
-                .accessibilityLabel("\(combo) in a row")
+                .accessibilityLabel("连对 \(combo) 个")
             }
 
             Spacer(minLength: 0)
@@ -52,7 +52,7 @@ struct ComboBanner: View {
             .padding(.vertical, 2)
             .background(Palette.surfaceRaised, in: Capsule(style: .continuous))
             .accessibilityElement(children: .ignore)
-            .accessibilityLabel("\(candy.formatted()) star candy")
+            .accessibilityLabel("\(candy.formatted()) 颗星星糖")
         }
         .animation(Motion.pop(reduceMotion), value: isComboVisible)
         .animation(Motion.value(reduceMotion), value: combo)

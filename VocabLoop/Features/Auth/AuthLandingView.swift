@@ -26,10 +26,10 @@ struct AuthLandingView: View {
                 Image(systemName: "text.book.closed.fill")
                     .font(Typography.heroGlyph)
                     .foregroundStyle(Palette.brandPrimary)
-                Text("VocabLoop")
+                Text("麻薯背单词")
                     .font(.system(.largeTitle, design: .rounded, weight: .bold))
                     .foregroundStyle(Palette.textPrimary)
-                Text("Vocabulary that sticks, with or without a signal.")
+                Text("背过的单词记得牢，有没有网都能学。")
                     .font(Typography.body)
                     .foregroundStyle(Palette.textSecondary)
                     .multilineTextAlignment(.center)
@@ -41,15 +41,15 @@ struct AuthLandingView: View {
                 AppleSignInButton(onSuccess: onFinished)
                 GoogleSignInButton(onSuccess: onFinished)
 
-                PrimaryButton("Create an account", systemImage: "envelope") {
+                PrimaryButton("注册账号", systemImage: "envelope") {
                     route = .signUp
                 }
 
-                PrimaryButton("I already have an account", role: .secondary) {
+                PrimaryButton("我已经有账号了", role: .secondary) {
                     route = .signIn
                 }
 
-                Button("Continue without an account") {
+                Button("不注册，直接使用") {
                     Task {
                         await auth.continueAsGuest()
                         onFinished()
@@ -59,7 +59,7 @@ struct AuthLandingView: View {
                 .foregroundStyle(Palette.textSecondary)
                 .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget)
 
-                Text("Guest mode is fully functional. Your progress is saved on this device, and you can create an account later without losing it.")
+                Text("游客模式的功能完全一样。学习进度保存在这台设备上，以后注册账号也不会丢。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textTertiary)
                     .multilineTextAlignment(.center)
@@ -80,13 +80,13 @@ struct AuthLandingView: View {
             }
         }
         .alert(
-            "Sign in failed",
+            "登录失败",
             isPresented: Binding(
                 get: { auth.lastError != nil },
                 set: { if !$0 { auth.clearError() } }
             )
         ) {
-            Button("OK") { auth.clearError() }
+            Button("好") { auth.clearError() }
         } message: {
             Text(auth.lastError?.localizedDescription ?? "")
         }
