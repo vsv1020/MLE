@@ -122,7 +122,7 @@ public final class RemoteAuthBackend: AuthBackend {
 
     public func signIn(apple credential: AppleCredential) async throws -> Session {
         guard let token = credential.identityToken.map({ $0.base64EncodedString() }) else {
-            throw AuthError.appleSignInFailed("Apple did not return an identity token.")
+            throw AuthError.appleSignInFailed("Apple 没有返回身份令牌。")
         }
         let response = try await client.send(
             Self.appleSignIn,

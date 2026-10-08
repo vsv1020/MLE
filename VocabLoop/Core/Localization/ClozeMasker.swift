@@ -37,7 +37,7 @@ public struct ClozePrompt: Hashable, Sendable {
 
     /// Spoken to VoiceOver, which cannot convey a run of underscores usefully.
     public var accessibleMasked: String {
-        before + " blank " + after
+        before + "（空白）" + after
     }
 }
 

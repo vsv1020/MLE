@@ -83,9 +83,9 @@ public enum SeedImportError: LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .packNotFound(let name):
-            "Content pack “\(name)” is missing from the app bundle."
+            "App 里缺少词库内容包“\(name)”。"
         case .decodingFailed(let name, let underlying):
-            "Content pack “\(name)” could not be read: \(underlying)"
+            "词库内容包“\(name)”无法读取：\(underlying)"
         }
     }
 }

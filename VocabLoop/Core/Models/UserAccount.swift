@@ -16,10 +16,10 @@ public enum AuthProvider: String, Codable, CaseIterable, Hashable, Sendable {
 
     public var displayName: String {
         switch self {
-        case .guest: "Guest"
-        case .local: "Email"
+        case .guest: "游客"
+        case .local: "邮箱"
         case .apple: "Apple"
-        case .remote: "Email"
+        case .remote: "邮箱"
         case .google: "Google"
         }
     }
@@ -131,7 +131,7 @@ public final class UserAccount {
     }
 
     public static func makeGuest(now: Date = Date()) -> UserAccount {
-        UserAccount(displayName: "Guest", provider: .guest, now: now)
+        UserAccount(displayName: "游客", provider: .guest, now: now)
     }
 
     public func touch(_ now: Date = Date()) { updatedAt = now }

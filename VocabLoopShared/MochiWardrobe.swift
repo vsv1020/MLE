@@ -68,22 +68,22 @@ public enum MochiAccessory: String, CaseIterable, Codable, Sendable {
 
     public var name: String {
         switch self {
-        case .redScarf: return "Red scarf"
-        case .partyHat: return "Party hat"
-        case .roundGlasses: return "Round glasses"
-        case .bow: return "Bow"
-        case .strawHat: return "Straw hat"
-        case .crown: return "Crown"
-        case .headphones: return "Headphones"
-        case .cape: return "Cape"
-        case .nightcap: return "Nightcap"
-        case .sunVisor: return "Sun visor"
-        case .goldStarPin: return "Gold star pin"
-        case .graduationCap: return "Graduation cap"
-        case .wizardHat: return "Wizard hat"
-        case .halo: return "Halo"
-        case .rainbowScarf: return "Rainbow scarf"
-        case .astronautHelmet: return "Astronaut helmet"
+        case .redScarf: return "红围巾"
+        case .partyHat: return "派对帽"
+        case .roundGlasses: return "圆眼镜"
+        case .bow: return "蝴蝶结"
+        case .strawHat: return "草帽"
+        case .crown: return "王冠"
+        case .headphones: return "耳机"
+        case .cape: return "披风"
+        case .nightcap: return "睡帽"
+        case .sunVisor: return "遮阳帽"
+        case .goldStarPin: return "金星胸针"
+        case .graduationCap: return "学士帽"
+        case .wizardHat: return "巫师帽"
+        case .halo: return "光环"
+        case .rainbowScarf: return "彩虹围巾"
+        case .astronautHelmet: return "宇航员头盔"
         }
     }
 
@@ -119,15 +119,15 @@ public enum MochiBodyColor: String, CaseIterable, Codable, Sendable {
 
     public var name: String {
         switch self {
-        case .vanilla: return "Vanilla"
-        case .strawberry: return "Strawberry"
-        case .matcha: return "Matcha"
-        case .blueberry: return "Blueberry"
-        case .mango: return "Mango"
-        case .lavender: return "Lavender"
-        case .mint: return "Mint"
-        case .cocoa: return "Cocoa"
-        case .galaxy: return "Galaxy"
+        case .vanilla: return "香草"
+        case .strawberry: return "草莓"
+        case .matcha: return "抹茶"
+        case .blueberry: return "蓝莓"
+        case .mango: return "芒果"
+        case .lavender: return "薰衣草"
+        case .mint: return "薄荷"
+        case .cocoa: return "可可"
+        case .galaxy: return "星空"
         }
     }
 

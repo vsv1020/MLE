@@ -23,8 +23,8 @@ public enum PasswordHasher {
 
         public var errorDescription: String? {
             switch self {
-            case .derivationFailed(let status): "Password hashing failed (code \(status))."
-            case .randomGenerationFailed(let status): "Secure random generation failed (code \(status))."
+            case .derivationFailed(let status): "密码加密失败（错误码 \(status)）。"
+            case .randomGenerationFailed(let status): "安全随机数生成失败（错误码 \(status)）。"
             }
         }
     }

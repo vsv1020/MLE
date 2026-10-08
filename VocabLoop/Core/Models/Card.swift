@@ -23,17 +23,17 @@ public enum CardDirection: String, Codable, CaseIterable, Hashable, Sendable, Id
 
     public var displayName: String {
         switch self {
-        case .recognition: "Recognition"
-        case .production: "Production"
-        case .cloze: "In context"
+        case .recognition: "认词"
+        case .production: "想词"
+        case .cloze: "语境填空"
         }
     }
 
     public var explanation: String {
         switch self {
-        case .recognition: "See the word, recall its meaning"
-        case .production: "See the meaning, recall the word"
-        case .cloze: "Fill the word into a real sentence"
+        case .recognition: "看单词，想释义"
+        case .production: "看释义，想单词"
+        case .cloze: "把单词填进真实的句子里"
         }
     }
 

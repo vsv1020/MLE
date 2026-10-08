@@ -21,11 +21,11 @@ public enum SchedulerKind: String, Codable, CaseIterable, Hashable, Sendable, Id
     public var summary: String {
         switch self {
         case .fsrs5:
-            "Models stability, difficulty and how much you have forgotten right now. "
-            + "Lets you choose a target retention rate. Recommended."
+            "根据记忆稳定性、难度和你此刻遗忘了多少来安排复习，"
+            + "可以自己设定目标记忆率。推荐使用。"
         case .sm2:
-            "The classic SuperMemo 2 algorithm. Simpler, and familiar if you come "
-            + "from Anki, but it cannot target a retention rate."
+            "经典的 SuperMemo 2 算法。更简单，用过 Anki 的话会很熟悉，"
+            + "但不能设定目标记忆率。"
         }
     }
 }

@@ -127,9 +127,9 @@ public final class OptimizerService {
         public var errorDescription: String? {
             switch self {
             case .wrongWeightCount(let expected, let got):
-                "FSRS-5 needs exactly \(expected) weights; that vector has \(got)."
+                "FSRS-5 需要正好 \(expected) 个权重，这组有 \(got) 个。"
             case .notFinite:
-                "Those weights contain a value that is not a finite number."
+                "这组权重里有一个不是有限数值。"
             }
         }
     }

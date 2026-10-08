@@ -1,10 +1,10 @@
 {
  "packName": "en_core_c1",
- "version": 2,
+ "version": 3,
  "languageCode": "en",
  "deck": {
-  "name": "English Core · C1",
-  "summary": "Precise, academic and professional vocabulary. Advanced.",
+  "name": "英语核心词 · C1",
+  "summary": "精准的学术和职场词汇，适合高级。",
   "symbolName": "graduationcap",
   "colorHex": "#7C3AED",
   "sortOrder": 3

@@ -1,10 +1,10 @@
 {
   "packName": "fr_starter",
-  "version": 2,
+  "version": 3,
   "languageCode": "fr",
   "deck": {
-    "name": "Français · Débutant",
-    "summary": "A first taste of French. Exercises gendered nouns and IPA in a non-English pack.",
+    "name": "法语入门",
+    "summary": "第一次学法语，从最常用的词开始，顺便认识名词的阴阳性。",
     "symbolName": "leaf",
     "colorHex": "#2563EB",
     "sortOrder": 10

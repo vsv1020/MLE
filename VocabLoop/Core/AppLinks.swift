@@ -26,6 +26,6 @@ public enum AppLinks {
     public static var support: URL? { website?.appending(path: "support.html") }
 
     public static var supportMail: URL {
-        URL(string: "mailto:\(supportEmail)?subject=VocabLoop%20support")!
+        URL(string: "mailto:\(supportEmail)?subject=%E9%BA%BB%E8%96%AF%E8%83%8C%E5%8D%95%E8%AF%8D%20%E5%8F%8D%E9%A6%88")!
     }
 }

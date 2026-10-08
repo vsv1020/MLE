@@ -19,9 +19,9 @@ public enum LearningLanguage: String, Codable, CaseIterable, Hashable, Sendable,
     /// Name in the app's UI language.
     public var displayName: String {
         switch self {
-        case .english: "English"
-        case .french: "French"
-        case .thai: "Thai"
+        case .english: "英语"
+        case .french: "法语"
+        case .thai: "泰语"
         }
     }
 
@@ -147,9 +147,9 @@ public enum PhoneticNotation: String, Codable, CaseIterable, Hashable, Sendable 
 
     public var label: String {
         switch self {
-        case .ipa: "IPA"
-        case .rtgs: "RTGS"
-        case .pinyin: "Pinyin"
+        case .ipa: "国际音标"
+        case .rtgs: "罗马音"
+        case .pinyin: "拼音"
         case .none: ""
         }
     }
@@ -169,12 +169,12 @@ public enum GrammarField: String, Codable, CaseIterable, Hashable, Sendable {
 
     public var label: String {
         switch self {
-        case .gender: "Gender"
-        case .classifier: "Classifier"
-        case .irregularForms: "Irregular forms"
-        case .toneMarks: "Tone"
-        case .plural: "Plural"
-        case .conjugation: "Conjugation"
+        case .gender: "阴阳性"
+        case .classifier: "量词"
+        case .irregularForms: "不规则变化"
+        case .toneMarks: "声调"
+        case .plural: "复数"
+        case .conjugation: "动词变位"
         }
     }
 }
@@ -195,12 +195,12 @@ public enum CEFRLevel: String, Codable, CaseIterable, Hashable, Sendable, Compar
 
     public var description: String {
         switch self {
-        case .a1: "Beginner"
-        case .a2: "Elementary"
-        case .b1: "Intermediate"
-        case .b2: "Upper intermediate"
-        case .c1: "Advanced"
-        case .c2: "Proficient"
+        case .a1: "入门"
+        case .a2: "初级"
+        case .b1: "中级"
+        case .b2: "中高级"
+        case .c1: "高级"
+        case .c2: "精通"
         }
     }
 }
@@ -247,7 +247,25 @@ public enum PartOfSpeech: String, Codable, CaseIterable, Hashable, Sendable, Ide
         }
     }
 
-    public var displayName: String { rawValue.capitalized }
+    public var displayName: String {
+        switch self {
+        case .noun: "名词"
+        case .verb: "动词"
+        case .adjective: "形容词"
+        case .adverb: "副词"
+        case .pronoun: "代词"
+        case .preposition: "介词"
+        case .conjunction: "连词"
+        case .determiner: "限定词"
+        case .interjection: "感叹词"
+        case .numeral: "数词"
+        case .particle: "小品词"
+        case .classifier: "量词"
+        case .phrase: "短语"
+        case .idiom: "习语"
+        case .other: "其他"
+        }
+    }
 
     /// Lenient parse so a seed pack written by hand, or a future importer fed by an
     /// external dictionary, does not fail on `"Noun"` or `"v"`.

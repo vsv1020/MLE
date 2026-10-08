@@ -16,7 +16,7 @@ struct WidgetMochiView: View {
         VStack(spacing: Spacing.xs) {
             Mascot(mood: mood, look: look)
                 .still(isStill)
-            Text("Level \(level)")
+            Text("\(level) 级")
                 .font(Typography.chip)
                 .foregroundStyle(Palette.onBrand)
                 .padding(.horizontal, Spacing.xs)
@@ -24,7 +24,7 @@ struct WidgetMochiView: View {
                 .background(Capsule().fill(Palette.brandPrimary))
         }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Mochi, level \(level)")
+        .accessibilityLabel("麻薯 \(level) 级")
     }
 }
 

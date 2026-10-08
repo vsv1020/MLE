@@ -20,23 +20,23 @@ struct MainTabView: View {
     var body: some View {
         TabView(selection: $selection) {
             HomeView()
-                .tabItem { Label("Today", systemImage: "sun.max") }
+                .tabItem { Label("今天", systemImage: "sun.max") }
                 .tag(Tab.today)
 
             BrowseView()
-                .tabItem { Label("Browse", systemImage: "magnifyingglass") }
+                .tabItem { Label("浏览", systemImage: "magnifyingglass") }
                 .tag(Tab.browse)
 
             DeckListView()
-                .tabItem { Label("Decks", systemImage: "square.stack.3d.up") }
+                .tabItem { Label("词库", systemImage: "square.stack.3d.up") }
                 .tag(Tab.decks)
 
             StatsView()
-                .tabItem { Label("Progress", systemImage: "chart.bar") }
+                .tabItem { Label("进度", systemImage: "chart.bar") }
                 .tag(Tab.progress)
 
             SettingsView()
-                .tabItem { Label("Settings", systemImage: "gearshape") }
+                .tabItem { Label("设置", systemImage: "gearshape") }
                 .tag(Tab.settings)
         }
         .tint(Palette.brandPrimary)

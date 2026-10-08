@@ -146,20 +146,20 @@ public enum StudyActivityPolicy {
 public enum StudyActivityCopy {
     /// The bottom line of the Lock Screen view and the expanded Dynamic Island.
     public static func line(for state: StudyActivityState, isStale: Bool = false) -> String {
-        if isStale { return "Tap to pick up where you left off" }
+        if isStale { return "轻点一下，从上次停下的地方继续" }
         switch state.phase {
-        case .studying: return "Keep going — Mochi is cheering"
-        case .goalReached: return "Daily goal done ⭐"
-        case .finished: return "All done for now"
-        case .resting: return "See you tomorrow"
+        case .studying: return "继续背 —— 麻薯在为你加油"
+        case .goalReached: return "今日目标完成 ⭐"
+        case .finished: return "暂时都学完啦"
+        case .resting: return "明天见"
         }
     }
 
     /// "12 of 30 today", or "12 reviews today" when there is no goal.
     public static func progress(reviewsToday: Int, dailyGoal: Int) -> String {
         let count = max(0, reviewsToday)
-        if dailyGoal > 0 { return "\(count) of \(dailyGoal) today" }
-        return count == 1 ? "1 review today" : "\(count) reviews today"
+        if dailyGoal > 0 { return "今天已学 \(count)/\(dailyGoal)" }
+        return count == 1 ? "今天复习了 1 张" : "今天复习了 \(count) 张"
     }
 
     /// The compact trailing Dynamic Island label: "12/30", or "12 ✓" when there is no goal.
@@ -176,7 +176,7 @@ public enum StudyActivityCopy {
 
     /// "7-day streak".
     public static func streak(_ streak: Int) -> String {
-        "\(streak)-day streak"
+        "连续打卡 \(streak) 天"
     }
 
     /// One sentence for VoiceOver on the Lock Screen view.
@@ -184,9 +184,9 @@ public enum StudyActivityCopy {
         for state: StudyActivityState, dailyGoal: Int, isStale: Bool = false
     ) -> String {
         var parts = [progress(reviewsToday: state.reviewsToday, dailyGoal: dailyGoal)]
-        if StudyActivityPolicy.showsCombo(state.combo) { parts.append("combo of \(state.combo)") }
+        if StudyActivityPolicy.showsCombo(state.combo) { parts.append("连对 \(state.combo) 张") }
         if state.streak > 0 { parts.append(streak(state.streak)) }
         parts.append(line(for: state, isStale: isStale))
-        return parts.joined(separator: ", ")
+        return parts.joined(separator: "，")
     }
 }

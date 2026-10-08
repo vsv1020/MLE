@@ -27,10 +27,10 @@ public enum WordFamily: String, CaseIterable, Codable, Sendable {
 
     public var title: String {
         switch self {
-        case .nouns: return "Nouns"
-        case .verbs: return "Verbs"
-        case .describingWords: return "Describing Words"
-        case .littleWords: return "Little Words"
+        case .nouns: return "名词"
+        case .verbs: return "动词"
+        case .describingWords: return "描述词"
+        case .littleWords: return "小词"
         }
     }
 
@@ -96,7 +96,7 @@ public struct Album: Identifiable, Hashable, Sendable {
     }
 
     /// "A1 Nouns · Page 3".
-    public var title: String { "\(level.rawValue) \(family.title) · Page \(page)" }
+    public var title: String { "\(level.rawValue) \(family.title) · 第 \(page) 页" }
 
     public static func makeID(languageCode: String, level: AlbumLevel, family: WordFamily, page: Int) -> String {
         "\(languageCode)|\(level.rawValue)|\(family.rawValue)|\(page)"

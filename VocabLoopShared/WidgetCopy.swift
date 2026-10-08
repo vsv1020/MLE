@@ -6,39 +6,39 @@ import SwiftUI
 /// Pure and shared so `WidgetCopyTests` can hold the kids-audience rule — nothing counts what
 /// did not happen: no "missed", no "only", no "0 left" — over every state the widget can be in.
 public enum WidgetCopy {
-    public static let emptyTitle = "Open VocabLoop to get started"
-    public static let staleTitle = "Mochi is waiting for you"
-    public static let caughtUp = "All caught up"
-    public static let openApp = "Open VocabLoop"
-    public static let startReview = "Start review"
+    public static let emptyTitle = "打开麻薯背单词，开始学习"
+    public static let staleTitle = "麻薯在等你"
+    public static let caughtUp = "都复习完了"
+    public static let openApp = "打开麻薯背单词"
+    public static let startReview = "开始复习"
 
     /// "12".
     public static func dueCount(_ dueNow: Int) -> String { "\(max(0, dueNow))" }
 
     /// "12 due".
-    public static func due(_ dueNow: Int) -> String { "\(max(0, dueNow)) due" }
+    public static func due(_ dueNow: Int) -> String { "待复习 \(max(0, dueNow))" }
 
     /// "12 words due" / "1 word due".
     public static func dueWords(_ dueNow: Int) -> String {
         let count = max(0, dueNow)
-        return count == 1 ? "1 word due" : "\(count) words due"
+        return count == 1 ? "1 个单词待复习" : "\(count) 个单词待复习"
     }
 
     /// "8 of 30 today".
     public static func goal(reviewsToday: Int, dailyGoal: Int) -> String {
-        "\(max(0, reviewsToday)) of \(dailyGoal) today"
+        "今天已学 \(max(0, reviewsToday))/\(dailyGoal)"
     }
 
     /// "8/30 today".
     public static func goalShort(reviewsToday: Int, dailyGoal: Int) -> String {
-        "\(max(0, reviewsToday))/\(dailyGoal) today"
+        "今天 \(max(0, reviewsToday))/\(dailyGoal)"
     }
 
     /// "7-day streak".
-    public static func streak(_ streak: Int) -> String { "\(streak)-day streak" }
+    public static func streak(_ streak: Int) -> String { "连续打卡 \(streak) 天" }
 
     /// "Level 4".
-    public static func level(_ level: Int) -> String { "Level \(level)" }
+    public static func level(_ level: Int) -> String { "\(level) 级" }
 
     /// "640 ⭐".
     public static func candy(_ candy: Int) -> String { "\(max(0, candy)) ⭐" }
@@ -72,7 +72,7 @@ public enum WidgetCopy {
                 parts.append(goal(reviewsToday: snapshot.reviewsToday, dailyGoal: snapshot.dailyGoal))
             }
             if snapshot.streak > 0 { parts.append(streak(snapshot.streak)) }
-            return parts.joined(separator: ", ")
+            return parts.joined(separator: "，")
         }
     }
 

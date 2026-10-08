@@ -118,21 +118,21 @@ public struct OptimizerReadiness: Hashable, Sendable {
     public var explanation: String {
         if !meetsMinimum {
             if cardCount < Self.minimumCards {
-                return "Tuning needs a wider sample — at least \(Self.minimumCards) different "
-                    + "cards, and you have \(cardCount)."
+                return "记忆调节需要更多样本 —— 至少 \(Self.minimumCards) 张不同的"
+                    + "卡片，你现在有 \(cardCount) 张。"
             }
             let remaining = Self.minimumReviews - reviewCount
-            return "Not enough history yet. About \(remaining) more "
-                + "\(remaining == 1 ? "review" : "reviews") and this becomes available."
+            return "复习记录还不够。大约再复习 \(remaining) "
+                + "次就可以用了。"
         }
         if !meetsRecommended {
-            return "Available, but \(reviewsUntilRecommended) more reviews would make the "
-                + "result noticeably more reliable."
+            return "已经可以用了，不过再复习 \(reviewsUntilRecommended) 次，"
+                + "结果会明显更可靠。"
         }
         if hasFittedWeights, !shouldRefit {
-            return "Tuned to your history. Worth repeating once your review count has doubled."
+            return "已经按你的复习记录调好了。等复习次数翻倍后，值得再调一次。"
         }
-        return "Ready. \(reviewCount) reviews across \(cardCount) cards is enough to fit the "
-            + "model to how you actually forget."
+        return "准备好了。\(cardCount) 张卡片共 \(reviewCount) 次复习，足够让模型"
+            + "贴合你真实的遗忘规律。"
     }
 }

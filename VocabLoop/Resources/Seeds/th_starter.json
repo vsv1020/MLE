@@ -1,10 +1,10 @@
 {
   "packName": "th_starter",
-  "version": 1,
+  "version": 2,
   "languageCode": "th",
   "deck": {
-    "name": "ภาษาไทย · เริ่มต้น",
-    "summary": "A first taste of Thai. Exercises a non-Latin script, RTGS romanisation, tones and classifiers.",
+    "name": "泰语入门",
+    "summary": "第一次学泰语，认识泰文、声调和量词。",
     "symbolName": "leaf",
     "colorHex": "#DB2777",
     "sortOrder": 20
