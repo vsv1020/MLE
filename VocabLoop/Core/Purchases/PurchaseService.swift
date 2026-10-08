@@ -43,9 +43,10 @@ public final class PurchaseService {
 
     public var displayPrice: String? {
         #if DEBUG
-        // The simulator has no App Store product to load; the App Store screenshot of the
-        // purchase screen still needs to show the button it will have. Debug builds only.
-        if product == nil, AppStoreScreenshots.isActive { return AppStoreScreenshots.displayPrice }
+        // App Store screenshots show the China price. The simulator may have no product to load,
+        // or load the US sandbox storefront's price; either way the screenshot uses ours.
+        // Debug builds only.
+        if AppStoreScreenshots.isActive { return AppStoreScreenshots.displayPrice }
         #endif
         return product?.displayPrice
     }
