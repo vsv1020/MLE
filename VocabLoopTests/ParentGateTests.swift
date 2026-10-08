@@ -28,8 +28,8 @@ final class ParentGateTests: XCTestCase {
 
     func testPromptReadsAsAMultiplication() {
         let question = ParentGate.Question(a: 7, b: 8)
-        XCTAssertEqual(question.prompt, "What is 7 × 8?")
-        XCTAssertEqual(question.accessibilityPrompt, "What is 7 times 8?")
+        XCTAssertEqual(question.prompt, "7 × 8 等于多少？")
+        XCTAssertEqual(question.accessibilityPrompt, "7 乘以 8 等于多少？")
         XCTAssertEqual(question.answer, 56)
     }
 

@@ -209,7 +209,7 @@ final class OptimizerTests: XCTestCase {
             reviewCount: 5_000, cardCount: 10, hasFittedWeights: false, reviewCountAtLastFit: nil
         )
         XCTAssertFalse(plentyButNarrow.meetsMinimum, "volume on 10 cards does not generalise")
-        XCTAssertTrue(plentyButNarrow.explanation.contains("different"))
+        XCTAssertTrue(plentyButNarrow.explanation.contains("不同的"))
 
         let broadButThin = OptimizerReadiness(
             reviewCount: 50, cardCount: 200, hasFittedWeights: false, reviewCountAtLastFit: nil

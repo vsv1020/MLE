@@ -191,18 +191,19 @@ final class StatsTests: XCTestCase {
 
 final class IntervalFormatterTests: XCTestCase {
     func testShortFormatPicksAnAppropriateUnit() {
-        XCTAssertEqual(IntervalFormatter.short(days: 0), "<1m")
-        XCTAssertEqual(IntervalFormatter.short(days: 1.0 / 1440), "1m")
-        XCTAssertEqual(IntervalFormatter.short(days: 10.0 / 1440), "10m")
-        XCTAssertEqual(IntervalFormatter.short(days: 3.0 / 24), "3h")
-        XCTAssertEqual(IntervalFormatter.short(days: 1), "1d")
-        XCTAssertEqual(IntervalFormatter.short(days: 9), "9d")
-        XCTAssertEqual(IntervalFormatter.short(days: 28), "4w")
-        XCTAssertEqual(IntervalFormatter.short(days: 91), "3mo")
-        XCTAssertEqual(IntervalFormatter.short(days: 730), "2.0y")
+        XCTAssertEqual(IntervalFormatter.short(days: 0), "<1 分钟")
+        XCTAssertEqual(IntervalFormatter.short(days: 1.0 / 1440), "1 分钟")
+        XCTAssertEqual(IntervalFormatter.short(days: 10.0 / 1440), "10 分钟")
+        XCTAssertEqual(IntervalFormatter.short(days: 3.0 / 24), "3 小时")
+        XCTAssertEqual(IntervalFormatter.short(days: 1), "1 天")
+        XCTAssertEqual(IntervalFormatter.short(days: 9), "9 天")
+        XCTAssertEqual(IntervalFormatter.short(days: 28), "4 周")
+        XCTAssertEqual(IntervalFormatter.short(days: 91), "3 个月")
+        XCTAssertEqual(IntervalFormatter.short(days: 730), "2.0 年")
     }
 
-    /// These labels sit four across on a 375pt screen, so length is a hard constraint.
+    /// These labels sit four across on a 375pt screen, so length is a hard constraint. The
+    /// Chinese labels ("12 小时", "<1 分钟", "2.5 年") stay within five characters.
     func testShortLabelsStayCompact() {
         for days in [0.0007, 0.5, 1, 5, 20, 45, 200, 900, 5_000] {
             XCTAssertLessThanOrEqual(
@@ -213,28 +214,28 @@ final class IntervalFormatterTests: XCTestCase {
     }
 
     func testNonFiniteInputDoesNotProduceGarbage() {
-        XCTAssertEqual(IntervalFormatter.short(days: .nan), "<1m")
-        XCTAssertEqual(IntervalFormatter.short(days: .infinity), "<1m")
-        XCTAssertEqual(IntervalFormatter.short(days: -5), "<1m")
+        XCTAssertEqual(IntervalFormatter.short(days: .nan), "<1 分钟")
+        XCTAssertEqual(IntervalFormatter.short(days: .infinity), "<1 分钟")
+        XCTAssertEqual(IntervalFormatter.short(days: -5), "<1 分钟")
     }
 
     func testSpokenFormIsASentenceFragment() {
-        XCTAssertEqual(IntervalFormatter.spoken(days: 1), "in 1 day")
-        XCTAssertEqual(IntervalFormatter.spoken(days: 4), "in 4 days")
-        XCTAssertEqual(IntervalFormatter.spoken(days: 1.0 / 1440), "in 1 minute")
-        XCTAssertTrue(IntervalFormatter.spoken(days: 90).hasPrefix("in about"))
+        XCTAssertEqual(IntervalFormatter.spoken(days: 1), "1 天后")
+        XCTAssertEqual(IntervalFormatter.spoken(days: 4), "4 天后")
+        XCTAssertEqual(IntervalFormatter.spoken(days: 1.0 / 1440), "1 分钟后")
+        XCTAssertEqual(IntervalFormatter.spoken(days: 90), "大约 3 个月后")
     }
 
     func testDueDescriptionDistinguishesOverdueFromUpcoming() {
         let now = Date(timeIntervalSince1970: 1_700_000_000)
-        XCTAssertEqual(IntervalFormatter.dueDescription(due: now, now: now), "Due now")
-        XCTAssertTrue(
-            IntervalFormatter.dueDescription(due: now.addingTimeInterval(4 * 86_400), now: now)
-                .hasPrefix("Due in")
+        XCTAssertEqual(IntervalFormatter.dueDescription(due: now, now: now), "现在就该复习")
+        XCTAssertEqual(
+            IntervalFormatter.dueDescription(due: now.addingTimeInterval(4 * 86_400), now: now),
+            "4 天后复习"
         )
-        XCTAssertTrue(
-            IntervalFormatter.dueDescription(due: now.addingTimeInterval(-4 * 86_400), now: now)
-                .hasPrefix("Overdue by")
+        XCTAssertEqual(
+            IntervalFormatter.dueDescription(due: now.addingTimeInterval(-4 * 86_400), now: now),
+            "已超期 4 天"
         )
     }
 }

@@ -101,24 +101,25 @@ final class StudyActivityPolicyTests: XCTestCase {
                 isStale: stale
             )
         }
-        XCTAssertEqual(line(.studying), "Keep going — Mochi is cheering")
-        XCTAssertEqual(line(.goalReached), "Daily goal done ⭐")
-        XCTAssertEqual(line(.finished), "All done for now")
-        XCTAssertEqual(line(.resting), "See you tomorrow")
-        XCTAssertEqual(line(.studying, stale: true), "Tap to pick up where you left off")
+        XCTAssertEqual(line(.studying), "继续背 —— 麻薯在为你加油")
+        XCTAssertEqual(line(.goalReached), "今日目标完成 ⭐")
+        XCTAssertEqual(line(.finished), "暂时都学完啦")
+        XCTAssertEqual(line(.resting), "明天见")
+        XCTAssertEqual(line(.studying, stale: true), "轻点一下，从上次停下的地方继续")
 
-        XCTAssertEqual(StudyActivityCopy.progress(reviewsToday: 12, dailyGoal: 30), "12 of 30 today")
-        XCTAssertEqual(StudyActivityCopy.progress(reviewsToday: 12, dailyGoal: 0), "12 reviews today")
-        XCTAssertEqual(StudyActivityCopy.progress(reviewsToday: 1, dailyGoal: 0), "1 review today")
+        XCTAssertEqual(StudyActivityCopy.progress(reviewsToday: 12, dailyGoal: 30), "今天已学 12/30")
+        XCTAssertEqual(StudyActivityCopy.progress(reviewsToday: 12, dailyGoal: 0), "今天复习了 12 张")
+        XCTAssertEqual(StudyActivityCopy.progress(reviewsToday: 1, dailyGoal: 0), "今天复习了 1 张")
         XCTAssertEqual(StudyActivityCopy.compact(reviewsToday: 12, dailyGoal: 30), "12/30")
         XCTAssertEqual(StudyActivityCopy.compact(reviewsToday: 12, dailyGoal: 0), "12 ✓")
         XCTAssertEqual(StudyActivityCopy.combo(5), "×5")
-        XCTAssertEqual(StudyActivityCopy.streak(7), "7-day streak")
+        XCTAssertEqual(StudyActivityCopy.streak(7), "连续打卡 7 天")
     }
 
-    /// Kids audience: nothing on the Lock Screen counts what did not happen.
+    /// Kids audience: nothing on the Lock Screen counts what did not happen. The copy is Chinese,
+    /// so the banned words are the Chinese for "missed | only | failed | 0 left".
     func testNoCopyCountsWhatDidNotHappen() throws {
-        let banned = try NSRegularExpression(pattern: "missed|only|failed|0 left", options: [.caseInsensitive])
+        let banned = try NSRegularExpression(pattern: "错过|只有|仅|失败|剩 ?0(?![0-9])", options: [])
         var lines: [String] = []
         for phase in StudyActivityPhase.allCases {
             for stale in [false, true] {

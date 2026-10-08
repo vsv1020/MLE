@@ -181,7 +181,7 @@ final class ClozeMaskerTests: XCTestCase {
             headword: "borrow", sentence: "Can I borrow your pen?", language: .english
         ))
         XCTAssertFalse(prompt.accessibleMasked.contains("_"))
-        XCTAssertTrue(prompt.accessibleMasked.contains("blank"))
+        XCTAssertTrue(prompt.accessibleMasked.contains("（空白）"))
     }
 }
 

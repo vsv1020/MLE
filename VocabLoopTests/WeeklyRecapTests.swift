@@ -152,7 +152,7 @@ final class WeeklyRecapTests: XCTestCase {
         let recap = try f.recaps.recap(for: f.account, preferences: f.preferences, endingAt: referenceDate)
         XCTAssertEqual(recap.wordsMastered, 2)
         XCTAssertEqual(recap.previous?.wordsMastered, 2 - 1)
-        XCTAssertEqual(recap.headline, "This week you mastered 2 words")
+        XCTAssertEqual(recap.headline, "这周你掌握了 2 个单词")
         XCTAssertEqual(recap.dayKeys.count, 7)
         XCTAssertEqual(recap.weekStartKey, "2023-11-09")
         XCTAssertEqual(recap.dayKeys.last, "2023-11-15")

@@ -297,7 +297,7 @@ final class EngagementServiceTests: XCTestCase {
             preferences: f.preferences, now: referenceDate
         )
         XCTAssertTrue(crossed.contains(.stickerLit(entryStableID: entry.stableID)))
-        XCTAssertTrue(crossed.contains(.albumCompleted(albumID: albumID, title: "A1 Nouns · Page 1")))
+        XCTAssertTrue(crossed.contains(.albumCompleted(albumID: albumID, title: "A1 名词 · 第 1 页")))
         XCTAssertTrue(achievementEvents(crossed).contains(.album_first))
         guard case .candy(let earned) = crossed.first else { return XCTFail("candy first") }
         XCTAssertEqual(

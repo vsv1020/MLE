@@ -20,7 +20,7 @@ final class VocabLoopUITests: XCTestCase {
         // `RootView` bounced back to onboarding forever and no test in this file could reach the
         // tab bar. See `VocabLoopApp.resetFirstRunStateIfUITesting`.
         app.launchArguments = ["-uiTestingResetFirstRun"]
-        // Every card a flip card, so taps on "Show answer" and the rating bar stay predictable.
+        // Every card a flip card, so taps on "显示答案" (Show answer) and the rating bar stay predictable.
         app.launchArguments += ["-uiTestingFlipOnly"]
         app.launch()
     }
@@ -36,9 +36,9 @@ final class VocabLoopUITests: XCTestCase {
     /// buried, and that taking it lands on the app — instead of walking a fixed number of
     /// onboarding steps, which is a content decision that would break this test whenever it changes.
     func testGuestCanReachTodayWithoutAnAccount() throws {
-        advanceThroughFirstRun(stoppingAt: "Continue without an account")
+        advanceThroughFirstRun(stoppingAt: "不注册，直接使用")
 
-        let skip = app.buttons["Continue without an account"]
+        let skip = app.buttons["不注册，直接使用"]
         XCTAssertTrue(skip.waitForExistence(timeout: 20), "guest mode must be offered, not buried")
         skip.tap()
 
@@ -49,16 +49,16 @@ final class VocabLoopUITests: XCTestCase {
             "guest mode must land on the app, not a paywall"
         )
         // …and onto a card. A fresh install has no enrolled words; the session starts the most
-        // common bundled ones itself. This once opened onto "Nothing to study" with a Done
-        // button that did nothing visible — reported from a real device.
+        // common bundled ones itself. This once opened onto "Nothing to study" (现在没有要学的)
+        // with a Done button that did nothing visible — reported from a real device.
         XCTAssertTrue(
-            app.buttons["Show answer"].waitForExistence(timeout: 15),
+            app.buttons["显示答案"].waitForExistence(timeout: 15),
             "a fresh install must open onto a word card"
         )
-        XCTAssertFalse(app.staticTexts["Nothing to study"].exists)
+        XCTAssertFalse(app.staticTexts["现在没有要学的"].exists)
         libraryButton.tap()
         XCTAssertTrue(
-            app.tabBars.buttons["Today"].waitForExistence(timeout: 10),
+            app.tabBars.buttons["今天"].waitForExistence(timeout: 10),
             "the library must open onto the tabs"
         )
     }
@@ -66,7 +66,7 @@ final class VocabLoopUITests: XCTestCase {
     func testEveryTabIsReachableAsAGuest() throws {
         let tabBar = reachMainTabs()
 
-        for label in ["Browse", "Decks", "Progress", "Settings", "Today"] {
+        for label in ["浏览", "词库", "进度", "设置", "今天"] {
             let tab = tabBar.buttons[label]
             XCTAssertTrue(tab.waitForExistence(timeout: 5), "\(label) tab is missing")
             tab.tap()
@@ -77,7 +77,7 @@ final class VocabLoopUITests: XCTestCase {
     /// The dictionary is bundled, so search must return results with no network involved.
     func testDictionarySearchFindsBundledContent() throws {
         let tabBar = reachMainTabs()
-        tabBar.buttons["Browse"].tap()
+        tabBar.buttons["浏览"].tap()
 
         let searchField = app.searchFields.firstMatch
         XCTAssertTrue(searchField.waitForExistence(timeout: 10))
@@ -93,15 +93,15 @@ final class VocabLoopUITests: XCTestCase {
     /// Settings must state plainly that studying works without an account.
     func testAccountScreenOffersSignInWithoutRequiringIt() throws {
         let tabBar = reachMainTabs()
-        tabBar.buttons["Settings"].tap()
+        tabBar.buttons["设置"].tap()
 
-        let guestRow = app.staticTexts["Guest"].firstMatch
+        let guestRow = app.staticTexts["游客"].firstMatch
         XCTAssertTrue(guestRow.waitForExistence(timeout: 10), "Settings must show the guest identity")
         guestRow.tap()
 
         XCTAssertTrue(
-            app.buttons["Create an account"].waitForExistence(timeout: 10)
-                || app.buttons["Sign in"].waitForExistence(timeout: 2),
+            app.buttons["注册账号"].waitForExistence(timeout: 10)
+                || app.buttons["登录"].waitForExistence(timeout: 2),
             "the account screen must offer signing in"
         )
     }
@@ -114,21 +114,21 @@ final class VocabLoopUITests: XCTestCase {
     /// the unit tests cannot see, because each is a wiring question rather than a logic one.
     func testAcceptingAWordAndReviewingKeepsGoing() throws {
         let tabBar = reachMainTabs()
-        tabBar.buttons["Today"].tap()
+        tabBar.buttons["今天"].tap()
 
         // Today's words are generated on device, so at least one is offered on a fresh install.
-        let add = app.buttons["Add"].firstMatch
+        let add = app.buttons["添加"].firstMatch
         XCTAssertTrue(add.waitForExistence(timeout: 20), "Today must offer a daily word to enrol")
         XCTAssertTrue(scrollToHit(add), "the daily word's Add button never became tappable")
         add.tap()
 
         // Today is a dashboard now, not a launcher: its button closes the library and returns to
         // the root session, which rebuilds its queue on the way back and so picks up the new word.
-        let back = app.buttons["Back to studying"]
+        let back = app.buttons["回去学习"]
         XCTAssertTrue(scrollToHit(back), "Today must offer a way back to the card")
         back.tap()
 
-        let showAnswer = app.buttons["Show answer"]
+        let showAnswer = app.buttons["显示答案"]
         XCTAssertTrue(
             showAnswer.waitForExistence(timeout: 15),
             "returning from the library must present the word just enrolled"
@@ -137,10 +137,10 @@ final class VocabLoopUITests: XCTestCase {
 
         // All four grades, because a session offering fewer is a broken scheduler contract. The
         // visible labels became faces and plain words; the accessibility descriptions did not.
-        let good = app.buttons["Good — I remembered it"]
+        let good = app.buttons["记得 —— 我想起来了"]
         XCTAssertTrue(good.waitForExistence(timeout: 10), "the rating bar must appear on reveal")
-        for label in ["Again — I did not remember this", "Hard — I remembered it with difficulty",
-                      "Easy — I remembered it immediately"] {
+        for label in ["忘了 —— 我没想起来", "有点难 —— 想了好久才想起来",
+                      "很简单 —— 一下就想起来了"] {
             XCTAssertTrue(app.buttons[label].exists, "missing rating: \(label)")
         }
         XCTAssertFalse(showAnswer.exists, "Show answer must go away once the answer is showing")
@@ -161,8 +161,8 @@ final class VocabLoopUITests: XCTestCase {
         }
 
         XCTAssertEqual(grades, 12, "the session stopped offering cards")
-        XCTAssertFalse(app.staticTexts["All caught up"].exists, "an endless session must not end")
-        XCTAssertFalse(app.staticTexts["Nothing to study"].exists)
+        XCTAssertFalse(app.staticTexts["都复习完了"].exists, "an endless session must not end")
+        XCTAssertFalse(app.staticTexts["现在没有要学的"].exists)
         XCTAssertTrue(libraryButton.exists, "the library must stay one tap away mid-session")
     }
 
@@ -182,7 +182,10 @@ final class VocabLoopUITests: XCTestCase {
         let tabBar = reachMainTabs()
         attach(name: "01-today")
 
-        for (index, label) in ["Browse", "Decks", "Progress", "Settings"].enumerated() {
+        // Tab labels are Chinese; the attachment names stay ASCII so the files sort and open
+        // anywhere.
+        let tabs = [("浏览", "browse"), ("词库", "decks"), ("进度", "progress"), ("设置", "settings")]
+        for (index, (label, fileName)) in tabs.enumerated() {
             let tab = tabBar.buttons[label]
             guard tab.waitForExistence(timeout: 5) else {
                 XCTFail("\(label) tab is missing")
@@ -190,12 +193,12 @@ final class VocabLoopUITests: XCTestCase {
             }
             tab.tap()
             // Numbered so the attachments sort in tab order rather than alphabetically.
-            attach(name: String(format: "%02d-%@", index + 2, label.lowercased()))
+            attach(name: String(format: "%02d-%@", index + 2, fileName))
         }
 
         // One screen deeper, because a word's detail view is the densest layout in the app and so
         // the most likely to clip or overflow at a real width.
-        tabBar.buttons["Browse"].tap()
+        tabBar.buttons["浏览"].tap()
         let firstWord = app.cells.firstMatch
         if firstWord.waitForExistence(timeout: 10), scrollToHit(firstWord, attempts: 2) {
             firstWord.tap()
@@ -232,15 +235,16 @@ final class VocabLoopUITests: XCTestCase {
 
     /// Buttons that move the first-run flow forward, most-specific first.
     ///
-    /// Ordered so the terminal actions win: on the last onboarding step both "Start learning" and
-    /// nothing else is present, but checking "Continue" first would be wrong the moment a screen
-    /// shows both.
+    /// Ordered so the terminal actions win: on the last onboarding step both "开始学习" (Start
+    /// learning) and nothing else is present, but checking "继续" (Continue) first would be wrong
+    /// the moment a screen shows both. ("Get started" was dropped: no screen offers it, in
+    /// English or Chinese.)
     private static let firstRunAdvanceButtons = [
-        "Continue without an account", "Start learning", "Continue", "Get started",
+        "不注册，直接使用", "开始学习", "继续",
     ]
 
     /// The root session's leading button, which opens the tabs.
-    private var libraryButton: XCUIElement { app.buttons["Open library"] }
+    private var libraryButton: XCUIElement { app.buttons["打开词库"] }
 
     /// Drive the first-run screens until the tab bar is up.
     ///

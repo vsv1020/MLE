@@ -11,11 +11,11 @@ enum ShareCardFixtures {
     )
     static let streak = StreakCard(streak: 7, longest: 12, look: look, level: 6)
     static let badge = BadgeCard(
-        id: .night_owl, name: "Night owl", detail: "Study after 9 pm",
+        id: .night_owl, name: "夜猫子", detail: "在晚上 10 点到凌晨 2 点之间学习。",
         symbolName: "moon.stars.fill", unlockedAt: Date(timeIntervalSince1970: 1_789_000_000),
         look: look, level: 6
     )
-    static let mochi = MochiCard(look: look, level: 6, candy: 1_240, stageName: "Little Mochi")
+    static let mochi = MochiCard(look: look, level: 6, candy: 1_240, stageName: "小麻薯")
     static let word = WordCard(
         headword: "ubiquitous", phonetic: "/juːˈbɪk.wɪ.təs/",
         definition: "seeming to be everywhere at the same time",
@@ -23,7 +23,7 @@ enum ShareCardFixtures {
         languageCode: "en", look: look
     )
     static let album = AlbumCard(
-        albumTitle: "A1 Nouns · Page 3", familyTitle: "Nouns", albumLevel: "A1",
+        albumTitle: "A1 名词 · 第 3 页", familyTitle: "名词", albumLevel: "A1",
         page: 3, stickerCount: 12, look: look, level: 6
     )
     static let recap = WeeklyRecap(
@@ -36,7 +36,7 @@ enum ShareCardFixtures {
             RecapWord(entryStableID: "a", headword: "because", translation: "因为"),
             RecapWord(entryStableID: "b", headword: "window", translation: "窗户"),
         ],
-        headline: "This week you mastered 12 words"
+        headline: "这周你掌握了 12 个单词"
     )
 
     /// One per ``ShareCard`` case. The switch keeps it exhaustive: a new case fails to compile
@@ -87,7 +87,7 @@ final class ShareCardRendererTests: XCTestCase {
         defer { try? FileManager.default.removeItem(at: directory) }
         let card = ShareCard.streak(ShareCardFixtures.streak)
         let rendered = try XCTUnwrap(ShareCardRenderer.render(card, to: directory))
-        XCTAssertEqual(rendered.headline, "7 days in a row")
+        XCTAssertEqual(rendered.headline, "连续打卡 7 天")
         XCTAssertTrue(rendered.message.hasSuffix(AppLinks.appStore.absoluteString))
     }
 
@@ -98,19 +98,19 @@ final class ShareCardRendererTests: XCTestCase {
         let first = try XCTUnwrap(ShareCardRenderer.writePNG(card, to: directory))
         let second = try XCTUnwrap(ShareCardRenderer.writePNG(card, to: directory))
         XCTAssertEqual(first, second)
-        XCTAssertEqual(card.fileName, "VocabLoop-goal-2026-10-01.png")
+        XCTAssertEqual(card.fileName, "麻薯背单词-goal-2026-10-01.png")
     }
 
     func testFileNamesAreDistinctAndSafe() {
         let names = ShareCardFixtures.all.map(\.fileName)
         XCTAssertEqual(Set(names).count, names.count)
         for name in names {
-            XCTAssertTrue(name.hasPrefix("VocabLoop-") && name.hasSuffix(".png"), name)
+            XCTAssertTrue(name.hasPrefix("麻薯背单词-") && name.hasSuffix(".png"), name)
             XCTAssertFalse(name.dropLast(4).contains("."), name)
             XCTAssertFalse(name.contains("/"), name)
             XCTAssertFalse(name.contains(" "), name)
         }
-        XCTAssertEqual(ShareCard.week(ShareCardFixtures.recap).fileName, "VocabLoop-my-week-2026-09-25.png")
+        XCTAssertEqual(ShareCard.week(ShareCardFixtures.recap).fileName, "麻薯背单词-my-week-2026-09-25.png")
         XCTAssertEqual(ShareCard.sanitized("à la carte / c'est"), "à-la-carte-c-est")
         XCTAssertEqual(ShareCard.sanitized("///"), "card")
     }
@@ -125,7 +125,7 @@ final class ShareCardRendererTests: XCTestCase {
 
     func testRecapWrapperStillWritesTheWeek() throws {
         let url = try XCTUnwrap(RecapShareRenderer.writePNG(for: ShareCardFixtures.recap))
-        XCTAssertEqual(url.lastPathComponent, "VocabLoop-my-week-2026-09-25.png")
+        XCTAssertEqual(url.lastPathComponent, "麻薯背单词-my-week-2026-09-25.png")
         try? FileManager.default.removeItem(at: url)
     }
 }

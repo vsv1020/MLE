@@ -119,23 +119,24 @@ final class WardrobeTests: XCTestCase {
         let locks: [WardrobeLock] = [.level(8), .achievement(.night_owl), .plus]
         for lock in locks {
             let text = (WardrobeRules.label(for: lock) ?? "") + " " + WardrobeRules.spokenLock(for: lock)
-            for word in ["buy", "Buy", "$", "price", "Price", "purchase", "Purchase"] {
+            // The copy is Chinese: "buy", "price", "purchase", "pay" and the currency signs.
+            for word in ["买", "价格", "价钱", "购买", "付费", "付款", "$", "¥", "￥"] {
                 XCTAssertFalse(text.contains(word), "\(lock): \(text)")
             }
         }
-        XCTAssertEqual(WardrobeRules.label(for: .level(8)), "Level 8")
+        XCTAssertEqual(WardrobeRules.label(for: .level(8)), "8 级")
         XCTAssertEqual(WardrobeRules.label(for: .plus), "Plus")
-        XCTAssertEqual(WardrobeRules.label(for: .achievement(.night_owl)), "Night owl badge")
+        XCTAssertEqual(WardrobeRules.label(for: .achievement(.night_owl)), "夜猫子徽章")
         XCTAssertNil(WardrobeRules.label(for: .unlocked))
     }
 
     func testNextUnlockWalksTheLevelLadder() {
-        XCTAssertEqual(WardrobeRules.nextUnlock(after: 1)?.name, "Red scarf")
+        XCTAssertEqual(WardrobeRules.nextUnlock(after: 1)?.name, "红围巾")
         XCTAssertEqual(WardrobeRules.nextUnlock(after: 1)?.level, 2)
-        XCTAssertEqual(WardrobeRules.nextUnlock(after: 2)?.name, "Party hat", "an accessory before a colour on the same level")
+        XCTAssertEqual(WardrobeRules.nextUnlock(after: 2)?.name, "派对帽", "an accessory before a colour on the same level")
         XCTAssertEqual(WardrobeRules.nextUnlock(after: 6)?.level, 7)
-        XCTAssertEqual(WardrobeRules.nextUnlock(after: 6)?.name, "Blueberry colour")
-        XCTAssertEqual(WardrobeRules.nextUnlock(after: 10)?.name, "Cape")
+        XCTAssertEqual(WardrobeRules.nextUnlock(after: 6)?.name, "蓝莓（颜色）")
+        XCTAssertEqual(WardrobeRules.nextUnlock(after: 10)?.name, "披风")
         XCTAssertNil(WardrobeRules.nextUnlock(after: 12))
     }
 

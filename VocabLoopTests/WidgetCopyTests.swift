@@ -18,18 +18,18 @@ final class WidgetCopyTests: XCTestCase {
     }
 
     func testInline() {
-        XCTAssertEqual(WidgetCopy.inline(state()), "12 words due · 7-day streak")
-        XCTAssertEqual(WidgetCopy.inline(state(dueNow: 1, streak: 0)), "1 word due")
-        XCTAssertEqual(WidgetCopy.inline(state(dueNow: 0)), "All caught up")
-        XCTAssertEqual(WidgetCopy.inline(state(kind: .empty)), "Open VocabLoop")
-        XCTAssertEqual(WidgetCopy.inline(state(kind: .stale)), "Open VocabLoop")
+        XCTAssertEqual(WidgetCopy.inline(state()), "12 个单词待复习 · 连续打卡 7 天")
+        XCTAssertEqual(WidgetCopy.inline(state(dueNow: 1, streak: 0)), "1 个单词待复习")
+        XCTAssertEqual(WidgetCopy.inline(state(dueNow: 0)), "都复习完了")
+        XCTAssertEqual(WidgetCopy.inline(state(kind: .empty)), "打开麻薯背单词")
+        XCTAssertEqual(WidgetCopy.inline(state(kind: .stale)), "打开麻薯背单词")
     }
 
     func testRectangular() {
-        XCTAssertEqual(WidgetCopy.rectangularDetail(state()), "12 due · 8/30 today")
-        XCTAssertEqual(WidgetCopy.rectangularDetail(state(dailyGoal: 0)), "12 due")
-        XCTAssertEqual(WidgetCopy.rectangularDetail(state(kind: .stale)), "Mochi is waiting for you")
-        XCTAssertEqual(WidgetCopy.rectangularDetail(state(kind: .empty)), "Open VocabLoop to get started")
+        XCTAssertEqual(WidgetCopy.rectangularDetail(state()), "待复习 12 · 今天 8/30")
+        XCTAssertEqual(WidgetCopy.rectangularDetail(state(dailyGoal: 0)), "待复习 12")
+        XCTAssertEqual(WidgetCopy.rectangularDetail(state(kind: .stale)), "麻薯在等你")
+        XCTAssertEqual(WidgetCopy.rectangularDetail(state(kind: .empty)), "打开麻薯背单词，开始学习")
     }
 
     func testMochiMood() {
@@ -40,9 +40,10 @@ final class WidgetCopyTests: XCTestCase {
         XCTAssertEqual(WidgetCopy.mochiMood(state(kind: .empty)), .curious)
     }
 
-    /// Kids audience: nothing counts what did not happen.
+    /// Kids audience: nothing counts what did not happen. The copy is Chinese, so the banned
+    /// words are the Chinese for "missed | only | failed | 0 left".
     func testNoCopyCountsWhatDidNotHappen() throws {
-        let banned = try NSRegularExpression(pattern: "missed|only|failed|0 left", options: [.caseInsensitive])
+        let banned = try NSRegularExpression(pattern: "错过|只有|仅|失败|剩 ?0(?![0-9])", options: [])
         var lines: [String] = [WidgetCopy.emptyTitle, WidgetCopy.staleTitle, WidgetCopy.caughtUp, WidgetCopy.openApp]
         for kind in [WidgetDisplayState.Kind.empty, .stale, .current] {
             for due in [0, 1, 12] {

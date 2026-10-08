@@ -20,7 +20,7 @@ final class CollectionPagingTests: XCTestCase {
         XCTAssertEqual(albums.map(\.page), [1, 2, 3])
         XCTAssertEqual(albums[0].id, "en|A1|nouns|1")
         XCTAssertEqual(albums[2].id, "en|A1|nouns|3")
-        XCTAssertEqual(albums[2].title, "A1 Nouns · Page 3")
+        XCTAssertEqual(albums[2].title, "A1 名词 · 第 3 页")
         XCTAssertEqual(albums[0].entryStableIDs.first, "en:w00:1")
         XCTAssertEqual(albums[2].entryStableIDs.last, "en:w29:1")
     }

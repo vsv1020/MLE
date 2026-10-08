@@ -1,11 +1,11 @@
 import XCTest
 @testable import VocabLoop
 
-/// Recap wording (engagement plan §1.9, §1.10): singular, plural and a kind zero, plus the small
-/// pure helpers the recap surfaces share.
+/// Recap wording (engagement plan §1.9, §1.10): one, many and a kind zero, plus the small pure
+/// helpers the recap surfaces share. The copy is Chinese, which has no plural forms.
 final class RecapHeadlineTests: XCTestCase {
     func testZeroIsKind() {
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 0), "This week you kept your words growing")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 0), "这一周你的单词还在不断积累")
     }
 
     func testNegativeIsTreatedAsZero() {
@@ -13,41 +13,44 @@ final class RecapHeadlineTests: XCTestCase {
     }
 
     func testOneIsSingular() {
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 1), "This week you mastered 1 word")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 1), "这一周你掌握了 1 个单词")
     }
 
     func testManyIsPlural() {
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 2), "This week you mastered 2 words")
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 42), "This week you mastered 42 words")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 2), "这一周你掌握了 2 个单词")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 42), "这一周你掌握了 42 个单词")
     }
 
     func testHeadlineNeverMentionsFailure() {
         for count in [0, 1, 5] {
-            let text = (RecapCopy.headline(wordsMastered: count) + RecapCopy.parentHeadline(wordsMastered: count)).lowercased()
-            for word in ["fail", "only", "missed", "lost"] {
+            let text = RecapCopy.headline(wordsMastered: count) + RecapCopy.parentHeadline(wordsMastered: count)
+            // The Chinese for "fail", "only", "missed" and "lost".
+            for word in ["失败", "只有", "仅", "错过", "丢", "失去"] {
                 XCTAssertFalse(text.contains(word), "“\(text)” contains “\(word)”")
             }
         }
     }
 
     func testParentHeadline() {
-        XCTAssertEqual(RecapCopy.parentHeadline(wordsMastered: 1), "1 word reached “well known” this week")
-        XCTAssertEqual(RecapCopy.parentHeadline(wordsMastered: 9), "9 words reached “well known” this week")
+        XCTAssertEqual(RecapCopy.parentHeadline(wordsMastered: 1), "本周有 1 个单词达到“记得很牢”")
+        XCTAssertEqual(RecapCopy.parentHeadline(wordsMastered: 9), "本周有 9 个单词达到“记得很牢”")
     }
 
     func testCounts() {
-        XCTAssertEqual(RecapCopy.count(1, "review"), "1 review")
-        XCTAssertEqual(RecapCopy.count(0, "review"), "0 reviews")
-        XCTAssertEqual(RecapCopy.count(3, "try", "tries"), "3 tries")
-        XCTAssertEqual(RecapCopy.daysStudied([true, false, true, true, false, false, true]), "4 of 7 days")
+        // Chinese has no plural: the count is the number, a space and the unit, and the
+        // optional plural argument is ignored.
+        XCTAssertEqual(RecapCopy.count(1, "次复习"), "1 次复习")
+        XCTAssertEqual(RecapCopy.count(0, "次复习"), "0 次复习")
+        XCTAssertEqual(RecapCopy.count(3, "次", "tries"), "3 次")
+        XCTAssertEqual(RecapCopy.daysStudied([true, false, true, true, false, false, true]), "7 天中学了 4 天")
         XCTAssertEqual(RecapCopy.percent(nil), "—")
         XCTAssertEqual(RecapCopy.percent(0.856), "86%")
     }
 
     func testWeekOnWeekDelta() {
-        XCTAssertEqual(RecapCopy.delta(12), "+12 vs last week")
-        XCTAssertEqual(RecapCopy.delta(-3), "\u{2212}3 vs last week")
-        XCTAssertEqual(RecapCopy.delta(0), "Same as last week")
+        XCTAssertEqual(RecapCopy.delta(12), "比上周 +12")
+        XCTAssertEqual(RecapCopy.delta(-3), "比上周 \u{2212}3")
+        XCTAssertEqual(RecapCopy.delta(0), "和上周一样")
         XCTAssertEqual(RecapCopy.Trend(delta: 5), .up)
         XCTAssertEqual(RecapCopy.Trend(delta: -5), .down)
         XCTAssertEqual(RecapCopy.Trend(delta: 0), .same)
@@ -55,12 +58,12 @@ final class RecapHeadlineTests: XCTestCase {
 
     func testParentNotesExplainAccuracyAndStayOnDevice() {
         let notes = RecapCopy.parentNotes(accuracy: 0.85, reviews: 120, daysStudied: 5, streak: 9, trickyCount: 2)
-        XCTAssertTrue(notes.contains { $0.contains("scheduler working as intended") })
-        XCTAssertTrue(notes.contains { $0.contains("Nothing is sent anywhere") })
-        XCTAssertTrue(notes.contains { $0.contains("worth another look") })
+        XCTAssertTrue(notes.contains { $0.contains("复习安排正常运作") })
+        XCTAssertTrue(notes.contains { $0.contains("不会发送到任何地方") })
+        XCTAssertTrue(notes.contains { $0.contains("值得再看看") })
 
         let empty = RecapCopy.parentNotes(accuracy: nil, reviews: 0, daysStudied: 0, streak: 0, trickyCount: 0)
-        XCTAssertTrue(empty.first?.contains("Nothing is lost") ?? false)
+        XCTAssertTrue(empty.first?.contains("什么都不会丢") ?? false)
     }
 
     func testWeekdayInitialReadsTheKeyNotTheDevice() {

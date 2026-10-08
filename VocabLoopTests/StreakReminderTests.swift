@@ -172,14 +172,15 @@ final class StreakReminderTests: XCTestCase {
 
     func testCopyIsKind() {
         XCTAssertEqual(NotificationService.streakRiskIdentifier, "vocabloop.streak.risk")
-        XCTAssertEqual(NotificationService.streakReminderTitle, "A few words before bed?")
+        XCTAssertEqual(NotificationService.streakReminderTitle, "睡前背几个单词吗？")
         let body = NotificationService.streakReminderBody(streak: 5)
         XCTAssertEqual(
             body,
-            "Your 5-day streak is waiting for today. Three words keep it going — Mochi saved your spot."
+            "你已经连续打卡 5 天，今天也在等你。背 3 个单词就能接上 —— 麻薯给你留好了位置。"
         )
-        for banned in ["lose", "break", "don't let"] {
-            XCTAssertFalse(body.lowercased().contains(banned), banned)
+        // The copy is Chinese: the Chinese for "lose", "break" and "don't let".
+        for banned in ["失去", "丢", "断", "别让", "不要让"] {
+            XCTAssertFalse(body.contains(banned), banned)
         }
     }
 }

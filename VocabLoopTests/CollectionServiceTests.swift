@@ -69,7 +69,7 @@ final class CollectionServiceTests: XCTestCase {
         let albums = try service.albums(languageCode: "en")
         XCTAssertEqual(albums.map(\.id), ["en|A1|nouns|1", "en|A1|nouns|2", "en|A1|verbs|1", "en|C1|verbs|1"])
         XCTAssertEqual(albums.map(\.entryStableIDs.count), [12, 2, 1, 1])
-        XCTAssertEqual(albums[1].title, "A1 Nouns · Page 2")
+        XCTAssertEqual(albums[1].title, "A1 名词 · 第 2 页")
         XCTAssertTrue(try service.albums(languageCode: "fr").isEmpty, "no French words, no French albums")
     }
 

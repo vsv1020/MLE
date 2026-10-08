@@ -84,7 +84,7 @@ final class StudyViewModelComboTests: XCTestCase {
             "a run of six that ends is celebrated as a run of six"
         )
         XCTAssertEqual(
-            RewardToast.message(for: .comboEnded(best: 6))?.text, "Nice run: 6 in a row!",
+            RewardToast.message(for: .comboEnded(best: 6))?.text, "真棒：连对了 6 个！",
             "the break itself is never mentioned"
         )
     }

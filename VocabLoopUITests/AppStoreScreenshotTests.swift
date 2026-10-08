@@ -38,7 +38,7 @@ final class AppStoreScreenshotTests: XCTestCase {
 
     func testAppStoreScreenshots() throws {
         // A wiped install imports every word pack before the first card: give it time.
-        let showAnswer = app.buttons["Show answer"]
+        let showAnswer = app.buttons["显示答案"]
         XCTAssertTrue(showAnswer.waitForExistence(timeout: 240), "the study screen never showed a card")
         settle(1.5)
 
@@ -46,7 +46,7 @@ final class AppStoreScreenshotTests: XCTestCase {
         for _ in 0..<3 { gradeFlipCardGood() }
 
         // 01 — the fourth card, front side, with the combo and candy under the top bar. Long
-        // enough after the "3 in a row" toast (1.6 s) for it to have gone.
+        // enough after the "连对 3 个！" toast (1.6 s) for it to have gone.
         XCTAssertTrue(showAnswer.waitForExistence(timeout: 10), "the fourth card is not a flip card")
         settle(3)
         capture("01-study")
@@ -57,7 +57,7 @@ final class AppStoreScreenshotTests: XCTestCase {
         XCTAssertTrue(correct.waitForExistence(timeout: 10), "the fifth card is not a multiple-choice question")
         settle(1.5)
         correct.tap()
-        let continueButton = app.buttons["Continue"]
+        let continueButton = app.buttons["继续"]
         XCTAssertTrue(continueButton.waitForExistence(timeout: 10), "an answered quiz must offer Continue")
         settle(2)
         capture("02-quiz")
@@ -72,10 +72,10 @@ final class AppStoreScreenshotTests: XCTestCase {
         capture("03-goal")
 
         // 04 — Mochi's room, from the Mochi peeking over the next card.
-        let keepGoing = app.buttons["Keep going"]
+        let keepGoing = app.buttons["继续背"]
         XCTAssertTrue(keepGoing.waitForExistence(timeout: 5))
         keepGoing.tap()
-        let mochi = app.buttons["Mochi"]
+        let mochi = app.buttons["麻薯"]
         XCTAssertTrue(mochi.waitForExistence(timeout: 15), "Mochi must peek over the next card")
         settle(1.5)
         mochi.tap()
@@ -85,18 +85,18 @@ final class AppStoreScreenshotTests: XCTestCase {
         capture("04-mochi")
 
         // 05 — the sticker book, opened on the finished first page.
-        let stickersTab = sections.buttons["Stickers"]
+        let stickersTab = sections.buttons["贴纸"]
         XCTAssertTrue(stickersTab.waitForExistence(timeout: 5))
         stickersTab.tap()
         settle(1.5)
         let completePage = app.descendants(matching: .any)
-            .matching(NSPredicate(format: "label CONTAINS %@ AND label CONTAINS %@", "page 1.", "Complete"))
+            .matching(NSPredicate(format: "label CONTAINS %@ AND label CONTAINS %@", "第 1 页。", "已集齐"))
             .firstMatch
         var pushedAlbum = false
         if completePage.waitForExistence(timeout: 10) {
             completePage.tap()
-            // The page's own title, "A1 Nouns · Page 1", and the navigation title both say so.
-            let pageTitle = app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "Page 1")).firstMatch
+            // The page's own title, "A1 名词 · 第 1 页", and the navigation title both say so.
+            let pageTitle = app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "第 1 页")).firstMatch
             pushedAlbum = pageTitle.waitForExistence(timeout: 10)
             XCTAssertTrue(pushedAlbum, "the finished sticker page did not open")
         } else {
@@ -112,7 +112,7 @@ final class AppStoreScreenshotTests: XCTestCase {
             if back.exists { back.tap() }
             settle(1)
         }
-        let done = app.navigationBars.buttons["Done"].firstMatch
+        let done = app.navigationBars.buttons["完成"].firstMatch
         if done.waitForExistence(timeout: 5) {
             done.tap()
         } else {
@@ -125,21 +125,21 @@ final class AppStoreScreenshotTests: XCTestCase {
         // comes from the iPhone run.
         if UIDevice.current.userInterfaceIdiom == .pad { return }
 
-        // 06 — Settings ▸ VocabLoop Plus, the in-app purchase review screenshot.
-        let library = app.buttons["Open library"]
+        // 06 — 设置 ▸ 麻薯 Plus, the in-app purchase review screenshot.
+        let library = app.buttons["打开词库"]
         XCTAssertTrue(library.waitForExistence(timeout: 10))
         library.tap()
-        let settingsTab = app.tabBars.buttons["Settings"]
+        let settingsTab = app.tabBars.buttons["设置"]
         XCTAssertTrue(settingsTab.waitForExistence(timeout: 10), "the library did not open")
         settingsTab.tap()
         var plusRow = app.buttons["settings.plus"]
         if !plusRow.waitForExistence(timeout: 10) {
-            plusRow = app.staticTexts["VocabLoop Plus"].firstMatch
+            plusRow = app.staticTexts["麻薯 Plus"].firstMatch
         }
-        XCTAssertTrue(plusRow.waitForExistence(timeout: 5), "Settings has no VocabLoop Plus row")
+        XCTAssertTrue(plusRow.waitForExistence(timeout: 5), "Settings has no 麻薯 Plus row")
         plusRow.tap()
         XCTAssertTrue(app.staticTexts["plus.title"].waitForExistence(timeout: 10), "the Plus page did not open")
-        let buy = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "Unlock Plus")).firstMatch
+        let buy = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "解锁麻薯 Plus")).firstMatch
         XCTAssertTrue(buy.waitForExistence(timeout: 15), "the Plus page must show its purchase button")
         settle(2)
         capture("06-plus")
@@ -147,12 +147,12 @@ final class AppStoreScreenshotTests: XCTestCase {
 
     // MARK: - Helpers
 
-    /// Reveal the current flip card and grade it "Good", then let the next card arrive.
+    /// Reveal the current flip card and grade it "Good" (记得), then let the next card arrive.
     private func gradeFlipCardGood(file: StaticString = #filePath, line: UInt = #line) {
-        let showAnswer = app.buttons["Show answer"]
+        let showAnswer = app.buttons["显示答案"]
         XCTAssertTrue(showAnswer.waitForExistence(timeout: 15), "expected a flip card", file: file, line: line)
         showAnswer.tap()
-        let good = app.buttons["Good — I remembered it"]
+        let good = app.buttons["记得 —— 我想起来了"]
         XCTAssertTrue(good.waitForExistence(timeout: 10), "the rating bar did not appear", file: file, line: line)
         settle(0.6)
         good.tap()
