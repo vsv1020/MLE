@@ -34,3 +34,6 @@ fastlane/screenshots/**/*.png
 # Local secrets / config overrides
 Config/Local.xcconfig
 *.local.plist
+
+# Claude Code agent worktrees
+.claude/worktrees/
