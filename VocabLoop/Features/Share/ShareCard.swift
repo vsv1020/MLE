@@ -196,7 +196,7 @@ struct WordCard: Equatable, Sendable {
         guard !entry.isUserCreated else { return nil }
         let senses = entry.orderedSenses
         guard let sense = senses.first else { return nil }
-        let definition = sense.definition.trimmingCharacters(in: .whitespacesAndNewlines)
+        let definition = sense.meaning.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !definition.isEmpty else { return nil }
         let example = sense.examples.first ?? senses.lazy.compactMap { $0.examples.first }.first
         let phonetic = entry.phonetic?.trimmingCharacters(in: .whitespacesAndNewlines)

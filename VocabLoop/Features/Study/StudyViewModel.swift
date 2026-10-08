@@ -235,7 +235,7 @@ final class StudyViewModel {
         // which is the app as it was — not worth an alert.
         try? dependencies.questions.prepare(
             languageCode: options.languageCode ?? preferences.activeLanguageCode,
-            nativeCodes: preferences.nativeLanguageCodes
+            nativeCodes: preferences.readingLanguageCodes
         )
         refreshQuestion(dependencies: dependencies, now: now)
 

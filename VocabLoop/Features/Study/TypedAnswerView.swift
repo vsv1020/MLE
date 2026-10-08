@@ -23,10 +23,6 @@ struct TypedAnswerView: View {
 
     private var entry: Entry? { card.entry }
 
-    private var nativeCodes: [String] {
-        dependencies.preferences?.nativeLanguageCodes ?? ["en"]
-    }
-
     private var trimmed: String {
         text.trimmingCharacters(in: .whitespacesAndNewlines)
     }
@@ -89,11 +85,6 @@ struct TypedAnswerView: View {
                     .font(Typography.wordTitle)
                     .foregroundStyle(Palette.textPrimary)
                     .fixedSize(horizontal: false, vertical: true)
-                if let translation = entry?.primarySense?.translation(preferring: nativeCodes) {
-                    Text(translation)
-                        .font(Typography.body)
-                        .foregroundStyle(Palette.textSecondary)
-                }
             }
             if let pos = entry?.primarySense?.partOfSpeech {
                 Chip(pos.displayName)

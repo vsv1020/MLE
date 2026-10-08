@@ -19,7 +19,7 @@ struct FlashcardView: View {
     }
 
     private var nativeCodes: [String] {
-        dependencies.preferences?.nativeLanguageCodes ?? ["en"]
+        StudyPreferences.readingCodes(dependencies.preferences?.nativeLanguageCodes)
     }
 
     private var showPhonetics: Bool {
@@ -108,11 +108,6 @@ struct FlashcardView: View {
                     .font(Typography.wordTitle)
                     .foregroundStyle(Palette.textPrimary)
                     .fixedSize(horizontal: false, vertical: true)
-                if let translation = entry?.primarySense?.translation(preferring: nativeCodes) {
-                    Text(translation)
-                        .font(Typography.body)
-                        .foregroundStyle(Palette.textSecondary)
-                }
                 if let pos = entry?.primarySense?.partOfSpeech {
                     Chip(pos.displayName)
                 }
@@ -262,16 +257,10 @@ struct FlashcardView: View {
             // A production card already asked with the definition, so repeating it as the
             // answer would be circular. Recognition and cloze both benefit from seeing it.
             if card.direction != .production || index > 0 {
-                Text(sense.definition)
+                Text(sense.meaning)
                     .font(Typography.body)
                     .foregroundStyle(Palette.textPrimary)
                     .fixedSize(horizontal: false, vertical: true)
-            }
-
-            if let translation = sense.translation(preferring: nativeCodes) {
-                Text(translation)
-                    .font(Typography.body)
-                    .foregroundStyle(Palette.textSecondary)
             }
 
             ForEach(sense.examples) { example in

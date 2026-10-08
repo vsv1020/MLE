@@ -18,7 +18,7 @@ struct DailyWordCard: View {
     }
 
     private var nativeCodes: [String] {
-        dependencies.preferences?.nativeLanguageCodes ?? ["en"]
+        StudyPreferences.readingCodes(dependencies.preferences?.nativeLanguageCodes)
     }
 
     var body: some View {
@@ -27,16 +27,10 @@ struct DailyWordCard: View {
                 headerRow
 
                 if let sense = entry.primarySense {
-                    Text(sense.definition)
+                    Text(sense.meaning)
                         .font(Typography.body)
                         .foregroundStyle(Palette.textPrimary)
                         .fixedSize(horizontal: false, vertical: true)
-
-                    if let translation = sense.translation(preferring: nativeCodes) {
-                        Text(translation)
-                            .font(Typography.body)
-                            .foregroundStyle(Palette.textSecondary)
-                    }
 
                     if let example = sense.examples.first {
                         exampleView(example)

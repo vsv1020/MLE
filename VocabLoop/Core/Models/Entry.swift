@@ -125,8 +125,9 @@ public final class Entry {
 
     public var primarySense: Sense? { orderedSenses.first }
 
-    /// One-line gloss for list rows and notifications.
-    public var primaryDefinition: String { primarySense?.definition ?? "" }
+    /// One-line gloss for list rows, prompts, Siri and notifications: the Chinese meaning of the
+    /// first sense, or its definition when it has no Chinese (a word the user added).
+    public var primaryDefinition: String { primarySense?.meaning ?? "" }
 
     /// `true` once the user has enrolled this word — i.e. it has cards.
     public var isEnrolled: Bool { !cards.isEmpty }
@@ -250,6 +251,16 @@ public final class Sense {
 
     /// Translation for the user's native language, falling back through the app's
     /// preferred languages before giving up.
+    /// What the learner reads as this sense's meaning. The interface is Chinese, so it is the
+    /// Chinese translation; the English definition only stands in when there is none.
+    public var meaning: String {
+        if let chinese = translation(preferring: ["zh"])?.trimmingCharacters(in: .whitespacesAndNewlines),
+           !chinese.isEmpty {
+            return chinese
+        }
+        return definition
+    }
+
     public func translation(preferring codes: [String]) -> String? {
         for code in codes {
             if let hit = translations[code] { return hit }

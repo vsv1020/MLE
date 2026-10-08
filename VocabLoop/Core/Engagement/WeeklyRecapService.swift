@@ -160,7 +160,7 @@ public final class WeeklyRecapService {
         let startedIDs = Self.startedWordIDs(logs: thisWeek)
         let words = try recapWords(
             stableIDs: Array(Set(trickyIDs + nailedIDs + startedIDs)),
-            nativeCodes: preferences.nativeLanguageCodes
+            nativeCodes: preferences.readingLanguageCodes
         )
 
         let profile = try engagement.profile()

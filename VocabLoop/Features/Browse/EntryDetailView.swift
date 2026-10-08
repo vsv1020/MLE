@@ -51,7 +51,7 @@ struct EntryDetailView: View {
     }
 
     private var nativeCodes: [String] {
-        dependencies.preferences?.nativeLanguageCodes ?? ["en"]
+        StudyPreferences.readingCodes(dependencies.preferences?.nativeLanguageCodes)
     }
 
     var body: some View {
@@ -218,16 +218,10 @@ struct EntryDetailView: View {
                         Chip(register, color: Palette.warning)
                     }
                 }
-                Text(sense.definition)
+                Text(sense.meaning)
                     .font(Typography.body)
                     .foregroundStyle(Palette.textPrimary)
                     .fixedSize(horizontal: false, vertical: true)
-
-                if let translation = sense.translation(preferring: nativeCodes) {
-                    Text(translation)
-                        .font(Typography.body)
-                        .foregroundStyle(Palette.textSecondary)
-                }
 
                 ForEach(sense.examples) { example in
                     VStack(alignment: .leading, spacing: 2) {

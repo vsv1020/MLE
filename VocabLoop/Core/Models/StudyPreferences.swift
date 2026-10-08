@@ -17,6 +17,14 @@ public final class StudyPreferences {
     /// is picked out of a sense's `translations` dictionary.
     public var nativeLanguageCodes: [String]
 
+    /// The languages translations are read in. The interface is Chinese, so Chinese comes first
+    /// whatever the device is set to; the device's languages follow as fallbacks.
+    public var readingLanguageCodes: [String] { StudyPreferences.readingCodes(nativeLanguageCodes) }
+
+    public static func readingCodes(_ native: [String]?) -> [String] {
+        ["zh"] + (native ?? ["en"]).filter { !$0.lowercased().hasPrefix("zh") }
+    }
+
     // MARK: Daily targets
 
     /// Reviews per day the progress ring fills toward. **`0` means no goal is set.**

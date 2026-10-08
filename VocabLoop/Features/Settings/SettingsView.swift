@@ -424,16 +424,6 @@ struct LanguageSettingsView: View {
                     Text("切换语言会改变你浏览和学习的内容。另一种语言的进度会保留，不会清零。")
                 }
 
-                Section {
-                    ForEach(preferences.nativeLanguageCodes, id: \.self) { code in
-                        Text(Locale.current.localizedString(forLanguageCode: code) ?? code)
-                            .foregroundStyle(Palette.textSecondary)
-                    }
-                } header: {
-                    Text("你的语言")
-                } footer: {
-                    Text("取自设备设置，用来决定显示哪种翻译。词库带有英文和中文翻译。")
-                }
             }
         }
         .navigationTitle("语言")
