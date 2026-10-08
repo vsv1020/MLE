@@ -25,8 +25,8 @@ final class AppStoreScreenshotTests: XCTestCase {
         // Deliberately not `-uiTestingFlipOnly`: the second screenshot is a quiz.
         app.launchArguments = [
             "-appStoreScreenshots",
-            "-AppleLanguages", "(en)",
-            "-AppleLocale", "en_US",
+            "-AppleLanguages", "(zh-Hans)",
+            "-AppleLocale", "zh_CN",
         ]
         app.launch()
     }

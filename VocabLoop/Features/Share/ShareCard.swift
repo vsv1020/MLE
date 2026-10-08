@@ -57,7 +57,7 @@ enum ShareCard: Sendable {
     var accessibilityLabel: String { "分享卡片：\(headline)" }
 
     /// Stable for the same card, so a re-render overwrites rather than piling up files, e.g.
-    /// `VocabLoop-goal-2026-10-01.png`.
+    /// `麻薯背单词-goal-2026-10-01.png`.
     var fileName: String {
         let stem: String
         switch self {

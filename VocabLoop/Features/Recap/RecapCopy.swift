@@ -14,9 +14,9 @@ enum RecapCopy {
     /// "This week you mastered 42 words", with the singular and a kind zero.
     static func headline(wordsMastered: Int) -> String {
         switch wordsMastered {
-        case ..<1: return "这一周你的单词还在不断积累"
-        case 1: return "这一周你掌握了 1 个单词"
-        default: return "这一周你掌握了 \(wordsMastered) 个单词"
+        case ..<1: return "这周你的单词一直在长大"
+        case 1: return "这周你掌握了 1 个单词"
+        default: return "这周你掌握了 \(wordsMastered) 个单词"
         }
     }
 

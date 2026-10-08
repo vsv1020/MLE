@@ -184,7 +184,7 @@ public enum StudyActivityCopy {
         for state: StudyActivityState, dailyGoal: Int, isStale: Bool = false
     ) -> String {
         var parts = [progress(reviewsToday: state.reviewsToday, dailyGoal: dailyGoal)]
-        if StudyActivityPolicy.showsCombo(state.combo) { parts.append("连对 \(state.combo) 张") }
+        if StudyActivityPolicy.showsCombo(state.combo) { parts.append("连对 \(state.combo) 个") }
         if state.streak > 0 { parts.append(streak(state.streak)) }
         parts.append(line(for: state, isStale: isStale))
         return parts.joined(separator: "，")

@@ -5,7 +5,7 @@ import XCTest
 /// helpers the recap surfaces share. The copy is Chinese, which has no plural forms.
 final class RecapHeadlineTests: XCTestCase {
     func testZeroIsKind() {
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 0), "这一周你的单词还在不断积累")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 0), "这周你的单词一直在长大")
     }
 
     func testNegativeIsTreatedAsZero() {
@@ -13,12 +13,12 @@ final class RecapHeadlineTests: XCTestCase {
     }
 
     func testOneIsSingular() {
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 1), "这一周你掌握了 1 个单词")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 1), "这周你掌握了 1 个单词")
     }
 
     func testManyIsPlural() {
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 2), "这一周你掌握了 2 个单词")
-        XCTAssertEqual(RecapCopy.headline(wordsMastered: 42), "这一周你掌握了 42 个单词")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 2), "这周你掌握了 2 个单词")
+        XCTAssertEqual(RecapCopy.headline(wordsMastered: 42), "这周你掌握了 42 个单词")
     }
 
     func testHeadlineNeverMentionsFailure() {

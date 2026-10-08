@@ -90,6 +90,6 @@ enum RecapShareRenderer {
             RecapWord(entryStableID: "b", headword: "window", translation: "窗户"),
             RecapWord(entryStableID: "c", headword: "brave", translation: "勇敢"),
         ],
-        headline: "这一周你掌握了 12 个单词"
+        headline: "这周你掌握了 12 个单词"
     ))
 }
