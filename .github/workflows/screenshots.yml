@@ -4,8 +4,8 @@ name: App Store screenshots
 # them to docs/appstore/screenshots/ on main.
 #
 # Run it from Actions ▸ App Store screenshots ▸ Run workflow, or by changing the SCREENSHOTS file
-# on main (any edit — a new date is fine). Run from another branch, it only uploads the
-# screenshots as artifacts (a preview) and commits nothing.
+# on main (any edit — a new date is fine). Run from another branch, it commits a preview to
+# docs/appstore/preview/ on that branch instead.
 #
 # The app is launched with `-appStoreScreenshots` (debug builds only): it wipes itself to a fresh
 # install and seeds a demo library — see VocabLoop/App/AppStoreScreenshots.swift. The capture is
@@ -15,7 +15,7 @@ name: App Store screenshots
 on:
   workflow_dispatch:
   push:
-    # On the development branch a SCREENSHOTS change makes a preview (no commit, see below).
+    # On the development branch a SCREENSHOTS change makes a preview (see the last step).
     branches: [main, claude/english-vocab-ios-app-2r5um5]
     paths: [SCREENSHOTS]
 
@@ -174,8 +174,6 @@ jobs:
           if-no-files-found: ignore
 
       - name: Commit to main
-        # Only a run started from main commits. From another branch (Run workflow ▸ branch) the
-        # screenshots are a preview: download them from the run's artifacts.
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
@@ -196,4 +194,28 @@ jobs:
             echo "main moved; rebasing once and retrying"
             git pull --rebase origin main
             git push origin main
+          fi
+
+      # From any other branch the screenshots are a preview: they go to docs/appstore/preview/ on
+      # that branch, never to main and never to the folders the App Store listing uploads.
+      - name: Commit the preview to the branch
+        if: github.ref != 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="${GITHUB_REF#refs/heads/}"
+          git fetch origin "$branch"
+          git checkout -B "$branch" "origin/$branch"
+          dest="docs/appstore/preview/${{ matrix.device }}"
+          mkdir -p "$dest"
+          for name in $NAMES; do cp "$RUNNER_TEMP/shots/$name.png" "$dest/$name.png"; done
+          git add "$dest"
+          if git diff --cached --quiet; then
+            echo "Preview unchanged; nothing to commit."
+            exit 0
+          fi
+          git commit -m "Screenshot preview (${{ matrix.device }}) [skip ci]"
+          if ! git push origin "$branch"; then
+            git pull --rebase origin "$branch"
+            git push origin "$branch"
           fi
