@@ -46,20 +46,20 @@ public enum Rating: Int, Codable, CaseIterable, Hashable, Sendable, Identifiable
     /// more answerable question than "Hard".
     public var shortLabel: String {
         switch self {
-        case .again: "Forgot"
-        case .hard: "Slow"
-        case .good: "Got it"
-        case .easy: "Instant"
+        case .again: "忘了"
+        case .hard: "有点难"
+        case .good: "记得"
+        case .easy: "很简单"
         }
     }
 
     /// Spoken by VoiceOver, and used as the accessibility label on the rating bar.
     public var accessibilityDescription: String {
         switch self {
-        case .again: "Again — I did not remember this"
-        case .hard: "Hard — I remembered it with difficulty"
-        case .good: "Good — I remembered it"
-        case .easy: "Easy — I remembered it immediately"
+        case .again: "忘了 —— 我没想起来"
+        case .hard: "有点难 —— 想了好久才想起来"
+        case .good: "记得 —— 我想起来了"
+        case .easy: "很简单 —— 一下就想起来了"
         }
     }
 }

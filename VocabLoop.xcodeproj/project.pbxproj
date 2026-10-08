@@ -239,7 +239,7 @@
 				};
 			};
 			buildConfigurationList = 1A2B3C00000000000000000D /* Build configuration list for PBXProject "VocabLoop" */;
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,

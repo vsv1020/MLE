@@ -39,10 +39,10 @@ public final class GoogleSignInCoordinator: NSObject {
 
     public func requestCredential() async throws -> GoogleCredential {
         guard let clientID = GoogleSignInConfiguration.clientID else {
-            throw AuthError.googleSignInFailed("Google sign-in is not configured for this build.")
+            throw AuthError.googleSignInFailed("这个版本没有配置 Google 登录。")
         }
         guard session == nil else {
-            throw AuthError.googleSignInFailed("A sign-in request is already in progress.")
+            throw AuthError.googleSignInFailed("已经有一个登录请求在进行中。")
         }
 
         let request = GoogleOAuthRequest(clientID: clientID)
@@ -65,7 +65,7 @@ public final class GoogleSignInCoordinator: NSObject {
                     continuation.resume(throwing: AuthError.googleSignInCancelled)
                 } else {
                     continuation.resume(throwing: AuthError.googleSignInFailed(
-                        error?.localizedDescription ?? "No response from Google."
+                        error?.localizedDescription ?? "Google 没有响应。"
                     ))
                 }
             }
@@ -75,7 +75,7 @@ public final class GoogleSignInCoordinator: NSObject {
             session.prefersEphemeralWebBrowserSession = false
             self.session = session
             if !session.start() {
-                continuation.resume(throwing: AuthError.googleSignInFailed("Could not open the sign-in page."))
+                continuation.resume(throwing: AuthError.googleSignInFailed("无法打开登录页面。"))
             }
         }
     }
@@ -101,7 +101,7 @@ public final class GoogleSignInCoordinator: NSObject {
         let decoded = try? JSONDecoder().decode(TokenResponse.self, from: data)
         guard (response as? HTTPURLResponse)?.statusCode == 200, let token = decoded?.id_token else {
             throw AuthError.googleSignInFailed(
-                decoded?.error_description ?? decoded?.error ?? "Google did not return an ID token."
+                decoded?.error_description ?? decoded?.error ?? "Google 没有返回 ID 令牌。"
             )
         }
         return token
@@ -171,10 +171,10 @@ struct GoogleOAuthRequest {
         }
         // A redirect carrying someone else's `state` is a forged or replayed response.
         guard value("state") == state else {
-            throw AuthError.googleSignInFailed("The response did not match this sign-in request.")
+            throw AuthError.googleSignInFailed("返回结果和这次登录请求不匹配。")
         }
         guard let code = value("code"), !code.isEmpty else {
-            throw AuthError.googleSignInFailed("Google did not return an authorization code.")
+            throw AuthError.googleSignInFailed("Google 没有返回授权码。")
         }
         return code
     }
@@ -214,7 +214,7 @@ enum GoogleIDToken {
     static func verify(_ token: String, clientID: String, nonce: String, now: Date = Date()) throws -> GoogleCredential {
         let parts = token.split(separator: ".")
         guard parts.count == 3, let payload = Data(base64URLEncoded: String(parts[1])) else {
-            throw AuthError.googleSignInFailed("Malformed ID token.")
+            throw AuthError.googleSignInFailed("ID 令牌格式不对。")
         }
         struct Claims: Decodable {
             var iss: String
@@ -227,13 +227,13 @@ enum GoogleIDToken {
             var name: String?
         }
         guard let claims = try? JSONDecoder().decode(Claims.self, from: payload) else {
-            throw AuthError.googleSignInFailed("Malformed ID token.")
+            throw AuthError.googleSignInFailed("ID 令牌格式不对。")
         }
         guard issuers.contains(claims.iss), claims.aud == clientID, claims.nonce == nonce else {
-            throw AuthError.googleSignInFailed("The ID token was not issued for this sign-in.")
+            throw AuthError.googleSignInFailed("这个 ID 令牌不是为这次登录签发的。")
         }
         guard Date(timeIntervalSince1970: claims.exp) > now else {
-            throw AuthError.googleSignInFailed("The ID token has expired.")
+            throw AuthError.googleSignInFailed("ID 令牌已过期。")
         }
         return GoogleCredential(
             userIdentifier: claims.sub,

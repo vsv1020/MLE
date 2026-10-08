@@ -313,9 +313,9 @@ public final class WeeklyRecapService {
     /// "This week you mastered 42 words", with the singular and a kind zero.
     static func headline(wordsMastered: Int) -> String {
         switch wordsMastered {
-        case ..<1: return "This week you kept your words growing"
-        case 1: return "This week you mastered 1 word"
-        default: return "This week you mastered \(wordsMastered) words"
+        case ..<1: return "这周你的单词一直在长大"
+        case 1: return "这周你掌握了 1 个单词"
+        default: return "这周你掌握了 \(wordsMastered) 个单词"
         }
     }
 

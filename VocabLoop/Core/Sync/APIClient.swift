@@ -133,13 +133,13 @@ public actor APIClient {
         } catch {
             // The request succeeded but the payload was not what we expect — a server
             // contract mismatch. Reported as a server error, because it is one.
-            throw AuthError.server(status: 200, message: "Unexpected response from the server.")
+            throw AuthError.server(status: 200, message: "服务器返回了意料之外的结果。")
         }
     }
 
     private func sendRaw<Body: Encodable>(_ endpoint: Endpoint, body: Body?) async throws -> Data {
         guard let baseURL = configuration.baseURL else {
-            throw AuthError.network("No server is configured for this build.")
+            throw AuthError.network("这个版本没有配置服务器。")
         }
         if endpoint.requiresAuth, bearerToken == nil {
             throw AuthError.notSignedIn
@@ -165,7 +165,7 @@ public actor APIClient {
         }
 
         guard let http = response as? HTTPURLResponse else {
-            throw AuthError.network("Malformed response.")
+            throw AuthError.network("服务器返回的数据格式不对。")
         }
         switch http.statusCode {
         case 200..<300:

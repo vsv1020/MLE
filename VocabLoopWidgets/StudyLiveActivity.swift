@@ -68,7 +68,7 @@ struct StudyLockScreenView: View {
 
             VStack(alignment: .leading, spacing: Spacing.xxs) {
                 HStack {
-                    Text("VocabLoop")
+                    Text("麻薯背单词")
                         .font(Typography.chip)
                         .foregroundStyle(Palette.textSecondary)
                     Spacer(minLength: 0)

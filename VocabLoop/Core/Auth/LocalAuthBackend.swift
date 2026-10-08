@@ -129,7 +129,7 @@ public final class LocalAuthBackend: AuthBackend {
         } else if let guest = try adoptableGuest() {
             account = guest
         } else {
-            let fresh = UserAccount(displayName: credential.fullName ?? "Me", provider: .apple, now: now)
+            let fresh = UserAccount(displayName: credential.fullName ?? "我", provider: .apple, now: now)
             context.insert(fresh)
             account = fresh
         }
@@ -139,10 +139,10 @@ public final class LocalAuthBackend: AuthBackend {
         // Only overwrite name and email when Apple actually gave them to us — on repeat
         // sign-ins both are nil, and blanking a name the user has since edited is a bug.
         if let email = credential.email, !email.isEmpty { account.email = email.normalizedEmail }
-        if let name = credential.fullName, !name.isEmpty, account.displayName.isEmpty || account.displayName == "Guest" {
+        if let name = credential.fullName, !name.isEmpty, account.displayName.isEmpty || account.displayName == "Guest" || account.displayName == "游客" {
             account.displayName = name
         }
-        if account.displayName.isEmpty { account.displayName = "Me" }
+        if account.displayName.isEmpty { account.displayName = "我" }
         account.isActive = true
         account.lastSignedInAt = now
         account.touch(now)
@@ -175,7 +175,7 @@ public final class LocalAuthBackend: AuthBackend {
             account = guest
             account.provider = .google
         } else {
-            let fresh = UserAccount(displayName: credential.fullName ?? "Me", provider: .google, now: now)
+            let fresh = UserAccount(displayName: credential.fullName ?? "我", provider: .google, now: now)
             context.insert(fresh)
             account = fresh
         }
@@ -184,10 +184,10 @@ public final class LocalAuthBackend: AuthBackend {
         if account.email == nil, let email = credential.email, !email.isEmpty {
             account.email = email.normalizedEmail
         }
-        if let name = credential.fullName, !name.isEmpty, account.displayName.isEmpty || account.displayName == "Guest" {
+        if let name = credential.fullName, !name.isEmpty, account.displayName.isEmpty || account.displayName == "Guest" || account.displayName == "游客" {
             account.displayName = name
         }
-        if account.displayName.isEmpty { account.displayName = "Me" }
+        if account.displayName.isEmpty { account.displayName = "我" }
         account.isActive = true
         account.lastSignedInAt = now
         account.touch(now)

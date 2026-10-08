@@ -12,8 +12,8 @@ struct MochiWidget: Widget {
                 .widgetURL(WidgetLinks.mochi)
                 .widgetBackground(for: .systemSmall)
         }
-        .configurationDisplayName("Mochi")
-        .description("Mochi, in today's outfit.")
+        .configurationDisplayName("麻薯")
+        .description("穿着今天装扮的麻薯。")
         .supportedFamilies([.systemSmall])
     }
 }
@@ -54,6 +54,6 @@ struct MochiWidgetView: View {
     private var accessibilityLabel: String {
         guard let snapshot = state.snapshot else { return WidgetCopy.emptyTitle }
         if state.isStale { return WidgetCopy.staleTitle }
-        return "Mochi, \(WidgetCopy.level(snapshot.mochiLevel)), \(snapshot.candy) star candy"
+        return "麻薯 \(WidgetCopy.level(snapshot.mochiLevel))，\(snapshot.candy) 颗星星糖"
     }
 }

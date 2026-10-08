@@ -113,83 +113,83 @@ public struct AchievementStatus: Identifiable, Sendable {
 public enum AchievementCatalog {
     public static let all: [Achievement] = [
         Achievement(
-            id: .first_review, name: "First step",
-            detail: "Answer your very first card.", symbolName: "shoeprints.fill",
+            id: .first_review, name: "第一步",
+            detail: "回答你的第一张卡片。", symbolName: "shoeprints.fill",
             isMet: { $0.lifetimeReviews >= 1 }
         ),
         Achievement(
-            id: .streak_3, name: "Three in a row",
-            detail: "Study three days in a row.", symbolName: "flame",
+            id: .streak_3, name: "连续三天",
+            detail: "连续学习 3 天。", symbolName: "flame",
             isMet: { $0.bestStreak >= 3 }
         ),
         Achievement(
-            id: .streak_7, name: "One whole week",
-            detail: "Study seven days in a row.", symbolName: "flame.fill",
+            id: .streak_7, name: "整整一周",
+            detail: "连续学习 7 天。", symbolName: "flame.fill",
             isMet: { $0.bestStreak >= 7 }
         ),
         Achievement(
-            id: .streak_30, name: "A month of words",
-            detail: "Study thirty days in a row.", symbolName: "calendar",
+            id: .streak_30, name: "单词满月",
+            detail: "连续学习 30 天。", symbolName: "calendar",
             isMet: { $0.bestStreak >= 30 }
         ),
         Achievement(
-            id: .combo_10, name: "On a roll",
-            detail: "Get ten answers in a row.", symbolName: "bolt",
+            id: .combo_10, name: "手感正好",
+            detail: "连续答对 10 题。", symbolName: "bolt",
             isMet: { $0.bestCombo >= 10 }
         ),
         Achievement(
-            id: .combo_25, name: "Unstoppable",
-            detail: "Get twenty-five answers in a row.", symbolName: "bolt.fill",
+            id: .combo_25, name: "势不可挡",
+            detail: "连续答对 25 题。", symbolName: "bolt.fill",
             isMet: { $0.bestCombo >= 25 }
         ),
         Achievement(
-            id: .combo_50, name: "Fifty!",
-            detail: "Get fifty answers in a row.", symbolName: "bolt.circle.fill",
+            id: .combo_50, name: "五十连！",
+            detail: "连续答对 50 题。", symbolName: "bolt.circle.fill",
             isMet: { $0.bestCombo >= 50 }
         ),
         Achievement(
-            id: .mastered_10, name: "Ten stickers",
-            detail: "Make ten stickers shine.", symbolName: "star",
+            id: .mastered_10, name: "十张贴纸",
+            detail: "让 10 张贴纸闪亮起来。", symbolName: "star",
             isMet: { $0.matureWords >= 10 }
         ),
         Achievement(
-            id: .mastered_100, name: "Sticker star",
-            detail: "Make a hundred stickers shine.", symbolName: "star.fill",
+            id: .mastered_100, name: "贴纸之星",
+            detail: "让 100 张贴纸闪亮起来。", symbolName: "star.fill",
             isMet: { $0.matureWords >= 100 }
         ),
         Achievement(
-            id: .mastered_500, name: "Word collector",
-            detail: "Make five hundred stickers shine.", symbolName: "star.circle.fill",
+            id: .mastered_500, name: "单词收藏家",
+            detail: "让 500 张贴纸闪亮起来。", symbolName: "star.circle.fill",
             isMet: { $0.matureWords >= 500 }
         ),
         Achievement(
-            id: .album_first, name: "First album",
-            detail: "Fill a whole sticker page.", symbolName: "book.closed.fill",
+            id: .album_first, name: "集满第一页",
+            detail: "集满一整页贴纸。", symbolName: "book.closed.fill",
             isMet: { $0.completedAlbums >= 1 }
         ),
         Achievement(
-            id: .night_owl, name: "Night owl",
-            detail: "Study between 10 pm and 2 am.", symbolName: "moon.stars.fill",
+            id: .night_owl, name: "夜猫子",
+            detail: "在晚上 10 点到凌晨 2 点之间学习。", symbolName: "moon.stars.fill",
             isMet: { $0.localHour >= 22 || $0.localHour < 2 }
         ),
         Achievement(
-            id: .early_bird, name: "Early bird",
-            detail: "Study between 5 am and 7 am.", symbolName: "sunrise.fill",
+            id: .early_bird, name: "早起的鸟儿",
+            detail: "在早上 5 点到 7 点之间学习。", symbolName: "sunrise.fill",
             isMet: { $0.localHour >= 5 && $0.localHour < 7 }
         ),
         Achievement(
-            id: .goal_7, name: "Goal getter",
-            detail: "Reach your daily goal on seven days.", symbolName: "target",
+            id: .goal_7, name: "目标达人",
+            detail: "累计 7 天完成每日目标。", symbolName: "target",
             isMet: { $0.goalDaysTotal >= 7 }
         ),
         Achievement(
-            id: .quiz_100, name: "Quiz whiz",
-            detail: "Get a hundred quiz questions right.", symbolName: "checkmark.seal.fill",
+            id: .quiz_100, name: "小测验高手",
+            detail: "小测验累计答对 100 题。", symbolName: "checkmark.seal.fill",
             isMet: { $0.quizCorrectTotal >= 100 }
         ),
         Achievement(
-            id: .mochi_10, name: "Best friends",
-            detail: "Help Mochi reach level 10.", symbolName: "heart.fill",
+            id: .mochi_10, name: "好朋友",
+            detail: "帮麻薯升到 10 级。", symbolName: "heart.fill",
             isMet: { $0.level >= 10 }
         ),
     ]

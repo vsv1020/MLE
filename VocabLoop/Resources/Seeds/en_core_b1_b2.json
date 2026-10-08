@@ -1,10 +1,10 @@
 {
  "packName": "en_core_b1_b2",
- "version": 2,
+ "version": 3,
  "languageCode": "en",
  "deck": {
-  "name": "English Core · B1–B2",
-  "summary": "The words that move you from getting by to being fluent. Intermediate to upper intermediate.",
+  "name": "英语核心词 · B1–B2",
+  "summary": "从能应付到说得流利需要的单词，适合中级和中高级。",
   "symbolName": "book",
   "colorHex": "#4F46E5",
   "sortOrder": 2

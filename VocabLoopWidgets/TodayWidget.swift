@@ -10,8 +10,8 @@ struct TodayWidget: Widget {
         StaticConfiguration(kind: Self.kind, provider: SnapshotProvider()) { entry in
             TodayWidgetView(entry: entry)
         }
-        .configurationDisplayName("Today")
-        .description("Words due, today's goal and your streak.")
+        .configurationDisplayName("今天")
+        .description("待复习的单词、今日目标和连续打卡天数。")
         .supportedFamilies([
             .systemSmall, .systemMedium,
             .accessoryCircular, .accessoryRectangular, .accessoryInline,
@@ -91,7 +91,7 @@ struct TodayNumbers: View {
                     .foregroundStyle(Palette.textPrimary)
                     .minimumScaleFactor(0.5)
                     .lineLimit(1)
-                Text("due")
+                Text("待复习")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
             }
@@ -178,7 +178,7 @@ struct TodayCircularView: View {
             if state.kind == .current, let snapshot = state.snapshot {
                 if let progress = state.goalProgress {
                     Gauge(value: progress) {
-                        Text("Goal")
+                        Text("目标")
                     } currentValueLabel: {
                         Text(WidgetCopy.dueCount(snapshot.dueNow))
                             .monospacedDigit()
@@ -212,7 +212,7 @@ struct TodayRectangularView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 1) {
-            Text("VocabLoop")
+            Text("麻薯背单词")
                 .font(.headline)
                 .widgetAccentable()
             Text(WidgetCopy.rectangularDetail(state))

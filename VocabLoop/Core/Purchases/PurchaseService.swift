@@ -66,7 +66,7 @@ public final class PurchaseService {
 
     public func purchase() async {
         guard let product else {
-            lastError = "The App Store is not reachable right now. Please try again in a moment."
+            lastError = "暂时连不上 App Store，请稍后再试。"
             return
         }
         lastError = nil
@@ -102,7 +102,7 @@ public final class PurchaseService {
         }
         await refreshEntitlement()
         if !entitlements.isPlus, lastError == nil {
-            lastError = "No previous purchase of VocabLoop Plus was found for this Apple ID."
+            lastError = "这个 Apple ID 没有购买过麻薯 Plus 的记录。"
         }
     }
 

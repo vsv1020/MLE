@@ -27,7 +27,7 @@ public final class AppleSignInCoordinator: NSObject {
         // Only one request may be in flight; a second would overwrite the continuation
         // and leak the first, hanging the caller forever.
         guard continuation == nil else {
-            throw AuthError.appleSignInFailed("A sign-in request is already in progress.")
+            throw AuthError.appleSignInFailed("已经有一个登录请求在进行中。")
         }
 
         let request = ASAuthorizationAppleIDProvider().createRequest()
@@ -61,7 +61,7 @@ extension AppleSignInCoordinator {
     /// eventually disagree about, say, whether an empty name becomes `nil`.
     public static func credential(from authorization: ASAuthorization) throws -> AppleCredential {
         guard let credential = authorization.credential as? ASAuthorizationAppleIDCredential else {
-            throw AuthError.appleSignInFailed("Unexpected credential type.")
+            throw AuthError.appleSignInFailed("凭证类型不对。")
         }
 
         // Name and email arrive on the *first* authorisation only. Apple will not send

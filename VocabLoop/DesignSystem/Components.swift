@@ -261,7 +261,7 @@ public struct PrimaryButton: View {
         .opacity(isEnabled ? 1 : 0.45)
         // Announce the loading state rather than leaving VoiceOver reading a button that
         // silently does nothing.
-        .accessibilityLabel(isLoading ? "\(title). Working." : title)
+        .accessibilityLabel(isLoading ? "\(title)，处理中" : title)
     }
 
     private var foreground: Color {
@@ -491,7 +491,7 @@ public struct StatTile: View {
         .clipShape(RoundedRectangle(cornerRadius: Radius.nested, style: .continuous))
         // Read as one phrase; the number and label separately are meaningless.
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(label): \(value)")
+        .accessibilityLabel("\(label)：\(value)")
     }
 }
 
@@ -615,10 +615,10 @@ public struct MaturityDot: View {
 
     private var label: String {
         switch maturity {
-        case .new: "Not started"
-        case .learning: "Learning"
-        case .young: "Known, still consolidating"
-        case .mature: "Well known"
+        case .new: "还没开始"
+        case .learning: "学习中"
+        case .young: "认识了，还在巩固"
+        case .mature: "已经记牢"
         }
     }
 }
@@ -652,7 +652,7 @@ public struct SpeakerButton: View {
                     .contentShape(Rectangle())
             }
             .pressable(scale: 0.9)
-            .accessibilityLabel("Pronounce \(text)")
+            .accessibilityLabel("朗读 \(text)")
         }
     }
 }

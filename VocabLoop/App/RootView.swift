@@ -95,7 +95,7 @@ struct LaunchView: View {
             // harmless if the store takes longer to open.
             Mascot(mood: .happy)
                 .frame(width: 96, height: 80)
-            Text("VocabLoop")
+            Text("麻薯背单词")
                 .font(Typography.screenTitle)
                 .foregroundStyle(Palette.textPrimary)
             ProgressView()
@@ -103,6 +103,6 @@ struct LaunchView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .screenBackground()
-        .accessibilityLabel("Loading VocabLoop")
+        .accessibilityLabel("麻薯背单词加载中")
     }
 }

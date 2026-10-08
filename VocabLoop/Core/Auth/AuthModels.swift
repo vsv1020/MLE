@@ -46,7 +46,7 @@ public struct Session: Codable, Hashable, Sendable {
     }
 
     public static func guest(userID: String) -> Session {
-        Session(userID: userID, provider: .guest, displayName: "Guest")
+        Session(userID: userID, provider: .guest, displayName: "游客")
     }
 }
 
@@ -124,43 +124,43 @@ public enum AuthError: LocalizedError, Equatable {
     public var errorDescription: String? {
         switch self {
         case .invalidEmail:
-            "That does not look like an email address."
+            "这看起来不像邮箱地址。"
         case .weakPassword(let reason):
             reason
         case .passwordsDoNotMatch:
-            "The two passwords do not match."
+            "两次输入的密码不一样。"
         case .emailAlreadyRegistered:
-            "An account already exists for that email. Try signing in instead."
+            "这个邮箱已经注册过了，试试直接登录吧。"
         case .invalidCredentials:
-            "That email and password do not match an account."
+            "邮箱或密码不对。"
         case .notSignedIn:
-            "You need to be signed in to do that."
+            "需要先登录才能这样做。"
         case .sessionExpired:
-            "Your session has expired. Please sign in again."
+            "登录已过期，请重新登录。"
         case .recoveryCodeInvalid:
-            "That recovery code is not correct."
+            "恢复码不对。"
         case .recoveryCodeAlreadyUsed:
-            "That recovery code has already been used. Each code works once."
+            "这个恢复码已经用过了，每个恢复码只能用一次。"
         case .appleSignInFailed(let detail):
-            "Sign in with Apple did not complete: \(detail)"
+            "通过 Apple 登录没有完成：\(detail)"
         case .appleSignInUnavailable:
-            "Sign in with Apple is not enabled for this build. "
-            + "Add the Sign in with Apple capability in Xcode, or use email instead."
+            "这个版本没有启用通过 Apple 登录。"
+            + "请在 Xcode 中添加 Sign in with Apple 功能，或改用邮箱登录。"
         case .appleSignInCancelled, .googleSignInCancelled:
             // Not surfaced — the user knows they cancelled.
             nil
         case .googleSignInFailed(let detail):
-            "Sign in with Google did not complete: \(detail)"
+            "通过 Google 登录没有完成：\(detail)"
         case .providerDoesNotSupportPasswords:
-            "This account signs in with Apple or Google, so it has no password to change."
+            "这个账号通过 Apple 或 Google 登录，没有可以修改的密码。"
         case .network(let detail):
-            "Could not reach the server: \(detail)"
+            "连不上服务器：\(detail)"
         case .server(let status, let message):
-            message ?? "The server returned an error (\(status))."
+            message ?? "服务器出错了（\(status)）。"
         case .keychain(let status):
-            "Could not access the keychain (code \(status))."
+            "无法访问钥匙串（错误码 \(status)）。"
         case .storage(let detail):
-            "Could not save your account: \(detail)"
+            "无法保存你的账号：\(detail)"
         }
     }
 
@@ -210,19 +210,19 @@ public enum CredentialValidator {
     public static func validatePassword(_ password: String) -> AuthError? {
         if password.count < minimumPasswordLength {
             return .weakPassword(
-                reason: "Use at least \(minimumPasswordLength) characters. Length matters more than symbols."
+                reason: "密码至少要 \(minimumPasswordLength) 个字符。长度比符号更重要。"
             )
         }
         if password.count > maximumPasswordLength {
-            return .weakPassword(reason: "That password is longer than \(maximumPasswordLength) characters.")
+            return .weakPassword(reason: "密码不能超过 \(maximumPasswordLength) 个字符。")
         }
         // Whitespace-only passwords pass a length check but are almost certainly a
         // paste accident.
         if password.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-            return .weakPassword(reason: "Your password cannot be only spaces.")
+            return .weakPassword(reason: "密码不能全是空格。")
         }
         if blockedPasswords.contains(password.lowercased()) {
-            return .weakPassword(reason: "That password appears in lists of common passwords. Choose another.")
+            return .weakPassword(reason: "这个密码太常见了，换一个吧。")
         }
         return nil
     }

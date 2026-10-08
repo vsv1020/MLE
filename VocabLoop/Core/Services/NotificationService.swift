@@ -143,11 +143,11 @@ public final class NotificationService {
         center.removePendingNotificationRequests(withIdentifiers: [Self.streakRiskIdentifier])
     }
 
-    static let streakReminderTitle = "A few words before bed?"
+    static let streakReminderTitle = "睡前背几个单词吗？"
 
     /// Kind on purpose: never "lose", "break" or "don't let", and no countdown.
     static func streakReminderBody(streak: Int) -> String {
-        "Your \(streak)-day streak is waiting for today. Three words keep it going — Mochi saved your spot."
+        "你已经连续打卡 \(streak) 天，今天也在等你。背 3 个单词就能接上 —— 麻薯给你留好了位置。"
     }
 
     /// The next 19:30 after `now` — or 18:30 when the daily reminder is set for 19:30, since two
@@ -194,12 +194,12 @@ public final class NotificationService {
 
     private func scheduleDailyReminder(preferences: StudyPreferences, dueCount: Int) async {
         let content = UNMutableNotificationContent()
-        content.title = "Time to review"
+        content.title = "该复习啦"
         // The count is a snapshot from when the reminder was scheduled and will drift.
         // Phrase it so a stale number still reads as true rather than as a wrong claim.
         content.body = dueCount > 0
-            ? "You had \(dueCount) card\(dueCount == 1 ? "" : "s") waiting. A few minutes is enough."
-            : "Keep the streak going with a short session."
+            ? "刚才有 \(dueCount) 张卡片在等你。花几分钟就够了。"
+            : "学一小会儿，把连续打卡接下去。"
         content.sound = .default
         content.interruptionLevel = .passive
 
@@ -216,8 +216,8 @@ public final class NotificationService {
 
     private func scheduleDailyWordNudge(preferences: StudyPreferences) async {
         let content = UNMutableNotificationContent()
-        content.title = "Today's words are ready"
-        content.body = "\(preferences.newWordsPerDay) new \(preferences.activeLanguage.displayName) words are waiting."
+        content.title = "今天的新词准备好了"
+        content.body = "\(preferences.newWordsPerDay) 个\(preferences.activeLanguage.displayName)新词在等你。"
         content.sound = nil
         content.interruptionLevel = .passive
 
