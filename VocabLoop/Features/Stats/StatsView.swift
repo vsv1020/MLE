@@ -43,7 +43,7 @@ struct StatsView: View {
                 .readableWidth()
             }
             .screenBackground()
-            .navigationTitle("统计")
+            .navigationTitle("进度")
             .refreshable { reload() }
             .task { reload() }
         }

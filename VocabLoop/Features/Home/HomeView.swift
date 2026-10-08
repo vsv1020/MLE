@@ -249,17 +249,17 @@ struct HomeView: View {
             HStack(spacing: Spacing.xs) {
                 StatTile(
                     value: "\(model.statistics.countsByMaturity[.learning] ?? 0)",
-                    label: "在学",
+                    label: "学习中",
                     tint: Palette.maturity(.learning)
                 )
                 StatTile(
                     value: "\(model.statistics.countsByMaturity[.young] ?? 0)",
-                    label: "认识",
+                    label: "认识了",
                     tint: Palette.maturity(.young)
                 )
                 StatTile(
                     value: "\(model.statistics.countsByMaturity[.mature] ?? 0)",
-                    label: "很熟",
+                    label: "记得很牢",
                     tint: Palette.maturity(.mature)
                 )
             }

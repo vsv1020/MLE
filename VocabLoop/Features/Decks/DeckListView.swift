@@ -28,7 +28,7 @@ struct DeckListView: View {
                     EmptyStateView(
                         systemImage: "square.stack.3d.up",
                         title: "还没有词库",
-                        message: "\(language.displayName)词库还没有导入。可以到“设置 ▸ 数据”里重新导入。"
+                        message: "\(language.displayName)词库还没有导入。可以到“设置 ▸ 存储与同步”里重新导入。"
                     )
                     .listRowSeparator(.hidden)
                     .listRowBackground(Color.clear)

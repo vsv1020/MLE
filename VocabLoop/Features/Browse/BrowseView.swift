@@ -133,9 +133,9 @@ struct BrowseView: View {
     private func maturityLabel(_ maturity: CardMaturity) -> String {
         switch maturity {
         case .new: "未开始"
-        case .learning: "在学"
-        case .young: "认识"
-        case .mature: "很熟"
+        case .learning: "学习中"
+        case .young: "认识了"
+        case .mature: "记得很牢"
         }
     }
 
