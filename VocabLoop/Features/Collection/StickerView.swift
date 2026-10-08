@@ -68,15 +68,15 @@ struct StickerView: View {
             // Reserve the base's height so it never overlaps the row below.
             .padding(.bottom, 3)
             .accessibilityElement(children: .ignore)
-            .accessibilityLabel("\(headword), \(Self.spokenState(state))")
+            .accessibilityLabel("\(headword)，\(Self.spokenState(state))")
     }
 
     static func spokenState(_ state: StickerState) -> String {
         switch state {
-        case .locked: return "not started"
-        case .sketch: return "learning"
-        case .coloured: return "known"
-        case .shiny: return "shining"
+        case .locked: return "未开始"
+        case .sketch: return "学习中"
+        case .coloured: return "认识了"
+        case .shiny: return "闪亮"
         }
     }
 

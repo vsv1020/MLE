@@ -42,7 +42,7 @@ struct WardrobeView: View {
             }
 
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader("Colours")
+                SectionHeader("颜色")
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 76), spacing: Spacing.sm)], spacing: Spacing.sm) {
                     ForEach(MochiBodyColor.allCases, id: \.self) { color in
                         colorTile(color)
@@ -51,7 +51,7 @@ struct WardrobeView: View {
             }
 
             if !isPlus {
-                Text("Items marked Plus are extras in VocabLoop Plus. Everything you earn with levels and badges is always yours to wear.")
+                Text("标着 Plus 的是麻薯 Plus 的额外装扮。通过等级和徽章赢得的装扮永远归你，随时可以穿戴。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
             }
@@ -83,8 +83,8 @@ struct WardrobeView: View {
                 }
             }
             .pressable(scale: 0.95)
-            .accessibilityLabel(isWorn ? "\(accessory.name), wearing" : accessory.name)
-            .accessibilityHint(isWorn ? "Double tap to take it off" : "Double tap to put it on")
+            .accessibilityLabel(isWorn ? "\(accessory.name)，正在穿戴" : accessory.name)
+            .accessibilityHint(isWorn ? "轻点两下取下" : "轻点两下穿上")
             .accessibilityAddTraits(isWorn ? .isSelected : [])
         case .plus:
             NavigationLink {
@@ -98,7 +98,7 @@ struct WardrobeView: View {
                 }
             }
             .pressable(scale: 0.95)
-            .accessibilityLabel("\(accessory.name). \(WardrobeRules.spokenLock(for: lock))")
+            .accessibilityLabel("\(accessory.name)。\(WardrobeRules.spokenLock(for: lock))")
         case .level, .achievement:
             WardrobeTile(
                 title: accessory.name, lock: lock, isSelected: false,
@@ -107,7 +107,7 @@ struct WardrobeView: View {
                 Mascot(mood: .happy, look: preview).still()
             }
             .accessibilityElement(children: .ignore)
-            .accessibilityLabel("\(accessory.name). \(WardrobeRules.spokenLock(for: lock))")
+            .accessibilityLabel("\(accessory.name)。\(WardrobeRules.spokenLock(for: lock))")
         }
     }
 
@@ -127,8 +127,8 @@ struct WardrobeView: View {
                 swatch
             }
             .pressable(scale: 0.94)
-            .accessibilityLabel(isWorn ? "\(color.name), chosen" : color.name)
-            .accessibilityHint(isWorn ? "" : "Double tap to make Mochi \(color.name.lowercased())")
+            .accessibilityLabel(isWorn ? "\(color.name)，已选择" : color.name)
+            .accessibilityHint(isWorn ? "" : "轻点两下，把麻薯换成\(color.name.lowercased())")
             .accessibilityAddTraits(isWorn ? .isSelected : [])
         case .plus:
             NavigationLink {
@@ -137,11 +137,11 @@ struct WardrobeView: View {
                 swatch
             }
             .pressable(scale: 0.94)
-            .accessibilityLabel("\(color.name). \(WardrobeRules.spokenLock(for: lock))")
+            .accessibilityLabel("\(color.name)。\(WardrobeRules.spokenLock(for: lock))")
         case .level, .achievement:
             swatch
                 .accessibilityElement(children: .ignore)
-                .accessibilityLabel("\(color.name). \(WardrobeRules.spokenLock(for: lock))")
+                .accessibilityLabel("\(color.name)。\(WardrobeRules.spokenLock(for: lock))")
         }
     }
 }
@@ -192,7 +192,7 @@ private struct WardrobeTile<Preview: View>: View {
                 Chip(label, color: lock == .plus ? Palette.brandSecondary : Palette.textSecondary,
                      systemImage: lock == .plus ? nil : "lock.fill")
             } else {
-                Chip(isSelected ? "Wearing" : "Wear", color: isSelected ? Palette.success : Palette.brandPrimary)
+                Chip(isSelected ? "穿戴中" : "穿上", color: isSelected ? Palette.success : Palette.brandPrimary)
             }
         }
         .padding(Spacing.xs)

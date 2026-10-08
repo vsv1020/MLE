@@ -10,7 +10,7 @@ struct WeeklyRecapCard: View {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 HStack(alignment: .top, spacing: Spacing.sm) {
                     VStack(alignment: .leading, spacing: Spacing.xxs) {
-                        Text("This week")
+                        Text("本周")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.brandSecondary)
                         Text(RecapCopy.headline(wordsMastered: recap.wordsMastered))
@@ -26,9 +26,9 @@ struct WeeklyRecapCard: View {
                 RecapDayDots(dayKeys: recap.dayKeys, studiedDays: recap.studiedDays)
 
                 Text([
-                    RecapCopy.count(recap.reviews, "review"),
+                    RecapCopy.count(recap.reviews, "次复习"),
                     RecapCopy.daysStudied(recap.studiedDays),
-                    RecapCopy.count(recap.minutes, "minute"),
+                    RecapCopy.count(recap.minutes, "分钟"),
                 ].joined(separator: " · "))
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
@@ -37,7 +37,7 @@ struct WeeklyRecapCard: View {
                     WeeklyRecapView(recap: recap)
                 } label: {
                     HStack(spacing: Spacing.xxs) {
-                        Text("See your week")
+                        Text("看看这一周")
                         Image(systemName: "chevron.right")
                     }
                     .font(Typography.bodyEmphasis)
@@ -73,8 +73,8 @@ struct WeeklyRecapView: View {
                 } else if didLoad {
                     EmptyStateView(
                         systemImage: "calendar",
-                        title: "No week to show yet",
-                        message: "Review a few words and your week will appear here."
+                        title: "还没有这一周的回顾",
+                        message: "复习几个单词，这一周的回顾就会出现在这里。"
                     )
                 } else {
                     ProgressView().frame(maxWidth: .infinity)
@@ -84,7 +84,7 @@ struct WeeklyRecapView: View {
             .readableWidth()
         }
         .screenBackground()
-        .navigationTitle("Your week")
+        .navigationTitle("本周回顾")
         .navigationBarTitleDisplayMode(.inline)
         .task { load() }
     }
@@ -105,7 +105,7 @@ struct WeeklyRecapView: View {
                     .accessibilityLabel(ShareCard.week(recap).accessibilityLabel)
                 // The parent switch hides the button, not the picture of the week.
                 if isSharingEnabled {
-                    ShareCardLink(rendered: rendered, label: "Share my week")
+                    ShareCardLink(rendered: rendered, label: "分享我的一周")
                 }
             }
         }
@@ -113,26 +113,26 @@ struct WeeklyRecapView: View {
 
         CardContainer(style: .crayon, wobbleSeed: 0x2EC4_0001) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader("Seven days")
+                SectionHeader("这七天")
                 RecapDayDots(dayKeys: recap.dayKeys, studiedDays: recap.studiedDays)
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: Spacing.xs) {
-                    StatTile(value: "\(recap.wordsMastered)", label: "Words mastered", tint: Palette.maturity(.mature))
-                    StatTile(value: "\(recap.wordsStarted)", label: "Words started", tint: Palette.maturity(.learning))
-                    StatTile(value: "\(recap.reviews)", label: "Reviews")
-                    StatTile(value: RecapCopy.percent(recap.accuracy), label: "Recalled")
-                    StatTile(value: "\(recap.minutes)", label: "Minutes")
-                    StatTile(value: "\(recap.streak)", label: "Day streak", tint: Palette.brandSecondary, systemImage: "flame.fill")
-                    StatTile(value: "\(recap.bestCombo)", label: "Best combo", systemImage: "bolt.fill")
-                    StatTile(value: "\(recap.candyEarned)", label: "Star candy", systemImage: "star.fill")
+                    StatTile(value: "\(recap.wordsMastered)", label: "掌握的单词", tint: Palette.maturity(.mature))
+                    StatTile(value: "\(recap.wordsStarted)", label: "开始学的单词", tint: Palette.maturity(.learning))
+                    StatTile(value: "\(recap.reviews)", label: "复习次数")
+                    StatTile(value: RecapCopy.percent(recap.accuracy), label: "记住了")
+                    StatTile(value: "\(recap.minutes)", label: "分钟")
+                    StatTile(value: "\(recap.streak)", label: "连续打卡天数", tint: Palette.brandSecondary, systemImage: "flame.fill")
+                    StatTile(value: "\(recap.bestCombo)", label: "最高连击", systemImage: "bolt.fill")
+                    StatTile(value: "\(recap.candyEarned)", label: "星星糖", systemImage: "star.fill")
                 }
             }
         }
 
         if !recap.nailedWords.isEmpty {
-            wordList("Words you nailed", subtitle: "Your strongest words this week", words: recap.nailedWords, seed: 0x2EC4_0002)
+            wordList("拿下的单词", subtitle: "本周你记得最牢的单词", words: recap.nailedWords, seed: 0x2EC4_0002)
         }
         if !recap.trickyWords.isEmpty {
-            wordList("Worth another look", subtitle: "They will come back a little sooner", words: recap.trickyWords, seed: 0x2EC4_0003)
+            wordList("值得再看看", subtitle: "它们会早一点回来复习", words: recap.trickyWords, seed: 0x2EC4_0003)
         }
     }
 

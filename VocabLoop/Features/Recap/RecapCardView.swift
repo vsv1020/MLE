@@ -37,7 +37,7 @@ struct RecapDayDots: View {
                 .frame(maxWidth: .infinity)
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel(
-                    "\(RecapCopy.weekdayName(dayKey: key)): \(studied ? "studied" : "not studied")"
+                    "\(RecapCopy.weekdayName(dayKey: key))：\(studied ? "学习了" : "没有学习")"
                 )
             }
         }
@@ -90,6 +90,6 @@ enum RecapShareRenderer {
             RecapWord(entryStableID: "b", headword: "window", translation: "窗户"),
             RecapWord(entryStableID: "c", headword: "brave", translation: "勇敢"),
         ],
-        headline: "This week you mastered 12 words"
+        headline: "这一周你掌握了 12 个单词"
     ))
 }

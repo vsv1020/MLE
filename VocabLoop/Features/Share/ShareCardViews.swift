@@ -46,7 +46,7 @@ private struct GoalShareCardView: View {
         ) {
             VStack(spacing: Spacing.xs) {
                 HStack(spacing: Spacing.xs) {
-                    ShareStatChip(text: RecapCopy.count(card.reviewsToday, "review"), systemImage: "checkmark.circle.fill")
+                    ShareStatChip(text: RecapCopy.count(card.reviewsToday, "次复习"), systemImage: "checkmark.circle.fill")
                     if let minutes = ShareCopy.minutes(card.minutes) {
                         ShareStatChip(text: minutes, systemImage: "clock.fill")
                     }
@@ -242,7 +242,7 @@ private struct AlbumShareCardView: View {
                 }
                 HStack(spacing: Spacing.xs) {
                     ShareStatChip(text: "\(card.albumLevel) \(card.familyTitle)", systemImage: "book.fill")
-                    ShareStatChip(text: "Page \(card.page)", systemImage: "square.grid.3x3.fill")
+                    ShareStatChip(text: "第 \(card.page) 页", systemImage: "square.grid.3x3.fill")
                 }
             }
         }
@@ -277,7 +277,7 @@ private struct WeekShareCardView: View {
 
                 if !recap.nailedWords.isEmpty {
                     VStack(spacing: Spacing.xxs) {
-                        Text("Words I nailed")
+                        Text("我拿下的单词")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.textSecondary)
                         HStack(spacing: Spacing.xs) {
@@ -297,10 +297,10 @@ private struct WeekShareCardView: View {
                 }
 
                 HStack(spacing: Spacing.md) {
-                    footerStat(RecapCopy.count(recap.reviews, "review"), symbol: "checkmark.circle.fill")
-                    footerStat(RecapCopy.count(recap.minutes, "min", "min"), symbol: "clock.fill")
+                    footerStat(RecapCopy.count(recap.reviews, "次复习"), symbol: "checkmark.circle.fill")
+                    footerStat(RecapCopy.count(recap.minutes, "分钟"), symbol: "clock.fill")
                     if recap.streak > 0 {
-                        footerStat("\(recap.streak)-day streak", symbol: "flame.fill")
+                        footerStat("连续打卡 \(recap.streak) 天", symbol: "flame.fill")
                     }
                 }
             }

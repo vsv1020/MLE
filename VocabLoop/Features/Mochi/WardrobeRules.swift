@@ -47,8 +47,8 @@ enum WardrobeRules {
     static func label(for lock: WardrobeLock) -> String? {
         switch lock {
         case .unlocked: return nil
-        case .level(let level): return "Level \(level)"
-        case .achievement(let id): return "\(AchievementCatalog.achievement(id)?.name ?? "Badge") badge"
+        case .level(let level): return "\(level) 级"
+        case .achievement(let id): return "\(AchievementCatalog.achievement(id)?.name ?? "")徽章"
         case .plus: return "Plus"
         }
     }
@@ -56,11 +56,11 @@ enum WardrobeRules {
     /// The sentence VoiceOver reads for a locked tile.
     static func spokenLock(for lock: WardrobeLock) -> String {
         switch lock {
-        case .unlocked: return "Unlocked"
-        case .level(let level): return "Locked. Unlocks at level \(level)"
+        case .unlocked: return "已解锁"
+        case .level(let level): return "未解锁。\(level) 级解锁"
         case .achievement(let id):
-            return "Locked. Unlocks with the \(AchievementCatalog.achievement(id)?.name ?? "matching") badge"
-        case .plus: return "Part of the Plus closet. Opens VocabLoop Plus"
+            return "未解锁。获得\(AchievementCatalog.achievement(id)?.name ?? "对应的")徽章后解锁"
+        case .plus: return "属于 Plus 衣橱。打开麻薯 Plus"
         }
     }
 
@@ -76,7 +76,7 @@ enum WardrobeRules {
         for color in MochiBodyColor.allCases where !color.requiresPlus {
             guard let needed = color.unlockLevel, needed > level else { continue }
             if let current = best, current.level <= needed { continue }
-            best = ("\(color.name) colour", needed)
+            best = ("\(color.name)（颜色）", needed)
         }
         return best
     }
@@ -90,20 +90,20 @@ enum WardrobeRules {
 
     static func stageName(_ stage: MochiStage) -> String {
         switch stage {
-        case .sprout: return "Sprout"
-        case .kid: return "Little Mochi"
-        case .teen: return "Big Mochi"
-        case .grown: return "Grown-up Mochi"
+        case .sprout: return "小芽芽"
+        case .kid: return "小麻薯"
+        case .teen: return "大麻薯"
+        case .grown: return "成年麻薯"
         }
     }
 
     /// Wardrobe section title for a slot.
     static func slotTitle(_ slot: MochiAccessory.Slot) -> String {
         switch slot {
-        case .head: return "Hats"
-        case .eyes: return "Glasses"
-        case .neck: return "Scarves and pins"
-        case .back: return "Capes"
+        case .head: return "帽子"
+        case .eyes: return "眼镜"
+        case .neck: return "围巾和胸针"
+        case .back: return "披风"
         }
     }
 

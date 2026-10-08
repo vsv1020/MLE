@@ -38,7 +38,7 @@ struct AlbumGridView: View {
                 if progress?.isComplete == true {
                     completeBanner
                 } else {
-                    Text("A sticker shines once you know its word well — about three weeks between reviews. Keep studying and they light up one by one.")
+                    Text("等你把一个单词记牢（两次复习相隔约三周），它的贴纸就会闪亮。继续学习，贴纸会一张张亮起来。")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                 }
@@ -47,7 +47,7 @@ struct AlbumGridView: View {
             .readableWidth()
         }
         .screenBackground()
-        .navigationTitle("\(album.family.title) · Page \(album.page)")
+        .navigationTitle("\(album.family.title) · 第 \(album.page) 页")
         .navigationBarTitleDisplayMode(.inline)
         .task { load() }
     }
@@ -71,12 +71,12 @@ struct AlbumGridView: View {
                 Text("\(shinyCount) / \(album.entryStableIDs.count)")
                     .font(Typography.statValue)
                     .foregroundStyle(Palette.textPrimary)
-                Text("shining")
+                Text("闪亮")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
             }
             .accessibilityElement(children: .ignore)
-            .accessibilityLabel("\(shinyCount) of \(album.entryStableIDs.count) stickers shining")
+            .accessibilityLabel("\(album.entryStableIDs.count) 张贴纸中有 \(shinyCount) 张闪亮")
         }
     }
 
@@ -87,17 +87,17 @@ struct AlbumGridView: View {
                     Mascot(mood: .cheer)
                         .frame(width: 58, height: 48)
                     VStack(alignment: .leading, spacing: Spacing.xxs) {
-                        Text("Page complete!")
+                        Text("这一页集齐了！")
                             .font(Typography.sectionHeader)
                             .foregroundStyle(Palette.textPrimary)
-                        Text("Every sticker on this page shines.")
+                        Text("这一页的每张贴纸都闪亮了。")
                             .font(Typography.caption)
                             .foregroundStyle(Palette.textSecondary)
                     }
                 }
                 .accessibilityElement(children: .combine)
 
-                ShareCardButton(card: .album(albumCard), label: "Share this page")
+                ShareCardButton(card: .album(albumCard), label: "分享这一页")
             }
         }
     }

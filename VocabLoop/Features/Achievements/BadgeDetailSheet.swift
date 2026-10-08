@@ -63,18 +63,18 @@ struct BadgeDetailSheet: View {
                     .drawnPanel(seed: WobbleShape.seed(for: "badge-sheet-" + achievement.id.rawValue))
 
                     if let card = BadgeCard(status: status, look: look, level: level) {
-                        ShareCardButton(card: .badge(card), label: "Share my badge")
+                        ShareCardButton(card: .badge(card), label: "分享我的徽章")
                     }
                 }
                 .padding(Spacing.md)
                 .readableWidth()
             }
             .screenBackground()
-            .navigationTitle("Badge")
+            .navigationTitle("徽章")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { dismiss() }
+                    Button("完成") { dismiss() }
                 }
             }
         }
@@ -85,8 +85,8 @@ struct BadgeDetailSheet: View {
     /// What the badge gave Mochi: ten star candy always, and a wardrobe item for some.
     private var rewardLine: String {
         if let reward {
-            return "Mochi got 10 star candy and something new to wear: \(reward.name)."
+            return "麻薯得到了 10 颗星星糖，还有一件新装扮：\(reward.name)。"
         }
-        return "Mochi got 10 star candy for this one."
+        return "这枚徽章让麻薯得到了 10 颗星星糖。"
     }
 }

@@ -34,8 +34,8 @@ struct ParentReportView: View {
                 } else if didLoad {
                     EmptyStateView(
                         systemImage: "chart.bar.doc.horizontal",
-                        title: "No report yet",
-                        message: "Once a few words have been reviewed, this week's report appears here."
+                        title: "还没有报告",
+                        message: "复习过几个单词后，本周的报告就会出现在这里。"
                     )
                 } else {
                     ProgressView().frame(maxWidth: .infinity)
@@ -45,7 +45,7 @@ struct ParentReportView: View {
             .readableWidth()
         }
         .screenBackground()
-        .navigationTitle("Parent report")
+        .navigationTitle("家长报告")
         .navigationBarTitleDisplayMode(.inline)
         .task { load() }
         // Plus can be bought from the row below and the user comes straight back here.
@@ -57,7 +57,7 @@ struct ParentReportView: View {
     private func summaryCard(_ recap: WeeklyRecap) -> some View {
         CardContainer(style: .crayon, wobbleSeed: 0x9A2E_0001) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                Text("Last seven days")
+                Text("最近七天")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.brandSecondary)
                 Text(RecapCopy.parentHeadline(wordsMastered: recap.wordsMastered))
@@ -68,9 +68,9 @@ struct ParentReportView: View {
                 HStack(spacing: Spacing.xxs) {
                     Image(systemName: "flame.fill")
                         .foregroundStyle(Palette.brandSecondary)
-                    Text(recap.streak > 0 ? "\(recap.streak)-day streak" : "No streak running right now")
+                    Text(recap.streak > 0 ? "连续打卡 \(recap.streak) 天" : "目前没有连续打卡")
                         .foregroundStyle(Palette.textSecondary)
-                    Text("· \(RecapCopy.daysStudied(recap.studiedDays)) studied")
+                    Text("· \(RecapCopy.daysStudied(recap.studiedDays))")
                         .foregroundStyle(Palette.textSecondary)
                 }
                 .font(Typography.caption)
@@ -82,13 +82,13 @@ struct ParentReportView: View {
     private func numbersCard(_ recap: WeeklyRecap) -> some View {
         CardContainer(style: .crayon, wobbleSeed: 0x9A2E_0002) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader("This week", subtitle: "Compared with the seven days before")
-                comparisonRow("Reviews", value: "\(recap.reviews)", delta: recap.previous?.reviews)
-                comparisonRow("Minutes studied", value: "\(recap.minutes)", delta: recap.previous?.minutes)
-                comparisonRow("Words well known", value: "\(recap.wordsMastered)", delta: recap.previous?.wordsMastered)
-                comparisonRow("Words started", value: "\(recap.wordsStarted)", delta: nil)
-                comparisonRow("Recalled correctly", value: RecapCopy.percent(recap.accuracy), delta: nil)
-                comparisonRow("Mochi level", value: "\(recap.level)", delta: nil)
+                SectionHeader("本周", subtitle: "与之前七天相比")
+                comparisonRow("复习次数", value: "\(recap.reviews)", delta: recap.previous?.reviews)
+                comparisonRow("学习分钟数", value: "\(recap.minutes)", delta: recap.previous?.minutes)
+                comparisonRow("记得很牢的单词", value: "\(recap.wordsMastered)", delta: recap.previous?.wordsMastered)
+                comparisonRow("开始学的单词", value: "\(recap.wordsStarted)", delta: nil)
+                comparisonRow("记住了", value: RecapCopy.percent(recap.accuracy), delta: nil)
+                comparisonRow("麻薯等级", value: "\(recap.level)", delta: nil)
             }
         }
     }
@@ -121,13 +121,13 @@ struct ParentReportView: View {
         CardContainer(style: .crayon, wobbleSeed: 0x9A2E_0003) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
                 SectionHeader(
-                    "Words started this week",
-                    subtitle: RecapCopy.count(recap.wordsStarted, "new word")
+                    "本周开始学的单词",
+                    subtitle: RecapCopy.count(recap.wordsStarted, "个新词")
                 )
                 if recap.startedWords.isEmpty {
                     Text(recap.wordsStarted > 0
-                         ? "The word list will appear here after the next review."
-                         : "No new words this week. Today's words on the Today screen are the easiest way to add some.")
+                         ? "下次复习后，单词列表会出现在这里。"
+                         : "本周没有新词。“今天”页上的今日单词是添加新词最简单的方式。")
                         .font(Typography.caption)
                         .foregroundStyle(Palette.textSecondary)
                         .fixedSize(horizontal: false, vertical: true)
@@ -143,7 +143,7 @@ struct ParentReportView: View {
     private func trickyCard(_ recap: WeeklyRecap) -> some View {
         CardContainer(style: .crayon, wobbleSeed: 0x9A2E_0004) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader("Worth another look", subtitle: "Forgotten twice or more this week")
+                SectionHeader("值得再看看", subtitle: "本周忘了两次或以上")
                 ForEach(recap.trickyWords) { word in
                     wordRow(word)
                 }
@@ -167,7 +167,7 @@ struct ParentReportView: View {
     private func notesCard(_ recap: WeeklyRecap) -> some View {
         CardContainer(style: .crayon, wobbleSeed: 0x9A2E_0005) {
             VStack(alignment: .leading, spacing: Spacing.sm) {
-                SectionHeader("Notes")
+                SectionHeader("说明")
                 ForEach(notes(for: recap), id: \.self) { note in
                     HStack(alignment: .top, spacing: Spacing.xs) {
                         Image(systemName: "info.circle")
@@ -200,7 +200,7 @@ struct ParentReportView: View {
         if isPlus {
             CardContainer(style: .crayon, wobbleSeed: 0x9A2E_0006) {
                 VStack(alignment: .leading, spacing: Spacing.sm) {
-                    SectionHeader("History", subtitle: "The last \(Self.historyWeeks) weeks")
+                    SectionHeader("历史", subtitle: "最近 \(Self.historyWeeks) 周")
                     ForEach(history, id: \.weekStartKey) { week in
                         historyRow(week)
                     }
@@ -208,7 +208,7 @@ struct ParentReportView: View {
             }
             if let pdfURL {
                 ShareLink(item: pdfURL) {
-                    Label("Export PDF", systemImage: "doc.richtext")
+                    Label("导出 PDF", systemImage: "doc.richtext")
                         .font(Typography.buttonLabel)
                         .frame(maxWidth: .infinity, minHeight: LayoutMetrics.minimumTapTarget)
                         .foregroundStyle(Palette.onBrand)
@@ -224,10 +224,10 @@ struct ParentReportView: View {
                 } label: {
                     HStack(spacing: Spacing.sm) {
                         VStack(alignment: .leading, spacing: 2) {
-                            Text("12-week history and PDF export")
+                            Text("12 周历史和 PDF 导出")
                                 .font(Typography.bodyEmphasis)
                                 .foregroundStyle(Palette.textPrimary)
-                            Text("See how the weeks add up, and save a report to share with a teacher.")
+                            Text("看看一周周积累下来的进步，还能保存报告分享给老师。")
                                 .font(Typography.caption)
                                 .foregroundStyle(Palette.textSecondary)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -252,7 +252,7 @@ struct ParentReportView: View {
                 .font(Typography.body)
                 .foregroundStyle(Palette.textPrimary)
             Spacer()
-            Text("\(RecapCopy.count(week.reviews, "review")) · \(week.minutes) min · \(week.wordsMastered) known")
+            Text("\(RecapCopy.count(week.reviews, "次复习")) · \(week.minutes) 分钟 · 记牢 \(week.wordsMastered) 个")
                 .font(Typography.caption)
                 .monospacedDigit()
                 .foregroundStyle(Palette.textSecondary)
@@ -297,7 +297,7 @@ enum ParentReportPDF {
         renderer.proposedSize = ProposedViewSize(width: pageWidth, height: nil)
 
         let url = FileManager.default.temporaryDirectory
-            .appendingPathComponent("VocabLoop-parent-report-\(recap.weekStartKey).pdf")
+            .appendingPathComponent("麻薯背单词-家长报告-\(recap.weekStartKey).pdf")
         var succeeded = false
         renderer.render { size, draw in
             var box = CGRect(origin: .zero, size: size)
@@ -320,7 +320,7 @@ private struct ParentReportPrintView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.md) {
-            Text("VocabLoop · Parent report")
+            Text("麻薯背单词 · 家长报告")
                 .font(Typography.caption)
                 .foregroundStyle(Palette.brandSecondary)
             Text(RecapCopy.parentHeadline(wordsMastered: recap.wordsMastered))
@@ -330,41 +330,41 @@ private struct ParentReportPrintView: View {
                 .frame(maxWidth: 360)
 
             Group {
-                line("Reviews", "\(recap.reviews)", delta: recap.previous?.reviews)
-                line("Minutes studied", "\(recap.minutes)", delta: recap.previous?.minutes)
-                line("Words well known", "\(recap.wordsMastered)", delta: recap.previous?.wordsMastered)
-                line("Words started", "\(recap.wordsStarted)", delta: nil)
-                line("Recalled correctly", RecapCopy.percent(recap.accuracy), delta: nil)
-                line("Streak", "\(recap.streak) days", delta: nil)
+                line("复习次数", "\(recap.reviews)", delta: recap.previous?.reviews)
+                line("学习分钟数", "\(recap.minutes)", delta: recap.previous?.minutes)
+                line("记得很牢的单词", "\(recap.wordsMastered)", delta: recap.previous?.wordsMastered)
+                line("开始学的单词", "\(recap.wordsStarted)", delta: nil)
+                line("记住了", RecapCopy.percent(recap.accuracy), delta: nil)
+                line("连续打卡", "\(recap.streak) 天", delta: nil)
             }
 
             if !recap.startedWords.isEmpty {
-                heading("Words started")
+                heading("开始学的单词")
                 Text(recap.startedWords.map { word in
-                    word.translation.map { "\(word.headword) (\($0))" } ?? word.headword
-                }.joined(separator: ", "))
+                    word.translation.map { "\(word.headword)（\($0)）" } ?? word.headword
+                }.joined(separator: "、"))
                     .font(Typography.body)
                     .foregroundStyle(Palette.textPrimary)
                     .fixedSize(horizontal: false, vertical: true)
             }
             if !recap.trickyWords.isEmpty {
-                heading("Worth another look")
-                Text(recap.trickyWords.map(\.headword).joined(separator: ", "))
+                heading("值得再看看")
+                Text(recap.trickyWords.map(\.headword).joined(separator: "、"))
                     .font(Typography.body)
                     .foregroundStyle(Palette.textPrimary)
                     .fixedSize(horizontal: false, vertical: true)
             }
             if !history.isEmpty {
-                heading("Last \(history.count) weeks")
+                heading("最近 \(history.count) 周")
                 ForEach(history, id: \.weekStartKey) { week in
                     line(
                         RecapCopy.weekLabel(weekStartKey: week.weekStartKey),
-                        "\(RecapCopy.count(week.reviews, "review")) · \(week.minutes) min · \(week.wordsMastered) known",
+                        "\(RecapCopy.count(week.reviews, "次复习")) · \(week.minutes) 分钟 · 记牢 \(week.wordsMastered) 个",
                         delta: nil
                     )
                 }
             }
-            heading("Notes")
+            heading("说明")
             ForEach(RecapCopy.parentNotes(
                 accuracy: recap.accuracy,
                 reviews: recap.reviews,

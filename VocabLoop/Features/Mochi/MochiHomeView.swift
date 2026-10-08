@@ -16,9 +16,9 @@ struct MochiHomeView: View {
 
         var title: String {
             switch self {
-            case .mochi: return "Mochi"
-            case .stickers: return "Stickers"
-            case .badges: return "Badges"
+            case .mochi: return "麻薯"
+            case .stickers: return "贴纸"
+            case .badges: return "徽章"
             }
         }
     }
@@ -37,7 +37,7 @@ struct MochiHomeView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
-                Picker("Section", selection: $section) {
+                Picker("分区", selection: $section) {
                     ForEach(Pane.allCases) { section in
                         Text(section.title).tag(section)
                     }
@@ -62,11 +62,11 @@ struct MochiHomeView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     if let mochiCard {
-                        ShareCardButton(card: .mochi(mochiCard), label: "Share Mochi", style: .toolbar)
+                        ShareCardButton(card: .mochi(mochiCard), label: "分享麻薯", style: .toolbar)
                     }
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { dismiss() }
+                    Button("完成") { dismiss() }
                 }
             }
         }
@@ -108,7 +108,7 @@ private struct MochiWardrobeTab: View {
 
                 MochiStatusCard(candy: snapshot.candy)
 
-                Text("Every answer earns star candy, even \u{201C}Forgot\u{201D}. Candy helps Mochi grow and unlocks new things to wear.")
+                Text("每次作答都能得到星星糖，就算选了\u{201C}忘了\u{201D}也有。星星糖能让麻薯长大，还能解锁新装扮。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
 
