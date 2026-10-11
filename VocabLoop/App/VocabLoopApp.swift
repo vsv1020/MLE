@@ -3,6 +3,8 @@ import SwiftData
 
 @main
 struct VocabLoopApp: App {
+    /// APNs token callbacks and foreground presentation — see ``AppDelegate``.
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @State private var dependencies: AppDependencies
     /// `nil` unless the store could not be opened at all — see ``LaunchFailureView``.
     private let launchFailure: String?
@@ -74,6 +76,9 @@ struct VocabLoopApp: App {
                     .environment(\.appDependencies, dependencies)
                     .modelContainer(dependencies.container)
                     .tint(Palette.brandPrimary)
+                    // Before `bootstrap` can ask APNs for a token (it runs in RootView's task,
+                    // after this); the delegate also holds a token that arrives earlier.
+                    .onAppear { appDelegate.attach(dependencies.push) }
                     // Widget and Live Activity taps. Left as a note for the root session, exactly
                     // like an App Intent, so a cold launch and a warm one take the same path.
                     .onOpenURL { url in

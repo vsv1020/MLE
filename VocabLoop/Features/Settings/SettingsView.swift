@@ -496,6 +496,8 @@ struct PresentationSettingsView: View {
 
 struct NotificationSettingsView: View {
     @Environment(\.appDependencies) private var dependencies
+    @Environment(\.openURL) private var openURL
+    @Environment(\.scenePhase) private var scenePhase
     @State private var authorizationDenied = false
 
     var body: some View {
@@ -561,8 +563,46 @@ struct NotificationSettingsView: View {
                     }
                 }
             }
+
+            announcementsSection
         }
         .navigationTitle("通知")
+        .task { await dependencies.push.refreshAuthorizationStatus() }
+        // Back from iOS Settings: the hint should disappear as soon as notifications are allowed.
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active {
+                Task { await dependencies.push.refreshAuthorizationStatus() }
+            }
+        }
+    }
+
+    /// Opt-in remote push (App Review 4.5.4: promotional pushes need explicit consent). Off by
+    /// default and independent of the study reminders above, which stay local.
+    private var announcementsSection: some View {
+        let push = dependencies.push
+        return Section {
+            Toggle("接收活动和新功能通知", isOn: Binding(
+                get: { push.isEnabled },
+                set: { isOn in Task { await push.setEnabled(isOn) } }
+            ))
+
+            if push.isEnabled && push.notificationsDenied {
+                VStack(alignment: .leading, spacing: Spacing.xs) {
+                    Text("iOS 设置里关闭了麻薯背单词的通知，打开后才能收到。")
+                        .font(Typography.caption)
+                        .foregroundStyle(Palette.danger)
+                    Button("去 iOS 设置打开") {
+                        if let url = URL(string: UIApplication.openSettingsURLString) {
+                            openURL(url)
+                        }
+                    }
+                }
+            }
+        } header: {
+            Text("活动和新功能")
+        } footer: {
+            Text("偶尔告诉你新词库上线、新功能和活动，不会很频繁。可以随时关闭。学习提醒不受影响。")
+        }
     }
 
     /// Saved first, so the choice sticks even if the permission prompt is declined. Permission

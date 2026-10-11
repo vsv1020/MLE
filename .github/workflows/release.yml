@@ -113,6 +113,16 @@ jobs:
           APP_GROUP: group.com.vocabloop.app
         run: node scripts/asc-provision.mjs
 
+      - name: Enable Push Notifications on the app ID
+        # The app signs with `aps-environment` (opt-in 活动和新功能通知), so the App ID needs the
+        # PUSH_NOTIFICATIONS capability or the profile Xcode fetches cannot sign it. Every run,
+        # whatever VL_WIDGETS says; a no-op once enabled (409 = already there).
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          APP_BUNDLE_ID: com.vocabloop.app
+        run: node scripts/asc-push-capability.mjs
+
       - name: Revoke development certificates left by earlier runs
         # Every run starts with an empty keychain, so automatic signing mints a new Apple
         # Development certificate and the old one is orphaned. Ten of them filled the account's
@@ -138,6 +148,8 @@ jobs:
           path = "Config/VocabLoop.entitlements"
           with open(path, "rb") as f:
               ents = plistlib.load(f)
+          # Only the group: every other entitlement (aps-environment for push, Sign in with
+          # Apple) stays as it is.
           ents.pop("com.apple.security.application-groups", None)
           with open(path, "wb") as f:
               plistlib.dump(ents, f)

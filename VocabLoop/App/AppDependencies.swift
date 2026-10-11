@@ -21,6 +21,8 @@ public final class AppDependencies {
     public let search: SearchService
     public let speech: SpeechService
     public let notifications: NotificationService
+    /// Opt-in remote push for 活动和新功能通知. Study reminders stay local in `notifications`.
+    public let push: PushRegistrationService
     public let network: NetworkMonitor
     public let sync: SyncEngine
     public let importer: SeedImporter
@@ -77,6 +79,13 @@ public final class AppDependencies {
         self.speech = SpeechService()
         let notifications = NotificationService()
         self.notifications = notifications
+        // The language closure reads through `context`, not `self`: `self` is not fully
+        // initialised yet, and the active account can change (sign-in) after launch.
+        self.push = PushRegistrationService(
+            languageCode: { (try? context.activeAccount())?.preferences?.activeLanguageCode },
+            authorizationStatus: { await notifications.authorizationStatus() },
+            requestAuthorization: { await notifications.requestAuthorization() }
+        )
         self.review = ReviewService(context: context)
         let entitlements = Entitlements.shared
         self.entitlements = entitlements
@@ -161,6 +170,9 @@ public final class AppDependencies {
         // cached flag in `Entitlements` covers the gap.
         Task { await purchases.load() }
         sync.refreshStatus()
+        // Opt-in announcements: re-register (deduplicated) or finish a pending unregister.
+        // Not awaited — nothing on screen depends on it.
+        Task { await push.refresh() }
         await sync.sync()
     }
 
@@ -242,6 +254,8 @@ public final class AppDependencies {
         await installLanguage(language)
         preferences.activeLanguage = language
         savePreferences()
+        // Announcements are segmented by language; a no-op unless the user opted in.
+        Task { await push.languageDidChange() }
     }
 
     /// Persist a preferences change and queue it for sync.

@@ -9,7 +9,13 @@
 	<key>NSPrivacyTrackingDomains</key>
 	<array/>
 
-	<!-- Nothing is collected in the shipped configuration.
+	<!-- One thing is collected, and only after an explicit opt-in: with Settings ▸ 通知 ▸
+	     接收活动和新功能通知 on, `PushRegistrationService` sends the APNs device token (a device
+	     ID), the learning language and the app version to the website's /api/push/register so
+	     announcements can be sent. Not linked to the user (no account, email or other ID goes
+	     with it), not used for tracking; turning the switch off deletes it from the server.
+
+	     Apart from that, nothing is collected in the shipped configuration.
 
 	     `APIConfiguration.offline` is the default and has no base URL, so `SyncEngine` has
 	     nowhere to send anything: study data, review history and account details stay in the
@@ -22,7 +28,20 @@
 	     and a product-interaction entry, both linked to the user. Shipping this file unchanged
 	     alongside a live sync URL is a misdeclaration, not an oversight. -->
 	<key>NSPrivacyCollectedDataTypes</key>
-	<array/>
+	<array>
+		<dict>
+			<key>NSPrivacyCollectedDataType</key>
+			<string>NSPrivacyCollectedDataTypeDeviceID</string>
+			<key>NSPrivacyCollectedDataTypeLinked</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypeTracking</key>
+			<false/>
+			<key>NSPrivacyCollectedDataTypePurposes</key>
+			<array>
+				<string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+			</array>
+		</dict>
+	</array>
 
 	<key>NSPrivacyAccessedAPITypes</key>
 	<array>
