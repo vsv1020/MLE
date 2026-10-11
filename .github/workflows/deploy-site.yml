@@ -13,10 +13,9 @@ name: Deploy website
 #
 # Each run: installs nginx/rsync if missing, uploads site/, gets an HTTPS certificate the
 # first time (Let's Encrypt via certbot), and checks the pages are live.
+# Manual only: the site is now updated by deploy-push.yml, which leaves the owner's existing nginx
+# and certificate setup alone. This workflow would (re)configure nginx and certbot.
 on:
-  push:
-    branches: [main]
-    paths: ['site/**', '.github/workflows/deploy-site.yml', 'scripts/server-setup-site.sh']
   workflow_dispatch:
 
 concurrency:

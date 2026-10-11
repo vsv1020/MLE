@@ -1,0 +1,102 @@
+name: Deploy push service
+
+# Installs the push server (server/push) on the owner's server and updates the website files,
+# over SSH from this runner (the development environment cannot reach the server).
+#
+# Secrets needed:
+#   DEPLOY_SSH_KEY       private key whose public half is in root's ~/.ssh/authorized_keys
+#   APNS_KEY_P8          contents of the APNs .p8 key
+#   APNS_KEY_ID          its 10-character Key ID
+#   APPLE_TEAM_ID        10-character Team ID
+#   PUSH_ADMIN_PASSWORD  password for https://mle.doge6.com/push-admin (user: admin), 12+ chars,
+#                        letters and digits only
+#
+# Run: Actions ▸ Deploy push service ▸ Run workflow, or change the PUSHDEPLOY file on main.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [PUSHDEPLOY]
+
+concurrency:
+  group: deploy-push
+  cancel-in-progress: false
+
+env:
+  HOST: 8.220.133.54
+  PORT: '22'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the secrets are present
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
+          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          PUSH_ADMIN_PASSWORD: ${{ secrets.PUSH_ADMIN_PASSWORD }}
+        run: |
+          missing=0
+          for n in DEPLOY_SSH_KEY APNS_KEY_P8 APNS_KEY_ID APPLE_TEAM_ID PUSH_ADMIN_PASSWORD; do
+            v="${!n}"
+            if [ -z "$v" ]; then echo "::error::secret $n is missing"; missing=1; else echo "$n: set"; fi
+          done
+          if [ ${#PUSH_ADMIN_PASSWORD} -lt 12 ]; then echo "::error::PUSH_ADMIN_PASSWORD must be at least 12 characters"; missing=1; fi
+          if ! printf '%s' "$PUSH_ADMIN_PASSWORD" | grep -Eq '^[A-Za-z0-9]+$'; then echo "::error::PUSH_ADMIN_PASSWORD: letters and digits only"; missing=1; fi
+          exit $missing
+
+      - name: Check the APNs key first
+        env:
+          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
+          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: node scripts/apns-check.mjs
+
+      - name: Run the push server's tests
+        working-directory: server/push
+        run: node --test
+
+      - name: Set up SSH
+        env:
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/deploy && chmod 600 ~/.ssh/deploy
+          ssh-keyscan -p "$PORT" -T 20 "$HOST" >> ~/.ssh/known_hosts
+          echo "SSH=ssh -i $HOME/.ssh/deploy -p $PORT -o BatchMode=yes root@$HOST" >> "$GITHUB_ENV"
+          echo "SCP=scp -i $HOME/.ssh/deploy -P $PORT -o BatchMode=yes" >> "$GITHUB_ENV"
+
+      - name: Upload
+        env:
+          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
+          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          PUSH_ADMIN_PASSWORD: ${{ secrets.PUSH_ADMIN_PASSWORD }}
+        run: |
+          set -euo pipefail
+          umask 077
+          mkdir -p "$RUNNER_TEMP/up/push-server"
+          cp -r server/push/. "$RUNNER_TEMP/up/push-server/"
+          cp -r site "$RUNNER_TEMP/up/site"
+          tar -czf "$RUNNER_TEMP/bundle.tgz" -C "$RUNNER_TEMP/up" push-server site
+          printf '%s\n' "$APNS_KEY_P8" > "$RUNNER_TEMP/AuthKey.p8"
+          printf 'APNS_KEY_ID=%s\nAPPLE_TEAM_ID=%s\nPUSH_ADMIN_PASSWORD=%s\n' \
+            "$APNS_KEY_ID" "$APPLE_TEAM_ID" "$PUSH_ADMIN_PASSWORD" > "$RUNNER_TEMP/secrets.env"
+          $SSH 'mkdir -p /root/mashu-deploy && chmod 700 /root/mashu-deploy'
+          $SCP "$RUNNER_TEMP/bundle.tgz" "$RUNNER_TEMP/secrets.env" "$RUNNER_TEMP/AuthKey.p8" \
+            scripts/server-deploy-push.sh "root@$HOST:/root/mashu-deploy/"
+          rm -f "$RUNNER_TEMP/AuthKey.p8" "$RUNNER_TEMP/secrets.env"
+
+      - name: Deploy on the server
+        run: $SSH 'bash /root/mashu-deploy/server-deploy-push.sh'
+
+      - name: Check from outside
+        run: |
+          curl -sS --max-time 15 https://mle.doge6.com/api/push/health; echo
+          curl -s -o /dev/null -w "push-admin: %{http_code}\n" --max-time 15 https://mle.doge6.com/push-admin
+          curl -s --max-time 15 https://mle.doge6.com/privacy.html | grep -q "麻薯背单词" && echo "privacy page updated"
