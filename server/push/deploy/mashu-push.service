@@ -1,0 +1,51 @@
+# 麻薯背单词推送服务 (com.vocabloop.app)
+# 安装位置：/etc/systemd/system/mashu-push.service（install.sh 会自动安装，并把 node 路径改成本机实际路径）
+[Unit]
+Description=Mashu push notification server (com.vocabloop.app)
+After=network-online.target
+Wants=network-online.target
+# 配置错误时（例如密码太短）不要无限快速重启刷日志
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=mashu-push
+Group=mashu-push
+EnvironmentFile=/etc/mashu-push.env
+Environment=NODE_ENV=production
+WorkingDirectory=/opt/mashu-push
+ExecStart=/usr/bin/node /opt/mashu-push/server.mjs
+Restart=always
+RestartSec=3
+
+# 数据目录：/var/lib/mashu-push（systemd 自动创建，属主 mashu-push，权限 700）
+StateDirectory=mashu-push
+StateDirectoryMode=0700
+UMask=0077
+
+# ---- 安全加固 ----
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/mashu-push
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+ProtectClock=true
+ProtectHostname=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+SystemCallArchitectures=native
+CapabilityBoundingSet=
+AmbientCapabilities=
+# 注意：不能加 MemoryDenyWriteExecute=true，Node.js 的 JIT 需要它。
+
+[Install]
+WantedBy=multi-user.target
