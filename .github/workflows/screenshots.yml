@@ -138,6 +138,36 @@ jobs:
               print(f"{name}: {found[name]}")
           PY
 
+      # Preview runs (not main) also render every share poster, for review next to the screens.
+      - name: Render share posters (preview)
+        if: github.ref != 'refs/heads/main' && matrix.device == 'iphone'
+        run: |
+          set -o pipefail
+          TEST_RUNNER_SHARE_POSTER_PREVIEW=1 xcodebuild test \
+            -project VocabLoop.xcodeproj \
+            -scheme VocabLoop \
+            -configuration Debug \
+            -destination "platform=iOS Simulator,id=$SIM_ID" \
+            -only-testing:VocabLoopTests/SharePosterPreviewTests \
+            -resultBundlePath "$RUNNER_TEMP/Posters.xcresult" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            2>&1 | tail -40
+          OUT="$RUNNER_TEMP/poster-attachments"
+          mkdir -p "$OUT" "$RUNNER_TEMP/posters"
+          xcrun xcresulttool export attachments --path "$RUNNER_TEMP/Posters.xcresult" --output-path "$OUT"
+          python3 - "$OUT" "$RUNNER_TEMP/posters" <<'PY'
+          import json, os, shutil, sys
+          src, dst = sys.argv[1], sys.argv[2]
+          for test in json.load(open(os.path.join(src, "manifest.json"))):
+              for attachment in test.get("attachments", []):
+                  human = attachment.get("suggestedHumanReadableName", "")
+                  if human.startswith("poster-"):
+                      name = human.split("_")[0].removesuffix(".png")
+                      shutil.copyfile(os.path.join(src, attachment["exportedFileName"]), os.path.join(dst, name + ".png"))
+                      print(name)
+          PY
+
       - name: Check sizes
         run: |
           status=0
@@ -209,6 +239,11 @@ jobs:
           dest="docs/appstore/preview/${{ matrix.device }}"
           mkdir -p "$dest"
           for name in $NAMES; do cp "$RUNNER_TEMP/shots/$name.png" "$dest/$name.png"; done
+          if ls "$RUNNER_TEMP"/posters/*.png >/dev/null 2>&1; then
+            mkdir -p docs/appstore/preview/posters
+            cp "$RUNNER_TEMP"/posters/*.png docs/appstore/preview/posters/
+            git add docs/appstore/preview/posters
+          fi
           git add "$dest"
           if git diff --cached --quiet; then
             echo "Preview unchanged; nothing to commit."
