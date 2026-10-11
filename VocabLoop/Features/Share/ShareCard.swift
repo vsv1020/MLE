@@ -51,7 +51,7 @@ enum ShareCard: Sendable {
         }
     }
 
-    /// The text that travels with the image: headline plus the App Store link.
+    /// The text that travels with the image: headline plus the China App Store link.
     var message: String { ShareCopy.message(headline: headline) }
 
     var accessibilityLabel: String { "分享卡片：\(headline)" }

@@ -9,9 +9,13 @@ import Foundation
 public enum AppLinks {
     public static let supportEmail = "vsv.zhang@gmail.com"
 
-    /// The App Store page. Printed on every share card and appended to the share message, so the
-    /// link survives targets that drop the image.
+    /// The App Store page, storefront-neutral: Apple sends each visitor to their own storefront.
     public static let appStore = URL(string: "https://apps.apple.com/app/id6800027452")!
+
+    /// The China storefront's page for the same app. Share posters carry it as a QR code and the
+    /// share message as a link: they travel mostly through WeChat and 小红书, where readers are in
+    /// China and the storefront-neutral link can take an extra redirect inside WeChat's browser.
+    public static let appStoreChina = URL(string: "https://apps.apple.com/cn/app/id6800027452")!
 
     public static var website: URL? {
         guard let raw = Bundle.main.object(forInfoDictionaryKey: "VLWebsiteURL") as? String else { return nil }

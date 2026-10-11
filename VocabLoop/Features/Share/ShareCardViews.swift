@@ -42,7 +42,7 @@ private struct GoalShareCardView: View {
         ShareCardFrame(
             kind: .goal,
             headline: ShareCopy.goalHeadline(reviews: card.reviewsToday),
-            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 132)
+            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 150)
         ) {
             VStack(spacing: Spacing.xs) {
                 HStack(spacing: Spacing.xs) {
@@ -73,14 +73,14 @@ private struct StreakShareCardView: View {
         ShareCardFrame(
             kind: .streak,
             headline: ShareCopy.streakHeadline(days: card.streak),
-            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 132)
+            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 150)
         ) {
             VStack(spacing: Spacing.sm) {
                 // One flame per day, up to a week: a picture of the habit, not a score.
                 HStack(spacing: Spacing.xs) {
                     ForEach(0..<min(max(card.streak, 0), 7), id: \.self) { _ in
                         Image(systemName: "flame.fill")
-                            .font(.system(size: 24, weight: .bold))
+                            .font(.system(size: 26, weight: .bold))
                             .foregroundStyle(Palette.brandSecondary)
                     }
                     if card.streak > 7 {
@@ -106,11 +106,11 @@ private struct BadgeShareCardView: View {
         ShareCardFrame(
             kind: .badge,
             headline: ShareCopy.badgeHeadline(name: card.name),
-            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 112)
+            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 96)
         ) {
             HStack(spacing: Spacing.md) {
-                BadgeMedallion(id: card.id, symbolName: card.symbolName, isUnlocked: true, symbolSize: 30)
-                    .frame(width: 80, height: 80)
+                BadgeMedallion(id: card.id, symbolName: card.symbolName, isUnlocked: true, symbolSize: 34)
+                    .frame(width: 88, height: 88)
                 VStack(alignment: .leading, spacing: Spacing.xs) {
                     Text(card.detail)
                         .font(Typography.body)
@@ -139,7 +139,7 @@ private struct MochiShareCardView: View {
         ShareCardFrame(
             kind: .mochi,
             headline: ShareCopy.mochiHeadline(level: card.level),
-            hero: .mochi(look: card.look, level: card.level, mood: .happy, height: 176)
+            hero: .mochi(look: card.look, level: card.level, mood: .happy, height: 196)
         ) {
             HStack(spacing: Spacing.xs) {
                 ShareStatChip(text: card.stageName, systemImage: "sparkles")
@@ -179,7 +179,7 @@ private struct WordShareCardView: View {
                     }
                     Spacer(minLength: 0)
                     Mascot(mood: .happy, look: card.look)
-                        .frame(width: 66, height: 55)
+                        .frame(width: 80, height: 66)
                 }
 
                 Text(card.definition)
@@ -225,7 +225,7 @@ private struct AlbumShareCardView: View {
         ShareCardFrame(
             kind: .album,
             headline: ShareCopy.albumHeadline(stickers: card.stickerCount),
-            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 112)
+            hero: .mochi(look: card.look, level: card.level, mood: .cheer, height: 90)
         ) {
             VStack(spacing: Spacing.sm) {
                 Text(card.albumTitle)
