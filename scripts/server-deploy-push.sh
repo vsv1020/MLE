@@ -31,6 +31,12 @@ echo "--- $CONF (server blocks, for reference)"
 grep -nE 'server_name|listen|root|alias|location|proxy_pass|index' "$CONF" || true
 # The web root: a `root` (or `alias`) directive anywhere in the file, the first one wins.
 WEBROOT=$(awk '$1=="root" || $1=="alias" {v=$2; gsub(";","",v); print v; exit}' "$CONF")
+# Otherwise the site may be a container behind proxy_pass (mle-site: Caddy serving a read-only
+# bind mount of /var/www/$DOMAIN); copying into that folder updates it live.
+if [ -z "$WEBROOT" ] && command -v docker >/dev/null; then
+  WEBROOT=$(docker inspect mle-site-web-1 --format '{{range .Mounts}}{{if eq .Destination "/srv"}}{{.Source}}{{end}}{{end}}' 2>/dev/null || true)
+fi
+[ -z "$WEBROOT" ] && [ -f "/var/www/$DOMAIN/index.html" ] && WEBROOT=/var/www/$DOMAIN
 STAMP=$(date +%Y%m%d-%H%M%S)
 
 # ---------------------------------------------------------------- website files
