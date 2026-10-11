@@ -1,0 +1,41 @@
+name: Server check
+
+# Read-only: logs in with DEPLOY_SSH_KEY and reports what the server has (OS, nginx, Node, the
+# mle.doge6.com config and web root). Changes nothing. Change the SERVERCHECK file on main to run.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [SERVERCHECK]
+
+env:
+  HOST: 8.220.133.54
+  PORT: '22'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Log in and look around
+        env:
+          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          set -u
+          [ -n "$KEY" ] || { echo "::error::DEPLOY_SSH_KEY is missing"; exit 1; }
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/deploy && chmod 600 ~/.ssh/deploy
+          ssh-keygen -y -f ~/.ssh/deploy > /dev/null || { echo "::error::DEPLOY_SSH_KEY is not a valid private key (paste the whole file, including the BEGIN/END lines)"; exit 1; }
+          ssh-keyscan -p "$PORT" -T 20 "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          ssh -i ~/.ssh/deploy -p "$PORT" -o BatchMode=yes -o ConnectTimeout=20 root@$HOST 'bash -s' <<'REMOTE'
+          echo "login: ok as $(whoami) on $(hostname)"
+          . /etc/os-release 2>/dev/null && echo "os: $PRETTY_NAME"
+          echo "systemd: $(command -v systemctl >/dev/null && echo yes || echo no)"
+          echo "nginx: $(nginx -v 2>&1 || echo missing)"
+          echo "node: $(node --version 2>/dev/null || echo missing)"
+          conf=$(grep -rlE 'server_name[^;]*mle\.doge6\.com' /etc/nginx/ 2>/dev/null | grep -v '\.bak' | head -n1)
+          echo "nginx config: ${conf:-not found}"
+          [ -n "$conf" ] && { grep -nE 'listen|server_name|root |location' "$conf"; }
+          echo "push service: $(systemctl is-active mashu-push 2>/dev/null || echo not installed)"
+          echo "disk: $(df -h / | tail -1)"
+          REMOTE
