@@ -49,5 +49,13 @@ jobs:
             [ -n "$cid" ] && echo "docker container: ${cid:0:12}"
           fi
           command -v docker >/dev/null && docker ps --format '{{.Names}}  {{.Image}}  {{.Ports}}' 2>/dev/null | head
+          if command -v docker >/dev/null && docker inspect mle-site-web-1 >/dev/null 2>&1; then
+            echo "--- mle-site-web-1"
+            docker inspect mle-site-web-1 --format 'mounts: {{range .Mounts}}{{.Source}} -> {{.Destination}} ({{.Type}}, rw={{.RW}}); {{end}}'
+            docker inspect mle-site-web-1 --format 'compose dir: {{index .Config.Labels "com.docker.compose.project.working_dir"}}  files: {{index .Config.Labels "com.docker.compose.project.config_files"}}'
+            d=$(docker inspect mle-site-web-1 --format '{{index .Config.Labels "com.docker.compose.project.working_dir"}}')
+            [ -n "$d" ] && [ -d "$d" ] && { ls -la "$d"; for f in "$d"/docker-compose*.y*ml "$d"/compose*.y*ml "$d"/Caddyfile "$d"/Dockerfile; do [ -f "$f" ] && { echo "=== $f"; cat "$f"; }; done; }
+            docker exec mle-site-web-1 ls -la /srv 2>/dev/null | head -30
+          fi
           echo "privacy.html copies:"; find / -xdev -name privacy.html -not -path '*/node_modules/*' -not -path '/proc/*' 2>/dev/null | head
           REMOTE
