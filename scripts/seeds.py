@@ -174,9 +174,13 @@ def cmd_check(paths, lang="en"):
             total += 1
             problems = check_entry(e, lang)
             hw = e.get("headword")
-            if hw in seen:
-                problems.append(f"duplicate of the entry in {seen[hw]}")
-            seen.setdefault(hw, os.path.basename(path))
+            # The app's stable ID folds case and accents (Entry.normalize), so "ou" and "où"
+            # collide unless one carries a homograph number. Thai tone marks are not folded.
+            key = (hw if lang == "th" else fold(hw or ""), e.get("homograph", 1))
+            if key in seen:
+                problems.append(f"duplicate of the entry in {seen[key]} (same headword once accents are ignored; "
+                                "add \"homograph\": 2 if both are needed)")
+            seen.setdefault(key, os.path.basename(path))
             if problems:
                 bad += 1
                 print(f"{os.path.basename(path)}: {hw!r}: " + "; ".join(problems))
