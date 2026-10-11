@@ -1,0 +1,25 @@
+name: APNs key check
+
+# Confirms the push key in Secrets (APNS_KEY_P8, APNS_KEY_ID, APPLE_TEAM_ID) is accepted by both
+# APNs environments, without a device. Change the PUSHCHECK file on main to run it.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [PUSHCHECK, scripts/apns-check.mjs]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check the APNs key
+        env:
+          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
+          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: node scripts/apns-check.mjs
