@@ -1,0 +1,1343 @@
+[
+  {
+    "headword": "รุ้ง",
+    "phonetic": "rung",
+    "cefr": "B1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "rúng · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แถบสีโค้งบนท้องฟ้าหลังฝนตก",
+        "translations": {
+          "zh": "彩虹",
+          "en": "rainbow"
+        },
+        "examples": [
+          {
+            "text": "หลังฝนหยุดก็มีรุ้งขึ้นสวยมาก",
+            "translations": {
+              "zh": "雨停后出现了一道很美的彩虹。",
+              "en": "After the rain stopped, a beautiful rainbow appeared."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดวงอาทิตย์",
+    "phonetic": "duangathit",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "duang-aa-thít · 中, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ดาวที่ให้แสงและความร้อนแก่โลก",
+        "translations": {
+          "zh": "太阳",
+          "en": "the sun"
+        },
+        "examples": [
+          {
+            "text": "ดวงอาทิตย์ขึ้นทางทิศตะวันออก",
+            "translations": {
+              "zh": "太阳从东方升起。",
+              "en": "The sun rises in the east."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดวงจันทร์",
+    "phonetic": "duangchan",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "duang-jan · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ดาวที่โคจรรอบโลก เห็นตอนกลางคืน",
+        "translations": {
+          "zh": "月亮",
+          "en": "the moon"
+        },
+        "examples": [
+          {
+            "text": "คืนนี้ดวงจันทร์เต็มดวงสวยมาก",
+            "translations": {
+              "zh": "今晚是满月，很美。",
+              "en": "The full moon is beautiful tonight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อวกาศ",
+    "phonetic": "awakat",
+    "cefr": "B2",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "à-wá-kàat · 低, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บริเวณที่อยู่นอกโลกออกไป",
+        "translations": {
+          "zh": "太空；宇宙空间",
+          "en": "(outer) space"
+        },
+        "examples": [
+          {
+            "text": "เด็กคนนี้ฝันอยากเดินทางไปอวกาศ",
+            "translations": {
+              "zh": "这个孩子梦想去太空旅行。",
+              "en": "This child dreams of travelling to space."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดาวเคราะห์",
+    "phonetic": "daokhro",
+    "cefr": "B2",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "daao-khrɔ́ · 中, 高",
+      "classifier": "ดวง（颗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ดาวที่โคจรรอบดวงอาทิตย์ เช่น โลก ดาวอังคาร",
+        "translations": {
+          "zh": "行星",
+          "en": "planet"
+        },
+        "examples": [
+          {
+            "text": "โลกเป็นดาวเคราะห์ดวงที่สามจากดวงอาทิตย์",
+            "translations": {
+              "zh": "地球是离太阳第三近的行星。",
+              "en": "Earth is the third planet from the sun."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใบไม้",
+    "phonetic": "baimai",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "bai-máai · 中, 高",
+      "classifier": "ใบ（片）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนสีเขียวแบน ๆ ของต้นไม้",
+        "translations": {
+          "zh": "树叶",
+          "en": "leaf"
+        },
+        "examples": [
+          {
+            "text": "ใบไม้ร่วงเต็มสนามหน้าบ้าน",
+            "translations": {
+              "zh": "家门前的院子里落满了树叶。",
+              "en": "Leaves have fallen all over the front yard."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ราก",
+    "phonetic": "rak",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "râak · 降",
+      "classifier": "ราก（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนของต้นไม้ที่อยู่ใต้ดิน",
+        "translations": {
+          "zh": "根",
+          "en": "root"
+        },
+        "examples": [
+          {
+            "text": "รากของต้นไม้นี้ยาวมาก",
+            "translations": {
+              "zh": "这棵树的根很长。",
+              "en": "This tree's roots are very long."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เมล็ด",
+    "phonetic": "malet",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "má-lét · 高, 高",
+      "classifier": "เมล็ด（粒）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนของพืชที่นำไปปลูกให้งอกได้",
+        "translations": {
+          "zh": "种子；籽",
+          "en": "seed"
+        },
+        "examples": [
+          {
+            "text": "ฉันซื้อเมล็ดพันธุ์ผักมาปลูกที่ระเบียง",
+            "translations": {
+              "zh": "我买了菜种在阳台上种。",
+              "en": "I bought vegetable seeds to plant on the balcony."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปลูก",
+    "phonetic": "pluk",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "plùuk · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เอาเมล็ดหรือต้นไม้ลงดินให้เติบโต",
+        "translations": {
+          "zh": "种植；栽",
+          "en": "to plant, to grow"
+        },
+        "examples": [
+          {
+            "text": "คุณยายปลูกผักไว้กินเองหลังบ้าน",
+            "translations": {
+              "zh": "奶奶在屋后种菜自己吃。",
+              "en": "Grandma grows her own vegetables behind the house."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รดน้ำ",
+    "phonetic": "rotnam",
+    "cefr": "B1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "rót-náam · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เทน้ำให้ต้นไม้",
+        "translations": {
+          "zh": "浇水",
+          "en": "to water (plants)"
+        },
+        "examples": [
+          {
+            "text": "อย่าลืมรดน้ำต้นไม้ตอนเช้านะ",
+            "translations": {
+              "zh": "别忘了早上给植物浇水。",
+              "en": "Don't forget to water the plants in the morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แมลง",
+    "phonetic": "malaeng",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "má-lɛɛng · 高, 中",
+      "classifier": "ตัว（只）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัตว์เล็ก ๆ ที่มีหกขา เช่น มด ผึ้ง",
+        "translations": {
+          "zh": "昆虫；虫子",
+          "en": "insect, bug"
+        },
+        "examples": [
+          {
+            "text": "หน้าฝนมีแมลงเข้าบ้านเยอะ",
+            "translations": {
+              "zh": "雨季家里会进很多虫子。",
+              "en": "In the rainy season lots of insects get into the house."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผีเสื้อ",
+    "phonetic": "phisuea",
+    "cefr": "B1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "phǐi-sʉ̂a · 升, 降",
+      "classifier": "ตัว（只）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แมลงที่มีปีกสีสวย",
+        "translations": {
+          "zh": "蝴蝶",
+          "en": "butterfly"
+        },
+        "examples": [
+          {
+            "text": "ในสวนมีผีเสื้อบินอยู่หลายตัว",
+            "translations": {
+              "zh": "花园里有好几只蝴蝶在飞。",
+              "en": "Several butterflies are flying in the garden."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เต่า",
+    "phonetic": "tao",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "tào · 低",
+      "classifier": "ตัว（只）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัตว์ที่มีกระดองแข็งและเดินช้า",
+        "translations": {
+          "zh": "乌龟；海龟",
+          "en": "turtle, tortoise"
+        },
+        "examples": [
+          {
+            "text": "เราเห็นเต่าทะเลตอนไปดำน้ำ",
+            "translations": {
+              "zh": "我们潜水时看到了海龟。",
+              "en": "We saw a sea turtle while diving."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฉลาม",
+    "phonetic": "chalam",
+    "cefr": "B1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "chà-lǎam · 低, 升",
+      "classifier": "ตัว（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ปลาทะเลขนาดใหญ่ที่มีฟันคม",
+        "translations": {
+          "zh": "鲨鱼",
+          "en": "shark"
+        },
+        "examples": [
+          {
+            "text": "ฉลามที่นี่ไม่ทำร้ายคน",
+            "translations": {
+              "zh": "这里的鲨鱼不伤人。",
+              "en": "The sharks here don't attack people."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เสือ",
+    "phonetic": "suea",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "sʉ̌a · 升",
+      "classifier": "ตัว（只）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัตว์ป่าตัวใหญ่ ลายสีส้มดำ",
+        "translations": {
+          "zh": "老虎",
+          "en": "tiger"
+        },
+        "examples": [
+          {
+            "text": "เสือเป็นสัตว์ที่ต้องอนุรักษ์",
+            "translations": {
+              "zh": "老虎是需要保护的动物。",
+              "en": "The tiger is an animal that needs protecting."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมี",
+    "phonetic": "mi",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "mǐi · 升",
+      "classifier": "ตัว（只）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัตว์ตัวใหญ่ ขนหนา ชอบกินน้ำผึ้ง",
+        "translations": {
+          "zh": "熊",
+          "en": "bear"
+        },
+        "examples": [
+          {
+            "text": "ในสวนสัตว์มีหมีแพนด้าด้วย",
+            "translations": {
+              "zh": "动物园里还有熊猫。",
+              "en": "The zoo has pandas too."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อุทยานแห่งชาติ",
+    "phonetic": "utthayanhaengchat",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "ùt-thá-yaan-hɛ̀ng-châat · 低, 高, 中, 低, 降",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่ธรรมชาติที่รัฐดูแลรักษาไว้",
+        "translations": {
+          "zh": "国家公园",
+          "en": "national park"
+        },
+        "examples": [
+          {
+            "text": "เขาใหญ่เป็นอุทยานแห่งชาติที่มีชื่อเสียง",
+            "translations": {
+              "zh": "考艾是著名的国家公园。",
+              "en": "Khao Yai is a famous national park."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำพุร้อน",
+    "phonetic": "namphuron",
+    "cefr": "B2",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "náam-phú-rɔ́ɔn · 高, 高, 高",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แหล่งน้ำร้อนที่ไหลออกมาจากใต้ดิน",
+        "translations": {
+          "zh": "温泉",
+          "en": "hot spring"
+        },
+        "examples": [
+          {
+            "text": "เราแวะแช่น้ำพุร้อนที่ปาย",
+            "translations": {
+              "zh": "我们顺路在拜县泡了温泉。",
+              "en": "We stopped to soak in a hot spring in Pai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ยอดเขา",
+    "phonetic": "yotkhao",
+    "cefr": "B2",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "yɔ̂ɔt-khǎo · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนที่สูงที่สุดของภูเขา",
+        "translations": {
+          "zh": "山顶；山峰",
+          "en": "mountain peak, summit"
+        },
+        "examples": [
+          {
+            "text": "เราเดินขึ้นไปดูพระอาทิตย์ขึ้นบนยอดเขา",
+            "translations": {
+              "zh": "我们爬上山顶看日出。",
+              "en": "We hiked up to watch the sunrise on the summit."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาคเหนือ",
+    "phonetic": "phaknuea",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "phâak-nʉ̌a · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนทางเหนือของประเทศ",
+        "translations": {
+          "zh": "北部（地区）",
+          "en": "the north (region)"
+        },
+        "examples": [
+          {
+            "text": "ภาคเหนือของไทยมีอากาศเย็นในหน้าหนาว",
+            "translations": {
+              "zh": "泰国北部凉季时天气凉爽。",
+              "en": "Northern Thailand is cool in the cold season."
+            }
+          }
+        ],
+        "usageNote": "同类：ภาคใต้（南部）、ภาคกลาง（中部）。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาคอีสาน",
+    "phonetic": "phakisan",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "phâak-ii-sǎan · 降, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาคตะวันออกเฉียงเหนือของประเทศไทย",
+        "translations": {
+          "zh": "伊桑地区（泰国东北部）",
+          "en": "Isan, northeastern Thailand"
+        },
+        "examples": [
+          {
+            "text": "ส้มตำเป็นอาหารขึ้นชื่อของภาคอีสาน",
+            "translations": {
+              "zh": "青木瓜沙拉是伊桑地区的名菜。",
+              "en": "Papaya salad is a famous dish from Isan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทิศ",
+    "phonetic": "thit",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "thít · 高",
+      "classifier": "ทิศ（个方向）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ด้าน เช่น เหนือ ใต้ ตะวันออก ตะวันตก",
+        "translations": {
+          "zh": "方向；方位",
+          "en": "direction, compass point"
+        },
+        "examples": [
+          {
+            "text": "บ้านฉันหันไปทางทิศใต้",
+            "translations": {
+              "zh": "我家朝南。",
+              "en": "My house faces south."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จังหวัด",
+    "phonetic": "changwat",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "jang-wàt · 中, 低",
+      "classifier": "จังหวัด（个府）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เขตการปกครองใหญ่ของประเทศไทย",
+        "translations": {
+          "zh": "府（泰国一级行政区）",
+          "en": "province"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยมีเจ็ดสิบเจ็ดจังหวัด",
+            "translations": {
+              "zh": "泰国有七十七个府。",
+              "en": "Thailand has seventy-seven provinces."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อำเภอ",
+    "phonetic": "amphoe",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "am-phəə · 中, 中",
+      "classifier": "อำเภอ（个县）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เขตการปกครองที่เล็กกว่าจังหวัด",
+        "translations": {
+          "zh": "县（府下面的行政区）",
+          "en": "district"
+        },
+        "examples": [
+          {
+            "text": "บ้านเกิดของฉันอยู่อำเภอเล็ก ๆ ในเชียงราย",
+            "translations": {
+              "zh": "我的老家在清莱的一个小县城。",
+              "en": "My hometown is a small district in Chiang Rai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เมืองหลวง",
+    "phonetic": "mueangluang",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "mʉang-lǔang · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เมืองที่เป็นศูนย์กลางการปกครองของประเทศ",
+        "translations": {
+          "zh": "首都",
+          "en": "capital city"
+        },
+        "examples": [
+          {
+            "text": "กรุงเทพฯ เป็นเมืองหลวงของประเทศไทย",
+            "translations": {
+              "zh": "曼谷是泰国的首都。",
+              "en": "Bangkok is the capital of Thailand."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิทยาศาสตร์",
+    "phonetic": "witthayasat",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "wít-thá-yaa-sàat · 高, 高, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความรู้ที่ได้จากการสังเกตและทดลอง",
+        "translations": {
+          "zh": "科学",
+          "en": "science"
+        },
+        "examples": [
+          {
+            "text": "ลูกชายชอบเรียนวิทยาศาสตร์มาก",
+            "translations": {
+              "zh": "儿子很喜欢学科学。",
+              "en": "My son really loves studying science."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นักวิทยาศาสตร์",
+    "phonetic": "nakwitthayasat",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "nák-wít-thá-yaa-sàat · 高, 高, 高, 中, 低",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ทำงานด้านวิทยาศาสตร์",
+        "translations": {
+          "zh": "科学家",
+          "en": "scientist"
+        },
+        "examples": [
+          {
+            "text": "นักวิทยาศาสตร์ค้นพบยาชนิดใหม่",
+            "translations": {
+              "zh": "科学家发现了一种新药。",
+              "en": "Scientists discovered a new kind of medicine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิจัย",
+    "phonetic": "wichai",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "wí-jai · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ศึกษาค้นคว้าอย่างเป็นระบบ",
+        "translations": {
+          "zh": "研究",
+          "en": "to research"
+        },
+        "examples": [
+          {
+            "text": "เธอวิจัยเรื่องโรคมะเร็งมาสิบปี",
+            "translations": {
+              "zh": "她研究癌症已有十年。",
+              "en": "She has been researching cancer for ten years."
+            }
+          }
+        ],
+        "usageNote": "名词说 งานวิจัย（研究成果、论文）。"
+      }
+    ]
+  },
+  {
+    "headword": "ค้นพบ",
+    "phonetic": "khonphop",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "khón-phóp · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หาจนเจอสิ่งที่ยังไม่มีใครรู้มาก่อน",
+        "translations": {
+          "zh": "发现",
+          "en": "to discover"
+        },
+        "examples": [
+          {
+            "text": "นักวิจัยค้นพบสัตว์ชนิดใหม่ในป่า",
+            "translations": {
+              "zh": "研究人员在森林里发现了新物种。",
+              "en": "Researchers discovered a new species in the forest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทดลอง",
+    "phonetic": "thotlong",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "thót-lɔɔng · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ลองทำเพื่อดูผล",
+        "translations": {
+          "zh": "试验；实验；试用",
+          "en": "to experiment, to try out"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้ให้ทดลองใช้ฟรีหนึ่งเดือน",
+            "translations": {
+              "zh": "这家店提供一个月免费试用。",
+              "en": "This shop lets you try it free for a month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทดสอบ",
+    "phonetic": "thotsop",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "thót-sɔ̀ɔp · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตรวจดูว่าใช้ได้ดีหรือมีความรู้แค่ไหน",
+        "translations": {
+          "zh": "测试；检验",
+          "en": "to test"
+        },
+        "examples": [
+          {
+            "text": "เราต้องทดสอบระบบก่อนเปิดใช้",
+            "translations": {
+              "zh": "系统启用前我们得先测试。",
+              "en": "We have to test the system before launching it."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผลลัพธ์",
+    "phonetic": "phonlap",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "phǒn-láp · 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เกิดขึ้นตามมาจากการกระทำ",
+        "translations": {
+          "zh": "结果",
+          "en": "result, outcome"
+        },
+        "examples": [
+          {
+            "text": "ผลลัพธ์ของการทดลองน่าสนใจมาก",
+            "translations": {
+              "zh": "实验结果非常有意思。",
+              "en": "The results of the experiment are very interesting."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิเคราะห์",
+    "phonetic": "wikhro",
+    "cefr": "B2",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "wí-khrɔ́ · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แยกแยะพิจารณาอย่างละเอียด",
+        "translations": {
+          "zh": "分析",
+          "en": "to analyse"
+        },
+        "examples": [
+          {
+            "text": "ทีมงานกำลังวิเคราะห์ข้อมูลลูกค้า",
+            "translations": {
+              "zh": "团队正在分析客户数据。",
+              "en": "The team is analysing the customer data."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทฤษฎี",
+    "phonetic": "thritsadi",
+    "cefr": "B2",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "thrít-sà-dii · 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หลักความคิดที่ใช้อธิบายเรื่องต่าง ๆ",
+        "translations": {
+          "zh": "理论",
+          "en": "theory"
+        },
+        "examples": [
+          {
+            "text": "ทฤษฎีนี้ยังพิสูจน์ไม่ได้",
+            "translations": {
+              "zh": "这个理论还无法证明。",
+              "en": "This theory can't be proven yet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เทคโนโลยี",
+    "phonetic": "theknoloyi",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "théek-noo-loo-yii · 高, 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความรู้ทางวิทยาศาสตร์ที่นำมาใช้ประโยชน์",
+        "translations": {
+          "zh": "技术；科技",
+          "en": "technology"
+        },
+        "examples": [
+          {
+            "text": "เทคโนโลยีเปลี่ยนชีวิตเราไปมาก",
+            "translations": {
+              "zh": "科技大大改变了我们的生活。",
+              "en": "Technology has changed our lives a lot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อินเทอร์เน็ต",
+    "phonetic": "inthoenet",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "in-thəə-nét · 中, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครือข่ายที่เชื่อมคอมพิวเตอร์ทั่วโลก",
+        "translations": {
+          "zh": "互联网；网络",
+          "en": "internet"
+        },
+        "examples": [
+          {
+            "text": "อินเทอร์เน็ตที่หอพักช้ามาก",
+            "translations": {
+              "zh": "宿舍的网速很慢。",
+              "en": "The internet at the dorm is very slow."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ออนไลน์",
+    "phonetic": "onlai",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "ɔɔn-laai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ที่ใช้งานผ่านอินเทอร์เน็ต",
+        "translations": {
+          "zh": "在线的；网上的",
+          "en": "online"
+        },
+        "examples": [
+          {
+            "text": "ตอนนี้คนนิยมซื้อของออนไลน์",
+            "translations": {
+              "zh": "现在人们流行网购。",
+              "en": "People like to shop online these days."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดาวน์โหลด",
+    "phonetic": "daolot",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "daao-lòot · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดึงไฟล์จากอินเทอร์เน็ตมาเก็บไว้ในเครื่อง",
+        "translations": {
+          "zh": "下载",
+          "en": "to download"
+        },
+        "examples": [
+          {
+            "text": "ดาวน์โหลดแอปนี้ได้ฟรี",
+            "translations": {
+              "zh": "这个应用可以免费下载。",
+              "en": "You can download this app for free."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โปรแกรม",
+    "phonetic": "prokraem",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "proo-krɛɛm · 中, 中",
+      "classifier": "โปรแกรม（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ชุดคำสั่งที่ใช้กับคอมพิวเตอร์",
+        "translations": {
+          "zh": "程序；软件",
+          "en": "(computer) program"
+        },
+        "examples": [
+          {
+            "text": "ฉันใช้โปรแกรมนี้แต่งรูป",
+            "translations": {
+              "zh": "我用这个软件修图。",
+              "en": "I use this program to edit photos."
+            }
+          }
+        ],
+        "usageNote": "也指\"节目单、日程\"：โปรแกรมทัวร์（旅游行程）。"
+      }
+    ]
+  },
+  {
+    "headword": "อุปกรณ์",
+    "phonetic": "upakon",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "ùp-pà-kɔɔn · 低, 低, 中",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องมือหรือของที่ใช้ทำงาน",
+        "translations": {
+          "zh": "设备；器材；用具",
+          "en": "equipment, device"
+        },
+        "examples": [
+          {
+            "text": "ห้องนี้มีอุปกรณ์ออกกำลังกายครบ",
+            "translations": {
+              "zh": "这个房间健身器材齐全。",
+              "en": "This room has all the exercise equipment you need."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อมูล",
+    "phonetic": "khomun",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-muun · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อเท็จจริงหรือรายละเอียดที่เก็บรวบรวมไว้",
+        "translations": {
+          "zh": "信息；资料；数据",
+          "en": "information, data"
+        },
+        "examples": [
+          {
+            "text": "กรุณากรอกข้อมูลให้ครบ",
+            "translations": {
+              "zh": "请把信息填写完整。",
+              "en": "Please fill in all the information."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รหัสผ่าน",
+    "phonetic": "rahatphan",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "rá-hàt-phàan · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตัวอักษรหรือตัวเลขลับที่ใช้เข้าระบบ",
+        "translations": {
+          "zh": "密码",
+          "en": "password"
+        },
+        "examples": [
+          {
+            "text": "ฉันลืมรหัสผ่านอีเมลอีกแล้ว",
+            "translations": {
+              "zh": "我又忘了邮箱密码。",
+              "en": "I forgot my email password again."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แบตเตอรี่",
+    "phonetic": "baetteri",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "bɛ̀t-təə-rîi · 低, 中, 降",
+      "classifier": "ก้อน（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เก็บไฟฟ้าไว้ใช้ในเครื่องต่าง ๆ",
+        "translations": {
+          "zh": "电池",
+          "en": "battery"
+        },
+        "examples": [
+          {
+            "text": "แบตเตอรี่โทรศัพท์ใกล้หมดแล้ว",
+            "translations": {
+              "zh": "手机电池快没电了。",
+              "en": "My phone battery is almost dead."
+            }
+          }
+        ],
+        "usageNote": "口语常简称 แบต：แบตหมด（没电了）。"
+      }
+    ]
+  },
+  {
+    "headword": "หน้าจอ",
+    "phonetic": "nacho",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "nâa-jɔɔ · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนที่แสดงภาพของคอมพิวเตอร์หรือโทรศัพท์",
+        "translations": {
+          "zh": "屏幕",
+          "en": "screen"
+        },
+        "examples": [
+          {
+            "text": "หน้าจอโทรศัพท์ของฉันแตก",
+            "translations": {
+              "zh": "我的手机屏幕碎了。",
+              "en": "My phone screen is cracked."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กล้อง",
+    "phonetic": "klong",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "klɔ̂ng · 降",
+      "classifier": "ตัว（台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องที่ใช้ถ่ายรูป",
+        "translations": {
+          "zh": "相机；摄像头",
+          "en": "camera"
+        },
+        "examples": [
+          {
+            "text": "กล้องตัวนี้ถ่ายรูปกลางคืนสวยมาก",
+            "translations": {
+              "zh": "这台相机夜景拍得很好。",
+              "en": "This camera takes beautiful night photos."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครื่องมือ",
+    "phonetic": "khrueangmue",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "khrʉ̂ang-mʉʉ · 降, 中",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใช้ช่วยในการทำงาน",
+        "translations": {
+          "zh": "工具",
+          "en": "tool"
+        },
+        "examples": [
+          {
+            "text": "ช่างนำเครื่องมือมาซ่อมท่อน้ำ",
+            "translations": {
+              "zh": "师傅带着工具来修水管。",
+              "en": "The technician brought his tools to fix the pipe."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไฟฟ้า",
+    "phonetic": "faifa",
+    "cefr": "B1",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "fai-fáa · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พลังงานที่ใช้ให้แสงสว่างและเปิดเครื่องใช้",
+        "translations": {
+          "zh": "电；电力",
+          "en": "electricity"
+        },
+        "examples": [
+          {
+            "text": "เมื่อคืนไฟฟ้าดับทั้งหมู่บ้าน",
+            "translations": {
+              "zh": "昨晚全村停电了。",
+              "en": "Last night the whole village had a power cut."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

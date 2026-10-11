@@ -1,0 +1,1564 @@
+[
+  {
+    "headword": "มลพิษ",
+    "phonetic": "monlaphit",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "mon-lá-phít · 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ทำให้อากาศ น้ำ หรือดินสกปรกและเป็นอันตราย",
+        "translations": {
+          "zh": "污染",
+          "en": "pollution"
+        },
+        "examples": [
+          {
+            "text": "กรุงเทพฯ มีปัญหามลพิษทางอากาศมาก",
+            "translations": {
+              "zh": "曼谷的空气污染问题很严重。",
+              "en": "Bangkok has a serious air pollution problem."
+            }
+          }
+        ],
+        "usageNote": "常见搭配：มลพิษทางอากาศ（空气污染）、มลพิษทางน้ำ（水污染）。"
+      }
+    ]
+  },
+  {
+    "headword": "สิ่งแวดล้อม",
+    "phonetic": "singwaetlom",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "sìng-wɛ̂ɛt-lɔ́ɔm · 低, 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ธรรมชาติและสิ่งต่าง ๆ ที่อยู่รอบตัวเรา",
+        "translations": {
+          "zh": "环境",
+          "en": "environment"
+        },
+        "examples": [
+          {
+            "text": "เราควรช่วยกันรักษาสิ่งแวดล้อม",
+            "translations": {
+              "zh": "我们应该一起保护环境。",
+              "en": "We should work together to protect the environment."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พลังงาน",
+    "phonetic": "phalangngan",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "phá-lang-ngaan · 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กำลังที่ใช้ทำให้เครื่องจักรหรือสิ่งต่าง ๆ ทำงานได้",
+        "translations": {
+          "zh": "能源；能量",
+          "en": "energy"
+        },
+        "examples": [
+          {
+            "text": "ปิดไฟเมื่อไม่ใช้เพื่อประหยัดพลังงาน",
+            "translations": {
+              "zh": "不用时关灯以节约能源。",
+              "en": "Turn off the lights when not in use to save energy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โลกร้อน",
+    "phonetic": "lokron",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "lôok-rɔ́ɔn · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การที่อุณหภูมิของโลกสูงขึ้นเรื่อย ๆ",
+        "translations": {
+          "zh": "全球变暖",
+          "en": "global warming"
+        },
+        "examples": [
+          {
+            "text": "โลกร้อนทำให้น้ำแข็งขั้วโลกละลาย",
+            "translations": {
+              "zh": "全球变暖使极地冰川融化。",
+              "en": "Global warming is melting the polar ice."
+            }
+          }
+        ],
+        "usageNote": "正式说法是 ภาวะโลกร้อน。"
+      }
+    ]
+  },
+  {
+    "headword": "อนุรักษ์",
+    "phonetic": "anurak",
+    "cefr": "B2",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "à-nú-rák · 低, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดูแลรักษาไว้ไม่ให้สูญหายหรือเสียหาย",
+        "translations": {
+          "zh": "保护；保存（自然、文化）",
+          "en": "to conserve, to preserve"
+        },
+        "examples": [
+          {
+            "text": "หมู่บ้านนี้ช่วยกันอนุรักษ์ป่าชายเลน",
+            "translations": {
+              "zh": "这个村子的人一起保护红树林。",
+              "en": "This village works together to conserve the mangrove forest."
+            }
+          }
+        ],
+        "usageNote": "多用于自然资源和传统文化，比 รักษา 更正式。"
+      }
+    ]
+  },
+  {
+    "headword": "แยกขยะ",
+    "phonetic": "yaekkhaya",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "yɛ̂ɛk-khà-yà · 降, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แบ่งขยะตามประเภทก่อนทิ้ง",
+        "translations": {
+          "zh": "垃圾分类",
+          "en": "to sort rubbish"
+        },
+        "examples": [
+          {
+            "text": "ที่คอนโดของฉันต้องแยกขยะทุกวัน",
+            "translations": {
+              "zh": "我住的公寓每天都要垃圾分类。",
+              "en": "At my condo we have to sort our rubbish every day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประหยัด",
+    "phonetic": "prayat",
+    "cefr": "B1",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "prà-yàt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้อย่างระมัดระวังไม่ให้สิ้นเปลือง",
+        "translations": {
+          "zh": "节约；节省",
+          "en": "to save, to economise"
+        },
+        "examples": [
+          {
+            "text": "เขาประหยัดเงินเพื่อไปเที่ยวญี่ปุ่น",
+            "translations": {
+              "zh": "他省钱准备去日本旅游。",
+              "en": "He is saving money to travel to Japan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำท่วม",
+    "phonetic": "namthuam",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "náam-thûam · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะที่น้ำล้นขึ้นมาท่วมพื้นที่",
+        "translations": {
+          "zh": "洪水；水灾",
+          "en": "flood"
+        },
+        "examples": [
+          {
+            "text": "ปีที่แล้วน้ำท่วมหนักมากในภาคเหนือ",
+            "translations": {
+              "zh": "去年北部发生了严重的洪水。",
+              "en": "Last year there was severe flooding in the north."
+            }
+          }
+        ],
+        "usageNote": "也可作动词：น้ำท่วมบ้าน（水淹了房子）。"
+      }
+    ]
+  },
+  {
+    "headword": "ภัยแล้ง",
+    "phonetic": "phailaeng",
+    "cefr": "B2",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "phai-lɛ́ɛng · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะที่ฝนไม่ตกเป็นเวลานานจนขาดน้ำ",
+        "translations": {
+          "zh": "旱灾",
+          "en": "drought"
+        },
+        "examples": [
+          {
+            "text": "ภัยแล้งทำให้ชาวนาปลูกข้าวไม่ได้",
+            "translations": {
+              "zh": "旱灾使农民种不了稻子。",
+              "en": "The drought left farmers unable to grow rice."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แผ่นดินไหว",
+    "phonetic": "phaendinwai",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "phɛ̀n-din-wǎi · 低, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การสั่นสะเทือนของพื้นดิน",
+        "translations": {
+          "zh": "地震",
+          "en": "earthquake"
+        },
+        "examples": [
+          {
+            "text": "เมื่อคืนเกิดแผ่นดินไหวที่เชียงราย",
+            "translations": {
+              "zh": "昨晚清莱发生了地震。",
+              "en": "There was an earthquake in Chiang Rai last night."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ธรรมชาติ",
+    "phonetic": "thammachat",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "tham-má-châat · 中, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เกิดขึ้นเองโดยมนุษย์ไม่ได้สร้าง เช่น ป่า ภูเขา",
+        "translations": {
+          "zh": "大自然",
+          "en": "nature"
+        },
+        "examples": [
+          {
+            "text": "ฉันชอบไปเที่ยวที่ที่ใกล้ชิดธรรมชาติ",
+            "translations": {
+              "zh": "我喜欢去亲近大自然的地方旅游。",
+              "en": "I like travelling to places close to nature."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทรัพยากร",
+    "phonetic": "sapphayakon",
+    "cefr": "B2",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "sáp-phá-yaa-kɔɔn · 高, 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่มีค่าและนำมาใช้ประโยชน์ได้ เช่น น้ำ ป่าไม้",
+        "translations": {
+          "zh": "资源",
+          "en": "resources"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยมีทรัพยากรธรรมชาติมาก",
+            "translations": {
+              "zh": "泰国自然资源丰富。",
+              "en": "Thailand has abundant natural resources."
+            }
+          }
+        ],
+        "usageNote": "注意 ทร 读作 s：sáp-phá-yaa-kɔɔn。"
+      }
+    ]
+  },
+  {
+    "headword": "ฝุ่น",
+    "phonetic": "fun",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "fùn · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผงละเอียดที่ลอยอยู่ในอากาศ",
+        "translations": {
+          "zh": "灰尘；粉尘",
+          "en": "dust"
+        },
+        "examples": [
+          {
+            "text": "ช่วงนี้ฝุ่น PM2.5 เยอะ ต้องใส่หน้ากาก",
+            "translations": {
+              "zh": "最近PM2.5粉尘多，要戴口罩。",
+              "en": "There's a lot of PM2.5 dust lately, so wear a mask."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมอกควัน",
+    "phonetic": "mokkhwan",
+    "cefr": "B2",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "mɔ̀ɔk-khwan · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หมอกที่ปนกับควันจนอากาศเสีย",
+        "translations": {
+          "zh": "雾霾",
+          "en": "smog, haze"
+        },
+        "examples": [
+          {
+            "text": "เชียงใหม่มีหมอกควันทุกเดือนมีนาคม",
+            "translations": {
+              "zh": "清迈每年三月都有雾霾。",
+              "en": "Chiang Mai has smog every March."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ป่าไม้",
+    "phonetic": "pamai",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "pàa-máai · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ป่าที่มีต้นไม้ขึ้นอยู่มาก",
+        "translations": {
+          "zh": "森林；林木",
+          "en": "forest, woodland"
+        },
+        "examples": [
+          {
+            "text": "ป่าไม้ในประเทศไทยลดลงทุกปี",
+            "translations": {
+              "zh": "泰国的森林每年都在减少。",
+              "en": "Thailand's forests are shrinking every year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทำลาย",
+    "phonetic": "thamlai",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "tham-laai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้เสียหายหรือพังไป",
+        "translations": {
+          "zh": "破坏；摧毁",
+          "en": "to destroy"
+        },
+        "examples": [
+          {
+            "text": "การตัดไม้ทำลายป่าเป็นปัญหาใหญ่",
+            "translations": {
+              "zh": "砍伐森林是一个大问题。",
+              "en": "Deforestation is a big problem."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สูญพันธุ์",
+    "phonetic": "sunphan",
+    "cefr": "B2",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "sǔun-phan · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หมดไปจนไม่เหลือพันธุ์อยู่ในโลก",
+        "translations": {
+          "zh": "灭绝",
+          "en": "to become extinct"
+        },
+        "examples": [
+          {
+            "text": "เสือบางชนิดใกล้จะสูญพันธุ์แล้ว",
+            "translations": {
+              "zh": "有些种类的老虎快要灭绝了。",
+              "en": "Some kinds of tiger are close to extinction."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สัตว์ป่า",
+    "phonetic": "satpa",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "sàt-pàa · 低, 低",
+      "classifier": "ตัว（只）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัตว์ที่อาศัยอยู่ในป่าตามธรรมชาติ",
+        "translations": {
+          "zh": "野生动物",
+          "en": "wild animal, wildlife"
+        },
+        "examples": [
+          {
+            "text": "ห้ามให้อาหารสัตว์ป่าในอุทยาน",
+            "translations": {
+              "zh": "禁止在公园里喂食野生动物。",
+              "en": "Feeding wild animals in the park is prohibited."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ถุงผ้า",
+    "phonetic": "thungpha",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "thǔng-phâa · 升, 降",
+      "classifier": "ใบ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ถุงที่ทำจากผ้า ใช้แทนถุงพลาสติก",
+        "translations": {
+          "zh": "布袋；环保袋",
+          "en": "cloth bag, tote bag"
+        },
+        "examples": [
+          {
+            "text": "ฉันพกถุงผ้าไปซื้อของทุกครั้ง",
+            "translations": {
+              "zh": "我每次买东西都带布袋。",
+              "en": "I bring a cloth bag every time I go shopping."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แสงอาทิตย์",
+    "phonetic": "saengathit",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "sɛ̌ɛng-aa-thít · 升, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แสงที่มาจากดวงอาทิตย์",
+        "translations": {
+          "zh": "阳光；太阳光",
+          "en": "sunlight"
+        },
+        "examples": [
+          {
+            "text": "บ้านหลังนี้ใช้ไฟฟ้าจากแสงอาทิตย์",
+            "translations": {
+              "zh": "这栋房子用太阳能发电。",
+              "en": "This house uses electricity from sunlight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อุณหภูมิ",
+    "phonetic": "unhaphum",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "un-hà-phuum · 中, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระดับความร้อนหรือความเย็น",
+        "translations": {
+          "zh": "温度；气温",
+          "en": "temperature"
+        },
+        "examples": [
+          {
+            "text": "วันนี้อุณหภูมิสูงถึงสี่สิบองศา",
+            "translations": {
+              "zh": "今天气温高达四十度。",
+              "en": "Today the temperature reached forty degrees."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "องศา",
+    "phonetic": "ongsa",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "ong-sǎa · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หน่วยวัดอุณหภูมิหรือมุม",
+        "translations": {
+          "zh": "度（温度、角度）",
+          "en": "degree"
+        },
+        "examples": [
+          {
+            "text": "ข้างนอกตอนนี้สามสิบห้าองศา",
+            "translations": {
+              "zh": "外面现在三十五度。",
+              "en": "It's thirty-five degrees outside now."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิอากาศ",
+    "phonetic": "phumiakat",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "phuu-mí-aa-kàat · 中, 高, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะอากาศของพื้นที่หนึ่งในระยะยาว",
+        "translations": {
+          "zh": "气候",
+          "en": "climate"
+        },
+        "examples": [
+          {
+            "text": "ภูมิอากาศของไทยร้อนชื้นเกือบทั้งปี",
+            "translations": {
+              "zh": "泰国的气候几乎全年湿热。",
+              "en": "Thailand's climate is hot and humid almost all year."
+            }
+          }
+        ],
+        "usageNote": "อากาศ 指当天的天气，ภูมิอากาศ 指长期的气候。"
+      }
+    ]
+  },
+  {
+    "headword": "สภาพอากาศ",
+    "phonetic": "saphapakat",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "sà-phâap-aa-kàat · 低, 降, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะของอากาศในช่วงเวลาหนึ่ง",
+        "translations": {
+          "zh": "天气状况",
+          "en": "weather conditions"
+        },
+        "examples": [
+          {
+            "text": "สภาพอากาศเปลี่ยนแปลงไปมากในช่วงนี้",
+            "translations": {
+              "zh": "最近天气变化很大。",
+              "en": "The weather has been changing a lot lately."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พยากรณ์อากาศ",
+    "phonetic": "phayakonakat",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "phá-yaa-kɔɔn-aa-kàat · 高, 中, 中, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การคาดการณ์ว่าอากาศจะเป็นอย่างไร",
+        "translations": {
+          "zh": "天气预报",
+          "en": "weather forecast"
+        },
+        "examples": [
+          {
+            "text": "พยากรณ์อากาศบอกว่าพรุ่งนี้ฝนจะตก",
+            "translations": {
+              "zh": "天气预报说明天会下雨。",
+              "en": "The weather forecast says it will rain tomorrow."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฤดู",
+    "phonetic": "ruedu",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "rʉ́-duu · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเวลาของปีที่อากาศแตกต่างกัน",
+        "translations": {
+          "zh": "季节",
+          "en": "season"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยมีสามฤดู คือ ร้อน ฝน และหนาว",
+            "translations": {
+              "zh": "泰国有三个季节：热季、雨季和凉季。",
+              "en": "Thailand has three seasons: hot, rainy and cool."
+            }
+          }
+        ],
+        "usageNote": "口语常说 หน้า：หน้าฝน（雨季）、หน้าร้อน（热季）。"
+      }
+    ]
+  },
+  {
+    "headword": "พายุ",
+    "phonetic": "phayu",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phaa-yú · 中, 高",
+      "classifier": "ลูก（场）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลมแรงมากที่มักมาพร้อมกับฝน",
+        "translations": {
+          "zh": "风暴；暴风雨",
+          "en": "storm"
+        },
+        "examples": [
+          {
+            "text": "พายุเข้าทำให้เที่ยวบินถูกยกเลิก",
+            "translations": {
+              "zh": "风暴来袭，航班被取消了。",
+              "en": "The storm hit and flights were cancelled."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฟ้าร้อง",
+    "phonetic": "farong",
+    "cefr": "B1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "fáa-rɔ́ɔng · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เกิดเสียงดังบนท้องฟ้าตอนฝนจะตก",
+        "translations": {
+          "zh": "打雷",
+          "en": "to thunder"
+        },
+        "examples": [
+          {
+            "text": "ฟ้าร้องดังมาก เด็ก ๆ กลัวกันหมด",
+            "translations": {
+              "zh": "雷声很大，孩子们都怕了。",
+              "en": "The thunder was so loud the kids were all scared."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฟ้าผ่า",
+    "phonetic": "fapha",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "fáa-phàa · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไฟฟ้าจากท้องฟ้าลงมาถึงพื้นหรือสิ่งของ",
+        "translations": {
+          "zh": "雷击；闪电劈下",
+          "en": "(lightning) to strike"
+        },
+        "examples": [
+          {
+            "text": "ต้นไม้ใหญ่หน้าบ้านถูกฟ้าผ่า",
+            "translations": {
+              "zh": "家门前的大树被雷劈了。",
+              "en": "The big tree in front of the house was struck by lightning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความชื้น",
+    "phonetic": "khwamchuen",
+    "cefr": "B2",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "khwaam-chʉ́ʉn · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ปริมาณน้ำในอากาศ",
+        "translations": {
+          "zh": "湿度；潮气",
+          "en": "humidity, moisture"
+        },
+        "examples": [
+          {
+            "text": "ความชื้นสูงทำให้รู้สึกร้อนกว่าปกติ",
+            "translations": {
+              "zh": "湿度高让人觉得比平时更热。",
+              "en": "High humidity makes it feel hotter than usual."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไฟป่า",
+    "phonetic": "faipa",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "fai-pàa · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ไฟที่ไหม้ป่าเป็นบริเวณกว้าง",
+        "translations": {
+          "zh": "森林火灾；山火",
+          "en": "forest fire, wildfire"
+        },
+        "examples": [
+          {
+            "text": "ไฟป่าทำให้เกิดหมอกควันหนาแน่น",
+            "translations": {
+              "zh": "山火造成了浓重的雾霾。",
+              "en": "The wildfire caused thick smog."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปล่อย",
+    "phonetic": "ploi",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "plɔ̀i · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ออกไป หรือให้เป็นอิสระ",
+        "translations": {
+          "zh": "排放；释放；放走",
+          "en": "to release, to emit, to let go"
+        },
+        "examples": [
+          {
+            "text": "โรงงานนี้ปล่อยน้ำเสียลงแม่น้ำ",
+            "translations": {
+              "zh": "这家工厂把污水排进河里。",
+              "en": "This factory discharges wastewater into the river."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปกป้อง",
+    "phonetic": "pokpong",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "pòk-pɔ̂ng · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดูแลไม่ให้ได้รับอันตราย",
+        "translations": {
+          "zh": "保护；捍卫",
+          "en": "to protect"
+        },
+        "examples": [
+          {
+            "text": "เราต้องปกป้องป่าไว้ให้ลูกหลาน",
+            "translations": {
+              "zh": "我们要为子孙后代保护森林。",
+              "en": "We must protect the forest for future generations."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ยั่งยืน",
+    "phonetic": "yangyuen",
+    "cefr": "B2",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "yâng-yʉʉn · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "อยู่ได้นานและไม่ทำลายทรัพยากร",
+        "translations": {
+          "zh": "可持续的；持久的",
+          "en": "sustainable, lasting"
+        },
+        "examples": [
+          {
+            "text": "เราต้องพัฒนาอย่างยั่งยืน",
+            "translations": {
+              "zh": "我们必须可持续地发展。",
+              "en": "We must develop sustainably."
+            }
+          }
+        ],
+        "usageNote": "常见搭配：การพัฒนาที่ยั่งยืน（可持续发展）。"
+      }
+    ]
+  },
+  {
+    "headword": "เปลี่ยนแปลง",
+    "phonetic": "plianplaeng",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "plìan-plɛɛng · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ต่างไปจากเดิม",
+        "translations": {
+          "zh": "变化；改变",
+          "en": "to change"
+        },
+        "examples": [
+          {
+            "text": "เมืองนี้เปลี่ยนแปลงไปมากในสิบปี",
+            "translations": {
+              "zh": "这座城市十年来变化很大。",
+              "en": "This city has changed a lot in ten years."
+            }
+          }
+        ],
+        "usageNote": "比 เปลี่ยน 更正式，多指整体性的变化。"
+      }
+    ]
+  },
+  {
+    "headword": "ละลาย",
+    "phonetic": "lalai",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "lá-laai · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปลี่ยนจากของแข็งเป็นของเหลว",
+        "translations": {
+          "zh": "融化；溶解",
+          "en": "to melt, to dissolve"
+        },
+        "examples": [
+          {
+            "text": "ไอติมละลายเร็วมากเพราะอากาศร้อน",
+            "translations": {
+              "zh": "天气热，冰淇淋化得很快。",
+              "en": "The ice cream melted fast because of the heat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ระดับ",
+    "phonetic": "radap",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "rá-dàp · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสูงต่ำหรือขั้นของสิ่งต่าง ๆ",
+        "translations": {
+          "zh": "水平；程度；级别",
+          "en": "level"
+        },
+        "examples": [
+          {
+            "text": "ระดับน้ำในแม่น้ำสูงขึ้นมาก",
+            "translations": {
+              "zh": "河里的水位上涨了很多。",
+              "en": "The water level in the river has risen a lot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สารเคมี",
+    "phonetic": "sankhemi",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "sǎan-khee-mii · 升, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สารที่ได้จากกระบวนการทางเคมี",
+        "translations": {
+          "zh": "化学品；化学物质",
+          "en": "chemical"
+        },
+        "examples": [
+          {
+            "text": "ผักนี้ปลูกโดยไม่ใช้สารเคมี",
+            "translations": {
+              "zh": "这种蔬菜种植时不用化学品。",
+              "en": "These vegetables are grown without chemicals."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ย่อยสลาย",
+    "phonetic": "yoisalai",
+    "cefr": "B2",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "yɔ̂i-sà-lǎai · 降, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แตกตัวกลับไปเป็นส่วนหนึ่งของธรรมชาติ",
+        "translations": {
+          "zh": "分解；降解",
+          "en": "to decompose, to biodegrade"
+        },
+        "examples": [
+          {
+            "text": "ถุงพลาสติกใช้เวลาหลายร้อยปีกว่าจะย่อยสลาย",
+            "translations": {
+              "zh": "塑料袋要几百年才能降解。",
+              "en": "Plastic bags take hundreds of years to decompose."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ก๊าซเรือนกระจก",
+    "phonetic": "katrueankrachok",
+    "cefr": "B2",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "káat-rʉan-krà-jòk · 高, 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ก๊าซที่ทำให้ความร้อนอยู่ในโลกมากขึ้น",
+        "translations": {
+          "zh": "温室气体",
+          "en": "greenhouse gas"
+        },
+        "examples": [
+          {
+            "text": "รถยนต์ปล่อยก๊าซเรือนกระจกจำนวนมาก",
+            "translations": {
+              "zh": "汽车排放大量温室气体。",
+              "en": "Cars emit a lot of greenhouse gases."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภูเขาไฟ",
+    "phonetic": "phukhaofai",
+    "cefr": "B2",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "phuu-khǎo-fai · 中, 升, 中",
+      "classifier": "ลูก（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภูเขาที่มีหินร้อนและไฟพุ่งออกมาได้",
+        "translations": {
+          "zh": "火山",
+          "en": "volcano"
+        },
+        "examples": [
+          {
+            "text": "ภูเขาไฟที่อินโดนีเซียระเบิดเมื่อวานนี้",
+            "translations": {
+              "zh": "印尼的火山昨天喷发了。",
+              "en": "A volcano in Indonesia erupted yesterday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทะเลสาบ",
+    "phonetic": "thalesap",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "thá-lee-sàap · 高, 中, 低",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แหล่งน้ำขนาดใหญ่ที่มีแผ่นดินล้อมรอบ",
+        "translations": {
+          "zh": "湖",
+          "en": "lake"
+        },
+        "examples": [
+          {
+            "text": "เราเดินเล่นรอบทะเลสาบตอนเย็น",
+            "translations": {
+              "zh": "我们傍晚绕着湖散步。",
+              "en": "We walked around the lake in the evening."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทะเลทราย",
+    "phonetic": "thalesai",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "thá-lee-saai · 高, 中, 中",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่กว้างที่มีแต่ทรายและฝนตกน้อยมาก",
+        "translations": {
+          "zh": "沙漠",
+          "en": "desert"
+        },
+        "examples": [
+          {
+            "text": "กลางวันในทะเลทรายร้อนมาก แต่กลางคืนหนาว",
+            "translations": {
+              "zh": "沙漠白天很热，晚上却很冷。",
+              "en": "Deserts are very hot by day but cold at night."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ถ้ำ",
+    "phonetic": "tham",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "thâm · 降",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่องหรือโพรงขนาดใหญ่ในภูเขา",
+        "translations": {
+          "zh": "山洞；洞穴",
+          "en": "cave"
+        },
+        "examples": [
+          {
+            "text": "นักท่องเที่ยวชอบไปดูถ้ำที่กาญจนบุรี",
+            "translations": {
+              "zh": "游客喜欢去北碧府看山洞。",
+              "en": "Tourists love visiting the caves in Kanchanaburi."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หุบเขา",
+    "phonetic": "hupkhao",
+    "cefr": "B2",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "hùp-khǎo · 低, 升",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่ต่ำระหว่างภูเขา",
+        "translations": {
+          "zh": "山谷",
+          "en": "valley"
+        },
+        "examples": [
+          {
+            "text": "หมู่บ้านเล็ก ๆ ตั้งอยู่ในหุบเขา",
+            "translations": {
+              "zh": "小村庄坐落在山谷中。",
+              "en": "A small village sits in the valley."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คลอง",
+    "phonetic": "khlong",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "khlɔɔng · 中",
+      "classifier": "สาย（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางน้ำที่คนขุดขึ้น",
+        "translations": {
+          "zh": "运河；河道",
+          "en": "canal"
+        },
+        "examples": [
+          {
+            "text": "สมัยก่อนคนกรุงเทพฯ เดินทางทางคลอง",
+            "translations": {
+              "zh": "以前曼谷人走水路出行。",
+              "en": "In the old days Bangkok people travelled by canal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชายฝั่ง",
+    "phonetic": "chaifang",
+    "cefr": "B2",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "chaai-fàng · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แผ่นดินที่ติดกับทะเล",
+        "translations": {
+          "zh": "海岸；沿海",
+          "en": "coast"
+        },
+        "examples": [
+          {
+            "text": "มีรีสอร์ตหลายแห่งตามชายฝั่งทะเลอันดามัน",
+            "translations": {
+              "zh": "安达曼海沿岸有很多度假村。",
+              "en": "There are many resorts along the Andaman coast."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มหาสมุทร",
+    "phonetic": "mahasamut",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "má-hǎa-sà-mùt · 高, 升, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทะเลที่กว้างใหญ่มาก",
+        "translations": {
+          "zh": "海洋；大洋",
+          "en": "ocean"
+        },
+        "examples": [
+          {
+            "text": "มหาสมุทรแปซิฟิกใหญ่ที่สุดในโลก",
+            "translations": {
+              "zh": "太平洋是世界上最大的海洋。",
+              "en": "The Pacific is the largest ocean in the world."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทวีป",
+    "phonetic": "thawip",
+    "cefr": "B2",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "thá-wîip · 高, 降",
+      "classifier": "ทวีป（个，洲）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แผ่นดินขนาดใหญ่มากของโลก",
+        "translations": {
+          "zh": "洲；大陆",
+          "en": "continent"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยอยู่ในทวีปเอเชีย",
+            "translations": {
+              "zh": "泰国位于亚洲。",
+              "en": "Thailand is in the continent of Asia."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิศาสตร์",
+    "phonetic": "phumisat",
+    "cefr": "B2",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "phuu-mí-sàat · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาที่เรียนเรื่องโลก แผ่นดิน และภูมิประเทศ",
+        "translations": {
+          "zh": "地理；地理学",
+          "en": "geography"
+        },
+        "examples": [
+          {
+            "text": "ภูมิศาสตร์ของภาคเหนือเป็นภูเขาสูง",
+            "translations": {
+              "zh": "北部的地理以高山为主。",
+              "en": "The geography of the north is high mountains."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดิน",
+    "phonetic": "din",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "din · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนที่อยู่บนผิวโลก ใช้ปลูกต้นไม้",
+        "translations": {
+          "zh": "土；土壤",
+          "en": "soil, earth"
+        },
+        "examples": [
+          {
+            "text": "ดินที่นี่ดีมาก ปลูกผักขึ้นง่าย",
+            "translations": {
+              "zh": "这里的土很好，种菜容易长。",
+              "en": "The soil here is good; vegetables grow easily."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หิน",
+    "phonetic": "hin",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "hǐn · 升",
+      "classifier": "ก้อน（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของแข็งที่เกิดตามธรรมชาติ",
+        "translations": {
+          "zh": "石头",
+          "en": "stone, rock"
+        },
+        "examples": [
+          {
+            "text": "ระวังลื่นนะ หินตรงนี้เปียก",
+            "translations": {
+              "zh": "小心滑，这里的石头是湿的。",
+              "en": "Careful, it's slippery; the rocks here are wet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทราย",
+    "phonetic": "sai",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "saai · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เม็ดหินเล็ก ๆ ที่อยู่ตามชายหาด",
+        "translations": {
+          "zh": "沙子",
+          "en": "sand"
+        },
+        "examples": [
+          {
+            "text": "ทรายที่เกาะนี้ขาวและนุ่มมาก",
+            "translations": {
+              "zh": "这个岛上的沙子又白又细。",
+              "en": "The sand on this island is very white and soft."
+            }
+          }
+        ],
+        "usageNote": "ทร 在这里读 s。"
+      }
+    ]
+  },
+  {
+    "headword": "ท้องฟ้า",
+    "phonetic": "thongfa",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "thɔ́ɔng-fáa · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่ด้านบนที่เรามองเห็นเหนือหัว",
+        "translations": {
+          "zh": "天空",
+          "en": "sky"
+        },
+        "examples": [
+          {
+            "text": "คืนนี้ท้องฟ้าแจ่มใส เห็นดาวเต็มไปหมด",
+            "translations": {
+              "zh": "今晚天空晴朗，满天星星。",
+              "en": "The sky is clear tonight and full of stars."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เมฆ",
+    "phonetic": "mek",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "mêek · 降",
+      "classifier": "ก้อน（朵）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มไอน้ำสีขาวหรือเทาที่ลอยบนท้องฟ้า",
+        "translations": {
+          "zh": "云",
+          "en": "cloud"
+        },
+        "examples": [
+          {
+            "text": "วันนี้เมฆเยอะ ฝนน่าจะตก",
+            "translations": {
+              "zh": "今天云很多，可能会下雨。",
+              "en": "It's very cloudy today; it'll probably rain."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

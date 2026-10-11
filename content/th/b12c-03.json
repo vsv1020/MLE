@@ -1,0 +1,1526 @@
+[
+  {
+    "headword": "เพื่อนร่วมงาน",
+    "phonetic": "phuean ruam ngan",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "phʉ̂an-rûam-ngaan · 降, 降, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ทำงานที่เดียวกัน",
+        "translations": {
+          "zh": "同事",
+          "en": "colleague, co-worker"
+        },
+        "examples": [
+          {
+            "text": "เพื่อนร่วมงานของฉันเป็นคนเชียงใหม่",
+            "translations": {
+              "zh": "我的同事是清迈人。",
+              "en": "My colleague is from Chiang Mai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คนรัก",
+    "phonetic": "khonrak",
+    "cefr": "B1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "khon-rák · 中, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เรารักและเป็นคู่ของเรา",
+        "translations": {
+          "zh": "爱人；恋人",
+          "en": "loved one, sweetheart"
+        },
+        "examples": [
+          {
+            "text": "เขาอยากใช้ชีวิตกับคนรัก",
+            "translations": {
+              "zh": "他想和爱人一起生活。",
+              "en": "He wants to spend his life with his beloved."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จีบ",
+    "phonetic": "chip",
+    "cefr": "B1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "jìip · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พยายามทำให้อีกคนชอบเพื่อเป็นแฟน",
+        "translations": {
+          "zh": "追求（异性）；撩",
+          "en": "to court, to woo, to flirt with"
+        },
+        "examples": [
+          {
+            "text": "เขาจีบเธอมาสามเดือนแล้ว",
+            "translations": {
+              "zh": "他追她已经三个月了。",
+              "en": "He's been courting her for three months."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คบ",
+    "phonetic": "khop",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "khóp · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เป็นเพื่อนหรือเป็นแฟนกัน",
+        "translations": {
+          "zh": "交往；结交",
+          "en": "to go out with; to associate with"
+        },
+        "examples": [
+          {
+            "text": "เราคบกันมาสองปีแล้ว",
+            "translations": {
+              "zh": "我们交往两年了。",
+              "en": "We've been together for two years."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมั้น",
+    "phonetic": "man",
+    "cefr": "B2",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "mân · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตกลงกันว่าจะแต่งงานในอนาคต",
+        "translations": {
+          "zh": "订婚",
+          "en": "to get engaged"
+        },
+        "examples": [
+          {
+            "text": "พี่สาวฉันเพิ่งหมั้นกับแฟน",
+            "translations": {
+              "zh": "我姐姐刚和男朋友订婚。",
+              "en": "My older sister just got engaged to her boyfriend."
+            }
+          }
+        ],
+        "usageNote": "泰国订婚时男方常给女方家 สินสอด（聘礼）。"
+      }
+    ]
+  },
+  {
+    "headword": "เจ้าบ่าว",
+    "phonetic": "chaobao",
+    "cefr": "B1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "jâo-bàao · 降, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ชายในวันแต่งงาน",
+        "translations": {
+          "zh": "新郎",
+          "en": "groom"
+        },
+        "examples": [
+          {
+            "text": "เจ้าบ่าวหล่อมากวันนี้",
+            "translations": {
+              "zh": "今天新郎很帅。",
+              "en": "The groom looks very handsome today."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจ้าสาว",
+    "phonetic": "chaosao",
+    "cefr": "B1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "jâo-sǎao · 降, 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้หญิงในวันแต่งงาน",
+        "translations": {
+          "zh": "新娘",
+          "en": "bride"
+        },
+        "examples": [
+          {
+            "text": "เจ้าสาวใส่ชุดไทยสวยมาก",
+            "translations": {
+              "zh": "新娘穿泰式礼服很漂亮。",
+              "en": "The bride looks beautiful in Thai dress."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คู่รัก",
+    "phonetic": "khurak",
+    "cefr": "B1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "khûu-rák · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ชายหญิงหรือคนสองคนที่รักกัน",
+        "translations": {
+          "zh": "情侣",
+          "en": "couple (in love)"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้มีคู่รักมานั่งเยอะ",
+            "translations": {
+              "zh": "这家店很多情侣来坐。",
+              "en": "Lots of couples come to this café."
+            }
+          }
+        ],
+        "usageNote": "量词用 คู่（对）。"
+      }
+    ]
+  },
+  {
+    "headword": "ญาติ",
+    "phonetic": "yat",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "yâat · 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนในครอบครัวเดียวกันหรือนามสกุลเดียวกัน",
+        "translations": {
+          "zh": "亲戚",
+          "en": "relative"
+        },
+        "examples": [
+          {
+            "text": "ช่วงสงกรานต์ญาติ ๆ มาเยี่ยมบ้าน",
+            "translations": {
+              "zh": "泼水节期间亲戚们来家里探望。",
+              "en": "Relatives visit our home during Songkran."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลูกพี่ลูกน้อง",
+    "phonetic": "luk phi luk nong",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "lûuk-phîi-lûuk-nɔ́ɔng · 降, 降, 降, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลูกของลุง ป้า น้า หรืออา",
+        "translations": {
+          "zh": "堂/表兄弟姐妹",
+          "en": "cousin"
+        },
+        "examples": [
+          {
+            "text": "ลูกพี่ลูกน้องของฉันอยู่ที่ภูเก็ต",
+            "translations": {
+              "zh": "我的表兄弟住在普吉。",
+              "en": "My cousin lives in Phuket."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หลาน",
+    "phonetic": "lan",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "lǎan · 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลูกของลูก หรือลูกของพี่น้อง",
+        "translations": {
+          "zh": "孙子女；侄子女；外甥",
+          "en": "grandchild; niece, nephew"
+        },
+        "examples": [
+          {
+            "text": "คุณยายรักหลานมาก",
+            "translations": {
+              "zh": "外婆很疼外孙。",
+              "en": "Grandma loves her grandchildren very much."
+            }
+          }
+        ],
+        "usageNote": "หลาน 同时指孙辈和侄/甥辈，靠语境区分。"
+      }
+    ]
+  },
+  {
+    "headword": "พ่อแม่",
+    "phonetic": "phomae",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "phɔ̂ɔ-mɛ̂ɛ · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พ่อและแม่",
+        "translations": {
+          "zh": "父母",
+          "en": "parents"
+        },
+        "examples": [
+          {
+            "text": "ฉันโทรหาพ่อแม่ทุกสัปดาห์",
+            "translations": {
+              "zh": "我每周给父母打电话。",
+              "en": "I call my parents every week."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พ่อตา",
+    "phonetic": "phota",
+    "cefr": "B2",
+    "frequencyRank": 8100,
+    "grammarNotes": {
+      "toneMarks": "phɔ̂ɔ-taa · 降, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พ่อของภรรยา",
+        "translations": {
+          "zh": "岳父",
+          "en": "father-in-law (wife's father)"
+        },
+        "examples": [
+          {
+            "text": "พ่อตาชวนผมไปตกปลา",
+            "translations": {
+              "zh": "岳父叫我去钓鱼。",
+              "en": "My father-in-law invited me fishing."
+            }
+          }
+        ],
+        "usageNote": "丈夫的父亲叫 พ่อสามี（公公）。"
+      }
+    ]
+  },
+  {
+    "headword": "แม่ยาย",
+    "phonetic": "maeyai",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "mɛ̂ɛ-yaai · 降, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แม่ของภรรยา",
+        "translations": {
+          "zh": "岳母",
+          "en": "mother-in-law (wife's mother)"
+        },
+        "examples": [
+          {
+            "text": "แม่ยายทำกับข้าวอร่อยมาก",
+            "translations": {
+              "zh": "岳母做饭很好吃。",
+              "en": "My mother-in-law is a great cook."
+            }
+          }
+        ],
+        "usageNote": "丈夫的母亲叫 แม่สามี（婆婆）。"
+      }
+    ]
+  },
+  {
+    "headword": "ลูกเขย",
+    "phonetic": "lukkhoei",
+    "cefr": "B2",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "toneMarks": "lûuk-khə̌əi · 降, 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สามีของลูกสาว",
+        "translations": {
+          "zh": "女婿",
+          "en": "son-in-law"
+        },
+        "examples": [
+          {
+            "text": "ลูกเขยคนนี้ขยันมาก",
+            "translations": {
+              "zh": "这个女婿很勤快。",
+              "en": "This son-in-law is very hard-working."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลูกสะใภ้",
+    "phonetic": "luksaphai",
+    "cefr": "B2",
+    "frequencyRank": 8900,
+    "grammarNotes": {
+      "toneMarks": "lûuk-sà-phái · 降, 低, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภรรยาของลูกชาย",
+        "translations": {
+          "zh": "儿媳妇",
+          "en": "daughter-in-law"
+        },
+        "examples": [
+          {
+            "text": "ลูกสะใภ้ดูแลแม่สามีอย่างดี",
+            "translations": {
+              "zh": "儿媳妇把婆婆照顾得很好。",
+              "en": "The daughter-in-law takes good care of her mother-in-law."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฝาแฝด",
+    "phonetic": "fafaet",
+    "cefr": "B1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "fǎa-fɛ̀ɛt · 升, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลูกที่เกิดพร้อมกันจากแม่เดียวกัน",
+        "translations": {
+          "zh": "双胞胎",
+          "en": "twins"
+        },
+        "examples": [
+          {
+            "text": "สองคนนี้เป็นฝาแฝด หน้าเหมือนกันมาก",
+            "translations": {
+              "zh": "这两人是双胞胎，长得很像。",
+              "en": "These two are twins; they look very alike."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เลี้ยง",
+    "phonetic": "liang",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "líang · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดูแลให้โต เช่น เด็กหรือสัตว์",
+        "translations": {
+          "zh": "养；抚养",
+          "en": "to raise, to bring up"
+        },
+        "examples": [
+          {
+            "text": "ยายเลี้ยงฉันมาตั้งแต่เด็ก",
+            "translations": {
+              "zh": "我从小是外婆带大的。",
+              "en": "Grandma raised me from childhood."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "จ่ายค่าอาหารให้คนอื่น",
+        "translations": {
+          "zh": "请客",
+          "en": "to treat (someone to food or drinks)"
+        },
+        "examples": [
+          {
+            "text": "วันนี้ฉันเลี้ยงเอง",
+            "translations": {
+              "zh": "今天我请客。",
+              "en": "Today it's my treat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สมาชิก",
+    "phonetic": "samachik",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "sà-maa-chík · 低, 中, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่อยู่ในกลุ่มหรือครอบครัว",
+        "translations": {
+          "zh": "成员；会员",
+          "en": "member"
+        },
+        "examples": [
+          {
+            "text": "บ้านเรามีสมาชิกห้าคน",
+            "translations": {
+              "zh": "我们家有五口人。",
+              "en": "There are five members in our family."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความสัมพันธ์",
+    "phonetic": "khwam samphan",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "khwaam-sǎm-phan · 中, 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเกี่ยวข้องกันระหว่างคน",
+        "translations": {
+          "zh": "关系",
+          "en": "relationship"
+        },
+        "examples": [
+          {
+            "text": "ความสัมพันธ์ของเราดีขึ้นมาก",
+            "translations": {
+              "zh": "我们的关系好多了。",
+              "en": "Our relationship has improved a lot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นอกใจ",
+    "phonetic": "nokchai",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "nɔ̂ɔk-jai · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีคนรักอื่นทั้งที่มีแฟนหรือคู่แล้ว",
+        "translations": {
+          "zh": "出轨；不忠",
+          "en": "to cheat on, to be unfaithful"
+        },
+        "examples": [
+          {
+            "text": "เขาเลิกกับแฟนเพราะแฟนนอกใจ",
+            "translations": {
+              "zh": "他因为女友出轨而分手了。",
+              "en": "He broke up because his girlfriend cheated on him."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ง้อ",
+    "phonetic": "ngo",
+    "cefr": "B1",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "ngɔ́ɔ · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูดหรือทำดีเพื่อให้อีกคนหายโกรธ",
+        "translations": {
+          "zh": "哄（对方消气）；求和",
+          "en": "to coax someone out of being upset"
+        },
+        "examples": [
+          {
+            "text": "ซื้อดอกไม้ไปง้อแฟนสิ",
+            "translations": {
+              "zh": "买束花去哄哄女朋友吧。",
+              "en": "Buy some flowers to make up with your girlfriend."
+            }
+          }
+        ],
+        "usageNote": "泰国情侣吵架后常见：一方 น้อยใจ（委屈），另一方去 ง้อ（哄）。"
+      }
+    ]
+  },
+  {
+    "headword": "คืนดี",
+    "phonetic": "khuendi",
+    "cefr": "B2",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "khʉʉn-dii · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "กลับมาดีกันหลังจากทะเลาะ",
+        "translations": {
+          "zh": "和好",
+          "en": "to reconcile, to make up"
+        },
+        "examples": [
+          {
+            "text": "ในที่สุดสองคนนี้ก็คืนดีกัน",
+            "translations": {
+              "zh": "这两人终于和好了。",
+              "en": "In the end the two of them made up."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ห่วงใย",
+    "phonetic": "huangyai",
+    "cefr": "B1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "hùang-yai · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คิดถึงและอยากดูแลด้วยความรัก",
+        "translations": {
+          "zh": "关怀；关心",
+          "en": "to care about, to be concerned for"
+        },
+        "examples": [
+          {
+            "text": "ขอบคุณที่ห่วงใยกันนะ",
+            "translations": {
+              "zh": "谢谢你的关心。",
+              "en": "Thank you for caring about me."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดูแล",
+    "phonetic": "dulae",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "duu-lɛɛ · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ปลอดภัยและสบาย",
+        "translations": {
+          "zh": "照顾；照料",
+          "en": "to take care of, to look after"
+        },
+        "examples": [
+          {
+            "text": "ฉันต้องดูแลแม่ที่ป่วย",
+            "translations": {
+              "zh": "我得照顾生病的妈妈。",
+              "en": "I have to look after my sick mother."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เคารพ",
+    "phonetic": "khaorop",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "khao-róp · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้เกียรติและนับถือ",
+        "translations": {
+          "zh": "尊敬；尊重",
+          "en": "to respect"
+        },
+        "examples": [
+          {
+            "text": "เด็กไทยถูกสอนให้เคารพผู้ใหญ่",
+            "translations": {
+              "zh": "泰国孩子从小被教导要尊敬长辈。",
+              "en": "Thai children are taught to respect their elders."
+            }
+          }
+        ],
+        "usageNote": "泰国社会重视长幼尊卑，对长辈要 ไหว้（合十行礼）。"
+      }
+    ]
+  },
+  {
+    "headword": "เชื่อใจ",
+    "phonetic": "chueachai",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "chʉ̂a-jai · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มั่นใจว่าอีกคนดีและจริงใจ",
+        "translations": {
+          "zh": "信任",
+          "en": "to trust"
+        },
+        "examples": [
+          {
+            "text": "คู่รักต้องเชื่อใจกัน",
+            "translations": {
+              "zh": "情侣之间要互相信任。",
+              "en": "Couples must trust each other."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นัด",
+    "phonetic": "nat",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "nát · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตกลงเวลาและที่ที่จะเจอกัน",
+        "translations": {
+          "zh": "约（见面）；预约",
+          "en": "to make an appointment, to arrange to meet"
+        },
+        "examples": [
+          {
+            "text": "เรานัดกันหน้าห้างตอนหกโมง",
+            "translations": {
+              "zh": "我们约好六点在商场门口见。",
+              "en": "We arranged to meet outside the mall at six."
+            }
+          }
+        ],
+        "usageNote": "也可作名词：มีนัด 有约。"
+      }
+    ]
+  },
+  {
+    "headword": "โสด",
+    "phonetic": "sot",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "sòot · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ยังไม่มีแฟนหรือยังไม่แต่งงาน",
+        "translations": {
+          "zh": "单身",
+          "en": "single"
+        },
+        "examples": [
+          {
+            "text": "ตอนนี้ฉันยังโสดอยู่",
+            "translations": {
+              "zh": "我现在还是单身。",
+              "en": "I'm still single right now."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เพื่อนสนิท",
+    "phonetic": "phuean sanit",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "phʉ̂an-sà-nìt · 降, 低, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เพื่อนที่ใกล้ชิดกันมาก",
+        "translations": {
+          "zh": "好朋友；闺蜜",
+          "en": "close friend, best friend"
+        },
+        "examples": [
+          {
+            "text": "เธอเป็นเพื่อนสนิทของฉันตั้งแต่ประถม",
+            "translations": {
+              "zh": "她从小学起就是我的好朋友。",
+              "en": "She has been my best friend since primary school."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สนิท",
+    "phonetic": "sanit",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "sà-nìt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ใกล้ชิด รู้จักกันดี",
+        "translations": {
+          "zh": "亲密；熟",
+          "en": "close (in relationship)"
+        },
+        "examples": [
+          {
+            "text": "ฉันไม่ค่อยสนิทกับเขา",
+            "translations": {
+              "zh": "我和他不太熟。",
+              "en": "I'm not very close to him."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แขก",
+    "phonetic": "khaek",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "khɛ̀ɛk · 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่มาเยี่ยมบ้านหรือมาร่วมงาน",
+        "translations": {
+          "zh": "客人",
+          "en": "guest"
+        },
+        "examples": [
+          {
+            "text": "คืนนี้มีแขกมากินข้าวที่บ้าน",
+            "translations": {
+              "zh": "今晚有客人来家里吃饭。",
+              "en": "We have guests coming for dinner tonight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจ้านาย",
+    "phonetic": "chaonai",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "jâo-naai · 降, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เป็นหัวหน้าเรา",
+        "translations": {
+          "zh": "老板；上司",
+          "en": "boss"
+        },
+        "examples": [
+          {
+            "text": "เจ้านายให้ฉันทำงานวันเสาร์",
+            "translations": {
+              "zh": "老板让我周六上班。",
+              "en": "My boss made me work on Saturday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลูกน้อง",
+    "phonetic": "luknong",
+    "cefr": "B1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "lûuk-nɔ́ɔng · 降, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ทำงานอยู่ใต้หัวหน้า",
+        "translations": {
+          "zh": "下属；手下",
+          "en": "subordinate"
+        },
+        "examples": [
+          {
+            "text": "เขาดูแลลูกน้องดีมาก",
+            "translations": {
+              "zh": "他对下属很照顾。",
+              "en": "He takes good care of his subordinates."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รุ่นพี่",
+    "phonetic": "runphi",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "rûn-phîi · 降, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เข้าเรียนหรือทำงานก่อนเรา",
+        "translations": {
+          "zh": "学长；前辈",
+          "en": "senior (at school or work)"
+        },
+        "examples": [
+          {
+            "text": "รุ่นพี่ช่วยสอนการบ้านให้",
+            "translations": {
+              "zh": "学长帮我辅导作业。",
+              "en": "A senior student helped me with my homework."
+            }
+          }
+        ],
+        "usageNote": "泰国学校和职场里 รุ่นพี่/รุ่นน้อง 关系很重要，前辈照顾后辈，后辈尊敬前辈。"
+      }
+    ]
+  },
+  {
+    "headword": "รุ่นน้อง",
+    "phonetic": "runnong",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "rûn-nɔ́ɔng · 降, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เข้าเรียนหรือทำงานหลังเรา",
+        "translations": {
+          "zh": "学弟学妹；后辈",
+          "en": "junior (at school or work)"
+        },
+        "examples": [
+          {
+            "text": "วันนี้รุ่นน้องเลี้ยงข้าว",
+            "translations": {
+              "zh": "今天学弟请吃饭。",
+              "en": "A junior treated us to a meal today."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เพื่อนร่วมชั้น",
+    "phonetic": "phuean ruam chan",
+    "cefr": "B1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "phʉ̂an-rûam-chán · 降, 降, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เรียนห้องเดียวกัน",
+        "translations": {
+          "zh": "同班同学",
+          "en": "classmate"
+        },
+        "examples": [
+          {
+            "text": "เพื่อนร่วมชั้นทุกคนมางานแต่งของฉัน",
+            "translations": {
+              "zh": "所有同班同学都来参加了我的婚礼。",
+              "en": "All my classmates came to my wedding."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขัดแย้ง",
+    "phonetic": "khatyaeng",
+    "cefr": "B2",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "khàt-yɛ́ɛng · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีความคิดไม่ตรงกันจนมีปัญหา",
+        "translations": {
+          "zh": "冲突；矛盾",
+          "en": "to conflict, to clash"
+        },
+        "examples": [
+          {
+            "text": "เขาขัดแย้งกับหัวหน้าบ่อย",
+            "translations": {
+              "zh": "他经常和领导起冲突。",
+              "en": "He often clashes with his boss."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ช่วยเหลือ",
+    "phonetic": "chuailuea",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "chûay-lʉ̌a · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ช่วยคนที่ลำบาก",
+        "translations": {
+          "zh": "帮助；援助",
+          "en": "to help, to assist"
+        },
+        "examples": [
+          {
+            "text": "เพื่อนบ้านช่วยเหลือกันเสมอ",
+            "translations": {
+              "zh": "邻居们总是互相帮助。",
+              "en": "Neighbours always help each other."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เข้ากันได้",
+    "phonetic": "khao kan dai",
+    "cefr": "B1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "khâo-kan-dâai · 降, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อยู่ด้วยกันได้ดี ไม่มีปัญหา",
+        "translations": {
+          "zh": "合得来；相处融洽",
+          "en": "to get along"
+        },
+        "examples": [
+          {
+            "text": "ลูกสะใภ้เข้ากันได้ดีกับแม่สามี",
+            "translations": {
+              "zh": "儿媳和婆婆相处得很好。",
+              "en": "The daughter-in-law gets along well with her mother-in-law."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อกหัก",
+    "phonetic": "okhak",
+    "cefr": "B1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "òk-hàk · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เสียใจเพราะความรักไม่สมหวัง",
+        "translations": {
+          "zh": "失恋；心碎",
+          "en": "to be heartbroken"
+        },
+        "examples": [
+          {
+            "text": "เพื่อนฉันอกหัก ร้องไห้ทั้งคืน",
+            "translations": {
+              "zh": "我朋友失恋了，哭了一整晚。",
+              "en": "My friend got her heart broken and cried all night."
+            }
+          }
+        ],
+        "usageNote": "字面是“胸口断了”。"
+      }
+    ]
+  },
+  {
+    "headword": "บอกเลิก",
+    "phonetic": "bokloek",
+    "cefr": "B1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "bɔ̀ɔk-lə̂ək · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "บอกแฟนว่าจะไม่คบกันแล้ว",
+        "translations": {
+          "zh": "提分手",
+          "en": "to break up with, to dump"
+        },
+        "examples": [
+          {
+            "text": "เธอบอกเลิกแฟนทางโทรศัพท์",
+            "translations": {
+              "zh": "她在电话里和男朋友提了分手。",
+              "en": "She dumped her boyfriend over the phone."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สารภาพ",
+    "phonetic": "saraphap",
+    "cefr": "B2",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "sǎa-rá-phâap · 升, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยอมบอกความจริง เช่น ความรักหรือความผิด",
+        "translations": {
+          "zh": "坦白；表白",
+          "en": "to confess"
+        },
+        "examples": [
+          {
+            "text": "เขาสารภาพรักกับเธอที่ทะเล",
+            "translations": {
+              "zh": "他在海边向她表白了。",
+              "en": "He confessed his love to her at the beach."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผูกพัน",
+    "phonetic": "phukphan",
+    "cefr": "B2",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "phùuk-phan · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีความรักความใกล้ชิดกันมานาน",
+        "translations": {
+          "zh": "有感情；有羁绊",
+          "en": "to be attached to, to have a bond"
+        },
+        "examples": [
+          {
+            "text": "ฉันผูกพันกับบ้านหลังนี้มาก",
+            "translations": {
+              "zh": "我对这栋房子很有感情。",
+              "en": "I'm very attached to this house."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ครอบครัวใหญ่",
+    "phonetic": "khropkhrua yai",
+    "cefr": "B1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "khrɔ̂ɔp-khrua-yài · 降, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ครอบครัวที่มีหลายรุ่นอยู่ด้วยกัน",
+        "translations": {
+          "zh": "大家庭",
+          "en": "extended family"
+        },
+        "examples": [
+          {
+            "text": "ฉันโตมาในครอบครัวใหญ่",
+            "translations": {
+              "zh": "我在一个大家庭里长大。",
+              "en": "I grew up in a big extended family."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โรค",
+    "phonetic": "rok",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "rôok · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเจ็บป่วยที่มีชื่อเรียก",
+        "translations": {
+          "zh": "病；疾病",
+          "en": "disease, illness"
+        },
+        "examples": [
+          {
+            "text": "โรคนี้ติดต่อได้ไหม",
+            "translations": {
+              "zh": "这种病会传染吗？",
+              "en": "Is this disease contagious?"
+            }
+          }
+        ],
+        "usageNote": "病名多以 โรค 开头：โรคหัวใจ 心脏病、โรคเบาหวาน 糖尿病。"
+      }
+    ]
+  },
+  {
+    "headword": "อาการ",
+    "phonetic": "akan",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "aa-kaan · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เกิดกับร่างกายเมื่อป่วย",
+        "translations": {
+          "zh": "症状；病情",
+          "en": "symptom, condition"
+        },
+        "examples": [
+          {
+            "text": "มีอาการอะไรบ้างครับ",
+            "translations": {
+              "zh": "有什么症状？",
+              "en": "What symptoms do you have?"
+            }
+          }
+        ],
+        "usageNote": "医生问诊常用语。อาการดีขึ้น = 病情好转。"
+      }
+    ]
+  },
+  {
+    "headword": "ใบสั่งยา",
+    "phonetic": "baisangya",
+    "cefr": "B2",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "toneMarks": "bai-sàng-yaa · 中, 低, 中",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กระดาษที่หมอเขียนบอกว่าต้องใช้ยาอะไร",
+        "translations": {
+          "zh": "处方；药方",
+          "en": "prescription"
+        },
+        "examples": [
+          {
+            "text": "ยานี้ต้องมีใบสั่งยาจากหมอ",
+            "translations": {
+              "zh": "这种药需要医生开的处方。",
+              "en": "This medicine requires a doctor's prescription."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หาย",
+    "phonetic": "hai",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "hǎai · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "กลับมาสบายดีหลังจากป่วย",
+        "translations": {
+          "zh": "（病）好了；痊愈",
+          "en": "to recover, to get better"
+        },
+        "examples": [
+          {
+            "text": "กินยาแล้วหายหรือยัง",
+            "translations": {
+              "zh": "吃了药好了没？",
+              "en": "Have you got better after taking the medicine?"
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่อยู่ที่เดิม หาไม่เจอ",
+        "translations": {
+          "zh": "不见；丢失",
+          "en": "to disappear, to go missing"
+        },
+        "examples": [
+          {
+            "text": "กระเป๋าของฉันหาย",
+            "translations": {
+              "zh": "我的包不见了。",
+              "en": "My bag is missing."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บาดเจ็บ",
+    "phonetic": "batchep",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "bàat-jèp · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ร่างกายได้รับอันตรายจากอุบัติเหตุ",
+        "translations": {
+          "zh": "受伤",
+          "en": "to be injured"
+        },
+        "examples": [
+          {
+            "text": "มีคนบาดเจ็บสามคนในอุบัติเหตุ",
+            "translations": {
+              "zh": "事故中有三人受伤。",
+              "en": "Three people were injured in the accident."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นอนไม่หลับ",
+    "phonetic": "non mai lap",
+    "cefr": "B1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "nɔɔn-mâi-làp · 中, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อยากนอนแต่หลับไม่ได้",
+        "translations": {
+          "zh": "失眠；睡不着",
+          "en": "to be unable to sleep, to have insomnia"
+        },
+        "examples": [
+          {
+            "text": "ช่วงนี้เครียดจนนอนไม่หลับ",
+            "translations": {
+              "zh": "最近压力大到失眠。",
+              "en": "I've been so stressed lately that I can't sleep."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปวด",
+    "phonetic": "puat",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "pùat · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เจ็บอยู่ข้างใน เช่น หัว ท้อง ฟัน",
+        "translations": {
+          "zh": "疼；痛（内部）",
+          "en": "to ache"
+        },
+        "examples": [
+          {
+            "text": "ปวดฟันมาสองวันแล้ว",
+            "translations": {
+              "zh": "牙疼两天了。",
+              "en": "My tooth has been aching for two days."
+            }
+          }
+        ],
+        "usageNote": "ปวด 指内部持续的疼：ปวดหัว 头疼、ปวดท้อง 肚子疼；伤口的疼用 เจ็บ。"
+      }
+    ]
+  }
+]

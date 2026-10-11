@@ -1,0 +1,1579 @@
+[
+  {
+    "headword": "อาจารย์",
+    "phonetic": "achan",
+    "cefr": "A2",
+    "frequencyRank": 700,
+    "grammarNotes": {
+      "toneMarks": "aa-jaan · 中, 中",
+      "classifier": "ท่าน（位，敬称）；คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้สอนในมหาวิทยาลัย",
+        "translations": {
+          "zh": "老师（大学）；教授",
+          "en": "teacher, lecturer"
+        },
+        "examples": [
+          {
+            "text": "อาจารย์ของฉันใจดีมาก",
+            "translations": {
+              "zh": "我的老师人很好。",
+              "en": "My lecturer is very kind."
+            }
+          }
+        ],
+        "usageNote": "อาจารย์ 多指大学老师，也用来尊称有学问的人；中小学老师一般叫 ครู。"
+      }
+    ]
+  },
+  {
+    "headword": "นักธุรกิจ",
+    "phonetic": "nak thurakit",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "nák-thú-rá-kìt · 高, 高, 高, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ทำธุรกิจ",
+        "translations": {
+          "zh": "商人；生意人",
+          "en": "businessperson"
+        },
+        "examples": [
+          {
+            "text": "พ่อของเขาเป็นนักธุรกิจ",
+            "translations": {
+              "zh": "他爸爸是个商人。",
+              "en": "His father is a businessman."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิศวกร",
+    "phonetic": "witsawakon",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "wít-sà-wá-kɔɔn · 高, 低, 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ออกแบบหรือสร้างเครื่องจักร ตึก หรือถนน",
+        "translations": {
+          "zh": "工程师",
+          "en": "engineer"
+        },
+        "examples": [
+          {
+            "text": "พี่ชายฉันเป็นวิศวกร",
+            "translations": {
+              "zh": "我哥哥是工程师。",
+              "en": "My older brother is an engineer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทนายความ",
+    "phonetic": "thanai khwam",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "thá-naai-khwaam · 高, 中, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ช่วยเรื่องกฎหมายและว่าความในศาล",
+        "translations": {
+          "zh": "律师",
+          "en": "lawyer"
+        },
+        "examples": [
+          {
+            "text": "เราต้องปรึกษาทนายความ",
+            "translations": {
+              "zh": "我们得咨询律师。",
+              "en": "We need to consult a lawyer."
+            }
+          }
+        ],
+        "usageNote": "口语常简称 ทนาย。"
+      }
+    ]
+  },
+  {
+    "headword": "พ่อครัว",
+    "phonetic": "pho khrua",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "phɔ̂ɔ-khrua · 降, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ชายที่ทำอาหารเป็นอาชีพ",
+        "translations": {
+          "zh": "厨师（男）",
+          "en": "cook, chef"
+        },
+        "examples": [
+          {
+            "text": "พ่อครัวร้านนี้ทำอาหารอร่อย",
+            "translations": {
+              "zh": "这家店的厨师做菜很好吃。",
+              "en": "The chef at this restaurant cooks well."
+            }
+          }
+        ],
+        "usageNote": "女厨师叫 แม่ครัว。"
+      }
+    ]
+  },
+  {
+    "headword": "ชาวนา",
+    "phonetic": "chao na",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "chao-naa · 中, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ปลูกข้าวเป็นอาชีพ",
+        "translations": {
+          "zh": "农民（种稻的）",
+          "en": "rice farmer"
+        },
+        "examples": [
+          {
+            "text": "ชาวนาปลูกข้าวในหน้าฝน",
+            "translations": {
+              "zh": "农民在雨季种稻子。",
+              "en": "Farmers plant rice in the rainy season."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทหาร",
+    "phonetic": "thahan",
+    "cefr": "A2",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "toneMarks": "thá-hǎan · 高, 升",
+      "classifier": "คน（人）；นาย（名）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ทำงานในกองทัพ",
+        "translations": {
+          "zh": "士兵；军人",
+          "en": "soldier"
+        },
+        "examples": [
+          {
+            "text": "ทหารยืนอยู่หน้าประตู",
+            "translations": {
+              "zh": "士兵站在门口。",
+              "en": "A soldier is standing at the gate."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นักร้อง",
+    "phonetic": "nak rong",
+    "cefr": "A2",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "nák-rɔ́ɔng · 高, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ร้องเพลงเป็นอาชีพ",
+        "translations": {
+          "zh": "歌手",
+          "en": "singer"
+        },
+        "examples": [
+          {
+            "text": "เธออยากเป็นนักร้อง",
+            "translations": {
+              "zh": "她想当歌手。",
+              "en": "She wants to be a singer."
+            }
+          }
+        ],
+        "usageNote": "นัก + 动词 表示\"做某事的人\"：นักร้อง、นักเรียน、นักกีฬา。"
+      }
+    ]
+  },
+  {
+    "headword": "นักข่าว",
+    "phonetic": "nak khao",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "nák-khàao · 高, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่หาข่าวและเขียนข่าว",
+        "translations": {
+          "zh": "记者",
+          "en": "journalist, reporter"
+        },
+        "examples": [
+          {
+            "text": "นักข่าวกำลังถามคำถาม",
+            "translations": {
+              "zh": "记者正在提问。",
+              "en": "The reporters are asking questions."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจ้านาย",
+    "phonetic": "chao nai",
+    "cefr": "A2",
+    "frequencyRank": 1400,
+    "grammarNotes": {
+      "toneMarks": "jâo-naai · 降, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เป็นหัวหน้าในที่ทำงาน",
+        "translations": {
+          "zh": "老板；上司",
+          "en": "boss"
+        },
+        "examples": [
+          {
+            "text": "เจ้านายของผมไม่อยู่วันนี้",
+            "translations": {
+              "zh": "我老板今天不在。",
+              "en": "My boss isn't in today."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หัวหน้า",
+    "phonetic": "huana",
+    "cefr": "A2",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "toneMarks": "hǔa-nâa · 升, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่คุมงานหรือคุมกลุ่ม",
+        "translations": {
+          "zh": "领导；组长；负责人",
+          "en": "head, supervisor"
+        },
+        "examples": [
+          {
+            "text": "หัวหน้าเรียกประชุมตอนบ่าย",
+            "translations": {
+              "zh": "领导下午叫大家开会。",
+              "en": "The supervisor called a meeting in the afternoon."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เลขา",
+    "phonetic": "lekha",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "lee-khǎa · 中, 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ช่วยงานเอกสารและนัดหมายให้หัวหน้า",
+        "translations": {
+          "zh": "秘书",
+          "en": "secretary"
+        },
+        "examples": [
+          {
+            "text": "เลขาจะโทรหาคุณพรุ่งนี้",
+            "translations": {
+              "zh": "秘书明天会给你打电话。",
+              "en": "The secretary will call you tomorrow."
+            }
+          }
+        ],
+        "usageNote": "เลขานุการ 的口语简称。"
+      }
+    ]
+  },
+  {
+    "headword": "ช่าง",
+    "phonetic": "chang",
+    "cefr": "A2",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "toneMarks": "châang · 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่มีฝีมือ ซ่อมหรือทำของได้",
+        "translations": {
+          "zh": "师傅；技工",
+          "en": "technician, mechanic"
+        },
+        "examples": [
+          {
+            "text": "ต้องเรียกช่างมาซ่อมแอร์",
+            "translations": {
+              "zh": "得叫师傅来修空调。",
+              "en": "We need to call a technician to fix the air conditioner."
+            }
+          }
+        ],
+        "usageNote": "ช่าง + 名词 表示各类手艺人：ช่างไฟ（电工）、ช่างตัดผม（理发师）。"
+      }
+    ]
+  },
+  {
+    "headword": "ช่างตัดผม",
+    "phonetic": "chang tat phom",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "châang-tàt-phǒm · 降, 低, 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ตัดผมเป็นอาชีพ",
+        "translations": {
+          "zh": "理发师",
+          "en": "barber, hairdresser"
+        },
+        "examples": [
+          {
+            "text": "ช่างตัดผมคนนี้ตัดเก่ง",
+            "translations": {
+              "zh": "这位理发师剪得很好。",
+              "en": "This barber cuts hair really well."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้จัดการ",
+    "phonetic": "phu chatkan",
+    "cefr": "A2",
+    "frequencyRank": 1000,
+    "grammarNotes": {
+      "toneMarks": "phûu-jàt-kaan · 降, 低, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ดูแลและบริหารงาน",
+        "translations": {
+          "zh": "经理",
+          "en": "manager"
+        },
+        "examples": [
+          {
+            "text": "ขอคุยกับผู้จัดการหน่อยครับ",
+            "translations": {
+              "zh": "我想跟经理谈一下。",
+              "en": "May I speak to the manager, please?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลูกจ้าง",
+    "phonetic": "luk chang",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "lûuk-jâang · 降, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ทำงานแล้วได้ค่าจ้าง",
+        "translations": {
+          "zh": "雇员；员工",
+          "en": "employee"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้มีลูกจ้างห้าคน",
+            "translations": {
+              "zh": "这家店有五个员工。",
+              "en": "This shop has five employees."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นายจ้าง",
+    "phonetic": "nai chang",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "naai-jâang · 中, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่จ้างคนอื่นทำงาน",
+        "translations": {
+          "zh": "雇主",
+          "en": "employer"
+        },
+        "examples": [
+          {
+            "text": "นายจ้างจ่ายเงินเดือนทุกสิ้นเดือน",
+            "translations": {
+              "zh": "雇主每个月底发工资。",
+              "en": "The employer pays wages at the end of every month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "การประชุม",
+    "phonetic": "kan prachum",
+    "cefr": "A2",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "toneMarks": "kaan-prà-chum · 中, 低, 中",
+      "classifier": "ครั้ง（次）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การที่คนมาพบกันเพื่อคุยเรื่องงาน",
+        "translations": {
+          "zh": "会议",
+          "en": "meeting"
+        },
+        "examples": [
+          {
+            "text": "การประชุมเริ่มสิบโมง",
+            "translations": {
+              "zh": "会议十点开始。",
+              "en": "The meeting starts at ten."
+            }
+          }
+        ],
+        "usageNote": "动词\"开会\"是 ประชุม；加 การ 变成名词。"
+      }
+    ]
+  },
+  {
+    "headword": "เพื่อนร่วมงาน",
+    "phonetic": "phuean ruam ngan",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "phʉ̂an-rûam-ngaan · 降, 降, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ทำงานที่เดียวกัน",
+        "translations": {
+          "zh": "同事",
+          "en": "colleague, co-worker"
+        },
+        "examples": [
+          {
+            "text": "เพื่อนร่วมงานชวนไปกินข้าวเที่ยง",
+            "translations": {
+              "zh": "同事约我去吃午饭。",
+              "en": "A co-worker invited me to lunch."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วันหยุด",
+    "phonetic": "wan yut",
+    "cefr": "A2",
+    "frequencyRank": 800,
+    "grammarNotes": {
+      "toneMarks": "wan-yùt · 中, 低",
+      "classifier": "วัน（天）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วันที่ไม่ต้องทำงานหรือไปเรียน",
+        "translations": {
+          "zh": "假日；休息日",
+          "en": "day off, holiday"
+        },
+        "examples": [
+          {
+            "text": "วันหยุดนี้จะไปทะเล",
+            "translations": {
+              "zh": "这个假日要去海边。",
+              "en": "I'm going to the beach this holiday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เอกสาร",
+    "phonetic": "ekkasan",
+    "cefr": "A2",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "toneMarks": "èek-kà-sǎan · 低, 低, 升",
+      "classifier": "ฉบับ（份）；แผ่น（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กระดาษที่มีข้อมูลสำคัญ",
+        "translations": {
+          "zh": "文件；资料",
+          "en": "document"
+        },
+        "examples": [
+          {
+            "text": "กรุณาเตรียมเอกสารให้ครบ",
+            "translations": {
+              "zh": "请把文件准备齐全。",
+              "en": "Please have all your documents ready."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สัญญา",
+    "phonetic": "sanya",
+    "cefr": "A2",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "toneMarks": "sǎn-yaa · 升, 中",
+      "classifier": "ฉบับ（份）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อตกลงที่เขียนไว้ หรือคำที่บอกว่าจะทำ",
+        "translations": {
+          "zh": "合同；承诺",
+          "en": "contract; promise"
+        },
+        "examples": [
+          {
+            "text": "เซ็นสัญญาเช่าบ้านหนึ่งปี",
+            "translations": {
+              "zh": "签了一年的租房合同。",
+              "en": "I signed a one-year rental contract."
+            }
+          }
+        ],
+        "usageNote": "也可作动词\"答应、保证\"：สัญญานะ（说定了哦）。"
+      }
+    ]
+  },
+  {
+    "headword": "อีเมล",
+    "phonetic": "imel",
+    "cefr": "A2",
+    "frequencyRank": 1400,
+    "grammarNotes": {
+      "toneMarks": "ii-meel · 中, 中",
+      "classifier": "ฉบับ（封）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จดหมายที่ส่งทางอินเทอร์เน็ต",
+        "translations": {
+          "zh": "电子邮件",
+          "en": "email"
+        },
+        "examples": [
+          {
+            "text": "ผมส่งอีเมลให้คุณแล้ว",
+            "translations": {
+              "zh": "我已经给你发邮件了。",
+              "en": "I've sent you an email."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใบอนุญาตทำงาน",
+    "phonetic": "bai anuyat tham ngan",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "bai-à-nú-yâat-tham-ngaan · 中, 低, 高, 降, 中, 中",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เอกสารที่ให้ชาวต่างชาติทำงานในไทยได้",
+        "translations": {
+          "zh": "工作许可证",
+          "en": "work permit"
+        },
+        "examples": [
+          {
+            "text": "ชาวต่างชาติต้องมีใบอนุญาตทำงาน",
+            "translations": {
+              "zh": "外国人需要有工作许可证。",
+              "en": "Foreigners need a work permit."
+            }
+          }
+        ],
+        "usageNote": "口语常说 เวิร์กเพอร์มิต。"
+      }
+    ]
+  },
+  {
+    "headword": "ร้านตัดผม",
+    "phonetic": "ran tat phom",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "ráan-tàt-phǒm · 高, 低, 升",
+      "classifier": "ร้าน（家）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ร้านที่ตัดผมให้ลูกค้า",
+        "translations": {
+          "zh": "理发店",
+          "en": "barbershop, hair salon"
+        },
+        "examples": [
+          {
+            "text": "ร้านตัดผมนี้เปิดถึงสองทุ่ม",
+            "translations": {
+              "zh": "这家理发店开到晚上八点。",
+              "en": "This barbershop is open until 8 p.m."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ร้านเสริมสวย",
+    "phonetic": "ran soem suai",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "ráan-sə̌əm-sǔai · 高, 升, 升",
+      "classifier": "ร้าน（家）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ร้านที่ทำผมและแต่งหน้าให้ผู้หญิง",
+        "translations": {
+          "zh": "美容院；美发店",
+          "en": "beauty salon"
+        },
+        "examples": [
+          {
+            "text": "แม่ไปทำผมที่ร้านเสริมสวย",
+            "translations": {
+              "zh": "妈妈去美容院做头发。",
+              "en": "Mum went to get her hair done at the beauty salon."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ร้านซักรีด",
+    "phonetic": "ran sak rit",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "ráan-sák-rîit · 高, 高, 降",
+      "classifier": "ร้าน（家）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ร้านที่ซักและรีดเสื้อผ้า",
+        "translations": {
+          "zh": "洗衣店",
+          "en": "laundry shop"
+        },
+        "examples": [
+          {
+            "text": "เอาเสื้อไปส่งร้านซักรีด",
+            "translations": {
+              "zh": "把衣服送去洗衣店。",
+              "en": "I took my clothes to the laundry shop."
+            }
+          }
+        ],
+        "usageNote": "ซัก 洗（衣服），รีด 熨。"
+      }
+    ]
+  },
+  {
+    "headword": "ผงซักฟอก",
+    "phonetic": "phong sak fok",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "phǒng-sák-fɔ̂ɔk · 升, 高, 降",
+      "classifier": "ถุง（袋）；กล่อง（盒）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผงที่ใช้ซักผ้า",
+        "translations": {
+          "zh": "洗衣粉",
+          "en": "laundry detergent"
+        },
+        "examples": [
+          {
+            "text": "ผงซักฟอกหมดแล้ว",
+            "translations": {
+              "zh": "洗衣粉用完了。",
+              "en": "We've run out of laundry detergent."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พัสดุ",
+    "phonetic": "phatsadu",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "phát-sà-dù · 高, 低, 低",
+      "classifier": "ชิ้น（件）；กล่อง（箱）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ส่งทางไปรษณีย์",
+        "translations": {
+          "zh": "包裹；快递",
+          "en": "parcel, package"
+        },
+        "examples": [
+          {
+            "text": "ฉันจะไปส่งพัสดุที่ไปรษณีย์",
+            "translations": {
+              "zh": "我要去邮局寄包裹。",
+              "en": "I'm going to send a parcel at the post office."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แสตมป์",
+    "phonetic": "sataem",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "sà-tɛɛm · 低, 中",
+      "classifier": "ดวง（枚）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กระดาษเล็กๆ ที่ติดบนจดหมายก่อนส่ง",
+        "translations": {
+          "zh": "邮票",
+          "en": "stamp"
+        },
+        "examples": [
+          {
+            "text": "ซื้อแสตมป์สองดวง",
+            "translations": {
+              "zh": "买两张邮票。",
+              "en": "Buy two stamps."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ซองจดหมาย",
+    "phonetic": "song chotmai",
+    "cefr": "A2",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "sɔɔng-jòt-mǎai · 中, 低, 升",
+      "classifier": "ซอง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ซองกระดาษสำหรับใส่จดหมาย",
+        "translations": {
+          "zh": "信封",
+          "en": "envelope"
+        },
+        "examples": [
+          {
+            "text": "ใส่จดหมายลงในซองจดหมาย",
+            "translations": {
+              "zh": "把信放进信封里。",
+              "en": "Put the letter in the envelope."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ที่อยู่",
+    "phonetic": "thi yu",
+    "cefr": "A2",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "toneMarks": "thîi-yùu · 降, 低",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บ้านเลขที่ ถนน และเมืองที่คนอยู่",
+        "translations": {
+          "zh": "地址",
+          "en": "address"
+        },
+        "examples": [
+          {
+            "text": "ขอที่อยู่ของคุณหน่อยครับ",
+            "translations": {
+              "zh": "请给我你的地址。",
+              "en": "Could I have your address, please?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บัญชี",
+    "phonetic": "banchi",
+    "cefr": "A2",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "toneMarks": "ban-chii · 中, 中",
+      "classifier": "บัญชี（个，本身也是量词）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บัญชีเงินที่ฝากไว้ในธนาคาร",
+        "translations": {
+          "zh": "账户；账",
+          "en": "account"
+        },
+        "examples": [
+          {
+            "text": "ฉันอยากเปิดบัญชีธนาคาร",
+            "translations": {
+              "zh": "我想开个银行账户。",
+              "en": "I'd like to open a bank account."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตู้เอทีเอ็ม",
+    "phonetic": "tu e thi em",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "tûu-ee-thii-em · 降, 中, 中, 中",
+      "classifier": "ตู้（台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องสำหรับกดเงินจากบัญชี",
+        "translations": {
+          "zh": "取款机；ATM",
+          "en": "ATM, cash machine"
+        },
+        "examples": [
+          {
+            "text": "แถวนี้มีตู้เอทีเอ็มไหม",
+            "translations": {
+              "zh": "这附近有取款机吗？",
+              "en": "Is there an ATM around here?"
+            }
+          }
+        ],
+        "usageNote": "取钱说 กดเงิน（按钱）。"
+      }
+    ]
+  },
+  {
+    "headword": "บัตรประชาชน",
+    "phonetic": "bat prachachon",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "bàt-prà-chaa-chon · 低, 低, 中, 中",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บัตรที่บอกว่าเราเป็นใคร ของคนไทย",
+        "translations": {
+          "zh": "身份证",
+          "en": "ID card"
+        },
+        "examples": [
+          {
+            "text": "กรุณาแสดงบัตรประชาชน",
+            "translations": {
+              "zh": "请出示身份证。",
+              "en": "Please show your ID card."
+            }
+          }
+        ],
+        "usageNote": "外国人一般出示 หนังสือเดินทาง（护照）。"
+      }
+    ]
+  },
+  {
+    "headword": "เงินทอน",
+    "phonetic": "ngoen thon",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "ngən-thɔɔn · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่ได้คืนเมื่อจ่ายเกินราคา",
+        "translations": {
+          "zh": "找零；找的钱",
+          "en": "change (money)"
+        },
+        "examples": [
+          {
+            "text": "ลืมรับเงินทอน",
+            "translations": {
+              "zh": "忘了拿找零。",
+              "en": "I forgot to take my change."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ค่าไฟ",
+    "phonetic": "kha fai",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "khâa-fai · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่จ่ายสำหรับไฟฟ้าที่ใช้",
+        "translations": {
+          "zh": "电费",
+          "en": "electricity bill"
+        },
+        "examples": [
+          {
+            "text": "เดือนนี้ค่าไฟแพงมาก",
+            "translations": {
+              "zh": "这个月电费很贵。",
+              "en": "The electricity bill is very high this month."
+            }
+          }
+        ],
+        "usageNote": "ค่า + 名词 = \"……费\"：ค่าน้ำ（水费）、ค่ารถ（车费）。"
+      }
+    ]
+  },
+  {
+    "headword": "ค่าเช่า",
+    "phonetic": "kha chao",
+    "cefr": "A2",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "khâa-châo · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่จ่ายเพื่อใช้บ้านหรือของของคนอื่น",
+        "translations": {
+          "zh": "租金；房租",
+          "en": "rent"
+        },
+        "examples": [
+          {
+            "text": "ค่าเช่าห้องเดือนละห้าพันบาท",
+            "translations": {
+              "zh": "房租每月五千铢。",
+              "en": "The room rent is five thousand baht a month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทิป",
+    "phonetic": "thip",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "thíp · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินพิเศษที่ให้พนักงานเพราะบริการดี",
+        "translations": {
+          "zh": "小费",
+          "en": "tip"
+        },
+        "examples": [
+          {
+            "text": "ฉันให้ทิปคนขับยี่สิบบาท",
+            "translations": {
+              "zh": "我给了司机二十铢小费。",
+              "en": "I gave the driver a twenty-baht tip."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ที่นั่ง",
+    "phonetic": "thi nang",
+    "cefr": "A2",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "toneMarks": "thîi-nâng · 降, 降",
+      "classifier": "ที่（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่สำหรับนั่ง",
+        "translations": {
+          "zh": "座位",
+          "en": "seat"
+        },
+        "examples": [
+          {
+            "text": "ที่นั่งนี้ว่างไหมครับ",
+            "translations": {
+              "zh": "这个座位有人吗？",
+              "en": "Is this seat free?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เที่ยวบิน",
+    "phonetic": "thiao bin",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "thîao-bin · 降, 中",
+      "classifier": "เที่ยว（班）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเดินทางด้วยเครื่องบินตามเวลาที่กำหนด",
+        "translations": {
+          "zh": "航班",
+          "en": "flight"
+        },
+        "examples": [
+          {
+            "text": "เที่ยวบินของเราออกตอนเก้าโมง",
+            "translations": {
+              "zh": "我们的航班九点起飞。",
+              "en": "Our flight leaves at nine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บัตรขึ้นเครื่อง",
+    "phonetic": "bat khuen khrueang",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "bàt-khʉ̂n-khrʉ̂ang · 低, 降, 降",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บัตรที่ใช้ขึ้นเครื่องบิน",
+        "translations": {
+          "zh": "登机牌",
+          "en": "boarding pass"
+        },
+        "examples": [
+          {
+            "text": "นี่คือบัตรขึ้นเครื่องของคุณ",
+            "translations": {
+              "zh": "这是您的登机牌。",
+              "en": "Here is your boarding pass."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สัมภาระ",
+    "phonetic": "samphara",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "sǎm-phaa-rá · 升, 中, 高",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กระเป๋าและของที่นำไปด้วยเวลาเดินทาง",
+        "translations": {
+          "zh": "行李",
+          "en": "luggage, baggage"
+        },
+        "examples": [
+          {
+            "text": "รับสัมภาระได้ที่ชั้นสอง",
+            "translations": {
+              "zh": "可以在二楼取行李。",
+              "en": "You can collect your baggage on the second floor."
+            }
+          }
+        ],
+        "usageNote": "机场常见词；口语多说 กระเป๋า。"
+      }
+    ]
+  },
+  {
+    "headword": "เคาน์เตอร์",
+    "phonetic": "khaotoe",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "khao-tə̂ə · 中, 降",
+      "classifier": "ที่（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โต๊ะยาวที่พนักงานให้บริการลูกค้า",
+        "translations": {
+          "zh": "柜台",
+          "en": "counter"
+        },
+        "examples": [
+          {
+            "text": "เช็กอินที่เคาน์เตอร์หมายเลขห้า",
+            "translations": {
+              "zh": "在五号柜台办理值机。",
+              "en": "Check in at counter number five."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ล็อบบี้",
+    "phonetic": "lopbi",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "lɔ́p-bîi · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ห้องโถงใหญ่ตรงทางเข้าโรงแรม",
+        "translations": {
+          "zh": "大堂",
+          "en": "lobby"
+        },
+        "examples": [
+          {
+            "text": "เจอกันที่ล็อบบี้ตอนเจ็ดโมงนะ",
+            "translations": {
+              "zh": "七点在大堂见哦。",
+              "en": "See you in the lobby at seven."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สระว่ายน้ำ",
+    "phonetic": "sa wai nam",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "sà-wâai-náam · 低, 降, 高",
+      "classifier": "สระ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่มีน้ำสำหรับว่ายน้ำ",
+        "translations": {
+          "zh": "游泳池",
+          "en": "swimming pool"
+        },
+        "examples": [
+          {
+            "text": "โรงแรมนี้มีสระว่ายน้ำ",
+            "translations": {
+              "zh": "这家酒店有游泳池。",
+              "en": "This hotel has a swimming pool."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลิฟต์",
+    "phonetic": "lip",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "líp · 高",
+      "classifier": "ตัว（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องที่พาคนขึ้นลงตึก",
+        "translations": {
+          "zh": "电梯",
+          "en": "lift, elevator"
+        },
+        "examples": [
+          {
+            "text": "ลิฟต์เสีย ต้องเดินขึ้นบันได",
+            "translations": {
+              "zh": "电梯坏了，得走楼梯上去。",
+              "en": "The lift is broken, so we have to take the stairs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บันได",
+    "phonetic": "bandai",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "ban-dai · 中, 中",
+      "classifier": "ขั้น（级）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางเดินขึ้นลงที่เป็นขั้นๆ",
+        "translations": {
+          "zh": "楼梯；梯子",
+          "en": "stairs; ladder"
+        },
+        "examples": [
+          {
+            "text": "ระวังตกบันไดนะ",
+            "translations": {
+              "zh": "小心别从楼梯上摔下来。",
+              "en": "Be careful not to fall down the stairs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชั้น",
+    "phonetic": "chan",
+    "cefr": "A2",
+    "frequencyRank": 700,
+    "grammarNotes": {
+      "toneMarks": "chán · 高",
+      "classifier": "ชั้น（层，本身也是量词）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระดับของตึก หรือระดับในโรงเรียน",
+        "translations": {
+          "zh": "楼层；层；年级",
+          "en": "floor, storey; level"
+        },
+        "examples": [
+          {
+            "text": "ห้องของผมอยู่ชั้นสาม",
+            "translations": {
+              "zh": "我的房间在三楼。",
+              "en": "My room is on the third floor."
+            }
+          }
+        ],
+        "usageNote": "也用于年级和\"等级\"：ชั้นประถม（小学）、ชั้นหนึ่ง（头等）。"
+      }
+    ]
+  },
+  {
+    "headword": "ทัวร์",
+    "phonetic": "thua",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "thua · 中",
+      "classifier": "ทัวร์（个团）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเที่ยวเป็นกลุ่มที่มีคนจัดให้",
+        "translations": {
+          "zh": "旅游团；旅行团",
+          "en": "tour"
+        },
+        "examples": [
+          {
+            "text": "เราจองทัวร์ไปเกาะพีพี",
+            "translations": {
+              "zh": "我们订了去皮皮岛的旅行团。",
+              "en": "We booked a tour to Phi Phi Island."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไกด์",
+    "phonetic": "kai",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "kái · 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่พานักท่องเที่ยวเที่ยวและอธิบายสถานที่",
+        "translations": {
+          "zh": "导游",
+          "en": "tour guide"
+        },
+        "examples": [
+          {
+            "text": "ไกด์พูดภาษาจีนได้",
+            "translations": {
+              "zh": "导游会说中文。",
+              "en": "The guide can speak Chinese."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สถานทูต",
+    "phonetic": "sathan thut",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "sà-thǎan-thûut · 低, 升, 降",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สำนักงานของรัฐบาลประเทศหนึ่งในอีกประเทศหนึ่ง",
+        "translations": {
+          "zh": "大使馆",
+          "en": "embassy"
+        },
+        "examples": [
+          {
+            "text": "ต้องไปขอวีซ่าที่สถานทูต",
+            "translations": {
+              "zh": "得去大使馆申请签证。",
+              "en": "I have to apply for the visa at the embassy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สถานีขนส่ง",
+    "phonetic": "sathani khonsong",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "sà-thǎa-nii-khǒn-sòng · 低, 升, 中, 升, 低",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ขึ้นรถบัสไปต่างจังหวัด",
+        "translations": {
+          "zh": "长途汽车站",
+          "en": "bus terminal"
+        },
+        "examples": [
+          {
+            "text": "รถไปเชียงใหม่ออกจากสถานีขนส่งหมอชิต",
+            "translations": {
+              "zh": "去清迈的车从莫奇汽车站出发。",
+              "en": "Buses to Chiang Mai leave from Mo Chit bus terminal."
+            }
+          }
+        ],
+        "usageNote": "口语常简称 ขนส่ง 或 บขส.。"
+      }
+    ]
+  },
+  {
+    "headword": "ท่าเรือ",
+    "phonetic": "tha ruea",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "thâa-rʉa · 降, 中",
+      "classifier": "ท่า（个码头）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่เรือจอดให้คนขึ้นลง",
+        "translations": {
+          "zh": "码头",
+          "en": "pier, port"
+        },
+        "examples": [
+          {
+            "text": "เดินไปท่าเรือห้านาที",
+            "translations": {
+              "zh": "走到码头五分钟。",
+              "en": "It's a five-minute walk to the pier."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

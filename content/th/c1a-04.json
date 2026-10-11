@@ -1,0 +1,1382 @@
+[
+  {
+    "headword": "ความเสื่อมโทรม",
+    "phonetic": "khwam sueamsom",
+    "cefr": "C1",
+    "frequencyRank": 8900,
+    "grammarNotes": {
+      "toneMarks": "khwaam-sʉ̀am-soom · 中, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สภาพที่ทรุดลงหรือเสียหาย",
+        "translations": {
+          "zh": "衰败；恶化；退化",
+          "en": "degradation; deterioration"
+        },
+        "examples": [
+          {
+            "text": "ความเสื่อมโทรมของป่าส่งผลต่อสัตว์ป่า",
+            "translations": {
+              "zh": "森林退化影响了野生动物。",
+              "en": "Forest degradation affects wildlife."
+            }
+          }
+        ],
+        "usageNote": "โทรม 读 soom（ทร 读 s）。"
+      }
+    ]
+  },
+  {
+    "headword": "การมีส่วนร่วม",
+    "phonetic": "kan mi suanruam",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "kaan-mii-sùan-rûam · 中, 中, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเข้าไปร่วมคิดร่วมทำ",
+        "translations": {
+          "zh": "参与",
+          "en": "participation"
+        },
+        "examples": [
+          {
+            "text": "โครงการนี้เน้นการมีส่วนร่วมของชุมชน",
+            "translations": {
+              "zh": "该项目注重社区参与。",
+              "en": "This project emphasises community participation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "การกระจายอำนาจ",
+    "phonetic": "kan krachai amnat",
+    "cefr": "C1",
+    "frequencyRank": 9300,
+    "grammarNotes": {
+      "toneMarks": "kaan-krà-jaai-am-nâat · 中, 低, 中, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การโอนอำนาจจากส่วนกลางสู่ท้องถิ่น",
+        "translations": {
+          "zh": "分权；权力下放",
+          "en": "decentralisation"
+        },
+        "examples": [
+          {
+            "text": "การกระจายอำนาจช่วยให้ท้องถิ่นพัฒนาได้เร็วขึ้น",
+            "translations": {
+              "zh": "权力下放有助于地方更快发展。",
+              "en": "Decentralisation helps local areas develop faster."
+            }
+          }
+        ],
+        "usageNote": "อำนาจ 读 am-nâat。"
+      }
+    ]
+  },
+  {
+    "headword": "การเลือกปฏิบัติ",
+    "phonetic": "kan lueak patibat",
+    "cefr": "C1",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "kaan-lʉ̂ak-pà-tì-bàt · 中, 降, 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การปฏิบัติต่อคนไม่เท่าเทียมกัน",
+        "translations": {
+          "zh": "歧视；区别对待",
+          "en": "discrimination"
+        },
+        "examples": [
+          {
+            "text": "กฎหมายห้ามการเลือกปฏิบัติทางเพศ",
+            "translations": {
+              "zh": "法律禁止性别歧视。",
+              "en": "The law prohibits gender discrimination."
+            }
+          }
+        ],
+        "usageNote": "字面是“挑选着对待”。"
+      }
+    ]
+  },
+  {
+    "headword": "การบังคับใช้",
+    "phonetic": "kan bangkhap chai",
+    "cefr": "C1",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "toneMarks": "kaan-bang-kháp-chái · 中, 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การนำกฎหมายมาใช้อย่างจริงจัง",
+        "translations": {
+          "zh": "（法律的）执行；实施",
+          "en": "enforcement"
+        },
+        "examples": [
+          {
+            "text": "ปัญหาอยู่ที่การบังคับใช้กฎหมาย",
+            "translations": {
+              "zh": "问题在于法律的执行。",
+              "en": "The problem lies in law enforcement."
+            }
+          }
+        ],
+        "usageNote": "บังคับใช้กฎหมาย＝执法。"
+      }
+    ]
+  },
+  {
+    "headword": "ความล้มเหลว",
+    "phonetic": "khwam lomleo",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "khwaam-lóm-lěew · 中, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การไม่ประสบผลสำเร็จ",
+        "translations": {
+          "zh": "失败",
+          "en": "failure"
+        },
+        "examples": [
+          {
+            "text": "ความล้มเหลวเป็นบทเรียนที่มีค่า",
+            "translations": {
+              "zh": "失败是宝贵的一课。",
+              "en": "Failure is a valuable lesson."
+            }
+          }
+        ],
+        "usageNote": "比 การสอบตก、ไม่สำเร็จ 更书面。"
+      }
+    ]
+  },
+  {
+    "headword": "อุปสรรค",
+    "phonetic": "upasak",
+    "cefr": "C1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "ùp-pà-sàk · 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ขัดขวางไม่ให้สำเร็จ",
+        "translations": {
+          "zh": "障碍；阻碍",
+          "en": "obstacle"
+        },
+        "examples": [
+          {
+            "text": "ภาษาเป็นอุปสรรคใหญ่ในการทำงานต่างประเทศ",
+            "translations": {
+              "zh": "语言是在国外工作的一大障碍。",
+              "en": "Language is a big obstacle to working abroad."
+            }
+          }
+        ],
+        "usageNote": "读作 อุบ-ปะ-สัก，รร 读 a，ค 尾音读 k。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อได้เปรียบ",
+    "phonetic": "kho dai priap",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-dâi-prìap · 降, 降, 低",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จุดที่ดีกว่าผู้อื่น",
+        "translations": {
+          "zh": "优势；有利条件",
+          "en": "advantage"
+        },
+        "examples": [
+          {
+            "text": "การพูดได้หลายภาษาเป็นข้อได้เปรียบในการหางาน",
+            "translations": {
+              "zh": "会说多种语言是求职的优势。",
+              "en": "Speaking several languages is an advantage when job-hunting."
+            }
+          }
+        ],
+        "usageNote": "反义：ข้อเสียเปรียบ（劣势）。"
+      }
+    ]
+  },
+  {
+    "headword": "ช่องว่าง",
+    "phonetic": "chongwang",
+    "cefr": "C1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "chɔ̂ng-wâang · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระยะห่างหรือความแตกต่างระหว่างสองสิ่ง",
+        "translations": {
+          "zh": "差距；空白；缝隙",
+          "en": "gap"
+        },
+        "examples": [
+          {
+            "text": "ช่องว่างระหว่างคนรวยกับคนจนกว้างขึ้นเรื่อยๆ",
+            "translations": {
+              "zh": "贫富差距越来越大。",
+              "en": "The gap between rich and poor keeps widening."
+            }
+          }
+        ],
+        "usageNote": "本义“空隙”，书面语多指“差距”。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาพลักษณ์",
+    "phonetic": "phaplak",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "phâap-lák · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาพที่คนทั่วไปรับรู้เกี่ยวกับบุคคลหรือองค์กร",
+        "translations": {
+          "zh": "形象（公众形象）",
+          "en": "image; public image"
+        },
+        "examples": [
+          {
+            "text": "เรื่องอื้อฉาวนี้ทำลายภาพลักษณ์ของบริษัท",
+            "translations": {
+              "zh": "这桩丑闻破坏了公司形象。",
+              "en": "The scandal damaged the company's image."
+            }
+          }
+        ],
+        "usageNote": "ลักษณ์ 读 lák（ษณ์ 不发音）。"
+      }
+    ]
+  },
+  {
+    "headword": "ความหมายโดยนัย",
+    "phonetic": "khwam mai doi nai",
+    "cefr": "C1",
+    "frequencyRank": 9700,
+    "grammarNotes": {
+      "toneMarks": "khwaam-mǎai-dooi-nai · 中, 升, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความหมายที่แฝงอยู่ ไม่ได้พูดตรงๆ",
+        "translations": {
+          "zh": "隐含意义；言外之意",
+          "en": "implied meaning; connotation"
+        },
+        "examples": [
+          {
+            "text": "บทกวีนี้มีความหมายโดยนัยที่ลึกซึ้ง",
+            "translations": {
+              "zh": "这首诗有深刻的言外之意。",
+              "en": "This poem carries a profound implied meaning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิธีวิทยา",
+    "phonetic": "withiwitthaya",
+    "cefr": "C1",
+    "frequencyRank": 9900,
+    "grammarNotes": {
+      "toneMarks": "wí-thii-wít-thá-yaa · 高, 中, 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระเบียบวิธีในการศึกษาวิจัย",
+        "translations": {
+          "zh": "方法论；研究方法",
+          "en": "methodology"
+        },
+        "examples": [
+          {
+            "text": "บทที่สามของวิทยานิพนธ์อธิบายวิธีวิทยา",
+            "translations": {
+              "zh": "学位论文的第三章阐述研究方法。",
+              "en": "Chapter three of the thesis explains the methodology."
+            }
+          }
+        ],
+        "usageNote": "学术写作用语。"
+      }
+    ]
+  },
+  {
+    "headword": "กลุ่มตัวอย่าง",
+    "phonetic": "klum tua yang",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "klùm-tua-yàang · 低, 中, 低",
+      "classifier": "กลุ่ม（组）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนหนึ่งของประชากรที่เลือกมาศึกษา",
+        "translations": {
+          "zh": "样本；受试群体",
+          "en": "sample (in research)"
+        },
+        "examples": [
+          {
+            "text": "กลุ่มตัวอย่างในการวิจัยครั้งนี้มีสี่ร้อยคน",
+            "translations": {
+              "zh": "本次研究的样本为四百人。",
+              "en": "The sample in this study consists of four hundred people."
+            }
+          }
+        ],
+        "usageNote": "ตัวอย่าง 单用是“例子、样品”。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อสรุป",
+    "phonetic": "kho sarup",
+    "cefr": "C1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-sà-rùp · 降, 低, 低",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเห็นสุดท้ายที่ได้จากการพิจารณา",
+        "translations": {
+          "zh": "结论",
+          "en": "conclusion"
+        },
+        "examples": [
+          {
+            "text": "ที่ประชุมยังไม่ได้ข้อสรุป",
+            "translations": {
+              "zh": "会议尚未得出结论。",
+              "en": "The meeting has not yet reached a conclusion."
+            }
+          }
+        ],
+        "usageNote": "ได้ข้อสรุป＝得出结论。"
+      }
+    ]
+  },
+  {
+    "headword": "บทคัดย่อ",
+    "phonetic": "bot khatyo",
+    "cefr": "C1",
+    "frequencyRank": 9200,
+    "grammarNotes": {
+      "toneMarks": "bòt-khát-yɔ̂ɔ · 低, 高, 降",
+      "classifier": "บท（篇）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อความสั้นที่สรุปสาระของงานเขียนวิชาการ",
+        "translations": {
+          "zh": "摘要（论文）",
+          "en": "abstract (of a paper)"
+        },
+        "examples": [
+          {
+            "text": "บทคัดย่อต้องมีความยาวไม่เกินหนึ่งหน้า",
+            "translations": {
+              "zh": "摘要篇幅不得超过一页。",
+              "en": "The abstract must be no longer than one page."
+            }
+          }
+        ],
+        "usageNote": "学术论文用语。"
+      }
+    ]
+  },
+  {
+    "headword": "วรรณกรรม",
+    "phonetic": "wannakam",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "wan-ná-kam · 中, 高, 中",
+      "classifier": "เรื่อง（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "งานเขียนที่มีคุณค่าทางศิลปะหรือวิชาการ",
+        "translations": {
+          "zh": "文学作品；文献",
+          "en": "literature"
+        },
+        "examples": [
+          {
+            "text": "นักศึกษาต้องทบทวนวรรณกรรมก่อนเขียนวิทยานิพนธ์",
+            "translations": {
+              "zh": "研究生写论文前必须做文献综述。",
+              "en": "Students must review the literature before writing a thesis."
+            }
+          }
+        ],
+        "usageNote": "读作 วัน-นะ-กำ。การทบทวนวรรณกรรม＝文献综述。"
+      }
+    ]
+  },
+  {
+    "headword": "วาทกรรม",
+    "phonetic": "wathakam",
+    "cefr": "C1",
+    "frequencyRank": 9800,
+    "grammarNotes": {
+      "toneMarks": "waa-thá-kam · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ชุดคำพูดหรือความคิดที่สร้างความหมายในสังคม",
+        "translations": {
+          "zh": "话语（学术）；言论",
+          "en": "discourse"
+        },
+        "examples": [
+          {
+            "text": "นักวิชาการวิเคราะห์วาทกรรมทางการเมือง",
+            "translations": {
+              "zh": "学者分析政治话语。",
+              "en": "Scholars analyse political discourse."
+            }
+          }
+        ],
+        "usageNote": "读作 วา-ทะ-กำ，社会科学用语。"
+      }
+    ]
+  },
+  {
+    "headword": "กรอบความคิด",
+    "phonetic": "krop khwamkhit",
+    "cefr": "C1",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "toneMarks": "krɔ̀ɔp-khwaam-khít · 低, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ขอบเขตหรือแบบแผนของการคิด",
+        "translations": {
+          "zh": "思维框架；思维模式",
+          "en": "mindset; frame of thinking"
+        },
+        "examples": [
+          {
+            "text": "เราต้องคิดนอกกรอบความคิดเดิม",
+            "translations": {
+              "zh": "我们必须跳出原有的思维框架。",
+              "en": "We have to think outside our old mindset."
+            }
+          }
+        ],
+        "usageNote": "คิดนอกกรอบ＝跳出框框思考。"
+      }
+    ]
+  },
+  {
+    "headword": "ทุนนิยม",
+    "phonetic": "thunniyom",
+    "cefr": "C1",
+    "frequencyRank": 8100,
+    "grammarNotes": {
+      "toneMarks": "thun-ní-yom · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบบเศรษฐกิจที่เอกชนเป็นเจ้าของทุน",
+        "translations": {
+          "zh": "资本主义",
+          "en": "capitalism"
+        },
+        "examples": [
+          {
+            "text": "ระบบทุนนิยมเน้นการแข่งขันเสรี",
+            "translations": {
+              "zh": "资本主义制度强调自由竞争。",
+              "en": "Capitalism emphasises free competition."
+            }
+          }
+        ],
+        "usageNote": "-นิยม＝“主义”：สังคมนิยม（社会主义）。"
+      }
+    ]
+  },
+  {
+    "headword": "โลกาภิวัตน์",
+    "phonetic": "lokaphiwat",
+    "cefr": "C1",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "loo-kaa-phí-wát · 中, 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การที่โลกเชื่อมโยงกันทั่วถึง",
+        "translations": {
+          "zh": "全球化",
+          "en": "globalisation"
+        },
+        "examples": [
+          {
+            "text": "โลกาภิวัตน์ทำให้วัฒนธรรมผสมผสานกัน",
+            "translations": {
+              "zh": "全球化使各种文化相互交融。",
+              "en": "Globalisation causes cultures to blend."
+            }
+          }
+        ],
+        "usageNote": "读作 โล-กา-พิ-วัด，น์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ความเป็นส่วนตัว",
+    "phonetic": "khwam pen suantua",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "khwaam-pen-sùan-tua · 中, 中, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิทธิที่จะไม่ให้ผู้อื่นล่วงรู้เรื่องส่วนตัว",
+        "translations": {
+          "zh": "隐私",
+          "en": "privacy"
+        },
+        "examples": [
+          {
+            "text": "แอปนี้อาจละเมิดความเป็นส่วนตัวของผู้ใช้",
+            "translations": {
+              "zh": "这个应用可能侵犯用户隐私。",
+              "en": "This app may violate users' privacy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สัดส่วน",
+    "phonetic": "satsuan",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "sàt-sùan · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนเทียบกับทั้งหมด",
+        "translations": {
+          "zh": "比例；份额",
+          "en": "proportion; ratio"
+        },
+        "examples": [
+          {
+            "text": "สัดส่วนผู้สูงอายุในประเทศเพิ่มขึ้นทุกปี",
+            "translations": {
+              "zh": "全国老年人口比例逐年上升。",
+              "en": "The proportion of elderly people rises every year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความน่าเชื่อถือ",
+    "phonetic": "khwam na chueathue",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "khwaam-nâa-chʉ̂a-thʉ̌ʉ · 中, 降, 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะที่ทำให้คนเชื่อได้",
+        "translations": {
+          "zh": "可信度；信誉",
+          "en": "credibility; reliability"
+        },
+        "examples": [
+          {
+            "text": "แหล่งข้อมูลนี้ขาดความน่าเชื่อถือ",
+            "translations": {
+              "zh": "这个资料来源缺乏可信度。",
+              "en": "This source lacks credibility."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้มีส่วนได้ส่วนเสีย",
+    "phonetic": "phu mi suan dai suan sia",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "phûu-mii-sùan-dâi-sùan-sǐa · 降, 中, 低, 降, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บุคคลหรือกลุ่มที่ได้รับผลจากการตัดสินใจ",
+        "translations": {
+          "zh": "利益相关者",
+          "en": "stakeholder"
+        },
+        "examples": [
+          {
+            "text": "โครงการต้องรับฟังผู้มีส่วนได้ส่วนเสียทุกกลุ่ม",
+            "translations": {
+              "zh": "项目必须听取所有利益相关者的意见。",
+              "en": "The project must hear from all stakeholders."
+            }
+          }
+        ],
+        "usageNote": "字面：“有得有失的人”。"
+      }
+    ]
+  },
+  {
+    "headword": "เจตนา",
+    "phonetic": "chettana",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "jèet-tà-naa · 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความตั้งใจ",
+        "translations": {
+          "zh": "意图；故意",
+          "en": "intention"
+        },
+        "examples": [
+          {
+            "text": "ผมไม่มีเจตนาจะทำร้ายใคร",
+            "translations": {
+              "zh": "我无意伤害任何人。",
+              "en": "I had no intention of hurting anyone."
+            }
+          }
+        ],
+        "usageNote": "读作 เจด-ตะ-นา；โดยเจตนา＝故意地。"
+      }
+    ]
+  },
+  {
+    "headword": "เจตนารมณ์",
+    "phonetic": "chettanarom",
+    "cefr": "C1",
+    "frequencyRank": 9600,
+    "grammarNotes": {
+      "toneMarks": "jèet-tà-naa-rom · 低, 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความมุ่งหมายหรือเจตนาหลัก",
+        "translations": {
+          "zh": "宗旨；意旨；精神",
+          "en": "spirit; underlying intent"
+        },
+        "examples": [
+          {
+            "text": "เราต้องตีความกฎหมายตามเจตนารมณ์ของผู้ร่างกฎหมาย",
+            "translations": {
+              "zh": "我们必须按照立法者的本意来解释法律。",
+              "en": "We must interpret the law in line with its drafters' intent."
+            }
+          }
+        ],
+        "usageNote": "读作 เจด-ตะ-นา-รม，ณ์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ความปรารถนา",
+    "phonetic": "khwam prathana",
+    "cefr": "C1",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "toneMarks": "khwaam-pràat-thà-nǎa · 中, 低, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความอยากได้หรือความต้องการอย่างแรงกล้า",
+        "translations": {
+          "zh": "愿望；渴望",
+          "en": "desire; aspiration"
+        },
+        "examples": [
+          {
+            "text": "ความปรารถนาสูงสุดของเธอคือการเป็นแพทย์",
+            "translations": {
+              "zh": "她最大的愿望是当医生。",
+              "en": "Her greatest wish is to become a doctor."
+            }
+          }
+        ],
+        "usageNote": "ปรารถนา 读作 ปฺราด-ถะ-หฺนา（第二个 ร 不发音）。"
+      }
+    ]
+  },
+  {
+    "headword": "วิวัฒนาการ",
+    "phonetic": "wiwatthanakan",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "wí-wát-thá-naa-kaan · 高, 高, 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเปลี่ยนแปลงพัฒนาทีละขั้น",
+        "translations": {
+          "zh": "进化；演变",
+          "en": "evolution"
+        },
+        "examples": [
+          {
+            "text": "ภาษามีวิวัฒนาการไปตามยุคสมัย",
+            "translations": {
+              "zh": "语言随时代演变。",
+              "en": "Language evolves with the times."
+            }
+          }
+        ],
+        "usageNote": "读作 วิ-วัด-ทะ-นา-กาน。"
+      }
+    ]
+  },
+  {
+    "headword": "ความเชื่อมโยง",
+    "phonetic": "khwam chueamyong",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "khwaam-chʉ̂am-yoong · 中, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเกี่ยวข้องต่อกัน",
+        "translations": {
+          "zh": "联系；关联",
+          "en": "connection; link"
+        },
+        "examples": [
+          {
+            "text": "นักวิจัยพบความเชื่อมโยงระหว่างการนอนกับความจำ",
+            "translations": {
+              "zh": "研究人员发现睡眠与记忆之间存在关联。",
+              "en": "Researchers found a link between sleep and memory."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาวะผู้นำ",
+    "phonetic": "phawa phunam",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "toneMarks": "phaa-wá-phûu-nam · 中, 高, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสามารถในการนำผู้อื่น",
+        "translations": {
+          "zh": "领导力",
+          "en": "leadership"
+        },
+        "examples": [
+          {
+            "text": "ภาวะผู้นำเป็นทักษะที่ฝึกฝนได้",
+            "translations": {
+              "zh": "领导力是可以培养的能力。",
+              "en": "Leadership is a skill that can be trained."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทัศนะ",
+    "phonetic": "thatsana",
+    "cefr": "C1",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "toneMarks": "thát-sà-ná · 高, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเห็นหรือมุมมอง",
+        "translations": {
+          "zh": "观点；见解",
+          "en": "view; viewpoint"
+        },
+        "examples": [
+          {
+            "text": "ในทัศนะของผม นโยบายนี้ยังไม่ชัดเจน",
+            "translations": {
+              "zh": "在我看来，这项政策还不够明确。",
+              "en": "In my view, this policy is still unclear."
+            }
+          }
+        ],
+        "usageNote": "书面语；ในทัศนะของ……＝在……看来。"
+      }
+    ]
+  },
+  {
+    "headword": "ลึกซึ้ง",
+    "phonetic": "lueksueng",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "lʉ́k-sʉ́ng · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ลึกและมีความหมายมาก",
+        "translations": {
+          "zh": "深刻；深奥；深厚",
+          "en": "profound; deep"
+        },
+        "examples": [
+          {
+            "text": "หนังสือเล่มนี้ให้ข้อคิดที่ลึกซึ้ง",
+            "translations": {
+              "zh": "这本书带来深刻的启示。",
+              "en": "This book offers profound insights."
+            }
+          }
+        ],
+        "usageNote": "也形容感情深厚：ความรักที่ลึกซึ้ง。"
+      }
+    ]
+  },
+  {
+    "headword": "คลุมเครือ",
+    "phonetic": "khlumkhruea",
+    "cefr": "C1",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "khlum-khrʉa · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่ชัดเจน เข้าใจได้หลายทาง",
+        "translations": {
+          "zh": "模糊；含糊",
+          "en": "ambiguous; vague"
+        },
+        "examples": [
+          {
+            "text": "คำตอบของรัฐมนตรีคลุมเครือมาก",
+            "translations": {
+              "zh": "部长的回答非常含糊。",
+              "en": "The minister's answer was very vague."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชัดแจ้ง",
+    "phonetic": "chatchaeng",
+    "cefr": "C1",
+    "frequencyRank": 8400,
+    "grammarNotes": {
+      "toneMarks": "chát-jɛ̂ɛng · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ชัดเจนจนไม่มีข้อสงสัย",
+        "translations": {
+          "zh": "明确；明白无误",
+          "en": "explicit; unequivocal"
+        },
+        "examples": [
+          {
+            "text": "สัญญาระบุเงื่อนไขไว้อย่างชัดแจ้ง",
+            "translations": {
+              "zh": "合同明确列出了条件。",
+              "en": "The contract states the conditions explicitly."
+            }
+          }
+        ],
+        "usageNote": "书面语，比 ชัดเจน 更正式。"
+      }
+    ]
+  },
+  {
+    "headword": "เด่นชัด",
+    "phonetic": "denchat",
+    "cefr": "C1",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "dèn-chát · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ปรากฏให้เห็นได้ชัด",
+        "translations": {
+          "zh": "显著；明显",
+          "en": "marked; pronounced"
+        },
+        "examples": [
+          {
+            "text": "ปัญหามลพิษเห็นได้เด่นชัดในฤดูหนาว",
+            "translations": {
+              "zh": "污染问题在冬季尤为明显。",
+              "en": "The pollution problem is most pronounced in winter."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ถ่องแท้",
+    "phonetic": "thongthae",
+    "cefr": "C1",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "toneMarks": "thɔ̀ng-thɛ́ɛ · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "อย่างถูกต้องและลึกซึ้ง",
+        "translations": {
+          "zh": "透彻地；彻底地",
+          "en": "thoroughly; fully (understand)"
+        },
+        "examples": [
+          {
+            "text": "เราต้องเข้าใจปัญหาอย่างถ่องแท้ก่อนแก้ไข",
+            "translations": {
+              "zh": "我们必须先透彻理解问题再去解决。",
+              "en": "We must fully understand the problem before solving it."
+            }
+          }
+        ],
+        "usageNote": "几乎只用于 เข้าใจอย่างถ่องแท้（透彻理解）。"
+      }
+    ]
+  },
+  {
+    "headword": "รอบด้าน",
+    "phonetic": "ropdan",
+    "cefr": "C1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "rɔ̂ɔp-dâan · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ครบทุกด้าน",
+        "translations": {
+          "zh": "全面的；多方面的",
+          "en": "all-round; comprehensive"
+        },
+        "examples": [
+          {
+            "text": "ผู้สมัครคนนี้มีความสามารถรอบด้าน",
+            "translations": {
+              "zh": "这位候选人能力全面。",
+              "en": "This candidate is well-rounded."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รูปธรรม",
+    "phonetic": "rupatham",
+    "cefr": "C1",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "toneMarks": "rûup-pà-tham · 降, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่มีรูปร่างจับต้องได้",
+        "translations": {
+          "zh": "具体；有形之物",
+          "en": "concreteness; the concrete"
+        },
+        "examples": [
+          {
+            "text": "เราต้องการผลงานที่เป็นรูปธรรม",
+            "translations": {
+              "zh": "我们需要看得见的具体成果。",
+              "en": "We want concrete results."
+            }
+          }
+        ],
+        "usageNote": "常用 เป็นรูปธรรม（具体的）；反义 นามธรรม。读作 รูบ-ปะ-ทำ。"
+      }
+    ]
+  },
+  {
+    "headword": "นามธรรม",
+    "phonetic": "namatham",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "toneMarks": "naam-má-tham · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ไม่มีรูปร่าง รับรู้ได้ด้วยใจ",
+        "translations": {
+          "zh": "抽象；抽象概念",
+          "en": "abstraction; the abstract"
+        },
+        "examples": [
+          {
+            "text": "ความรักเป็นนามธรรมที่อธิบายยาก",
+            "translations": {
+              "zh": "爱是难以解释的抽象概念。",
+              "en": "Love is an abstraction that is hard to explain."
+            }
+          }
+        ],
+        "usageNote": "读作 นาม-มะ-ทำ；ศิลปะนามธรรม＝抽象艺术。"
+      }
+    ]
+  },
+  {
+    "headword": "เร่งด่วน",
+    "phonetic": "rengduan",
+    "cefr": "C1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "rêng-dùan · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ต้องทำโดยเร็ว",
+        "translations": {
+          "zh": "紧急；紧迫",
+          "en": "urgent; pressing"
+        },
+        "examples": [
+          {
+            "text": "นี่เป็นปัญหาเร่งด่วนที่ต้องแก้ทันที",
+            "translations": {
+              "zh": "这是必须立即解决的紧迫问题。",
+              "en": "This is a pressing problem that needs solving now."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แพร่หลาย",
+    "phonetic": "phraelai",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "phrɛ̂ɛ-lǎai · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "กระจายไปกว้างขวาง",
+        "translations": {
+          "zh": "广泛；普及",
+          "en": "widespread"
+        },
+        "examples": [
+          {
+            "text": "การใช้โทรศัพท์มือถือแพร่หลายไปทั่วประเทศ",
+            "translations": {
+              "zh": "手机已普及全国。",
+              "en": "Mobile phone use has spread throughout the country."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ถาวร",
+    "phonetic": "thawon",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "thǎa-wɔɔn · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "คงอยู่ตลอดไป ไม่เปลี่ยนแปลง",
+        "translations": {
+          "zh": "永久的；长期的",
+          "en": "permanent"
+        },
+        "examples": [
+          {
+            "text": "เขาได้รับวีซ่าพำนักถาวร",
+            "translations": {
+              "zh": "他获得了永久居留签证。",
+              "en": "He received a permanent residence visa."
+            }
+          }
+        ],
+        "usageNote": "反义：ชั่วคราว（临时）。"
+      }
+    ]
+  },
+  {
+    "headword": "เฉพาะเจาะจง",
+    "phonetic": "chapho chochong",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "chà-phɔ́-jɔ̀-jong · 低, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ระบุแน่นอนเป็นการเฉพาะ",
+        "translations": {
+          "zh": "具体的；特定的",
+          "en": "specific"
+        },
+        "examples": [
+          {
+            "text": "กรุณาให้ข้อมูลที่เฉพาะเจาะจงกว่านี้",
+            "translations": {
+              "zh": "请提供更具体的信息。",
+              "en": "Please give more specific information."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลำเอียง",
+    "phonetic": "lamiang",
+    "cefr": "C1",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "lam-iang · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เข้าข้างฝ่ายใดฝ่ายหนึ่งอย่างไม่ยุติธรรม",
+        "translations": {
+          "zh": "偏袒；有偏见",
+          "en": "biased; partial"
+        },
+        "examples": [
+          {
+            "text": "กรรมการคนนี้ตัดสินอย่างลำเอียง",
+            "translations": {
+              "zh": "这位裁判判罚有失公允。",
+              "en": "This referee judged in a biased way."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เป็นกลาง",
+    "phonetic": "pen klang",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "pen-klaang · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่เข้าข้างฝ่ายใด",
+        "translations": {
+          "zh": "中立的",
+          "en": "neutral; impartial"
+        },
+        "examples": [
+          {
+            "text": "สื่อควรรายงานข่าวอย่างเป็นกลาง",
+            "translations": {
+              "zh": "媒体应当中立地报道新闻。",
+              "en": "The media should report the news impartially."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สมเหตุสมผล",
+    "phonetic": "somhet somphon",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "sǒm-hèet-sǒm-phǒn · 升, 低, 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีเหตุผลเหมาะสม",
+        "translations": {
+          "zh": "合理的",
+          "en": "reasonable; logical"
+        },
+        "examples": [
+          {
+            "text": "ราคานี้ถือว่าสมเหตุสมผล",
+            "translations": {
+              "zh": "这个价格算是合理的。",
+              "en": "This price is considered reasonable."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เคร่งครัด",
+    "phonetic": "khrengkhrat",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "khrêng-khrát · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ปฏิบัติตามกฎอย่างจริงจัง",
+        "translations": {
+          "zh": "严格的",
+          "en": "strict; rigorous"
+        },
+        "examples": [
+          {
+            "text": "โรงเรียนนี้มีกฎระเบียบที่เคร่งครัด",
+            "translations": {
+              "zh": "这所学校纪律严格。",
+              "en": "This school has strict rules."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ละเอียดอ่อน",
+    "phonetic": "la-iat on",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "lá-ìat-ɔ̀ɔn · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ต้องระมัดระวังเป็นพิเศษ หรือรับรู้ได้ไว",
+        "translations": {
+          "zh": "敏感的；微妙的；细腻的",
+          "en": "sensitive; delicate"
+        },
+        "examples": [
+          {
+            "text": "ศาสนาเป็นเรื่องละเอียดอ่อนสำหรับหลายคน",
+            "translations": {
+              "zh": "宗教对许多人来说是敏感话题。",
+              "en": "Religion is a sensitive subject for many people."
+            }
+          }
+        ],
+        "usageNote": "形容人时指“心思细腻”。"
+      }
+    ]
+  }
+]

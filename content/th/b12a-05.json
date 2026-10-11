@@ -1,0 +1,1447 @@
+[
+ {
+  "headword": "ช่วยไม่ได้",
+  "phonetic": "chuai mai dai",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "chûai-mâi-dâi · 降, 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ไม่มีทางทำอะไรได้ ต้องยอมรับ",
+    "translations": {
+     "zh": "没办法；只能这样",
+     "en": "it can't be helped"
+    },
+    "examples": [
+     {
+      "text": "ฝนตกก็ช่วยไม่ได้ ไว้ไปวันหลังนะ",
+      "translations": {
+       "zh": "下雨也没办法，改天再去吧。",
+       "en": "It's raining, it can't be helped; let's go another day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตามสบาย",
+  "phonetic": "tam sabai",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "taam-sà-baai · 中, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำได้ตามที่ต้องการ ไม่ต้องเกรงใจ",
+    "translations": {
+     "zh": "请随意；别拘束",
+     "en": "make yourself at home, as you like"
+    },
+    "examples": [
+     {
+      "text": "เชิญนั่งตามสบายเลยครับ",
+      "translations": {
+       "zh": "请随便坐。",
+       "en": "Please sit wherever you like."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แล้วแต่",
+  "phonetic": "laeo tae",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "lɛ́ɛo-tɛ̀ɛ · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ขึ้นอยู่กับ ให้อีกฝ่ายตัดสินใจ",
+    "translations": {
+     "zh": "随（你）；看…而定",
+     "en": "it's up to, it depends on"
+    },
+    "examples": [
+     {
+      "text": "จะกินอะไรก็แล้วแต่คุณ",
+      "translations": {
+       "zh": "吃什么随你。",
+       "en": "What we eat is up to you."
+      }
+     }
+    ],
+    "usageNote": "แล้วแต่ 单说表示“都行，随你”，非常常用。"
+   }
+  ]
+ },
+ {
+  "headword": "ไม่ไหว",
+  "phonetic": "mai wai",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "mâi-wǎi · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทนหรือทำต่อไปไม่ได้แล้ว",
+    "translations": {
+     "zh": "受不了；撑不住",
+     "en": "can't take it anymore, can't manage"
+    },
+    "examples": [
+     {
+      "text": "เดินต่อไม่ไหวแล้ว ขอพักหน่อย",
+      "translations": {
+       "zh": "走不动了，让我歇会儿。",
+       "en": "I can't walk any further, let me rest."
+      }
+     }
+    ],
+    "usageNote": "动词 + ไม่ไหว 表示“…不动/…不了”。"
+   }
+  ]
+ },
+ {
+  "headword": "ทำใจ",
+  "phonetic": "tham chai",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "tham-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยอมรับความจริงที่ไม่อยากรับ",
+    "translations": {
+     "zh": "接受现实；想开",
+     "en": "to come to terms with, to accept"
+    },
+    "examples": [
+     {
+      "text": "เขายังทำใจเรื่องเลิกกับแฟนไม่ได้",
+      "translations": {
+       "zh": "他还没能接受和女友分手的事。",
+       "en": "He still can't come to terms with the breakup."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสียเวลา",
+  "phonetic": "sia wela",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "sǐa-wee-laa · 升, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ใช้เวลาไปโดยไม่ได้ประโยชน์",
+    "translations": {
+     "zh": "浪费时间",
+     "en": "to waste time"
+    },
+    "examples": [
+     {
+      "text": "อย่าเสียเวลากับเรื่องไร้สาระ",
+      "translations": {
+       "zh": "别在无聊的事上浪费时间。",
+       "en": "Don't waste time on nonsense."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถือโอกาส",
+  "phonetic": "thue okat",
+  "cefr": "B2",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ʉ-oo-kàat · 升, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ใช้โอกาสที่มีอยู่ทำสิ่งหนึ่ง",
+    "translations": {
+     "zh": "借此机会；趁机",
+     "en": "to take the opportunity"
+    },
+    "examples": [
+     {
+      "text": "ขอถือโอกาสนี้ขอบคุณทุกคน",
+      "translations": {
+       "zh": "借此机会感谢大家。",
+       "en": "I'd like to take this opportunity to thank everyone."
+      }
+     }
+    ],
+    "usageNote": "正式致辞常用。"
+   }
+  ]
+ },
+ {
+  "headword": "ใช้ได้",
+  "phonetic": "chai dai",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "chái-dâi · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ดีพอ หรือใช้งานได้",
+    "translations": {
+     "zh": "还不错；可以用；有效",
+     "en": "not bad, usable, valid"
+    },
+    "examples": [
+     {
+      "text": "อาหารร้านนี้ใช้ได้เลย",
+      "translations": {
+       "zh": "这家店的菜还真不错。",
+       "en": "The food here is pretty good."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่จำเป็น",
+  "phonetic": "mai champen",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "mâi-jam-pen · 降, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ไม่ต้องมีหรือไม่ต้องทำก็ได้",
+    "translations": {
+     "zh": "不必要；没必要",
+     "en": "unnecessary, no need"
+    },
+    "examples": [
+     {
+      "text": "ไม่จำเป็นต้องจองล่วงหน้า",
+      "translations": {
+       "zh": "没必要提前预订。",
+       "en": "There's no need to book in advance."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เท่าที่",
+  "phonetic": "thao thi",
+  "cefr": "B2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "thâo-thîi · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เท่ากับที่ หรือในขอบเขตที่",
+    "translations": {
+     "zh": "就…所…；尽…所能",
+     "en": "as far as, as much as"
+    },
+    "examples": [
+     {
+      "text": "เท่าที่ฉันรู้ เขายังไม่แต่งงาน",
+      "translations": {
+       "zh": "据我所知，他还没结婚。",
+       "en": "As far as I know, he isn't married yet."
+      }
+     }
+    ],
+    "usageNote": "เท่าที่จะทำได้ = 尽力而为。"
+   }
+  ]
+ },
+ {
+  "headword": "ขึ้นชื่อ",
+  "phonetic": "khuen chue",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "khʉ̂n-chʉ̂ʉ · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีชื่อเสียงในเรื่องใดเรื่องหนึ่ง",
+    "translations": {
+     "zh": "出名；以…闻名",
+     "en": "to be famous for"
+    },
+    "examples": [
+     {
+      "text": "เชียงใหม่ขึ้นชื่อเรื่องอากาศเย็น",
+      "translations": {
+       "zh": "清迈以凉爽的天气闻名。",
+       "en": "Chiang Mai is famous for its cool weather."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เข้าท่า",
+  "phonetic": "khao tha",
+  "cefr": "B2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "toneMarks": "khâo-thâa · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ฟังดูดี มีเหตุผล (ภาษาพูด)",
+    "translations": {
+     "zh": "靠谱；有道理",
+     "en": "sensible, a good idea"
+    },
+    "examples": [
+     {
+      "text": "ความคิดนี้เข้าท่าดีนะ",
+      "translations": {
+       "zh": "这个主意挺靠谱的。",
+       "en": "That idea makes sense."
+      }
+     }
+    ],
+    "usageNote": "口语；否定 ไม่เข้าท่า 指“不像话、不靠谱”。"
+   }
+  ]
+ },
+ {
+  "headword": "เต็มใจ",
+  "phonetic": "temchai",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "tem-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยินดีทำด้วยความสมัครใจ",
+    "translations": {
+     "zh": "乐意；心甘情愿",
+     "en": "to be willing, to be glad to"
+    },
+    "examples": [
+     {
+      "text": "ฉันเต็มใจช่วยเสมอ",
+      "translations": {
+       "zh": "我随时乐意帮忙。",
+       "en": "I'm always glad to help."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จำใจ",
+  "phonetic": "chamchai",
+  "cefr": "B2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "toneMarks": "jam-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ทำอย่างไม่เต็มใจเพราะไม่มีทางเลือก",
+    "translations": {
+     "zh": "不得已；勉强",
+     "en": "reluctantly, against one's will"
+    },
+    "examples": [
+     {
+      "text": "เขาจำใจขายบ้านเพราะไม่มีเงิน",
+      "translations": {
+       "zh": "他因为没钱不得已卖了房子。",
+       "en": "He reluctantly sold the house because he had no money."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตัดใจ",
+  "phonetic": "tatchai",
+  "cefr": "B2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "tàt-jai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตัดสินใจเลิกหรือไม่คิดถึงอีก",
+    "translations": {
+     "zh": "死心；狠下心放弃",
+     "en": "to let go, to give up on"
+    },
+    "examples": [
+     {
+      "text": "ฉันตัดใจจากเขาแล้ว",
+      "translations": {
+       "zh": "我已经对他死心了。",
+       "en": "I've let go of him."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เปลี่ยนใจ",
+  "phonetic": "plianchai",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "plìan-jai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนความคิดหรือการตัดสินใจ",
+    "translations": {
+     "zh": "改变主意",
+     "en": "to change one's mind"
+    },
+    "examples": [
+     {
+      "text": "ถ้าเปลี่ยนใจก็บอกนะ",
+      "translations": {
+       "zh": "如果你改主意了就告诉我。",
+       "en": "Let me know if you change your mind."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่แน่",
+  "phonetic": "mai nae",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "mâi-nɛ̂ɛ · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ยังไม่แน่นอน อาจจะเป็นได้",
+    "translations": {
+     "zh": "说不定；不一定",
+     "en": "maybe, not certain"
+    },
+    "examples": [
+     {
+      "text": "ไม่แน่ พรุ่งนี้เขาอาจจะมา",
+      "translations": {
+       "zh": "说不定他明天会来。",
+       "en": "Who knows, he may come tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ว่าแต่",
+  "phonetic": "wa tae",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "wâa-tɛ̀ɛ · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้เปลี่ยนเรื่องคุย",
+    "translations": {
+     "zh": "话说；对了",
+     "en": "by the way"
+    },
+    "examples": [
+     {
+      "text": "ว่าแต่ เธอจะไปงานคืนนี้ไหม",
+      "translations": {
+       "zh": "话说，你今晚去聚会吗？",
+       "en": "By the way, are you going to the party tonight?"
+      }
+     }
+    ],
+    "usageNote": "口语，用于转换话题。"
+   }
+  ]
+ },
+ {
+  "headword": "พูดง่ายๆ",
+  "phonetic": "phut ngai ngai",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "phûut-ngâai-ngâai · 降, 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "อธิบายให้เข้าใจแบบสั้นๆ",
+    "translations": {
+     "zh": "简单地说",
+     "en": "simply put, in short"
+    },
+    "examples": [
+     {
+      "text": "พูดง่ายๆ คือเราไม่มีเงิน",
+      "translations": {
+       "zh": "简单地说，就是我们没钱。",
+       "en": "Simply put, we have no money."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พูดตรงๆ",
+  "phonetic": "phut trong trong",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "phûut-trong-trong · 降, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "พูดตามจริงไม่อ้อมค้อม",
+    "translations": {
+     "zh": "说实话；直说",
+     "en": "frankly speaking"
+    },
+    "examples": [
+     {
+      "text": "พูดตรงๆ ฉันไม่ชอบแผนนี้",
+      "translations": {
+       "zh": "说实话，我不喜欢这个计划。",
+       "en": "Frankly, I don't like this plan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ว่ากันว่า",
+  "phonetic": "wa kan wa",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "wâa-kan-wâa · 降, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "มีคนพูดกันว่า",
+    "translations": {
+     "zh": "据说；听说",
+     "en": "it is said that"
+    },
+    "examples": [
+     {
+      "text": "ว่ากันว่าบ้านหลังนี้มีผี",
+      "translations": {
+       "zh": "据说这栋房子闹鬼。",
+       "en": "It's said that this house is haunted."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หมายความว่า",
+  "phonetic": "maikhwam wa",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "mǎai-khwaam-wâa · 升, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "มีความหมายว่า",
+    "translations": {
+     "zh": "意思是；意味着",
+     "en": "to mean that"
+    },
+    "examples": [
+     {
+      "text": "คุณหมายความว่ายังไง",
+      "translations": {
+       "zh": "你这是什么意思？",
+       "en": "What do you mean?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หมายถึง",
+  "phonetic": "maithueng",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "mǎai-thʉ̌ng · 升, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีความหมายตรงกับ",
+    "translations": {
+     "zh": "指的是；意思是",
+     "en": "to mean, to refer to"
+    },
+    "examples": [
+     {
+      "text": "คำนี้หมายถึงอะไร",
+      "translations": {
+       "zh": "这个词是什么意思？",
+       "en": "What does this word mean?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แปลว่า",
+  "phonetic": "plae wa",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "plɛɛ-wâa · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "มีความหมายเมื่อแปลแล้วว่า",
+    "translations": {
+     "zh": "翻译为；意思是",
+     "en": "it means, translated as"
+    },
+    "examples": [
+     {
+      "text": "คำว่า แมว แปลว่า cat",
+      "translations": {
+       "zh": "“แมว”的意思是 cat。",
+       "en": "The word \"maeo\" means cat."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฟังดู",
+  "phonetic": "fang du",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "fang-duu · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เมื่อได้ยินแล้วรู้สึกว่า",
+    "translations": {
+     "zh": "听起来",
+     "en": "to sound (like)"
+    },
+    "examples": [
+     {
+      "text": "ฟังดูน่าสนใจนะ",
+      "translations": {
+       "zh": "听起来挺有意思的。",
+       "en": "That sounds interesting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดูออก",
+  "phonetic": "du ok",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "duu-ɔ̀ɔk · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มองแล้วรู้หรือเข้าใจ",
+    "translations": {
+     "zh": "看得出来",
+     "en": "to be able to tell (by looking)"
+    },
+    "examples": [
+     {
+      "text": "ดูออกเลยว่าเขาไม่สบาย",
+      "translations": {
+       "zh": "一看就知道他不舒服。",
+       "en": "You can tell he's not well."
+      }
+     }
+    ],
+    "usageNote": "否定：ดูไม่ออก（看不出来）。"
+   }
+  ]
+ },
+ {
+  "headword": "คิดออก",
+  "phonetic": "khit ok",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "khít-ɔ̀ɔk · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดจนได้คำตอบ",
+    "translations": {
+     "zh": "想出来；想通",
+     "en": "to figure out"
+    },
+    "examples": [
+     {
+      "text": "ฉันคิดออกแล้วว่าจะทำยังไง",
+      "translations": {
+       "zh": "我想出该怎么做了。",
+       "en": "I've figured out what to do."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นึกออก",
+  "phonetic": "nuek ok",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "nʉ́k-ɔ̀ɔk · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "จำหรือคิดขึ้นมาได้",
+    "translations": {
+     "zh": "想起来",
+     "en": "to remember, to recall"
+    },
+    "examples": [
+     {
+      "text": "นึกออกแล้ว เขาชื่อสมชาย",
+      "translations": {
+       "zh": "想起来了，他叫颂猜。",
+       "en": "I remember now, his name is Somchai."
+      }
+     }
+    ],
+    "usageNote": "否定：นึกไม่ออก（想不起来）。"
+   }
+  ]
+ },
+ {
+  "headword": "คิดไม่ถึง",
+  "phonetic": "khit mai thueng",
+  "cefr": "B2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "toneMarks": "khít-mâi-thʉ̌ng · 高, 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ไม่เคยคาดคิดมาก่อน",
+    "translations": {
+     "zh": "没想到；意想不到",
+     "en": "never expected, unthinkable"
+    },
+    "examples": [
+     {
+      "text": "คิดไม่ถึงว่าเขาจะทำแบบนี้",
+      "translations": {
+       "zh": "没想到他会这么做。",
+       "en": "I never expected he'd do this."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตามใจ",
+  "phonetic": "tamchai",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "taam-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำตามความต้องการของผู้อื่นหรือตัวเอง",
+    "translations": {
+     "zh": "随（某人）的意；迁就",
+     "en": "to indulge, as you wish"
+    },
+    "examples": [
+     {
+      "text": "ตามใจคุณเลย",
+      "translations": {
+       "zh": "随你吧。",
+       "en": "As you wish."
+      }
+     }
+    ],
+    "usageNote": "ตามใจ 也指“宠着”：ตามใจลูกมากเกินไป。"
+   }
+  ]
+ },
+ {
+  "headword": "เกรงใจ",
+  "phonetic": "krengchai",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "kreeng-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่อยากรบกวนหรือทำให้ผู้อื่นลำบากใจ",
+    "translations": {
+     "zh": "不好意思（麻烦别人）；客气",
+     "en": "to be considerate, to not want to impose"
+    },
+    "examples": [
+     {
+      "text": "ไม่ต้องเกรงใจ กินเยอะๆ เลย",
+      "translations": {
+       "zh": "别客气，多吃点。",
+       "en": "Don't be shy, eat as much as you like."
+      }
+     }
+    ],
+    "usageNote": "泰国文化核心概念，指顾及他人感受而不愿打扰。"
+   }
+  ]
+ },
+ {
+  "headword": "ถือสา",
+  "phonetic": "thue sa",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ʉ-sǎa · 升, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใส่ใจหรือโกรธในเรื่องเล็กน้อย",
+    "translations": {
+     "zh": "计较；见怪",
+     "en": "to take offense, to mind"
+    },
+    "examples": [
+     {
+      "text": "อย่าถือสาเขาเลย เขายังเด็ก",
+      "translations": {
+       "zh": "别跟他计较，他还小。",
+       "en": "Don't take offense, he's still young."
+      }
+     }
+    ],
+    "usageNote": "多用否定：ไม่ถือสา、อย่าถือสา。"
+   }
+  ]
+ },
+ {
+  "headword": "ใส่ใจ",
+  "phonetic": "saichai",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "sài-jai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้ความสนใจและดูแล",
+    "translations": {
+     "zh": "在意；关心",
+     "en": "to pay attention to, to care about"
+    },
+    "examples": [
+     {
+      "text": "เขาใส่ใจสุขภาพมากขึ้น",
+      "translations": {
+       "zh": "他更加注意健康了。",
+       "en": "He pays more attention to his health now."
+      }
+     }
+    ],
+    "usageNote": "也说 เอาใจใส่。"
+   }
+  ]
+ },
+ {
+  "headword": "ตั้งคำถาม",
+  "phonetic": "tang khamtham",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "tâng-kham-thǎam · 降, 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "สงสัยและถามถึงความถูกต้อง",
+    "translations": {
+     "zh": "提出疑问；质疑",
+     "en": "to question, to raise questions"
+    },
+    "examples": [
+     {
+      "text": "ประชาชนตั้งคำถามกับนโยบายใหม่",
+      "translations": {
+       "zh": "民众对新政策提出质疑。",
+       "en": "The public is questioning the new policy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตอบสนอง",
+  "phonetic": "top sanong",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "tɔ̀ɔp-sà-nɔ̌ɔng · 低, 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำตามหรือแสดงปฏิกิริยาต่อสิ่งที่เกิด",
+    "translations": {
+     "zh": "满足；回应",
+     "en": "to respond to, to meet (needs)"
+    },
+    "examples": [
+     {
+      "text": "สินค้านี้ตอบสนองความต้องการของลูกค้า",
+      "translations": {
+       "zh": "这款产品满足了顾客的需求。",
+       "en": "This product meets customers' needs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สะท้อน",
+  "phonetic": "sathon",
+  "cefr": "B2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "sà-thɔ́ɔn · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แสดงให้เห็นภาพหรือความจริงบางอย่าง",
+    "translations": {
+     "zh": "反映；反射",
+     "en": "to reflect"
+    },
+    "examples": [
+     {
+      "text": "ผลสำรวจสะท้อนความคิดของคนรุ่นใหม่",
+      "translations": {
+       "zh": "调查结果反映了年轻一代的想法。",
+       "en": "The survey reflects the views of young people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ระบุ",
+  "phonetic": "rabu",
+  "cefr": "B2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "rá-bù · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้ชัดเจนเจาะจง",
+    "translations": {
+     "zh": "指明；注明",
+     "en": "to specify, to identify"
+    },
+    "examples": [
+     {
+      "text": "กรุณาระบุชื่อและเบอร์โทร",
+      "translations": {
+       "zh": "请注明姓名和电话。",
+       "en": "Please specify your name and phone number."
+      }
+     }
+    ],
+    "usageNote": "表格、公文常用。"
+   }
+  ]
+ },
+ {
+  "headword": "กำหนด",
+  "phonetic": "kamnot",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "kam-nòt · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตั้งไว้แน่นอนว่าเมื่อไร อย่างไร",
+    "translations": {
+     "zh": "规定；确定",
+     "en": "to set, to fix, to specify"
+    },
+    "examples": [
+     {
+      "text": "โรงเรียนกำหนดให้นักเรียนใส่ชุดนักเรียน",
+      "translations": {
+       "zh": "学校规定学生穿校服。",
+       "en": "The school requires students to wear uniforms."
+      }
+     }
+    ],
+    "usageNote": "กำหนดการ = 日程。"
+   }
+  ]
+ },
+ {
+  "headword": "จำกัด",
+  "phonetic": "chamkat",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jam-kàt · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตั้งขอบเขตไม่ให้เกิน",
+    "translations": {
+     "zh": "限制；限定",
+     "en": "to limit, to restrict"
+    },
+    "examples": [
+     {
+      "text": "ร้านจำกัดจำนวนลูกค้าวันละร้อยคน",
+      "translations": {
+       "zh": "商店每天限客一百人。",
+       "en": "The shop limits customers to 100 a day."
+      }
+     }
+    ],
+    "usageNote": "บริษัท…จำกัด 意为“…有限公司”。"
+   }
+  ]
+ },
+ {
+  "headword": "ขัดขวาง",
+  "phonetic": "khatkhwang",
+  "cefr": "B2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "toneMarks": "khàt-khwǎang · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ไม่สะดวกหรือทำต่อไม่ได้",
+    "translations": {
+     "zh": "阻碍；妨碍",
+     "en": "to obstruct, to hinder"
+    },
+    "examples": [
+     {
+      "text": "ไม่มีอะไรขัดขวางความฝันของเธอได้",
+      "translations": {
+       "zh": "什么也阻挡不了她的梦想。",
+       "en": "Nothing can stand in the way of her dream."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รบกวน",
+  "phonetic": "ropkuan",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "róp-kuan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ผู้อื่นไม่สะดวกหรือเสียเวลา",
+    "translations": {
+     "zh": "打扰；麻烦",
+     "en": "to disturb, to bother"
+    },
+    "examples": [
+     {
+      "text": "ขอโทษที่รบกวนนะคะ",
+      "translations": {
+       "zh": "抱歉打扰了。",
+       "en": "Sorry to bother you."
+      }
+     }
+    ],
+    "usageNote": "รบกวน + 动词 是礼貌请求：รบกวนช่วยปิดประตูหน่อย。"
+   }
+  ]
+ },
+ {
+  "headword": "ขัดแย้ง",
+  "phonetic": "khatyaeng",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "khàt-yɛ́ɛng · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ลงรอยกัน ไม่ตรงกัน",
+    "translations": {
+     "zh": "矛盾；冲突",
+     "en": "to conflict, to contradict"
+    },
+    "examples": [
+     {
+      "text": "คำพูดของเขาขัดแย้งกับการกระทำ",
+      "translations": {
+       "zh": "他的话和行为相矛盾。",
+       "en": "His words contradict his actions."
+      }
+     }
+    ],
+    "usageNote": "ความขัดแย้ง = 冲突（名词）。"
+   }
+  ]
+ },
+ {
+  "headword": "ต่อต้าน",
+  "phonetic": "totan",
+  "cefr": "B2",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "toneMarks": "tɔ̀ɔ-tâan · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ต่อสู้หรือไม่ยอมรับ",
+    "translations": {
+     "zh": "反抗；抵制",
+     "en": "to resist, to oppose"
+    },
+    "examples": [
+     {
+      "text": "ชาวบ้านต่อต้านโครงการเขื่อน",
+      "translations": {
+       "zh": "村民抵制修建水坝。",
+       "en": "The villagers resist the dam project."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประท้วง",
+  "phonetic": "prathuang",
+  "cefr": "B2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "prà-thúang · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แสดงการคัดค้านต่อสาธารณะ",
+    "translations": {
+     "zh": "抗议",
+     "en": "to protest"
+    },
+    "examples": [
+     {
+      "text": "นักศึกษาประท้วงหน้ามหาวิทยาลัย",
+      "translations": {
+       "zh": "学生在大学前抗议。",
+       "en": "Students protested in front of the university."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กระตุ้น",
+  "phonetic": "kratun",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "krà-tûn · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ตื่นตัวหรือเกิดการเคลื่อนไหว",
+    "translations": {
+     "zh": "刺激；促进；激励",
+     "en": "to stimulate, to encourage"
+    },
+    "examples": [
+     {
+      "text": "รัฐบาลพยายามกระตุ้นเศรษฐกิจ",
+      "translations": {
+       "zh": "政府努力刺激经济。",
+       "en": "The government is trying to stimulate the economy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดึงดูด",
+  "phonetic": "dueng dut",
+  "cefr": "B2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "dʉng-dùut · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้สนใจอยากเข้ามาใกล้",
+    "translations": {
+     "zh": "吸引",
+     "en": "to attract"
+    },
+    "examples": [
+     {
+      "text": "ทะเลสวยดึงดูดนักท่องเที่ยวจำนวนมาก",
+      "translations": {
+       "zh": "美丽的海吸引了大量游客。",
+       "en": "The beautiful sea attracts many tourists."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่งเสริม",
+  "phonetic": "songsoem",
+  "cefr": "B2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "sòng-sə̌əm · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ช่วยสนับสนุนให้ดีขึ้นหรือก้าวหน้า",
+    "translations": {
+     "zh": "促进；推广；鼓励",
+     "en": "to promote, to encourage"
+    },
+    "examples": [
+     {
+      "text": "โรงเรียนส่งเสริมให้เด็กอ่านหนังสือ",
+      "translations": {
+       "zh": "学校鼓励孩子阅读。",
+       "en": "The school encourages children to read."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผลักดัน",
+  "phonetic": "phlakdan",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "phlàk-dan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พยายามทำให้เกิดขึ้นหรือก้าวหน้า",
+    "translations": {
+     "zh": "推动；推进",
+     "en": "to push for, to drive forward"
+    },
+    "examples": [
+     {
+      "text": "เขาผลักดันโครงการนี้จนสำเร็จ",
+      "translations": {
+       "zh": "他把这个项目一直推动到成功。",
+       "en": "He pushed this project through to success."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ควบคุม",
+  "phonetic": "khuapkhum",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "khûap-khum · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูแลให้อยู่ในขอบเขตหรือคำสั่ง",
+    "translations": {
+     "zh": "控制；管理",
+     "en": "to control"
+    },
+    "examples": [
+     {
+      "text": "เขาควบคุมอารมณ์ไม่ได้",
+      "translations": {
+       "zh": "他控制不住情绪。",
+       "en": "He can't control his temper."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ละเลย",
+  "phonetic": "laloei",
+  "cefr": "B2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "lá-ləəi · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่เอาใจใส่ ปล่อยทิ้งไว้",
+    "translations": {
+     "zh": "忽视；疏忽",
+     "en": "to neglect, to ignore"
+    },
+    "examples": [
+     {
+      "text": "อย่าละเลยสุขภาพของตัวเอง",
+      "translations": {
+       "zh": "别忽视自己的健康。",
+       "en": "Don't neglect your own health."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มองข้าม",
+  "phonetic": "mong kham",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "mɔɔng-khâam · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ใส่ใจหรือไม่เห็นความสำคัญ",
+    "translations": {
+     "zh": "忽略；忽视",
+     "en": "to overlook"
+    },
+    "examples": [
+     {
+      "text": "อย่ามองข้ามรายละเอียดเล็กๆ",
+      "translations": {
+       "zh": "别忽略小细节。",
+       "en": "Don't overlook small details."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

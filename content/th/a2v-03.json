@@ -1,0 +1,1478 @@
+[
+ {
+  "headword": "อดทน",
+  "phonetic": "otthon",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "òt-thon · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รอหรือรับความลำบากได้โดยไม่บ่น",
+    "translations": {
+     "zh": "忍耐；有耐心",
+     "en": "be patient; endure"
+    },
+    "examples": [
+     {
+      "text": "ต้องอดทนหน่อยนะ",
+      "translations": {
+       "zh": "要忍耐一下哦。",
+       "en": "You'll have to be a bit patient."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มีความสุข",
+  "phonetic": "mi khwam suk",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "mii-khwaam-sùk · 中, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "รู้สึกดีใจและพอใจ",
+    "translations": {
+     "zh": "幸福；快乐",
+     "en": "be happy"
+    },
+    "examples": [
+     {
+      "text": "ขอให้มีความสุขมากๆ",
+      "translations": {
+       "zh": "祝你非常幸福。",
+       "en": "Wishing you lots of happiness."
+      }
+     }
+    ],
+    "usageNote": "祝福语常用 ขอให้มีความสุข。"
+   }
+  ]
+ },
+ {
+  "headword": "เศร้า",
+  "phonetic": "sao",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "sâo · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เสียใจ ไม่มีความสุข",
+    "translations": {
+     "zh": "难过；悲伤",
+     "en": "sad"
+    },
+    "examples": [
+     {
+      "text": "เพลงนี้เศร้ามาก",
+      "translations": {
+       "zh": "这首歌很伤感。",
+       "en": "This song is very sad."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ภูมิใจ",
+  "phonetic": "phumchai",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "phuum-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ดีใจในสิ่งที่ทำได้",
+    "translations": {
+     "zh": "自豪；骄傲",
+     "en": "proud"
+    },
+    "examples": [
+     {
+      "text": "พ่อแม่ภูมิใจในตัวลูก",
+      "translations": {
+       "zh": "父母为孩子感到骄傲。",
+       "en": "The parents are proud of their child."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อิจฉา",
+  "phonetic": "itcha",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "ìt-chǎa · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อยากได้อย่างที่คนอื่นมี",
+    "translations": {
+     "zh": "嫉妒；羡慕",
+     "en": "jealous; envious"
+    },
+    "examples": [
+     {
+      "text": "ได้ไปญี่ปุ่นเหรอ อิจฉาจัง",
+      "translations": {
+       "zh": "你要去日本？好羡慕！",
+       "en": "You're going to Japan? I'm so jealous!"
+      }
+     }
+    ],
+    "usageNote": "朋友间开玩笑说 อิจฉาจัง 相当于“好羡慕”，不一定是贬义。"
+   }
+  ]
+ },
+ {
+  "headword": "ผิดหวัง",
+  "phonetic": "phit wang",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "phìt-wǎng · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ได้อย่างที่หวัง",
+    "translations": {
+     "zh": "失望",
+     "en": "disappointed"
+    },
+    "examples": [
+     {
+      "text": "ฉันผิดหวังกับผลสอบ",
+      "translations": {
+       "zh": "我对考试结果很失望。",
+       "en": "I'm disappointed with my exam results."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รำคาญ",
+  "phonetic": "ramkhan",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "ram-khaan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ชอบเพราะถูกรบกวน",
+    "translations": {
+     "zh": "烦；厌烦",
+     "en": "annoyed"
+    },
+    "examples": [
+     {
+      "text": "เสียงรถดังจนรำคาญ",
+      "translations": {
+       "zh": "车声吵得人心烦。",
+       "en": "The traffic noise is annoying."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สบายใจ",
+  "phonetic": "sabai chai",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "sà-baai-jai · 低, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีเรื่องกังวล",
+    "translations": {
+     "zh": "安心；心情舒畅",
+     "en": "at ease; happy"
+    },
+    "examples": [
+     {
+      "text": "ได้คุยกับเธอแล้วสบายใจขึ้น",
+      "translations": {
+       "zh": "和你聊过以后心里舒服多了。",
+       "en": "I feel better after talking to you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แข็งแรง",
+  "phonetic": "khaengraeng",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "khɛ̌ng-rɛɛng · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ร่างกายดี ไม่ป่วยง่าย",
+    "translations": {
+     "zh": "强壮；健康",
+     "en": "strong; healthy"
+    },
+    "examples": [
+     {
+      "text": "คุณตายังแข็งแรงอยู่",
+      "translations": {
+       "zh": "外公身体还很硬朗。",
+       "en": "Grandpa is still in good health."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อ่อนแอ",
+  "phonetic": "on ae",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "ɔ̀ɔn-ɛɛ · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่แข็งแรง",
+    "translations": {
+     "zh": "虚弱；软弱",
+     "en": "weak"
+    },
+    "examples": [
+     {
+      "text": "หลังป่วย ร่างกายยังอ่อนแอ",
+      "translations": {
+       "zh": "病后身体还很虚弱。",
+       "en": "After being ill, my body is still weak."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แก่",
+  "phonetic": "kae",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "kɛ̀ɛ · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อายุมาก",
+    "translations": {
+     "zh": "老（人）",
+     "en": "old (of people)"
+    },
+    "examples": [
+     {
+      "text": "ยายแก่แล้ว เดินช้า",
+      "translations": {
+       "zh": "外婆老了，走路慢。",
+       "en": "Grandma is old now and walks slowly."
+      }
+     }
+    ],
+    "usageNote": "人老用 แก่，东西旧用 เก่า。"
+   }
+  ]
+ },
+ {
+  "headword": "เท่",
+  "phonetic": "the",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "thêe · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ดูดี มีสไตล์",
+    "translations": {
+     "zh": "帅；酷",
+     "en": "cool; stylish"
+    },
+    "examples": [
+     {
+      "text": "แว่นอันนี้เท่ดี",
+      "translations": {
+       "zh": "这副眼镜挺酷的。",
+       "en": "These glasses look cool."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เรียบร้อย",
+  "phonetic": "riaproi",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "rîap-rɔ́ɔi · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เป็นระเบียบ หรือเสร็จดีแล้ว",
+    "translations": {
+     "zh": "整齐；妥当；文静",
+     "en": "neat; all done"
+    },
+    "examples": [
+     {
+      "text": "ทุกอย่างเรียบร้อยแล้ว",
+      "translations": {
+       "zh": "一切都办妥了。",
+       "en": "Everything is all set."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่สบาย",
+  "phonetic": "mai sabai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "mâi-sà-baai · 降, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ป่วย",
+    "translations": {
+     "zh": "不舒服；生病",
+     "en": "unwell; sick"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ลูกไม่สบาย ไม่ได้ไปโรงเรียน",
+      "translations": {
+       "zh": "今天孩子病了，没去上学。",
+       "en": "My child is sick today and didn't go to school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปวด",
+  "phonetic": "puat",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "pùat · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เจ็บอยู่ข้างในนานๆ",
+    "translations": {
+     "zh": "疼；酸痛",
+     "en": "ache; hurt"
+    },
+    "examples": [
+     {
+      "text": "ฉันปวดหัวมาก",
+      "translations": {
+       "zh": "我头很疼。",
+       "en": "I have a bad headache."
+      }
+     }
+    ],
+    "usageNote": "ปวด 指内部持续的疼（头疼、牙疼、肚子疼），เจ็บ 多指受伤或刺痛。"
+   }
+  ]
+ },
+ {
+  "headword": "หิวน้ำ",
+  "phonetic": "hio nam",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "hǐu-náam · 升, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อยากดื่มน้ำ",
+    "translations": {
+     "zh": "口渴",
+     "en": "thirsty"
+    },
+    "examples": [
+     {
+      "text": "เดินมาไกล หิวน้ำมาก",
+      "translations": {
+       "zh": "走了很远，好渴。",
+       "en": "I've walked a long way, I'm really thirsty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เต็ม",
+  "phonetic": "tem",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "tem · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีที่ว่างเหลือ",
+    "translations": {
+     "zh": "满",
+     "en": "full"
+    },
+    "examples": [
+     {
+      "text": "รถเมล์คันนี้คนเต็มแล้ว",
+      "translations": {
+       "zh": "这辆公交已经满了。",
+       "en": "This bus is full."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสีย",
+  "phonetic": "sia",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "sǐa · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ใช้ไม่ได้ หรือไม่ดีแล้ว",
+    "translations": {
+     "zh": "坏了；变质",
+     "en": "broken; gone off"
+    },
+    "examples": [
+     {
+      "text": "แอร์ห้องนี้เสีย",
+      "translations": {
+       "zh": "这个房间的空调坏了。",
+       "en": "The air conditioner in this room is broken."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "จ่ายไป หรือไม่มีอีกแล้ว",
+    "translations": {
+     "zh": "花费；失去",
+     "en": "spend; lose"
+    },
+    "examples": [
+     {
+      "text": "เดือนนี้เสียเงินไปเยอะ",
+      "translations": {
+       "zh": "这个月花了好多钱。",
+       "en": "I've spent a lot of money this month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พัง",
+  "phonetic": "phang",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "phang · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เสียจนใช้ไม่ได้ หรือล้มลงมา",
+    "translations": {
+     "zh": "坏掉；倒塌",
+     "en": "break down; collapse"
+    },
+    "examples": [
+     {
+      "text": "โทรศัพท์ฉันพังอีกแล้ว",
+      "translations": {
+       "zh": "我手机又坏了。",
+       "en": "My phone is broken again."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กว้าง",
+  "phonetic": "kwang",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "kwâang · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีที่มาก ไม่แคบ",
+    "translations": {
+     "zh": "宽；宽敞",
+     "en": "wide; spacious"
+    },
+    "examples": [
+     {
+      "text": "ห้องนี้กว้างดี",
+      "translations": {
+       "zh": "这个房间挺宽敞。",
+       "en": "This room is nice and spacious."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แคบ",
+  "phonetic": "khaep",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "khɛ̂ɛp · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีที่น้อย ไม่กว้าง",
+    "translations": {
+     "zh": "窄",
+     "en": "narrow"
+    },
+    "examples": [
+     {
+      "text": "ซอยนี้แคบมาก",
+      "translations": {
+       "zh": "这条巷子很窄。",
+       "en": "This lane is very narrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนา",
+  "phonetic": "na",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "nǎa · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่บาง",
+    "translations": {
+     "zh": "厚",
+     "en": "thick"
+    },
+    "examples": [
+     {
+      "text": "หนังสือเล่มนี้หนามาก",
+      "translations": {
+       "zh": "这本书很厚。",
+       "en": "This book is very thick."
+      }
+     }
+    ],
+    "usageNote": "หนา（升调）厚 vs หน้า（降调）脸 vs นา（中调）稻田。"
+   }
+  ]
+ },
+ {
+  "headword": "บาง",
+  "phonetic": "bang",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "baang · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่หนา",
+    "translations": {
+     "zh": "薄",
+     "en": "thin (of things)"
+    },
+    "examples": [
+     {
+      "text": "เสื้อตัวนี้บางไป",
+      "translations": {
+       "zh": "这件衣服太薄了。",
+       "en": "This shirt is too thin."
+      }
+     }
+    ],
+    "usageNote": "บาง 还可表示“某些”，如 บางคน 有些人。"
+   }
+  ]
+ },
+ {
+  "headword": "ลึก",
+  "phonetic": "luek",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "lʉ́k · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไกลจากข้างบนลงไปข้างล่างมาก",
+    "translations": {
+     "zh": "深",
+     "en": "deep"
+    },
+    "examples": [
+     {
+      "text": "ทะเลตรงนี้ลึกมาก",
+      "translations": {
+       "zh": "这里的海很深。",
+       "en": "The sea is very deep here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แข็ง",
+  "phonetic": "khaeng",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "khɛ̌ng · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่นิ่ม กดไม่ลง",
+    "translations": {
+     "zh": "硬",
+     "en": "hard"
+    },
+    "examples": [
+     {
+      "text": "ขนมปังแข็งไปแล้ว",
+      "translations": {
+       "zh": "面包已经变硬了。",
+       "en": "The bread has gone hard."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นิ่ม",
+  "phonetic": "nim",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "nîm · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่แข็ง กดแล้วยุบ",
+    "translations": {
+     "zh": "软",
+     "en": "soft"
+    },
+    "examples": [
+     {
+      "text": "หมอนนี้นิ่มมาก",
+      "translations": {
+       "zh": "这个枕头很软。",
+       "en": "This pillow is really soft."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สว่าง",
+  "phonetic": "sawang",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "sà-wàang · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีแสงมาก",
+    "translations": {
+     "zh": "亮",
+     "en": "bright; light"
+    },
+    "examples": [
+     {
+      "text": "ห้องนี้สว่างดี",
+      "translations": {
+       "zh": "这个房间很亮堂。",
+       "en": "This room is nice and bright."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เปียก",
+  "phonetic": "piak",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "pìak · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีน้ำติดอยู่",
+    "translations": {
+     "zh": "湿",
+     "en": "wet"
+    },
+    "examples": [
+     {
+      "text": "ฝนตก เสื้อเปียกหมดเลย",
+      "translations": {
+       "zh": "下雨了，衣服全湿了。",
+       "en": "It rained and my clothes are soaked."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แห้ง",
+  "phonetic": "haeng",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "hɛ̂ng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีน้ำ ไม่เปียก",
+    "translations": {
+     "zh": "干",
+     "en": "dry"
+    },
+    "examples": [
+     {
+      "text": "ผ้าแห้งแล้ว เก็บได้เลย",
+      "translations": {
+       "zh": "衣服干了，可以收了。",
+       "en": "The washing is dry, you can bring it in."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สด",
+  "phonetic": "sot",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sòt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ใหม่ ยังไม่เสีย",
+    "translations": {
+     "zh": "新鲜",
+     "en": "fresh"
+    },
+    "examples": [
+     {
+      "text": "ผักที่ตลาดนี้สดมาก",
+      "translations": {
+       "zh": "这个市场的菜很新鲜。",
+       "en": "The vegetables at this market are very fresh."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สุก",
+  "phonetic": "suk",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "sùk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "พร้อมกิน ไม่ดิบ",
+    "translations": {
+     "zh": "熟",
+     "en": "ripe; cooked"
+    },
+    "examples": [
+     {
+      "text": "มะม่วงลูกนี้สุกแล้ว",
+      "translations": {
+       "zh": "这个芒果熟了。",
+       "en": "This mango is ripe."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หอม",
+  "phonetic": "hom",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "hɔ̌ɔm · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีกลิ่นดี",
+    "translations": {
+     "zh": "香",
+     "en": "fragrant; nice-smelling"
+    },
+    "examples": [
+     {
+      "text": "ดอกไม้นี้หอมมาก",
+      "translations": {
+       "zh": "这花很香。",
+       "en": "This flower smells lovely."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เหม็น",
+  "phonetic": "men",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "měn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีกลิ่นไม่ดี",
+    "translations": {
+     "zh": "臭",
+     "en": "smelly"
+    },
+    "examples": [
+     {
+      "text": "ขยะเหม็นมาก",
+      "translations": {
+       "zh": "垃圾很臭。",
+       "en": "The rubbish stinks."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขม",
+  "phonetic": "khom",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "khǒm · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รสเหมือนยาหรือกาแฟดำ",
+    "translations": {
+     "zh": "苦",
+     "en": "bitter"
+    },
+    "examples": [
+     {
+      "text": "กาแฟนี้ขมไป",
+      "translations": {
+       "zh": "这咖啡太苦了。",
+       "en": "This coffee is too bitter."
+      }
+     }
+    ],
+    "usageNote": "ขม（升调）苦 vs คม（中调）锋利。"
+   }
+  ]
+ },
+ {
+  "headword": "จืด",
+  "phonetic": "chuet",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "jʉ̀ʉt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีรส หรือรสน้อย",
+    "translations": {
+     "zh": "淡；没味道",
+     "en": "bland"
+    },
+    "examples": [
+     {
+      "text": "ต้มยำนี้จืดไปหน่อย",
+      "translations": {
+       "zh": "这冬阴功有点淡。",
+       "en": "This tom yum is a bit bland."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อุ่น",
+  "phonetic": "un",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "ùn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ร้อนนิดหน่อย",
+    "translations": {
+     "zh": "温暖；温的",
+     "en": "warm"
+    },
+    "examples": [
+     {
+      "text": "ดื่มนมอุ่นๆ ก่อนนอน",
+      "translations": {
+       "zh": "睡前喝点温牛奶。",
+       "en": "Drink some warm milk before bed."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ร้อนอีกครั้ง",
+    "translations": {
+     "zh": "加热",
+     "en": "heat up"
+    },
+    "examples": [
+     {
+      "text": "เอาข้าวไปอุ่นก่อนนะ",
+      "translations": {
+       "zh": "先把饭热一下吧。",
+       "en": "Heat the rice up first."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แน่น",
+  "phonetic": "naen",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "nɛ̂n · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีที่ว่าง หรือรัดมาก",
+    "translations": {
+     "zh": "紧；挤",
+     "en": "tight; packed"
+    },
+    "examples": [
+     {
+      "text": "รถไฟฟ้าตอนเช้าคนแน่นมาก",
+      "translations": {
+       "zh": "早上的轻轨人很挤。",
+       "en": "The skytrain is packed in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยุ่งยาก",
+  "phonetic": "yungyak",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "yûng-yâak · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีหลายขั้นตอน ทำไม่ง่าย",
+    "translations": {
+     "zh": "麻烦；复杂",
+     "en": "complicated; troublesome"
+    },
+    "examples": [
+     {
+      "text": "ขั้นตอนทำวีซ่ายุ่งยากมาก",
+      "translations": {
+       "zh": "办签证的手续很麻烦。",
+       "en": "The visa process is very complicated."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สะดวก",
+  "phonetic": "saduak",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sà-dùak · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ง่าย ไม่ลำบาก",
+    "translations": {
+     "zh": "方便",
+     "en": "convenient"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้สะดวกไหมคะ",
+      "translations": {
+       "zh": "明天您方便吗？",
+       "en": "Is tomorrow convenient for you?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปลอดภัย",
+  "phonetic": "plotphai",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "plɔ̀ɔt-phai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีอันตราย",
+    "translations": {
+     "zh": "安全",
+     "en": "safe"
+    },
+    "examples": [
+     {
+      "text": "เดินกลางคืนที่นี่ปลอดภัยไหม",
+      "translations": {
+       "zh": "晚上在这里走路安全吗？",
+       "en": "Is it safe to walk here at night?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อันตราย",
+  "phonetic": "antarai",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "an-tà-raai · 中, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อาจทำให้เจ็บหรือตายได้",
+    "translations": {
+     "zh": "危险",
+     "en": "dangerous"
+    },
+    "examples": [
+     {
+      "text": "ว่ายน้ำตรงนี้อันตราย",
+      "translations": {
+       "zh": "在这里游泳很危险。",
+       "en": "It's dangerous to swim here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พิเศษ",
+  "phonetic": "phiset",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "phí-sèet · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่เหมือนปกติ ดีกว่าธรรมดา",
+    "translations": {
+     "zh": "特别；特殊",
+     "en": "special"
+    },
+    "examples": [
+     {
+      "text": "วันนี้มีเมนูพิเศษ",
+      "translations": {
+       "zh": "今天有特别菜单。",
+       "en": "There's a special menu today."
+      }
+     }
+    ],
+    "usageNote": "点餐时说 พิเศษ 表示“加大份/加料”。"
+   }
+  ]
+ },
+ {
+  "headword": "ธรรมดา",
+  "phonetic": "thammada",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "tham-má-daa · 中, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่พิเศษ เหมือนทั่วไป",
+    "translations": {
+     "zh": "普通；平常",
+     "en": "ordinary; normal"
+    },
+    "examples": [
+     {
+      "text": "ขอกาแฟร้อนธรรมดาแก้วหนึ่ง",
+      "translations": {
+       "zh": "要一杯普通的热咖啡。",
+       "en": "One regular hot coffee, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เหมือน",
+  "phonetic": "muean",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "mʉ̌an · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ต่างกัน",
+    "translations": {
+     "zh": "像；一样",
+     "en": "like; similar to"
+    },
+    "examples": [
+     {
+      "text": "ลูกหน้าเหมือนแม่",
+      "translations": {
+       "zh": "孩子长得像妈妈。",
+       "en": "The child looks like her mother."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เหมือนกัน",
+  "phonetic": "muean kan",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "mʉ̌an-kan · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่ต่างกัน หรือก็เป็นอย่างนั้น",
+    "translations": {
+     "zh": "一样；也",
+     "en": "the same; too"
+    },
+    "examples": [
+     {
+      "text": "ฉันก็ชอบเหมือนกัน",
+      "translations": {
+       "zh": "我也喜欢。",
+       "en": "I like it too."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต่างกัน",
+  "phonetic": "tang kan",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "tàang-kan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่เหมือนกัน",
+    "translations": {
+     "zh": "不同",
+     "en": "different"
+    },
+    "examples": [
+     {
+      "text": "สองคำนี้เสียงต่างกัน",
+      "translations": {
+       "zh": "这两个词读音不同。",
+       "en": "These two words sound different."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พอดี",
+  "phonetic": "phodi",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "phɔɔ-dii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มากไม่น้อยเกินไป",
+    "translations": {
+     "zh": "正好；合适",
+     "en": "just right; fitting"
+    },
+    "examples": [
+     {
+      "text": "รองเท้าคู่นี้พอดีเลย",
+      "translations": {
+       "zh": "这双鞋正合适。",
+       "en": "These shoes fit perfectly."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เกิดขึ้นตรงกันโดยบังเอิญ",
+    "translations": {
+     "zh": "刚好；碰巧",
+     "en": "just then; as it happens"
+    },
+    "examples": [
+     {
+      "text": "พอดีฉันก็อยู่แถวนั้น",
+      "translations": {
+       "zh": "正好我也在那附近。",
+       "en": "As it happens, I was nearby too."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ครบ",
+  "phonetic": "khrop",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "khróp · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีทั้งหมด ไม่ขาด",
+    "translations": {
+     "zh": "齐全；满（数）",
+     "en": "complete; all present"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนมาครบแล้ว",
+      "translations": {
+       "zh": "大家都到齐了。",
+       "en": "Everyone is here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หาย",
+  "phonetic": "hai",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "hǎai · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่อยู่แล้ว หาไม่เจอ",
+    "translations": {
+     "zh": "不见；丢失",
+     "en": "disappear; be lost"
+    },
+    "examples": [
+     {
+      "text": "กระเป๋าสตางค์ฉันหาย",
+      "translations": {
+       "zh": "我的钱包丢了。",
+       "en": "My wallet is missing."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ป่วยแล้ว",
+    "translations": {
+     "zh": "（病）好了",
+     "en": "get better; recover"
+    },
+    "examples": [
+     {
+      "text": "กินยาแล้วหายเร็ว",
+      "translations": {
+       "zh": "吃了药好得快。",
+       "en": "Take the medicine and you'll get better quickly."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชัด",
+  "phonetic": "chat",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "chát · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เห็นหรือได้ยินง่าย",
+    "translations": {
+     "zh": "清楚",
+     "en": "clear"
+    },
+    "examples": [
+     {
+      "text": "พูดช้าๆ ชัดๆ หน่อยได้ไหม",
+      "translations": {
+       "zh": "能说慢一点、清楚一点吗？",
+       "en": "Could you speak slowly and clearly?"
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

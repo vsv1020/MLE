@@ -1,0 +1,1429 @@
+[
+ {
+  "headword": "สำเร็จ",
+  "phonetic": "samret",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sǎm-rèt · 升, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำได้ตามที่ตั้งใจ",
+    "translations": {
+     "zh": "成功；完成",
+     "en": "succeed"
+    },
+    "examples": [
+     {
+      "text": "ขอให้สำเร็จนะ",
+      "translations": {
+       "zh": "祝你成功！",
+       "en": "Good luck, I hope you succeed!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถูกต้อง",
+  "phonetic": "thuk tong",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "thùuk-tɔ̂ng · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ผิด",
+    "translations": {
+     "zh": "正确",
+     "en": "correct"
+    },
+    "examples": [
+     {
+      "text": "คำตอบนี้ถูกต้อง",
+      "translations": {
+       "zh": "这个答案是对的。",
+       "en": "This answer is correct."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แน่ใจ",
+  "phonetic": "nae chai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "nɛ̂ɛ-jai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้ว่าจริงแน่นอน",
+    "translations": {
+     "zh": "确定；肯定",
+     "en": "sure"
+    },
+    "examples": [
+     {
+      "text": "แน่ใจนะว่าไม่ลืมอะไร",
+      "translations": {
+       "zh": "你确定没忘什么吗？",
+       "en": "Are you sure you haven't forgotten anything?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พร้อม",
+  "phonetic": "phrom",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "phrɔ́ɔm · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เตรียมเสร็จแล้ว",
+    "translations": {
+     "zh": "准备好",
+     "en": "ready"
+    },
+    "examples": [
+     {
+      "text": "พร้อมหรือยัง",
+      "translations": {
+       "zh": "准备好了吗？",
+       "en": "Are you ready?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มีชื่อเสียง",
+  "phonetic": "mi chue siang",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "mii-chʉ̂ʉ-sǐang · 中, 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "คนรู้จักมาก",
+    "translations": {
+     "zh": "有名",
+     "en": "famous"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้มีชื่อเสียงมาก",
+      "translations": {
+       "zh": "这家店很有名。",
+       "en": "This shop is very famous."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เหมาะ",
+  "phonetic": "mo",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "mɔ̀ · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เข้ากันดี ใช่สำหรับ",
+    "translations": {
+     "zh": "合适",
+     "en": "suitable"
+    },
+    "examples": [
+     {
+      "text": "ชุดนี้เหมาะกับคุณ",
+      "translations": {
+       "zh": "这套衣服很适合你。",
+       "en": "This outfit suits you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แรก",
+  "phonetic": "raek",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "rɛ̂ɛk · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เป็นอันดับหนึ่ง ก่อนอื่น",
+    "translations": {
+     "zh": "第一；最初",
+     "en": "first"
+    },
+    "examples": [
+     {
+      "text": "นี่เป็นครั้งแรกที่ฉันมาไทย",
+      "translations": {
+       "zh": "这是我第一次来泰国。",
+       "en": "This is my first time in Thailand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อื่น",
+  "phonetic": "uen",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "ʉ̀ʉn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ใช่อันนี้",
+    "translations": {
+     "zh": "别的；其他",
+     "en": "other; else"
+    },
+    "examples": [
+     {
+      "text": "มีสีอื่นไหมคะ",
+      "translations": {
+       "zh": "有别的颜色吗？",
+       "en": "Do you have other colours?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เดียวกัน",
+  "phonetic": "diao kan",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "diao-kan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อันเดียว ไม่ใช่สองอัน",
+    "translations": {
+     "zh": "同一个",
+     "en": "the same"
+    },
+    "examples": [
+     {
+      "text": "เราเรียนห้องเดียวกัน",
+      "translations": {
+       "zh": "我们在同一个班。",
+       "en": "We're in the same class."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แย่",
+  "phonetic": "yae",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "yɛ̂ɛ · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ดีมาก",
+    "translations": {
+     "zh": "糟糕；很差",
+     "en": "bad; terrible"
+    },
+    "examples": [
+     {
+      "text": "วันนี้รถติดแย่เลย",
+      "translations": {
+       "zh": "今天堵车堵得太糟了。",
+       "en": "The traffic is terrible today."
+      }
+     }
+    ],
+    "usageNote": "แย่แล้ว = “糟了！”"
+   }
+  ]
+ },
+ {
+  "headword": "เยี่ยม",
+  "phonetic": "yiam",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "yîam · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ดีมาก",
+    "translations": {
+     "zh": "好极了；棒",
+     "en": "excellent"
+    },
+    "examples": [
+     {
+      "text": "ทำได้เยี่ยมมาก",
+      "translations": {
+       "zh": "做得好极了！",
+       "en": "Excellent work!"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปหาเพื่อถามข่าว",
+    "translations": {
+     "zh": "探望；拜访",
+     "en": "visit"
+    },
+    "examples": [
+     {
+      "text": "ไปเยี่ยมเพื่อนที่โรงพยาบาล",
+      "translations": {
+       "zh": "去医院看朋友。",
+       "en": "I'm visiting a friend in hospital."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่อนข้าง",
+  "phonetic": "khon khang",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "khɔ̂n-khâang · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากพอสมควร",
+    "translations": {
+     "zh": "相当；比较",
+     "en": "rather; quite"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ค่อนข้างร้อน",
+      "translations": {
+       "zh": "今天比较热。",
+       "en": "It's rather hot today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จัง",
+  "phonetic": "chang",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "jang · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากจริงๆ（ภาษาพูด）",
+    "translations": {
+     "zh": "好…啊；真",
+     "en": "so; really (colloquial)"
+    },
+    "examples": [
+     {
+      "text": "อร่อยจัง",
+      "translations": {
+       "zh": "好好吃啊！",
+       "en": "So delicious!"
+      }
+     }
+    ],
+    "usageNote": "口语，放在形容词或动词后表示感叹。"
+   }
+  ]
+ },
+ {
+  "headword": "เกือบ",
+  "phonetic": "kueap",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "kʉ̀ap · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ยังไม่ถึงแต่ใกล้มาก",
+    "translations": {
+     "zh": "差点；几乎",
+     "en": "almost; nearly"
+    },
+    "examples": [
+     {
+      "text": "ฉันเกือบลืมไปแล้ว",
+      "translations": {
+       "zh": "我差点忘了。",
+       "en": "I almost forgot."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่ค่อย",
+  "phonetic": "mai khoi",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "mâi-khɔ̂i · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่มาก หรือไม่บ่อย",
+    "translations": {
+     "zh": "不太；不常",
+     "en": "not very; not often"
+    },
+    "examples": [
+     {
+      "text": "ฉันไม่ค่อยกินเผ็ด",
+      "translations": {
+       "zh": "我不太吃辣。",
+       "en": "I don't eat spicy food much."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่อยๆ",
+  "phonetic": "khoi khoi",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "khɔ̂i-khɔ̂i · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ช้าๆ ทีละนิด",
+    "translations": {
+     "zh": "慢慢地；轻轻地",
+     "en": "slowly; gradually; gently"
+    },
+    "examples": [
+     {
+      "text": "ค่อยๆ เดินนะ พื้นลื่น",
+      "translations": {
+       "zh": "慢慢走，地滑。",
+       "en": "Walk carefully, the floor is slippery."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปกติ",
+  "phonetic": "pakati",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "pà-kà-tì · 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตามที่เป็นอยู่ทุกวัน",
+    "translations": {
+     "zh": "平时；通常",
+     "en": "normally; usually"
+    },
+    "examples": [
+     {
+      "text": "ปกติฉันตื่นเจ็ดโมง",
+      "translations": {
+       "zh": "我平时七点起床。",
+       "en": "I normally get up at seven."
+      }
+     }
+    ],
+    "usageNote": "也作形容词“正常”：ไม่ปกติ 不正常。口语也常读 pòk-ka-tì。"
+   }
+  ]
+ },
+ {
+  "headword": "มักจะ",
+  "phonetic": "mak cha",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "mák-jà · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เกิดขึ้นบ่อยๆ",
+    "translations": {
+     "zh": "往往；常常",
+     "en": "tend to; usually"
+    },
+    "examples": [
+     {
+      "text": "วันศุกร์รถมักจะติด",
+      "translations": {
+       "zh": "星期五往往堵车。",
+       "en": "The traffic tends to be bad on Fridays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่เคย",
+  "phonetic": "mai khoei",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "mâi-khəəi · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่เคยทำหรือเกิดขึ้นเลย",
+    "translations": {
+     "zh": "从来没有",
+     "en": "never"
+    },
+    "examples": [
+     {
+      "text": "ฉันไม่เคยกินทุเรียน",
+      "translations": {
+       "zh": "我从来没吃过榴莲。",
+       "en": "I've never eaten durian."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทุกวัน",
+  "phonetic": "thuk wan",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "thúk-wan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ทุกๆ วัน ไม่เว้น",
+    "translations": {
+     "zh": "每天",
+     "en": "every day"
+    },
+    "examples": [
+     {
+      "text": "เขาวิ่งทุกวัน",
+      "translations": {
+       "zh": "他每天跑步。",
+       "en": "He runs every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เพิ่ง",
+  "phonetic": "phoeng",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "phə̂ng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เพิ่งเกิดขึ้นไม่นาน",
+    "translations": {
+     "zh": "刚刚；刚才",
+     "en": "just (recently)"
+    },
+    "examples": [
+     {
+      "text": "ฉันเพิ่งมาถึง",
+      "translations": {
+       "zh": "我刚到。",
+       "en": "I've just arrived."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เดี๋ยวนี้",
+  "phonetic": "diao ni",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "dǐao-níi · 升, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตอนนี้ หรือสมัยนี้",
+    "translations": {
+     "zh": "现在；如今",
+     "en": "now; nowadays"
+    },
+    "examples": [
+     {
+      "text": "เดี๋ยวนี้ของแพงขึ้นมาก",
+      "translations": {
+       "zh": "如今东西贵多了。",
+       "en": "Things are much more expensive nowadays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทันที",
+  "phonetic": "thanthi",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "than-thii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เดี๋ยวนั้นเลย ไม่รอ",
+    "translations": {
+     "zh": "立刻；马上",
+     "en": "immediately"
+    },
+    "examples": [
+     {
+      "text": "ถึงแล้วโทรมาทันทีนะ",
+      "translations": {
+       "zh": "到了马上打电话来。",
+       "en": "Call me as soon as you arrive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อีกครั้ง",
+  "phonetic": "ik khrang",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "ìik-khráng · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ทำซ้ำอีกหน",
+    "translations": {
+     "zh": "再一次",
+     "en": "again; once more"
+    },
+    "examples": [
+     {
+      "text": "ช่วยพูดอีกครั้งได้ไหม",
+      "translations": {
+       "zh": "能再说一遍吗？",
+       "en": "Could you say that again?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คนเดียว",
+  "phonetic": "khon diao",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "khon-diao · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่มีใครอยู่ด้วย",
+    "translations": {
+     "zh": "一个人；独自",
+     "en": "alone; by oneself"
+    },
+    "examples": [
+     {
+      "text": "ฉันไปเที่ยวคนเดียว",
+      "translations": {
+       "zh": "我一个人去旅行。",
+       "en": "I'm travelling alone."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เอง",
+  "phonetic": "eng",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "eeng · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตัวเองทำ ไม่ใช่คนอื่น",
+    "translations": {
+     "zh": "自己；亲自",
+     "en": "oneself; by oneself"
+    },
+    "examples": [
+     {
+      "text": "ฉันทำเองได้",
+      "translations": {
+       "zh": "我自己能做。",
+       "en": "I can do it myself."
+      }
+     }
+    ],
+    "usageNote": "เอง 还有“才、就”的意思：แค่นี้เอง 就这么点而已。"
+   }
+  ]
+ },
+ {
+  "headword": "จริงๆ",
+  "phonetic": "ching ching",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "jing-jing · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "แท้ๆ ไม่ใช่เล่น",
+    "translations": {
+     "zh": "真的；实在",
+     "en": "really; truly"
+    },
+    "examples": [
+     {
+      "text": "ขอบคุณจริงๆ นะ",
+      "translations": {
+       "zh": "真的谢谢你。",
+       "en": "Thank you so much."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แน่นอน",
+  "phonetic": "naenon",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "nɛ̂ɛ-nɔɔn · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่ต้องสงสัย",
+    "translations": {
+     "zh": "当然；一定",
+     "en": "certainly; of course"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันไปแน่นอน",
+      "translations": {
+       "zh": "明天我一定去。",
+       "en": "I'll definitely go tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาจจะ",
+  "phonetic": "at cha",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "àat-jà · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "อาจเป็นอย่างนั้น ไม่แน่",
+    "translations": {
+     "zh": "可能；也许",
+     "en": "maybe; might"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้อาจจะฝนตก",
+      "translations": {
+       "zh": "明天可能下雨。",
+       "en": "It might rain tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คง",
+  "phonetic": "khong",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "khong · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "น่าจะเป็นอย่างนั้น",
+    "translations": {
+     "zh": "大概；应该",
+     "en": "probably"
+    },
+    "examples": [
+     {
+      "text": "เขาคงลืมแล้ว",
+      "translations": {
+       "zh": "他大概忘了。",
+       "en": "He's probably forgotten."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตลอด",
+  "phonetic": "talot",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "tà-lɔ̀ɔt · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ทุกเวลา ไม่หยุด",
+    "translations": {
+     "zh": "一直；总是",
+     "en": "all the time; throughout"
+    },
+    "examples": [
+     {
+      "text": "เขาเล่นมือถือตลอด",
+      "translations": {
+       "zh": "他一直在玩手机。",
+       "en": "He's on his phone all the time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บางที",
+  "phonetic": "bangthi",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "baang-thii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "บางครั้ง หรืออาจจะ",
+    "translations": {
+     "zh": "有时候；也许",
+     "en": "sometimes; perhaps"
+    },
+    "examples": [
+     {
+      "text": "บางทีฉันก็เดินไปทำงาน",
+      "translations": {
+       "zh": "有时我走路去上班。",
+       "en": "Sometimes I walk to work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ที่สุด",
+  "phonetic": "thi sut",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "thîi-sùt · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากกว่าทุกอัน",
+    "translations": {
+     "zh": "最",
+     "en": "most (superlative)"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้อร่อยที่สุด",
+      "translations": {
+       "zh": "这家店最好吃。",
+       "en": "This place is the most delicious."
+      }
+     }
+    ],
+    "usageNote": "放在形容词后：ดีที่สุด 最好。"
+   }
+  ]
+ },
+ {
+  "headword": "กว่า",
+  "phonetic": "kwa",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "kwàa · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากหรือน้อยเมื่อเทียบกัน",
+    "translations": {
+     "zh": "比…更",
+     "en": "more than (comparative)"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ร้อนกว่าเมื่อวาน",
+      "translations": {
+       "zh": "今天比昨天热。",
+       "en": "Today is hotter than yesterday."
+      }
+     }
+    ],
+    "usageNote": "比较句：A + 形容词 + กว่า + B。"
+   }
+  ]
+ },
+ {
+  "headword": "เท่านั้น",
+  "phonetic": "thao nan",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "thâo-nán · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "แค่นี้ ไม่มีอื่น",
+    "translations": {
+     "zh": "只；仅此而已",
+     "en": "only"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้รับเงินสดเท่านั้น",
+      "translations": {
+       "zh": "这家店只收现金。",
+       "en": "This shop only takes cash."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่ต้อง",
+  "phonetic": "mai tong",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "mâi-tɔ̂ng · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่จำเป็น",
+    "translations": {
+     "zh": "不用；不必",
+     "en": "no need to; don't have to"
+    },
+    "examples": [
+     {
+      "text": "ไม่ต้องห่วงนะ",
+      "translations": {
+       "zh": "不用担心。",
+       "en": "Don't worry."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เต็มที่",
+  "phonetic": "temthi",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "tem-thîi · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ให้มากที่สุด",
+    "translations": {
+     "zh": "尽全力；尽情",
+     "en": "to the full; one's best"
+    },
+    "examples": [
+     {
+      "text": "เที่ยวให้เต็มที่นะ",
+      "translations": {
+       "zh": "尽情地玩吧！",
+       "en": "Enjoy your trip to the full!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่วนใหญ่",
+  "phonetic": "suan yai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sùan-yài · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เกือบทั้งหมด",
+    "translations": {
+     "zh": "大部分；大多",
+     "en": "mostly"
+    },
+    "examples": [
+     {
+      "text": "ส่วนใหญ่ฉันกินข้าวที่บ้าน",
+      "translations": {
+       "zh": "我大多在家吃饭。",
+       "en": "I mostly eat at home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อย่างน้อย",
+  "phonetic": "yang noi",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "yàang-nɔ́ɔi · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่น้อยกว่านี้",
+    "translations": {
+     "zh": "至少",
+     "en": "at least"
+    },
+    "examples": [
+     {
+      "text": "ต้องนอนอย่างน้อยเจ็ดชั่วโมง",
+      "translations": {
+       "zh": "至少要睡七个小时。",
+       "en": "You need at least seven hours' sleep."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นิดเดียว",
+  "phonetic": "nit diao",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "nít-diao · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "น้อยมาก",
+    "translations": {
+     "zh": "一点点",
+     "en": "just a little"
+    },
+    "examples": [
+     {
+      "text": "กินนิดเดียวก็อิ่มแล้ว",
+      "translations": {
+       "zh": "吃一点点就饱了。",
+       "en": "I'm full after just a little."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อย่า",
+  "phonetic": "ya",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "yàa · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คำห้ามไม่ให้ทำ",
+    "translations": {
+     "zh": "别；不要",
+     "en": "don't"
+    },
+    "examples": [
+     {
+      "text": "อย่าลืมนะ",
+      "translations": {
+       "zh": "别忘了哦。",
+       "en": "Don't forget."
+      }
+     }
+    ],
+    "usageNote": "放在动词前表示禁止。อย่า（低调）别 vs หย่า（低调，离婚）同音不同字。"
+   }
+  ]
+ },
+ {
+  "headword": "แล้วก็",
+  "phonetic": "laeo ko",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "lɛ́ɛo-kɔ̂ɔ · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ต่อจากนั้น หรือและ",
+    "translations": {
+     "zh": "然后；还有",
+     "en": "and then; and also"
+    },
+    "examples": [
+     {
+      "text": "ฉันอาบน้ำ แล้วก็ไปนอน",
+      "translations": {
+       "zh": "我洗了澡，然后睡觉。",
+       "en": "I have a shower and then go to bed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สุดท้าย",
+  "phonetic": "sutthai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sùt-tháai · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ในที่สุด ตอนจบ",
+    "translations": {
+     "zh": "最后",
+     "en": "finally; in the end"
+    },
+    "examples": [
+     {
+      "text": "สุดท้ายเราก็ไปทัน",
+      "translations": {
+       "zh": "最后我们还是赶上了。",
+       "en": "In the end we made it in time."
+      }
+     }
+    ],
+    "usageNote": "也作形容词“最后的”：คันสุดท้าย 最后一班。"
+   }
+  ]
+ },
+ {
+  "headword": "ดังนั้น",
+  "phonetic": "dangnan",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "dang-nán · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เพราะเหตุนี้",
+    "translations": {
+     "zh": "因此",
+     "en": "therefore"
+    },
+    "examples": [
+     {
+      "text": "ฝนตก ดังนั้นเราจะอยู่บ้าน",
+      "translations": {
+       "zh": "下雨了，因此我们待在家。",
+       "en": "It's raining, so we'll stay home."
+      }
+     }
+    ],
+    "usageNote": "偏书面；口语多用 ก็เลย 或 เลย。"
+   }
+  ]
+ },
+ {
+  "headword": "เพราะฉะนั้น",
+  "phonetic": "phro chanan",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "phrɔ́-chà-nán · 高, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เพราะเหตุนั้น",
+    "translations": {
+     "zh": "所以",
+     "en": "so; therefore"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้สอบ เพราะฉะนั้นคืนนี้ต้องอ่านหนังสือ",
+      "translations": {
+       "zh": "明天考试，所以今晚要看书。",
+       "en": "There's an exam tomorrow, so I have to study tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ก็เลย",
+  "phonetic": "ko loei",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "kɔ̂ɔ-ləəi · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เพราะอย่างนั้นจึง",
+    "translations": {
+     "zh": "所以就",
+     "en": "so (then)"
+    },
+    "examples": [
+     {
+      "text": "ฉันหิว ก็เลยกินก่อน",
+      "translations": {
+       "zh": "我饿了，所以就先吃了。",
+       "en": "I was hungry, so I ate first."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถึงแม้ว่า",
+  "phonetic": "thueng mae wa",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ng-mɛ́ɛ-wâa · 升, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "แม้ว่าจะเป็นอย่างนั้น",
+    "translations": {
+     "zh": "虽然；尽管",
+     "en": "although"
+    },
+    "examples": [
+     {
+      "text": "ถึงแม้ว่าจะเหนื่อย แต่ก็สนุก",
+      "translations": {
+       "zh": "虽然很累，但很开心。",
+       "en": "Although it was tiring, it was fun."
+      }
+     }
+    ],
+    "usageNote": "常与 แต่ก็ 搭配：ถึงแม้ว่า…แต่ก็…"
+   }
+  ]
+ },
+ {
+  "headword": "หลังจาก",
+  "phonetic": "lang chak",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "lǎng-jàak · 升, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "เมื่อเสร็จแล้ว ต่อจาก",
+    "translations": {
+     "zh": "在…之后",
+     "en": "after"
+    },
+    "examples": [
+     {
+      "text": "หลังจากกินข้าว เราไปดูหนัง",
+      "translations": {
+       "zh": "吃完饭后我们去看电影。",
+       "en": "After eating, we went to see a film."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จากนั้น",
+  "phonetic": "chak nan",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jàak-nán · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "หลังจากนั้น",
+    "translations": {
+     "zh": "之后；接着",
+     "en": "after that; then"
+    },
+    "examples": [
+     {
+      "text": "จากนั้นเลี้ยวซ้ายที่ไฟแดง",
+      "translations": {
+       "zh": "接着在红绿灯处左转。",
+       "en": "Then turn left at the lights."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ระหว่าง",
+  "phonetic": "rawang",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "rá-wàang · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ตรงกลางของสองสิ่ง หรือในช่วงเวลา",
+    "translations": {
+     "zh": "在…之间；在…期间",
+     "en": "between; during"
+    },
+    "examples": [
+     {
+      "text": "ระหว่างทางเราแวะกินข้าว",
+      "translations": {
+       "zh": "路上我们顺路吃了个饭。",
+       "en": "We stopped to eat on the way."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

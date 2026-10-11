@@ -1,0 +1,1387 @@
+[
+  {
+    "headword": "เห็นพ้อง",
+    "phonetic": "hen phong",
+    "cefr": "C1",
+    "frequencyRank": 8400,
+    "grammarNotes": {
+      "toneMarks": "hěn-phɔ́ɔng · 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีความเห็นตรงกัน",
+        "translations": {
+          "zh": "一致认为；赞同",
+          "en": "to concur; to agree"
+        },
+        "examples": [
+          {
+            "text": "ทุกฝ่ายเห็นพ้องว่าต้องแก้ปัญหานี้โดยเร็ว",
+            "translations": {
+              "zh": "各方一致认为必须尽快解决这个问题。",
+              "en": "All parties agree this must be solved quickly."
+            }
+          }
+        ],
+        "usageNote": "书面语，常说 เห็นพ้องต้องกัน。"
+      }
+    ]
+  },
+  {
+    "headword": "ประนีประนอม",
+    "phonetic": "pranipranom",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "prà-nii-prà-nɔɔm · 低, 中, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยอมผ่อนปรนเข้าหากัน",
+        "translations": {
+          "zh": "妥协；和解",
+          "en": "to compromise"
+        },
+        "examples": [
+          {
+            "text": "ทั้งสองฝ่ายยอมประนีประนอมกันในที่สุด",
+            "translations": {
+              "zh": "双方最终各让一步，达成妥协。",
+              "en": "Both sides finally agreed to compromise."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจรจา",
+    "phonetic": "chenracha",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "jeen-rá-jaa · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูดจาหารือเพื่อตกลงกัน",
+        "translations": {
+          "zh": "谈判；交涉",
+          "en": "to negotiate"
+        },
+        "examples": [
+          {
+            "text": "สหภาพแรงงานกำลังเจรจากับนายจ้าง",
+            "translations": {
+              "zh": "工会正在与雇主谈判。",
+              "en": "The union is negotiating with the employer."
+            }
+          }
+        ],
+        "usageNote": "读音不规则：读作 เจน-ระ-จา。"
+      }
+    ]
+  },
+  {
+    "headword": "ผนวก",
+    "phonetic": "phanuak",
+    "cefr": "C1",
+    "frequencyRank": 9400,
+    "grammarNotes": {
+      "toneMarks": "phà-nùak · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รวมเข้าด้วยกันหรือแนบเพิ่ม",
+        "translations": {
+          "zh": "合并；附加",
+          "en": "to incorporate; to annex"
+        },
+        "examples": [
+          {
+            "text": "ข้อตกลงนี้ถูกผนวกเข้ากับสัญญาฉบับเดิม",
+            "translations": {
+              "zh": "这项协议被并入原合同。",
+              "en": "This agreement was incorporated into the original contract."
+            }
+          }
+        ],
+        "usageNote": "书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "ละเลย",
+    "phonetic": "laloei",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "lá-ləəi · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่เอาใจใส่หรือไม่ทำในสิ่งที่ควรทำ",
+        "translations": {
+          "zh": "忽视；疏忽",
+          "en": "to neglect; to overlook"
+        },
+        "examples": [
+          {
+            "text": "รัฐไม่ควรละเลยปัญหาของคนชายขอบ",
+            "translations": {
+              "zh": "国家不应忽视边缘群体的问题。",
+              "en": "The state should not neglect the problems of marginalised people."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มุ่งเน้น",
+    "phonetic": "mungnen",
+    "cefr": "C1",
+    "frequencyRank": 7100,
+    "grammarNotes": {
+      "toneMarks": "mûng-nén · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้ความสำคัญเป็นพิเศษ",
+        "translations": {
+          "zh": "着重；侧重",
+          "en": "to focus on; to emphasise"
+        },
+        "examples": [
+          {
+            "text": "หลักสูตรนี้มุ่งเน้นทักษะการคิดวิเคราะห์",
+            "translations": {
+              "zh": "这门课程侧重分析思维能力。",
+              "en": "This course focuses on analytical thinking skills."
+            }
+          }
+        ],
+        "usageNote": "书面语，口语多说 เน้น。"
+      }
+    ]
+  },
+  {
+    "headword": "ดัดแปลง",
+    "phonetic": "datplaeng",
+    "cefr": "C1",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "dàt-plɛɛng · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แก้ไขให้ต่างไปจากรูปเดิม",
+        "translations": {
+          "zh": "改编；改造",
+          "en": "to adapt; to modify"
+        },
+        "examples": [
+          {
+            "text": "ภาพยนตร์เรื่องนี้ดัดแปลงมาจากนวนิยาย",
+            "translations": {
+              "zh": "这部电影改编自小说。",
+              "en": "This film is adapted from a novel."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปลูกฝัง",
+    "phonetic": "plukfang",
+    "cefr": "C1",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "toneMarks": "plùuk-fǎng · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อบรมให้ติดเป็นนิสัยหรือความเชื่อ",
+        "translations": {
+          "zh": "培养；灌输",
+          "en": "to instil; to cultivate"
+        },
+        "examples": [
+          {
+            "text": "พ่อแม่ควรปลูกฝังนิสัยรักการอ่านให้ลูก",
+            "translations": {
+              "zh": "父母应培养孩子爱读书的习惯。",
+              "en": "Parents should instil a love of reading in their children."
+            }
+          }
+        ],
+        "usageNote": "本义“种植”，引申为培养观念、习惯。"
+      }
+    ]
+  },
+  {
+    "headword": "เล็งเห็น",
+    "phonetic": "lenghen",
+    "cefr": "C1",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "leng-hěn · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มองเห็นหรือตระหนักล่วงหน้า",
+        "translations": {
+          "zh": "预见到；认识到",
+          "en": "to foresee; to recognise"
+        },
+        "examples": [
+          {
+            "text": "ผู้บริหารเล็งเห็นความสำคัญของการฝึกอบรม",
+            "translations": {
+              "zh": "管理层认识到了培训的重要性。",
+              "en": "Management recognised the importance of training."
+            }
+          }
+        ],
+        "usageNote": "书面语，常说 เล็งเห็นความสำคัญ。"
+      }
+    ]
+  },
+  {
+    "headword": "คลี่คลาย",
+    "phonetic": "khlikhlai",
+    "cefr": "C1",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "khlîi-khlaai · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ค่อยๆ ดีขึ้นหรือหมดปัญหาไป",
+        "translations": {
+          "zh": "（局势）缓和；（问题）得到解决",
+          "en": "to ease; to be resolved"
+        },
+        "examples": [
+          {
+            "text": "สถานการณ์ชายแดนเริ่มคลี่คลายลงแล้ว",
+            "translations": {
+              "zh": "边境局势已开始缓和。",
+              "en": "The border situation has begun to ease."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทวี",
+    "phonetic": "thawi",
+    "cefr": "C1",
+    "frequencyRank": 9600,
+    "grammarNotes": {
+      "toneMarks": "thá-wii · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เพิ่มขึ้นหรือมากขึ้น",
+        "translations": {
+          "zh": "增加；加剧",
+          "en": "to increase; to intensify"
+        },
+        "examples": [
+          {
+            "text": "ความขัดแย้งทวีความรุนแรงขึ้นเรื่อยๆ",
+            "translations": {
+              "zh": "冲突愈演愈烈。",
+              "en": "The conflict is growing ever more intense."
+            }
+          }
+        ],
+        "usageNote": "书面语，常说 ทวีความรุนแรง（加剧）。"
+      }
+    ]
+  },
+  {
+    "headword": "หยิบยก",
+    "phonetic": "yipyok",
+    "cefr": "C1",
+    "frequencyRank": 8900,
+    "grammarNotes": {
+      "toneMarks": "yìp-yók · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยกเรื่องขึ้นมาพูด",
+        "translations": {
+          "zh": "提出（议题）",
+          "en": "to raise (an issue); to bring up"
+        },
+        "examples": [
+          {
+            "text": "ผู้แทนหยิบยกประเด็นสิทธิมนุษยชนขึ้นมาหารือ",
+            "translations": {
+              "zh": "代表提出人权议题进行讨论。",
+              "en": "The delegate raised the issue of human rights for discussion."
+            }
+          }
+        ],
+        "usageNote": "常说 หยิบยกขึ้นมา。"
+      }
+    ]
+  },
+  {
+    "headword": "หารือ",
+    "phonetic": "haruea",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "hǎa-rʉʉ · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ปรึกษากันอย่างเป็นทางการ",
+        "translations": {
+          "zh": "商讨；磋商",
+          "en": "to consult; to hold talks"
+        },
+        "examples": [
+          {
+            "text": "ผู้นำทั้งสองประเทศหารือเรื่องการค้า",
+            "translations": {
+              "zh": "两国领导人就贸易问题进行了磋商。",
+              "en": "The two leaders held talks on trade."
+            }
+          }
+        ],
+        "usageNote": "正式用语，口语多说 ปรึกษา、คุย。"
+      }
+    ]
+  },
+  {
+    "headword": "สอดคล้อง",
+    "phonetic": "sotkhlong",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "sɔ̀ɔt-khlɔ́ɔng · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตรงกันหรือไปในทางเดียวกัน",
+        "translations": {
+          "zh": "一致；吻合；符合",
+          "en": "to be consistent with; to accord with"
+        },
+        "examples": [
+          {
+            "text": "ผลการทดลองสอดคล้องกับสมมติฐาน",
+            "translations": {
+              "zh": "实验结果与假设相符。",
+              "en": "The results are consistent with the hypothesis."
+            }
+          }
+        ],
+        "usageNote": "常用 สอดคล้องกับ……。"
+      }
+    ]
+  },
+  {
+    "headword": "กระตุ้น",
+    "phonetic": "kratun",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "krà-tûn · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ตื่นตัวหรือเพิ่มขึ้น",
+        "translations": {
+          "zh": "刺激；激发",
+          "en": "to stimulate; to boost"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลออกมาตรการกระตุ้นเศรษฐกิจ",
+            "translations": {
+              "zh": "政府出台了经济刺激措施。",
+              "en": "The government introduced measures to stimulate the economy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชดเชย",
+    "phonetic": "chotchoei",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "chót-chəəi · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้สิ่งตอบแทนแทนสิ่งที่เสียไป",
+        "translations": {
+          "zh": "补偿；弥补",
+          "en": "to compensate"
+        },
+        "examples": [
+          {
+            "text": "บริษัทชดเชยค่าเสียหายให้ลูกค้า",
+            "translations": {
+              "zh": "公司赔偿了客户的损失。",
+              "en": "The company compensated the customers for the damage."
+            }
+          }
+        ],
+        "usageNote": "名词：ค่าชดเชย（补偿金）。"
+      }
+    ]
+  },
+  {
+    "headword": "แทรกแซง",
+    "phonetic": "saeksaeng",
+    "cefr": "C1",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "toneMarks": "sɛ̂ɛk-sɛɛng · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เข้าไปยุ่งเกี่ยวในเรื่องของผู้อื่น",
+        "translations": {
+          "zh": "干预；干涉",
+          "en": "to intervene; to interfere"
+        },
+        "examples": [
+          {
+            "text": "ประเทศมหาอำนาจไม่ควรแทรกแซงกิจการภายใน",
+            "translations": {
+              "zh": "大国不应干涉别国内政。",
+              "en": "Great powers should not interfere in internal affairs."
+            }
+          }
+        ],
+        "usageNote": "ทร 读作 s：แซก-แซง。"
+      }
+    ]
+  },
+  {
+    "headword": "บิดเบือน",
+    "phonetic": "bitbuean",
+    "cefr": "C1",
+    "frequencyRank": 8300,
+    "grammarNotes": {
+      "toneMarks": "bìt-bʉan · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ผิดไปจากความจริง",
+        "translations": {
+          "zh": "歪曲；扭曲",
+          "en": "to distort"
+        },
+        "examples": [
+          {
+            "text": "สื่อบางสำนักบิดเบือนข้อเท็จจริง",
+            "translations": {
+              "zh": "一些媒体歪曲事实。",
+              "en": "Some media outlets distort the facts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทุ่มเท",
+    "phonetic": "thumthe",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "thûm-thee · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้กำลังกายกำลังใจอย่างเต็มที่",
+        "translations": {
+          "zh": "全心投入；倾注",
+          "en": "to devote oneself; to dedicate"
+        },
+        "examples": [
+          {
+            "text": "เธอทุ่มเทให้กับงานวิจัยตลอดชีวิต",
+            "translations": {
+              "zh": "她一生都倾注于研究工作。",
+              "en": "She devoted her whole life to research."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฉวยโอกาส",
+    "phonetic": "chuai okat",
+    "cefr": "C1",
+    "frequencyRank": 8700,
+    "grammarNotes": {
+      "toneMarks": "chǔay-oo-kàat · 升, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้จังหวะเพื่อประโยชน์ของตน",
+        "translations": {
+          "zh": "趁机；钻空子",
+          "en": "to take advantage of an opportunity"
+        },
+        "examples": [
+          {
+            "text": "พ่อค้าบางคนฉวยโอกาสขึ้นราคาสินค้า",
+            "translations": {
+              "zh": "一些商人趁机抬高物价。",
+              "en": "Some traders took the opportunity to raise prices."
+            }
+          }
+        ],
+        "usageNote": "常含贬义：投机取巧。"
+      }
+    ]
+  },
+  {
+    "headword": "เทียบเคียง",
+    "phonetic": "thiapkhiang",
+    "cefr": "C1",
+    "frequencyRank": 9300,
+    "grammarNotes": {
+      "toneMarks": "thîap-khiang · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "นำมาเปรียบกันเพื่อดูความเหมือน",
+        "translations": {
+          "zh": "比照；相提并论",
+          "en": "to compare; to be on a par with"
+        },
+        "examples": [
+          {
+            "text": "ฝีมือของเขาเทียบเคียงได้กับนักเขียนระดับโลก",
+            "translations": {
+              "zh": "他的功力可与世界级作家相提并论。",
+              "en": "His skill is on a par with world-class writers."
+            }
+          }
+        ],
+        "usageNote": "书面语，常说 เทียบเคียงได้กับ……。"
+      }
+    ]
+  },
+  {
+    "headword": "ประเด็น",
+    "phonetic": "praden",
+    "cefr": "C1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "prà-den · 低, 中",
+      "classifier": "ประเด็น（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องหรือจุดสำคัญที่พูดถึง",
+        "translations": {
+          "zh": "要点；议题；问题",
+          "en": "issue; point"
+        },
+        "examples": [
+          {
+            "text": "ประเด็นหลักของการประชุมวันนี้คืองบประมาณ",
+            "translations": {
+              "zh": "今天会议的核心议题是预算。",
+              "en": "The main issue of today's meeting is the budget."
+            }
+          }
+        ],
+        "usageNote": "口语、书面语都常用；ตรงประเด็น＝切题。"
+      }
+    ]
+  },
+  {
+    "headword": "แนวทาง",
+    "phonetic": "naeothang",
+    "cefr": "C1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "nɛɛw-thaang · 中, 中",
+      "classifier": "แนวทาง（种）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิธีหรือทิศทางในการทำ",
+        "translations": {
+          "zh": "方针；途径；思路",
+          "en": "approach; guideline"
+        },
+        "examples": [
+          {
+            "text": "เราต้องหาแนวทางใหม่ในการแก้ปัญหานี้",
+            "translations": {
+              "zh": "我们必须找到解决这个问题的新思路。",
+              "en": "We need a new approach to solving this problem."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผลกระทบ",
+    "phonetic": "phonkrathop",
+    "cefr": "C1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "phǒn-krà-thóp · 升, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลที่เกิดตามมาจากการกระทำหรือเหตุการณ์",
+        "translations": {
+          "zh": "影响（多指负面）；冲击",
+          "en": "impact; effect"
+        },
+        "examples": [
+          {
+            "text": "โครงการนี้มีผลกระทบต่อสิ่งแวดล้อม",
+            "translations": {
+              "zh": "这个项目对环境有影响。",
+              "en": "This project has an impact on the environment."
+            }
+          }
+        ],
+        "usageNote": "常说 ผลกระทบต่อ……；ผลกระทบด้านลบ＝负面影响。"
+      }
+    ]
+  },
+  {
+    "headword": "ความขัดแย้ง",
+    "phonetic": "khwam khatyaeng",
+    "cefr": "C1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "khwaam-khàt-yɛ́ɛng · 中, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การมีความเห็นหรือผลประโยชน์ไม่ตรงกัน",
+        "translations": {
+          "zh": "冲突；矛盾；分歧",
+          "en": "conflict; disagreement"
+        },
+        "examples": [
+          {
+            "text": "ความขัดแย้งระหว่างสองประเทศยืดเยื้อมานาน",
+            "translations": {
+              "zh": "两国之间的冲突持续已久。",
+              "en": "The conflict between the two countries has dragged on for a long time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อจำกัด",
+    "phonetic": "kho chamkat",
+    "cefr": "C1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-jam-kàt · 降, 中, 低",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่จำกัดไม่ให้ทำได้เต็มที่",
+        "translations": {
+          "zh": "局限；限制",
+          "en": "limitation; constraint"
+        },
+        "examples": [
+          {
+            "text": "งานวิจัยนี้มีข้อจำกัดเรื่องขนาดกลุ่มตัวอย่าง",
+            "translations": {
+              "zh": "这项研究在样本量上有局限。",
+              "en": "This study is limited by its sample size."
+            }
+          }
+        ],
+        "usageNote": "ข้อ- 构成“条目”类名词：ข้อดี、ข้อเสีย、ข้อจำกัด。"
+      }
+    ]
+  },
+  {
+    "headword": "เอกลักษณ์",
+    "phonetic": "ekkalak",
+    "cefr": "C1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "èek-kà-lák · 低, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะเฉพาะที่ไม่เหมือนใคร",
+        "translations": {
+          "zh": "特色；独特性",
+          "en": "distinctive character; identity"
+        },
+        "examples": [
+          {
+            "text": "อาหารไทยมีเอกลักษณ์ที่ไม่เหมือนชาติใด",
+            "translations": {
+              "zh": "泰国菜有独一无二的特色。",
+              "en": "Thai food has a character unlike any other."
+            }
+          }
+        ],
+        "usageNote": "读作 เอก-กะ-ลัก（ก 读两次，ษณ์ 不发音）。"
+      }
+    ]
+  },
+  {
+    "headword": "ทัศนคติ",
+    "phonetic": "thatsanakhati",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "thát-sà-ná-khá-tì · 高, 低, 高, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความคิดเห็นหรือท่าทีต่อสิ่งใดสิ่งหนึ่ง",
+        "translations": {
+          "zh": "态度；看法",
+          "en": "attitude"
+        },
+        "examples": [
+          {
+            "text": "เขามีทัศนคติที่ดีต่องานและเพื่อนร่วมงาน",
+            "translations": {
+              "zh": "他对工作和同事态度积极。",
+              "en": "He has a positive attitude towards work and colleagues."
+            }
+          }
+        ],
+        "usageNote": "读作 ทัด-สะ-นะ-คะ-ติ。"
+      }
+    ]
+  },
+  {
+    "headword": "ศักยภาพ",
+    "phonetic": "sakkayaphap",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "sàk-kà-yá-phâap · 低, 低, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสามารถที่มีอยู่และพัฒนาได้",
+        "translations": {
+          "zh": "潜力；潜能",
+          "en": "potential; capability"
+        },
+        "examples": [
+          {
+            "text": "นักเรียนทุกคนมีศักยภาพที่จะเรียนรู้",
+            "translations": {
+              "zh": "每个学生都有学习的潜力。",
+              "en": "Every student has the potential to learn."
+            }
+          }
+        ],
+        "usageNote": "读作 สัก-กะ-ยะ-พาบ。"
+      }
+    ]
+  },
+  {
+    "headword": "ประสิทธิภาพ",
+    "phonetic": "prasitthiphap",
+    "cefr": "C1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "prà-sìt-thí-phâap · 低, 低, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสามารถทำงานได้ผลดีโดยไม่สิ้นเปลือง",
+        "translations": {
+          "zh": "效率；效能",
+          "en": "efficiency"
+        },
+        "examples": [
+          {
+            "text": "เครื่องยนต์รุ่นใหม่มีประสิทธิภาพสูงกว่าเดิม",
+            "translations": {
+              "zh": "新款发动机效率比以前更高。",
+              "en": "The new engine is more efficient than before."
+            }
+          }
+        ],
+        "usageNote": "读作 ปฺระ-สิด-ทิ-พาบ；-ภาพ 后缀表示“性质、状态”。"
+      }
+    ]
+  },
+  {
+    "headword": "ปรากฏการณ์",
+    "phonetic": "praktakan",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "praa-kòt-tà-kaan · 中, 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งหรือเหตุการณ์ที่ปรากฏให้เห็น",
+        "translations": {
+          "zh": "现象",
+          "en": "phenomenon"
+        },
+        "examples": [
+          {
+            "text": "ภาวะโลกร้อนเป็นปรากฏการณ์ที่น่ากังวล",
+            "translations": {
+              "zh": "全球变暖是令人担忧的现象。",
+              "en": "Global warming is a worrying phenomenon."
+            }
+          }
+        ],
+        "usageNote": "读作 ปรา-กด-ตะ-กาน，ฏ 读 t。"
+      }
+    ]
+  },
+  {
+    "headword": "วิสัยทัศน์",
+    "phonetic": "wisaithat",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "wí-sǎi-thát · 高, 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การมองเห็นภาพอนาคตที่ต้องการ",
+        "translations": {
+          "zh": "愿景；远见",
+          "en": "vision"
+        },
+        "examples": [
+          {
+            "text": "ผู้นำที่ดีต้องมีวิสัยทัศน์ที่กว้างไกล",
+            "translations": {
+              "zh": "好的领导者必须有远见。",
+              "en": "A good leader must have far-reaching vision."
+            }
+          }
+        ],
+        "usageNote": "ศน์ 读 t，น์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "กลไก",
+    "phonetic": "konkai",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "kon-kai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบบหรือส่วนที่ทำให้สิ่งต่างๆ ทำงาน",
+        "translations": {
+          "zh": "机制；机构；机关",
+          "en": "mechanism"
+        },
+        "examples": [
+          {
+            "text": "กลไกตลาดจะช่วยกำหนดราคาสินค้า",
+            "translations": {
+              "zh": "市场机制会帮助决定商品价格。",
+              "en": "Market mechanisms help determine prices."
+            }
+          }
+        ],
+        "usageNote": "读音特殊：กล 读作 กน（kon）。"
+      }
+    ]
+  },
+  {
+    "headword": "ปัจจัย",
+    "phonetic": "patchai",
+    "cefr": "C1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "pàt-jai · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เหตุที่ทำให้เกิดผล",
+        "translations": {
+          "zh": "因素；要素",
+          "en": "factor"
+        },
+        "examples": [
+          {
+            "text": "ปัจจัยหลักที่ทำให้ธุรกิจล้มเหลวคือการขาดเงินทุน",
+            "translations": {
+              "zh": "企业失败的主要因素是缺乏资金。",
+              "en": "The main factor in business failure is a lack of capital."
+            }
+          }
+        ],
+        "usageNote": "ปัจจัยสี่＝衣、食、住、药四种基本需求。"
+      }
+    ]
+  },
+  {
+    "headword": "บริบท",
+    "phonetic": "boribot",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "bɔɔ-rí-bòt · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สภาพแวดล้อมหรือเงื่อนไขที่เกี่ยวข้อง",
+        "translations": {
+          "zh": "语境；背景",
+          "en": "context"
+        },
+        "examples": [
+          {
+            "text": "ต้องเข้าใจบริบททางวัฒนธรรมก่อนตัดสินใคร",
+            "translations": {
+              "zh": "评判他人之前要先了解文化背景。",
+              "en": "You must understand the cultural context before judging anyone."
+            }
+          }
+        ],
+        "usageNote": "学术书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "มิติ",
+    "phonetic": "miti",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "mí-tì · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ด้านหรือแง่มุมของเรื่อง",
+        "translations": {
+          "zh": "维度；方面",
+          "en": "dimension; aspect"
+        },
+        "examples": [
+          {
+            "text": "ปัญหาความยากจนมีหลายมิติ",
+            "translations": {
+              "zh": "贫困问题有多个维度。",
+              "en": "Poverty has many dimensions."
+            }
+          }
+        ],
+        "usageNote": "也指空间维度：สามมิติ（三维）。"
+      }
+    ]
+  },
+  {
+    "headword": "องค์ประกอบ",
+    "phonetic": "ongprakop",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "ong-prà-kɔ̀ɔp · 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนต่างๆ ที่รวมกันเป็นสิ่งหนึ่ง",
+        "translations": {
+          "zh": "组成部分；要素",
+          "en": "component; element"
+        },
+        "examples": [
+          {
+            "text": "ดนตรีเป็นองค์ประกอบสำคัญของภาพยนตร์",
+            "translations": {
+              "zh": "音乐是电影的重要组成部分。",
+              "en": "Music is an important element of film."
+            }
+          }
+        ],
+        "usageNote": "องค์ 读 ong，ค์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "สมมติฐาน",
+    "phonetic": "sommuttithan",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "sǒm-mút-tì-thǎan · 升, 高, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อสันนิษฐานที่ตั้งไว้เพื่อพิสูจน์",
+        "translations": {
+          "zh": "假设；假说",
+          "en": "hypothesis"
+        },
+        "examples": [
+          {
+            "text": "นักวิจัยตั้งสมมติฐานก่อนเริ่มการทดลอง",
+            "translations": {
+              "zh": "研究人员在实验前先提出假设。",
+              "en": "Researchers form a hypothesis before the experiment."
+            }
+          }
+        ],
+        "usageNote": "读作 สม-มุด-ติ-ถาน。"
+      }
+    ]
+  },
+  {
+    "headword": "ทฤษฎี",
+    "phonetic": "thritsadi",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "thrít-sà-dii · 高, 低, 中",
+      "classifier": "ทฤษฎี（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หลักความรู้ที่อธิบายปรากฏการณ์อย่างมีระบบ",
+        "translations": {
+          "zh": "理论",
+          "en": "theory"
+        },
+        "examples": [
+          {
+            "text": "ทฤษฎีนี้ยังไม่มีใครพิสูจน์ได้",
+            "translations": {
+              "zh": "这个理论还没有人能证明。",
+              "en": "No one has been able to prove this theory yet."
+            }
+          }
+        ],
+        "usageNote": "ฤ 在此读 ri：ทริด-สะ-ดี。"
+      }
+    ]
+  },
+  {
+    "headword": "แนวคิด",
+    "phonetic": "naeokhit",
+    "cefr": "C1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "nɛɛw-khít · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความคิดหลักหรือกรอบความคิด",
+        "translations": {
+          "zh": "理念；构想；概念",
+          "en": "concept; idea"
+        },
+        "examples": [
+          {
+            "text": "แนวคิดเรื่องเศรษฐกิจพอเพียงได้รับความสนใจมาก",
+            "translations": {
+              "zh": "“适足经济”理念受到广泛关注。",
+              "en": "The concept of a sufficiency economy has drawn much interest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หลักการ",
+    "phonetic": "lakkan",
+    "cefr": "C1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "làk-kaan · 低, 中",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แนวคิดพื้นฐานที่ยึดเป็นแนวทาง",
+        "translations": {
+          "zh": "原则",
+          "en": "principle"
+        },
+        "examples": [
+          {
+            "text": "ข้อเสนอนี้ดีในหลักการแต่ทำได้ยาก",
+            "translations": {
+              "zh": "这个提议原则上不错，但难以实施。",
+              "en": "The proposal is good in principle but hard to implement."
+            }
+          }
+        ],
+        "usageNote": "ในหลักการ＝原则上。"
+      }
+    ]
+  },
+  {
+    "headword": "อุดมการณ์",
+    "phonetic": "udomkan",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "toneMarks": "ù-dom-má-kaan · 低, 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หลักความคิดที่ยึดถือเป็นเป้าหมาย",
+        "translations": {
+          "zh": "理想；意识形态",
+          "en": "ideology; ideals"
+        },
+        "examples": [
+          {
+            "text": "เขาไม่ยอมทิ้งอุดมการณ์ของตัวเอง",
+            "translations": {
+              "zh": "他不肯放弃自己的理想。",
+              "en": "He refuses to abandon his ideals."
+            }
+          }
+        ],
+        "usageNote": "读作 อุ-ดม-มะ-กาน。"
+      }
+    ]
+  },
+  {
+    "headword": "จุดยืน",
+    "phonetic": "chutyuen",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "jùt-yʉʉn · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความคิดเห็นที่ยึดมั่นในเรื่องใดเรื่องหนึ่ง",
+        "translations": {
+          "zh": "立场",
+          "en": "stance; position"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลยังคงจุดยืนเดิมในเรื่องนี้",
+            "translations": {
+              "zh": "政府在此问题上仍坚持原有立场。",
+              "en": "The government maintains its original stance on this."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ค่านิยม",
+    "phonetic": "khaniyom",
+    "cefr": "C1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "khâa-ní-yom · 降, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่สังคมเห็นว่ามีคุณค่าและยึดถือ",
+        "translations": {
+          "zh": "价值观；社会风尚",
+          "en": "values"
+        },
+        "examples": [
+          {
+            "text": "คนรุ่นใหม่มีค่านิยมต่างจากพ่อแม่",
+            "translations": {
+              "zh": "年轻一代的价值观与父母不同。",
+              "en": "The younger generation has different values from their parents."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อัตลักษณ์",
+    "phonetic": "attalak",
+    "cefr": "C1",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "toneMarks": "àt-tà-lák · 低, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะที่บ่งบอกความเป็นตัวตน",
+        "translations": {
+          "zh": "身份认同；（个体）特征",
+          "en": "identity"
+        },
+        "examples": [
+          {
+            "text": "ภาษาถิ่นเป็นส่วนหนึ่งของอัตลักษณ์ชุมชน",
+            "translations": {
+              "zh": "方言是社区身份认同的一部分。",
+              "en": "Dialect is part of a community's identity."
+            }
+          }
+        ],
+        "usageNote": "学术用语；比 เอกลักษณ์ 更强调“自我认同”。"
+      }
+    ]
+  },
+  {
+    "headword": "ความเหลื่อมล้ำ",
+    "phonetic": "khwam lueamlam",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "khwaam-lʉ̀am-lám · 中, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความไม่เท่าเทียมกัน",
+        "translations": {
+          "zh": "不平等；贫富差距",
+          "en": "inequality"
+        },
+        "examples": [
+          {
+            "text": "ความเหลื่อมล้ำทางรายได้เป็นปัญหาใหญ่ของสังคม",
+            "translations": {
+              "zh": "收入不平等是社会的大问题。",
+              "en": "Income inequality is a major social problem."
+            }
+          }
+        ],
+        "usageNote": "新闻、社论高频词。"
+      }
+    ]
+  },
+  {
+    "headword": "ยั่งยืน",
+    "phonetic": "yangyuen",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "yâng-yʉʉn · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "คงอยู่ได้นานโดยไม่เสื่อม",
+        "translations": {
+          "zh": "持久的；可持续的",
+          "en": "sustainable; lasting"
+        },
+        "examples": [
+          {
+            "text": "เราต้องการการพัฒนาที่ยั่งยืน",
+            "translations": {
+              "zh": "我们需要可持续的发展。",
+              "en": "We need sustainable development."
+            }
+          }
+        ],
+        "usageNote": "การพัฒนาที่ยั่งยืน＝可持续发展；名词 ความยั่งยืน。"
+      }
+    ]
+  },
+  {
+    "headword": "ความโปร่งใส",
+    "phonetic": "khwam prongsai",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "khwaam-pròong-sǎi · 中, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเปิดเผยตรวจสอบได้ ไม่มีสิ่งซ่อนเร้น",
+        "translations": {
+          "zh": "透明度；透明",
+          "en": "transparency"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนเรียกร้องความโปร่งใสในการใช้งบประมาณ",
+            "translations": {
+              "zh": "民众要求预算使用透明化。",
+              "en": "The public demands transparency in budget spending."
+            }
+          }
+        ],
+        "usageNote": "โปร่งใส 本义“透明、透亮”。"
+      }
+    ]
+  }
+]

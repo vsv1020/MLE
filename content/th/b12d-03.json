@@ -1,0 +1,1084 @@
+[
+  {
+    "headword": "พัฒนา",
+    "phonetic": "phatthana",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "phát-thá-naa · 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ดีขึ้นหรือเจริญขึ้น",
+        "translations": {
+          "zh": "发展；开发；改进",
+          "en": "to develop, to improve"
+        },
+        "examples": [
+          {
+            "text": "บริษัทกำลังพัฒนาแอปใหม่",
+            "translations": {
+              "zh": "公司正在开发新的应用。",
+              "en": "The company is developing a new app."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประดิษฐ์",
+    "phonetic": "pradit",
+    "cefr": "B2",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "prà-dìt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คิดและสร้างสิ่งใหม่ขึ้นมา",
+        "translations": {
+          "zh": "发明；制作",
+          "en": "to invent, to craft"
+        },
+        "examples": [
+          {
+            "text": "ใครเป็นคนประดิษฐ์หลอดไฟ",
+            "translations": {
+              "zh": "是谁发明了电灯泡？",
+              "en": "Who invented the light bulb?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปัญญาประดิษฐ์",
+    "phonetic": "panyapradit",
+    "cefr": "B2",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "pan-yaa-prà-dìt · 中, 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบบคอมพิวเตอร์ที่คิดและเรียนรู้ได้คล้ายคน",
+        "translations": {
+          "zh": "人工智能",
+          "en": "artificial intelligence, AI"
+        },
+        "examples": [
+          {
+            "text": "ปัญญาประดิษฐ์ช่วยแปลภาษาได้เร็วมาก",
+            "translations": {
+              "zh": "人工智能翻译得很快。",
+              "en": "AI can translate languages very quickly."
+            }
+          }
+        ],
+        "usageNote": "口语里也常直接说 เอไอ（AI）。"
+      }
+    ]
+  },
+  {
+    "headword": "ระบบ",
+    "phonetic": "rabop",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "rá-bòp · 高, 低",
+      "classifier": "ระบบ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มของสิ่งที่ทำงานร่วมกันอย่างมีแบบแผน",
+        "translations": {
+          "zh": "系统；体系",
+          "en": "system"
+        },
+        "examples": [
+          {
+            "text": "ระบบจองตั๋วออนไลน์ล่มเมื่อเช้านี้",
+            "translations": {
+              "zh": "今天早上网上订票系统崩溃了。",
+              "en": "The online booking system crashed this morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หุ่นยนต์",
+    "phonetic": "hunyon",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "hùn-yon · 低, 中",
+      "classifier": "ตัว（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องจักรที่ทำงานแทนคนได้",
+        "translations": {
+          "zh": "机器人",
+          "en": "robot"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้ใช้หุ่นยนต์เสิร์ฟอาหาร",
+            "translations": {
+              "zh": "这家店用机器人上菜。",
+              "en": "This restaurant uses robots to serve food."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดาวเทียม",
+    "phonetic": "daothiam",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "daao-thiam · 中, 中",
+      "classifier": "ดวง（颗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่คนส่งขึ้นไปโคจรรอบโลก",
+        "translations": {
+          "zh": "人造卫星",
+          "en": "satellite"
+        },
+        "examples": [
+          {
+            "text": "ภาพจากดาวเทียมแสดงพายุที่กำลังมา",
+            "translations": {
+              "zh": "卫星图像显示风暴正在逼近。",
+              "en": "Satellite images show the approaching storm."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สัญญาณ",
+    "phonetic": "sanyan",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "sǎn-yaan · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องหมายหรือคลื่นที่ส่งข่าวสาร",
+        "translations": {
+          "zh": "信号",
+          "en": "signal"
+        },
+        "examples": [
+          {
+            "text": "บนภูเขาไม่มีสัญญาณโทรศัพท์",
+            "translations": {
+              "zh": "山上没有手机信号。",
+              "en": "There's no phone signal on the mountain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บันทึก",
+    "phonetic": "banthuek",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "ban-thʉ́k · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เขียนหรือเก็บไว้เพื่อไม่ให้ลืมหรือหาย",
+        "translations": {
+          "zh": "记录；保存",
+          "en": "to record, to save"
+        },
+        "examples": [
+          {
+            "text": "อย่าลืมบันทึกไฟล์ก่อนปิดเครื่อง",
+            "translations": {
+              "zh": "关机前别忘了保存文件。",
+              "en": "Don't forget to save the file before shutting down."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ค้นหา",
+    "phonetic": "khonha",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "khón-hǎa · 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หาข้อมูลหรือของที่ต้องการ",
+        "translations": {
+          "zh": "搜索；查找",
+          "en": "to search (for)"
+        },
+        "examples": [
+          {
+            "text": "ลองค้นหาร้านอาหารใกล้ ๆ ในแผนที่",
+            "translations": {
+              "zh": "在地图上搜一下附近的餐厅吧。",
+              "en": "Try searching for nearby restaurants on the map."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ติดตั้ง",
+    "phonetic": "tittang",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "tìt-tâng · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ประกอบหรือใส่เข้าที่ให้ใช้งานได้",
+        "translations": {
+          "zh": "安装",
+          "en": "to install"
+        },
+        "examples": [
+          {
+            "text": "ช่างมาติดตั้งแอร์ให้ที่ห้อง",
+            "translations": {
+              "zh": "师傅来房间装了空调。",
+              "en": "A technician came to install the air-con in my room."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เชื่อมต่อ",
+    "phonetic": "chueamto",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "chʉ̂am-tɔ̀ɔ · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ติดกันหรือติดต่อกันได้",
+        "translations": {
+          "zh": "连接",
+          "en": "to connect"
+        },
+        "examples": [
+          {
+            "text": "โทรศัพท์เชื่อมต่อไวไฟไม่ได้",
+            "translations": {
+              "zh": "手机连不上无线网。",
+              "en": "My phone can't connect to the Wi-Fi."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ออกแบบ",
+    "phonetic": "okbaep",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "ɔ̀ɔk-bɛ̀ɛp · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คิดและวางรูปแบบของสิ่งที่จะสร้าง",
+        "translations": {
+          "zh": "设计",
+          "en": "to design"
+        },
+        "examples": [
+          {
+            "text": "พี่สาวฉันออกแบบเสื้อผ้าขายเอง",
+            "translations": {
+              "zh": "我姐姐自己设计衣服来卖。",
+              "en": "My sister designs and sells her own clothes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปุ่ม",
+    "phonetic": "pum",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "pùm · 低",
+      "classifier": "ปุ่ม（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนเล็ก ๆ ที่กดเพื่อสั่งให้เครื่องทำงาน",
+        "translations": {
+          "zh": "按钮；按键",
+          "en": "button"
+        },
+        "examples": [
+          {
+            "text": "กดปุ่มสีแดงเพื่อปิดเครื่อง",
+            "translations": {
+              "zh": "按红色按钮关机。",
+              "en": "Press the red button to switch it off."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กด",
+    "phonetic": "kot",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "kòt · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้นิ้วหรือมือดันลงไป",
+        "translations": {
+          "zh": "按；压",
+          "en": "to press"
+        },
+        "examples": [
+          {
+            "text": "กดรหัสสี่ตัวแล้วประตูจะเปิด",
+            "translations": {
+              "zh": "按四位密码，门就会开。",
+              "en": "Enter the four-digit code and the door will open."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อความ",
+    "phonetic": "khokhwam",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-khwaam · 降, 中",
+      "classifier": "ข้อความ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ถ้อยคำที่เขียนหรือส่งถึงกัน",
+        "translations": {
+          "zh": "信息；短信；文字",
+          "en": "message, text"
+        },
+        "examples": [
+          {
+            "text": "เดี๋ยวส่งข้อความไปบอกนะ",
+            "translations": {
+              "zh": "待会儿发信息告诉你。",
+              "en": "I'll send you a message to let you know."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครือข่าย",
+    "phonetic": "khrueakhai",
+    "cefr": "B2",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "khrʉa-khàai · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบบที่เชื่อมโยงกันหลายจุด",
+        "translations": {
+          "zh": "网络",
+          "en": "network"
+        },
+        "examples": [
+          {
+            "text": "เครือข่ายมือถือค่ายนี้ครอบคลุมทั่วประเทศ",
+            "translations": {
+              "zh": "这家运营商的移动网络覆盖全国。",
+              "en": "This mobile network covers the whole country."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อัตโนมัติ",
+    "phonetic": "attanomat",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "àt-tà-noo-mát · 低, 低, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ที่ทำงานได้เองโดยไม่ต้องมีคนควบคุม",
+        "translations": {
+          "zh": "自动的",
+          "en": "automatic"
+        },
+        "examples": [
+          {
+            "text": "ประตูนี้เปิดปิดอัตโนมัติ",
+            "translations": {
+              "zh": "这扇门是自动开关的。",
+              "en": "This door opens and closes automatically."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คลื่น",
+    "phonetic": "khluen",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "khlʉ̂ʉn · 降",
+      "classifier": "ลูก（个，浪）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำที่เคลื่อนขึ้นลงในทะเล หรือพลังงานที่ส่งออกไป",
+        "translations": {
+          "zh": "波浪；（电）波",
+          "en": "wave"
+        },
+        "examples": [
+          {
+            "text": "วันนี้คลื่นแรง ห้ามลงเล่นน้ำ",
+            "translations": {
+              "zh": "今天浪大，禁止下水。",
+              "en": "The waves are strong today; no swimming."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เชื้อโรค",
+    "phonetic": "chuearok",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "chʉ́a-rôok · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งมีชีวิตเล็ก ๆ ที่ทำให้เกิดโรค",
+        "translations": {
+          "zh": "病菌；细菌",
+          "en": "germ"
+        },
+        "examples": [
+          {
+            "text": "ล้างมือบ่อย ๆ เพื่อกำจัดเชื้อโรค",
+            "translations": {
+              "zh": "勤洗手以清除病菌。",
+              "en": "Wash your hands often to get rid of germs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วัคซีน",
+    "phonetic": "waksin",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "wák-siin · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ยาที่ฉีดเพื่อป้องกันโรค",
+        "translations": {
+          "zh": "疫苗",
+          "en": "vaccine"
+        },
+        "examples": [
+          {
+            "text": "เด็ก ๆ ต้องฉีดวัคซีนตามกำหนด",
+            "translations": {
+              "zh": "孩子们要按时接种疫苗。",
+              "en": "Children need their vaccines on schedule."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สิ่งมีชีวิต",
+    "phonetic": "singmichiwit",
+    "cefr": "B2",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "sìng-mii-chii-wít · 低, 中, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่มีชีวิต เช่น คน สัตว์ พืช",
+        "translations": {
+          "zh": "生物",
+          "en": "living thing, organism"
+        },
+        "examples": [
+          {
+            "text": "ในทะเลลึกมีสิ่งมีชีวิตแปลก ๆ มากมาย",
+            "translations": {
+              "zh": "深海里有很多奇特的生物。",
+              "en": "There are many strange creatures in the deep sea."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ระบบนิเวศ",
+    "phonetic": "rabopniwet",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "rá-bòp-ní-wêet · 高, 低, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งมีชีวิตและสิ่งแวดล้อมที่อยู่ร่วมกัน",
+        "translations": {
+          "zh": "生态系统",
+          "en": "ecosystem"
+        },
+        "examples": [
+          {
+            "text": "ขยะพลาสติกทำลายระบบนิเวศทางทะเล",
+            "translations": {
+              "zh": "塑料垃圾破坏海洋生态系统。",
+              "en": "Plastic waste damages marine ecosystems."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปะการัง",
+    "phonetic": "pakarang",
+    "cefr": "B2",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "pà-kaa-rang · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัตว์ทะเลที่มีโครงแข็ง อยู่รวมกันเป็นแนว",
+        "translations": {
+          "zh": "珊瑚",
+          "en": "coral"
+        },
+        "examples": [
+          {
+            "text": "ห้ามเหยียบปะการังเวลาดำน้ำ",
+            "translations": {
+              "zh": "潜水时禁止踩珊瑚。",
+              "en": "Don't step on the coral when diving."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ที่พัก",
+    "phonetic": "thiphak",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "thîi-phák · 降, 高",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สถานที่สำหรับพักแรม เช่น โรงแรม",
+        "translations": {
+          "zh": "住处；住宿",
+          "en": "accommodation, place to stay"
+        },
+        "examples": [
+          {
+            "text": "เราจองที่พักใกล้ทะเลไว้แล้ว",
+            "translations": {
+              "zh": "我们已经订了靠海的住处。",
+              "en": "We've already booked a place to stay near the sea."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชายแดน",
+    "phonetic": "chaidaen",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "chaai-dɛɛn · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เขตที่ต่อกันระหว่างประเทศ",
+        "translations": {
+          "zh": "边境；国界",
+          "en": "border"
+        },
+        "examples": [
+          {
+            "text": "ด่านชายแดนเปิดถึงหกโมงเย็น",
+            "translations": {
+              "zh": "边境口岸开到傍晚六点。",
+              "en": "The border checkpoint is open until 6 p.m."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทิวทัศน์",
+    "phonetic": "thiuthat",
+    "cefr": "B2",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "thiu-thát · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาพธรรมชาติที่มองเห็นได้กว้างไกล",
+        "translations": {
+          "zh": "风景；景色",
+          "en": "scenery, view"
+        },
+        "examples": [
+          {
+            "text": "ทิวทัศน์จากยอดดอยสวยมาก",
+            "translations": {
+              "zh": "山顶的风景很美。",
+              "en": "The scenery from the mountaintop is gorgeous."
+            }
+          }
+        ],
+        "usageNote": "书面语，口语多说 วิว。"
+      }
+    ]
+  },
+  {
+    "headword": "ท่องเที่ยว",
+    "phonetic": "thongthiao",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "thɔ̂ng-thîao · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เดินทางไปเที่ยวที่ต่าง ๆ",
+        "translations": {
+          "zh": "旅游；观光",
+          "en": "to travel, to tour"
+        },
+        "examples": [
+          {
+            "text": "ปีนี้คนจีนมาท่องเที่ยวไทยเยอะมาก",
+            "translations": {
+              "zh": "今年很多中国人来泰国旅游。",
+              "en": "Lots of Chinese people came to travel in Thailand this year."
+            }
+          }
+        ],
+        "usageNote": "比 เที่ยว 更正式，常见于 การท่องเที่ยว（旅游业）。"
+      }
+    ]
+  },
+  {
+    "headword": "สถานที่",
+    "phonetic": "sathanthi",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "sà-thǎan-thîi · 低, 升, 降",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ใดที่หนึ่ง",
+        "translations": {
+          "zh": "地点；场所",
+          "en": "place, venue"
+        },
+        "examples": [
+          {
+            "text": "วัดนี้เป็นสถานที่ที่คนมาเที่ยวเยอะที่สุด",
+            "translations": {
+              "zh": "这座寺庙是游客最多的地方。",
+              "en": "This temple is the most visited place."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มัคคุเทศก์",
+    "phonetic": "makkhuthet",
+    "cefr": "B2",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "mák-khú-thêet · 高, 高, 降",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้นำเที่ยวที่ให้ความรู้แก่นักท่องเที่ยว",
+        "translations": {
+          "zh": "导游",
+          "en": "tour guide"
+        },
+        "examples": [
+          {
+            "text": "มัคคุเทศก์อธิบายประวัติวัดให้ฟัง",
+            "translations": {
+              "zh": "导游给我们讲解寺庙的历史。",
+              "en": "The guide explained the temple's history to us."
+            }
+          }
+        ],
+        "usageNote": "正式用语，口语多说 ไกด์。"
+      }
+    ]
+  },
+  {
+    "headword": "สัมภาระ",
+    "phonetic": "samphara",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "sǎm-phaa-rá · 升, 中, 高",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่นำติดตัวไปเวลาเดินทาง",
+        "translations": {
+          "zh": "行李",
+          "en": "luggage, baggage"
+        },
+        "examples": [
+          {
+            "text": "กรุณาอย่าทิ้งสัมภาระไว้โดยไม่มีคนดูแล",
+            "translations": {
+              "zh": "请勿将行李无人看管。",
+              "en": "Please don't leave your luggage unattended."
+            }
+          }
+        ],
+        "usageNote": "机场、车站广播常用。"
+      }
+    ]
+  },
+  {
+    "headword": "ศุลกากร",
+    "phonetic": "sunlakakon",
+    "cefr": "B2",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "sǔn-lá-kaa-kɔɔn · 升, 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หน่วยงานที่ตรวจและเก็บภาษีสินค้าเข้าออก",
+        "translations": {
+          "zh": "海关",
+          "en": "customs"
+        },
+        "examples": [
+          {
+            "text": "ของที่ซื้อจากต่างประเทศต้องผ่านศุลกากร",
+            "translations": {
+              "zh": "从国外买的东西要过海关。",
+              "en": "Goods bought abroad must go through customs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เที่ยวบิน",
+    "phonetic": "thiaobin",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "thîao-bin · 降, 中",
+      "classifier": "เที่ยว（班）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การบินของเครื่องบินแต่ละครั้ง",
+        "translations": {
+          "zh": "航班",
+          "en": "flight"
+        },
+        "examples": [
+          {
+            "text": "เที่ยวบินไปเชียงใหม่ออกกี่โมง",
+            "translations": {
+              "zh": "去清迈的航班几点起飞？",
+              "en": "What time does the flight to Chiang Mai leave?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้โดยสาร",
+    "phonetic": "phudoisan",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phûu-dooi-sǎan · 降, 中, 升",
+      "classifier": "คน（名）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่นั่งรถ เรือ หรือเครื่องบินไปด้วย",
+        "translations": {
+          "zh": "乘客；旅客",
+          "en": "passenger"
+        },
+        "examples": [
+          {
+            "text": "ผู้โดยสารทุกท่านกรุณาคาดเข็มขัด",
+            "translations": {
+              "zh": "请各位乘客系好安全带。",
+              "en": "All passengers, please fasten your seatbelts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ล่าช้า",
+    "phonetic": "lacha",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "lâa-cháa · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ช้ากว่าเวลาที่กำหนด",
+        "translations": {
+          "zh": "延误；晚点",
+          "en": "delayed, late"
+        },
+        "examples": [
+          {
+            "text": "เที่ยวบินล่าช้าสองชั่วโมงเพราะฝนตก",
+            "translations": {
+              "zh": "因为下雨，航班延误了两个小时。",
+              "en": "The flight was delayed two hours because of rain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ยกเลิก",
+    "phonetic": "yokloek",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "yók-lə̂ək · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่ทำตามที่ตกลงหรือวางแผนไว้",
+        "translations": {
+          "zh": "取消",
+          "en": "to cancel"
+        },
+        "examples": [
+          {
+            "text": "ฉันต้องยกเลิกการจองโรงแรม",
+            "translations": {
+              "zh": "我得取消酒店预订。",
+              "en": "I have to cancel my hotel booking."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แลกเงิน",
+    "phonetic": "laekngoen",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "lɛ̂ɛk-ngən · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปลี่ยนเงินสกุลหนึ่งเป็นอีกสกุลหนึ่ง",
+        "translations": {
+          "zh": "换钱；兑换货币",
+          "en": "to exchange money"
+        },
+        "examples": [
+          {
+            "text": "แลกเงินที่สนามบินเรตไม่ค่อยดี",
+            "translations": {
+              "zh": "在机场换钱汇率不太好。",
+              "en": "The exchange rate at the airport isn't great."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สถานทูต",
+    "phonetic": "sathanthut",
+    "cefr": "B2",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "sà-thǎan-thûut · 低, 升, 降",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สำนักงานตัวแทนของประเทศหนึ่งในต่างประเทศ",
+        "translations": {
+          "zh": "大使馆",
+          "en": "embassy"
+        },
+        "examples": [
+          {
+            "text": "ฉันไปขอวีซ่าที่สถานทูตจีน",
+            "translations": {
+              "zh": "我去中国大使馆申请签证。",
+              "en": "I went to the Chinese embassy to apply for a visa."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประกัน",
+    "phonetic": "prakan",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "prà-kan · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัญญาที่บริษัทจ่ายเงินชดเชยเมื่อเกิดเหตุ",
+        "translations": {
+          "zh": "保险",
+          "en": "insurance"
+        },
+        "examples": [
+          {
+            "text": "ซื้อประกันการเดินทางก่อนไปเที่ยวดีกว่า",
+            "translations": {
+              "zh": "旅游前买份旅行保险比较好。",
+              "en": "It's better to buy travel insurance before your trip."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

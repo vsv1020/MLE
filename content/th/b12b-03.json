@@ -1,0 +1,1454 @@
+[
+ {
+  "headword": "ทุจริต",
+  "phonetic": "thutcharit",
+  "cefr": "B2",
+  "frequencyRank": 5100,
+  "grammarNotes": {
+   "toneMarks": "thút-jà-rìt · 高, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "โกงหรือทำผิดเพื่อประโยชน์ตัวเอง",
+    "translations": {
+     "zh": "贪污；舞弊",
+     "en": "to be corrupt, to cheat"
+    },
+    "examples": [
+     {
+      "text": "เจ้าหน้าที่คนนั้นถูกจับเพราะทุจริต",
+      "translations": {
+       "zh": "那名官员因贪污被抓。",
+       "en": "That official was arrested for corruption."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จังหวัด",
+  "phonetic": "changwat",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "jang-wàt · 中, 低",
+   "classifier": "จังหวัด（个府）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เขตการปกครองของไทย",
+    "translations": {
+     "zh": "府（泰国的一级行政区，相当于省）",
+     "en": "province"
+    },
+    "examples": [
+     {
+      "text": "ประเทศไทยมีเจ็ดสิบเจ็ดจังหวัด",
+      "translations": {
+       "zh": "泰国有七十七个府。",
+       "en": "Thailand has 77 provinces."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อำเภอ",
+  "phonetic": "amphoe",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "am-phəə · 中, 中",
+   "classifier": "อำเภอ（个县）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เขตปกครองที่เล็กกว่าจังหวัด",
+    "translations": {
+     "zh": "县；区",
+     "en": "district"
+    },
+    "examples": [
+     {
+      "text": "ต้องไปแจ้งที่ว่าการอำเภอ",
+      "translations": {
+       "zh": "得去县政府办理。",
+       "en": "You have to go to the district office."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ท้องถิ่น",
+  "phonetic": "thong thin",
+  "cefr": "B2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "thɔ́ɔng-thìn · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พื้นที่หรือชุมชนในแต่ละแห่ง",
+    "translations": {
+     "zh": "地方；当地",
+     "en": "locality, local area"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้ขายอาหารท้องถิ่น",
+      "translations": {
+       "zh": "这家店卖当地菜。",
+       "en": "This shop sells local food."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชุมชน",
+  "phonetic": "chumchon",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "chum-chon · 中, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กลุ่มคนที่อยู่ในพื้นที่เดียวกัน",
+    "translations": {
+     "zh": "社区",
+     "en": "community"
+    },
+    "examples": [
+     {
+      "text": "ชุมชนนี้ช่วยกันเก็บขยะ",
+      "translations": {
+       "zh": "这个社区一起捡垃圾。",
+       "en": "This community collects rubbish together."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พลเมือง",
+  "phonetic": "phonlamueang",
+  "cefr": "B2",
+  "frequencyRank": 6100,
+  "grammarNotes": {
+   "toneMarks": "phon-lá-mʉang · 中, 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เป็นสมาชิกของประเทศ",
+    "translations": {
+     "zh": "公民",
+     "en": "citizen"
+    },
+    "examples": [
+     {
+      "text": "พลเมืองดีต้องเคารพกฎหมาย",
+      "translations": {
+       "zh": "好公民要遵守法律。",
+       "en": "Good citizens respect the law."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สัญชาติ",
+  "phonetic": "sanchat",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "sǎn-châat · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การเป็นคนของประเทศใดประเทศหนึ่ง",
+    "translations": {
+     "zh": "国籍",
+     "en": "nationality"
+    },
+    "examples": [
+     {
+      "text": "คุณมีสัญชาติอะไรครับ",
+      "translations": {
+       "zh": "您是哪国国籍？",
+       "en": "What is your nationality?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต่างประเทศ",
+  "phonetic": "tang prathet",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "tàang-prà-thêet · 低, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ประเทศอื่นที่ไม่ใช่ประเทศของเรา",
+    "translations": {
+     "zh": "外国；国外",
+     "en": "abroad, foreign country"
+    },
+    "examples": [
+     {
+      "text": "ลูกสาวไปเรียนต่างประเทศ",
+      "translations": {
+       "zh": "女儿出国读书了。",
+       "en": "Our daughter went to study abroad."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สถานทูต",
+  "phonetic": "sathan thut",
+  "cefr": "B1",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "toneMarks": "sà-thǎan-thûut · 低, 升, 降",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สำนักงานของรัฐบาลประเทศหนึ่งในอีกประเทศ",
+    "translations": {
+     "zh": "大使馆",
+     "en": "embassy"
+    },
+    "examples": [
+     {
+      "text": "ฉันต้องไปขอวีซ่าที่สถานทูต",
+      "translations": {
+       "zh": "我得去大使馆办签证。",
+       "en": "I need to apply for a visa at the embassy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประกาศ",
+  "phonetic": "prakat",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "prà-kàat · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้คนทั่วไปรู้",
+    "translations": {
+     "zh": "宣布；公告",
+     "en": "to announce"
+    },
+    "examples": [
+     {
+      "text": "โรงเรียนประกาศหยุดเรียนพรุ่งนี้",
+      "translations": {
+       "zh": "学校宣布明天停课。",
+       "en": "The school announced classes are off tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สงคราม",
+  "phonetic": "songkhram",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "sǒng-khraam · 升, 中",
+   "classifier": "ครั้ง（次）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การต่อสู้กันด้วยอาวุธระหว่างประเทศหรือกลุ่ม",
+    "translations": {
+     "zh": "战争",
+     "en": "war"
+    },
+    "examples": [
+     {
+      "text": "สงครามทำให้คนตายมากมาย",
+      "translations": {
+       "zh": "战争使很多人死去。",
+       "en": "War kills many people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สันติภาพ",
+  "phonetic": "santiphap",
+  "cefr": "B2",
+  "frequencyRank": 5700,
+  "grammarNotes": {
+   "toneMarks": "sǎn-tì-phâap · 升, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาวะที่ไม่มีสงคราม",
+    "translations": {
+     "zh": "和平",
+     "en": "peace"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนอยากให้โลกมีสันติภาพ",
+      "translations": {
+       "zh": "大家都希望世界和平。",
+       "en": "Everyone wants peace in the world."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สภา",
+  "phonetic": "sapha",
+  "cefr": "B2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "sà-phaa · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ประชุมของผู้แทนที่ออกกฎหมาย",
+    "translations": {
+     "zh": "议会；委员会",
+     "en": "parliament, council"
+    },
+    "examples": [
+     {
+      "text": "สภากำลังพิจารณากฎหมายใหม่",
+      "translations": {
+       "zh": "议会正在审议新法律。",
+       "en": "Parliament is considering a new law."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กฎหมาย",
+  "phonetic": "kotmai",
+  "cefr": "B1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "kòt-mǎai · 低, 升",
+   "classifier": "ฉบับ（部）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อบังคับที่ทุกคนต้องทำตาม",
+    "translations": {
+     "zh": "法律",
+     "en": "law"
+    },
+    "examples": [
+     {
+      "text": "ขับรถเร็วเกินไปผิดกฎหมาย",
+      "translations": {
+       "zh": "开车超速是违法的。",
+       "en": "Speeding is against the law."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สิทธิ",
+  "phonetic": "sitthi",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "sìt-thí · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่คนควรได้รับตามกฎหมาย",
+    "translations": {
+     "zh": "权利",
+     "en": "right(s)"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนมีสิทธิเลือกตั้ง",
+      "translations": {
+       "zh": "每个人都有选举权。",
+       "en": "Everyone has the right to vote."
+      }
+     }
+    ],
+    "usageNote": "也写作 สิทธิ์。"
+   }
+  ]
+ },
+ {
+  "headword": "หน้าที่",
+  "phonetic": "na thi",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "nâa-thîi · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "งานหรือสิ่งที่ต้องทำ",
+    "translations": {
+     "zh": "职责；义务",
+     "en": "duty, responsibility"
+    },
+    "examples": [
+     {
+      "text": "เสียภาษีเป็นหน้าที่ของประชาชน",
+      "translations": {
+       "zh": "纳税是公民的义务。",
+       "en": "Paying tax is a citizen's duty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ศาล",
+  "phonetic": "san",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "sǎan · 升",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ตัดสินคดี",
+    "translations": {
+     "zh": "法院",
+     "en": "court"
+    },
+    "examples": [
+     {
+      "text": "ศาลจะตัดสินคดีนี้เดือนหน้า",
+      "translations": {
+       "zh": "法院下个月对此案作出判决。",
+       "en": "The court will rule on this case next month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้พิพากษา",
+  "phonetic": "phu phiphaksa",
+  "cefr": "B2",
+  "frequencyRank": 6900,
+  "grammarNotes": {
+   "toneMarks": "phûu-phí-phâak-sǎa · 降, 高, 降, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ตัดสินคดีในศาล",
+    "translations": {
+     "zh": "法官",
+     "en": "judge"
+    },
+    "examples": [
+     {
+      "text": "ผู้พิพากษาอ่านคำตัดสิน",
+      "translations": {
+       "zh": "法官宣读了判决。",
+       "en": "The judge read out the verdict."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คดี",
+  "phonetic": "khadi",
+  "cefr": "B2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "khá-dii · 高, 中",
+   "classifier": "คดี（起）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องที่ต้องตัดสินกันในศาล",
+    "translations": {
+     "zh": "案件；官司",
+     "en": "(legal) case"
+    },
+    "examples": [
+     {
+      "text": "ตำรวจกำลังสืบคดีนี้",
+      "translations": {
+       "zh": "警察正在调查这个案子。",
+       "en": "The police are investigating this case."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฟ้อง",
+  "phonetic": "fong",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "fɔ́ɔng · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยื่นเรื่องให้ศาลตัดสิน; บอกความผิดของคนอื่น",
+    "translations": {
+     "zh": "起诉；告状",
+     "en": "to sue; to tell on"
+    },
+    "examples": [
+     {
+      "text": "เขาฟ้องบริษัทเรื่องค่าจ้าง",
+      "translations": {
+       "zh": "他因为工资起诉了公司。",
+       "en": "He sued the company over his wages."
+      }
+     }
+    ],
+    "usageNote": "小孩“告状”也用 ฟ้อง：ฟ้องแม่。"
+   }
+  ]
+ },
+ {
+  "headword": "คุก",
+  "phonetic": "khuk",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "khúk · 高",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ขังคนที่ทำผิดกฎหมาย",
+    "translations": {
+     "zh": "监狱",
+     "en": "prison, jail"
+    },
+    "examples": [
+     {
+      "text": "เขาติดคุกห้าปี",
+      "translations": {
+       "zh": "他坐了五年牢。",
+       "en": "He was in prison for five years."
+      }
+     }
+    ],
+    "usageNote": "ติดคุก = 坐牢，正式说法是 เรือนจำ。"
+   }
+  ]
+ },
+ {
+  "headword": "ผิดกฎหมาย",
+  "phonetic": "phit kotmai",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "phìt-kòt-mǎai · 低, 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ถูกตามกฎหมาย",
+    "translations": {
+     "zh": "违法的",
+     "en": "illegal"
+    },
+    "examples": [
+     {
+      "text": "การขายของนี้ผิดกฎหมาย",
+      "translations": {
+       "zh": "卖这种东西是违法的。",
+       "en": "Selling this is illegal."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาชญากรรม",
+  "phonetic": "atchayakam",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "toneMarks": "àat-chá-yaa-kam · 低, 高, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การกระทำที่ผิดกฎหมายร้ายแรง",
+    "translations": {
+     "zh": "犯罪",
+     "en": "crime"
+    },
+    "examples": [
+     {
+      "text": "อาชญากรรมในเมืองนี้ลดลง",
+      "translations": {
+       "zh": "这个城市的犯罪减少了。",
+       "en": "Crime in this city has gone down."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โจร",
+  "phonetic": "chon",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "joon · 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ปล้นหรือขโมยของ",
+    "translations": {
+     "zh": "强盗；贼",
+     "en": "robber, bandit"
+    },
+    "examples": [
+     {
+      "text": "โจรขึ้นบ้านเมื่อคืน",
+      "translations": {
+       "zh": "昨晚家里进贼了。",
+       "en": "A burglar broke into the house last night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขโมย",
+  "phonetic": "khamoi",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "khà-mooi · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาของคนอื่นไปโดยไม่ได้รับอนุญาต",
+    "translations": {
+     "zh": "偷",
+     "en": "to steal"
+    },
+    "examples": [
+     {
+      "text": "มีคนขโมยกระเป๋าของฉัน",
+      "translations": {
+       "zh": "有人偷了我的包。",
+       "en": "Someone stole my bag."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ลักของ",
+    "translations": {
+     "zh": "小偷",
+     "en": "thief"
+    },
+    "examples": [
+     {
+      "text": "ระวังขโมยในตลาดนะ",
+      "translations": {
+       "zh": "在市场里小心小偷。",
+       "en": "Watch out for thieves in the market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปล้น",
+  "phonetic": "plon",
+  "cefr": "B2",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "toneMarks": "plôn · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้กำลังเอาของคนอื่นไป",
+    "translations": {
+     "zh": "抢劫",
+     "en": "to rob"
+    },
+    "examples": [
+     {
+      "text": "คนร้ายปล้นร้านทอง",
+      "translations": {
+       "zh": "歹徒抢劫了金店。",
+       "en": "Criminals robbed a gold shop."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หลักฐาน",
+  "phonetic": "lakthan",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "làk-thǎan · 低, 升",
+   "classifier": "ชิ้น（件）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่แสดงว่าเรื่องจริง",
+    "translations": {
+     "zh": "证据；凭证",
+     "en": "evidence, proof"
+    },
+    "examples": [
+     {
+      "text": "ตำรวจยังไม่มีหลักฐาน",
+      "translations": {
+       "zh": "警方还没有证据。",
+       "en": "The police have no evidence yet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พยาน",
+  "phonetic": "phayan",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "phá-yaan · 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เห็นเหตุการณ์",
+    "translations": {
+     "zh": "证人；目击者",
+     "en": "witness"
+    },
+    "examples": [
+     {
+      "text": "ตำรวจกำลังหาพยาน",
+      "translations": {
+       "zh": "警察在找目击者。",
+       "en": "The police are looking for witnesses."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่าปรับ",
+  "phonetic": "kha prap",
+  "cefr": "B1",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "khâa-pràp · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ต้องจ่ายเพราะทำผิดกฎ",
+    "translations": {
+     "zh": "罚款",
+     "en": "fine (penalty)"
+    },
+    "examples": [
+     {
+      "text": "จอดรถตรงนี้เสียค่าปรับห้าร้อยบาท",
+      "translations": {
+       "zh": "在这里停车罚五百泰铢。",
+       "en": "Parking here costs a 500-baht fine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใบขับขี่",
+  "phonetic": "bai khap khi",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "bai-khàp-khìi · 中, 低, 低",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "บัตรที่อนุญาตให้ขับรถ",
+    "translations": {
+     "zh": "驾照",
+     "en": "driving licence"
+    },
+    "examples": [
+     {
+      "text": "คุณมีใบขับขี่ไทยไหม",
+      "translations": {
+       "zh": "你有泰国驾照吗？",
+       "en": "Do you have a Thai driving licence?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บัตรประชาชน",
+  "phonetic": "bat prachachon",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "bàt-prà-chaa-chon · 低, 低, 中, 中",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "บัตรแสดงตัวของคนไทย",
+    "translations": {
+     "zh": "身份证",
+     "en": "ID card"
+    },
+    "examples": [
+     {
+      "text": "กรุณาแสดงบัตรประชาชนค่ะ",
+      "translations": {
+       "zh": "请出示身份证。",
+       "en": "Please show your ID card."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สถานีตำรวจ",
+  "phonetic": "sathani tamruat",
+  "cefr": "B1",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "toneMarks": "sà-thǎa-nii-tam-rùat · 低, 升, 中, 中, 低",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ทำงานของตำรวจ",
+    "translations": {
+     "zh": "警察局",
+     "en": "police station"
+    },
+    "examples": [
+     {
+      "text": "สถานีตำรวจอยู่ใกล้ตลาด",
+      "translations": {
+       "zh": "警察局在市场附近。",
+       "en": "The police station is near the market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แจ้งความ",
+  "phonetic": "chaeng khwam",
+  "cefr": "B1",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "jɛ̂ɛng-khwaam · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปบอกตำรวจเรื่องที่เกิดขึ้น",
+    "translations": {
+     "zh": "报案；报警",
+     "en": "to report to the police"
+    },
+    "examples": [
+     {
+      "text": "ฉันไปแจ้งความว่ากระเป๋าหาย",
+      "translations": {
+       "zh": "我去报案说包丢了。",
+       "en": "I reported my lost bag to the police."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ละเมิด",
+  "phonetic": "lamoet",
+  "cefr": "B2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "toneMarks": "lá-mə̂ət · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำผิดกฎหรือล่วงสิทธิคนอื่น",
+    "translations": {
+     "zh": "侵犯；违反",
+     "en": "to violate, to infringe"
+    },
+    "examples": [
+     {
+      "text": "การทำแบบนี้ละเมิดสิทธิผู้อื่น",
+      "translations": {
+       "zh": "这样做侵犯了他人的权利。",
+       "en": "Doing this violates other people's rights."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยุติธรรม",
+  "phonetic": "yutitham",
+  "cefr": "B2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "yú-tì-tham · 高, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ถูกต้องและเท่าเทียมกันกับทุกคน",
+    "translations": {
+     "zh": "公平；公正",
+     "en": "fair, just"
+    },
+    "examples": [
+     {
+      "text": "แบบนี้ไม่ยุติธรรมเลย",
+      "translations": {
+       "zh": "这样一点也不公平。",
+       "en": "This isn't fair at all."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปลอดภัย",
+  "phonetic": "plotphai",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "plɔ̀ɔt-phai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีอันตราย",
+    "translations": {
+     "zh": "安全",
+     "en": "safe"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่ปลอดภัยตอนกลางคืนไหม",
+      "translations": {
+       "zh": "这里晚上安全吗？",
+       "en": "Is it safe here at night?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อนุญาต",
+  "phonetic": "anuyat",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "à-nú-yâat · 低, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้ทำได้",
+    "translations": {
+     "zh": "允许；准许",
+     "en": "to permit, to allow"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่ไม่อนุญาตให้สูบบุหรี่",
+      "translations": {
+       "zh": "这里不允许吸烟。",
+       "en": "Smoking is not allowed here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ห้าม",
+  "phonetic": "ham",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "hâam · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ให้ทำ",
+    "translations": {
+     "zh": "禁止；不准",
+     "en": "to forbid, to prohibit"
+    },
+    "examples": [
+     {
+      "text": "ห้ามจอดรถหน้าประตู",
+      "translations": {
+       "zh": "门前禁止停车。",
+       "en": "No parking in front of the gate."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กฎ",
+  "phonetic": "kot",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "kòt · 低",
+   "classifier": "ข้อ（条）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อที่ต้องทำตาม",
+    "translations": {
+     "zh": "规则；规定",
+     "en": "rule"
+    },
+    "examples": [
+     {
+      "text": "โรงเรียนนี้มีกฎเยอะ",
+      "translations": {
+       "zh": "这所学校规矩很多。",
+       "en": "This school has a lot of rules."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ระเบียบ",
+  "phonetic": "rabiap",
+  "cefr": "B2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "rá-bìap · 高, 低",
+   "classifier": "ข้อ（条）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อบังคับ; ความเรียบร้อย",
+    "translations": {
+     "zh": "规章；秩序",
+     "en": "regulation; order"
+    },
+    "examples": [
+     {
+      "text": "ต้องทำตามระเบียบของบริษัท",
+      "translations": {
+       "zh": "必须遵守公司规章。",
+       "en": "You must follow company regulations."
+      }
+     }
+    ],
+    "usageNote": "เรียบร้อย 是“整齐、妥当”，别混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "บทความ",
+  "phonetic": "botkhwam",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "bòt-khwaam · 低, 中",
+   "classifier": "บท（篇）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "งานเขียนเรื่องหนึ่งในหนังสือพิมพ์หรือเว็บ",
+    "translations": {
+     "zh": "文章",
+     "en": "article"
+    },
+    "examples": [
+     {
+      "text": "ฉันอ่านบทความนี้ในเว็บ",
+      "translations": {
+       "zh": "我在网上读了这篇文章。",
+       "en": "I read this article online."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โซเชียลมีเดีย",
+  "phonetic": "sochian midia",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "soo-chian-mii-dia · 中, 中, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เว็บหรือแอปที่คนใช้แชร์และคุยกัน",
+    "translations": {
+     "zh": "社交媒体",
+     "en": "social media"
+    },
+    "examples": [
+     {
+      "text": "เด็กสมัยนี้ใช้โซเชียลมีเดียทั้งวัน",
+      "translations": {
+       "zh": "现在的孩子整天刷社交媒体。",
+       "en": "Kids today use social media all day."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 โซเชียล。"
+   }
+  ]
+ },
+ {
+  "headword": "โฆษณา",
+  "phonetic": "khotsana",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "khôot-sà-naa · 降, 低, 中",
+   "classifier": "ชิ้น（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อความหรือภาพที่ชวนให้ซื้อสินค้า",
+    "translations": {
+     "zh": "广告",
+     "en": "advertisement"
+    },
+    "examples": [
+     {
+      "text": "โฆษณานี้ตลกมาก",
+      "translations": {
+       "zh": "这个广告很好笑。",
+       "en": "This advert is really funny."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้คนรู้จักสินค้าเพื่อขาย",
+    "translations": {
+     "zh": "做广告；宣传",
+     "en": "to advertise"
+    },
+    "examples": [
+     {
+      "text": "ร้านเราโฆษณาในเฟซบุ๊ก",
+      "translations": {
+       "zh": "我们店在脸书上做广告。",
+       "en": "Our shop advertises on Facebook."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนังสือพิมพ์",
+  "phonetic": "nangsuephim",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "nǎng-sʉ̌ʉ-phim · 升, 升, 中",
+   "classifier": "ฉบับ（份）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กระดาษที่พิมพ์ข่าวออกทุกวัน",
+    "translations": {
+     "zh": "报纸",
+     "en": "newspaper"
+    },
+    "examples": [
+     {
+      "text": "ปู่อ่านหนังสือพิมพ์ทุกเช้า",
+      "translations": {
+       "zh": "爷爷每天早上看报纸。",
+       "en": "Grandpa reads the newspaper every morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นิตยสาร",
+  "phonetic": "nittayasan",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "nít-tà-yá-sǎan · 高, 低, 高, 升",
+   "classifier": "เล่ม（本）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หนังสือที่ออกเป็นรายสัปดาห์หรือรายเดือน",
+    "translations": {
+     "zh": "杂志",
+     "en": "magazine"
+    },
+    "examples": [
+     {
+      "text": "เธอชอบอ่านนิตยสารแฟชั่น",
+      "translations": {
+       "zh": "她喜欢看时尚杂志。",
+       "en": "She likes reading fashion magazines."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สื่อ",
+  "phonetic": "sue",
+  "cefr": "B2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sʉ̀ʉ · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ช่องทางส่งข่าวสาร เช่น ทีวี หนังสือพิมพ์",
+    "translations": {
+     "zh": "媒体；媒介",
+     "en": "media"
+    },
+    "examples": [
+     {
+      "text": "สื่อให้ความสนใจเรื่องนี้มาก",
+      "translations": {
+       "zh": "媒体非常关注这件事。",
+       "en": "The media are paying a lot of attention to this."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รายการ",
+  "phonetic": "raikan",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "raai-kaan · 中, 中",
+   "classifier": "รายการ（个节目）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "โปรแกรมในทีวีหรือวิทยุ",
+    "translations": {
+     "zh": "节目",
+     "en": "programme, show"
+    },
+    "examples": [
+     {
+      "text": "รายการนี้ออกทุกคืนวันศุกร์",
+      "translations": {
+       "zh": "这个节目每周五晚上播出。",
+       "en": "This show airs every Friday night."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "ชุดของสิ่งที่เขียนเรียงกัน",
+    "translations": {
+     "zh": "清单；项目",
+     "en": "list, item"
+    },
+    "examples": [
+     {
+      "text": "ช่วยเช็กรายการอาหารให้หน่อย",
+      "translations": {
+       "zh": "帮我核对一下点的菜。",
+       "en": "Please check the list of dishes for me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ออกอากาศ",
+  "phonetic": "ok akat",
+  "cefr": "B2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "toneMarks": "ɔ̀ɔk-aa-kàat · 低, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งรายการทางทีวีหรือวิทยุ",
+    "translations": {
+     "zh": "播出；广播",
+     "en": "to broadcast, to air"
+    },
+    "examples": [
+     {
+      "text": "ละครเรื่องนี้ออกอากาศสองทุ่ม",
+      "translations": {
+       "zh": "这部剧晚上八点播出。",
+       "en": "This drama airs at 8 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข่าวลือ",
+  "phonetic": "khao lue",
+  "cefr": "B2",
+  "frequencyRank": 6300,
+  "grammarNotes": {
+   "toneMarks": "khàao-lʉʉ · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องที่คนพูดต่อกันแต่ไม่รู้ว่าจริงไหม",
+    "translations": {
+     "zh": "谣言；传闻",
+     "en": "rumour"
+    },
+    "examples": [
+     {
+      "text": "อย่าเชื่อข่าวลือในเน็ต",
+      "translations": {
+       "zh": "别相信网上的谣言。",
+       "en": "Don't believe rumours online."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

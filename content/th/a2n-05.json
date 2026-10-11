@@ -1,0 +1,1580 @@
+[
+  {
+    "headword": "บทเรียน",
+    "phonetic": "bot rian",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "bòt-rian · 低, 中",
+      "classifier": "บท（课）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่เรียนในแต่ละครั้ง",
+        "translations": {
+          "zh": "课；课文",
+          "en": "lesson"
+        },
+        "examples": [
+          {
+            "text": "วันนี้เรียนบทเรียนที่ห้า",
+            "translations": {
+              "zh": "今天学第五课。",
+              "en": "Today we're studying lesson five."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปริญญา",
+    "phonetic": "parinya",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "pà-rin-yaa · 低, 中, 中",
+      "classifier": "ใบ（张，证书）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วุฒิที่ได้เมื่อเรียนจบมหาวิทยาลัย",
+        "translations": {
+          "zh": "学位",
+          "en": "university degree"
+        },
+        "examples": [
+          {
+            "text": "เขาได้ปริญญาตรีปีนี้",
+            "translations": {
+              "zh": "他今年拿到了学士学位。",
+              "en": "He got his bachelor's degree this year."
+            }
+          }
+        ],
+        "usageNote": "学士/硕士/博士 = ปริญญาตรี/โท/เอก。"
+      }
+    ]
+  },
+  {
+    "headword": "สงกรานต์",
+    "phonetic": "songkran",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "sǒng-kraan · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วันปีใหม่ไทย กลางเดือนเมษายน คนเล่นสาดน้ำกัน",
+        "translations": {
+          "zh": "宋干节；泼水节",
+          "en": "Songkran (Thai New Year)"
+        },
+        "examples": [
+          {
+            "text": "สงกรานต์ปีนี้จะกลับบ้านต่างจังหวัด",
+            "translations": {
+              "zh": "今年泼水节要回老家。",
+              "en": "I'm going back to my home province for Songkran this year."
+            }
+          }
+        ],
+        "usageNote": "每年 4 月 13–15 日，是泰国传统新年。"
+      }
+    ]
+  },
+  {
+    "headword": "ลอยกระทง",
+    "phonetic": "loi krathong",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "lɔɔi-krà-thong · 中, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ประเพณีลอยกระทงในแม่น้ำ คืนพระจันทร์เต็มดวงเดือนสิบสอง",
+        "translations": {
+          "zh": "水灯节",
+          "en": "Loy Krathong festival"
+        },
+        "examples": [
+          {
+            "text": "คืนลอยกระทงคนไปที่แม่น้ำเยอะมาก",
+            "translations": {
+              "zh": "水灯节晚上很多人去河边。",
+              "en": "On Loy Krathong night lots of people go to the river."
+            }
+          }
+        ],
+        "usageNote": "泰历十二月月圆之夜（一般在 11 月）。"
+      }
+    ]
+  },
+  {
+    "headword": "กระทง",
+    "phonetic": "krathong",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "krà-thong · 低, 中",
+      "classifier": "ใบ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ทำจากใบตองและดอกไม้ ใช้ลอยน้ำ",
+        "translations": {
+          "zh": "水灯（花灯）",
+          "en": "krathong (floating offering)"
+        },
+        "examples": [
+          {
+            "text": "เราช่วยกันทำกระทงจากใบตอง",
+            "translations": {
+              "zh": "我们一起用芭蕉叶做水灯。",
+              "en": "We made a krathong out of banana leaves together."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไหว้",
+    "phonetic": "wai",
+    "cefr": "A2",
+    "frequencyRank": 1400,
+    "grammarNotes": {
+      "toneMarks": "wâi · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยกมือพนมขึ้นเพื่อทักทายหรือแสดงความเคารพ",
+        "translations": {
+          "zh": "行合十礼；拜",
+          "en": "to wai, to greet with palms pressed together"
+        },
+        "examples": [
+          {
+            "text": "เด็กๆ ไหว้คุณครู",
+            "translations": {
+              "zh": "孩子们向老师行合十礼。",
+              "en": "The children wai the teacher."
+            }
+          }
+        ],
+        "usageNote": "泰国最基本的礼节：双手合十，对长辈手要举得更高；拜佛也用 ไหว้พระ。"
+      }
+    ]
+  },
+  {
+    "headword": "ตรุษจีน",
+    "phonetic": "trut chin",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "trùt-jiin · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วันปีใหม่ของคนจีน",
+        "translations": {
+          "zh": "春节；中国新年",
+          "en": "Chinese New Year"
+        },
+        "examples": [
+          {
+            "text": "ตรุษจีนที่เยาวราชคนเยอะมาก",
+            "translations": {
+              "zh": "春节的唐人街人山人海。",
+              "en": "Chinatown is packed at Chinese New Year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปีใหม่",
+    "phonetic": "pi mai",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "pii-mài · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วันแรกของปี หรือช่วงวันหยุดต้นปี",
+        "translations": {
+          "zh": "新年",
+          "en": "New Year"
+        },
+        "examples": [
+          {
+            "text": "สวัสดีปีใหม่ครับ",
+            "translations": {
+              "zh": "新年快乐！",
+              "en": "Happy New Year!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วันเกิด",
+    "phonetic": "wan koet",
+    "cefr": "A2",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "toneMarks": "wan-kə̀ət · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วันที่เกิดของแต่ละคน",
+        "translations": {
+          "zh": "生日",
+          "en": "birthday"
+        },
+        "examples": [
+          {
+            "text": "สุขสันต์วันเกิดนะ",
+            "translations": {
+              "zh": "生日快乐哦！",
+              "en": "Happy birthday!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เทศกาล",
+    "phonetic": "thetsakan",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "thêet-sà-kaan · 降, 低, 中",
+      "classifier": "เทศกาล（个节日）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเวลาที่มีงานฉลองตามประเพณี",
+        "translations": {
+          "zh": "节日；节庆",
+          "en": "festival"
+        },
+        "examples": [
+          {
+            "text": "เทศกาลกินเจที่ภูเก็ตดังมาก",
+            "translations": {
+              "zh": "普吉的九皇斋节很有名。",
+              "en": "The Vegetarian Festival in Phuket is very famous."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พระพุทธรูป",
+    "phonetic": "phra phuttharup",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phrá-phút-thá-rûup · 高, 高, 高, 降",
+      "classifier": "องค์（尊）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รูปปั้นของพระพุทธเจ้า",
+        "translations": {
+          "zh": "佛像",
+          "en": "Buddha image"
+        },
+        "examples": [
+          {
+            "text": "ในวัดมีพระพุทธรูปองค์ใหญ่",
+            "translations": {
+              "zh": "寺里有一尊大佛像。",
+              "en": "There is a large Buddha image in the temple."
+            }
+          }
+        ],
+        "usageNote": "佛像要用量词 องค์，不能用 ตัว。"
+      }
+    ]
+  },
+  {
+    "headword": "บุญ",
+    "phonetic": "bun",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "bun · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลดีที่ได้จากการทำความดี",
+        "translations": {
+          "zh": "功德；福报",
+          "en": "merit"
+        },
+        "examples": [
+          {
+            "text": "ไปวัดทำบุญวันเกิด",
+            "translations": {
+              "zh": "生日去寺庙做功德。",
+              "en": "I go to the temple to make merit on my birthday."
+            }
+          }
+        ],
+        "usageNote": "\"做功德\"说 ทำบุญ，泰国人生日、节日常去寺庙布施。"
+      }
+    ]
+  },
+  {
+    "headword": "วันพระ",
+    "phonetic": "wan phra",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "wan-phrá · 中, 高",
+      "classifier": "วัน（天）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วันสำคัญทางพุทธศาสนา คนไปวัดทำบุญ",
+        "translations": {
+          "zh": "佛日；斋日",
+          "en": "Buddhist holy day"
+        },
+        "examples": [
+          {
+            "text": "วันพระคุณยายไปวัดแต่เช้า",
+            "translations": {
+              "zh": "佛日外婆一大早去寺庙。",
+              "en": "On Buddhist holy days Grandma goes to the temple early."
+            }
+          }
+        ],
+        "usageNote": "按月相每月约四天，有的地方当天不卖酒。"
+      }
+    ]
+  },
+  {
+    "headword": "ธงชาติ",
+    "phonetic": "thong chat",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "thong-châat · 中, 降",
+      "classifier": "ผืน（面）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ธงที่เป็นเครื่องหมายของประเทศ",
+        "translations": {
+          "zh": "国旗",
+          "en": "national flag"
+        },
+        "examples": [
+          {
+            "text": "ธงชาติไทยมีสามสี",
+            "translations": {
+              "zh": "泰国国旗有三种颜色。",
+              "en": "The Thai flag has three colours."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผ้าไหม",
+    "phonetic": "pha mai",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "phâa-mǎi · 降, 升",
+      "classifier": "ผืน（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผ้าที่ทำจากเส้นไหม",
+        "translations": {
+          "zh": "丝绸",
+          "en": "silk"
+        },
+        "examples": [
+          {
+            "text": "ผ้าไหมไทยเป็นของฝากที่ดี",
+            "translations": {
+              "zh": "泰丝是很好的伴手礼。",
+              "en": "Thai silk makes a good souvenir."
+            }
+          }
+        ],
+        "usageNote": "注意 ไหม（升调）在这里是\"丝\"，和疑问词 ไหม 同形。"
+      }
+    ]
+  },
+  {
+    "headword": "นวดแผนไทย",
+    "phonetic": "nuat phaen thai",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "nûat-phɛ̌ɛn-thai · 降, 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การนวดแบบโบราณของไทย",
+        "translations": {
+          "zh": "泰式按摩",
+          "en": "Thai massage"
+        },
+        "examples": [
+          {
+            "text": "นวดแผนไทยชั่วโมงละสามร้อยบาท",
+            "translations": {
+              "zh": "泰式按摩一小时三百铢。",
+              "en": "Thai massage is three hundred baht an hour."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ร้านนวด",
+    "phonetic": "ran nuat",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "ráan-nûat · 高, 降",
+      "classifier": "ร้าน（家）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ร้านที่ให้บริการนวด",
+        "translations": {
+          "zh": "按摩店",
+          "en": "massage shop"
+        },
+        "examples": [
+          {
+            "text": "ร้านนวดนี้คนเยอะ",
+            "translations": {
+              "zh": "这家按摩店人很多。",
+              "en": "This massage shop is busy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "งานวัด",
+    "phonetic": "ngan wat",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "ngaan-wát · 中, 高",
+      "classifier": "งาน（场）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "งานรื่นเริงที่จัดในวัด มีของกินและของเล่น",
+        "translations": {
+          "zh": "庙会",
+          "en": "temple fair"
+        },
+        "examples": [
+          {
+            "text": "เด็กๆ ชอบไปเที่ยวงานวัด",
+            "translations": {
+              "zh": "孩子们喜欢逛庙会。",
+              "en": "Kids love going to temple fairs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "งานแต่งงาน",
+    "phonetic": "ngan taeng ngan",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "ngaan-tɛ̀ng-ngaan · 中, 低, 中",
+      "classifier": "งาน（场）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "งานฉลองการแต่งงาน",
+        "translations": {
+          "zh": "婚礼",
+          "en": "wedding"
+        },
+        "examples": [
+          {
+            "text": "เพื่อนชวนไปงานแต่งงานเดือนหน้า",
+            "translations": {
+              "zh": "朋友邀请我下个月去参加婚礼。",
+              "en": "A friend invited me to a wedding next month."
+            }
+          }
+        ],
+        "usageNote": "口语常说 งานแต่ง。"
+      }
+    ]
+  },
+  {
+    "headword": "ประเพณี",
+    "phonetic": "praphenni",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "prà-phee-nii · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่คนทำต่อกันมานาน",
+        "translations": {
+          "zh": "传统；习俗",
+          "en": "tradition, custom"
+        },
+        "examples": [
+          {
+            "text": "การรดน้ำผู้ใหญ่เป็นประเพณีวันสงกรานต์",
+            "translations": {
+              "zh": "给长辈浇水是宋干节的传统。",
+              "en": "Pouring water on elders' hands is a Songkran tradition."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วัฒนธรรม",
+    "phonetic": "watthanatham",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "wát-thá-ná-tham · 高, 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความคิด ภาษา อาหาร และประเพณีของคนกลุ่มหนึ่ง",
+        "translations": {
+          "zh": "文化",
+          "en": "culture"
+        },
+        "examples": [
+          {
+            "text": "ฉันสนใจวัฒนธรรมไทย",
+            "translations": {
+              "zh": "我对泰国文化感兴趣。",
+              "en": "I'm interested in Thai culture."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดอกมะลิ",
+    "phonetic": "dok mali",
+    "cefr": "A2",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "dɔ̀ɔk-má-lí · 低, 高, 高",
+      "classifier": "ดอก（朵）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ดอกไม้สีขาวเล็กๆ กลิ่นหอม",
+        "translations": {
+          "zh": "茉莉花",
+          "en": "jasmine"
+        },
+        "examples": [
+          {
+            "text": "ดอกมะลิเป็นสัญลักษณ์ของวันแม่",
+            "translations": {
+              "zh": "茉莉花是母亲节的象征。",
+              "en": "Jasmine is the symbol of Mother's Day."
+            }
+          }
+        ],
+        "usageNote": "泰国母亲节在 8 月 12 日。"
+      }
+    ]
+  },
+  {
+    "headword": "พวงมาลัย",
+    "phonetic": "phuang malai",
+    "cefr": "A2",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "phuang-maa-lai · 中, 中, 中",
+      "classifier": "พวง（串）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ดอกไม้ที่ร้อยเป็นพวง ใช้ไหว้หรือให้คน",
+        "translations": {
+          "zh": "花环",
+          "en": "garland"
+        },
+        "examples": [
+          {
+            "text": "ซื้อพวงมาลัยไปไหว้พระ",
+            "translations": {
+              "zh": "买个花环去拜佛。",
+              "en": "Buy a garland to offer at the shrine."
+            }
+          }
+        ],
+        "usageNote": "也指汽车方向盘。"
+      }
+    ]
+  },
+  {
+    "headword": "ปืนฉีดน้ำ",
+    "phonetic": "puen chit nam",
+    "cefr": "A2",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "pʉʉn-chìit-náam · 中, 低, 高",
+      "classifier": "กระบอก（支）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของเล่นที่ฉีดน้ำได้",
+        "translations": {
+          "zh": "水枪",
+          "en": "water gun"
+        },
+        "examples": [
+          {
+            "text": "เด็กๆ ถือปืนฉีดน้ำเล่นสงกรานต์",
+            "translations": {
+              "zh": "孩子们拿着水枪过泼水节。",
+              "en": "The kids carry water guns for Songkran."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กับข้าว",
+    "phonetic": "kap khao",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "kàp-khâao · 低, 降",
+      "classifier": "อย่าง（样）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารที่กินกับข้าว",
+        "translations": {
+          "zh": "菜（配饭的菜）",
+          "en": "dishes (eaten with rice)"
+        },
+        "examples": [
+          {
+            "text": "วันนี้แม่ทำกับข้าวสามอย่าง",
+            "translations": {
+              "zh": "今天妈妈做了三个菜。",
+              "en": "Mum made three dishes today."
+            }
+          }
+        ],
+        "usageNote": "点几个菜时量词用 อย่าง。"
+      }
+    ]
+  },
+  {
+    "headword": "ของหวาน",
+    "phonetic": "khong wan",
+    "cefr": "A2",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "khɔ̌ɔng-wǎan · 升, 升",
+      "classifier": "อย่าง（样）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ขนมหรืออาหารรสหวานที่กินหลังอาหาร",
+        "translations": {
+          "zh": "甜点",
+          "en": "dessert"
+        },
+        "examples": [
+          {
+            "text": "กินของหวานอะไรดี",
+            "translations": {
+              "zh": "吃什么甜点好呢？",
+              "en": "What should we have for dessert?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำจิ้ม",
+    "phonetic": "nam chim",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "náam-jîm · 高, 降",
+      "classifier": "ถ้วย（碟）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำซอสสำหรับจิ้มอาหาร",
+        "translations": {
+          "zh": "蘸酱；蘸料",
+          "en": "dipping sauce"
+        },
+        "examples": [
+          {
+            "text": "ขอน้ำจิ้มเพิ่มหน่อยค่ะ",
+            "translations": {
+              "zh": "请再加点蘸酱。",
+              "en": "Could I have more dipping sauce, please?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำปลา",
+    "phonetic": "nam pla",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "náam-plaa · 高, 中",
+      "classifier": "ขวด（瓶）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำเค็มที่ทำจากปลา ใช้ปรุงอาหาร",
+        "translations": {
+          "zh": "鱼露",
+          "en": "fish sauce"
+        },
+        "examples": [
+          {
+            "text": "ใส่น้ำปลานิดหน่อย",
+            "translations": {
+              "zh": "放一点鱼露。",
+              "en": "Add a little fish sauce."
+            }
+          }
+        ],
+        "usageNote": "泰国菜最基本的咸味调料。"
+      }
+    ]
+  },
+  {
+    "headword": "ซีอิ๊ว",
+    "phonetic": "si-io",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "sii-íw · 中, 高",
+      "classifier": "ขวด（瓶）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ซอสสีดำทำจากถั่วเหลือง",
+        "translations": {
+          "zh": "酱油",
+          "en": "soy sauce"
+        },
+        "examples": [
+          {
+            "text": "ผัดซีอิ๊วใส่ซีอิ๊วดำ",
+            "translations": {
+              "zh": "炒粉加黑酱油。",
+              "en": "Phat si-io uses dark soy sauce."
+            }
+          }
+        ],
+        "usageNote": "来自潮州话\"豉油\"。"
+      }
+    ]
+  },
+  {
+    "headword": "เส้น",
+    "phonetic": "sen",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "sên · 降",
+      "classifier": "เส้น（根）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ก๋วยเตี๋ยวหรือของที่ยาวๆ เล็กๆ",
+        "translations": {
+          "zh": "面条；线",
+          "en": "noodles; line"
+        },
+        "examples": [
+          {
+            "text": "เอาเส้นเล็กหรือเส้นใหญ่ครับ",
+            "translations": {
+              "zh": "要细粉还是宽粉？",
+              "en": "Thin noodles or wide noodles?"
+            }
+          }
+        ],
+        "usageNote": "点粉面时常选：เส้นเล็ก（细粉）、เส้นใหญ่（宽粉）、บะหมี่（鸡蛋面）。也是长条物的量词。"
+      }
+    ]
+  },
+  {
+    "headword": "บะหมี่",
+    "phonetic": "bami",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "bà-mìi · 低, 低",
+      "classifier": "ชาม（碗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เส้นสีเหลืองที่ทำจากแป้งและไข่",
+        "translations": {
+          "zh": "鸡蛋面",
+          "en": "egg noodles"
+        },
+        "examples": [
+          {
+            "text": "บะหมี่หมูแดงหนึ่งชาม",
+            "translations": {
+              "zh": "一碗叉烧鸡蛋面。",
+              "en": "One bowl of egg noodles with red pork."
+            }
+          }
+        ],
+        "usageNote": "来自闽南/潮州话\"肉面\"。"
+      }
+    ]
+  },
+  {
+    "headword": "ไข่ดาว",
+    "phonetic": "khai dao",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "khài-daao · 低, 中",
+      "classifier": "ฟอง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ไข่ที่ทอดทั้งฟอง ไม่ตี",
+        "translations": {
+          "zh": "煎荷包蛋",
+          "en": "fried egg"
+        },
+        "examples": [
+          {
+            "text": "ข้าวกะเพราไข่ดาวหนึ่งจาน",
+            "translations": {
+              "zh": "一份打抛饭加煎蛋。",
+              "en": "One plate of basil stir-fry with rice and a fried egg."
+            }
+          }
+        ],
+        "usageNote": "字面\"星星蛋\"。"
+      }
+    ]
+  },
+  {
+    "headword": "ไข่เจียว",
+    "phonetic": "khai chiao",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "khài-jiaw · 低, 中",
+      "classifier": "จาน（盘）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ไข่ที่ตีแล้วทอดในน้ำมัน",
+        "translations": {
+          "zh": "泰式煎蛋饼",
+          "en": "Thai omelette"
+        },
+        "examples": [
+          {
+            "text": "ข้าวไข่เจียวทำง่ายและอร่อย",
+            "translations": {
+              "zh": "煎蛋饭简单又好吃。",
+              "en": "Omelette on rice is easy and tasty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้าวสวย",
+    "phonetic": "khao suai",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "khâao-sǔai · 降, 升",
+      "classifier": "จาน（盘）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้าวเจ้าที่หุงสุกแล้ว",
+        "translations": {
+          "zh": "白米饭",
+          "en": "steamed rice"
+        },
+        "examples": [
+          {
+            "text": "ขอข้าวสวยเพิ่มหนึ่งจาน",
+            "translations": {
+              "zh": "再加一份白饭。",
+              "en": "One more plate of steamed rice, please."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้าวต้ม",
+    "phonetic": "khao tom",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "khâao-tôm · 降, 降",
+      "classifier": "ถ้วย（碗）；ชาม（碗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้าวที่ต้มกับน้ำจนเปื่อย",
+        "translations": {
+          "zh": "泡饭；稀饭",
+          "en": "rice soup"
+        },
+        "examples": [
+          {
+            "text": "ไม่สบายกินข้าวต้มดีกว่า",
+            "translations": {
+              "zh": "不舒服的话吃稀饭好一点。",
+              "en": "When you're unwell, rice soup is better."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โจ๊ก",
+    "phonetic": "chok",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "jóok · 高",
+      "classifier": "ถ้วย（碗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้าวที่ต้มจนละเอียดข้นๆ",
+        "translations": {
+          "zh": "粥",
+          "en": "congee, rice porridge"
+        },
+        "examples": [
+          {
+            "text": "ตอนเช้าชอบกินโจ๊กหมู",
+            "translations": {
+              "zh": "早上喜欢吃猪肉粥。",
+              "en": "I like pork congee in the morning."
+            }
+          }
+        ],
+        "usageNote": "比 ข้าวต้ม 更稠更细，米粒煮化。"
+      }
+    ]
+  },
+  {
+    "headword": "แกง",
+    "phonetic": "kaeng",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "kɛɛng · 中",
+      "classifier": "ถ้วย（碗）；อย่าง（样）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารที่มีน้ำ ใส่เครื่องแกงหรือกะทิ",
+        "translations": {
+          "zh": "咖喱；汤菜",
+          "en": "curry"
+        },
+        "examples": [
+          {
+            "text": "แกงเขียวหวานเผ็ดนิดหน่อย",
+            "translations": {
+              "zh": "绿咖喱有点辣。",
+              "en": "Green curry is a bit spicy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ซุป",
+    "phonetic": "sup",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "súp · 高",
+      "classifier": "ถ้วย（碗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารน้ำใสๆ แบบฝรั่ง",
+        "translations": {
+          "zh": "汤（西式）",
+          "en": "soup"
+        },
+        "examples": [
+          {
+            "text": "ซุปข้าวโพดถ้วยนี้ร้อนมาก",
+            "translations": {
+              "zh": "这碗玉米汤很烫。",
+              "en": "This bowl of corn soup is very hot."
+            }
+          }
+        ],
+        "usageNote": "泰式清汤多叫 ต้ม 或 แกงจืด。"
+      }
+    ]
+  },
+  {
+    "headword": "ไก่ทอด",
+    "phonetic": "kai thot",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "kài-thɔ̂ɔt · 低, 降",
+      "classifier": "ชิ้น（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ไก่ที่ทอดในน้ำมัน",
+        "translations": {
+          "zh": "炸鸡",
+          "en": "fried chicken"
+        },
+        "examples": [
+          {
+            "text": "ไก่ทอดกับข้าวเหนียวอร่อยมาก",
+            "translations": {
+              "zh": "炸鸡配糯米饭很好吃。",
+              "en": "Fried chicken with sticky rice is delicious."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผักบุ้ง",
+    "phonetic": "phak bung",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phàk-bûng · 低, 降",
+      "classifier": "กำ（把）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผักสีเขียวก้านยาว กลวง",
+        "translations": {
+          "zh": "空心菜",
+          "en": "morning glory, water spinach"
+        },
+        "examples": [
+          {
+            "text": "ผัดผักบุ้งไฟแดงจานหนึ่ง",
+            "translations": {
+              "zh": "来一盘炒空心菜。",
+              "en": "One plate of stir-fried morning glory."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมูกระทะ",
+    "phonetic": "mu kratha",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "mǔu-krà-thá · 升, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารปิ้งย่างบนกระทะ มีน้ำซุปรอบๆ",
+        "translations": {
+          "zh": "泰式烤肉火锅",
+          "en": "Thai barbecue hotpot"
+        },
+        "examples": [
+          {
+            "text": "เย็นนี้ไปกินหมูกระทะกันไหม",
+            "translations": {
+              "zh": "今晚去吃泰式烤肉吗？",
+              "en": "Shall we go for mu kratha tonight?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชาเย็น",
+    "phonetic": "cha yen",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "chaa-yen · 中, 中",
+      "classifier": "แก้ว（杯）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ชาไทยใส่นมและน้ำแข็ง สีส้ม",
+        "translations": {
+          "zh": "泰式冰奶茶",
+          "en": "Thai iced tea"
+        },
+        "examples": [
+          {
+            "text": "ชาเย็นหวานน้อยหนึ่งแก้ว",
+            "translations": {
+              "zh": "一杯少甜的泰式奶茶。",
+              "en": "One Thai iced tea, less sweet."
+            }
+          }
+        ],
+        "usageNote": "点饮料时可说 หวานน้อย（少甜）、ไม่หวาน（不甜）。"
+      }
+    ]
+  },
+  {
+    "headword": "น้ำอัดลม",
+    "phonetic": "nam atlom",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "náam-àt-lom · 高, 低, 中",
+      "classifier": "ขวด（瓶）；กระป๋อง（罐）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำหวานที่มีฟองซ่า",
+        "translations": {
+          "zh": "汽水；碳酸饮料",
+          "en": "soft drink, soda"
+        },
+        "examples": [
+          {
+            "text": "เด็กไม่ควรดื่มน้ำอัดลมเยอะ",
+            "translations": {
+              "zh": "小孩不该喝太多汽水。",
+              "en": "Children shouldn't drink too much soda."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หลอด",
+    "phonetic": "lot",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "lɔ̀ɔt · 低",
+      "classifier": "หลอด（根，本身也是量词）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ท่อเล็กๆ ที่ใช้ดูดน้ำ",
+        "translations": {
+          "zh": "吸管；管",
+          "en": "drinking straw; tube"
+        },
+        "examples": [
+          {
+            "text": "ไม่เอาหลอดครับ",
+            "translations": {
+              "zh": "不要吸管。",
+              "en": "No straw, please."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กล่อง",
+    "phonetic": "klong",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "klɔ̀ng · 低",
+      "classifier": "ใบ（个）；กล่อง（盒，本身也是量词）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาชนะสี่เหลี่ยมสำหรับใส่ของ",
+        "translations": {
+          "zh": "盒子；箱子",
+          "en": "box"
+        },
+        "examples": [
+          {
+            "text": "ใส่กล่องกลับบ้านได้ไหม",
+            "translations": {
+              "zh": "可以装盒带走吗？",
+              "en": "Can I get it boxed to take home?"
+            }
+          }
+        ],
+        "usageNote": "注意 กล่อง（低调，盒子）与 กล้อง（降调，相机）。"
+      }
+    ]
+  },
+  {
+    "headword": "อาหารกลางวัน",
+    "phonetic": "ahan klangwan",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-klaang-wan · 中, 升, 中, 中",
+      "classifier": "มื้อ（顿）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารที่กินตอนเที่ยง",
+        "translations": {
+          "zh": "午饭",
+          "en": "lunch"
+        },
+        "examples": [
+          {
+            "text": "กินอาหารกลางวันที่ไหนดี",
+            "translations": {
+              "zh": "午饭在哪儿吃好？",
+              "en": "Where shall we have lunch?"
+            }
+          }
+        ],
+        "usageNote": "口语也说 ข้าวเที่ยง。"
+      }
+    ]
+  },
+  {
+    "headword": "อาหารเย็น",
+    "phonetic": "ahan yen",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-yen · 中, 升, 中",
+      "classifier": "มื้อ（顿）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารที่กินตอนเย็น",
+        "translations": {
+          "zh": "晚饭",
+          "en": "dinner"
+        },
+        "examples": [
+          {
+            "text": "อาหารเย็นวันนี้กินอะไร",
+            "translations": {
+              "zh": "今天晚饭吃什么？",
+              "en": "What are we having for dinner today?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาหารทะเล",
+    "phonetic": "ahan thale",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-thá-lee · 中, 升, 高, 中",
+      "classifier": "อย่าง（样）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารจากทะเล เช่น กุ้ง ปู ปลา",
+        "translations": {
+          "zh": "海鲜",
+          "en": "seafood"
+        },
+        "examples": [
+          {
+            "text": "ฉันแพ้อาหารทะเล",
+            "translations": {
+              "zh": "我对海鲜过敏。",
+              "en": "I'm allergic to seafood."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาหารตามสั่ง",
+    "phonetic": "ahan tam sang",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-taam-sàng · 中, 升, 中, 低",
+      "classifier": "จาน（盘）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารที่ร้านทำให้ตามที่ลูกค้าสั่ง",
+        "translations": {
+          "zh": "现点现做的小炒",
+          "en": "made-to-order dishes"
+        },
+        "examples": [
+          {
+            "text": "ร้านอาหารตามสั่งหน้าซอยเปิดถึงดึก",
+            "translations": {
+              "zh": "巷口的小炒店开到很晚。",
+              "en": "The made-to-order food stall at the end of the soi stays open late."
+            }
+          }
+        ],
+        "usageNote": "泰国街头最常见的小饭馆，菜单上没有也能点。"
+      }
+    ]
+  },
+  {
+    "headword": "มังคุด",
+    "phonetic": "mangkhut",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "mang-khút · 中, 高",
+      "classifier": "ลูก（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลไม้เปลือกสีม่วง เนื้อขาวรสหวาน",
+        "translations": {
+          "zh": "山竹",
+          "en": "mangosteen"
+        },
+        "examples": [
+          {
+            "text": "มังคุดเป็นราชินีผลไม้",
+            "translations": {
+              "zh": "山竹是水果皇后。",
+              "en": "The mangosteen is the queen of fruits."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สับปะรด",
+    "phonetic": "sapparot",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "sàp-pà-rót · 低, 低, 高",
+      "classifier": "ลูก（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลไม้สีเหลือง มีหนามที่เปลือก รสเปรี้ยวหวาน",
+        "translations": {
+          "zh": "菠萝",
+          "en": "pineapple"
+        },
+        "examples": [
+          {
+            "text": "ข้าวผัดสับปะรดอร่อยมาก",
+            "translations": {
+              "zh": "菠萝炒饭很好吃。",
+              "en": "Pineapple fried rice is delicious."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไอศกรีม",
+    "phonetic": "aisakrim",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "ai-sà-kriim · 中, 低, 中",
+      "classifier": "ถ้วย（杯）；แท่ง（根）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของหวานเย็นๆ ทำจากนมและน้ำตาล",
+        "translations": {
+          "zh": "冰淇淋",
+          "en": "ice cream"
+        },
+        "examples": [
+          {
+            "text": "อากาศร้อน กินไอศกรีมกันเถอะ",
+            "translations": {
+              "zh": "天气热，吃冰淇淋吧。",
+              "en": "It's hot—let's have ice cream."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขนมจีน",
+    "phonetic": "khanom chin",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "khà-nǒm-jiin · 低, 升, 中",
+      "classifier": "จาน（盘）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เส้นแป้งข้าวขาวๆ กินกับน้ำยาหรือแกง",
+        "translations": {
+          "zh": "泰式米线",
+          "en": "Thai rice vermicelli"
+        },
+        "examples": [
+          {
+            "text": "ขนมจีนน้ำยาเป็นอาหารเช้าที่นิยม",
+            "translations": {
+              "zh": "鱼咖喱米线是很受欢迎的早餐。",
+              "en": "Rice noodles with fish curry are a popular breakfast."
+            }
+          }
+        ],
+        "usageNote": "虽叫\"中国点心\"，其实是泰国本土的发酵米线。"
+      }
+    ]
+  },
+  {
+    "headword": "ผงชูรส",
+    "phonetic": "phong churot",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "phǒng-chuu-rót · 升, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผงสีขาวที่ใส่ในอาหารให้รสชาติดีขึ้น",
+        "translations": {
+          "zh": "味精",
+          "en": "MSG (monosodium glutamate)"
+        },
+        "examples": [
+          {
+            "text": "ไม่ใส่ผงชูรสนะครับ",
+            "translations": {
+              "zh": "别放味精。",
+              "en": "No MSG, please."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

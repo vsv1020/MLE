@@ -1,0 +1,1445 @@
+[
+ {
+  "headword": "เปลี่ยนแปลง",
+  "phonetic": "plianplaeng",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "plìan-plɛɛng · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ต่างไปจากเดิม หรือกลายเป็นอย่างอื่น",
+    "translations": {
+     "zh": "变化；改变",
+     "en": "to change, to transform"
+    },
+    "examples": [
+     {
+      "text": "เมืองนี้เปลี่ยนแปลงไปมากในสิบปี",
+      "translations": {
+       "zh": "这座城市十年间变化很大。",
+       "en": "This city has changed a lot in ten years."
+      }
+     }
+    ],
+    "usageNote": "比 เปลี่ยน 正式，多指较大、整体的变化。"
+   }
+  ]
+ },
+ {
+  "headword": "พัฒนา",
+  "phonetic": "phatthana",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "phát-thá-naa · 高, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ดีขึ้นหรือเจริญขึ้น",
+    "translations": {
+     "zh": "发展；提高",
+     "en": "to develop, to improve"
+    },
+    "examples": [
+     {
+      "text": "ฉันอยากพัฒนาภาษาไทยให้ดีขึ้น",
+      "translations": {
+       "zh": "我想提高我的泰语水平。",
+       "en": "I want to improve my Thai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปรับปรุง",
+  "phonetic": "prapprung",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "pràp-prung · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แก้ไขให้ดีขึ้นกว่าเดิม",
+    "translations": {
+     "zh": "改善；改进；装修",
+     "en": "to improve, to renovate"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้ปิดปรับปรุงหนึ่งเดือน",
+      "translations": {
+       "zh": "这家店停业装修一个月。",
+       "en": "This shop is closed for renovation for a month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปรับตัว",
+  "phonetic": "praptua",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "pràp-tua · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนตัวเองให้เข้ากับสภาพใหม่",
+    "translations": {
+     "zh": "适应",
+     "en": "to adapt, to adjust"
+    },
+    "examples": [
+     {
+      "text": "เด็กปรับตัวเข้ากับโรงเรียนใหม่ได้เร็ว",
+      "translations": {
+       "zh": "孩子很快适应了新学校。",
+       "en": "The child adapted to the new school quickly."
+      }
+     }
+    ],
+    "usageNote": "常用 ปรับตัวเข้ากับ + 环境。"
+   }
+  ]
+ },
+ {
+  "headword": "เพิ่มขึ้น",
+  "phonetic": "phoem khuen",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "phə̂əm-khʉ̂n · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีจำนวนมากกว่าเดิม",
+    "translations": {
+     "zh": "增加；上升",
+     "en": "to increase"
+    },
+    "examples": [
+     {
+      "text": "จำนวนนักท่องเที่ยวเพิ่มขึ้นทุกปี",
+      "translations": {
+       "zh": "游客数量每年都在增加。",
+       "en": "The number of tourists increases every year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลดลง",
+  "phonetic": "lot long",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "lót-long · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีจำนวนน้อยกว่าเดิม",
+    "translations": {
+     "zh": "减少；下降",
+     "en": "to decrease, to drop"
+    },
+    "examples": [
+     {
+      "text": "ราคาน้ำมันลดลงเล็กน้อย",
+      "translations": {
+       "zh": "油价略有下降。",
+       "en": "The price of oil dropped slightly."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขยาย",
+  "phonetic": "khayai",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "khà-yǎai · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้กว้างหรือใหญ่ขึ้น",
+    "translations": {
+     "zh": "扩大；扩展",
+     "en": "to expand, to enlarge"
+    },
+    "examples": [
+     {
+      "text": "บริษัทวางแผนขยายสาขาไปเชียงใหม่",
+      "translations": {
+       "zh": "公司计划把分店扩展到清迈。",
+       "en": "The company plans to expand to Chiang Mai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่งผล",
+  "phonetic": "songphon",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "sòng-phǒn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้เกิดผลบางอย่างตามมา",
+    "translations": {
+     "zh": "影响；导致",
+     "en": "to affect, to result in"
+    },
+    "examples": [
+     {
+      "text": "ความเครียดส่งผลต่อสุขภาพ",
+      "translations": {
+       "zh": "压力会影响健康。",
+       "en": "Stress affects your health."
+      }
+     }
+    ],
+    "usageNote": "句型：ส่งผลต่อ + 名词（影响…）；ส่งผลให้ + 句子（导致…）。"
+   }
+  ]
+ },
+ {
+  "headword": "ก่อให้เกิด",
+  "phonetic": "ko hai koet",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "kɔ̀ɔ-hâi-kə̀ət · 低, 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำให้สิ่งหนึ่งเกิดขึ้น",
+    "translations": {
+     "zh": "引起；造成",
+     "en": "to cause, to bring about"
+    },
+    "examples": [
+     {
+      "text": "ขยะพลาสติกก่อให้เกิดมลพิษ",
+      "translations": {
+       "zh": "塑料垃圾造成污染。",
+       "en": "Plastic waste causes pollution."
+      }
+     }
+    ],
+    "usageNote": "书面语，口语多说 ทำให้。"
+   }
+  ]
+ },
+ {
+  "headword": "เกิดจาก",
+  "phonetic": "koet chak",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "kə̀ət-jàak · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "มีสาเหตุมาจาก",
+    "translations": {
+     "zh": "由…引起；源于",
+     "en": "to be caused by"
+    },
+    "examples": [
+     {
+      "text": "ไฟไหม้ครั้งนี้เกิดจากไฟฟ้าลัดวงจร",
+      "translations": {
+       "zh": "这次火灾是电线短路引起的。",
+       "en": "This fire was caused by a short circuit."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกิดขึ้น",
+  "phonetic": "koet khuen",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "kə̀ət-khʉ̂n · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีขึ้นหรือปรากฏขึ้น",
+    "translations": {
+     "zh": "发生；出现",
+     "en": "to happen, to occur"
+    },
+    "examples": [
+     {
+      "text": "อุบัติเหตุเกิดขึ้นเมื่อคืนนี้",
+      "translations": {
+       "zh": "事故发生在昨晚。",
+       "en": "The accident happened last night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขึ้นอยู่กับ",
+  "phonetic": "khuen yu kap",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "khʉ̂n-yùu-kàp · 降, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "แล้วแต่สิ่งใดสิ่งหนึ่ง",
+    "translations": {
+     "zh": "取决于",
+     "en": "to depend on"
+    },
+    "examples": [
+     {
+      "text": "ราคาขึ้นอยู่กับขนาดห้อง",
+      "translations": {
+       "zh": "价格取决于房间大小。",
+       "en": "The price depends on the room size."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกี่ยวข้อง",
+  "phonetic": "kiaokhong",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "kìao-khɔ̂ng · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีความสัมพันธ์กันหรือมีส่วนร่วม",
+    "translations": {
+     "zh": "有关；涉及",
+     "en": "to be related, to be involved"
+    },
+    "examples": [
+     {
+      "text": "เรื่องนี้ไม่เกี่ยวข้องกับฉัน",
+      "translations": {
+       "zh": "这件事与我无关。",
+       "en": "This has nothing to do with me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กลายเป็น",
+  "phonetic": "klai pen",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "klaai-pen · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนไปเป็นอีกอย่างหนึ่ง",
+    "translations": {
+     "zh": "变成；成为",
+     "en": "to become, to turn into"
+    },
+    "examples": [
+     {
+      "text": "หมู่บ้านเล็กๆ กลายเป็นเมืองใหญ่",
+      "translations": {
+       "zh": "小村庄变成了大城市。",
+       "en": "The small village became a big city."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลังเล",
+  "phonetic": "langle",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "lang-lee · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่แน่ใจ ตัดสินใจไม่ได้",
+    "translations": {
+     "zh": "犹豫",
+     "en": "to hesitate"
+    },
+    "examples": [
+     {
+      "text": "ถ้ามีคำถามอย่าลังเลที่จะถาม",
+      "translations": {
+       "zh": "有问题别犹豫，尽管问。",
+       "en": "Don't hesitate to ask if you have questions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เลื่อน",
+  "phonetic": "luean",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "lʉ̂an · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนเวลาให้เร็วขึ้นหรือช้าลง",
+    "translations": {
+     "zh": "推迟；改期；移动",
+     "en": "to postpone, to reschedule"
+    },
+    "examples": [
+     {
+      "text": "การประชุมเลื่อนไปวันศุกร์",
+      "translations": {
+       "zh": "会议推迟到周五。",
+       "en": "The meeting was postponed to Friday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยกเลิก",
+  "phonetic": "yokloek",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "yók-lə̂ək · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ทำตามที่ตกลงหรือวางแผนไว้แล้ว",
+    "translations": {
+     "zh": "取消",
+     "en": "to cancel"
+    },
+    "examples": [
+     {
+      "text": "เที่ยวบินถูกยกเลิกเพราะพายุ",
+      "translations": {
+       "zh": "航班因暴风雨被取消。",
+       "en": "The flight was cancelled because of the storm."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วางแผน",
+  "phonetic": "wangphaen",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "waang-phɛ̌ɛn · 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดไว้ล่วงหน้าว่าจะทำอะไรอย่างไร",
+    "translations": {
+     "zh": "计划；规划",
+     "en": "to plan"
+    },
+    "examples": [
+     {
+      "text": "เรากำลังวางแผนไปเที่ยวญี่ปุ่น",
+      "translations": {
+       "zh": "我们正在计划去日本玩。",
+       "en": "We're planning a trip to Japan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จัดการ",
+  "phonetic": "chatkan",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "jàt-kaan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูแลและทำให้เรียบร้อย",
+    "translations": {
+     "zh": "处理；管理",
+     "en": "to manage, to handle"
+    },
+    "examples": [
+     {
+      "text": "ไม่ต้องห่วง ฉันจัดการเอง",
+      "translations": {
+       "zh": "别担心，我自己来处理。",
+       "en": "Don't worry, I'll handle it myself."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แก้ไข",
+  "phonetic": "kaekhai",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "kɛ̂ɛ-khǎi · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำสิ่งที่ผิดหรือไม่ดีให้ถูกต้อง",
+    "translations": {
+     "zh": "修改；纠正；解决",
+     "en": "to fix, to correct, to revise"
+    },
+    "examples": [
+     {
+      "text": "ช่วยแก้ไขรายงานนี้ก่อนส่ง",
+      "translations": {
+       "zh": "交之前请修改这份报告。",
+       "en": "Please revise this report before submitting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รับผิดชอบ",
+  "phonetic": "rapphitchop",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "ráp-phìt-chɔ̂ɔp · 高, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยอมรับหน้าที่และผลที่ตามมา",
+    "translations": {
+     "zh": "负责；承担责任",
+     "en": "to be responsible"
+    },
+    "examples": [
+     {
+      "text": "ใครรับผิดชอบโครงการนี้",
+      "translations": {
+       "zh": "谁负责这个项目？",
+       "en": "Who is responsible for this project?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ห้าม",
+  "phonetic": "ham",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "hâam · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ให้ทำ",
+    "translations": {
+     "zh": "禁止；不准",
+     "en": "to forbid, to prohibit"
+    },
+    "examples": [
+     {
+      "text": "ห้ามจอดรถตรงนี้",
+      "translations": {
+       "zh": "此处禁止停车。",
+       "en": "No parking here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บังคับ",
+  "phonetic": "bangkhap",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "bang-kháp · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ต้องทำโดยไม่สมัครใจ",
+    "translations": {
+     "zh": "强迫；强制",
+     "en": "to force, to compel"
+    },
+    "examples": [
+     {
+      "text": "ไม่มีใครบังคับให้คุณทำ",
+      "translations": {
+       "zh": "没人强迫你做。",
+       "en": "Nobody is forcing you to do it."
+      }
+     }
+    ],
+    "usageNote": "วิชาบังคับ 指“必修课”。"
+   }
+  ]
+ },
+ {
+  "headword": "อนุมัติ",
+  "phonetic": "anumat",
+  "cefr": "B2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "à-nú-mát · 低, 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เห็นชอบและให้ทำได้อย่างเป็นทางการ",
+    "translations": {
+     "zh": "批准",
+     "en": "to approve"
+    },
+    "examples": [
+     {
+      "text": "ผู้จัดการอนุมัติการลาของฉันแล้ว",
+      "translations": {
+       "zh": "经理已经批准了我的假。",
+       "en": "The manager has approved my leave."
+      }
+     }
+    ],
+    "usageNote": "正式公文用语。"
+   }
+  ]
+ },
+ {
+  "headword": "ร่วมมือ",
+  "phonetic": "ruammue",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "rûam-mʉʉ · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ช่วยกันทำงานเพื่อเป้าหมายเดียวกัน",
+    "translations": {
+     "zh": "合作",
+     "en": "to cooperate"
+    },
+    "examples": [
+     {
+      "text": "ขอบคุณที่ให้ความร่วมมือ",
+      "translations": {
+       "zh": "感谢您的配合。",
+       "en": "Thank you for your cooperation."
+      }
+     }
+    ],
+    "usageNote": "ความร่วมมือ 为名词“合作”，公告中常见。"
+   }
+  ]
+ },
+ {
+  "headword": "แข่งขัน",
+  "phonetic": "khaengkhan",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "khɛ̀ng-khǎn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พยายามทำให้ดีกว่าหรือชนะคนอื่น",
+    "translations": {
+     "zh": "竞争；比赛",
+     "en": "to compete"
+    },
+    "examples": [
+     {
+      "text": "ร้านกาแฟในย่านนี้แข่งขันกันสูง",
+      "translations": {
+       "zh": "这一带咖啡店竞争激烈。",
+       "en": "Coffee shops in this area compete fiercely."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต่อรอง",
+  "phonetic": "torong",
+  "cefr": "B2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "toneMarks": "tɔ̀ɔ-rɔɔng · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดเพื่อให้ได้ราคาหรือเงื่อนไขที่ดีขึ้น",
+    "translations": {
+     "zh": "讨价还价；谈判",
+     "en": "to negotiate, to bargain"
+    },
+    "examples": [
+     {
+      "text": "เราต่อรองราคากับเจ้าของห้อง",
+      "translations": {
+       "zh": "我们和房东讲价。",
+       "en": "We negotiated the price with the landlord."
+      }
+     }
+    ],
+    "usageNote": "市场砍价口语常说 ต่อราคา。"
+   }
+  ]
+ },
+ {
+  "headword": "ประนีประนอม",
+  "phonetic": "pranipranom",
+  "cefr": "B2",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "toneMarks": "prà-nii-prà-nɔɔm · 低, 中, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยอมกันคนละนิดเพื่อให้ตกลงกันได้",
+    "translations": {
+     "zh": "妥协；和解",
+     "en": "to compromise"
+    },
+    "examples": [
+     {
+      "text": "ทั้งสองฝ่ายต้องประนีประนอมกัน",
+      "translations": {
+       "zh": "双方都得互相妥协。",
+       "en": "Both sides have to compromise."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สังเกต",
+  "phonetic": "sangket",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "sǎng-kèet · 升, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูอย่างตั้งใจจนเห็นรายละเอียด",
+    "translations": {
+     "zh": "注意到；观察",
+     "en": "to notice, to observe"
+    },
+    "examples": [
+     {
+      "text": "คุณสังเกตไหมว่าเขาดูเหนื่อย",
+      "translations": {
+       "zh": "你注意到他看起来很累吗？",
+       "en": "Did you notice he looks tired?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จินตนาการ",
+  "phonetic": "chintanakan",
+  "cefr": "B2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "jin-tà-naa-kaan · 中, 低, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "นึกภาพขึ้นในใจ",
+    "translations": {
+     "zh": "想象",
+     "en": "to imagine"
+    },
+    "examples": [
+     {
+      "text": "ลองจินตนาการว่าคุณอยู่บนเกาะ",
+      "translations": {
+       "zh": "试着想象你在一座岛上。",
+       "en": "Try to imagine you're on an island."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เดา",
+  "phonetic": "dao",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "dao · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดคำตอบโดยไม่รู้แน่",
+    "translations": {
+     "zh": "猜",
+     "en": "to guess"
+    },
+    "examples": [
+     {
+      "text": "ลองเดาดูสิว่าฉันซื้ออะไรมา",
+      "translations": {
+       "zh": "猜猜我买了什么。",
+       "en": "Guess what I bought."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นึกถึง",
+  "phonetic": "nuek thueng",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "nʉ́k-thʉ̌ng · 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดถึงหรือระลึกถึงขึ้นมา",
+    "translations": {
+     "zh": "想到；想起",
+     "en": "to think of, to call to mind"
+    },
+    "examples": [
+     {
+      "text": "เพลงนี้ทำให้ฉันนึกถึงบ้าน",
+      "translations": {
+       "zh": "这首歌让我想起家乡。",
+       "en": "This song reminds me of home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตั้งใจ",
+  "phonetic": "tangchai",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "tâng-jai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มุ่งหมายและใส่ใจทำ",
+    "translations": {
+     "zh": "专心；打算；故意",
+     "en": "to intend, to concentrate"
+    },
+    "examples": [
+     {
+      "text": "ตั้งใจเรียนนะลูก",
+      "translations": {
+       "zh": "孩子，要用心学习哦。",
+       "en": "Study hard, my child."
+      }
+     }
+    ],
+    "usageNote": "ไม่ได้ตั้งใจ 意为“不是故意的”。"
+   }
+  ]
+ },
+ {
+  "headword": "กังวล",
+  "phonetic": "kangwon",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "kang-won · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่สบายใจเพราะคิดถึงปัญหา",
+    "translations": {
+     "zh": "担心；焦虑",
+     "en": "to worry, to be anxious"
+    },
+    "examples": [
+     {
+      "text": "ไม่ต้องกังวลเรื่องเงิน",
+      "translations": {
+       "zh": "不用担心钱的事。",
+       "en": "Don't worry about money."
+      }
+     }
+    ],
+    "usageNote": "比 ห่วง 正式，偏“焦虑”。"
+   }
+  ]
+ },
+ {
+  "headword": "เป็นห่วง",
+  "phonetic": "pen huang",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "pen-hùang · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกกังวลเกี่ยวกับใครหรืออะไร",
+    "translations": {
+     "zh": "担心；牵挂",
+     "en": "to be worried about, to care about"
+    },
+    "examples": [
+     {
+      "text": "แม่เป็นห่วงลูกที่อยู่ต่างประเทศ",
+      "translations": {
+       "zh": "妈妈牵挂在国外的孩子。",
+       "en": "Mom worries about her child abroad."
+      }
+     }
+    ],
+    "usageNote": "带感情的担心，对人常用。"
+   }
+  ]
+ },
+ {
+  "headword": "ผิดหวัง",
+  "phonetic": "phitwang",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "phìt-wǎng · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ได้อย่างที่หวังไว้",
+    "translations": {
+     "zh": "失望",
+     "en": "to be disappointed"
+    },
+    "examples": [
+     {
+      "text": "ฉันผิดหวังกับผลสอบ",
+      "translations": {
+       "zh": "我对考试成绩很失望。",
+       "en": "I'm disappointed with my exam results."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประทับใจ",
+  "phonetic": "prathapchai",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "prà-tháp-jai · 低, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกชอบและจดจำได้ดี",
+    "translations": {
+     "zh": "印象深刻；感动",
+     "en": "to be impressed"
+    },
+    "examples": [
+     {
+      "text": "ฉันประทับใจการบริการที่นี่มาก",
+      "translations": {
+       "zh": "我对这里的服务印象很深。",
+       "en": "I'm very impressed with the service here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ภูมิใจ",
+  "phonetic": "phumchai",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "phuum-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกดีใจในความสำเร็จหรือคุณค่า",
+    "translations": {
+     "zh": "自豪；骄傲",
+     "en": "to be proud"
+    },
+    "examples": [
+     {
+      "text": "พ่อภูมิใจในตัวลูกมาก",
+      "translations": {
+       "zh": "爸爸为孩子感到非常自豪。",
+       "en": "Dad is very proud of his child."
+      }
+     }
+    ],
+    "usageNote": "ภูมิ 读 phuum，ิ 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "เคารพ",
+  "phonetic": "khaorop",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "khao-róp · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้เกียรติและนับถือ",
+    "translations": {
+     "zh": "尊重；尊敬",
+     "en": "to respect"
+    },
+    "examples": [
+     {
+      "text": "เราควรเคารพความคิดเห็นของผู้อื่น",
+      "translations": {
+       "zh": "我们应尊重别人的意见。",
+       "en": "We should respect other people's opinions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไว้ใจ",
+  "phonetic": "waichai",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "wái-jai · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เชื่อว่าจะไม่ทำให้ผิดหวัง",
+    "translations": {
+     "zh": "信任；相信",
+     "en": "to trust"
+    },
+    "examples": [
+     {
+      "text": "ฉันไว้ใจเขามาก",
+      "translations": {
+       "zh": "我很信任他。",
+       "en": "I trust him a lot."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เห็นใจ",
+  "phonetic": "henchai",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "hěn-jai · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เข้าใจและสงสารความรู้สึกของผู้อื่น",
+    "translations": {
+     "zh": "同情；体谅",
+     "en": "to sympathize"
+    },
+    "examples": [
+     {
+      "text": "ฉันเห็นใจเขาที่ต้องทำงานหนัก",
+      "translations": {
+       "zh": "我很体谅他工作辛苦。",
+       "en": "I sympathize with him for working so hard."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทบทวน",
+  "phonetic": "thopthuan",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "thóp-thuan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "กลับมาดูหรือคิดใหม่อีกครั้ง",
+    "translations": {
+     "zh": "复习；重新审视",
+     "en": "to review, to reconsider"
+    },
+    "examples": [
+     {
+      "text": "ก่อนสอบต้องทบทวนบทเรียน",
+      "translations": {
+       "zh": "考试前要复习功课。",
+       "en": "You must review the lessons before the exam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไตร่ตรอง",
+  "phonetic": "traitrong",
+  "cefr": "B2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "toneMarks": "trài-trɔɔng · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดอย่างรอบคอบหลายๆ ด้าน",
+    "translations": {
+     "zh": "深思熟虑；斟酌",
+     "en": "to deliberate, to reflect carefully"
+    },
+    "examples": [
+     {
+      "text": "ไตร่ตรองให้ดีก่อนลาออก",
+      "translations": {
+       "zh": "辞职前要好好斟酌。",
+       "en": "Think it over carefully before resigning."
+      }
+     }
+    ],
+    "usageNote": "书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "สับสน",
+  "phonetic": "sapson",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "sàp-sǒn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ปนเปกันจนไม่เข้าใจ",
+    "translations": {
+     "zh": "困惑；混乱",
+     "en": "confused"
+    },
+    "examples": [
+     {
+      "text": "ฉันสับสนกับคำอธิบายของเขา",
+      "translations": {
+       "zh": "他的解释让我很困惑。",
+       "en": "I'm confused by his explanation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มั่นใจ",
+  "phonetic": "manchai",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "mân-jai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เชื่อมั่นแน่วแน่ ไม่สงสัย",
+    "translations": {
+     "zh": "有信心；确信",
+     "en": "confident, sure"
+    },
+    "examples": [
+     {
+      "text": "ฉันมั่นใจว่าเราจะทำได้",
+      "translations": {
+       "zh": "我确信我们能做到。",
+       "en": "I'm confident we can do it."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แน่ใจ",
+  "phonetic": "naechai",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "nɛ̂ɛ-jai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้แน่นอน ไม่สงสัย",
+    "translations": {
+     "zh": "确定；肯定",
+     "en": "sure, certain"
+    },
+    "examples": [
+     {
+      "text": "คุณแน่ใจเหรอว่าประตูล็อกแล้ว",
+      "translations": {
+       "zh": "你确定门锁好了吗？",
+       "en": "Are you sure the door is locked?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เข้าใจผิด",
+  "phonetic": "khaochai phit",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "khâo-jai-phìt · 降, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เข้าใจไม่ตรงกับความจริง",
+    "translations": {
+     "zh": "误会；误解",
+     "en": "to misunderstand"
+    },
+    "examples": [
+     {
+      "text": "ขอโทษ ฉันเข้าใจผิดไป",
+      "translations": {
+       "zh": "对不起，我误会了。",
+       "en": "Sorry, I misunderstood."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รู้ตัว",
+  "phonetic": "rutua",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "rúu-tua · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกหรือรู้ว่าตนกำลังเป็นอย่างไร",
+    "translations": {
+     "zh": "意识到；察觉",
+     "en": "to be aware, to realize"
+    },
+    "examples": [
+     {
+      "text": "เขาไม่รู้ตัวว่าพูดเสียงดัง",
+      "translations": {
+       "zh": "他没意识到自己说话很大声。",
+       "en": "He didn't realize he was speaking loudly."
+      }
+     }
+    ],
+    "usageNote": "口语；书面语用 ตระหนัก。"
+   }
+  ]
+ },
+ {
+  "headword": "ค้นพบ",
+  "phonetic": "khonphop",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "khón-phóp · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หาจนเจอสิ่งที่ยังไม่มีใครรู้",
+    "translations": {
+     "zh": "发现",
+     "en": "to discover"
+    },
+    "examples": [
+     {
+      "text": "นักวิทยาศาสตร์ค้นพบยาชนิดใหม่",
+      "translations": {
+       "zh": "科学家发现了一种新药。",
+       "en": "Scientists discovered a new drug."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทดลอง",
+  "phonetic": "thotlong",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "thót-lɔɔng · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ลองทำเพื่อดูผล",
+    "translations": {
+     "zh": "试验；尝试",
+     "en": "to experiment, to try out"
+    },
+    "examples": [
+     {
+      "text": "ลองทดลองใช้ฟรีหนึ่งเดือน",
+      "translations": {
+       "zh": "可以免费试用一个月。",
+       "en": "Try it out free for a month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พิสูจน์",
+  "phonetic": "phisut",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "phí-sùut · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แสดงหลักฐานให้เห็นว่าจริง",
+    "translations": {
+     "zh": "证明；验证",
+     "en": "to prove"
+    },
+    "examples": [
+     {
+      "text": "เขาต้องพิสูจน์ว่าตัวเองบริสุทธิ์",
+      "translations": {
+       "zh": "他必须证明自己清白。",
+       "en": "He must prove his innocence."
+      }
+     }
+    ],
+    "usageNote": "น์ 不发音。"
+   }
+  ]
+ }
+]

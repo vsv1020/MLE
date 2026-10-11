@@ -1,0 +1,1487 @@
+[
+  {
+    "headword": "ค่าเช่า",
+    "phonetic": "khachao",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "khâa-châo · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่จ่ายเพื่อเช่าบ้านหรือของ",
+        "translations": {
+          "zh": "租金；房租",
+          "en": "rent"
+        },
+        "examples": [
+          {
+            "text": "ค่าเช่าห้องแถวนี้เดือนละหนึ่งหมื่นบาท",
+            "translations": {
+              "zh": "这一带的房租每月一万泰铢。",
+              "en": "Rent around here is ten thousand baht a month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เช่า",
+    "phonetic": "chao",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "châo · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "จ่ายเงินเพื่อใช้ของคนอื่นชั่วคราว",
+        "translations": {
+          "zh": "租；租用",
+          "en": "to rent"
+        },
+        "examples": [
+          {
+            "text": "เราเช่ามอเตอร์ไซค์ขับเที่ยวรอบเกาะ",
+            "translations": {
+              "zh": "我们租了摩托车环岛游。",
+              "en": "We rented a motorbike to ride around the island."
+            }
+          }
+        ],
+        "usageNote": "ให้เช่า＝出租（房东角度）。"
+      }
+    ]
+  },
+  {
+    "headword": "คอนโด",
+    "phonetic": "khondo",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "khɔn-doo · 中, 中",
+      "classifier": "ห้อง（套）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ห้องพักในอาคารสูงที่ซื้อหรือเช่าได้",
+        "translations": {
+          "zh": "公寓（共管公寓）",
+          "en": "condo, condominium"
+        },
+        "examples": [
+          {
+            "text": "ฉันอยู่คอนโดใกล้รถไฟฟ้า",
+            "translations": {
+              "zh": "我住在轻轨附近的公寓。",
+              "en": "I live in a condo near the Skytrain."
+            }
+          }
+        ],
+        "usageNote": "正式写法 คอนโดมิเนียม。"
+      }
+    ]
+  },
+  {
+    "headword": "ย้ายบ้าน",
+    "phonetic": "yaiban",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "yáai-bâan · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปลี่ยนที่อยู่ไปอยู่บ้านใหม่",
+        "translations": {
+          "zh": "搬家",
+          "en": "to move house"
+        },
+        "examples": [
+          {
+            "text": "เดือนหน้าเราจะย้ายบ้านไปอยู่นนทบุรี",
+            "translations": {
+              "zh": "下个月我们要搬到暖武里去住。",
+              "en": "Next month we're moving house to Nonthaburi."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชุมชน",
+    "phonetic": "chumchon",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "chum-chon · 中, 中",
+      "classifier": "แห่ง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มคนที่อาศัยอยู่ในพื้นที่เดียวกัน",
+        "translations": {
+          "zh": "社区",
+          "en": "community"
+        },
+        "examples": [
+          {
+            "text": "ชุมชนนี้ช่วยกันทำความสะอาดคลอง",
+            "translations": {
+              "zh": "这个社区的人一起清理运河。",
+              "en": "This community works together to clean the canal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หอพัก",
+    "phonetic": "hophak",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "hɔ̌ɔ-phák · 升, 高",
+      "classifier": "แห่ง（栋）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่พักให้เช่าสำหรับนักศึกษาหรือคนทำงาน",
+        "translations": {
+          "zh": "宿舍",
+          "en": "dormitory, student housing"
+        },
+        "examples": [
+          {
+            "text": "หอพักนี้อยู่ใกล้มหาวิทยาลัย",
+            "translations": {
+              "zh": "这个宿舍离大学很近。",
+              "en": "This dorm is close to the university."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจ้าของบ้าน",
+    "phonetic": "chaokhongban",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "jâo-khɔ̌ɔng-bâan · 降, 升, 降",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เป็นเจ้าของบ้าน หรือคนที่ให้เช่า",
+        "translations": {
+          "zh": "房东；房主",
+          "en": "landlord, homeowner"
+        },
+        "examples": [
+          {
+            "text": "ก๊อกน้ำเสีย ต้องโทรบอกเจ้าของบ้าน",
+            "translations": {
+              "zh": "水龙头坏了，要打电话告诉房东。",
+              "en": "The tap is broken; I need to call the landlord."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้เช่า",
+    "phonetic": "phuchao",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "phûu-châo · 降, 降",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เช่าบ้านหรือของ",
+        "translations": {
+          "zh": "租客；承租人",
+          "en": "tenant"
+        },
+        "examples": [
+          {
+            "text": "ผู้เช่าต้องจ่ายค่าเช่าภายในวันที่ห้า",
+            "translations": {
+              "zh": "租客须在五号前交房租。",
+              "en": "Tenants must pay rent by the fifth."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สัญญาเช่า",
+    "phonetic": "sanyachao",
+    "cefr": "B1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "sǎn-yaa-châo · 升, 中, 降",
+      "classifier": "ฉบับ（份）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อตกลงเป็นลายลักษณ์อักษรเรื่องการเช่า",
+        "translations": {
+          "zh": "租约；租赁合同",
+          "en": "lease, rental contract"
+        },
+        "examples": [
+          {
+            "text": "สัญญาเช่าห้องนี้ขั้นต่ำหนึ่งปี",
+            "translations": {
+              "zh": "这个房间的租约最少一年。",
+              "en": "The lease on this room is a minimum of one year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เงินมัดจำ",
+    "phonetic": "ngoenmatcham",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "ngən-mát-jam · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่จ่ายไว้ก่อนเพื่อเป็นหลักประกัน",
+        "translations": {
+          "zh": "押金；定金",
+          "en": "deposit"
+        },
+        "examples": [
+          {
+            "text": "ย้ายออกแล้วจะได้เงินมัดจำคืน",
+            "translations": {
+              "zh": "搬出后会退还押金。",
+              "en": "You'll get the deposit back when you move out."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ค่าน้ำค่าไฟ",
+    "phonetic": "khanamkhafai",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "khâa-náam-khâa-fai · 降, 高, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่จ่ายสำหรับน้ำประปาและไฟฟ้า",
+        "translations": {
+          "zh": "水电费",
+          "en": "water and electricity bills"
+        },
+        "examples": [
+          {
+            "text": "ค่าเช่ายังไม่รวมค่าน้ำค่าไฟ",
+            "translations": {
+              "zh": "房租还不包括水电费。",
+              "en": "The rent doesn't include water and electricity."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ระเบียง",
+    "phonetic": "rabiang",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "rá-biang · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่ยื่นออกไปนอกห้อง",
+        "translations": {
+          "zh": "阳台",
+          "en": "balcony"
+        },
+        "examples": [
+          {
+            "text": "ห้องนี้มีระเบียงมองเห็นแม่น้ำ",
+            "translations": {
+              "zh": "这个房间有能看到河的阳台。",
+              "en": "This room has a balcony overlooking the river."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทำเล",
+    "phonetic": "thamle",
+    "cefr": "B2",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "tham-lee · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตำแหน่งที่ตั้งของบ้านหรือร้านค้า",
+        "translations": {
+          "zh": "地段；位置",
+          "en": "location (of property or business)"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้ทำเลดี คนเดินผ่านเยอะ",
+            "translations": {
+              "zh": "这家店地段好，路过的人多。",
+              "en": "This shop has a good location with lots of foot traffic."
+            }
+          }
+        ],
+        "usageNote": "常说 ทำเลดี（地段好）。"
+      }
+    ]
+  },
+  {
+    "headword": "ตึก",
+    "phonetic": "tuek",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "tʉ̀k · 低",
+      "classifier": "หลัง（栋）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาคารที่สร้างด้วยปูนหรืออิฐ มักสูงหลายชั้น",
+        "translations": {
+          "zh": "楼；楼房",
+          "en": "building"
+        },
+        "examples": [
+          {
+            "text": "ออฟฟิศของฉันอยู่ตึกสีขาวหัวมุม",
+            "translations": {
+              "zh": "我的办公室在拐角那栋白楼。",
+              "en": "My office is in the white building on the corner."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาคาร",
+    "phonetic": "akhan",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "aa-khaan · 中, 中",
+      "classifier": "หลัง（栋）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งก่อสร้างที่เป็นตึกหรือบ้าน",
+        "translations": {
+          "zh": "建筑物；大楼",
+          "en": "building"
+        },
+        "examples": [
+          {
+            "text": "ห้ามสูบบุหรี่ภายในอาคาร",
+            "translations": {
+              "zh": "楼内禁止吸烟。",
+              "en": "No smoking inside the building."
+            }
+          }
+        ],
+        "usageNote": "比 ตึก 正式，常见于告示。"
+      }
+    ]
+  },
+  {
+    "headword": "ชั้น",
+    "phonetic": "chan",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "chán · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระดับของตึกหรือที่วางของ",
+        "translations": {
+          "zh": "层；楼层",
+          "en": "floor, storey; level"
+        },
+        "examples": [
+          {
+            "text": "ห้องของฉันอยู่ชั้นสิบสอง",
+            "translations": {
+              "zh": "我的房间在十二楼。",
+              "en": "My room is on the twelfth floor."
+            }
+          }
+        ],
+        "usageNote": "也可指等级：ชั้นหนึ่ง（头等）。"
+      }
+    ]
+  },
+  {
+    "headword": "ลิฟต์",
+    "phonetic": "lip",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "líp · 高",
+      "classifier": "ตัว（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องสำหรับขึ้นลงตึกสูง",
+        "translations": {
+          "zh": "电梯",
+          "en": "lift, elevator"
+        },
+        "examples": [
+          {
+            "text": "ลิฟต์เสีย ต้องเดินขึ้นบันได",
+            "translations": {
+              "zh": "电梯坏了，得走楼梯上去。",
+              "en": "The lift is broken, so we have to take the stairs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บันได",
+    "phonetic": "bandai",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "ban-dai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ขั้นสำหรับเดินขึ้นลง",
+        "translations": {
+          "zh": "楼梯；梯子",
+          "en": "stairs, ladder"
+        },
+        "examples": [
+          {
+            "text": "ระวังนะ บันไดตรงนี้ชันมาก",
+            "translations": {
+              "zh": "小心，这里的楼梯很陡。",
+              "en": "Careful, these stairs are very steep."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมู่บ้าน",
+    "phonetic": "muban",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "mùu-bâan · 低, 降",
+      "classifier": "แห่ง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มบ้านในชนบท หรือโครงการบ้านจัดสรร",
+        "translations": {
+          "zh": "村庄；住宅小区",
+          "en": "village; housing estate"
+        },
+        "examples": [
+          {
+            "text": "บ้านเราอยู่ในหมู่บ้านแถวบางนา",
+            "translations": {
+              "zh": "我们家在挽那一带的住宅小区里。",
+              "en": "Our house is in a housing estate near Bang Na."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ย่าน",
+    "phonetic": "yan",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "yâan · 降",
+      "classifier": "ย่าน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บริเวณหนึ่งของเมือง",
+        "translations": {
+          "zh": "地区；街区",
+          "en": "area, district, neighbourhood"
+        },
+        "examples": [
+          {
+            "text": "สีลมเป็นย่านธุรกิจของกรุงเทพฯ",
+            "translations": {
+              "zh": "是隆是曼谷的商业区。",
+              "en": "Silom is Bangkok's business district."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชานเมือง",
+    "phonetic": "chanmueang",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "chaan-mʉang · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บริเวณรอบนอกของเมือง",
+        "translations": {
+          "zh": "郊区；市郊",
+          "en": "suburbs, outskirts"
+        },
+        "examples": [
+          {
+            "text": "บ้านที่ชานเมืองราคาถูกกว่าในเมือง",
+            "translations": {
+              "zh": "郊区的房子比市中心便宜。",
+              "en": "Houses in the suburbs are cheaper than in town."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใจกลางเมือง",
+    "phonetic": "chaiklangmueang",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "jai-klaang-mʉang · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บริเวณกลางเมืองที่คึกคักที่สุด",
+        "translations": {
+          "zh": "市中心",
+          "en": "city centre, downtown"
+        },
+        "examples": [
+          {
+            "text": "โรงแรมนี้อยู่ใจกลางเมือง เดินไปไหนก็ง่าย",
+            "translations": {
+              "zh": "这家酒店在市中心，去哪儿都方便。",
+              "en": "This hotel is downtown, so it's easy to walk anywhere."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทางเท้า",
+    "phonetic": "thangthao",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "thaang-tháao · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางสำหรับคนเดินข้างถนน",
+        "translations": {
+          "zh": "人行道",
+          "en": "pavement, sidewalk"
+        },
+        "examples": [
+          {
+            "text": "ทางเท้าที่นี่มีร้านค้าเต็มไปหมด",
+            "translations": {
+              "zh": "这里的人行道上全是摊位。",
+              "en": "The pavement here is crammed with stalls."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สี่แยก",
+    "phonetic": "siyaek",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "sìi-yɛ̂ɛk · 低, 降",
+      "classifier": "แห่ง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่ถนนสองสายตัดกัน",
+        "translations": {
+          "zh": "十字路口",
+          "en": "crossroads, intersection"
+        },
+        "examples": [
+          {
+            "text": "ถึงสี่แยกแล้วเลี้ยวซ้าย",
+            "translations": {
+              "zh": "到十字路口后左转。",
+              "en": "Turn left at the intersection."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สะพาน",
+    "phonetic": "saphan",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "sà-phaan · 低, 中",
+      "classifier": "แห่ง（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางที่สร้างข้ามแม่น้ำหรือถนน",
+        "translations": {
+          "zh": "桥",
+          "en": "bridge"
+        },
+        "examples": [
+          {
+            "text": "ข้ามสะพานไปก็ถึงตลาดแล้ว",
+            "translations": {
+              "zh": "过了桥就到市场了。",
+              "en": "Cross the bridge and you're at the market."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สวนสาธารณะ",
+    "phonetic": "suansatharana",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "sǔan-sǎa-thaa-rá-ná · 升, 升, 中, 高, 高",
+      "classifier": "แห่ง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สวนที่ทุกคนเข้าไปใช้ได้",
+        "translations": {
+          "zh": "公园",
+          "en": "public park"
+        },
+        "examples": [
+          {
+            "text": "ตอนเย็นคนไปวิ่งที่สวนสาธารณะกันเยอะ",
+            "translations": {
+              "zh": "傍晚很多人去公园跑步。",
+              "en": "Lots of people go jogging in the park in the evening."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ที่จอดรถ",
+    "phonetic": "thichotrot",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "thîi-jɔ̀ɔt-rót · 降, 低, 高",
+      "classifier": "แห่ง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บริเวณสำหรับจอดรถ",
+        "translations": {
+          "zh": "停车场；停车位",
+          "en": "car park, parking space"
+        },
+        "examples": [
+          {
+            "text": "ห้างนี้ที่จอดรถเต็มทุกวันหยุด",
+            "translations": {
+              "zh": "这家商场每逢假日停车场都满。",
+              "en": "This mall's car park is full every holiday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประชากร",
+    "phonetic": "prachakon",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "prà-chaa-kɔɔn · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จำนวนคนที่อาศัยอยู่ในพื้นที่หนึ่ง",
+        "translations": {
+          "zh": "人口",
+          "en": "population"
+        },
+        "examples": [
+          {
+            "text": "กรุงเทพฯ มีประชากรมากกว่าสิบล้านคน",
+            "translations": {
+              "zh": "曼谷人口超过一千万。",
+              "en": "Bangkok has a population of over ten million."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หนาแน่น",
+    "phonetic": "nanaen",
+    "cefr": "B2",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "nǎa-nɛ̂n · 升, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีมากและอยู่ชิดกัน",
+        "translations": {
+          "zh": "密集的；稠密的",
+          "en": "dense, crowded"
+        },
+        "examples": [
+          {
+            "text": "ย่านนี้มีคนอยู่หนาแน่นมาก",
+            "translations": {
+              "zh": "这一带人口非常稠密。",
+              "en": "This area is very densely populated."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แออัด",
+    "phonetic": "aeat",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "ɛɛ-àt · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีคนหรือของอยู่มากจนเบียดกัน",
+        "translations": {
+          "zh": "拥挤的",
+          "en": "overcrowded, cramped"
+        },
+        "examples": [
+          {
+            "text": "รถไฟฟ้าตอนเช้าแออัดมาก",
+            "translations": {
+              "zh": "早上的轻轨非常拥挤。",
+              "en": "The Skytrain is very crowded in the morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ซ่อม",
+    "phonetic": "som",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "sɔ̂m · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ของที่เสียกลับมาใช้ได้",
+        "translations": {
+          "zh": "修理",
+          "en": "to repair, to fix"
+        },
+        "examples": [
+          {
+            "text": "ช่างจะมาซ่อมแอร์พรุ่งนี้เช้า",
+            "translations": {
+              "zh": "师傅明天早上来修空调。",
+              "en": "The technician is coming to fix the air-con tomorrow morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตกแต่ง",
+    "phonetic": "toktaeng",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "tòk-tɛ̀ng · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สวยงามขึ้น",
+        "translations": {
+          "zh": "装饰；装修",
+          "en": "to decorate"
+        },
+        "examples": [
+          {
+            "text": "เราตกแต่งห้องใหม่ด้วยต้นไม้เยอะ ๆ",
+            "translations": {
+              "zh": "我们用很多植物重新布置了房间。",
+              "en": "We redecorated the room with lots of plants."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครื่องซักผ้า",
+    "phonetic": "khrueangsakpha",
+    "cefr": "B1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "khrʉ̂ang-sák-phâa · 降, 高, 降",
+      "classifier": "เครื่อง（台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องที่ใช้ซักเสื้อผ้า",
+        "translations": {
+          "zh": "洗衣机",
+          "en": "washing machine"
+        },
+        "examples": [
+          {
+            "text": "หอพักมีเครื่องซักผ้าหยอดเหรียญ",
+            "translations": {
+              "zh": "宿舍有投币洗衣机。",
+              "en": "The dorm has coin-operated washing machines."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รถติด",
+    "phonetic": "rottit",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "rót-tìt · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รถบนถนนเคลื่อนที่ได้ช้ามากหรือไม่ขยับ",
+        "translations": {
+          "zh": "堵车",
+          "en": "(traffic) to be jammed"
+        },
+        "examples": [
+          {
+            "text": "เย็นวันศุกร์รถติดมากทุกที่",
+            "translations": {
+              "zh": "周五傍晚到处都堵车。",
+              "en": "Friday evenings the traffic is terrible everywhere."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จราจร",
+    "phonetic": "charachon",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "jà-raa-jɔɔn · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การไปมาของรถและคนบนถนน",
+        "translations": {
+          "zh": "交通",
+          "en": "traffic"
+        },
+        "examples": [
+          {
+            "text": "ตำรวจจราจรยืนโบกรถอยู่ที่สี่แยก",
+            "translations": {
+              "zh": "交警站在十字路口指挥交通。",
+              "en": "A traffic officer is directing cars at the intersection."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทางด่วน",
+    "phonetic": "thangduan",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "thaang-dùan · 中, 低",
+      "classifier": "สาย（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ถนนที่ต้องเสียเงินเพื่อขับได้เร็ว",
+        "translations": {
+          "zh": "高速公路（收费快速路）",
+          "en": "expressway, tollway"
+        },
+        "examples": [
+          {
+            "text": "ขึ้นทางด่วนจะถึงสนามบินเร็วกว่า",
+            "translations": {
+              "zh": "走高速去机场会更快。",
+              "en": "Taking the expressway gets you to the airport faster."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใบขับขี่",
+    "phonetic": "baikhapkhi",
+    "cefr": "B1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "bai-khàp-khìi · 中, 低, 低",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บัตรที่อนุญาตให้ขับรถได้",
+        "translations": {
+          "zh": "驾照",
+          "en": "driving licence"
+        },
+        "examples": [
+          {
+            "text": "ชาวต่างชาติต้องมีใบขับขี่สากล",
+            "translations": {
+              "zh": "外国人需要国际驾照。",
+              "en": "Foreigners need an international driving licence."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ค่าโดยสาร",
+    "phonetic": "khadoisan",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "khâa-dooi-sǎan · 降, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่จ่ายเพื่อนั่งรถ เรือ หรือเครื่องบิน",
+        "translations": {
+          "zh": "车费；票价",
+          "en": "fare"
+        },
+        "examples": [
+          {
+            "text": "ค่าโดยสารรถเมล์แค่สิบห้าบาท",
+            "translations": {
+              "zh": "公交车费只要十五泰铢。",
+              "en": "The bus fare is only fifteen baht."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เรือข้ามฟาก",
+    "phonetic": "rueakhamfak",
+    "cefr": "B2",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "rʉa-khâam-fâak · 中, 降, 降",
+      "classifier": "ลำ（艘）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรือที่พาคนข้ามแม่น้ำหรือทะเล",
+        "translations": {
+          "zh": "渡船；轮渡",
+          "en": "ferry"
+        },
+        "examples": [
+          {
+            "text": "นั่งเรือข้ามฟากไปฝั่งธนแค่ห้าบาท",
+            "translations": {
+              "zh": "坐渡船去吞武里那边只要五泰铢。",
+              "en": "The ferry across to the Thonburi side is only five baht."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รถตู้",
+    "phonetic": "rottu",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "rót-tûu · 高, 降",
+      "classifier": "คัน（辆）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รถขนาดกลางทรงกล่อง นั่งได้ประมาณสิบคน",
+        "translations": {
+          "zh": "面包车；小巴",
+          "en": "minivan"
+        },
+        "examples": [
+          {
+            "text": "จากกรุงเทพฯ ไปหัวหินนั่งรถตู้สะดวกที่สุด",
+            "translations": {
+              "zh": "从曼谷去华欣坐小巴最方便。",
+              "en": "A minivan is the easiest way from Bangkok to Hua Hin."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ต่อรถ",
+    "phonetic": "torot",
+    "cefr": "B1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "tɔ̀ɔ-rót · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปลี่ยนไปขึ้นรถอีกคันหนึ่ง",
+        "translations": {
+          "zh": "转车；换乘",
+          "en": "to change (buses, vehicles)"
+        },
+        "examples": [
+          {
+            "text": "จากที่นี่ต้องต่อรถอีกสองต่อ",
+            "translations": {
+              "zh": "从这里还要转两次车。",
+              "en": "From here you have to change buses twice."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปั๊มน้ำมัน",
+    "phonetic": "pamnamman",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "pám-náam-man · 高, 高, 中",
+      "classifier": "แห่ง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สถานที่ขายน้ำมันรถ",
+        "translations": {
+          "zh": "加油站",
+          "en": "petrol station"
+        },
+        "examples": [
+          {
+            "text": "แวะปั๊มน้ำมันเข้าห้องน้ำก่อนนะ",
+            "translations": {
+              "zh": "先在加油站停一下上个厕所吧。",
+              "en": "Let's stop at the petrol station for the toilet first."
+            }
+          }
+        ],
+        "usageNote": "泰国加油站常附带厕所、便利店，是长途休息点。"
+      }
+    ]
+  },
+  {
+    "headword": "น้ำมัน",
+    "phonetic": "namman",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "náam-man · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของเหลวที่ใช้ทำอาหารหรือเป็นเชื้อเพลิงรถ",
+        "translations": {
+          "zh": "油；汽油",
+          "en": "oil; fuel, petrol"
+        },
+        "examples": [
+          {
+            "text": "น้ำมันขึ้นราคาอีกแล้ว",
+            "translations": {
+              "zh": "油价又涨了。",
+              "en": "Fuel prices have gone up again."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อุบัติเหตุ",
+    "phonetic": "ubattihet",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "ù-bàt-tì-hèet · 低, 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เหตุร้ายที่เกิดขึ้นโดยไม่คาดคิด",
+        "translations": {
+          "zh": "事故；意外",
+          "en": "accident"
+        },
+        "examples": [
+          {
+            "text": "เมื่อเช้ามีอุบัติเหตุรถชนบนทางด่วน",
+            "translations": {
+              "zh": "今天早上高速上发生了车祸。",
+              "en": "There was a car crash on the expressway this morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เลี้ยว",
+    "phonetic": "liao",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "líao · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปลี่ยนทิศทางไปทางซ้ายหรือขวา",
+        "translations": {
+          "zh": "转弯；拐",
+          "en": "to turn"
+        },
+        "examples": [
+          {
+            "text": "เลี้ยวขวาตรงไฟแดงข้างหน้า",
+            "translations": {
+              "zh": "在前面的红绿灯右转。",
+              "en": "Turn right at the traffic lights ahead."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จอด",
+    "phonetic": "chot",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "jɔ̀ɔt · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้รถหยุดอยู่กับที่",
+        "translations": {
+          "zh": "停（车）",
+          "en": "to park, to stop (a vehicle)"
+        },
+        "examples": [
+          {
+            "text": "จอดตรงนี้ได้ไหมครับ",
+            "translations": {
+              "zh": "可以停在这里吗？",
+              "en": "Can I stop here, please?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความเร็ว",
+    "phonetic": "khwamreo",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "khwaam-reo · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อัตราการเคลื่อนที่",
+        "translations": {
+          "zh": "速度",
+          "en": "speed"
+        },
+        "examples": [
+          {
+            "text": "ในเมืองห้ามขับความเร็วเกินแปดสิบ",
+            "translations": {
+              "zh": "市区内车速不得超过八十。",
+              "en": "In town you must not drive faster than eighty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขนส่งสาธารณะ",
+    "phonetic": "khonsongsatharana",
+    "cefr": "B1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "khǒn-sòng-sǎa-thaa-rá-ná · 升, 低, 升, 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบบรถหรือเรือที่ทุกคนใช้ได้",
+        "translations": {
+          "zh": "公共交通",
+          "en": "public transport"
+        },
+        "examples": [
+          {
+            "text": "ใช้ขนส่งสาธารณะช่วยลดมลพิษ",
+            "translations": {
+              "zh": "乘坐公共交通有助于减少污染。",
+              "en": "Using public transport helps cut pollution."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รถไฟใต้ดิน",
+    "phonetic": "rotfaitaidin",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "rót-fai-tâi-din · 高, 中, 降, 中",
+      "classifier": "ขบวน（列）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รถไฟที่วิ่งใต้ดิน",
+        "translations": {
+          "zh": "地铁",
+          "en": "subway, underground, metro"
+        },
+        "examples": [
+          {
+            "text": "นั่งรถไฟใต้ดินไปจตุจักรได้",
+            "translations": {
+              "zh": "坐地铁可以到乍都乍。",
+              "en": "You can take the subway to Chatuchak."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปลายทาง",
+    "phonetic": "plaithang",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "plaai-thaang · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่การเดินทางสิ้นสุด",
+        "translations": {
+          "zh": "终点；目的地",
+          "en": "destination, terminus"
+        },
+        "examples": [
+          {
+            "text": "รถเมล์สายนี้ปลายทางอยู่ที่หมอชิต",
+            "translations": {
+              "zh": "这路公交的终点站在莫奇。",
+              "en": "This bus terminates at Mo Chit."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เข็มขัดนิรภัย",
+    "phonetic": "khemkhatniraphai",
+    "cefr": "B1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "khěm-khàt-ní-rá-phai · 升, 低, 高, 高, 中",
+      "classifier": "เส้น（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สายที่คาดไว้ในรถเพื่อความปลอดภัย",
+        "translations": {
+          "zh": "安全带",
+          "en": "seatbelt"
+        },
+        "examples": [
+          {
+            "text": "นั่งข้างหน้าต้องคาดเข็มขัดนิรภัย",
+            "translations": {
+              "zh": "坐前排必须系安全带。",
+              "en": "You must wear a seatbelt in the front seat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชานชาลา",
+    "phonetic": "chanchala",
+    "cefr": "B2",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "chaan-chaa-laa · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ยืนรอขึ้นรถไฟในสถานี",
+        "translations": {
+          "zh": "站台；月台",
+          "en": "(train) platform"
+        },
+        "examples": [
+          {
+            "text": "รถไฟไปเชียงใหม่ออกจากชานชาลาที่สาม",
+            "translations": {
+              "zh": "去清迈的火车从三号站台发车。",
+              "en": "The train to Chiang Mai leaves from platform three."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

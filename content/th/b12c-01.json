@@ -1,0 +1,1468 @@
+[
+  {
+    "headword": "ขยัน",
+    "phonetic": "khayan",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "khà-yǎn · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ตั้งใจทำงานหรือเรียนอย่างสม่ำเสมอ",
+        "translations": {
+          "zh": "勤奋；勤快",
+          "en": "hard-working, diligent"
+        },
+        "examples": [
+          {
+            "text": "เขาเป็นคนขยันมาก",
+            "translations": {
+              "zh": "他是个很勤快的人。",
+              "en": "He is a very hard-working person."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขี้เกียจ",
+    "phonetic": "khikiat",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "khîi-kìat · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่อยากทำงานหรือทำอะไร",
+        "translations": {
+          "zh": "懒；懒得",
+          "en": "lazy"
+        },
+        "examples": [
+          {
+            "text": "วันนี้ฉันขี้เกียจทำการบ้าน",
+            "translations": {
+              "zh": "今天我懒得写作业。",
+              "en": "Today I'm too lazy to do my homework."
+            }
+          }
+        ],
+        "usageNote": "ขี้ 作前缀表示“爱……、动不动就……”，多带贬义，如 ขี้อาย（害羞）、ขี้บ่น（爱抱怨）。"
+      }
+    ]
+  },
+  {
+    "headword": "ซื่อสัตย์",
+    "phonetic": "suesat",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "sʉ̂ʉ-sàt · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "พูดความจริง ไม่โกงใคร",
+        "translations": {
+          "zh": "诚实；忠诚",
+          "en": "honest, loyal"
+        },
+        "examples": [
+          {
+            "text": "พนักงานคนนี้ซื่อสัตย์มาก",
+            "translations": {
+              "zh": "这位员工非常诚实。",
+              "en": "This employee is very honest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใจดี",
+    "phonetic": "chaidi",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "jai-dii · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีจิตใจดี ชอบช่วยคนอื่น",
+        "translations": {
+          "zh": "心地好；和善",
+          "en": "kind"
+        },
+        "examples": [
+          {
+            "text": "คุณยายข้างบ้านใจดีกับเด็ก ๆ",
+            "translations": {
+              "zh": "隔壁的奶奶对孩子们很和善。",
+              "en": "The old lady next door is kind to the children."
+            }
+          }
+        ],
+        "usageNote": "泰语很多性格词由 ใจ（心）构成：ใจดี 好心、ใจร้อน 急躁、ใจเย็น 冷静。"
+      }
+    ]
+  },
+  {
+    "headword": "ใจกว้าง",
+    "phonetic": "chaikwang",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "jai-kwâang · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ยอมรับความคิดคนอื่น หรือชอบให้",
+        "translations": {
+          "zh": "心胸宽广；大方",
+          "en": "generous, open-minded"
+        },
+        "examples": [
+          {
+            "text": "หัวหน้าของเราใจกว้างมาก",
+            "translations": {
+              "zh": "我们的领导心胸很宽广。",
+              "en": "Our boss is very open-minded."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใจแคบ",
+    "phonetic": "chaikhaep",
+    "cefr": "B2",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "toneMarks": "jai-khɛ̂ɛp · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่ยอมรับความคิดคนอื่น ไม่ชอบให้",
+        "translations": {
+          "zh": "心胸狭窄；小气",
+          "en": "narrow-minded, petty"
+        },
+        "examples": [
+          {
+            "text": "อย่าใจแคบนักเลย",
+            "translations": {
+              "zh": "别那么小心眼嘛。",
+              "en": "Don't be so petty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใจร้าย",
+    "phonetic": "chairai",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "jai-ráai · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ทำให้คนอื่นเจ็บปวดโดยไม่สงสาร",
+        "translations": {
+          "zh": "狠心；坏心肠",
+          "en": "mean, cruel"
+        },
+        "examples": [
+          {
+            "text": "ทำไมเธอใจร้ายกับฉันแบบนี้",
+            "translations": {
+              "zh": "你为什么对我这么狠心？",
+              "en": "Why are you so mean to me?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใจเย็น",
+    "phonetic": "chaiyen",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "jai-yen · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "สงบ ไม่รีบร้อน ไม่โกรธง่าย",
+        "translations": {
+          "zh": "冷静；有耐心",
+          "en": "calm, patient"
+        },
+        "examples": [
+          {
+            "text": "ใจเย็น ๆ ก่อนนะ ค่อย ๆ คุยกัน",
+            "translations": {
+              "zh": "先冷静一下，慢慢谈。",
+              "en": "Calm down first, let's talk it through."
+            }
+          }
+        ],
+        "usageNote": "ใจเย็น ๆ 常用来劝人“别急、冷静点”。泰国文化很看重保持冷静、不当众发火。"
+      }
+    ]
+  },
+  {
+    "headword": "ใจร้อน",
+    "phonetic": "chairon",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "jai-rɔ́ɔn · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "รีบร้อน โกรธง่าย รอไม่ได้",
+        "translations": {
+          "zh": "急躁；性急",
+          "en": "impatient, hot-tempered"
+        },
+        "examples": [
+          {
+            "text": "พ่อเป็นคนใจร้อนเวลาขับรถ",
+            "translations": {
+              "zh": "爸爸开车的时候很急躁。",
+              "en": "Dad gets impatient when he drives."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดื้อ",
+    "phonetic": "due",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "dʉ̂ʉ · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่ยอมเชื่อฟัง",
+        "translations": {
+          "zh": "固执；不听话",
+          "en": "stubborn, disobedient"
+        },
+        "examples": [
+          {
+            "text": "ลูกชายฉันดื้อมาก ไม่ยอมนอน",
+            "translations": {
+              "zh": "我儿子很不听话，不肯睡觉。",
+              "en": "My son is very stubborn and won't go to sleep."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อ่อนไหว",
+    "phonetic": "onwai",
+    "cefr": "B2",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "ɔ̀ɔn-wǎi · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "รู้สึกเสียใจหรือกระทบใจได้ง่าย",
+        "translations": {
+          "zh": "敏感；容易动情",
+          "en": "sensitive, emotional"
+        },
+        "examples": [
+          {
+            "text": "เธอเป็นคนอ่อนไหวง่าย",
+            "translations": {
+              "zh": "她是个很敏感的人。",
+              "en": "She is easily moved."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เกรงใจ",
+    "phonetic": "krengchai",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "kreeng-jai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่อยากรบกวนหรือทำให้คนอื่นลำบากใจ",
+        "translations": {
+          "zh": "不好意思（麻烦别人）；顾及他人",
+          "en": "to be considerate, to not want to impose"
+        },
+        "examples": [
+          {
+            "text": "ไม่ต้องเกรงใจนะ กินเยอะ ๆ",
+            "translations": {
+              "zh": "别客气，多吃点。",
+              "en": "Don't be shy, eat a lot."
+            }
+          }
+        ],
+        "usageNote": "เกรงใจ 是泰国文化核心概念：怕麻烦别人、顾及对方感受，所以常不直接拒绝。ไม่ต้องเกรงใจ 相当于“别客气”。"
+      }
+    ]
+  },
+  {
+    "headword": "ขี้อาย",
+    "phonetic": "khi-ai",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "khîi-aai · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "อายง่าย ไม่กล้าพูดกับคนแปลกหน้า",
+        "translations": {
+          "zh": "害羞；腼腆",
+          "en": "shy"
+        },
+        "examples": [
+          {
+            "text": "น้องสาวฉันขี้อายมาก",
+            "translations": {
+              "zh": "我妹妹很害羞。",
+              "en": "My younger sister is very shy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขี้โมโห",
+    "phonetic": "khimoho",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "khîi-moo-hǒo · 降, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "โกรธง่าย",
+        "translations": {
+          "zh": "爱发脾气",
+          "en": "short-tempered"
+        },
+        "examples": [
+          {
+            "text": "ลุงเป็นคนขี้โมโห",
+            "translations": {
+              "zh": "叔叔是个爱发脾气的人。",
+              "en": "My uncle is short-tempered."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขี้เหนียว",
+    "phonetic": "khiniao",
+    "cefr": "B1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "khîi-nǐao · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่อยากใช้เงินหรือให้ของคนอื่น",
+        "translations": {
+          "zh": "小气；吝啬",
+          "en": "stingy"
+        },
+        "examples": [
+          {
+            "text": "เขาขี้เหนียว ไม่เคยเลี้ยงข้าวใคร",
+            "translations": {
+              "zh": "他很小气，从来不请人吃饭。",
+              "en": "He's stingy; he never treats anyone to a meal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขี้บ่น",
+    "phonetic": "khibon",
+    "cefr": "B1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "khîi-bòn · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ชอบพูดว่าไม่พอใจบ่อย ๆ",
+        "translations": {
+          "zh": "爱抱怨；唠叨",
+          "en": "always complaining, nagging"
+        },
+        "examples": [
+          {
+            "text": "แม่ขี้บ่นแต่ก็รักเรามาก",
+            "translations": {
+              "zh": "妈妈爱唠叨，但很爱我们。",
+              "en": "Mom nags a lot, but she loves us very much."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขี้ลืม",
+    "phonetic": "khilum",
+    "cefr": "B1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "khîi-lʉʉm · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ลืมอะไรง่าย",
+        "translations": {
+          "zh": "健忘",
+          "en": "forgetful"
+        },
+        "examples": [
+          {
+            "text": "ช่วงนี้ฉันขี้ลืมมาก",
+            "translations": {
+              "zh": "最近我特别健忘。",
+              "en": "I've been very forgetful lately."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขี้เล่น",
+    "phonetic": "khilen",
+    "cefr": "B1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "khîi-lên · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ชอบล้อเล่น สนุกสนาน",
+        "translations": {
+          "zh": "爱玩；爱开玩笑",
+          "en": "playful"
+        },
+        "examples": [
+          {
+            "text": "ครูคนใหม่ขี้เล่นและใจดี",
+            "translations": {
+              "zh": "新老师爱开玩笑又和善。",
+              "en": "The new teacher is playful and kind."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขี้ขลาด",
+    "phonetic": "khikhlat",
+    "cefr": "B2",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "toneMarks": "khîi-khlàat · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "กลัวง่าย ไม่กล้าทำอะไร",
+        "translations": {
+          "zh": "胆小；懦弱",
+          "en": "cowardly"
+        },
+        "examples": [
+          {
+            "text": "อย่าขี้ขลาดสิ ลองดูก่อน",
+            "translations": {
+              "zh": "别那么胆小，先试试看。",
+              "en": "Don't be a coward, give it a try."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นิสัย",
+    "phonetic": "nisai",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "ní-sǎi · 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะความประพฤติของคน",
+        "translations": {
+          "zh": "性格；习惯",
+          "en": "character, habit"
+        },
+        "examples": [
+          {
+            "text": "เขานิสัยดีมาก",
+            "translations": {
+              "zh": "他性格很好。",
+              "en": "He has a very good character."
+            }
+          }
+        ],
+        "usageNote": "นิสัย + 形容词 描述人品：นิสัยดี 人品好、นิสัยไม่ดี 人品差。"
+      }
+    ]
+  },
+  {
+    "headword": "บุคลิก",
+    "phonetic": "bukkhalik",
+    "cefr": "B2",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "bùk-khá-lík · 低, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะท่าทางและนิสัยของคน",
+        "translations": {
+          "zh": "个性；气质",
+          "en": "personality, demeanour"
+        },
+        "examples": [
+          {
+            "text": "เธอมีบุคลิกดี เหมาะกับงานนี้",
+            "translations": {
+              "zh": "她气质好，适合这份工作。",
+              "en": "She has a good presence; she suits this job."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อดทน",
+    "phonetic": "otthon",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "òt-thon · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทนรอหรือทนความลำบากได้",
+        "translations": {
+          "zh": "忍耐；有耐心",
+          "en": "to be patient, to endure"
+        },
+        "examples": [
+          {
+            "text": "ต้องอดทนอีกนิดนะ",
+            "translations": {
+              "zh": "还得再忍耐一下哦。",
+              "en": "You need to be patient a little longer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สุภาพ",
+    "phonetic": "suphap",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "sù-phâap · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "พูดและทำอย่างมีมารยาท",
+        "translations": {
+          "zh": "有礼貌；文雅",
+          "en": "polite"
+        },
+        "examples": [
+          {
+            "text": "เด็กคนนี้พูดจาสุภาพมาก",
+            "translations": {
+              "zh": "这孩子说话很有礼貌。",
+              "en": "This child speaks very politely."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หยาบคาย",
+    "phonetic": "yapkhai",
+    "cefr": "B2",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "yàap-khaai · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "พูดหรือทำไม่สุภาพ",
+        "translations": {
+          "zh": "粗鲁；无礼",
+          "en": "rude, vulgar"
+        },
+        "examples": [
+          {
+            "text": "อย่าพูดหยาบคายกับผู้ใหญ่",
+            "translations": {
+              "zh": "别对长辈说粗话。",
+              "en": "Don't speak rudely to elders."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เห็นแก่ตัว",
+    "phonetic": "henkaetua",
+    "cefr": "B1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "hěn-kɛ̀ɛ-tua · 升, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "คิดถึงแต่ประโยชน์ของตัวเอง",
+        "translations": {
+          "zh": "自私",
+          "en": "selfish"
+        },
+        "examples": [
+          {
+            "text": "คนเห็นแก่ตัวไม่มีใครอยากคบ",
+            "translations": {
+              "zh": "没人愿意和自私的人交往。",
+              "en": "Nobody wants to be friends with selfish people."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ซน",
+    "phonetic": "son",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "son · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ชอบเล่นไม่อยู่นิ่ง (ใช้กับเด็ก)",
+        "translations": {
+          "zh": "淘气；调皮",
+          "en": "naughty, mischievous"
+        },
+        "examples": [
+          {
+            "text": "หลานชายซนมาก วิ่งทั้งวัน",
+            "translations": {
+              "zh": "小外甥很调皮，整天跑来跑去。",
+              "en": "My nephew is very naughty; he runs around all day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ร่าเริง",
+    "phonetic": "raroeng",
+    "cefr": "B1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "râa-rəəng · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "สดใส มีความสุข ยิ้มง่าย",
+        "translations": {
+          "zh": "开朗；活泼",
+          "en": "cheerful"
+        },
+        "examples": [
+          {
+            "text": "เธอเป็นคนร่าเริงเสมอ",
+            "translations": {
+              "zh": "她总是很开朗。",
+              "en": "She is always cheerful."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มั่นใจ",
+    "phonetic": "manchai",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "mân-jai · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เชื่อว่าตัวเองทำได้หรือถูกต้อง",
+        "translations": {
+          "zh": "自信；确信",
+          "en": "confident, sure"
+        },
+        "examples": [
+          {
+            "text": "ฉันมั่นใจว่าเขาจะมา",
+            "translations": {
+              "zh": "我确信他会来。",
+              "en": "I'm sure he will come."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตรงต่อเวลา",
+    "phonetic": "trong to wela",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "trong-tɔ̀ɔ-wee-laa · 中, 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มาหรือทำอะไรตามเวลาที่นัด",
+        "translations": {
+          "zh": "守时",
+          "en": "punctual"
+        },
+        "examples": [
+          {
+            "text": "คนญี่ปุ่นตรงต่อเวลามาก",
+            "translations": {
+              "zh": "日本人很守时。",
+              "en": "Japanese people are very punctual."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รับผิดชอบ",
+    "phonetic": "rapphitchop",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "ráp-phìt-chɔ̂ɔp · 高, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดูแลงานหรือผลของการกระทำของตัวเอง",
+        "translations": {
+          "zh": "负责",
+          "en": "to be responsible for"
+        },
+        "examples": [
+          {
+            "text": "ใครรับผิดชอบโครงการนี้",
+            "translations": {
+              "zh": "谁负责这个项目？",
+              "en": "Who is responsible for this project?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เอาใจใส่",
+    "phonetic": "aochaisai",
+    "cefr": "B1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "ao-jai-sài · 中, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "สนใจดูแลอย่างดี",
+        "translations": {
+          "zh": "关心；用心",
+          "en": "to pay attention to, to care for"
+        },
+        "examples": [
+          {
+            "text": "พ่อแม่ควรเอาใจใส่ลูก",
+            "translations": {
+              "zh": "父母应该关心孩子。",
+              "en": "Parents should pay attention to their children."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฉลาด",
+    "phonetic": "chalat",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "chà-làat · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "คิดเร็ว เรียนรู้เร็ว",
+        "translations": {
+          "zh": "聪明",
+          "en": "clever, intelligent"
+        },
+        "examples": [
+          {
+            "text": "ลูกสาวคุณฉลาดมาก",
+            "translations": {
+              "zh": "你女儿很聪明。",
+              "en": "Your daughter is very clever."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โง่",
+    "phonetic": "ngo",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "ngôo · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่ฉลาด คิดช้า",
+        "translations": {
+          "zh": "笨；愚蠢",
+          "en": "stupid"
+        },
+        "examples": [
+          {
+            "text": "ฉันโง่มากที่เชื่อเขา",
+            "translations": {
+              "zh": "我真蠢，竟然相信了他。",
+              "en": "I was so stupid to believe him."
+            }
+          }
+        ],
+        "usageNote": "直接说别人 โง่ 很不礼貌，多用于自嘲。"
+      }
+    ]
+  },
+  {
+    "headword": "ตลก",
+    "phonetic": "talok",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "tà-lòk · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ทำให้คนหัวเราะ",
+        "translations": {
+          "zh": "好笑；搞笑",
+          "en": "funny"
+        },
+        "examples": [
+          {
+            "text": "หนังเรื่องนี้ตลกมาก",
+            "translations": {
+              "zh": "这部电影很搞笑。",
+              "en": "This film is really funny."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กล้า",
+    "phonetic": "kla",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "klâa · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่กลัวที่จะทำ",
+        "translations": {
+          "zh": "敢",
+          "en": "to dare; brave"
+        },
+        "examples": [
+          {
+            "text": "ฉันไม่กล้าบอกแม่",
+            "translations": {
+              "zh": "我不敢告诉妈妈。",
+              "en": "I don't dare tell my mom."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กล้าหาญ",
+    "phonetic": "klahan",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "klâa-hǎan · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่กลัวอันตราย",
+        "translations": {
+          "zh": "勇敢",
+          "en": "brave, courageous"
+        },
+        "examples": [
+          {
+            "text": "ทหารคนนั้นกล้าหาญมาก",
+            "translations": {
+              "zh": "那位士兵非常勇敢。",
+              "en": "That soldier was very brave."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ถ่อมตัว",
+    "phonetic": "thomtua",
+    "cefr": "B2",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "thɔ̀ɔm-tua · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่อวดตัว ไม่คิดว่าตัวเองเก่งกว่าคนอื่น",
+        "translations": {
+          "zh": "谦虚",
+          "en": "humble, modest"
+        },
+        "examples": [
+          {
+            "text": "แม้จะรวย แต่เขาก็ถ่อมตัว",
+            "translations": {
+              "zh": "他虽然有钱，但很谦虚。",
+              "en": "Although he's rich, he is humble."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หยิ่ง",
+    "phonetic": "ying",
+    "cefr": "B1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "yìng · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "คิดว่าตัวเองดีกว่าคนอื่น ไม่ค่อยคุยกับใคร",
+        "translations": {
+          "zh": "高傲；傲慢",
+          "en": "arrogant, stuck-up"
+        },
+        "examples": [
+          {
+            "text": "ตอนแรกนึกว่าเธอหยิ่ง แต่จริง ๆ แค่ขี้อาย",
+            "translations": {
+              "zh": "一开始以为她高傲，其实只是害羞。",
+              "en": "At first I thought she was stuck-up, but she's just shy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อิจฉา",
+    "phonetic": "itcha",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "ìt-chǎa · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่พอใจที่คนอื่นมีหรือได้ดีกว่า",
+        "translations": {
+          "zh": "嫉妒；羡慕",
+          "en": "to envy, to be jealous"
+        },
+        "examples": [
+          {
+            "text": "ฉันอิจฉาคนที่พูดได้หลายภาษา",
+            "translations": {
+              "zh": "我羡慕会说多种语言的人。",
+              "en": "I envy people who can speak many languages."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หึง",
+    "phonetic": "hueng",
+    "cefr": "B1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "hʉ̌ng · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่พอใจเมื่อคนรักสนใจคนอื่น",
+        "translations": {
+          "zh": "吃醋（恋人间）",
+          "en": "to be jealous (romantically)"
+        },
+        "examples": [
+          {
+            "text": "แฟนฉันหึงเก่งมาก",
+            "translations": {
+              "zh": "我对象很爱吃醋。",
+              "en": "My partner gets jealous very easily."
+            }
+          }
+        ],
+        "usageNote": "หึง 专指恋人之间吃醋；嫉妒别人的成就用 อิจฉา。"
+      }
+    ]
+  },
+  {
+    "headword": "จริงจัง",
+    "phonetic": "chingchang",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "jing-jang · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ตั้งใจมาก ไม่ล้อเล่น",
+        "translations": {
+          "zh": "认真；严肃",
+          "en": "serious, earnest"
+        },
+        "examples": [
+          {
+            "text": "เขาจริงจังกับงานมาก",
+            "translations": {
+              "zh": "他对工作很认真。",
+              "en": "He takes his work very seriously."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เป็นกันเอง",
+    "phonetic": "pen kan eng",
+    "cefr": "B1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "pen-kan-eeng · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ทำตัวสบาย ๆ ไม่ถือตัว",
+        "translations": {
+          "zh": "随和；平易近人",
+          "en": "friendly, easy-going, informal"
+        },
+        "examples": [
+          {
+            "text": "เจ้าของร้านเป็นกันเองมาก",
+            "translations": {
+              "zh": "店主非常随和。",
+              "en": "The shop owner is very friendly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มีน้ำใจ",
+    "phonetic": "mi namchai",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "mii-nám-jai · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ชอบช่วยเหลือคนอื่นโดยไม่หวังอะไร",
+        "translations": {
+          "zh": "热心；乐于助人",
+          "en": "kind-hearted, helpful"
+        },
+        "examples": [
+          {
+            "text": "คนไทยมีน้ำใจกับนักท่องเที่ยว",
+            "translations": {
+              "zh": "泰国人对游客很热心。",
+              "en": "Thai people are kind to tourists."
+            }
+          }
+        ],
+        "usageNote": "น้ำใจ 字面是“心之水”，指乐于助人的好心肠，是泰国人很重视的品质。"
+      }
+    ]
+  },
+  {
+    "headword": "ใจแข็ง",
+    "phonetic": "chaikhaeng",
+    "cefr": "B2",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "toneMarks": "jai-khɛ̌ng · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่ยอมใจอ่อนง่าย ๆ",
+        "translations": {
+          "zh": "意志坚定；硬心肠",
+          "en": "strong-willed, hard-hearted"
+        },
+        "examples": [
+          {
+            "text": "ต้องใจแข็งไว้ อย่ากลับไปหาเขา",
+            "translations": {
+              "zh": "心要硬一点，别回去找他。",
+              "en": "Stay strong, don't go back to him."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใจอ่อน",
+    "phonetic": "chai-on",
+    "cefr": "B1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "jai-ɔ̀ɔn · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "สงสารหรือยอมคนอื่นง่าย",
+        "translations": {
+          "zh": "心软",
+          "en": "soft-hearted"
+        },
+        "examples": [
+          {
+            "text": "แม่ใจอ่อนทุกครั้งที่ลูกร้องไห้",
+            "translations": {
+              "zh": "孩子一哭，妈妈就心软。",
+              "en": "Mom softens every time the child cries."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ละเอียด",
+    "phonetic": "laiat",
+    "cefr": "B1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "lá-ìat · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ทำอย่างระมัดระวังทุกส่วน",
+        "translations": {
+          "zh": "细心；仔细",
+          "en": "meticulous, careful"
+        },
+        "examples": [
+          {
+            "text": "เธอทำงานละเอียดมาก",
+            "translations": {
+              "zh": "她工作非常细心。",
+              "en": "She works very meticulously."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประหยัด",
+    "phonetic": "prayat",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "prà-yàt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้เงินหรือของอย่างระมัดระวัง",
+        "translations": {
+          "zh": "节省；节约",
+          "en": "to save, to be thrifty"
+        },
+        "examples": [
+          {
+            "text": "เราต้องประหยัดเงินเดือนนี้",
+            "translations": {
+              "zh": "这个月我们得省钱。",
+              "en": "We have to save money this month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เรียบร้อย",
+    "phonetic": "riaproi",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "rîap-rɔ́ɔi · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เป็นระเบียบ หรือสุภาพ",
+        "translations": {
+          "zh": "整齐；端庄；妥当",
+          "en": "neat, proper, well-behaved"
+        },
+        "examples": [
+          {
+            "text": "ลูกสาวบ้านนี้เรียบร้อยมาก",
+            "translations": {
+              "zh": "这家的女儿很端庄。",
+              "en": "This family's daughter is very well-mannered."
+            }
+          }
+        ],
+        "usageNote": "也常表示“办妥了”：ทุกอย่างเรียบร้อยแล้ว（一切都办妥了）。"
+      }
+    ]
+  },
+  {
+    "headword": "เข้มงวด",
+    "phonetic": "khemnguat",
+    "cefr": "B2",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "khêm-ngûat · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เคร่งครัดกับกฎมาก",
+        "translations": {
+          "zh": "严格",
+          "en": "strict"
+        },
+        "examples": [
+          {
+            "text": "ครูคนนี้เข้มงวดเรื่องเวลา",
+            "translations": {
+              "zh": "这位老师对时间要求很严格。",
+              "en": "This teacher is strict about time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สุขุม",
+    "phonetic": "sukhum",
+    "cefr": "B2",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "sù-khǔm · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "สงบ คิดก่อนทำ ไม่รีบร้อน",
+        "translations": {
+          "zh": "沉稳；稳重",
+          "en": "composed, level-headed"
+        },
+        "examples": [
+          {
+            "text": "หัวหน้าคนใหม่สุขุมมาก",
+            "translations": {
+              "zh": "新领导很沉稳。",
+              "en": "The new boss is very level-headed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจ้าชู้",
+    "phonetic": "chaochu",
+    "cefr": "B1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "jâo-chúu · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ชอบมีหลายคนรัก หรือชอบจีบคนอื่น",
+        "translations": {
+          "zh": "花心；风流",
+          "en": "flirtatious, womanising"
+        },
+        "examples": [
+          {
+            "text": "ระวังนะ ผู้ชายคนนั้นเจ้าชู้",
+            "translations": {
+              "zh": "小心点，那个男人很花心。",
+              "en": "Be careful, that guy is a player."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิใจ",
+    "phonetic": "phumchai",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "phuum-jai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดีใจที่ตัวเองหรือคนใกล้ชิดทำได้ดี",
+        "translations": {
+          "zh": "骄傲；自豪",
+          "en": "to be proud"
+        },
+        "examples": [
+          {
+            "text": "พ่อแม่ภูมิใจในตัวลูกมาก",
+            "translations": {
+              "zh": "父母为孩子感到非常骄傲。",
+              "en": "The parents are very proud of their child."
+            }
+          }
+        ],
+        "usageNote": "“为……骄傲”说 ภูมิใจใน……（ใน 后接对象）。"
+      }
+    ]
+  }
+]

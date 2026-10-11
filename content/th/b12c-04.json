@@ -1,0 +1,1490 @@
+[
+  {
+    "headword": "ปวดหัว",
+    "phonetic": "puathua",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "pùat-hǔa · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เจ็บในหัว",
+        "translations": {
+          "zh": "头疼",
+          "en": "to have a headache"
+        },
+        "examples": [
+          {
+            "text": "วันนี้ปวดหัวมาก ขอลาป่วยนะ",
+            "translations": {
+              "zh": "今天头很疼，我请病假。",
+              "en": "I have a bad headache today, I'll take sick leave."
+            }
+          }
+        ],
+        "usageNote": "口语也比喻“头疼、伤脑筋”：เรื่องนี้ปวดหัวจริง ๆ。"
+      }
+    ]
+  },
+  {
+    "headword": "ไอ",
+    "phonetic": "ai",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "ai · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีลมออกจากคอแรง ๆ เพราะป่วย",
+        "translations": {
+          "zh": "咳嗽",
+          "en": "to cough"
+        },
+        "examples": [
+          {
+            "text": "ลูกไอทั้งคืน",
+            "translations": {
+              "zh": "孩子咳了一整晚。",
+              "en": "My child coughed all night."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จาม",
+    "phonetic": "cham",
+    "cefr": "B1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "jaam · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีลมออกทางจมูกและปากแรง ๆ ทันที",
+        "translations": {
+          "zh": "打喷嚏",
+          "en": "to sneeze"
+        },
+        "examples": [
+          {
+            "text": "ฉันแพ้ฝุ่น จามทั้งวัน",
+            "translations": {
+              "zh": "我对灰尘过敏，打了一天喷嚏。",
+              "en": "I'm allergic to dust and sneezed all day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำมูก",
+    "phonetic": "nammuk",
+    "cefr": "B1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "nám-mûuk · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำที่ไหลออกจากจมูกเวลาเป็นหวัด",
+        "translations": {
+          "zh": "鼻涕",
+          "en": "runny nose, snot"
+        },
+        "examples": [
+          {
+            "text": "เป็นหวัด มีน้ำมูกไหล",
+            "translations": {
+              "zh": "感冒了，流鼻涕。",
+              "en": "I have a cold and a runny nose."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หวัด",
+    "phonetic": "wat",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "wàt · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โรคที่ทำให้ไอ จาม มีน้ำมูก",
+        "translations": {
+          "zh": "感冒",
+          "en": "a cold"
+        },
+        "examples": [
+          {
+            "text": "ฉันเป็นหวัดมาสามวันแล้ว",
+            "translations": {
+              "zh": "我感冒三天了。",
+              "en": "I've had a cold for three days."
+            }
+          }
+        ],
+        "usageNote": "“感冒了”说 เป็นหวัด。"
+      }
+    ]
+  },
+  {
+    "headword": "ไข้หวัดใหญ่",
+    "phonetic": "khaiwatyai",
+    "cefr": "B1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "khâi-wàt-yài · 降, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โรคติดเชื้อที่ทำให้มีไข้สูงและปวดตัว",
+        "translations": {
+          "zh": "流感",
+          "en": "influenza, flu"
+        },
+        "examples": [
+          {
+            "text": "ปีนี้ไข้หวัดใหญ่ระบาดมาก",
+            "translations": {
+              "zh": "今年流感很严重。",
+              "en": "There's a big flu outbreak this year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ท้องเสีย",
+    "phonetic": "thongsia",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "thɔ́ɔng-sǐa · 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ถ่ายเป็นน้ำบ่อย ๆ",
+        "translations": {
+          "zh": "拉肚子；腹泻",
+          "en": "to have diarrhoea"
+        },
+        "examples": [
+          {
+            "text": "กินส้มตำแล้วท้องเสีย",
+            "translations": {
+              "zh": "吃了青木瓜沙拉后拉肚子了。",
+              "en": "I got diarrhoea after eating papaya salad."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คลื่นไส้",
+    "phonetic": "khluensai",
+    "cefr": "B1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "khlʉ̂ʉn-sâi · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกเหมือนจะอาเจียน",
+        "translations": {
+          "zh": "恶心；想吐",
+          "en": "to feel nauseous"
+        },
+        "examples": [
+          {
+            "text": "นั่งรถนาน ๆ แล้วคลื่นไส้",
+            "translations": {
+              "zh": "坐车久了就恶心。",
+              "en": "I feel nauseous after long car rides."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาเจียน",
+    "phonetic": "achian",
+    "cefr": "B1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "aa-jian · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อาหารออกมาทางปาก",
+        "translations": {
+          "zh": "呕吐",
+          "en": "to vomit"
+        },
+        "examples": [
+          {
+            "text": "เด็กอาเจียนหลังกินข้าว",
+            "translations": {
+              "zh": "孩子吃完饭吐了。",
+              "en": "The child vomited after eating."
+            }
+          }
+        ],
+        "usageNote": "口语常说 อ้วก，较粗俗；在医院说 อาเจียน。"
+      }
+    ]
+  },
+  {
+    "headword": "เวียนหัว",
+    "phonetic": "wianhua",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "wian-hǔa · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกเหมือนทุกอย่างหมุน",
+        "translations": {
+          "zh": "头晕",
+          "en": "to feel dizzy"
+        },
+        "examples": [
+          {
+            "text": "ลุกเร็ว ๆ แล้วเวียนหัว",
+            "translations": {
+              "zh": "起身太快就头晕。",
+              "en": "I get dizzy when I stand up quickly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แพ้",
+    "phonetic": "phae",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phɛ́ɛ · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ร่างกายมีปฏิกิริยาไม่ดีกับบางอย่าง",
+        "translations": {
+          "zh": "过敏",
+          "en": "to be allergic to"
+        },
+        "examples": [
+          {
+            "text": "ผมแพ้อาหารทะเล",
+            "translations": {
+              "zh": "我对海鲜过敏。",
+              "en": "I'm allergic to seafood."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่ชนะ",
+        "translations": {
+          "zh": "输",
+          "en": "to lose (a game or contest)"
+        },
+        "examples": [
+          {
+            "text": "ทีมเราแพ้สองต่อหนึ่ง",
+            "translations": {
+              "zh": "我们队二比一输了。",
+              "en": "Our team lost two to one."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผื่น",
+    "phonetic": "phuen",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "phʉ̀ʉn · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จุดแดง ๆ ที่ขึ้นบนผิว",
+        "translations": {
+          "zh": "疹子",
+          "en": "rash"
+        },
+        "examples": [
+          {
+            "text": "มีผื่นขึ้นที่แขน",
+            "translations": {
+              "zh": "胳膊上起了疹子。",
+              "en": "A rash came up on my arm."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คัน",
+    "phonetic": "khan",
+    "cefr": "B1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "khan · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "อยากเกาผิว",
+        "translations": {
+          "zh": "痒",
+          "en": "itchy"
+        },
+        "examples": [
+          {
+            "text": "ยุงกัด คันมาก",
+            "translations": {
+              "zh": "被蚊子咬了，好痒。",
+              "en": "I got bitten by mosquitoes; it's so itchy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บวม",
+    "phonetic": "buam",
+    "cefr": "B1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "buam · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใหญ่ขึ้นหรือพองขึ้นเพราะเจ็บ",
+        "translations": {
+          "zh": "肿",
+          "en": "to swell"
+        },
+        "examples": [
+          {
+            "text": "ข้อเท้าบวมหลังหกล้ม",
+            "translations": {
+              "zh": "摔倒后脚踝肿了。",
+              "en": "My ankle swelled up after I fell."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แผล",
+    "phonetic": "phlae",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "phlɛ̌ɛ · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนของผิวที่ถูกตัดหรือได้รับบาดเจ็บ",
+        "translations": {
+          "zh": "伤口",
+          "en": "wound, cut"
+        },
+        "examples": [
+          {
+            "text": "ล้างแผลให้สะอาดก่อน",
+            "translations": {
+              "zh": "先把伤口洗干净。",
+              "en": "Clean the wound first."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เลือด",
+    "phonetic": "lueat",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "lʉ̂at · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำสีแดงในร่างกาย",
+        "translations": {
+          "zh": "血",
+          "en": "blood"
+        },
+        "examples": [
+          {
+            "text": "นิ้วฉันมีเลือดออก",
+            "translations": {
+              "zh": "我手指流血了。",
+              "en": "My finger is bleeding."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กระดูก",
+    "phonetic": "kraduk",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "krà-dùuk · 低, 低",
+      "classifier": "ชิ้น（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนแข็งในร่างกาย",
+        "translations": {
+          "zh": "骨头",
+          "en": "bone"
+        },
+        "examples": [
+          {
+            "text": "หมอบอกว่ากระดูกแขนหัก",
+            "translations": {
+              "zh": "医生说手臂骨折了。",
+              "en": "The doctor said the arm bone is broken."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หัก",
+    "phonetic": "hak",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "hàk · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แตกออกเป็นสองส่วน",
+        "translations": {
+          "zh": "断；折断",
+          "en": "to break, to snap"
+        },
+        "examples": [
+          {
+            "text": "ขาของเขาหักเพราะตกบันได",
+            "translations": {
+              "zh": "他从楼梯上摔下来，腿断了。",
+              "en": "He broke his leg falling down the stairs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฉีดยา",
+    "phonetic": "chitya",
+    "cefr": "B1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "chìit-yaa · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใส่ยาเข้าร่างกายด้วยเข็ม",
+        "translations": {
+          "zh": "打针",
+          "en": "to give an injection"
+        },
+        "examples": [
+          {
+            "text": "เด็กกลัวฉีดยามาก",
+            "translations": {
+              "zh": "孩子很怕打针。",
+              "en": "The child is very scared of injections."
+            }
+          }
+        ],
+        "usageNote": "打疫苗说 ฉีดวัคซีน。"
+      }
+    ]
+  },
+  {
+    "headword": "ผ่าตัด",
+    "phonetic": "phatat",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "phàa-tàt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปิดร่างกายเพื่อรักษาโรค",
+        "translations": {
+          "zh": "做手术",
+          "en": "to operate, to have surgery"
+        },
+        "examples": [
+          {
+            "text": "คุณพ่อต้องผ่าตัดหัวใจ",
+            "translations": {
+              "zh": "父亲要做心脏手术。",
+              "en": "Father needs heart surgery."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตรวจ",
+    "phonetic": "truat",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "trùat · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดูอย่างละเอียดว่าเป็นอย่างไร",
+        "translations": {
+          "zh": "检查",
+          "en": "to examine, to check"
+        },
+        "examples": [
+          {
+            "text": "หมอตรวจคนไข้อย่างละเอียด",
+            "translations": {
+              "zh": "医生仔细检查病人。",
+              "en": "The doctor examined the patient thoroughly."
+            }
+          }
+        ],
+        "usageNote": "ตรวจสุขภาพ = 体检。"
+      }
+    ]
+  },
+  {
+    "headword": "คนไข้",
+    "phonetic": "khonkhai",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "khon-khâi · 中, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนป่วยที่มาหาหมอ",
+        "translations": {
+          "zh": "病人；患者",
+          "en": "patient"
+        },
+        "examples": [
+          {
+            "text": "วันนี้คนไข้เยอะมาก ต้องรอนาน",
+            "translations": {
+              "zh": "今天病人很多，要等很久。",
+              "en": "There are lots of patients today; you'll wait a long time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้ป่วย",
+    "phonetic": "phupuai",
+    "cefr": "B2",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "phûu-pùai · 降, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ป่วย (ภาษาทางการ)",
+        "translations": {
+          "zh": "患者（正式）",
+          "en": "patient (formal)"
+        },
+        "examples": [
+          {
+            "text": "ผู้ป่วยต้องพักผ่อนให้มาก",
+            "translations": {
+              "zh": "患者需要多休息。",
+              "en": "The patient needs plenty of rest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แพทย์",
+    "phonetic": "phaet",
+    "cefr": "B2",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "phɛ̂ɛt · 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หมอ (ภาษาทางการ)",
+        "translations": {
+          "zh": "医生（正式）",
+          "en": "physician, doctor (formal)"
+        },
+        "examples": [
+          {
+            "text": "ควรปรึกษาแพทย์ก่อนใช้ยา",
+            "translations": {
+              "zh": "用药前应咨询医生。",
+              "en": "Consult a doctor before taking the medicine."
+            }
+          }
+        ],
+        "usageNote": "口语说 หมอ，书面和正式场合用 แพทย์。"
+      }
+    ]
+  },
+  {
+    "headword": "เภสัชกร",
+    "phonetic": "phesatchakon",
+    "cefr": "B2",
+    "frequencyRank": 8700,
+    "grammarNotes": {
+      "toneMarks": "phee-sàt-chá-kɔɔn · 中, 低, 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่มีหน้าที่จ่ายยาและแนะนำยา",
+        "translations": {
+          "zh": "药剂师",
+          "en": "pharmacist"
+        },
+        "examples": [
+          {
+            "text": "ถามเภสัชกรที่ร้านขายยาได้",
+            "translations": {
+              "zh": "可以问药店的药剂师。",
+              "en": "You can ask the pharmacist at the drugstore."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ยาแก้ปวด",
+    "phonetic": "ya kae puat",
+    "cefr": "B1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "yaa-kɛ̂ɛ-pùat · 中, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ยาที่ทำให้หายเจ็บ",
+        "translations": {
+          "zh": "止痛药",
+          "en": "painkiller"
+        },
+        "examples": [
+          {
+            "text": "กินยาแก้ปวดแล้วดีขึ้น",
+            "translations": {
+              "zh": "吃了止痛药好多了。",
+              "en": "I feel better after taking a painkiller."
+            }
+          }
+        ],
+        "usageNote": "ยาแก้ + 症状 = “治……的药”：ยาแก้ไอ 止咳药、ยาแก้แพ้ 抗过敏药。"
+      }
+    ]
+  },
+  {
+    "headword": "ความดัน",
+    "phonetic": "khwamdan",
+    "cefr": "B1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "khwaam-dan · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แรงดันของเลือดในร่างกาย",
+        "translations": {
+          "zh": "血压；压力",
+          "en": "blood pressure"
+        },
+        "examples": [
+          {
+            "text": "คุณตามีความดันสูง",
+            "translations": {
+              "zh": "外公有高血压。",
+              "en": "Grandpa has high blood pressure."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เบาหวาน",
+    "phonetic": "baowan",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "bao-wǎan · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โรคที่มีน้ำตาลในเลือดสูง",
+        "translations": {
+          "zh": "糖尿病",
+          "en": "diabetes"
+        },
+        "examples": [
+          {
+            "text": "คนเป็นเบาหวานต้องกินหวานน้อย",
+            "translations": {
+              "zh": "糖尿病患者要少吃甜食。",
+              "en": "Diabetics must eat less sugar."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มะเร็ง",
+    "phonetic": "mareng",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "má-reng · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โรคร้ายที่เซลล์โตผิดปกติ",
+        "translations": {
+          "zh": "癌症",
+          "en": "cancer"
+        },
+        "examples": [
+          {
+            "text": "สูบบุหรี่ทำให้เป็นมะเร็งปอด",
+            "translations": {
+              "zh": "吸烟会导致肺癌。",
+              "en": "Smoking causes lung cancer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ติดเชื้อ",
+    "phonetic": "titchuea",
+    "cefr": "B2",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "tìt-chʉ́a · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ได้รับเชื้อโรคเข้าร่างกาย",
+        "translations": {
+          "zh": "感染",
+          "en": "to be infected"
+        },
+        "examples": [
+          {
+            "text": "แผลติดเชื้อ ต้องไปหาหมอ",
+            "translations": {
+              "zh": "伤口感染了，得去看医生。",
+              "en": "The wound is infected; you must see a doctor."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เชื้อโรค",
+    "phonetic": "chuearok",
+    "cefr": "B1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "chʉ́a-rôok · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งเล็ก ๆ ที่ทำให้ป่วย",
+        "translations": {
+          "zh": "病菌；细菌",
+          "en": "germs"
+        },
+        "examples": [
+          {
+            "text": "ล้างมือบ่อย ๆ เพื่อฆ่าเชื้อโรค",
+            "translations": {
+              "zh": "勤洗手杀灭病菌。",
+              "en": "Wash your hands often to kill germs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิแพ้",
+    "phonetic": "phumiphae",
+    "cefr": "B2",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "phuu-mí-phɛ́ɛ · 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาการที่ร่างกายแพ้ฝุ่น อาหาร หรืออื่น ๆ",
+        "translations": {
+          "zh": "过敏症",
+          "en": "allergy"
+        },
+        "examples": [
+          {
+            "text": "ฉันเป็นภูมิแพ้ จามทุกเช้า",
+            "translations": {
+              "zh": "我有过敏症，每天早上打喷嚏。",
+              "en": "I have allergies and sneeze every morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พักผ่อน",
+    "phonetic": "phakphon",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "phák-phɔ̀ɔn · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หยุดทำงานเพื่อให้หายเหนื่อย",
+        "translations": {
+          "zh": "休息",
+          "en": "to rest"
+        },
+        "examples": [
+          {
+            "text": "หมอบอกให้พักผ่อนเยอะ ๆ",
+            "translations": {
+              "zh": "医生让我多休息。",
+              "en": "The doctor told me to get plenty of rest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ออกกำลังกาย",
+    "phonetic": "ok kamlang kai",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "ɔ̀ɔk-kam-lang-kaai · 低, 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ขยับร่างกายเพื่อสุขภาพ",
+        "translations": {
+          "zh": "锻炼；运动",
+          "en": "to exercise"
+        },
+        "examples": [
+          {
+            "text": "ฉันออกกำลังกายทุกเช้า",
+            "translations": {
+              "zh": "我每天早上锻炼。",
+              "en": "I exercise every morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฟื้น",
+    "phonetic": "fuen",
+    "cefr": "B2",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "fʉ́ʉn · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "กลับมารู้สึกตัวหรือแข็งแรงอีกครั้ง",
+        "translations": {
+          "zh": "苏醒；恢复",
+          "en": "to regain consciousness, to recover"
+        },
+        "examples": [
+          {
+            "text": "คนไข้ฟื้นแล้วหลังผ่าตัด",
+            "translations": {
+              "zh": "病人手术后已经苏醒了。",
+              "en": "The patient has come round after surgery."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หายใจ",
+    "phonetic": "haichai",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "hǎai-jai · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เอาอากาศเข้าและออกจากปอด",
+        "translations": {
+          "zh": "呼吸",
+          "en": "to breathe"
+        },
+        "examples": [
+          {
+            "text": "หายใจลึก ๆ แล้วจะดีขึ้น",
+            "translations": {
+              "zh": "深呼吸就会好一点。",
+              "en": "Breathe deeply and you'll feel better."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เป็นลม",
+    "phonetic": "pen lom",
+    "cefr": "B1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "pen-lom · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หมดสติไปชั่วครู่",
+        "translations": {
+          "zh": "晕倒；中暑昏厥",
+          "en": "to faint"
+        },
+        "examples": [
+          {
+            "text": "อากาศร้อนมาก มีคนเป็นลม",
+            "translations": {
+              "zh": "天太热了，有人晕倒了。",
+              "en": "It was so hot that someone fainted."
+            }
+          }
+        ],
+        "usageNote": "字面是“成了风”，泰语里指晕倒，不是刮风。"
+      }
+    ]
+  },
+  {
+    "headword": "หมดสติ",
+    "phonetic": "motsati",
+    "cefr": "B2",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "mòt-sà-tì · 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่รู้สึกตัว",
+        "translations": {
+          "zh": "昏迷；失去知觉",
+          "en": "to lose consciousness"
+        },
+        "examples": [
+          {
+            "text": "เขาหมดสติหลังรถชน",
+            "translations": {
+              "zh": "车祸后他失去了知觉。",
+              "en": "He lost consciousness after the crash."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อ่อนเพลีย",
+    "phonetic": "onphlia",
+    "cefr": "B1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "ɔ̀ɔn-phlia · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่มีแรง เหนื่อยมาก",
+        "translations": {
+          "zh": "虚弱；疲乏",
+          "en": "exhausted, weak"
+        },
+        "examples": [
+          {
+            "text": "หลังป่วยยังอ่อนเพลียอยู่",
+            "translations": {
+              "zh": "病后还很虚弱。",
+              "en": "I'm still weak after being ill."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แข็งแรง",
+    "phonetic": "khaengraeng",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "khɛ̌ng-rɛɛng · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีสุขภาพดี มีแรงมาก",
+        "translations": {
+          "zh": "健壮；健康",
+          "en": "strong, healthy"
+        },
+        "examples": [
+          {
+            "text": "คุณยายอายุแปดสิบแต่ยังแข็งแรง",
+            "translations": {
+              "zh": "外婆八十岁了，身体还很硬朗。",
+              "en": "Grandma is eighty but still strong."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อ่อนแอ",
+    "phonetic": "on-ae",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "ɔ̀ɔn-ɛɛ · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่แข็งแรง",
+        "translations": {
+          "zh": "虚弱；软弱",
+          "en": "weak"
+        },
+        "examples": [
+          {
+            "text": "ช่วงนี้ร่างกายอ่อนแอ ป่วยบ่อย",
+            "translations": {
+              "zh": "最近身体虚弱，常生病。",
+              "en": "My body is weak lately; I get sick often."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฉุกเฉิน",
+    "phonetic": "chukchoen",
+    "cefr": "B1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "chùk-chə̌ən · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เกิดขึ้นทันทีและต้องรีบแก้",
+        "translations": {
+          "zh": "紧急",
+          "en": "emergency, urgent"
+        },
+        "examples": [
+          {
+            "text": "ห้องฉุกเฉินอยู่ชั้นหนึ่ง",
+            "translations": {
+              "zh": "急诊室在一楼。",
+              "en": "The emergency room is on the first floor."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รถพยาบาล",
+    "phonetic": "rot phayaban",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "rót-phá-yaa-baan · 高, 高, 中, 中",
+      "classifier": "คัน（辆）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รถที่พาคนเจ็บไปโรงพยาบาล",
+        "translations": {
+          "zh": "救护车",
+          "en": "ambulance"
+        },
+        "examples": [
+          {
+            "text": "ช่วยเรียกรถพยาบาลด่วน",
+            "translations": {
+              "zh": "快叫救护车！",
+              "en": "Call an ambulance, quick!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจ็บคอ",
+    "phonetic": "chepkho",
+    "cefr": "B1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "jèp-khɔɔ · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกเจ็บในคอ",
+        "translations": {
+          "zh": "嗓子疼",
+          "en": "to have a sore throat"
+        },
+        "examples": [
+          {
+            "text": "ฉันเจ็บคอ กลืนอาหารไม่ได้",
+            "translations": {
+              "zh": "我嗓子疼，咽不下东西。",
+              "en": "My throat is sore; I can't swallow food."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาหารเป็นพิษ",
+    "phonetic": "ahan pen phit",
+    "cefr": "B1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-pen-phít · 中, 升, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาการป่วยเพราะกินอาหารไม่สะอาด",
+        "translations": {
+          "zh": "食物中毒",
+          "en": "food poisoning"
+        },
+        "examples": [
+          {
+            "text": "กินกุ้งไม่สุกเลยอาหารเป็นพิษ",
+            "translations": {
+              "zh": "吃了没熟的虾，结果食物中毒了。",
+              "en": "I got food poisoning from undercooked prawns."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ยาดม",
+    "phonetic": "yadom",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "yaa-dom · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ยาที่เอาไว้สูดดมให้สดชื่น",
+        "translations": {
+          "zh": "鼻通（嗅药）",
+          "en": "inhaler (herbal nasal stick)"
+        },
+        "examples": [
+          {
+            "text": "เวียนหัวก็ลองใช้ยาดมดู",
+            "translations": {
+              "zh": "头晕的话试试鼻通。",
+              "en": "If you feel dizzy, try a nasal inhaler."
+            }
+          }
+        ],
+        "usageNote": "ยาดม 是泰国人随身必备的小嗅棒，用来提神、缓解头晕，很受游客欢迎。"
+      }
+    ]
+  },
+  {
+    "headword": "สมอง",
+    "phonetic": "samong",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "sà-mɔ̌ɔng · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อวัยวะในหัวที่ใช้คิด",
+        "translations": {
+          "zh": "大脑；脑子",
+          "en": "brain"
+        },
+        "examples": [
+          {
+            "text": "การอ่านหนังสือดีต่อสมอง",
+            "translations": {
+              "zh": "读书对大脑有益。",
+              "en": "Reading is good for the brain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปอด",
+    "phonetic": "pot",
+    "cefr": "B1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "pɔ̀ɔt · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อวัยวะที่ใช้หายใจ",
+        "translations": {
+          "zh": "肺",
+          "en": "lung"
+        },
+        "examples": [
+          {
+            "text": "ควันบุหรี่ไม่ดีต่อปอด",
+            "translations": {
+              "zh": "烟雾对肺不好。",
+              "en": "Cigarette smoke is bad for the lungs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตับ",
+    "phonetic": "tap",
+    "cefr": "B2",
+    "frequencyRank": 7100,
+    "grammarNotes": {
+      "toneMarks": "tàp · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อวัยวะในท้องที่ช่วยกำจัดสารพิษ",
+        "translations": {
+          "zh": "肝",
+          "en": "liver"
+        },
+        "examples": [
+          {
+            "text": "ดื่มเหล้ามากทำให้ตับไม่ดี",
+            "translations": {
+              "zh": "喝酒多伤肝。",
+              "en": "Drinking a lot harms the liver."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไต",
+    "phonetic": "tai",
+    "cefr": "B2",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "tai · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อวัยวะที่กรองเลือดและทำปัสสาวะ",
+        "translations": {
+          "zh": "肾",
+          "en": "kidney"
+        },
+        "examples": [
+          {
+            "text": "กินเค็มมากไม่ดีต่อไต",
+            "translations": {
+              "zh": "吃太咸对肾不好。",
+              "en": "Eating too much salt is bad for the kidneys."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กระเพาะ",
+    "phonetic": "kraphro",
+    "cefr": "B2",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "krà-phɔ́ · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อวัยวะที่ย่อยอาหาร",
+        "translations": {
+          "zh": "胃",
+          "en": "stomach"
+        },
+        "examples": [
+          {
+            "text": "กินข้าวไม่ตรงเวลาจะปวดกระเพาะ",
+            "translations": {
+              "zh": "吃饭不准时会胃疼。",
+              "en": "Eating at irregular times gives you stomach aches."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผิว",
+    "phonetic": "phio",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "phǐu · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนนอกสุดของร่างกาย",
+        "translations": {
+          "zh": "皮肤",
+          "en": "skin"
+        },
+        "examples": [
+          {
+            "text": "แดดแรงทำให้ผิวเสีย",
+            "translations": {
+              "zh": "阳光太强会伤皮肤。",
+              "en": "Strong sun damages the skin."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

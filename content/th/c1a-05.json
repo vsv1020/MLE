@@ -1,0 +1,1385 @@
+[
+  {
+    "headword": "ล้าสมัย",
+    "phonetic": "la samai",
+    "cefr": "C1",
+    "frequencyRank": 7100,
+    "grammarNotes": {
+      "toneMarks": "láa-sà-mǎi · 高, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เก่าเกินไป ไม่ทันยุค",
+        "translations": {
+          "zh": "过时的；落伍的",
+          "en": "outdated; obsolete"
+        },
+        "examples": [
+          {
+            "text": "กฎหมายฉบับนี้ล้าสมัยแล้ว",
+            "translations": {
+              "zh": "这部法律已经过时了。",
+              "en": "This law is outdated."
+            }
+          }
+        ],
+        "usageNote": "反义：ทันสมัย（时髦、现代）。"
+      }
+    ]
+  },
+  {
+    "headword": "แปรปรวน",
+    "phonetic": "praepruan",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "prɛɛ-pruan · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เปลี่ยนแปลงไม่แน่นอน",
+        "translations": {
+          "zh": "多变的；反复无常的",
+          "en": "erratic; unstable"
+        },
+        "examples": [
+          {
+            "text": "ช่วงนี้สภาพอากาศแปรปรวนมาก",
+            "translations": {
+              "zh": "最近天气变化无常。",
+              "en": "The weather has been very erratic lately."
+            }
+          }
+        ],
+        "usageNote": "常用于天气、情绪。"
+      }
+    ]
+  },
+  {
+    "headword": "สลับซับซ้อน",
+    "phonetic": "salapsapson",
+    "cefr": "C1",
+    "frequencyRank": 8100,
+    "grammarNotes": {
+      "toneMarks": "sà-làp-sáp-sɔ́ɔn · 低, 低, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ยุ่งยากซับซ้อนมาก",
+        "translations": {
+          "zh": "错综复杂的",
+          "en": "intricate; complicated"
+        },
+        "examples": [
+          {
+            "text": "คดีนี้มีความสลับซับซ้อนมาก",
+            "translations": {
+              "zh": "这个案件错综复杂。",
+              "en": "This case is highly intricate."
+            }
+          }
+        ],
+        "usageNote": "比 ซับซ้อน 语气更强。"
+      }
+    ]
+  },
+  {
+    "headword": "เปราะบาง",
+    "phonetic": "probang",
+    "cefr": "C1",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "prɔ̀-baang · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "แตกหักหรือได้รับผลกระทบง่าย",
+        "translations": {
+          "zh": "脆弱的",
+          "en": "fragile; vulnerable"
+        },
+        "examples": [
+          {
+            "text": "เศรษฐกิจโลกยังอยู่ในภาวะเปราะบาง",
+            "translations": {
+              "zh": "全球经济仍处于脆弱状态。",
+              "en": "The global economy is still fragile."
+            }
+          }
+        ],
+        "usageNote": "名词：ความเปราะบาง；กลุ่มเปราะบาง＝弱势群体。"
+      }
+    ]
+  },
+  {
+    "headword": "คงเส้นคงวา",
+    "phonetic": "khong sen khong wa",
+    "cefr": "C1",
+    "frequencyRank": 9400,
+    "grammarNotes": {
+      "toneMarks": "khong-sên-khong-waa · 中, 降, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่เปลี่ยนแปลง สม่ำเสมอ",
+        "translations": {
+          "zh": "始终如一的",
+          "en": "consistent"
+        },
+        "examples": [
+          {
+            "text": "เขาทำงานได้มาตรฐานอย่างคงเส้นคงวา",
+            "translations": {
+              "zh": "他的工作始终保持一贯水准。",
+              "en": "His work is consistently up to standard."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เที่ยงธรรม",
+    "phonetic": "thiangtham",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "thîang-tham · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ซื่อตรงและยุติธรรม",
+        "translations": {
+          "zh": "公正无私的",
+          "en": "impartial; just"
+        },
+        "examples": [
+          {
+            "text": "ผู้พิพากษาต้องตัดสินอย่างเที่ยงธรรม",
+            "translations": {
+              "zh": "法官必须公正无私地判决。",
+              "en": "Judges must rule impartially."
+            }
+          }
+        ],
+        "usageNote": "ธรรม 读 tham。书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "อย่างยิ่ง",
+    "phonetic": "yang ying",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "yàang-yîng · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "มากเป็นพิเศษ",
+        "translations": {
+          "zh": "极其；非常",
+          "en": "extremely; most"
+        },
+        "examples": [
+          {
+            "text": "ผมขอขอบคุณทุกท่านอย่างยิ่ง",
+            "translations": {
+              "zh": "我衷心感谢各位。",
+              "en": "I am most grateful to you all."
+            }
+          }
+        ],
+        "usageNote": "书面语、正式致辞常用，放在被修饰词后。"
+      }
+    ]
+  },
+  {
+    "headword": "โดยปริยาย",
+    "phonetic": "doi pariyai",
+    "cefr": "C1",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "toneMarks": "dooi-pà-rí-yaai · 中, 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "โดยไม่ต้องบอกตรงๆ แต่เข้าใจกันเอง",
+        "translations": {
+          "zh": "默认地；不言而喻地",
+          "en": "implicitly; by default"
+        },
+        "examples": [
+          {
+            "text": "ถ้าไม่มีใครค้าน ก็ถือว่าเห็นด้วยโดยปริยาย",
+            "translations": {
+              "zh": "没人反对，就视为默认同意。",
+              "en": "If no one objects, it's taken as implicit agreement."
+            }
+          }
+        ],
+        "usageNote": "ปริยาย 读 ปะ-ริ-ยาย。"
+      }
+    ]
+  },
+  {
+    "headword": "โดยสิ้นเชิง",
+    "phonetic": "doi sinchoeng",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "dooi-sîn-chəəng · 中, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ทั้งหมด ไม่เหลือเลย",
+        "translations": {
+          "zh": "完全；彻底",
+          "en": "completely; entirely"
+        },
+        "examples": [
+          {
+            "text": "ผมไม่เห็นด้วยกับความคิดนี้โดยสิ้นเชิง",
+            "translations": {
+              "zh": "我完全不同意这个想法。",
+              "en": "I completely disagree with this idea."
+            }
+          }
+        ],
+        "usageNote": "书面语，口语多说 เลย、ทั้งหมด。"
+      }
+    ]
+  },
+  {
+    "headword": "โดยอ้อม",
+    "phonetic": "doi om",
+    "cefr": "C1",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "toneMarks": "dooi-ɔ̂ɔm · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ไม่ตรงไปตรงมา ผ่านทางอื่น",
+        "translations": {
+          "zh": "间接地",
+          "en": "indirectly"
+        },
+        "examples": [
+          {
+            "text": "การสูบบุหรี่ส่งผลต่อคนรอบข้างโดยอ้อม",
+            "translations": {
+              "zh": "吸烟会间接影响周围的人。",
+              "en": "Smoking indirectly affects people around you."
+            }
+          }
+        ],
+        "usageNote": "反义：โดยตรง（直接地）。"
+      }
+    ]
+  },
+  {
+    "headword": "ตามลำดับ",
+    "phonetic": "tam lamdap",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "taam-lam-dàp · 中, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "เรียงตามลำดับที่กล่าวมา",
+        "translations": {
+          "zh": "分别；依次",
+          "en": "respectively; in order"
+        },
+        "examples": [
+          {
+            "text": "ทีมไทยและทีมลาวได้อันดับหนึ่งและสองตามลำดับ",
+            "translations": {
+              "zh": "泰国队和老挝队分别获得第一名和第二名。",
+              "en": "The Thai and Lao teams came first and second respectively."
+            }
+          }
+        ],
+        "usageNote": "书面语、报告中常用。"
+      }
+    ]
+  },
+  {
+    "headword": "อย่างต่อเนื่อง",
+    "phonetic": "yang tonueang",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "yàang-tɔ̀ɔ-nʉ̂ang · 低, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "โดยไม่ขาดตอน",
+        "translations": {
+          "zh": "持续地；不断地",
+          "en": "continuously; steadily"
+        },
+        "examples": [
+          {
+            "text": "ยอดขายเพิ่มขึ้นอย่างต่อเนื่องตลอดปี",
+            "translations": {
+              "zh": "全年销售额持续增长。",
+              "en": "Sales rose steadily throughout the year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ล้วนแต่",
+    "phonetic": "luan tae",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "toneMarks": "lúan-tɛ̀ɛ · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ทั้งหมดโดยไม่มีข้อยกเว้น",
+        "translations": {
+          "zh": "全都；无一例外",
+          "en": "all; without exception"
+        },
+        "examples": [
+          {
+            "text": "ผู้เข้าแข่งขันล้วนแต่มีฝีมือดี",
+            "translations": {
+              "zh": "参赛者个个都技艺高超。",
+              "en": "The contestants are all highly skilled."
+            }
+          }
+        ],
+        "usageNote": "也单说 ล้วน。"
+      }
+    ]
+  },
+  {
+    "headword": "แท้จริง",
+    "phonetic": "thaeching",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "thɛ́ɛ-jing · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "จริงแท้ ไม่ใช่สิ่งปลอม",
+        "translations": {
+          "zh": "真正的；实际上的",
+          "en": "genuine; real; true"
+        },
+        "examples": [
+          {
+            "text": "ความสุขที่แท้จริงไม่ได้มาจากเงิน",
+            "translations": {
+              "zh": "真正的幸福不是来自金钱。",
+              "en": "True happiness doesn't come from money."
+            }
+          }
+        ],
+        "usageNote": "ที่แท้จริง 常作定语；แท้จริงแล้ว＝其实。"
+      }
+    ]
+  },
+  {
+    "headword": "ประจักษ์",
+    "phonetic": "prachak",
+    "cefr": "C1",
+    "frequencyRank": 8700,
+    "grammarNotes": {
+      "toneMarks": "prà-jàk · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ปรากฏชัดแจ้งแก่ตา",
+        "translations": {
+          "zh": "显而易见；有目共睹",
+          "en": "evident; manifest"
+        },
+        "examples": [
+          {
+            "text": "ผลงานของเธอเป็นที่ประจักษ์แก่ทุกคน",
+            "translations": {
+              "zh": "她的成就有目共睹。",
+              "en": "Her achievements are evident to all."
+            }
+          }
+        ],
+        "usageNote": "常用 เป็นที่ประจักษ์；ประจักษ์พยาน＝目击证人。"
+      }
+    ]
+  },
+  {
+    "headword": "เชิงลึก",
+    "phonetic": "choeng luek",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "chəəng-lʉ́k · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ละเอียดลึกซึ้ง",
+        "translations": {
+          "zh": "深入的；深度的",
+          "en": "in-depth"
+        },
+        "examples": [
+          {
+            "text": "นักข่าวทำรายงานเชิงลึกเรื่องการทุจริต",
+            "translations": {
+              "zh": "记者做了关于腐败的深度报道。",
+              "en": "The journalist produced an in-depth report on corruption."
+            }
+          }
+        ],
+        "usageNote": "เชิง-＋形容词＝“……性的”：เชิงบวก（积极的）、เชิงลบ（消极的）。"
+      }
+    ]
+  },
+  {
+    "headword": "ตามอำเภอใจ",
+    "phonetic": "tam amphoechai",
+    "cefr": "C1",
+    "frequencyRank": 8900,
+    "grammarNotes": {
+      "toneMarks": "taam-am-phəə-jai · 中, 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ตามความพอใจของตน ไม่มีหลักเกณฑ์",
+        "translations": {
+          "zh": "随意地；任意地",
+          "en": "arbitrarily; at will"
+        },
+        "examples": [
+          {
+            "text": "เจ้าหน้าที่ไม่มีสิทธิ์จับกุมใครตามอำเภอใจ",
+            "translations": {
+              "zh": "官员无权任意逮捕他人。",
+              "en": "Officials have no right to arrest anyone arbitrarily."
+            }
+          }
+        ],
+        "usageNote": "อำเภอใจ 读 อำ-เพอ-ใจ。"
+      }
+    ]
+  },
+  {
+    "headword": "มหาศาล",
+    "phonetic": "mahasan",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "má-hǎa-sǎan · 高, 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มากหรือใหญ่โตมาก",
+        "translations": {
+          "zh": "巨大的；庞大的",
+          "en": "enormous; vast"
+        },
+        "examples": [
+          {
+            "text": "โครงการนี้ใช้งบประมาณมหาศาล",
+            "translations": {
+              "zh": "这个项目耗资巨大。",
+              "en": "The project uses an enormous budget."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทั่วถึง",
+    "phonetic": "thuathueng",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "thûa-thʉ̌ng · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ถึงทุกคนหรือทุกแห่ง",
+        "translations": {
+          "zh": "普遍地；遍及",
+          "en": "thoroughly; to everyone"
+        },
+        "examples": [
+          {
+            "text": "รัฐต้องกระจายวัคซีนให้ทั่วถึง",
+            "translations": {
+              "zh": "政府必须让疫苗普及到每个人。",
+              "en": "The state must distribute vaccines to everyone."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เด็ดขาด",
+    "phonetic": "detkhat",
+    "cefr": "C1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "dèt-khàat · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "อย่างแน่นอนไม่มีข้อยกเว้น",
+        "translations": {
+          "zh": "坚决；绝对",
+          "en": "absolutely; strictly"
+        },
+        "examples": [
+          {
+            "text": "ห้ามสูบบุหรี่ในอาคารโดยเด็ดขาด",
+            "translations": {
+              "zh": "楼内严禁吸烟。",
+              "en": "Smoking is strictly prohibited in the building."
+            }
+          }
+        ],
+        "usageNote": "常见于告示：ห้าม……โดยเด็ดขาด（严禁）。"
+      }
+    ]
+  },
+  {
+    "headword": "ยืดหยุ่น",
+    "phonetic": "yuetyun",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "yʉ̂ʉt-yùn · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ปรับเปลี่ยนได้ตามสถานการณ์",
+        "translations": {
+          "zh": "灵活的；有弹性的",
+          "en": "flexible"
+        },
+        "examples": [
+          {
+            "text": "บริษัทนี้ให้เวลาทำงานที่ยืดหยุ่น",
+            "translations": {
+              "zh": "这家公司提供弹性工作时间。",
+              "en": "This company offers flexible working hours."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิจิตร",
+    "phonetic": "wichit",
+    "cefr": "C1",
+    "frequencyRank": 9300,
+    "grammarNotes": {
+      "toneMarks": "wí-jìt · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "งดงามประณีต",
+        "translations": {
+          "zh": "精美的；绚丽的",
+          "en": "exquisite; ornate"
+        },
+        "examples": [
+          {
+            "text": "ลวดลายบนผนังวัดวิจิตรงดงามมาก",
+            "translations": {
+              "zh": "寺庙墙上的纹饰非常精美。",
+              "en": "The patterns on the temple walls are exquisite."
+            }
+          }
+        ],
+        "usageNote": "常说 วิจิตรงดงาม、วิจิตรบรรจง。"
+      }
+    ]
+  },
+  {
+    "headword": "อีกทั้ง",
+    "phonetic": "ik thang",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "ìik-tháng · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "นอกจากนั้นยังมี",
+        "translations": {
+          "zh": "此外；而且",
+          "en": "moreover; in addition"
+        },
+        "examples": [
+          {
+            "text": "ห้องพักกว้างขวาง อีกทั้งราคาก็ไม่แพง",
+            "translations": {
+              "zh": "房间宽敞，而且价格也不贵。",
+              "en": "The rooms are spacious, and moreover not expensive."
+            }
+          }
+        ],
+        "usageNote": "书面语，连接并列的补充信息。"
+      }
+    ]
+  },
+  {
+    "headword": "ทั้งนี้",
+    "phonetic": "thangni",
+    "cefr": "C1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "tháng-níi · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "คำเชื่อมที่หมายถึงเรื่องที่กล่าวมานี้",
+        "translations": {
+          "zh": "对此；就此而言；这（取决于）",
+          "en": "in this regard; this (depends on)"
+        },
+        "examples": [
+          {
+            "text": "ทั้งนี้ขึ้นอยู่กับงบประมาณของแต่ละหน่วยงาน",
+            "translations": {
+              "zh": "这要视各部门的预算而定。",
+              "en": "This depends on each department's budget."
+            }
+          }
+        ],
+        "usageNote": "公文、新闻常用：ทั้งนี้……（另需说明的是……）。"
+      }
+    ]
+  },
+  {
+    "headword": "กล่าวคือ",
+    "phonetic": "klao khue",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "klàao-khʉʉ · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "ใช้ขยายความต่อจากข้อความข้างหน้า",
+        "translations": {
+          "zh": "也就是说；即",
+          "en": "that is to say; namely"
+        },
+        "examples": [
+          {
+            "text": "เขาเป็นคนมัธยัสถ์ กล่าวคือใช้เงินอย่างประหยัด",
+            "translations": {
+              "zh": "他很节俭，也就是说花钱很省。",
+              "en": "He is frugal, that is, he spends money sparingly."
+            }
+          }
+        ],
+        "usageNote": "书面语，相当于口语的 คือว่า。"
+      }
+    ]
+  },
+  {
+    "headword": "ถึงกระนั้น",
+    "phonetic": "thueng kranan",
+    "cefr": "C1",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "thʉ̌ng-krà-nán · 升, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "แม้จะเป็นอย่างนั้นก็ตาม",
+        "translations": {
+          "zh": "尽管如此；即便如此",
+          "en": "even so; nevertheless"
+        },
+        "examples": [
+          {
+            "text": "เขาป่วยหนัก ถึงกระนั้นก็ยังมาทำงาน",
+            "translations": {
+              "zh": "他病得很重，尽管如此仍来上班。",
+              "en": "He was very ill; even so, he still came to work."
+            }
+          }
+        ],
+        "usageNote": "书面语，后常接 ก็。"
+      }
+    ]
+  },
+  {
+    "headword": "โดยเฉพาะอย่างยิ่ง",
+    "phonetic": "doi chapho yang ying",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "dooi-chà-phɔ́-yàang-yîng · 中, 低, 高, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "เป็นพิเศษกว่าสิ่งอื่น",
+        "translations": {
+          "zh": "尤其是；特别是",
+          "en": "especially; in particular"
+        },
+        "examples": [
+          {
+            "text": "ผู้สูงอายุควรระวังโรคนี้ โดยเฉพาะอย่างยิ่งผู้ที่เป็นเบาหวาน",
+            "translations": {
+              "zh": "老年人应提防此病，尤其是糖尿病患者。",
+              "en": "The elderly should beware of this disease, especially diabetics."
+            }
+          }
+        ],
+        "usageNote": "比 โดยเฉพาะ 语气更强、更正式。"
+      }
+    ]
+  },
+  {
+    "headword": "ด้วยเหตุนี้",
+    "phonetic": "duai het ni",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "dûay-hèet-níi · 降, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "เพราะเหตุผลดังกล่าว",
+        "translations": {
+          "zh": "因此；由于这个原因",
+          "en": "for this reason; hence"
+        },
+        "examples": [
+          {
+            "text": "ฝนตกหนัก ด้วยเหตุนี้การแข่งขันจึงถูกเลื่อน",
+            "translations": {
+              "zh": "大雨倾盆，因此比赛被推迟了。",
+              "en": "It rained heavily; hence the match was postponed."
+            }
+          }
+        ],
+        "usageNote": "书面语，后常接 จึง。"
+      }
+    ]
+  },
+  {
+    "headword": "อนึ่ง",
+    "phonetic": "anueng",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "à-nʉ̀ng · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "คำขึ้นต้นเพื่อกล่าวเรื่องเพิ่มเติม",
+        "translations": {
+          "zh": "另外；再者（附带说明）",
+          "en": "furthermore; incidentally"
+        },
+        "examples": [
+          {
+            "text": "อนึ่ง ผู้เข้าประชุมทุกท่านโปรดแต่งกายสุภาพ",
+            "translations": {
+              "zh": "另外，请各位与会者着装得体。",
+              "en": "Furthermore, all attendees are asked to dress formally."
+            }
+          }
+        ],
+        "usageNote": "公文、通知用语，位于段首。"
+      }
+    ]
+  },
+  {
+    "headword": "ยิ่งไปกว่านั้น",
+    "phonetic": "ying pai kwa nan",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "yîng-pai-kwàa-nán · 降, 中, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "มากกว่าที่กล่าวมาแล้ว",
+        "translations": {
+          "zh": "更有甚者；不仅如此",
+          "en": "furthermore; what's more"
+        },
+        "examples": [
+          {
+            "text": "ยิ่งไปกว่านั้น เขายังบริจาคเงินทั้งหมดให้การกุศล",
+            "translations": {
+              "zh": "不仅如此，他还把所有钱都捐给了慈善机构。",
+              "en": "What's more, he donated all the money to charity."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ในทางกลับกัน",
+    "phonetic": "nai thang klap kan",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "nai-thaang-klàp-kan · 中, 中, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "ในด้านตรงข้าม",
+        "translations": {
+          "zh": "反过来；另一方面",
+          "en": "conversely; on the other hand"
+        },
+        "examples": [
+          {
+            "text": "ในทางกลับกัน ถ้าราคาลดลง ความต้องการจะเพิ่มขึ้น",
+            "translations": {
+              "zh": "反过来说，如果价格下降，需求就会增加。",
+              "en": "Conversely, if prices fall, demand will rise."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กระนั้นก็ดี",
+    "phonetic": "kranan kodi",
+    "cefr": "C1",
+    "frequencyRank": 9700,
+    "grammarNotes": {
+      "toneMarks": "krà-nán-kɔ̂ɔ-dii · 低, 高, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "แม้จะเป็นเช่นนั้นก็ตาม",
+        "translations": {
+          "zh": "虽然如此；尽管这样",
+          "en": "nevertheless; be that as it may"
+        },
+        "examples": [
+          {
+            "text": "กระนั้นก็ดี เรายังต้องระมัดระวังต่อไป",
+            "translations": {
+              "zh": "尽管如此，我们仍需继续保持警惕。",
+              "en": "Nevertheless, we must remain cautious."
+            }
+          }
+        ],
+        "usageNote": "书面语，比 ถึงกระนั้น 更文。"
+      }
+    ]
+  },
+  {
+    "headword": "มิฉะนั้น",
+    "phonetic": "michanan",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "toneMarks": "mí-chà-nán · 高, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "ถ้าไม่เช่นนั้น",
+        "translations": {
+          "zh": "否则；不然",
+          "en": "otherwise"
+        },
+        "examples": [
+          {
+            "text": "ต้องส่งเอกสารภายในวันศุกร์ มิฉะนั้นจะถูกตัดสิทธิ์",
+            "translations": {
+              "zh": "必须在周五前提交文件，否则将被取消资格。",
+              "en": "Documents must be submitted by Friday, otherwise you'll be disqualified."
+            }
+          }
+        ],
+        "usageNote": "书面语；มิ＝ไม่（文言否定词）。"
+      }
+    ]
+  },
+  {
+    "headword": "ทว่า",
+    "phonetic": "thawa",
+    "cefr": "C1",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "toneMarks": "thá-wâa · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "แต่ (ใช้ในภาษาเขียน)",
+        "translations": {
+          "zh": "然而；但是",
+          "en": "but; however"
+        },
+        "examples": [
+          {
+            "text": "เขาพยายามอย่างหนัก ทว่าก็ยังไม่สำเร็จ",
+            "translations": {
+              "zh": "他非常努力，然而仍未成功。",
+              "en": "He tried hard, yet he still did not succeed."
+            }
+          }
+        ],
+        "usageNote": "书面语、文学语言，相当于 แต่。"
+      }
+    ]
+  },
+  {
+    "headword": "อันที่จริง",
+    "phonetic": "an thi ching",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "an-thîi-jing · 中, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ตามความเป็นจริง",
+        "translations": {
+          "zh": "其实；事实上",
+          "en": "in fact; actually"
+        },
+        "examples": [
+          {
+            "text": "อันที่จริงเรื่องนี้ไม่ได้ซับซ้อนอย่างที่คิด",
+            "translations": {
+              "zh": "其实这件事并没有想象的复杂。",
+              "en": "In fact, this isn't as complicated as you think."
+            }
+          }
+        ],
+        "usageNote": "较正式；口语多说 จริงๆ แล้ว。"
+      }
+    ]
+  },
+  {
+    "headword": "ตราบใดที่",
+    "phonetic": "trap dai thi",
+    "cefr": "C1",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "tràap-dai-thîi · 低, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "ตลอดเวลาที่ยังเป็นอยู่",
+        "translations": {
+          "zh": "只要（还）",
+          "en": "as long as"
+        },
+        "examples": [
+          {
+            "text": "ตราบใดที่ยังมีลมหายใจ ฉันจะไม่ยอมแพ้",
+            "translations": {
+              "zh": "只要还有一口气，我就不会放弃。",
+              "en": "As long as I still breathe, I won't give up."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แม้กระทั่ง",
+    "phonetic": "mae krathang",
+    "cefr": "C1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "mɛ́ɛ-krà-thâng · 高, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "แม้แต่",
+        "translations": {
+          "zh": "甚至；连……也",
+          "en": "even"
+        },
+        "examples": [
+          {
+            "text": "แม้กระทั่งเด็กเล็กก็รู้เรื่องนี้",
+            "translations": {
+              "zh": "连小孩子都知道这件事。",
+              "en": "Even small children know about this."
+            }
+          }
+        ],
+        "usageNote": "比 แม้แต่ 更强调。"
+      }
+    ]
+  },
+  {
+    "headword": "อันเนื่องมาจาก",
+    "phonetic": "an nueang ma chak",
+    "cefr": "C1",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "toneMarks": "an-nʉ̂ang-maa-jàak · 中, 降, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "ซึ่งมีสาเหตุจาก",
+        "translations": {
+          "zh": "由于；源于",
+          "en": "owing to; resulting from"
+        },
+        "examples": [
+          {
+            "text": "ปัญหาอันเนื่องมาจากน้ำท่วมยังไม่ได้รับการแก้ไข",
+            "translations": {
+              "zh": "洪水引发的问题尚未解决。",
+              "en": "The problems resulting from the floods remain unresolved."
+            }
+          }
+        ],
+        "usageNote": "书面语；อัน 在此为文言关系词，相当于 ที่。"
+      }
+    ]
+  },
+  {
+    "headword": "ฉะนั้น",
+    "phonetic": "chanan",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "chà-nán · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "เพราะเหตุนั้น",
+        "translations": {
+          "zh": "因此；所以",
+          "en": "therefore"
+        },
+        "examples": [
+          {
+            "text": "เขาไม่มีประสบการณ์ ฉะนั้นจึงต้องฝึกก่อน",
+            "translations": {
+              "zh": "他没有经验，因此得先培训。",
+              "en": "He has no experience, so he needs training first."
+            }
+          }
+        ],
+        "usageNote": "书面语；口语多说 เพราะฉะนั้น 或 ก็เลย。"
+      }
+    ]
+  },
+  {
+    "headword": "โดยรวม",
+    "phonetic": "doi ruam",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "dooi-ruam · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "เมื่อมองภาพทั้งหมด",
+        "translations": {
+          "zh": "总体上；整体而言",
+          "en": "overall; on the whole"
+        },
+        "examples": [
+          {
+            "text": "โดยรวมแล้วผลการประเมินอยู่ในระดับดี",
+            "translations": {
+              "zh": "总体而言评估结果良好。",
+              "en": "Overall, the assessment results were good."
+            }
+          }
+        ],
+        "usageNote": "常说 โดยรวมแล้ว……。"
+      }
+    ]
+  },
+  {
+    "headword": "ในขณะที่",
+    "phonetic": "nai khana thi",
+    "cefr": "C1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "nai-khà-nà-thîi · 中, 低, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "ในเวลาเดียวกันกับ หรือ ส่วนที่",
+        "translations": {
+          "zh": "而；在……的同时",
+          "en": "while; whereas"
+        },
+        "examples": [
+          {
+            "text": "คนเมืองมีรายได้สูง ในขณะที่คนชนบทยังยากจน",
+            "translations": {
+              "zh": "城市居民收入高，而农村居民仍很贫困。",
+              "en": "City dwellers earn a lot, whereas rural people remain poor."
+            }
+          }
+        ],
+        "usageNote": "ขณะ 读 ขะ-หนะ（两个低调）。"
+      }
+    ]
+  },
+  {
+    "headword": "เสมือน",
+    "phonetic": "samuean",
+    "cefr": "C1",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "sà-mʉ̌an · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "เหมือนกับ ราวกับ",
+        "translations": {
+          "zh": "犹如；好像；虚拟的",
+          "en": "as if; virtually"
+        },
+        "examples": [
+          {
+            "text": "ครูดูแลนักเรียนเสมือนลูกของตัวเอง",
+            "translations": {
+              "zh": "老师待学生如同自己的孩子。",
+              "en": "The teacher cares for the students as if they were her own children."
+            }
+          }
+        ],
+        "usageNote": "书面语；ความจริงเสมือน＝虚拟现实。"
+      }
+    ]
+  },
+  {
+    "headword": "ประหนึ่ง",
+    "phonetic": "pranueng",
+    "cefr": "C1",
+    "frequencyRank": 9600,
+    "grammarNotes": {
+      "toneMarks": "prà-nʉ̀ng · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "เหมือนกับ ราวกับ",
+        "translations": {
+          "zh": "宛如；仿佛",
+          "en": "as though; as if"
+        },
+        "examples": [
+          {
+            "text": "เขาเดินเข้ามาประหนึ่งเป็นเจ้าของบ้าน",
+            "translations": {
+              "zh": "他走进来，俨然一副主人的样子。",
+              "en": "He walked in as though he owned the place."
+            }
+          }
+        ],
+        "usageNote": "文学书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "อาทิ",
+    "phonetic": "athi",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "aa-thí · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "เช่น ยกตัวอย่าง",
+        "translations": {
+          "zh": "例如；诸如",
+          "en": "such as; for example"
+        },
+        "examples": [
+          {
+            "text": "ประเทศในอาเซียน อาทิ ไทย ลาว และเวียดนาม",
+            "translations": {
+              "zh": "东盟国家，如泰国、老挝和越南。",
+              "en": "ASEAN countries, such as Thailand, Laos and Vietnam."
+            }
+          }
+        ],
+        "usageNote": "书面语，相当于 เช่น。"
+      }
+    ]
+  },
+  {
+    "headword": "ได้แก่",
+    "phonetic": "dai kae",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "dâi-kɛ̀ɛ · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "คือ (ใช้นำรายการ)",
+        "translations": {
+          "zh": "即；包括（列举）",
+          "en": "namely; that is"
+        },
+        "examples": [
+          {
+            "text": "ผลไม้ที่ส่งออกมาก ได้แก่ ทุเรียน มังคุด และลำไย",
+            "translations": {
+              "zh": "出口量大的水果有：榴莲、山竹和龙眼。",
+              "en": "The top fruit exports are durian, mangosteen and longan."
+            }
+          }
+        ],
+        "usageNote": "用于完整列举，ประกอบด้วย 也可。"
+      }
+    ]
+  },
+  {
+    "headword": "ตลอดจน",
+    "phonetic": "talot chon",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "tà-lɔ̀ɔt-jon · 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "รวมไปถึง",
+        "translations": {
+          "zh": "以及；乃至",
+          "en": "as well as; including"
+        },
+        "examples": [
+          {
+            "text": "ครู นักเรียน ตลอดจนผู้ปกครองต่างมาร่วมงาน",
+            "translations": {
+              "zh": "老师、学生以及家长都来参加了活动。",
+              "en": "Teachers, students, as well as parents all attended."
+            }
+          }
+        ],
+        "usageNote": "书面语，用于列举的最后一项。"
+      }
+    ]
+  },
+  {
+    "headword": "ประกอบกับ",
+    "phonetic": "prakop kap",
+    "cefr": "C1",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "toneMarks": "prà-kɔ̀ɔp-kàp · 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "รวมกับเหตุอีกประการหนึ่ง",
+        "translations": {
+          "zh": "加上；再加上",
+          "en": "coupled with; together with"
+        },
+        "examples": [
+          {
+            "text": "ฝนตกหนัก ประกอบกับน้ำทะเลหนุน ทำให้น้ำท่วม",
+            "translations": {
+              "zh": "大雨加上海水倒灌，导致了洪水。",
+              "en": "Heavy rain, coupled with high tides, caused flooding."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หากแต่",
+    "phonetic": "hak tae",
+    "cefr": "C1",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "toneMarks": "hàak-tɛ̀ɛ · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "แต่ทว่า",
+        "translations": {
+          "zh": "而是；但是",
+          "en": "but rather; yet"
+        },
+        "examples": [
+          {
+            "text": "ความสำเร็จไม่ได้มาจากโชค หากแต่มาจากความพยายาม",
+            "translations": {
+              "zh": "成功不是来自运气，而是来自努力。",
+              "en": "Success comes not from luck but from effort."
+            }
+          }
+        ],
+        "usageNote": "书面语，常用于 ไม่ได้……หากแต่……（不是……而是……）。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1469 @@
+[
+  {
+    "headword": "อาย",
+    "phonetic": "ai",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "aai · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกไม่กล้าเพราะกลัวคนอื่นมองหรือหัวเราะ",
+        "translations": {
+          "zh": "害羞；难为情",
+          "en": "to be embarrassed, to feel shy"
+        },
+        "examples": [
+          {
+            "text": "ฉันอายจนหน้าแดง",
+            "translations": {
+              "zh": "我难为情得脸都红了。",
+              "en": "I was so embarrassed my face went red."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผิดหวัง",
+    "phonetic": "phitwang",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "phìt-wǎng · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เสียใจเพราะไม่เป็นอย่างที่หวัง",
+        "translations": {
+          "zh": "失望",
+          "en": "to be disappointed"
+        },
+        "examples": [
+          {
+            "text": "ฉันผิดหวังกับผลสอบ",
+            "translations": {
+              "zh": "我对考试成绩很失望。",
+              "en": "I'm disappointed with my exam results."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โล่งใจ",
+    "phonetic": "longchai",
+    "cefr": "B1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "lôong-jai · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "สบายใจขึ้นเพราะเรื่องที่กังวลผ่านไปแล้ว",
+        "translations": {
+          "zh": "松了一口气；放心",
+          "en": "to feel relieved"
+        },
+        "examples": [
+          {
+            "text": "รู้ว่าลูกปลอดภัยแล้วก็โล่งใจ",
+            "translations": {
+              "zh": "知道孩子平安了，就松了口气。",
+              "en": "I felt relieved to know my child was safe."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครียด",
+    "phonetic": "khriat",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "khrîat · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "รู้สึกกดดันและกังวลมาก",
+        "translations": {
+          "zh": "有压力；紧张",
+          "en": "stressed"
+        },
+        "examples": [
+          {
+            "text": "ช่วงสอบนักเรียนเครียดมาก",
+            "translations": {
+              "zh": "考试期间学生压力很大。",
+              "en": "Students are very stressed during exams."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้อยใจ",
+    "phonetic": "noichai",
+    "cefr": "B1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "nɔ́ɔi-jai · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เสียใจเพราะรู้สึกว่าคนที่รักไม่สนใจ",
+        "translations": {
+          "zh": "（觉得被冷落而）委屈；闹别扭",
+          "en": "to feel hurt, to feel slighted"
+        },
+        "examples": [
+          {
+            "text": "เธอน้อยใจที่แฟนลืมวันเกิด",
+            "translations": {
+              "zh": "男朋友忘了她生日，她很委屈。",
+              "en": "She felt hurt that her boyfriend forgot her birthday."
+            }
+          }
+        ],
+        "usageNote": "น้อยใจ 是泰语特有的情感词：因亲近的人不重视自己而委屈、赌气，常见于恋人和家人之间，中文难有完全对应的词。"
+      }
+    ]
+  },
+  {
+    "headword": "ตื่นเต้น",
+    "phonetic": "tuenten",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "tʉ̀ʉn-tên · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ใจเต้นแรงเพราะดีใจหรือกังวลก่อนเรื่องสำคัญ",
+        "translations": {
+          "zh": "兴奋；紧张",
+          "en": "excited, nervous"
+        },
+        "examples": [
+          {
+            "text": "พรุ่งนี้สัมภาษณ์งาน ตื่นเต้นมาก",
+            "translations": {
+              "zh": "明天面试，好紧张。",
+              "en": "I have a job interview tomorrow, I'm so nervous."
+            }
+          }
+        ],
+        "usageNote": "ตื่นเต้น 既可指兴奋也可指（事前的）紧张，要看语境。"
+      }
+    ]
+  },
+  {
+    "headword": "กังวล",
+    "phonetic": "kangwon",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "kang-won · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คิดมากและกลัวว่าจะมีเรื่องไม่ดี",
+        "translations": {
+          "zh": "担心；焦虑",
+          "en": "to worry, to be anxious"
+        },
+        "examples": [
+          {
+            "text": "ไม่ต้องกังวลเรื่องเงินนะ",
+            "translations": {
+              "zh": "钱的事不用担心。",
+              "en": "Don't worry about the money."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เป็นห่วง",
+    "phonetic": "pen huang",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "pen-hùang · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คิดถึงและกลัวว่าคนที่รักจะไม่ปลอดภัย",
+        "translations": {
+          "zh": "担心；挂念（某人）",
+          "en": "to be worried about (someone)"
+        },
+        "examples": [
+          {
+            "text": "แม่เป็นห่วงลูกที่อยู่ต่างประเทศ",
+            "translations": {
+              "zh": "妈妈挂念在国外的孩子。",
+              "en": "Mom worries about her child living abroad."
+            }
+          }
+        ],
+        "usageNote": "เป็นห่วง 多指出于关爱而担心某人；担心事情本身多用 กังวล。"
+      }
+    ]
+  },
+  {
+    "headword": "ประหลาดใจ",
+    "phonetic": "pralatchai",
+    "cefr": "B2",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "prà-làat-jai · 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกแปลกใจเพราะไม่คิดว่าจะเกิดขึ้น",
+        "translations": {
+          "zh": "惊讶；诧异",
+          "en": "to be surprised"
+        },
+        "examples": [
+          {
+            "text": "ทุกคนประหลาดใจที่เขาสอบได้ที่หนึ่ง",
+            "translations": {
+              "zh": "大家都惊讶他考了第一。",
+              "en": "Everyone was surprised he came first in the exam."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตกใจ",
+    "phonetic": "tokchai",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "tòk-jai · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "กลัวขึ้นมาทันทีเพราะเรื่องที่ไม่คาดคิด",
+        "translations": {
+          "zh": "吓一跳；受惊",
+          "en": "to be startled, to be shocked"
+        },
+        "examples": [
+          {
+            "text": "เสียงดังทำให้เด็กตกใจ",
+            "translations": {
+              "zh": "巨响把孩子吓了一跳。",
+              "en": "The loud noise startled the child."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เบื่อ",
+    "phonetic": "buea",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "bʉ̀a · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่สนุก ไม่อยากทำต่อ",
+        "translations": {
+          "zh": "无聊；厌烦",
+          "en": "to be bored, to be fed up"
+        },
+        "examples": [
+          {
+            "text": "ฉันเบื่องานนี้แล้ว",
+            "translations": {
+              "zh": "我已经厌倦这份工作了。",
+              "en": "I'm fed up with this job."
+            }
+          }
+        ],
+        "usageNote": "เบื่อ + 名词/动词 表示“厌烦……”，如 เบื่ออาหาร（没胃口）。"
+      }
+    ]
+  },
+  {
+    "headword": "เหงา",
+    "phonetic": "ngao",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "ngǎo · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "รู้สึกอยู่คนเดียว ไม่มีใครอยู่ด้วย",
+        "translations": {
+          "zh": "寂寞；孤单",
+          "en": "lonely"
+        },
+        "examples": [
+          {
+            "text": "อยู่ต่างประเทศคนเดียวเหงามาก",
+            "translations": {
+              "zh": "一个人在国外很孤单。",
+              "en": "Living abroad alone is very lonely."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รำคาญ",
+    "phonetic": "ramkhan",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "ram-khaan · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่พอใจเพราะถูกรบกวน",
+        "translations": {
+          "zh": "烦；嫌烦",
+          "en": "to be annoyed"
+        },
+        "examples": [
+          {
+            "text": "เสียงรถทำให้ฉันรำคาญ",
+            "translations": {
+              "zh": "车声让我很烦。",
+              "en": "The traffic noise annoys me."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หงุดหงิด",
+    "phonetic": "ngutngit",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "ngùt-ngìt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "อารมณ์ไม่ดี โกรธง่ายในตอนนั้น",
+        "translations": {
+          "zh": "烦躁；心烦",
+          "en": "irritable, grumpy"
+        },
+        "examples": [
+          {
+            "text": "ถ้านอนไม่พอ ฉันจะหงุดหงิด",
+            "translations": {
+              "zh": "睡不够的话我就会很烦躁。",
+              "en": "If I don't sleep enough, I get grumpy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โมโห",
+    "phonetic": "moho",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "moo-hǒo · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "โกรธมาก",
+        "translations": {
+          "zh": "生气；发火",
+          "en": "to be angry, to lose one's temper"
+        },
+        "examples": [
+          {
+            "text": "เขาโมโหที่รอนานมาก",
+            "translations": {
+              "zh": "等太久了，他很生气。",
+              "en": "He got angry because he waited so long."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประทับใจ",
+    "phonetic": "prathapchai",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "prà-tháp-jai · 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกดีและจำได้นานเพราะชอบมาก",
+        "translations": {
+          "zh": "印象深刻；被打动",
+          "en": "to be impressed"
+        },
+        "examples": [
+          {
+            "text": "ฉันประทับใจคนไทยมาก",
+            "translations": {
+              "zh": "泰国人给我留下了很深的印象。",
+              "en": "I'm very impressed by Thai people."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พอใจ",
+    "phonetic": "phochai",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "phɔɔ-jai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกว่าดีพอแล้ว",
+        "translations": {
+          "zh": "满意",
+          "en": "to be satisfied"
+        },
+        "examples": [
+          {
+            "text": "ลูกค้าพอใจกับบริการ",
+            "translations": {
+              "zh": "顾客对服务很满意。",
+              "en": "The customer is satisfied with the service."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ซาบซึ้ง",
+    "phonetic": "sapsueng",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "sâap-sʉ́ng · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกขอบคุณหรือประทับใจลึก ๆ",
+        "translations": {
+          "zh": "深深感动；由衷感激",
+          "en": "to be deeply touched, to appreciate"
+        },
+        "examples": [
+          {
+            "text": "ฉันซาบซึ้งในน้ำใจของทุกคน",
+            "translations": {
+              "zh": "我由衷感激大家的好意。",
+              "en": "I deeply appreciate everyone's kindness."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สงสาร",
+    "phonetic": "songsan",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "sǒng-sǎan · 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกเห็นใจคนที่ลำบาก",
+        "translations": {
+          "zh": "可怜；同情",
+          "en": "to feel sorry for, to pity"
+        },
+        "examples": [
+          {
+            "text": "สงสารหมาตัวนั้นจัง ไม่มีบ้าน",
+            "translations": {
+              "zh": "那只狗好可怜，没有家。",
+              "en": "I feel sorry for that dog, it has no home."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อบอุ่น",
+    "phonetic": "op-un",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "òp-ùn · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "รู้สึกสบายใจและมีความรัก",
+        "translations": {
+          "zh": "温暖；温馨",
+          "en": "warm (feeling)"
+        },
+        "examples": [
+          {
+            "text": "ครอบครัวนี้อบอุ่นมาก",
+            "translations": {
+              "zh": "这个家庭很温馨。",
+              "en": "This family is very warm."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความสุข",
+    "phonetic": "khwamsuk",
+    "cefr": "B1",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "khwaam-sùk · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สภาพที่สบายใจและดีใจ",
+        "translations": {
+          "zh": "幸福；快乐",
+          "en": "happiness"
+        },
+        "examples": [
+          {
+            "text": "ขอให้มีความสุขมาก ๆ นะ",
+            "translations": {
+              "zh": "祝你幸福快乐！",
+              "en": "Wishing you lots of happiness!"
+            }
+          }
+        ],
+        "usageNote": "มีความสุข = “幸福、快乐”。ความ + 动词/形容词 可构成抽象名词。"
+      }
+    ]
+  },
+  {
+    "headword": "ความรู้สึก",
+    "phonetic": "khwamrusuek",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "khwaam-rúu-sʉ̀k · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ใจรับรู้ เช่น ดีใจ เสียใจ",
+        "translations": {
+          "zh": "感觉；感情",
+          "en": "feeling"
+        },
+        "examples": [
+          {
+            "text": "อย่าทำร้ายความรู้สึกเขา",
+            "translations": {
+              "zh": "别伤他的感情。",
+              "en": "Don't hurt his feelings."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รู้สึก",
+    "phonetic": "rusuek",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "rúu-sʉ̀k · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รับรู้ด้วยใจหรือร่างกาย",
+        "translations": {
+          "zh": "感觉；觉得",
+          "en": "to feel"
+        },
+        "examples": [
+          {
+            "text": "วันนี้ฉันรู้สึกไม่ค่อยสบาย",
+            "translations": {
+              "zh": "今天我觉得不太舒服。",
+              "en": "I don't feel very well today."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อารมณ์",
+    "phonetic": "arom",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "aa-rom · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สภาพของใจ เช่น ดีใจ โกรธ",
+        "translations": {
+          "zh": "情绪；心情",
+          "en": "mood, emotion"
+        },
+        "examples": [
+          {
+            "text": "วันนี้หัวหน้าอารมณ์ไม่ดี",
+            "translations": {
+              "zh": "今天领导心情不好。",
+              "en": "The boss is in a bad mood today."
+            }
+          }
+        ],
+        "usageNote": "อารมณ์ดี 心情好；อารมณ์เสีย 心情坏/生气。"
+      }
+    ]
+  },
+  {
+    "headword": "ท้อ",
+    "phonetic": "tho",
+    "cefr": "B1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "thɔ́ɔ · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หมดกำลังใจ ไม่อยากทำต่อ",
+        "translations": {
+          "zh": "灰心；泄气",
+          "en": "to be discouraged"
+        },
+        "examples": [
+          {
+            "text": "อย่าเพิ่งท้อ ลองอีกครั้ง",
+            "translations": {
+              "zh": "先别灰心，再试一次。",
+              "en": "Don't give up yet, try again."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมดหวัง",
+    "phonetic": "motwang",
+    "cefr": "B2",
+    "frequencyRank": 7100,
+    "grammarNotes": {
+      "toneMarks": "mòt-wǎng · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่มีความหวังเหลืออยู่",
+        "translations": {
+          "zh": "绝望；没希望",
+          "en": "to lose hope"
+        },
+        "examples": [
+          {
+            "text": "หมอบอกว่ายังไม่หมดหวัง",
+            "translations": {
+              "zh": "医生说还有希望。",
+              "en": "The doctor says there is still hope."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หวัง",
+    "phonetic": "wang",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "wǎng · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อยากให้เป็นอย่างที่คิด",
+        "translations": {
+          "zh": "希望；期望",
+          "en": "to hope"
+        },
+        "examples": [
+          {
+            "text": "ฉันหวังว่าจะได้เจอคุณอีก",
+            "translations": {
+              "zh": "我希望能再见到你。",
+              "en": "I hope to see you again."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เศร้า",
+    "phonetic": "sao",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "sâo · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เสียใจมาก ไม่มีความสุข",
+        "translations": {
+          "zh": "悲伤；难过",
+          "en": "sad"
+        },
+        "examples": [
+          {
+            "text": "เพลงนี้เศร้ามาก",
+            "translations": {
+              "zh": "这首歌很悲伤。",
+              "en": "This song is very sad."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สับสน",
+    "phonetic": "sapson",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "sàp-sǒn · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่เข้าใจ คิดไม่ออกว่าอะไรถูก",
+        "translations": {
+          "zh": "困惑；混乱",
+          "en": "to be confused"
+        },
+        "examples": [
+          {
+            "text": "ฉันสับสนไปหมดแล้ว",
+            "translations": {
+              "zh": "我已经完全搞糊涂了。",
+              "en": "I'm completely confused."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "งง",
+    "phonetic": "ngong",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "ngong · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่เข้าใจ (ภาษาพูด)",
+        "translations": {
+          "zh": "懵；糊涂",
+          "en": "to be puzzled, confused (informal)"
+        },
+        "examples": [
+          {
+            "text": "อธิบายใหม่ได้ไหม ฉันงง",
+            "translations": {
+              "zh": "能再解释一遍吗？我懵了。",
+              "en": "Could you explain again? I'm lost."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลังเล",
+    "phonetic": "langle",
+    "cefr": "B2",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "lang-lee · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตัดสินใจไม่ได้",
+        "translations": {
+          "zh": "犹豫",
+          "en": "to hesitate"
+        },
+        "examples": [
+          {
+            "text": "อย่าลังเล รีบตัดสินใจเถอะ",
+            "translations": {
+              "zh": "别犹豫了，快决定吧。",
+              "en": "Don't hesitate, decide quickly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อับอาย",
+    "phonetic": "ap-ai",
+    "cefr": "B2",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "toneMarks": "àp-aai · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อายมากเพราะเสียหน้า",
+        "translations": {
+          "zh": "丢脸；羞耻",
+          "en": "to be ashamed, humiliated"
+        },
+        "examples": [
+          {
+            "text": "เขาอับอายที่ถูกว่าต่อหน้าคนอื่น",
+            "translations": {
+              "zh": "他当着别人的面被骂，觉得很丢脸。",
+              "en": "He was humiliated to be scolded in front of others."
+            }
+          }
+        ],
+        "usageNote": "泰国人很重视“面子”（หน้า）：เสียหน้า 丢面子、ไว้หน้า 给面子。"
+      }
+    ]
+  },
+  {
+    "headword": "ผ่อนคลาย",
+    "phonetic": "phonkhlai",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "phɔ̀ɔn-khlaai · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สบายขึ้น ไม่เครียด",
+        "translations": {
+          "zh": "放松",
+          "en": "to relax"
+        },
+        "examples": [
+          {
+            "text": "ฟังเพลงช่วยให้ผ่อนคลาย",
+            "translations": {
+              "zh": "听音乐有助于放松。",
+              "en": "Listening to music helps you relax."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สบายใจ",
+    "phonetic": "sabaichai",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "sà-baai-jai · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่มีเรื่องกังวล",
+        "translations": {
+          "zh": "安心；舒心",
+          "en": "at ease, happy"
+        },
+        "examples": [
+          {
+            "text": "ได้คุยกับแม่แล้วสบายใจขึ้น",
+            "translations": {
+              "zh": "和妈妈聊过之后安心多了。",
+              "en": "I feel better after talking with Mom."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เกลียด",
+    "phonetic": "kliat",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "klìat · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่ชอบมาก",
+        "translations": {
+          "zh": "讨厌；恨",
+          "en": "to hate"
+        },
+        "examples": [
+          {
+            "text": "ฉันเกลียดการรอคิว",
+            "translations": {
+              "zh": "我讨厌排队。",
+              "en": "I hate waiting in line."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คิดถึง",
+    "phonetic": "khitthueng",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "khít-thʉ̌ng · 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อยากเจอคนที่ไม่ได้อยู่ใกล้",
+        "translations": {
+          "zh": "想念",
+          "en": "to miss (someone)"
+        },
+        "examples": [
+          {
+            "text": "คิดถึงบ้านจังเลย",
+            "translations": {
+              "zh": "好想家啊。",
+              "en": "I really miss home."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใจหาย",
+    "phonetic": "chaihai",
+    "cefr": "B2",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "jai-hǎai · 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตกใจหรือเสียดายขึ้นมาทันที",
+        "translations": {
+          "zh": "心里一沉；（突然）失落",
+          "en": "to have one's heart sink"
+        },
+        "examples": [
+          {
+            "text": "ได้ยินว่าเขาจะย้ายไป ฉันใจหายเลย",
+            "translations": {
+              "zh": "听说他要搬走，我心里一沉。",
+              "en": "When I heard he was moving away, my heart sank."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปลื้ม",
+    "phonetic": "pluem",
+    "cefr": "B2",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "plʉ̂ʉm · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดีใจและภูมิใจมาก",
+        "translations": {
+          "zh": "欣喜；感到欣慰",
+          "en": "to be delighted, thrilled"
+        },
+        "examples": [
+          {
+            "text": "แม่ปลื้มมากที่ลูกเรียนจบ",
+            "translations": {
+              "zh": "孩子毕业了，妈妈非常欣慰。",
+              "en": "Mom was thrilled her child graduated."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทรมาน",
+    "phonetic": "thoraman",
+    "cefr": "B2",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "thɔɔ-rá-maan · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เจ็บปวดหรือลำบากมาก",
+        "translations": {
+          "zh": "受折磨；痛苦",
+          "en": "to suffer; to torture"
+        },
+        "examples": [
+          {
+            "text": "ปวดฟันทรมานมาก",
+            "translations": {
+              "zh": "牙疼得要命。",
+              "en": "This toothache is torture."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมั่นไส้",
+    "phonetic": "mansai",
+    "cefr": "B2",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "toneMarks": "màn-sâi · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้สึกไม่ชอบคนที่ทำท่าอวดหรือเกินไป",
+        "translations": {
+          "zh": "看不惯；觉得（某人）讨嫌",
+          "en": "to find someone annoying or smug"
+        },
+        "examples": [
+          {
+            "text": "เห็นเขาอวดรถใหม่แล้วหมั่นไส้",
+            "translations": {
+              "zh": "看他炫耀新车就觉得讨嫌。",
+              "en": "Seeing him show off his new car got on my nerves."
+            }
+          }
+        ],
+        "usageNote": "多为口语，常带半开玩笑的语气，朋友之间也会说。"
+      }
+    ]
+  },
+  {
+    "headword": "แค้น",
+    "phonetic": "khaen",
+    "cefr": "B2",
+    "frequencyRank": 8300,
+    "grammarNotes": {
+      "toneMarks": "khɛ́ɛn · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "โกรธและอยากแก้แค้น",
+        "translations": {
+          "zh": "怀恨；记仇",
+          "en": "to hold a grudge, to resent"
+        },
+        "examples": [
+          {
+            "text": "เขายังแค้นเรื่องเมื่อปีที่แล้ว",
+            "translations": {
+              "zh": "他还在为去年的事记恨。",
+              "en": "He still holds a grudge about last year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ให้อภัย",
+    "phonetic": "hai aphai",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "hâi-à-phai · 降, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่โกรธหรือเอาผิดแล้ว",
+        "translations": {
+          "zh": "原谅",
+          "en": "to forgive"
+        },
+        "examples": [
+          {
+            "text": "ขอให้คุณให้อภัยฉันด้วย",
+            "translations": {
+              "zh": "请你原谅我。",
+              "en": "Please forgive me."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กำลังใจ",
+    "phonetic": "kamlangchai",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "kam-lang-jai · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความรู้สึกที่ทำให้อยากสู้ต่อ",
+        "translations": {
+          "zh": "鼓励；斗志",
+          "en": "encouragement, morale"
+        },
+        "examples": [
+          {
+            "text": "ขอบคุณที่ให้กำลังใจนะ",
+            "translations": {
+              "zh": "谢谢你的鼓励。",
+              "en": "Thanks for encouraging me."
+            }
+          }
+        ],
+        "usageNote": "ให้กำลังใจ = 鼓励（某人）；常配合 สู้ ๆ（加油）一起说。"
+      }
+    ]
+  },
+  {
+    "headword": "ซึมเศร้า",
+    "phonetic": "suemsao",
+    "cefr": "B2",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "sʉm-sâo · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เศร้าและหมดแรงเป็นเวลานาน",
+        "translations": {
+          "zh": "抑郁；消沉",
+          "en": "depressed"
+        },
+        "examples": [
+          {
+            "text": "หลังตกงาน เขาซึมเศร้าไปหลายเดือน",
+            "translations": {
+              "zh": "失业后他消沉了好几个月。",
+              "en": "After losing his job, he was depressed for months."
+            }
+          }
+        ],
+        "usageNote": "โรคซึมเศร้า = 抑郁症。"
+      }
+    ]
+  },
+  {
+    "headword": "หลงรัก",
+    "phonetic": "longrak",
+    "cefr": "B1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "lǒng-rák · 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รักใครมากจนลืมตัว",
+        "translations": {
+          "zh": "爱上；迷恋",
+          "en": "to fall in love with"
+        },
+        "examples": [
+          {
+            "text": "เขาหลงรักเธอตั้งแต่แรกเห็น",
+            "translations": {
+              "zh": "他对她一见钟情。",
+              "en": "He fell in love with her at first sight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชื่นชม",
+    "phonetic": "chuenchom",
+    "cefr": "B1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "chʉ̂ʉn-chom · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ชอบและยกย่อง",
+        "translations": {
+          "zh": "欣赏；称赞",
+          "en": "to admire, to praise"
+        },
+        "examples": [
+          {
+            "text": "ทุกคนชื่นชมความขยันของเธอ",
+            "translations": {
+              "zh": "大家都称赞她的勤奋。",
+              "en": "Everyone admires her diligence."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประหม่า",
+    "phonetic": "pramma",
+    "cefr": "B2",
+    "frequencyRank": 8400,
+    "grammarNotes": {
+      "toneMarks": "prà-màa · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตื่นเต้นจนพูดหรือทำไม่ถูก",
+        "translations": {
+          "zh": "怯场；局促不安",
+          "en": "to be nervous, to have stage fright"
+        },
+        "examples": [
+          {
+            "text": "พูดต่อหน้าคนเยอะ ๆ ฉันประหม่ามาก",
+            "translations": {
+              "zh": "在很多人面前讲话我很怯场。",
+              "en": "I get stage fright speaking in front of many people."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เขิน",
+    "phonetic": "khoen",
+    "cefr": "B1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "khə̌ən · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อายเวลาถูกชมหรือถูกแซว",
+        "translations": {
+          "zh": "害羞；不好意思（被夸或被调侃时）",
+          "en": "to be bashful, coy"
+        },
+        "examples": [
+          {
+            "text": "พอถูกชมว่าสวย เธอก็เขิน",
+            "translations": {
+              "zh": "被夸漂亮，她就害羞了。",
+              "en": "When complimented on her looks, she got bashful."
+            }
+          }
+        ],
+        "usageNote": "เขิน 多指被夸奖、被调侃或面对心上人时的害羞；อาย 范围更广，也可指丢脸。"
+      }
+    ]
+  },
+  {
+    "headword": "หย่า",
+    "phonetic": "ya",
+    "cefr": "B1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "yàa · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เลิกเป็นสามีภรรยากันตามกฎหมาย",
+        "translations": {
+          "zh": "离婚",
+          "en": "to divorce"
+        },
+        "examples": [
+          {
+            "text": "พ่อแม่ของเขาหย่ากันตั้งแต่เขายังเด็ก",
+            "translations": {
+              "zh": "他小时候父母就离婚了。",
+              "en": "His parents divorced when he was a child."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เลิกกัน",
+    "phonetic": "loekkan",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "lə̂ək-kan · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่เป็นแฟนกันแล้ว",
+        "translations": {
+          "zh": "分手",
+          "en": "to break up"
+        },
+        "examples": [
+          {
+            "text": "เราเลิกกันแล้วเมื่อเดือนก่อน",
+            "translations": {
+              "zh": "我们上个月分手了。",
+              "en": "We broke up last month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทะเลาะ",
+    "phonetic": "thalo",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "thá-lɔ́ · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูดโต้เถียงกันด้วยความโกรธ",
+        "translations": {
+          "zh": "吵架",
+          "en": "to quarrel, to argue"
+        },
+        "examples": [
+          {
+            "text": "พี่น้องคู่นี้ทะเลาะกันทุกวัน",
+            "translations": {
+              "zh": "这对兄弟姐妹天天吵架。",
+              "en": "These siblings argue every day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไว้ใจ",
+    "phonetic": "waichai",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "wái-jai · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เชื่อว่าคนนั้นจะไม่ทำให้ผิดหวัง",
+        "translations": {
+          "zh": "信任；信赖",
+          "en": "to trust"
+        },
+        "examples": [
+          {
+            "text": "ฉันไว้ใจเพื่อนคนนี้ที่สุด",
+            "translations": {
+              "zh": "我最信任这个朋友。",
+              "en": "I trust this friend the most."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

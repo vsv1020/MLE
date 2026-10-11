@@ -1,0 +1,1482 @@
+[
+ {
+  "headword": "อย่างไรก็ตาม",
+  "phonetic": "yangrai ko tam",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "yàang-rai-kɔ̂ɔ-taam · 低, 中, 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้เชื่อมความที่ขัดแย้งกับข้อความก่อนหน้า",
+    "translations": {
+     "zh": "然而；不过",
+     "en": "however"
+    },
+    "examples": [
+     {
+      "text": "อย่างไรก็ตาม เราต้องระวังค่าใช้จ่าย",
+      "translations": {
+       "zh": "不过，我们得注意开支。",
+       "en": "However, we need to watch our spending."
+      }
+     }
+    ],
+    "usageNote": "书面、正式；口语说 ยังไงก็ตาม 或 แต่。"
+   }
+  ]
+ },
+ {
+  "headword": "ยังไงก็ตาม",
+  "phonetic": "yang ngai ko tam",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "yang-ngai-kɔ̂ɔ-taam · 中, 中, 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ไม่ว่าจะอย่างไร (ภาษาพูด)",
+    "translations": {
+     "zh": "不管怎样；无论如何",
+     "en": "anyway, in any case"
+    },
+    "examples": [
+     {
+      "text": "ยังไงก็ตาม ขอบคุณมากนะ",
+      "translations": {
+       "zh": "不管怎样，非常感谢。",
+       "en": "Anyway, thanks a lot."
+      }
+     }
+    ],
+    "usageNote": "口语，相当于书面的 อย่างไรก็ตาม。"
+   }
+  ]
+ },
+ {
+  "headword": "แม้ว่า",
+  "phonetic": "mae wa",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "mɛ́ɛ-wâa · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถึงจะเป็นอย่างนั้นก็ตาม",
+    "translations": {
+     "zh": "虽然；即使",
+     "en": "although, even though"
+    },
+    "examples": [
+     {
+      "text": "แม้ว่าฝนจะตก เขาก็ยังมา",
+      "translations": {
+       "zh": "虽然下雨，他还是来了。",
+       "en": "Even though it rained, he still came."
+      }
+     }
+    ],
+    "usageNote": "常与 ก็ 呼应：แม้ว่า…ก็…；书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "ถึงแม้ว่า",
+  "phonetic": "thueng mae wa",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ng-mɛ́ɛ-wâa · 升, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "แม้ว่า",
+    "translations": {
+     "zh": "尽管；虽然",
+     "en": "even though"
+    },
+    "examples": [
+     {
+      "text": "ถึงแม้ว่าจะเหนื่อย แต่เธอก็มีความสุข",
+      "translations": {
+       "zh": "尽管很累，她还是很快乐。",
+       "en": "Even though she's tired, she's happy."
+      }
+     }
+    ],
+    "usageNote": "与 แม้ว่า 同义，语气稍强。"
+   }
+  ]
+ },
+ {
+  "headword": "ทั้งๆ ที่",
+  "phonetic": "thang thang thi",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "tháng-tháng-thîi · 高, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ทั้งที่รู้หรือเป็นอย่างนั้นแล้ว (มีความหมายขัดแย้ง)",
+    "translations": {
+     "zh": "明明…却…；尽管",
+     "en": "even though, despite the fact that"
+    },
+    "examples": [
+     {
+      "text": "เขาออกไปข้างนอกทั้งๆ ที่ยังป่วยอยู่",
+      "translations": {
+       "zh": "他明明还病着却出门了。",
+       "en": "He went out even though he was still sick."
+      }
+     }
+    ],
+    "usageNote": "带有“不应该却…”的意外或不满语气。"
+   }
+  ]
+ },
+ {
+  "headword": "นอกจากนี้",
+  "phonetic": "nok chak ni",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "nɔ̂ɔk-jàak-níi · 降, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "นอกเหนือจากที่กล่าวมาแล้ว",
+    "translations": {
+     "zh": "此外；另外",
+     "en": "in addition, moreover"
+    },
+    "examples": [
+     {
+      "text": "นอกจากนี้ โรงแรมยังมีสระว่ายน้ำด้วย",
+      "translations": {
+       "zh": "此外，酒店还有游泳池。",
+       "en": "In addition, the hotel also has a pool."
+      }
+     }
+    ],
+    "usageNote": "常与 ยัง…ด้วย 搭配。"
+   }
+  ]
+ },
+ {
+  "headword": "นอกจาก",
+  "phonetic": "nok chak",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "nɔ̂ɔk-jàak · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "นอกเหนือจาก หรือยกเว้น",
+    "translations": {
+     "zh": "除了",
+     "en": "apart from, besides, except"
+    },
+    "examples": [
+     {
+      "text": "นอกจากภาษาไทย เขายังพูดจีนได้",
+      "translations": {
+       "zh": "除了泰语，他还会说中文。",
+       "en": "Besides Thai, he can also speak Chinese."
+      }
+     }
+    ],
+    "usageNote": "“除了…还…”：นอกจาก…ยัง…；“除了…都不”：นอกจาก…ไม่…"
+   }
+  ]
+ },
+ {
+  "headword": "ยิ่งไปกว่านั้น",
+  "phonetic": "ying pai kwa nan",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "yîng-pai-kwàa-nán · 降, 中, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "มากไปกว่าที่กล่าวมา",
+    "translations": {
+     "zh": "更重要的是；而且",
+     "en": "furthermore, what's more"
+    },
+    "examples": [
+     {
+      "text": "ยิ่งไปกว่านั้น ราคาก็ถูกมาก",
+      "translations": {
+       "zh": "而且价格还很便宜。",
+       "en": "What's more, the price is very low."
+      }
+     }
+    ],
+    "usageNote": "书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "ในขณะที่",
+  "phonetic": "nai khana thi",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "nai-khà-nà-thîi · 中, 低, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ในเวลาเดียวกับที่ หรือแสดงความต่าง",
+    "translations": {
+     "zh": "当…的时候；而",
+     "en": "while, whereas"
+    },
+    "examples": [
+     {
+      "text": "ในขณะที่ฉันทำอาหาร น้องดูทีวี",
+      "translations": {
+       "zh": "我做饭的时候，弟弟在看电视。",
+       "en": "While I was cooking, my brother watched TV."
+      }
+     }
+    ],
+    "usageNote": "也表对比“而”：พี่ชอบเผ็ด ในขณะที่น้องไม่กินเผ็ด。"
+   }
+  ]
+ },
+ {
+  "headword": "ในขณะเดียวกัน",
+  "phonetic": "nai khana diao kan",
+  "cefr": "B2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "nai-khà-nà-diao-kan · 中, 低, 低, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ในเวลาเดียวกัน",
+    "translations": {
+     "zh": "与此同时",
+     "en": "at the same time, meanwhile"
+    },
+    "examples": [
+     {
+      "text": "ในขณะเดียวกัน เราก็ต้องประหยัดด้วย",
+      "translations": {
+       "zh": "与此同时，我们也得节省。",
+       "en": "At the same time, we also have to save."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เนื่องจาก",
+  "phonetic": "nueang chak",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "nʉ̂ang-jàak · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เพราะว่า (ภาษาเขียน)",
+    "translations": {
+     "zh": "由于；因为",
+     "en": "because of, due to"
+    },
+    "examples": [
+     {
+      "text": "เนื่องจากฝนตกหนัก ถนนจึงปิด",
+      "translations": {
+       "zh": "由于下大雨，道路封闭了。",
+       "en": "Due to heavy rain, the road is closed."
+      }
+     }
+    ],
+    "usageNote": "书面、正式语，常与 จึง 呼应。"
+   }
+  ]
+ },
+ {
+  "headword": "ดังนั้น",
+  "phonetic": "dang nan",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "dang-nán · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เพราะเหตุนั้น",
+    "translations": {
+     "zh": "因此；所以",
+     "en": "therefore"
+    },
+    "examples": [
+     {
+      "text": "เขาป่วย ดังนั้นจึงไม่มาเรียน",
+      "translations": {
+       "zh": "他病了，因此没来上课。",
+       "en": "He's sick, therefore he didn't come to class."
+      }
+     }
+    ],
+    "usageNote": "书面语；口语用 ก็เลย。"
+   }
+  ]
+ },
+ {
+  "headword": "เพราะฉะนั้น",
+  "phonetic": "phro chanan",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "phrɔ́-chà-nán · 高, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ด้วยเหตุนั้น",
+    "translations": {
+     "zh": "所以；因此",
+     "en": "so, therefore"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้สอบ เพราะฉะนั้นคืนนี้ต้องอ่านหนังสือ",
+      "translations": {
+       "zh": "明天考试，所以今晚得看书。",
+       "en": "There's an exam tomorrow, so I must study tonight."
+      }
+     }
+    ],
+    "usageNote": "比 ดังนั้น 口语化一些。"
+   }
+  ]
+ },
+ {
+  "headword": "ด้วยเหตุนี้",
+  "phonetic": "duai het ni",
+  "cefr": "B2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "dûai-hèet-níi · 降, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เพราะเหตุผลนี้",
+    "translations": {
+     "zh": "因此；鉴于此",
+     "en": "for this reason"
+    },
+    "examples": [
+     {
+      "text": "ด้วยเหตุนี้ บริษัทจึงต้องลดพนักงาน",
+      "translations": {
+       "zh": "因此，公司不得不裁员。",
+       "en": "For this reason, the company had to cut staff."
+      }
+     }
+    ],
+    "usageNote": "书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "จึง",
+  "phonetic": "chueng",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "jʉng · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ดังนั้น ใช้หน้ากริยาแสดงผล",
+    "translations": {
+     "zh": "才；于是；因此",
+     "en": "so, therefore (before verb)"
+    },
+    "examples": [
+     {
+      "text": "ฉันหิว จึงไปหาอะไรกิน",
+      "translations": {
+       "zh": "我饿了，于是去找东西吃。",
+       "en": "I was hungry, so I went to get something to eat."
+      }
+     }
+    ],
+    "usageNote": "放在主语后、动词前；比 ก็เลย 正式。"
+   }
+  ]
+ },
+ {
+  "headword": "ก็เลย",
+  "phonetic": "ko loei",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "kɔ̂ɔ-ləəi · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ดังนั้น (ภาษาพูด)",
+    "translations": {
+     "zh": "所以就；于是",
+     "en": "so, that's why"
+    },
+    "examples": [
+     {
+      "text": "รถติดมาก ก็เลยมาสาย",
+      "translations": {
+       "zh": "堵车很严重，所以就迟到了。",
+       "en": "Traffic was bad, so I was late."
+      }
+     }
+    ],
+    "usageNote": "口语常用。"
+   }
+  ]
+ },
+ {
+  "headword": "มิฉะนั้น",
+  "phonetic": "michanan",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "mí-chà-nán · 高, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถ้าไม่เป็นอย่างนั้น",
+    "translations": {
+     "zh": "否则；不然",
+     "en": "otherwise"
+    },
+    "examples": [
+     {
+      "text": "ต้องรีบไป มิฉะนั้นจะตกรถ",
+      "translations": {
+       "zh": "得赶快走，否则会赶不上车。",
+       "en": "We must hurry, otherwise we'll miss the bus."
+      }
+     }
+    ],
+    "usageNote": "书面语；口语说 ไม่งั้น。"
+   }
+  ]
+ },
+ {
+  "headword": "ไม่งั้น",
+  "phonetic": "mai ngan",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "mâi-ngán · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถ้าไม่ทำอย่างนั้น (ภาษาพูด)",
+    "translations": {
+     "zh": "不然；要不然",
+     "en": "otherwise, or else"
+    },
+    "examples": [
+     {
+      "text": "ใส่เสื้อกันหนาวด้วย ไม่งั้นจะไม่สบาย",
+      "translations": {
+       "zh": "穿上外套，不然会感冒。",
+       "en": "Wear a jacket, or else you'll get sick."
+      }
+     }
+    ],
+    "usageNote": "口语，相当于 มิฉะนั้น。"
+   }
+  ]
+ },
+ {
+  "headword": "ในที่สุด",
+  "phonetic": "nai thi sut",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "nai-thîi-sùt · 中, 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตอนท้ายที่สุด",
+    "translations": {
+     "zh": "终于；最后",
+     "en": "finally, in the end"
+    },
+    "examples": [
+     {
+      "text": "ในที่สุดเราก็ถึงบ้าน",
+      "translations": {
+       "zh": "我们终于到家了。",
+       "en": "We finally got home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ก่อนอื่น",
+  "phonetic": "kon uen",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "kɔ̀ɔn-ʉ̀ʉn · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เป็นอย่างแรกก่อนสิ่งอื่น",
+    "translations": {
+     "zh": "首先",
+     "en": "first of all"
+    },
+    "examples": [
+     {
+      "text": "ก่อนอื่น ขอแนะนำตัวก่อนนะครับ",
+      "translations": {
+       "zh": "首先，我先自我介绍一下。",
+       "en": "First of all, let me introduce myself."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต่อมา",
+  "phonetic": "to ma",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "tɔ̀ɔ-maa · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "หลังจากนั้น",
+    "translations": {
+     "zh": "后来；之后",
+     "en": "later, afterwards"
+    },
+    "examples": [
+     {
+      "text": "ต่อมาเขาย้ายไปอยู่เชียงใหม่",
+      "translations": {
+       "zh": "后来他搬到了清迈。",
+       "en": "Later he moved to Chiang Mai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โดยเฉพาะ",
+  "phonetic": "doi chapho",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "dooi-chà-phɔ́ · 中, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เป็นพิเศษ เหนือกว่าอย่างอื่น",
+    "translations": {
+     "zh": "特别是；尤其",
+     "en": "especially, particularly"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบผลไม้ไทย โดยเฉพาะมะม่วง",
+      "translations": {
+       "zh": "我喜欢泰国水果，尤其是芒果。",
+       "en": "I like Thai fruit, especially mango."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อย่างน้อย",
+  "phonetic": "yang noi",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "yàang-nɔ́ɔi · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่น้อยกว่านี้",
+    "translations": {
+     "zh": "至少",
+     "en": "at least"
+    },
+    "examples": [
+     {
+      "text": "ควรนอนอย่างน้อยวันละเจ็ดชั่วโมง",
+      "translations": {
+       "zh": "每天应至少睡七个小时。",
+       "en": "You should sleep at least seven hours a day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตรงกันข้าม",
+  "phonetic": "trong kan kham",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "trong-kan-khâam · 中, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อยู่คนละด้านหรือต่างกันอย่างสิ้นเชิง",
+    "translations": {
+     "zh": "相反；对面",
+     "en": "opposite, contrary"
+    },
+    "examples": [
+     {
+      "text": "ความคิดของเขาตรงกันข้ามกับฉัน",
+      "translations": {
+       "zh": "他的想法和我的完全相反。",
+       "en": "His views are the opposite of mine."
+      }
+     }
+    ],
+    "usageNote": "也作“在对面”：ร้านอยู่ตรงกันข้ามกับธนาคาร。"
+   }
+  ]
+ },
+ {
+  "headword": "ในทางกลับกัน",
+  "phonetic": "nai thang klap kan",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "nai-thaang-klàp-kan · 中, 中, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ในอีกด้านหนึ่งที่ตรงข้าม",
+    "translations": {
+     "zh": "反过来；另一方面",
+     "en": "on the other hand, conversely"
+    },
+    "examples": [
+     {
+      "text": "ในทางกลับกัน ถ้าเราไม่ทำ ก็อาจเสียโอกาส",
+      "translations": {
+       "zh": "反过来说，如果我们不做，就可能错失机会。",
+       "en": "Conversely, if we don't, we may lose the chance."
+      }
+     }
+    ],
+    "usageNote": "书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "กล่าวคือ",
+  "phonetic": "klao khue",
+  "cefr": "B2",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "klàao-khʉʉ · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "หมายความว่า ใช้ขยายความ",
+    "translations": {
+     "zh": "也就是说；即",
+     "en": "that is to say, namely"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นมังสวิรัติ กล่าวคือไม่กินเนื้อสัตว์",
+      "translations": {
+       "zh": "他是素食者，也就是说不吃肉。",
+       "en": "He's vegetarian, that is, he doesn't eat meat."
+      }
+     }
+    ],
+    "usageNote": "书面语；口语说 ก็คือ。"
+   }
+  ]
+ },
+ {
+  "headword": "ตัวอย่างเช่น",
+  "phonetic": "tua yang chen",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "tua-yàang-chên · 中, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ใช้นำตัวอย่าง",
+    "translations": {
+     "zh": "例如",
+     "en": "for example"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบกีฬาหลายอย่าง ตัวอย่างเช่นฟุตบอล",
+      "translations": {
+       "zh": "我喜欢很多运动，例如足球。",
+       "en": "I like many sports, for example football."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยกเว้น",
+  "phonetic": "yokwen",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "yók-wén · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ไม่นับรวม",
+    "translations": {
+     "zh": "除了；除外",
+     "en": "except"
+    },
+    "examples": [
+     {
+      "text": "ร้านเปิดทุกวัน ยกเว้นวันจันทร์",
+      "translations": {
+       "zh": "商店每天营业，周一除外。",
+       "en": "The shop is open every day except Monday."
+      }
+     }
+    ],
+    "usageNote": "也可作动词“免除”。"
+   }
+  ]
+ },
+ {
+  "headword": "แทนที่",
+  "phonetic": "thaenthi",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "thɛɛn-thîi · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เข้าไปอยู่หรือทำหน้าที่แทน",
+    "translations": {
+     "zh": "取代；代替",
+     "en": "to replace"
+    },
+    "examples": [
+     {
+      "text": "หุ่นยนต์อาจแทนที่คนในบางงาน",
+      "translations": {
+       "zh": "机器人可能在某些工作中取代人。",
+       "en": "Robots may replace people in some jobs."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "แทนที่จะ: แสดงว่าไม่ทำอย่างหนึ่งแต่ทำอีกอย่าง",
+    "translations": {
+     "zh": "与其…（不如）；不…反而",
+     "en": "instead of"
+    },
+    "examples": [
+     {
+      "text": "แทนที่จะนอน เขากลับเล่นเกมทั้งคืน",
+      "translations": {
+       "zh": "他不睡觉，反而打了一整夜游戏。",
+       "en": "Instead of sleeping, he played games all night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ก็ต่อเมื่อ",
+  "phonetic": "ko to muea",
+  "cefr": "B2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "kɔ̂ɔ-tɔ̀ɔ-mʉ̂a · 降, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เฉพาะในกรณีที่",
+    "translations": {
+     "zh": "只有…才；当且仅当",
+     "en": "only if, only when"
+    },
+    "examples": [
+     {
+      "text": "คุณจะได้รางวัลก็ต่อเมื่อชนะ",
+      "translations": {
+       "zh": "只有赢了你才能得奖。",
+       "en": "You get the prize only if you win."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตราบใดที่",
+  "phonetic": "trap dai thi",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "toneMarks": "tràap-dai-thîi · 低, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ตลอดเวลาที่ ถ้ายังเป็นอย่างนั้นอยู่",
+    "translations": {
+     "zh": "只要；只要…一天",
+     "en": "as long as"
+    },
+    "examples": [
+     {
+      "text": "ตราบใดที่เรายังมีกัน ทุกอย่างจะดี",
+      "translations": {
+       "zh": "只要我们还在一起，一切都会好。",
+       "en": "As long as we have each other, all will be well."
+      }
+     }
+    ],
+    "usageNote": "书面语色彩较浓。"
+   }
+  ]
+ },
+ {
+  "headword": "หาก",
+  "phonetic": "hak",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "hàak · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถ้า (ภาษาเขียน)",
+    "translations": {
+     "zh": "如果；假如",
+     "en": "if"
+    },
+    "examples": [
+     {
+      "text": "หากมีข้อสงสัย กรุณาติดต่อเรา",
+      "translations": {
+       "zh": "如有疑问，请联系我们。",
+       "en": "If you have any questions, please contact us."
+      }
+     }
+    ],
+    "usageNote": "书面、正式；口语用 ถ้า。"
+   }
+  ]
+ },
+ {
+  "headword": "สมมติว่า",
+  "phonetic": "sommut wa",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "sǒm-mút-wâa · 升, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ลองคิดว่าเป็นอย่างนั้น",
+    "translations": {
+     "zh": "假设；假如",
+     "en": "suppose that"
+    },
+    "examples": [
+     {
+      "text": "สมมติว่าคุณถูกหวย จะทำอะไร",
+      "translations": {
+       "zh": "假如你中了彩票，你会做什么？",
+       "en": "Suppose you won the lottery, what would you do?"
+      }
+     }
+    ],
+    "usageNote": "สมมติ 中的 ติ 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "เผื่อ",
+  "phonetic": "phuea",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "phʉ̀a · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เตรียมไว้ในกรณีที่อาจเกิดขึ้น",
+    "translations": {
+     "zh": "以防；以备",
+     "en": "in case, to allow for"
+    },
+    "examples": [
+     {
+      "text": "เอาร่มไปเผื่อฝนตก",
+      "translations": {
+       "zh": "带把伞以防下雨。",
+       "en": "Take an umbrella in case it rains."
+      }
+     }
+    ],
+    "usageNote": "也表“替…（多准备）”：ซื้อเผื่อเพื่อน 给朋友也带一份。"
+   }
+  ]
+ },
+ {
+  "headword": "เพื่อที่จะ",
+  "phonetic": "phuea thi cha",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "phʉ̂a-thîi-jà · 降, 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เพื่อ ใช้บอกจุดประสงค์",
+    "translations": {
+     "zh": "为了；以便",
+     "en": "in order to"
+    },
+    "examples": [
+     {
+      "text": "เขาเก็บเงินเพื่อที่จะซื้อบ้าน",
+      "translations": {
+       "zh": "他存钱是为了买房子。",
+       "en": "He saves money in order to buy a house."
+      }
+     }
+    ],
+    "usageNote": "比 เพื่อ 稍正式、完整。"
+   }
+  ]
+ },
+ {
+  "headword": "จนกระทั่ง",
+  "phonetic": "chon krathang",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jon-krà-thâng · 中, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "จนถึงเวลาที่",
+    "translations": {
+     "zh": "直到",
+     "en": "until"
+    },
+    "examples": [
+     {
+      "text": "เขารอจนกระทั่งฝนหยุด",
+      "translations": {
+       "zh": "他一直等到雨停。",
+       "en": "He waited until the rain stopped."
+      }
+     }
+    ],
+    "usageNote": "口语常简化为 จน。"
+   }
+  ]
+ },
+ {
+  "headword": "ทันทีที่",
+  "phonetic": "thanthi thi",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "than-thii-thîi · 中, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "เมื่อ...แล้วก็ทำต่อเลย",
+    "translations": {
+     "zh": "一…就…",
+     "en": "as soon as"
+    },
+    "examples": [
+     {
+      "text": "ทันทีที่ถึงบ้าน เขาก็หลับ",
+      "translations": {
+       "zh": "他一到家就睡着了。",
+       "en": "As soon as he got home, he fell asleep."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่ว่า",
+  "phonetic": "mai wa",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "mâi-wâa · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ไม่สำคัญว่าจะเป็นอย่างไร",
+    "translations": {
+     "zh": "无论；不管",
+     "en": "no matter, regardless"
+    },
+    "examples": [
+     {
+      "text": "ไม่ว่าจะเกิดอะไรขึ้น ฉันจะอยู่ข้างคุณ",
+      "translations": {
+       "zh": "无论发生什么，我都站在你这边。",
+       "en": "Whatever happens, I'll be on your side."
+      }
+     }
+    ],
+    "usageNote": "常用 ไม่ว่า…ก็…。"
+   }
+  ]
+ },
+ {
+  "headword": "แต่ทว่า",
+  "phonetic": "tae thawa",
+  "cefr": "B2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "toneMarks": "tɛ̀ɛ-thá-wâa · 低, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "แต่ (ภาษาเขียน เน้นความขัดแย้ง)",
+    "translations": {
+     "zh": "但是；然而",
+     "en": "but, yet"
+    },
+    "examples": [
+     {
+      "text": "เขาพยายามมาก แต่ทว่าก็ยังไม่สำเร็จ",
+      "translations": {
+       "zh": "他非常努力，然而仍未成功。",
+       "en": "He tried hard, yet he still didn't succeed."
+      }
+     }
+    ],
+    "usageNote": "书面、文学色彩。"
+   }
+  ]
+ },
+ {
+  "headword": "หรือไม่ก็",
+  "phonetic": "rue mai ko",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "rʉ̌ʉ-mâi-kɔ̂ɔ · 升, 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้เสนอทางเลือกอีกทาง",
+    "translations": {
+     "zh": "或者；要不然就",
+     "en": "or else, or alternatively"
+    },
+    "examples": [
+     {
+      "text": "ไปกินข้าวข้างนอก หรือไม่ก็สั่งมาส่ง",
+      "translations": {
+       "zh": "出去吃饭，要不就叫外卖。",
+       "en": "Eat out, or else order delivery."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยิ่ง",
+  "phonetic": "ying",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "yîng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากขึ้นไปอีก ใช้ในรูป ยิ่ง...ยิ่ง...",
+    "translations": {
+     "zh": "越…越…；更加",
+     "en": "the more…, even more"
+    },
+    "examples": [
+     {
+      "text": "ยิ่งเรียนยิ่งสนุก",
+      "translations": {
+       "zh": "越学越有意思。",
+       "en": "The more you study, the more fun it gets."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แม้แต่",
+  "phonetic": "mae tae",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "mɛ́ɛ-tɛ̀ɛ · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ถึงขนาด แม้กระทั่ง",
+    "translations": {
+     "zh": "甚至；连…都",
+     "en": "even"
+    },
+    "examples": [
+     {
+      "text": "แม้แต่เด็กก็ทำได้",
+      "translations": {
+       "zh": "连小孩都会做。",
+       "en": "Even a child can do it."
+      }
+     }
+    ],
+    "usageNote": "常与 ก็ 呼应。"
+   }
+  ]
+ },
+ {
+  "headword": "ถึงกับ",
+  "phonetic": "thueng kap",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ng-kàp · 升, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ถึงขั้นที่ (เกินคาด)",
+    "translations": {
+     "zh": "甚至到了…的地步",
+     "en": "to the point of, so much that"
+    },
+    "examples": [
+     {
+      "text": "เขาดีใจถึงกับร้องไห้",
+      "translations": {
+       "zh": "他高兴得甚至哭了。",
+       "en": "He was so happy he even cried."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เท่านั้น",
+  "phonetic": "thao nan",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "thâo-nán · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เพียงแค่นั้น ไม่มากกว่านั้น",
+    "translations": {
+     "zh": "只；仅仅；而已",
+     "en": "only"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้รับเงินสดเท่านั้น",
+      "translations": {
+       "zh": "这家店只收现金。",
+       "en": "This shop takes cash only."
+      }
+     }
+    ],
+    "usageNote": "放在句末或所限定成分之后。"
+   }
+  ]
+ },
+ {
+  "headword": "ต่างหาก",
+  "phonetic": "tang hak",
+  "cefr": "B2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "tàang-hàak · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ใช้เน้นว่าเป็นอีกสิ่งหนึ่ง ไม่ใช่ที่พูดถึง",
+    "translations": {
+     "zh": "才是（加强纠正语气）；另外",
+     "en": "rather, actually (it's X, not Y)"
+    },
+    "examples": [
+     {
+      "text": "ฉันไม่ได้โกรธ ฉันเหนื่อยต่างหาก",
+      "translations": {
+       "zh": "我不是生气，我是累了。",
+       "en": "I'm not angry, I'm tired, actually."
+      }
+     }
+    ],
+    "usageNote": "口语中用于纠正对方的误解。"
+   }
+  ]
+ },
+ {
+  "headword": "ส่วนใหญ่",
+  "phonetic": "suan yai",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "sùan-yài · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เกือบทั้งหมด จำนวนมากที่สุด",
+    "translations": {
+     "zh": "大部分；大多",
+     "en": "mostly, the majority"
+    },
+    "examples": [
+     {
+      "text": "นักเรียนส่วนใหญ่มาจากต่างจังหวัด",
+      "translations": {
+       "zh": "大部分学生来自外府。",
+       "en": "Most of the students are from the provinces."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่วนตัว",
+  "phonetic": "suan tua",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "sùan-tua · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เฉพาะของตัวเอง ไม่เกี่ยวกับคนอื่น",
+    "translations": {
+     "zh": "个人的；私人的",
+     "en": "personal, private"
+    },
+    "examples": [
+     {
+      "text": "ส่วนตัวฉันคิดว่าแผนนี้ดี",
+      "translations": {
+       "zh": "我个人认为这个计划不错。",
+       "en": "Personally, I think this plan is good."
+      }
+     }
+    ],
+    "usageNote": "ส่วนตัว 放句首表“就我个人而言”。"
+   }
+  ]
+ },
+ {
+  "headword": "ค่อนข้าง",
+  "phonetic": "khon khang",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "khɔ̂n-khâang · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากพอสมควร แต่ไม่มากที่สุด",
+    "translations": {
+     "zh": "相当；比较",
+     "en": "rather, fairly"
+    },
+    "examples": [
+     {
+      "text": "วันนี้อากาศค่อนข้างร้อน",
+      "translations": {
+       "zh": "今天天气相当热。",
+       "en": "It's rather hot today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่อยๆ",
+  "phonetic": "khoi khoi",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "khɔ̂i-khɔ̂i · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ทีละน้อย ช้าๆ",
+    "translations": {
+     "zh": "慢慢地；逐渐",
+     "en": "gradually, slowly"
+    },
+    "examples": [
+     {
+      "text": "ค่อยๆ เดินนะ ทางลื่น",
+      "translations": {
+       "zh": "慢慢走，路滑。",
+       "en": "Walk slowly, the path is slippery."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เรื่อยๆ",
+  "phonetic": "rueai rueai",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "rʉ̂ai-rʉ̂ai · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ต่อเนื่องไปไม่หยุด หรือเรื่อยเปื่อย",
+    "translations": {
+     "zh": "一直；持续地；还行",
+     "en": "continuously, steadily; so-so"
+    },
+    "examples": [
+     {
+      "text": "ราคาบ้านขึ้นเรื่อยๆ",
+      "translations": {
+       "zh": "房价一直在涨。",
+       "en": "House prices keep rising."
+      }
+     }
+    ],
+    "usageNote": "回答 “สบายดีไหม” 时说 เรื่อยๆ 表示“还行”。"
+   }
+  ]
+ },
+ {
+  "headword": "บ่อยครั้ง",
+  "phonetic": "boi khrang",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "bɔ̀i-khráng · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "หลายครั้ง เกิดขึ้นบ่อย",
+    "translations": {
+     "zh": "经常；屡次",
+     "en": "often, frequently"
+    },
+    "examples": [
+     {
+      "text": "ปัญหานี้เกิดขึ้นบ่อยครั้ง",
+      "translations": {
+       "zh": "这个问题经常发生。",
+       "en": "This problem occurs frequently."
+      }
+     }
+    ],
+    "usageNote": "比 บ่อยๆ 书面。"
+   }
+  ]
+ }
+]

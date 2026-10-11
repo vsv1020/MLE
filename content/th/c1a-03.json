@@ -1,0 +1,1394 @@
+[
+  {
+    "headword": "ความชอบธรรม",
+    "phonetic": "khwam chopphatham",
+    "cefr": "C1",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "toneMarks": "khwaam-chɔ̂ɔp-tham · 中, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความถูกต้องตามหลักและเป็นที่ยอมรับ",
+        "translations": {
+          "zh": "正当性；合法性",
+          "en": "legitimacy"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลชุดนี้ขาดความชอบธรรมในสายตาประชาชน",
+            "translations": {
+              "zh": "在民众眼中，这届政府缺乏正当性。",
+              "en": "This government lacks legitimacy in the eyes of the people."
+            }
+          }
+        ],
+        "usageNote": "ธรรม 读 tham（ทำ）。"
+      }
+    ]
+  },
+  {
+    "headword": "ความเป็นธรรม",
+    "phonetic": "khwam pen tham",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "khwaam-pen-tham · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความยุติธรรม ไม่ลำเอียง",
+        "translations": {
+          "zh": "公平；公正",
+          "en": "fairness; justice"
+        },
+        "examples": [
+          {
+            "text": "ทุกคนควรได้รับความเป็นธรรมจากศาล",
+            "translations": {
+              "zh": "每个人都应在法庭上得到公正对待。",
+              "en": "Everyone should receive fair treatment in court."
+            }
+          }
+        ],
+        "usageNote": "ไม่เป็นธรรม＝不公平。"
+      }
+    ]
+  },
+  {
+    "headword": "ความเชื่อมั่น",
+    "phonetic": "khwam chueaman",
+    "cefr": "C1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "khwaam-chʉ̂am-mân · 中, 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเชื่ออย่างมั่นใจ",
+        "translations": {
+          "zh": "信心；信任",
+          "en": "confidence"
+        },
+        "examples": [
+          {
+            "text": "ข่าวนี้ทำให้ความเชื่อมั่นของนักลงทุนลดลง",
+            "translations": {
+              "zh": "这则消息使投资者信心下降。",
+              "en": "The news has reduced investor confidence."
+            }
+          }
+        ],
+        "usageNote": "多用于经济、社会层面的“信心”。"
+      }
+    ]
+  },
+  {
+    "headword": "ความคลาดเคลื่อน",
+    "phonetic": "khwam khlatkhluean",
+    "cefr": "C1",
+    "frequencyRank": 8100,
+    "grammarNotes": {
+      "toneMarks": "khwaam-khlâat-khlʉ̂an · 中, 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความผิดพลาดหรือไม่ตรงกับความจริง",
+        "translations": {
+          "zh": "误差；偏差；出入",
+          "en": "discrepancy; error"
+        },
+        "examples": [
+          {
+            "text": "ข้อมูลในรายงานมีความคลาดเคลื่อนเล็กน้อย",
+            "translations": {
+              "zh": "报告中的数据略有出入。",
+              "en": "There are minor discrepancies in the report's data."
+            }
+          }
+        ],
+        "usageNote": "书面语；ค่าความคลาดเคลื่อน＝误差值。"
+      }
+    ]
+  },
+  {
+    "headword": "ความหลากหลาย",
+    "phonetic": "khwam lakhlai",
+    "cefr": "C1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "khwaam-làak-lǎai · 中, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การมีหลายแบบหลายชนิด",
+        "translations": {
+          "zh": "多样性",
+          "en": "diversity"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยมีความหลากหลายทางชีวภาพสูง",
+            "translations": {
+              "zh": "泰国的生物多样性很高。",
+              "en": "Thailand has high biodiversity."
+            }
+          }
+        ],
+        "usageNote": "ความหลากหลายทางชีวภาพ＝生物多样性。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาวะ",
+    "phonetic": "phawa",
+    "cefr": "C1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "phaa-wá · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สภาพหรือความเป็นอยู่ในขณะหนึ่ง",
+        "translations": {
+          "zh": "状态；状况",
+          "en": "state; condition"
+        },
+        "examples": [
+          {
+            "text": "ภาวะเศรษฐกิจถดถอยทำให้คนตกงานจำนวนมาก",
+            "translations": {
+              "zh": "经济衰退导致大量人员失业。",
+              "en": "The recession has left many people unemployed."
+            }
+          }
+        ],
+        "usageNote": "常组成复合词：ภาวะโลกร้อน（全球变暖）、ภาวะซึมเศร้า（抑郁症）。"
+      }
+    ]
+  },
+  {
+    "headword": "วิกฤต",
+    "phonetic": "wikrit",
+    "cefr": "C1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "wí-krìt · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะอันตรายหรือร้ายแรงที่ต้องแก้ไขเร่งด่วน",
+        "translations": {
+          "zh": "危机",
+          "en": "crisis"
+        },
+        "examples": [
+          {
+            "text": "ประเทศกำลังเผชิญวิกฤตพลังงาน",
+            "translations": {
+              "zh": "国家正面临能源危机。",
+              "en": "The country is facing an energy crisis."
+            }
+          }
+        ],
+        "usageNote": "也写作 วิกฤติ；ช่วงวิกฤต＝危急关头。"
+      }
+    ]
+  },
+  {
+    "headword": "ภัยคุกคาม",
+    "phonetic": "phai khukkham",
+    "cefr": "C1",
+    "frequencyRank": 7100,
+    "grammarNotes": {
+      "toneMarks": "phai-khúk-khaam · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่อาจก่ออันตราย",
+        "translations": {
+          "zh": "威胁",
+          "en": "threat"
+        },
+        "examples": [
+          {
+            "text": "ข่าวปลอมเป็นภัยคุกคามต่อประชาธิปไตย",
+            "translations": {
+              "zh": "假新闻是对民主的威胁。",
+              "en": "Fake news is a threat to democracy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขอบเขต",
+    "phonetic": "khopkhet",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "khɔ̀ɔp-khèet · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เขตหรือวงที่กำหนดไว้",
+        "translations": {
+          "zh": "范围；界限",
+          "en": "scope; boundary"
+        },
+        "examples": [
+          {
+            "text": "งานวิจัยนี้มีขอบเขตเฉพาะกรุงเทพฯ",
+            "translations": {
+              "zh": "这项研究的范围仅限于曼谷。",
+              "en": "The scope of this research is limited to Bangkok."
+            }
+          }
+        ],
+        "usageNote": "ขอบเขตของงาน＝工作范围。"
+      }
+    ]
+  },
+  {
+    "headword": "แนวโน้ม",
+    "phonetic": "naeonom",
+    "cefr": "C1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "nɛɛw-nóom · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทิศทางที่สิ่งต่างๆ น่าจะเป็นไป",
+        "translations": {
+          "zh": "趋势；倾向",
+          "en": "trend; tendency"
+        },
+        "examples": [
+          {
+            "text": "ราคาทองคำมีแนวโน้มสูงขึ้น",
+            "translations": {
+              "zh": "金价有上涨的趋势。",
+              "en": "The price of gold is trending upward."
+            }
+          }
+        ],
+        "usageNote": "มีแนวโน้ม＋动词＝有……的趋势。"
+      }
+    ]
+  },
+  {
+    "headword": "พลวัต",
+    "phonetic": "phonlawat",
+    "cefr": "C1",
+    "frequencyRank": 9800,
+    "grammarNotes": {
+      "toneMarks": "phon-lá-wát · 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเปลี่ยนแปลงเคลื่อนไหวอยู่เสมอ",
+        "translations": {
+          "zh": "动态；动力学",
+          "en": "dynamics"
+        },
+        "examples": [
+          {
+            "text": "นักวิชาการศึกษาพลวัตของสังคมเมือง",
+            "translations": {
+              "zh": "学者研究城市社会的动态。",
+              "en": "Scholars study the dynamics of urban society."
+            }
+          }
+        ],
+        "usageNote": "学术用语。读作 พน-ละ-วัด。"
+      }
+    ]
+  },
+  {
+    "headword": "นัยสำคัญ",
+    "phonetic": "nai samkhan",
+    "cefr": "C1",
+    "frequencyRank": 8700,
+    "grammarNotes": {
+      "toneMarks": "nai-sǎm-khan · 中, 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความหมายหรือความสำคัญที่แฝงอยู่",
+        "translations": {
+          "zh": "显著性；重要意义",
+          "en": "significance"
+        },
+        "examples": [
+          {
+            "text": "ผลการทดลองไม่มีนัยสำคัญทางสถิติ",
+            "translations": {
+              "zh": "实验结果没有统计学显著性。",
+              "en": "The results were not statistically significant."
+            }
+          }
+        ],
+        "usageNote": "นัย＝含义、暗示；อย่างมีนัยสำคัญ＝显著地。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อโต้แย้ง",
+    "phonetic": "kho toyaeng",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-tôo-yɛ́ɛng · 降, 降, 高",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เหตุผลที่ยกมาค้านหรือสนับสนุน",
+        "translations": {
+          "zh": "论点；争论；异议",
+          "en": "argument; counter-argument"
+        },
+        "examples": [
+          {
+            "text": "ข้อโต้แย้งของเขามีน้ำหนักมาก",
+            "translations": {
+              "zh": "他的论点很有分量。",
+              "en": "His argument carries a lot of weight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อเท็จจริง",
+    "phonetic": "kho thetching",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-thét-jing · 降, 高, 中",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เกิดขึ้นจริง",
+        "translations": {
+          "zh": "事实",
+          "en": "fact"
+        },
+        "examples": [
+          {
+            "text": "เราควรตัดสินจากข้อเท็จจริงไม่ใช่ข่าวลือ",
+            "translations": {
+              "zh": "我们应该根据事实而不是传言来判断。",
+              "en": "We should judge by the facts, not by rumours."
+            }
+          }
+        ],
+        "usageNote": "เท็จ＝假，จริง＝真，合起来指“事实真相”。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อเสนอแนะ",
+    "phonetic": "kho sanoenae",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-sà-nə̌ə-nɛ́ · 降, 低, 升, 高",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเห็นที่เสนอไว้เพื่อปรับปรุง",
+        "translations": {
+          "zh": "建议；意见",
+          "en": "recommendation; suggestion"
+        },
+        "examples": [
+          {
+            "text": "กรุณาเขียนข้อเสนอแนะในแบบฟอร์มนี้",
+            "translations": {
+              "zh": "请在这张表格上写下您的建议。",
+              "en": "Please write your suggestions on this form."
+            }
+          }
+        ],
+        "usageNote": "问卷常见栏目名。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อพิพาท",
+    "phonetic": "kho phiphat",
+    "cefr": "C1",
+    "frequencyRank": 8400,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-phí-phâat · 降, 高, 降",
+      "classifier": "ข้อ（项）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่โต้เถียงกันโดยยังไม่ยุติ",
+        "translations": {
+          "zh": "纠纷；争端",
+          "en": "dispute"
+        },
+        "examples": [
+          {
+            "text": "ทั้งสองบริษัทยุติข้อพิพาทด้วยการเจรจา",
+            "translations": {
+              "zh": "两家公司通过谈判解决了纠纷。",
+              "en": "The two companies settled their dispute through negotiation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผลประโยชน์",
+    "phonetic": "phon prayot",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "phǒn-prà-yòot · 升, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เป็นประโยชน์หรือกำไรที่ได้รับ",
+        "translations": {
+          "zh": "利益；好处",
+          "en": "benefit; interest"
+        },
+        "examples": [
+          {
+            "text": "นักการเมืองบางคนทำเพื่อผลประโยชน์ส่วนตัว",
+            "translations": {
+              "zh": "一些政客为了个人利益行事。",
+              "en": "Some politicians act for personal gain."
+            }
+          }
+        ],
+        "usageNote": "读作 ผน-ปฺระ-โหฺยด：ผล 读 phǒn，โยชน์ 读低调 yòot。"
+      }
+    ]
+  },
+  {
+    "headword": "ศักดิ์ศรี",
+    "phonetic": "saksi",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "sàk-sǐi · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความภาคภูมิและคุณค่าของตัวเอง",
+        "translations": {
+          "zh": "尊严",
+          "en": "dignity"
+        },
+        "examples": [
+          {
+            "text": "ทุกคนมีศักดิ์ศรีความเป็นมนุษย์เท่าเทียมกัน",
+            "translations": {
+              "zh": "人人都享有平等的人格尊严。",
+              "en": "Everyone has equal human dignity."
+            }
+          }
+        ],
+        "usageNote": "ศรี 读 sǐi（ร 不发音），ดิ์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "เกียรติ",
+    "phonetic": "kiat",
+    "cefr": "C1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "kìat · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความยกย่องนับถือ",
+        "translations": {
+          "zh": "荣誉；名誉；荣幸",
+          "en": "honour"
+        },
+        "examples": [
+          {
+            "text": "เป็นเกียรติอย่างยิ่งที่ได้มาพูดในวันนี้",
+            "translations": {
+              "zh": "今天能在此发言，我深感荣幸。",
+              "en": "It is a great honour to speak here today."
+            }
+          }
+        ],
+        "usageNote": "ติ 不发音，读 เกียด；正式致辞常用开场白。"
+      }
+    ]
+  },
+  {
+    "headword": "อิทธิพล",
+    "phonetic": "itthiphon",
+    "cefr": "C1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "ìt-thí-phon · 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อำนาจที่ทำให้ผู้อื่นคล้อยตาม",
+        "translations": {
+          "zh": "影响力；势力",
+          "en": "influence"
+        },
+        "examples": [
+          {
+            "text": "สื่อสังคมออนไลน์มีอิทธิพลต่อวัยรุ่นมาก",
+            "translations": {
+              "zh": "社交媒体对青少年影响很大。",
+              "en": "Social media has great influence on teenagers."
+            }
+          }
+        ],
+        "usageNote": "ผู้มีอิทธิพล 也指“地方豪强、黑势力”。"
+      }
+    ]
+  },
+  {
+    "headword": "บทบาท",
+    "phonetic": "botbat",
+    "cefr": "C1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "bòt-bàat · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หน้าที่หรือการแสดงตามฐานะ",
+        "translations": {
+          "zh": "作用；角色",
+          "en": "role"
+        },
+        "examples": [
+          {
+            "text": "ผู้หญิงมีบทบาทมากขึ้นในการเมือง",
+            "translations": {
+              "zh": "女性在政治中发挥越来越大的作用。",
+              "en": "Women play an increasing role in politics."
+            }
+          }
+        ],
+        "usageNote": "มีบทบาท＝发挥作用。"
+      }
+    ]
+  },
+  {
+    "headword": "สถาบัน",
+    "phonetic": "sathaban",
+    "cefr": "C1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "sà-thǎa-ban · 低, 升, 中",
+      "classifier": "แห่ง（所）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "องค์กรหรือระบบที่สังคมจัดตั้งขึ้น",
+        "translations": {
+          "zh": "机构；学院；制度",
+          "en": "institution; institute"
+        },
+        "examples": [
+          {
+            "text": "สถาบันการศึกษาต้องปรับตัวให้ทันโลก",
+            "translations": {
+              "zh": "教育机构必须与时俱进。",
+              "en": "Educational institutions must keep up with the world."
+            }
+          }
+        ],
+        "usageNote": "สถาบันครอบครัว＝家庭制度。"
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิปัญญา",
+    "phonetic": "phumpanya",
+    "cefr": "C1",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "toneMarks": "phuum-pan-yaa · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความรู้ความสามารถที่สั่งสมสืบทอดกันมา",
+        "translations": {
+          "zh": "（传统）智慧；知识",
+          "en": "(traditional) wisdom; know-how"
+        },
+        "examples": [
+          {
+            "text": "การนวดแผนไทยเป็นภูมิปัญญาท้องถิ่น",
+            "translations": {
+              "zh": "泰式按摩是一种民间传统智慧。",
+              "en": "Thai massage is a form of local wisdom."
+            }
+          }
+        ],
+        "usageNote": "ภูมิ 在此读 phuum（พูม-ปัน-ยา），与 ภูมิภาค 的 phuu-mí 不同。"
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิภาค",
+    "phonetic": "phumiphak",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "phuu-mí-phâak · 中, 高, 降",
+      "classifier": "ภูมิภาค（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เขตพื้นที่ส่วนหนึ่งของประเทศหรือโลก",
+        "translations": {
+          "zh": "地区；区域",
+          "en": "region"
+        },
+        "examples": [
+          {
+            "text": "ภูมิภาคเอเชียตะวันออกเฉียงใต้เติบโตเร็ว",
+            "translations": {
+              "zh": "东南亚地区发展迅速。",
+              "en": "The Southeast Asian region is growing fast."
+            }
+          }
+        ],
+        "usageNote": "读作 พู-มิ-พาก。"
+      }
+    ]
+  },
+  {
+    "headword": "มรดก",
+    "phonetic": "moradok",
+    "cefr": "C1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "mɔɔ-rá-dòk · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทรัพย์สินหรือสิ่งที่ตกทอดมา",
+        "translations": {
+          "zh": "遗产",
+          "en": "inheritance; heritage"
+        },
+        "examples": [
+          {
+            "text": "อยุธยาเป็นมรดกโลกทางวัฒนธรรม",
+            "translations": {
+              "zh": "大城府是世界文化遗产。",
+              "en": "Ayutthaya is a World Cultural Heritage site."
+            }
+          }
+        ],
+        "usageNote": "มรดกโลก＝世界遗产。"
+      }
+    ]
+  },
+  {
+    "headword": "เอกสิทธิ์",
+    "phonetic": "ekkasit",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "èek-kà-sìt · 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิทธิพิเศษเฉพาะบุคคลหรือกลุ่ม",
+        "translations": {
+          "zh": "特权；专有权",
+          "en": "privilege; exclusive right"
+        },
+        "examples": [
+          {
+            "text": "นักการทูตได้รับเอกสิทธิ์ทางการทูต",
+            "translations": {
+              "zh": "外交官享有外交特权。",
+              "en": "Diplomats enjoy diplomatic privileges."
+            }
+          }
+        ],
+        "usageNote": "读作 เอก-กะ-สิด。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาระ",
+    "phonetic": "phara",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "phaa-rá · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ต้องรับผิดชอบหรือแบกไว้",
+        "translations": {
+          "zh": "负担；重担",
+          "en": "burden"
+        },
+        "examples": [
+          {
+            "text": "ค่าครองชีพที่สูงขึ้นเป็นภาระของครอบครัว",
+            "translations": {
+              "zh": "生活成本上升成为家庭的负担。",
+              "en": "The rising cost of living is a burden on families."
+            }
+          }
+        ],
+        "usageNote": "ภาระหน้าที่＝职责。"
+      }
+    ]
+  },
+  {
+    "headword": "พันธกิจ",
+    "phonetic": "phanthakit",
+    "cefr": "C1",
+    "frequencyRank": 9100,
+    "grammarNotes": {
+      "toneMarks": "phan-thá-kìt · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภารกิจที่องค์กรตั้งใจทำ",
+        "translations": {
+          "zh": "使命；任务",
+          "en": "mission"
+        },
+        "examples": [
+          {
+            "text": "วิสัยทัศน์และพันธกิจของมหาวิทยาลัยติดอยู่หน้าห้อง",
+            "translations": {
+              "zh": "大学的愿景和使命贴在门口。",
+              "en": "The university's vision and mission are posted at the door."
+            }
+          }
+        ],
+        "usageNote": "机构宣传用语，常与 วิสัยทัศน์ 并列。读作 พัน-ทะ-กิด。"
+      }
+    ]
+  },
+  {
+    "headword": "ยุทธศาสตร์",
+    "phonetic": "yutthasat",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "yút-thá-sàat · 高, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แผนการใหญ่เพื่อให้บรรลุเป้าหมาย",
+        "translations": {
+          "zh": "战略",
+          "en": "strategy"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลประกาศยุทธศาสตร์ชาติยี่สิบปี",
+            "translations": {
+              "zh": "政府公布了二十年国家战略。",
+              "en": "The government announced a twenty-year national strategy."
+            }
+          }
+        ],
+        "usageNote": "读作 ยุด-ทะ-สาด，ร์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "มาตรการ",
+    "phonetic": "matrakan",
+    "cefr": "C1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "mâat-trà-kaan · 降, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิธีการที่กำหนดเพื่อจัดการปัญหา",
+        "translations": {
+          "zh": "措施",
+          "en": "measure"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลออกมาตรการช่วยเหลือเกษตรกร",
+            "translations": {
+              "zh": "政府出台了扶助农民的措施。",
+              "en": "The government introduced measures to help farmers."
+            }
+          }
+        ],
+        "usageNote": "读作 มาด-ตฺระ-กาน。"
+      }
+    ]
+  },
+  {
+    "headword": "เกณฑ์",
+    "phonetic": "ken",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "keen · 中",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หลักหรือระดับที่ใช้ตัดสิน",
+        "translations": {
+          "zh": "标准；准则",
+          "en": "criterion; standard"
+        },
+        "examples": [
+          {
+            "text": "ผู้สมัครต้องผ่านเกณฑ์ที่กำหนดไว้",
+            "translations": {
+              "zh": "申请人必须达到规定的标准。",
+              "en": "Applicants must meet the set criteria."
+            }
+          }
+        ],
+        "usageNote": "ฑ์ 不发音。เกณฑ์ทหาร＝征兵。"
+      }
+    ]
+  },
+  {
+    "headword": "บรรทัดฐาน",
+    "phonetic": "banthatthan",
+    "cefr": "C1",
+    "frequencyRank": 8300,
+    "grammarNotes": {
+      "toneMarks": "ban-thát-thǎan · 中, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "มาตรฐานหรือแบบอย่างที่ยึดถือ",
+        "translations": {
+          "zh": "规范；准则",
+          "en": "norm; standard"
+        },
+        "examples": [
+          {
+            "text": "คำตัดสินนี้จะกลายเป็นบรรทัดฐานในอนาคต",
+            "translations": {
+              "zh": "这一判决将成为今后的准则。",
+              "en": "This ruling will set a precedent for the future."
+            }
+          }
+        ],
+        "usageNote": "บรรทัด 读 บัน-ทัด；ฐาน 读 thǎan。"
+      }
+    ]
+  },
+  {
+    "headword": "แรงจูงใจ",
+    "phonetic": "raeng chungchai",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "rɛɛng-juung-jai · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่กระตุ้นให้อยากทำ",
+        "translations": {
+          "zh": "动机；动力；激励",
+          "en": "motivation; incentive"
+        },
+        "examples": [
+          {
+            "text": "เงินไม่ใช่แรงจูงใจเดียวในการทำงาน",
+            "translations": {
+              "zh": "金钱不是工作的唯一动力。",
+              "en": "Money is not the only motivation for work."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อคติ",
+    "phonetic": "akhati",
+    "cefr": "C1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "à-khá-tì · 低, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความลำเอียงเพราะชอบหรือไม่ชอบ",
+        "translations": {
+          "zh": "偏见；成见",
+          "en": "bias; prejudice"
+        },
+        "examples": [
+          {
+            "text": "เราควรตัดสินโดยปราศจากอคติ",
+            "translations": {
+              "zh": "我们应当不带偏见地作出判断。",
+              "en": "We should judge without bias."
+            }
+          }
+        ],
+        "usageNote": "มีอคติต่อ……＝对……有偏见。"
+      }
+    ]
+  },
+  {
+    "headword": "ความเสมอภาค",
+    "phonetic": "khwam samoephak",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "khwaam-sà-mə̌ə-phâak · 中, 低, 升, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเท่าเทียมกันในสิทธิและโอกาส",
+        "translations": {
+          "zh": "平等",
+          "en": "equality"
+        },
+        "examples": [
+          {
+            "text": "ความเสมอภาคทางเพศยังเป็นเรื่องที่ต้องพัฒนา",
+            "translations": {
+              "zh": "性别平等仍需推进。",
+              "en": "Gender equality still needs to be improved."
+            }
+          }
+        ],
+        "usageNote": "书面语；เสมอ 读 sà-mə̌ə。"
+      }
+    ]
+  },
+  {
+    "headword": "เสรีภาพ",
+    "phonetic": "seriphap",
+    "cefr": "C1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "sěe-rii-phâap · 升, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความมีอิสระที่จะคิดและทำ",
+        "translations": {
+          "zh": "自由",
+          "en": "freedom; liberty"
+        },
+        "examples": [
+          {
+            "text": "เสรีภาพในการแสดงความคิดเห็นเป็นสิทธิพื้นฐาน",
+            "translations": {
+              "zh": "言论自由是基本权利。",
+              "en": "Freedom of expression is a basic right."
+            }
+          }
+        ],
+        "usageNote": "政治、法律语境用；日常的“自由、随意”多说 อิสระ。"
+      }
+    ]
+  },
+  {
+    "headword": "อธิปไตย",
+    "phonetic": "athippatai",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "à-thíp-pà-tai · 低, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อำนาจสูงสุดในการปกครองประเทศ",
+        "translations": {
+          "zh": "主权",
+          "en": "sovereignty"
+        },
+        "examples": [
+          {
+            "text": "ทุกประเทศต้องเคารพอธิปไตยของกันและกัน",
+            "translations": {
+              "zh": "各国必须相互尊重主权。",
+              "en": "Every country must respect each other's sovereignty."
+            }
+          }
+        ],
+        "usageNote": "读作 อะ-ทิบ-ปะ-ไต。"
+      }
+    ]
+  },
+  {
+    "headword": "ประชาธิปไตย",
+    "phonetic": "prachathippatai",
+    "cefr": "C1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "prà-chaa-thíp-pà-tai · 低, 中, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบอบการปกครองที่อำนาจเป็นของประชาชน",
+        "translations": {
+          "zh": "民主；民主制度",
+          "en": "democracy"
+        },
+        "examples": [
+          {
+            "text": "ประชาธิปไตยต้องอาศัยการมีส่วนร่วมของประชาชน",
+            "translations": {
+              "zh": "民主需要民众的参与。",
+              "en": "Democracy depends on public participation."
+            }
+          }
+        ],
+        "usageNote": "读作 ปฺระ-ชา-ทิบ-ปะ-ไต。"
+      }
+    ]
+  },
+  {
+    "headword": "ปรัชญา",
+    "phonetic": "pratya",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "pràt-yaa · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาว่าด้วยหลักแห่งความรู้และความจริง",
+        "translations": {
+          "zh": "哲学；理念",
+          "en": "philosophy"
+        },
+        "examples": [
+          {
+            "text": "เขาเรียนปรัชญาที่มหาวิทยาลัย",
+            "translations": {
+              "zh": "他在大学学哲学。",
+              "en": "He studied philosophy at university."
+            }
+          }
+        ],
+        "usageNote": "读作 ปฺรัด-ยา，ช 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "จริยธรรม",
+    "phonetic": "chariyatham",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "jà-rí-yá-tham · 低, 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หลักความประพฤติที่ถูกต้องดีงาม",
+        "translations": {
+          "zh": "伦理；道德",
+          "en": "ethics"
+        },
+        "examples": [
+          {
+            "text": "แพทย์ต้องยึดจริยธรรมทางวิชาชีพ",
+            "translations": {
+              "zh": "医生必须恪守职业伦理。",
+              "en": "Doctors must adhere to professional ethics."
+            }
+          }
+        ],
+        "usageNote": "读作 จะ-ริ-ยะ-ทำ。"
+      }
+    ]
+  },
+  {
+    "headword": "คุณธรรม",
+    "phonetic": "khunnatham",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "khun-ná-tham · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความดีงามที่อยู่ในจิตใจ",
+        "translations": {
+          "zh": "美德；德行",
+          "en": "virtue; moral integrity"
+        },
+        "examples": [
+          {
+            "text": "โรงเรียนควรสอนทั้งความรู้และคุณธรรม",
+            "translations": {
+              "zh": "学校应当既传授知识，也培养品德。",
+              "en": "Schools should teach both knowledge and virtue."
+            }
+          }
+        ],
+        "usageNote": "读作 คุน-นะ-ทำ。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฏิสัมพันธ์",
+    "phonetic": "patisamphan",
+    "cefr": "C1",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "pà-tì-sǎm-phan · 低, 低, 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การติดต่อเกี่ยวข้องซึ่งกันและกัน",
+        "translations": {
+          "zh": "互动；交互",
+          "en": "interaction"
+        },
+        "examples": [
+          {
+            "text": "เด็กเรียนรู้ผ่านปฏิสัมพันธ์กับผู้อื่น",
+            "translations": {
+              "zh": "孩子通过与他人互动来学习。",
+              "en": "Children learn through interaction with others."
+            }
+          }
+        ],
+        "usageNote": "ธ์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ความเชี่ยวชาญ",
+    "phonetic": "khwam chiaochan",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "khwaam-chîaw-chaan · 中, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความรู้และฝีมือในด้านใดด้านหนึ่งอย่างลึกซึ้ง",
+        "translations": {
+          "zh": "专业知识；专长",
+          "en": "expertise"
+        },
+        "examples": [
+          {
+            "text": "งานนี้ต้องอาศัยความเชี่ยวชาญเฉพาะด้าน",
+            "translations": {
+              "zh": "这项工作需要专业知识。",
+              "en": "This work requires specialised expertise."
+            }
+          }
+        ],
+        "usageNote": "ผู้เชี่ยวชาญ＝专家。"
+      }
+    ]
+  },
+  {
+    "headword": "ความรอบคอบ",
+    "phonetic": "khwam ropkhop",
+    "cefr": "C1",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "khwaam-rɔ̂ɔp-khɔ̂ɔp · 中, 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความระมัดระวังและคิดอย่างถี่ถ้วน",
+        "translations": {
+          "zh": "周密；审慎",
+          "en": "prudence; thoroughness"
+        },
+        "examples": [
+          {
+            "text": "การลงทุนต้องใช้ความรอบคอบ",
+            "translations": {
+              "zh": "投资需要审慎。",
+              "en": "Investing requires prudence."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความกลมกลืน",
+    "phonetic": "khwam klomkluen",
+    "cefr": "C1",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "toneMarks": "khwaam-klom-klʉʉn · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเข้ากันได้อย่างดี",
+        "translations": {
+          "zh": "和谐；协调",
+          "en": "harmony"
+        },
+        "examples": [
+          {
+            "text": "บ้านหลังนี้ออกแบบให้มีความกลมกลืนกับธรรมชาติ",
+            "translations": {
+              "zh": "这座房子的设计与自然和谐相融。",
+              "en": "This house is designed in harmony with nature."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความสมดุล",
+    "phonetic": "khwam somdun",
+    "cefr": "C1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "khwaam-sǒm-dun · 中, 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะที่ทุกส่วนเท่ากันหรือพอดี",
+        "translations": {
+          "zh": "平衡",
+          "en": "balance; equilibrium"
+        },
+        "examples": [
+          {
+            "text": "เราต้องรักษาความสมดุลระหว่างงานกับชีวิต",
+            "translations": {
+              "zh": "我们必须保持工作与生活的平衡。",
+              "en": "We must keep a balance between work and life."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความคิดสร้างสรรค์",
+    "phonetic": "khwam khit sangsan",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "khwaam-khít-sâang-sǎn · 中, 高, 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสามารถในการคิดสิ่งใหม่ๆ",
+        "translations": {
+          "zh": "创造力；创意",
+          "en": "creativity"
+        },
+        "examples": [
+          {
+            "text": "งานโฆษณาต้องใช้ความคิดสร้างสรรค์สูง",
+            "translations": {
+              "zh": "广告工作需要很强的创造力。",
+              "en": "Advertising demands a lot of creativity."
+            }
+          }
+        ],
+        "usageNote": "สร้าง 读 sâang（ร 不发音），สรรค์ 读 sǎn。"
+      }
+    ]
+  },
+  {
+    "headword": "ทรัพยากร",
+    "phonetic": "sapphayakon",
+    "cefr": "C1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "sáp-phá-yaa-kɔɔn · 高, 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่มีค่าและนำมาใช้ประโยชน์ได้",
+        "translations": {
+          "zh": "资源",
+          "en": "resources"
+        },
+        "examples": [
+          {
+            "text": "ทรัพยากรธรรมชาติมีอยู่อย่างจำกัด",
+            "translations": {
+              "zh": "自然资源是有限的。",
+              "en": "Natural resources are limited."
+            }
+          }
+        ],
+        "usageNote": "ทร 读 s：ซับ-พะ-ยา-กอน。ทรัพยากรมนุษย์＝人力资源。"
+      }
+    ]
+  }
+]

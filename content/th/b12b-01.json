@@ -1,0 +1,1395 @@
+[
+ {
+  "headword": "ตกงาน",
+  "phonetic": "tok ngan",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "tòk-ngaan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่มีงานทำ",
+    "translations": {
+     "zh": "失业",
+     "en": "to be unemployed"
+    },
+    "examples": [
+     {
+      "text": "พี่ชายตกงานมาสามเดือนแล้ว",
+      "translations": {
+       "zh": "哥哥失业三个月了。",
+       "en": "My brother has been out of work for three months."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สัมภาษณ์",
+  "phonetic": "samphat",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "sǎm-phâat · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ถามคำถามเพื่อหาข้อมูลหรือคัดเลือกคน",
+    "translations": {
+     "zh": "面试；采访",
+     "en": "to interview"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันต้องไปสัมภาษณ์งาน",
+      "translations": {
+       "zh": "明天我要去面试。",
+       "en": "Tomorrow I have a job interview."
+      }
+     }
+    ],
+    "usageNote": "สัมภาษณ์งาน = 求职面试；记者采访也用这个词。"
+   }
+  ]
+ },
+ {
+  "headword": "สมัครงาน",
+  "phonetic": "samak ngan",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "sà-màk-ngaan · 低, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งใบสมัครเพื่อขอทำงาน",
+    "translations": {
+     "zh": "求职；申请工作",
+     "en": "to apply for a job"
+    },
+    "examples": [
+     {
+      "text": "เขาสมัครงานไปสิบบริษัทแล้ว",
+      "translations": {
+       "zh": "他已经向十家公司投了简历。",
+       "en": "He has applied to ten companies already."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลาออก",
+  "phonetic": "la ok",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "laa-ɔ̀ɔk · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ขอออกจากงานด้วยตัวเอง",
+    "translations": {
+     "zh": "辞职",
+     "en": "to resign, to quit"
+    },
+    "examples": [
+     {
+      "text": "เธอลาออกเพราะเงินเดือนน้อย",
+      "translations": {
+       "zh": "她因为工资低辞职了。",
+       "en": "She quit because the salary was low."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไล่ออก",
+  "phonetic": "lai ok",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "lâi-ɔ̀ɔk · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้ออกจากงานหรือโรงเรียน",
+    "translations": {
+     "zh": "开除；解雇",
+     "en": "to fire, to expel"
+    },
+    "examples": [
+     {
+      "text": "เขาถูกไล่ออกเพราะมาสายบ่อย",
+      "translations": {
+       "zh": "他因为经常迟到被开除了。",
+       "en": "He was fired for often being late."
+      }
+     }
+    ],
+    "usageNote": "ถูกไล่ออก = 被开除，主动辞职用 ลาออก。"
+   }
+  ]
+ },
+ {
+  "headword": "เลื่อนตำแหน่ง",
+  "phonetic": "luean tamnaeng",
+  "cefr": "B2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "lʉ̂an-tam-nɛ̀ng · 降, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ได้ตำแหน่งงานที่สูงขึ้น",
+    "translations": {
+     "zh": "升职",
+     "en": "to be promoted"
+    },
+    "examples": [
+     {
+      "text": "ปีนี้เขาได้เลื่อนตำแหน่งเป็นผู้จัดการ",
+      "translations": {
+       "zh": "今年他升职当了经理。",
+       "en": "This year he was promoted to manager."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตำแหน่ง",
+  "phonetic": "tamnaeng",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "tam-nɛ̀ng · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หน้าที่หรือระดับในงาน; ที่ตั้ง",
+    "translations": {
+     "zh": "职位；位置",
+     "en": "position, post"
+    },
+    "examples": [
+     {
+      "text": "บริษัทนี้เปิดรับสมัครหลายตำแหน่ง",
+      "translations": {
+       "zh": "这家公司在招好几个职位。",
+       "en": "This company is hiring for several positions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประสบการณ์",
+  "phonetic": "prasopkan",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "prà-sòp-kaan · 低, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ความรู้ที่ได้จากการทำจริง",
+    "translations": {
+     "zh": "经验；经历",
+     "en": "experience"
+    },
+    "examples": [
+     {
+      "text": "งานนี้ต้องมีประสบการณ์อย่างน้อยสองปี",
+      "translations": {
+       "zh": "这份工作要求至少两年经验。",
+       "en": "This job requires at least two years' experience."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หัวหน้า",
+  "phonetic": "hua na",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "hǔa-nâa · 升, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ดูแลกลุ่มหรือทีม",
+    "translations": {
+     "zh": "领导；上司；组长",
+     "en": "boss, head, leader"
+    },
+    "examples": [
+     {
+      "text": "หัวหน้าของฉันใจดีมาก",
+      "translations": {
+       "zh": "我的上司人很好。",
+       "en": "My boss is very kind."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เจ้านาย",
+  "phonetic": "chao nai",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jâo-naai · 降, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เป็นนายจ้างหรือหัวหน้าของเรา",
+    "translations": {
+     "zh": "老板；上司",
+     "en": "boss"
+    },
+    "examples": [
+     {
+      "text": "เจ้านายให้ฉันกลับบ้านเร็ววันนี้",
+      "translations": {
+       "zh": "老板今天让我早点回家。",
+       "en": "The boss let me go home early today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลูกน้อง",
+  "phonetic": "luk nong",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "lûuk-nɔ́ɔng · 降, 高",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานอยู่ใต้หัวหน้า",
+    "translations": {
+     "zh": "下属；手下",
+     "en": "subordinate"
+    },
+    "examples": [
+     {
+      "text": "เขามีลูกน้องยี่สิบคน",
+      "translations": {
+       "zh": "他手下有二十个人。",
+       "en": "He has twenty people working under him."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เพื่อนร่วมงาน",
+  "phonetic": "phuean ruam ngan",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "phʉ̂an-rûam-ngaan · 降, 降, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานที่เดียวกัน",
+    "translations": {
+     "zh": "同事",
+     "en": "colleague, coworker"
+    },
+    "examples": [
+     {
+      "text": "ฉันกินข้าวเที่ยงกับเพื่อนร่วมงาน",
+      "translations": {
+       "zh": "我和同事一起吃午饭。",
+       "en": "I have lunch with my coworkers."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้จัดการ",
+  "phonetic": "phu chatkan",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "phûu-jàt-kaan · 降, 低, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ดูแลและควบคุมงาน",
+    "translations": {
+     "zh": "经理",
+     "en": "manager"
+    },
+    "examples": [
+     {
+      "text": "ขอคุยกับผู้จัดการได้ไหมครับ",
+      "translations": {
+       "zh": "我可以和经理谈谈吗？",
+       "en": "May I speak to the manager?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลูกจ้าง",
+  "phonetic": "luk chang",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "lûuk-jâang · 降, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานรับค่าจ้าง",
+    "translations": {
+     "zh": "雇员；员工",
+     "en": "employee"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้มีลูกจ้างห้าคน",
+      "translations": {
+       "zh": "这家店有五个员工。",
+       "en": "This shop has five employees."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นายจ้าง",
+  "phonetic": "nai chang",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "naai-jâang · 中, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่จ้างคนอื่นทำงาน",
+    "translations": {
+     "zh": "雇主",
+     "en": "employer"
+    },
+    "examples": [
+     {
+      "text": "นายจ้างต้องจ่ายเงินเดือนตรงเวลา",
+      "translations": {
+       "zh": "雇主必须按时发工资。",
+       "en": "Employers must pay salaries on time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่าจ้าง",
+  "phonetic": "kha chang",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "khâa-jâang · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ได้จากการทำงาน",
+    "translations": {
+     "zh": "工钱；报酬",
+     "en": "wage, pay"
+    },
+    "examples": [
+     {
+      "text": "ค่าจ้างวันละห้าร้อยบาท",
+      "translations": {
+       "zh": "日薪五百泰铢。",
+       "en": "The pay is 500 baht a day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่าแรง",
+  "phonetic": "kha raeng",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "khâa-rɛɛng · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่จ่ายให้คนทำงาน",
+    "translations": {
+     "zh": "工资；人工费",
+     "en": "wage, labour cost"
+    },
+    "examples": [
+     {
+      "text": "ค่าแรงขั้นต่ำขึ้นอีกแล้ว",
+      "translations": {
+       "zh": "最低工资又涨了。",
+       "en": "The minimum wage went up again."
+      }
+     }
+    ],
+    "usageNote": "ค่าแรงขั้นต่ำ = 最低工资。"
+   }
+  ]
+ },
+ {
+  "headword": "โบนัส",
+  "phonetic": "bonat",
+  "cefr": "B1",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "toneMarks": "boo-nát · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินพิเศษที่ได้นอกจากเงินเดือน",
+    "translations": {
+     "zh": "奖金；年终奖",
+     "en": "bonus"
+    },
+    "examples": [
+     {
+      "text": "ปีนี้บริษัทให้โบนัสสองเดือน",
+      "translations": {
+       "zh": "今年公司发了两个月奖金。",
+       "en": "This year the company gave a two-month bonus."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประชุม",
+  "phonetic": "prachum",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "prà-chum · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มาพบกันเพื่อพูดคุยเรื่องงาน",
+    "translations": {
+     "zh": "开会",
+     "en": "to have a meeting"
+    },
+    "examples": [
+     {
+      "text": "บ่ายนี้เราจะประชุมเรื่องงบ",
+      "translations": {
+       "zh": "今天下午我们开会讨论预算。",
+       "en": "This afternoon we'll meet about the budget."
+      }
+     }
+    ],
+    "usageNote": "名词“会议”常说 การประชุม。"
+   }
+  ]
+ },
+ {
+  "headword": "ลางาน",
+  "phonetic": "la ngan",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "laa-ngaan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ขอหยุดงาน",
+    "translations": {
+     "zh": "请假",
+     "en": "to take leave from work"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันลางานไปหาหมอ",
+      "translations": {
+       "zh": "明天我请假去看医生。",
+       "en": "Tomorrow I'm taking leave to see a doctor."
+      }
+     }
+    ],
+    "usageNote": "ลาป่วย 病假，ลากิจ 事假。"
+   }
+  ]
+ },
+ {
+  "headword": "โอที",
+  "phonetic": "othi",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "oo-thii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การทำงานเกินเวลาปกติ",
+    "translations": {
+     "zh": "加班",
+     "en": "overtime"
+    },
+    "examples": [
+     {
+      "text": "เมื่อคืนฉันทำโอทีถึงสี่ทุ่ม",
+      "translations": {
+       "zh": "昨晚我加班到十点。",
+       "en": "Last night I worked overtime until 10 p.m."
+      }
+     }
+    ],
+    "usageNote": "来自英语 OT，口语常用。"
+   }
+  ]
+ },
+ {
+  "headword": "กะ",
+  "phonetic": "ka",
+  "cefr": "B2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "kà · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ช่วงเวลาทำงานที่ผลัดกัน",
+    "translations": {
+     "zh": "班次",
+     "en": "shift"
+    },
+    "examples": [
+     {
+      "text": "สัปดาห์นี้เขาเข้ากะดึก",
+      "translations": {
+       "zh": "这周他上夜班。",
+       "en": "This week he's on the night shift."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกษียณ",
+  "phonetic": "kasian",
+  "cefr": "B1",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "kà-sǐan · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หยุดทำงานเมื่ออายุมาก",
+    "translations": {
+     "zh": "退休",
+     "en": "to retire"
+    },
+    "examples": [
+     {
+      "text": "พ่อเกษียณตอนอายุหกสิบ",
+      "translations": {
+       "zh": "爸爸六十岁退休。",
+       "en": "Dad retired at sixty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฟรีแลนซ์",
+  "phonetic": "frilaen",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "toneMarks": "frii-lɛɛn · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนทำงานอิสระไม่ประจำบริษัท",
+    "translations": {
+     "zh": "自由职业者",
+     "en": "freelancer"
+    },
+    "examples": [
+     {
+      "text": "ตอนนี้ฉันทำงานเป็นฟรีแลนซ์",
+      "translations": {
+       "zh": "我现在做自由职业。",
+       "en": "I work as a freelancer now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ธุรกิจ",
+  "phonetic": "thurakit",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "thú-rá-kìt · 高, 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การทำงานเพื่อหากำไร",
+    "translations": {
+     "zh": "生意；企业；商业",
+     "en": "business"
+    },
+    "examples": [
+     {
+      "text": "เขาอยากเปิดธุรกิจของตัวเอง",
+      "translations": {
+       "zh": "他想自己开公司做生意。",
+       "en": "He wants to start his own business."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เจ้าของ",
+  "phonetic": "chao khong",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "jâo-khɔ̌ɔng · 降, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่มีสิทธิ์ในสิ่งของหรือกิจการ",
+    "translations": {
+     "zh": "主人；老板；所有者",
+     "en": "owner"
+    },
+    "examples": [
+     {
+      "text": "เจ้าของร้านเป็นคนจีน",
+      "translations": {
+       "zh": "店老板是中国人。",
+       "en": "The shop owner is Chinese."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้เชี่ยวชาญ",
+  "phonetic": "phu chiaochan",
+  "cefr": "B2",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "toneMarks": "phûu-chîao-chaan · 降, 降, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่รู้เรื่องใดเรื่องหนึ่งดีมาก",
+    "translations": {
+     "zh": "专家",
+     "en": "expert, specialist"
+    },
+    "examples": [
+     {
+      "text": "เราต้องถามผู้เชี่ยวชาญก่อน",
+      "translations": {
+       "zh": "我们得先问问专家。",
+       "en": "We need to ask an expert first."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รับผิดชอบ",
+  "phonetic": "rap phit chop",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "ráp-phìt-chɔ̂ɔp · 高, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยอมรับและดูแลหน้าที่หรือผลที่เกิดขึ้น",
+    "translations": {
+     "zh": "负责",
+     "en": "to be responsible for"
+    },
+    "examples": [
+     {
+      "text": "ใครรับผิดชอบโครงการนี้",
+      "translations": {
+       "zh": "谁负责这个项目？",
+       "en": "Who is responsible for this project?"
+      }
+     }
+    ],
+    "usageNote": "名词“责任”说 ความรับผิดชอบ。"
+   }
+  ]
+ },
+ {
+  "headword": "ทักษะ",
+  "phonetic": "thaksa",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "thák-sà · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ความสามารถที่ฝึกมา",
+    "translations": {
+     "zh": "技能",
+     "en": "skill"
+    },
+    "examples": [
+     {
+      "text": "งานนี้ต้องใช้ทักษะภาษาอังกฤษ",
+      "translations": {
+       "zh": "这份工作需要英语技能。",
+       "en": "This job needs English skills."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ความสามารถ",
+  "phonetic": "khwam samat",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "khwaam-sǎa-mâat · 中, 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ความเก่งที่ทำสิ่งต่าง ๆ ได้",
+    "translations": {
+     "zh": "能力",
+     "en": "ability"
+    },
+    "examples": [
+     {
+      "text": "เขามีความสามารถมาก",
+      "translations": {
+       "zh": "他很有能力。",
+       "en": "He is very capable."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เป้าหมาย",
+  "phonetic": "pao mai",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "pâo-mǎai · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่อยากทำให้สำเร็จ",
+    "translations": {
+     "zh": "目标",
+     "en": "goal, target"
+    },
+    "examples": [
+     {
+      "text": "เป้าหมายของปีนี้คือขายให้ได้มากขึ้น",
+      "translations": {
+       "zh": "今年的目标是卖得更多。",
+       "en": "This year's goal is to sell more."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผลงาน",
+  "phonetic": "phon ngan",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "phǒn-ngaan · 升, 中",
+   "classifier": "ชิ้น（件）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่ทำสำเร็จหรือสร้างขึ้น",
+    "translations": {
+     "zh": "成果；作品；业绩",
+     "en": "work, achievement"
+    },
+    "examples": [
+     {
+      "text": "หัวหน้าชมผลงานของเธอ",
+      "translations": {
+       "zh": "上司称赞了她的工作成果。",
+       "en": "The boss praised her work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โครงการ",
+  "phonetic": "khrongkan",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "khroong-kaan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แผนงานที่ทำเป็นเรื่อง ๆ",
+    "translations": {
+     "zh": "项目；计划",
+     "en": "project, scheme"
+    },
+    "examples": [
+     {
+      "text": "โครงการนี้ใช้เวลาสองปี",
+      "translations": {
+       "zh": "这个项目要两年。",
+       "en": "This project takes two years."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลงทุน",
+  "phonetic": "long thun",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "long-thun · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้เงินหรือเวลาเพื่อหวังผลตอบแทน",
+    "translations": {
+     "zh": "投资",
+     "en": "to invest"
+    },
+    "examples": [
+     {
+      "text": "เขาลงทุนในธุรกิจร้านอาหาร",
+      "translations": {
+       "zh": "他投资了餐饮生意。",
+       "en": "He invested in a restaurant business."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กำไร",
+  "phonetic": "kamrai",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "kam-rai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ได้เกินต้นทุน",
+    "translations": {
+     "zh": "利润；盈利",
+     "en": "profit"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้มีกำไรทุกเดือน",
+      "translations": {
+       "zh": "这家店每个月都赚钱。",
+       "en": "This shop makes a profit every month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขาดทุน",
+  "phonetic": "khat thun",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "khàat-thun · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ได้เงินน้อยกว่าที่ลงไป",
+    "translations": {
+     "zh": "亏本；亏损",
+     "en": "to make a loss"
+    },
+    "examples": [
+     {
+      "text": "ปีที่แล้วบริษัทขาดทุนหนัก",
+      "translations": {
+       "zh": "去年公司亏损严重。",
+       "en": "Last year the company made a big loss."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รายได้",
+  "phonetic": "rai dai",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "raai-dâai · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ได้รับเข้ามา",
+    "translations": {
+     "zh": "收入",
+     "en": "income"
+    },
+    "examples": [
+     {
+      "text": "รายได้ของเขาไม่แน่นอน",
+      "translations": {
+       "zh": "他的收入不稳定。",
+       "en": "His income is irregular."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รายจ่าย",
+  "phonetic": "rai chai",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "raai-jàai · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ต้องจ่ายออกไป",
+    "translations": {
+     "zh": "支出；开销",
+     "en": "expenses"
+    },
+    "examples": [
+     {
+      "text": "เดือนนี้รายจ่ายเยอะมาก",
+      "translations": {
+       "zh": "这个月开销很大。",
+       "en": "Expenses are very high this month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่าใช้จ่าย",
+  "phonetic": "kha chai chai",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "khâa-chái-jàai · 降, 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ต้องใช้ในการทำสิ่งต่าง ๆ",
+    "translations": {
+     "zh": "费用；开支",
+     "en": "cost, expense"
+    },
+    "examples": [
+     {
+      "text": "ค่าใช้จ่ายในกรุงเทพสูงมาก",
+      "translations": {
+       "zh": "在曼谷开销很高。",
+       "en": "Costs in Bangkok are very high."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนี้",
+  "phonetic": "ni",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "nîi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ยืมมาและยังไม่คืน",
+    "translations": {
+     "zh": "债务；欠款",
+     "en": "debt"
+    },
+    "examples": [
+     {
+      "text": "เขามีหนี้บัตรเครดิตเยอะ",
+      "translations": {
+       "zh": "他欠了很多信用卡债。",
+       "en": "He has a lot of credit card debt."
+      }
+     }
+    ],
+    "usageNote": "เป็นหนี้ = 欠债。"
+   }
+  ]
+ },
+ {
+  "headword": "กู้",
+  "phonetic": "ku",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "kûu · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยืมเงินจำนวนมากโดยต้องเสียดอกเบี้ย",
+    "translations": {
+     "zh": "贷款；借（钱）",
+     "en": "to borrow (a loan)"
+    },
+    "examples": [
+     {
+      "text": "เราต้องกู้เงินธนาคารซื้อบ้าน",
+      "translations": {
+       "zh": "我们要向银行贷款买房。",
+       "en": "We have to take a bank loan to buy a house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดอกเบี้ย",
+  "phonetic": "dok bia",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "dɔ̀ɔk-bîa · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่จ่ายเพิ่มเมื่อกู้หรือได้จากการฝาก",
+    "translations": {
+     "zh": "利息",
+     "en": "interest"
+    },
+    "examples": [
+     {
+      "text": "ธนาคารนี้ดอกเบี้ยต่ำ",
+      "translations": {
+       "zh": "这家银行利息低。",
+       "en": "This bank's interest rate is low."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ภาษี",
+  "phonetic": "phasi",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "phaa-sǐi · 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ประชาชนต้องจ่ายให้รัฐ",
+    "translations": {
+     "zh": "税",
+     "en": "tax"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนต้องเสียภาษี",
+      "translations": {
+       "zh": "每个人都要交税。",
+       "en": "Everyone has to pay tax."
+      }
+     }
+    ],
+    "usageNote": "“交税”说 เสียภาษี。"
+   }
+  ]
+ },
+ {
+  "headword": "เศรษฐกิจ",
+  "phonetic": "setthakit",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "sèet-thà-kìt · 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องการผลิตและการใช้เงินของประเทศ",
+    "translations": {
+     "zh": "经济",
+     "en": "economy"
+    },
+    "examples": [
+     {
+      "text": "ปีนี้เศรษฐกิจไม่ค่อยดี",
+      "translations": {
+       "zh": "今年经济不太好。",
+       "en": "The economy isn't very good this year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หุ้น",
+  "phonetic": "hun",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "hûn · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนความเป็นเจ้าของในบริษัท",
+    "translations": {
+     "zh": "股票；股份",
+     "en": "share, stock"
+    },
+    "examples": [
+     {
+      "text": "เขาซื้อหุ้นธนาคาร",
+      "translations": {
+       "zh": "他买了银行股。",
+       "en": "He bought bank shares."
+      }
+     }
+    ],
+    "usageNote": "ตลาดหุ้น = 股市。"
+   }
+  ]
+ },
+ {
+  "headword": "เงินเฟ้อ",
+  "phonetic": "ngoen foe",
+  "cefr": "B2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "toneMarks": "ngən-fə́ə · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาวะที่ของแพงขึ้นเรื่อย ๆ",
+    "translations": {
+     "zh": "通货膨胀",
+     "en": "inflation"
+    },
+    "examples": [
+     {
+      "text": "เงินเฟ้อทำให้ของแพงขึ้น",
+      "translations": {
+       "zh": "通胀让东西变贵了。",
+       "en": "Inflation makes things more expensive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่าครองชีพ",
+  "phonetic": "kha khrong chip",
+  "cefr": "B2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "toneMarks": "khâa-khrɔɔng-chîip · 降, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ต้องใช้ในการใช้ชีวิต",
+    "translations": {
+     "zh": "生活成本",
+     "en": "cost of living"
+    },
+    "examples": [
+     {
+      "text": "ค่าครองชีพที่นี่ไม่สูง",
+      "translations": {
+       "zh": "这里的生活成本不高。",
+       "en": "The cost of living here isn't high."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "งบประมาณ",
+  "phonetic": "ngoppraman",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "ngóp-prà-maan · 高, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่วางแผนไว้ใช้",
+    "translations": {
+     "zh": "预算",
+     "en": "budget"
+    },
+    "examples": [
+     {
+      "text": "งบประมาณไม่พอ",
+      "translations": {
+       "zh": "预算不够。",
+       "en": "The budget isn't enough."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 งบ。"
+   }
+  ]
+ },
+ {
+  "headword": "บัญชี",
+  "phonetic": "banchi",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "ban-chii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่เก็บเงินในธนาคาร; บัญชีผู้ใช้",
+    "translations": {
+     "zh": "账户；账目",
+     "en": "account"
+    },
+    "examples": [
+     {
+      "text": "ฉันอยากเปิดบัญชีธนาคาร",
+      "translations": {
+       "zh": "我想开个银行账户。",
+       "en": "I'd like to open a bank account."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

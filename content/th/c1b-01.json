@@ -1,0 +1,1480 @@
+[
+  {
+    "headword": "งบประมาณ",
+    "phonetic": "ngop praman",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "ngóp-prà-maan · 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่กำหนดไว้ใช้ในช่วงเวลาหนึ่ง",
+        "translations": {
+          "zh": "预算",
+          "en": "budget"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลเพิ่มงบประมาณด้านการศึกษา",
+            "translations": {
+              "zh": "政府增加了教育预算。",
+              "en": "The government increased the education budget."
+            }
+          }
+        ],
+        "usageNote": "常与 อนุมัติ（批准）、ตัด（削减）搭配：ตัดงบประมาณ 削减预算。"
+      }
+    ]
+  },
+  {
+    "headword": "ผลกำไร",
+    "phonetic": "phon kamrai",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "phǒn-kam-rai · 升, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่ได้เกินจากต้นทุน",
+        "translations": {
+          "zh": "利润",
+          "en": "profit"
+        },
+        "examples": [
+          {
+            "text": "ปีนี้บริษัทมีผลกำไรเพิ่มขึ้นสิบเปอร์เซ็นต์",
+            "translations": {
+              "zh": "今年公司利润增长了百分之十。",
+              "en": "This year the company's profit rose by ten percent."
+            }
+          }
+        ],
+        "usageNote": "比 กำไร 更书面，多见于财报和新闻。"
+      }
+    ]
+  },
+  {
+    "headword": "ผู้ถือหุ้น",
+    "phonetic": "phu thue hun",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phûu-thʉ̌ʉ-hûn · 降, 升, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ที่เป็นเจ้าของหุ้นของบริษัท",
+        "translations": {
+          "zh": "股东",
+          "en": "shareholder"
+        },
+        "examples": [
+          {
+            "text": "ผู้ถือหุ้นจะประชุมกันเดือนหน้า",
+            "translations": {
+              "zh": "股东们下个月开会。",
+              "en": "The shareholders will meet next month."
+            }
+          }
+        ],
+        "usageNote": "字面“持有股份的人”。ผู้ถือหุ้นรายใหญ่ 大股东。"
+      }
+    ]
+  },
+  {
+    "headword": "การลงทุน",
+    "phonetic": "kan long thun",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "kaan-long-thun · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การใช้เงินเพื่อหวังผลตอบแทน",
+        "translations": {
+          "zh": "投资",
+          "en": "investment"
+        },
+        "examples": [
+          {
+            "text": "การลงทุนจากต่างประเทศลดลงมาก",
+            "translations": {
+              "zh": "外国投资大幅下降。",
+              "en": "Foreign investment has fallen sharply."
+            }
+          }
+        ],
+        "usageNote": "动词是 ลงทุน（字面“投下本钱”）。"
+      }
+    ]
+  },
+  {
+    "headword": "นักลงทุน",
+    "phonetic": "nak long thun",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "nák-long-thun · 高, 中, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่นำเงินไปลงทุน",
+        "translations": {
+          "zh": "投资者",
+          "en": "investor"
+        },
+        "examples": [
+          {
+            "text": "นักลงทุนกังวลเรื่องอัตราดอกเบี้ย",
+            "translations": {
+              "zh": "投资者担心利率问题。",
+              "en": "Investors are worried about interest rates."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตลาดหลักทรัพย์",
+    "phonetic": "talat lak sap",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "ta-làat-làk-sáp · 低, 低, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตลาดซื้อขายหุ้นและหลักทรัพย์",
+        "translations": {
+          "zh": "证券交易所；股市",
+          "en": "stock exchange"
+        },
+        "examples": [
+          {
+            "text": "ตลาดหลักทรัพย์ปิดตัวลงในแดนลบ",
+            "translations": {
+              "zh": "股市收盘下跌。",
+              "en": "The stock exchange closed in negative territory."
+            }
+          }
+        ],
+        "usageNote": "หลักทรัพย์ 意为“证券”。泰国证券交易所简称 ตลท.。"
+      }
+    ]
+  },
+  {
+    "headword": "ดอกเบี้ย",
+    "phonetic": "dok bia",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "dɔ̀ɔk-bîa · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่ต้องจ่ายเพิ่มเมื่อกู้ยืม",
+        "translations": {
+          "zh": "利息",
+          "en": "interest (on money)"
+        },
+        "examples": [
+          {
+            "text": "ธนาคารขึ้นดอกเบี้ยเงินกู้อีกแล้ว",
+            "translations": {
+              "zh": "银行又提高了贷款利息。",
+              "en": "The bank has raised loan interest again."
+            }
+          }
+        ],
+        "usageNote": "อัตราดอกเบี้ย 利率。"
+      }
+    ]
+  },
+  {
+    "headword": "เงินเฟ้อ",
+    "phonetic": "ngoen foe",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "ngən-fə́ə · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะที่ราคาสินค้าสูงขึ้นทั่วไป",
+        "translations": {
+          "zh": "通货膨胀",
+          "en": "inflation"
+        },
+        "examples": [
+          {
+            "text": "เงินเฟ้อทำให้ค่าครองชีพสูงขึ้น",
+            "translations": {
+              "zh": "通货膨胀推高了生活成本。",
+              "en": "Inflation has pushed up the cost of living."
+            }
+          }
+        ],
+        "usageNote": "เฟ้อ 本义“膨胀、过多”。反义 เงินฝืด 通货紧缩。"
+      }
+    ]
+  },
+  {
+    "headword": "เงินฝืด",
+    "phonetic": "ngoen fuet",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "ngən-fʉ̀ʉt · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะที่ราคาสินค้าลดลงต่อเนื่อง",
+        "translations": {
+          "zh": "通货紧缩",
+          "en": "deflation"
+        },
+        "examples": [
+          {
+            "text": "นักเศรษฐศาสตร์เตือนว่าอาจเกิดภาวะเงินฝืด",
+            "translations": {
+              "zh": "经济学家警告可能出现通货紧缩。",
+              "en": "Economists warn that deflation may occur."
+            }
+          }
+        ],
+        "usageNote": "ฝืด 本义“涩、不顺滑”。"
+      }
+    ]
+  },
+  {
+    "headword": "ถดถอย",
+    "phonetic": "thot thoi",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "thòt-thɔ̌ɔi · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ลดลงหรือแย่ลงเรื่อย ๆ",
+        "translations": {
+          "zh": "衰退；倒退",
+          "en": "to decline; to regress"
+        },
+        "examples": [
+          {
+            "text": "เศรษฐกิจโลกกำลังถดถอย",
+            "translations": {
+              "zh": "全球经济正在衰退。",
+              "en": "The global economy is in recession."
+            }
+          }
+        ],
+        "usageNote": "เศรษฐกิจถดถอย 经济衰退。"
+      }
+    ]
+  },
+  {
+    "headword": "หนี้สิน",
+    "phonetic": "ni sin",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "nîi-sǐn · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่ติดค้างผู้อื่น",
+        "translations": {
+          "zh": "债务；负债",
+          "en": "debts; liabilities"
+        },
+        "examples": [
+          {
+            "text": "ครอบครัวนี้มีหนี้สินมากมาย",
+            "translations": {
+              "zh": "这家人负债累累。",
+              "en": "This family has a lot of debt."
+            }
+          }
+        ],
+        "usageNote": "会计上与 สินทรัพย์（资产）相对。"
+      }
+    ]
+  },
+  {
+    "headword": "สินทรัพย์",
+    "phonetic": "sinsap",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "sǐn-sáp · 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทรัพย์สินที่มีมูลค่า",
+        "translations": {
+          "zh": "资产",
+          "en": "assets"
+        },
+        "examples": [
+          {
+            "text": "บริษัทมีสินทรัพย์มากกว่าหนี้สิน",
+            "translations": {
+              "zh": "公司的资产多于负债。",
+              "en": "The company has more assets than liabilities."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้ประกอบการ",
+    "phonetic": "phu prakop kan",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phûu-prà-kɔ̀ɔp-kaan · 降, 低, 低, 中",
+      "classifier": "ราย（家，户）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ดำเนินธุรกิจ",
+        "translations": {
+          "zh": "经营者；企业家",
+          "en": "entrepreneur; business operator"
+        },
+        "examples": [
+          {
+            "text": "ผู้ประกอบการรายย่อยได้รับผลกระทบหนัก",
+            "translations": {
+              "zh": "小经营者受到严重冲击。",
+              "en": "Small business owners were hit hard."
+            }
+          }
+        ],
+        "usageNote": "ประกอบการ 意为“经营”。"
+      }
+    ]
+  },
+  {
+    "headword": "วิสาหกิจ",
+    "phonetic": "wisahakit",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "wí-sǎa-hà-kìt · 高, 升, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กิจการหรือองค์กรธุรกิจ",
+        "translations": {
+          "zh": "企业",
+          "en": "enterprise"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลสนับสนุนวิสาหกิจขนาดกลางและขนาดย่อม",
+            "translations": {
+              "zh": "政府扶持中小企业。",
+              "en": "The government supports small and medium enterprises."
+            }
+          }
+        ],
+        "usageNote": "รัฐวิสาหกิจ 国有企业；วิสาหกิจชุมชน 社区企业。"
+      }
+    ]
+  },
+  {
+    "headword": "ควบรวมกิจการ",
+    "phonetic": "khuap ruam kitchakan",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "khûap-ruam-kìt-cà-kaan · 降, 中, 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รวมบริษัทตั้งแต่สองแห่งเข้าด้วยกัน",
+        "translations": {
+          "zh": "合并（企业）；兼并",
+          "en": "to merge (companies)"
+        },
+        "examples": [
+          {
+            "text": "สองธนาคารตกลงควบรวมกิจการกัน",
+            "translations": {
+              "zh": "两家银行同意合并。",
+              "en": "The two banks agreed to merge."
+            }
+          }
+        ],
+        "usageNote": "名词加 การ：การควบรวมกิจการ 并购。"
+      }
+    ]
+  },
+  {
+    "headword": "ล้มละลาย",
+    "phonetic": "lom lalai",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "lóm-lá-laai · 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หมดตัวจนไม่สามารถใช้หนี้ได้",
+        "translations": {
+          "zh": "破产",
+          "en": "to go bankrupt"
+        },
+        "examples": [
+          {
+            "text": "สายการบินนั้นล้มละลายเมื่อปีที่แล้ว",
+            "translations": {
+              "zh": "那家航空公司去年破产了。",
+              "en": "That airline went bankrupt last year."
+            }
+          }
+        ],
+        "usageNote": "字面“倒下、溶化”。"
+      }
+    ]
+  },
+  {
+    "headword": "ขาดทุน",
+    "phonetic": "khat thun",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "khàat-thun · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ได้เงินน้อยกว่าต้นทุน",
+        "translations": {
+          "zh": "亏本；亏损",
+          "en": "to make a loss"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้ขาดทุนติดต่อกันสามปี",
+            "translations": {
+              "zh": "这家店连续三年亏损。",
+              "en": "This shop has made a loss three years in a row."
+            }
+          }
+        ],
+        "usageNote": "字面“缺本”。反义 ได้กำไร 赚钱。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาษีมูลค่าเพิ่ม",
+    "phonetic": "phasi munlakha phoem",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "phaa-sǐi-muun-lá-khâa-phə̂əm · 中, 升, 中, 高, 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาษีที่เก็บจากมูลค่าที่เพิ่มขึ้นของสินค้า",
+        "translations": {
+          "zh": "增值税",
+          "en": "value added tax (VAT)"
+        },
+        "examples": [
+          {
+            "text": "ราคานี้รวมภาษีมูลค่าเพิ่มแล้ว",
+            "translations": {
+              "zh": "这个价格已含增值税。",
+              "en": "This price includes VAT."
+            }
+          }
+        ],
+        "usageNote": "口语常说 แวต（VAT）。"
+      }
+    ]
+  },
+  {
+    "headword": "ใบแจ้งหนี้",
+    "phonetic": "bai chaeng ni",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "bai-cɛ̂ng-nîi · 中, 降, 降",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เอกสารแจ้งยอดเงินที่ต้องชำระ",
+        "translations": {
+          "zh": "账单；发票（催款单）",
+          "en": "invoice; bill"
+        },
+        "examples": [
+          {
+            "text": "กรุณาชำระเงินตามใบแจ้งหนี้ภายในเจ็ดวัน",
+            "translations": {
+              "zh": "请在七天内按账单付款。",
+              "en": "Please pay the invoice within seven days."
+            }
+          }
+        ],
+        "usageNote": "字面“告知欠款的单子”。"
+      }
+    ]
+  },
+  {
+    "headword": "งบดุล",
+    "phonetic": "ngop dun",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "ngóp-dun · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รายงานแสดงสินทรัพย์ หนี้สิน และทุน",
+        "translations": {
+          "zh": "资产负债表",
+          "en": "balance sheet"
+        },
+        "examples": [
+          {
+            "text": "นักบัญชีกำลังตรวจงบดุลของบริษัท",
+            "translations": {
+              "zh": "会计正在核对公司的资产负债表。",
+              "en": "The accountant is checking the company's balance sheet."
+            }
+          }
+        ],
+        "usageNote": "ดุล 意为“平衡”。"
+      }
+    ]
+  },
+  {
+    "headword": "กระแสเงินสด",
+    "phonetic": "krasae ngoen sot",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "krà-sɛ̌ɛ-ngən-sòt · 低, 升, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินสดที่ไหลเข้าและออกจากธุรกิจ",
+        "translations": {
+          "zh": "现金流",
+          "en": "cash flow"
+        },
+        "examples": [
+          {
+            "text": "ธุรกิจเล็กต้องดูแลกระแสเงินสดให้ดี",
+            "translations": {
+              "zh": "小企业要管好现金流。",
+              "en": "Small businesses must manage their cash flow well."
+            }
+          }
+        ],
+        "usageNote": "กระแส 意为“流、潮流”。"
+      }
+    ]
+  },
+  {
+    "headword": "ส่วนแบ่งการตลาด",
+    "phonetic": "suan baeng kan talat",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "sùan-bɛ̀ng-kaan-ta-làat · 低, 低, 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัดส่วนยอดขายของบริษัทในตลาด",
+        "translations": {
+          "zh": "市场份额",
+          "en": "market share"
+        },
+        "examples": [
+          {
+            "text": "แบรนด์นี้มีส่วนแบ่งการตลาดมากที่สุด",
+            "translations": {
+              "zh": "这个品牌的市场份额最大。",
+              "en": "This brand has the largest market share."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เงินปันผล",
+    "phonetic": "ngoen panphon",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "ngən-pan-phǒn · 中, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนกำไรที่บริษัทแบ่งให้ผู้ถือหุ้น",
+        "translations": {
+          "zh": "股息；分红",
+          "en": "dividend"
+        },
+        "examples": [
+          {
+            "text": "บริษัทจะจ่ายเงินปันผลในเดือนพฤษภาคม",
+            "translations": {
+              "zh": "公司将在五月派发股息。",
+              "en": "The company will pay dividends in May."
+            }
+          }
+        ],
+        "usageNote": "ปันผล 字面“分享成果”。"
+      }
+    ]
+  },
+  {
+    "headword": "อัตราแลกเปลี่ยน",
+    "phonetic": "attra laek plian",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "àt-traa-lɛ̂ɛk-plìan · 低, 中, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อัตราที่ใช้แลกเงินสกุลหนึ่งกับอีกสกุลหนึ่ง",
+        "translations": {
+          "zh": "汇率",
+          "en": "exchange rate"
+        },
+        "examples": [
+          {
+            "text": "อัตราแลกเปลี่ยนวันนี้เป็นเท่าไร",
+            "translations": {
+              "zh": "今天的汇率是多少？",
+              "en": "What is today's exchange rate?"
+            }
+          }
+        ],
+        "usageNote": "อัตรา 比率；แลกเปลี่ยน 交换。"
+      }
+    ]
+  },
+  {
+    "headword": "ทุนจดทะเบียน",
+    "phonetic": "thun chot thabian",
+    "cefr": "C1",
+    "frequencyRank": 18000,
+    "grammarNotes": {
+      "toneMarks": "thun-còt-thá-bian · 中, 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จำนวนทุนที่บริษัทแจ้งไว้ตอนจดทะเบียน",
+        "translations": {
+          "zh": "注册资本",
+          "en": "registered capital"
+        },
+        "examples": [
+          {
+            "text": "บริษัทนี้มีทุนจดทะเบียนหนึ่งล้านบาท",
+            "translations": {
+              "zh": "这家公司的注册资本是一百万泰铢。",
+              "en": "This company has registered capital of one million baht."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เงื่อนไข",
+    "phonetic": "nguean khai",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "ngʉ̂an-khǎi · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อกำหนดที่ต้องทำตาม",
+        "translations": {
+          "zh": "条件",
+          "en": "condition; terms"
+        },
+        "examples": [
+          {
+            "text": "เราต้องอ่านเงื่อนไขก่อนเซ็นสัญญา",
+            "translations": {
+              "zh": "签合同前我们要先读条款。",
+              "en": "We must read the terms before signing the contract."
+            }
+          }
+        ],
+        "usageNote": "ภายใต้เงื่อนไข… 在……条件下。"
+      }
+    ]
+  },
+  {
+    "headword": "ต่อรอง",
+    "phonetic": "to rong",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "tɔ̀ɔ-rɔɔng · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูดคุยเพื่อให้ได้ข้อตกลงที่ดีขึ้น",
+        "translations": {
+          "zh": "谈判；讨价还价",
+          "en": "to negotiate; to bargain"
+        },
+        "examples": [
+          {
+            "text": "ฝ่ายบริหารยอมต่อรองกับสหภาพแรงงาน",
+            "translations": {
+              "zh": "管理层同意与工会谈判。",
+              "en": "Management agreed to negotiate with the union."
+            }
+          }
+        ],
+        "usageNote": "อำนาจต่อรอง 议价能力、谈判筹码。"
+      }
+    ]
+  },
+  {
+    "headword": "เจรจา",
+    "phonetic": "chenracha",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "ceen-rá-caa · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูดคุยตกลงกันอย่างเป็นทางการ",
+        "translations": {
+          "zh": "谈判；会谈",
+          "en": "to negotiate; to hold talks"
+        },
+        "examples": [
+          {
+            "text": "ทั้งสองประเทศจะเจรจาการค้ากันอีกครั้ง",
+            "translations": {
+              "zh": "两国将再次进行贸易谈判。",
+              "en": "The two countries will hold trade talks again."
+            }
+          }
+        ],
+        "usageNote": "比 ต่อรอง 更正式，用于外交、商务谈判。เจ 读 เจน。"
+      }
+    ]
+  },
+  {
+    "headword": "ผู้บริหาร",
+    "phonetic": "phu borihan",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "phûu-bɔɔ-rí-hǎan · 降, 中, 高, 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้มีหน้าที่บริหารองค์กร",
+        "translations": {
+          "zh": "管理者；高管",
+          "en": "executive; administrator"
+        },
+        "examples": [
+          {
+            "text": "ผู้บริหารระดับสูงประกาศลาออก",
+            "translations": {
+              "zh": "高层管理者宣布辞职。",
+              "en": "A senior executive announced his resignation."
+            }
+          }
+        ],
+        "usageNote": "บริหาร 意为“管理”。"
+      }
+    ]
+  },
+  {
+    "headword": "สภาพคล่อง",
+    "phonetic": "saphap khlong",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "sà-phâap-khlɔ̂ng · 低, 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสามารถเปลี่ยนสินทรัพย์เป็นเงินสดได้เร็ว",
+        "translations": {
+          "zh": "流动性",
+          "en": "liquidity"
+        },
+        "examples": [
+          {
+            "text": "ธนาคารกลางอัดฉีดสภาพคล่องเข้าสู่ระบบ",
+            "translations": {
+              "zh": "央行向系统注入流动性。",
+              "en": "The central bank injected liquidity into the system."
+            }
+          }
+        ],
+        "usageNote": "คล่อง 本义“灵活、流畅”。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาษีเงินได้",
+    "phonetic": "phasi ngoen dai",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "phaa-sǐi-ngən-dâi · 中, 升, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาษีที่เก็บจากรายได้",
+        "translations": {
+          "zh": "所得税",
+          "en": "income tax"
+        },
+        "examples": [
+          {
+            "text": "ทุกคนต้องยื่นภาษีเงินได้ภายในเดือนมีนาคม",
+            "translations": {
+              "zh": "每个人都要在三月内申报所得税。",
+              "en": "Everyone must file income tax by March."
+            }
+          }
+        ],
+        "usageNote": "เงินได้ 是法律用语“所得”。"
+      }
+    ]
+  },
+  {
+    "headword": "ลดหย่อนภาษี",
+    "phonetic": "lot yon phasi",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "lót-yɔ̀ɔn-phaa-sǐi · 高, 低, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ภาระภาษีลดลงตามกฎหมาย",
+        "translations": {
+          "zh": "减免税款；税收抵扣",
+          "en": "to get a tax deduction"
+        },
+        "examples": [
+          {
+            "text": "ค่าประกันชีวิตใช้ลดหย่อนภาษีได้",
+            "translations": {
+              "zh": "人寿保险费可以抵税。",
+              "en": "Life insurance premiums can be deducted from tax."
+            }
+          }
+        ],
+        "usageNote": "หย่อน 意为“放松、减少”。"
+      }
+    ]
+  },
+  {
+    "headword": "ขาดดุล",
+    "phonetic": "khat dun",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "khàat-dun · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีรายจ่ายมากกว่ารายรับ",
+        "translations": {
+          "zh": "赤字；逆差",
+          "en": "to run a deficit"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยขาดดุลการค้ากับจีน",
+            "translations": {
+              "zh": "泰国对中国存在贸易逆差。",
+              "en": "Thailand runs a trade deficit with China."
+            }
+          }
+        ],
+        "usageNote": "反义 เกินดุล 顺差、盈余。งบประมาณขาดดุล 赤字预算。"
+      }
+    ]
+  },
+  {
+    "headword": "เกินดุล",
+    "phonetic": "koen dun",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "kəən-dun · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีรายรับมากกว่ารายจ่าย",
+        "translations": {
+          "zh": "顺差；盈余",
+          "en": "to run a surplus"
+        },
+        "examples": [
+          {
+            "text": "ปีนี้ดุลการค้าเกินดุลเป็นครั้งแรก",
+            "translations": {
+              "zh": "今年贸易收支首次出现顺差。",
+              "en": "This year the trade balance was in surplus for the first time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หลักประกัน",
+    "phonetic": "lak prakan",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "làk-prà-kan · 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทรัพย์สินที่ใช้ค้ำประกันเงินกู้",
+        "translations": {
+          "zh": "抵押品；担保物",
+          "en": "collateral; security"
+        },
+        "examples": [
+          {
+            "text": "ธนาคารขอที่ดินเป็นหลักประกัน",
+            "translations": {
+              "zh": "银行要求以土地作抵押。",
+              "en": "The bank asked for land as collateral."
+            }
+          }
+        ],
+        "usageNote": "หลักประกันสุขภาพ 也指“医疗保障”。"
+      }
+    ]
+  },
+  {
+    "headword": "ค้ำประกัน",
+    "phonetic": "kham prakan",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "khám-prà-kan · 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รับรองว่าจะชดใช้แทนถ้าอีกฝ่ายไม่จ่าย",
+        "translations": {
+          "zh": "担保；作保",
+          "en": "to guarantee; to act as guarantor"
+        },
+        "examples": [
+          {
+            "text": "พี่ชายค้ำประกันเงินกู้ให้ฉัน",
+            "translations": {
+              "zh": "哥哥为我的贷款作担保。",
+              "en": "My brother guaranteed my loan."
+            }
+          }
+        ],
+        "usageNote": "ค้ำ 本义“支撑”。ผู้ค้ำประกัน 担保人。"
+      }
+    ]
+  },
+  {
+    "headword": "ผิดนัดชำระหนี้",
+    "phonetic": "phit nat chamra ni",
+    "cefr": "C1",
+    "frequencyRank": 18000,
+    "grammarNotes": {
+      "toneMarks": "phìt-nát-cham-rá-nîi · 低, 高, 中, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่จ่ายหนี้ตามกำหนด",
+        "translations": {
+          "zh": "违约；拖欠债务",
+          "en": "to default on a debt"
+        },
+        "examples": [
+          {
+            "text": "บริษัทผิดนัดชำระหนี้หุ้นกู้",
+            "translations": {
+              "zh": "公司拖欠了债券还款。",
+              "en": "The company defaulted on its bonds."
+            }
+          }
+        ],
+        "usageNote": "ผิดนัด 字面“失约”，ชำระหนี้ 还债。"
+      }
+    ]
+  },
+  {
+    "headword": "ยอดขาย",
+    "phonetic": "yot khai",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "yɔ̂ɔt-khǎai · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จำนวนสินค้าหรือเงินที่ขายได้",
+        "translations": {
+          "zh": "销售额；销量",
+          "en": "sales (figures)"
+        },
+        "examples": [
+          {
+            "text": "ยอดขายไตรมาสนี้ต่ำกว่าเป้า",
+            "translations": {
+              "zh": "本季度销售额低于目标。",
+              "en": "Sales this quarter were below target."
+            }
+          }
+        ],
+        "usageNote": "ยอด 意为“总数、顶端”。"
+      }
+    ]
+  },
+  {
+    "headword": "ต้นทุน",
+    "phonetic": "ton thun",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "tôn-thun · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ค่าใช้จ่ายในการผลิตหรือซื้อสินค้า",
+        "translations": {
+          "zh": "成本",
+          "en": "cost (of production)"
+        },
+        "examples": [
+          {
+            "text": "ต้นทุนวัตถุดิบสูงขึ้นมาก",
+            "translations": {
+              "zh": "原材料成本大幅上涨。",
+              "en": "Raw material costs have risen sharply."
+            }
+          }
+        ],
+        "usageNote": "ลดต้นทุน 降低成本。"
+      }
+    ]
+  },
+  {
+    "headword": "กลยุทธ์",
+    "phonetic": "konlayut",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "kon-lá-yút · 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิธีการวางแผนเพื่อให้บรรลุเป้าหมาย",
+        "translations": {
+          "zh": "策略；战略",
+          "en": "strategy"
+        },
+        "examples": [
+          {
+            "text": "เราต้องปรับกลยุทธ์การตลาดใหม่",
+            "translations": {
+              "zh": "我们要重新调整营销策略。",
+              "en": "We need to rework our marketing strategy."
+            }
+          }
+        ],
+        "usageNote": "กล 意为“计谋”，ยุทธ์ 意为“战斗”。"
+      }
+    ]
+  },
+  {
+    "headword": "ผลตอบแทน",
+    "phonetic": "phon top thaen",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phǒn-tɔ̀ɔp-thɛɛn · 升, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ประโยชน์หรือเงินที่ได้กลับมา",
+        "translations": {
+          "zh": "回报；收益",
+          "en": "return; yield"
+        },
+        "examples": [
+          {
+            "text": "กองทุนนี้ให้ผลตอบแทนปีละห้าเปอร์เซ็นต์",
+            "translations": {
+              "zh": "这只基金每年回报百分之五。",
+              "en": "This fund returns five percent a year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความเสี่ยง",
+    "phonetic": "khwam siang",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "khwaam-sìang · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โอกาสที่จะเกิดความเสียหาย",
+        "translations": {
+          "zh": "风险",
+          "en": "risk"
+        },
+        "examples": [
+          {
+            "text": "การลงทุนในหุ้นมีความเสี่ยงสูง",
+            "translations": {
+              "zh": "投资股票风险很高。",
+              "en": "Investing in stocks carries high risk."
+            }
+          }
+        ],
+        "usageNote": "动词 เสี่ยง 冒险。บริหารความเสี่ยง 风险管理。"
+      }
+    ]
+  },
+  {
+    "headword": "วิกฤต",
+    "phonetic": "wikrit",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "wí-krìt · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะอันตรายหรือยากลำบากอย่างร้ายแรง",
+        "translations": {
+          "zh": "危机",
+          "en": "crisis"
+        },
+        "examples": [
+          {
+            "text": "หลายประเทศเผชิญวิกฤตพลังงาน",
+            "translations": {
+              "zh": "许多国家面临能源危机。",
+              "en": "Many countries face an energy crisis."
+            }
+          }
+        ],
+        "usageNote": "也拼作 วิกฤติ。วิกฤตต้มยำกุ้ง 指 1997 年亚洲金融危机（冬阴功危机）。"
+      }
+    ]
+  },
+  {
+    "headword": "ฟองสบู่",
+    "phonetic": "fong sabu",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "fɔɔng-sà-bùu · 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะราคาสินทรัพย์สูงเกินจริงแล้วแตก",
+        "translations": {
+          "zh": "泡沫（经济）",
+          "en": "bubble (economic)"
+        },
+        "examples": [
+          {
+            "text": "หลายคนกลัวว่าราคาบ้านเป็นฟองสบู่",
+            "translations": {
+              "zh": "很多人担心房价是泡沫。",
+              "en": "Many people fear house prices are a bubble."
+            }
+          }
+        ],
+        "usageNote": "本义“肥皂泡”。ฟองสบู่แตก 泡沫破裂。"
+      }
+    ]
+  },
+  {
+    "headword": "ประมูล",
+    "phonetic": "pramun",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "prà-muun · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แข่งกันเสนอราคาเพื่อซื้อหรือรับงาน",
+        "translations": {
+          "zh": "拍卖；竞标",
+          "en": "to auction; to bid"
+        },
+        "examples": [
+          {
+            "text": "บริษัทจีนชนะการประมูลโครงการนี้",
+            "translations": {
+              "zh": "中国公司赢得了这个项目的竞标。",
+              "en": "A Chinese company won the bid for this project."
+            }
+          }
+        ],
+        "usageNote": "ผู้ประมูล 竞买人、投标人。"
+      }
+    ]
+  },
+  {
+    "headword": "สัมปทาน",
+    "phonetic": "sampathan",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "sǎm-pà-thaan · 升, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิทธิ์ที่รัฐให้เอกชนดำเนินกิจการ",
+        "translations": {
+          "zh": "特许经营权",
+          "en": "concession"
+        },
+        "examples": [
+          {
+            "text": "บริษัทได้สัมปทานเดินรถไฟฟ้าสามสิบปี",
+            "translations": {
+              "zh": "公司获得了三十年的轻轨运营特许权。",
+              "en": "The company won a thirty-year concession to run the metro."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แปรรูป",
+    "phonetic": "prae rup",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "prɛɛ-rûup · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปลี่ยนรูปสินค้าหรือโอนกิจการรัฐให้เอกชน",
+        "translations": {
+          "zh": "加工；私有化",
+          "en": "to process; to privatize"
+        },
+        "examples": [
+          {
+            "text": "ชาวบ้านแปรรูปมะม่วงเป็นมะม่วงอบแห้ง",
+            "translations": {
+              "zh": "村民把芒果加工成芒果干。",
+              "en": "Villagers process mangoes into dried mango."
+            }
+          }
+        ],
+        "usageNote": "แปรรูปรัฐวิสาหกิจ 国企私有化。"
+      }
+    ]
+  },
+  {
+    "headword": "คู่แข่ง",
+    "phonetic": "khu khaeng",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "khûu-khɛ̀ng · 降, 低",
+      "classifier": "ราย（家）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ฝ่ายที่แข่งขันกัน",
+        "translations": {
+          "zh": "竞争对手",
+          "en": "competitor; rival"
+        },
+        "examples": [
+          {
+            "text": "คู่แข่งลดราคาลงครึ่งหนึ่ง",
+            "translations": {
+              "zh": "竞争对手降价一半。",
+              "en": "Our competitor cut prices by half."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อตกลง",
+    "phonetic": "kho toklong",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-tòk-long · 降, 低, 中",
+      "classifier": "ฉบับ（份）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ตกลงกันไว้",
+        "translations": {
+          "zh": "协议；约定",
+          "en": "agreement; deal"
+        },
+        "examples": [
+          {
+            "text": "ทั้งสองฝ่ายลงนามในข้อตกลงแล้ว",
+            "translations": {
+              "zh": "双方已签署协议。",
+              "en": "Both sides have signed the agreement."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลงนาม",
+    "phonetic": "long nam",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "long-naam · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เซ็นชื่ออย่างเป็นทางการ",
+        "translations": {
+          "zh": "签署；签名",
+          "en": "to sign (formally)"
+        },
+        "examples": [
+          {
+            "text": "นายกรัฐมนตรีลงนามในสัญญาความร่วมมือ",
+            "translations": {
+              "zh": "总理签署了合作协议。",
+              "en": "The prime minister signed the cooperation agreement."
+            }
+          }
+        ],
+        "usageNote": "เซ็น 的正式说法，用于公文和条约。"
+      }
+    ]
+  },
+  {
+    "headword": "ศาล",
+    "phonetic": "san",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "sǎan · 升",
+      "classifier": "แห่ง（所）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สถานที่หรือองค์กรที่ตัดสินคดีความ",
+        "translations": {
+          "zh": "法院；法庭",
+          "en": "court (of law)"
+        },
+        "examples": [
+          {
+            "text": "ศาลนัดฟังคำพิพากษาสัปดาห์หน้า",
+            "translations": {
+              "zh": "法院定于下周宣判。",
+              "en": "The court will deliver its verdict next week."
+            }
+          }
+        ],
+        "usageNote": "ศาลฎีกา 最高法院；ศาลรัฐธรรมนูญ 宪法法院。"
+      }
+    ]
+  }
+]

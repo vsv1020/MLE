@@ -1,0 +1,1364 @@
+[
+ {
+  "headword": "นานๆ ครั้ง",
+  "phonetic": "nan nan khrang",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "naan-naan-khráng · 中, 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่บ่อย นานทีหนึ่ง",
+    "translations": {
+     "zh": "偶尔；难得一次",
+     "en": "once in a while, rarely"
+    },
+    "examples": [
+     {
+      "text": "เขากลับบ้านนานๆ ครั้ง",
+      "translations": {
+       "zh": "他难得回一次家。",
+       "en": "He goes home only once in a while."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จริงๆ แล้ว",
+  "phonetic": "ching ching laeo",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "jing-jing-lɛ́ɛo · 中, 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตามความเป็นจริง",
+    "translations": {
+     "zh": "其实；实际上",
+     "en": "actually, in fact"
+    },
+    "examples": [
+     {
+      "text": "จริงๆ แล้วฉันไม่ชอบกาแฟ",
+      "translations": {
+       "zh": "其实我不喜欢咖啡。",
+       "en": "Actually, I don't like coffee."
+      }
+     }
+    ],
+    "usageNote": "口语常用。"
+   }
+  ]
+ },
+ {
+  "headword": "ที่จริง",
+  "phonetic": "thi ching",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "thîi-jing · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตามความจริง",
+    "translations": {
+     "zh": "其实；说实话",
+     "en": "in fact, actually"
+    },
+    "examples": [
+     {
+      "text": "ที่จริงเขาเป็นคนใจดีนะ",
+      "translations": {
+       "zh": "其实他人很好。",
+       "en": "Actually, he's a kind person."
+      }
+     }
+    ],
+    "usageNote": "也说 ที่จริงแล้ว、อันที่จริง（较正式）。"
+   }
+  ]
+ },
+ {
+  "headword": "โดยทั่วไป",
+  "phonetic": "doi thua pai",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "dooi-thûa-pai · 中, 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตามปกติในกรณีส่วนใหญ่",
+    "translations": {
+     "zh": "一般来说；通常",
+     "en": "generally"
+    },
+    "examples": [
+     {
+      "text": "โดยทั่วไปร้านจะปิดสี่ทุ่ม",
+      "translations": {
+       "zh": "一般来说店晚上十点关门。",
+       "en": "Generally, shops close at 10 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โดยรวม",
+  "phonetic": "doi ruam",
+  "cefr": "B2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "dooi-ruam · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เมื่อมองทั้งหมดรวมกัน",
+    "translations": {
+     "zh": "总体上；总的来说",
+     "en": "overall"
+    },
+    "examples": [
+     {
+      "text": "โดยรวมแล้ว งานนี้ออกมาดี",
+      "translations": {
+       "zh": "总体而言，这次活动办得不错。",
+       "en": "Overall, the event went well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตามปกติ",
+  "phonetic": "tam pokkati",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "taam-pòk-kà-tì · 中, 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "อย่างที่เป็นอยู่เสมอ",
+    "translations": {
+     "zh": "照常；通常",
+     "en": "as usual, normally"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ร้านเปิดตามปกติ",
+      "translations": {
+       "zh": "明天商店照常营业。",
+       "en": "The shop opens as usual tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บังเอิญ",
+  "phonetic": "bang-oen",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "bang-əən · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "โดยไม่ได้ตั้งใจหรือคาดไว้",
+    "translations": {
+     "zh": "偶然；碰巧",
+     "en": "by chance, coincidentally"
+    },
+    "examples": [
+     {
+      "text": "ฉันบังเอิญเจอเพื่อนเก่าที่ห้าง",
+      "translations": {
+       "zh": "我在商场碰巧遇到了老朋友。",
+       "en": "I ran into an old friend at the mall by chance."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อย่างจริงจัง",
+  "phonetic": "yang chingchang",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "yàang-jing-jang · 低, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ด้วยความตั้งใจเต็มที่ ไม่เล่นๆ",
+    "translations": {
+     "zh": "认真地；严肃地",
+     "en": "seriously"
+    },
+    "examples": [
+     {
+      "text": "เขาเริ่มเรียนภาษาไทยอย่างจริงจัง",
+      "translations": {
+       "zh": "他开始认真地学习泰语。",
+       "en": "He started studying Thai seriously."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ด้วยตัวเอง",
+  "phonetic": "duai tua eng",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "dûai-tua-eeng · 降, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ทำเองโดยไม่มีใครช่วย",
+    "translations": {
+     "zh": "亲自；独立地",
+     "en": "by oneself"
+    },
+    "examples": [
+     {
+      "text": "ฉันซ่อมจักรยานด้วยตัวเอง",
+      "translations": {
+       "zh": "我自己修好了自行车。",
+       "en": "I fixed the bike by myself."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ล่วงหน้า",
+  "phonetic": "luang na",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "lûang-nâa · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ก่อนเวลาที่กำหนด",
+    "translations": {
+     "zh": "提前；预先",
+     "en": "in advance"
+    },
+    "examples": [
+     {
+      "text": "ควรจองตั๋วล่วงหน้า",
+      "translations": {
+       "zh": "应该提前订票。",
+       "en": "You should book tickets in advance."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตลอด",
+  "phonetic": "talot",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "tà-lɔ̀ɔt · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ตั้งแต่ต้นจนจบ ไม่ขาดตอน",
+    "translations": {
+     "zh": "一直；始终；整个",
+     "en": "throughout, all along"
+    },
+    "examples": [
+     {
+      "text": "เขายิ้มตลอดทั้งวัน",
+      "translations": {
+       "zh": "他一整天都在笑。",
+       "en": "He smiled throughout the whole day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อย่างยิ่ง",
+  "phonetic": "yang ying",
+  "cefr": "B2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "yàang-yîng · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากที่สุด เป็นพิเศษ",
+    "translations": {
+     "zh": "极其；非常",
+     "en": "extremely, greatly"
+    },
+    "examples": [
+     {
+      "text": "ขอบคุณอย่างยิ่งสำหรับความช่วยเหลือ",
+      "translations": {
+       "zh": "非常感谢您的帮助。",
+       "en": "Thank you very much indeed for your help."
+      }
+     }
+    ],
+    "usageNote": "正式、书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "ทีเดียว",
+  "phonetic": "thidiao",
+  "cefr": "B2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "thii-diao · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ใช้เน้นว่ามากหรือจริงๆ",
+    "translations": {
+     "zh": "相当；确实",
+     "en": "quite, indeed"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้อร่อยทีเดียว",
+      "translations": {
+       "zh": "这家店确实很好吃。",
+       "en": "This place is quite delicious indeed."
+      }
+     }
+    ],
+    "usageNote": "放在形容词之后加强语气。"
+   }
+  ]
+ },
+ {
+  "headword": "พอสมควร",
+  "phonetic": "pho sommkhuan",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "phɔɔ-sǒm-khuan · 中, 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มากพอประมาณ ไม่มากไม่น้อยเกินไป",
+    "translations": {
+     "zh": "相当；适度",
+     "en": "fairly, reasonably"
+    },
+    "examples": [
+     {
+      "text": "เขาพูดภาษาอังกฤษได้พอสมควร",
+      "translations": {
+       "zh": "他英语说得还可以。",
+       "en": "He speaks English reasonably well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แทบ",
+  "phonetic": "thaep",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "thɛ̂ɛp · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เกือบจะ",
+    "translations": {
+     "zh": "几乎；差点",
+     "en": "almost, nearly"
+    },
+    "examples": [
+     {
+      "text": "ฉันแทบไม่ได้นอนเลยเมื่อคืน",
+      "translations": {
+       "zh": "我昨晚几乎没睡。",
+       "en": "I barely slept last night."
+      }
+     }
+    ],
+    "usageNote": "แทบจะไม่ = 几乎不。"
+   }
+  ]
+ },
+ {
+  "headword": "น่าจะ",
+  "phonetic": "na cha",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "nâa-jà · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คงจะ มีความเป็นไปได้สูง",
+    "translations": {
+     "zh": "应该；大概会",
+     "en": "probably, should"
+    },
+    "examples": [
+     {
+      "text": "เขาน่าจะถึงแล้ว",
+      "translations": {
+       "zh": "他应该已经到了。",
+       "en": "He should have arrived by now."
+      }
+     }
+    ],
+    "usageNote": "表推测；也表“本该”：น่าจะบอกฉันก่อน。"
+   }
+  ]
+ },
+ {
+  "headword": "ย่อม",
+  "phonetic": "yom",
+  "cefr": "B2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "yɔ̂m · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เป็นไปตามธรรมดา แน่นอนว่าจะเป็นเช่นนั้น",
+    "translations": {
+     "zh": "必然；自然会",
+     "en": "naturally, inevitably"
+    },
+    "examples": [
+     {
+      "text": "ทำดีย่อมได้ดี",
+      "translations": {
+       "zh": "善有善报。",
+       "en": "Doing good naturally brings good."
+      }
+     }
+    ],
+    "usageNote": "书面语，表必然结果。"
+   }
+  ]
+ },
+ {
+  "headword": "ไม่เพียงแต่",
+  "phonetic": "mai phiang tae",
+  "cefr": "B2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "mâi-phiang-tɛ̀ɛ · 降, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ไม่ใช่แค่ ใช้คู่กับ ยัง...ด้วย",
+    "translations": {
+     "zh": "不仅…（而且）",
+     "en": "not only"
+    },
+    "examples": [
+     {
+      "text": "เขาไม่เพียงแต่เก่ง แต่ยังใจดีด้วย",
+      "translations": {
+       "zh": "他不仅能干，而且心地善良。",
+       "en": "He's not only capable but also kind."
+      }
+     }
+    ],
+    "usageNote": "句型：ไม่เพียงแต่…แต่ยัง…ด้วย。"
+   }
+  ]
+ },
+ {
+  "headword": "เมื่อเทียบกับ",
+  "phonetic": "muea thiap kap",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "mʉ̂a-thîap-kàp · 降, 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ถ้าเอามาเปรียบกับ",
+    "translations": {
+     "zh": "与…相比",
+     "en": "compared with"
+    },
+    "examples": [
+     {
+      "text": "เมื่อเทียบกับปีที่แล้ว ยอดขายสูงขึ้น",
+      "translations": {
+       "zh": "与去年相比，销量上升了。",
+       "en": "Compared with last year, sales are up."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตามที่",
+  "phonetic": "tam thi",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "taam-thîi · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "อย่างที่ หรือตามสิ่งที่",
+    "translations": {
+     "zh": "按照；正如",
+     "en": "as, according to what"
+    },
+    "examples": [
+     {
+      "text": "ตามที่คุยกันไว้ เราจะเจอกันบ่ายสอง",
+      "translations": {
+       "zh": "按照我们说好的，下午两点见。",
+       "en": "As we discussed, we'll meet at 2 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ในแง่",
+  "phonetic": "nai ngae",
+  "cefr": "B2",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "toneMarks": "nai-ngɛ̂ɛ · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ในด้านหรือมุมมองหนึ่ง",
+    "translations": {
+     "zh": "在…方面；从…角度",
+     "en": "in terms of"
+    },
+    "examples": [
+     {
+      "text": "ในแง่ราคา ร้านนี้ถูกกว่า",
+      "translations": {
+       "zh": "在价格方面，这家店更便宜。",
+       "en": "In terms of price, this shop is cheaper."
+      }
+     }
+    ],
+    "usageNote": "常说 ในแง่ของ…、ในแง่ดี（往好处想）。"
+   }
+  ]
+ },
+ {
+  "headword": "ดูเหมือนว่า",
+  "phonetic": "du muean wa",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "duu-mʉ̌an-wâa · 中, 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "มีลักษณะว่าน่าจะเป็นเช่นนั้น",
+    "translations": {
+     "zh": "看起来；似乎",
+     "en": "it seems that"
+    },
+    "examples": [
+     {
+      "text": "ดูเหมือนว่าฝนจะตก",
+      "translations": {
+       "zh": "看起来要下雨了。",
+       "en": "It looks like it's going to rain."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปรากฏว่า",
+  "phonetic": "prakot wa",
+  "cefr": "B2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "praa-kòt-wâa · 中, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ผลออกมาว่า (มักไม่คาดคิด)",
+    "translations": {
+     "zh": "结果；原来",
+     "en": "it turned out that"
+    },
+    "examples": [
+     {
+      "text": "ปรากฏว่าเขาเป็นพี่ชายของเพื่อนฉัน",
+      "translations": {
+       "zh": "原来他是我朋友的哥哥。",
+       "en": "It turned out he was my friend's brother."
+      }
+     }
+    ],
+    "usageNote": "讲述意外结果时常用。"
+   }
+  ]
+ },
+ {
+  "headword": "ถือว่า",
+  "phonetic": "thue wa",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ʉ-wâa · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "นับว่า หรือคิดว่าเป็นอย่างนั้น",
+    "translations": {
+     "zh": "算是；被认为",
+     "en": "to consider (as), to count as"
+    },
+    "examples": [
+     {
+      "text": "ราคานี้ถือว่าถูกมาก",
+      "translations": {
+       "zh": "这个价格算是很便宜了。",
+       "en": "This price counts as very cheap."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นับว่า",
+  "phonetic": "nap wa",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "náp-wâa · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ถือว่า",
+    "translations": {
+     "zh": "可以说；算得上",
+     "en": "can be regarded as"
+    },
+    "examples": [
+     {
+      "text": "นับว่าโชคดีที่ไม่มีใครเจ็บ",
+      "translations": {
+       "zh": "可以说很幸运没有人受伤。",
+       "en": "It was lucky that no one was hurt."
+      }
+     }
+    ],
+    "usageNote": "比 ถือว่า 书面。"
+   }
+  ]
+ },
+ {
+  "headword": "เป็นไปได้",
+  "phonetic": "pen pai dai",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "pen-pai-dâi · 中, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "อาจเกิดขึ้นหรือทำได้",
+    "translations": {
+     "zh": "可能的；可行",
+     "en": "possible"
+    },
+    "examples": [
+     {
+      "text": "ถ้าเป็นไปได้ ช่วยส่งให้วันนี้นะ",
+      "translations": {
+       "zh": "如果可能的话，请今天发给我。",
+       "en": "If possible, please send it today."
+      }
+     }
+    ],
+    "usageNote": "否定形式：เป็นไปไม่ได้（不可能）。"
+   }
+  ]
+ },
+ {
+  "headword": "เป็นไปตาม",
+  "phonetic": "pen pai tam",
+  "cefr": "B2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "pen-pai-taam · 中, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "เกิดขึ้นตรงกับที่วางไว้",
+    "translations": {
+     "zh": "按照；符合",
+     "en": "to go according to"
+    },
+    "examples": [
+     {
+      "text": "ทุกอย่างเป็นไปตามแผน",
+      "translations": {
+       "zh": "一切都按计划进行。",
+       "en": "Everything went according to plan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่มีทาง",
+  "phonetic": "mai mi thang",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "mâi-mii-thaang · 降, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "เป็นไปไม่ได้เลย",
+    "translations": {
+     "zh": "不可能；没办法",
+     "en": "no way"
+    },
+    "examples": [
+     {
+      "text": "ไม่มีทางที่เขาจะทำแบบนั้น",
+      "translations": {
+       "zh": "他绝不可能那样做。",
+       "en": "There's no way he would do that."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หาทาง",
+  "phonetic": "ha thang",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "hǎa-thaang · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "หาวิธีที่จะทำให้สำเร็จ",
+    "translations": {
+     "zh": "想办法",
+     "en": "to find a way"
+    },
+    "examples": [
+     {
+      "text": "เราต้องหาทางแก้ปัญหานี้",
+      "translations": {
+       "zh": "我们得想办法解决这个问题。",
+       "en": "We need to find a way to solve this."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แก้ปัญหา",
+  "phonetic": "kae panha",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "kɛ̂ɛ-pan-hǎa · 降, 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำให้ปัญหาหมดไป",
+    "translations": {
+     "zh": "解决问题",
+     "en": "to solve a problem"
+    },
+    "examples": [
+     {
+      "text": "เขาเก่งเรื่องแก้ปัญหา",
+      "translations": {
+       "zh": "他很擅长解决问题。",
+       "en": "He's good at solving problems."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทำความเข้าใจ",
+  "phonetic": "tham khwam khaochai",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "tham-khwaam-khâo-jai · 中, 中, 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "พยายามให้เข้าใจหรือให้ผู้อื่นเข้าใจ",
+    "translations": {
+     "zh": "理解；沟通清楚",
+     "en": "to try to understand, to clear things up"
+    },
+    "examples": [
+     {
+      "text": "เราต้องทำความเข้าใจกันก่อน",
+      "translations": {
+       "zh": "我们得先把话说清楚。",
+       "en": "We need to get on the same page first."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ให้ความสำคัญ",
+  "phonetic": "hai khwam samkhan",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "hâi-khwaam-sǎm-khan · 降, 中, 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ถือว่าสำคัญและใส่ใจ",
+    "translations": {
+     "zh": "重视",
+     "en": "to give importance to, to prioritize"
+    },
+    "examples": [
+     {
+      "text": "บริษัทให้ความสำคัญกับลูกค้า",
+      "translations": {
+       "zh": "公司重视客户。",
+       "en": "The company values its customers."
+      }
+     }
+    ],
+    "usageNote": "句型：ให้ความสำคัญกับ + 名词。"
+   }
+  ]
+ },
+ {
+  "headword": "มีแนวโน้ม",
+  "phonetic": "mi naeonom",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "mii-nɛɛo-nóom · 中, 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "มีทิศทางว่าจะเป็นเช่นนั้น",
+    "translations": {
+     "zh": "有…的趋势；倾向于",
+     "en": "to tend to, to be likely to"
+    },
+    "examples": [
+     {
+      "text": "ราคาทองมีแนวโน้มสูงขึ้น",
+      "translations": {
+       "zh": "金价有上涨的趋势。",
+       "en": "Gold prices are tending to rise."
+      }
+     }
+    ],
+    "usageNote": "新闻、报告常用。"
+   }
+  ]
+ },
+ {
+  "headword": "มีส่วนร่วม",
+  "phonetic": "mi suan ruam",
+  "cefr": "B2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "mii-sùan-rûam · 中, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "เข้าไปร่วมทำด้วย",
+    "translations": {
+     "zh": "参与",
+     "en": "to participate, to take part"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนควรมีส่วนร่วมในการประชุม",
+      "translations": {
+       "zh": "每个人都应参与会议讨论。",
+       "en": "Everyone should take part in the meeting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตั้งเป้า",
+  "phonetic": "tang pao",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "tâng-pâo · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "กำหนดสิ่งที่อยากทำให้สำเร็จ",
+    "translations": {
+     "zh": "定目标；力争",
+     "en": "to set a goal"
+    },
+    "examples": [
+     {
+      "text": "ปีนี้ฉันตั้งเป้าว่าจะลดน้ำหนักห้ากิโล",
+      "translations": {
+       "zh": "今年我定了减重五公斤的目标。",
+       "en": "This year I've set a goal to lose five kilos."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มุ่งมั่น",
+  "phonetic": "mungman",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "mûng-mân · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตั้งใจแน่วแน่ที่จะทำให้สำเร็จ",
+    "translations": {
+     "zh": "坚定；致力于",
+     "en": "to be determined, to be committed"
+    },
+    "examples": [
+     {
+      "text": "เธอมุ่งมั่นที่จะเป็นหมอ",
+      "translations": {
+       "zh": "她立志要当医生。",
+       "en": "She's determined to become a doctor."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลงมือ",
+  "phonetic": "long mue",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "long-mʉʉ · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เริ่มทำจริงๆ",
+    "translations": {
+     "zh": "动手；着手",
+     "en": "to get started, to take action"
+    },
+    "examples": [
+     {
+      "text": "คิดมากพอแล้ว ลงมือทำเลย",
+      "translations": {
+       "zh": "想够了，动手做吧。",
+       "en": "Enough thinking, just get started."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เริ่มต้น",
+  "phonetic": "roemton",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "rə̂əm-tôn · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตั้งต้นทำ",
+    "translations": {
+     "zh": "开始；起步",
+     "en": "to begin, to start"
+    },
+    "examples": [
+     {
+      "text": "ทุกอย่างต้องเริ่มต้นจากศูนย์",
+      "translations": {
+       "zh": "一切都要从零开始。",
+       "en": "Everything has to start from zero."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พึ่งพา",
+  "phonetic": "phueng pha",
+  "cefr": "B2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "phʉ̂ng-phaa · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อาศัยความช่วยเหลือจากผู้อื่น",
+    "translations": {
+     "zh": "依靠；依赖",
+     "en": "to rely on, to depend on"
+    },
+    "examples": [
+     {
+      "text": "เขาไม่อยากพึ่งพาพ่อแม่อีกแล้ว",
+      "translations": {
+       "zh": "他不想再依赖父母了。",
+       "en": "He doesn't want to rely on his parents anymore."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาศัย",
+  "phonetic": "asai",
+  "cefr": "B2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "aa-sǎi · 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พึ่งพาสิ่งใดเพื่อให้ทำได้ หรืออยู่ประจำ",
+    "translations": {
+     "zh": "依靠；凭借；居住",
+     "en": "to rely on; to reside"
+    },
+    "examples": [
+     {
+      "text": "งานนี้ต้องอาศัยความอดทน",
+      "translations": {
+       "zh": "这份工作需要耐心。",
+       "en": "This work requires patience."
+      }
+     }
+    ],
+    "usageNote": "อาศัยอยู่ที่… 意为“居住在…”，较正式。"
+   }
+  ]
+ },
+ {
+  "headword": "เผชิญ",
+  "phonetic": "phachoen",
+  "cefr": "B2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "phà-chəən · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พบหรือต้องสู้กับสิ่งที่ยาก",
+    "translations": {
+     "zh": "面对；遭遇",
+     "en": "to face, to confront"
+    },
+    "examples": [
+     {
+      "text": "ประเทศกำลังเผชิญกับวิกฤตเศรษฐกิจ",
+      "translations": {
+       "zh": "国家正面临经济危机。",
+       "en": "The country is facing an economic crisis."
+      }
+     }
+    ],
+    "usageNote": "书面语，常用 เผชิญกับ / เผชิญหน้า。"
+   }
+  ]
+ },
+ {
+  "headword": "รับมือ",
+  "phonetic": "rap mue",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "ráp-mʉʉ · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เตรียมพร้อมและจัดการกับสิ่งที่เกิดขึ้น",
+    "translations": {
+     "zh": "应对；对付",
+     "en": "to cope with, to handle"
+    },
+    "examples": [
+     {
+      "text": "เราต้องเตรียมรับมือกับน้ำท่วม",
+      "translations": {
+       "zh": "我们得准备应对洪水。",
+       "en": "We must prepare to cope with flooding."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยอมแพ้",
+  "phonetic": "yom phae",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "yɔɔm-phɛ́ɛ · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เลิกสู้หรือเลิกพยายาม",
+    "translations": {
+     "zh": "认输；放弃",
+     "en": "to give up, to surrender"
+    },
+    "examples": [
+     {
+      "text": "อย่ายอมแพ้ง่ายๆ",
+      "translations": {
+       "zh": "别轻易放弃。",
+       "en": "Don't give up easily."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ท้อ",
+  "phonetic": "tho",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "thɔ́ɔ · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หมดกำลังใจ",
+    "translations": {
+     "zh": "灰心；气馁",
+     "en": "to be discouraged"
+    },
+    "examples": [
+     {
+      "text": "อย่าท้อนะ เธอทำได้",
+      "translations": {
+       "zh": "别灰心，你能行。",
+       "en": "Don't lose heart, you can do it."
+      }
+     }
+    ],
+    "usageNote": "也说 ท้อแท้。"
+   }
+  ]
+ },
+ {
+  "headword": "หมดหวัง",
+  "phonetic": "mot wang",
+  "cefr": "B1",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "toneMarks": "mòt-wǎng · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่มีความหวังเหลืออยู่",
+    "translations": {
+     "zh": "绝望；没希望",
+     "en": "to lose hope"
+    },
+    "examples": [
+     {
+      "text": "อย่าเพิ่งหมดหวัง ยังมีโอกาส",
+      "translations": {
+       "zh": "先别绝望，还有机会。",
+       "en": "Don't lose hope yet, there's still a chance."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เอาชนะ",
+  "phonetic": "ao chana",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "ao-chá-ná · 中, 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ชนะ หรือก้าวข้ามอุปสรรค",
+    "translations": {
+     "zh": "战胜；克服",
+     "en": "to overcome, to defeat"
+    },
+    "examples": [
+     {
+      "text": "เขาเอาชนะความกลัวได้แล้ว",
+      "translations": {
+       "zh": "他已经战胜了恐惧。",
+       "en": "He has overcome his fear."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อดทน",
+  "phonetic": "otthon",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "òt-thon · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทนต่อความยากลำบากได้",
+    "translations": {
+     "zh": "忍耐；有耐心",
+     "en": "to be patient, to endure"
+    },
+    "examples": [
+     {
+      "text": "ต้องอดทนอีกนิดนะ",
+      "translations": {
+       "zh": "再忍耐一下哦。",
+       "en": "Be patient a little longer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยอม",
+  "phonetic": "yom",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "yɔɔm · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตกลงหรือรับโดยไม่ขัดขืน",
+    "translations": {
+     "zh": "愿意；甘愿；让步",
+     "en": "to be willing, to give in"
+    },
+    "examples": [
+     {
+      "text": "เขายอมทำงานวันเสาร์เพื่อเงินพิเศษ",
+      "translations": {
+       "zh": "他愿意周六加班挣外快。",
+       "en": "He's willing to work Saturdays for extra money."
+      }
+     }
+    ],
+    "usageNote": "ไม่ยอม 表“不肯、不答应”。"
+   }
+  ]
+ }
+]

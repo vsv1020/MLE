@@ -1,0 +1,1578 @@
+[
+  {
+    "headword": "ชานชาลา",
+    "phonetic": "chanchala",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "chaan-chaa-laa · 中, 中, 中",
+      "classifier": "ชานชาลา（个站台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่รอขึ้นรถไฟในสถานี",
+        "translations": {
+          "zh": "站台；月台",
+          "en": "platform"
+        },
+        "examples": [
+          {
+            "text": "รถไฟออกจากชานชาลาที่สาม",
+            "translations": {
+              "zh": "火车从三号站台出发。",
+              "en": "The train leaves from platform three."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทางออก",
+    "phonetic": "thang ok",
+    "cefr": "A2",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "toneMarks": "thaang-ɔ̀ɔk · 中, 低",
+      "classifier": "ทาง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางสำหรับเดินออกไปข้างนอก",
+        "translations": {
+          "zh": "出口",
+          "en": "exit, way out"
+        },
+        "examples": [
+          {
+            "text": "ทางออกอยู่ทางซ้ายมือ",
+            "translations": {
+              "zh": "出口在左手边。",
+              "en": "The exit is on the left."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทางเข้า",
+    "phonetic": "thang khao",
+    "cefr": "A2",
+    "frequencyRank": 1400,
+    "grammarNotes": {
+      "toneMarks": "thaang-khâo · 中, 降",
+      "classifier": "ทาง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางสำหรับเดินเข้าไปข้างใน",
+        "translations": {
+          "zh": "入口",
+          "en": "entrance, way in"
+        },
+        "examples": [
+          {
+            "text": "ทางเข้าพิพิธภัณฑ์อยู่ด้านหน้า",
+            "translations": {
+              "zh": "博物馆入口在前面。",
+              "en": "The museum entrance is at the front."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เบอร์โทร",
+    "phonetic": "boe tho",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "bəə-thoo · 中, 中",
+      "classifier": "เบอร์（个号码）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตัวเลขที่ใช้โทรหาคน",
+        "translations": {
+          "zh": "电话号码",
+          "en": "phone number"
+        },
+        "examples": [
+          {
+            "text": "ขอเบอร์โทรหน่อยได้ไหม",
+            "translations": {
+              "zh": "可以给我你的电话号码吗？",
+              "en": "Can I have your phone number?"
+            }
+          }
+        ],
+        "usageNote": "เบอร์โทรศัพท์ 的口语简称。"
+      }
+    ]
+  },
+  {
+    "headword": "นาฬิกา",
+    "phonetic": "nalika",
+    "cefr": "A2",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "toneMarks": "naa-lí-kaa · 中, 高, 中",
+      "classifier": "เรือน（只/块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องบอกเวลา",
+        "translations": {
+          "zh": "钟；手表",
+          "en": "clock; watch"
+        },
+        "examples": [
+          {
+            "text": "นาฬิกาของฉันช้าห้านาที",
+            "translations": {
+              "zh": "我的表慢了五分钟。",
+              "en": "My watch is five minutes slow."
+            }
+          }
+        ],
+        "usageNote": "也表示\"点钟\"：สามนาฬิกา（三点，正式说法）。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฏิทิน",
+    "phonetic": "patithin",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "pà-tì-thin · 低, 低, 中",
+      "classifier": "เล่ม（本）；แผ่น（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่บอกวัน เดือน ปี",
+        "translations": {
+          "zh": "日历",
+          "en": "calendar"
+        },
+        "examples": [
+          {
+            "text": "ดูวันหยุดในปฏิทิน",
+            "translations": {
+              "zh": "在日历上看看假日。",
+              "en": "Check the holidays on the calendar."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คลินิก",
+    "phonetic": "khlinik",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "khlii-ník · 中, 高",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สถานที่เล็กๆ ที่หมอรักษาคนป่วย",
+        "translations": {
+          "zh": "诊所",
+          "en": "clinic"
+        },
+        "examples": [
+          {
+            "text": "คลินิกนี้เปิดตอนเย็น",
+            "translations": {
+              "zh": "这家诊所晚上开门。",
+              "en": "This clinic opens in the evening."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คนไข้",
+    "phonetic": "khon khai",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "khon-khâi · 中, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ป่วยและมาหาหมอ",
+        "translations": {
+          "zh": "病人；患者",
+          "en": "patient"
+        },
+        "examples": [
+          {
+            "text": "วันนี้คนไข้เยอะมาก",
+            "translations": {
+              "zh": "今天病人很多。",
+              "en": "There are a lot of patients today."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาการ",
+    "phonetic": "akan",
+    "cefr": "A2",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "toneMarks": "aa-kaan · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เกิดกับร่างกายเมื่อป่วย",
+        "translations": {
+          "zh": "症状；状况",
+          "en": "symptom; condition"
+        },
+        "examples": [
+          {
+            "text": "มีอาการอะไรบ้างครับ",
+            "translations": {
+              "zh": "有什么症状？",
+              "en": "What symptoms do you have?"
+            }
+          }
+        ],
+        "usageNote": "医生最常问的一句：เป็นอะไรมา / มีอาการอะไร。"
+      }
+    ]
+  },
+  {
+    "headword": "ไข้หวัด",
+    "phonetic": "khai wat",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "khâi-wàt · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โรคที่ทำให้มีไข้ ไอ และมีน้ำมูก",
+        "translations": {
+          "zh": "感冒",
+          "en": "cold, flu"
+        },
+        "examples": [
+          {
+            "text": "เขาเป็นไข้หวัดสามวันแล้ว",
+            "translations": {
+              "zh": "他感冒三天了。",
+              "en": "He has had a cold for three days."
+            }
+          }
+        ],
+        "usageNote": "\"得感冒\"用 เป็น：เป็นไข้หวัด。"
+      }
+    ]
+  },
+  {
+    "headword": "ยาแก้ปวด",
+    "phonetic": "ya kae puat",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "yaa-kɛ̂ɛ-pùat · 中, 降, 低",
+      "classifier": "เม็ด（片）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ยาที่ทำให้หายปวด",
+        "translations": {
+          "zh": "止痛药",
+          "en": "painkiller"
+        },
+        "examples": [
+          {
+            "text": "กินยาแก้ปวดหลังอาหาร",
+            "translations": {
+              "zh": "饭后吃止痛药。",
+              "en": "Take the painkiller after meals."
+            }
+          }
+        ],
+        "usageNote": "ยาแก้ + 症状 = 治……的药：ยาแก้ไอ（止咳药）。"
+      }
+    ]
+  },
+  {
+    "headword": "ยาดม",
+    "phonetic": "ya dom",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "yaa-dom · 中, 中",
+      "classifier": "หลอด（支）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ยาที่ใช้ดมเวลาเวียนหัว",
+        "translations": {
+          "zh": "鼻通；嗅药",
+          "en": "nasal inhaler"
+        },
+        "examples": [
+          {
+            "text": "คนไทยชอบพกยาดม",
+            "translations": {
+              "zh": "泰国人喜欢随身带鼻通。",
+              "en": "Thai people like to carry a nasal inhaler."
+            }
+          }
+        ],
+        "usageNote": "泰国特色小物，头晕、晕车时闻一闻。"
+      }
+    ]
+  },
+  {
+    "headword": "ยาหม่อง",
+    "phonetic": "ya mong",
+    "cefr": "A2",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "yaa-mɔ̀ng · 中, 低",
+      "classifier": "ขวด（瓶）；ตลับ（盒）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ยาทาที่มีกลิ่นหอม ใช้ทาเวลาปวดหรือยุงกัด",
+        "translations": {
+          "zh": "清凉油；万金油",
+          "en": "herbal balm"
+        },
+        "examples": [
+          {
+            "text": "ทายาหม่องตรงที่ยุงกัด",
+            "translations": {
+              "zh": "在蚊子咬的地方涂清凉油。",
+              "en": "Put some balm on the mosquito bite."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใบสั่งยา",
+    "phonetic": "bai sang ya",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "bai-sàng-yaa · 中, 低, 中",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กระดาษที่หมอเขียนบอกว่าต้องใช้ยาอะไร",
+        "translations": {
+          "zh": "处方",
+          "en": "prescription"
+        },
+        "examples": [
+          {
+            "text": "ยานี้ต้องมีใบสั่งยา",
+            "translations": {
+              "zh": "这种药需要处方。",
+              "en": "You need a prescription for this medicine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แผล",
+    "phonetic": "phlae",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "phlɛ̌ɛ · 升",
+      "classifier": "แผล（处伤口）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่ผิวหนังขาดหรือได้รับบาดเจ็บ",
+        "translations": {
+          "zh": "伤口",
+          "en": "wound, cut"
+        },
+        "examples": [
+          {
+            "text": "แผลนี้ต้องล้างให้สะอาด",
+            "translations": {
+              "zh": "这个伤口要洗干净。",
+              "en": "This wound needs to be cleaned."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เลือด",
+    "phonetic": "lueat",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "lʉ̂at · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำสีแดงในร่างกาย",
+        "translations": {
+          "zh": "血",
+          "en": "blood"
+        },
+        "examples": [
+          {
+            "text": "นิ้วมีเลือดออก",
+            "translations": {
+              "zh": "手指流血了。",
+              "en": "My finger is bleeding."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กระดูก",
+    "phonetic": "kraduk",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "krà-dùuk · 低, 低",
+      "classifier": "ชิ้น（块）；ท่อน（根）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนแข็งๆ ในร่างกายคนและสัตว์",
+        "translations": {
+          "zh": "骨头",
+          "en": "bone"
+        },
+        "examples": [
+          {
+            "text": "เขาตกบันไดกระดูกหัก",
+            "translations": {
+              "zh": "他从楼梯摔下来骨折了。",
+              "en": "He fell down the stairs and broke a bone."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผิว",
+    "phonetic": "phio",
+    "cefr": "A2",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "phǐw · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนที่อยู่นอกสุดของร่างกาย",
+        "translations": {
+          "zh": "皮肤",
+          "en": "skin"
+        },
+        "examples": [
+          {
+            "text": "แดดแรงทำให้ผิวดำ",
+            "translations": {
+              "zh": "太阳太晒会把皮肤晒黑。",
+              "en": "Strong sun makes your skin darker."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไหล่",
+    "phonetic": "lai",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "lài · 低",
+      "classifier": "ข้าง（边）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนของร่างกายระหว่างคอกับแขน",
+        "translations": {
+          "zh": "肩膀",
+          "en": "shoulder"
+        },
+        "examples": [
+          {
+            "text": "ปวดไหล่เพราะนั่งทำงานนาน",
+            "translations": {
+              "zh": "久坐工作，肩膀疼。",
+              "en": "My shoulder hurts from sitting at work too long."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เข่า",
+    "phonetic": "khao",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "khào · 低",
+      "classifier": "ข้าง（边）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนกลางของขาที่งอได้",
+        "translations": {
+          "zh": "膝盖",
+          "en": "knee"
+        },
+        "examples": [
+          {
+            "text": "วิ่งมากเลยเจ็บเข่า",
+            "translations": {
+              "zh": "跑太多，膝盖疼。",
+              "en": "I ran too much and hurt my knee."
+            }
+          }
+        ],
+        "usageNote": "注意与 ข้าว（降调，米饭）、เข้า（降调，进）区分，เข่า 是低调。"
+      }
+    ]
+  },
+  {
+    "headword": "รถพยาบาล",
+    "phonetic": "rot phayaban",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "rót-phá-yaa-baan · 高, 高, 中, 中",
+      "classifier": "คัน（辆）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รถที่พาคนป่วยหรือคนเจ็บไปโรงพยาบาล",
+        "translations": {
+          "zh": "救护车",
+          "en": "ambulance"
+        },
+        "examples": [
+          {
+            "text": "ช่วยเรียกรถพยาบาลด่วน",
+            "translations": {
+              "zh": "快帮忙叫救护车！",
+              "en": "Call an ambulance, quick!"
+            }
+          }
+        ],
+        "usageNote": "泰国急救电话 1669。"
+      }
+    ]
+  },
+  {
+    "headword": "ห้องฉุกเฉิน",
+    "phonetic": "hong chukchoen",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "hɔ̂ng-chùk-chə̌ən · 降, 低, 升",
+      "classifier": "ห้อง（间）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ห้องในโรงพยาบาลสำหรับคนเจ็บหนักหรือด่วน",
+        "translations": {
+          "zh": "急诊室",
+          "en": "emergency room"
+        },
+        "examples": [
+          {
+            "text": "พาเขาไปห้องฉุกเฉินเลย",
+            "translations": {
+              "zh": "马上送他去急诊室。",
+              "en": "Take him straight to the emergency room."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อุบัติเหตุ",
+    "phonetic": "ubattihet",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "ù-bàt-tì-hèet · 低, 低, 低, 低",
+      "classifier": "ครั้ง（次）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องร้ายที่เกิดขึ้นโดยไม่ตั้งใจ เช่น รถชน",
+        "translations": {
+          "zh": "事故；意外",
+          "en": "accident"
+        },
+        "examples": [
+          {
+            "text": "เมื่อวานมีอุบัติเหตุบนถนนนี้",
+            "translations": {
+              "zh": "昨天这条路上出了事故。",
+              "en": "There was an accident on this road yesterday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประกัน",
+    "phonetic": "prakan",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "prà-kan · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การจ่ายเงินไว้ก่อน เพื่อให้บริษัทช่วยจ่ายเมื่อมีปัญหา",
+        "translations": {
+          "zh": "保险",
+          "en": "insurance"
+        },
+        "examples": [
+          {
+            "text": "คุณมีประกันการเดินทางไหม",
+            "translations": {
+              "zh": "你有旅游保险吗？",
+              "en": "Do you have travel insurance?"
+            }
+          }
+        ],
+        "usageNote": "全称 การประกัน；\"医疗保险\"说 ประกันสุขภาพ。"
+      }
+    ]
+  },
+  {
+    "headword": "หน้ากาก",
+    "phonetic": "na kak",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "nâa-kàak · 降, 低",
+      "classifier": "อัน（个）；ชิ้น（片）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใส่ปิดจมูกและปาก",
+        "translations": {
+          "zh": "口罩；面具",
+          "en": "face mask; mask"
+        },
+        "examples": [
+          {
+            "text": "ฝุ่นเยอะ ใส่หน้ากากด้วยนะ",
+            "translations": {
+              "zh": "灰尘多，记得戴口罩。",
+              "en": "It's dusty, so wear a mask."
+            }
+          }
+        ],
+        "usageNote": "口罩全称 หน้ากากอนามัย。"
+      }
+    ]
+  },
+  {
+    "headword": "เภสัชกร",
+    "phonetic": "phesatchakon",
+    "cefr": "A2",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "phee-sàt-chá-kɔɔn · 中, 低, 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เรียนเรื่องยาและขายยาในร้านขายยา",
+        "translations": {
+          "zh": "药剂师",
+          "en": "pharmacist"
+        },
+        "examples": [
+          {
+            "text": "ถามเภสัชกรก่อนกินยา",
+            "translations": {
+              "zh": "吃药前先问问药剂师。",
+              "en": "Ask the pharmacist before taking the medicine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขนาด",
+    "phonetic": "khanat",
+    "cefr": "A2",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "toneMarks": "khà-nàat · 低, 低",
+      "classifier": "ขนาด（种尺寸）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความใหญ่หรือเล็กของสิ่งของ",
+        "translations": {
+          "zh": "大小；尺寸",
+          "en": "size"
+        },
+        "examples": [
+          {
+            "text": "มีขนาดใหญ่กว่านี้ไหม",
+            "translations": {
+              "zh": "有比这个大的尺寸吗？",
+              "en": "Do you have a bigger size?"
+            }
+          }
+        ],
+        "usageNote": "买衣服时也常说 ไซซ์（size）。"
+      }
+    ]
+  },
+  {
+    "headword": "ห้องลองเสื้อ",
+    "phonetic": "hong long suea",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "hɔ̂ng-lɔɔng-sʉ̂a · 降, 中, 降",
+      "classifier": "ห้อง（间）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ห้องเล็กๆ ในร้านสำหรับลองเสื้อผ้า",
+        "translations": {
+          "zh": "试衣间",
+          "en": "fitting room"
+        },
+        "examples": [
+          {
+            "text": "ห้องลองเสื้ออยู่ข้างหลังร้าน",
+            "translations": {
+              "zh": "试衣间在店的后面。",
+              "en": "The fitting room is at the back of the shop."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตะกร้า",
+    "phonetic": "takra",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "tà-krâa · 低, 降",
+      "classifier": "ใบ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาชนะสานหรือพลาสติกสำหรับใส่ของ",
+        "translations": {
+          "zh": "篮子；购物篮",
+          "en": "basket"
+        },
+        "examples": [
+          {
+            "text": "หยิบตะกร้าก่อนเข้าร้าน",
+            "translations": {
+              "zh": "进店前先拿个篮子。",
+              "en": "Grab a basket before going into the shop."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รถเข็น",
+    "phonetic": "rot khen",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "rót-khěn · 高, 升",
+      "classifier": "คัน（辆）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รถเล็กที่ใช้มือเข็น เช่นในซุปเปอร์มาร์เก็ต",
+        "translations": {
+          "zh": "手推车；购物车；轮椅",
+          "en": "trolley, cart; wheelchair"
+        },
+        "examples": [
+          {
+            "text": "ของเยอะ ใช้รถเข็นดีกว่า",
+            "translations": {
+              "zh": "东西多，用手推车好一些。",
+              "en": "There's a lot of stuff, so better use a trolley."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แคชเชียร์",
+    "phonetic": "khaetchia",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "khɛ́t-chia · 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่รับเงินในร้าน",
+        "translations": {
+          "zh": "收银员；收银台",
+          "en": "cashier"
+        },
+        "examples": [
+          {
+            "text": "จ่ายเงินที่แคชเชียร์",
+            "translations": {
+              "zh": "在收银台付钱。",
+              "en": "Pay at the cashier."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คิว",
+    "phonetic": "khio",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "khiw · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แถวของคนที่รอ หรือลำดับที่ต้องรอ",
+        "translations": {
+          "zh": "队；排队号",
+          "en": "queue"
+        },
+        "examples": [
+          {
+            "text": "ต้องรอคิวนานไหม",
+            "translations": {
+              "zh": "要排很久的队吗？",
+              "en": "Do we have to queue for long?"
+            }
+          }
+        ],
+        "usageNote": "\"排队\"说 ต่อคิว 或 เข้าคิว；\"插队\"说 แซงคิว。"
+      }
+    ]
+  },
+  {
+    "headword": "โปรโมชั่น",
+    "phonetic": "promochan",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "proo-moo-chân · 中, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การลดราคาหรือแถมของเพื่อให้คนซื้อ",
+        "translations": {
+          "zh": "促销；优惠活动",
+          "en": "promotion, special offer"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้มีโปรโมชั่นซื้อหนึ่งแถมหนึ่ง",
+            "translations": {
+              "zh": "这家店有买一送一的促销。",
+              "en": "This shop has a buy-one-get-one-free offer."
+            }
+          }
+        ],
+        "usageNote": "口语常简称 โปร。"
+      }
+    ]
+  },
+  {
+    "headword": "ยี่ห้อ",
+    "phonetic": "yiho",
+    "cefr": "A2",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "yîi-hɔ̂ɔ · 降, 降",
+      "classifier": "ยี่ห้อ（个牌子）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ชื่อของสินค้าจากบริษัทหนึ่ง",
+        "translations": {
+          "zh": "牌子；品牌",
+          "en": "brand"
+        },
+        "examples": [
+          {
+            "text": "มือถือยี่ห้ออะไรดี",
+            "translations": {
+              "zh": "什么牌子的手机好？",
+              "en": "Which brand of phone is good?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ของฝาก",
+    "phonetic": "khong fak",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "khɔ̌ɔng-fàak · 升, 低",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ซื้อจากที่เที่ยวมาให้คนอื่น",
+        "translations": {
+          "zh": "伴手礼；土特产",
+          "en": "souvenir, gift from a trip"
+        },
+        "examples": [
+          {
+            "text": "ซื้อของฝากให้เพื่อนที่ทำงาน",
+            "translations": {
+              "zh": "给同事买伴手礼。",
+              "en": "I bought souvenirs for my colleagues."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แชมพู",
+    "phonetic": "chaemphu",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "chɛm-phuu · 中, 中",
+      "classifier": "ขวด（瓶）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำยาสำหรับสระผม",
+        "translations": {
+          "zh": "洗发水",
+          "en": "shampoo"
+        },
+        "examples": [
+          {
+            "text": "แชมพูในห้องน้ำหมดแล้ว",
+            "translations": {
+              "zh": "浴室里的洗发水用完了。",
+              "en": "The shampoo in the bathroom has run out."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ยาสีฟัน",
+    "phonetic": "ya si fan",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "yaa-sǐi-fan · 中, 升, 中",
+      "classifier": "หลอด（支）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ครีมที่ใช้แปรงฟัน",
+        "translations": {
+          "zh": "牙膏",
+          "en": "toothpaste"
+        },
+        "examples": [
+          {
+            "text": "ลืมเอายาสีฟันมา",
+            "translations": {
+              "zh": "忘带牙膏了。",
+              "en": "I forgot to bring toothpaste."
+            }
+          }
+        ],
+        "usageNote": "字面是\"擦牙的药\"，与\"药\"无关。"
+      }
+    ]
+  },
+  {
+    "headword": "แปรงสีฟัน",
+    "phonetic": "praeng si fan",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "prɛɛng-sǐi-fan · 中, 升, 中",
+      "classifier": "อัน（个）；ด้าม（把）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แปรงสำหรับทำความสะอาดฟัน",
+        "translations": {
+          "zh": "牙刷",
+          "en": "toothbrush"
+        },
+        "examples": [
+          {
+            "text": "ซื้อแปรงสีฟันใหม่",
+            "translations": {
+              "zh": "买一把新牙刷。",
+              "en": "Buy a new toothbrush."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทิชชู่",
+    "phonetic": "thitchu",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "thít-chûu · 高, 降",
+      "classifier": "ห่อ（包）；ม้วน（卷）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กระดาษนุ่มๆ สำหรับเช็ดปากหรือเช็ดมือ",
+        "translations": {
+          "zh": "纸巾",
+          "en": "tissue"
+        },
+        "examples": [
+          {
+            "text": "ขอทิชชู่หน่อยค่ะ",
+            "translations": {
+              "zh": "请给我点纸巾。",
+              "en": "Could I have some tissues, please?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ครีมกันแดด",
+    "phonetic": "khrim kan daet",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "khriim-kan-dɛ̀ɛt · 中, 中, 低",
+      "classifier": "หลอด（支）；ขวด（瓶）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ครีมทาผิวเพื่อกันแดด",
+        "translations": {
+          "zh": "防晒霜",
+          "en": "sunscreen"
+        },
+        "examples": [
+          {
+            "text": "ไปทะเลอย่าลืมทาครีมกันแดด",
+            "translations": {
+              "zh": "去海边别忘了涂防晒霜。",
+              "en": "Don't forget sunscreen at the beach."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำหอม",
+    "phonetic": "nam hom",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "náam-hɔ̌ɔm · 高, 升",
+      "classifier": "ขวด（瓶）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำที่มีกลิ่นหอม ใช้ฉีดตัว",
+        "translations": {
+          "zh": "香水",
+          "en": "perfume"
+        },
+        "examples": [
+          {
+            "text": "น้ำหอมขวดนี้กลิ่นดีมาก",
+            "translations": {
+              "zh": "这瓶香水味道很好。",
+              "en": "This bottle of perfume smells great."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครื่องสำอาง",
+    "phonetic": "khrueang samang",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "khrʉ̂ang-sǎm-aang · 降, 升, 中",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใช้แต่งหน้าให้สวย",
+        "translations": {
+          "zh": "化妆品",
+          "en": "cosmetics, makeup"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้ขายเครื่องสำอางเกาหลี",
+            "translations": {
+              "zh": "这家店卖韩国化妆品。",
+              "en": "This shop sells Korean cosmetics."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รหัสผ่าน",
+    "phonetic": "rahat phan",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "rá-hàt-phàan · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตัวเลขหรือตัวอักษรลับสำหรับเข้าใช้ระบบ",
+        "translations": {
+          "zh": "密码",
+          "en": "password"
+        },
+        "examples": [
+          {
+            "text": "รหัสผ่านไวไฟคืออะไรครับ",
+            "translations": {
+              "zh": "无线网密码是多少？",
+              "en": "What's the Wi-Fi password?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แอป",
+    "phonetic": "aep",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "ɛ́p · 高",
+      "classifier": "แอป（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โปรแกรมในมือถือ",
+        "translations": {
+          "zh": "应用；App",
+          "en": "app"
+        },
+        "examples": [
+          {
+            "text": "สั่งอาหารผ่านแอปง่ายมาก",
+            "translations": {
+              "zh": "用App点外卖很方便。",
+              "en": "Ordering food through an app is very easy."
+            }
+          }
+        ],
+        "usageNote": "也写作 แอปพลิเคชัน。"
+      }
+    ]
+  },
+  {
+    "headword": "ที่ชาร์จ",
+    "phonetic": "thi chat",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "thîi-cháat · 降, 高",
+      "classifier": "อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใช้ชาร์จแบตมือถือ",
+        "translations": {
+          "zh": "充电器",
+          "en": "charger"
+        },
+        "examples": [
+          {
+            "text": "ยืมที่ชาร์จหน่อยได้ไหม",
+            "translations": {
+              "zh": "能借一下充电器吗？",
+              "en": "Can I borrow your charger?"
+            }
+          }
+        ],
+        "usageNote": "ที่ + 动词 常构成工具名词：ที่เปิดขวด（开瓶器）。"
+      }
+    ]
+  },
+  {
+    "headword": "อินเทอร์เน็ต",
+    "phonetic": "inthoenet",
+    "cefr": "A2",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "toneMarks": "in-thəə-nét · 中, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบบที่ทำให้คอมพิวเตอร์และมือถือติดต่อกันทั่วโลก",
+        "translations": {
+          "zh": "互联网；网络",
+          "en": "internet"
+        },
+        "examples": [
+          {
+            "text": "ห้องนี้อินเทอร์เน็ตช้ามาก",
+            "translations": {
+              "zh": "这个房间网速很慢。",
+              "en": "The internet in this room is really slow."
+            }
+          }
+        ],
+        "usageNote": "口语常说 เน็ต。"
+      }
+    ]
+  },
+  {
+    "headword": "เว็บไซต์",
+    "phonetic": "wepsai",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "wép-sái · 高, 高",
+      "classifier": "เว็บไซต์（个网站）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หน้าข้อมูลบนอินเทอร์เน็ต",
+        "translations": {
+          "zh": "网站",
+          "en": "website"
+        },
+        "examples": [
+          {
+            "text": "ดูรายละเอียดในเว็บไซต์ได้",
+            "translations": {
+              "zh": "可以在网站上看详情。",
+              "en": "You can see the details on the website."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อความ",
+    "phonetic": "khokhwam",
+    "cefr": "A2",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-khwaam · 降, 中",
+      "classifier": "ข้อความ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คำที่เขียนส่งหากัน",
+        "translations": {
+          "zh": "消息；短信；文字",
+          "en": "message, text"
+        },
+        "examples": [
+          {
+            "text": "ผมส่งข้อความไปแล้ว แต่เขายังไม่ตอบ",
+            "translations": {
+              "zh": "我已经发了消息，但他还没回。",
+              "en": "I sent a message but he hasn't replied yet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รูปถ่าย",
+    "phonetic": "rup thai",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "rûup-thàai · 降, 低",
+      "classifier": "รูป（张）；ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาพที่ได้จากกล้อง",
+        "translations": {
+          "zh": "照片",
+          "en": "photograph"
+        },
+        "examples": [
+          {
+            "text": "รูปถ่ายนี้สวยมาก",
+            "translations": {
+              "zh": "这张照片很漂亮。",
+              "en": "This photo is beautiful."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กล้อง",
+    "phonetic": "klong",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "klɔ̂ng · 降",
+      "classifier": "ตัว（台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องที่ใช้ถ่ายรูป",
+        "translations": {
+          "zh": "相机；摄像头",
+          "en": "camera"
+        },
+        "examples": [
+          {
+            "text": "ห้ามใช้กล้องในวัดนี้",
+            "translations": {
+              "zh": "这座寺庙禁止使用相机。",
+              "en": "Cameras are not allowed in this temple."
+            }
+          }
+        ],
+        "usageNote": "注意 กล้อง（降调，相机）与 กล่อง（低调，盒子）。"
+      }
+    ]
+  },
+  {
+    "headword": "หูฟัง",
+    "phonetic": "hu fang",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "hǔu-fang · 升, 中",
+      "classifier": "อัน（副）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใส่หูเพื่อฟังเสียงเพลง",
+        "translations": {
+          "zh": "耳机",
+          "en": "earphones, headphones"
+        },
+        "examples": [
+          {
+            "text": "ใส่หูฟังฟังเพลงบนรถไฟฟ้า",
+            "translations": {
+              "zh": "在轻轨上戴耳机听歌。",
+              "en": "I listen to music with earphones on the Skytrain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จอ",
+    "phonetic": "cho",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "jɔɔ · 中",
+      "classifier": "จอ（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนที่แสดงภาพของทีวี คอมพิวเตอร์ หรือมือถือ",
+        "translations": {
+          "zh": "屏幕",
+          "en": "screen"
+        },
+        "examples": [
+          {
+            "text": "จอมือถือแตก",
+            "translations": {
+              "zh": "手机屏幕碎了。",
+              "en": "My phone screen is cracked."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปลั๊ก",
+    "phonetic": "plak",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "plák · 高",
+      "classifier": "อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่เสียบสายไฟ",
+        "translations": {
+          "zh": "插头；插座",
+          "en": "plug; socket"
+        },
+        "examples": [
+          {
+            "text": "ปลั๊กอยู่ข้างเตียง",
+            "translations": {
+              "zh": "插座在床边。",
+              "en": "The socket is next to the bed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครื่องพิมพ์",
+    "phonetic": "khrueang phim",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "khrʉ̂ang-phim · 降, 中",
+      "classifier": "เครื่อง（台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องที่พิมพ์ข้อความลงกระดาษ",
+        "translations": {
+          "zh": "打印机",
+          "en": "printer"
+        },
+        "examples": [
+          {
+            "text": "เครื่องพิมพ์กระดาษหมด",
+            "translations": {
+              "zh": "打印机没纸了。",
+              "en": "The printer is out of paper."
+            }
+          }
+        ],
+        "usageNote": "เครื่อง + 动词 表示机器：เครื่องซักผ้า、เครื่องบิน。"
+      }
+    ]
+  }
+]

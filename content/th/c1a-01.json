@@ -1,0 +1,1383 @@
+[
+  {
+    "headword": "ดำเนินการ",
+    "phonetic": "damnoen kan",
+    "cefr": "C1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "dam-nəən-kaan · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ลงมือทำตามขั้นตอนอย่างเป็นทางการ",
+        "translations": {
+          "zh": "进行；实施；办理",
+          "en": "to carry out; to proceed with"
+        },
+        "examples": [
+          {
+            "text": "บริษัทจะดำเนินการคืนเงินภายในเจ็ดวัน",
+            "translations": {
+              "zh": "公司将在七天内办理退款。",
+              "en": "The company will process the refund within seven days."
+            }
+          }
+        ],
+        "usageNote": "书面语、公文常用；口语多说 ทำ。"
+      }
+    ]
+  },
+  {
+    "headword": "พิจารณา",
+    "phonetic": "phicharana",
+    "cefr": "C1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "phí-jaa-rá-naa · 高, 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตรวจดูและคิดอย่างรอบคอบ",
+        "translations": {
+          "zh": "考虑；审议；斟酌",
+          "en": "to consider; to deliberate on"
+        },
+        "examples": [
+          {
+            "text": "คณะกรรมการกำลังพิจารณาข้อเสนอของเรา",
+            "translations": {
+              "zh": "委员会正在审议我们的提议。",
+              "en": "The committee is considering our proposal."
+            }
+          }
+        ],
+        "usageNote": "书面语。ร 读作 ระ（rá）。"
+      }
+    ]
+  },
+  {
+    "headword": "ส่งเสริม",
+    "phonetic": "songsoem",
+    "cefr": "C1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "sòng-sə̌əm · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "สนับสนุนให้เจริญก้าวหน้า",
+        "translations": {
+          "zh": "促进；推动；提倡",
+          "en": "to promote; to encourage"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลส่งเสริมการท่องเที่ยวในชนบท",
+            "translations": {
+              "zh": "政府推动乡村旅游。",
+              "en": "The government promotes rural tourism."
+            }
+          }
+        ],
+        "usageNote": "书面语，常见于政策、新闻。"
+      }
+    ]
+  },
+  {
+    "headword": "ก่อให้เกิด",
+    "phonetic": "ko hai koet",
+    "cefr": "C1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "kɔ̀ɔ-hâi-kə̀ət · 低, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้มีขึ้นหรือเป็นขึ้น",
+        "translations": {
+          "zh": "导致；引起；造成",
+          "en": "to give rise to; to cause"
+        },
+        "examples": [
+          {
+            "text": "มลพิษทางอากาศก่อให้เกิดโรคทางเดินหายใจ",
+            "translations": {
+              "zh": "空气污染会引发呼吸道疾病。",
+              "en": "Air pollution causes respiratory diseases."
+            }
+          }
+        ],
+        "usageNote": "书面语；口语多说 ทำให้。"
+      }
+    ]
+  },
+  {
+    "headword": "ปรับปรุง",
+    "phonetic": "prapprung",
+    "cefr": "C1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "pràp-prung · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แก้ไขให้ดีขึ้น",
+        "translations": {
+          "zh": "改进；改善；翻修",
+          "en": "to improve; to revise; to renovate"
+        },
+        "examples": [
+          {
+            "text": "เราต้องปรับปรุงคุณภาพการบริการ",
+            "translations": {
+              "zh": "我们必须改善服务质量。",
+              "en": "We must improve the quality of our service."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิเคราะห์",
+    "phonetic": "wikhro",
+    "cefr": "C1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "wí-khrɔ́ · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แยกแยะและศึกษาอย่างละเอียด",
+        "translations": {
+          "zh": "分析",
+          "en": "to analyse"
+        },
+        "examples": [
+          {
+            "text": "นักวิจัยวิเคราะห์ข้อมูลจากแบบสอบถาม",
+            "translations": {
+              "zh": "研究人员分析了问卷数据。",
+              "en": "The researchers analysed the questionnaire data."
+            }
+          }
+        ],
+        "usageNote": "词尾 ห์ 不发音；名词为 การวิเคราะห์。"
+      }
+    ]
+  },
+  {
+    "headword": "ชี้ให้เห็น",
+    "phonetic": "chi hai hen",
+    "cefr": "C1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "chíi-hâi-hěn · 高, 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แสดงให้รู้หรือเข้าใจ",
+        "translations": {
+          "zh": "表明；指出",
+          "en": "to show; to point out"
+        },
+        "examples": [
+          {
+            "text": "ผลการศึกษาชี้ให้เห็นว่าเด็กนอนน้อยเกินไป",
+            "translations": {
+              "zh": "研究结果表明孩子们睡得太少。",
+              "en": "The study shows that children sleep too little."
+            }
+          }
+        ],
+        "usageNote": "书面语，常接 ว่า 引出内容。"
+      }
+    ]
+  },
+  {
+    "headword": "สะท้อน",
+    "phonetic": "sathon",
+    "cefr": "C1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "sà-thɔ́ɔn · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แสดงให้เห็นภาพหรือลักษณะของบางสิ่ง",
+        "translations": {
+          "zh": "反映",
+          "en": "to reflect"
+        },
+        "examples": [
+          {
+            "text": "ผลการเลือกตั้งสะท้อนความต้องการของประชาชน",
+            "translations": {
+              "zh": "选举结果反映了民众的意愿。",
+              "en": "The election result reflects what the people want."
+            }
+          }
+        ],
+        "usageNote": "本义是“反射（光、声）”，书面语多用引申义“反映”。"
+      }
+    ]
+  },
+  {
+    "headword": "ครอบคลุม",
+    "phonetic": "khropkhlum",
+    "cefr": "C1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "khrɔ̂ɔp-khlum · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รวมไปถึงทั้งหมด",
+        "translations": {
+          "zh": "涵盖；覆盖",
+          "en": "to cover; to encompass"
+        },
+        "examples": [
+          {
+            "text": "ประกันนี้ครอบคลุมค่ารักษาพยาบาลทั้งหมด",
+            "translations": {
+              "zh": "这份保险涵盖全部医疗费用。",
+              "en": "This insurance covers all medical expenses."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เผชิญ",
+    "phonetic": "phachoen",
+    "cefr": "C1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "phà-chəən · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ต้องพบกับสิ่งที่ยากลำบาก",
+        "translations": {
+          "zh": "面临；面对",
+          "en": "to face; to confront"
+        },
+        "examples": [
+          {
+            "text": "หลายประเทศกำลังเผชิญวิกฤตเศรษฐกิจ",
+            "translations": {
+              "zh": "许多国家正面临经济危机。",
+              "en": "Many countries are facing an economic crisis."
+            }
+          }
+        ],
+        "usageNote": "书面语；也说 เผชิญหน้า（当面对峙）。"
+      }
+    ]
+  },
+  {
+    "headword": "ตระหนัก",
+    "phonetic": "tranak",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "trà-nàk · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รู้และเข้าใจอย่างชัดเจน",
+        "translations": {
+          "zh": "意识到；认识到",
+          "en": "to realise; to be aware of"
+        },
+        "examples": [
+          {
+            "text": "เราต้องตระหนักถึงอันตรายของยาเสพติด",
+            "translations": {
+              "zh": "我们必须认识到毒品的危害。",
+              "en": "We must be aware of the dangers of drugs."
+            }
+          }
+        ],
+        "usageNote": "常与 ถึง 连用：ตระหนักถึง……。"
+      }
+    ]
+  },
+  {
+    "headword": "สนับสนุน",
+    "phonetic": "sanapsanun",
+    "cefr": "C1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "sà-nàp-sà-nǔn · 低, 低, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ช่วยเหลือเพื่อให้สำเร็จ",
+        "translations": {
+          "zh": "支持；赞助",
+          "en": "to support; to sponsor"
+        },
+        "examples": [
+          {
+            "text": "บริษัทนี้สนับสนุนกีฬาเยาวชนมาหลายปี",
+            "translations": {
+              "zh": "这家公司多年来赞助青少年体育。",
+              "en": "This company has sponsored youth sport for years."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บรรลุ",
+    "phonetic": "banlu",
+    "cefr": "C1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "ban-lú · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไปถึงจุดหมาย",
+        "translations": {
+          "zh": "达到；实现",
+          "en": "to achieve; to attain"
+        },
+        "examples": [
+          {
+            "text": "ในที่สุดเขาก็บรรลุเป้าหมายที่ตั้งไว้",
+            "translations": {
+              "zh": "他终于实现了既定目标。",
+              "en": "He finally achieved the goal he had set."
+            }
+          }
+        ],
+        "usageNote": "书面语。บรร 读作 ban（รร 读 an）。"
+      }
+    ]
+  },
+  {
+    "headword": "ยกระดับ",
+    "phonetic": "yok radap",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "yók-rá-dàp · 高, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สูงขึ้นหรือดีขึ้น",
+        "translations": {
+          "zh": "提升；提高（水平）",
+          "en": "to raise the level of; to upgrade"
+        },
+        "examples": [
+          {
+            "text": "โครงการนี้ช่วยยกระดับคุณภาพชีวิตของชาวบ้าน",
+            "translations": {
+              "zh": "这个项目帮助提升村民的生活质量。",
+              "en": "The project helps raise villagers' quality of life."
+            }
+          }
+        ],
+        "usageNote": "书面语，新闻、政策中常见。"
+      }
+    ]
+  },
+  {
+    "headword": "เอื้อ",
+    "phonetic": "uea",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "ʉ̂a · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สะดวกหรือเป็นประโยชน์",
+        "translations": {
+          "zh": "有利于；促进",
+          "en": "to be conducive to; to facilitate"
+        },
+        "examples": [
+          {
+            "text": "นโยบายใหม่เอื้อต่อการลงทุนจากต่างประเทศ",
+            "translations": {
+              "zh": "新政策有利于外国投资。",
+              "en": "The new policy is conducive to foreign investment."
+            }
+          }
+        ],
+        "usageNote": "书面语，常用 เอื้อต่อ……。"
+      }
+    ]
+  },
+  {
+    "headword": "คำนึง",
+    "phonetic": "khamnueng",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "kham-nʉng · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คิดถึงไว้ประกอบการตัดสินใจ",
+        "translations": {
+          "zh": "顾及；考虑到",
+          "en": "to take into account"
+        },
+        "examples": [
+          {
+            "text": "เราต้องคำนึงถึงความปลอดภัยของผู้โดยสาร",
+            "translations": {
+              "zh": "我们必须顾及乘客的安全。",
+              "en": "We must take passenger safety into account."
+            }
+          }
+        ],
+        "usageNote": "几乎总是说 คำนึงถึง……。"
+      }
+    ]
+  },
+  {
+    "headword": "ตีความ",
+    "phonetic": "tikhwam",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "tii-khwaam · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อธิบายหรือกำหนดความหมาย",
+        "translations": {
+          "zh": "解释；诠释",
+          "en": "to interpret"
+        },
+        "examples": [
+          {
+            "text": "นักกฎหมายตีความมาตรานี้ต่างกัน",
+            "translations": {
+              "zh": "律师们对这一条款的解释各不相同。",
+              "en": "Lawyers interpret this clause differently."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประเมิน",
+    "phonetic": "pramoen",
+    "cefr": "C1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "prà-məən · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คาดคะเนหรือวัดคุณค่า",
+        "translations": {
+          "zh": "评估；估计",
+          "en": "to assess; to evaluate"
+        },
+        "examples": [
+          {
+            "text": "ครูประเมินผลงานของนักเรียนทุกภาคเรียน",
+            "translations": {
+              "zh": "老师每学期评估学生的作业。",
+              "en": "Teachers assess students' work every semester."
+            }
+          }
+        ],
+        "usageNote": "名词：การประเมิน（评估）。"
+      }
+    ]
+  },
+  {
+    "headword": "เสนอ",
+    "phonetic": "sanoe",
+    "cefr": "C1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "sà-nə̌ə · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยื่นความคิดหรือเรื่องให้พิจารณา",
+        "translations": {
+          "zh": "提出；建议；提议",
+          "en": "to propose; to put forward"
+        },
+        "examples": [
+          {
+            "text": "เขาเสนอแนวทางแก้ปัญหาที่น่าสนใจ",
+            "translations": {
+              "zh": "他提出了一个很有意思的解决思路。",
+              "en": "He put forward an interesting solution."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ระบุ",
+    "phonetic": "rabu",
+    "cefr": "C1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "rá-bù · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "บอกให้ชัดเจน",
+        "translations": {
+          "zh": "注明；指明",
+          "en": "to specify; to state"
+        },
+        "examples": [
+          {
+            "text": "กรุณาระบุชื่อและที่อยู่ให้ครบถ้วน",
+            "translations": {
+              "zh": "请完整填写姓名和地址。",
+              "en": "Please state your full name and address."
+            }
+          }
+        ],
+        "usageNote": "表格、公文常用。"
+      }
+    ]
+  },
+  {
+    "headword": "อนุมัติ",
+    "phonetic": "anumat",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "à-nú-mát · 低, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยอมให้ทำตามที่เสนอ",
+        "translations": {
+          "zh": "批准；核准",
+          "en": "to approve"
+        },
+        "examples": [
+          {
+            "text": "ผู้อำนวยการอนุมัติงบประมาณแล้ว",
+            "translations": {
+              "zh": "主任已经批准了预算。",
+              "en": "The director has approved the budget."
+            }
+          }
+        ],
+        "usageNote": "书面语。词尾 ติ 不发音，读 อะ-นุ-มัด。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฏิบัติ",
+    "phonetic": "patibat",
+    "cefr": "C1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "pà-tì-bàt · 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำตามหรือกระทำ",
+        "translations": {
+          "zh": "执行；实践；遵守",
+          "en": "to carry out; to practise; to comply with"
+        },
+        "examples": [
+          {
+            "text": "พนักงานทุกคนต้องปฏิบัติตามกฎของบริษัท",
+            "translations": {
+              "zh": "所有员工都必须遵守公司规定。",
+              "en": "All staff must comply with company rules."
+            }
+          }
+        ],
+        "usageNote": "ฏ 读 t，词尾 ติ 不发音：ปะ-ติ-บัด。"
+      }
+    ]
+  },
+  {
+    "headword": "ดำรง",
+    "phonetic": "damrong",
+    "cefr": "C1",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "dam-rong · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทรงไว้หรือคงไว้",
+        "translations": {
+          "zh": "保持；担任（职位）",
+          "en": "to maintain; to hold (a post)"
+        },
+        "examples": [
+          {
+            "text": "เขาดำรงตำแหน่งประธานบริษัทมาสิบปี",
+            "translations": {
+              "zh": "他担任公司董事长已有十年。",
+              "en": "He has held the post of company chairman for ten years."
+            }
+          }
+        ],
+        "usageNote": "书面语：ดำรงตำแหน่ง（担任职务）、ดำรงชีวิต（生存、过日子）。"
+      }
+    ]
+  },
+  {
+    "headword": "จัดตั้ง",
+    "phonetic": "chattang",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "jàt-tâng · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตั้งขึ้นอย่างเป็นทางการ",
+        "translations": {
+          "zh": "成立；设立",
+          "en": "to establish; to set up"
+        },
+        "examples": [
+          {
+            "text": "มหาวิทยาลัยจัดตั้งศูนย์วิจัยแห่งใหม่",
+            "translations": {
+              "zh": "大学设立了一个新的研究中心。",
+              "en": "The university has set up a new research centre."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ก่อตั้ง",
+    "phonetic": "kotang",
+    "cefr": "C1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "kɔ̀ɔ-tâng · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เริ่มสร้างหรือตั้งขึ้นเป็นครั้งแรก",
+        "translations": {
+          "zh": "创立；创办",
+          "en": "to found"
+        },
+        "examples": [
+          {
+            "text": "บริษัทนี้ก่อตั้งขึ้นเมื่อห้าสิบปีก่อน",
+            "translations": {
+              "zh": "这家公司创立于五十年前。",
+              "en": "This company was founded fifty years ago."
+            }
+          }
+        ],
+        "usageNote": "ก่อตั้ง 强调“从无到有创立”，จัดตั้ง 侧重“按程序设立”。"
+      }
+    ]
+  },
+  {
+    "headword": "ริเริ่ม",
+    "phonetic": "riroem",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "rí-rə̂əm · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เริ่มคิดหรือเริ่มทำเป็นคนแรก",
+        "translations": {
+          "zh": "发起；首创",
+          "en": "to initiate; to pioneer"
+        },
+        "examples": [
+          {
+            "text": "นักศึกษากลุ่มนี้ริเริ่มโครงการปลูกป่า",
+            "translations": {
+              "zh": "这群大学生发起了植树造林项目。",
+              "en": "These students initiated a reforestation project."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผลักดัน",
+    "phonetic": "phlakdan",
+    "cefr": "C1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "phlàk-dan · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดันหรือกระตุ้นให้ก้าวหน้า",
+        "translations": {
+          "zh": "推动；促使",
+          "en": "to push forward; to drive"
+        },
+        "examples": [
+          {
+            "text": "ภาคเอกชนผลักดันให้รัฐแก้ไขกฎหมาย",
+            "translations": {
+              "zh": "私营部门推动政府修改法律。",
+              "en": "The private sector is pushing the state to amend the law."
+            }
+          }
+        ],
+        "usageNote": "本义“推”，书面语多指推动政策、议题。"
+      }
+    ]
+  },
+  {
+    "headword": "บั่นทอน",
+    "phonetic": "banthon",
+    "cefr": "C1",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "toneMarks": "bàn-thɔɔn · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ลดน้อยลงทีละน้อย",
+        "translations": {
+          "zh": "损害；削弱",
+          "en": "to erode; to undermine"
+        },
+        "examples": [
+          {
+            "text": "ความเครียดเรื้อรังบั่นทอนสุขภาพ",
+            "translations": {
+              "zh": "长期压力会损害健康。",
+              "en": "Chronic stress erodes your health."
+            }
+          }
+        ],
+        "usageNote": "书面语，多指健康、士气、信心被慢慢削弱。"
+      }
+    ]
+  },
+  {
+    "headword": "เอื้ออำนวย",
+    "phonetic": "uea amnuai",
+    "cefr": "C1",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "toneMarks": "ʉ̂a-am-nuay · 降, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้ความสะดวกหรือเป็นใจ",
+        "translations": {
+          "zh": "（条件）允许；便利",
+          "en": "to be favourable; to facilitate"
+        },
+        "examples": [
+          {
+            "text": "หากสภาพอากาศเอื้ออำนวย เราจะออกเดินทางพรุ่งนี้",
+            "translations": {
+              "zh": "如果天气条件允许，我们明天出发。",
+              "en": "Weather permitting, we'll set off tomorrow."
+            }
+          }
+        ],
+        "usageNote": "书面语，常用于条件句。"
+      }
+    ]
+  },
+  {
+    "headword": "บ่งชี้",
+    "phonetic": "bongchi",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "bòng-chíi · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แสดงให้เห็นเป็นเครื่องหมาย",
+        "translations": {
+          "zh": "表明；预示",
+          "en": "to indicate"
+        },
+        "examples": [
+          {
+            "text": "อาการนี้บ่งชี้ว่าผู้ป่วยขาดน้ำ",
+            "translations": {
+              "zh": "这种症状表明病人脱水了。",
+              "en": "This symptom indicates that the patient is dehydrated."
+            }
+          }
+        ],
+        "usageNote": "书面语；名词：ตัวบ่งชี้（指标）。"
+      }
+    ]
+  },
+  {
+    "headword": "คาดการณ์",
+    "phonetic": "khatkan",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "khâat-kaan · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คาดหมายเหตุการณ์ล่วงหน้า",
+        "translations": {
+          "zh": "预测；预计",
+          "en": "to forecast; to predict"
+        },
+        "examples": [
+          {
+            "text": "นักเศรษฐศาสตร์คาดการณ์ว่าเงินเฟ้อจะลดลง",
+            "translations": {
+              "zh": "经济学家预测通货膨胀会下降。",
+              "en": "Economists forecast that inflation will fall."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สันนิษฐาน",
+    "phonetic": "sannitthan",
+    "cefr": "C1",
+    "frequencyRank": 9200,
+    "grammarNotes": {
+      "toneMarks": "sǎn-nít-thǎan · 升, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คาดคะเนไว้ก่อนตามเหตุผล",
+        "translations": {
+          "zh": "推测；推定",
+          "en": "to presume; to surmise"
+        },
+        "examples": [
+          {
+            "text": "ตำรวจสันนิษฐานว่าคนร้ายหนีไปทางเหนือ",
+            "translations": {
+              "zh": "警方推测嫌犯往北逃了。",
+              "en": "Police presume the culprit fled north."
+            }
+          }
+        ],
+        "usageNote": "书面语。ษ 与 ฐ 拼作 นิด-ถาน：สัน-นิด-ถาน。"
+      }
+    ]
+  },
+  {
+    "headword": "ตั้งข้อสังเกต",
+    "phonetic": "tang kho sangket",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "tâng-khɔ̂ɔ-sǎng-kèet · 降, 降, 升, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้ความเห็นจากสิ่งที่สังเกตได้",
+        "translations": {
+          "zh": "指出（一点）；提出疑点",
+          "en": "to remark; to note"
+        },
+        "examples": [
+          {
+            "text": "นักวิชาการตั้งข้อสังเกตว่าตัวเลขนี้อาจไม่ถูกต้อง",
+            "translations": {
+              "zh": "学者指出这个数字可能不准确。",
+              "en": "Scholars noted that this figure may be inaccurate."
+            }
+          }
+        ],
+        "usageNote": "书面语，多用于提出疑问或保留意见。"
+      }
+    ]
+  },
+  {
+    "headword": "อภิปราย",
+    "phonetic": "aphiprai",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "à-phí-praai · 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูดแสดงความคิดเห็นในที่ประชุม",
+        "translations": {
+          "zh": "讨论；辩论",
+          "en": "to debate; to discuss"
+        },
+        "examples": [
+          {
+            "text": "สมาชิกรัฐสภาอภิปรายร่างกฎหมายนี้ทั้งวัน",
+            "translations": {
+              "zh": "国会议员就这项法案辩论了一整天。",
+              "en": "MPs debated the bill all day."
+            }
+          }
+        ],
+        "usageNote": "正式场合用语，如 การอภิปรายไม่ไว้วางใจ（不信任辩论）。"
+      }
+    ]
+  },
+  {
+    "headword": "วิพากษ์วิจารณ์",
+    "phonetic": "wiphak wichan",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "wí-phâak-wí-jaan · 高, 降, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ติชมหรือแสดงความเห็นอย่างมีเหตุผล",
+        "translations": {
+          "zh": "批评；评论",
+          "en": "to criticise; to critique"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนวิพากษ์วิจารณ์นโยบายนี้อย่างหนัก",
+            "translations": {
+              "zh": "民众严厉批评这项政策。",
+              "en": "The public harshly criticised this policy."
+            }
+          }
+        ],
+        "usageNote": "书面语；ษ์ 不发音。口语多说 วิจารณ์ 或 ติ。"
+      }
+    ]
+  },
+  {
+    "headword": "ตอกย้ำ",
+    "phonetic": "tok yam",
+    "cefr": "C1",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "toneMarks": "tɔ̀ɔk-yám · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้หนักแน่นหรือชัดเจนยิ่งขึ้น",
+        "translations": {
+          "zh": "再次印证；加深",
+          "en": "to reinforce; to underline"
+        },
+        "examples": [
+          {
+            "text": "เหตุการณ์นี้ตอกย้ำความสำคัญของการเตรียมพร้อม",
+            "translations": {
+              "zh": "这一事件再次凸显了做好准备的重要性。",
+              "en": "The incident underlines the importance of being prepared."
+            }
+          }
+        ],
+        "usageNote": "本义“钉牢”，新闻中常用其引申义。"
+      }
+    ]
+  },
+  {
+    "headword": "ส่งผล",
+    "phonetic": "songphon",
+    "cefr": "C1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "sòng-phǒn · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้เกิดผลตามมา",
+        "translations": {
+          "zh": "影响；导致（结果）",
+          "en": "to affect; to result in"
+        },
+        "examples": [
+          {
+            "text": "สภาพอากาศแปรปรวนส่งผลต่อผลผลิตทางการเกษตร",
+            "translations": {
+              "zh": "天气反常影响了农业产量。",
+              "en": "Erratic weather affects agricultural output."
+            }
+          }
+        ],
+        "usageNote": "常用 ส่งผลต่อ（影响……）、ส่งผลให้（导致……）。"
+      }
+    ]
+  },
+  {
+    "headword": "แสวงหา",
+    "phonetic": "sawaengha",
+    "cefr": "C1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "sà-wɛ̌ɛng-hǎa · 低, 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พยายามค้นหาให้ได้มา",
+        "translations": {
+          "zh": "寻求；谋求",
+          "en": "to seek"
+        },
+        "examples": [
+          {
+            "text": "ผู้อพยพเดินทางมาเพื่อแสวงหาชีวิตที่ดีกว่า",
+            "translations": {
+              "zh": "移民来这里寻求更好的生活。",
+              "en": "Migrants come here seeking a better life."
+            }
+          }
+        ],
+        "usageNote": "书面语，如 แสวงหาผลประโยชน์（谋取利益）。"
+      }
+    ]
+  },
+  {
+    "headword": "บูรณาการ",
+    "phonetic": "buranakan",
+    "cefr": "C1",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "toneMarks": "buu-rá-naa-kaan · 中, 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รวมส่วนต่างๆ เข้าเป็นหนึ่งเดียว",
+        "translations": {
+          "zh": "整合；融合",
+          "en": "to integrate"
+        },
+        "examples": [
+          {
+            "text": "โรงเรียนบูรณาการเทคโนโลยีเข้ากับการสอน",
+            "translations": {
+              "zh": "学校把技术融入教学。",
+              "en": "The school integrates technology into teaching."
+            }
+          }
+        ],
+        "usageNote": "政策、教育领域常用的书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "ฟื้นฟู",
+    "phonetic": "fuenfu",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "fʉ́ʉn-fuu · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้กลับดีดังเดิม",
+        "translations": {
+          "zh": "恢复；复兴",
+          "en": "to restore; to revive"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลมีแผนฟื้นฟูเศรษฐกิจหลังโรคระบาด",
+            "translations": {
+              "zh": "政府有疫情后复苏经济的计划。",
+              "en": "The government has a plan to revive the economy after the pandemic."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เสื่อม",
+    "phonetic": "sueam",
+    "cefr": "C1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "sʉ̀am · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ลดคุณภาพหรือความดีลง",
+        "translations": {
+          "zh": "衰退；变质；退化",
+          "en": "to deteriorate; to decline"
+        },
+        "examples": [
+          {
+            "text": "ความจำของคุณยายเริ่มเสื่อมลง",
+            "translations": {
+              "zh": "外婆的记忆力开始衰退了。",
+              "en": "Grandma's memory has begun to decline."
+            }
+          }
+        ],
+        "usageNote": "常与 ลง 连用；เสื่อมเสีย 指名誉受损。"
+      }
+    ]
+  },
+  {
+    "headword": "สืบทอด",
+    "phonetic": "suepthot",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "sʉ̀ʉp-thɔ̂ɔt · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รับช่วงต่อกันมา",
+        "translations": {
+          "zh": "传承；继承",
+          "en": "to inherit; to pass down"
+        },
+        "examples": [
+          {
+            "text": "ชาวบ้านสืบทอดประเพณีนี้มาหลายร้อยปี",
+            "translations": {
+              "zh": "村民们把这一传统传承了数百年。",
+              "en": "Villagers have passed down this tradition for centuries."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อนุรักษ์",
+    "phonetic": "anurak",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "à-nú-rák · 低, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รักษาไว้ไม่ให้สูญหายหรือเสียหาย",
+        "translations": {
+          "zh": "保护；保存",
+          "en": "to conserve; to preserve"
+        },
+        "examples": [
+          {
+            "text": "เราควรอนุรักษ์ป่าไม้ไว้ให้ลูกหลาน",
+            "translations": {
+              "zh": "我们应为子孙后代保护森林。",
+              "en": "We should conserve forests for future generations."
+            }
+          }
+        ],
+        "usageNote": "ษ์ 不发音：อะ-นุ-รัก。"
+      }
+    ]
+  },
+  {
+    "headword": "จำแนก",
+    "phonetic": "chamnaek",
+    "cefr": "C1",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "jam-nɛ̂ɛk · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แยกออกเป็นประเภท",
+        "translations": {
+          "zh": "分类；区分",
+          "en": "to classify"
+        },
+        "examples": [
+          {
+            "text": "นักชีววิทยาจำแนกพืชออกเป็นหลายกลุ่ม",
+            "translations": {
+              "zh": "生物学家把植物分成若干类。",
+              "en": "Biologists classify plants into several groups."
+            }
+          }
+        ],
+        "usageNote": "书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "สังเคราะห์",
+    "phonetic": "sangkhro",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "toneMarks": "sǎng-khrɔ́ · 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รวมส่วนต่างๆ ให้เป็นสิ่งใหม่",
+        "translations": {
+          "zh": "综合；合成",
+          "en": "to synthesise"
+        },
+        "examples": [
+          {
+            "text": "พืชสังเคราะห์แสงเพื่อสร้างอาหาร",
+            "translations": {
+              "zh": "植物进行光合作用制造养分。",
+              "en": "Plants photosynthesise to make food."
+            }
+          }
+        ],
+        "usageNote": "与 วิเคราะห์（分析）相对；ห์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "อ้างอิง",
+    "phonetic": "ang-ing",
+    "cefr": "C1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "âang-ing · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยกมาเป็นหลักฐานหรือแหล่งที่มา",
+        "translations": {
+          "zh": "引用；参考",
+          "en": "to cite; to refer to"
+        },
+        "examples": [
+          {
+            "text": "นักศึกษาต้องอ้างอิงแหล่งข้อมูลทุกครั้ง",
+            "translations": {
+              "zh": "学生每次都必须注明资料来源。",
+              "en": "Students must always cite their sources."
+            }
+          }
+        ],
+        "usageNote": "名词：เอกสารอ้างอิง（参考文献）。"
+      }
+    ]
+  },
+  {
+    "headword": "ยึดถือ",
+    "phonetic": "yuetthue",
+    "cefr": "C1",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "yʉ́t-thʉ̌ʉ · 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ถือเป็นหลักปฏิบัติ",
+        "translations": {
+          "zh": "秉持；奉行",
+          "en": "to adhere to; to uphold"
+        },
+        "examples": [
+          {
+            "text": "เขายึดถือความซื่อสัตย์เป็นหลักในการทำงาน",
+            "translations": {
+              "zh": "他把诚实作为工作的原则。",
+              "en": "He holds to honesty as his guiding principle at work."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คัดค้าน",
+    "phonetic": "khatkhan",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "khát-kháan · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แสดงว่าไม่เห็นด้วย",
+        "translations": {
+          "zh": "反对",
+          "en": "to oppose; to object to"
+        },
+        "examples": [
+          {
+            "text": "ชาวบ้านคัดค้านการสร้างเขื่อน",
+            "translations": {
+              "zh": "村民反对修建水坝。",
+              "en": "Villagers oppose the construction of the dam."
+            }
+          }
+        ],
+        "usageNote": "比 ไม่เห็นด้วย 更正式、更强烈。"
+      }
+    ]
+  }
+]

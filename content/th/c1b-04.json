@@ -1,0 +1,1481 @@
+[
+  {
+    "headword": "พระราชทาน",
+    "phonetic": "phraratchathan",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "phrá-râat-chá-thaan · 高, 降, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้ (ราชาศัพท์สำหรับพระมหากษัตริย์)",
+        "translations": {
+          "zh": "（国王）御赐，颁赐",
+          "en": "to bestow (royal)"
+        },
+        "examples": [
+          {
+            "text": "พระเจ้าอยู่หัวพระราชทานปริญญาบัตร",
+            "translations": {
+              "zh": "国王颁授毕业证书。",
+              "en": "The King presented the degree certificates."
+            }
+          }
+        ],
+        "usageNote": "上对下“给”，与 ถวาย 方向相反。"
+      }
+    ]
+  },
+  {
+    "headword": "รับสั่ง",
+    "phonetic": "rap sang",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "ráp-sàng · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูด หรือ สั่ง (ราชาศัพท์สำหรับเจ้านาย)",
+        "translations": {
+          "zh": "（王族）吩咐；说",
+          "en": "to say; to command (royal)"
+        },
+        "examples": [
+          {
+            "text": "พระองค์รับสั่งให้ช่วยเหลือผู้ประสบภัย",
+            "translations": {
+              "zh": "陛下吩咐救助灾民。",
+              "en": "Her Royal Highness ordered help for the disaster victims."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์，多用于王族成员。"
+      }
+    ]
+  },
+  {
+    "headword": "ขอบพระทัย",
+    "phonetic": "khop phrathai",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "khɔ̀ɔp-phrá-thai · 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ขอบใจ (ราชาศัพท์)",
+        "translations": {
+          "zh": "（王室）谢谢",
+          "en": "to thank (royal)"
+        },
+        "examples": [
+          {
+            "text": "เจ้าหญิงขอบพระทัยทุกคนที่มาต้อนรับ",
+            "translations": {
+              "zh": "公主感谢前来迎接的每一个人。",
+              "en": "The princess thanked everyone who came to greet her."
+            }
+          }
+        ],
+        "usageNote": "พระทัย＝王室用语的“心”（ใจ）。"
+      }
+    ]
+  },
+  {
+    "headword": "ทรงพระเจริญ",
+    "phonetic": "song phra charoen",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "song-phrá-cà-rəən · 中, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "คำถวายพระพรให้พระมหากษัตริย์",
+        "translations": {
+          "zh": "万岁（祝颂国王）",
+          "en": "Long live the King"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนเปล่งเสียงว่าทรงพระเจริญ",
+            "translations": {
+              "zh": "民众高呼“国王万岁”。",
+              "en": "The crowd cried “Long live the King”."
+            }
+          }
+        ],
+        "usageNote": "向国王致敬时的欢呼语，字面“愿陛下昌盛”。"
+      }
+    ]
+  },
+  {
+    "headword": "บิณฑบาต",
+    "phonetic": "binthabat",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "bin-thá-bàat · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พระสงฆ์รับอาหารที่ชาวบ้านใส่บาตร",
+        "translations": {
+          "zh": "（僧人）托钵化缘",
+          "en": "to go on alms round"
+        },
+        "examples": [
+          {
+            "text": "พระออกบิณฑบาตตั้งแต่เช้ามืด",
+            "translations": {
+              "zh": "僧人天刚亮就出去托钵。",
+              "en": "The monks go out on alms round before dawn."
+            }
+          }
+        ],
+        "usageNote": "信众的动作叫 ใส่บาตร 布施。"
+      }
+    ]
+  },
+  {
+    "headword": "จำวัด",
+    "phonetic": "cham wat",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "cam-wát · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "นอน (สำหรับพระสงฆ์)",
+        "translations": {
+          "zh": "（僧人）睡觉",
+          "en": "to sleep (of monks)"
+        },
+        "examples": [
+          {
+            "text": "หลวงพ่อจำวัดแล้ว พรุ่งนี้ค่อยมาใหม่",
+            "translations": {
+              "zh": "住持已经歇息了，明天再来吧。",
+              "en": "The abbot has gone to sleep; come back tomorrow."
+            }
+          }
+        ],
+        "usageNote": "僧侣用语（พระสงฆ์）。"
+      }
+    ]
+  },
+  {
+    "headword": "อาพาธ",
+    "phonetic": "aphat",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "aa-phâat · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ป่วย (สำหรับพระสงฆ์)",
+        "translations": {
+          "zh": "（僧人）生病",
+          "en": "to be ill (of monks)"
+        },
+        "examples": [
+          {
+            "text": "หลวงตาอาพาธต้องเข้าโรงพยาบาล",
+            "translations": {
+              "zh": "老和尚病了，需要住院。",
+              "en": "The old monk is ill and must go to hospital."
+            }
+          }
+        ],
+        "usageNote": "僧侣用语，相当于 ป่วย。"
+      }
+    ]
+  },
+  {
+    "headword": "มรณภาพ",
+    "phonetic": "moranaphap",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "mɔɔ-rá-ná-phâap · 中, 高, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตาย (สำหรับพระสงฆ์)",
+        "translations": {
+          "zh": "（僧人）圆寂",
+          "en": "to die (of monks)"
+        },
+        "examples": [
+          {
+            "text": "เจ้าอาวาสมรณภาพอย่างสงบ",
+            "translations": {
+              "zh": "住持安详圆寂。",
+              "en": "The abbot passed away peacefully."
+            }
+          }
+        ],
+        "usageNote": "僧侣用语。มรณะ 死亡。"
+      }
+    ]
+  },
+  {
+    "headword": "นิมนต์",
+    "phonetic": "nimon",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "ní-mon · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เชิญพระสงฆ์",
+        "translations": {
+          "zh": "（恭请）僧人",
+          "en": "to invite (a monk)"
+        },
+        "examples": [
+          {
+            "text": "เรานิมนต์พระเก้ารูปมาทำบุญบ้าน",
+            "translations": {
+              "zh": "我们请了九位僧人来做新居功德。",
+              "en": "We invited nine monks to bless the house."
+            }
+          }
+        ],
+        "usageNote": "僧人的量词是 รูป。ต์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "อาตมา",
+    "phonetic": "atama",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "àat-tà-maa · 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "pronoun",
+        "definition": "คำที่พระสงฆ์ใช้เรียกตัวเอง",
+        "translations": {
+          "zh": "贫僧（僧人自称）",
+          "en": "I (used by a monk)"
+        },
+        "examples": [
+          {
+            "text": "อาตมาขออนุโมทนาด้วย",
+            "translations": {
+              "zh": "贫僧随喜（赞叹你的功德）。",
+              "en": "I (the monk) rejoice in your merit."
+            }
+          }
+        ],
+        "usageNote": "僧人对俗人说话时的自称。"
+      }
+    ]
+  },
+  {
+    "headword": "โยม",
+    "phonetic": "yom",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "yoom · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "pronoun",
+        "definition": "คำที่พระสงฆ์ใช้เรียกฆราวาส",
+        "translations": {
+          "zh": "施主（僧人称俗人）",
+          "en": "you (a monk addressing a layperson)"
+        },
+        "examples": [
+          {
+            "text": "โยมมาจากที่ไหน",
+            "translations": {
+              "zh": "施主从哪里来？",
+              "en": "Where have you come from? (monk to layperson)"
+            }
+          }
+        ],
+        "usageNote": "僧人称呼俗家人；也可指出家人的父母（โยมพ่อ、โยมแม่）。"
+      }
+    ]
+  },
+  {
+    "headword": "เจริญพร",
+    "phonetic": "charoen phon",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "cà-rəən-phɔɔn · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "particle",
+        "definition": "คำรับหรือคำลงท้ายของพระสงฆ์",
+        "translations": {
+          "zh": "（僧人用语）是；善哉",
+          "en": "monk's polite particle; yes"
+        },
+        "examples": [
+          {
+            "text": "เจริญพร โยมนั่งก่อน",
+            "translations": {
+              "zh": "善哉，施主先请坐。",
+              "en": "Blessings — please sit down first."
+            }
+          }
+        ],
+        "usageNote": "僧人说话用的礼貌语，相当于俗人的 ครับ。"
+      }
+    ]
+  },
+  {
+    "headword": "ศีล",
+    "phonetic": "sin",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "sǐin · 升",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อปฏิบัติทางศาสนาเพื่อละเว้นความชั่ว",
+        "translations": {
+          "zh": "戒；戒律",
+          "en": "precept"
+        },
+        "examples": [
+          {
+            "text": "ชาวพุทธควรรักษาศีลห้า",
+            "translations": {
+              "zh": "佛教徒应持守五戒。",
+              "en": "Buddhists should keep the Five Precepts."
+            }
+          }
+        ],
+        "usageNote": "รักษาศีล 持戒；ถือศีล 守戒。"
+      }
+    ]
+  },
+  {
+    "headword": "นิพพาน",
+    "phonetic": "nipphan",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "níp-phaan · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะดับกิเลสและพ้นจากทุกข์",
+        "translations": {
+          "zh": "涅槃",
+          "en": "nirvana"
+        },
+        "examples": [
+          {
+            "text": "เป้าหมายสูงสุดของพุทธศาสนาคือนิพพาน",
+            "translations": {
+              "zh": "佛教的最高目标是涅槃。",
+              "en": "The highest goal of Buddhism is nirvana."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำขึ้นให้รีบตัก",
+    "phonetic": "nam khuen hai rip tak",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "náam-khʉ̂n-hâi-rîip-tàk · 高, 降, 降, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "มีโอกาสดีต้องรีบฉวยไว้",
+        "translations": {
+          "zh": "机不可失，时不再来；趁热打铁",
+          "en": "make hay while the sun shines"
+        },
+        "examples": [
+          {
+            "text": "หุ้นขึ้นแล้ว น้ำขึ้นให้รีบตักนะ",
+            "translations": {
+              "zh": "股票涨了，机不可失啊。",
+              "en": "Stocks are up — make hay while the sun shines."
+            }
+          }
+        ],
+        "usageNote": "字面“涨潮时要赶快舀水”。"
+      }
+    ]
+  },
+  {
+    "headword": "ไก่เห็นตีนงู งูเห็นนมไก่",
+    "phonetic": "kai hen tin ngu ngu hen nom kai",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "kài-hěn-tiin-nguu-nguu-hěn-nom-kài · 低, 升, 中, 中, 中, 升, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ต่างฝ่ายต่างรู้ความลับของกันและกัน",
+        "translations": {
+          "zh": "彼此知根知底；心照不宣",
+          "en": "each knows the other's secrets"
+        },
+        "examples": [
+          {
+            "text": "สองคนนี้ไก่เห็นตีนงู งูเห็นนมไก่ ไม่มีใครกล้าแฉใคร",
+            "translations": {
+              "zh": "这两人互相知根知底，谁也不敢揭发谁。",
+              "en": "These two know each other's secrets; neither dares expose the other."
+            }
+          }
+        ],
+        "usageNote": "字面“鸡看见蛇的脚，蛇看见鸡的奶”——都是平常看不到的东西。"
+      }
+    ]
+  },
+  {
+    "headword": "ขี่ช้างจับตั๊กแตน",
+    "phonetic": "khi chang chap takkataen",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "khìi-cháang-càp-ták-kà-tɛɛn · 低, 高, 低, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ลงทุนมากแต่ได้ผลน้อย",
+        "translations": {
+          "zh": "杀鸡用牛刀；兴师动众收效甚微",
+          "en": "use a sledgehammer to crack a nut"
+        },
+        "examples": [
+          {
+            "text": "จ้างทนายแพงขนาดนั้นเพื่อคดีเล็ก ๆ ก็ขี่ช้างจับตั๊กแตน",
+            "translations": {
+              "zh": "为小案子请那么贵的律师，真是杀鸡用牛刀。",
+              "en": "Hiring such an expensive lawyer for a tiny case is overkill."
+            }
+          }
+        ],
+        "usageNote": "字面“骑大象捉蚱蜢”。"
+      }
+    ]
+  },
+  {
+    "headword": "ปิดทองหลังพระ",
+    "phonetic": "pit thong lang phra",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "pìt-thɔɔng-lǎng-phrá · 低, 中, 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ทำความดีโดยไม่มีใครเห็นหรือไม่หวังชื่อเสียง",
+        "translations": {
+          "zh": "默默奉献；做好事不留名",
+          "en": "do good without seeking credit"
+        },
+        "examples": [
+          {
+            "text": "แม่บ้านคนนี้ปิดทองหลังพระมาตลอด",
+            "translations": {
+              "zh": "这位清洁阿姨一直默默奉献。",
+              "en": "This housekeeper has always quietly done good work unseen."
+            }
+          }
+        ],
+        "usageNote": "字面“在佛像背后贴金箔”——贴了也没人看见。"
+      }
+    ]
+  },
+  {
+    "headword": "กินน้ำใต้ศอก",
+    "phonetic": "kin nam tai sok",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "kin-náam-tâi-sɔ̀ɔk · 中, 高, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ต้องยอมเป็นรองผู้อื่น",
+        "translations": {
+          "zh": "低人一等；寄人篱下",
+          "en": "to play second fiddle"
+        },
+        "examples": [
+          {
+            "text": "เธอไม่ยอมกินน้ำใต้ศอกใคร",
+            "translations": {
+              "zh": "她不愿低人一等。",
+              "en": "She refuses to play second fiddle to anyone."
+            }
+          }
+        ],
+        "usageNote": "字面“喝从别人手肘下流下的水”，原指做小老婆。"
+      }
+    ]
+  },
+  {
+    "headword": "ตำน้ำพริกละลายแม่น้ำ",
+    "phonetic": "tam nam phrik lalai maenam",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "tam-náam-phrík-lá-laai-mɛ̂ɛ-náam · 中, 高, 高, 高, 中, 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ทุ่มทรัพย์ไปกับสิ่งที่ไม่ได้ประโยชน์",
+        "translations": {
+          "zh": "白白浪费；打水漂",
+          "en": "to pour money down the drain"
+        },
+        "examples": [
+          {
+            "text": "ลงทุนแบบนี้ก็เหมือนตำน้ำพริกละลายแม่น้ำ",
+            "translations": {
+              "zh": "这样投资就像打水漂。",
+              "en": "Investing like this is pouring money down the drain."
+            }
+          }
+        ],
+        "usageNote": "字面“捣好辣椒酱却倒进河里化掉”。"
+      }
+    ]
+  },
+  {
+    "headword": "ฆ่าควายเสียดายพริก",
+    "phonetic": "kha khwai sia dai phrik",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "khâa-khwaai-sǐa-daai-phrík · 降, 中, 升, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ทำเรื่องใหญ่แต่ตระหนี่เรื่องเล็กจนงานเสีย",
+        "translations": {
+          "zh": "因小失大；舍不得小钱坏了大事",
+          "en": "penny wise, pound foolish"
+        },
+        "examples": [
+          {
+            "text": "จัดงานแต่งแพงแต่ไม่ยอมจ้างช่างภาพดี ๆ ฆ่าควายเสียดายพริกชัด ๆ",
+            "translations": {
+              "zh": "婚礼花大钱却舍不得请好摄影师，明显因小失大。",
+              "en": "A lavish wedding but no good photographer — penny wise, pound foolish."
+            }
+          }
+        ],
+        "usageNote": "字面“杀了水牛却舍不得辣椒”。"
+      }
+    ]
+  },
+  {
+    "headword": "เข้าเมืองตาหลิ่วต้องหลิ่วตาตาม",
+    "phonetic": "khao mueang ta liu tong liu ta tam",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "khâo-mʉang-taa-lìu-tɔ̂ng-lìu-taa-taam · 降, 中, 中, 低, 降, 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ไปอยู่ที่ไหนต้องทำตามธรรมเนียมที่นั่น",
+        "translations": {
+          "zh": "入乡随俗",
+          "en": "when in Rome, do as the Romans do"
+        },
+        "examples": [
+          {
+            "text": "มาอยู่ญี่ปุ่นก็ต้องเข้าเมืองตาหลิ่วต้องหลิ่วตาตาม",
+            "translations": {
+              "zh": "来日本住就得入乡随俗。",
+              "en": "Living in Japan, you have to do as the locals do."
+            }
+          }
+        ],
+        "usageNote": "字面“进了眯眼人的城，也得跟着眯眼”。"
+      }
+    ]
+  },
+  {
+    "headword": "ช้า ๆ ได้พร้าเล่มงาม",
+    "phonetic": "cha cha dai phra lem ngam",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "cháa-cháa-dâi-phráa-lêm-ngaam · 高, 高, 降, 高, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ค่อย ๆ ทำอย่างรอบคอบแล้วจะได้ผลดี",
+        "translations": {
+          "zh": "慢工出细活",
+          "en": "slow and steady wins the race"
+        },
+        "examples": [
+          {
+            "text": "ไม่ต้องรีบ ช้า ๆ ได้พร้าเล่มงาม",
+            "translations": {
+              "zh": "别急，慢工出细活。",
+              "en": "No rush — slow and steady gets the best result."
+            }
+          }
+        ],
+        "usageNote": "字面“慢慢来，才能打出一把好砍刀”。"
+      }
+    ]
+  },
+  {
+    "headword": "น้ำร้อนปลาเป็น น้ำเย็นปลาตาย",
+    "phonetic": "nam ron pla pen nam yen pla tai",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "náam-rɔ́ɔn-plaa-pen-náam-yen-plaa-taai · 高, 高, 中, 中, 高, 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "คำพูดแรงแต่จริงใจไม่ทำร้าย คำหวานอาจทำให้เสียหาย",
+        "translations": {
+          "zh": "忠言逆耳利于行，甜言蜜语害死人",
+          "en": "harsh words help; sweet words can harm"
+        },
+        "examples": [
+          {
+            "text": "อย่าเชื่อคำหวาน จำไว้ว่าน้ำร้อนปลาเป็น น้ำเย็นปลาตาย",
+            "translations": {
+              "zh": "别信甜言蜜语，记住忠言逆耳、蜜语害人。",
+              "en": "Don't trust sweet talk — harsh words help, sweet words harm."
+            }
+          }
+        ],
+        "usageNote": "字面“热水里鱼活，凉水里鱼死”。"
+      }
+    ]
+  },
+  {
+    "headword": "ไม้ล้มข้ามได้ คนล้มอย่าข้าม",
+    "phonetic": "mai lom kham dai khon lom ya kham",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "máai-lóm-khâam-dâi-khon-lóm-yàa-khâam · 高, 高, 降, 降, 中, 高, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "อย่าดูถูกคนที่ตกต่ำ เพราะเขาอาจกลับมาได้อีก",
+        "translations": {
+          "zh": "莫欺少年穷；别小看落难之人",
+          "en": "don't look down on those who have fallen"
+        },
+        "examples": [
+          {
+            "text": "อย่าซ้ำเติมเขาเลย ไม้ล้มข้ามได้ คนล้มอย่าข้าม",
+            "translations": {
+              "zh": "别落井下石，人倒了不可跨过去。",
+              "en": "Don't kick him while he's down — he may rise again."
+            }
+          }
+        ],
+        "usageNote": "字面“树倒了可以跨过去，人倒了不可跨过去”。"
+      }
+    ]
+  },
+  {
+    "headword": "หนีเสือปะจระเข้",
+    "phonetic": "ni suea pa chorakhe",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "nǐi-sʉ̌a-pà-cɔɔ-rá-khêe · 升, 升, 低, 中, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "หนีอันตรายหนึ่งแล้วไปเจออีกอันตรายหนึ่ง",
+        "translations": {
+          "zh": "前门拒虎，后门进狼；才出虎口又入狼窝",
+          "en": "out of the frying pan into the fire"
+        },
+        "examples": [
+          {
+            "text": "ลาออกจากที่เก่ามาเจอหัวหน้าใหม่ที่แย่กว่า หนีเสือปะจระเข้แท้ ๆ",
+            "translations": {
+              "zh": "辞职后遇到更糟的新上司，真是才出虎口又入狼窝。",
+              "en": "I quit only to get a worse boss — out of the frying pan into the fire."
+            }
+          }
+        ],
+        "usageNote": "字面“逃离老虎，碰上鳄鱼”。"
+      }
+    ]
+  },
+  {
+    "headword": "ฝนตกไม่มีเค้า",
+    "phonetic": "fon tok mai mi khao",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "fǒn-tòk-mâi-mii-kháo · 升, 低, 降, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "เรื่องที่เกิดขึ้นโดยไม่มีสัญญาณเตือน",
+        "translations": {
+          "zh": "天有不测风云；事出突然",
+          "en": "out of the blue"
+        },
+        "examples": [
+          {
+            "text": "เขาลาออกแบบฝนตกไม่มีเค้า",
+            "translations": {
+              "zh": "他毫无征兆地辞职了。",
+              "en": "He resigned out of the blue."
+            }
+          }
+        ],
+        "usageNote": "字面“下雨却没有乌云征兆”。"
+      }
+    ]
+  },
+  {
+    "headword": "น้ำผึ้งหยดเดียว",
+    "phonetic": "nam phueng yot diao",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "náam-phʉ̂ng-yòt-diao · 高, 降, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "เรื่องเล็กน้อยที่ลุกลามเป็นเรื่องใหญ่",
+        "translations": {
+          "zh": "小事酿成大祸；星星之火",
+          "en": "a small thing that sparks a big conflict"
+        },
+        "examples": [
+          {
+            "text": "การทะเลาะครั้งนี้เริ่มจากน้ำผึ้งหยดเดียว",
+            "translations": {
+              "zh": "这场争吵起因于一件小事。",
+              "en": "This quarrel started from a trivial matter."
+            }
+          }
+        ],
+        "usageNote": "源自泰国文学《三界》故事：一滴蜂蜜引起连锁反应，最终导致两国交战。"
+      }
+    ]
+  },
+  {
+    "headword": "จับปลาสองมือ",
+    "phonetic": "chap pla song mue",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "càp-plaa-sɔ̌ɔng-mʉʉ · 低, 中, 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ทำหลายอย่างพร้อมกันจนอาจไม่ได้สักอย่าง",
+        "translations": {
+          "zh": "脚踏两只船；贪多嚼不烂",
+          "en": "to try to have it both ways"
+        },
+        "examples": [
+          {
+            "text": "อย่าจับปลาสองมือ เลือกงานใดงานหนึ่งเถอะ",
+            "translations": {
+              "zh": "别两头都想要，选一份工作吧。",
+              "en": "Don't try to have it both ways — pick one job."
+            }
+          }
+        ],
+        "usageNote": "字面“两只手各抓一条鱼”。也指感情上脚踏两条船。"
+      }
+    ]
+  },
+  {
+    "headword": "เกลือเป็นหนอน",
+    "phonetic": "kluea pen non",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "klʉa-pen-nɔ̌ɔn · 中, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "คนในกลุ่มเดียวกันทรยศ",
+        "translations": {
+          "zh": "内鬼；家贼难防",
+          "en": "a traitor within"
+        },
+        "examples": [
+          {
+            "text": "ข้อมูลรั่วออกไปได้ แสดงว่ามีเกลือเป็นหนอน",
+            "translations": {
+              "zh": "信息能泄露出去，说明有内鬼。",
+              "en": "The data leaked — there must be a traitor within."
+            }
+          }
+        ],
+        "usageNote": "字面“盐生了虫”——本应防腐的盐自己却坏了。"
+      }
+    ]
+  },
+  {
+    "headword": "วัวหายล้อมคอก",
+    "phonetic": "wua hai lom khok",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "wua-hǎai-lɔ́ɔm-khɔ̂ɔk · 中, 升, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "เกิดความเสียหายแล้วจึงคิดป้องกัน",
+        "translations": {
+          "zh": "亡羊补牢（多含为时已晚之意）",
+          "en": "shutting the stable door after the horse has bolted"
+        },
+        "examples": [
+          {
+            "text": "ติดกล้องหลังโดนขโมยก็วัวหายล้อมคอก",
+            "translations": {
+              "zh": "被偷之后才装摄像头，真是亡羊补牢。",
+              "en": "Installing cameras after the theft is closing the stable door too late."
+            }
+          }
+        ],
+        "usageNote": "字面“牛丢了才围牛栏”。泰语偏贬义（太晚了），汉语亡羊补牢偏褒义。"
+      }
+    ]
+  },
+  {
+    "headword": "ตีวัวกระทบคราด",
+    "phonetic": "ti wua krathop khrat",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "tii-wua-krà-thóp-khrâat · 中, 中, 低, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "โกรธคนหนึ่งแต่ไปลงกับอีกคนหรือสิ่งของ",
+        "translations": {
+          "zh": "指桑骂槐；迁怒",
+          "en": "to vent one's anger on someone else"
+        },
+        "examples": [
+          {
+            "text": "แม่โกรธพ่อแต่ตีวัวกระทบคราดด่าลูก",
+            "translations": {
+              "zh": "妈妈生爸爸的气，却拿孩子撒气。",
+              "en": "Mum was angry at Dad but took it out on the kids."
+            }
+          }
+        ],
+        "usageNote": "字面“打牛却碰到犁耙”。"
+      }
+    ]
+  },
+  {
+    "headword": "ปากว่าตาขยิบ",
+    "phonetic": "pak wa ta khayip",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "pàak-wâa-taa-khà-yìp · 低, 降, 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "พูดอย่างหนึ่งแต่ทำอีกอย่างหนึ่ง",
+        "translations": {
+          "zh": "口是心非；言行不一",
+          "en": "to say one thing and do another"
+        },
+        "examples": [
+          {
+            "text": "เขาห้ามคนอื่นสูบบุหรี่แต่ตัวเองสูบ ปากว่าตาขยิบ",
+            "translations": {
+              "zh": "他禁止别人抽烟自己却抽，口是心非。",
+              "en": "He bans others from smoking but smokes himself — a hypocrite."
+            }
+          }
+        ],
+        "usageNote": "字面“嘴上说着（不行），眼睛却在眨（示意可以）”。"
+      }
+    ]
+  },
+  {
+    "headword": "ขิงก็รา ข่าก็แรง",
+    "phonetic": "khing ko ra kha ko raeng",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "khǐng-kɔ̂ɔ-raa-khàa-kɔ̂ɔ-rɛɛng · 升, 降, 中, 低, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ทั้งสองฝ่ายต่างไม่ยอมกัน",
+        "translations": {
+          "zh": "针尖对麦芒；互不相让",
+          "en": "neither side will give way"
+        },
+        "examples": [
+          {
+            "text": "สองพี่น้องทะเลาะกัน ขิงก็รา ข่าก็แรง",
+            "translations": {
+              "zh": "兄弟俩吵架，针尖对麦芒。",
+              "en": "The two brothers argued, neither giving an inch."
+            }
+          }
+        ],
+        "usageNote": "字面“姜也辣，南姜也冲”。"
+      }
+    ]
+  },
+  {
+    "headword": "กระต่ายตื่นตูม",
+    "phonetic": "kratai tuen tum",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "krà-tàai-tʉ̀ʉn-tuum · 低, 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ตกใจง่ายโดยไม่ตรวจสอบความจริง",
+        "translations": {
+          "zh": "大惊小怪；惊弓之鸟",
+          "en": "to panic over nothing"
+        },
+        "examples": [
+          {
+            "text": "อย่ากระต่ายตื่นตูมกับข่าวลือ",
+            "translations": {
+              "zh": "别因为谣言就大惊小怪。",
+              "en": "Don't panic over rumours."
+            }
+          }
+        ],
+        "usageNote": "字面“兔子被‘咚’的一声惊醒”——出自寓言：兔子听到果子落地声，以为天塌了，带着群兽狂奔。"
+      }
+    ]
+  },
+  {
+    "headword": "กบในกะลาครอบ",
+    "phonetic": "kop nai kala khrop",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "kòp-nai-kà-laa-khrɔ̂ɔp · 低, 中, 低, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "คนที่มีความรู้หรือประสบการณ์แคบ",
+        "translations": {
+          "zh": "井底之蛙",
+          "en": "a frog in a well"
+        },
+        "examples": [
+          {
+            "text": "อย่าเป็นกบในกะลาครอบ ออกไปเห็นโลกบ้าง",
+            "translations": {
+              "zh": "别做井底之蛙，出去看看世界吧。",
+              "en": "Don't be a frog in a well — go out and see the world."
+            }
+          }
+        ],
+        "usageNote": "字面“被扣在椰子壳下的青蛙”。也常简说 กบในกะลา。"
+      }
+    ]
+  },
+  {
+    "headword": "ชักใบให้เรือเสีย",
+    "phonetic": "chak bai hai ruea sia",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "chák-bai-hâi-rʉa-sǐa · 高, 中, 降, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "พูดหรือทำนอกเรื่องจนงานหรือการสนทนาเสีย",
+        "translations": {
+          "zh": "打岔；离题搅局",
+          "en": "to sidetrack; to derail"
+        },
+        "examples": [
+          {
+            "text": "อย่าชักใบให้เรือเสีย เรากำลังคุยเรื่องงบประมาณอยู่",
+            "translations": {
+              "zh": "别打岔，我们正在谈预算。",
+              "en": "Don't sidetrack us — we're discussing the budget."
+            }
+          }
+        ],
+        "usageNote": "字面“乱扯船帆，让船出问题”。"
+      }
+    ]
+  },
+  {
+    "headword": "ชักแม่น้ำทั้งห้า",
+    "phonetic": "chak maenam thang ha",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "chák-mɛ̂ɛ-náam-tháng-hâa · 高, 降, 高, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "พูดยกยอยืดยาวเพื่อให้ได้สิ่งที่ต้องการ",
+        "translations": {
+          "zh": "拐弯抹角说好话（为了求人）",
+          "en": "to sweet-talk at length to get something"
+        },
+        "examples": [
+          {
+            "text": "ลูกชักแม่น้ำทั้งห้ากว่าจะขอเงินซื้อมือถือ",
+            "translations": {
+              "zh": "孩子绕了一大圈好话才开口要钱买手机。",
+              "en": "The kid sweet-talked at length before asking for money for a phone."
+            }
+          }
+        ],
+        "usageNote": "字面“把五条大河都拉出来讲”，典出《佛本生经》。"
+      }
+    ]
+  },
+  {
+    "headword": "ผักชีโรยหน้า",
+    "phonetic": "phak chi roi na",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phàk-chii-rooi-nâa · 低, 中, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ทำดีแค่ภายนอกให้ดูดี",
+        "translations": {
+          "zh": "做表面文章；面子工程",
+          "en": "window dressing"
+        },
+        "examples": [
+          {
+            "text": "การทำความสะอาดก่อนนายมาตรวจเป็นแค่ผักชีโรยหน้า",
+            "translations": {
+              "zh": "领导来检查前才打扫，只是做表面文章。",
+              "en": "Cleaning up just before the boss's inspection is mere window dressing."
+            }
+          }
+        ],
+        "usageNote": "字面“在菜面上撒香菜”。"
+      }
+    ]
+  },
+  {
+    "headword": "ไฟลามทุ่ง",
+    "phonetic": "fai lam thung",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "fai-laam-thûng · 中, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "สิ่งที่แพร่ขยายอย่างรวดเร็วจนควบคุมไม่ได้",
+        "translations": {
+          "zh": "燎原之势；迅速蔓延",
+          "en": "to spread like wildfire"
+        },
+        "examples": [
+          {
+            "text": "ข่าวนี้กระจายเหมือนไฟลามทุ่ง",
+            "translations": {
+              "zh": "这消息像野火一样迅速传开。",
+              "en": "The news spread like wildfire."
+            }
+          }
+        ],
+        "usageNote": "字面“火烧遍原野”。"
+      }
+    ]
+  },
+  {
+    "headword": "เส้นผมบังภูเขา",
+    "phonetic": "sen phom bang phukhao",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "sên-phǒm-bang-phuu-khǎo · 降, 升, 中, 中, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "เรื่องง่าย ๆ ที่มองไม่เห็นเพราะมีสิ่งเล็กน้อยบังอยู่",
+        "translations": {
+          "zh": "一叶障目；答案近在眼前却没看到",
+          "en": "can't see the wood for the trees"
+        },
+        "examples": [
+          {
+            "text": "คำตอบง่ายนิดเดียว เส้นผมบังภูเขาแท้ ๆ",
+            "translations": {
+              "zh": "答案这么简单，真是一叶障目。",
+              "en": "The answer was so simple — it was right under our noses."
+            }
+          }
+        ],
+        "usageNote": "字面“一根头发挡住了大山”。"
+      }
+    ]
+  },
+  {
+    "headword": "ดินพอกหางหมู",
+    "phonetic": "din phok hang mu",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "din-phɔ̂ɔk-hǎang-mǔu · 中, 降, 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "งานที่ผัดไว้จนสะสมพอกพูนมากขึ้น",
+        "translations": {
+          "zh": "越拖越多；积重难返",
+          "en": "work piling up from procrastination"
+        },
+        "examples": [
+          {
+            "text": "ถ้าไม่ทำวันนี้ งานจะเป็นดินพอกหางหมู",
+            "translations": {
+              "zh": "今天不做，活儿就越积越多。",
+              "en": "If you don't do it today, the work will pile up."
+            }
+          }
+        ],
+        "usageNote": "字面“泥巴糊在猪尾巴上越积越厚”。"
+      }
+    ]
+  },
+  {
+    "headword": "ตาบอดคลำช้าง",
+    "phonetic": "ta bot khlam chang",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "taa-bɔ̀ɔt-khlam-cháang · 中, 低, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "รู้เพียงบางส่วนแล้วคิดว่ารู้ทั้งหมด",
+        "translations": {
+          "zh": "盲人摸象",
+          "en": "like the blind men and the elephant"
+        },
+        "examples": [
+          {
+            "text": "วิจารณ์จากข้อมูลนิดเดียวก็เหมือนตาบอดคลำช้าง",
+            "translations": {
+              "zh": "只凭一点信息就评论，就像盲人摸象。",
+              "en": "Judging from so little data is like the blind men and the elephant."
+            }
+          }
+        ],
+        "usageNote": "与汉语成语同源，都出自佛经故事。"
+      }
+    ]
+  },
+  {
+    "headword": "สีซอให้ควายฟัง",
+    "phonetic": "si so hai khwai fang",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "sǐi-sɔɔ-hâi-khwaai-fang · 升, 中, 降, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "สอนหรือแนะนำคนที่ไม่สนใจหรือไม่เข้าใจ",
+        "translations": {
+          "zh": "对牛弹琴",
+          "en": "to cast pearls before swine"
+        },
+        "examples": [
+          {
+            "text": "พูดกับเขาก็เหมือนสีซอให้ควายฟัง",
+            "translations": {
+              "zh": "跟他说就像对牛弹琴。",
+              "en": "Talking to him is like playing music to a buffalo."
+            }
+          }
+        ],
+        "usageNote": "字面“拉琴给水牛听”。"
+      }
+    ]
+  },
+  {
+    "headword": "ได้คืบจะเอาศอก",
+    "phonetic": "dai khuep cha ao sok",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "dâi-khʉ̂ʉp-cà-ao-sɔ̀ɔk · 降, 降, 低, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ได้แล้วยังอยากได้มากขึ้นอีก",
+        "translations": {
+          "zh": "得寸进尺",
+          "en": "give an inch and they'll take a mile"
+        },
+        "examples": [
+          {
+            "text": "ให้ลดราคาแล้วยังขอของแถม ได้คืบจะเอาศอก",
+            "translations": {
+              "zh": "给了折扣还要赠品，得寸进尺。",
+              "en": "Got a discount and still wants freebies — give an inch, take a mile."
+            }
+          }
+        ],
+        "usageNote": "字面“得了一拃还想要一肘”。"
+      }
+    ]
+  },
+  {
+    "headword": "ปล่อยเสือเข้าป่า",
+    "phonetic": "ploi suea khao pa",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "plɔ̀i-sʉ̌a-khâo-pàa · 低, 升, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ปล่อยศัตรูไปจนอาจกลับมาทำร้ายได้",
+        "translations": {
+          "zh": "放虎归山",
+          "en": "to let a dangerous enemy go free"
+        },
+        "examples": [
+          {
+            "text": "ปล่อยผู้ต้องหาไปตอนนี้ก็เท่ากับปล่อยเสือเข้าป่า",
+            "translations": {
+              "zh": "现在放了嫌犯无异于放虎归山。",
+              "en": "Releasing the suspect now would be letting the tiger back into the forest."
+            }
+          }
+        ],
+        "usageNote": "与汉语成语意思相同。"
+      }
+    ]
+  },
+  {
+    "headword": "รักวัวให้ผูก รักลูกให้ตี",
+    "phonetic": "rak wua hai phuk rak luk hai ti",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "rák-wua-hâi-phùuk-rák-lûuk-hâi-tii · 高, 中, 降, 低, 高, 降, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "รักลูกต้องอบรมสั่งสอนอย่างเข้มงวด",
+        "translations": {
+          "zh": "棍棒底下出孝子；严是爱",
+          "en": "spare the rod and spoil the child"
+        },
+        "examples": [
+          {
+            "text": "คนรุ่นก่อนเชื่อว่ารักวัวให้ผูก รักลูกให้ตี",
+            "translations": {
+              "zh": "老一辈相信棍棒底下出孝子。",
+              "en": "The older generation believed in “spare the rod, spoil the child”."
+            }
+          }
+        ],
+        "usageNote": "字面“爱牛就要拴住，爱孩子就要打”。现代教育观念多不赞同。"
+      }
+    ]
+  },
+  {
+    "headword": "น้ำน้อยย่อมแพ้ไฟ",
+    "phonetic": "nam noi yom phae fai",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "náam-nɔ́ɔi-yɔ̂m-phɛ́ɛ-fai · 高, 高, 降, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ฝ่ายที่มีกำลังน้อยย่อมแพ้ฝ่ายที่มีกำลังมาก",
+        "translations": {
+          "zh": "寡不敌众；杯水车薪",
+          "en": "the few cannot beat the many"
+        },
+        "examples": [
+          {
+            "text": "เขาสู้คนเดียวไม่ไหว น้ำน้อยย่อมแพ้ไฟ",
+            "translations": {
+              "zh": "他一个人斗不过，寡不敌众。",
+              "en": "He couldn't fight alone — the few can't beat the many."
+            }
+          }
+        ],
+        "usageNote": "字面“水少必败于火”。"
+      }
+    ]
+  },
+  {
+    "headword": "ลูกไม้หล่นไม่ไกลต้น",
+    "phonetic": "luk mai lon mai klai ton",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "lûuk-máai-lòn-mâi-klai-tôn · 降, 高, 低, 降, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ลูกย่อมมีนิสัยเหมือนพ่อแม่",
+        "translations": {
+          "zh": "有其父必有其子",
+          "en": "the apple doesn't fall far from the tree"
+        },
+        "examples": [
+          {
+            "text": "ลูกชายเก่งดนตรีเหมือนพ่อ ลูกไม้หล่นไม่ไกลต้น",
+            "translations": {
+              "zh": "儿子像爸爸一样擅长音乐，有其父必有其子。",
+              "en": "The son is musical like his father — the apple doesn't fall far from the tree."
+            }
+          }
+        ],
+        "usageNote": "字面“果子落不远离树”。"
+      }
+    ]
+  },
+  {
+    "headword": "ช้างตายทั้งตัวเอาใบบัวปิด",
+    "phonetic": "chang tai thang tua ao bai bua pit",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "cháang-taai-tháng-tua-ao-bai-bua-pìt · 高, 中, 高, 中, 中, 中, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ปิดบังความผิดใหญ่ที่ไม่มีทางปิดได้",
+        "translations": {
+          "zh": "欲盖弥彰；纸包不住火",
+          "en": "you can't hide something so obvious"
+        },
+        "examples": [
+          {
+            "text": "พยายามปิดข่าวทุจริตก็เหมือนช้างตายทั้งตัวเอาใบบัวปิด",
+            "translations": {
+              "zh": "试图掩盖贪腐新闻，就像拿荷叶盖整头死象。",
+              "en": "Trying to cover up the scandal is hopeless — it's far too big to hide."
+            }
+          }
+        ],
+        "usageNote": "字面“整头大象死了，拿荷叶来盖”。"
+      }
+    ]
+  },
+  {
+    "headword": "หวานเป็นลม ขมเป็นยา",
+    "phonetic": "wan pen lom khom pen ya",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "wǎan-pen-lom-khǒm-pen-yaa · 升, 中, 中, 升, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "คำหวานไม่มีประโยชน์ คำติเตือนแม้ไม่น่าฟังแต่มีประโยชน์",
+        "translations": {
+          "zh": "良药苦口，忠言逆耳",
+          "en": "bitter medicine heals"
+        },
+        "examples": [
+          {
+            "text": "คำติของครูอาจฟังไม่เพราะ แต่หวานเป็นลม ขมเป็นยา",
+            "translations": {
+              "zh": "老师的批评也许不好听，但良药苦口。",
+              "en": "The teacher's criticism may sting, but bitter medicine heals."
+            }
+          }
+        ],
+        "usageNote": "字面“甜的是风（空洞），苦的是药”。"
+      }
+    ]
+  }
+]

@@ -12,7 +12,11 @@ public enum PlusCatalog {
 
     /// Content packs that introduce new words only for Plus. Everything else — the A1–A2 core,
     /// the language starters, the user's own decks — is free.
-    public static let premiumDeckSlugs: Set<String> = ["en_core_b1_b2", "en_core_c1"]
+    public static let premiumDeckSlugs: Set<String> = [
+        "en_core_b1_b2", "en_core_c1",
+        "fr_core_b1_b2", "fr_core_c1",
+        "th_core_b1_b2", "th_core_c1",
+    ]
 
     public static func requiresPlus(deckSlug: String) -> Bool {
         premiumDeckSlugs.contains(deckSlug)

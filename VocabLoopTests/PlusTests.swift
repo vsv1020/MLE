@@ -68,5 +68,21 @@ final class PlusTests: XCTestCase {
         XCTAssertFalse(PlusCatalog.requiresPlus(deckSlug: "fr_starter"))
         XCTAssertTrue(PlusCatalog.requiresPlus(deckSlug: "en_core_b1_b2"))
         XCTAssertTrue(PlusCatalog.requiresPlus(deckSlug: "en_core_c1"))
+        XCTAssertFalse(PlusCatalog.requiresPlus(deckSlug: "th_starter"))
+        for slug in ["fr_core_b1_b2", "fr_core_c1", "th_core_b1_b2", "th_core_c1"] {
+            XCTAssertTrue(PlusCatalog.requiresPlus(deckSlug: slug), slug)
+        }
+    }
+
+    /// Every bundled pack except each language's A1–A2 core is a Plus pack.
+    func testEveryLanguagesAdvancedPacksAreTheOnesBehindPlus() {
+        for language in LearningLanguage.allCases {
+            let packs = language.seedPackNames
+            XCTAssertEqual(packs.count, 3, "\(language)")
+            XCTAssertFalse(PlusCatalog.requiresPlus(deckSlug: packs[0]), packs[0])
+            for slug in packs.dropFirst() {
+                XCTAssertTrue(PlusCatalog.requiresPlus(deckSlug: slug), slug)
+            }
+        }
     }
 }

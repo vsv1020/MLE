@@ -1,0 +1,1481 @@
+[
+  {
+    "headword": "โรคระบาด",
+    "phonetic": "rok rabat",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "rôok-rá-bàat · 降, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โรคที่แพร่ไปสู่คนจำนวนมากอย่างรวดเร็ว",
+        "translations": {
+          "zh": "流行病；瘟疫",
+          "en": "epidemic"
+        },
+        "examples": [
+          {
+            "text": "โรคระบาดทำให้เศรษฐกิจหยุดชะงัก",
+            "translations": {
+              "zh": "疫情使经济停滞。",
+              "en": "The epidemic brought the economy to a halt."
+            }
+          }
+        ],
+        "usageNote": "ระบาด 意为“蔓延、流行”。"
+      }
+    ]
+  },
+  {
+    "headword": "ผ่าตัด",
+    "phonetic": "phatat",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "phàa-tàt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "รักษาโดยการเปิดร่างกายด้วยเครื่องมือแพทย์",
+        "translations": {
+          "zh": "动手术",
+          "en": "to operate (surgically)"
+        },
+        "examples": [
+          {
+            "text": "คุณพ่อต้องผ่าตัดหัวใจพรุ่งนี้",
+            "translations": {
+              "zh": "爸爸明天要做心脏手术。",
+              "en": "Father has to have heart surgery tomorrow."
+            }
+          }
+        ],
+        "usageNote": "字面“剖切”。ห้องผ่าตัด 手术室。"
+      }
+    ]
+  },
+  {
+    "headword": "ยาสลบ",
+    "phonetic": "ya salop",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "yaa-sà-lòp · 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ยาที่ทำให้หมดสติชั่วคราว",
+        "translations": {
+          "zh": "麻醉药",
+          "en": "anaesthetic"
+        },
+        "examples": [
+          {
+            "text": "คนไข้ยังไม่ฟื้นจากยาสลบ",
+            "translations": {
+              "zh": "病人还没从麻醉中醒来。",
+              "en": "The patient has not yet come round from the anaesthetic."
+            }
+          }
+        ],
+        "usageNote": "สลบ 意为“昏迷、不省人事”。"
+      }
+    ]
+  },
+  {
+    "headword": "เนื้องอก",
+    "phonetic": "nuea ngok",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "nʉ́a-ngɔ̂ɔk · 高, 降",
+      "classifier": "ก้อน（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ก้อนเนื้อที่เจริญผิดปกติ",
+        "translations": {
+          "zh": "肿瘤",
+          "en": "tumour"
+        },
+        "examples": [
+          {
+            "text": "หมอพบเนื้องอกขนาดเล็กที่ปอด",
+            "translations": {
+              "zh": "医生在肺部发现一个小肿瘤。",
+              "en": "The doctor found a small tumour in the lung."
+            }
+          }
+        ],
+        "usageNote": "字面“长出来的肉”。เนื้องอกธรรมดา 良性肿瘤。"
+      }
+    ]
+  },
+  {
+    "headword": "ผลข้างเคียง",
+    "phonetic": "phon khang khiang",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "phǒn-khâang-khiang · 升, 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลที่ไม่ต้องการซึ่งเกิดจากยาหรือการรักษา",
+        "translations": {
+          "zh": "副作用",
+          "en": "side effect"
+        },
+        "examples": [
+          {
+            "text": "ยานี้มีผลข้างเคียงทำให้ง่วงนอน",
+            "translations": {
+              "zh": "这种药的副作用是让人犯困。",
+              "en": "This medicine has the side effect of causing drowsiness."
+            }
+          }
+        ],
+        "usageNote": "字面“旁边的结果”。"
+      }
+    ]
+  },
+  {
+    "headword": "เรื้อรัง",
+    "phonetic": "ruearang",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "rʉ́a-rang · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เป็นมานานและไม่หายขาด",
+        "translations": {
+          "zh": "慢性的；长期的",
+          "en": "chronic"
+        },
+        "examples": [
+          {
+            "text": "เขาป่วยเป็นโรคเรื้อรังมาหลายปี",
+            "translations": {
+              "zh": "他患慢性病多年了。",
+              "en": "He has had a chronic illness for years."
+            }
+          }
+        ],
+        "usageNote": "也用于社会问题：ปัญหาเรื้อรัง 积弊、老问题。与 เฉียบพลัน 相对。"
+      }
+    ]
+  },
+  {
+    "headword": "เฉียบพลัน",
+    "phonetic": "chiap phlan",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "chìap-phlan · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "เกิดขึ้นอย่างรวดเร็วและรุนแรง",
+        "translations": {
+          "zh": "急性的；突然的",
+          "en": "acute; sudden"
+        },
+        "examples": [
+          {
+            "text": "เขาเป็นโรคหัวใจวายเฉียบพลัน",
+            "translations": {
+              "zh": "他突发急性心力衰竭。",
+              "en": "He suffered acute heart failure."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พันธุกรรม",
+    "phonetic": "phanthukam",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "phan-thú-kam · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การถ่ายทอดลักษณะจากพ่อแม่สู่ลูก",
+        "translations": {
+          "zh": "遗传",
+          "en": "heredity; genetics"
+        },
+        "examples": [
+          {
+            "text": "โรคนี้เกิดจากพันธุกรรม",
+            "translations": {
+              "zh": "这种病是遗传引起的。",
+              "en": "This disease is hereditary."
+            }
+          }
+        ],
+        "usageNote": "ดัดแปลงพันธุกรรม 转基因（GMO）。"
+      }
+    ]
+  },
+  {
+    "headword": "วิวัฒนาการ",
+    "phonetic": "wiwatthanakan",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "wí-wát-thá-naa-kaan · 高, 高, 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเปลี่ยนแปลงทีละน้อยจนเป็นรูปแบบใหม่",
+        "translations": {
+          "zh": "进化；演变",
+          "en": "evolution"
+        },
+        "examples": [
+          {
+            "text": "ดาร์วินเสนอทฤษฎีวิวัฒนาการ",
+            "translations": {
+              "zh": "达尔文提出了进化论。",
+              "en": "Darwin proposed the theory of evolution."
+            }
+          }
+        ],
+        "usageNote": "也泛指技术、语言等的“发展演变”。"
+      }
+    ]
+  },
+  {
+    "headword": "สมมติฐาน",
+    "phonetic": "sommutithan",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "sǒm-mút-tì-thǎan · 升, 高, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อสันนิษฐานที่ยังต้องพิสูจน์",
+        "translations": {
+          "zh": "假设；假说",
+          "en": "hypothesis"
+        },
+        "examples": [
+          {
+            "text": "ผลการทดลองยืนยันสมมติฐานของเรา",
+            "translations": {
+              "zh": "实验结果证实了我们的假设。",
+              "en": "The experiment's results confirmed our hypothesis."
+            }
+          }
+        ],
+        "usageNote": "ตั้งสมมติฐาน 提出假设。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฏิกิริยา",
+    "phonetic": "patikiriya",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "pà-tì-kì-rí-yaa · 低, 低, 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การตอบสนอง หรือการเปลี่ยนแปลงทางเคมี",
+        "translations": {
+          "zh": "反应",
+          "en": "reaction"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนมีปฏิกิริยาต่อข่าวนี้อย่างรุนแรง",
+            "translations": {
+              "zh": "民众对这则新闻反应强烈。",
+              "en": "The public reacted strongly to this news."
+            }
+          }
+        ],
+        "usageNote": "ปฏิกิริยาเคมี 化学反应。"
+      }
+    ]
+  },
+  {
+    "headword": "สารเคมี",
+    "phonetic": "san khemi",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "sǎan-khee-mii · 升, 中, 中",
+      "classifier": "ชนิด（种）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สารที่ได้จากกระบวนการทางเคมี",
+        "translations": {
+          "zh": "化学品；化学物质",
+          "en": "chemical"
+        },
+        "examples": [
+          {
+            "text": "โรงงานปล่อยสารเคมีลงแม่น้ำ",
+            "translations": {
+              "zh": "工厂向河里排放化学物质。",
+              "en": "The factory discharged chemicals into the river."
+            }
+          }
+        ],
+        "usageNote": "สาร 物质。สารพิษ 有毒物质。"
+      }
+    ]
+  },
+  {
+    "headword": "แรงโน้มถ่วง",
+    "phonetic": "raeng nom thuang",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "rɛɛng-nóom-thùang · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แรงที่ดึงวัตถุเข้าหาโลก",
+        "translations": {
+          "zh": "引力；重力",
+          "en": "gravity"
+        },
+        "examples": [
+          {
+            "text": "นิวตันค้นพบกฎแรงโน้มถ่วง",
+            "translations": {
+              "zh": "牛顿发现了万有引力定律。",
+              "en": "Newton discovered the law of gravity."
+            }
+          }
+        ],
+        "usageNote": "โน้ม 倾向，ถ่วง 坠、压。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาวะโลกร้อน",
+    "phonetic": "phawa lok ron",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phaa-wá-lôok-rɔ́ɔn · 中, 高, 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การที่อุณหภูมิเฉลี่ยของโลกสูงขึ้น",
+        "translations": {
+          "zh": "全球变暖",
+          "en": "global warming"
+        },
+        "examples": [
+          {
+            "text": "ภาวะโลกร้อนทำให้น้ำแข็งขั้วโลกละลาย",
+            "translations": {
+              "zh": "全球变暖使极地冰川融化。",
+              "en": "Global warming is melting the polar ice."
+            }
+          }
+        ],
+        "usageNote": "ภาวะ 状态、情势。"
+      }
+    ]
+  },
+  {
+    "headword": "ระบบนิเวศ",
+    "phonetic": "rabop niwet",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "rá-bòp-ní-wêet · 高, 低, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบบความสัมพันธ์ของสิ่งมีชีวิตกับสิ่งแวดล้อม",
+        "translations": {
+          "zh": "生态系统",
+          "en": "ecosystem"
+        },
+        "examples": [
+          {
+            "text": "ขยะพลาสติกทำลายระบบนิเวศทางทะเล",
+            "translations": {
+              "zh": "塑料垃圾破坏海洋生态系统。",
+              "en": "Plastic waste destroys marine ecosystems."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จุลินทรีย์",
+    "phonetic": "chulinsi",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "cù-lin-sii · 低, 中, 中",
+      "classifier": "ชนิด（种）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งมีชีวิตขนาดเล็กที่มองด้วยตาเปล่าไม่เห็น",
+        "translations": {
+          "zh": "微生物",
+          "en": "microorganism"
+        },
+        "examples": [
+          {
+            "text": "นมเปรี้ยวมีจุลินทรีย์ที่ดีต่อลำไส้",
+            "translations": {
+              "zh": "酸奶含有对肠道有益的微生物。",
+              "en": "Yoghurt contains microbes that are good for the gut."
+            }
+          }
+        ],
+        "usageNote": "ทร 读 ซ。ย์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "สื่อมวลชน",
+    "phonetic": "sue muanchon",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "sʉ̀ʉ-muan-chon · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สื่อที่เผยแพร่ข่าวสารสู่คนจำนวนมาก",
+        "translations": {
+          "zh": "大众传媒；媒体",
+          "en": "mass media; the press"
+        },
+        "examples": [
+          {
+            "text": "สื่อมวลชนรอทำข่าวหน้าทำเนียบรัฐบาล",
+            "translations": {
+              "zh": "媒体在总理府前等候采访。",
+              "en": "The press waited outside Government House."
+            }
+          }
+        ],
+        "usageNote": "口语常单说 สื่อ。"
+      }
+    ]
+  },
+  {
+    "headword": "ข่าวปลอม",
+    "phonetic": "khao plom",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "khàao-plɔɔm · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข่าวที่ไม่เป็นความจริง",
+        "translations": {
+          "zh": "假新闻",
+          "en": "fake news"
+        },
+        "examples": [
+          {
+            "text": "อย่าแชร์ข่าวปลอมในโซเชียล",
+            "translations": {
+              "zh": "不要在社交媒体上转发假新闻。",
+              "en": "Don't share fake news on social media."
+            }
+          }
+        ],
+        "usageNote": "ปลอม 意为“假冒”。"
+      }
+    ]
+  },
+  {
+    "headword": "บรรณาธิการ",
+    "phonetic": "bannathikan",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "ban-naa-thí-kaan · 中, 中, 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ตรวจและควบคุมเนื้อหาก่อนเผยแพร่",
+        "translations": {
+          "zh": "编辑；主编",
+          "en": "editor"
+        },
+        "examples": [
+          {
+            "text": "บรรณาธิการขอให้แก้พาดหัวใหม่",
+            "translations": {
+              "zh": "主编要求重改标题。",
+              "en": "The editor asked for the headline to be rewritten."
+            }
+          }
+        ],
+        "usageNote": "บทบรรณาธิการ 社论。"
+      }
+    ]
+  },
+  {
+    "headword": "พาดหัวข่าว",
+    "phonetic": "phat hua khao",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "phâat-hǔa-khàao · 降, 升, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อความตัวใหญ่ที่เป็นหัวข้อข่าว",
+        "translations": {
+          "zh": "新闻标题",
+          "en": "headline"
+        },
+        "examples": [
+          {
+            "text": "ข่าวนี้ขึ้นพาดหัวข่าวทุกฉบับ",
+            "translations": {
+              "zh": "这条新闻登上了各大报头条。",
+              "en": "This story made the headlines in every paper."
+            }
+          }
+        ],
+        "usageNote": "พาด 横搭、跨。"
+      }
+    ]
+  },
+  {
+    "headword": "ประเด็น",
+    "phonetic": "praden",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "prà-den · 低, 中",
+      "classifier": "ประเด็น（点）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องหรือจุดสำคัญที่พูดถึง",
+        "translations": {
+          "zh": "论点；要点；议题",
+          "en": "issue; point"
+        },
+        "examples": [
+          {
+            "text": "ประเด็นนี้ยังเถียงกันไม่จบ",
+            "translations": {
+              "zh": "这个问题仍争论不休。",
+              "en": "This issue is still being argued over."
+            }
+          }
+        ],
+        "usageNote": "ประเด็นร้อน 热点话题。"
+      }
+    ]
+  },
+  {
+    "headword": "โต้แย้ง",
+    "phonetic": "to yaeng",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "tôo-yɛ́ɛng · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แสดงความเห็นค้านด้วยเหตุผล",
+        "translations": {
+          "zh": "反驳；争辩",
+          "en": "to argue against; to dispute"
+        },
+        "examples": [
+          {
+            "text": "เขาโต้แย้งด้วยข้อมูลที่ชัดเจน",
+            "translations": {
+              "zh": "他用清楚的数据进行反驳。",
+              "en": "He argued back with clear data."
+            }
+          }
+        ],
+        "usageNote": "ข้อโต้แย้ง 论据、反驳意见。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อสรุป",
+    "phonetic": "kho sarup",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-sà-rùp · 降, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลที่ได้จากการพิจารณาหรืออภิปราย",
+        "translations": {
+          "zh": "结论",
+          "en": "conclusion"
+        },
+        "examples": [
+          {
+            "text": "ที่ประชุมยังไม่ได้ข้อสรุป",
+            "translations": {
+              "zh": "会议尚未得出结论。",
+              "en": "The meeting has not reached a conclusion yet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อภิปราย",
+    "phonetic": "aphiprai",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "à-phí-praai · 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูดแสดงความคิดเห็นเพื่อถกเถียงอย่างเป็นทางการ",
+        "translations": {
+          "zh": "辩论；讨论（正式）",
+          "en": "to debate; to discuss formally"
+        },
+        "examples": [
+          {
+            "text": "ส.ส. อภิปรายเรื่องงบประมาณทั้งคืน",
+            "translations": {
+              "zh": "议员们就预算辩论了一整夜。",
+              "en": "MPs debated the budget all night."
+            }
+          }
+        ],
+        "usageNote": "อภิปรายไม่ไว้วางใจ 不信任辩论。"
+      }
+    ]
+  },
+  {
+    "headword": "ญัตติ",
+    "phonetic": "yatti",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "yát-tì · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อเสนอที่ยื่นให้ที่ประชุมพิจารณา",
+        "translations": {
+          "zh": "动议；提案",
+          "en": "motion (in a meeting)"
+        },
+        "examples": [
+          {
+            "text": "ฝ่ายค้านยื่นญัตติขอเปิดอภิปราย",
+            "translations": {
+              "zh": "反对派提交动议要求举行辩论。",
+              "en": "The opposition tabled a motion to open a debate."
+            }
+          }
+        ],
+        "usageNote": "辩论比赛中的“辩题”也叫 ญัตติ。"
+      }
+    ]
+  },
+  {
+    "headword": "เสรีภาพ",
+    "phonetic": "seriphap",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "sěe-rii-phâap · 升, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความมีอิสระที่จะทำหรือพูด",
+        "translations": {
+          "zh": "自由",
+          "en": "freedom; liberty"
+        },
+        "examples": [
+          {
+            "text": "เสรีภาพในการแสดงความคิดเห็นสำคัญมาก",
+            "translations": {
+              "zh": "言论自由非常重要。",
+              "en": "Freedom of expression is very important."
+            }
+          }
+        ],
+        "usageNote": "เสรีภาพสื่อ 新闻自由。"
+      }
+    ]
+  },
+  {
+    "headword": "โฆษณาชวนเชื่อ",
+    "phonetic": "khotsana chuan chuea",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "khôo-sà-naa-chuan-chʉ̂a · 降, 低, 中, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเผยแพร่ข้อมูลเพื่อชักจูงความคิด",
+        "translations": {
+          "zh": "宣传（贬义）",
+          "en": "propaganda"
+        },
+        "examples": [
+          {
+            "text": "สงครามมักมาพร้อมโฆษณาชวนเชื่อ",
+            "translations": {
+              "zh": "战争往往伴随着宣传战。",
+              "en": "War often comes with propaganda."
+            }
+          }
+        ],
+        "usageNote": "字面“劝人相信的广告”。"
+      }
+    ]
+  },
+  {
+    "headword": "อคติ",
+    "phonetic": "akhati",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "à-khá-tì · 低, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความลำเอียง",
+        "translations": {
+          "zh": "偏见",
+          "en": "bias; prejudice"
+        },
+        "examples": [
+          {
+            "text": "นักข่าวควรรายงานโดยไม่มีอคติ",
+            "translations": {
+              "zh": "记者报道应不带偏见。",
+              "en": "Journalists should report without bias."
+            }
+          }
+        ],
+        "usageNote": "มีอคติต่อ… 对……有偏见。"
+      }
+    ]
+  },
+  {
+    "headword": "แหล่งข่าว",
+    "phonetic": "laeng khao",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "lɛ̀ng-khàao · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ให้ข้อมูลข่าว",
+        "translations": {
+          "zh": "消息来源",
+          "en": "news source"
+        },
+        "examples": [
+          {
+            "text": "แหล่งข่าวในรัฐบาลยืนยันเรื่องนี้",
+            "translations": {
+              "zh": "政府内部消息人士证实了此事。",
+              "en": "A government source confirmed this."
+            }
+          }
+        ],
+        "usageNote": "แหล่ง 来源、地点。"
+      }
+    ]
+  },
+  {
+    "headword": "ข่าวลือ",
+    "phonetic": "khao lue",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "khàao-lʉʉ · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข่าวที่เล่าต่อกันโดยไม่มีหลักฐาน",
+        "translations": {
+          "zh": "传言；谣言",
+          "en": "rumour"
+        },
+        "examples": [
+          {
+            "text": "ข่าวลือนี้แพร่ไปทั่วเมือง",
+            "translations": {
+              "zh": "这个传言传遍了全城。",
+              "en": "This rumour spread throughout the town."
+            }
+          }
+        ],
+        "usageNote": "ลือ 传播、传说。"
+      }
+    ]
+  },
+  {
+    "headword": "ผู้สื่อข่าว",
+    "phonetic": "phu sue khao",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "phûu-sʉ̀ʉ-khàao · 降, 低, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ทำหน้าที่หาและรายงานข่าว",
+        "translations": {
+          "zh": "记者",
+          "en": "reporter; correspondent"
+        },
+        "examples": [
+          {
+            "text": "ผู้สื่อข่าวรายงานจากที่เกิดเหตุ",
+            "translations": {
+              "zh": "记者在现场报道。",
+              "en": "The reporter is reporting from the scene."
+            }
+          }
+        ],
+        "usageNote": "比 นักข่าว 更正式。"
+      }
+    ]
+  },
+  {
+    "headword": "ถ่ายทอดสด",
+    "phonetic": "thai thot sot",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "thàai-thɔ̂ɔt-sòt · 低, 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ออกอากาศในขณะที่เหตุการณ์เกิดขึ้น",
+        "translations": {
+          "zh": "现场直播",
+          "en": "to broadcast live"
+        },
+        "examples": [
+          {
+            "text": "ช่องนี้ถ่ายทอดสดการแข่งขันฟุตบอล",
+            "translations": {
+              "zh": "这个频道直播足球比赛。",
+              "en": "This channel broadcasts the football match live."
+            }
+          }
+        ],
+        "usageNote": "ถ่ายทอด 转播、传授；สด 新鲜、实时。"
+      }
+    ]
+  },
+  {
+    "headword": "กระแส",
+    "phonetic": "krasae",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "krà-sɛ̌ɛ · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความนิยมหรือความเห็นของคนส่วนใหญ่ในช่วงหนึ่ง",
+        "translations": {
+          "zh": "潮流；舆论风向",
+          "en": "trend; current of opinion"
+        },
+        "examples": [
+          {
+            "text": "ละครเรื่องนี้กำลังเป็นกระแสในโซเชียล",
+            "translations": {
+              "zh": "这部剧正在社交媒体上走红。",
+              "en": "This drama is trending on social media."
+            }
+          }
+        ],
+        "usageNote": "本义“水流、电流”。กระแสสังคม 社会舆论。"
+      }
+    ]
+  },
+  {
+    "headword": "วิพากษ์วิจารณ์",
+    "phonetic": "wiphak wichan",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "wí-phâak-wí-caan · 高, 降, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ติชมหรือแสดงความเห็นเชิงตำหนิ",
+        "translations": {
+          "zh": "批评；评论",
+          "en": "to criticize"
+        },
+        "examples": [
+          {
+            "text": "นโยบายนี้ถูกวิพากษ์วิจารณ์อย่างหนัก",
+            "translations": {
+              "zh": "这项政策遭到猛烈批评。",
+              "en": "This policy was heavily criticized."
+            }
+          }
+        ],
+        "usageNote": "ษ์、ณ์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อกล่าวหา",
+    "phonetic": "kho klaoha",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-klàao-hǎa · 降, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่กล่าวโทษว่าผู้อื่นทำผิด",
+        "translations": {
+          "zh": "指控；罪名",
+          "en": "allegation; charge"
+        },
+        "examples": [
+          {
+            "text": "เขาปฏิเสธข้อกล่าวหาทั้งหมด",
+            "translations": {
+              "zh": "他否认了全部指控。",
+              "en": "He denied all the allegations."
+            }
+          }
+        ],
+        "usageNote": "动词 กล่าวหา 指控。"
+      }
+    ]
+  },
+  {
+    "headword": "นโยบาย",
+    "phonetic": "nayobai",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "ná-yoo-baai · 高, 中, 中",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แนวทางที่วางไว้เพื่อปฏิบัติ",
+        "translations": {
+          "zh": "政策；方针",
+          "en": "policy"
+        },
+        "examples": [
+          {
+            "text": "พรรคนี้หาเสียงด้วยนโยบายค่าแรงขั้นต่ำ",
+            "translations": {
+              "zh": "这个党以最低工资政策拉票。",
+              "en": "This party campaigned on a minimum wage policy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หาเสียง",
+    "phonetic": "ha siang",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "hǎa-sǐang · 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ขอคะแนนเสียงจากผู้เลือกตั้ง",
+        "translations": {
+          "zh": "拉票；竞选",
+          "en": "to campaign (for votes)"
+        },
+        "examples": [
+          {
+            "text": "ผู้สมัครเดินหาเสียงในตลาด",
+            "translations": {
+              "zh": "候选人在市场里拉票。",
+              "en": "The candidate went canvassing in the market."
+            }
+          }
+        ],
+        "usageNote": "字面“找声音（票）”。"
+      }
+    ]
+  },
+  {
+    "headword": "ฐานเสียง",
+    "phonetic": "than siang",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "thǎan-sǐang · 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มผู้สนับสนุนที่เลือกพรรคหรือนักการเมืองเป็นประจำ",
+        "translations": {
+          "zh": "票仓；基本盘",
+          "en": "voter base"
+        },
+        "examples": [
+          {
+            "text": "ภาคอีสานเป็นฐานเสียงสำคัญของพรรคนี้",
+            "translations": {
+              "zh": "东北部是这个党的重要票仓。",
+              "en": "The Northeast is this party's key voter base."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผลสำรวจ",
+    "phonetic": "phon samruat",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "phǒn-sǎm-rùat · 升, 升, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลที่ได้จากการสำรวจความคิดเห็น",
+        "translations": {
+          "zh": "调查结果；民调",
+          "en": "survey results; poll"
+        },
+        "examples": [
+          {
+            "text": "ผลสำรวจชี้ว่าคนส่วนใหญ่ไม่เห็นด้วย",
+            "translations": {
+              "zh": "民调显示大多数人不赞成。",
+              "en": "The poll shows that most people disagree."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความโปร่งใส",
+    "phonetic": "khwam prong sai",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "khwaam-pròong-sǎi · 中, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเปิดเผยตรวจสอบได้",
+        "translations": {
+          "zh": "透明度",
+          "en": "transparency"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนเรียกร้องความโปร่งใสจากรัฐบาล",
+            "translations": {
+              "zh": "民众要求政府保持透明。",
+              "en": "The public demands transparency from the government."
+            }
+          }
+        ],
+        "usageNote": "โปร่งใส 本义“透亮”。"
+      }
+    ]
+  },
+  {
+    "headword": "ตรวจสอบ",
+    "phonetic": "truat sop",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "trùat-sɔ̀ɔp · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตรวจดูให้แน่ใจว่าถูกต้อง",
+        "translations": {
+          "zh": "检查；审核；监督",
+          "en": "to check; to audit; to scrutinize"
+        },
+        "examples": [
+          {
+            "text": "สื่อมีหน้าที่ตรวจสอบผู้มีอำนาจ",
+            "translations": {
+              "zh": "媒体有责任监督掌权者。",
+              "en": "The media's duty is to scrutinize those in power."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผลประโยชน์ทับซ้อน",
+    "phonetic": "phon prayot thap son",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "phǒn-prà-yòot-tháp-sɔ́ɔn · 升, 低, 低, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาวะที่ประโยชน์ส่วนตัวขัดกับหน้าที่",
+        "translations": {
+          "zh": "利益冲突",
+          "en": "conflict of interest"
+        },
+        "examples": [
+          {
+            "text": "การจ้างญาติอาจเป็นผลประโยชน์ทับซ้อน",
+            "translations": {
+              "zh": "雇用亲属可能构成利益冲突。",
+              "en": "Hiring relatives may be a conflict of interest."
+            }
+          }
+        ],
+        "usageNote": "字面“重叠的利益”。ประโยชน์ 的 ชน์ 读作 ยด。"
+      }
+    ]
+  },
+  {
+    "headword": "เสวย",
+    "phonetic": "sawoei",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "sà-wəəi · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "กิน (ราชาศัพท์)",
+        "translations": {
+          "zh": "（王室）用膳，吃",
+          "en": "to eat (royal)"
+        },
+        "examples": [
+          {
+            "text": "พระเจ้าอยู่หัวเสวยพระกระยาหารกลางวัน",
+            "translations": {
+              "zh": "国王用午膳。",
+              "en": "The King took his lunch."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์（王室用语），对国王、王族用，相当于普通话的 กิน。"
+      }
+    ]
+  },
+  {
+    "headword": "ทรง",
+    "phonetic": "song",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "song · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "คำนำหน้ากริยาหรือนามเพื่อให้เป็นราชาศัพท์",
+        "translations": {
+          "zh": "（王室）用于动词前表敬",
+          "en": "royal auxiliary (makes a verb royal)"
+        },
+        "examples": [
+          {
+            "text": "พระราชาทรงงานหนักเพื่อประชาชน",
+            "translations": {
+              "zh": "国王为人民辛勤操劳。",
+              "en": "The King worked hard for the people."
+            }
+          }
+        ],
+        "usageNote": "ทรง + 普通动词＝王室动词：ทรงงาน 工作、ทรงดนตรี 演奏、ทรงพระอักษร 读书。已是王室动词（如 เสวย）前不再加 ทรง。ทร 读 ซ。"
+      }
+    ]
+  },
+  {
+    "headword": "พระราชดำรัส",
+    "phonetic": "phraratchadamrat",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "phrá-râat-chá-dam-ràt · 高, 降, 高, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คำพูดของพระมหากษัตริย์",
+        "translations": {
+          "zh": "（国王的）讲话，御言",
+          "en": "royal speech (of the King)"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนตั้งใจฟังพระราชดำรัส",
+            "translations": {
+              "zh": "民众专心聆听国王讲话。",
+              "en": "The people listened closely to the royal address."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์。动词“说”用 ตรัส（国王）或 รับสั่ง。"
+      }
+    ]
+  },
+  {
+    "headword": "ตรัส",
+    "phonetic": "trat",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "toneMarks": "tràt · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พูด (ราชาศัพท์สำหรับพระมหากษัตริย์)",
+        "translations": {
+          "zh": "（国王）说",
+          "en": "to speak (royal)"
+        },
+        "examples": [
+          {
+            "text": "พระองค์ตรัสกับเด็ก ๆ อย่างอ่อนโยน",
+            "translations": {
+              "zh": "陛下温和地对孩子们说话。",
+              "en": "His Majesty spoke gently to the children."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์，仅用于国王、王后等最高位王族。"
+      }
+    ]
+  },
+  {
+    "headword": "บรรทม",
+    "phonetic": "banthom",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "ban-thom · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "นอน (ราชาศัพท์)",
+        "translations": {
+          "zh": "（王室）就寝，睡觉",
+          "en": "to sleep (royal)"
+        },
+        "examples": [
+          {
+            "text": "พระราชาเสด็จเข้าบรรทมแล้ว",
+            "translations": {
+              "zh": "国王已经就寝了。",
+              "en": "The King has retired to bed."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์，相当于 นอน。ห้องบรรทม 寝宫。"
+      }
+    ]
+  },
+  {
+    "headword": "ประทับ",
+    "phonetic": "prathap",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "prà-tháp · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อยู่ หรือ นั่ง (ราชาศัพท์)",
+        "translations": {
+          "zh": "（王室）驻跸；坐",
+          "en": "to stay; to sit (royal)"
+        },
+        "examples": [
+          {
+            "text": "พระองค์ประทับที่พระราชวังไกลกังวล",
+            "translations": {
+              "zh": "陛下驻跸于远忧宫。",
+              "en": "His Majesty stayed at Klai Kangwon Palace."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์，相当于 อยู่ 或 นั่ง。"
+      }
+    ]
+  },
+  {
+    "headword": "เสด็จ",
+    "phonetic": "sadet",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "sà-dèt · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไป หรือ มา (ราชาศัพท์)",
+        "translations": {
+          "zh": "（王室）驾临，出行",
+          "en": "to go; to come (royal)"
+        },
+        "examples": [
+          {
+            "text": "สมเด็จพระราชินีเสด็จเยี่ยมโรงพยาบาล",
+            "translations": {
+              "zh": "王后驾临医院探访。",
+              "en": "The Queen visited the hospital."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์。เสด็จพระราชดำเนิน 是对国王的最高敬语。"
+      }
+    ]
+  },
+  {
+    "headword": "สิ้นพระชนม์",
+    "phonetic": "sin phrachon",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "sîn-phrá-chon · 降, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตาย (ราชาศัพท์สำหรับเจ้านายชั้นสูง)",
+        "translations": {
+          "zh": "（王族）薨逝",
+          "en": "to die (royal)"
+        },
+        "examples": [
+          {
+            "text": "เจ้าชายสิ้นพระชนม์เมื่อพระชนมายุสามสิบปี",
+            "translations": {
+              "zh": "王子三十岁时薨逝。",
+              "en": "The prince died at the age of thirty."
+            }
+          }
+        ],
+        "usageNote": "ราชาศัพท์。国王去世用 สวรรคต。ม์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ถวาย",
+    "phonetic": "thawai",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "thà-wǎai · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มอบให้แก่พระมหากษัตริย์หรือพระสงฆ์",
+        "translations": {
+          "zh": "呈献；供奉",
+          "en": "to present; to offer (to royalty or monks)"
+        },
+        "examples": [
+          {
+            "text": "ชาวบ้านนำอาหารมาถวายพระ",
+            "translations": {
+              "zh": "村民拿食物来供奉僧人。",
+              "en": "Villagers brought food to offer to the monks."
+            }
+          }
+        ],
+        "usageNote": "下对上“给”，对象是王室或僧人。"
+      }
+    ]
+  }
+]

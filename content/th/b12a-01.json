@@ -1,0 +1,1470 @@
+[
+ {
+  "headword": "พิจารณา",
+  "phonetic": "phicharana",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "phí-jaa-rá-naa · 高, 中, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดไตร่ตรองอย่างรอบคอบก่อนตัดสิน",
+    "translations": {
+     "zh": "考虑；审议",
+     "en": "to consider"
+    },
+    "examples": [
+     {
+      "text": "เราจะพิจารณาข้อเสนอของคุณอีกครั้ง",
+      "translations": {
+       "zh": "我们会再考虑一下你的提议。",
+       "en": "We will consider your proposal again."
+      }
+     }
+    ],
+    "usageNote": "书面语、正式场合常用；口语多说 คิดดู。"
+   }
+  ]
+ },
+ {
+  "headword": "คาดว่า",
+  "phonetic": "khat wa",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "khâat-wâa · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คิดล่วงหน้าว่าน่าจะเป็นอย่างนั้น",
+    "translations": {
+     "zh": "预计；估计",
+     "en": "to expect that"
+    },
+    "examples": [
+     {
+      "text": "คาดว่าฝนจะตกหนักพรุ่งนี้",
+      "translations": {
+       "zh": "预计明天会下大雨。",
+       "en": "Heavy rain is expected tomorrow."
+      }
+     }
+    ],
+    "usageNote": "新闻、天气预报中极常见。"
+   }
+  ]
+ },
+ {
+  "headword": "คาดหวัง",
+  "phonetic": "khatwang",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "khâat-wǎng · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หวังไว้ล่วงหน้าว่าจะได้ผลตามต้องการ",
+    "translations": {
+     "zh": "期望；期待",
+     "en": "to expect, to hope for"
+    },
+    "examples": [
+     {
+      "text": "พ่อแม่คาดหวังให้ลูกเรียนเก่ง",
+      "translations": {
+       "zh": "父母期望孩子学习好。",
+       "en": "Parents expect their children to do well at school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คาดการณ์",
+  "phonetic": "khatkan",
+  "cefr": "B2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "khâat-kaan · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ประเมินล่วงหน้าว่าเหตุการณ์จะเป็นอย่างไร",
+    "translations": {
+     "zh": "预测；预料",
+     "en": "to forecast, to predict"
+    },
+    "examples": [
+     {
+      "text": "นักเศรษฐศาสตร์คาดการณ์ว่าราคาน้ำมันจะสูงขึ้น",
+      "translations": {
+       "zh": "经济学家预测油价会上涨。",
+       "en": "Economists forecast that oil prices will rise."
+      }
+     }
+    ],
+    "usageNote": "正式、书面语，多用于新闻和报告。"
+   }
+  ]
+ },
+ {
+  "headword": "ตัดสินใจ",
+  "phonetic": "tatsinchai",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "tàt-sǐn-jai · 低, 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เลือกและกำหนดว่าจะทำอย่างไร",
+    "translations": {
+     "zh": "决定；下决心",
+     "en": "to decide"
+    },
+    "examples": [
+     {
+      "text": "เขาตัดสินใจลาออกจากงาน",
+      "translations": {
+       "zh": "他决定辞职。",
+       "en": "He decided to quit his job."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตัดสิน",
+  "phonetic": "tatsin",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "tàt-sǐn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ชี้ขาดว่าถูกหรือผิด แพ้หรือชนะ",
+    "translations": {
+     "zh": "判定；裁决；评判",
+     "en": "to judge, to rule"
+    },
+    "examples": [
+     {
+      "text": "อย่าตัดสินคนจากภายนอก",
+      "translations": {
+       "zh": "不要以貌取人。",
+       "en": "Don't judge people by appearances."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หลีกเลี่ยง",
+  "phonetic": "lik liang",
+  "cefr": "B2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "lìik-lîang · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พยายามไม่ทำหรือไม่เข้าใกล้",
+    "translations": {
+     "zh": "避免；回避",
+     "en": "to avoid"
+    },
+    "examples": [
+     {
+      "text": "ควรหลีกเลี่ยงอาหารที่มีไขมันสูง",
+      "translations": {
+       "zh": "应避免高脂肪食物。",
+       "en": "You should avoid high-fat food."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อนุญาต",
+  "phonetic": "anuyat",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "à-nú-yâat · 低, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยอมให้ทำได้",
+    "translations": {
+     "zh": "允许；许可",
+     "en": "to allow, to permit"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่ไม่อนุญาตให้สูบบุหรี่",
+      "translations": {
+       "zh": "这里不允许吸烟。",
+       "en": "Smoking is not allowed here."
+      }
+     }
+    ],
+    "usageNote": "常用句型：อนุญาตให้ + 动词。请求许可说 ขออนุญาต。"
+   }
+  ]
+ },
+ {
+  "headword": "ป้องกัน",
+  "phonetic": "pongkan",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "pɔ̂ng-kan · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำไว้ก่อนเพื่อไม่ให้สิ่งไม่ดีเกิดขึ้น",
+    "translations": {
+     "zh": "预防；防止",
+     "en": "to prevent, to protect against"
+    },
+    "examples": [
+     {
+      "text": "ล้างมือบ่อยๆ ช่วยป้องกันโรค",
+      "translations": {
+       "zh": "勤洗手有助于预防疾病。",
+       "en": "Washing your hands often helps prevent illness."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โน้มน้าว",
+  "phonetic": "nomnao",
+  "cefr": "B2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "toneMarks": "nóom-náao · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดชักจูงให้คนอื่นเชื่อหรือทำตาม",
+    "translations": {
+     "zh": "说服；劝导",
+     "en": "to persuade"
+    },
+    "examples": [
+     {
+      "text": "เธอพยายามโน้มน้าวให้พ่อซื้อรถใหม่",
+      "translations": {
+       "zh": "她想说服爸爸买新车。",
+       "en": "She tried to persuade her dad to buy a new car."
+      }
+     }
+    ],
+    "usageNote": "偏书面；口语常说 กล่อม 或 ชวน。"
+   }
+  ]
+ },
+ {
+  "headword": "เรียกร้อง",
+  "phonetic": "riakrong",
+  "cefr": "B2",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "rîak-rɔ́ɔng · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ขอหรือเรียกเอาสิ่งที่คิดว่าควรได้",
+    "translations": {
+     "zh": "要求；呼吁",
+     "en": "to demand, to call for"
+    },
+    "examples": [
+     {
+      "text": "คนงานเรียกร้องค่าแรงที่เป็นธรรม",
+      "translations": {
+       "zh": "工人要求公平的工资。",
+       "en": "Workers are demanding fair wages."
+      }
+     }
+    ],
+    "usageNote": "多用于新闻、社会运动。"
+   }
+  ]
+ },
+ {
+  "headword": "ตระหนัก",
+  "phonetic": "tranak",
+  "cefr": "B2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "trà-nàk · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้และเข้าใจอย่างชัดเจน",
+    "translations": {
+     "zh": "意识到；认识到",
+     "en": "to realize, to be aware"
+    },
+    "examples": [
+     {
+      "text": "เราต้องตระหนักถึงปัญหาสิ่งแวดล้อม",
+      "translations": {
+       "zh": "我们必须意识到环境问题。",
+       "en": "We must be aware of environmental problems."
+      }
+     }
+    ],
+    "usageNote": "常用 ตระหนักถึง + 名词 或 ตระหนักว่า + 句子；书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "เห็นด้วย",
+  "phonetic": "hen duai",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "hěn-dûai · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีความคิดตรงกับคนอื่น",
+    "translations": {
+     "zh": "同意；赞成",
+     "en": "to agree"
+    },
+    "examples": [
+     {
+      "text": "ฉันเห็นด้วยกับความคิดของคุณ",
+      "translations": {
+       "zh": "我同意你的想法。",
+       "en": "I agree with your idea."
+      }
+     }
+    ],
+    "usageNote": "“不同意”说 ไม่เห็นด้วย。"
+   }
+  ]
+ },
+ {
+  "headword": "คัดค้าน",
+  "phonetic": "khatkhan",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "khát-kháan · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แสดงว่าไม่เห็นด้วยและต่อต้าน",
+    "translations": {
+     "zh": "反对",
+     "en": "to object, to oppose"
+    },
+    "examples": [
+     {
+      "text": "ชาวบ้านคัดค้านการสร้างโรงงาน",
+      "translations": {
+       "zh": "村民反对建工厂。",
+       "en": "The villagers oppose building the factory."
+      }
+     }
+    ],
+    "usageNote": "正式用语。"
+   }
+  ]
+ },
+ {
+  "headword": "สนับสนุน",
+  "phonetic": "sanapsanun",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sà-nàp-sà-nǔn · 低, 低, 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ช่วยเหลือหรือเห็นด้วยและส่งเสริม",
+    "translations": {
+     "zh": "支持；赞助",
+     "en": "to support"
+    },
+    "examples": [
+     {
+      "text": "ครอบครัวสนับสนุนการตัดสินใจของฉัน",
+      "translations": {
+       "zh": "家人支持我的决定。",
+       "en": "My family supports my decision."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สงสัย",
+  "phonetic": "songsai",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "sǒng-sǎi · 升, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่แน่ใจและอยากรู้ หรือไม่ค่อยเชื่อ",
+    "translations": {
+     "zh": "怀疑；纳闷",
+     "en": "to wonder, to doubt, to suspect"
+    },
+    "examples": [
+     {
+      "text": "ฉันสงสัยว่าทำไมเขาไม่มา",
+      "translations": {
+       "zh": "我纳闷他为什么没来。",
+       "en": "I wonder why he didn't come."
+      }
+     }
+    ],
+    "usageNote": "口语中句首的 สงสัย… 还可表示“大概、恐怕”。"
+   }
+  ]
+ },
+ {
+  "headword": "สันนิษฐาน",
+  "phonetic": "sannitthan",
+  "cefr": "B2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "toneMarks": "sǎn-nít-thǎan · 升, 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คาดเดาโดยอาศัยเหตุผลหรือหลักฐาน",
+    "translations": {
+     "zh": "推测；推断",
+     "en": "to presume, to assume"
+    },
+    "examples": [
+     {
+      "text": "ตำรวจสันนิษฐานว่าคนร้ายหนีไปทางเหนือ",
+      "translations": {
+       "zh": "警方推测犯人往北逃了。",
+       "en": "Police assume the culprit fled north."
+      }
+     }
+    ],
+    "usageNote": "正式、书面语，新闻常见。"
+   }
+  ]
+ },
+ {
+  "headword": "ตีความ",
+  "phonetic": "tikhwam",
+  "cefr": "B2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "tii-khwaam · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อธิบายหรือเข้าใจความหมายตามแบบของตน",
+    "translations": {
+     "zh": "解释；诠释",
+     "en": "to interpret"
+    },
+    "examples": [
+     {
+      "text": "แต่ละคนตีความบทกวีนี้ต่างกัน",
+      "translations": {
+       "zh": "每个人对这首诗的理解不同。",
+       "en": "Each person interprets this poem differently."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประเมิน",
+  "phonetic": "pramoen",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "prà-məən · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คาดคะเนหรือวัดคุณค่า ปริมาณ หรือคุณภาพ",
+    "translations": {
+     "zh": "评估；估计",
+     "en": "to assess, to evaluate"
+    },
+    "examples": [
+     {
+      "text": "ครูประเมินผลการเรียนทุกเทอม",
+      "translations": {
+       "zh": "老师每学期评估学习成绩。",
+       "en": "Teachers assess learning every term."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิเคราะห์",
+  "phonetic": "wikhro",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "wí-khrɔ́ · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แยกแยะและพิจารณาอย่างละเอียด",
+    "translations": {
+     "zh": "分析",
+     "en": "to analyze"
+    },
+    "examples": [
+     {
+      "text": "เราต้องวิเคราะห์ข้อมูลก่อนตัดสินใจ",
+      "translations": {
+       "zh": "我们得先分析数据再做决定。",
+       "en": "We must analyze the data before deciding."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เปรียบเทียบ",
+  "phonetic": "priapthiap",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "prìap-thîap · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูความเหมือนและความต่างของสองสิ่ง",
+    "translations": {
+     "zh": "比较；对比",
+     "en": "to compare"
+    },
+    "examples": [
+     {
+      "text": "อย่าเปรียบเทียบตัวเองกับคนอื่น",
+      "translations": {
+       "zh": "别拿自己和别人比。",
+       "en": "Don't compare yourself with others."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สรุป",
+  "phonetic": "sarup",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "sà-rùp · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "กล่าวโดยย่อเฉพาะใจความสำคัญ",
+    "translations": {
+     "zh": "总结；概括",
+     "en": "to summarize, to conclude"
+    },
+    "examples": [
+     {
+      "text": "ช่วยสรุปเนื้อหาการประชุมให้หน่อย",
+      "translations": {
+       "zh": "请帮忙总结一下会议内容。",
+       "en": "Please summarize the meeting for me."
+      }
+     }
+    ],
+    "usageNote": "สรุปแล้ว 也作连接词“总之”。"
+   }
+  ]
+ },
+ {
+  "headword": "ยืนยัน",
+  "phonetic": "yuenyan",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "yʉʉn-yan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกว่าเป็นความจริงหรือรับรองอย่างหนักแน่น",
+    "translations": {
+     "zh": "确认；坚称",
+     "en": "to confirm, to insist"
+    },
+    "examples": [
+     {
+      "text": "กรุณายืนยันการจองภายในวันนี้",
+      "translations": {
+       "zh": "请在今天内确认预订。",
+       "en": "Please confirm your booking today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปฏิเสธ",
+  "phonetic": "patiset",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "pà-tì-sèet · 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ยอมรับหรือบอกว่าไม่ใช่",
+    "translations": {
+     "zh": "拒绝；否认",
+     "en": "to refuse, to deny"
+    },
+    "examples": [
+     {
+      "text": "เขาปฏิเสธคำเชิญอย่างสุภาพ",
+      "translations": {
+       "zh": "他礼貌地拒绝了邀请。",
+       "en": "He politely declined the invitation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยอมรับ",
+  "phonetic": "yomrap",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "yɔɔm-ráp · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รับว่าจริงหรือยินยอมรับ",
+    "translations": {
+     "zh": "承认；接受",
+     "en": "to admit, to accept"
+    },
+    "examples": [
+     {
+      "text": "เขายอมรับว่าตัวเองผิด",
+      "translations": {
+       "zh": "他承认自己错了。",
+       "en": "He admitted he was wrong."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสนอ",
+  "phonetic": "sanoe",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "sà-nə̌ə · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยื่นความคิดหรือสิ่งของให้พิจารณา",
+    "translations": {
+     "zh": "提出；提议",
+     "en": "to propose, to offer"
+    },
+    "examples": [
+     {
+      "text": "หัวหน้าเสนอให้ประชุมทุกวันจันทร์",
+      "translations": {
+       "zh": "领导提议每周一开会。",
+       "en": "The boss proposed meeting every Monday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โต้แย้ง",
+  "phonetic": "toyaeng",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "toneMarks": "tôo-yɛ́ɛng · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดแย้งด้วยเหตุผลเพื่อแสดงว่าไม่เห็นด้วย",
+    "translations": {
+     "zh": "争辩；反驳",
+     "en": "to argue, to dispute"
+    },
+    "examples": [
+     {
+      "text": "เขาโต้แย้งด้วยเหตุผลที่ดี",
+      "translations": {
+       "zh": "他用充分的理由进行反驳。",
+       "en": "He argued back with good reasons."
+      }
+     }
+    ],
+    "usageNote": "偏正式；吵架用 ทะเลาะ。"
+   }
+  ]
+ },
+ {
+  "headword": "อภิปราย",
+  "phonetic": "aphiprai",
+  "cefr": "B2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "toneMarks": "à-phí-praai · 低, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดแสดงความคิดเห็นในที่ประชุม",
+    "translations": {
+     "zh": "讨论；辩论",
+     "en": "to debate, to discuss formally"
+    },
+    "examples": [
+     {
+      "text": "นักศึกษาอภิปรายเรื่องสิ่งแวดล้อม",
+      "translations": {
+       "zh": "学生们讨论环境问题。",
+       "en": "The students debated the environment."
+      }
+     }
+    ],
+    "usageNote": "正式用语，多用于会议、议会。"
+   }
+  ]
+ },
+ {
+  "headword": "ปรึกษา",
+  "phonetic": "pruksa",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "prʉ̀k-sǎa · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ขอความเห็นหรือคำแนะนำจากผู้อื่น",
+    "translations": {
+     "zh": "商量；咨询",
+     "en": "to consult"
+    },
+    "examples": [
+     {
+      "text": "ถ้ามีปัญหา ปรึกษาฉันได้เสมอ",
+      "translations": {
+       "zh": "有问题随时可以找我商量。",
+       "en": "If you have a problem, you can always consult me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สื่อสาร",
+  "phonetic": "suesan",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "sʉ̀ʉ-sǎan · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งข้อมูลหรือความคิดให้ผู้อื่นเข้าใจ",
+    "translations": {
+     "zh": "沟通；交流",
+     "en": "to communicate"
+    },
+    "examples": [
+     {
+      "text": "เราสื่อสารกันเป็นภาษาอังกฤษ",
+      "translations": {
+       "zh": "我们用英语沟通。",
+       "en": "We communicate in English."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แจ้ง",
+  "phonetic": "chaeng",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "jɛ̂ɛng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้รู้อย่างเป็นทางการ",
+    "translations": {
+     "zh": "通知；告知；报（案）",
+     "en": "to inform, to notify"
+    },
+    "examples": [
+     {
+      "text": "กรุณาแจ้งล่วงหน้าหนึ่งวัน",
+      "translations": {
+       "zh": "请提前一天通知。",
+       "en": "Please give one day's notice."
+      }
+     }
+    ],
+    "usageNote": "报警说 แจ้งความ。"
+   }
+  ]
+ },
+ {
+  "headword": "ประกาศ",
+  "phonetic": "prakat",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "prà-kàat · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้คนทั่วไปรู้",
+    "translations": {
+     "zh": "宣布；公告",
+     "en": "to announce"
+    },
+    "examples": [
+     {
+      "text": "รัฐบาลประกาศวันหยุดพิเศษ",
+      "translations": {
+       "zh": "政府宣布了特别假日。",
+       "en": "The government announced a special holiday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บ่น",
+  "phonetic": "bon",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "bòn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดซ้ำๆ แสดงความไม่พอใจ",
+    "translations": {
+     "zh": "抱怨；唠叨",
+     "en": "to complain, to grumble"
+    },
+    "examples": [
+     {
+      "text": "แม่บ่นว่าห้องฉันรกมาก",
+      "translations": {
+       "zh": "妈妈抱怨我房间太乱。",
+       "en": "Mom complained that my room is very messy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตำหนิ",
+  "phonetic": "tamni",
+  "cefr": "B2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "toneMarks": "tam-nì · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ติหรือว่ากล่าวว่าไม่ดี",
+    "translations": {
+     "zh": "责备；批评",
+     "en": "to criticize, to reproach"
+    },
+    "examples": [
+     {
+      "text": "หัวหน้าตำหนิเขาที่มาสาย",
+      "translations": {
+       "zh": "上司责备他迟到。",
+       "en": "The boss reproached him for being late."
+      }
+     }
+    ],
+    "usageNote": "比 ว่า 正式。"
+   }
+  ]
+ },
+ {
+  "headword": "วิจารณ์",
+  "phonetic": "wichan",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "wí-jaan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แสดงความเห็นว่าดีหรือไม่ดีอย่างไร",
+    "translations": {
+     "zh": "批评；评论",
+     "en": "to criticize, to review"
+    },
+    "examples": [
+     {
+      "text": "คนในโซเชียลวิจารณ์หนังเรื่องนี้มาก",
+      "translations": {
+       "zh": "网友对这部电影评论很多。",
+       "en": "People online criticized this film a lot."
+      }
+     }
+    ],
+    "usageNote": "ร์ 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "ยกย่อง",
+  "phonetic": "yokyong",
+  "cefr": "B2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "yók-yɔ̂ng · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ชมเชยและให้เกียรติ",
+    "translations": {
+     "zh": "称赞；表彰",
+     "en": "to praise, to honor"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนยกย่องความกล้าหาญของเขา",
+      "translations": {
+       "zh": "大家都称赞他的勇气。",
+       "en": "Everyone praised his courage."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เตือน",
+  "phonetic": "tuean",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "tʉan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้ระวังหรือให้นึกขึ้นได้",
+    "translations": {
+     "zh": "提醒；警告",
+     "en": "to warn, to remind"
+    },
+    "examples": [
+     {
+      "text": "อย่าลืมเตือนฉันเรื่องประชุมนะ",
+      "translations": {
+       "zh": "别忘了提醒我开会的事。",
+       "en": "Don't forget to remind me about the meeting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขู่",
+  "phonetic": "khu",
+  "cefr": "B2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "toneMarks": "khùu · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดหรือทำให้กลัว",
+    "translations": {
+     "zh": "威胁；恐吓",
+     "en": "to threaten"
+    },
+    "examples": [
+     {
+      "text": "คนร้ายขู่ว่าจะทำร้ายเขา",
+      "translations": {
+       "zh": "歹徒威胁要伤害他。",
+       "en": "The criminal threatened to hurt him."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หลอก",
+  "phonetic": "lok",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "lɔ̀ɔk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้เชื่อสิ่งที่ไม่จริง",
+    "translations": {
+     "zh": "欺骗；骗",
+     "en": "to deceive, to trick"
+    },
+    "examples": [
+     {
+      "text": "ระวังอย่าให้ใครหลอกเอาเงิน",
+      "translations": {
+       "zh": "小心别被人骗钱。",
+       "en": "Be careful not to let anyone con you out of money."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อ้าง",
+  "phonetic": "ang",
+  "cefr": "B2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "âang · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยกขึ้นมากล่าวเป็นเหตุผลหรือหลักฐาน",
+    "translations": {
+     "zh": "声称；借口；引用",
+     "en": "to claim, to cite"
+    },
+    "examples": [
+     {
+      "text": "เขาอ้างว่าป่วยจึงไม่มาทำงาน",
+      "translations": {
+       "zh": "他声称生病所以没来上班。",
+       "en": "He claimed he was sick, so he didn't come to work."
+      }
+     }
+    ],
+    "usageNote": "อ้างว่า 常暗示“说是…（未必真）”。"
+   }
+  ]
+ },
+ {
+  "headword": "อ้างอิง",
+  "phonetic": "angin",
+  "cefr": "B2",
+  "frequencyRank": 6800,
+  "grammarNotes": {
+   "toneMarks": "âang-ing · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยกข้อมูลจากแหล่งอื่นมาใช้เป็นหลักฐาน",
+    "translations": {
+     "zh": "引用；参考",
+     "en": "to refer to, to cite"
+    },
+    "examples": [
+     {
+      "text": "รายงานนี้อ้างอิงข้อมูลจากรัฐบาล",
+      "translations": {
+       "zh": "这份报告引用了政府的数据。",
+       "en": "This report cites government data."
+      }
+     }
+    ],
+    "usageNote": "学术、书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "เน้น",
+  "phonetic": "nen",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "nén · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้เด่นหรือให้ความสำคัญเป็นพิเศษ",
+    "translations": {
+     "zh": "强调；着重",
+     "en": "to emphasize"
+    },
+    "examples": [
+     {
+      "text": "ครูเน้นว่าต้องส่งการบ้านตรงเวลา",
+      "translations": {
+       "zh": "老师强调作业必须按时交。",
+       "en": "The teacher stressed that homework must be on time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชี้แจง",
+  "phonetic": "chichaeng",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "chíi-jɛɛng · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อธิบายให้เข้าใจเหตุผลหรือรายละเอียด",
+    "translations": {
+     "zh": "说明；澄清",
+     "en": "to clarify, to explain"
+    },
+    "examples": [
+     {
+      "text": "บริษัทออกมาชี้แจงเรื่องข่าวลือ",
+      "translations": {
+       "zh": "公司出面澄清传闻。",
+       "en": "The company came out to clarify the rumor."
+      }
+     }
+    ],
+    "usageNote": "正式用语。"
+   }
+  ]
+ },
+ {
+  "headword": "บรรยาย",
+  "phonetic": "banyai",
+  "cefr": "B2",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "toneMarks": "ban-yaai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดหรือเขียนอธิบายเรื่องราวให้ฟัง",
+    "translations": {
+     "zh": "讲课；描述",
+     "en": "to lecture, to describe"
+    },
+    "examples": [
+     {
+      "text": "อาจารย์บรรยายเรื่องประวัติศาสตร์ไทย",
+      "translations": {
+       "zh": "教授讲授泰国历史。",
+       "en": "The professor lectured on Thai history."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยกตัวอย่าง",
+  "phonetic": "yok tua yang",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "yók-tua-yàang · 高, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "นำตัวอย่างมาแสดงให้เห็น",
+    "translations": {
+     "zh": "举例",
+     "en": "to give an example"
+    },
+    "examples": [
+     {
+      "text": "ช่วยยกตัวอย่างให้ฟังหน่อยได้ไหม",
+      "translations": {
+       "zh": "能举个例子吗？",
+       "en": "Could you give an example?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สัญญา",
+  "phonetic": "sanya",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "sǎn-yaa · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้คำมั่นว่าจะทำตามที่พูด",
+    "translations": {
+     "zh": "答应；承诺",
+     "en": "to promise"
+    },
+    "examples": [
+     {
+      "text": "ฉันสัญญาว่าจะไม่มาสายอีก",
+      "translations": {
+       "zh": "我保证不会再迟到。",
+       "en": "I promise I won't be late again."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อตกลงที่ทำไว้เป็นลายลักษณ์อักษร",
+    "translations": {
+     "zh": "合同；协议",
+     "en": "contract, agreement"
+    },
+    "examples": [
+     {
+      "text": "เราเซ็นสัญญาเช่าบ้านหนึ่งปี",
+      "translations": {
+       "zh": "我们签了一年的租房合同。",
+       "en": "We signed a one-year lease."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยืนกราน",
+  "phonetic": "yuenkran",
+  "cefr": "B2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "toneMarks": "yʉʉn-kraan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยืนยันความคิดเดิมไม่ยอมเปลี่ยน",
+    "translations": {
+     "zh": "坚持；坚称",
+     "en": "to insist firmly"
+    },
+    "examples": [
+     {
+      "text": "เขายืนกรานว่าตัวเองไม่ผิด",
+      "translations": {
+       "zh": "他坚称自己没错。",
+       "en": "He insisted he was not at fault."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รับรอง",
+  "phonetic": "raprong",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "ráp-rɔɔng · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยืนยันว่าจริงหรือดีแน่นอน",
+    "translations": {
+     "zh": "保证；担保；证明",
+     "en": "to guarantee, to certify"
+    },
+    "examples": [
+     {
+      "text": "รับรองว่าอร่อยแน่นอน",
+      "translations": {
+       "zh": "保证一定好吃。",
+       "en": "I guarantee it's delicious."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขอร้อง",
+  "phonetic": "khorong",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "khɔ̌ɔ-rɔ́ɔng · 升, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ขอด้วยความจริงใจและอ่อนน้อม",
+    "translations": {
+     "zh": "恳求；拜托",
+     "en": "to beg, to plead"
+    },
+    "examples": [
+     {
+      "text": "ฉันขอร้องให้เขาอยู่ต่อ",
+      "translations": {
+       "zh": "我恳求他留下来。",
+       "en": "I begged him to stay."
+      }
+     }
+    ],
+    "usageNote": "ขอร้องล่ะ 意为“拜托了”。"
+   }
+  ]
+ },
+ {
+  "headword": "ชักชวน",
+  "phonetic": "chakchuan",
+  "cefr": "B2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "chák-chuan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดให้คนอื่นมาร่วมทำด้วย",
+    "translations": {
+     "zh": "劝说；邀约",
+     "en": "to persuade, to invite"
+    },
+    "examples": [
+     {
+      "text": "เพื่อนชักชวนฉันไปเที่ยวต่างประเทศ",
+      "translations": {
+       "zh": "朋友劝我一起出国旅行。",
+       "en": "A friend persuaded me to travel abroad."
+      }
+     }
+    ],
+    "usageNote": "比 ชวน 正式。"
+   }
+  ]
+ },
+ {
+  "headword": "ร้องเรียน",
+  "phonetic": "rongrian",
+  "cefr": "B2",
+  "frequencyRank": 6300,
+  "grammarNotes": {
+   "toneMarks": "rɔ́ɔng-rian · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แจ้งความไม่พอใจต่อผู้รับผิดชอบ",
+    "translations": {
+     "zh": "投诉；申诉",
+     "en": "to file a complaint"
+    },
+    "examples": [
+     {
+      "text": "ลูกค้าร้องเรียนเรื่องบริการที่ไม่ดี",
+      "translations": {
+       "zh": "顾客投诉服务差。",
+       "en": "Customers complained about poor service."
+      }
+     }
+    ],
+    "usageNote": "正式投诉；日常抱怨用 บ่น。"
+   }
+  ]
+ }
+]

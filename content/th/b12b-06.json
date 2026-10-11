@@ -1,0 +1,1317 @@
+[
+ {
+  "headword": "ต้นทุน",
+  "phonetic": "ton thun",
+  "cefr": "B2",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "toneMarks": "tôn-thun · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ใช้ในการผลิตหรือซื้อของมาขาย",
+    "translations": {
+     "zh": "成本",
+     "en": "cost (of production)"
+    },
+    "examples": [
+     {
+      "text": "ต้นทุนวัตถุดิบสูงขึ้นทุกปี",
+      "translations": {
+       "zh": "原料成本每年都在上涨。",
+       "en": "Raw material costs rise every year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เศรษฐี",
+  "phonetic": "setthi",
+  "cefr": "B2",
+  "frequencyRank": 5700,
+  "grammarNotes": {
+   "toneMarks": "sèet-thǐi · 低, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่รวยมาก",
+    "translations": {
+     "zh": "富翁；大富豪",
+     "en": "millionaire, rich person"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นเศรษฐีที่ดินในเชียงใหม่",
+      "translations": {
+       "zh": "他是清迈的地产富翁。",
+       "en": "He is a wealthy landowner in Chiang Mai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค้าขาย",
+  "phonetic": "kha khai",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "kháa-khǎai · 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ซื้อและขายสินค้าเป็นอาชีพ",
+    "translations": {
+     "zh": "做买卖；经商",
+     "en": "to trade, to do business"
+    },
+    "examples": [
+     {
+      "text": "ครอบครัวเขาค้าขายมาหลายรุ่น",
+      "translations": {
+       "zh": "他家几代人都做买卖。",
+       "en": "His family has been in trade for generations."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "การค้า",
+  "phonetic": "kan kha",
+  "cefr": "B2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "kaan-kháa · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การซื้อขายสินค้า",
+    "translations": {
+     "zh": "贸易；商业",
+     "en": "trade, commerce"
+    },
+    "examples": [
+     {
+      "text": "การค้าระหว่างไทยกับจีนเพิ่มขึ้น",
+      "translations": {
+       "zh": "泰中贸易在增长。",
+       "en": "Trade between Thailand and China is growing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ร้านค้า",
+  "phonetic": "ran kha",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "ráan-kháa · 高, 高",
+   "classifier": "ร้าน（家）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ร้านที่ขายของ",
+    "translations": {
+     "zh": "商店",
+     "en": "shop, store"
+    },
+    "examples": [
+     {
+      "text": "ร้านค้าแถวนี้ปิดสองทุ่ม",
+      "translations": {
+       "zh": "这附近的商店晚上八点关门。",
+       "en": "Shops around here close at 8 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พ่อค้า",
+  "phonetic": "pho kha",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "phɔ̂ɔ-kháa · 降, 高",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผู้ชายที่ขายของ",
+    "translations": {
+     "zh": "男商贩；商人",
+     "en": "merchant, (male) trader"
+    },
+    "examples": [
+     {
+      "text": "พ่อค้าผลไม้ลดราคาให้ฉัน",
+      "translations": {
+       "zh": "水果贩给我便宜了。",
+       "en": "The fruit seller gave me a discount."
+      }
+     }
+    ],
+    "usageNote": "女商贩是 แม่ค้า。"
+   }
+  ]
+ },
+ {
+  "headword": "ตัวแทน",
+  "phonetic": "tua thaen",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "tua-thɛɛn · 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำแทนหรือพูดแทนคนอื่น",
+    "translations": {
+     "zh": "代表；代理人",
+     "en": "representative, agent"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นตัวแทนของบริษัท",
+      "translations": {
+       "zh": "他是公司的代表。",
+       "en": "He is the company's representative."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาสาสมัคร",
+  "phonetic": "asasamak",
+  "cefr": "B2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "aa-sǎa-sà-màk · 中, 升, 低, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ช่วยงานโดยไม่รับเงิน",
+    "translations": {
+     "zh": "志愿者",
+     "en": "volunteer"
+    },
+    "examples": [
+     {
+      "text": "เธอเป็นอาสาสมัครที่โรงพยาบาล",
+      "translations": {
+       "zh": "她在医院当志愿者。",
+       "en": "She volunteers at the hospital."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มืออาชีพ",
+  "phonetic": "mue achip",
+  "cefr": "B2",
+  "frequencyRank": 5100,
+  "grammarNotes": {
+   "toneMarks": "mʉʉ-aa-chîip · 中, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำงานเก่งและจริงจังแบบคนในวงการ",
+    "translations": {
+     "zh": "专业的；职业的",
+     "en": "professional"
+    },
+    "examples": [
+     {
+      "text": "ช่างคนนี้ทำงานแบบมืออาชีพ",
+      "translations": {
+       "zh": "这位师傅干活很专业。",
+       "en": "This technician works very professionally."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประจำ",
+  "phonetic": "pracham",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "prà-jam · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำเป็นปกติหรือมีตำแหน่งถาวร",
+    "translations": {
+     "zh": "固定的；正式的；常规的",
+     "en": "regular, permanent"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นพนักงานประจำแล้ว",
+      "translations": {
+       "zh": "他已经转正了。",
+       "en": "He's a permanent employee now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชั่วคราว",
+  "phonetic": "chuakhrao",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "chûa-khraao · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อยู่หรือใช้แค่ช่วงสั้น ๆ",
+    "translations": {
+     "zh": "临时的；暂时的",
+     "en": "temporary"
+    },
+    "examples": [
+     {
+      "text": "ฉันทำงานชั่วคราวช่วงปิดเทอม",
+      "translations": {
+       "zh": "放假期间我打临时工。",
+       "en": "I do temporary work during the school break."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ว่างงาน",
+  "phonetic": "wang ngan",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "wâang-ngaan · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่มีงานทำ",
+    "translations": {
+     "zh": "失业；待业",
+     "en": "to be unemployed"
+    },
+    "examples": [
+     {
+      "text": "คนว่างงานเพิ่มขึ้นในปีนี้",
+      "translations": {
+       "zh": "今年失业人数增加了。",
+       "en": "Unemployment rose this year."
+      }
+     }
+    ],
+    "usageNote": "比 ตกงาน 更正式，多用于新闻统计。"
+   }
+  ]
+ },
+ {
+  "headword": "ระบบ",
+  "phonetic": "rabop",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "rá-bòp · 高, 低",
+   "classifier": "ระบบ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนต่าง ๆ ที่ทำงานร่วมกันเป็นแบบแผน",
+    "translations": {
+     "zh": "系统；体系",
+     "en": "system"
+    },
+    "examples": [
+     {
+      "text": "ระบบธนาคารล่มเมื่อเช้านี้",
+      "translations": {
+       "zh": "银行系统今早崩了。",
+       "en": "The bank's system went down this morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กระทรวง",
+  "phonetic": "krasuang",
+  "cefr": "B2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "krà-suang · 低, 中",
+   "classifier": "กระทรวง（个部）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หน่วยงานใหญ่ของรัฐบาล",
+    "translations": {
+     "zh": "（政府的）部",
+     "en": "ministry"
+    },
+    "examples": [
+     {
+      "text": "กระทรวงศึกษาธิการประกาศวันเปิดเทอม",
+      "translations": {
+       "zh": "教育部公布了开学日期。",
+       "en": "The Ministry of Education announced the start of term."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หน่วยงาน",
+  "phonetic": "nuai ngan",
+  "cefr": "B2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "nùai-ngaan · 低, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนงานในองค์กรหรือรัฐ",
+    "translations": {
+     "zh": "单位；机构",
+     "en": "agency, unit"
+    },
+    "examples": [
+     {
+      "text": "ต้องติดต่อหน่วยงานไหนครับ",
+      "translations": {
+       "zh": "要联系哪个部门？",
+       "en": "Which agency should I contact?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทางการ",
+  "phonetic": "thang kan",
+  "cefr": "B2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "thaang-kaan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หน่วยงานของรัฐ; แบบเป็นพิธี",
+    "translations": {
+     "zh": "官方；当局",
+     "en": "the authorities; official"
+    },
+    "examples": [
+     {
+      "text": "ยังไม่มีข่าวจากทางการ",
+      "translations": {
+       "zh": "官方还没有消息。",
+       "en": "There's no word from the authorities yet."
+      }
+     }
+    ],
+    "usageNote": "อย่างเป็นทางการ = 正式地。"
+   }
+  ]
+ },
+ {
+  "headword": "ปกครอง",
+  "phonetic": "pokkhrong",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "pòk-khrɔɔng · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูแลและควบคุมประเทศหรือกลุ่มคน",
+    "translations": {
+     "zh": "统治；管理",
+     "en": "to govern, to rule"
+    },
+    "examples": [
+     {
+      "text": "ใครปกครองประเทศนี้ในตอนนั้น",
+      "translations": {
+       "zh": "当时是谁统治这个国家？",
+       "en": "Who ruled this country at that time?"
+      }
+     }
+    ],
+    "usageNote": "ผู้ปกครอง 也指学生家长。"
+   }
+  ]
+ },
+ {
+  "headword": "ผู้ต้องหา",
+  "phonetic": "phu tongha",
+  "cefr": "B2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "toneMarks": "phûu-tɔ̂ng-hǎa · 降, 降, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ถูกกล่าวหาว่าทำผิด",
+    "translations": {
+     "zh": "犯罪嫌疑人",
+     "en": "suspect, accused"
+    },
+    "examples": [
+     {
+      "text": "ตำรวจจับผู้ต้องหาได้แล้ว",
+      "translations": {
+       "zh": "警方已抓获嫌疑人。",
+       "en": "Police have arrested the suspect."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตัดสิน",
+  "phonetic": "tatsin",
+  "cefr": "B2",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "tàt-sǐn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ชี้ว่าใครถูกใครผิดหรือใครชนะ",
+    "translations": {
+     "zh": "判决；裁决；评判",
+     "en": "to judge, to rule"
+    },
+    "examples": [
+     {
+      "text": "ศาลตัดสินว่าเขาไม่ผิด",
+      "translations": {
+       "zh": "法院判他无罪。",
+       "en": "The court ruled that he was not guilty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลงโทษ",
+  "phonetic": "long thot",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "long-thôot · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ได้รับผลเพราะทำผิด",
+    "translations": {
+     "zh": "惩罚；处罚",
+     "en": "to punish"
+    },
+    "examples": [
+     {
+      "text": "ครูลงโทษนักเรียนที่มาสาย",
+      "translations": {
+       "zh": "老师惩罚迟到的学生。",
+       "en": "The teacher punished the late students."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เคารพ",
+  "phonetic": "khaorop",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "khao-róp · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้เกียรติและนับถือ",
+    "translations": {
+     "zh": "尊重；尊敬",
+     "en": "to respect"
+    },
+    "examples": [
+     {
+      "text": "เราต้องเคารพกฎหมาย",
+      "translations": {
+       "zh": "我们必须尊重法律。",
+       "en": "We must respect the law."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยาเสพติด",
+  "phonetic": "ya sep tit",
+  "cefr": "B2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "yaa-sèep-tìt · 中, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ยาที่ทำให้ติดและผิดกฎหมาย",
+    "translations": {
+     "zh": "毒品",
+     "en": "illegal drugs"
+    },
+    "examples": [
+     {
+      "text": "ยาเสพติดทำลายชีวิตคน",
+      "translations": {
+       "zh": "毒品毁人一生。",
+       "en": "Drugs destroy people's lives."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โกง",
+  "phonetic": "kong",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "koong · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หลอกเอาเปรียบคนอื่น",
+    "translations": {
+     "zh": "骗；作弊；耍赖",
+     "en": "to cheat"
+    },
+    "examples": [
+     {
+      "text": "เขาโกงข้อสอบแล้วถูกจับได้",
+      "translations": {
+       "zh": "他考试作弊被抓了。",
+       "en": "He cheated on the exam and got caught."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หัวข้อ",
+  "phonetic": "hua kho",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "hǔa-khɔ̂ɔ · 升, 降",
+   "classifier": "หัวข้อ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องหลักที่จะพูดหรือเขียน",
+    "translations": {
+     "zh": "题目；主题；标题",
+     "en": "topic, heading"
+    },
+    "examples": [
+     {
+      "text": "หัวข้อการประชุมวันนี้คืออะไร",
+      "translations": {
+       "zh": "今天会议的主题是什么？",
+       "en": "What's the topic of today's meeting?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สำนักข่าว",
+  "phonetic": "samnak khao",
+  "cefr": "B2",
+  "frequencyRank": 6100,
+  "grammarNotes": {
+   "toneMarks": "sǎm-nák-khàao · 升, 高, 低",
+   "classifier": "แห่ง（家）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "องค์กรที่หาและส่งข่าว",
+    "translations": {
+     "zh": "通讯社；新闻机构",
+     "en": "news agency"
+    },
+    "examples": [
+     {
+      "text": "สำนักข่าวต่างประเทศรายงานเรื่องนี้",
+      "translations": {
+       "zh": "外国通讯社报道了此事。",
+       "en": "Foreign news agencies reported on this."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้ประกาศข่าว",
+  "phonetic": "phu prakat khao",
+  "cefr": "B2",
+  "frequencyRank": 7200,
+  "grammarNotes": {
+   "toneMarks": "phûu-prà-kàat-khàao · 降, 低, 低, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่อ่านข่าวทางทีวีหรือวิทยุ",
+    "translations": {
+     "zh": "新闻主播",
+     "en": "news presenter, anchor"
+    },
+    "examples": [
+     {
+      "text": "เธอเป็นผู้ประกาศข่าวช่องเจ็ด",
+      "translations": {
+       "zh": "她是第七台的新闻主播。",
+       "en": "She's a news anchor on Channel 7."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิทยุ",
+  "phonetic": "witthayu",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "wít-thá-yú · 高, 高, 高",
+   "classifier": "เครื่อง（台，部）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครื่องรับเสียงที่ส่งมาทางคลื่น",
+    "translations": {
+     "zh": "收音机；广播",
+     "en": "radio"
+    },
+    "examples": [
+     {
+      "text": "พ่อฟังข่าวจากวิทยุในรถ",
+      "translations": {
+       "zh": "爸爸在车里听广播新闻。",
+       "en": "Dad listens to the news on the car radio."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข่าวด่วน",
+  "phonetic": "khao duan",
+  "cefr": "B2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "toneMarks": "khàao-dùan · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข่าวสำคัญที่เพิ่งเกิด",
+    "translations": {
+     "zh": "突发新闻；快讯",
+     "en": "breaking news"
+    },
+    "examples": [
+     {
+      "text": "มีข่าวด่วนเรื่องน้ำท่วม",
+      "translations": {
+       "zh": "有关于洪水的突发新闻。",
+       "en": "There's breaking news about the floods."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ความเป็นส่วนตัว",
+  "phonetic": "khwam pen suan tua",
+  "cefr": "B2",
+  "frequencyRank": 6600,
+  "grammarNotes": {
+   "toneMarks": "khwaam-pen-sùan-tua · 中, 中, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การที่เรื่องของตัวเองไม่ถูกคนอื่นรู้หรือรบกวน",
+    "translations": {
+     "zh": "隐私",
+     "en": "privacy"
+    },
+    "examples": [
+     {
+      "text": "โซเชียลมีเดียทำให้ไม่มีความเป็นส่วนตัว",
+      "translations": {
+       "zh": "社交媒体让人没有隐私。",
+       "en": "Social media leaves us no privacy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ออฟฟิศ",
+  "phonetic": "offit",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "ɔ́ɔp-fít · 高, 高",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ทำงานของบริษัท",
+    "translations": {
+     "zh": "办公室；公司",
+     "en": "office"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ฉันไม่ได้เข้าออฟฟิศ",
+      "translations": {
+       "zh": "我今天没去公司。",
+       "en": "I didn't go into the office today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นัดหมาย",
+  "phonetic": "nat mai",
+  "cefr": "B1",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "nát-mǎai · 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การตกลงเวลาพบกัน",
+    "translations": {
+     "zh": "约定；预约",
+     "en": "appointment"
+    },
+    "examples": [
+     {
+      "text": "ฉันมีนัดหมายกับลูกค้าบ่ายสาม",
+      "translations": {
+       "zh": "我下午三点约了客户。",
+       "en": "I have an appointment with a client at 3 p.m."
+      }
+     }
+    ],
+    "usageNote": "口语常只说 นัด。"
+   }
+  ]
+ },
+ {
+  "headword": "รูปถ่าย",
+  "phonetic": "rup thai",
+  "cefr": "B1",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "rûup-thàai · 降, 低",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาพที่ถ่ายด้วยกล้อง",
+    "translations": {
+     "zh": "照片",
+     "en": "photograph"
+    },
+    "examples": [
+     {
+      "text": "ต้องใช้รูปถ่ายสองนิ้วสองใบ",
+      "translations": {
+       "zh": "需要两张两寸照片。",
+       "en": "You need two 2-inch photos."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทะเบียนบ้าน",
+  "phonetic": "thabian ban",
+  "cefr": "B2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "toneMarks": "thá-bian-bâan · 高, 中, 降",
+   "classifier": "เล่ม（本）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เอกสารแสดงชื่อคนที่อยู่ในบ้าน",
+    "translations": {
+     "zh": "户口本",
+     "en": "house registration book"
+    },
+    "examples": [
+     {
+      "text": "กรุณานำทะเบียนบ้านมาด้วย",
+      "translations": {
+       "zh": "请带上户口本。",
+       "en": "Please bring your house registration book."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใบรับรอง",
+  "phonetic": "bai rap rong",
+  "cefr": "B2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "toneMarks": "bai-ráp-rɔɔng · 中, 高, 中",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เอกสารยืนยันว่าเป็นจริง",
+    "translations": {
+     "zh": "证明；证书",
+     "en": "certificate"
+    },
+    "examples": [
+     {
+      "text": "ขอใบรับรองการทำงานได้ไหม",
+      "translations": {
+       "zh": "可以开一份工作证明吗？",
+       "en": "Could I get an employment certificate?"
+      }
+     }
+    ],
+    "usageNote": "ใบรับรองแพทย์ = 医生证明。"
+   }
+  ]
+ },
+ {
+  "headword": "ศาสตราจารย์",
+  "phonetic": "satsatrachan",
+  "cefr": "B2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "toneMarks": "sàat-sà-traa-jaan · 低, 低, 中, 中",
+   "classifier": "ท่าน（位）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ตำแหน่งสูงสุดของอาจารย์มหาวิทยาลัย",
+    "translations": {
+     "zh": "教授",
+     "en": "professor"
+    },
+    "examples": [
+     {
+      "text": "ศาสตราจารย์ท่านนี้เขียนหนังสือหลายเล่ม",
+      "translations": {
+       "zh": "这位教授写了好几本书。",
+       "en": "This professor has written many books."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ติว",
+  "phonetic": "tio",
+  "cefr": "B1",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "tiu · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "สอนพิเศษเพื่อเตรียมสอบ",
+    "translations": {
+     "zh": "辅导；补课",
+     "en": "to tutor"
+    },
+    "examples": [
+     {
+      "text": "พี่ช่วยติวคณิตให้น้อง",
+      "translations": {
+       "zh": "哥哥帮弟弟补数学。",
+       "en": "The older brother tutors his sibling in maths."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้อสอบ",
+  "phonetic": "kho sop",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "khɔ̂ɔ-sɔ̀ɔp · 降, 低",
+   "classifier": "ข้อ（道）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คำถามที่ใช้ในการสอบ",
+    "translations": {
+     "zh": "考题；试卷",
+     "en": "exam question, test paper"
+    },
+    "examples": [
+     {
+      "text": "ข้อสอบปีนี้ยากมาก",
+      "translations": {
+       "zh": "今年的考题很难。",
+       "en": "This year's exam was very hard."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปิดเทอม",
+  "phonetic": "pit thoem",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "pìt-thəəm · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "โรงเรียนหยุดเรียนช่วงระหว่างเทอม",
+    "translations": {
+     "zh": "放假（学校）",
+     "en": "to be on school break"
+    },
+    "examples": [
+     {
+      "text": "ปิดเทอมนี้จะไปเที่ยวทะเล",
+      "translations": {
+       "zh": "这个假期要去海边玩。",
+       "en": "This school break we'll go to the beach."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชุดนักเรียน",
+  "phonetic": "chut nak rian",
+  "cefr": "B1",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "toneMarks": "chút-nák-rian · 高, 高, 中",
+   "classifier": "ชุด（套）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เสื้อผ้าที่นักเรียนต้องใส่ไปโรงเรียน",
+    "translations": {
+     "zh": "校服",
+     "en": "school uniform"
+    },
+    "examples": [
+     {
+      "text": "นักเรียนไทยใส่ชุดนักเรียนทุกวัน",
+      "translations": {
+       "zh": "泰国学生每天穿校服。",
+       "en": "Thai students wear uniforms every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประวัติศาสตร์",
+  "phonetic": "prawattisat",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "prà-wàt-tì-sàat · 低, 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วิชาที่เรียนเรื่องในอดีต",
+    "translations": {
+     "zh": "历史（学科）",
+     "en": "history"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบเรียนประวัติศาสตร์ไทย",
+      "translations": {
+       "zh": "我喜欢学泰国历史。",
+       "en": "I like studying Thai history."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิทยาศาสตร์",
+  "phonetic": "witthayasat",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "wít-thá-yaa-sàat · 高, 高, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วิชาที่ศึกษาธรรมชาติด้วยการทดลอง",
+    "translations": {
+     "zh": "科学",
+     "en": "science"
+    },
+    "examples": [
+     {
+      "text": "วิชาวิทยาศาสตร์สนุกมาก",
+      "translations": {
+       "zh": "科学课很有意思。",
+       "en": "Science class is great fun."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คณิตศาสตร์",
+  "phonetic": "khanitsat",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "khá-nít-sàat · 高, 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วิชาเกี่ยวกับตัวเลขและการคำนวณ",
+    "translations": {
+     "zh": "数学",
+     "en": "mathematics"
+    },
+    "examples": [
+     {
+      "text": "ลูกสาวเก่งคณิตศาสตร์",
+      "translations": {
+       "zh": "女儿数学很好。",
+       "en": "My daughter is good at maths."
+      }
+     }
+    ],
+    "usageNote": "口语简称 เลข 或 คณิต。"
+   }
+  ]
+ },
+ {
+  "headword": "เศรษฐศาสตร์",
+  "phonetic": "setthasat",
+  "cefr": "B2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "toneMarks": "sèet-thà-sàat · 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วิชาที่ศึกษาเรื่องเศรษฐกิจ",
+    "translations": {
+     "zh": "经济学",
+     "en": "economics"
+    },
+    "examples": [
+     {
+      "text": "เขาจบเศรษฐศาสตร์จากธรรมศาสตร์",
+      "translations": {
+       "zh": "他毕业于法政大学经济学专业。",
+       "en": "He graduated in economics from Thammasat."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฝึกงาน",
+  "phonetic": "fuek ngan",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "fʉ̀k-ngaan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำงานเพื่อเรียนรู้ก่อนจบหรือก่อนเริ่มงานจริง",
+    "translations": {
+     "zh": "实习",
+     "en": "to do an internship"
+    },
+    "examples": [
+     {
+      "text": "ปีสี่ต้องไปฝึกงานสามเดือน",
+      "translations": {
+       "zh": "大四要去实习三个月。",
+       "en": "In fourth year you must do a three-month internship."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อบรม",
+  "phonetic": "oprom",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "òp-rom · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ฝึกสอนให้มีความรู้หรือทักษะ",
+    "translations": {
+     "zh": "培训",
+     "en": "to train"
+    },
+    "examples": [
+     {
+      "text": "พนักงานใหม่ต้องอบรมหนึ่งสัปดาห์",
+      "translations": {
+       "zh": "新员工要培训一周。",
+       "en": "New staff must do a week of training."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สัมมนา",
+  "phonetic": "sammana",
+  "cefr": "B2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "sǎm-má-naa · 升, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การประชุมเพื่อแลกเปลี่ยนความรู้",
+    "translations": {
+     "zh": "研讨会",
+     "en": "seminar"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้มีสัมมนาเรื่องการตลาดออนไลน์",
+      "translations": {
+       "zh": "明天有个网络营销研讨会。",
+       "en": "Tomorrow there's a seminar on online marketing."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

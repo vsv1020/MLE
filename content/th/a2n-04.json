@@ -1,0 +1,1573 @@
+[
+  {
+    "headword": "ดวงอาทิตย์",
+    "phonetic": "duang athit",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "duang-aa-thít · 中, 中, 高",
+      "classifier": "ดวง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ดาวใหญ่ที่ให้แสงสว่างตอนกลางวัน",
+        "translations": {
+          "zh": "太阳",
+          "en": "sun"
+        },
+        "examples": [
+          {
+            "text": "ดวงอาทิตย์ขึ้นทางทิศตะวันออก",
+            "translations": {
+              "zh": "太阳从东方升起。",
+              "en": "The sun rises in the east."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดวงจันทร์",
+    "phonetic": "duang chan",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "duang-jan · 中, 中",
+      "classifier": "ดวง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ส่องแสงบนฟ้าตอนกลางคืน",
+        "translations": {
+          "zh": "月亮",
+          "en": "moon"
+        },
+        "examples": [
+          {
+            "text": "คืนนี้ดวงจันทร์สวยมาก",
+            "translations": {
+              "zh": "今晚月亮很美。",
+              "en": "The moon is beautiful tonight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เมฆ",
+    "phonetic": "mek",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "mêek · 降",
+      "classifier": "ก้อน（朵）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งสีขาวหรือเทาที่ลอยอยู่บนฟ้า",
+        "translations": {
+          "zh": "云",
+          "en": "cloud"
+        },
+        "examples": [
+          {
+            "text": "วันนี้มีเมฆเยอะ อาจจะฝนตก",
+            "translations": {
+              "zh": "今天云很多，可能会下雨。",
+              "en": "It's very cloudy today; it might rain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พายุ",
+    "phonetic": "phayu",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "phaa-yú · 中, 高",
+      "classifier": "ลูก（个，台风）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลมแรงมากและมักมีฝนตกหนัก",
+        "translations": {
+          "zh": "暴风雨；风暴",
+          "en": "storm"
+        },
+        "examples": [
+          {
+            "text": "พรุ่งนี้จะมีพายุเข้า",
+            "translations": {
+              "zh": "明天有风暴要来。",
+              "en": "A storm is coming tomorrow."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำท่วม",
+    "phonetic": "nam thuam",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "náam-thûam · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เวลาที่น้ำมากจนล้นขึ้นมาบนถนนหรือบ้าน",
+        "translations": {
+          "zh": "洪水；水淹",
+          "en": "flood"
+        },
+        "examples": [
+          {
+            "text": "ปีที่แล้วน้ำท่วมหมู่บ้านนี้",
+            "translations": {
+              "zh": "去年这个村子发了洪水。",
+              "en": "This village flooded last year."
+            }
+          }
+        ],
+        "usageNote": "也可作动词短语\"被水淹\"：ถนนน้ำท่วม。"
+      }
+    ]
+  },
+  {
+    "headword": "หมอก",
+    "phonetic": "mok",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "mɔ̀ɔk · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ไอน้ำบางๆ สีขาวที่ทำให้มองไม่ชัด",
+        "translations": {
+          "zh": "雾",
+          "en": "fog, mist"
+        },
+        "examples": [
+          {
+            "text": "ตอนเช้าบนดอยมีหมอกเยอะ",
+            "translations": {
+              "zh": "早上山上雾很大。",
+              "en": "There's a lot of mist on the mountain in the morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หิน",
+    "phonetic": "hin",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "hǐn · 升",
+      "classifier": "ก้อน（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของแข็งๆ ที่มาจากภูเขาหรือพื้นดิน",
+        "translations": {
+          "zh": "石头",
+          "en": "stone, rock"
+        },
+        "examples": [
+          {
+            "text": "ระวังหินลื่นนะ",
+            "translations": {
+              "zh": "小心石头很滑。",
+              "en": "Be careful, the rocks are slippery."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทราย",
+    "phonetic": "sai",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "saai · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เม็ดหินเล็กๆ ที่อยู่ตามชายหาด",
+        "translations": {
+          "zh": "沙子",
+          "en": "sand"
+        },
+        "examples": [
+          {
+            "text": "ทรายที่หาดนี้ขาวมาก",
+            "translations": {
+              "zh": "这个海滩的沙子很白。",
+              "en": "The sand on this beach is very white."
+            }
+          }
+        ],
+        "usageNote": "ทร 在这里读 s：ทราย 读 saai。"
+      }
+    ]
+  },
+  {
+    "headword": "ฤดู",
+    "phonetic": "ruedu",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "rʉ́-duu · 高, 中",
+      "classifier": "ฤดู（个季节）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเวลาของปีที่อากาศต่างกัน",
+        "translations": {
+          "zh": "季节",
+          "en": "season"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยมีสามฤดู",
+            "translations": {
+              "zh": "泰国有三个季节。",
+              "en": "Thailand has three seasons."
+            }
+          }
+        ],
+        "usageNote": "口语多用 หน้า：หน้าฝน、หน้าร้อน。"
+      }
+    ]
+  },
+  {
+    "headword": "หน้าฝน",
+    "phonetic": "na fon",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "nâa-fǒn · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเดือนที่ฝนตกบ่อย",
+        "translations": {
+          "zh": "雨季",
+          "en": "rainy season"
+        },
+        "examples": [
+          {
+            "text": "หน้าฝนต้องพกร่มทุกวัน",
+            "translations": {
+              "zh": "雨季每天都要带伞。",
+              "en": "In the rainy season you need an umbrella every day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หน้าร้อน",
+    "phonetic": "na ron",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "nâa-rɔ́ɔn · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเดือนที่อากาศร้อนที่สุด",
+        "translations": {
+          "zh": "夏季；热季",
+          "en": "hot season, summer"
+        },
+        "examples": [
+          {
+            "text": "หน้าร้อนที่นี่ร้อนมาก",
+            "translations": {
+              "zh": "这里的热季非常热。",
+              "en": "The hot season here is extremely hot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หน้าหนาว",
+    "phonetic": "na nao",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "nâa-nǎaw · 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเดือนที่อากาศเย็นสบาย",
+        "translations": {
+          "zh": "凉季；冬季",
+          "en": "cool season, winter"
+        },
+        "examples": [
+          {
+            "text": "หน้าหนาวคนชอบไปเที่ยวเชียงใหม่",
+            "translations": {
+              "zh": "凉季大家喜欢去清迈玩。",
+              "en": "In the cool season people love to visit Chiang Mai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชนบท",
+    "phonetic": "chonnabot",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "chon-ná-bòt · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่นอกเมือง มีทุ่งนาและหมู่บ้าน",
+        "translations": {
+          "zh": "农村；乡下",
+          "en": "countryside"
+        },
+        "examples": [
+          {
+            "text": "ยายอยู่ที่ชนบท",
+            "translations": {
+              "zh": "外婆住在乡下。",
+              "en": "Grandma lives in the countryside."
+            }
+          }
+        ],
+        "usageNote": "口语常说 บ้านนอก 或 ต่างจังหวัด。"
+      }
+    ]
+  },
+  {
+    "headword": "หมู่บ้าน",
+    "phonetic": "mu ban",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "mùu-bâan · 低, 降",
+      "classifier": "หมู่บ้าน（个村）；แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่บ้านหลายหลังอยู่รวมกัน",
+        "translations": {
+          "zh": "村子；住宅小区",
+          "en": "village; housing estate"
+        },
+        "examples": [
+          {
+            "text": "หมู่บ้านนี้เงียบและสะอาด",
+            "translations": {
+              "zh": "这个村子安静又干净。",
+              "en": "This village is quiet and clean."
+            }
+          }
+        ],
+        "usageNote": "在曼谷也指带门禁的住宅小区。"
+      }
+    ]
+  },
+  {
+    "headword": "จังหวัด",
+    "phonetic": "changwat",
+    "cefr": "A2",
+    "frequencyRank": 1000,
+    "grammarNotes": {
+      "toneMarks": "jang-wàt · 中, 低",
+      "classifier": "จังหวัด（个府）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เขตการปกครองใหญ่ของประเทศไทย",
+        "translations": {
+          "zh": "府（泰国一级行政区，相当于省）",
+          "en": "province"
+        },
+        "examples": [
+          {
+            "text": "คุณมาจากจังหวัดอะไร",
+            "translations": {
+              "zh": "你是哪个府的人？",
+              "en": "Which province are you from?"
+            }
+          }
+        ],
+        "usageNote": "泰国有 77 个府；\"外府、外地\"说 ต่างจังหวัด。"
+      }
+    ]
+  },
+  {
+    "headword": "สะพาน",
+    "phonetic": "saphan",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "sà-phaan · 低, 中",
+      "classifier": "แห่ง（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางข้ามแม่น้ำหรือถนน",
+        "translations": {
+          "zh": "桥",
+          "en": "bridge"
+        },
+        "examples": [
+          {
+            "text": "ข้ามสะพานแล้วเลี้ยวซ้าย",
+            "translations": {
+              "zh": "过桥后左转。",
+              "en": "Cross the bridge and turn left."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สะพานลอย",
+    "phonetic": "saphan loi",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "sà-phaan-lɔɔi · 低, 中, 中",
+      "classifier": "แห่ง（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สะพานสำหรับคนเดินข้ามถนน",
+        "translations": {
+          "zh": "天桥（人行）",
+          "en": "footbridge"
+        },
+        "examples": [
+          {
+            "text": "ข้ามถนนตรงสะพานลอยปลอดภัยกว่า",
+            "translations": {
+              "zh": "走天桥过马路更安全。",
+              "en": "It's safer to cross by the footbridge."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทางม้าลาย",
+    "phonetic": "thang ma lai",
+    "cefr": "A2",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "thaang-máa-laai · 中, 高, 中",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางข้ามถนนที่มีแถบสีขาวดำ",
+        "translations": {
+          "zh": "斑马线",
+          "en": "zebra crossing"
+        },
+        "examples": [
+          {
+            "text": "เดินข้ามถนนที่ทางม้าลาย",
+            "translations": {
+              "zh": "在斑马线过马路。",
+              "en": "Cross the road at the zebra crossing."
+            }
+          }
+        ],
+        "usageNote": "字面\"斑马（ม้าลาย）的路\"。"
+      }
+    ]
+  },
+  {
+    "headword": "ไฟแดง",
+    "phonetic": "fai daeng",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "fai-dɛɛng · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สัญญาณไฟจราจรสีแดงที่บอกให้หยุด",
+        "translations": {
+          "zh": "红灯；红绿灯",
+          "en": "red light; traffic light"
+        },
+        "examples": [
+          {
+            "text": "ถึงไฟแดงแล้วเลี้ยวขวา",
+            "translations": {
+              "zh": "到红绿灯后右转。",
+              "en": "Turn right at the traffic lights."
+            }
+          }
+        ],
+        "usageNote": "问路时 ไฟแดง 常泛指红绿灯路口。"
+      }
+    ]
+  },
+  {
+    "headword": "สี่แยก",
+    "phonetic": "si yaek",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "sìi-yɛ̂ɛk · 低, 降",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่ถนนสองเส้นตัดกัน",
+        "translations": {
+          "zh": "十字路口",
+          "en": "crossroads, intersection"
+        },
+        "examples": [
+          {
+            "text": "ร้านอยู่ตรงสี่แยกข้างหน้า",
+            "translations": {
+              "zh": "店就在前面的十字路口。",
+              "en": "The shop is at the intersection ahead."
+            }
+          }
+        ],
+        "usageNote": "三岔路口叫 สามแยก。"
+      }
+    ]
+  },
+  {
+    "headword": "ฟุตบาท",
+    "phonetic": "futbat",
+    "cefr": "A2",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "fút-bàat · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางเดินสำหรับคนข้างถนน",
+        "translations": {
+          "zh": "人行道",
+          "en": "pavement, sidewalk"
+        },
+        "examples": [
+          {
+            "text": "ฟุตบาทแถวนี้มีร้านขายของเยอะ",
+            "translations": {
+              "zh": "这一带的人行道上有很多摊位。",
+              "en": "There are lots of stalls on the pavement around here."
+            }
+          }
+        ],
+        "usageNote": "正式说法 ทางเท้า。"
+      }
+    ]
+  },
+  {
+    "headword": "ที่จอดรถ",
+    "phonetic": "thi chot rot",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "thîi-jɔ̀ɔt-rót · 降, 低, 高",
+      "classifier": "ที่（个车位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่สำหรับจอดรถ",
+        "translations": {
+          "zh": "停车场；停车位",
+          "en": "car park, parking space"
+        },
+        "examples": [
+          {
+            "text": "ห้างนี้มีที่จอดรถเยอะ",
+            "translations": {
+              "zh": "这家商场停车位很多。",
+              "en": "This mall has lots of parking."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปั๊มน้ำมัน",
+    "phonetic": "pam namman",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "pám-náam-man · 高, 高, 中",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่เติมน้ำมันรถ",
+        "translations": {
+          "zh": "加油站",
+          "en": "petrol station"
+        },
+        "examples": [
+          {
+            "text": "แวะปั๊มน้ำมันเข้าห้องน้ำหน่อย",
+            "translations": {
+              "zh": "在加油站停一下上个厕所。",
+              "en": "Let's stop at the petrol station to use the toilet."
+            }
+          }
+        ],
+        "usageNote": "泰国加油站一般有便利店和厕所。"
+      }
+    ]
+  },
+  {
+    "headword": "น้ำมัน",
+    "phonetic": "nam man",
+    "cefr": "A2",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "toneMarks": "náam-man · 高, 中",
+      "classifier": "ลิตร（升）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของเหลวที่ใช้ทำอาหารหรือใส่รถ",
+        "translations": {
+          "zh": "油；汽油",
+          "en": "oil; petrol"
+        },
+        "examples": [
+          {
+            "text": "รถใกล้หมดน้ำมันแล้ว",
+            "translations": {
+              "zh": "车快没油了。",
+              "en": "The car is almost out of petrol."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สถานีตำรวจ",
+    "phonetic": "sathani tamruat",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "sà-thǎa-nii-tam-rùat · 低, 升, 中, 中, 低",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ทำงานของตำรวจ",
+        "translations": {
+          "zh": "警察局",
+          "en": "police station"
+        },
+        "examples": [
+          {
+            "text": "กระเป๋าหาย ต้องไปแจ้งที่สถานีตำรวจ",
+            "translations": {
+              "zh": "包丢了，得去警察局报案。",
+              "en": "My bag is lost; I need to report it at the police station."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อำเภอ",
+    "phonetic": "amphoe",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "am-phəə · 中, 中",
+      "classifier": "อำเภอ（个县）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เขตการปกครองที่เล็กกว่าจังหวัด หรือที่ว่าการของเขตนั้น",
+        "translations": {
+          "zh": "县；县政府",
+          "en": "district"
+        },
+        "examples": [
+          {
+            "text": "ต้องไปทำเรื่องที่อำเภอ",
+            "translations": {
+              "zh": "得去县政府办手续。",
+              "en": "I have to do the paperwork at the district office."
+            }
+          }
+        ],
+        "usageNote": "曼谷的区叫 เขต。"
+      }
+    ]
+  },
+  {
+    "headword": "เขต",
+    "phonetic": "khet",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "khèet · 低",
+      "classifier": "เขต（个区）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่ส่วนหนึ่งของเมือง โดยเฉพาะในกรุงเทพฯ",
+        "translations": {
+          "zh": "区；区域",
+          "en": "district, zone"
+        },
+        "examples": [
+          {
+            "text": "โรงแรมอยู่ในเขตบางรัก",
+            "translations": {
+              "zh": "酒店在挽叻区。",
+              "en": "The hotel is in Bang Rak district."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สวนสาธารณะ",
+    "phonetic": "suan satharana",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "sǔan-sǎa-thaa-rá-ná · 升, 升, 中, 高, 高",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สวนที่ทุกคนเข้าไปเดินเล่นได้",
+        "translations": {
+          "zh": "公园",
+          "en": "public park"
+        },
+        "examples": [
+          {
+            "text": "ตอนเย็นคนไปวิ่งที่สวนสาธารณะ",
+            "translations": {
+              "zh": "傍晚人们去公园跑步。",
+              "en": "In the evening people go jogging in the park."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พิพิธภัณฑ์",
+    "phonetic": "phiphitthaphan",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "phí-phít-thá-phan · 高, 高, 高, 中",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่เก็บและแสดงของเก่าหรือของมีค่าให้คนดู",
+        "translations": {
+          "zh": "博物馆",
+          "en": "museum"
+        },
+        "examples": [
+          {
+            "text": "พิพิธภัณฑ์ปิดวันจันทร์",
+            "translations": {
+              "zh": "博物馆周一闭馆。",
+              "en": "The museum is closed on Mondays."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตึก",
+    "phonetic": "tuek",
+    "cefr": "A2",
+    "frequencyRank": 1400,
+    "grammarNotes": {
+      "toneMarks": "tʉ̀k · 低",
+      "classifier": "หลัง（栋）；ตึก（栋）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาคารที่สร้างด้วยปูน มักสูงหลายชั้น",
+        "translations": {
+          "zh": "楼；大楼",
+          "en": "building"
+        },
+        "examples": [
+          {
+            "text": "ออฟฟิศอยู่ตึกสีขาวตรงนั้น",
+            "translations": {
+              "zh": "办公室在那栋白色大楼里。",
+              "en": "The office is in that white building over there."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มุม",
+    "phonetic": "mum",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "mum · 中",
+      "classifier": "มุม（个角）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่สองด้านมาชนกัน",
+        "translations": {
+          "zh": "角；角落；拐角",
+          "en": "corner"
+        },
+        "examples": [
+          {
+            "text": "ร้านกาแฟอยู่ตรงมุมถนน",
+            "translations": {
+              "zh": "咖啡店在街角。",
+              "en": "The café is on the street corner."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ป้าย",
+    "phonetic": "pai",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "pâai · 降",
+      "classifier": "ป้าย（块）；อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แผ่นที่มีตัวหนังสือหรือรูปบอกข้อมูล",
+        "translations": {
+          "zh": "牌子；标志",
+          "en": "sign, signboard"
+        },
+        "examples": [
+          {
+            "text": "ดูป้ายแล้วเดินไปทางขวา",
+            "translations": {
+              "zh": "看着指示牌往右走。",
+              "en": "Follow the sign and walk to the right."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รถติด",
+    "phonetic": "rot tit",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "rót-tìt · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "การที่รถบนถนนเยอะจนวิ่งไม่ได้",
+        "translations": {
+          "zh": "堵车",
+          "en": "traffic jam"
+        },
+        "examples": [
+          {
+            "text": "ตอนเย็นรถติดมาก",
+            "translations": {
+              "zh": "傍晚堵车很厉害。",
+              "en": "The traffic is terrible in the evening."
+            }
+          }
+        ],
+        "usageNote": "既可作名词也可作谓语：\"堵车了\" = รถติด。"
+      }
+    ]
+  },
+  {
+    "headword": "ทางด่วน",
+    "phonetic": "thang duan",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "thaang-dùan · 中, 低",
+      "classifier": "สาย（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ถนนที่ต้องจ่ายเงินเพื่อขับได้เร็วขึ้น",
+        "translations": {
+          "zh": "高速公路（收费）",
+          "en": "expressway"
+        },
+        "examples": [
+          {
+            "text": "ขึ้นทางด่วนจะเร็วกว่า",
+            "translations": {
+              "zh": "走高速会快一点。",
+              "en": "Taking the expressway will be quicker."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทิศเหนือ",
+    "phonetic": "thit nuea",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "thít-nʉ̌a · 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทิศที่อยู่ด้านบนของแผนที่",
+        "translations": {
+          "zh": "北；北方",
+          "en": "north"
+        },
+        "examples": [
+          {
+            "text": "เชียงใหม่อยู่ทางทิศเหนือ",
+            "translations": {
+              "zh": "清迈在北方。",
+              "en": "Chiang Mai is in the north."
+            }
+          }
+        ],
+        "usageNote": "ทิศ 方向 + 方位。"
+      }
+    ]
+  },
+  {
+    "headword": "ทิศใต้",
+    "phonetic": "thit tai",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "thít-tâai · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทิศตรงข้ามกับทิศเหนือ",
+        "translations": {
+          "zh": "南；南方",
+          "en": "south"
+        },
+        "examples": [
+          {
+            "text": "ภูเก็ตอยู่ทางทิศใต้ของประเทศ",
+            "translations": {
+              "zh": "普吉在泰国南部。",
+              "en": "Phuket is in the south of the country."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทิศตะวันออก",
+    "phonetic": "thit tawan ok",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "thít-tà-wan-ɔ̀ɔk · 高, 低, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทิศที่ดวงอาทิตย์ขึ้น",
+        "translations": {
+          "zh": "东；东方",
+          "en": "east"
+        },
+        "examples": [
+          {
+            "text": "พัทยาอยู่ทางทิศตะวันออกของกรุงเทพฯ",
+            "translations": {
+              "zh": "芭提雅在曼谷东边。",
+              "en": "Pattaya is east of Bangkok."
+            }
+          }
+        ],
+        "usageNote": "ตะวัน 太阳 + ออก 出 = 东。"
+      }
+    ]
+  },
+  {
+    "headword": "ทิศตะวันตก",
+    "phonetic": "thit tawan tok",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "thít-tà-wan-tòk · 高, 低, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทิศที่ดวงอาทิตย์ตก",
+        "translations": {
+          "zh": "西；西方",
+          "en": "west"
+        },
+        "examples": [
+          {
+            "text": "กาญจนบุรีอยู่ทางทิศตะวันตก",
+            "translations": {
+              "zh": "北碧在西边。",
+              "en": "Kanchanaburi is to the west."
+            }
+          }
+        ],
+        "usageNote": "ตะวัน 太阳 + ตก 落 = 西。"
+      }
+    ]
+  },
+  {
+    "headword": "วิชา",
+    "phonetic": "wicha",
+    "cefr": "A2",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "toneMarks": "wí-chaa · 高, 中",
+      "classifier": "วิชา（门，本身也是量词）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่เรียนในโรงเรียน เช่น คณิตศาสตร์",
+        "translations": {
+          "zh": "科目；学科",
+          "en": "subject"
+        },
+        "examples": [
+          {
+            "text": "ฉันชอบวิชาภาษาไทยที่สุด",
+            "translations": {
+              "zh": "我最喜欢泰语课。",
+              "en": "Thai is my favourite subject."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คณิตศาสตร์",
+    "phonetic": "khanitsat",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "khá-nít-sàat · 高, 高, 低",
+      "classifier": "วิชา（门）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาที่เรียนเรื่องตัวเลขและการคำนวณ",
+        "translations": {
+          "zh": "数学",
+          "en": "mathematics"
+        },
+        "examples": [
+          {
+            "text": "การบ้านคณิตศาสตร์ยากมาก",
+            "translations": {
+              "zh": "数学作业很难。",
+              "en": "The maths homework is very hard."
+            }
+          }
+        ],
+        "usageNote": "口语简称 เลข。"
+      }
+    ]
+  },
+  {
+    "headword": "วิทยาศาสตร์",
+    "phonetic": "witthayasat",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "wít-thá-yaa-sàat · 高, 高, 中, 低",
+      "classifier": "วิชา（门）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาที่เรียนเรื่องธรรมชาติและสิ่งต่างๆ ในโลก",
+        "translations": {
+          "zh": "科学",
+          "en": "science"
+        },
+        "examples": [
+          {
+            "text": "พรุ่งนี้มีสอบวิทยาศาสตร์",
+            "translations": {
+              "zh": "明天有科学考试。",
+              "en": "There's a science test tomorrow."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิศาสตร์",
+    "phonetic": "phumisat",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "phuu-mí-sàat · 中, 高, 低",
+      "classifier": "วิชา（门）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาที่เรียนเรื่องโลก ประเทศ ภูเขา แม่น้ำ",
+        "translations": {
+          "zh": "地理",
+          "en": "geography"
+        },
+        "examples": [
+          {
+            "text": "ครูวิชาภูมิศาสตร์ให้ดูแผนที่",
+            "translations": {
+              "zh": "地理老师让我们看地图。",
+              "en": "The geography teacher showed us a map."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาษาอังกฤษ",
+    "phonetic": "phasa angkrit",
+    "cefr": "A2",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "toneMarks": "phaa-sǎa-ang-krìt · 中, 升, 中, 低",
+      "classifier": "ภาษา（种语言）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาษาของคนอังกฤษและอเมริกัน",
+        "translations": {
+          "zh": "英语",
+          "en": "English (language)"
+        },
+        "examples": [
+          {
+            "text": "คุณพูดภาษาอังกฤษได้ไหม",
+            "translations": {
+              "zh": "你会说英语吗？",
+              "en": "Can you speak English?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาษาจีน",
+    "phonetic": "phasa chin",
+    "cefr": "A2",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "toneMarks": "phaa-sǎa-jiin · 中, 升, 中",
+      "classifier": "ภาษา（种语言）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาษาของคนจีน",
+        "translations": {
+          "zh": "汉语；中文",
+          "en": "Chinese (language)"
+        },
+        "examples": [
+          {
+            "text": "ตอนนี้คนไทยเรียนภาษาจีนเยอะ",
+            "translations": {
+              "zh": "现在很多泰国人学中文。",
+              "en": "Lots of Thais are learning Chinese now."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาษาไทย",
+    "phonetic": "phasa thai",
+    "cefr": "A2",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "toneMarks": "phaa-sǎa-thai · 中, 升, 中",
+      "classifier": "ภาษา（种语言）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาษาของคนไทย",
+        "translations": {
+          "zh": "泰语",
+          "en": "Thai (language)"
+        },
+        "examples": [
+          {
+            "text": "ฉันเรียนภาษาไทยมาหนึ่งปีแล้ว",
+            "translations": {
+              "zh": "我学泰语一年了。",
+              "en": "I've been learning Thai for a year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พละ",
+    "phonetic": "phala",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phá-lá · 高, 高",
+      "classifier": "วิชา（门）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาที่เรียนเรื่องกีฬาและการออกกำลังกาย",
+        "translations": {
+          "zh": "体育课",
+          "en": "PE, physical education"
+        },
+        "examples": [
+          {
+            "text": "วันนี้มีเรียนพละ ต้องใส่ชุดกีฬา",
+            "translations": {
+              "zh": "今天有体育课，得穿运动服。",
+              "en": "We have PE today, so I have to wear sports kit."
+            }
+          }
+        ],
+        "usageNote": "全称 พลศึกษา。"
+      }
+    ]
+  },
+  {
+    "headword": "ศิลปะ",
+    "phonetic": "sinlapa",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "sǐn-lá-pà · 升, 高, 低",
+      "classifier": "วิชา（门）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การวาดรูป ปั้น ร้องเพลง หรือสร้างงานที่สวยงาม",
+        "translations": {
+          "zh": "艺术；美术",
+          "en": "art"
+        },
+        "examples": [
+          {
+            "text": "เธอเก่งวิชาศิลปะ",
+            "translations": {
+              "zh": "她美术很好。",
+              "en": "She is good at art."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อสอบ",
+    "phonetic": "kho sop",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-sɔ̀ɔp · 降, 低",
+      "classifier": "ข้อ（道题）；ชุด（套）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คำถามที่ใช้ในการสอบ",
+        "translations": {
+          "zh": "试题；考卷",
+          "en": "exam paper, test questions"
+        },
+        "examples": [
+          {
+            "text": "ข้อสอบวันนี้ง่ายมาก",
+            "translations": {
+              "zh": "今天的试题很简单。",
+              "en": "Today's exam was very easy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คะแนน",
+    "phonetic": "khanaen",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "khá-nɛɛn · 高, 中",
+      "classifier": "คะแนน（分，本身也是量词）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตัวเลขที่บอกว่าทำได้ดีแค่ไหน",
+        "translations": {
+          "zh": "分数；得分",
+          "en": "score, marks"
+        },
+        "examples": [
+          {
+            "text": "ได้คะแนนเต็มสิบ",
+            "translations": {
+              "zh": "得了十分满分。",
+              "en": "I got full marks out of ten."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เทอม",
+    "phonetic": "thoem",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "thəəm · 中",
+      "classifier": "เทอม（个学期）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเวลาเรียนในหนึ่งปี",
+        "translations": {
+          "zh": "学期",
+          "en": "term, semester"
+        },
+        "examples": [
+          {
+            "text": "เทอมหน้าจะเรียนวิชาใหม่",
+            "translations": {
+              "zh": "下学期要学新科目。",
+              "en": "Next term we'll study new subjects."
+            }
+          }
+        ],
+        "usageNote": "\"放假\"说 ปิดเทอม。"
+      }
+    ]
+  },
+  {
+    "headword": "ชุดนักเรียน",
+    "phonetic": "chut nakrian",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "chút-nák-rian · 高, 高, 中",
+      "classifier": "ชุด（套）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เสื้อผ้าแบบเดียวกันที่นักเรียนใส่ไปโรงเรียน",
+        "translations": {
+          "zh": "校服",
+          "en": "school uniform"
+        },
+        "examples": [
+          {
+            "text": "นักเรียนไทยใส่ชุดนักเรียนทุกวัน",
+            "translations": {
+              "zh": "泰国学生每天穿校服。",
+              "en": "Thai students wear a school uniform every day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กระดานดำ",
+    "phonetic": "kradan dam",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "krà-daan-dam · 低, 中, 中",
+      "classifier": "แผ่น（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แผ่นกระดานสีเข้มที่ครูเขียนหน้าห้อง",
+        "translations": {
+          "zh": "黑板",
+          "en": "blackboard"
+        },
+        "examples": [
+          {
+            "text": "ครูเขียนคำศัพท์บนกระดานดำ",
+            "translations": {
+              "zh": "老师在黑板上写单词。",
+              "en": "The teacher writes the vocabulary on the blackboard."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ยางลบ",
+    "phonetic": "yang lop",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "yaang-lóp · 中, 高",
+      "classifier": "ก้อน（块）；อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใช้ลบรอยดินสอ",
+        "translations": {
+          "zh": "橡皮",
+          "en": "eraser, rubber"
+        },
+        "examples": [
+          {
+            "text": "ขอยืมยางลบหน่อย",
+            "translations": {
+              "zh": "借一下橡皮。",
+              "en": "Can I borrow your eraser?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไม้บรรทัด",
+    "phonetic": "mai banthat",
+    "cefr": "A2",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "máai-ban-thát · 高, 中, 高",
+      "classifier": "อัน（把）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แท่งยาวๆ ที่ใช้วัดและขีดเส้น",
+        "translations": {
+          "zh": "尺子",
+          "en": "ruler"
+        },
+        "examples": [
+          {
+            "text": "ใช้ไม้บรรทัดขีดเส้นให้ตรง",
+            "translations": {
+              "zh": "用尺子把线画直。",
+              "en": "Use a ruler to draw a straight line."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

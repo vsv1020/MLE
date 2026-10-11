@@ -1,0 +1,1451 @@
+[
+  {
+    "headword": "กล้ามเนื้อ",
+    "phonetic": "klamnuea",
+    "cefr": "B1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "klâam-nʉ́a · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เนื้อในร่างกายที่ทำให้ขยับได้",
+        "translations": {
+          "zh": "肌肉",
+          "en": "muscle"
+        },
+        "examples": [
+          {
+            "text": "ออกกำลังกายแล้วปวดกล้ามเนื้อ",
+            "translations": {
+              "zh": "运动后肌肉酸痛。",
+              "en": "My muscles ache after exercising."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไหล่",
+    "phonetic": "lai",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "lài · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนระหว่างคอกับแขน",
+        "translations": {
+          "zh": "肩膀",
+          "en": "shoulder"
+        },
+        "examples": [
+          {
+            "text": "นั่งทำงานนาน ๆ แล้วปวดไหล่",
+            "translations": {
+              "zh": "久坐工作后肩膀疼。",
+              "en": "My shoulders ache after sitting at work for a long time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เข่า",
+    "phonetic": "khao",
+    "cefr": "B1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "khào · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อต่อตรงกลางขา",
+        "translations": {
+          "zh": "膝盖",
+          "en": "knee"
+        },
+        "examples": [
+          {
+            "text": "คุณยายปวดเข่าเวลาขึ้นบันได",
+            "translations": {
+              "zh": "外婆上楼梯时膝盖疼。",
+              "en": "Grandma's knees hurt when she climbs stairs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อมือ",
+    "phonetic": "khomue",
+    "cefr": "B1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-mʉʉ · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อต่อระหว่างมือกับแขน",
+        "translations": {
+          "zh": "手腕",
+          "en": "wrist"
+        },
+        "examples": [
+          {
+            "text": "ใช้คอมพิวเตอร์มากจนเจ็บข้อมือ",
+            "translations": {
+              "zh": "电脑用多了手腕疼。",
+              "en": "I've used the computer so much my wrist hurts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้อเท้า",
+    "phonetic": "khothao",
+    "cefr": "B1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-tháo · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อต่อระหว่างเท้ากับขา",
+        "translations": {
+          "zh": "脚踝",
+          "en": "ankle"
+        },
+        "examples": [
+          {
+            "text": "เขาข้อเท้าพลิกตอนเล่นบอล",
+            "translations": {
+              "zh": "他踢球时扭到了脚踝。",
+              "en": "He twisted his ankle playing football."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หน้าอก",
+    "phonetic": "na-ok",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "nâa-òk · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนหน้าของร่างกายระหว่างคอกับท้อง",
+        "translations": {
+          "zh": "胸口；胸部",
+          "en": "chest"
+        },
+        "examples": [
+          {
+            "text": "รู้สึกเจ็บหน้าอก ต้องรีบไปหาหมอ",
+            "translations": {
+              "zh": "胸口疼，得赶紧去看医生。",
+              "en": "If you have chest pain, see a doctor quickly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คิ้ว",
+    "phonetic": "khio",
+    "cefr": "B1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "khíu · 高",
+      "classifier": "เส้น（根）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ขนเหนือตา",
+        "translations": {
+          "zh": "眉毛",
+          "en": "eyebrow"
+        },
+        "examples": [
+          {
+            "text": "เธอมีคิ้วหนาและตาโต",
+            "translations": {
+              "zh": "她眉毛浓、眼睛大。",
+              "en": "She has thick eyebrows and big eyes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ขนตา",
+    "phonetic": "khonta",
+    "cefr": "B2",
+    "frequencyRank": 8400,
+    "grammarNotes": {
+      "toneMarks": "khǒn-taa · 升, 中",
+      "classifier": "เส้น（根）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ขนที่ขอบตา",
+        "translations": {
+          "zh": "睫毛",
+          "en": "eyelash"
+        },
+        "examples": [
+          {
+            "text": "ขนตาของเด็กคนนี้ยาวมาก",
+            "translations": {
+              "zh": "这孩子的睫毛很长。",
+              "en": "This child has very long eyelashes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลิ้น",
+    "phonetic": "lin",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "lín · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนในปากที่ใช้รับรส",
+        "translations": {
+          "zh": "舌头",
+          "en": "tongue"
+        },
+        "examples": [
+          {
+            "text": "กินของร้อนแล้วลิ้นพอง",
+            "translations": {
+              "zh": "吃烫的东西把舌头烫起泡了。",
+              "en": "I burned my tongue eating something hot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เล็บ",
+    "phonetic": "lep",
+    "cefr": "B1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "lép · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนแข็งที่ปลายนิ้ว",
+        "translations": {
+          "zh": "指甲",
+          "en": "nail (finger or toe)"
+        },
+        "examples": [
+          {
+            "text": "ตัดเล็บให้สั้นนะลูก",
+            "translations": {
+              "zh": "孩子，把指甲剪短。",
+              "en": "Cut your nails short, dear."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อายุ",
+    "phonetic": "ayu",
+    "cefr": "B1",
+    "frequencyRank": 1400,
+    "grammarNotes": {
+      "toneMarks": "aa-yú · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จำนวนปีที่มีชีวิตอยู่",
+        "translations": {
+          "zh": "年龄；年纪",
+          "en": "age"
+        },
+        "examples": [
+          {
+            "text": "คุณอายุเท่าไหร่ครับ",
+            "translations": {
+              "zh": "你多大了？",
+              "en": "How old are you?"
+            }
+          }
+        ],
+        "usageNote": "问长辈年龄不太礼貌；回答说“อายุ + 数字 + ปี”。"
+      }
+    ]
+  },
+  {
+    "headword": "วัยรุ่น",
+    "phonetic": "wairun",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "wai-rûn · 中, 降",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนอายุประมาณ 13 ถึง 19 ปี",
+        "translations": {
+          "zh": "青少年",
+          "en": "teenager"
+        },
+        "examples": [
+          {
+            "text": "วัยรุ่นสมัยนี้ใช้มือถือทั้งวัน",
+            "translations": {
+              "zh": "现在的青少年整天用手机。",
+              "en": "Teenagers these days are on their phones all day."
+            }
+          }
+        ],
+        "usageNote": "วัย = 年龄段：วัยเด็ก 童年、วัยทำงาน 工作年龄、วัยชรา 老年。"
+      }
+    ]
+  },
+  {
+    "headword": "วัยเด็ก",
+    "phonetic": "waidek",
+    "cefr": "B1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "wai-dèk · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงชีวิตตอนเป็นเด็ก",
+        "translations": {
+          "zh": "童年",
+          "en": "childhood"
+        },
+        "examples": [
+          {
+            "text": "วัยเด็กของฉันอยู่ที่ต่างจังหวัด",
+            "translations": {
+              "zh": "我的童年是在外府度过的。",
+              "en": "I spent my childhood in the provinces."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วัยกลางคน",
+    "phonetic": "wai klang khon",
+    "cefr": "B2",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "toneMarks": "wai-klaang-khon · 中, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงอายุประมาณ 40 ถึง 60 ปี",
+        "translations": {
+          "zh": "中年",
+          "en": "middle age"
+        },
+        "examples": [
+          {
+            "text": "คนวัยกลางคนควรตรวจสุขภาพทุกปี",
+            "translations": {
+              "zh": "中年人应该每年体检。",
+              "en": "Middle-aged people should have a check-up every year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้สูงอายุ",
+    "phonetic": "phusung-ayu",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "phûu-sǔung-aa-yú · 降, 升, 中, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่อายุมาก (ภาษาสุภาพ)",
+        "translations": {
+          "zh": "老年人；长者",
+          "en": "the elderly, senior citizen"
+        },
+        "examples": [
+          {
+            "text": "ที่นั่งนี้สำหรับผู้สูงอายุ",
+            "translations": {
+              "zh": "这个座位是给老年人的。",
+              "en": "This seat is for the elderly."
+            }
+          }
+        ],
+        "usageNote": "比 คนแก่ 更礼貌正式。"
+      }
+    ]
+  },
+  {
+    "headword": "คนแก่",
+    "phonetic": "khonkae",
+    "cefr": "B1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "khon-kɛ̀ɛ · 中, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่อายุมาก",
+        "translations": {
+          "zh": "老人",
+          "en": "old person"
+        },
+        "examples": [
+          {
+            "text": "ช่วยคนแก่ข้ามถนนหน่อย",
+            "translations": {
+              "zh": "帮老人过一下马路。",
+              "en": "Help the old person cross the road."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แก่",
+    "phonetic": "kae",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "kɛ̀ɛ · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "อายุมาก (ใช้กับคนหรือสัตว์)",
+        "translations": {
+          "zh": "老（指年纪）",
+          "en": "old (of people or animals)"
+        },
+        "examples": [
+          {
+            "text": "ปู่แก่แล้ว เดินช้า",
+            "translations": {
+              "zh": "爷爷老了，走得慢。",
+              "en": "Grandpa is old now and walks slowly."
+            }
+          }
+        ],
+        "usageNote": "人老用 แก่；东西旧用 เก่า。"
+      }
+    ]
+  },
+  {
+    "headword": "หนุ่ม",
+    "phonetic": "num",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "nùm · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "อายุน้อย เป็นผู้ชาย",
+        "translations": {
+          "zh": "年轻（男子）",
+          "en": "young (of a man)"
+        },
+        "examples": [
+          {
+            "text": "ตอนหนุ่ม ๆ พ่อหล่อมาก",
+            "translations": {
+              "zh": "爸爸年轻时很帅。",
+              "en": "Dad was very handsome when he was young."
+            }
+          }
+        ],
+        "usageNote": "形容男子年轻用 หนุ่ม，女子用 สาว。也可直接称呼年轻男子 หนุ่ม（小伙子）。"
+      }
+    ]
+  },
+  {
+    "headword": "สาว",
+    "phonetic": "sao",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "sǎao · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "อายุน้อย เป็นผู้หญิง",
+        "translations": {
+          "zh": "年轻（女子）",
+          "en": "young (of a woman)"
+        },
+        "examples": [
+          {
+            "text": "แม่ยังดูสาวอยู่เลย",
+            "translations": {
+              "zh": "妈妈看起来还很年轻。",
+              "en": "Mom still looks young."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทารก",
+    "phonetic": "tharok",
+    "cefr": "B2",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "thaa-rók · 中, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เด็กที่เพิ่งเกิดไม่นาน",
+        "translations": {
+          "zh": "婴儿",
+          "en": "baby, infant"
+        },
+        "examples": [
+          {
+            "text": "ทารกต้องนอนวันละหลายชั่วโมง",
+            "translations": {
+              "zh": "婴儿每天需要睡很多小时。",
+              "en": "Babies need to sleep many hours a day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เกษียณ",
+    "phonetic": "kasian",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "kà-sǐan · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "หยุดทำงานเมื่ออายุมาก",
+        "translations": {
+          "zh": "退休",
+          "en": "to retire"
+        },
+        "examples": [
+          {
+            "text": "พ่อจะเกษียณปีหน้า",
+            "translations": {
+              "zh": "爸爸明年退休。",
+              "en": "Dad will retire next year."
+            }
+          }
+        ],
+        "usageNote": "泰国公务员 60 岁退休：เกษียณอายุ。"
+      }
+    ]
+  },
+  {
+    "headword": "โต",
+    "phonetic": "to",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "too · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "อายุมากขึ้นหรือตัวใหญ่ขึ้น",
+        "translations": {
+          "zh": "长大；大",
+          "en": "to grow up; big"
+        },
+        "examples": [
+          {
+            "text": "โตขึ้นอยากเป็นหมอ",
+            "translations": {
+              "zh": "长大后想当医生。",
+              "en": "When I grow up I want to be a doctor."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เติบโต",
+    "phonetic": "toepto",
+    "cefr": "B2",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "tə̀əp-too · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "โตขึ้นหรือขยายใหญ่ขึ้น",
+        "translations": {
+          "zh": "成长；增长",
+          "en": "to grow, to develop"
+        },
+        "examples": [
+          {
+            "text": "เด็ก ๆ เติบโตเร็วมาก",
+            "translations": {
+              "zh": "孩子们长得很快。",
+              "en": "Children grow up very fast."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตั้งครรภ์",
+    "phonetic": "tangkhan",
+    "cefr": "B2",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "tâng-khan · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มีลูกอยู่ในท้อง (ภาษาทางการ)",
+        "translations": {
+          "zh": "怀孕（正式）",
+          "en": "to be pregnant (formal)"
+        },
+        "examples": [
+          {
+            "text": "ผู้หญิงตั้งครรภ์ไม่ควรดื่มเหล้า",
+            "translations": {
+              "zh": "孕妇不应饮酒。",
+              "en": "Pregnant women should not drink alcohol."
+            }
+          }
+        ],
+        "usageNote": "口语说 ท้อง（怀孕）。"
+      }
+    ]
+  },
+  {
+    "headword": "คลอด",
+    "phonetic": "khlot",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "khlɔ̂ɔt · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ลูกออกมาจากท้องแม่",
+        "translations": {
+          "zh": "分娩；生（孩子）",
+          "en": "to give birth"
+        },
+        "examples": [
+          {
+            "text": "พี่สาวคลอดลูกชายเมื่อวาน",
+            "translations": {
+              "zh": "姐姐昨天生了个儿子。",
+              "en": "My older sister gave birth to a son yesterday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เสียชีวิต",
+    "phonetic": "siachiwit",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "sǐa-chii-wít · 升, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ตาย (ภาษาสุภาพ)",
+        "translations": {
+          "zh": "去世；逝世",
+          "en": "to pass away"
+        },
+        "examples": [
+          {
+            "text": "คุณปู่เสียชีวิตเมื่อปีที่แล้ว",
+            "translations": {
+              "zh": "爷爷去年去世了。",
+              "en": "Grandpa passed away last year."
+            }
+          }
+        ],
+        "usageNote": "比 ตาย 委婉礼貌，新闻和正式场合常用。"
+      }
+    ]
+  },
+  {
+    "headword": "ชีวิต",
+    "phonetic": "chiwit",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "chii-wít · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การมีลมหายใจ หรือเรื่องราวตั้งแต่เกิดจนตาย",
+        "translations": {
+          "zh": "生命；生活",
+          "en": "life"
+        },
+        "examples": [
+          {
+            "text": "ชีวิตในกรุงเทพวุ่นวายมาก",
+            "translations": {
+              "zh": "曼谷的生活很忙碌。",
+              "en": "Life in Bangkok is very hectic."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "งานศพ",
+    "phonetic": "ngansop",
+    "cefr": "B1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "ngaan-sòp · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พิธีสำหรับคนที่เสียชีวิต",
+        "translations": {
+          "zh": "葬礼",
+          "en": "funeral"
+        },
+        "examples": [
+          {
+            "text": "ไปงานศพควรใส่ชุดดำ",
+            "translations": {
+              "zh": "参加葬礼应穿黑衣。",
+              "en": "You should wear black to a funeral."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บวช",
+    "phonetic": "buat",
+    "cefr": "B1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "bùat · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เข้าไปเป็นพระหรือแม่ชี",
+        "translations": {
+          "zh": "出家",
+          "en": "to be ordained (as a monk)"
+        },
+        "examples": [
+          {
+            "text": "ผู้ชายไทยหลายคนบวชก่อนแต่งงาน",
+            "translations": {
+              "zh": "很多泰国男子婚前会出家一段时间。",
+              "en": "Many Thai men are ordained before they marry."
+            }
+          }
+        ],
+        "usageNote": "泰国男子一生中常短期出家（几周或几个月），被视为报答父母养育之恩。"
+      }
+    ]
+  },
+  {
+    "headword": "เด็กกำพร้า",
+    "phonetic": "dek kamphra",
+    "cefr": "B2",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "toneMarks": "dèk-kam-phráa · 低, 中, 高",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เด็กที่ไม่มีพ่อแม่",
+        "translations": {
+          "zh": "孤儿",
+          "en": "orphan"
+        },
+        "examples": [
+          {
+            "text": "มูลนิธินี้ช่วยเหลือเด็กกำพร้า",
+            "translations": {
+              "zh": "这个基金会帮助孤儿。",
+              "en": "This foundation helps orphans."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มรดก",
+    "phonetic": "moradok",
+    "cefr": "B2",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "toneMarks": "mɔɔ-rá-dòk · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทรัพย์สินที่ได้จากคนที่เสียชีวิต",
+        "translations": {
+          "zh": "遗产",
+          "en": "inheritance, heritage"
+        },
+        "examples": [
+          {
+            "text": "เขาได้บ้านเป็นมรดกจากยาย",
+            "translations": {
+              "zh": "他从外婆那里继承了房子。",
+              "en": "He inherited the house from his grandmother."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เยาวชน",
+    "phonetic": "yaowachon",
+    "cefr": "B2",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "yao-wá-chon · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนหนุ่มสาวอายุน้อย",
+        "translations": {
+          "zh": "青少年；年轻一代",
+          "en": "youth, young people"
+        },
+        "examples": [
+          {
+            "text": "เยาวชนคืออนาคตของชาติ",
+            "translations": {
+              "zh": "青少年是国家的未来。",
+              "en": "Young people are the future of the nation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หน้าตา",
+    "phonetic": "nata",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "nâa-taa · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะของหน้า",
+        "translations": {
+          "zh": "长相；相貌",
+          "en": "looks, appearance"
+        },
+        "examples": [
+          {
+            "text": "เขาหน้าตาเหมือนพ่อมาก",
+            "translations": {
+              "zh": "他长得很像他爸。",
+              "en": "He looks a lot like his father."
+            }
+          }
+        ],
+        "usageNote": "หน้าตาดี = 长得好看。"
+      }
+    ]
+  },
+  {
+    "headword": "รูปร่าง",
+    "phonetic": "ruprang",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "rûup-râang · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ลักษณะของร่างกายภายนอก",
+        "translations": {
+          "zh": "身材；外形",
+          "en": "figure, build, shape"
+        },
+        "examples": [
+          {
+            "text": "เธอรูปร่างดีเพราะออกกำลังกาย",
+            "translations": {
+              "zh": "她身材好是因为常运动。",
+              "en": "She has a good figure because she exercises."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ส่วนสูง",
+    "phonetic": "suansung",
+    "cefr": "B1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "sùan-sǔung · 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสูงของคน",
+        "translations": {
+          "zh": "身高",
+          "en": "height"
+        },
+        "examples": [
+          {
+            "text": "ส่วนสูงของคุณเท่าไหร่",
+            "translations": {
+              "zh": "你身高多少？",
+              "en": "How tall are you?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำหนัก",
+    "phonetic": "namnak",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "nám-nàk · 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความหนักของร่างกายหรือสิ่งของ",
+        "translations": {
+          "zh": "体重；重量",
+          "en": "weight"
+        },
+        "examples": [
+          {
+            "text": "ช่วงนี้น้ำหนักขึ้นสามกิโล",
+            "translations": {
+              "zh": "最近体重涨了三公斤。",
+              "en": "I've put on three kilos lately."
+            }
+          }
+        ],
+        "usageNote": "ลดน้ำหนัก = 减肥。"
+      }
+    ]
+  },
+  {
+    "headword": "น่าเกลียด",
+    "phonetic": "naklia",
+    "cefr": "B1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "nâa-klìat · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ดูไม่สวย หรือไม่น่าดู",
+        "translations": {
+          "zh": "丑；难看",
+          "en": "ugly, unsightly"
+        },
+        "examples": [
+          {
+            "text": "เสื้อตัวนี้สีน่าเกลียด",
+            "translations": {
+              "zh": "这件衣服颜色很难看。",
+              "en": "This shirt is an ugly colour."
+            }
+          }
+        ],
+        "usageNote": "也指行为“不像话”：ทำแบบนี้น่าเกลียด。"
+      }
+    ]
+  },
+  {
+    "headword": "ผิวคล้ำ",
+    "phonetic": "phio khlam",
+    "cefr": "B2",
+    "frequencyRank": 8700,
+    "grammarNotes": {
+      "toneMarks": "phǐu-khlám · 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "สีผิวเข้ม",
+        "translations": {
+          "zh": "皮肤黝黑",
+          "en": "dark-skinned, tanned"
+        },
+        "examples": [
+          {
+            "text": "ทำงานกลางแดดจนผิวคล้ำ",
+            "translations": {
+              "zh": "在太阳底下干活，皮肤晒黑了。",
+              "en": "He's tanned from working in the sun."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผมหยิก",
+    "phonetic": "phom yik",
+    "cefr": "B2",
+    "frequencyRank": 8300,
+    "grammarNotes": {
+      "toneMarks": "phǒm-yìk · 升, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผมที่ม้วนเป็นลอน",
+        "translations": {
+          "zh": "卷发",
+          "en": "curly hair"
+        },
+        "examples": [
+          {
+            "text": "ลูกสาวผมหยิกเหมือนแม่",
+            "translations": {
+              "zh": "女儿和妈妈一样是卷发。",
+              "en": "My daughter has curly hair like her mother."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผมหงอก",
+    "phonetic": "phom ngok",
+    "cefr": "B2",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "toneMarks": "phǒm-ngɔ̀ɔk · 升, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผมสีขาวเพราะอายุมาก",
+        "translations": {
+          "zh": "白头发",
+          "en": "grey hair"
+        },
+        "examples": [
+          {
+            "text": "พ่อเริ่มมีผมหงอกแล้ว",
+            "translations": {
+              "zh": "爸爸开始有白头发了。",
+              "en": "Dad is starting to go grey."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หัวล้าน",
+    "phonetic": "hualan",
+    "cefr": "B1",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "hǔa-láan · 升, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่มีผมบนหัว",
+        "translations": {
+          "zh": "秃头",
+          "en": "bald"
+        },
+        "examples": [
+          {
+            "text": "ลุงหัวล้านตั้งแต่อายุสี่สิบ",
+            "translations": {
+              "zh": "叔叔四十岁就秃头了。",
+              "en": "My uncle has been bald since forty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หนวด",
+    "phonetic": "nuat",
+    "cefr": "B1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "nùat · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ขนเหนือริมฝีปาก",
+        "translations": {
+          "zh": "胡子；小胡子",
+          "en": "moustache"
+        },
+        "examples": [
+          {
+            "text": "เขาไว้หนวดดูแก่ขึ้น",
+            "translations": {
+              "zh": "他留了胡子，显老。",
+              "en": "He grew a moustache and looks older."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไฝ",
+    "phonetic": "fai",
+    "cefr": "B2",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "toneMarks": "fǎi · 升",
+      "classifier": "เม็ด（颗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "จุดสีดำหรือน้ำตาลบนผิว",
+        "translations": {
+          "zh": "痣",
+          "en": "mole (on skin)"
+        },
+        "examples": [
+          {
+            "text": "เธอมีไฝที่แก้ม",
+            "translations": {
+              "zh": "她脸颊上有颗痣。",
+              "en": "She has a mole on her cheek."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สิว",
+    "phonetic": "sio",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "sǐu · 升",
+      "classifier": "เม็ด（颗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตุ่มเล็ก ๆ บนหน้า",
+        "translations": {
+          "zh": "痘痘；粉刺",
+          "en": "pimple, acne"
+        },
+        "examples": [
+          {
+            "text": "วัยรุ่นมักมีสิวขึ้นหน้า",
+            "translations": {
+              "zh": "青少年脸上常长痘。",
+              "en": "Teenagers often get pimples on their faces."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ริ้วรอย",
+    "phonetic": "riuroi",
+    "cefr": "B2",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "toneMarks": "ríu-rɔɔi · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รอยย่นบนผิวเมื่ออายุมาก",
+        "translations": {
+          "zh": "皱纹",
+          "en": "wrinkles"
+        },
+        "examples": [
+          {
+            "text": "ครีมนี้ช่วยลดริ้วรอย",
+            "translations": {
+              "zh": "这款面霜有助于减少皱纹。",
+              "en": "This cream helps reduce wrinkles."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลักยิ้ม",
+    "phonetic": "lakyim",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "lák-yím · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รอยบุ๋มที่แก้มเวลายิ้ม",
+        "translations": {
+          "zh": "酒窝",
+          "en": "dimple"
+        },
+        "examples": [
+          {
+            "text": "เธอมีลักยิ้มน่ารักมาก",
+            "translations": {
+              "zh": "她有很可爱的酒窝。",
+              "en": "She has very cute dimples."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แต่งตัว",
+    "phonetic": "taengtua",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "tɛ̀ng-tua · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใส่เสื้อผ้าและจัดตัวให้ดูดี",
+        "translations": {
+          "zh": "打扮；穿衣",
+          "en": "to get dressed, to dress up"
+        },
+        "examples": [
+          {
+            "text": "วันนี้แต่งตัวสวยจัง จะไปไหน",
+            "translations": {
+              "zh": "今天打扮得真漂亮，要去哪？",
+              "en": "You're dressed up nicely today, where are you going?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แต่งหน้า",
+    "phonetic": "taengna",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "tɛ̀ng-nâa · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้เครื่องสำอางบนหน้า",
+        "translations": {
+          "zh": "化妆",
+          "en": "to put on make-up"
+        },
+        "examples": [
+          {
+            "text": "เธอแต่งหน้าทุกวันก่อนไปทำงาน",
+            "translations": {
+              "zh": "她每天上班前化妆。",
+              "en": "She puts on make-up every day before work."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ล่ำ",
+    "phonetic": "lam",
+    "cefr": "B2",
+    "frequencyRank": 8100,
+    "grammarNotes": {
+      "toneMarks": "lâm · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีกล้ามเนื้อมาก ตัวใหญ่แข็งแรง",
+        "translations": {
+          "zh": "壮实；肌肉发达",
+          "en": "muscular, burly"
+        },
+        "examples": [
+          {
+            "text": "ผู้ชายคนนั้นตัวล่ำมาก",
+            "translations": {
+              "zh": "那个男人很壮。",
+              "en": "That man is very muscular."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หน้าเด็ก",
+    "phonetic": "nadek",
+    "cefr": "B2",
+    "frequencyRank": 8900,
+    "grammarNotes": {
+      "toneMarks": "nâa-dèk · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ดูอายุน้อยกว่าความจริง",
+        "translations": {
+          "zh": "娃娃脸；显年轻",
+          "en": "baby-faced, youthful-looking"
+        },
+        "examples": [
+          {
+            "text": "เขาอายุสามสิบแต่หน้าเด็กมาก",
+            "translations": {
+              "zh": "他三十岁了，但长着一张娃娃脸。",
+              "en": "He's thirty but looks very young."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลักษณะ",
+    "phonetic": "laksana",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "lák-sà-nà · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่บอกว่าเป็นอย่างไร เช่น รูปร่าง นิสัย",
+        "translations": {
+          "zh": "特征；样子",
+          "en": "characteristic, appearance"
+        },
+        "examples": [
+          {
+            "text": "คนร้ายมีลักษณะอย่างไร",
+            "translations": {
+              "zh": "嫌犯长什么样？",
+              "en": "What did the suspect look like?"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

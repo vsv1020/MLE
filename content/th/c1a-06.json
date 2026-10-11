@@ -1,0 +1,1400 @@
+[
+  {
+    "headword": "ทั้งนี้ทั้งนั้น",
+    "phonetic": "thangni thangnan",
+    "cefr": "C1",
+    "frequencyRank": 8300,
+    "grammarNotes": {
+      "toneMarks": "tháng-níi-tháng-nán · 高, 高, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "อย่างไรก็ดี สรุปแล้ว",
+        "translations": {
+          "zh": "总之；不管怎样；归根结底",
+          "en": "all in all; in any case"
+        },
+        "examples": [
+          {
+            "text": "ทั้งนี้ทั้งนั้นต้องขึ้นอยู่กับความสมัครใจ",
+            "translations": {
+              "zh": "总之，这要看个人意愿。",
+              "en": "In any case, it depends on whether people volunteer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดังกล่าว",
+    "phonetic": "dang klao",
+    "cefr": "C1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "dang-klàao · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ที่ได้กล่าวมาแล้ว",
+        "translations": {
+          "zh": "上述的；该",
+          "en": "aforementioned; the said"
+        },
+        "examples": [
+          {
+            "text": "ตำรวจกำลังสอบสวนเหตุการณ์ดังกล่าว",
+            "translations": {
+              "zh": "警方正在调查上述事件。",
+              "en": "Police are investigating the aforementioned incident."
+            }
+          }
+        ],
+        "usageNote": "新闻、公文高频词，放在名词后。"
+      }
+    ]
+  },
+  {
+    "headword": "เป็นต้น",
+    "phonetic": "pen ton",
+    "cefr": "C1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "pen-tôn · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ใช้ลงท้ายการยกตัวอย่าง",
+        "translations": {
+          "zh": "等等",
+          "en": "etc.; and so on"
+        },
+        "examples": [
+          {
+            "text": "เราขายผลไม้หลายชนิด เช่น มะม่วง ส้ม เป็นต้น",
+            "translations": {
+              "zh": "我们卖多种水果，比如芒果、橙子等。",
+              "en": "We sell many fruits, such as mangoes, oranges and so on."
+            }
+          }
+        ],
+        "usageNote": "常与 เช่น 搭配：เช่น……เป็นต้น。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้างต้น",
+    "phonetic": "khangton",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "khâang-tôn · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ที่กล่าวไว้ก่อนหน้านี้",
+        "translations": {
+          "zh": "上文的；前述的",
+          "en": "above-mentioned"
+        },
+        "examples": [
+          {
+            "text": "ตามที่กล่าวไว้ข้างต้น โครงการนี้จะเริ่มเดือนหน้า",
+            "translations": {
+              "zh": "如上文所述，该项目将于下月启动。",
+              "en": "As mentioned above, the project will start next month."
+            }
+          }
+        ],
+        "usageNote": "书面语，相对的 ต่อไปนี้（下列）。"
+      }
+    ]
+  },
+  {
+    "headword": "ดังต่อไปนี้",
+    "phonetic": "dang to pai ni",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "dang-tɔ̀ɔ-pai-níi · 中, 低, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "ตามที่จะกล่าวถึงต่อไป",
+        "translations": {
+          "zh": "如下",
+          "en": "as follows"
+        },
+        "examples": [
+          {
+            "text": "ผู้สมัครต้องเตรียมเอกสารดังต่อไปนี้",
+            "translations": {
+              "zh": "申请人须准备以下文件。",
+              "en": "Applicants must prepare the following documents."
+            }
+          }
+        ],
+        "usageNote": "公文、须知中常用。"
+      }
+    ]
+  },
+  {
+    "headword": "กล่าวโดยสรุป",
+    "phonetic": "klao doi sarup",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "toneMarks": "klàao-dooi-sà-rùp · 低, 中, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "พูดอย่างย่อในตอนท้าย",
+        "translations": {
+          "zh": "总而言之；综上所述",
+          "en": "in conclusion; in short"
+        },
+        "examples": [
+          {
+            "text": "กล่าวโดยสรุป โครงการนี้ประสบความสำเร็จ",
+            "translations": {
+              "zh": "综上所述，这个项目取得了成功。",
+              "en": "In conclusion, the project was a success."
+            }
+          }
+        ],
+        "usageNote": "书面语，用于文章结尾。"
+      }
+    ]
+  },
+  {
+    "headword": "ในแง่",
+    "phonetic": "nai ngae",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "nai-ngɛ̂ɛ · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "ในด้านหรือมุมมองของ",
+        "translations": {
+          "zh": "在……方面；从……角度",
+          "en": "in terms of"
+        },
+        "examples": [
+          {
+            "text": "ในแง่เศรษฐกิจ โครงการนี้คุ้มค่ามาก",
+            "translations": {
+              "zh": "从经济角度看，这个项目非常划算。",
+              "en": "In economic terms, the project is well worth it."
+            }
+          }
+        ],
+        "usageNote": "常说 ในแง่ของ……、ในแง่หนึ่ง（从某种角度）。"
+      }
+    ]
+  },
+  {
+    "headword": "สมาธิ",
+    "phonetic": "samathi",
+    "cefr": "C1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "sà-maa-thí · 低, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความตั้งมั่นแห่งจิต",
+        "translations": {
+          "zh": "专注力；禅定",
+          "en": "concentration; meditation"
+        },
+        "examples": [
+          {
+            "text": "เสียงดังทำให้ผมไม่มีสมาธิทำงาน",
+            "translations": {
+              "zh": "噪音让我无法专心工作。",
+              "en": "The noise stops me concentrating on my work."
+            }
+          }
+        ],
+        "usageNote": "ไม่มีสมาธิ＝分心；นั่งสมาธิ＝打坐冥想。"
+      }
+    ]
+  },
+  {
+    "headword": "กรรม",
+    "phonetic": "kam",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "kam · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การกระทำและผลของการกระทำตามคติพุทธ",
+        "translations": {
+          "zh": "业；因果报应",
+          "en": "karma"
+        },
+        "examples": [
+          {
+            "text": "เขาเชื่อว่าทุกอย่างเป็นไปตามกรรม",
+            "translations": {
+              "zh": "他相信一切都是业报使然。",
+              "en": "He believes everything happens according to karma."
+            }
+          }
+        ],
+        "usageNote": "รร＋ม 读 am：กรรม 读 กำ。法律上 กรรม 也指“行为”。"
+      }
+    ]
+  },
+  {
+    "headword": "ปัญญา",
+    "phonetic": "panya",
+    "cefr": "C1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "pan-yaa · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความรอบรู้และเข้าใจเหตุผล",
+        "translations": {
+          "zh": "智慧；才智",
+          "en": "wisdom; intelligence"
+        },
+        "examples": [
+          {
+            "text": "การศึกษาช่วยพัฒนาปัญญาของมนุษย์",
+            "translations": {
+              "zh": "教育帮助开发人的智慧。",
+              "en": "Education helps develop human wisdom."
+            }
+          }
+        ],
+        "usageNote": "ปัญญาประดิษฐ์＝人工智能。"
+      }
+    ]
+  },
+  {
+    "headword": "พฤติกรรม",
+    "phonetic": "phruettikam",
+    "cefr": "C1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "phrʉ́t-tì-kam · 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การกระทำหรือการแสดงออกของบุคคล",
+        "translations": {
+          "zh": "行为；举止",
+          "en": "behaviour"
+        },
+        "examples": [
+          {
+            "text": "นักจิตวิทยาศึกษาพฤติกรรมของวัยรุ่น",
+            "translations": {
+              "zh": "心理学家研究青少年的行为。",
+              "en": "Psychologists study the behaviour of teenagers."
+            }
+          }
+        ],
+        "usageNote": "读作 พรึด-ติ-กำ，ฤ 在此读 rʉ。"
+      }
+    ]
+  },
+  {
+    "headword": "วิญญาณ",
+    "phonetic": "winyan",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "win-yaan · 中, 中",
+      "classifier": "ดวง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เชื่อว่าเป็นส่วนที่ไม่ใช่ร่างกายของสิ่งมีชีวิต",
+        "translations": {
+          "zh": "灵魂；精神",
+          "en": "soul; spirit"
+        },
+        "examples": [
+          {
+            "text": "คนไทยหลายคนเชื่อเรื่องวิญญาณ",
+            "translations": {
+              "zh": "很多泰国人相信灵魂之说。",
+              "en": "Many Thais believe in spirits."
+            }
+          }
+        ],
+        "usageNote": "ญญ 读 n-y：วิน-ยาน。"
+      }
+    ]
+  },
+  {
+    "headword": "สัญลักษณ์",
+    "phonetic": "sanyalak",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "sǎn-yá-lák · 升, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ใช้แทนความหมายบางอย่าง",
+        "translations": {
+          "zh": "象征；符号",
+          "en": "symbol"
+        },
+        "examples": [
+          {
+            "text": "ช้างเป็นสัญลักษณ์ของประเทศไทย",
+            "translations": {
+              "zh": "大象是泰国的象征。",
+              "en": "The elephant is a symbol of Thailand."
+            }
+          }
+        ],
+        "usageNote": "读作 สัน-ยะ-ลัก。"
+      }
+    ]
+  },
+  {
+    "headword": "อัจฉริยะ",
+    "phonetic": "atchariya",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "àt-chà-rí-yá · 低, 低, 高, 高",
+      "classifier": "คน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้มีสติปัญญาเป็นเลิศ",
+        "translations": {
+          "zh": "天才",
+          "en": "genius"
+        },
+        "examples": [
+          {
+            "text": "เด็กคนนี้เป็นอัจฉริยะทางคณิตศาสตร์",
+            "translations": {
+              "zh": "这个孩子是数学天才。",
+              "en": "This child is a mathematical genius."
+            }
+          }
+        ],
+        "usageNote": "读作 อัด-ฉะ-ริ-ยะ。"
+      }
+    ]
+  },
+  {
+    "headword": "ทรมาน",
+    "phonetic": "thoraman",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "thɔɔ-rá-maan · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ได้รับความเจ็บปวดอย่างมาก",
+        "translations": {
+          "zh": "折磨；受苦",
+          "en": "to torment; to suffer"
+        },
+        "examples": [
+          {
+            "text": "อาการปวดหลังทรมานเขามาหลายปี",
+            "translations": {
+              "zh": "背痛折磨了他好几年。",
+              "en": "Back pain has tormented him for years."
+            }
+          }
+        ],
+        "usageNote": "ทร 在此不读 s，而读 ทอ-ระ：ทอ-ระ-มาน。"
+      }
+    ]
+  },
+  {
+    "headword": "สุนทรียภาพ",
+    "phonetic": "sunthariyaphap",
+    "cefr": "C1",
+    "frequencyRank": 9800,
+    "grammarNotes": {
+      "toneMarks": "sun-thá-rii-yá-phâap · 中, 高, 中, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความงามที่รับรู้ได้ทางศิลปะ",
+        "translations": {
+          "zh": "美感；审美",
+          "en": "aesthetics; aesthetic quality"
+        },
+        "examples": [
+          {
+            "text": "สถาปัตยกรรมนี้มีสุนทรียภาพสูง",
+            "translations": {
+              "zh": "这座建筑极具美感。",
+              "en": "This architecture has great aesthetic quality."
+            }
+          }
+        ],
+        "usageNote": "读作 สุน-ทะ-รี-ยะ-พาบ。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาษาศาสตร์",
+    "phonetic": "phasasat",
+    "cefr": "C1",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "toneMarks": "phaa-sǎa-sàat · 中, 升, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาที่ศึกษาเกี่ยวกับภาษา",
+        "translations": {
+          "zh": "语言学",
+          "en": "linguistics"
+        },
+        "examples": [
+          {
+            "text": "เธอเรียนปริญญาโทด้านภาษาศาสตร์",
+            "translations": {
+              "zh": "她读的是语言学硕士。",
+              "en": "She is doing a master's in linguistics."
+            }
+          }
+        ],
+        "usageNote": "-ศาสตร์（sàat，ร์ 不发音）＝“……学”。"
+      }
+    ]
+  },
+  {
+    "headword": "จิตวิทยา",
+    "phonetic": "chittawitthaya",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "jìt-tà-wít-thá-yaa · 低, 低, 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาที่ศึกษาเรื่องจิตใจและพฤติกรรม",
+        "translations": {
+          "zh": "心理学",
+          "en": "psychology"
+        },
+        "examples": [
+          {
+            "text": "นักขายที่ดีต้องเข้าใจจิตวิทยาของลูกค้า",
+            "translations": {
+              "zh": "好的销售员必须懂顾客心理。",
+              "en": "A good salesperson must understand customer psychology."
+            }
+          }
+        ],
+        "usageNote": "读作 จิด-ตะ-วิด-ทะ-ยา。"
+      }
+    ]
+  },
+  {
+    "headword": "เศรษฐศาสตร์",
+    "phonetic": "setthasat",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "sèet-thà-sàat · 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาว่าด้วยการผลิต การกระจาย และการบริโภค",
+        "translations": {
+          "zh": "经济学",
+          "en": "economics"
+        },
+        "examples": [
+          {
+            "text": "เขาจบเศรษฐศาสตร์จากจุฬาฯ",
+            "translations": {
+              "zh": "他毕业于朱拉隆功大学经济学专业。",
+              "en": "He graduated in economics from Chulalongkorn."
+            }
+          }
+        ],
+        "usageNote": "读作 เสด-ถะ-สาด，ร 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "รัฐศาสตร์",
+    "phonetic": "ratthasat",
+    "cefr": "C1",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "toneMarks": "rát-thà-sàat · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาว่าด้วยการเมืองการปกครอง",
+        "translations": {
+          "zh": "政治学",
+          "en": "political science"
+        },
+        "examples": [
+          {
+            "text": "เขาเป็นอาจารย์คณะรัฐศาสตร์",
+            "translations": {
+              "zh": "他是政治学院的讲师。",
+              "en": "He is a lecturer in the political science faculty."
+            }
+          }
+        ],
+        "usageNote": "读作 รัด-ถะ-สาด。"
+      }
+    ]
+  },
+  {
+    "headword": "นิติศาสตร์",
+    "phonetic": "nitisat",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "toneMarks": "ní-tì-sàat · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาว่าด้วยกฎหมาย",
+        "translations": {
+          "zh": "法学；法律专业",
+          "en": "law (as a discipline)"
+        },
+        "examples": [
+          {
+            "text": "ลูกสาวผมเรียนนิติศาสตร์ปีที่สาม",
+            "translations": {
+              "zh": "我女儿在读法学三年级。",
+              "en": "My daughter is in her third year of law."
+            }
+          }
+        ],
+        "usageNote": "读作 นิ-ติ-สาด。"
+      }
+    ]
+  },
+  {
+    "headword": "มนุษยศาสตร์",
+    "phonetic": "manutsayasat",
+    "cefr": "C1",
+    "frequencyRank": 8300,
+    "grammarNotes": {
+      "toneMarks": "má-nút-sà-yá-sàat · 高, 高, 低, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาว่าด้วยมนุษย์ เช่น ภาษา ศิลปะ ปรัชญา",
+        "translations": {
+          "zh": "人文学科",
+          "en": "humanities"
+        },
+        "examples": [
+          {
+            "text": "คณะมนุษยศาสตร์เปิดสอนหลายภาษา",
+            "translations": {
+              "zh": "人文学院开设多种语言课程。",
+              "en": "The faculty of humanities teaches many languages."
+            }
+          }
+        ],
+        "usageNote": "读作 มะ-นุด-สะ-ยะ-สาด。"
+      }
+    ]
+  },
+  {
+    "headword": "สังคมศาสตร์",
+    "phonetic": "sangkhommasat",
+    "cefr": "C1",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "toneMarks": "sǎng-khom-má-sàat · 升, 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิชาว่าด้วยสังคมมนุษย์",
+        "translations": {
+          "zh": "社会科学",
+          "en": "social sciences"
+        },
+        "examples": [
+          {
+            "text": "งานวิจัยด้านสังคมศาสตร์มักใช้แบบสอบถาม",
+            "translations": {
+              "zh": "社会科学研究常用问卷。",
+              "en": "Social science research often uses questionnaires."
+            }
+          }
+        ],
+        "usageNote": "读作 สัง-คม-มะ-สาด。"
+      }
+    ]
+  },
+  {
+    "headword": "วิทยานิพนธ์",
+    "phonetic": "witthayaniphon",
+    "cefr": "C1",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "toneMarks": "wít-thá-yaa-ní-phon · 高, 高, 中, 高, 中",
+      "classifier": "เล่ม（本）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "งานเขียนวิจัยเพื่อรับปริญญาโทหรือเอก",
+        "translations": {
+          "zh": "学位论文（硕博）",
+          "en": "thesis; dissertation"
+        },
+        "examples": [
+          {
+            "text": "เขากำลังเขียนวิทยานิพนธ์ปริญญาเอก",
+            "translations": {
+              "zh": "他正在写博士论文。",
+              "en": "He is writing his doctoral dissertation."
+            }
+          }
+        ],
+        "usageNote": "ธ์ 不发音。本科论文多称 ภาคนิพนธ์ 或 รายงาน。"
+      }
+    ]
+  },
+  {
+    "headword": "บัณฑิต",
+    "phonetic": "bandit",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "ban-dìt · 中, 低",
+      "classifier": "คน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้สำเร็จการศึกษาระดับปริญญาตรี",
+        "translations": {
+          "zh": "（大学）毕业生；学士",
+          "en": "graduate"
+        },
+        "examples": [
+          {
+            "text": "บัณฑิตใหม่หลายคนยังหางานไม่ได้",
+            "translations": {
+              "zh": "许多应届毕业生还没找到工作。",
+              "en": "Many new graduates still can't find jobs."
+            }
+          }
+        ],
+        "usageNote": "ณ 读 n，ฑ 读 d：บัน-ดิด。"
+      }
+    ]
+  },
+  {
+    "headword": "ดุษฎีบัณฑิต",
+    "phonetic": "dutsadi bandit",
+    "cefr": "C1",
+    "frequencyRank": 9600,
+    "grammarNotes": {
+      "toneMarks": "dùt-sà-dii-ban-dìt · 低, 低, 中, 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้สำเร็จการศึกษาระดับปริญญาเอก",
+        "translations": {
+          "zh": "博士（学位获得者）",
+          "en": "doctoral graduate; PhD"
+        },
+        "examples": [
+          {
+            "text": "เธอได้รับปริญญาดุษฎีบัณฑิตจากอังกฤษ",
+            "translations": {
+              "zh": "她在英国获得了博士学位。",
+              "en": "She received her doctorate in England."
+            }
+          }
+        ],
+        "usageNote": "ดุษฎีบัณฑิตกิตติมศักดิ์＝名誉博士。"
+      }
+    ]
+  },
+  {
+    "headword": "มหาบัณฑิต",
+    "phonetic": "mahabandit",
+    "cefr": "C1",
+    "frequencyRank": 9100,
+    "grammarNotes": {
+      "toneMarks": "má-hǎa-ban-dìt · 高, 升, 中, 低",
+      "classifier": "คน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้สำเร็จการศึกษาระดับปริญญาโท",
+        "translations": {
+          "zh": "硕士（学位获得者）",
+          "en": "master's graduate"
+        },
+        "examples": [
+          {
+            "text": "เขาเป็นมหาบัณฑิตสาขาบริหารธุรกิจ",
+            "translations": {
+              "zh": "他是工商管理硕士。",
+              "en": "He holds a master's degree in business administration."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ศาสตราจารย์",
+    "phonetic": "satrachan",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "sàat-traa-jaan · 低, 中, 中",
+      "classifier": "ท่าน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตำแหน่งทางวิชาการสูงสุดของอาจารย์มหาวิทยาลัย",
+        "translations": {
+          "zh": "教授",
+          "en": "professor"
+        },
+        "examples": [
+          {
+            "text": "ศาสตราจารย์ท่านนี้เขียนตำรามาแล้วหลายเล่ม",
+            "translations": {
+              "zh": "这位教授已经写了好几本教材。",
+              "en": "This professor has written several textbooks."
+            }
+          }
+        ],
+        "usageNote": "读作 สาด-ตฺรา-จาน；副教授＝รองศาสตราจารย์。"
+      }
+    ]
+  },
+  {
+    "headword": "ตรรกะ",
+    "phonetic": "takka",
+    "cefr": "C1",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "toneMarks": "tàk-kà · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หลักการใช้เหตุผล",
+        "translations": {
+          "zh": "逻辑",
+          "en": "logic"
+        },
+        "examples": [
+          {
+            "text": "ข้อโต้แย้งนี้ขาดตรรกะ",
+            "translations": {
+              "zh": "这个论点缺乏逻辑。",
+              "en": "This argument lacks logic."
+            }
+          }
+        ],
+        "usageNote": "读音特殊：ตรร 读 ตัก，整个词读 ตัก-กะ。"
+      }
+    ]
+  },
+  {
+    "headword": "อารยธรรม",
+    "phonetic": "arayatham",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "aa-rá-yá-tham · 中, 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเจริญของมนุษย์ในด้านต่างๆ",
+        "translations": {
+          "zh": "文明",
+          "en": "civilisation"
+        },
+        "examples": [
+          {
+            "text": "อารยธรรมขอมมีอิทธิพลต่อศิลปะไทย",
+            "translations": {
+              "zh": "高棉文明对泰国艺术有影响。",
+              "en": "Khmer civilisation influenced Thai art."
+            }
+          }
+        ],
+        "usageNote": "读作 อา-ระ-ยะ-ทำ。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฐมนิเทศ",
+    "phonetic": "pathommanithet",
+    "cefr": "C1",
+    "frequencyRank": 8700,
+    "grammarNotes": {
+      "toneMarks": "pà-thǒm-má-ní-thêet · 低, 升, 高, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การแนะนำเบื้องต้นแก่ผู้มาใหม่",
+        "translations": {
+          "zh": "（新生/新员工）入学/入职培训",
+          "en": "orientation"
+        },
+        "examples": [
+          {
+            "text": "นักศึกษาใหม่ต้องเข้าร่วมการปฐมนิเทศ",
+            "translations": {
+              "zh": "新生必须参加入学培训。",
+              "en": "New students must attend orientation."
+            }
+          }
+        ],
+        "usageNote": "读作 ปะ-ถม-มะ-นิ-เทด；ปฐม＝最初。"
+      }
+    ]
+  },
+  {
+    "headword": "อนุสาวรีย์",
+    "phonetic": "anusawari",
+    "cefr": "C1",
+    "frequencyRank": 6100,
+    "grammarNotes": {
+      "toneMarks": "à-nú-sǎa-wá-rii · 低, 高, 升, 高, 中",
+      "classifier": "แห่ง（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งก่อสร้างเพื่อระลึกถึงบุคคลหรือเหตุการณ์",
+        "translations": {
+          "zh": "纪念碑",
+          "en": "monument"
+        },
+        "examples": [
+          {
+            "text": "อนุสาวรีย์ชัยสมรภูมิอยู่ใจกลางกรุงเทพฯ",
+            "translations": {
+              "zh": "胜利纪念碑位于曼谷市中心。",
+              "en": "Victory Monument is in central Bangkok."
+            }
+          }
+        ],
+        "usageNote": "读作 อะ-นุ-สา-วะ-รี。"
+      }
+    ]
+  },
+  {
+    "headword": "ทัศนียภาพ",
+    "phonetic": "thatsaniyaphap",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "thát-sà-nii-yá-phâap · 高, 低, 中, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาพที่มองเห็นเป็นทิวทัศน์",
+        "translations": {
+          "zh": "景观；景色",
+          "en": "scenery; landscape"
+        },
+        "examples": [
+          {
+            "text": "โรงแรมนี้มีทัศนียภาพสวยงามริมทะเล",
+            "translations": {
+              "zh": "这家酒店拥有美丽的海景。",
+              "en": "This hotel has beautiful seaside scenery."
+            }
+          }
+        ],
+        "usageNote": "读作 ทัด-สะ-นี-ยะ-พาบ。"
+      }
+    ]
+  },
+  {
+    "headword": "อวสาน",
+    "phonetic": "awasan",
+    "cefr": "C1",
+    "frequencyRank": 9400,
+    "grammarNotes": {
+      "toneMarks": "à-wá-sǎan · 低, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตอนจบหรือที่สุด",
+        "translations": {
+          "zh": "终结；结局",
+          "en": "end; conclusion"
+        },
+        "examples": [
+          {
+            "text": "ละครเรื่องนี้จะถึงตอนอวสานในสัปดาห์หน้า",
+            "translations": {
+              "zh": "这部剧下周大结局。",
+              "en": "This drama reaches its finale next week."
+            }
+          }
+        ],
+        "usageNote": "电视剧“大结局”常说 ตอนอวสาน。"
+      }
+    ]
+  },
+  {
+    "headword": "สัมฤทธิ์ผล",
+    "phonetic": "samrit phon",
+    "cefr": "C1",
+    "frequencyRank": 9100,
+    "grammarNotes": {
+      "toneMarks": "sǎm-rít-phǒn · 升, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ประสบความสำเร็จตามเป้าหมาย",
+        "translations": {
+          "zh": "取得成效；成功",
+          "en": "to succeed; to bear fruit"
+        },
+        "examples": [
+          {
+            "text": "แผนการของเขาสัมฤทธิ์ผลในที่สุด",
+            "translations": {
+              "zh": "他的计划终于取得了成功。",
+              "en": "His plan finally bore fruit."
+            }
+          }
+        ],
+        "usageNote": "ฤ 在此读 ri，ธิ์ 不发音：สัม-ริด-ผน。"
+      }
+    ]
+  },
+  {
+    "headword": "อุดมศึกษา",
+    "phonetic": "udomsueksa",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "ù-dom-sʉ̀k-sǎa · 低, 中, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การศึกษาระดับมหาวิทยาลัย",
+        "translations": {
+          "zh": "高等教育",
+          "en": "higher education"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลให้ทุนนักเรียนเพื่อเรียนต่อระดับอุดมศึกษา",
+            "translations": {
+              "zh": "政府资助学生接受高等教育。",
+              "en": "The government funds students to pursue higher education."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทรัพย์สิน",
+    "phonetic": "sapsin",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "sáp-sǐn · 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินทองและสิ่งของที่มีค่าที่เป็นของตน",
+        "translations": {
+          "zh": "财产；资产",
+          "en": "property; assets"
+        },
+        "examples": [
+          {
+            "text": "น้ำท่วมทำลายทรัพย์สินของชาวบ้านจำนวนมาก",
+            "translations": {
+              "zh": "洪水毁坏了村民大量财产。",
+              "en": "The floods destroyed a lot of villagers' property."
+            }
+          }
+        ],
+        "usageNote": "ทร 读 s：ซับ-สิน。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฏิรูป",
+    "phonetic": "patirup",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "pà-tì-rûup · 低, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ปรับปรุงเปลี่ยนแปลงให้ดีขึ้นอย่างเป็นระบบ",
+        "translations": {
+          "zh": "改革",
+          "en": "to reform"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลประกาศจะปฏิรูปการศึกษา",
+            "translations": {
+              "zh": "政府宣布将改革教育。",
+              "en": "The government announced it will reform education."
+            }
+          }
+        ],
+        "usageNote": "ฏ 读 t；名词 การปฏิรูป。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฏิวัติ",
+    "phonetic": "patiwat",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "toneMarks": "pà-tì-wát · 低, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เปลี่ยนแปลงอย่างถึงรากถึงโคน",
+        "translations": {
+          "zh": "革命；彻底变革",
+          "en": "to revolutionise; to stage a revolution"
+        },
+        "examples": [
+          {
+            "text": "สมาร์ตโฟนปฏิวัติวิธีการสื่อสารของคน",
+            "translations": {
+              "zh": "智能手机彻底改变了人们的沟通方式。",
+              "en": "Smartphones revolutionised the way people communicate."
+            }
+          }
+        ],
+        "usageNote": "ติ 不发音：ปะ-ติ-วัด。"
+      }
+    ]
+  },
+  {
+    "headword": "ปฏิกิริยา",
+    "phonetic": "patikiriya",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "toneMarks": "pà-tì-kì-rí-yaa · 低, 低, 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การตอบสนองต่อสิ่งที่มากระทบ",
+        "translations": {
+          "zh": "反应",
+          "en": "reaction"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนมีปฏิกิริยาต่อข่าวนี้อย่างรุนแรง",
+            "translations": {
+              "zh": "民众对这则消息反应强烈。",
+              "en": "The public reacted strongly to the news."
+            }
+          }
+        ],
+        "usageNote": "化学反应＝ปฏิกิริยาเคมี。"
+      }
+    ]
+  },
+  {
+    "headword": "มนุษยธรรม",
+    "phonetic": "manutsayatham",
+    "cefr": "C1",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "toneMarks": "má-nút-sà-yá-tham · 高, 高, 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความมีน้ำใจต่อเพื่อนมนุษย์",
+        "translations": {
+          "zh": "人道；人道主义",
+          "en": "humanity; humanitarianism"
+        },
+        "examples": [
+          {
+            "text": "องค์กรนี้ส่งความช่วยเหลือด้านมนุษยธรรมไปยังผู้ลี้ภัย",
+            "translations": {
+              "zh": "该组织向难民运送人道主义援助。",
+              "en": "This organisation sends humanitarian aid to refugees."
+            }
+          }
+        ],
+        "usageNote": "读作 มะ-นุด-สะ-ยะ-ทำ。"
+      }
+    ]
+  },
+  {
+    "headword": "วัตถุประสงค์",
+    "phonetic": "watthuprasong",
+    "cefr": "C1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "wát-thù-prà-sǒng · 高, 低, 低, 升",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่มุ่งหมายจะให้สำเร็จ",
+        "translations": {
+          "zh": "目的；宗旨",
+          "en": "objective; purpose"
+        },
+        "examples": [
+          {
+            "text": "วัตถุประสงค์ของการวิจัยนี้คือการพัฒนาหลักสูตร",
+            "translations": {
+              "zh": "这项研究的目的是开发课程。",
+              "en": "The objective of this research is to develop a curriculum."
+            }
+          }
+        ],
+        "usageNote": "读作 วัด-ถุ-ปฺระ-สง，ค์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "อุปมา",
+    "phonetic": "upama",
+    "cefr": "C1",
+    "frequencyRank": 9300,
+    "grammarNotes": {
+      "toneMarks": "ù-pà-maa · 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การเปรียบเทียบสิ่งหนึ่งกับอีกสิ่งหนึ่ง",
+        "translations": {
+          "zh": "比喻；明喻",
+          "en": "simile; comparison"
+        },
+        "examples": [
+          {
+            "text": "กวีใช้อุปมาเปรียบหญิงสาวกับดอกไม้",
+            "translations": {
+              "zh": "诗人用比喻把少女比作花。",
+              "en": "The poet compares the young woman to a flower in a simile."
+            }
+          }
+        ],
+        "usageNote": "修辞学用语；อุปมาอุปไมย＝打比方。"
+      }
+    ]
+  },
+  {
+    "headword": "ญัตติ",
+    "phonetic": "yatti",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "yát-tì · 高, 低",
+      "classifier": "ญัตติ（项）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อเสนอที่ยื่นให้ที่ประชุมพิจารณา",
+        "translations": {
+          "zh": "动议；辩题",
+          "en": "motion (in a meeting or debate)"
+        },
+        "examples": [
+          {
+            "text": "ญัตติในการโต้วาทีวันนี้คือเรื่องการศึกษาฟรี",
+            "translations": {
+              "zh": "今天辩论的辩题是免费教育。",
+              "en": "Today's debate motion is about free education."
+            }
+          }
+        ],
+        "usageNote": "读作 ยัด-ติ。"
+      }
+    ]
+  },
+  {
+    "headword": "อัตวิสัย",
+    "phonetic": "attawisai",
+    "cefr": "C1",
+    "frequencyRank": 9700,
+    "grammarNotes": {
+      "toneMarks": "àt-tà-wí-sǎi · 低, 低, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความคิดเห็นที่ขึ้นกับตัวบุคคล",
+        "translations": {
+          "zh": "主观性；主观",
+          "en": "subjectivity"
+        },
+        "examples": [
+          {
+            "text": "การให้คะแนนเรียงความมักมีอัตวิสัยของผู้ตรวจ",
+            "translations": {
+              "zh": "作文评分往往带有阅卷人的主观性。",
+              "en": "Essay marking often involves the examiner's subjectivity."
+            }
+          }
+        ],
+        "usageNote": "反义：วัตถุวิสัย（客观）。"
+      }
+    ]
+  },
+  {
+    "headword": "วัตถุวิสัย",
+    "phonetic": "watthuwisai",
+    "cefr": "C1",
+    "frequencyRank": 9800,
+    "grammarNotes": {
+      "toneMarks": "wát-thù-wí-sǎi · 高, 低, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การพิจารณาตามความเป็นจริงไม่ขึ้นกับความรู้สึก",
+        "translations": {
+          "zh": "客观性；客观",
+          "en": "objectivity"
+        },
+        "examples": [
+          {
+            "text": "นักวิทยาศาสตร์ต้องทำงานอย่างมีวัตถุวิสัย",
+            "translations": {
+              "zh": "科学家必须客观地工作。",
+              "en": "Scientists must work with objectivity."
+            }
+          }
+        ],
+        "usageNote": "学术用语。"
+      }
+    ]
+  },
+  {
+    "headword": "สถิติ",
+    "phonetic": "sathiti",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "sà-thì-tì · 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตัวเลขที่เก็บรวบรวมไว้เพื่อวิเคราะห์",
+        "translations": {
+          "zh": "统计；统计数据；纪录",
+          "en": "statistics; record"
+        },
+        "examples": [
+          {
+            "text": "สถิติอุบัติเหตุช่วงสงกรานต์ลดลงจากปีก่อน",
+            "translations": {
+              "zh": "泼水节期间的事故统计比去年下降。",
+              "en": "Accident statistics over Songkran fell from last year."
+            }
+          }
+        ],
+        "usageNote": "ทำลายสถิติ＝打破纪录。"
+      }
+    ]
+  },
+  {
+    "headword": "ภาวนา",
+    "phonetic": "phawana",
+    "cefr": "C1",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "toneMarks": "phaa-wá-naa · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "สวดหรือตั้งจิตอธิษฐาน",
+        "translations": {
+          "zh": "祈祷；默祷",
+          "en": "to pray; to meditate"
+        },
+        "examples": [
+          {
+            "text": "แม่ภาวนาให้ลูกปลอดภัย",
+            "translations": {
+              "zh": "妈妈祈祷孩子平安。",
+              "en": "Mother prayed for her child's safety."
+            }
+          }
+        ],
+        "usageNote": "口语中“祈祷、但愿”多说 ภาวนา。"
+      }
+    ]
+  }
+]

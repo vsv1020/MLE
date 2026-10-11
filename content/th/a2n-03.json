@@ -1,0 +1,1563 @@
+[
+  {
+    "headword": "โน้ตบุ๊ก",
+    "phonetic": "notbuk",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "nóot-búk · 高, 高",
+      "classifier": "เครื่อง（台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คอมพิวเตอร์เล็กๆ ที่พกไปไหนได้",
+        "translations": {
+          "zh": "笔记本电脑",
+          "en": "laptop"
+        },
+        "examples": [
+          {
+            "text": "ฉันเอาโน้ตบุ๊กไปร้านกาแฟ",
+            "translations": {
+              "zh": "我带笔记本电脑去咖啡店。",
+              "en": "I took my laptop to the café."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ซิม",
+    "phonetic": "sim",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "sim · 中",
+      "classifier": "อัน（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บัตรเล็กๆ ที่ใส่ในมือถือเพื่อใช้เบอร์โทร",
+        "translations": {
+          "zh": "手机卡；SIM卡",
+          "en": "SIM card"
+        },
+        "examples": [
+          {
+            "text": "ซื้อซิมได้ที่สนามบิน",
+            "translations": {
+              "zh": "在机场可以买手机卡。",
+              "en": "You can buy a SIM card at the airport."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วิดีโอ",
+    "phonetic": "widio",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "wí-dii-oo · 高, 中, 中",
+      "classifier": "คลิป（段）；เรื่อง（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาพเคลื่อนไหวที่ถ่ายไว้",
+        "translations": {
+          "zh": "视频",
+          "en": "video"
+        },
+        "examples": [
+          {
+            "text": "ลูกชอบดูวิดีโอในมือถือ",
+            "translations": {
+              "zh": "孩子喜欢在手机上看视频。",
+              "en": "My kid loves watching videos on the phone."
+            }
+          }
+        ],
+        "usageNote": "短视频常说 คลิป。"
+      }
+    ]
+  },
+  {
+    "headword": "เกม",
+    "phonetic": "kem",
+    "cefr": "A2",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "toneMarks": "keem · 中",
+      "classifier": "เกม（局，个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่เล่นเพื่อความสนุก",
+        "translations": {
+          "zh": "游戏",
+          "en": "game"
+        },
+        "examples": [
+          {
+            "text": "น้องเล่นเกมทั้งวัน",
+            "translations": {
+              "zh": "弟弟一整天都在打游戏。",
+              "en": "My little brother plays games all day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สัญญาณ",
+    "phonetic": "sanyan",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "sǎn-yaan · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คลื่นที่ทำให้มือถือหรือทีวีใช้ได้ หรือเครื่องหมายบอกเรื่องต่างๆ",
+        "translations": {
+          "zh": "信号",
+          "en": "signal"
+        },
+        "examples": [
+          {
+            "text": "บนเขาไม่มีสัญญาณโทรศัพท์",
+            "translations": {
+              "zh": "山上没有手机信号。",
+              "en": "There's no phone signal on the mountain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไม้กวาด",
+    "phonetic": "mai kwat",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "máai-kwàat · 高, 低",
+      "classifier": "ด้าม（把）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใช้กวาดพื้น",
+        "translations": {
+          "zh": "扫帚",
+          "en": "broom"
+        },
+        "examples": [
+          {
+            "text": "ไม้กวาดอยู่หลังประตู",
+            "translations": {
+              "zh": "扫帚在门后面。",
+              "en": "The broom is behind the door."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไม้ถูพื้น",
+    "phonetic": "mai thu phuen",
+    "cefr": "A2",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "máai-thǔu-phʉ́ʉn · 高, 升, 高",
+      "classifier": "ด้าม（把）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใช้เช็ดพื้นให้สะอาด",
+        "translations": {
+          "zh": "拖把",
+          "en": "mop"
+        },
+        "examples": [
+          {
+            "text": "ใช้ไม้ถูพื้นเช็ดน้ำที่หก",
+            "translations": {
+              "zh": "用拖把把洒的水擦干。",
+              "en": "Use the mop to wipe up the spilled water."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พื้น",
+    "phonetic": "phuen",
+    "cefr": "A2",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "toneMarks": "phʉ́ʉn · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนล่างของห้องที่เราเดิน",
+        "translations": {
+          "zh": "地面；地板",
+          "en": "floor, ground"
+        },
+        "examples": [
+          {
+            "text": "พื้นเปียก ระวังลื่นนะ",
+            "translations": {
+              "zh": "地很湿，小心滑。",
+              "en": "The floor is wet; careful not to slip."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผ้าห่ม",
+    "phonetic": "pha hom",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "phâa-hòm · 降, 低",
+      "classifier": "ผืน（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผ้าผืนใหญ่ที่ใช้ห่มตอนนอน",
+        "translations": {
+          "zh": "被子；毯子",
+          "en": "blanket"
+        },
+        "examples": [
+          {
+            "text": "ขอผ้าห่มเพิ่มอีกผืนได้ไหม",
+            "translations": {
+              "zh": "能再要一条被子吗？",
+              "en": "Could I have an extra blanket?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ที่นอน",
+    "phonetic": "thi non",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "thîi-nɔɔn · 降, 中",
+      "classifier": "หลัง（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของนุ่มๆ ที่วางบนเตียงสำหรับนอน",
+        "translations": {
+          "zh": "床垫",
+          "en": "mattress"
+        },
+        "examples": [
+          {
+            "text": "ที่นอนนี้นุ่มมาก",
+            "translations": {
+              "zh": "这个床垫很软。",
+              "en": "This mattress is very soft."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตู้เสื้อผ้า",
+    "phonetic": "tu suea pha",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "tûu-sʉ̂a-phâa · 降, 降, 降",
+      "classifier": "ตู้（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตู้สำหรับเก็บเสื้อผ้า",
+        "translations": {
+          "zh": "衣柜",
+          "en": "wardrobe"
+        },
+        "examples": [
+          {
+            "text": "แขวนเสื้อไว้ในตู้เสื้อผ้า",
+            "translations": {
+              "zh": "把衣服挂在衣柜里。",
+              "en": "Hang your clothes in the wardrobe."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไม้แขวนเสื้อ",
+    "phonetic": "mai khwaen suea",
+    "cefr": "A2",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "máai-khwɛ̌ɛn-sʉ̂a · 高, 升, 降",
+      "classifier": "อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ใช้แขวนเสื้อ",
+        "translations": {
+          "zh": "衣架",
+          "en": "coat hanger"
+        },
+        "examples": [
+          {
+            "text": "ขอไม้แขวนเสื้อเพิ่มอีกห้าอัน",
+            "translations": {
+              "zh": "再要五个衣架。",
+              "en": "I'd like five more hangers."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โซฟา",
+    "phonetic": "sofa",
+    "cefr": "A2",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "toneMarks": "soo-faa · 中, 中",
+      "classifier": "ตัว（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เก้าอี้ยาวนุ่มๆ ที่นั่งได้หลายคน",
+        "translations": {
+          "zh": "沙发",
+          "en": "sofa"
+        },
+        "examples": [
+          {
+            "text": "แมวนอนบนโซฟา",
+            "translations": {
+              "zh": "猫在沙发上睡觉。",
+              "en": "The cat is sleeping on the sofa."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ห้องนั่งเล่น",
+    "phonetic": "hong nang len",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "hɔ̂ng-nâng-lên · 降, 降, 降",
+      "classifier": "ห้อง（间）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ห้องในบ้านสำหรับนั่งพักและดูทีวี",
+        "translations": {
+          "zh": "客厅",
+          "en": "living room"
+        },
+        "examples": [
+          {
+            "text": "ทุกคนดูทีวีอยู่ในห้องนั่งเล่น",
+            "translations": {
+              "zh": "大家都在客厅看电视。",
+              "en": "Everyone is watching TV in the living room."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หม้อ",
+    "phonetic": "mo",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "mɔ̂ɔ · 降",
+      "classifier": "ใบ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาชนะสำหรับต้มหรือแกง",
+        "translations": {
+          "zh": "锅（煮锅）",
+          "en": "pot"
+        },
+        "examples": [
+          {
+            "text": "ต้มน้ำในหม้อใบนี้",
+            "translations": {
+              "zh": "用这个锅烧水。",
+              "en": "Boil the water in this pot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กระทะ",
+    "phonetic": "kratha",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "krà-thá · 低, 高",
+      "classifier": "ใบ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาชนะแบนๆ สำหรับผัดหรือทอด",
+        "translations": {
+          "zh": "炒锅；平底锅",
+          "en": "wok, frying pan"
+        },
+        "examples": [
+          {
+            "text": "ผัดผักในกระทะ",
+            "translations": {
+              "zh": "在炒锅里炒菜。",
+              "en": "Stir-fry the vegetables in the wok."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มีด",
+    "phonetic": "mit",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "mîit · 降",
+      "classifier": "เล่ม（把）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของมีคมสำหรับหั่นหรือตัด",
+        "translations": {
+          "zh": "刀",
+          "en": "knife"
+        },
+        "examples": [
+          {
+            "text": "ระวัง มีดเล่มนี้คมมาก",
+            "translations": {
+              "zh": "小心，这把刀很锋利。",
+              "en": "Careful, this knife is very sharp."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เตา",
+    "phonetic": "tao",
+    "cefr": "A2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "tao · 中",
+      "classifier": "เตา（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่สำหรับทำให้ร้อนเวลาทำอาหาร",
+        "translations": {
+          "zh": "炉子；灶",
+          "en": "stove, cooker"
+        },
+        "examples": [
+          {
+            "text": "ปิดเตาแก๊สก่อนออกจากบ้าน",
+            "translations": {
+              "zh": "出门前关掉煤气灶。",
+              "en": "Turn off the gas stove before you leave the house."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครื่องซักผ้า",
+    "phonetic": "khrueang sak pha",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "khrʉ̂ang-sák-phâa · 降, 高, 降",
+      "classifier": "เครื่อง（台）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องที่ใช้ซักเสื้อผ้า",
+        "translations": {
+          "zh": "洗衣机",
+          "en": "washing machine"
+        },
+        "examples": [
+          {
+            "text": "เอาเสื้อใส่เครื่องซักผ้า",
+            "translations": {
+              "zh": "把衣服放进洗衣机。",
+              "en": "Put the clothes in the washing machine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เตารีด",
+    "phonetic": "tao rit",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "tao-rîit · 中, 降",
+      "classifier": "อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องที่ใช้รีดผ้าให้เรียบ",
+        "translations": {
+          "zh": "熨斗",
+          "en": "iron"
+        },
+        "examples": [
+          {
+            "text": "ในห้องมีเตารีดไหม",
+            "translations": {
+              "zh": "房间里有熨斗吗？",
+              "en": "Is there an iron in the room?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ถังขยะ",
+    "phonetic": "thang khaya",
+    "cefr": "A2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "toneMarks": "thǎng-khà-yà · 升, 低, 低",
+      "classifier": "ใบ（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาชนะสำหรับทิ้งขยะ",
+        "translations": {
+          "zh": "垃圾桶",
+          "en": "rubbish bin"
+        },
+        "examples": [
+          {
+            "text": "ทิ้งขวดลงในถังขยะ",
+            "translations": {
+              "zh": "把瓶子扔进垃圾桶。",
+              "en": "Throw the bottle in the bin."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หลอดไฟ",
+    "phonetic": "lot fai",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "lɔ̀ɔt-fai · 低, 中",
+      "classifier": "หลอด（个）；ดวง（盏）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ให้แสงสว่างเมื่อเปิดไฟ",
+        "translations": {
+          "zh": "灯泡",
+          "en": "light bulb"
+        },
+        "examples": [
+          {
+            "text": "หลอดไฟในห้องน้ำเสีย",
+            "translations": {
+              "zh": "浴室的灯泡坏了。",
+              "en": "The light bulb in the bathroom is broken."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผ้าม่าน",
+    "phonetic": "pha man",
+    "cefr": "A2",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "phâa-mâan · 降, 降",
+      "classifier": "ผืน（幅）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผ้าที่แขวนปิดหน้าต่าง",
+        "translations": {
+          "zh": "窗帘",
+          "en": "curtain"
+        },
+        "examples": [
+          {
+            "text": "ปิดผ้าม่านหน่อย แดดเข้า",
+            "translations": {
+              "zh": "拉一下窗帘，太阳照进来了。",
+              "en": "Close the curtains, the sun is coming in."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พรม",
+    "phonetic": "phrom",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phrom · 中",
+      "classifier": "ผืน（块）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผ้าหนาๆ ที่ปูบนพื้น",
+        "translations": {
+          "zh": "地毯",
+          "en": "carpet, rug"
+        },
+        "examples": [
+          {
+            "text": "พรมผืนนี้ซื้อมาจากอินเดีย",
+            "translations": {
+              "zh": "这块地毯是从印度买的。",
+              "en": "This rug was bought in India."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กำแพง",
+    "phonetic": "kamphaeng",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "kam-phɛɛng · 中, 中",
+      "classifier": "ด้าน（面）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผนังสูงที่ล้อมบ้านหรือเมือง",
+        "translations": {
+          "zh": "围墙；城墙",
+          "en": "wall"
+        },
+        "examples": [
+          {
+            "text": "แมวเดินบนกำแพง",
+            "translations": {
+              "zh": "猫在围墙上走。",
+              "en": "The cat is walking on the wall."
+            }
+          }
+        ],
+        "usageNote": "室内的墙一般叫 ผนัง。"
+      }
+    ]
+  },
+  {
+    "headword": "หลังคา",
+    "phonetic": "langkha",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "lǎng-khaa · 升, 中",
+      "classifier": "หลัง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนบนสุดที่ปิดบ้าน",
+        "translations": {
+          "zh": "屋顶",
+          "en": "roof"
+        },
+        "examples": [
+          {
+            "text": "หลังคารั่วตอนฝนตก",
+            "translations": {
+              "zh": "下雨时屋顶漏水。",
+              "en": "The roof leaks when it rains."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ระเบียง",
+    "phonetic": "rabiang",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "rá-biang · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ส่วนของบ้านหรือห้องที่ยื่นออกไปข้างนอก",
+        "translations": {
+          "zh": "阳台",
+          "en": "balcony"
+        },
+        "examples": [
+          {
+            "text": "ตากผ้าที่ระเบียง",
+            "translations": {
+              "zh": "在阳台上晾衣服。",
+              "en": "Hang the laundry out on the balcony."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ก๊อกน้ำ",
+    "phonetic": "kok nam",
+    "cefr": "A2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "kɔ́k-náam · 高, 高",
+      "classifier": "อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่เปิดปิดน้ำ",
+        "translations": {
+          "zh": "水龙头",
+          "en": "tap, faucet"
+        },
+        "examples": [
+          {
+            "text": "ปิดก๊อกน้ำด้วย",
+            "translations": {
+              "zh": "记得关水龙头。",
+              "en": "Turn off the tap, please."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฝักบัว",
+    "phonetic": "fak bua",
+    "cefr": "A2",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "fàk-bua · 低, 中",
+      "classifier": "อัน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ปล่อยน้ำลงมาเวลาอาบน้ำ",
+        "translations": {
+          "zh": "淋浴喷头；花洒",
+          "en": "shower head, shower"
+        },
+        "examples": [
+          {
+            "text": "ฝักบัวไม่มีน้ำร้อน",
+            "translations": {
+              "zh": "淋浴没有热水。",
+              "en": "There's no hot water in the shower."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คอนโด",
+    "phonetic": "khondo",
+    "cefr": "A2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "khɔn-doo · 中, 中",
+      "classifier": "ห้อง（套）；แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตึกสูงที่มีห้องให้คนซื้อหรือเช่าอยู่",
+        "translations": {
+          "zh": "公寓（可买卖）",
+          "en": "condominium, condo"
+        },
+        "examples": [
+          {
+            "text": "เขาเช่าคอนโดใกล้รถไฟฟ้า",
+            "translations": {
+              "zh": "他在轻轨附近租了公寓。",
+              "en": "He rents a condo near the Skytrain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หอพัก",
+    "phonetic": "ho phak",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "hɔ̌ɔ-phák · 升, 高",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ตึกที่มีห้องเล็กๆ ให้นักเรียนหรือคนทำงานเช่า",
+        "translations": {
+          "zh": "宿舍；出租公寓",
+          "en": "dormitory"
+        },
+        "examples": [
+          {
+            "text": "นักศึกษาหลายคนอยู่หอพัก",
+            "translations": {
+              "zh": "很多大学生住宿舍。",
+              "en": "Many university students live in dorms."
+            }
+          }
+        ],
+        "usageNote": "口语常简称 หอ。"
+      }
+    ]
+  },
+  {
+    "headword": "เจ้าของ",
+    "phonetic": "chao khong",
+    "cefr": "A2",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "toneMarks": "jâo-khɔ̌ɔng · 降, 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่มีสิ่งนั้นเป็นของตัวเอง",
+        "translations": {
+          "zh": "主人；物主；老板",
+          "en": "owner"
+        },
+        "examples": [
+          {
+            "text": "เจ้าของร้านเป็นคนจีน",
+            "translations": {
+              "zh": "店主是中国人。",
+              "en": "The shop owner is Chinese."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แบดมินตัน",
+    "phonetic": "baetminton",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "bɛ̀t-min-tân · 低, 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กีฬาตีลูกขนไก่ข้ามตาข่าย",
+        "translations": {
+          "zh": "羽毛球",
+          "en": "badminton"
+        },
+        "examples": [
+          {
+            "text": "เย็นนี้ไปตีแบดมินตันกัน",
+            "translations": {
+              "zh": "今晚去打羽毛球吧。",
+              "en": "Let's go play badminton this evening."
+            }
+          }
+        ],
+        "usageNote": "\"打\"羽毛球、网球用 ตี。"
+      }
+    ]
+  },
+  {
+    "headword": "มวยไทย",
+    "phonetic": "muai thai",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "muai-thai · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ศิลปะการต่อสู้ของไทย ใช้มือ เท้า เข่า ศอก",
+        "translations": {
+          "zh": "泰拳",
+          "en": "Muay Thai"
+        },
+        "examples": [
+          {
+            "text": "เขามาเรียนมวยไทยที่กรุงเทพฯ",
+            "translations": {
+              "zh": "他来曼谷学泰拳。",
+              "en": "He came to Bangkok to learn Muay Thai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โยคะ",
+    "phonetic": "yokha",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "yoo-khá · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การออกกำลังกายแบบยืดตัวและหายใจ",
+        "translations": {
+          "zh": "瑜伽",
+          "en": "yoga"
+        },
+        "examples": [
+          {
+            "text": "แม่เล่นโยคะทุกเช้า",
+            "translations": {
+              "zh": "妈妈每天早上做瑜伽。",
+              "en": "Mum does yoga every morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฟิตเนส",
+    "phonetic": "fitnet",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "fít-nét · 高, 高",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สถานที่ออกกำลังกายด้วยเครื่องต่างๆ",
+        "translations": {
+          "zh": "健身房",
+          "en": "gym"
+        },
+        "examples": [
+          {
+            "text": "ไปฟิตเนสหลังเลิกงาน",
+            "translations": {
+              "zh": "下班后去健身房。",
+              "en": "I go to the gym after work."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สนามกีฬา",
+    "phonetic": "sanam kila",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "sà-nǎam-kii-laa · 低, 升, 中, 中",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่กว้างสำหรับเล่นหรือแข่งกีฬา",
+        "translations": {
+          "zh": "体育场",
+          "en": "stadium, sports field"
+        },
+        "examples": [
+          {
+            "text": "เด็กๆ เล่นฟุตบอลที่สนามกีฬา",
+            "translations": {
+              "zh": "孩子们在体育场踢足球。",
+              "en": "The kids play football at the sports field."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลูกบอล",
+    "phonetic": "luk bon",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "lûuk-bɔn · 降, 中",
+      "classifier": "ลูก（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของกลมๆ ที่ใช้เล่นกีฬา",
+        "translations": {
+          "zh": "球",
+          "en": "ball"
+        },
+        "examples": [
+          {
+            "text": "เตะลูกบอลมาทางนี้",
+            "translations": {
+              "zh": "把球踢过来。",
+              "en": "Kick the ball over here."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทีม",
+    "phonetic": "thim",
+    "cefr": "A2",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "toneMarks": "thiim · 中",
+      "classifier": "ทีม（队）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มคนที่ทำงานหรือเล่นกีฬาด้วยกัน",
+        "translations": {
+          "zh": "队；团队",
+          "en": "team"
+        },
+        "examples": [
+          {
+            "text": "ทีมของเราชนะ",
+            "translations": {
+              "zh": "我们队赢了。",
+              "en": "Our team won."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นักกีฬา",
+    "phonetic": "nak kila",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "nák-kii-laa · 高, 中, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เล่นกีฬาเก่งหรือเป็นอาชีพ",
+        "translations": {
+          "zh": "运动员",
+          "en": "athlete"
+        },
+        "examples": [
+          {
+            "text": "เขาเป็นนักกีฬาว่ายน้ำ",
+            "translations": {
+              "zh": "他是游泳运动员。",
+              "en": "He is a swimmer (athlete)."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "งานอดิเรก",
+    "phonetic": "ngan adirek",
+    "cefr": "A2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "ngaan-à-dì-rèek · 中, 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ชอบทำเวลาว่าง",
+        "translations": {
+          "zh": "爱好",
+          "en": "hobby"
+        },
+        "examples": [
+          {
+            "text": "งานอดิเรกของคุณคืออะไร",
+            "translations": {
+              "zh": "你的爱好是什么？",
+              "en": "What's your hobby?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กีตาร์",
+    "phonetic": "kita",
+    "cefr": "A2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "kii-tâa · 中, 降",
+      "classifier": "ตัว（把）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เครื่องดนตรีที่มีสาย ใช้ดีด",
+        "translations": {
+          "zh": "吉他",
+          "en": "guitar"
+        },
+        "examples": [
+          {
+            "text": "น้องชายเล่นกีตาร์เก่ง",
+            "translations": {
+              "zh": "弟弟吉他弹得很好。",
+              "en": "My younger brother plays the guitar well."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดนตรี",
+    "phonetic": "dontri",
+    "cefr": "A2",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "don-trii · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เสียงเพลงที่เล่นด้วยเครื่องต่างๆ",
+        "translations": {
+          "zh": "音乐",
+          "en": "music"
+        },
+        "examples": [
+          {
+            "text": "ฉันชอบฟังดนตรีไทย",
+            "translations": {
+              "zh": "我喜欢听泰国音乐。",
+              "en": "I like listening to Thai music."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาพวาด",
+    "phonetic": "phap wat",
+    "cefr": "A2",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "phâap-wâat · 降, 降",
+      "classifier": "ภาพ（幅）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รูปที่วาดด้วยมือ",
+        "translations": {
+          "zh": "画；绘画作品",
+          "en": "painting, drawing"
+        },
+        "examples": [
+          {
+            "text": "ภาพวาดนี้สวยมาก",
+            "translations": {
+              "zh": "这幅画很美。",
+              "en": "This painting is very beautiful."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "การ์ตูน",
+    "phonetic": "katun",
+    "cefr": "A2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "toneMarks": "kaa-tuun · 中, 中",
+      "classifier": "เรื่อง（部）；เล่ม（本）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาพวาดหรือหนังสำหรับเด็ก",
+        "translations": {
+          "zh": "卡通；动画；漫画",
+          "en": "cartoon; comic"
+        },
+        "examples": [
+          {
+            "text": "เด็กๆ ดูการ์ตูนทุกเช้าวันเสาร์",
+            "translations": {
+              "zh": "孩子们每周六早上看动画片。",
+              "en": "The kids watch cartoons every Saturday morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นิยาย",
+    "phonetic": "niyai",
+    "cefr": "A2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "toneMarks": "ní-yaai · 高, 中",
+      "classifier": "เรื่อง（部）；เล่ม（本）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องแต่งที่เขียนเป็นหนังสือ",
+        "translations": {
+          "zh": "小说",
+          "en": "novel"
+        },
+        "examples": [
+          {
+            "text": "ก่อนนอนฉันชอบอ่านนิยาย",
+            "translations": {
+              "zh": "睡前我喜欢看小说。",
+              "en": "I like to read novels before bed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปิงปอง",
+    "phonetic": "pingpong",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "ping-pɔng · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กีฬาตีลูกเล็กๆ บนโต๊ะ",
+        "translations": {
+          "zh": "乒乓球",
+          "en": "table tennis, ping-pong"
+        },
+        "examples": [
+          {
+            "text": "พ่อกับลูกเล่นปิงปองกัน",
+            "translations": {
+              "zh": "父子俩一起打乒乓球。",
+              "en": "Father and son are playing ping-pong."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เทนนิส",
+    "phonetic": "thennit",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "then-nít · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กีฬาตีลูกด้วยไม้แร็กเกตข้ามตาข่าย",
+        "translations": {
+          "zh": "网球",
+          "en": "tennis"
+        },
+        "examples": [
+          {
+            "text": "เขาตีเทนนิสทุกวันอาทิตย์",
+            "translations": {
+              "zh": "他每周日打网球。",
+              "en": "He plays tennis every Sunday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ละคร",
+    "phonetic": "lakhon",
+    "cefr": "A2",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "lá-khɔɔn · 高, 中",
+      "classifier": "เรื่อง（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่นักแสดงเล่น ทางทีวีหรือบนเวที",
+        "translations": {
+          "zh": "电视剧；戏剧",
+          "en": "TV drama; play"
+        },
+        "examples": [
+          {
+            "text": "แม่ดูละครทุกคืน",
+            "translations": {
+              "zh": "妈妈每晚都看电视剧。",
+              "en": "Mum watches the TV drama every night."
+            }
+          }
+        ],
+        "usageNote": "泰国电视剧也常叫 ละครหลังข่าว（新闻后的剧）。"
+      }
+    ]
+  },
+  {
+    "headword": "คอนเสิร์ต",
+    "phonetic": "khonsoet",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "khɔɔn-sə̀ət · 中, 低",
+      "classifier": "ครั้ง（场）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "งานแสดงดนตรีให้คนดู",
+        "translations": {
+          "zh": "演唱会；音乐会",
+          "en": "concert"
+        },
+        "examples": [
+          {
+            "text": "เราได้บัตรคอนเสิร์ตแล้ว",
+            "translations": {
+              "zh": "我们拿到演唱会门票了。",
+              "en": "We got concert tickets."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทะเลสาบ",
+    "phonetic": "thale sap",
+    "cefr": "A2",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "thá-lee-sàap · 高, 中, 低",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "แหล่งน้ำใหญ่ที่มีแผ่นดินล้อมรอบ",
+        "translations": {
+          "zh": "湖",
+          "en": "lake"
+        },
+        "examples": [
+          {
+            "text": "บ้านเขาอยู่ใกล้ทะเลสาบ",
+            "translations": {
+              "zh": "他家在湖边。",
+              "en": "His house is near the lake."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คลอง",
+    "phonetic": "khlong",
+    "cefr": "A2",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "toneMarks": "khlɔɔng · 中",
+      "classifier": "สาย（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางน้ำที่คนขุดขึ้น",
+        "translations": {
+          "zh": "运河；水道",
+          "en": "canal"
+        },
+        "examples": [
+          {
+            "text": "กรุงเทพฯ มีคลองเยอะ",
+            "translations": {
+              "zh": "曼谷有很多运河。",
+              "en": "Bangkok has a lot of canals."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ถ้ำ",
+    "phonetic": "tham",
+    "cefr": "A2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "thâm · 降",
+      "classifier": "ถ้ำ（个，本身也是量词）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "โพรงใหญ่ในภูเขา",
+        "translations": {
+          "zh": "山洞",
+          "en": "cave"
+        },
+        "examples": [
+          {
+            "text": "ในถ้ำมืดมาก",
+            "translations": {
+              "zh": "山洞里很黑。",
+              "en": "It's very dark in the cave."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทุ่งนา",
+    "phonetic": "thung na",
+    "cefr": "A2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "thûng-naa · 降, 中",
+      "classifier": "แห่ง（片）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่กว้างๆ สำหรับปลูกข้าว",
+        "translations": {
+          "zh": "稻田",
+          "en": "rice field"
+        },
+        "examples": [
+          {
+            "text": "ทุ่งนาเขียวสวยในหน้าฝน",
+            "translations": {
+              "zh": "雨季的稻田绿油油的很美。",
+              "en": "The rice fields are green and lovely in the rainy season."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

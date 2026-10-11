@@ -1,0 +1,1388 @@
+[
+ {
+  "headword": "สาขา",
+  "phonetic": "sakha",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "sǎa-khǎa · 升, 升",
+   "classifier": "สาขา（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วิชาเอก; ร้านหรือธนาคารย่อย",
+    "translations": {
+     "zh": "专业；分店；分行",
+     "en": "major; branch"
+    },
+    "examples": [
+     {
+      "text": "คุณเรียนสาขาอะไร",
+      "translations": {
+       "zh": "你学什么专业？",
+       "en": "What's your major?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิชา",
+  "phonetic": "wicha",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "wí-chaa · 高, 中",
+   "classifier": "วิชา（门）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องที่เรียนในโรงเรียน",
+    "translations": {
+     "zh": "科目；课程",
+     "en": "subject"
+    },
+    "examples": [
+     {
+      "text": "วิชาที่ฉันชอบที่สุดคือประวัติศาสตร์",
+      "translations": {
+       "zh": "我最喜欢的科目是历史。",
+       "en": "My favourite subject is history."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หลักสูตร",
+  "phonetic": "laksut",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "làk-sùut · 低, 低",
+   "classifier": "หลักสูตร（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ชุดวิชาที่ต้องเรียน",
+    "translations": {
+     "zh": "课程；课程体系",
+     "en": "course, curriculum"
+    },
+    "examples": [
+     {
+      "text": "หลักสูตรนี้เรียนสี่ปี",
+      "translations": {
+       "zh": "这个课程要读四年。",
+       "en": "This programme takes four years."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สอบ",
+  "phonetic": "sop",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "sɔ̀ɔp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำข้อสอบเพื่อวัดความรู้",
+    "translations": {
+     "zh": "考试",
+     "en": "to take an exam"
+    },
+    "examples": [
+     {
+      "text": "สัปดาห์หน้าฉันสอบภาษาไทย",
+      "translations": {
+       "zh": "下周我考泰语。",
+       "en": "Next week I have a Thai exam."
+      }
+     }
+    ],
+    "usageNote": "สอบผ่าน 考过，สอบตก 没考过。"
+   }
+  ]
+ },
+ {
+  "headword": "สอบตก",
+  "phonetic": "sop tok",
+  "cefr": "B1",
+  "frequencyRank": 5100,
+  "grammarNotes": {
+   "toneMarks": "sɔ̀ɔp-tòk · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "สอบไม่ผ่าน",
+    "translations": {
+     "zh": "考试不及格",
+     "en": "to fail an exam"
+    },
+    "examples": [
+     {
+      "text": "เขาสอบตกวิชาคณิตศาสตร์",
+      "translations": {
+       "zh": "他数学考试不及格。",
+       "en": "He failed his maths exam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทุน",
+  "phonetic": "thun",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "thun · 中",
+   "classifier": "ทุน（份）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ให้เพื่อเรียน; เงินที่ใช้ทำธุรกิจ",
+    "translations": {
+     "zh": "奖学金；资金；本钱",
+     "en": "scholarship; capital"
+    },
+    "examples": [
+     {
+      "text": "เธอได้ทุนไปเรียนที่ญี่ปุ่น",
+      "translations": {
+       "zh": "她拿到奖学金去日本留学。",
+       "en": "She got a scholarship to study in Japan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รับปริญญา",
+  "phonetic": "rap parinya",
+  "cefr": "B1",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "toneMarks": "ráp-pà-rin-yaa · 高, 低, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เข้าพิธีรับใบปริญญา",
+    "translations": {
+     "zh": "参加毕业典礼；领学位",
+     "en": "to graduate (attend the ceremony)"
+    },
+    "examples": [
+     {
+      "text": "พ่อแม่มาดูฉันรับปริญญา",
+      "translations": {
+       "zh": "爸妈来看我参加毕业典礼。",
+       "en": "My parents came to see me graduate."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เรียนจบ",
+  "phonetic": "rian chop",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "rian-jòp · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เรียนครบตามหลักสูตร",
+    "translations": {
+     "zh": "毕业；读完",
+     "en": "to finish school, to graduate"
+    },
+    "examples": [
+     {
+      "text": "เรียนจบแล้วจะทำอะไร",
+      "translations": {
+       "zh": "毕业以后做什么？",
+       "en": "What will you do after you graduate?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิทยานิพนธ์",
+  "phonetic": "witthayaniphon",
+  "cefr": "B2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "toneMarks": "wít-thá-yaa-ní-phon · 高, 高, 中, 高, 中",
+   "classifier": "เล่ม（本）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "งานวิจัยที่ต้องเขียนเพื่อจบปริญญาโทหรือเอก",
+    "translations": {
+     "zh": "学位论文",
+     "en": "thesis, dissertation"
+    },
+    "examples": [
+     {
+      "text": "ฉันกำลังเขียนวิทยานิพนธ์",
+      "translations": {
+       "zh": "我正在写论文。",
+       "en": "I'm writing my thesis."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิจัย",
+  "phonetic": "wichai",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "wí-jai · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ศึกษาหาความรู้อย่างเป็นระบบ",
+    "translations": {
+     "zh": "研究",
+     "en": "to research"
+    },
+    "examples": [
+     {
+      "text": "เขาวิจัยเรื่องข้าวไทย",
+      "translations": {
+       "zh": "他研究泰国大米。",
+       "en": "He does research on Thai rice."
+      }
+     }
+    ],
+    "usageNote": "名词“研究”常说 งานวิจัย。"
+   }
+  ]
+ },
+ {
+  "headword": "เกรด",
+  "phonetic": "kret",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "toneMarks": "krèet · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ระดับคะแนนของวิชา",
+    "translations": {
+     "zh": "成绩；等级",
+     "en": "grade"
+    },
+    "examples": [
+     {
+      "text": "เทอมนี้ได้เกรดเอสามวิชา",
+      "translations": {
+       "zh": "这学期有三门课拿了A。",
+       "en": "I got A in three subjects this term."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หอพัก",
+  "phonetic": "ho phak",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "hɔ̌ɔ-phák · 升, 高",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่พักสำหรับนักเรียนหรือคนทำงาน",
+    "translations": {
+     "zh": "宿舍",
+     "en": "dormitory"
+    },
+    "examples": [
+     {
+      "text": "หอพักอยู่ใกล้มหาวิทยาลัย",
+      "translations": {
+       "zh": "宿舍离大学很近。",
+       "en": "The dorm is near the university."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 หอ。"
+   }
+  ]
+ },
+ {
+  "headword": "เทอม",
+  "phonetic": "thoem",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "thəəm · 中",
+   "classifier": "เทอม（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ช่วงเวลาเรียนในหนึ่งปี",
+    "translations": {
+     "zh": "学期",
+     "en": "term, semester"
+    },
+    "examples": [
+     {
+      "text": "เทอมหน้าฉันจะเรียนสี่วิชา",
+      "translations": {
+       "zh": "下学期我要修四门课。",
+       "en": "Next term I'll take four subjects."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ความรู้",
+  "phonetic": "khwam ru",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "khwaam-rúu · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่รู้จากการเรียนหรือประสบการณ์",
+    "translations": {
+     "zh": "知识",
+     "en": "knowledge"
+    },
+    "examples": [
+     {
+      "text": "อ่านหนังสือช่วยเพิ่มความรู้",
+      "translations": {
+       "zh": "读书能增长知识。",
+       "en": "Reading increases your knowledge."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ศิษย์เก่า",
+  "phonetic": "sit kao",
+  "cefr": "B2",
+  "frequencyRank": 6700,
+  "grammarNotes": {
+   "toneMarks": "sìt-kào · 低, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เคยเรียนที่โรงเรียนนั้น",
+    "translations": {
+     "zh": "校友",
+     "en": "alumnus, former student"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นศิษย์เก่าโรงเรียนนี้",
+      "translations": {
+       "zh": "他是这所学校的校友。",
+       "en": "He is an alumnus of this school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตำรา",
+  "phonetic": "tamra",
+  "cefr": "B2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "tam-raa · 中, 中",
+   "classifier": "เล่ม（本）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หนังสือที่ใช้เรียน",
+    "translations": {
+     "zh": "教材；课本",
+     "en": "textbook"
+    },
+    "examples": [
+     {
+      "text": "ตำราเล่มนี้แพงมาก",
+      "translations": {
+       "zh": "这本教材很贵。",
+       "en": "This textbook is very expensive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บรรยาย",
+  "phonetic": "banyai",
+  "cefr": "B2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "ban-yaai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดอธิบายให้คนฟังเป็นเรื่องยาว",
+    "translations": {
+     "zh": "讲课；演讲；描述",
+     "en": "to lecture, to describe"
+    },
+    "examples": [
+     {
+      "text": "อาจารย์บรรยายสองชั่วโมง",
+      "translations": {
+       "zh": "老师讲了两个小时的课。",
+       "en": "The lecturer spoke for two hours."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กวดวิชา",
+  "phonetic": "kuat wicha",
+  "cefr": "B2",
+  "frequencyRank": 6900,
+  "grammarNotes": {
+   "toneMarks": "kùat-wí-chaa · 低, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เรียนพิเศษเพิ่มเพื่อเตรียมสอบ",
+    "translations": {
+     "zh": "补习",
+     "en": "to cram, to take tutoring"
+    },
+    "examples": [
+     {
+      "text": "ลูกไปกวดวิชาทุกวันเสาร์",
+      "translations": {
+       "zh": "孩子每周六去补习。",
+       "en": "The kids go to cram school every Saturday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประถม",
+  "phonetic": "prathom",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "prà-thǒm · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ระดับการศึกษาขั้นต้น ป.1 ถึง ป.6",
+    "translations": {
+     "zh": "小学",
+     "en": "primary (school)"
+    },
+    "examples": [
+     {
+      "text": "ลูกชายเรียนประถมสาม",
+      "translations": {
+       "zh": "儿子读小学三年级。",
+       "en": "My son is in Primary 3."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มัธยม",
+  "phonetic": "matthayom",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "mát-thá-yom · 高, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ระดับการศึกษาต่อจากประถม",
+    "translations": {
+     "zh": "中学",
+     "en": "secondary (school)"
+    },
+    "examples": [
+     {
+      "text": "ฉันเรียนมัธยมที่เชียงราย",
+      "translations": {
+       "zh": "我在清莱读的中学。",
+       "en": "I went to secondary school in Chiang Rai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อนุบาล",
+  "phonetic": "anuban",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "à-nú-baan · 低, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "โรงเรียนสำหรับเด็กเล็กก่อนประถม",
+    "translations": {
+     "zh": "幼儿园",
+     "en": "kindergarten"
+    },
+    "examples": [
+     {
+      "text": "ลูกสาวเริ่มเรียนอนุบาลปีนี้",
+      "translations": {
+       "zh": "女儿今年开始上幼儿园。",
+       "en": "My daughter starts kindergarten this year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เงินทอน",
+  "phonetic": "ngoen thon",
+  "cefr": "B1",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "ngən-thɔɔn · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่คืนให้เมื่อจ่ายเกิน",
+    "translations": {
+     "zh": "找零；零钱",
+     "en": "change (money returned)"
+    },
+    "examples": [
+     {
+      "text": "อย่าลืมเงินทอนนะคะ",
+      "translations": {
+       "zh": "别忘了找的零钱。",
+       "en": "Don't forget your change."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผ่อน",
+  "phonetic": "phon",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "phɔ̀ɔn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "จ่ายเงินทีละส่วนทุกเดือน; ทำให้ลดลง",
+    "translations": {
+     "zh": "分期付款；放松",
+     "en": "to pay in instalments; to ease"
+    },
+    "examples": [
+     {
+      "text": "เขาผ่อนรถเดือนละหมื่นบาท",
+      "translations": {
+       "zh": "他每月还一万泰铢车贷。",
+       "en": "He pays 10,000 baht a month for his car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่าเช่า",
+  "phonetic": "kha chao",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "khâa-châo · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่จ่ายเพื่อใช้บ้านหรือของคนอื่น",
+    "translations": {
+     "zh": "租金；房租",
+     "en": "rent"
+    },
+    "examples": [
+     {
+      "text": "ค่าเช่าห้องเดือนละแปดพันบาท",
+      "translations": {
+       "zh": "房租每月八千泰铢。",
+       "en": "The room rent is 8,000 baht a month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลดราคา",
+  "phonetic": "lot rakha",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "lót-raa-khaa · 高, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ราคาถูกลง",
+    "translations": {
+     "zh": "降价；打折",
+     "en": "to reduce the price"
+    },
+    "examples": [
+     {
+      "text": "ห้างลดราคาเสื้อผ้าห้าสิบเปอร์เซ็นต์",
+      "translations": {
+       "zh": "商场服装打五折。",
+       "en": "The mall has 50% off clothes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต่อรอง",
+  "phonetic": "to rong",
+  "cefr": "B1",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "toneMarks": "tɔ̀ɔ-rɔɔng · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดคุยเพื่อให้ได้ราคาหรือเงื่อนไขที่ดีขึ้น",
+    "translations": {
+     "zh": "讨价还价；谈判",
+     "en": "to bargain, to negotiate"
+    },
+    "examples": [
+     {
+      "text": "ที่ตลาดนัดต่อรองราคาได้",
+      "translations": {
+       "zh": "在周末市场可以砍价。",
+       "en": "You can bargain at the weekend market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รวย",
+  "phonetic": "ruai",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "ruai · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีเงินมาก",
+    "translations": {
+     "zh": "有钱；富有",
+     "en": "rich"
+    },
+    "examples": [
+     {
+      "text": "เขารวยมากแต่ไม่เคยอวด",
+      "translations": {
+       "zh": "他很有钱但从不炫耀。",
+       "en": "He's very rich but never shows off."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จน",
+  "phonetic": "chon",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "jon · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีเงินน้อย ไม่พอใช้",
+    "translations": {
+     "zh": "穷；贫穷",
+     "en": "poor"
+    },
+    "examples": [
+     {
+      "text": "ตอนเด็กครอบครัวเราจนมาก",
+      "translations": {
+       "zh": "小时候我们家很穷。",
+       "en": "Our family was very poor when I was little."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ความยากจน",
+  "phonetic": "khwam yak chon",
+  "cefr": "B2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "toneMarks": "khwaam-yâak-jon · 中, 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การที่มีเงินไม่พอกินพอใช้",
+    "translations": {
+     "zh": "贫困",
+     "en": "poverty"
+    },
+    "examples": [
+     {
+      "text": "รัฐบาลอยากแก้ปัญหาความยากจน",
+      "translations": {
+       "zh": "政府想解决贫困问题。",
+       "en": "The government wants to tackle poverty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่งออก",
+  "phonetic": "song ok",
+  "cefr": "B2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "sòng-ɔ̀ɔk · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ขายสินค้าไปต่างประเทศ",
+    "translations": {
+     "zh": "出口",
+     "en": "to export"
+    },
+    "examples": [
+     {
+      "text": "ไทยส่งออกข้าวมากเป็นอันดับต้น ๆ",
+      "translations": {
+       "zh": "泰国是大米出口大国。",
+       "en": "Thailand is one of the top rice exporters."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นำเข้า",
+  "phonetic": "nam khao",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "nam-khâo · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ซื้อสินค้าจากต่างประเทศเข้ามา",
+    "translations": {
+     "zh": "进口",
+     "en": "to import"
+    },
+    "examples": [
+     {
+      "text": "รถคันนี้นำเข้าจากญี่ปุ่น",
+      "translations": {
+       "zh": "这辆车是从日本进口的。",
+       "en": "This car was imported from Japan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้บริโภค",
+  "phonetic": "phu boriphok",
+  "cefr": "B2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "toneMarks": "phûu-bɔɔ-rí-phôok · 降, 中, 高, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ซื้อและใช้สินค้า",
+    "translations": {
+     "zh": "消费者",
+     "en": "consumer"
+    },
+    "examples": [
+     {
+      "text": "ผู้บริโภคต้องการของคุณภาพดี",
+      "translations": {
+       "zh": "消费者想要优质商品。",
+       "en": "Consumers want good-quality goods."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สกุลเงิน",
+  "phonetic": "sakun ngoen",
+  "cefr": "B2",
+  "frequencyRank": 6900,
+  "grammarNotes": {
+   "toneMarks": "sà-kun-ngən · 低, 中, 中",
+   "classifier": "สกุล（种）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ชนิดของเงินที่แต่ละประเทศใช้",
+    "translations": {
+     "zh": "货币（币种）",
+     "en": "currency"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้รับหลายสกุลเงิน",
+      "translations": {
+       "zh": "这家店收多种货币。",
+       "en": "This shop accepts several currencies."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แลกเงิน",
+  "phonetic": "laek ngoen",
+  "cefr": "B1",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "lɛ̂ɛk-ngən · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนเงินสกุลหนึ่งเป็นอีกสกุล",
+    "translations": {
+     "zh": "换钱；兑换外币",
+     "en": "to exchange money"
+    },
+    "examples": [
+     {
+      "text": "ฉันแลกเงินที่สนามบิน",
+      "translations": {
+       "zh": "我在机场换了钱。",
+       "en": "I exchanged money at the airport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อัตราแลกเปลี่ยน",
+  "phonetic": "atra laekplian",
+  "cefr": "B2",
+  "frequencyRank": 6300,
+  "grammarNotes": {
+   "toneMarks": "àt-traa-lɛ̂ɛk-plìan · 低, 中, 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ราคาของเงินสกุลหนึ่งเมื่อเทียบกับอีกสกุล",
+    "translations": {
+     "zh": "汇率",
+     "en": "exchange rate"
+    },
+    "examples": [
+     {
+      "text": "วันนี้อัตราแลกเปลี่ยนดีมาก",
+      "translations": {
+       "zh": "今天汇率很好。",
+       "en": "The exchange rate is very good today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ร่วมมือ",
+  "phonetic": "ruam mue",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "rûam-mʉʉ · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำงานด้วยกันเพื่อเป้าหมายเดียวกัน",
+    "translations": {
+     "zh": "合作；配合",
+     "en": "to cooperate"
+    },
+    "examples": [
+     {
+      "text": "ขอบคุณที่ร่วมมือกับเรา",
+      "translations": {
+       "zh": "谢谢您与我们合作。",
+       "en": "Thank you for cooperating with us."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พัฒนา",
+  "phonetic": "phatthana",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "phát-thá-naa · 高, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ดีขึ้นหรือเจริญขึ้น",
+    "translations": {
+     "zh": "发展；开发",
+     "en": "to develop, to improve"
+    },
+    "examples": [
+     {
+      "text": "เมืองนี้พัฒนาเร็วมาก",
+      "translations": {
+       "zh": "这座城市发展得很快。",
+       "en": "This city is developing very fast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วางแผน",
+  "phonetic": "wang phaen",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "waang-phɛ̌ɛn · 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดไว้ล่วงหน้าว่าจะทำอะไรอย่างไร",
+    "translations": {
+     "zh": "计划；规划",
+     "en": "to plan"
+    },
+    "examples": [
+     {
+      "text": "เราวางแผนเปิดสาขาใหม่",
+      "translations": {
+       "zh": "我们计划开新分店。",
+       "en": "We're planning to open a new branch."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตัดสินใจ",
+  "phonetic": "tatsinchai",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "tàt-sǐn-jai · 低, 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เลือกว่าจะทำอย่างไร",
+    "translations": {
+     "zh": "决定",
+     "en": "to decide"
+    },
+    "examples": [
+     {
+      "text": "ฉันตัดสินใจลาออกแล้ว",
+      "translations": {
+       "zh": "我已经决定辞职了。",
+       "en": "I've decided to resign."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ความสำเร็จ",
+  "phonetic": "khwam samret",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "khwaam-sǎm-rèt · 中, 升, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การทำได้ตามที่ตั้งใจ",
+    "translations": {
+     "zh": "成功；成就",
+     "en": "success"
+    },
+    "examples": [
+     {
+      "text": "ความสำเร็จไม่ได้มาง่าย ๆ",
+      "translations": {
+       "zh": "成功不是轻易得来的。",
+       "en": "Success doesn't come easily."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ล้มเหลว",
+  "phonetic": "lom leo",
+  "cefr": "B2",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "toneMarks": "lóm-lěeo · 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำไม่สำเร็จ",
+    "translations": {
+     "zh": "失败",
+     "en": "to fail"
+    },
+    "examples": [
+     {
+      "text": "แผนนี้ล้มเหลวทั้งหมด",
+      "translations": {
+       "zh": "这个计划彻底失败了。",
+       "en": "This plan failed completely."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ล้มละลาย",
+  "phonetic": "lom lalai",
+  "cefr": "B2",
+  "frequencyRank": 6800,
+  "grammarNotes": {
+   "toneMarks": "lóm-lá-laai · 高, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หมดตัวจนจ่ายหนี้ไม่ได้",
+    "translations": {
+     "zh": "破产",
+     "en": "to go bankrupt"
+    },
+    "examples": [
+     {
+      "text": "บริษัทนั้นล้มละลายเมื่อปีที่แล้ว",
+      "translations": {
+       "zh": "那家公司去年破产了。",
+       "en": "That company went bankrupt last year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บริหาร",
+  "phonetic": "borihan",
+  "cefr": "B2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "bɔɔ-rí-hǎan · 中, 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูแลและจัดการงาน องค์กร หรือประเทศ",
+    "translations": {
+     "zh": "管理；经营",
+     "en": "to manage, to administer"
+    },
+    "examples": [
+     {
+      "text": "เธอบริหารโรงแรมสามแห่ง",
+      "translations": {
+       "zh": "她管理三家酒店。",
+       "en": "She manages three hotels."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จ้าง",
+  "phonetic": "chang",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "jâang · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้เงินคนอื่นมาทำงานให้",
+    "translations": {
+     "zh": "雇；雇佣",
+     "en": "to hire, to employ"
+    },
+    "examples": [
+     {
+      "text": "เราจ้างคนมาทาสีบ้าน",
+      "translations": {
+       "zh": "我们雇人来刷房子。",
+       "en": "We hired someone to paint the house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประเมิน",
+  "phonetic": "pramoen",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "prà-məən · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตัดสินว่ามีค่าหรือดีแค่ไหน",
+    "translations": {
+     "zh": "评估；评价",
+     "en": "to evaluate, to assess"
+    },
+    "examples": [
+     {
+      "text": "บริษัทประเมินพนักงานทุกปี",
+      "translations": {
+       "zh": "公司每年对员工进行考核。",
+       "en": "The company evaluates staff every year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสนอ",
+  "phonetic": "sanoe",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "sà-nə̌ə · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาความคิดหรือสิ่งใดให้คนอื่นพิจารณา",
+    "translations": {
+     "zh": "提出；提议",
+     "en": "to propose, to offer"
+    },
+    "examples": [
+     {
+      "text": "เขาเสนอความคิดที่ดีในที่ประชุม",
+      "translations": {
+       "zh": "他在会上提出了好主意。",
+       "en": "He put forward a good idea at the meeting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สวัสดิการ",
+  "phonetic": "sawatdikan",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "sà-wàt-dì-kaan · 低, 低, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่นายจ้างหรือรัฐให้เพื่อความเป็นอยู่ที่ดี",
+    "translations": {
+     "zh": "福利",
+     "en": "welfare, benefits"
+    },
+    "examples": [
+     {
+      "text": "บริษัทนี้สวัสดิการดีมาก",
+      "translations": {
+       "zh": "这家公司福利很好。",
+       "en": "This company has very good benefits."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประกันสังคม",
+  "phonetic": "prakan sangkhom",
+  "cefr": "B2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "toneMarks": "prà-kan-sǎng-khom · 低, 中, 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ระบบที่ลูกจ้างจ่ายเงินสมทบเพื่อได้สิทธิรักษาพยาบาล",
+    "translations": {
+     "zh": "社会保险",
+     "en": "social security"
+    },
+    "examples": [
+     {
+      "text": "ลูกจ้างต้องจ่ายเงินประกันสังคมทุกเดือน",
+      "translations": {
+       "zh": "雇员每月要交社保。",
+       "en": "Employees pay social security every month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เงินกู้",
+  "phonetic": "ngoen ku",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "ngən-kûu · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ยืมมาและต้องคืนพร้อมดอกเบี้ย",
+    "translations": {
+     "zh": "贷款",
+     "en": "loan"
+    },
+    "examples": [
+     {
+      "text": "ธนาคารไม่อนุมัติเงินกู้",
+      "translations": {
+       "zh": "银行没有批准贷款。",
+       "en": "The bank didn't approve the loan."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

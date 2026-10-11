@@ -1,0 +1,1424 @@
+[
+ {
+  "headword": "โอนเงิน",
+  "phonetic": "on ngoen",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "oon-ngən · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งเงินจากบัญชีหนึ่งไปอีกบัญชี",
+    "translations": {
+     "zh": "转账",
+     "en": "to transfer money"
+    },
+    "examples": [
+     {
+      "text": "โอนเงินให้ฉันได้ไหม",
+      "translations": {
+       "zh": "可以转账给我吗？",
+       "en": "Can you transfer the money to me?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถอนเงิน",
+  "phonetic": "thon ngoen",
+  "cefr": "B1",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "thɔ̌ɔn-ngən · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาเงินออกจากบัญชี",
+    "translations": {
+     "zh": "取钱",
+     "en": "to withdraw money"
+    },
+    "examples": [
+     {
+      "text": "ฉันไปถอนเงินที่ตู้ ATM",
+      "translations": {
+       "zh": "我去ATM取钱。",
+       "en": "I'm going to withdraw money at the ATM."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฝากเงิน",
+  "phonetic": "fak ngoen",
+  "cefr": "B1",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "toneMarks": "fàak-ngən · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาเงินเข้าบัญชี",
+    "translations": {
+     "zh": "存钱",
+     "en": "to deposit money"
+    },
+    "examples": [
+     {
+      "text": "แม่ไปฝากเงินที่ธนาคาร",
+      "translations": {
+       "zh": "妈妈去银行存钱。",
+       "en": "Mom went to deposit money at the bank."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ออมเงิน",
+  "phonetic": "om ngoen",
+  "cefr": "B1",
+  "frequencyRank": 5100,
+  "grammarNotes": {
+   "toneMarks": "ɔɔm-ngən · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เก็บเงินไว้ใช้ในอนาคต",
+    "translations": {
+     "zh": "储蓄；攒钱",
+     "en": "to save money"
+    },
+    "examples": [
+     {
+      "text": "เราควรออมเงินทุกเดือน",
+      "translations": {
+       "zh": "我们应该每月攒钱。",
+       "en": "We should save money every month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประหยัด",
+  "phonetic": "prayat",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "prà-yàt · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ใช้เงินหรือของน้อย ไม่ฟุ่มเฟือย",
+    "translations": {
+     "zh": "节省；节俭",
+     "en": "thrifty, economical"
+    },
+    "examples": [
+     {
+      "text": "นั่งรถไฟฟ้าประหยัดเวลามาก",
+      "translations": {
+       "zh": "坐轻轨很省时间。",
+       "en": "Taking the Skytrain saves a lot of time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คู่แข่ง",
+  "phonetic": "khu khaeng",
+  "cefr": "B1",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "khûu-khɛ̀ng · 降, 低",
+   "classifier": "ราย（家）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนหรือบริษัทที่แข่งกับเรา",
+    "translations": {
+     "zh": "竞争对手",
+     "en": "competitor, rival"
+    },
+    "examples": [
+     {
+      "text": "คู่แข่งของเราลดราคาแล้ว",
+      "translations": {
+       "zh": "我们的对手已经降价了。",
+       "en": "Our competitor has cut its prices."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แข่งขัน",
+  "phonetic": "khaeng khan",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "khɛ̀ng-khǎn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พยายามเอาชนะกัน",
+    "translations": {
+     "zh": "竞争；比赛",
+     "en": "to compete"
+    },
+    "examples": [
+     {
+      "text": "ตลาดนี้แข่งขันกันสูง",
+      "translations": {
+       "zh": "这个市场竞争激烈。",
+       "en": "This market is very competitive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "การตลาด",
+  "phonetic": "kan talat",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "kaan-tà-làat · 中, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "งานทำให้คนรู้จักและซื้อสินค้า",
+    "translations": {
+     "zh": "市场营销",
+     "en": "marketing"
+    },
+    "examples": [
+     {
+      "text": "เธอทำงานฝ่ายการตลาด",
+      "translations": {
+       "zh": "她在市场部工作。",
+       "en": "She works in the marketing department."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยอดขาย",
+  "phonetic": "yot khai",
+  "cefr": "B2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "toneMarks": "yɔ̂ɔt-khǎai · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "จำนวนสินค้าหรือเงินที่ขายได้",
+    "translations": {
+     "zh": "销售额；销量",
+     "en": "sales figures"
+    },
+    "examples": [
+     {
+      "text": "เดือนนี้ยอดขายเพิ่มขึ้นมาก",
+      "translations": {
+       "zh": "这个月销量大增。",
+       "en": "Sales rose a lot this month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สัญญา",
+  "phonetic": "sanya",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "sǎn-yaa · 升, 中",
+   "classifier": "ฉบับ（份）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อตกลงที่เขียนเป็นเอกสาร",
+    "translations": {
+     "zh": "合同；合约",
+     "en": "contract"
+    },
+    "examples": [
+     {
+      "text": "อ่านสัญญาให้ดีก่อนเซ็น",
+      "translations": {
+       "zh": "签字前要仔细读合同。",
+       "en": "Read the contract carefully before signing."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้คำมั่นว่าจะทำ",
+    "translations": {
+     "zh": "答应；承诺",
+     "en": "to promise"
+    },
+    "examples": [
+     {
+      "text": "เขาสัญญาว่าจะมาตรงเวลา",
+      "translations": {
+       "zh": "他答应会准时来。",
+       "en": "He promised to come on time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เซ็น",
+  "phonetic": "sen",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "sen · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เขียนชื่อของตัวเองลงในเอกสาร",
+    "translations": {
+     "zh": "签字；签名",
+     "en": "to sign"
+    },
+    "examples": [
+     {
+      "text": "กรุณาเซ็นตรงนี้ค่ะ",
+      "translations": {
+       "zh": "请在这里签字。",
+       "en": "Please sign here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลายเซ็น",
+  "phonetic": "lai sen",
+  "cefr": "B1",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "laai-sen · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ชื่อที่เขียนด้วยลายมือของตัวเอง",
+    "translations": {
+     "zh": "签名",
+     "en": "signature"
+    },
+    "examples": [
+     {
+      "text": "เอกสารนี้ยังไม่มีลายเซ็น",
+      "translations": {
+       "zh": "这份文件还没有签名。",
+       "en": "This document hasn't been signed yet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใบสมัคร",
+  "phonetic": "bai samak",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "bai-sà-màk · 中, 低, 低",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แบบฟอร์มสำหรับสมัครงานหรือเรียน",
+    "translations": {
+     "zh": "申请表；报名表",
+     "en": "application form"
+    },
+    "examples": [
+     {
+      "text": "กรอกใบสมัครให้ครบนะ",
+      "translations": {
+       "zh": "请把申请表填完整。",
+       "en": "Fill in the whole application form."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้สมัคร",
+  "phonetic": "phu samak",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "phûu-sà-màk · 降, 低, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่สมัครงาน เรียน หรือเลือกตั้ง",
+    "translations": {
+     "zh": "申请人；候选人",
+     "en": "applicant, candidate"
+    },
+    "examples": [
+     {
+      "text": "มีผู้สมัครงานนี้ร้อยกว่าคน",
+      "translations": {
+       "zh": "这份工作有一百多人申请。",
+       "en": "Over a hundred people applied for this job."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "องค์กร",
+  "phonetic": "ongkon",
+  "cefr": "B2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "toneMarks": "ong-kɔɔn · 中, 中",
+   "classifier": "แห่ง（家）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กลุ่มคนที่ทำงานร่วมกันอย่างเป็นระบบ",
+    "translations": {
+     "zh": "组织；机构",
+     "en": "organisation"
+    },
+    "examples": [
+     {
+      "text": "เธอทำงานกับองค์กรช่วยเหลือเด็ก",
+      "translations": {
+       "zh": "她在一家儿童援助机构工作。",
+       "en": "She works for a children's aid organisation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โรงงาน",
+  "phonetic": "rong ngan",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "roong-ngaan · 中, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ผลิตสินค้า",
+    "translations": {
+     "zh": "工厂",
+     "en": "factory"
+    },
+    "examples": [
+     {
+      "text": "พ่อทำงานในโรงงานรถยนต์",
+      "translations": {
+       "zh": "爸爸在汽车厂工作。",
+       "en": "Dad works in a car factory."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อุตสาหกรรม",
+  "phonetic": "utsahakam",
+  "cefr": "B2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "ùt-sǎa-hà-kam · 低, 升, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การผลิตสินค้าจำนวนมาก",
+    "translations": {
+     "zh": "工业；产业",
+     "en": "industry"
+    },
+    "examples": [
+     {
+      "text": "อุตสาหกรรมท่องเที่ยวสำคัญมากสำหรับไทย",
+      "translations": {
+       "zh": "旅游业对泰国很重要。",
+       "en": "Tourism is a very important industry for Thailand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกษตรกร",
+  "phonetic": "kasettrakon",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "kà-sèet-trà-kɔɔn · 低, 低, 低, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำไร่ทำนาหรือเลี้ยงสัตว์",
+    "translations": {
+     "zh": "农民",
+     "en": "farmer"
+    },
+    "examples": [
+     {
+      "text": "เกษตรกรขายข้าวได้ราคาต่ำ",
+      "translations": {
+       "zh": "农民卖米的价格很低。",
+       "en": "Farmers get a low price for their rice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชาวนา",
+  "phonetic": "chao na",
+  "cefr": "B1",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "toneMarks": "chaao-naa · 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ปลูกข้าว",
+    "translations": {
+     "zh": "稻农；农民",
+     "en": "rice farmer"
+    },
+    "examples": [
+     {
+      "text": "ปู่ของฉันเป็นชาวนา",
+      "translations": {
+       "zh": "我爷爷是种稻的农民。",
+       "en": "My grandfather is a rice farmer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิศวกร",
+  "phonetic": "witsawakon",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "wít-sà-wá-kɔɔn · 高, 低, 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ออกแบบและสร้างเครื่องจักรหรืออาคาร",
+    "translations": {
+     "zh": "工程师",
+     "en": "engineer"
+    },
+    "examples": [
+     {
+      "text": "พี่ชายเป็นวิศวกรไฟฟ้า",
+      "translations": {
+       "zh": "哥哥是电气工程师。",
+       "en": "My brother is an electrical engineer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทนายความ",
+  "phonetic": "thanai khwam",
+  "cefr": "B1",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "thá-naai-khwaam · 高, 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ช่วยเรื่องคดีในศาล",
+    "translations": {
+     "zh": "律师",
+     "en": "lawyer"
+    },
+    "examples": [
+     {
+      "text": "เราต้องหาทนายความ",
+      "translations": {
+       "zh": "我们得找个律师。",
+       "en": "We need to find a lawyer."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 ทนาย。"
+   }
+  ]
+ },
+ {
+  "headword": "นักข่าว",
+  "phonetic": "nak khao",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "toneMarks": "nák-khàao · 高, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่หาและเขียนข่าว",
+    "translations": {
+     "zh": "记者",
+     "en": "journalist, reporter"
+    },
+    "examples": [
+     {
+      "text": "นักข่าวมารอหน้าโรงพยาบาล",
+      "translations": {
+       "zh": "记者在医院门口等着。",
+       "en": "Reporters are waiting outside the hospital."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นักธุรกิจ",
+  "phonetic": "nak thurakit",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "nák-thú-rá-kìt · 高, 高, 高, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำธุรกิจ",
+    "translations": {
+     "zh": "商人；企业家",
+     "en": "businessperson"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นนักธุรกิจที่รวยมาก",
+      "translations": {
+       "zh": "他是个很有钱的商人。",
+       "en": "He is a very rich businessman."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้าราชการ",
+  "phonetic": "kha ratchakan",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "khâa-râat-chá-kaan · 降, 降, 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานให้รัฐบาล",
+    "translations": {
+     "zh": "公务员",
+     "en": "civil servant"
+    },
+    "examples": [
+     {
+      "text": "แม่เป็นข้าราชการครู",
+      "translations": {
+       "zh": "妈妈是公立学校的教师（公务员）。",
+       "en": "Mom is a government teacher."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ช่าง",
+  "phonetic": "chang",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "châang · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่มีฝีมือซ่อมหรือทำสิ่งของ",
+    "translations": {
+     "zh": "技工；师傅",
+     "en": "technician, mechanic"
+    },
+    "examples": [
+     {
+      "text": "ต้องเรียกช่างมาซ่อมแอร์",
+      "translations": {
+       "zh": "得叫师傅来修空调。",
+       "en": "We have to call a technician to fix the AC."
+      }
+     }
+    ],
+    "usageNote": "常与工种连用：ช่างไฟ 电工，ช่างตัดผม 理发师。"
+   }
+  ]
+ },
+ {
+  "headword": "นักบัญชี",
+  "phonetic": "nak banchi",
+  "cefr": "B1",
+  "frequencyRank": 5700,
+  "grammarNotes": {
+   "toneMarks": "nák-ban-chii · 高, 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานด้านบัญชีและการเงิน",
+    "translations": {
+     "zh": "会计",
+     "en": "accountant"
+    },
+    "examples": [
+     {
+      "text": "บริษัทกำลังหานักบัญชี",
+      "translations": {
+       "zh": "公司在找会计。",
+       "en": "The company is looking for an accountant."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เลขา",
+  "phonetic": "lekha",
+  "cefr": "B1",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "lee-khǎa · 中, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ช่วยงานเอกสารและนัดหมายให้หัวหน้า",
+    "translations": {
+     "zh": "秘书",
+     "en": "secretary"
+    },
+    "examples": [
+     {
+      "text": "เลขาจะโทรนัดให้คุณ",
+      "translations": {
+       "zh": "秘书会打电话跟你约时间。",
+       "en": "The secretary will call you to arrange it."
+      }
+     }
+    ],
+    "usageNote": "全称 เลขานุการ。"
+   }
+  ]
+ },
+ {
+  "headword": "ทหาร",
+  "phonetic": "thahan",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "thá-hǎan · 高, 升",
+   "classifier": "นาย（名）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำหน้าที่ป้องกันประเทศ",
+    "translations": {
+     "zh": "军人；士兵",
+     "en": "soldier"
+    },
+    "examples": [
+     {
+      "text": "น้องชายเป็นทหารอยู่ที่เชียงใหม่",
+      "translations": {
+       "zh": "弟弟在清迈当兵。",
+       "en": "My younger brother is a soldier in Chiang Mai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รัฐบาล",
+  "phonetic": "ratthaban",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "rát-thà-baan · 高, 低, 中",
+   "classifier": "ชุด（届）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กลุ่มคนที่บริหารประเทศ",
+    "translations": {
+     "zh": "政府",
+     "en": "government"
+    },
+    "examples": [
+     {
+      "text": "รัฐบาลประกาศนโยบายใหม่",
+      "translations": {
+       "zh": "政府公布了新政策。",
+       "en": "The government announced a new policy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "การเมือง",
+  "phonetic": "kan mueang",
+  "cefr": "B1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "kaan-mʉang · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องการปกครองและอำนาจรัฐ",
+    "translations": {
+     "zh": "政治",
+     "en": "politics"
+    },
+    "examples": [
+     {
+      "text": "ฉันไม่ค่อยสนใจการเมือง",
+      "translations": {
+       "zh": "我不太关心政治。",
+       "en": "I'm not very interested in politics."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นักการเมือง",
+  "phonetic": "nak kan mueang",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "nák-kaan-mʉang · 高, 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานด้านการเมือง",
+    "translations": {
+     "zh": "政治家；政客",
+     "en": "politician"
+    },
+    "examples": [
+     {
+      "text": "นักการเมืองคนนี้พูดเก่งมาก",
+      "translations": {
+       "zh": "这位政治家很会说话。",
+       "en": "This politician is a very good speaker."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นายกรัฐมนตรี",
+  "phonetic": "nayok ratthamontri",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "naa-yók-rát-thà-mon-trii · 中, 高, 高, 低, 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หัวหน้ารัฐบาล",
+    "translations": {
+     "zh": "总理",
+     "en": "prime minister"
+    },
+    "examples": [
+     {
+      "text": "นายกรัฐมนตรีจะไปเยือนจีนเดือนหน้า",
+      "translations": {
+       "zh": "总理下个月将访问中国。",
+       "en": "The prime minister will visit China next month."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 นายกฯ。"
+   }
+  ]
+ },
+ {
+  "headword": "รัฐมนตรี",
+  "phonetic": "ratthamontri",
+  "cefr": "B2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "rát-thà-mon-trii · 高, 低, 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ดูแลกระทรวง",
+    "translations": {
+     "zh": "部长",
+     "en": "minister"
+    },
+    "examples": [
+     {
+      "text": "รัฐมนตรีให้สัมภาษณ์กับนักข่าว",
+      "translations": {
+       "zh": "部长接受了记者采访。",
+       "en": "The minister gave an interview to reporters."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "การเลือกตั้ง",
+  "phonetic": "kan lueak tang",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "kaan-lʉ̂ak-tâng · 中, 降, 降",
+   "classifier": "ครั้ง（次）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การที่ประชาชนเลือกผู้แทน",
+    "translations": {
+     "zh": "选举",
+     "en": "election"
+    },
+    "examples": [
+     {
+      "text": "การเลือกตั้งครั้งหน้าจัดปีหน้า",
+      "translations": {
+       "zh": "下一次选举在明年举行。",
+       "en": "The next election will be held next year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลงคะแนน",
+  "phonetic": "long khanaen",
+  "cefr": "B2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "toneMarks": "long-khá-nɛɛn · 中, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เลือกคนหรือเรื่องโดยการออกเสียง",
+    "translations": {
+     "zh": "投票",
+     "en": "to vote"
+    },
+    "examples": [
+     {
+      "text": "คนไปลงคะแนนตั้งแต่เช้า",
+      "translations": {
+       "zh": "人们一早就去投票了。",
+       "en": "People went to vote from early morning."
+      }
+     }
+    ],
+    "usageNote": "也说 ลงคะแนนเสียง。"
+   }
+  ]
+ },
+ {
+  "headword": "คะแนน",
+  "phonetic": "khanaen",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "khá-nɛɛn · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ตัวเลขที่ได้จากการสอบ การแข่ง หรือการเลือกตั้ง",
+    "translations": {
+     "zh": "分数；得票",
+     "en": "score, points, votes"
+    },
+    "examples": [
+     {
+      "text": "ฉันได้คะแนนสอบดีมาก",
+      "translations": {
+       "zh": "我考试分数很高。",
+       "en": "I got a very good exam score."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พรรค",
+  "phonetic": "phak",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "phák · 高",
+   "classifier": "พรรค（个党）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กลุ่มนักการเมืองที่มีความคิดเดียวกัน",
+    "translations": {
+     "zh": "政党",
+     "en": "(political) party"
+    },
+    "examples": [
+     {
+      "text": "พรรคนี้ชนะการเลือกตั้ง",
+      "translations": {
+       "zh": "这个党赢得了选举。",
+       "en": "This party won the election."
+      }
+     }
+    ],
+    "usageNote": "“聚会”是 ปาร์ตี้，不要和 พรรค 混用。"
+   }
+  ]
+ },
+ {
+  "headword": "ประชาชน",
+  "phonetic": "prachachon",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "prà-chaa-chon · 低, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนทั่วไปในประเทศ",
+    "translations": {
+     "zh": "人民；民众",
+     "en": "the people, citizens"
+    },
+    "examples": [
+     {
+      "text": "รัฐบาลต้องฟังเสียงประชาชน",
+      "translations": {
+       "zh": "政府必须倾听人民的声音。",
+       "en": "The government must listen to the people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประชาธิปไตย",
+  "phonetic": "prachathippatai",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "prà-chaa-thíp-pà-tai · 低, 中, 高, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การปกครองที่ประชาชนมีอำนาจ",
+    "translations": {
+     "zh": "民主",
+     "en": "democracy"
+    },
+    "examples": [
+     {
+      "text": "ประชาธิปไตยต้องมีการเลือกตั้ง",
+      "translations": {
+       "zh": "民主必须有选举。",
+       "en": "Democracy requires elections."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รัฐธรรมนูญ",
+  "phonetic": "ratthathammanun",
+  "cefr": "B2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "toneMarks": "rát-thà-tham-má-nuun · 高, 低, 中, 高, 中",
+   "classifier": "ฉบับ（部）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กฎหมายสูงสุดของประเทศ",
+    "translations": {
+     "zh": "宪法",
+     "en": "constitution"
+    },
+    "examples": [
+     {
+      "text": "ไทยมีรัฐธรรมนูญมาแล้วหลายฉบับ",
+      "translations": {
+       "zh": "泰国已经有过好几部宪法。",
+       "en": "Thailand has had many constitutions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชาติ",
+  "phonetic": "chat",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "châat · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ประเทศและคนในประเทศ",
+    "translations": {
+     "zh": "国家；民族",
+     "en": "nation"
+    },
+    "examples": [
+     {
+      "text": "เพลงชาติเปิดตอนแปดโมงเช้า",
+      "translations": {
+       "zh": "早上八点播放国歌。",
+       "en": "The national anthem plays at 8 a.m."
+      }
+     }
+    ],
+    "usageNote": "เพลงชาติ = 国歌，ธงชาติ = 国旗。"
+   }
+  ]
+ },
+ {
+  "headword": "สังคม",
+  "phonetic": "sangkhom",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "sǎng-khom · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กลุ่มคนที่อยู่ร่วมกัน",
+    "translations": {
+     "zh": "社会",
+     "en": "society"
+    },
+    "examples": [
+     {
+      "text": "ปัญหานี้สำคัญต่อสังคม",
+      "translations": {
+       "zh": "这个问题对社会很重要。",
+       "en": "This problem matters to society."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นโยบาย",
+  "phonetic": "nayobai",
+  "cefr": "B2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "ná-yoo-baai · 高, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แนวทางที่รัฐหรือองค์กรใช้ทำงาน",
+    "translations": {
+     "zh": "政策；方针",
+     "en": "policy"
+    },
+    "examples": [
+     {
+      "text": "บริษัทมีนโยบายใหม่เรื่องวันหยุด",
+      "translations": {
+       "zh": "公司出了新的休假政策。",
+       "en": "The company has a new holiday policy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้นำ",
+  "phonetic": "phu nam",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "phûu-nam · 降, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่นำกลุ่มหรือประเทศ",
+    "translations": {
+     "zh": "领导人；领袖",
+     "en": "leader"
+    },
+    "examples": [
+     {
+      "text": "ผู้นำสองประเทศพบกันวันนี้",
+      "translations": {
+       "zh": "两国领导人今天会面。",
+       "en": "The two countries' leaders met today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประธาน",
+  "phonetic": "prathan",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "prà-thaan · 低, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หัวหน้าที่ประชุมหรือองค์กร",
+    "translations": {
+     "zh": "主席；董事长",
+     "en": "chairperson, president"
+    },
+    "examples": [
+     {
+      "text": "ประธานบริษัทเปิดการประชุม",
+      "translations": {
+       "zh": "公司董事长主持会议开幕。",
+       "en": "The company chairman opened the meeting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประท้วง",
+  "phonetic": "prathuang",
+  "cefr": "B2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "prà-thúang · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แสดงว่าไม่เห็นด้วยโดยรวมตัวกัน",
+    "translations": {
+     "zh": "抗议；示威",
+     "en": "to protest"
+    },
+    "examples": [
+     {
+      "text": "นักศึกษาประท้วงหน้ามหาวิทยาลัย",
+      "translations": {
+       "zh": "大学生在大学门前抗议。",
+       "en": "Students protested in front of the university."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสรีภาพ",
+  "phonetic": "seriphap",
+  "cefr": "B2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "toneMarks": "sěe-rii-phâap · 升, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ความเป็นอิสระที่จะคิดและทำ",
+    "translations": {
+     "zh": "自由",
+     "en": "freedom, liberty"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนมีเสรีภาพในการพูด",
+      "translations": {
+       "zh": "每个人都有言论自由。",
+       "en": "Everyone has freedom of speech."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อิสระ",
+  "phonetic": "itsara",
+  "cefr": "B2",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "toneMarks": "ìt-sà-rà · 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ขึ้นกับใคร",
+    "translations": {
+     "zh": "独立的；自由的",
+     "en": "independent, free"
+    },
+    "examples": [
+     {
+      "text": "เขาชอบทำงานอิสระ",
+      "translations": {
+       "zh": "他喜欢独立工作。",
+       "en": "He likes working independently."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ความเท่าเทียม",
+  "phonetic": "khwam thao thiam",
+  "cefr": "B2",
+  "frequencyRank": 6800,
+  "grammarNotes": {
+   "toneMarks": "khwaam-thâo-thiam · 中, 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การที่ทุกคนได้รับสิ่งเดียวกัน",
+    "translations": {
+     "zh": "平等",
+     "en": "equality"
+    },
+    "examples": [
+     {
+      "text": "ผู้หญิงต้องการความเท่าเทียม",
+      "translations": {
+       "zh": "女性要求平等。",
+       "en": "Women want equality."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

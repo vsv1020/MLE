@@ -1,0 +1,1416 @@
+[
+ {
+  "headword": "ข่าวปลอม",
+  "phonetic": "khao plom",
+  "cefr": "B2",
+  "frequencyRank": 6600,
+  "grammarNotes": {
+   "toneMarks": "khàao-plɔɔm · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข่าวที่ไม่จริง",
+    "translations": {
+     "zh": "假新闻",
+     "en": "fake news"
+    },
+    "examples": [
+     {
+      "text": "ข่าวปลอมแชร์กันเร็วมาก",
+      "translations": {
+       "zh": "假新闻传播得很快。",
+       "en": "Fake news gets shared very fast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้อมูล",
+  "phonetic": "khomun",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "khɔ̂ɔ-muun · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ความรู้หรือตัวเลขที่ใช้ประกอบเรื่องต่าง ๆ",
+    "translations": {
+     "zh": "信息；资料；数据",
+     "en": "information, data"
+    },
+    "examples": [
+     {
+      "text": "ขอข้อมูลเพิ่มเติมได้ไหมครับ",
+      "translations": {
+       "zh": "可以给我更多信息吗？",
+       "en": "Could I have more information?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เว็บไซต์",
+  "phonetic": "websai",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "wép-sái · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หน้าในอินเทอร์เน็ตของคนหรือองค์กร",
+    "translations": {
+     "zh": "网站",
+     "en": "website"
+    },
+    "examples": [
+     {
+      "text": "ดูรายละเอียดได้ที่เว็บไซต์ของเรา",
+      "translations": {
+       "zh": "详情请看我们的网站。",
+       "en": "See the details on our website."
+      }
+     }
+    ],
+    "usageNote": "口语简称 เว็บ。"
+   }
+  ]
+ },
+ {
+  "headword": "อินเทอร์เน็ต",
+  "phonetic": "inthoenet",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "in-thəə-nét · 中, 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครือข่ายคอมพิวเตอร์ทั่วโลก",
+    "translations": {
+     "zh": "互联网；网络",
+     "en": "the internet"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่อินเทอร์เน็ตช้ามาก",
+      "translations": {
+       "zh": "这里网速很慢。",
+       "en": "The internet is very slow here."
+      }
+     }
+    ],
+    "usageNote": "口语常说 เน็ต。"
+   }
+  ]
+ },
+ {
+  "headword": "ออนไลน์",
+  "phonetic": "onlai",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "ɔɔn-laai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อยู่บนอินเทอร์เน็ต",
+    "translations": {
+     "zh": "在线；网上",
+     "en": "online"
+    },
+    "examples": [
+     {
+      "text": "ตอนนี้คนซื้อของออนไลน์เยอะมาก",
+      "translations": {
+       "zh": "现在很多人网购。",
+       "en": "Lots of people shop online now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แชร์",
+  "phonetic": "chae",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "chɛɛ · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งต่อให้คนอื่นเห็นหรือใช้ร่วมกัน",
+    "translations": {
+     "zh": "分享；转发",
+     "en": "to share"
+    },
+    "examples": [
+     {
+      "text": "เขาแชร์ข่าวนี้ในเฟซบุ๊ก",
+      "translations": {
+       "zh": "他把这条新闻转发到脸书上。",
+       "en": "He shared this news on Facebook."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โพสต์",
+  "phonetic": "phot",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "toneMarks": "phóot · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ลงข้อความหรือรูปในโซเชียล",
+    "translations": {
+     "zh": "发帖；发布",
+     "en": "to post"
+    },
+    "examples": [
+     {
+      "text": "เธอโพสต์รูปทะเลทุกวัน",
+      "translations": {
+       "zh": "她每天发海边的照片。",
+       "en": "She posts photos of the sea every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดาวน์โหลด",
+  "phonetic": "daonlot",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "toneMarks": "daao-lòot · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาไฟล์จากอินเทอร์เน็ตมาเก็บในเครื่อง",
+    "translations": {
+     "zh": "下载",
+     "en": "to download"
+    },
+    "examples": [
+     {
+      "text": "ดาวน์โหลดแอปนี้ได้ฟรี",
+      "translations": {
+       "zh": "这个应用可以免费下载。",
+       "en": "You can download this app for free."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ติดตาม",
+  "phonetic": "tittam",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "tìt-taam · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตามดูหรือรับข่าวอย่างต่อเนื่อง",
+    "translations": {
+     "zh": "关注；跟进",
+     "en": "to follow"
+    },
+    "examples": [
+     {
+      "text": "ฉันติดตามเพจนี้มานานแล้ว",
+      "translations": {
+       "zh": "我关注这个主页很久了。",
+       "en": "I've followed this page for a long time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ความคิดเห็น",
+  "phonetic": "khwam khit hen",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "khwaam-khít-hěn · 中, 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่คนคิดเกี่ยวกับเรื่องหนึ่ง",
+    "translations": {
+     "zh": "意见；看法；评论",
+     "en": "opinion, comment"
+    },
+    "examples": [
+     {
+      "text": "ทุกคนมีความคิดเห็นต่างกัน",
+      "translations": {
+       "zh": "每个人的看法都不同。",
+       "en": "Everyone has different opinions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รหัสผ่าน",
+  "phonetic": "rahat phan",
+  "cefr": "B1",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "toneMarks": "rá-hàt-phàan · 高, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ตัวเลขหรือตัวอักษรลับที่ใช้เข้าระบบ",
+    "translations": {
+     "zh": "密码",
+     "en": "password"
+    },
+    "examples": [
+     {
+      "text": "ฉันลืมรหัสผ่านอีเมล",
+      "translations": {
+       "zh": "我忘了邮箱密码。",
+       "en": "I forgot my email password."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อีเมล",
+  "phonetic": "imel",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "ii-meo · 中, 中",
+   "classifier": "ฉบับ（封）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "จดหมายที่ส่งทางอินเทอร์เน็ต",
+    "translations": {
+     "zh": "电子邮件",
+     "en": "email"
+    },
+    "examples": [
+     {
+      "text": "ส่งอีเมลมาให้ฉันได้เลย",
+      "translations": {
+       "zh": "直接发邮件给我就行。",
+       "en": "Just send me an email."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้อความ",
+  "phonetic": "khokhwam",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "khɔ̂ɔ-khwaam · 降, 中",
+   "classifier": "ข้อความ（条）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คำที่เขียนส่งถึงกัน",
+    "translations": {
+     "zh": "消息；短信；文字",
+     "en": "message, text"
+    },
+    "examples": [
+     {
+      "text": "เขาส่งข้อความมาตอนดึก",
+      "translations": {
+       "zh": "他半夜发来消息。",
+       "en": "He sent a message late at night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แอป",
+  "phonetic": "aep",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "ɛ́p · 高",
+   "classifier": "แอป（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "โปรแกรมในมือถือ",
+    "translations": {
+     "zh": "应用程序；App",
+     "en": "app"
+    },
+    "examples": [
+     {
+      "text": "ฉันจ่ายเงินผ่านแอปธนาคาร",
+      "translations": {
+       "zh": "我用银行App付钱。",
+       "en": "I pay through the banking app."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นักเขียน",
+  "phonetic": "nak khian",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "toneMarks": "nák-khǐan · 高, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เขียนหนังสือเป็นอาชีพ",
+    "translations": {
+     "zh": "作家；作者",
+     "en": "writer, author"
+    },
+    "examples": [
+     {
+      "text": "เธออยากเป็นนักเขียน",
+      "translations": {
+       "zh": "她想当作家。",
+       "en": "She wants to be a writer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รายงาน",
+  "phonetic": "rai ngan",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "raai-ngaan · 中, 中",
+   "classifier": "ฉบับ（份）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เอกสารที่สรุปเรื่องต่าง ๆ",
+    "translations": {
+     "zh": "报告",
+     "en": "report"
+    },
+    "examples": [
+     {
+      "text": "ฉันต้องส่งรายงานพรุ่งนี้",
+      "translations": {
+       "zh": "我明天要交报告。",
+       "en": "I have to hand in a report tomorrow."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกเล่าเรื่องที่เกิดขึ้น",
+    "translations": {
+     "zh": "报道；汇报",
+     "en": "to report"
+    },
+    "examples": [
+     {
+      "text": "นักข่าวรายงานจากที่เกิดเหตุ",
+      "translations": {
+       "zh": "记者在现场报道。",
+       "en": "The reporter is reporting from the scene."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เหตุการณ์",
+  "phonetic": "hetkan",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "hèet-kaan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่เกิดขึ้น",
+    "translations": {
+     "zh": "事件；事情",
+     "en": "event, incident"
+    },
+    "examples": [
+     {
+      "text": "เหตุการณ์นี้เกิดเมื่อวานตอนเย็น",
+      "translations": {
+       "zh": "这件事发生在昨天傍晚。",
+       "en": "This incident happened yesterday evening."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อุบัติเหตุ",
+  "phonetic": "ubatihet",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "ù-bàt-tì-hèet · 低, 低, 低, 低",
+   "classifier": "ครั้ง（次）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องร้ายที่เกิดขึ้นโดยไม่ตั้งใจ",
+    "translations": {
+     "zh": "事故；意外",
+     "en": "accident"
+    },
+    "examples": [
+     {
+      "text": "เมื่อเช้ามีอุบัติเหตุบนทางด่วน",
+      "translations": {
+       "zh": "今天早上高速公路上出了事故。",
+       "en": "There was an accident on the expressway this morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คลิป",
+  "phonetic": "khlip",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "khlíp · 高",
+   "classifier": "คลิป（段）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วิดีโอสั้น",
+    "translations": {
+     "zh": "视频片段；短视频",
+     "en": "(video) clip"
+    },
+    "examples": [
+     {
+      "text": "คลิปนี้มีคนดูเป็นล้าน",
+      "translations": {
+       "zh": "这段视频有上百万人看。",
+       "en": "This clip has a million views."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ช่อง",
+  "phonetic": "chong",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "toneMarks": "chɔ̂ng · 降",
+   "classifier": "ช่อง（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ช่องรายการทีวีหรือยูทูบ; ช่องว่าง",
+    "translations": {
+     "zh": "频道；格子；空隙",
+     "en": "channel; slot"
+    },
+    "examples": [
+     {
+      "text": "เปลี่ยนเป็นช่องสามหน่อย",
+      "translations": {
+       "zh": "换到第三频道。",
+       "en": "Switch to channel 3, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้ติดตาม",
+  "phonetic": "phu tittam",
+  "cefr": "B2",
+  "frequencyRank": 6400,
+  "grammarNotes": {
+   "toneMarks": "phûu-tìt-taam · 降, 低, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ติดตามเพจหรือบัญชี",
+    "translations": {
+     "zh": "粉丝；关注者",
+     "en": "follower"
+    },
+    "examples": [
+     {
+      "text": "เพจนี้มีผู้ติดตามสองแสนคน",
+      "translations": {
+       "zh": "这个主页有二十万粉丝。",
+       "en": "This page has 200,000 followers."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เอกสาร",
+  "phonetic": "ekkasan",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "èek-kà-sǎan · 低, 低, 升",
+   "classifier": "ฉบับ（份）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กระดาษหรือไฟล์ที่มีข้อมูลสำคัญ",
+    "translations": {
+     "zh": "文件；材料",
+     "en": "document"
+    },
+    "examples": [
+     {
+      "text": "ต้องเตรียมเอกสารอะไรบ้างคะ",
+      "translations": {
+       "zh": "需要准备什么材料？",
+       "en": "What documents do I need to prepare?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แบบฟอร์ม",
+  "phonetic": "baep fom",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "bɛ̀ɛp-fɔɔm · 低, 中",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กระดาษที่มีช่องให้กรอกข้อมูล",
+    "translations": {
+     "zh": "表格",
+     "en": "form"
+    },
+    "examples": [
+     {
+      "text": "กรุณากรอกแบบฟอร์มนี้",
+      "translations": {
+       "zh": "请填写这张表格。",
+       "en": "Please fill in this form."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กรอก",
+  "phonetic": "krok",
+  "cefr": "B1",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "toneMarks": "krɔ̀ɔk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เขียนข้อมูลลงในช่อง; เทลงในภาชนะ",
+    "translations": {
+     "zh": "填写；灌入",
+     "en": "to fill in"
+    },
+    "examples": [
+     {
+      "text": "กรอกชื่อและที่อยู่ตรงนี้",
+      "translations": {
+       "zh": "在这里填写姓名和地址。",
+       "en": "Fill in your name and address here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลงทะเบียน",
+  "phonetic": "long thabian",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "long-thá-bian · 中, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แจ้งชื่อเพื่อเข้าร่วมหรือใช้บริการ",
+    "translations": {
+     "zh": "登记；注册；报名",
+     "en": "to register"
+    },
+    "examples": [
+     {
+      "text": "ต้องลงทะเบียนก่อนเข้างาน",
+      "translations": {
+       "zh": "进场前要先登记。",
+       "en": "You must register before entering."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สำเนา",
+  "phonetic": "samnao",
+  "cefr": "B1",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "toneMarks": "sǎm-nao · 升, 中",
+   "classifier": "ชุด（份）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เอกสารที่ถ่ายหรือคัดจากต้นฉบับ",
+    "translations": {
+     "zh": "复印件；副本",
+     "en": "copy (of a document)"
+    },
+    "examples": [
+     {
+      "text": "ขอสำเนาหนังสือเดินทางด้วยค่ะ",
+      "translations": {
+       "zh": "请提供护照复印件。",
+       "en": "Please give us a copy of your passport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยื่น",
+  "phonetic": "yuen",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "yʉ̂ʉn · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งให้; ส่งเรื่องหรือเอกสาร",
+    "translations": {
+     "zh": "递；提交",
+     "en": "to hand over, to submit"
+    },
+    "examples": [
+     {
+      "text": "ฉันยื่นเอกสารขอวีซ่าแล้ว",
+      "translations": {
+       "zh": "我已经递交了签证材料。",
+       "en": "I've submitted my visa documents."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต่ออายุ",
+  "phonetic": "to ayu",
+  "cefr": "B1",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "toneMarks": "tɔ̀ɔ-aa-yú · 低, 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ใช้ได้ต่อไปอีก",
+    "translations": {
+     "zh": "续期；延期",
+     "en": "to renew"
+    },
+    "examples": [
+     {
+      "text": "ต้องต่ออายุวีซ่าทุกปี",
+      "translations": {
+       "zh": "签证每年都要续签。",
+       "en": "The visa has to be renewed every year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หมดอายุ",
+  "phonetic": "mot ayu",
+  "cefr": "B1",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "toneMarks": "mòt-aa-yú · 低, 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เลยวันที่ใช้ได้",
+    "translations": {
+     "zh": "过期；到期",
+     "en": "to expire"
+    },
+    "examples": [
+     {
+      "text": "หนังสือเดินทางของฉันหมดอายุแล้ว",
+      "translations": {
+       "zh": "我的护照过期了。",
+       "en": "My passport has expired."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค่าธรรมเนียม",
+  "phonetic": "kha thamniam",
+  "cefr": "B1",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "toneMarks": "khâa-tham-niam · 降, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ต้องจ่ายเมื่อใช้บริการ",
+    "translations": {
+     "zh": "手续费；费用",
+     "en": "fee, charge"
+    },
+    "examples": [
+     {
+      "text": "โอนต่างธนาคารมีค่าธรรมเนียม",
+      "translations": {
+       "zh": "跨行转账要收手续费。",
+       "en": "Transfers to other banks carry a fee."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คิว",
+  "phonetic": "khio",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "khiu · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แถวรอตามลำดับ; ลำดับที่",
+    "translations": {
+     "zh": "队；排号",
+     "en": "queue; turn"
+    },
+    "examples": [
+     {
+      "text": "วันนี้คิวยาวมาก",
+      "translations": {
+       "zh": "今天排队排得很长。",
+       "en": "The queue is very long today."
+      }
+     }
+    ],
+    "usageNote": "“排队”说 เข้าคิว 或 ต่อคิว。"
+   }
+  ]
+ },
+ {
+  "headword": "เจ้าหน้าที่",
+  "phonetic": "chao nathi",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "jâo-nâa-thîi · 降, 降, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานในหน่วยงาน",
+    "translations": {
+     "zh": "工作人员；官员",
+     "en": "official, staff"
+    },
+    "examples": [
+     {
+      "text": "ถามเจ้าหน้าที่ที่เคาน์เตอร์ได้เลย",
+      "translations": {
+       "zh": "可以直接问柜台的工作人员。",
+       "en": "Just ask the staff at the counter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อำนาจ",
+  "phonetic": "amnat",
+  "cefr": "B2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "toneMarks": "am-nâat · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ความสามารถในการสั่งหรือควบคุม",
+    "translations": {
+     "zh": "权力",
+     "en": "power, authority"
+    },
+    "examples": [
+     {
+      "text": "เขามีอำนาจมากในบริษัท",
+      "translations": {
+       "zh": "他在公司里权力很大。",
+       "en": "He has a lot of power in the company."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ราชการ",
+  "phonetic": "ratchakan",
+  "cefr": "B2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "toneMarks": "râat-chá-kaan · 降, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "งานของรัฐบาล",
+    "translations": {
+     "zh": "公务；政府机关",
+     "en": "government service"
+    },
+    "examples": [
+     {
+      "text": "วันนี้หน่วยงานราชการหยุด",
+      "translations": {
+       "zh": "今天政府机关放假。",
+       "en": "Government offices are closed today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ที่อยู่",
+  "phonetic": "thi yu",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "thîi-yùu · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อมูลบอกว่าบ้านหรือที่ทำงานอยู่ที่ไหน",
+    "translations": {
+     "zh": "地址；住址",
+     "en": "address"
+    },
+    "examples": [
+     {
+      "text": "ขอที่อยู่สำหรับส่งของหน่อยค่ะ",
+      "translations": {
+       "zh": "请给我收货地址。",
+       "en": "Could I have the delivery address?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ติดต่อ",
+  "phonetic": "titto",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "tìt-tɔ̀ɔ · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "สื่อสารหรือไปหากันเรื่องงาน",
+    "translations": {
+     "zh": "联系；联络",
+     "en": "to contact"
+    },
+    "examples": [
+     {
+      "text": "มีปัญหาติดต่อฉันได้ตลอด",
+      "translations": {
+       "zh": "有问题随时联系我。",
+       "en": "Contact me any time if there's a problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บริการ",
+  "phonetic": "borikan",
+  "cefr": "B1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "bɔɔ-rí-kaan · 中, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การช่วยหรือทำงานให้ลูกค้า",
+    "translations": {
+     "zh": "服务",
+     "en": "service"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้บริการดีมาก",
+      "translations": {
+       "zh": "这家店服务很好。",
+       "en": "This shop's service is very good."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ร้องเรียน",
+  "phonetic": "rong rian",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "toneMarks": "rɔ́ɔng-rian · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แจ้งว่าไม่พอใจเพื่อให้แก้ไข",
+    "translations": {
+     "zh": "投诉",
+     "en": "to complain (formally)"
+    },
+    "examples": [
+     {
+      "text": "ลูกค้าร้องเรียนเรื่องเสียงดัง",
+      "translations": {
+       "zh": "顾客投诉噪音太大。",
+       "en": "Customers complained about the noise."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประกัน",
+  "phonetic": "prakan",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "toneMarks": "prà-kan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การจ่ายเงินเพื่อได้รับความคุ้มครอง",
+    "translations": {
+     "zh": "保险；担保",
+     "en": "insurance; guarantee"
+    },
+    "examples": [
+     {
+      "text": "ฉันซื้อประกันสุขภาพแล้ว",
+      "translations": {
+       "zh": "我已经买了健康保险。",
+       "en": "I've bought health insurance."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใบอนุญาต",
+  "phonetic": "bai anuyat",
+  "cefr": "B2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "bai-à-nú-yâat · 中, 低, 高, 降",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เอกสารที่อนุญาตให้ทำบางอย่าง",
+    "translations": {
+     "zh": "许可证；执照",
+     "en": "licence, permit"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้ไม่มีใบอนุญาตขายเหล้า",
+      "translations": {
+       "zh": "这家店没有卖酒许可证。",
+       "en": "This shop has no alcohol licence."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยืนยัน",
+  "phonetic": "yuenyan",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "toneMarks": "yʉʉn-yan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกว่าแน่นอนหรือเป็นจริง",
+    "translations": {
+     "zh": "确认；坚持",
+     "en": "to confirm, to insist"
+    },
+    "examples": [
+     {
+      "text": "กรุณายืนยันการจองทางอีเมล",
+      "translations": {
+       "zh": "请通过邮件确认预订。",
+       "en": "Please confirm the booking by email."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อนุมัติ",
+  "phonetic": "anumat",
+  "cefr": "B2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "toneMarks": "à-nú-mát · 低, 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตกลงให้ทำได้อย่างเป็นทางการ",
+    "translations": {
+     "zh": "批准",
+     "en": "to approve"
+    },
+    "examples": [
+     {
+      "text": "หัวหน้าอนุมัติให้ลาแล้ว",
+      "translations": {
+       "zh": "上司已经批准请假了。",
+       "en": "The boss has approved the leave."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปฏิเสธ",
+  "phonetic": "patiset",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "pà-tì-sèet · 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ยอมรับ บอกว่าไม่ใช่",
+    "translations": {
+     "zh": "拒绝；否认",
+     "en": "to refuse, to deny"
+    },
+    "examples": [
+     {
+      "text": "เขาปฏิเสธข้อเสนอของเรา",
+      "translations": {
+       "zh": "他拒绝了我们的提议。",
+       "en": "He turned down our offer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สถานที่",
+  "phonetic": "sathanthi",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "sà-thǎan-thîi · 低, 升, 降",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่หรือบริเวณที่ใช้ทำสิ่งต่าง ๆ",
+    "translations": {
+     "zh": "地点；场所",
+     "en": "place, venue"
+    },
+    "examples": [
+     {
+      "text": "สถานที่จัดงานอยู่ไกลไหม",
+      "translations": {
+       "zh": "活动地点远吗？",
+       "en": "Is the venue far?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "การศึกษา",
+  "phonetic": "kan sueksa",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "kaan-sʉ̀k-sǎa · 中, 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การเรียนรู้ในระบบโรงเรียน",
+    "translations": {
+     "zh": "教育",
+     "en": "education"
+    },
+    "examples": [
+     {
+      "text": "การศึกษาสำคัญต่ออนาคตของเด็ก",
+      "translations": {
+       "zh": "教育对孩子的未来很重要。",
+       "en": "Education matters for children's future."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นักศึกษา",
+  "phonetic": "nak sueksa",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "toneMarks": "nák-sʉ̀k-sǎa · 高, 低, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เรียนในมหาวิทยาลัย",
+    "translations": {
+     "zh": "大学生",
+     "en": "university student"
+    },
+    "examples": [
+     {
+      "text": "นักศึกษาปีหนึ่งต้องอยู่หอ",
+      "translations": {
+       "zh": "大一学生必须住宿舍。",
+       "en": "First-year students must live in a dorm."
+      }
+     }
+    ],
+    "usageNote": "中小学生是 นักเรียน，大学生是 นักศึกษา。"
+   }
+  ]
+ },
+ {
+  "headword": "อาจารย์",
+  "phonetic": "achan",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "aa-jaan · 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ครูในมหาวิทยาลัย",
+    "translations": {
+     "zh": "老师；大学教师",
+     "en": "lecturer, teacher"
+    },
+    "examples": [
+     {
+      "text": "อาจารย์สอนวิชานี้ใจดีมาก",
+      "translations": {
+       "zh": "教这门课的老师人很好。",
+       "en": "The lecturer for this course is very kind."
+      }
+     }
+    ],
+    "usageNote": "也用作对老师、专家的尊称。"
+   }
+  ]
+ },
+ {
+  "headword": "ปริญญา",
+  "phonetic": "parinya",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "toneMarks": "pà-rin-yaa · 低, 中, 中",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วุฒิที่ได้เมื่อเรียนจบมหาวิทยาลัย",
+    "translations": {
+     "zh": "学位",
+     "en": "degree"
+    },
+    "examples": [
+     {
+      "text": "เขาได้ปริญญาจากจุฬาฯ",
+      "translations": {
+       "zh": "他在朱拉隆功大学拿到了学位。",
+       "en": "He got his degree from Chulalongkorn."
+      }
+     }
+    ],
+    "usageNote": "ปริญญาตรี 学士，ปริญญาโท 硕士，ปริญญาเอก 博士。"
+   }
+  ]
+ },
+ {
+  "headword": "คณะ",
+  "phonetic": "khana",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "khá-ná · 高, 高",
+   "classifier": "คณะ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หน่วยในมหาวิทยาลัย; กลุ่มคน",
+    "translations": {
+     "zh": "学院；团体",
+     "en": "faculty; group"
+    },
+    "examples": [
+     {
+      "text": "ฉันเรียนคณะอักษรศาสตร์",
+      "translations": {
+       "zh": "我在文学院读书。",
+       "en": "I study in the Faculty of Arts."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

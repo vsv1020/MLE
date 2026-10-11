@@ -116,14 +116,15 @@ public enum LearningLanguage: String, Codable, CaseIterable, Hashable, Sendable,
     public var seedPackNames: [String] {
         switch self {
         case .english: ["en_core_a1_a2", "en_core_b1_b2", "en_core_c1"]
-        case .french: ["fr_starter"]
-        case .thai: ["th_starter"]
+        // The A1–A2 packs keep their first names: installed decks are keyed by slug.
+        case .french: ["fr_starter", "fr_core_b1_b2", "fr_core_c1"]
+        case .thai: ["th_starter", "th_core_b1_b2", "th_core_c1"]
         }
     }
 
-    /// English is the launch language; the others ship as real but small packs so the
-    /// abstraction is exercised by tests today rather than being discovered wrong later.
-    public var isFullyStocked: Bool { self == .english }
+    /// Every language now ships A1–A2, B1–B2 and C1 packs. Kept as a flag so a future language
+    /// can arrive with only a starter pack and say so in the language pickers.
+    public var isFullyStocked: Bool { true }
 
     public static let `default` = LearningLanguage.english
 

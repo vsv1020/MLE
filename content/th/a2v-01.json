@@ -1,0 +1,1469 @@
+[
+ {
+  "headword": "แต่งตัว",
+  "phonetic": "taeng tua",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "tɛ̀ng-tua · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใส่เสื้อผ้าให้เรียบร้อย",
+    "translations": {
+     "zh": "穿衣服；打扮",
+     "en": "get dressed; dress up"
+    },
+    "examples": [
+     {
+      "text": "ฉันแต่งตัวเสร็จแล้ว ไปกันเถอะ",
+      "translations": {
+       "zh": "我穿好衣服了，走吧。",
+       "en": "I'm dressed, let's go."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แปรงฟัน",
+  "phonetic": "praeng fan",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "prɛɛng-fan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำความสะอาดฟันด้วยแปรง",
+    "translations": {
+     "zh": "刷牙",
+     "en": "brush one's teeth"
+    },
+    "examples": [
+     {
+      "text": "ลูกแปรงฟันก่อนนอนทุกคืน",
+      "translations": {
+       "zh": "孩子每晚睡前刷牙。",
+       "en": "My child brushes his teeth every night before bed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ล้างหน้า",
+  "phonetic": "lang na",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "láang-nâa · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ใช้น้ำทำความสะอาดหน้า",
+    "translations": {
+     "zh": "洗脸",
+     "en": "wash one's face"
+    },
+    "examples": [
+     {
+      "text": "ตื่นนอนแล้วฉันล้างหน้าก่อน",
+      "translations": {
+       "zh": "我起床后先洗脸。",
+       "en": "After I get up, I wash my face first."
+      }
+     }
+    ],
+    "usageNote": "หน้า（降调）是“脸”，也表示“前面、下一个”，如 เดือนหน้า 下个月。"
+   }
+  ]
+ },
+ {
+  "headword": "สระผม",
+  "phonetic": "sa phom",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "sà-phǒm · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ล้างผมด้วยแชมพู",
+    "translations": {
+     "zh": "洗头",
+     "en": "wash one's hair"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ฉันจะสระผม",
+      "translations": {
+       "zh": "我今天要洗头。",
+       "en": "I'm going to wash my hair today."
+      }
+     }
+    ],
+    "usageNote": "洗头专用动词 สระ，不说 ล้างผม。"
+   }
+  ]
+ },
+ {
+  "headword": "ตื่นนอน",
+  "phonetic": "tuen non",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "tʉ̀ʉn-nɔɔn · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตื่นขึ้นมาจากการนอน",
+    "translations": {
+     "zh": "起床；睡醒",
+     "en": "wake up; get up"
+    },
+    "examples": [
+     {
+      "text": "พ่อตื่นนอนตอนหกโมงเช้า",
+      "translations": {
+       "zh": "爸爸早上六点起床。",
+       "en": "Dad gets up at six in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รีบ",
+  "phonetic": "rip",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "rîip · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำอย่างเร็วเพราะมีเวลาน้อย",
+    "translations": {
+     "zh": "赶紧；匆忙",
+     "en": "hurry"
+    },
+    "examples": [
+     {
+      "text": "รีบหน่อย รถจะออกแล้ว",
+      "translations": {
+       "zh": "快点，车要开了。",
+       "en": "Hurry up, the bus is about to leave."
+      }
+     }
+    ],
+    "usageNote": "ไม่ต้องรีบ = 不用急。รีบ 可直接放在动词前：รีบกิน 赶紧吃。"
+   }
+  ]
+ },
+ {
+  "headword": "ทำอาหาร",
+  "phonetic": "tham ahan",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "tham-aa-hǎan · 中, 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ปรุงอาหารให้สุกและกินได้",
+    "translations": {
+     "zh": "做饭",
+     "en": "cook"
+    },
+    "examples": [
+     {
+      "text": "แม่ทำอาหารอร่อยมาก",
+      "translations": {
+       "zh": "妈妈做饭很好吃。",
+       "en": "Mum is a great cook."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทำความสะอาด",
+  "phonetic": "tham khwam sa-at",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "tham-khwaam-sà-àat · 中, 中, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำให้สะอาด",
+    "translations": {
+     "zh": "打扫；清洁",
+     "en": "clean"
+    },
+    "examples": [
+     {
+      "text": "เสาร์นี้เราจะทำความสะอาดบ้าน",
+      "translations": {
+       "zh": "这个星期六我们要打扫房子。",
+       "en": "This Saturday we'll clean the house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ซักผ้า",
+  "phonetic": "sak pha",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "sák-phâa · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ล้างเสื้อผ้าให้สะอาด",
+    "translations": {
+     "zh": "洗衣服",
+     "en": "do the laundry"
+    },
+    "examples": [
+     {
+      "text": "ฉันซักผ้าทุกวันอาทิตย์",
+      "translations": {
+       "zh": "我每个星期天洗衣服。",
+       "en": "I do the laundry every Sunday."
+      }
+     }
+    ],
+    "usageNote": "洗衣服用 ซัก，洗碗洗手用 ล้าง，洗头用 สระ。"
+   }
+  ]
+ },
+ {
+  "headword": "ล้างจาน",
+  "phonetic": "lang chan",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "láang-jaan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำความสะอาดจานชาม",
+    "translations": {
+     "zh": "洗碗",
+     "en": "wash the dishes"
+    },
+    "examples": [
+     {
+      "text": "กินเสร็จแล้วใครจะล้างจาน",
+      "translations": {
+       "zh": "吃完了谁来洗碗？",
+       "en": "Who's washing the dishes after we eat?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เลิกงาน",
+  "phonetic": "loek ngan",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "lə̂ək-ngaan · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำงานเสร็จในวันนั้น",
+    "translations": {
+     "zh": "下班",
+     "en": "finish work"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ฉันเลิกงานห้าโมงเย็น",
+      "translations": {
+       "zh": "我今天下午五点下班。",
+       "en": "I finish work at five today."
+      }
+     }
+    ],
+    "usageNote": "เลิก 单独用表示“停止、戒掉”，如 เลิกบุหรี่ 戒烟。"
+   }
+  ]
+ },
+ {
+  "headword": "ออกกำลังกาย",
+  "phonetic": "ok kamlang kai",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "ɔ̀ɔk-kam-lang-kaai · 低, 中, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ร่างกายแข็งแรงด้วยการเคลื่อนไหว",
+    "translations": {
+     "zh": "锻炼；运动",
+     "en": "exercise"
+    },
+    "examples": [
+     {
+      "text": "เขาออกกำลังกายทุกเช้า",
+      "translations": {
+       "zh": "他每天早上锻炼。",
+       "en": "He exercises every morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เตรียม",
+  "phonetic": "triam",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "triam · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้พร้อม",
+    "translations": {
+     "zh": "准备",
+     "en": "prepare"
+    },
+    "examples": [
+     {
+      "text": "ฉันต้องเตรียมตัวสอบ",
+      "translations": {
+       "zh": "我得准备考试。",
+       "en": "I have to prepare for the exam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จัด",
+  "phonetic": "chat",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "jàt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้เป็นระเบียบ หรือทำให้งานเกิดขึ้น",
+    "translations": {
+     "zh": "整理；安排；举办",
+     "en": "arrange; organize"
+    },
+    "examples": [
+     {
+      "text": "คืนนี้ต้องจัดกระเป๋า",
+      "translations": {
+       "zh": "今晚要收拾行李。",
+       "en": "I have to pack my bag tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ซ่อม",
+  "phonetic": "som",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "sɔ̂ɔm · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำของที่เสียให้ใช้ได้อีก",
+    "translations": {
+     "zh": "修理",
+     "en": "repair; fix"
+    },
+    "examples": [
+     {
+      "text": "ช่างกำลังซ่อมแอร์",
+      "translations": {
+       "zh": "师傅正在修空调。",
+       "en": "The technician is fixing the air conditioner."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตั้งใจ",
+  "phonetic": "tang chai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "tâng-jai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำอย่างมีสมาธิ หรือคิดไว้ว่าจะทำ",
+    "translations": {
+     "zh": "专心；打算",
+     "en": "concentrate; intend"
+    },
+    "examples": [
+     {
+      "text": "นักเรียนตั้งใจฟังครู",
+      "translations": {
+       "zh": "学生专心听老师讲课。",
+       "en": "The students listen carefully to the teacher."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้าม",
+  "phonetic": "kham",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "khâam · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปอีกฝั่งหนึ่ง",
+    "translations": {
+     "zh": "越过；过（马路、河）",
+     "en": "cross"
+    },
+    "examples": [
+     {
+      "text": "ระวังรถตอนข้ามถนน",
+      "translations": {
+       "zh": "过马路时小心车。",
+       "en": "Watch out for cars when crossing the road."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เลี้ยว",
+  "phonetic": "liao",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "líao · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนทิศทางไปซ้ายหรือขวา",
+    "translations": {
+     "zh": "转弯",
+     "en": "turn"
+    },
+    "examples": [
+     {
+      "text": "ถึงไฟแดงแล้วเลี้ยวซ้าย",
+      "translations": {
+       "zh": "到红绿灯后左转。",
+       "en": "Turn left at the traffic lights."
+      }
+     }
+    ],
+    "usageNote": "เลี้ยวซ้าย 左转，เลี้ยวขวา 右转。注意与 เลี้ยง（高调，请客/养）区分。"
+   }
+  ]
+ },
+ {
+  "headword": "ตรงไป",
+  "phonetic": "trong pai",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "trong-pai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ไปข้างหน้าโดยไม่เลี้ยว",
+    "translations": {
+     "zh": "直走",
+     "en": "go straight on"
+    },
+    "examples": [
+     {
+      "text": "ตรงไปอีกสองร้อยเมตร",
+      "translations": {
+       "zh": "再直走两百米。",
+       "en": "Go straight on for another two hundred metres."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จอด",
+  "phonetic": "chot",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jɔ̀ɔt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หยุดรถไว้",
+    "translations": {
+     "zh": "停（车）",
+     "en": "park; stop (a vehicle)"
+    },
+    "examples": [
+     {
+      "text": "จอดตรงนี้ได้ไหมครับ",
+      "translations": {
+       "zh": "这里可以停车吗？",
+       "en": "Can I park here?"
+      }
+     }
+    ],
+    "usageNote": "打车时说 จอดตรงนี้ครับ/ค่ะ 就是“在这里停”。"
+   }
+  ]
+ },
+ {
+  "headword": "ขี่",
+  "phonetic": "khi",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "khìi · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "นั่งบนสิ่งของแล้วบังคับให้ไป เช่น จักรยาน ม้า",
+    "translations": {
+     "zh": "骑",
+     "en": "ride"
+    },
+    "examples": [
+     {
+      "text": "ฉันขี่จักรยานไปโรงเรียน",
+      "translations": {
+       "zh": "我骑自行车去学校。",
+       "en": "I ride my bike to school."
+      }
+     }
+    ],
+    "usageNote": "骑车骑马用 ขี่，开汽车用 ขับ。"
+   }
+  ]
+ },
+ {
+  "headword": "บิน",
+  "phonetic": "bin",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "bin · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เคลื่อนที่ไปในอากาศ",
+    "translations": {
+     "zh": "飞",
+     "en": "fly"
+    },
+    "examples": [
+     {
+      "text": "นกบินอยู่บนฟ้า",
+      "translations": {
+       "zh": "鸟在天上飞。",
+       "en": "Birds are flying in the sky."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ว่ายน้ำ",
+  "phonetic": "wai nam",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "wâai-náam · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เคลื่อนตัวไปในน้ำด้วยแขนและขา",
+    "translations": {
+     "zh": "游泳",
+     "en": "swim"
+    },
+    "examples": [
+     {
+      "text": "เด็กๆ ชอบว่ายน้ำในทะเล",
+      "translations": {
+       "zh": "孩子们喜欢在海里游泳。",
+       "en": "The kids love swimming in the sea."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กระโดด",
+  "phonetic": "kradot",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "krà-dòot · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้ขาดันตัวให้ลอยขึ้น",
+    "translations": {
+     "zh": "跳",
+     "en": "jump"
+    },
+    "examples": [
+     {
+      "text": "แมวกระโดดขึ้นโต๊ะ",
+      "translations": {
+       "zh": "猫跳上了桌子。",
+       "en": "The cat jumped onto the table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ล้ม",
+  "phonetic": "lom",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "lóm · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตกลงไปบนพื้น",
+    "translations": {
+     "zh": "摔倒；倒下",
+     "en": "fall over"
+    },
+    "examples": [
+     {
+      "text": "เขาล้มตอนวิ่ง",
+      "translations": {
+       "zh": "他跑步时摔倒了。",
+       "en": "He fell over while running."
+      }
+     }
+    ],
+    "usageNote": "ล้ม（高调）摔倒 vs ลม（中调）风。"
+   }
+  ]
+ },
+ {
+  "headword": "หลงทาง",
+  "phonetic": "long thang",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "lǒng-thaang · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่รู้ว่าจะไปทางไหน",
+    "translations": {
+     "zh": "迷路",
+     "en": "get lost"
+    },
+    "examples": [
+     {
+      "text": "ขอโทษค่ะ ฉันหลงทาง",
+      "translations": {
+       "zh": "不好意思，我迷路了。",
+       "en": "Excuse me, I'm lost."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แวะ",
+  "phonetic": "wae",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "wɛ́ · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หยุดที่ใดที่หนึ่งระหว่างทาง",
+    "translations": {
+     "zh": "顺路去；顺便停一下",
+     "en": "stop by; drop in"
+    },
+    "examples": [
+     {
+      "text": "กลับบ้านแวะร้านสะดวกซื้อก่อนนะ",
+      "translations": {
+       "zh": "回家前先顺路去一下便利店吧。",
+       "en": "Let's stop at the convenience store on the way home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผ่าน",
+  "phonetic": "phan",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "phàan · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปทางนั้นแล้วเลยไป",
+    "translations": {
+     "zh": "经过；通过",
+     "en": "pass (by, through)"
+    },
+    "examples": [
+     {
+      "text": "รถเมล์สายนี้ผ่านสนามบินไหม",
+      "translations": {
+       "zh": "这路公交经过机场吗？",
+       "en": "Does this bus go past the airport?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำได้ตามเกณฑ์ เช่น สอบได้",
+    "translations": {
+     "zh": "（考试）通过",
+     "en": "pass (an exam)"
+    },
+    "examples": [
+     {
+      "text": "เขาสอบผ่านแล้ว",
+      "translations": {
+       "zh": "他考试通过了。",
+       "en": "He passed the exam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รับ",
+  "phonetic": "rap",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "ráp · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาสิ่งที่ให้มา หรือไปเจอแล้วพากลับ",
+    "translations": {
+     "zh": "接；收；接受",
+     "en": "receive; pick up"
+    },
+    "examples": [
+     {
+      "text": "เดี๋ยวพ่อมารับที่โรงเรียน",
+      "translations": {
+       "zh": "一会儿爸爸来学校接你。",
+       "en": "Dad will pick you up at school soon."
+      }
+     }
+    ],
+    "usageNote": "服务员问 รับอะไรดีคะ/ครับ = “您要点什么？”"
+   }
+  ]
+ },
+ {
+  "headword": "พา",
+  "phonetic": "pha",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "phaa · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "นำคนหรือสัตว์ไปด้วย",
+    "translations": {
+     "zh": "带（人）去",
+     "en": "take (someone somewhere)"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันจะพาแม่ไปหาหมอ",
+      "translations": {
+       "zh": "明天我要带妈妈去看医生。",
+       "en": "Tomorrow I'll take Mum to the doctor."
+      }
+     }
+    ],
+    "usageNote": "พา 带人或动物；带东西用 เอา…ไป。"
+   }
+  ]
+ },
+ {
+  "headword": "ย้าย",
+  "phonetic": "yai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "yáai · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนที่อยู่หรือที่ทำงาน",
+    "translations": {
+     "zh": "搬；调动",
+     "en": "move (house, job)"
+    },
+    "examples": [
+     {
+      "text": "เราย้ายบ้านเดือนหน้า",
+      "translations": {
+       "zh": "我们下个月搬家。",
+       "en": "We're moving house next month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนี",
+  "phonetic": "ni",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "nǐi · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รีบไปให้พ้นจากอันตราย",
+    "translations": {
+     "zh": "逃跑",
+     "en": "run away; escape"
+    },
+    "examples": [
+     {
+      "text": "ขโมยหนีไปแล้ว",
+      "translations": {
+       "zh": "小偷跑了。",
+       "en": "The thief got away."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตาม",
+  "phonetic": "tam",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "taam · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปข้างหลังคนอื่น",
+    "translations": {
+     "zh": "跟随",
+     "en": "follow"
+    },
+    "examples": [
+     {
+      "text": "เดินตามฉันมานะ",
+      "translations": {
+       "zh": "跟着我走。",
+       "en": "Follow me."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ตามที่บอกหรือที่กำหนด",
+    "translations": {
+     "zh": "根据；按照",
+     "en": "according to"
+    },
+    "examples": [
+     {
+      "text": "ทำตามที่ครูบอก",
+      "translations": {
+       "zh": "照老师说的做。",
+       "en": "Do as the teacher says."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หัน",
+  "phonetic": "han",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "hǎn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนไปอีกด้านหนึ่ง เช่น หันหน้า",
+    "translations": {
+     "zh": "转（头、身）",
+     "en": "turn (one's head/body)"
+    },
+    "examples": [
+     {
+      "text": "เขาหันมายิ้มให้ฉัน",
+      "translations": {
+       "zh": "他转过头来对我笑。",
+       "en": "He turned and smiled at me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เช่า",
+  "phonetic": "chao",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "châo · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "จ่ายเงินเพื่อใช้ของของคนอื่นชั่วคราว",
+    "translations": {
+     "zh": "租",
+     "en": "rent; hire"
+    },
+    "examples": [
+     {
+      "text": "เราเช่ามอเตอร์ไซค์วันละสามร้อยบาท",
+      "translations": {
+       "zh": "我们租摩托车一天三百铢。",
+       "en": "We rent a motorbike for 300 baht a day."
+      }
+     }
+    ],
+    "usageNote": "เช่า（降调）租 vs เช้า（高调）早上。"
+   }
+  ]
+ },
+ {
+  "headword": "เดินเล่น",
+  "phonetic": "doen len",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "dəən-lên · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เดินไปเรื่อยๆ เพื่อพักผ่อน",
+    "translations": {
+     "zh": "散步",
+     "en": "go for a walk"
+    },
+    "examples": [
+     {
+      "text": "ตอนเย็นเราไปเดินเล่นที่สวน",
+      "translations": {
+       "zh": "傍晚我们去公园散步。",
+       "en": "In the evening we go for a walk in the park."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มาถึง",
+  "phonetic": "ma thueng",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "maa-thʉ̌ng · 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มาจนถึงที่หมาย",
+    "translations": {
+     "zh": "到达",
+     "en": "arrive"
+    },
+    "examples": [
+     {
+      "text": "รถไฟมาถึงแล้ว",
+      "translations": {
+       "zh": "火车到了。",
+       "en": "The train has arrived."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทัน",
+  "phonetic": "than",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "than · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปหรือทำได้ก่อนหมดเวลา",
+    "translations": {
+     "zh": "来得及；赶上",
+     "en": "be in time; catch"
+    },
+    "examples": [
+     {
+      "text": "รีบไปเถอะ ยังทันรถไฟ",
+      "translations": {
+       "zh": "快走吧，还赶得上火车。",
+       "en": "Hurry, we can still catch the train."
+      }
+     }
+    ],
+    "usageNote": "否定：ไม่ทัน 来不及。"
+   }
+  ]
+ },
+ {
+  "headword": "พลาด",
+  "phonetic": "phlat",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "phlâat · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ได้ตามที่ตั้งใจ หรือทำผิด",
+    "translations": {
+     "zh": "错过；失误",
+     "en": "miss; make a mistake"
+    },
+    "examples": [
+     {
+      "text": "ฉันพลาดรถเมล์คันสุดท้าย",
+      "translations": {
+       "zh": "我错过了最后一班公交。",
+       "en": "I missed the last bus."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อธิบาย",
+  "phonetic": "athibai",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "à-thí-baai · 低, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้เข้าใจชัดเจน",
+    "translations": {
+     "zh": "解释；说明",
+     "en": "explain"
+    },
+    "examples": [
+     {
+      "text": "ช่วยอธิบายอีกครั้งได้ไหม",
+      "translations": {
+       "zh": "能再解释一次吗？",
+       "en": "Could you explain it again?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เล่า",
+  "phonetic": "lao",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "lâo · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดให้ฟังว่าเกิดอะไรขึ้น",
+    "translations": {
+     "zh": "讲述；讲（故事）",
+     "en": "tell (a story); recount"
+    },
+    "examples": [
+     {
+      "text": "คุณยายเล่านิทานให้หลานฟัง",
+      "translations": {
+       "zh": "奶奶给孙子讲故事。",
+       "en": "Grandma tells her grandchild a story."
+      }
+     }
+    ],
+    "usageNote": "固定格式：เล่า…ให้…ฟัง “讲给某人听”。"
+   }
+  ]
+ },
+ {
+  "headword": "ตะโกน",
+  "phonetic": "takon",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "tà-koon · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดเสียงดังมาก",
+    "translations": {
+     "zh": "喊；大叫",
+     "en": "shout"
+    },
+    "examples": [
+     {
+      "text": "อย่าตะโกนในห้องสมุด",
+      "translations": {
+       "zh": "别在图书馆大声喊。",
+       "en": "Don't shout in the library."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บ่น",
+  "phonetic": "bon",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "bòn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดว่าไม่พอใจซ้ำๆ",
+    "translations": {
+     "zh": "抱怨；唠叨",
+     "en": "complain; grumble"
+    },
+    "examples": [
+     {
+      "text": "แม่บ่นว่าห้องฉันรก",
+      "translations": {
+       "zh": "妈妈抱怨我的房间乱。",
+       "en": "Mum complains that my room is messy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชม",
+  "phonetic": "chom",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "chom · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดว่าดี หรือดูด้วยความชอบ",
+    "translations": {
+     "zh": "夸奖；欣赏",
+     "en": "praise; admire"
+    },
+    "examples": [
+     {
+      "text": "ครูชมว่าฉันเขียนสวย",
+      "translations": {
+       "zh": "老师夸我字写得漂亮。",
+       "en": "The teacher praised my handwriting."
+      }
+     }
+    ],
+    "usageNote": "ชม 也表示“观赏”，如 ชมวิว 看风景。"
+   }
+  ]
+ },
+ {
+  "headword": "แนะนำ",
+  "phonetic": "naenam",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "nɛ́-nam · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้รู้จัก หรือบอกว่าอะไรดี",
+    "translations": {
+     "zh": "介绍；推荐",
+     "en": "introduce; recommend"
+    },
+    "examples": [
+     {
+      "text": "ขอแนะนำตัวเองหน่อยครับ",
+      "translations": {
+       "zh": "我来自我介绍一下。",
+       "en": "Let me introduce myself."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกว่าอะไรดีควรลอง",
+    "translations": {
+     "zh": "推荐",
+     "en": "recommend"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้มีอะไรแนะนำบ้าง",
+      "translations": {
+       "zh": "这家店有什么推荐的？",
+       "en": "What do you recommend here?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปฏิเสธ",
+  "phonetic": "patiset",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "pà-tì-sèet · 低, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ยอมรับ หรือบอกว่าไม่ใช่",
+    "translations": {
+     "zh": "拒绝；否认",
+     "en": "refuse; deny"
+    },
+    "examples": [
+     {
+      "text": "เขาปฏิเสธคำเชิญของฉัน",
+      "translations": {
+       "zh": "他拒绝了我的邀请。",
+       "en": "He turned down my invitation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยอมรับ",
+  "phonetic": "yomrap",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "yɔɔm-ráp · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตกลงรับ หรือบอกว่าจริง",
+    "translations": {
+     "zh": "承认；接受",
+     "en": "admit; accept"
+    },
+    "examples": [
+     {
+      "text": "เขายอมรับว่าทำผิด",
+      "translations": {
+       "zh": "他承认自己做错了。",
+       "en": "He admitted he was wrong."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สัญญา",
+  "phonetic": "sanya",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sǎn-yaa · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกว่าจะทำแน่นอน",
+    "translations": {
+     "zh": "答应；保证",
+     "en": "promise"
+    },
+    "examples": [
+     {
+      "text": "ฉันสัญญาว่าจะไม่มาสาย",
+      "translations": {
+       "zh": "我保证不会迟到。",
+       "en": "I promise I won't be late."
+      }
+     }
+    ],
+    "usageNote": "也作名词“合同、承诺”。"
+   }
+  ]
+ },
+ {
+  "headword": "โกหก",
+  "phonetic": "kohok",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "koo-hòk · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดไม่จริง",
+    "translations": {
+     "zh": "说谎",
+     "en": "lie; tell a lie"
+    },
+    "examples": [
+     {
+      "text": "อย่าโกหกแม่นะ",
+      "translations": {
+       "zh": "别对妈妈撒谎。",
+       "en": "Don't lie to Mum."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทะเลาะ",
+  "phonetic": "thalo",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "thá-lɔ́ · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เถียงกันด้วยความโกรธ",
+    "translations": {
+     "zh": "吵架",
+     "en": "quarrel; argue"
+    },
+    "examples": [
+     {
+      "text": "สองพี่น้องทะเลาะกันอีกแล้ว",
+      "translations": {
+       "zh": "兄弟俩又吵架了。",
+       "en": "The two siblings are fighting again."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

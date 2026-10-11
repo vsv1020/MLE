@@ -1,0 +1,1283 @@
+[
+  {
+    "headword": "รำ",
+    "phonetic": "ram",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "ram · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เต้นตามแบบไทย ใช้มือและแขนอย่างอ่อนช้อย",
+        "translations": {
+          "zh": "跳（泰式）舞",
+          "en": "to dance (Thai classical style)"
+        },
+        "examples": [
+          {
+            "text": "นักเรียนหญิงรำต้อนรับแขกที่มาเยี่ยมโรงเรียน",
+            "translations": {
+              "zh": "女学生跳泰舞欢迎来访的客人。",
+              "en": "Schoolgirls performed a Thai dance to welcome visitors."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แต่งกาย",
+    "phonetic": "taengkai",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "tɛ̀ng-kaai · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แต่งตัว ใส่เสื้อผ้า",
+        "translations": {
+          "zh": "着装；穿着打扮",
+          "en": "to dress"
+        },
+        "examples": [
+          {
+            "text": "กรุณาแต่งกายสุภาพเมื่อเข้าวัด",
+            "translations": {
+              "zh": "进寺庙请穿着得体。",
+              "en": "Please dress modestly when entering the temple."
+            }
+          }
+        ],
+        "usageNote": "正式用语，口语说 แต่งตัว。"
+      }
+    ]
+  },
+  {
+    "headword": "ชุดไทย",
+    "phonetic": "chutthai",
+    "cefr": "B1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "toneMarks": "chút-thai · 高, 中",
+      "classifier": "ชุด（套）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เสื้อผ้าแบบไทยดั้งเดิม",
+        "translations": {
+          "zh": "泰式传统服装",
+          "en": "traditional Thai dress"
+        },
+        "examples": [
+          {
+            "text": "นักท่องเที่ยวเช่าชุดไทยถ่ายรูปที่อยุธยา",
+            "translations": {
+              "zh": "游客在大城租泰装拍照。",
+              "en": "Tourists rent Thai costumes for photos in Ayutthaya."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาพถ่าย",
+    "phonetic": "phapthai",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "phâap-thàai · 降, 低",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รูปที่ได้จากการถ่ายด้วยกล้อง",
+        "translations": {
+          "zh": "照片",
+          "en": "photograph"
+        },
+        "examples": [
+          {
+            "text": "ภาพถ่ายเก่า ๆ ของคุณตาเก็บไว้ในกล่อง",
+            "translations": {
+              "zh": "外公的老照片收在盒子里。",
+              "en": "Grandpa's old photographs are kept in a box."
+            }
+          }
+        ],
+        "usageNote": "比 รูป 正式。"
+      }
+    ]
+  },
+  {
+    "headword": "ถ่ายรูป",
+    "phonetic": "thairup",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "thàai-rûup · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้กล้องหรือโทรศัพท์บันทึกภาพ",
+        "translations": {
+          "zh": "拍照",
+          "en": "to take a photo"
+        },
+        "examples": [
+          {
+            "text": "ขอโทษค่ะ ช่วยถ่ายรูปให้หน่อยได้ไหมคะ",
+            "translations": {
+              "zh": "不好意思，可以帮我拍张照吗？",
+              "en": "Excuse me, could you take a photo for me?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วาดรูป",
+    "phonetic": "watrup",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "wâat-rûup · 降, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้ดินสอหรือสีทำให้เป็นภาพ",
+        "translations": {
+          "zh": "画画",
+          "en": "to draw, to paint"
+        },
+        "examples": [
+          {
+            "text": "ลูกสาวชอบวาดรูปแมวมาก",
+            "translations": {
+              "zh": "女儿很喜欢画猫。",
+              "en": "My daughter loves drawing cats."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครื่องดนตรี",
+    "phonetic": "khrueangdontri",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "khrʉ̂ang-don-trii · 降, 中, 中",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ใช้เล่นให้เกิดเสียงดนตรี",
+        "translations": {
+          "zh": "乐器",
+          "en": "musical instrument"
+        },
+        "examples": [
+          {
+            "text": "ระนาดเป็นเครื่องดนตรีไทยที่มีชื่อเสียง",
+            "translations": {
+              "zh": "木琴是有名的泰国乐器。",
+              "en": "The ranat is a famous Thai musical instrument."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เวที",
+    "phonetic": "wethi",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "wee-thii · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นยกสูงสำหรับแสดงหรือพูด",
+        "translations": {
+          "zh": "舞台",
+          "en": "stage"
+        },
+        "examples": [
+          {
+            "text": "นักร้องเดินขึ้นเวทีแล้วทุกคนก็กรี๊ด",
+            "translations": {
+              "zh": "歌手一走上舞台大家都尖叫起来。",
+              "en": "When the singer walked on stage, everyone screamed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้ชม",
+    "phonetic": "phuchom",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "phûu-chom · 降, 中",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่ดูการแสดงหรือรายการ",
+        "translations": {
+          "zh": "观众",
+          "en": "audience, viewer"
+        },
+        "examples": [
+          {
+            "text": "ผู้ชมปรบมือให้นักแสดงนานมาก",
+            "translations": {
+              "zh": "观众为演员鼓掌了很久。",
+              "en": "The audience applauded the performers for a long time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บัตรเข้าชม",
+    "phonetic": "batkhaochom",
+    "cefr": "B1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "bàt-khâo-chom · 低, 降, 中",
+      "classifier": "ใบ（张）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "บัตรที่ซื้อเพื่อเข้าไปดูสถานที่หรือการแสดง",
+        "translations": {
+          "zh": "门票",
+          "en": "admission ticket"
+        },
+        "examples": [
+          {
+            "text": "บัตรเข้าชมสำหรับชาวต่างชาติราคาสูงกว่า",
+            "translations": {
+              "zh": "外国人的门票价格更高。",
+              "en": "Admission tickets for foreigners cost more."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สูตร",
+    "phonetic": "sut",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "sùut · 低",
+      "classifier": "สูตร（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิธีและส่วนผสมในการทำอาหาร",
+        "translations": {
+          "zh": "配方；食谱",
+          "en": "recipe, formula"
+        },
+        "examples": [
+          {
+            "text": "นี่คือสูตรต้มยำของคุณยาย",
+            "translations": {
+              "zh": "这是外婆的冬阴功食谱。",
+              "en": "This is Grandma's tom yum recipe."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วัตถุดิบ",
+    "phonetic": "watthudip",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "wát-thù-dìp · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่นำมาใช้ทำอาหารหรือผลิตสินค้า",
+        "translations": {
+          "zh": "原料；食材",
+          "en": "ingredients, raw materials"
+        },
+        "examples": [
+          {
+            "text": "ร้านนี้ใช้วัตถุดิบสดจากตลาดทุกเช้า",
+            "translations": {
+              "zh": "这家店每天早上用市场的新鲜食材。",
+              "en": "This restaurant uses fresh market ingredients every morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เครื่องปรุง",
+    "phonetic": "khrueangprung",
+    "cefr": "B1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "khrʉ̂ang-prung · 降, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ใส่ในอาหารเพื่อให้มีรสชาติ เช่น น้ำปลา น้ำตาล",
+        "translations": {
+          "zh": "调料；调味品",
+          "en": "seasonings, condiments"
+        },
+        "examples": [
+          {
+            "text": "ร้านก๋วยเตี๋ยวมีเครื่องปรุงวางไว้บนโต๊ะ",
+            "translations": {
+              "zh": "粉面店桌上放着调料。",
+              "en": "Noodle shops put seasonings on the table."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผัด",
+    "phonetic": "phat",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "phàt · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สุกในกระทะโดยใช้น้ำมันน้อยและคนไปมา",
+        "translations": {
+          "zh": "炒",
+          "en": "to stir-fry"
+        },
+        "examples": [
+          {
+            "text": "ผัดผักบุ้งไฟแดงจานนี้อร่อยมาก",
+            "translations": {
+              "zh": "这盘火炒空心菜很好吃。",
+              "en": "This flash-fried morning glory is delicious."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทอด",
+    "phonetic": "thot",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "thɔ̂ɔt · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สุกในน้ำมันร้อนจำนวนมาก",
+        "translations": {
+          "zh": "炸；煎",
+          "en": "to fry, to deep-fry"
+        },
+        "examples": [
+          {
+            "text": "แม่ทอดไข่เจียวให้กินตอนเช้า",
+            "translations": {
+              "zh": "妈妈早上给我煎了煎蛋饼。",
+              "en": "Mom fried an omelette for breakfast."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ต้ม",
+    "phonetic": "tom",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "tôm · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สุกในน้ำที่เดือด",
+        "translations": {
+          "zh": "煮；烧开",
+          "en": "to boil"
+        },
+        "examples": [
+          {
+            "text": "ต้มน้ำก่อนดื่มจะปลอดภัยกว่า",
+            "translations": {
+              "zh": "水烧开再喝比较安全。",
+              "en": "It's safer to boil water before drinking it."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นึ่ง",
+    "phonetic": "nueng",
+    "cefr": "B1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "nʉ̂ng · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สุกด้วยไอน้ำ",
+        "translations": {
+          "zh": "蒸",
+          "en": "to steam"
+        },
+        "examples": [
+          {
+            "text": "ปลากะพงนึ่งมะนาวเป็นเมนูที่ฉันชอบ",
+            "translations": {
+              "zh": "柠檬蒸鲈鱼是我喜欢的菜。",
+              "en": "Steamed sea bass with lime is my favourite dish."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ย่าง",
+    "phonetic": "yang",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "yâang · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สุกบนไฟโดยตรง",
+        "translations": {
+          "zh": "烤",
+          "en": "to grill, to roast"
+        },
+        "examples": [
+          {
+            "text": "พ่อย่างหมูริมทางขายทุกเย็น",
+            "translations": {
+              "zh": "爸爸每天傍晚在路边烤猪肉卖。",
+              "en": "Dad grills pork by the roadside to sell every evening."
+            }
+          }
+        ],
+        "usageNote": "如 ไก่ย่าง（烤鸡）、หมูย่าง（烤猪肉）。"
+      }
+    ]
+  },
+  {
+    "headword": "หั่น",
+    "phonetic": "han",
+    "cefr": "B1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "hàn · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้มีดตัดเป็นชิ้นเล็ก ๆ",
+        "translations": {
+          "zh": "切（菜）；切片",
+          "en": "to slice, to chop"
+        },
+        "examples": [
+          {
+            "text": "หั่นหมูเป็นชิ้นบาง ๆ ก่อนผัด",
+            "translations": {
+              "zh": "炒之前把猪肉切成薄片。",
+              "en": "Slice the pork thinly before stir-frying."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คั่ว",
+    "phonetic": "khua",
+    "cefr": "B2",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "toneMarks": "khûa · 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้สุกในกระทะโดยไม่ใส่น้ำมันหรือใส่น้อยมาก",
+        "translations": {
+          "zh": "干炒；焙炒",
+          "en": "to dry-roast, to toast"
+        },
+        "examples": [
+          {
+            "text": "คั่วข้าวสารจนหอมแล้วตำให้ละเอียด",
+            "translations": {
+              "zh": "把米炒香后舂成细粉。",
+              "en": "Toast the rice until fragrant, then pound it fine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมัก",
+    "phonetic": "mak",
+    "cefr": "B2",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "màk · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "แช่อาหารในเครื่องปรุงไว้สักพัก",
+        "translations": {
+          "zh": "腌；发酵",
+          "en": "to marinate, to ferment"
+        },
+        "examples": [
+          {
+            "text": "หมักไก่ไว้คืนหนึ่งก่อนย่าง",
+            "translations": {
+              "zh": "鸡肉腌一晚再烤。",
+              "en": "Marinate the chicken overnight before grilling."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ปรุงรส",
+    "phonetic": "prungrot",
+    "cefr": "B1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "toneMarks": "prung-rót · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใส่เครื่องปรุงให้อาหารมีรสตามต้องการ",
+        "translations": {
+          "zh": "调味",
+          "en": "to season"
+        },
+        "examples": [
+          {
+            "text": "ชิมก่อนแล้วค่อยปรุงรสเพิ่ม",
+            "translations": {
+              "zh": "先尝一下再加调味。",
+              "en": "Taste it first, then add more seasoning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "รสชาติ",
+    "phonetic": "rotchat",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "rót-châat · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รสที่รู้สึกได้ด้วยลิ้น",
+        "translations": {
+          "zh": "味道；滋味",
+          "en": "taste, flavour"
+        },
+        "examples": [
+          {
+            "text": "รสชาติอาหารใต้จัดจ้านมาก",
+            "translations": {
+              "zh": "南部菜的味道很重。",
+              "en": "Southern Thai food has very bold flavours."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จืด",
+    "phonetic": "chuet",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "jʉ̀ʉt · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ไม่มีรส หรือรสอ่อน",
+        "translations": {
+          "zh": "淡；没味道",
+          "en": "bland, tasteless"
+        },
+        "examples": [
+          {
+            "text": "แกงนี้จืดไป ขอน้ำปลาหน่อย",
+            "translations": {
+              "zh": "这咖喱太淡了，请给点鱼露。",
+              "en": "This curry is too bland; could I have some fish sauce?"
+            }
+          }
+        ],
+        "usageNote": "แกงจืด 是一种清汤，并非贬义。"
+      }
+    ]
+  },
+  {
+    "headword": "ขม",
+    "phonetic": "khom",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "khǒm · 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีรสอย่างบอระเพ็ดหรือกาแฟดำ",
+        "translations": {
+          "zh": "苦",
+          "en": "bitter"
+        },
+        "examples": [
+          {
+            "text": "มะระลูกนี้ขมมาก",
+            "translations": {
+              "zh": "这个苦瓜很苦。",
+              "en": "This bitter gourd is very bitter."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กลมกล่อม",
+    "phonetic": "klomklom",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "klom-klɔ̀m · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "มีรสชาติพอดี กลมกลืนกัน",
+        "translations": {
+          "zh": "（味道）醇和；恰到好处",
+          "en": "well-balanced, mellow (taste)"
+        },
+        "examples": [
+          {
+            "text": "ต้มยำหม้อนี้รสชาติกลมกล่อม",
+            "translations": {
+              "zh": "这锅冬阴功味道很醇和。",
+              "en": "This pot of tom yum is perfectly balanced."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มังสวิรัติ",
+    "phonetic": "mangsawirat",
+    "cefr": "B2",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "mang-sà-wí-rát · 中, 低, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การไม่กินเนื้อสัตว์",
+        "translations": {
+          "zh": "素食（主义）",
+          "en": "vegetarianism, vegetarian"
+        },
+        "examples": [
+          {
+            "text": "เพื่อนฉันกินมังสวิรัติมาห้าปีแล้ว",
+            "translations": {
+              "zh": "我朋友吃素已经五年了。",
+              "en": "My friend has been vegetarian for five years."
+            }
+          }
+        ],
+        "usageNote": "与 เจ 不同：เจ 还忌葱蒜等，源自华人斋戒。"
+      }
+    ]
+  },
+  {
+    "headword": "อาหารเจ",
+    "phonetic": "ahanche",
+    "cefr": "B1",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-jee · 中, 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารที่ไม่มีเนื้อสัตว์และผักกลิ่นแรงตามความเชื่อแบบจีน",
+        "translations": {
+          "zh": "斋菜；素斋",
+          "en": "vegan food (Chinese-Thai style)"
+        },
+        "examples": [
+          {
+            "text": "ร้านที่มีธงเหลืองขายอาหารเจ",
+            "translations": {
+              "zh": "挂黄旗的店卖斋菜。",
+              "en": "Shops with yellow flags sell vegan food."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาหารริมทาง",
+    "phonetic": "ahanrimthang",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-rim-thaang · 中, 升, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารที่ขายตามข้างถนน",
+        "translations": {
+          "zh": "路边小吃；街头美食",
+          "en": "street food"
+        },
+        "examples": [
+          {
+            "text": "กรุงเทพฯ มีอาหารริมทางอร่อยมากมาย",
+            "translations": {
+              "zh": "曼谷有很多好吃的街头美食。",
+              "en": "Bangkok has lots of tasty street food."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แผงลอย",
+    "phonetic": "phaengloi",
+    "cefr": "B2",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "phɛ̌ɛng-lɔɔi · 升, 中",
+      "classifier": "แผง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ร้านขายของเล็ก ๆ ที่ตั้งชั่วคราวริมทาง",
+        "translations": {
+          "zh": "路边摊",
+          "en": "street stall"
+        },
+        "examples": [
+          {
+            "text": "ห้ามตั้งแผงลอยบนทางเท้าวันจันทร์",
+            "translations": {
+              "zh": "周一禁止在人行道上摆摊。",
+              "en": "Street stalls are banned from the pavement on Mondays."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "น้ำปลา",
+    "phonetic": "nampla",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "náam-plaa · 高, 中",
+      "classifier": "ขวด（瓶）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำเค็มที่ทำจากปลาหมัก ใช้ปรุงอาหาร",
+        "translations": {
+          "zh": "鱼露",
+          "en": "fish sauce"
+        },
+        "examples": [
+          {
+            "text": "เติมน้ำปลาอีกนิดจะอร่อยขึ้น",
+            "translations": {
+              "zh": "再加点鱼露会更好吃。",
+              "en": "Add a bit more fish sauce and it'll taste better."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กระเทียม",
+    "phonetic": "krathiam",
+    "cefr": "B1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "krà-thiam · 低, 中",
+      "classifier": "หัว（头）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พืชหัวกลิ่นแรง ใช้ปรุงอาหาร",
+        "translations": {
+          "zh": "大蒜",
+          "en": "garlic"
+        },
+        "examples": [
+          {
+            "text": "หมูทอดกระเทียมเป็นเมนูง่าย ๆ",
+            "translations": {
+              "zh": "蒜香炸猪肉是一道简单的菜。",
+              "en": "Garlic fried pork is an easy dish."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หอมแดง",
+    "phonetic": "homdaeng",
+    "cefr": "B1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "hɔ̌ɔm-dɛɛng · 升, 中",
+      "classifier": "หัว（头）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พืชหัวเล็ก สีม่วงแดง ใช้ทำอาหาร",
+        "translations": {
+          "zh": "红葱头",
+          "en": "shallot"
+        },
+        "examples": [
+          {
+            "text": "ซอยหอมแดงใส่ในยำ",
+            "translations": {
+              "zh": "把红葱头切丝放进凉拌菜里。",
+              "en": "Slice shallots into the spicy salad."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ตะไคร้",
+    "phonetic": "takhrai",
+    "cefr": "B1",
+    "frequencyRank": 5700,
+    "grammarNotes": {
+      "toneMarks": "tà-khrái · 低, 高",
+      "classifier": "ต้น（根）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พืชใบยาว กลิ่นหอม ใช้ทำต้มยำ",
+        "translations": {
+          "zh": "香茅",
+          "en": "lemongrass"
+        },
+        "examples": [
+          {
+            "text": "ต้มยำต้องใส่ตะไคร้กับใบมะกรูด",
+            "translations": {
+              "zh": "冬阴功要放香茅和青柠叶。",
+              "en": "Tom yum needs lemongrass and kaffir lime leaves."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กะเพรา",
+    "phonetic": "kaphrao",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "kà-phrao · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผักใบเขียวกลิ่นแรง ใช้ผัดกับเนื้อสัตว์",
+        "translations": {
+          "zh": "打抛叶；圣罗勒",
+          "en": "holy basil"
+        },
+        "examples": [
+          {
+            "text": "ข้าวกะเพราไข่ดาวคืออาหารประจำของฉัน",
+            "translations": {
+              "zh": "打抛饭加煎蛋是我的家常便饭。",
+              "en": "Holy-basil stir-fry with a fried egg is my go-to meal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มะนาว",
+    "phonetic": "manao",
+    "cefr": "B1",
+    "frequencyRank": 3600,
+    "grammarNotes": {
+      "toneMarks": "má-naao · 高, 中",
+      "classifier": "ลูก（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผลไม้ลูกเล็กสีเขียว รสเปรี้ยว",
+        "translations": {
+          "zh": "青柠；柠檬",
+          "en": "lime"
+        },
+        "examples": [
+          {
+            "text": "บีบมะนาวใส่ส้มตำอีกลูก",
+            "translations": {
+              "zh": "再往木瓜沙拉里挤一个青柠。",
+              "en": "Squeeze another lime into the papaya salad."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กะทิ",
+    "phonetic": "kathi",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "kà-thí · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "น้ำสีขาวที่คั้นจากเนื้อมะพร้าว",
+        "translations": {
+          "zh": "椰浆",
+          "en": "coconut milk"
+        },
+        "examples": [
+          {
+            "text": "แกงเขียวหวานใส่กะทิเยอะจะหอมมัน",
+            "translations": {
+              "zh": "绿咖喱多放椰浆会更香浓。",
+              "en": "Green curry with lots of coconut milk is rich and fragrant."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ข้าวต้ม",
+    "phonetic": "khaotom",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "khâao-tôm · 降, 降",
+      "classifier": "ชาม（碗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้าวที่ต้มกับน้ำจนเปื่อย",
+        "translations": {
+          "zh": "泰式稀饭；粥",
+          "en": "rice soup, congee"
+        },
+        "examples": [
+          {
+            "text": "ตอนป่วยแม่ทำข้าวต้มให้กิน",
+            "translations": {
+              "zh": "生病时妈妈给我煮了粥。",
+              "en": "When I was sick Mom made me rice soup."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ของหวาน",
+    "phonetic": "khongwan",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "khɔ̌ɔng-wǎan · 升, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารรสหวานที่กินหลังอาหารหลัก",
+        "translations": {
+          "zh": "甜点",
+          "en": "dessert"
+        },
+        "examples": [
+          {
+            "text": "ข้าวเหนียวมะม่วงเป็นของหวานยอดนิยม",
+            "translations": {
+              "zh": "芒果糯米饭是很受欢迎的甜点。",
+              "en": "Mango sticky rice is a popular dessert."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "อาหารพื้นเมือง",
+    "phonetic": "ahanphuenmueang",
+    "cefr": "B1",
+    "frequencyRank": 5900,
+    "grammarNotes": {
+      "toneMarks": "aa-hǎan-phʉ́ʉn-mʉang · 中, 升, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาหารประจำท้องถิ่น",
+        "translations": {
+          "zh": "地方菜；当地特色菜",
+          "en": "local food, regional cuisine"
+        },
+        "examples": [
+          {
+            "text": "ข้าวซอยเป็นอาหารพื้นเมืองของเชียงใหม่",
+            "translations": {
+              "zh": "咖喱面是清迈的地方菜。",
+              "en": "Khao soi is a local dish of Chiang Mai."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มื้อ",
+    "phonetic": "mue",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "mʉ́ʉ · 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "classifier",
+        "definition": "ลักษณนามของการกินอาหารแต่ละครั้ง",
+        "translations": {
+          "zh": "顿（饭）",
+          "en": "meal (classifier)"
+        },
+        "examples": [
+          {
+            "text": "วันนี้ฉันกินแค่สองมื้อ",
+            "translations": {
+              "zh": "我今天只吃了两顿饭。",
+              "en": "I've only had two meals today."
+            }
+          }
+        ],
+        "usageNote": "如 มื้อเช้า（早餐）、มื้อเย็น（晚餐）。"
+      }
+    ]
+  },
+  {
+    "headword": "กระทะ",
+    "phonetic": "kratha",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "krà-thá · 低, 高",
+      "classifier": "ใบ（口）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาชนะก้นลึกใช้ผัดหรือทอด",
+        "translations": {
+          "zh": "炒锅",
+          "en": "wok, frying pan"
+        },
+        "examples": [
+          {
+            "text": "ตั้งกระทะให้ร้อนก่อนใส่น้ำมัน",
+            "translations": {
+              "zh": "先把锅烧热再放油。",
+              "en": "Heat the wok before adding oil."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หม้อ",
+    "phonetic": "mo",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "mɔ̂ɔ · 降",
+      "classifier": "ใบ（口）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ภาชนะสำหรับต้มหรือหุงอาหาร",
+        "translations": {
+          "zh": "锅",
+          "en": "pot"
+        },
+        "examples": [
+          {
+            "text": "แม่ต้มแกงจืดหม้อใหญ่",
+            "translations": {
+              "zh": "妈妈煮了一大锅清汤。",
+              "en": "Mom made a big pot of clear soup."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ห่อ",
+    "phonetic": "ho",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "hɔ̀ɔ · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ใช้ใบไม้ กระดาษ หรือถุงหุ้มของไว้",
+        "translations": {
+          "zh": "包；打包",
+          "en": "to wrap, to pack (to go)"
+        },
+        "examples": [
+          {
+            "text": "กินไม่หมด ขอห่อกลับบ้านได้ไหม",
+            "translations": {
+              "zh": "吃不完，可以打包带走吗？",
+              "en": "I can't finish this; could I take it home?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "หมูกระทะ",
+    "phonetic": "mukratha",
+    "cefr": "B1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "mǔu-krà-thá · 升, 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การปิ้งย่างหมูบนกระทะโดมและต้มน้ำซุปรอบ ๆ",
+        "translations": {
+          "zh": "泰式烤肉火锅",
+          "en": "Thai barbecue hotpot"
+        },
+        "examples": [
+          {
+            "text": "วันเสาร์นี้ไปกินหมูกระทะกันไหม",
+            "translations": {
+              "zh": "这周六去吃泰式烤肉吗？",
+              "en": "Shall we go for Thai barbecue this Saturday?"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

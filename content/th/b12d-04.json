@@ -1,0 +1,1547 @@
+[
+  {
+    "headword": "ต่างประเทศ",
+    "phonetic": "tangprathet",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "toneMarks": "tàang-prà-thêet · 低, 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ประเทศอื่นที่ไม่ใช่ประเทศของตัวเอง",
+        "translations": {
+          "zh": "外国；国外",
+          "en": "foreign country, abroad"
+        },
+        "examples": [
+          {
+            "text": "น้องสาวไปเรียนต่อต่างประเทศ",
+            "translations": {
+              "zh": "妹妹去国外留学了。",
+              "en": "My younger sister went abroad to study."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชนบท",
+    "phonetic": "chonnabot",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "chon-ná-bòt · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พื้นที่นอกเมืองที่มีไร่นาและหมู่บ้าน",
+        "translations": {
+          "zh": "农村；乡下",
+          "en": "countryside, rural area"
+        },
+        "examples": [
+          {
+            "text": "ชีวิตในชนบทเงียบสงบกว่าในเมือง",
+            "translations": {
+              "zh": "乡下的生活比城里安静。",
+              "en": "Life in the countryside is quieter than in the city."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ชาวบ้าน",
+    "phonetic": "chaoban",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "chaao-bâan · 中, 降",
+      "classifier": "คน（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนธรรมดาที่อาศัยอยู่ในหมู่บ้านหรือชุมชน",
+        "translations": {
+          "zh": "村民；老百姓",
+          "en": "villagers, local people"
+        },
+        "examples": [
+          {
+            "text": "ชาวบ้านที่นี่ใจดีและยิ้มเก่ง",
+            "translations": {
+              "zh": "这里的村民很友善，爱笑。",
+              "en": "The locals here are kind and smile a lot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โบราณ",
+    "phonetic": "boran",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "boo-raan · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ที่มีมานานมากแล้ว",
+        "translations": {
+          "zh": "古代的；古老的",
+          "en": "ancient, old"
+        },
+        "examples": [
+          {
+            "text": "อยุธยามีวัดโบราณหลายแห่ง",
+            "translations": {
+              "zh": "大城府有很多古寺。",
+              "en": "Ayutthaya has many ancient temples."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เดินป่า",
+    "phonetic": "doenpa",
+    "cefr": "B1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "toneMarks": "dəən-pàa · 中, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เดินทางด้วยเท้าเข้าไปในป่า",
+        "translations": {
+          "zh": "徒步穿越森林；远足",
+          "en": "to trek, to hike"
+        },
+        "examples": [
+          {
+            "text": "เราไปเดินป่าที่ดอยอินทนนท์สามวัน",
+            "translations": {
+              "zh": "我们去因他暖山徒步了三天。",
+              "en": "We went trekking on Doi Inthanon for three days."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดำน้ำ",
+    "phonetic": "damnam",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "dam-náam · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ลงไปอยู่ใต้น้ำ",
+        "translations": {
+          "zh": "潜水",
+          "en": "to dive, to snorkel"
+        },
+        "examples": [
+          {
+            "text": "ที่เกาะเต่ามีจุดดำน้ำสวย ๆ เยอะ",
+            "translations": {
+              "zh": "涛岛有很多美丽的潜水点。",
+              "en": "Koh Tao has lots of beautiful dive spots."
+            }
+          }
+        ],
+        "usageNote": "ดำน้ำตื้น＝浮潜，ดำน้ำลึก＝深潜。"
+      }
+    ]
+  },
+  {
+    "headword": "ชมวิว",
+    "phonetic": "chomwio",
+    "cefr": "B1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "toneMarks": "chom-wiu · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "มองดูทิวทัศน์",
+        "translations": {
+          "zh": "观景；赏风景",
+          "en": "to enjoy the view"
+        },
+        "examples": [
+          {
+            "text": "เรานั่งชมวิวพระอาทิตย์ตกริมทะเล",
+            "translations": {
+              "zh": "我们坐在海边看日落。",
+              "en": "We sat by the sea enjoying the sunset view."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ของที่ระลึก",
+    "phonetic": "khongthiraluek",
+    "cefr": "B1",
+    "frequencyRank": 4900,
+    "grammarNotes": {
+      "toneMarks": "khɔ̌ɔng-thîi-rá-lʉ́k · 升, 降, 高, 高",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ของที่ซื้อไว้เพื่อให้นึกถึงการเดินทาง",
+        "translations": {
+          "zh": "纪念品",
+          "en": "souvenir"
+        },
+        "examples": [
+          {
+            "text": "ฉันซื้อของที่ระลึกให้เพื่อนที่ทำงาน",
+            "translations": {
+              "zh": "我给同事买了纪念品。",
+              "en": "I bought souvenirs for my colleagues."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เส้นทาง",
+    "phonetic": "senthang",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "toneMarks": "sên-thaang · 降, 中",
+      "classifier": "เส้น（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ทางที่ใช้เดินทางจากที่หนึ่งไปอีกที่หนึ่ง",
+        "translations": {
+          "zh": "路线",
+          "en": "route"
+        },
+        "examples": [
+          {
+            "text": "เส้นทางนี้รถไม่ค่อยติด",
+            "translations": {
+              "zh": "这条路线不怎么堵车。",
+              "en": "This route doesn't get much traffic."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ค่าธรรมเนียม",
+    "phonetic": "khathamniam",
+    "cefr": "B2",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "toneMarks": "khâa-tham-niam · 降, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เงินที่ต้องจ่ายเพื่อใช้บริการ",
+        "translations": {
+          "zh": "手续费；费用",
+          "en": "fee, service charge"
+        },
+        "examples": [
+          {
+            "text": "ถอนเงินจากตู้ต่างธนาคารเสียค่าธรรมเนียม",
+            "translations": {
+              "zh": "跨行取款要收手续费。",
+              "en": "Withdrawing from another bank's ATM incurs a fee."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ต่ออายุ",
+    "phonetic": "toayu",
+    "cefr": "B2",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "toneMarks": "tɔ̀ɔ-aa-yú · 低, 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้ใช้ได้ต่อไปอีก",
+        "translations": {
+          "zh": "续期；延期",
+          "en": "to renew, to extend"
+        },
+        "examples": [
+          {
+            "text": "ฉันต้องไปต่ออายุวีซ่าเดือนหน้า",
+            "translations": {
+              "zh": "我下个月要去续签证。",
+              "en": "I need to renew my visa next month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ท่าเรือ",
+    "phonetic": "tharuea",
+    "cefr": "B1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "toneMarks": "thâa-rʉa · 降, 中",
+      "classifier": "แห่ง（处）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ที่ที่เรือจอดให้คนขึ้นลง",
+        "translations": {
+          "zh": "码头；港口",
+          "en": "pier, port"
+        },
+        "examples": [
+          {
+            "text": "เรือไปเกาะสมุยออกจากท่าเรือนี้",
+            "translations": {
+              "zh": "去苏梅岛的船从这个码头出发。",
+              "en": "Boats to Koh Samui leave from this pier."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทัวร์",
+    "phonetic": "thua",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "thua · 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การท่องเที่ยวเป็นกลุ่มที่มีคนจัดให้",
+        "translations": {
+          "zh": "旅行团；观光游",
+          "en": "(package) tour"
+        },
+        "examples": [
+          {
+            "text": "ปีนี้พ่อแม่ไปทัวร์ญี่ปุ่น",
+            "translations": {
+              "zh": "今年爸妈跟团去了日本。",
+              "en": "This year my parents went on a tour of Japan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แบกเป้",
+    "phonetic": "baekpe",
+    "cefr": "B2",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "toneMarks": "bɛ̀ɛk-pêe · 低, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "สะพายกระเป๋าเป้เดินทางเที่ยวเอง",
+        "translations": {
+          "zh": "背包旅行",
+          "en": "to go backpacking"
+        },
+        "examples": [
+          {
+            "text": "ตอนเรียนจบเขาแบกเป้เที่ยวลาวคนเดียว",
+            "translations": {
+              "zh": "毕业时他一个人背包游老挝。",
+              "en": "After graduating he went backpacking alone in Laos."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นิทรรศการ",
+    "phonetic": "nithatsakan",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "ní-thát-sà-kaan · 高, 高, 低, 中",
+      "classifier": "งาน（场）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การนำสิ่งของหรือผลงานมาจัดแสดงให้คนดู",
+        "translations": {
+          "zh": "展览",
+          "en": "exhibition"
+        },
+        "examples": [
+          {
+            "text": "หอศิลป์มีนิทรรศการภาพถ่ายใหม่เดือนนี้",
+            "translations": {
+              "zh": "艺术馆这个月有新的摄影展。",
+              "en": "The art gallery has a new photography exhibition this month."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นวนิยาย",
+    "phonetic": "nawaniyai",
+    "cefr": "B2",
+    "frequencyRank": 5500,
+    "grammarNotes": {
+      "toneMarks": "ná-wá-ní-yaai · 高, 高, 高, 中",
+      "classifier": "เล่ม（本）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องแต่งขนาดยาว",
+        "translations": {
+          "zh": "长篇小说",
+          "en": "novel"
+        },
+        "examples": [
+          {
+            "text": "นวนิยายเรื่องนี้ถูกนำไปทำเป็นละคร",
+            "translations": {
+              "zh": "这部小说被改编成了电视剧。",
+              "en": "This novel was made into a TV drama."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "การแสดง",
+    "phonetic": "kansadaeng",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "kaan-sà-dɛɛng · 中, 低, 中",
+      "classifier": "ชุด（场，套）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่แสดงให้คนดู เช่น ละคร ระบำ",
+        "translations": {
+          "zh": "表演；演出",
+          "en": "performance, show"
+        },
+        "examples": [
+          {
+            "text": "การแสดงเริ่มสองทุ่มตรง",
+            "translations": {
+              "zh": "演出晚上八点整开始。",
+              "en": "The show starts at 8 p.m. sharp."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แสดง",
+    "phonetic": "sadaeng",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "toneMarks": "sà-dɛɛng · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้เห็น หรือเล่นบทบาทให้คนดู",
+        "translations": {
+          "zh": "表演；表现；显示",
+          "en": "to perform, to show"
+        },
+        "examples": [
+          {
+            "text": "ดาราคนนี้แสดงหนังมาหลายเรื่อง",
+            "translations": {
+              "zh": "这位明星演过很多电影。",
+              "en": "This star has acted in many films."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ศิลปะ",
+    "phonetic": "sinlapa",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "sǐn-lá-pà · 升, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "งานสร้างสรรค์ที่แสดงความงาม เช่น ภาพวาด ดนตรี",
+        "translations": {
+          "zh": "艺术",
+          "en": "art"
+        },
+        "examples": [
+          {
+            "text": "เธอเรียนศิลปะที่มหาวิทยาลัยศิลปากร",
+            "translations": {
+              "zh": "她在艺术大学学艺术。",
+              "en": "She studies art at Silpakorn University."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ศิลปิน",
+    "phonetic": "sinlapin",
+    "cefr": "B1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "toneMarks": "sǐn-lá-pin · 升, 高, 中",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่สร้างงานศิลปะ",
+        "translations": {
+          "zh": "艺术家；艺人",
+          "en": "artist"
+        },
+        "examples": [
+          {
+            "text": "ศิลปินคนนี้วาดรูปช้างเก่งมาก",
+            "translations": {
+              "zh": "这位艺术家画大象画得特别好。",
+              "en": "This artist is brilliant at painting elephants."
+            }
+          }
+        ],
+        "usageNote": "泰语中 ศิลปิน 也常指歌手等艺人。"
+      }
+    ]
+  },
+  {
+    "headword": "ประเพณี",
+    "phonetic": "prapheni",
+    "cefr": "B1",
+    "frequencyRank": 2900,
+    "grammarNotes": {
+      "toneMarks": "prà-phee-nii · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่คนในสังคมทำสืบต่อกันมานาน",
+        "translations": {
+          "zh": "传统；习俗",
+          "en": "tradition, custom"
+        },
+        "examples": [
+          {
+            "text": "การรดน้ำดำหัวเป็นประเพณีวันสงกรานต์",
+            "translations": {
+              "zh": "浴手礼是宋干节的传统。",
+              "en": "Pouring water on elders' hands is a Songkran tradition."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วัฒนธรรม",
+    "phonetic": "watthanatham",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "toneMarks": "wát-thá-ná-tham · 高, 高, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วิถีชีวิต ความคิด และความเชื่อของกลุ่มคน",
+        "translations": {
+          "zh": "文化",
+          "en": "culture"
+        },
+        "examples": [
+          {
+            "text": "วัฒนธรรมไทยกับจีนมีหลายอย่างคล้ายกัน",
+            "translations": {
+              "zh": "泰国文化和中国文化有很多相似之处。",
+              "en": "Thai and Chinese cultures have many things in common."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ทำบุญ",
+    "phonetic": "thambun",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "toneMarks": "tham-bun · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำความดีตามหลักศาสนา เช่น ถวายอาหารพระ",
+        "translations": {
+          "zh": "做功德；行善",
+          "en": "to make merit"
+        },
+        "examples": [
+          {
+            "text": "วันเกิดแม่ เราไปทำบุญที่วัด",
+            "translations": {
+              "zh": "妈妈生日那天，我们去寺庙做功德。",
+              "en": "On Mom's birthday we went to the temple to make merit."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ศาสนา",
+    "phonetic": "satsana",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "toneMarks": "sàat-sà-nǎa · 低, 低, 升",
+      "classifier": "ศาสนา（种宗教）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความเชื่อและคำสอนเกี่ยวกับสิ่งศักดิ์สิทธิ์",
+        "translations": {
+          "zh": "宗教",
+          "en": "religion"
+        },
+        "examples": [
+          {
+            "text": "คนไทยส่วนใหญ่นับถือศาสนาพุทธ",
+            "translations": {
+              "zh": "大多数泰国人信仰佛教。",
+              "en": "Most Thai people are Buddhist."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ใส่บาตร",
+    "phonetic": "saibat",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "sài-bàat · 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ให้อาหารพระที่ออกมาบิณฑบาตตอนเช้า",
+        "translations": {
+          "zh": "布施（给僧人斋饭）",
+          "en": "to give alms to monks"
+        },
+        "examples": [
+          {
+            "text": "ยายตื่นแต่เช้ามาใส่บาตรทุกวัน",
+            "translations": {
+              "zh": "外婆每天一早起来布施斋饭。",
+              "en": "Grandma gets up early to give alms every day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สวดมนต์",
+    "phonetic": "suatmon",
+    "cefr": "B1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "toneMarks": "sùat-mon · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ท่องบทสวดทางศาสนา",
+        "translations": {
+          "zh": "诵经；念经祈祷",
+          "en": "to chant, to pray"
+        },
+        "examples": [
+          {
+            "text": "ก่อนนอนลูกสาวสวดมนต์ทุกคืน",
+            "translations": {
+              "zh": "女儿每晚睡前都会念经祈祷。",
+              "en": "My daughter says her prayers every night before bed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เทศกาล",
+    "phonetic": "thetsakan",
+    "cefr": "B1",
+    "frequencyRank": 3100,
+    "grammarNotes": {
+      "toneMarks": "thêet-sà-kaan · 降, 低, 中",
+      "classifier": "เทศกาล（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ช่วงเวลาที่มีงานฉลองตามประเพณี",
+        "translations": {
+          "zh": "节日；节庆",
+          "en": "festival"
+        },
+        "examples": [
+          {
+            "text": "ช่วงเทศกาลกินเจ เยาวราชคนเยอะมาก",
+            "translations": {
+              "zh": "九皇斋节期间唐人街人非常多。",
+              "en": "During the Vegetarian Festival, Yaowarat is packed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สงกรานต์",
+    "phonetic": "songkran",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "toneMarks": "sǒng-kraan · 升, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "วันขึ้นปีใหม่ไทย ตรงกับกลางเดือนเมษายน",
+        "translations": {
+          "zh": "宋干节；泼水节",
+          "en": "Songkran (Thai New Year)"
+        },
+        "examples": [
+          {
+            "text": "สงกรานต์ปีนี้ฉันจะกลับบ้านต่างจังหวัด",
+            "translations": {
+              "zh": "今年泼水节我要回外府老家。",
+              "en": "This Songkran I'll go back to my hometown."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลอยกระทง",
+    "phonetic": "loikrathong",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "lɔɔi-krà-thong · 中, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ประเพณีลอยกระทงในแม่น้ำคืนวันเพ็ญเดือนสิบสอง",
+        "translations": {
+          "zh": "水灯节",
+          "en": "Loy Krathong (festival)"
+        },
+        "examples": [
+          {
+            "text": "คืนวันลอยกระทงคนไปริมแม่น้ำกันเยอะ",
+            "translations": {
+              "zh": "水灯节晚上很多人去河边。",
+              "en": "On Loy Krathong night, crowds head to the river."
+            }
+          }
+        ],
+        "usageNote": "也可作动词\"放水灯\"。"
+      }
+    ]
+  },
+  {
+    "headword": "พระพุทธรูป",
+    "phonetic": "phraphuttharup",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "toneMarks": "phrá-phút-thá-rûup · 高, 高, 高, 降",
+      "classifier": "องค์（尊）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รูปจำลองของพระพุทธเจ้า",
+        "translations": {
+          "zh": "佛像",
+          "en": "Buddha image"
+        },
+        "examples": [
+          {
+            "text": "ในโบสถ์มีพระพุทธรูปองค์ใหญ่",
+            "translations": {
+              "zh": "佛殿里有一尊大佛像。",
+              "en": "There is a large Buddha image in the chapel."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เจดีย์",
+    "phonetic": "chedi",
+    "cefr": "B2",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "toneMarks": "jee-dii · 中, 中",
+      "classifier": "องค์（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งก่อสร้างทรงยอดแหลมในวัด",
+        "translations": {
+          "zh": "佛塔",
+          "en": "stupa, pagoda"
+        },
+        "examples": [
+          {
+            "text": "เจดีย์องค์นี้มีอายุกว่าห้าร้อยปี",
+            "translations": {
+              "zh": "这座佛塔有五百多年历史。",
+              "en": "This stupa is over five hundred years old."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "โบสถ์",
+    "phonetic": "bot",
+    "cefr": "B2",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "toneMarks": "bòot · 低",
+      "classifier": "หลัง（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อาคารหลักในวัดที่ใช้ทำพิธี หรือที่ทำพิธีของศาสนาคริสต์",
+        "translations": {
+          "zh": "佛殿；教堂",
+          "en": "ordination hall; church"
+        },
+        "examples": [
+          {
+            "text": "ก่อนเข้าโบสถ์ต้องถอดรองเท้า",
+            "translations": {
+              "zh": "进佛殿前要脱鞋。",
+              "en": "You must take off your shoes before entering the hall."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ศาลเจ้า",
+    "phonetic": "sanchao",
+    "cefr": "B2",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "toneMarks": "sǎan-jâo · 升, 降",
+      "classifier": "แห่ง（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สถานที่บูชาเทพเจ้าหรือวิญญาณ",
+        "translations": {
+          "zh": "神庙；神祠",
+          "en": "shrine"
+        },
+        "examples": [
+          {
+            "text": "ศาลเจ้าจีนแห่งนี้คนมาไหว้ตอนตรุษจีน",
+            "translations": {
+              "zh": "春节时很多人来这座中国神庙拜拜。",
+              "en": "People come to pray at this Chinese shrine at New Year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ความเชื่อ",
+    "phonetic": "khwamchuea",
+    "cefr": "B1",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "toneMarks": "khwaam-chʉ̂a · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่คนเชื่อว่าเป็นจริง",
+        "translations": {
+          "zh": "信仰；信念",
+          "en": "belief"
+        },
+        "examples": [
+          {
+            "text": "คนไทยมีความเชื่อเรื่องผีมานาน",
+            "translations": {
+              "zh": "泰国人很早就有关于鬼神的信仰。",
+              "en": "Thai people have long held beliefs about spirits."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ดนตรี",
+    "phonetic": "dontri",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "toneMarks": "don-trii · 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เสียงเพลงที่เกิดจากการร้องหรือเล่นเครื่อง",
+        "translations": {
+          "zh": "音乐",
+          "en": "music"
+        },
+        "examples": [
+          {
+            "text": "ลูกชายชอบเล่นดนตรีมากกว่าเรียนหนังสือ",
+            "translations": {
+              "zh": "儿子更喜欢玩音乐而不是读书。",
+              "en": "My son prefers playing music to studying."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คอนเสิร์ต",
+    "phonetic": "khonsoet",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "khɔn-sə̀ət · 中, 低",
+      "classifier": "งาน（场）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การแสดงดนตรีให้คนดู",
+        "translations": {
+          "zh": "演唱会；音乐会",
+          "en": "concert"
+        },
+        "examples": [
+          {
+            "text": "บัตรคอนเสิร์ตขายหมดในห้านาที",
+            "translations": {
+              "zh": "演唱会门票五分钟就卖光了。",
+              "en": "The concert tickets sold out in five minutes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาพยนตร์",
+    "phonetic": "phapphayon",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "toneMarks": "phâap-phá-yon · 降, 高, 中",
+      "classifier": "เรื่อง（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องราวที่ถ่ายเป็นภาพเคลื่อนไหว",
+        "translations": {
+          "zh": "电影",
+          "en": "film, motion picture"
+        },
+        "examples": [
+          {
+            "text": "ภาพยนตร์ไทยเรื่องนี้ได้รางวัลจากต่างประเทศ",
+            "translations": {
+              "zh": "这部泰国电影获得了国外的奖项。",
+              "en": "This Thai film won an award abroad."
+            }
+          }
+        ],
+        "usageNote": "书面语，口语说 หนัง。"
+      }
+    ]
+  },
+  {
+    "headword": "ละคร",
+    "phonetic": "lakhon",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "toneMarks": "lá-khɔɔn · 高, 中",
+      "classifier": "เรื่อง（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่แสดงบนเวทีหรือในโทรทัศน์",
+        "translations": {
+          "zh": "戏剧；电视剧",
+          "en": "drama, play, soap opera"
+        },
+        "examples": [
+          {
+            "text": "แม่ดูละครหลังข่าวทุกคืน",
+            "translations": {
+              "zh": "妈妈每晚看新闻后的电视剧。",
+              "en": "Mom watches the evening soap opera every night."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นักแสดง",
+    "phonetic": "naksadaeng",
+    "cefr": "B1",
+    "frequencyRank": 3700,
+    "grammarNotes": {
+      "toneMarks": "nák-sà-dɛɛng · 高, 低, 中",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่แสดงละครหรือภาพยนตร์",
+        "translations": {
+          "zh": "演员",
+          "en": "actor, actress"
+        },
+        "examples": [
+          {
+            "text": "นักแสดงคนนี้ดังมากในประเทศจีน",
+            "translations": {
+              "zh": "这个演员在中国很有名。",
+              "en": "This actor is very famous in China."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ภาพวาด",
+    "phonetic": "phapwat",
+    "cefr": "B1",
+    "frequencyRank": 4700,
+    "grammarNotes": {
+      "toneMarks": "phâap-wâat · 降, 降",
+      "classifier": "ภาพ（幅）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "รูปที่วาดขึ้นด้วยมือ",
+        "translations": {
+          "zh": "画；绘画作品",
+          "en": "painting, drawing"
+        },
+        "examples": [
+          {
+            "text": "ภาพวาดในวัดเล่าเรื่องชาดก",
+            "translations": {
+              "zh": "寺庙里的壁画讲述佛本生故事。",
+              "en": "The paintings in the temple tell Jataka stories."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พิพิธภัณฑ์",
+    "phonetic": "phiphitthaphan",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "phí-phít-thá-phan · 高, 高, 高, 中",
+      "classifier": "แห่ง（座）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สถานที่เก็บและจัดแสดงของมีค่าทางประวัติศาสตร์",
+        "translations": {
+          "zh": "博物馆",
+          "en": "museum"
+        },
+        "examples": [
+          {
+            "text": "พิพิธภัณฑ์ปิดทุกวันจันทร์",
+            "translations": {
+              "zh": "博物馆每周一闭馆。",
+              "en": "The museum is closed every Monday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วรรณคดี",
+    "phonetic": "wannakhadi",
+    "cefr": "B2",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "toneMarks": "wan-ná-khá-dii · 中, 高, 高, 中",
+      "classifier": "เรื่อง（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "งานเขียนที่ได้รับยกย่องว่ามีคุณค่าสูง",
+        "translations": {
+          "zh": "文学（经典作品）",
+          "en": "literature, literary classic"
+        },
+        "examples": [
+          {
+            "text": "ขุนช้างขุนแผนเป็นวรรณคดีไทยที่มีชื่อเสียง",
+            "translations": {
+              "zh": "《坤昌坤平》是著名的泰国古典文学。",
+              "en": "Khun Chang Khun Phaen is a famous Thai literary classic."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "กวี",
+    "phonetic": "kawi",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "toneMarks": "kà-wii · 低, 中",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่แต่งบทกลอน",
+        "translations": {
+          "zh": "诗人",
+          "en": "poet"
+        },
+        "examples": [
+          {
+            "text": "สุนทรภู่เป็นกวีเอกของไทย",
+            "translations": {
+              "zh": "顺通蒲是泰国的大诗人。",
+              "en": "Sunthorn Phu is Thailand's great poet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประวัติศาสตร์",
+    "phonetic": "prawattisat",
+    "cefr": "B1",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "toneMarks": "prà-wàt-tì-sàat · 低, 低, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องราวที่เกิดขึ้นในอดีต",
+        "translations": {
+          "zh": "历史",
+          "en": "history"
+        },
+        "examples": [
+          {
+            "text": "ฉันชอบอ่านหนังสือประวัติศาสตร์ไทย",
+            "translations": {
+              "zh": "我喜欢读泰国历史书。",
+              "en": "I like reading books on Thai history."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "มรดก",
+    "phonetic": "moradok",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "mɔɔ-rá-dòk · 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ตกทอดมาจากคนรุ่นก่อน",
+        "translations": {
+          "zh": "遗产",
+          "en": "heritage, inheritance"
+        },
+        "examples": [
+          {
+            "text": "อยุธยาเป็นมรดกโลก",
+            "translations": {
+              "zh": "大城是世界遗产。",
+              "en": "Ayutthaya is a World Heritage Site."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พิธี",
+    "phonetic": "phithi",
+    "cefr": "B1",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "toneMarks": "phí-thii · 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การกระทำที่มีขั้นตอนตามประเพณีหรือศาสนา",
+        "translations": {
+          "zh": "仪式；典礼",
+          "en": "ceremony"
+        },
+        "examples": [
+          {
+            "text": "พิธีแต่งงานเริ่มตอนเก้าโมงเช้า",
+            "translations": {
+              "zh": "婚礼仪式早上九点开始。",
+              "en": "The wedding ceremony starts at 9 a.m."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "งานศพ",
+    "phonetic": "ngansop",
+    "cefr": "B1",
+    "frequencyRank": 4400,
+    "grammarNotes": {
+      "toneMarks": "ngaan-sòp · 中, 低",
+      "classifier": "งาน（场）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "พิธีสำหรับคนที่เสียชีวิต",
+        "translations": {
+          "zh": "葬礼",
+          "en": "funeral"
+        },
+        "examples": [
+          {
+            "text": "ไปงานศพควรใส่ชุดสีดำ",
+            "translations": {
+              "zh": "参加葬礼应该穿黑色衣服。",
+              "en": "You should wear black to a funeral."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "บวช",
+    "phonetic": "buat",
+    "cefr": "B1",
+    "frequencyRank": 4100,
+    "grammarNotes": {
+      "toneMarks": "bùat · 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "เข้าเป็นพระหรือเณร",
+        "translations": {
+          "zh": "出家；剃度",
+          "en": "to be ordained, to become a monk"
+        },
+        "examples": [
+          {
+            "text": "ผู้ชายไทยหลายคนบวชก่อนแต่งงาน",
+            "translations": {
+              "zh": "很多泰国男子婚前会短期出家。",
+              "en": "Many Thai men are ordained before they marry."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พระสงฆ์",
+    "phonetic": "phrasong",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "toneMarks": "phrá-sǒng · 高, 升",
+      "classifier": "รูป（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ชายที่บวชในศาสนาพุทธ",
+        "translations": {
+          "zh": "僧侣；和尚",
+          "en": "Buddhist monk"
+        },
+        "examples": [
+          {
+            "text": "ผู้หญิงไม่ควรแตะตัวพระสงฆ์",
+            "translations": {
+              "zh": "女性不应触碰僧人。",
+              "en": "Women should not touch monks."
+            }
+          }
+        ],
+        "usageNote": "僧人的量词用 รูป，不用 คน。"
+      }
+    ]
+  },
+  {
+    "headword": "เณร",
+    "phonetic": "nen",
+    "cefr": "B2",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "toneMarks": "neen · 中",
+      "classifier": "รูป（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เด็กชายที่บวชแต่ยังไม่เป็นพระ",
+        "translations": {
+          "zh": "小沙弥",
+          "en": "novice monk"
+        },
+        "examples": [
+          {
+            "text": "หลานชายบวชเณรช่วงปิดเทอม",
+            "translations": {
+              "zh": "侄子暑假期间出家当了小沙弥。",
+              "en": "My nephew became a novice during the school holidays."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ไหว้พระ",
+    "phonetic": "waiphra",
+    "cefr": "B1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "toneMarks": "wâi-phrá · 降, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไปที่วัดเพื่อกราบไหว้พระพุทธรูป",
+        "translations": {
+          "zh": "拜佛",
+          "en": "to pay respects at a temple"
+        },
+        "examples": [
+          {
+            "text": "ปีใหม่เราไปไหว้พระเก้าวัด",
+            "translations": {
+              "zh": "新年我们去拜了九座寺庙。",
+              "en": "At New Year we went to pay respects at nine temples."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ศีล",
+    "phonetic": "sin",
+    "cefr": "B2",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "toneMarks": "sǐin · 升",
+      "classifier": "ข้อ（条）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อห้ามที่ชาวพุทธควรปฏิบัติ",
+        "translations": {
+          "zh": "戒律",
+          "en": "(Buddhist) precepts"
+        },
+        "examples": [
+          {
+            "text": "วันพระยายจะถือศีลแปด",
+            "translations": {
+              "zh": "佛日外婆会持八戒。",
+              "en": "On holy days Grandma keeps the eight precepts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นิทาน",
+    "phonetic": "nithan",
+    "cefr": "B1",
+    "frequencyRank": 4300,
+    "grammarNotes": {
+      "toneMarks": "ní-thaan · 高, 中",
+      "classifier": "เรื่อง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่เล่าต่อกันมา มักมีข้อคิด",
+        "translations": {
+          "zh": "故事；寓言",
+          "en": "tale, fable"
+        },
+        "examples": [
+          {
+            "text": "พ่อเล่านิทานให้ลูกฟังก่อนนอน",
+            "translations": {
+              "zh": "爸爸睡前给孩子讲故事。",
+              "en": "Dad tells the kids a story before bed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นักเขียน",
+    "phonetic": "nakkhian",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "toneMarks": "nák-khǐan · 高, 升",
+      "classifier": "คน（位）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่เขียนหนังสือเป็นอาชีพ",
+        "translations": {
+          "zh": "作家",
+          "en": "writer, author"
+        },
+        "examples": [
+          {
+            "text": "เธออยากเป็นนักเขียนนิยาย",
+            "translations": {
+              "zh": "她想成为小说作家。",
+              "en": "She wants to be a novelist."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

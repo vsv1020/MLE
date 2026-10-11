@@ -1,0 +1,1447 @@
+[
+ {
+  "headword": "ติดต่อ",
+  "phonetic": "tit to",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "tìt-tɔ̀ɔ · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดคุยหรือส่งข่าวถึงกัน",
+    "translations": {
+     "zh": "联系",
+     "en": "contact; get in touch"
+    },
+    "examples": [
+     {
+      "text": "ติดต่อฉันทางไลน์ได้เลย",
+      "translations": {
+       "zh": "可以用 Line 联系我。",
+       "en": "You can contact me on Line."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พูดเล่น",
+  "phonetic": "phut len",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "phûut-lên · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดไม่จริงจังเพื่อให้ขำ",
+    "translations": {
+     "zh": "开玩笑",
+     "en": "joke; be kidding"
+    },
+    "examples": [
+     {
+      "text": "ไม่ต้องโกรธ ฉันพูดเล่น",
+      "translations": {
+       "zh": "别生气，我开玩笑的。",
+       "en": "Don't be angry, I was joking."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อนุญาต",
+  "phonetic": "anuyat",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "à-nú-yâat · 低, 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ยอมให้ทำได้",
+    "translations": {
+     "zh": "允许",
+     "en": "allow; permit"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่ไม่อนุญาตให้สูบบุหรี่",
+      "translations": {
+       "zh": "这里不允许吸烟。",
+       "en": "Smoking is not allowed here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สงสัย",
+  "phonetic": "songsai",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sǒng-sǎi · 升, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่แน่ใจ อยากรู้",
+    "translations": {
+     "zh": "怀疑；纳闷",
+     "en": "wonder; doubt"
+    },
+    "examples": [
+     {
+      "text": "ฉันสงสัยว่าเขาจะมาไหม",
+      "translations": {
+       "zh": "我在想他会不会来。",
+       "en": "I wonder whether he'll come."
+      }
+     }
+    ],
+    "usageNote": "有问题想问时可说 สงสัยอะไรถามได้ “有疑问可以问”。"
+   }
+  ]
+ },
+ {
+  "headword": "เชื่อ",
+  "phonetic": "chuea",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "chʉ̂a · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดว่าเป็นความจริง",
+    "translations": {
+     "zh": "相信",
+     "en": "believe"
+    },
+    "examples": [
+     {
+      "text": "ฉันไม่เชื่อเรื่องผี",
+      "translations": {
+       "zh": "我不相信有鬼。",
+       "en": "I don't believe in ghosts."
+      }
+     }
+    ],
+    "usageNote": "เชื่อ（降调）相信 vs เชื้อ（高调）细菌。"
+   }
+  ]
+ },
+ {
+  "headword": "คิดถึง",
+  "phonetic": "khit thueng",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "khít-thʉ̌ng · 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อยากเจออีก นึกถึงอยู่เสมอ",
+    "translations": {
+     "zh": "想念",
+     "en": "miss (someone)"
+    },
+    "examples": [
+     {
+      "text": "คิดถึงบ้านมากเลย",
+      "translations": {
+       "zh": "好想家啊。",
+       "en": "I really miss home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตัดสินใจ",
+  "phonetic": "tatsinchai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "tàt-sǐn-jai · 低, 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เลือกแล้วว่าจะทำอะไร",
+    "translations": {
+     "zh": "决定",
+     "en": "decide"
+    },
+    "examples": [
+     {
+      "text": "ฉันตัดสินใจเรียนภาษาไทย",
+      "translations": {
+       "zh": "我决定学泰语。",
+       "en": "I've decided to learn Thai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เห็นด้วย",
+  "phonetic": "hen duai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "hěn-dûai · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดเหมือนกัน",
+    "translations": {
+     "zh": "同意；赞成",
+     "en": "agree"
+    },
+    "examples": [
+     {
+      "text": "ฉันเห็นด้วยกับคุณ",
+      "translations": {
+       "zh": "我同意你的看法。",
+       "en": "I agree with you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฝัน",
+  "phonetic": "fan",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "fǎn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เห็นภาพตอนนอนหลับ หรืออยากให้เป็นจริง",
+    "translations": {
+     "zh": "做梦；梦想",
+     "en": "dream"
+    },
+    "examples": [
+     {
+      "text": "เมื่อคืนฉันฝันร้าย",
+      "translations": {
+       "zh": "昨晚我做了噩梦。",
+       "en": "I had a nightmare last night."
+      }
+     }
+    ],
+    "usageNote": "ฝัน（升调）做梦 vs ฟัน（中调）牙齿。"
+   }
+  ]
+ },
+ {
+  "headword": "หวัง",
+  "phonetic": "wang",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "wǎng · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อยากให้เป็นอย่างนั้น",
+    "translations": {
+     "zh": "希望",
+     "en": "hope"
+    },
+    "examples": [
+     {
+      "text": "หวังว่าพรุ่งนี้ฝนจะไม่ตก",
+      "translations": {
+       "zh": "希望明天不下雨。",
+       "en": "I hope it doesn't rain tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รู้สึก",
+  "phonetic": "rusuek",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "rúu-sʉ̀k · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รับรู้ทางใจหรือร่างกาย",
+    "translations": {
+     "zh": "感觉；觉得",
+     "en": "feel"
+    },
+    "examples": [
+     {
+      "text": "วันนี้รู้สึกไม่ค่อยสบาย",
+      "translations": {
+       "zh": "今天觉得不太舒服。",
+       "en": "I don't feel very well today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พยายาม",
+  "phonetic": "phayayam",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "phá-yaa-yaam · 高, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตั้งใจทำให้ได้",
+    "translations": {
+     "zh": "努力；尽量",
+     "en": "try; make an effort"
+    },
+    "examples": [
+     {
+      "text": "ฉันพยายามพูดภาษาไทยทุกวัน",
+      "translations": {
+       "zh": "我每天都努力说泰语。",
+       "en": "I try to speak Thai every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฝึก",
+  "phonetic": "fuek",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "fʉ̀k · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำบ่อยๆ ให้เก่งขึ้น",
+    "translations": {
+     "zh": "练习；训练",
+     "en": "practise; train"
+    },
+    "examples": [
+     {
+      "text": "ฉันฝึกพูดกับเพื่อนคนไทย",
+      "translations": {
+       "zh": "我和泰国朋友练口语。",
+       "en": "I practise speaking with my Thai friends."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ค้นหา",
+  "phonetic": "khon ha",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "khón-hǎa · 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หาอย่างละเอียด",
+    "translations": {
+     "zh": "寻找；搜索",
+     "en": "search for"
+    },
+    "examples": [
+     {
+      "text": "ลองค้นหาในกูเกิลดู",
+      "translations": {
+       "zh": "在谷歌上搜一下试试。",
+       "en": "Try searching on Google."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สังเกต",
+  "phonetic": "sangket",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "sǎng-kèet · 升, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูอย่างตั้งใจจนเห็น",
+    "translations": {
+     "zh": "注意到；观察",
+     "en": "notice; observe"
+    },
+    "examples": [
+     {
+      "text": "คุณสังเกตไหมว่าเขาเปลี่ยนไป",
+      "translations": {
+       "zh": "你注意到他变了吗？",
+       "en": "Have you noticed he's changed?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เดา",
+  "phonetic": "dao",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "dao · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตอบโดยไม่รู้แน่",
+    "translations": {
+     "zh": "猜",
+     "en": "guess"
+    },
+    "examples": [
+     {
+      "text": "ลองเดาดูสิว่าฉันอายุเท่าไร",
+      "translations": {
+       "zh": "猜猜我几岁。",
+       "en": "Guess how old I am."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เตือน",
+  "phonetic": "tuean",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "tʉan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้จำ หรือบอกให้ระวัง",
+    "translations": {
+     "zh": "提醒；警告",
+     "en": "remind; warn"
+    },
+    "examples": [
+     {
+      "text": "ช่วยเตือนฉันพรุ่งนี้ด้วย",
+      "translations": {
+       "zh": "明天记得提醒我。",
+       "en": "Please remind me tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สนใจ",
+  "phonetic": "sonchai",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "sǒn-jai · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อยากรู้ อยากทำ หรือใส่ใจ",
+    "translations": {
+     "zh": "感兴趣；在意",
+     "en": "be interested in"
+    },
+    "examples": [
+     {
+      "text": "ฉันสนใจวัฒนธรรมไทย",
+      "translations": {
+       "zh": "我对泰国文化感兴趣。",
+       "en": "I'm interested in Thai culture."
+      }
+     }
+    ],
+    "usageNote": "ไม่สนใจ = 不感兴趣、不在乎。"
+   }
+  ]
+ },
+ {
+  "headword": "เกลียด",
+  "phonetic": "kliat",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "klìat · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ชอบมากๆ",
+    "translations": {
+     "zh": "讨厌；恨",
+     "en": "hate"
+    },
+    "examples": [
+     {
+      "text": "ฉันเกลียดยุง",
+      "translations": {
+       "zh": "我讨厌蚊子。",
+       "en": "I hate mosquitoes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกรงใจ",
+  "phonetic": "krengchai",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "kreeng-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่อยากรบกวนหรือทำให้คนอื่นลำบาก",
+    "translations": {
+     "zh": "不好意思麻烦别人；客气",
+     "en": "be considerate; not want to impose"
+    },
+    "examples": [
+     {
+      "text": "ไม่ต้องเกรงใจนะ",
+      "translations": {
+       "zh": "别客气。",
+       "en": "Don't feel bad about asking."
+      }
+     }
+    ],
+    "usageNote": "泰国文化的核心概念：怕给别人添麻烦。ไม่ต้องเกรงใจ 相当于“别客气”。"
+   }
+  ]
+ },
+ {
+  "headword": "รบกวน",
+  "phonetic": "ropkuan",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "róp-kuan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้คนอื่นเสียเวลาหรือไม่สบาย",
+    "translations": {
+     "zh": "打扰；麻烦",
+     "en": "disturb; bother"
+    },
+    "examples": [
+     {
+      "text": "ขอโทษที่รบกวนนะครับ",
+      "translations": {
+       "zh": "不好意思打扰了。",
+       "en": "Sorry to bother you."
+      }
+     }
+    ],
+    "usageNote": "请人帮忙时常说 รบกวน…หน่อย “麻烦你…一下”。"
+   }
+  ]
+ },
+ {
+  "headword": "ชวน",
+  "phonetic": "chuan",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "chuan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้มาทำด้วยกัน",
+    "translations": {
+     "zh": "邀请；约",
+     "en": "invite; ask (someone) along"
+    },
+    "examples": [
+     {
+      "text": "เพื่อนชวนไปกินข้าวเย็น",
+      "translations": {
+       "zh": "朋友约我去吃晚饭。",
+       "en": "A friend invited me to dinner."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นัด",
+  "phonetic": "nat",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "nát · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตกลงเวลาที่จะเจอกัน",
+    "translations": {
+     "zh": "约（时间）",
+     "en": "make an appointment; arrange to meet"
+    },
+    "examples": [
+     {
+      "text": "เรานัดเจอกันหกโมงเย็น",
+      "translations": {
+       "zh": "我们约好傍晚六点见。",
+       "en": "We arranged to meet at six."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยกเลิก",
+  "phonetic": "yokloek",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "yók-lə̂ək · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ทำตามที่ตกลงไว้",
+    "translations": {
+     "zh": "取消",
+     "en": "cancel"
+    },
+    "examples": [
+     {
+      "text": "เที่ยวบินถูกยกเลิก",
+      "translations": {
+       "zh": "航班被取消了。",
+       "en": "The flight was cancelled."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เลื่อน",
+  "phonetic": "luean",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "lʉ̂an · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนเวลาไปทีหลัง หรือขยับ",
+    "translations": {
+     "zh": "推迟；挪动",
+     "en": "postpone; move"
+    },
+    "examples": [
+     {
+      "text": "ประชุมเลื่อนไปวันศุกร์",
+      "translations": {
+       "zh": "会议推到星期五了。",
+       "en": "The meeting has been moved to Friday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตรวจ",
+  "phonetic": "truat",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "trùat · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูว่าถูกต้องหรือเป็นอะไร",
+    "translations": {
+     "zh": "检查",
+     "en": "check; examine"
+    },
+    "examples": [
+     {
+      "text": "หมอตรวจแล้วบอกว่าไม่เป็นไร",
+      "translations": {
+       "zh": "医生检查后说没事。",
+       "en": "The doctor examined me and said it's nothing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดูแล",
+  "phonetic": "dulae",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "duu-lɛɛ · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาใจใส่ให้ปลอดภัยและสบาย",
+    "translations": {
+     "zh": "照顾",
+     "en": "take care of; look after"
+    },
+    "examples": [
+     {
+      "text": "ดูแลตัวเองด้วยนะ",
+      "translations": {
+       "zh": "照顾好自己哦。",
+       "en": "Take care of yourself."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เลี้ยง",
+  "phonetic": "liang",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "líang · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "จ่ายเงินค่าอาหารให้คนอื่น",
+    "translations": {
+     "zh": "请客",
+     "en": "treat (someone to a meal)"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ฉันเลี้ยงเอง",
+      "translations": {
+       "zh": "今天我请客。",
+       "en": "It's my treat today."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้อาหารและดูแลให้โต",
+    "translations": {
+     "zh": "养；抚养",
+     "en": "raise; keep (animals)"
+    },
+    "examples": [
+     {
+      "text": "บ้านเราเลี้ยงแมวสองตัว",
+      "translations": {
+       "zh": "我们家养了两只猫。",
+       "en": "We have two cats at home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชนะ",
+  "phonetic": "chana",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "chá-ná · 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ได้ผลดีกว่าอีกฝ่าย",
+    "translations": {
+     "zh": "赢；胜",
+     "en": "win"
+    },
+    "examples": [
+     {
+      "text": "ทีมไทยชนะสองต่อหนึ่ง",
+      "translations": {
+       "zh": "泰国队二比一获胜。",
+       "en": "Thailand won two to one."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แพ้",
+  "phonetic": "phae",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "phɛ́ɛ · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ชนะ",
+    "translations": {
+     "zh": "输",
+     "en": "lose (a game)"
+    },
+    "examples": [
+     {
+      "text": "เราแพ้อีกแล้ว",
+      "translations": {
+       "zh": "我们又输了。",
+       "en": "We lost again."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ร่างกายไม่รับบางอย่าง",
+    "translations": {
+     "zh": "过敏",
+     "en": "be allergic to"
+    },
+    "examples": [
+     {
+      "text": "ฉันแพ้กุ้ง",
+      "translations": {
+       "zh": "我对虾过敏。",
+       "en": "I'm allergic to shrimp."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เป็นห่วง",
+  "phonetic": "pen huang",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "pen-hùang · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "กลัวว่าคนที่รักจะไม่ปลอดภัย",
+    "translations": {
+     "zh": "担心；挂念",
+     "en": "worry about (someone)"
+    },
+    "examples": [
+     {
+      "text": "แม่เป็นห่วงลูกมาก",
+      "translations": {
+       "zh": "妈妈很担心孩子。",
+       "en": "Mum worries a lot about her child."
+      }
+     }
+    ],
+    "usageNote": "担心某人用 เป็นห่วง；对事情焦虑多用 กังวล。"
+   }
+  ]
+ },
+ {
+  "headword": "กังวล",
+  "phonetic": "kangwon",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "kang-won · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่สบายใจเพราะกลัวว่าจะไม่ดี",
+    "translations": {
+     "zh": "担心；焦虑",
+     "en": "anxious; worried"
+    },
+    "examples": [
+     {
+      "text": "อย่ากังวลไปเลย",
+      "translations": {
+       "zh": "别担心了。",
+       "en": "Don't worry about it."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เครียด",
+  "phonetic": "khriat",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "khrîat · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "คิดมากจนไม่สบายใจ",
+    "translations": {
+     "zh": "有压力；紧张",
+     "en": "stressed"
+    },
+    "examples": [
+     {
+      "text": "ช่วงนี้งานเยอะ เครียดมาก",
+      "translations": {
+       "zh": "最近工作多，压力很大。",
+       "en": "Lots of work lately, I'm really stressed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตื่นเต้น",
+  "phonetic": "tuen ten",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "tʉ̀ʉn-tên · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ใจเต้นแรงเพราะดีใจหรือกลัว",
+    "translations": {
+     "zh": "兴奋；紧张",
+     "en": "excited; nervous"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้จะไปเที่ยว ตื่นเต้นจัง",
+      "translations": {
+       "zh": "明天要去旅行，好兴奋！",
+       "en": "We're travelling tomorrow, so exciting!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตกใจ",
+  "phonetic": "tok chai",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "tòk-jai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "กลัวขึ้นมาทันที",
+    "translations": {
+     "zh": "吓一跳；受惊",
+     "en": "be startled; be shocked"
+    },
+    "examples": [
+     {
+      "text": "เสียงดังทำให้ฉันตกใจ",
+      "translations": {
+       "zh": "巨响吓了我一跳。",
+       "en": "The loud noise startled me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เบื่อ",
+  "phonetic": "buea",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "bʉ̀a · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่สนุก ไม่อยากทำต่อ",
+    "translations": {
+     "zh": "无聊；腻了",
+     "en": "bored; fed up"
+    },
+    "examples": [
+     {
+      "text": "อยู่บ้านทั้งวัน เบื่อมาก",
+      "translations": {
+       "zh": "整天在家，好无聊。",
+       "en": "Being at home all day is so boring."
+      }
+     }
+    ],
+    "usageNote": "เบื่อ + 名词 = 厌倦某事，如 เบื่องาน 厌倦工作。"
+   }
+  ]
+ },
+ {
+  "headword": "เหงา",
+  "phonetic": "ngao",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "ngǎo · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้สึกอยู่คนเดียว ไม่มีเพื่อน",
+    "translations": {
+     "zh": "孤单；寂寞",
+     "en": "lonely"
+    },
+    "examples": [
+     {
+      "text": "อยู่คนเดียวบางทีก็เหงา",
+      "translations": {
+       "zh": "一个人住有时会寂寞。",
+       "en": "Living alone gets lonely sometimes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาย",
+  "phonetic": "ai",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "aai · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้สึกไม่กล้า กลัวคนอื่นมอง",
+    "translations": {
+     "zh": "害羞；难为情",
+     "en": "embarrassed; shy"
+    },
+    "examples": [
+     {
+      "text": "เขาอายจนหน้าแดง",
+      "translations": {
+       "zh": "他害羞得脸都红了。",
+       "en": "He was so embarrassed he went red."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขี้อาย",
+  "phonetic": "khi ai",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "khîi-aai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อายง่าย",
+    "translations": {
+     "zh": "怕羞；腼腆",
+     "en": "shy (by nature)"
+    },
+    "examples": [
+     {
+      "text": "น้องสาวฉันขี้อายมาก",
+      "translations": {
+       "zh": "我妹妹很害羞。",
+       "en": "My little sister is very shy."
+      }
+     }
+    ],
+    "usageNote": "ขี้ + 形容词/动词 表示“爱…、容易…”，如 ขี้เกียจ 懒、ขี้ลืม 健忘。"
+   }
+  ]
+ },
+ {
+  "headword": "ใจดี",
+  "phonetic": "chai di",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "jai-dii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ชอบช่วยเหลือ ไม่ทำร้ายใคร",
+    "translations": {
+     "zh": "好心；善良",
+     "en": "kind"
+    },
+    "examples": [
+     {
+      "text": "คุณป้าข้างบ้านใจดีมาก",
+      "translations": {
+       "zh": "隔壁阿姨人很好。",
+       "en": "The lady next door is very kind."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใจร้าย",
+  "phonetic": "chai rai",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "jai-ráai · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ใจดี ทำให้คนอื่นเสียใจ",
+    "translations": {
+     "zh": "狠心；坏",
+     "en": "mean; cruel"
+    },
+    "examples": [
+     {
+      "text": "ทำไมใจร้ายแบบนี้",
+      "translations": {
+       "zh": "为什么这么狠心？",
+       "en": "Why are you being so mean?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตลก",
+  "phonetic": "talok",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "tà-lòk · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำให้หัวเราะ",
+    "translations": {
+     "zh": "好笑；搞笑",
+     "en": "funny"
+    },
+    "examples": [
+     {
+      "text": "หนังเรื่องนี้ตลกมาก",
+      "translations": {
+       "zh": "这部电影很搞笑。",
+       "en": "This film is really funny."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จริงจัง",
+  "phonetic": "chingchang",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "jing-jang · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ตั้งใจมาก ไม่เล่น",
+    "translations": {
+     "zh": "认真；严肃",
+     "en": "serious"
+    },
+    "examples": [
+     {
+      "text": "เขาจริงจังกับงานมาก",
+      "translations": {
+       "zh": "他对工作很认真。",
+       "en": "He takes his work very seriously."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขยัน",
+  "phonetic": "khayan",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "khà-yǎn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำงานหรือเรียนอย่างตั้งใจเสมอ",
+    "translations": {
+     "zh": "勤奋",
+     "en": "hard-working; diligent"
+    },
+    "examples": [
+     {
+      "text": "นักเรียนคนนี้ขยันมาก",
+      "translations": {
+       "zh": "这个学生很勤奋。",
+       "en": "This student is very hard-working."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขี้เกียจ",
+  "phonetic": "khi kiat",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "khîi-kìat · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่อยากทำอะไร",
+    "translations": {
+     "zh": "懒；懒得",
+     "en": "lazy"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ขี้เกียจทำอาหาร",
+      "translations": {
+       "zh": "今天懒得做饭。",
+       "en": "I can't be bothered to cook today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฉลาด",
+  "phonetic": "chalat",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "chà-làat · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "คิดเร็ว เรียนรู้เร็ว",
+    "translations": {
+     "zh": "聪明",
+     "en": "clever; smart"
+    },
+    "examples": [
+     {
+      "text": "หมาตัวนี้ฉลาดมาก",
+      "translations": {
+       "zh": "这只狗很聪明。",
+       "en": "This dog is very clever."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โง่",
+  "phonetic": "ngo",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "ngôo · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ฉลาด",
+    "translations": {
+     "zh": "笨；傻",
+     "en": "stupid"
+    },
+    "examples": [
+     {
+      "text": "ฉันโง่จริงๆ ลืมกุญแจอีกแล้ว",
+      "translations": {
+       "zh": "我真笨，又忘带钥匙了。",
+       "en": "How stupid of me, I forgot my keys again."
+      }
+     }
+    ],
+    "usageNote": "说别人 โง่ 很不礼貌，一般只用来说自己。"
+   }
+  ]
+ },
+ {
+  "headword": "ใจเย็น",
+  "phonetic": "chai yen",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jai-yen · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่โกรธง่าย ไม่รีบร้อน",
+    "translations": {
+     "zh": "冷静；有耐心",
+     "en": "calm; patient"
+    },
+    "examples": [
+     {
+      "text": "ใจเย็นๆ ก่อนนะ",
+      "translations": {
+       "zh": "先冷静一下。",
+       "en": "Calm down a moment."
+      }
+     }
+    ],
+    "usageNote": "ใจเย็นๆ 常用来劝人“别急、冷静”。"
+   }
+  ]
+ },
+ {
+  "headword": "สุภาพ",
+  "phonetic": "suphap",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "sù-phâap · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "พูดและทำอย่างมีมารยาท",
+    "translations": {
+     "zh": "有礼貌；文雅",
+     "en": "polite"
+    },
+    "examples": [
+     {
+      "text": "พนักงานร้านนี้สุภาพมาก",
+      "translations": {
+       "zh": "这家店的员工很有礼貌。",
+       "en": "The staff here are very polite."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เป็นมิตร",
+  "phonetic": "pen mit",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "pen-mít · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ดีกับคนอื่นเหมือนเพื่อน",
+    "translations": {
+     "zh": "友好",
+     "en": "friendly"
+    },
+    "examples": [
+     {
+      "text": "คนที่นี่เป็นมิตรมาก",
+      "translations": {
+       "zh": "这里的人很友好。",
+       "en": "People here are very friendly."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

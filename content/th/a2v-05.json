@@ -1,0 +1,1646 @@
+[
+ {
+  "headword": "ตอนที่",
+  "phonetic": "ton thi",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "tɔɔn-thîi · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ในเวลาที่",
+    "translations": {
+     "zh": "当…的时候",
+     "en": "when; at the time that"
+    },
+    "examples": [
+     {
+      "text": "ตอนที่ฉันมาถึง เขาหลับแล้ว",
+      "translations": {
+       "zh": "我到的时候，他已经睡了。",
+       "en": "When I arrived, he was already asleep."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เมื่อ",
+  "phonetic": "muea",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "mʉ̂a · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ในเวลาที่",
+    "translations": {
+     "zh": "当…时",
+     "en": "when"
+    },
+    "examples": [
+     {
+      "text": "เมื่อถึงบ้านแล้วโทรบอกนะ",
+      "translations": {
+       "zh": "到家后打电话告诉我。",
+       "en": "Call me when you get home."
+      }
+     }
+    ],
+    "usageNote": "比 ตอน 正式。เมื่อ（降调）vs เหมือน（升调，像）。"
+   }
+  ]
+ },
+ {
+  "headword": "จนกว่า",
+  "phonetic": "chon kwa",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jon-kwàa · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถึงเวลาที่",
+    "translations": {
+     "zh": "直到",
+     "en": "until"
+    },
+    "examples": [
+     {
+      "text": "รอตรงนี้จนกว่าฉันจะกลับมา",
+      "translations": {
+       "zh": "在这里等，直到我回来。",
+       "en": "Wait here until I come back."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จน",
+  "phonetic": "chon",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "jon · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถึงเวลานั้น หรือมากจนเกิดผล",
+    "translations": {
+     "zh": "直到；以至于",
+     "en": "until; so (much) that"
+    },
+    "examples": [
+     {
+      "text": "เขาทำงานจนดึก",
+      "translations": {
+       "zh": "他工作到很晚。",
+       "en": "He works until late."
+      }
+     }
+    ],
+    "usageNote": "จน 也是形容词“穷”。"
+   }
+  ]
+ },
+ {
+  "headword": "ตั้งแต่",
+  "phonetic": "tangtae",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "tâng-tɛ̀ɛ · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "เริ่มจากเวลาหรือที่นั้น",
+    "translations": {
+     "zh": "从…起；自从",
+     "en": "since; from"
+    },
+    "examples": [
+     {
+      "text": "ร้านเปิดตั้งแต่แปดโมง",
+      "translations": {
+       "zh": "店从八点开门。",
+       "en": "The shop is open from eight o'clock."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถ้าอย่างนั้น",
+  "phonetic": "tha yang nan",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "thâa-yàang-nán · 降, 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถ้าเป็นแบบนั้น",
+    "translations": {
+     "zh": "那样的话",
+     "en": "in that case"
+    },
+    "examples": [
+     {
+      "text": "ถ้าอย่างนั้นเจอกันพรุ่งนี้นะ",
+      "translations": {
+       "zh": "那样的话，明天见吧。",
+       "en": "In that case, see you tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "งั้น",
+  "phonetic": "ngan",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "ngán · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถ้าอย่างนั้น（ภาษาพูด）",
+    "translations": {
+     "zh": "那么；那就（口语）",
+     "en": "then; so (colloquial)"
+    },
+    "examples": [
+     {
+      "text": "งั้นไปกันเลย",
+      "translations": {
+       "zh": "那就走吧。",
+       "en": "Let's go, then."
+      }
+     }
+    ],
+    "usageNote": "口语中 อย่างนั้น 的缩略形式。"
+   }
+  ]
+ },
+ {
+  "headword": "อย่างไรก็ตาม",
+  "phonetic": "yangrai kotam",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "yàang-rai-kɔ̂ɔ-taam · 低, 中, 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ไม่ว่าจะเป็นอย่างไร",
+    "translations": {
+     "zh": "然而；无论如何",
+     "en": "however; anyway"
+    },
+    "examples": [
+     {
+      "text": "อย่างไรก็ตาม เราต้องลองดู",
+      "translations": {
+       "zh": "不管怎样，我们得试试。",
+       "en": "Anyway, we have to give it a try."
+      }
+     }
+    ],
+    "usageNote": "偏书面；口语常说 ยังไงก็ตาม。"
+   }
+  ]
+ },
+ {
+  "headword": "เพื่อ",
+  "phonetic": "phuea",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "phʉ̂a · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "เพราะต้องการให้",
+    "translations": {
+     "zh": "为了",
+     "en": "in order to; for"
+    },
+    "examples": [
+     {
+      "text": "ฉันเรียนภาษาไทยเพื่อทำงาน",
+      "translations": {
+       "zh": "我为了工作学泰语。",
+       "en": "I'm learning Thai for work."
+      }
+     }
+    ],
+    "usageNote": "别与 เพื่อน（朋友）混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "หรือว่า",
+  "phonetic": "rue wa",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "rʉ̌ʉ-wâa · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "หรือ",
+    "translations": {
+     "zh": "还是；或者",
+     "en": "or"
+    },
+    "examples": [
+     {
+      "text": "กินที่นี่หรือว่ากลับบ้าน",
+      "translations": {
+       "zh": "在这儿吃还是带走？",
+       "en": "Eat in or take away?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่งั้น",
+  "phonetic": "mai ngan",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "mâi-ngán · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ถ้าไม่ทำอย่างนั้น",
+    "translations": {
+     "zh": "不然；否则",
+     "en": "otherwise"
+    },
+    "examples": [
+     {
+      "text": "รีบไปเถอะ ไม่งั้นจะสาย",
+      "translations": {
+       "zh": "快走吧，不然要迟到了。",
+       "en": "Hurry up, otherwise we'll be late."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่วน",
+  "phonetic": "suan",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "sùan · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "สำหรับอีกคนหรืออีกเรื่อง",
+    "translations": {
+     "zh": "至于；而",
+     "en": "as for"
+    },
+    "examples": [
+     {
+      "text": "ฉันกินข้าวผัด ส่วนเขากินก๋วยเตี๋ยว",
+      "translations": {
+       "zh": "我吃炒饭，而他吃粿条。",
+       "en": "I'm having fried rice, and he's having noodles."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แล้วแต่",
+  "phonetic": "laeo tae",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "lɛ́ɛo-tɛ̀ɛ · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ให้คนนั้นตัดสินใจ",
+    "translations": {
+     "zh": "随…；看…而定",
+     "en": "it's up to; depends on"
+    },
+    "examples": [
+     {
+      "text": "แล้วแต่คุณเลย",
+      "translations": {
+       "zh": "随你吧。",
+       "en": "It's up to you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตอนแรก",
+  "phonetic": "ton raek",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "tɔɔn-rɛ̂ɛk · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ในช่วงเริ่มต้น",
+    "translations": {
+     "zh": "起初；一开始",
+     "en": "at first"
+    },
+    "examples": [
+     {
+      "text": "ตอนแรกฉันไม่ชอบ แต่ตอนนี้ชอบแล้ว",
+      "translations": {
+       "zh": "起初我不喜欢，但现在喜欢了。",
+       "en": "At first I didn't like it, but now I do."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เช่น",
+  "phonetic": "chen",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "chên · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ยกตัวอย่าง",
+    "translations": {
+     "zh": "例如；比如",
+     "en": "such as; for example"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบผลไม้ เช่น มะม่วงและส้ม",
+      "translations": {
+       "zh": "我喜欢水果，比如芒果和橙子。",
+       "en": "I like fruit, such as mangoes and oranges."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โดย",
+  "phonetic": "doi",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "dooi · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ด้วยวิธี หรือทำโดยใคร",
+    "translations": {
+     "zh": "通过；由",
+     "en": "by (means of)"
+    },
+    "examples": [
+     {
+      "text": "เราไปเชียงใหม่โดยรถไฟ",
+      "translations": {
+       "zh": "我们坐火车去清迈。",
+       "en": "We went to Chiang Mai by train."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกี่ยวกับ",
+  "phonetic": "kiao kap",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "kìao-kàp · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "เป็นเรื่องของ",
+    "translations": {
+     "zh": "关于",
+     "en": "about; concerning"
+    },
+    "examples": [
+     {
+      "text": "นี่คือหนังสือเกี่ยวกับประเทศไทย",
+      "translations": {
+       "zh": "这是一本关于泰国的书。",
+       "en": "This is a book about Thailand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แทน",
+  "phonetic": "thaen",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "thɛɛn · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ใช้หรือทำแทนที่อีกอย่าง",
+    "translations": {
+     "zh": "代替",
+     "en": "instead of; on behalf of"
+    },
+    "examples": [
+     {
+      "text": "ฉันดื่มชาแทนกาแฟ",
+      "translations": {
+       "zh": "我喝茶，不喝咖啡。",
+       "en": "I drink tea instead of coffee."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขึ้นอยู่กับ",
+  "phonetic": "khuen yu kap",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "khʉ̂n-yùu-kàp · 降, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "เป็นไปตามสิ่งนั้น",
+    "translations": {
+     "zh": "取决于",
+     "en": "depend on"
+    },
+    "examples": [
+     {
+      "text": "ขึ้นอยู่กับอากาศ",
+      "translations": {
+       "zh": "看天气而定。",
+       "en": "It depends on the weather."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทำให้",
+  "phonetic": "thamhai",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "tham-hâi · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เป็นเหตุให้เกิด",
+    "translations": {
+     "zh": "使；让",
+     "en": "make; cause"
+    },
+    "examples": [
+     {
+      "text": "ข่าวนี้ทำให้ฉันดีใจ",
+      "translations": {
+       "zh": "这个消息让我很高兴。",
+       "en": "This news made me happy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกิดขึ้น",
+  "phonetic": "koet khuen",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "kə̀ət-khʉ̂n · 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีขึ้นมา",
+    "translations": {
+     "zh": "发生",
+     "en": "happen; occur"
+    },
+    "examples": [
+     {
+      "text": "อุบัติเหตุเกิดขึ้นเมื่อคืน",
+      "translations": {
+       "zh": "事故发生在昨晚。",
+       "en": "The accident happened last night."
+      }
+     }
+    ],
+    "usageNote": "问“发生了什么事”说 เกิดอะไรขึ้น。"
+   }
+  ]
+ },
+ {
+  "headword": "ดูเหมือน",
+  "phonetic": "du muean",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "duu-mʉ̌an · 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูแล้วน่าจะเป็นอย่างนั้น",
+    "translations": {
+     "zh": "看起来；似乎",
+     "en": "seem; look like"
+    },
+    "examples": [
+     {
+      "text": "ดูเหมือนฝนจะตก",
+      "translations": {
+       "zh": "看起来要下雨了。",
+       "en": "It looks like it's going to rain."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น่าสนใจ",
+  "phonetic": "na sonchai",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "nâa-sǒn-jai · 降, 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำให้อยากรู้",
+    "translations": {
+     "zh": "有意思；值得关注",
+     "en": "interesting"
+    },
+    "examples": [
+     {
+      "text": "เรื่องนี้น่าสนใจมาก",
+      "translations": {
+       "zh": "这件事很有意思。",
+       "en": "This is very interesting."
+      }
+     }
+    ],
+    "usageNote": "น่า + 动词 = “令人…、值得…”，如 น่ากิน 看起来好吃、น่ากลัว 可怕。"
+   }
+  ]
+ },
+ {
+  "headword": "น่าเบื่อ",
+  "phonetic": "na buea",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "nâa-bʉ̀a · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำให้รู้สึกเบื่อ",
+    "translations": {
+     "zh": "无聊（令人厌烦）",
+     "en": "boring"
+    },
+    "examples": [
+     {
+      "text": "หนังเรื่องนี้น่าเบื่อ",
+      "translations": {
+       "zh": "这部电影很无聊。",
+       "en": "This film is boring."
+      }
+     }
+    ],
+    "usageNote": "น่าเบื่อ 说事物“无聊”；เบื่อ 说人“感到无聊”。"
+   }
+  ]
+ },
+ {
+  "headword": "น่ากลัว",
+  "phonetic": "na klua",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "nâa-klua · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำให้กลัว",
+    "translations": {
+     "zh": "可怕；吓人",
+     "en": "scary; frightening"
+    },
+    "examples": [
+     {
+      "text": "หมาตัวนั้นน่ากลัว",
+      "translations": {
+       "zh": "那只狗很吓人。",
+       "en": "That dog is scary."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สามารถ",
+  "phonetic": "samat",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "sǎa-mâat · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำได้",
+    "translations": {
+     "zh": "能够；可以",
+     "en": "can; be able to"
+    },
+    "examples": [
+     {
+      "text": "คุณสามารถจ่ายด้วยบัตรได้",
+      "translations": {
+       "zh": "您可以刷卡付款。",
+       "en": "You can pay by card."
+      }
+     }
+    ],
+    "usageNote": "正式用语，常与 ได้ 搭配：สามารถ…ได้。"
+   }
+  ]
+ },
+ {
+  "headword": "ควร",
+  "phonetic": "khuan",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "khuan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เหมาะที่จะทำ",
+    "translations": {
+     "zh": "应该",
+     "en": "should; ought to"
+    },
+    "examples": [
+     {
+      "text": "คุณควรพักผ่อนบ้าง",
+      "translations": {
+       "zh": "你应该休息一下。",
+       "en": "You should get some rest."
+      }
+     }
+    ],
+    "usageNote": "否定：ไม่ควร 不应该。"
+   }
+  ]
+ },
+ {
+  "headword": "น่าจะ",
+  "phonetic": "na cha",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "nâa-jà · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คิดว่าคงเป็นอย่างนั้น หรือควรจะ",
+    "translations": {
+     "zh": "应该（推测）；最好",
+     "en": "should; probably"
+    },
+    "examples": [
+     {
+      "text": "เขาน่าจะถึงแล้ว",
+      "translations": {
+       "zh": "他应该到了。",
+       "en": "He should have arrived by now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กำลังจะ",
+  "phonetic": "kamlang cha",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "kam-lang-jà · 中, 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ใกล้จะทำแล้ว",
+    "translations": {
+     "zh": "正要；即将",
+     "en": "be about to"
+    },
+    "examples": [
+     {
+      "text": "ฉันกำลังจะออกจากบ้าน",
+      "translations": {
+       "zh": "我正要出门。",
+       "en": "I'm just about to leave the house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใช้เวลา",
+  "phonetic": "chai wela",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "chái-wee-laa · 高, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ต้องมีเวลาเท่านี้",
+    "translations": {
+     "zh": "花（时间）",
+     "en": "take (time)"
+    },
+    "examples": [
+     {
+      "text": "ไปสนามบินใช้เวลาหนึ่งชั่วโมง",
+      "translations": {
+       "zh": "去机场要花一个小时。",
+       "en": "It takes an hour to get to the airport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ประหยัด",
+  "phonetic": "prayat",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "prà-yàt · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้น้อยๆ ไม่ให้เปลือง",
+    "translations": {
+     "zh": "节省",
+     "en": "save; be economical"
+    },
+    "examples": [
+     {
+      "text": "นั่งรถไฟฟ้าประหยัดเวลา",
+      "translations": {
+       "zh": "坐轻轨省时间。",
+       "en": "Taking the skytrain saves time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แบ่ง",
+  "phonetic": "baeng",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "bɛ̀ng · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แยกเป็นหลายส่วน หรือให้กัน",
+    "translations": {
+     "zh": "分；分享",
+     "en": "divide; share"
+    },
+    "examples": [
+     {
+      "text": "เราแบ่งกันกินคนละครึ่ง",
+      "translations": {
+       "zh": "我们一人一半分着吃。",
+       "en": "We shared it half each."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แลก",
+  "phonetic": "laek",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "lɛ̂ɛk · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้อย่างหนึ่งแล้วรับอีกอย่าง",
+    "translations": {
+     "zh": "换；兑换",
+     "en": "exchange; swap"
+    },
+    "examples": [
+     {
+      "text": "ฉันอยากแลกเงินหยวนเป็นบาท",
+      "translations": {
+       "zh": "我想把人民币换成泰铢。",
+       "en": "I'd like to change yuan into baht."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คืน",
+  "phonetic": "khuen",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "khʉʉn · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้กลับไปเจ้าของ",
+    "translations": {
+     "zh": "还；归还",
+     "en": "give back; return"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันจะคืนหนังสือ",
+      "translations": {
+       "zh": "明天我会还书。",
+       "en": "I'll return the book tomorrow."
+      }
+     }
+    ],
+    "usageNote": "คืน 也是名词“夜晚”，如 คืนนี้ 今晚。"
+   }
+  ]
+ },
+ {
+  "headword": "วาง",
+  "phonetic": "wang",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "waang · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาของไว้บนที่ใดที่หนึ่ง",
+    "translations": {
+     "zh": "放；放下",
+     "en": "put; place"
+    },
+    "examples": [
+     {
+      "text": "วางกระเป๋าไว้บนโต๊ะได้เลย",
+      "translations": {
+       "zh": "包可以放在桌子上。",
+       "en": "You can put your bag on the table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กด",
+  "phonetic": "kot",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "kòt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้นิ้วดันลงไป",
+    "translations": {
+     "zh": "按",
+     "en": "press; push (a button)"
+    },
+    "examples": [
+     {
+      "text": "กดปุ่มสีแดงเพื่อเปิดประตู",
+      "translations": {
+       "zh": "按红色按钮开门。",
+       "en": "Press the red button to open the door."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หยิบ",
+  "phonetic": "yip",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "yìp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้มือจับเอาขึ้นมา",
+    "translations": {
+     "zh": "拿；取",
+     "en": "pick up; pass"
+    },
+    "examples": [
+     {
+      "text": "ช่วยหยิบแก้วให้หน่อย",
+      "translations": {
+       "zh": "帮我拿一下杯子。",
+       "en": "Could you pass me a glass?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ห่อ",
+  "phonetic": "ho",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "hɔ̀ɔ · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาของใส่ถุงหรือกระดาษให้มิด",
+    "translations": {
+     "zh": "包；打包",
+     "en": "wrap; pack (to take away)"
+    },
+    "examples": [
+     {
+      "text": "ช่วยห่อกลับบ้านด้วยค่ะ",
+      "translations": {
+       "zh": "请帮我打包带走。",
+       "en": "Could you pack this to take away, please?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลด",
+  "phonetic": "lot",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "lót · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้น้อยลง",
+    "translations": {
+     "zh": "减少；降（价）",
+     "en": "reduce; lower"
+    },
+    "examples": [
+     {
+      "text": "ลดราคาหน่อยได้ไหม",
+      "translations": {
+       "zh": "能便宜一点吗？",
+       "en": "Can you lower the price a bit?"
+      }
+     }
+    ],
+    "usageNote": "砍价常用语：ลดหน่อยได้ไหม。"
+   }
+  ]
+ },
+ {
+  "headword": "เพิ่ม",
+  "phonetic": "phoem",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "phə̂əm · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้มากขึ้น",
+    "translations": {
+     "zh": "增加；加",
+     "en": "add; increase"
+    },
+    "examples": [
+     {
+      "text": "ขอเพิ่มไข่ดาวหนึ่งฟอง",
+      "translations": {
+       "zh": "加一个煎蛋。",
+       "en": "Could I add a fried egg?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ห้าม",
+  "phonetic": "ham",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "hâam · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ให้ทำ",
+    "translations": {
+     "zh": "禁止",
+     "en": "forbid; prohibit"
+    },
+    "examples": [
+     {
+      "text": "ห้ามสูบบุหรี่",
+      "translations": {
+       "zh": "禁止吸烟。",
+       "en": "No smoking."
+      }
+     }
+    ],
+    "usageNote": "告示常见：ห้าม + 动词。"
+   }
+  ]
+ },
+ {
+  "headword": "สอบ",
+  "phonetic": "sop",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sɔ̀ɔp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำข้อสอบเพื่อวัดความรู้",
+    "translations": {
+     "zh": "考试",
+     "en": "take an exam"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันต้องสอบ",
+      "translations": {
+       "zh": "明天我要考试。",
+       "en": "I have an exam tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลองดู",
+  "phonetic": "long du",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "lɔɔng-duu · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำดูว่าจะเป็นอย่างไร",
+    "translations": {
+     "zh": "试试看",
+     "en": "try and see; give it a try"
+    },
+    "examples": [
+     {
+      "text": "ลองดูก่อนสิ",
+      "translations": {
+       "zh": "先试试嘛。",
+       "en": "Just give it a try."
+      }
+     }
+    ],
+    "usageNote": "动词 + ดู 表示“试试”：ชิมดู 尝尝看。"
+   }
+  ]
+ },
+ {
+  "headword": "เสียดาย",
+  "phonetic": "siadai",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "sǐa-daai · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกไม่อยากเสียไป",
+    "translations": {
+     "zh": "可惜；舍不得",
+     "en": "regret; what a pity"
+    },
+    "examples": [
+     {
+      "text": "เสียดายจัง ไปไม่ได้",
+      "translations": {
+       "zh": "好可惜，去不了。",
+       "en": "What a pity I can't go."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บ้าง",
+  "phonetic": "bang",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "bâang · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "particle",
+    "definition": "คำที่ใช้ถามหรือบอกว่ามีหลายอย่าง",
+    "translations": {
+     "zh": "一些；（问）有哪些",
+     "en": "some; any"
+    },
+    "examples": [
+     {
+      "text": "มีอะไรบ้าง",
+      "translations": {
+       "zh": "都有些什么？",
+       "en": "What is there?"
+      }
+     }
+    ],
+    "usageNote": "疑问句末用 บ้าง 表示期待列举多个答案。บ้าง（降调）vs บาง（中调，某些）。"
+   }
+  ]
+ },
+ {
+  "headword": "สิ",
+  "phonetic": "si",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sì · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "particle",
+    "definition": "คำลงท้ายเพื่อชวนหรือเร่ง",
+    "translations": {
+     "zh": "嘛；吧（催促）",
+     "en": "(particle urging or insisting)"
+    },
+    "examples": [
+     {
+      "text": "มาสิ",
+      "translations": {
+       "zh": "来嘛！",
+       "en": "Come on!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เถอะ",
+  "phonetic": "thoe",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "thə̀ · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "particle",
+    "definition": "คำลงท้ายเพื่อชวนหรือแนะนำ",
+    "translations": {
+     "zh": "吧（建议）",
+     "en": "let's; (particle of suggestion)"
+    },
+    "examples": [
+     {
+      "text": "ไปกันเถอะ",
+      "translations": {
+       "zh": "我们走吧。",
+       "en": "Let's go."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ล่ะ",
+  "phonetic": "la",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "lâ · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "particle",
+    "definition": "คำลงท้ายประโยคคำถาม",
+    "translations": {
+     "zh": "呢",
+     "en": "(question particle: what about…?)"
+    },
+    "examples": [
+     {
+      "text": "แล้วคุณล่ะ",
+      "translations": {
+       "zh": "那你呢？",
+       "en": "And what about you?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หรอก",
+  "phonetic": "rok",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "rɔ̀k · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "particle",
+    "definition": "คำลงท้ายประโยคปฏิเสธให้นุ่มนวล",
+    "translations": {
+     "zh": "（否定加强）并不…啦",
+     "en": "(softens a negative)"
+    },
+    "examples": [
+     {
+      "text": "ไม่แพงหรอก",
+      "translations": {
+       "zh": "并不贵啦。",
+       "en": "It's not expensive, really."
+      }
+     }
+    ],
+    "usageNote": "只用于否定句：ไม่…หรอก。"
+   }
+  ]
+ },
+ {
+  "headword": "เหรอ",
+  "phonetic": "roe",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "rə̌ə · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "particle",
+    "definition": "คำถามว่าจริงหรือ（ภาษาพูด）",
+    "translations": {
+     "zh": "是吗？真的吗？",
+     "en": "really? (question particle)"
+    },
+    "examples": [
+     {
+      "text": "จริงเหรอ",
+      "translations": {
+       "zh": "真的吗？",
+       "en": "Really?"
+      }
+     }
+    ],
+    "usageNote": "口语，正式书写为 หรือ。"
+   }
+  ]
+ },
+ {
+  "headword": "สู้ๆ",
+  "phonetic": "su su",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "sûu-sûu · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "exclamation",
+    "definition": "คำให้กำลังใจ",
+    "translations": {
+     "zh": "加油！",
+     "en": "go for it! keep fighting!"
+    },
+    "examples": [
+     {
+      "text": "สู้ๆ นะ",
+      "translations": {
+       "zh": "加油哦！",
+       "en": "You can do it!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตามสบาย",
+  "phonetic": "tam sabai",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "taam-sà-baai · 中, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทำได้ตามที่อยากทำ ไม่ต้องเกรงใจ",
+    "translations": {
+     "zh": "请随意",
+     "en": "make yourself at home"
+    },
+    "examples": [
+     {
+      "text": "เชิญตามสบายเลยครับ",
+      "translations": {
+       "zh": "请随意。",
+       "en": "Please make yourself at home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไม่ไหว",
+  "phonetic": "mai wai",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "mâi-wǎi · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ทนต่อไม่ได้แล้ว",
+    "translations": {
+     "zh": "受不了；撑不住",
+     "en": "can't take it any more"
+    },
+    "examples": [
+     {
+      "text": "เหนื่อยจนไม่ไหวแล้ว",
+      "translations": {
+       "zh": "累得撑不住了。",
+       "en": "I'm so tired I can't go on."
+      }
+     }
+    ],
+    "usageNote": "肯定式 ไหว（升调）= 撑得住：ไหวไหม 还行吗？"
+   }
+  ]
+ },
+ {
+  "headword": "ไม่มีปัญหา",
+  "phonetic": "mai mi panha",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "mâi-mii-pan-hǎa · 降, 中, 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ได้ ไม่ยาก",
+    "translations": {
+     "zh": "没问题",
+     "en": "no problem"
+    },
+    "examples": [
+     {
+      "text": "ได้เลย ไม่มีปัญหา",
+      "translations": {
+       "zh": "行，没问题。",
+       "en": "Sure, no problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ก็ได้",
+  "phonetic": "ko dai",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "kɔ̂ɔ-dâai · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ได้เหมือนกัน ไม่ว่าอะไร",
+    "translations": {
+     "zh": "也行；都可以",
+     "en": "that's fine too; any … will do"
+    },
+    "examples": [
+     {
+      "text": "กินอะไรก็ได้",
+      "translations": {
+       "zh": "吃什么都行。",
+       "en": "Anything is fine to eat."
+      }
+     }
+    ],
+    "usageNote": "疑问词 + ก็ได้ = “…都行”：ที่ไหนก็ได้ 哪里都行。"
+   }
+  ]
+ },
+ {
+  "headword": "เป็นยังไงบ้าง",
+  "phonetic": "pen yang ngai bang",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "pen-yang-ngai-bâang · 中, 中, 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ถามว่าเป็นอย่างไร",
+    "translations": {
+     "zh": "怎么样了；近况如何",
+     "en": "how is it going?"
+    },
+    "examples": [
+     {
+      "text": "ช่วงนี้เป็นยังไงบ้าง",
+      "translations": {
+       "zh": "最近怎么样？",
+       "en": "How have you been lately?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยินดี",
+  "phonetic": "yindi",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "yin-dii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ดีใจ เต็มใจ",
+    "translations": {
+     "zh": "高兴；乐意",
+     "en": "glad; pleased"
+    },
+    "examples": [
+     {
+      "text": "ยินดีช่วยเสมอ",
+      "translations": {
+       "zh": "随时乐意帮忙。",
+       "en": "Always happy to help."
+      }
+     }
+    ],
+    "usageNote": "回答 ขอบคุณ 时可以说 ยินดีค่ะ/ครับ “不客气”。"
+   }
+  ]
+ },
+ {
+  "headword": "โชคร้าย",
+  "phonetic": "chok rai",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "chôok-ráai · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีเรื่องไม่ดีเกิดขึ้น",
+    "translations": {
+     "zh": "倒霉；不幸",
+     "en": "unlucky"
+    },
+    "examples": [
+     {
+      "text": "วันนี้โชคร้ายจริงๆ",
+      "translations": {
+       "zh": "今天真倒霉。",
+       "en": "What an unlucky day."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

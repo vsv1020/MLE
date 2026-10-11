@@ -21,7 +21,7 @@ struct PlusView: View {
                 CardContainer(style: .crayon) {
                     VStack(alignment: .leading, spacing: Spacing.md) {
                         benefit("books.vertical.fill", "更多词库",
-                                "英语核心词 B1–B2 和 C1，以后新出的词库也都包含在内。")
+                                "英语、法语、泰语的 B1–B2 和 C1 进阶词库，以后新出的词库也都包含在内。")
                         benefit("brain.head.profile", "按你的记忆调节",
                                 "根据你自己的复习记录调整复习安排。")
                         benefit("tshirt.fill", "麻薯的 Plus 衣橱",
@@ -33,7 +33,7 @@ struct PlusView: View {
                     }
                 }
 
-                Text("永远免费：学习你已有的所有单词、复习、小测验、每日目标、发音、英语核心词 A1–A2 和你自己添加的单词；还有学习中赢得的一切：星星糖、麻薯的等级和所有已解锁的装扮、贴纸、徽章、本周回顾和本周的家长报告。")
+                Text("永远免费：学习你已有的所有单词、复习、小测验、每日目标、发音、英语、法语、泰语的 A1–A2 核心词和你自己添加的单词；还有学习中赢得的一切：星星糖、麻薯的等级和所有已解锁的装扮、贴纸、徽章、本周回顾和本周的家长报告。")
                     .font(Typography.caption)
                     .foregroundStyle(Palette.textSecondary)
                     .multilineTextAlignment(.center)

@@ -1,0 +1,1488 @@
+[
+  {
+    "headword": "คำฟ้อง",
+    "phonetic": "kham fong",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "kham-fɔ́ɔng · 中, 高",
+      "classifier": "ฉบับ（份）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เอกสารที่ยื่นต่อศาลเพื่อเริ่มคดี",
+        "translations": {
+          "zh": "起诉书；诉状",
+          "en": "complaint; statement of claim"
+        },
+        "examples": [
+          {
+            "text": "ทนายยื่นคำฟ้องต่อศาลแพ่งแล้ว",
+            "translations": {
+              "zh": "律师已向民事法院递交诉状。",
+              "en": "The lawyer has filed the complaint with the civil court."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ฟ้องร้อง",
+    "phonetic": "fong rong",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "fɔ́ɔng-rɔ́ɔng · 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ดำเนินคดีต่อศาล",
+        "translations": {
+          "zh": "起诉；控告",
+          "en": "to sue; to take legal action"
+        },
+        "examples": [
+          {
+            "text": "ลูกค้าขู่ว่าจะฟ้องร้องบริษัท",
+            "translations": {
+              "zh": "顾客威胁要起诉公司。",
+              "en": "The customer threatened to sue the company."
+            }
+          }
+        ],
+        "usageNote": "口语常单说 ฟ้อง，也有“告状”的意思（ฟ้องครู 向老师告状）。"
+      }
+    ]
+  },
+  {
+    "headword": "จำเลย",
+    "phonetic": "chamloei",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "cam-ləəi · 中, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ถูกฟ้องในคดี",
+        "translations": {
+          "zh": "被告",
+          "en": "defendant"
+        },
+        "examples": [
+          {
+            "text": "จำเลยปฏิเสธทุกข้อกล่าวหา",
+            "translations": {
+              "zh": "被告否认所有指控。",
+              "en": "The defendant denied all charges."
+            }
+          }
+        ],
+        "usageNote": "与 โจทก์（原告）相对。"
+      }
+    ]
+  },
+  {
+    "headword": "โจทก์",
+    "phonetic": "chot",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "còot · 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ฟ้องคดีต่อศาล",
+        "translations": {
+          "zh": "原告",
+          "en": "plaintiff"
+        },
+        "examples": [
+          {
+            "text": "โจทก์เรียกค่าเสียหายห้าแสนบาท",
+            "translations": {
+              "zh": "原告索赔五十万泰铢。",
+              "en": "The plaintiff is claiming 500,000 baht in damages."
+            }
+          }
+        ],
+        "usageNote": "ก์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ทนายความ",
+    "phonetic": "thanai khwam",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "thá-naai-khwaam · 高, 中, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ว่าความในศาล",
+        "translations": {
+          "zh": "律师",
+          "en": "lawyer"
+        },
+        "examples": [
+          {
+            "text": "เขาจ้างทนายความมาสู้คดี",
+            "translations": {
+              "zh": "他请了律师来打官司。",
+              "en": "He hired a lawyer to fight the case."
+            }
+          }
+        ],
+        "usageNote": "口语常简称 ทนาย。"
+      }
+    ]
+  },
+  {
+    "headword": "พระราชบัญญัติ",
+    "phonetic": "phraratchabanyat",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "phrá-râat-chá-ban-yàt · 高, 降, 高, 中, 低",
+      "classifier": "ฉบับ（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กฎหมายที่ออกโดยรัฐสภา",
+        "translations": {
+          "zh": "法令；法案（议会通过的法律）",
+          "en": "act (of parliament)"
+        },
+        "examples": [
+          {
+            "text": "รัฐสภาผ่านพระราชบัญญัติฉบับใหม่",
+            "translations": {
+              "zh": "国会通过了新法令。",
+              "en": "Parliament passed a new act."
+            }
+          }
+        ],
+        "usageNote": "简称 พ.ร.บ.（读作 พอ-รอ-บอ）。"
+      }
+    ]
+  },
+  {
+    "headword": "รัฐธรรมนูญ",
+    "phonetic": "ratthathammanun",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "rát-thà-tham-má-nuun · 高, 低, 中, 高, 中",
+      "classifier": "ฉบับ（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กฎหมายสูงสุดของประเทศ",
+        "translations": {
+          "zh": "宪法",
+          "en": "constitution"
+        },
+        "examples": [
+          {
+            "text": "ประเทศไทยมีรัฐธรรมนูญมาแล้วหลายฉบับ",
+            "translations": {
+              "zh": "泰国已经有过很多部宪法。",
+              "en": "Thailand has had many constitutions."
+            }
+          }
+        ],
+        "usageNote": "แก้ไขรัฐธรรมนูญ 修宪。"
+      }
+    ]
+  },
+  {
+    "headword": "คำพิพากษา",
+    "phonetic": "kham phiphaksa",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "kham-phí-phâak-sǎa · 中, 高, 降, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คำตัดสินของศาล",
+        "translations": {
+          "zh": "判决",
+          "en": "judgment; verdict"
+        },
+        "examples": [
+          {
+            "text": "ศาลอ่านคำพิพากษาเมื่อเช้านี้",
+            "translations": {
+              "zh": "法院今早宣读了判决。",
+              "en": "The court read out its judgment this morning."
+            }
+          }
+        ],
+        "usageNote": "动词 พิพากษา 审判、判决。"
+      }
+    ]
+  },
+  {
+    "headword": "อุทธรณ์",
+    "phonetic": "utthon",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "ùt-thɔɔn · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ยื่นขอให้ศาลสูงพิจารณาคดีใหม่",
+        "translations": {
+          "zh": "上诉",
+          "en": "to appeal"
+        },
+        "examples": [
+          {
+            "text": "จำเลยจะอุทธรณ์คำตัดสินนี้",
+            "translations": {
+              "zh": "被告将对这一判决提出上诉。",
+              "en": "The defendant will appeal this ruling."
+            }
+          }
+        ],
+        "usageNote": "ศาลอุทธรณ์ 上诉法院。ณ์ 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "พยาน",
+    "phonetic": "phayan",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "phá-yaan · 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ที่เห็นหรือรู้เหตุการณ์และให้การ",
+        "translations": {
+          "zh": "证人",
+          "en": "witness"
+        },
+        "examples": [
+          {
+            "text": "ตำรวจกำลังตามหาพยานในที่เกิดเหตุ",
+            "translations": {
+              "zh": "警方正在寻找现场证人。",
+              "en": "Police are looking for witnesses at the scene."
+            }
+          }
+        ],
+        "usageNote": "พยานหลักฐาน 证据。"
+      }
+    ]
+  },
+  {
+    "headword": "หลักฐาน",
+    "phonetic": "lakthan",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "toneMarks": "làk-thǎan · 低, 升",
+      "classifier": "ชิ้น（件）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิ่งที่ใช้พิสูจน์ความจริง",
+        "translations": {
+          "zh": "证据；凭证",
+          "en": "evidence; proof"
+        },
+        "examples": [
+          {
+            "text": "ไม่มีหลักฐานว่าเขาทำผิด",
+            "translations": {
+              "zh": "没有证据表明他犯了错。",
+              "en": "There is no evidence that he did wrong."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้ต้องหา",
+    "phonetic": "phu tong ha",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "phûu-tɔ̂ng-hǎa · 降, 降, 升",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้ถูกกล่าวหาว่ากระทำผิดก่อนขึ้นศาล",
+        "translations": {
+          "zh": "犯罪嫌疑人",
+          "en": "suspect; the accused"
+        },
+        "examples": [
+          {
+            "text": "ตำรวจควบคุมตัวผู้ต้องหาไว้แล้ว",
+            "translations": {
+              "zh": "警方已拘押嫌疑人。",
+              "en": "Police have taken the suspect into custody."
+            }
+          }
+        ],
+        "usageNote": "字面“被指控的人”。起诉到法院后称 จำเลย。"
+      }
+    ]
+  },
+  {
+    "headword": "ประกันตัว",
+    "phonetic": "prakan tua",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "prà-kan-tua · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ขอปล่อยตัวชั่วคราวโดยวางหลักประกัน",
+        "translations": {
+          "zh": "保释",
+          "en": "to release on bail"
+        },
+        "examples": [
+          {
+            "text": "ศาลอนุญาตให้ประกันตัวผู้ต้องหา",
+            "translations": {
+              "zh": "法院准许嫌疑人保释。",
+              "en": "The court granted the suspect bail."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "จับกุม",
+    "phonetic": "chap kum",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "càp-kum · 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "จับตัวผู้กระทำผิดตามกฎหมาย",
+        "translations": {
+          "zh": "逮捕",
+          "en": "to arrest"
+        },
+        "examples": [
+          {
+            "text": "ตำรวจจับกุมผู้ค้ายาเสพติดได้สามคน",
+            "translations": {
+              "zh": "警方逮捕了三名毒贩。",
+              "en": "Police arrested three drug dealers."
+            }
+          }
+        ],
+        "usageNote": "比 จับ 更正式，用于新闻。"
+      }
+    ]
+  },
+  {
+    "headword": "ละเมิด",
+    "phonetic": "lamoet",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "lá-mə̂ət · 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำผิดหรือล่วงสิทธิ์ผู้อื่น",
+        "translations": {
+          "zh": "侵犯；违反",
+          "en": "to violate; to infringe"
+        },
+        "examples": [
+          {
+            "text": "การดาวน์โหลดหนังเถื่อนเป็นการละเมิดลิขสิทธิ์",
+            "translations": {
+              "zh": "下载盗版电影属于侵犯版权。",
+              "en": "Downloading pirated films infringes copyright."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ลิขสิทธิ์",
+    "phonetic": "likkhasit",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "lík-khà-sìt · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิทธิ์ของเจ้าของผลงานสร้างสรรค์",
+        "translations": {
+          "zh": "版权；著作权",
+          "en": "copyright"
+        },
+        "examples": [
+          {
+            "text": "เพลงนี้มีลิขสิทธิ์ ห้ามนำไปใช้",
+            "translations": {
+              "zh": "这首歌有版权，禁止擅自使用。",
+              "en": "This song is copyrighted; do not use it."
+            }
+          }
+        ],
+        "usageNote": "ของละเมิดลิขสิทธิ์ 盗版货。"
+      }
+    ]
+  },
+  {
+    "headword": "สิทธิมนุษยชน",
+    "phonetic": "sitthi manutsayachon",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "sìt-thí-má-nút-sà-yá-chon · 低, 高, 高, 高, 低, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิทธิพื้นฐานของมนุษย์ทุกคน",
+        "translations": {
+          "zh": "人权",
+          "en": "human rights"
+        },
+        "examples": [
+          {
+            "text": "องค์กรนี้ปกป้องสิทธิมนุษยชน",
+            "translations": {
+              "zh": "这个组织捍卫人权。",
+              "en": "This organisation defends human rights."
+            }
+          }
+        ],
+        "usageNote": "สิทธิ 权利 + มนุษยชน 人类。"
+      }
+    ]
+  },
+  {
+    "headword": "กระทรวง",
+    "phonetic": "krasuang",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "krà-suang · 低, 中",
+      "classifier": "แห่ง（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "หน่วยงานระดับสูงของรัฐบาล",
+        "translations": {
+          "zh": "（政府）部",
+          "en": "ministry"
+        },
+        "examples": [
+          {
+            "text": "กระทรวงสาธารณสุขออกประกาศเตือนประชาชน",
+            "translations": {
+              "zh": "卫生部向民众发出警告。",
+              "en": "The Ministry of Public Health issued a warning to the public."
+            }
+          }
+        ],
+        "usageNote": "ทร 读作 ซ。"
+      }
+    ]
+  },
+  {
+    "headword": "รัฐมนตรี",
+    "phonetic": "ratthamontri",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "rát-thà-mon-trii · 高, 低, 中, 中",
+      "classifier": "คน（人）；ท่าน（位，敬称）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้บริหารสูงสุดของกระทรวง",
+        "translations": {
+          "zh": "部长",
+          "en": "minister"
+        },
+        "examples": [
+          {
+            "text": "รัฐมนตรีคลังแถลงข่าวเมื่อวานนี้",
+            "translations": {
+              "zh": "财政部长昨天召开了新闻发布会。",
+              "en": "The finance minister held a press conference yesterday."
+            }
+          }
+        ],
+        "usageNote": "นายกรัฐมนตรี 总理。"
+      }
+    ]
+  },
+  {
+    "headword": "วุฒิสภา",
+    "phonetic": "wutthisapha",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "wút-thí-sà-phaa · 高, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สภาสูงในระบบรัฐสภา",
+        "translations": {
+          "zh": "参议院",
+          "en": "senate"
+        },
+        "examples": [
+          {
+            "text": "ร่างกฎหมายนี้ต้องผ่านวุฒิสภาก่อน",
+            "translations": {
+              "zh": "这项法案须先经参议院通过。",
+              "en": "This bill must first pass the Senate."
+            }
+          }
+        ],
+        "usageNote": "สมาชิกวุฒิสภา（ส.ว.）参议员。"
+      }
+    ]
+  },
+  {
+    "headword": "ร่างกฎหมาย",
+    "phonetic": "rang kotmai",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "râang-kòt-mǎai · 降, 低, 升",
+      "classifier": "ฉบับ（部）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กฎหมายที่ยังไม่ผ่านการอนุมัติ",
+        "translations": {
+          "zh": "法律草案；议案",
+          "en": "bill (draft law)"
+        },
+        "examples": [
+          {
+            "text": "สภากำลังพิจารณาร่างกฎหมายฉบับนี้",
+            "translations": {
+              "zh": "议会正在审议这部法律草案。",
+              "en": "Parliament is considering this bill."
+            }
+          }
+        ],
+        "usageNote": "ร่าง 意为“草稿、起草”。"
+      }
+    ]
+  },
+  {
+    "headword": "บังคับใช้",
+    "phonetic": "bangkhap chai",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "bang-kháp-chái · 中, 高, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ทำให้กฎหมายมีผลจริง",
+        "translations": {
+          "zh": "实施；执行（法律）",
+          "en": "to enforce; to come into force"
+        },
+        "examples": [
+          {
+            "text": "กฎหมายใหม่จะเริ่มบังคับใช้ปีหน้า",
+            "translations": {
+              "zh": "新法将于明年开始实施。",
+              "en": "The new law will come into force next year."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ผู้สมัคร",
+    "phonetic": "phu samak",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phûu-sà-màk · 降, 低, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "คนที่สมัครเข้ารับเลือกหรือสมัครงาน",
+        "translations": {
+          "zh": "候选人；申请人",
+          "en": "candidate; applicant"
+        },
+        "examples": [
+          {
+            "text": "ผู้สมัครทุกคนต้องผ่านการสัมภาษณ์",
+            "translations": {
+              "zh": "所有申请人都要通过面试。",
+              "en": "All applicants must pass an interview."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "พรรคการเมือง",
+    "phonetic": "phak kan mueang",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phák-kaan-mʉang · 高, 中, 中",
+      "classifier": "พรรค（个）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มคนที่รวมตัวเพื่อแข่งขันทางการเมือง",
+        "translations": {
+          "zh": "政党",
+          "en": "political party"
+        },
+        "examples": [
+          {
+            "text": "พรรคการเมืองนี้ชนะการเลือกตั้ง",
+            "translations": {
+              "zh": "这个政党赢得了选举。",
+              "en": "This political party won the election."
+            }
+          }
+        ],
+        "usageNote": "พรรค 读 พัก。"
+      }
+    ]
+  },
+  {
+    "headword": "ฝ่ายค้าน",
+    "phonetic": "fai khan",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "fàai-kháan · 低, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "กลุ่มการเมืองที่ไม่ได้เป็นรัฐบาล",
+        "translations": {
+          "zh": "反对派；在野党",
+          "en": "the opposition"
+        },
+        "examples": [
+          {
+            "text": "ฝ่ายค้านยื่นอภิปรายไม่ไว้วางใจ",
+            "translations": {
+              "zh": "反对党提出不信任辩论。",
+              "en": "The opposition filed a no-confidence debate."
+            }
+          }
+        ],
+        "usageNote": "ค้าน 意为“反对”。与 ฝ่ายรัฐบาล 相对。"
+      }
+    ]
+  },
+  {
+    "headword": "รัฐประหาร",
+    "phonetic": "rat prahan",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "rát-prà-hǎan · 高, 低, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การยึดอำนาจรัฐโดยใช้กำลัง",
+        "translations": {
+          "zh": "政变",
+          "en": "coup d'état"
+        },
+        "examples": [
+          {
+            "text": "เกิดรัฐประหารขึ้นในปี 2557",
+            "translations": {
+              "zh": "2557年（佛历）发生了政变。",
+              "en": "A coup took place in 2014 (B.E. 2557)."
+            }
+          }
+        ],
+        "usageNote": "ทำรัฐประหาร 发动政变。"
+      }
+    ]
+  },
+  {
+    "headword": "ประชามติ",
+    "phonetic": "prachamati",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "prà-chaa-má-tì · 低, 中, 高, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การให้ประชาชนลงคะแนนตัดสินเรื่องสำคัญ",
+        "translations": {
+          "zh": "全民公投；民意",
+          "en": "referendum"
+        },
+        "examples": [
+          {
+            "text": "รัฐบาลจะจัดทำประชามติเรื่องรัฐธรรมนูญ",
+            "translations": {
+              "zh": "政府将就宪法举行全民公投。",
+              "en": "The government will hold a referendum on the constitution."
+            }
+          }
+        ],
+        "usageNote": "ประชา 民众 + มติ 决议。"
+      }
+    ]
+  },
+  {
+    "headword": "อธิปไตย",
+    "phonetic": "athippatai",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "à-thíp-pà-tai · 低, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "อำนาจสูงสุดในการปกครองประเทศ",
+        "translations": {
+          "zh": "主权",
+          "en": "sovereignty"
+        },
+        "examples": [
+          {
+            "text": "ทุกประเทศต้องเคารพอธิปไตยของกันและกัน",
+            "translations": {
+              "zh": "各国必须相互尊重主权。",
+              "en": "All countries must respect one another's sovereignty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ประชาธิปไตย",
+    "phonetic": "prachathippatai",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "toneMarks": "prà-chaa-thíp-pà-tai · 低, 中, 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ระบอบที่ประชาชนเป็นเจ้าของอำนาจ",
+        "translations": {
+          "zh": "民主；民主制度",
+          "en": "democracy"
+        },
+        "examples": [
+          {
+            "text": "ประชาชนเรียกร้องประชาธิปไตย",
+            "translations": {
+              "zh": "民众要求民主。",
+              "en": "The people are demanding democracy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "เผด็จการ",
+    "phonetic": "phadetkan",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "phà-dèt-kaan · 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การปกครองที่ผู้นำมีอำนาจเด็ดขาด",
+        "translations": {
+          "zh": "独裁；专制",
+          "en": "dictatorship"
+        },
+        "examples": [
+          {
+            "text": "ประเทศนั้นอยู่ใต้ระบอบเผด็จการหลายสิบปี",
+            "translations": {
+              "zh": "那个国家被独裁统治了几十年。",
+              "en": "That country lived under dictatorship for decades."
+            }
+          }
+        ],
+        "usageNote": "เผด็จการทหาร 军事独裁。"
+      }
+    ]
+  },
+  {
+    "headword": "ทุจริต",
+    "phonetic": "thutcharit",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "thút-cà-rìt · 高, 低, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "โกงหรือใช้อำนาจหาประโยชน์โดยมิชอบ",
+        "translations": {
+          "zh": "贪污；舞弊",
+          "en": "to be corrupt; to commit fraud"
+        },
+        "examples": [
+          {
+            "text": "นักการเมืองคนนั้นถูกกล่าวหาว่าทุจริต",
+            "translations": {
+              "zh": "那名政客被指控贪污。",
+              "en": "That politician was accused of corruption."
+            }
+          }
+        ],
+        "usageNote": "ทุจริตคอร์รัปชัน 贪腐；ทุจริตการสอบ 考试作弊。"
+      }
+    ]
+  },
+  {
+    "headword": "ยุติธรรม",
+    "phonetic": "yutitham",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "yú-tì-tham · 高, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ถูกต้องตามความเป็นธรรม",
+        "translations": {
+          "zh": "公正；公平",
+          "en": "fair; just"
+        },
+        "examples": [
+          {
+            "text": "การตัดสินครั้งนี้ไม่ยุติธรรมเลย",
+            "translations": {
+              "zh": "这次判决一点都不公正。",
+              "en": "This ruling is not fair at all."
+            }
+          }
+        ],
+        "usageNote": "กระทรวงยุติธรรม 司法部。"
+      }
+    ]
+  },
+  {
+    "headword": "ตุลาการ",
+    "phonetic": "tulakan",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "tù-laa-kaan · 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้พิพากษาหรืออำนาจในการตัดสินคดี",
+        "translations": {
+          "zh": "司法；法官",
+          "en": "the judiciary; judge"
+        },
+        "examples": [
+          {
+            "text": "อำนาจตุลาการต้องเป็นอิสระ",
+            "translations": {
+              "zh": "司法权必须独立。",
+              "en": "Judicial power must be independent."
+            }
+          }
+        ],
+        "usageNote": "三权：นิติบัญญัติ 立法、บริหาร 行政、ตุลาการ 司法。"
+      }
+    ]
+  },
+  {
+    "headword": "อัยการ",
+    "phonetic": "aiyakan",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "ai-yá-kaan · 中, 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เจ้าหน้าที่รัฐผู้ฟ้องคดีอาญา",
+        "translations": {
+          "zh": "检察官",
+          "en": "public prosecutor"
+        },
+        "examples": [
+          {
+            "text": "อัยการสั่งฟ้องผู้ต้องหาทั้งสามคน",
+            "translations": {
+              "zh": "检察官对三名嫌疑人提起公诉。",
+              "en": "The prosecutor indicted all three suspects."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "นิติบุคคล",
+    "phonetic": "nitibukkhon",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "ní-tì-bùk-khon · 高, 低, 低, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "องค์กรที่กฎหมายถือว่าเป็นบุคคล",
+        "translations": {
+          "zh": "法人",
+          "en": "juristic person; legal entity"
+        },
+        "examples": [
+          {
+            "text": "บริษัทจำกัดเป็นนิติบุคคล",
+            "translations": {
+              "zh": "有限公司是法人。",
+              "en": "A limited company is a legal entity."
+            }
+          }
+        ],
+        "usageNote": "与 บุคคลธรรมดา（自然人）相对。"
+      }
+    ]
+  },
+  {
+    "headword": "จำคุก",
+    "phonetic": "chamkhuk",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "cam-khúk · 中, 高"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ขังไว้ในคุกเป็นการลงโทษ",
+        "translations": {
+          "zh": "监禁；判处徒刑",
+          "en": "to imprison"
+        },
+        "examples": [
+          {
+            "text": "ศาลสั่งจำคุกเขาห้าปี",
+            "translations": {
+              "zh": "法院判他入狱五年。",
+              "en": "The court sentenced him to five years in prison."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คดี",
+    "phonetic": "khadi",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "khá-dii · 高, 中",
+      "classifier": "คดี（宗）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่ฟ้องร้องกันในศาล",
+        "translations": {
+          "zh": "案件；官司",
+          "en": "case (legal)"
+        },
+        "examples": [
+          {
+            "text": "คดีนี้ใช้เวลาพิจารณานานถึงสามปี",
+            "translations": {
+              "zh": "这宗案件审理了整整三年。",
+              "en": "This case took three years to try."
+            }
+          }
+        ],
+        "usageNote": "คดีแพ่ง 民事案件；คดีอาญา 刑事案件。"
+      }
+    ]
+  },
+  {
+    "headword": "อำนาจ",
+    "phonetic": "amnat",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "toneMarks": "am-nâat · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สิทธิหรือกำลังที่จะสั่งการหรือควบคุม",
+        "translations": {
+          "zh": "权力",
+          "en": "power; authority"
+        },
+        "examples": [
+          {
+            "text": "ผู้นำคนนี้อยู่ในอำนาจมาสิบปี",
+            "translations": {
+              "zh": "这位领导人执政十年了。",
+              "en": "This leader has been in power for ten years."
+            }
+          }
+        ],
+        "usageNote": "ใช้อำนาจในทางมิชอบ 滥用职权。"
+      }
+    ]
+  },
+  {
+    "headword": "ทูต",
+    "phonetic": "thut",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "toneMarks": "thûut · 降",
+      "classifier": "คน（人）；ท่าน（位，敬称）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้แทนของประเทศที่ไปประจำต่างประเทศ",
+        "translations": {
+          "zh": "使节；外交官",
+          "en": "envoy; diplomat"
+        },
+        "examples": [
+          {
+            "text": "ทูตจีนเข้าพบนายกรัฐมนตรี",
+            "translations": {
+              "zh": "中国使节拜会总理。",
+              "en": "The Chinese envoy called on the prime minister."
+            }
+          }
+        ],
+        "usageNote": "เอกอัครราชทูต 大使（正式）。"
+      }
+    ]
+  },
+  {
+    "headword": "สถานทูต",
+    "phonetic": "sathan thut",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "toneMarks": "sà-thǎan-thûut · 低, 升, 降",
+      "classifier": "แห่ง（所）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "สำนักงานของทูตในต่างประเทศ",
+        "translations": {
+          "zh": "大使馆",
+          "en": "embassy"
+        },
+        "examples": [
+          {
+            "text": "ฉันต้องไปขอวีซ่าที่สถานทูต",
+            "translations": {
+              "zh": "我得去大使馆办签证。",
+              "en": "I have to apply for a visa at the embassy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "การทูต",
+    "phonetic": "kan thut",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "kaan-thûut · 中, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "การติดต่อสัมพันธ์ระหว่างประเทศ",
+        "translations": {
+          "zh": "外交",
+          "en": "diplomacy"
+        },
+        "examples": [
+          {
+            "text": "ปีนี้ครบรอบห้าสิบปีความสัมพันธ์ทางการทูต",
+            "translations": {
+              "zh": "今年是建交五十周年。",
+              "en": "This year marks fifty years of diplomatic relations."
+            }
+          }
+        ],
+        "usageNote": "ทางการทูต 外交上的；นักการทูต 外交官。"
+      }
+    ]
+  },
+  {
+    "headword": "ทวิภาคี",
+    "phonetic": "thawiphakhi",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "grammarNotes": {
+      "toneMarks": "thá-wí-phaa-khii · 高, 高, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ระหว่างสองฝ่าย",
+        "translations": {
+          "zh": "双边的",
+          "en": "bilateral"
+        },
+        "examples": [
+          {
+            "text": "สองประเทศลงนามข้อตกลงทวิภาคี",
+            "translations": {
+              "zh": "两国签署了双边协议。",
+              "en": "The two countries signed a bilateral agreement."
+            }
+          }
+        ],
+        "usageNote": "พหุภาคี 多边的。"
+      }
+    ]
+  },
+  {
+    "headword": "พหุภาคี",
+    "phonetic": "phahuphakhi",
+    "cefr": "C1",
+    "frequencyRank": 18000,
+    "grammarNotes": {
+      "toneMarks": "phá-hù-phaa-khii · 高, 低, 中, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "ระหว่างหลายฝ่าย",
+        "translations": {
+          "zh": "多边的",
+          "en": "multilateral"
+        },
+        "examples": [
+          {
+            "text": "ไทยสนับสนุนความร่วมมือพหุภาคี",
+            "translations": {
+              "zh": "泰国支持多边合作。",
+              "en": "Thailand supports multilateral cooperation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "สนธิสัญญา",
+    "phonetic": "sonthisanya",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "sǒn-thí-sǎn-yaa · 升, 高, 升, 中",
+      "classifier": "ฉบับ（份）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อตกลงที่เป็นทางการระหว่างประเทศ",
+        "translations": {
+          "zh": "条约",
+          "en": "treaty"
+        },
+        "examples": [
+          {
+            "text": "สองประเทศลงนามในสนธิสัญญาสันติภาพ",
+            "translations": {
+              "zh": "两国签署了和平条约。",
+              "en": "The two countries signed a peace treaty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "คว่ำบาตร",
+    "phonetic": "khwam bat",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "khwâm-bàat · 降, 低"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ไม่คบค้าเพื่อลงโทษหรือกดดัน",
+        "translations": {
+          "zh": "制裁；抵制",
+          "en": "to sanction; to boycott"
+        },
+        "examples": [
+          {
+            "text": "หลายประเทศคว่ำบาตรทางเศรษฐกิจ",
+            "translations": {
+              "zh": "多国实施经济制裁。",
+              "en": "Several countries imposed economic sanctions."
+            }
+          }
+        ],
+        "usageNote": "字面“扣翻钵”——源自僧人拒收某人布施的做法。ร 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ผู้ลี้ภัย",
+    "phonetic": "phu li phai",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "phûu-líi-phai · 降, 高, 中",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้หนีภัยจากประเทศของตน",
+        "translations": {
+          "zh": "难民",
+          "en": "refugee"
+        },
+        "examples": [
+          {
+            "text": "ค่ายผู้ลี้ภัยอยู่ใกล้ชายแดน",
+            "translations": {
+              "zh": "难民营在边境附近。",
+              "en": "The refugee camp is near the border."
+            }
+          }
+        ],
+        "usageNote": "ลี้ภัย 避难；ลี้ภัยทางการเมือง 政治避难。"
+      }
+    ]
+  },
+  {
+    "headword": "ข้อพิพาท",
+    "phonetic": "kho phiphat",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "khɔ̂ɔ-phí-phâat · 降, 高, 降"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "เรื่องที่โต้แย้งหรือขัดแย้งกัน",
+        "translations": {
+          "zh": "争端；纠纷",
+          "en": "dispute"
+        },
+        "examples": [
+          {
+            "text": "ทั้งสองประเทศมีข้อพิพาทเรื่องเขตแดน",
+            "translations": {
+              "zh": "两国存在边界争端。",
+              "en": "The two countries have a border dispute."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "แถลงการณ์",
+    "phonetic": "thalaeng kan",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "toneMarks": "thà-lɛ̌ɛng-kaan · 低, 升, 中",
+      "classifier": "ฉบับ（份）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ข้อความที่ประกาศอย่างเป็นทางการ",
+        "translations": {
+          "zh": "声明；公报",
+          "en": "official statement; communiqué"
+        },
+        "examples": [
+          {
+            "text": "กระทรวงการต่างประเทศออกแถลงการณ์ประณาม",
+            "translations": {
+              "zh": "外交部发表声明予以谴责。",
+              "en": "The foreign ministry issued a statement of condemnation."
+            }
+          }
+        ],
+        "usageNote": "动词 แถลง 正式宣布；แถลงข่าว 召开记者会。"
+      }
+    ]
+  },
+  {
+    "headword": "โฆษก",
+    "phonetic": "khosok",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "toneMarks": "khoo-sòk · 中, 低",
+      "classifier": "คน（人）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ผู้แถลงข่าวแทนองค์กร",
+        "translations": {
+          "zh": "发言人",
+          "en": "spokesperson"
+        },
+        "examples": [
+          {
+            "text": "โฆษกรัฐบาลปฏิเสธข่าวลือนั้น",
+            "translations": {
+              "zh": "政府发言人否认了那个传言。",
+              "en": "The government spokesperson denied the rumour."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "วินิจฉัย",
+    "phonetic": "winitchai",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "wí-nít-chǎi · 高, 高, 升"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "พิจารณาตัดสิน โดยเฉพาะการระบุโรค",
+        "translations": {
+          "zh": "诊断；裁定",
+          "en": "to diagnose; to rule on"
+        },
+        "examples": [
+          {
+            "text": "แพทย์วินิจฉัยว่าเขาเป็นไข้เลือดออก",
+            "translations": {
+              "zh": "医生诊断他得了登革热。",
+              "en": "The doctor diagnosed him with dengue fever."
+            }
+          }
+        ],
+        "usageNote": "名词 การวินิจฉัย 诊断。也用于法律“裁定”。"
+      }
+    ]
+  },
+  {
+    "headword": "ภูมิคุ้มกัน",
+    "phonetic": "phum khumkan",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "toneMarks": "phuum-khúm-kan · 中, 高, 中"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ความสามารถของร่างกายในการต้านโรค",
+        "translations": {
+          "zh": "免疫力",
+          "en": "immunity"
+        },
+        "examples": [
+          {
+            "text": "การนอนพอช่วยเสริมภูมิคุ้มกัน",
+            "translations": {
+              "zh": "睡眠充足有助于增强免疫力。",
+              "en": "Enough sleep helps boost immunity."
+            }
+          }
+        ],
+        "usageNote": "ภูมิ 读 พูม。ภูมิแพ้ 过敏。"
+      }
+    ]
+  }
+]
