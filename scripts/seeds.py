@@ -26,9 +26,10 @@ PACKS_BY_LANG = {
         "en_core_b1_b2": {"B1", "B2"},
         "en_core_c1": {"C1", "C2"},
     },
-    # One pack per language for now; every level goes in it.
-    "fr": {"fr_starter": {"A1", "A2", "B1", "B2", "C1", "C2"}},
-    "th": {"th_starter": {"A1", "A2", "B1", "B2", "C1", "C2"}},
+    # The starter packs keep their names (installed decks are keyed by slug) and hold A1–A2,
+    # like en_core_a1_a2; B1–B2 and C1 are Plus packs, as in English.
+    "fr": {"fr_starter": {"A1", "A2"}, "fr_core_b1_b2": {"B1", "B2"}, "fr_core_c1": {"C1", "C2"}},
+    "th": {"th_starter": {"A1", "A2"}, "th_core_b1_b2": {"B1", "B2"}, "th_core_c1": {"C1", "C2"}},
 }
 PACKS = PACKS_BY_LANG["en"]
 
