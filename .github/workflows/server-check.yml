@@ -38,4 +38,16 @@ jobs:
           [ -n "$conf" ] && { grep -nE 'listen|server_name|root |location' "$conf"; }
           echo "push service: $(systemctl is-active mashu-push 2>/dev/null || echo not installed)"
           echo "disk: $(df -h / | tail -1)"
+          echo "--- what serves the site (the domain proxies to 127.0.0.1:4180)"
+          ss -ltnp 2>/dev/null | grep -E ':4180\b' || echo "nothing listening on 4180"
+          pid=$(ss -ltnp 2>/dev/null | grep -E ':4180\b' | grep -oE 'pid=[0-9]+' | head -n1 | cut -d= -f2)
+          if [ -n "$pid" ]; then
+            echo "process: $(ps -o pid=,user=,args= -p "$pid" | cut -c1-200)"
+            echo "cwd: $(readlink -f /proc/$pid/cwd)"
+            echo "unit: $(ps -o unit= -p "$pid" 2>/dev/null)"
+            cid=$(grep -oE '[0-9a-f]{64}' /proc/$pid/cgroup 2>/dev/null | head -n1)
+            [ -n "$cid" ] && echo "docker container: ${cid:0:12}"
+          fi
+          command -v docker >/dev/null && docker ps --format '{{.Names}}  {{.Image}}  {{.Ports}}' 2>/dev/null | head
+          echo "privacy.html copies:"; find / -xdev -name privacy.html -not -path '*/node_modules/*' -not -path '/proc/*' 2>/dev/null | head
           REMOTE
