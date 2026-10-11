@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [PUSHCHECK, STATUS, scripts/apns-check.mjs]
+    paths: [PUSHCHECK, scripts/apns-check.mjs]
 
 jobs:
   check:
