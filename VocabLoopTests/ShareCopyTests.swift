@@ -5,9 +5,14 @@ import XCTest
 /// about what did not happen. The copy is Chinese, which has no plural forms.
 final class ShareCopyTests: XCTestCase {
     func testGoalHeadline() {
-        XCTAssertEqual(ShareCopy.goalHeadline(reviews: 30), "今日目标完成，今天学了 30 个单词")
-        XCTAssertEqual(ShareCopy.goalHeadline(reviews: 1), "今日目标完成，今天学了 1 个单词")
+        XCTAssertEqual(ShareCopy.goalHeadline(reviews: 30), "今日目标完成：复习了 30 张卡片")
+        XCTAssertEqual(ShareCopy.goalHeadline(reviews: 1), "今日目标完成：复习了 1 张卡片")
         XCTAssertEqual(ShareCopy.goalHeadline(reviews: 0), "今日目标完成")
+    }
+
+    func testWeekHeadlineIsInTheSharersVoice() {
+        XCTAssertEqual(ShareCopy.weekHeadline(wordsMastered: 12), "这周我掌握了 12 个单词")
+        XCTAssertEqual(ShareCopy.weekHeadline(wordsMastered: 0), "这周我的单词一直在长大")
     }
 
     func testStreakHeadline() {
@@ -102,6 +107,7 @@ final class ShareCopyTests: XCTestCase {
             lines.append(ShareCopy.mochiHeadline(level: count))
             lines.append(ShareCopy.albumHeadline(stickers: count))
             lines.append(RecapCopy.headline(wordsMastered: count))
+            lines.append(ShareCopy.weekHeadline(wordsMastered: count))
             lines.append(ShareCopy.minutes(count) ?? "")
             lines.append(ShareCopy.streakChip(count) ?? "")
             lines.append(ShareCopy.goalChip(count) ?? "")

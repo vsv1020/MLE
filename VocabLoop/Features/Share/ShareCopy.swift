@@ -11,7 +11,14 @@ enum ShareCopy {
     /// "Daily goal done — 30 words today".
     static func goalHeadline(reviews: Int) -> String {
         guard reviews > 0 else { return "今日目标完成" }
-        return "今日目标完成，今天学了 \(RecapCopy.count(reviews, "个单词"))"
+        // Reviews are cards, not distinct words: a word studied both ways is two reviews.
+        return "今日目标完成：复习了 \(RecapCopy.count(reviews, "张卡片"))"
+    }
+
+    /// The week poster's headline, in the sharer's own voice. The in-app recap talks to the
+    /// learner ("这周你…"); a poster is the learner talking to friends.
+    static func weekHeadline(wordsMastered: Int) -> String {
+        wordsMastered < 1 ? "这周我的单词一直在长大" : "这周我掌握了 \(wordsMastered) 个单词"
     }
 
     /// "7 days in a row".

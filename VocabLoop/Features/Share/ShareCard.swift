@@ -47,7 +47,7 @@ enum ShareCard: Sendable {
         case .mochi(let card): return ShareCopy.mochiHeadline(level: card.level)
         case .word(let card): return ShareCopy.wordHeadline(headword: card.headword)
         case .album(let card): return ShareCopy.albumHeadline(stickers: card.stickerCount)
-        case .week(let recap): return RecapCopy.headline(wordsMastered: recap.wordsMastered)
+        case .week(let recap): return ShareCopy.weekHeadline(wordsMastered: recap.wordsMastered)
         }
     }
 

@@ -268,7 +268,7 @@ private struct WeekShareCardView: View {
     var body: some View {
         ShareCardFrame(
             kind: .week,
-            headline: RecapCopy.headline(wordsMastered: recap.wordsMastered),
+            headline: ShareCopy.weekHeadline(wordsMastered: recap.wordsMastered),
             hero: .mochi(look: recap.look, level: recap.level, mood: .cheer, height: 100)
         ) {
             VStack(spacing: Spacing.xs) {
