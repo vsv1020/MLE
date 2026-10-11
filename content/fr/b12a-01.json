@@ -1,0 +1,1477 @@
+[
+  {
+    "headword": "considérer",
+    "phonetic": "/kɔ̃.si.de.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je considère, nous considérons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "estimer, juger ; examiner avec attention",
+        "translations": {
+          "zh": "认为；考虑",
+          "en": "to consider"
+        },
+        "examples": [
+          {
+            "text": "Je considère que c'est une bonne idée.",
+            "cloze": "Je {{considère}} que c'est une bonne idée.",
+            "translations": {
+              "zh": "我认为这是个好主意。",
+              "en": "I consider it a good idea."
+            }
+          }
+        ],
+        "usageNote": "considérer qn/qch comme + 名词/形容词：把……看作……"
+      }
+    ]
+  },
+  {
+    "headword": "supposer",
+    "phonetic": "/sy.po.ze/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "penser que qch est probable sans en être sûr",
+        "translations": {
+          "zh": "猜想；假设",
+          "en": "to suppose, to assume"
+        },
+        "examples": [
+          {
+            "text": "Je suppose qu'il est déjà parti.",
+            "cloze": "Je {{suppose}} qu'il est déjà parti.",
+            "translations": {
+              "zh": "我猜他已经走了。",
+              "en": "I suppose he has already left."
+            }
+          }
+        ],
+        "usageNote": "supposer que + 直陈式（猜测）；à supposer que（假设）后接虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "prétendre",
+    "phonetic": "/pʁe.tɑ̃dʁ/",
+    "cefr": "B2",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "affirmer qch, souvent sans preuve",
+        "translations": {
+          "zh": "声称；自称",
+          "en": "to claim"
+        },
+        "examples": [
+          {
+            "text": "Il prétend avoir tout compris.",
+            "cloze": "Il {{prétend}} avoir tout compris.",
+            "translations": {
+              "zh": "他声称全都懂了。",
+              "en": "He claims to have understood everything."
+            }
+          }
+        ],
+        "usageNote": "假朋友：不是“假装”（假装 = faire semblant de）。"
+      }
+    ]
+  },
+  {
+    "headword": "réaliser",
+    "phonetic": "/ʁe.a.li.ze/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "accomplir, rendre réel",
+        "translations": {
+          "zh": "实现；完成",
+          "en": "to carry out, to achieve"
+        },
+        "examples": [
+          {
+            "text": "Elle a réalisé son rêve.",
+            "cloze": "Elle a {{réalisé}} son rêve.",
+            "translations": {
+              "zh": "她实现了自己的梦想。",
+              "en": "She achieved her dream."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "se rendre compte de",
+        "translations": {
+          "zh": "意识到",
+          "en": "to realize"
+        },
+        "examples": [
+          {
+            "text": "J'ai réalisé trop tard que c'était une erreur.",
+            "translations": {
+              "zh": "我意识到这是个错误时已经太晚了。",
+              "en": "I realized too late that it was a mistake."
+            }
+          }
+        ],
+        "usageNote": "“意识到”这一用法受英语影响，口语常见；正式场合更宜用 se rendre compte。"
+      }
+    ]
+  },
+  {
+    "headword": "éviter",
+    "phonetic": "/e.vi.te/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire en sorte d'échapper à qch",
+        "translations": {
+          "zh": "避免；避开",
+          "en": "to avoid"
+        },
+        "examples": [
+          {
+            "text": "Il faut éviter de manger trop de sucre.",
+            "translations": {
+              "zh": "应该避免吃太多糖。",
+              "en": "You should avoid eating too much sugar."
+            }
+          }
+        ],
+        "usageNote": "éviter de + 不定式；éviter que + 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "permettre",
+    "phonetic": "/pɛʁ.mɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 300,
+    "grammarNotes": {
+      "conjugation": "不规则：je permets, nous permettons；过去分词 permis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner la possibilité ou l'autorisation",
+        "translations": {
+          "zh": "允许；使能够",
+          "en": "to allow, to enable"
+        },
+        "examples": [
+          {
+            "text": "Internet permet de travailler à distance.",
+            "cloze": "Internet {{permet}} de travailler à distance.",
+            "translations": {
+              "zh": "互联网让远程工作成为可能。",
+              "en": "The internet makes it possible to work remotely."
+            }
+          }
+        ],
+        "usageNote": "permettre à qn de + 不定式：允许某人做某事。"
+      }
+    ]
+  },
+  {
+    "headword": "empêcher",
+    "phonetic": "/ɑ̃.pɛ.ʃe/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas laisser qn faire qch ; rendre impossible",
+        "translations": {
+          "zh": "阻止；妨碍",
+          "en": "to prevent, to stop"
+        },
+        "examples": [
+          {
+            "text": "Le bruit m'empêche de dormir.",
+            "cloze": "Le bruit m'{{empêche}} de dormir.",
+            "translations": {
+              "zh": "噪音让我睡不着。",
+              "en": "The noise stops me from sleeping."
+            }
+          }
+        ],
+        "usageNote": "empêcher qn de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "convaincre",
+    "phonetic": "/kɔ̃.vɛ̃kʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "conjugation": "不规则：je convaincs, il convainc, nous convainquons；过去分词 convaincu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "amener qn à croire ou à faire qch par des arguments",
+        "translations": {
+          "zh": "说服；使信服",
+          "en": "to convince"
+        },
+        "examples": [
+          {
+            "text": "Elle a réussi à me convaincre.",
+            "translations": {
+              "zh": "她成功说服了我。",
+              "en": "She managed to convince me."
+            }
+          }
+        ],
+        "usageNote": "convaincre qn de qch / de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "exiger",
+    "phonetic": "/ɛɡ.zi.ʒe/",
+    "cefr": "B2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous exigeons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "demander avec force, comme un droit",
+        "translations": {
+          "zh": "要求；强求",
+          "en": "to demand, to require"
+        },
+        "examples": [
+          {
+            "text": "Le client exige un remboursement.",
+            "cloze": "Le client {{exige}} un remboursement.",
+            "translations": {
+              "zh": "顾客要求退款。",
+              "en": "The customer demands a refund."
+            }
+          }
+        ],
+        "usageNote": "exiger que + 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "estimer",
+    "phonetic": "/ɛs.ti.me/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir comme opinion",
+        "translations": {
+          "zh": "认为",
+          "en": "to consider, to believe"
+        },
+        "examples": [
+          {
+            "text": "J'estime qu'il a raison.",
+            "cloze": "J'{{estime}} qu'il a raison.",
+            "translations": {
+              "zh": "我认为他是对的。",
+              "en": "I believe he is right."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "évaluer approximativement",
+        "translations": {
+          "zh": "估计",
+          "en": "to estimate"
+        },
+        "examples": [
+          {
+            "text": "On estime les dégâts à un million d'euros.",
+            "translations": {
+              "zh": "损失估计达一百万欧元。",
+              "en": "The damage is estimated at one million euros."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "juger",
+    "phonetic": "/ʒy.ʒe/",
+    "cefr": "B1",
+    "frequencyRank": 1400,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous jugeons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se faire une opinion sur qn ou qch",
+        "translations": {
+          "zh": "评判；判断",
+          "en": "to judge"
+        },
+        "examples": [
+          {
+            "text": "Il ne faut pas juger les gens sur leur apparence.",
+            "translations": {
+              "zh": "不要以貌取人。",
+              "en": "You shouldn't judge people by their appearance."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "décider d'une affaire au tribunal",
+        "translations": {
+          "zh": "审判",
+          "en": "to try (in court)"
+        },
+        "examples": [
+          {
+            "text": "Il sera jugé en mars.",
+            "translations": {
+              "zh": "他将于三月受审。",
+              "en": "He will be tried in March."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "douter",
+    "phonetic": "/du.te/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas être sûr de qch",
+        "translations": {
+          "zh": "怀疑；不确定",
+          "en": "to doubt"
+        },
+        "examples": [
+          {
+            "text": "Je doute qu'il vienne ce soir.",
+            "cloze": "Je {{doute}} qu'il vienne ce soir.",
+            "translations": {
+              "zh": "我不太相信他今晚会来。",
+              "en": "I doubt he'll come tonight."
+            }
+          }
+        ],
+        "usageNote": "douter de qch；douter que + 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "se douter",
+    "phonetic": "/sə du.te/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "deviner, soupçonner qch",
+        "translations": {
+          "zh": "料到；猜到",
+          "en": "to suspect, to guess"
+        },
+        "examples": [
+          {
+            "text": "Je m'en doutais !",
+            "cloze": "Je {{m'en doutais}} !",
+            "translations": {
+              "zh": "我就料到了！",
+              "en": "I suspected as much!"
+            }
+          }
+        ],
+        "usageNote": "与 douter 意思几乎相反：se douter que + 直陈式 = 料到会……"
+      }
+    ]
+  },
+  {
+    "headword": "soupçonner",
+    "phonetic": "/sup.sɔ.ne/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "penser que qn est coupable ; deviner",
+        "translations": {
+          "zh": "怀疑（某人）",
+          "en": "to suspect"
+        },
+        "examples": [
+          {
+            "text": "La police soupçonne le voisin.",
+            "cloze": "La police {{soupçonne}} le voisin.",
+            "translations": {
+              "zh": "警方怀疑邻居。",
+              "en": "The police suspect the neighbour."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "reconnaître",
+    "phonetic": "/ʁə.kɔ.nɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 600,
+    "grammarNotes": {
+      "conjugation": "不规则：je reconnais, il reconnaît, nous reconnaissons；过去分词 reconnu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "admettre comme vrai",
+        "translations": {
+          "zh": "承认",
+          "en": "to admit, to acknowledge"
+        },
+        "examples": [
+          {
+            "text": "Il reconnaît qu'il s'est trompé.",
+            "cloze": "Il {{reconnaît}} qu'il s'est trompé.",
+            "translations": {
+              "zh": "他承认自己错了。",
+              "en": "He admits he was wrong."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "identifier qn ou qch qu'on connaît",
+        "translations": {
+          "zh": "认出",
+          "en": "to recognize"
+        },
+        "examples": [
+          {
+            "text": "Je ne t'ai pas reconnu avec ces lunettes.",
+            "translations": {
+              "zh": "你戴着这副眼镜我都没认出你。",
+              "en": "I didn't recognize you with those glasses."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "admettre",
+    "phonetic": "/ad.mɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则：j'admets, nous admettons；过去分词 admis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "reconnaître comme vrai ; accepter",
+        "translations": {
+          "zh": "承认；接受",
+          "en": "to admit, to accept"
+        },
+        "examples": [
+          {
+            "text": "J'admets que j'ai exagéré.",
+            "cloze": "J'{{admets}} que j'ai exagéré.",
+            "translations": {
+              "zh": "我承认我说得夸张了。",
+              "en": "I admit I exaggerated."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "nier",
+    "phonetic": "/nje/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire qu'une chose n'est pas vraie",
+        "translations": {
+          "zh": "否认",
+          "en": "to deny"
+        },
+        "examples": [
+          {
+            "text": "Le suspect nie les faits.",
+            "cloze": "Le suspect {{nie}} les faits.",
+            "translations": {
+              "zh": "嫌疑人否认事实。",
+              "en": "The suspect denies the facts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "affirmer",
+    "phonetic": "/a.fiʁ.me/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire avec force qu'une chose est vraie",
+        "translations": {
+          "zh": "断言；肯定地说",
+          "en": "to state, to assert"
+        },
+        "examples": [
+          {
+            "text": "Le ministre affirme que tout va bien.",
+            "cloze": "Le ministre {{affirme}} que tout va bien.",
+            "translations": {
+              "zh": "部长断言一切都好。",
+              "en": "The minister states that all is well."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "prouver",
+    "phonetic": "/pʁu.ve/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "montrer que qch est vrai",
+        "translations": {
+          "zh": "证明",
+          "en": "to prove"
+        },
+        "examples": [
+          {
+            "text": "Tu peux le prouver ?",
+            "translations": {
+              "zh": "你能证明吗？",
+              "en": "Can you prove it?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "démontrer",
+    "phonetic": "/de.mɔ̃.tʁe/",
+    "cefr": "B2",
+    "frequencyRank": 2600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prouver par un raisonnement ou des faits",
+        "translations": {
+          "zh": "论证；证明",
+          "en": "to demonstrate, to show"
+        },
+        "examples": [
+          {
+            "text": "Cette étude démontre les effets du stress.",
+            "cloze": "Cette étude {{démontre}} les effets du stress.",
+            "translations": {
+              "zh": "这项研究证明了压力的影响。",
+              "en": "This study demonstrates the effects of stress."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "constater",
+    "phonetic": "/kɔ̃s.ta.te/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "remarquer, établir un fait",
+        "translations": {
+          "zh": "发现；注意到（事实）",
+          "en": "to note, to observe"
+        },
+        "examples": [
+          {
+            "text": "On constate une baisse des prix.",
+            "cloze": "On {{constate}} une baisse des prix.",
+            "translations": {
+              "zh": "可以看到价格下降了。",
+              "en": "We note a fall in prices."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "remarquer",
+    "phonetic": "/ʁə.maʁ.ke/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "voir, noter qch",
+        "translations": {
+          "zh": "注意到；发现",
+          "en": "to notice"
+        },
+        "examples": [
+          {
+            "text": "Tu as remarqué quelque chose d'étrange ?",
+            "cloze": "Tu as {{remarqué}} quelque chose d'étrange ?",
+            "translations": {
+              "zh": "你注意到什么奇怪的事了吗？",
+              "en": "Did you notice anything strange?"
+            }
+          }
+        ],
+        "usageNote": "faire remarquer qch à qn：向某人指出某事。"
+      }
+    ]
+  },
+  {
+    "headword": "s'apercevoir",
+    "phonetic": "/sa.pɛʁ.sə.vwaʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "conjugation": "不规则：je m'aperçois, nous nous apercevons；过去分词 aperçu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se rendre compte de qch",
+        "translations": {
+          "zh": "发觉；意识到",
+          "en": "to notice, to realize"
+        },
+        "examples": [
+          {
+            "text": "Elle s'est aperçue de son erreur.",
+            "cloze": "Elle {{s'est aperçue}} de son erreur.",
+            "translations": {
+              "zh": "她发觉了自己的错误。",
+              "en": "She noticed her mistake."
+            }
+          }
+        ],
+        "usageNote": "s'apercevoir de qch / que + 直陈式。"
+      }
+    ]
+  },
+  {
+    "headword": "deviner",
+    "phonetic": "/də.vi.ne/",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "trouver par intuition",
+        "translations": {
+          "zh": "猜；猜中",
+          "en": "to guess"
+        },
+        "examples": [
+          {
+            "text": "Devine qui j'ai vu hier !",
+            "cloze": "{{Devine}} qui j'ai vu hier !",
+            "translations": {
+              "zh": "猜猜我昨天看见谁了！",
+              "en": "Guess who I saw yesterday!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se rappeler",
+    "phonetic": "/sə ʁa.ple/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je me rappelle, nous nous rappelons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "garder en mémoire, se souvenir",
+        "translations": {
+          "zh": "想起；记得",
+          "en": "to remember"
+        },
+        "examples": [
+          {
+            "text": "Je me rappelle très bien ce jour-là.",
+            "cloze": "Je {{me rappelle}} très bien ce jour-là.",
+            "translations": {
+              "zh": "我清楚地记得那一天。",
+              "en": "I remember that day very well."
+            }
+          }
+        ],
+        "usageNote": "se rappeler qch（直接宾语，不加 de），比较 se souvenir de qch。"
+      }
+    ]
+  },
+  {
+    "headword": "réfléchir",
+    "phonetic": "/ʁe.fle.ʃiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "penser longuement avant de décider",
+        "translations": {
+          "zh": "思考；考虑",
+          "en": "to think (over)"
+        },
+        "examples": [
+          {
+            "text": "Laisse-moi réfléchir.",
+            "translations": {
+              "zh": "让我想想。",
+              "en": "Let me think."
+            }
+          }
+        ],
+        "usageNote": "réfléchir à qch：仔细考虑某事。"
+      }
+    ]
+  },
+  {
+    "headword": "hésiter",
+    "phonetic": "/e.zi.te/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas savoir quoi choisir ou faire",
+        "translations": {
+          "zh": "犹豫",
+          "en": "to hesitate"
+        },
+        "examples": [
+          {
+            "text": "N'hésitez pas à me contacter.",
+            "cloze": "N'{{hésitez}} pas à me contacter.",
+            "translations": {
+              "zh": "请随时联系我。",
+              "en": "Don't hesitate to contact me."
+            }
+          }
+        ],
+        "usageNote": "hésiter à + 不定式；N'hésitez pas à… 是信件常用语。"
+      }
+    ]
+  },
+  {
+    "headword": "se méfier",
+    "phonetic": "/sə me.fje/",
+    "cefr": "B2",
+    "frequencyRank": 3200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas avoir confiance",
+        "translations": {
+          "zh": "提防；不信任",
+          "en": "to distrust, to be wary"
+        },
+        "examples": [
+          {
+            "text": "Méfie-toi de ce genre d'offres.",
+            "cloze": "{{Méfie-toi}} de ce genre d'offres.",
+            "translations": {
+              "zh": "要提防这类优惠。",
+              "en": "Be wary of this kind of offer."
+            }
+          }
+        ],
+        "usageNote": "se méfier de qn/qch。"
+      }
+    ]
+  },
+  {
+    "headword": "s'attendre à",
+    "phonetic": "/sa.tɑ̃dʁ a/",
+    "cefr": "B1",
+    "frequencyRank": 2100,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prévoir, penser que qch va arriver",
+        "translations": {
+          "zh": "预料；料想",
+          "en": "to expect"
+        },
+        "examples": [
+          {
+            "text": "Je ne m'attendais pas à ça.",
+            "cloze": "Je ne {{m'attendais}} pas à ça.",
+            "translations": {
+              "zh": "我没料到会这样。",
+              "en": "I wasn't expecting that."
+            }
+          }
+        ],
+        "usageNote": "s'attendre à + 名词/不定式；s'attendre à ce que + 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "tenir à",
+    "phonetic": "/tə.niʁ a/",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "conjugation": "不规则：je tiens, nous tenons, ils tiennent；过去分词 tenu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être attaché à qn/qch ; vouloir absolument",
+        "translations": {
+          "zh": "珍惜；坚持要",
+          "en": "to care about; to insist on"
+        },
+        "examples": [
+          {
+            "text": "Je tiens à te remercier.",
+            "cloze": "Je {{tiens à}} te remercier.",
+            "translations": {
+              "zh": "我一定要谢谢你。",
+              "en": "I really want to thank you."
+            }
+          }
+        ],
+        "usageNote": "tenir à + 名词：珍视；tenir à + 不定式：一定要做。"
+      }
+    ]
+  },
+  {
+    "headword": "envisager",
+    "phonetic": "/ɑ̃.vi.za.ʒe/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous envisageons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "considérer comme possible, prévoir",
+        "translations": {
+          "zh": "打算；考虑",
+          "en": "to consider, to plan"
+        },
+        "examples": [
+          {
+            "text": "Nous envisageons de déménager.",
+            "cloze": "Nous {{envisageons}} de déménager.",
+            "translations": {
+              "zh": "我们打算搬家。",
+              "en": "We are considering moving."
+            }
+          }
+        ],
+        "usageNote": "envisager de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "prévoir",
+    "phonetic": "/pʁe.vwaʁ/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "conjugation": "不规则：je prévois, nous prévoyons, je prévoirai；过去分词 prévu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "imaginer ce qui va arriver",
+        "translations": {
+          "zh": "预见；预计",
+          "en": "to foresee, to forecast"
+        },
+        "examples": [
+          {
+            "text": "La météo prévoit de la pluie.",
+            "cloze": "La météo {{prévoit}} de la pluie.",
+            "translations": {
+              "zh": "天气预报说会下雨。",
+              "en": "The forecast predicts rain."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "organiser à l'avance",
+        "translations": {
+          "zh": "计划；安排",
+          "en": "to plan"
+        },
+        "examples": [
+          {
+            "text": "Qu'est-ce que tu as prévu pour ce week-end ?",
+            "translations": {
+              "zh": "这个周末你有什么安排？",
+              "en": "What have you planned for this weekend?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se tromper",
+    "phonetic": "/sə tʁɔ̃.pe/",
+    "cefr": "B1",
+    "frequencyRank": 1400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire une erreur",
+        "translations": {
+          "zh": "弄错；搞错",
+          "en": "to be mistaken, to make a mistake"
+        },
+        "examples": [
+          {
+            "text": "Je me suis trompé de numéro.",
+            "cloze": "Je {{me suis trompé}} de numéro.",
+            "translations": {
+              "zh": "我打错号码了。",
+              "en": "I got the wrong number."
+            }
+          }
+        ],
+        "usageNote": "se tromper de + 名词（不加冠词）：弄错……"
+      }
+    ]
+  },
+  {
+    "headword": "avoir tort",
+    "phonetic": "/a.vwaʁ tɔʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "ne pas avoir raison",
+        "translations": {
+          "zh": "错了；没道理",
+          "en": "to be wrong"
+        },
+        "examples": [
+          {
+            "text": "Tu as tort de t'inquiéter.",
+            "cloze": "Tu {{as tort}} de t'inquiéter.",
+            "translations": {
+              "zh": "你没必要担心。",
+              "en": "You're wrong to worry."
+            }
+          }
+        ],
+        "usageNote": "反义：avoir raison。avoir tort de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "approuver",
+    "phonetic": "/a.pʁu.ve/",
+    "cefr": "B2",
+    "frequencyRank": 2700,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être d'accord avec ; accepter officiellement",
+        "translations": {
+          "zh": "赞成；批准",
+          "en": "to approve"
+        },
+        "examples": [
+          {
+            "text": "Le conseil a approuvé le projet.",
+            "cloze": "Le conseil a {{approuvé}} le projet.",
+            "translations": {
+              "zh": "委员会批准了这个项目。",
+              "en": "The council approved the project."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "critiquer",
+    "phonetic": "/kʁi.ti.ke/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "juger défavorablement",
+        "translations": {
+          "zh": "批评",
+          "en": "to criticize"
+        },
+        "examples": [
+          {
+            "text": "Il critique toujours tout.",
+            "cloze": "Il {{critique}} toujours tout.",
+            "translations": {
+              "zh": "他总是什么都批评。",
+              "en": "He always criticizes everything."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "reprocher",
+    "phonetic": "/ʁə.pʁɔ.ʃe/",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire à qn qu'on n'est pas content de ce qu'il a fait",
+        "translations": {
+          "zh": "责备；指责",
+          "en": "to reproach, to blame"
+        },
+        "examples": [
+          {
+            "text": "On lui reproche son manque de sérieux.",
+            "cloze": "On lui {{reproche}} son manque de sérieux.",
+            "translations": {
+              "zh": "人们责备他不够认真。",
+              "en": "He is criticized for his lack of seriousness."
+            }
+          }
+        ],
+        "usageNote": "reprocher qch à qn / reprocher à qn de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "se plaindre",
+    "phonetic": "/sə plɛ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "conjugation": "不规则：je me plains, nous nous plaignons；过去分词 plaint"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "exprimer son mécontentement",
+        "translations": {
+          "zh": "抱怨；投诉",
+          "en": "to complain"
+        },
+        "examples": [
+          {
+            "text": "Les voisins se plaignent du bruit.",
+            "cloze": "Les voisins {{se plaignent}} du bruit.",
+            "translations": {
+              "zh": "邻居们抱怨噪音。",
+              "en": "The neighbours complain about the noise."
+            }
+          }
+        ],
+        "usageNote": "se plaindre de qch / auprès de qn。"
+      }
+    ]
+  },
+  {
+    "headword": "insister",
+    "phonetic": "/ɛ̃.sis.te/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "demander avec force ; mettre l'accent sur",
+        "translations": {
+          "zh": "坚持；强调",
+          "en": "to insist"
+        },
+        "examples": [
+          {
+            "text": "Si tu insistes, je viens.",
+            "cloze": "Si tu {{insistes}}, je viens.",
+            "translations": {
+              "zh": "既然你坚持，那我来。",
+              "en": "If you insist, I'll come."
+            }
+          }
+        ],
+        "usageNote": "insister sur qch：强调；insister pour + 不定式：坚持要。"
+      }
+    ]
+  },
+  {
+    "headword": "souligner",
+    "phonetic": "/su.li.ɲe/",
+    "cefr": "B2",
+    "frequencyRank": 1900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire remarquer, insister sur",
+        "translations": {
+          "zh": "强调",
+          "en": "to stress, to emphasize"
+        },
+        "examples": [
+          {
+            "text": "Le rapport souligne l'importance de l'éducation.",
+            "cloze": "Le rapport {{souligne}} l'importance de l'éducation.",
+            "translations": {
+              "zh": "报告强调了教育的重要性。",
+              "en": "The report stresses the importance of education."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "tirer un trait sous un mot",
+        "translations": {
+          "zh": "在……下面划线",
+          "en": "to underline"
+        },
+        "examples": [
+          {
+            "text": "Soulignez les verbes dans le texte.",
+            "translations": {
+              "zh": "请在文中的动词下划线。",
+              "en": "Underline the verbs in the text."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "préciser",
+    "phonetic": "/pʁe.si.ze/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire de façon plus exacte",
+        "translations": {
+          "zh": "具体说明；明确",
+          "en": "to specify, to clarify"
+        },
+        "examples": [
+          {
+            "text": "Pouvez-vous préciser votre question ?",
+            "translations": {
+              "zh": "您能把问题说得具体些吗？",
+              "en": "Could you clarify your question?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mentionner",
+    "phonetic": "/mɑ̃.sjɔ.ne/",
+    "cefr": "B2",
+    "frequencyRank": 2600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "citer, signaler brièvement",
+        "translations": {
+          "zh": "提到；提及",
+          "en": "to mention"
+        },
+        "examples": [
+          {
+            "text": "Il n'a pas mentionné le prix.",
+            "cloze": "Il n'a pas {{mentionné}} le prix.",
+            "translations": {
+              "zh": "他没提到价格。",
+              "en": "He didn't mention the price."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "signaler",
+    "phonetic": "/si.ɲa.le/",
+    "cefr": "B1",
+    "frequencyRank": 2100,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire remarquer ; informer de",
+        "translations": {
+          "zh": "指出；告知；报告",
+          "en": "to point out, to report"
+        },
+        "examples": [
+          {
+            "text": "Je vous signale que la réunion est annulée.",
+            "cloze": "Je vous {{signale}} que la réunion est annulée.",
+            "translations": {
+              "zh": "提醒您一下，会议取消了。",
+              "en": "Please note that the meeting is cancelled."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "évoquer",
+    "phonetic": "/e.vɔ.ke/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "mentionner ; faire penser à",
+        "translations": {
+          "zh": "提及；使人想起",
+          "en": "to mention, to evoke"
+        },
+        "examples": [
+          {
+            "text": "Cette musique évoque mon enfance.",
+            "cloze": "Cette musique {{évoque}} mon enfance.",
+            "translations": {
+              "zh": "这段音乐让我想起童年。",
+              "en": "This music evokes my childhood."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "aborder",
+    "phonetic": "/a.bɔʁ.de/",
+    "cefr": "B2",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "commencer à traiter un sujet",
+        "translations": {
+          "zh": "谈及；着手处理",
+          "en": "to tackle, to address (a topic)"
+        },
+        "examples": [
+          {
+            "text": "Nous allons aborder la question du budget.",
+            "translations": {
+              "zh": "我们现在来谈预算问题。",
+              "en": "We are going to address the question of the budget."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "débattre",
+    "phonetic": "/de.batʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3400,
+    "grammarNotes": {
+      "conjugation": "不规则：je débats, nous débattons；过去分词 débattu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "discuter d'un sujet en échangeant des arguments",
+        "translations": {
+          "zh": "辩论；讨论",
+          "en": "to debate"
+        },
+        "examples": [
+          {
+            "text": "Les députés vont débattre de cette loi.",
+            "translations": {
+              "zh": "议员们将讨论这项法律。",
+              "en": "MPs are going to debate this law."
+            }
+          }
+        ],
+        "usageNote": "débattre de qch 或 débattre qch。名词 un débat。"
+      }
+    ]
+  },
+  {
+    "headword": "persuader",
+    "phonetic": "/pɛʁ.sɥa.de/",
+    "cefr": "B2",
+    "frequencyRank": 2900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "amener qn à croire ou à faire qch",
+        "translations": {
+          "zh": "说服；使相信",
+          "en": "to persuade"
+        },
+        "examples": [
+          {
+            "text": "Il m'a persuadé de rester.",
+            "cloze": "Il m'a {{persuadé}} de rester.",
+            "translations": {
+              "zh": "他说服我留了下来。",
+              "en": "He persuaded me to stay."
+            }
+          }
+        ],
+        "usageNote": "persuader qn de + 不定式；être persuadé que：确信。"
+      }
+    ]
+  },
+  {
+    "headword": "encourager",
+    "phonetic": "/ɑ̃.ku.ʁa.ʒe/",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous encourageons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner du courage, pousser à agir",
+        "translations": {
+          "zh": "鼓励",
+          "en": "to encourage"
+        },
+        "examples": [
+          {
+            "text": "Mes parents m'ont toujours encouragé.",
+            "cloze": "Mes parents m'ont toujours {{encouragé}}.",
+            "translations": {
+              "zh": "我父母一直鼓励我。",
+              "en": "My parents have always encouraged me."
+            }
+          }
+        ],
+        "usageNote": "encourager qn à + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "conseiller",
+    "phonetic": "/kɔ̃.se.je/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "recommander à qn de faire qch",
+        "translations": {
+          "zh": "建议；劝告",
+          "en": "to advise"
+        },
+        "examples": [
+          {
+            "text": "Je te conseille de partir tôt.",
+            "cloze": "Je te {{conseille}} de partir tôt.",
+            "translations": {
+              "zh": "我建议你早点出发。",
+              "en": "I advise you to leave early."
+            }
+          }
+        ],
+        "usageNote": "conseiller à qn de + 不定式。名词 un conseil（建议）。"
+      }
+    ]
+  },
+  {
+    "headword": "suggérer",
+    "phonetic": "/syɡ.ʒe.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je suggère, nous suggérons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "proposer une idée",
+        "translations": {
+          "zh": "建议；提议",
+          "en": "to suggest"
+        },
+        "examples": [
+          {
+            "text": "Je suggère qu'on parte demain.",
+            "cloze": "Je {{suggère}} qu'on parte demain.",
+            "translations": {
+              "zh": "我建议我们明天出发。",
+              "en": "I suggest we leave tomorrow."
+            }
+          }
+        ],
+        "usageNote": "suggérer que + 虚拟式；suggérer à qn de + 不定式。"
+      }
+    ]
+  }
+]

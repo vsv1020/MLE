@@ -1,0 +1,1725 @@
+[
+ {
+  "headword": "sculpture",
+  "phonetic": "/skyl.tyʁ/",
+  "cefr": "B2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sculptures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art de faire des formes en pierre, bois, métal ; œuvre ainsi faite",
+    "translations": {
+     "zh": "雕塑",
+     "en": "sculpture"
+    },
+    "examples": [
+     {
+      "text": "Cette sculpture de Rodin est célèbre.",
+      "translations": {
+       "zh": "罗丹的这件雕塑很有名。",
+       "en": "This Rodin sculpture is famous."
+      }
+     }
+    ],
+    "usageNote": "p 不发音：/skyl.tyʁ/。"
+   }
+  ]
+ },
+ {
+  "headword": "tableau",
+  "phonetic": "/ta.blo/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tableaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "peinture faite sur une toile",
+    "translations": {
+     "zh": "画；油画",
+     "en": "painting, picture"
+    },
+    "examples": [
+     {
+      "text": "Ce tableau vaut des millions.",
+      "translations": {
+       "zh": "这幅画价值数百万。",
+       "en": "This painting is worth millions."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "surface où l'on écrit en classe",
+    "translations": {
+     "zh": "黑板",
+     "en": "board, blackboard"
+    },
+    "examples": [
+     {
+      "text": "Le professeur écrit au tableau.",
+      "translations": {
+       "zh": "老师在黑板上写字。",
+       "en": "The teacher writes on the board."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "auteur",
+  "phonetic": "/o.tœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "auteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui a écrit un livre ou créé une œuvre",
+    "translations": {
+     "zh": "作者；作家",
+     "en": "author"
+    },
+    "examples": [
+     {
+      "text": "Qui est l'auteur de ce livre ?",
+      "cloze": "Qui est l'{{auteur}} de ce livre ?",
+      "translations": {
+       "zh": "这本书的作者是谁？",
+       "en": "Who is the author of this book?"
+      }
+     }
+    ],
+    "usageNote": "女作者也可写作 autrice 或 auteure。"
+   }
+  ]
+ },
+ {
+  "headword": "écrivain",
+  "phonetic": "/e.kʁi.vɛ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "écrivains"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui écrit des livres",
+    "translations": {
+     "zh": "作家",
+     "en": "writer"
+    },
+    "examples": [
+     {
+      "text": "Camus est un écrivain français.",
+      "translations": {
+       "zh": "加缪是法国作家。",
+       "en": "Camus is a French writer."
+      }
+     }
+    ],
+    "usageNote": "女作家可说 une écrivaine。"
+   }
+  ]
+ },
+ {
+  "headword": "poème",
+  "phonetic": "/pɔ.ɛm/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "poèmes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "texte en vers",
+    "translations": {
+     "zh": "诗；诗歌",
+     "en": "poem"
+    },
+    "examples": [
+     {
+      "text": "Les enfants apprennent un poème par cœur.",
+      "translations": {
+       "zh": "孩子们在背一首诗。",
+       "en": "The children are learning a poem by heart."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "poésie",
+  "phonetic": "/pɔ.e.zi/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "poésies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art d'écrire des poèmes",
+    "translations": {
+     "zh": "诗歌（艺术）",
+     "en": "poetry"
+    },
+    "examples": [
+     {
+      "text": "J'aime beaucoup la poésie chinoise.",
+      "translations": {
+       "zh": "我非常喜欢中国诗歌。",
+       "en": "I really like Chinese poetry."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "théâtre",
+  "phonetic": "/te.ɑtʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "théâtres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art de jouer des pièces ; lieu où on les joue",
+    "translations": {
+     "zh": "戏剧；剧院",
+     "en": "theatre"
+    },
+    "examples": [
+     {
+      "text": "Ce soir, on va au théâtre.",
+      "translations": {
+       "zh": "今晚我们去看戏。",
+       "en": "Tonight we're going to the theatre."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pièce",
+  "phonetic": "/pjɛs/",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pièces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un logement entourée de murs",
+    "translations": {
+     "zh": "房间",
+     "en": "room"
+    },
+    "examples": [
+     {
+      "text": "C'est un appartement de trois pièces.",
+      "cloze": "C'est un appartement de trois {{pièces}}.",
+      "translations": {
+       "zh": "这是一套三居室的公寓。",
+       "en": "It's a three-room flat."
+      }
+     }
+    ],
+    "usageNote": "pièce 泛指房间；chambre 专指卧室。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "œuvre écrite pour le théâtre",
+    "translations": {
+     "zh": "剧本；戏剧",
+     "en": "play"
+    },
+    "examples": [
+     {
+      "text": "Nous avons vu une pièce de Molière.",
+      "translations": {
+       "zh": "我们看了一部莫里哀的戏。",
+       "en": "We saw a play by Molière."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "scène",
+  "phonetic": "/sɛn/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "scènes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du théâtre où jouent les acteurs",
+    "translations": {
+     "zh": "舞台",
+     "en": "stage"
+    },
+    "examples": [
+     {
+      "text": "Les danseurs entrent sur scène.",
+      "translations": {
+       "zh": "舞者们登上舞台。",
+       "en": "The dancers come on stage."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un film ou d'une pièce",
+    "translations": {
+     "zh": "（戏剧、电影的）场景；一场",
+     "en": "scene"
+    },
+    "examples": [
+     {
+      "text": "La dernière scène du film est très triste.",
+      "translations": {
+       "zh": "电影最后一场戏很悲伤。",
+       "en": "The last scene of the film is very sad."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "acteur",
+  "phonetic": "/ak.tœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "acteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui joue dans un film ou une pièce",
+    "translations": {
+     "zh": "演员",
+     "en": "actor"
+    },
+    "examples": [
+     {
+      "text": "Cet acteur joue dans beaucoup de films.",
+      "translations": {
+       "zh": "这个演员演过很多电影。",
+       "en": "This actor is in lots of films."
+      }
+     }
+    ],
+    "usageNote": "女演员是 actrice。"
+   }
+  ]
+ },
+ {
+  "headword": "réalisateur",
+  "phonetic": "/ʁe.a.li.za.tœʁ/",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "réalisateurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui dirige le tournage d'un film",
+    "translations": {
+     "zh": "导演（电影）",
+     "en": "film director"
+    },
+    "examples": [
+     {
+      "text": "Le réalisateur a gagné un prix à Cannes.",
+      "translations": {
+       "zh": "这位导演在戛纳获了奖。",
+       "en": "The director won a prize at Cannes."
+      }
+     }
+    ],
+    "usageNote": "女导演是 réalisatrice。"
+   }
+  ]
+ },
+ {
+  "headword": "chef-d'œuvre",
+  "phonetic": "/ʃɛ.dœvʁ/",
+  "cefr": "B2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chefs-d'œuvre"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "œuvre parfaite, la meilleure d'un artiste",
+    "translations": {
+     "zh": "杰作",
+     "en": "masterpiece"
+    },
+    "examples": [
+     {
+      "text": "Ce film est un vrai chef-d'œuvre.",
+      "cloze": "Ce film est un vrai {{chef-d'œuvre}}.",
+      "translations": {
+       "zh": "这部电影是真正的杰作。",
+       "en": "This film is a real masterpiece."
+      }
+     }
+    ],
+    "usageNote": "chef 中的 f 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "galerie",
+  "phonetic": "/ɡal.ʁi/",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "galeries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on expose et vend des œuvres d'art",
+    "translations": {
+     "zh": "画廊；美术馆",
+     "en": "gallery"
+    },
+    "examples": [
+     {
+      "text": "Elle expose ses photos dans une galerie.",
+      "translations": {
+       "zh": "她在一家画廊展出照片。",
+       "en": "She's showing her photos in a gallery."
+      }
+     }
+    ],
+    "usageNote": "galerie marchande = 商场走廊。"
+   }
+  ]
+ },
+ {
+  "headword": "concert",
+  "phonetic": "/kɔ̃.sɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "concerts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "spectacle de musique",
+    "translations": {
+     "zh": "音乐会；演唱会",
+     "en": "concert"
+    },
+    "examples": [
+     {
+      "text": "On a des places pour le concert de samedi.",
+      "translations": {
+       "zh": "我们有周六音乐会的票。",
+       "en": "We've got tickets for Saturday's concert."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "orchestre",
+  "phonetic": "/ɔʁ.kɛstʁ/",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "orchestres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe de musiciens qui jouent ensemble",
+    "translations": {
+     "zh": "乐队；管弦乐团",
+     "en": "orchestra"
+    },
+    "examples": [
+     {
+      "text": "L'orchestre joue du Mozart ce soir.",
+      "cloze": "L'{{orchestre}} joue du Mozart ce soir.",
+      "translations": {
+       "zh": "乐团今晚演奏莫扎特。",
+       "en": "The orchestra is playing Mozart tonight."
+      }
+     }
+    ],
+    "usageNote": "ch 读 /k/。"
+   }
+  ]
+ },
+ {
+  "headword": "festival",
+  "phonetic": "/fɛs.ti.val/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "festivals"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "série de spectacles ou de films pendant quelques jours",
+    "translations": {
+     "zh": "艺术节；电影节",
+     "en": "festival"
+    },
+    "examples": [
+     {
+      "text": "Le festival d'Avignon attire beaucoup de monde.",
+      "translations": {
+       "zh": "阿维尼翁戏剧节吸引了很多人。",
+       "en": "The Avignon festival attracts lots of people."
+      }
+     }
+    ],
+    "usageNote": "复数 festivals，不是 -aux。"
+   }
+  ]
+ },
+ {
+  "headword": "critique",
+  "phonetic": "/kʁi.tik/",
+  "cefr": "B2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "critiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jugement, souvent négatif ; article qui juge une œuvre",
+    "translations": {
+     "zh": "批评；评论",
+     "en": "criticism; review"
+    },
+    "examples": [
+     {
+      "text": "Ce film a reçu une critique très positive.",
+      "translations": {
+       "zh": "这部电影得到了非常正面的评价。",
+       "en": "This film got a very positive review."
+      }
+     }
+    ],
+    "usageNote": "un critique（阳性）= 评论家。"
+   }
+  ]
+ },
+ {
+  "headword": "personnage",
+  "phonetic": "/pɛʁ.sɔ.naʒ/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "personnages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne d'une histoire, d'un film ou d'une pièce",
+    "translations": {
+     "zh": "人物；角色",
+     "en": "character"
+    },
+    "examples": [
+     {
+      "text": "Le personnage principal est une jeune fille.",
+      "translations": {
+       "zh": "主人公是一个年轻女孩。",
+       "en": "The main character is a young girl."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chapitre",
+  "phonetic": "/ʃa.pitʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chapitres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un livre",
+    "translations": {
+     "zh": "章；章节",
+     "en": "chapter"
+    },
+    "examples": [
+     {
+      "text": "J'ai lu le premier chapitre hier.",
+      "translations": {
+       "zh": "我昨天读了第一章。",
+       "en": "I read the first chapter yesterday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "publier",
+  "phonetic": "/py.bli.je/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire paraître un livre, un article",
+    "translations": {
+     "zh": "出版；发表",
+     "en": "to publish"
+    },
+    "examples": [
+     {
+      "text": "Elle va publier son premier roman.",
+      "translations": {
+       "zh": "她要出版第一部小说了。",
+       "en": "She's going to publish her first novel."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "culturel",
+  "phonetic": "/kyl.ty.ʁɛl/",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "irregularForms": "阴性 culturelle；复数 culturels, culturelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne la culture",
+    "translations": {
+     "zh": "文化的",
+     "en": "cultural"
+    },
+    "examples": [
+     {
+      "text": "Ce centre culturel propose des cours de danse.",
+      "translations": {
+       "zh": "这个文化中心开设舞蹈课。",
+       "en": "This cultural centre offers dance classes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "artistique",
+  "phonetic": "/aʁ.tis.tik/",
+  "cefr": "B2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne l'art",
+    "translations": {
+     "zh": "艺术的",
+     "en": "artistic"
+    },
+    "examples": [
+     {
+      "text": "Il a un vrai talent artistique.",
+      "translations": {
+       "zh": "他有真正的艺术天赋。",
+       "en": "He has real artistic talent."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tradition",
+  "phonetic": "/tʁa.di.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "traditions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "habitude transmise de génération en génération",
+    "translations": {
+     "zh": "传统",
+     "en": "tradition"
+    },
+    "examples": [
+     {
+      "text": "Manger des crêpes en février est une tradition.",
+      "translations": {
+       "zh": "二月吃可丽饼是一种传统。",
+       "en": "Eating crêpes in February is a tradition."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "traditionnel",
+  "phonetic": "/tʁa.di.sjɔ.nɛl/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "irregularForms": "阴性 traditionnelle；复数 traditionnels, traditionnelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui suit la tradition",
+    "translations": {
+     "zh": "传统的",
+     "en": "traditional"
+    },
+    "examples": [
+     {
+      "text": "C'est un plat traditionnel de Bretagne.",
+      "translations": {
+       "zh": "这是布列塔尼的传统菜。",
+       "en": "It's a traditional dish from Brittany."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "monument",
+  "phonetic": "/mɔ.ny.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "monuments"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand bâtiment ou construction remarquable",
+    "translations": {
+     "zh": "纪念碑；名胜古迹",
+     "en": "monument"
+    },
+    "examples": [
+     {
+      "text": "Quel est le monument le plus visité de Paris ?",
+      "translations": {
+       "zh": "巴黎游客最多的古迹是哪个？",
+       "en": "Which is the most visited monument in Paris?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "architecture",
+  "phonetic": "/aʁ.ʃi.tɛk.tyʁ/",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "architectures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art de construire des bâtiments ; style d'un bâtiment",
+    "translations": {
+     "zh": "建筑；建筑学",
+     "en": "architecture"
+    },
+    "examples": [
+     {
+      "text": "J'admire l'architecture de cette cathédrale.",
+      "cloze": "J'admire l'{{architecture}} de cette cathédrale.",
+      "translations": {
+       "zh": "我很欣赏这座大教堂的建筑。",
+       "en": "I admire the architecture of this cathedral."
+      }
+     }
+    ],
+    "usageNote": "ch 读 /ʃ/；建筑师是 architecte。"
+   }
+  ]
+ },
+ {
+  "headword": "bande dessinée",
+  "phonetic": "/bɑ̃d.de.si.ne/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bandes dessinées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "histoire racontée en dessins",
+    "translations": {
+     "zh": "连环画；漫画",
+     "en": "comic strip, comic book"
+    },
+    "examples": [
+     {
+      "text": "Tintin est une bande dessinée belge.",
+      "cloze": "Tintin est une {{bande dessinée}} belge.",
+      "translations": {
+       "zh": "《丁丁历险记》是比利时漫画。",
+       "en": "Tintin is a Belgian comic."
+      }
+     }
+    ],
+    "usageNote": "缩写 la BD。"
+   }
+  ]
+ },
+ {
+  "headword": "chanteur",
+  "phonetic": "/ʃɑ̃.tœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chanteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui chante, souvent par métier",
+    "translations": {
+     "zh": "歌手",
+     "en": "singer"
+    },
+    "examples": [
+     {
+      "text": "Ce chanteur est très populaire en France.",
+      "translations": {
+       "zh": "这个歌手在法国很受欢迎。",
+       "en": "This singer is very popular in France."
+      }
+     }
+    ],
+    "usageNote": "女歌手是 chanteuse。"
+   }
+  ]
+ },
+ {
+  "headword": "public",
+  "phonetic": "/py.blik/",
+  "cefr": "B1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "publics"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personnes qui regardent un spectacle",
+    "translations": {
+     "zh": "观众；公众",
+     "en": "audience, public"
+    },
+    "examples": [
+     {
+      "text": "Le public a adoré le concert.",
+      "translations": {
+       "zh": "观众非常喜欢这场音乐会。",
+       "en": "The audience loved the concert."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est à tout le monde ou pour tout le monde",
+    "translations": {
+     "zh": "公共的；公开的",
+     "en": "public"
+    },
+    "examples": [
+     {
+      "text": "Ce jardin public ferme à 19 heures.",
+      "translations": {
+       "zh": "这个公园晚上七点关门。",
+       "en": "This public garden closes at 7 p.m."
+      }
+     }
+    ],
+    "usageNote": "形容词阴性为 publique。"
+   }
+  ]
+ },
+ {
+  "headword": "applaudir",
+  "phonetic": "/a.plo.diʁ/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：j'applaudis, nous applaudissons；过去分词 applaudi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "taper des mains pour montrer qu'on aime",
+    "translations": {
+     "zh": "鼓掌；喝彩",
+     "en": "to applaud, to clap"
+    },
+    "examples": [
+     {
+      "text": "Tout le monde s'est levé pour applaudir.",
+      "translations": {
+       "zh": "所有人都起立鼓掌。",
+       "en": "Everyone stood up to applaud."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "siècle",
+  "phonetic": "/sjɛkl/",
+  "cefr": "B1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "siècles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de cent ans",
+    "translations": {
+     "zh": "世纪；百年",
+     "en": "century"
+    },
+    "examples": [
+     {
+      "text": "Ce château date du seizième siècle.",
+      "translations": {
+       "zh": "这座城堡建于十六世纪。",
+       "en": "This castle dates from the sixteenth century."
+      }
+     }
+    ],
+    "usageNote": "常写作罗马数字：le XVIe siècle。"
+   }
+  ]
+ },
+ {
+  "headword": "littérature",
+  "phonetic": "/li.te.ʁa.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "littératures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des œuvres écrites ; art d'écrire",
+    "translations": {
+     "zh": "文学",
+     "en": "literature"
+    },
+    "examples": [
+     {
+      "text": "Elle étudie la littérature française.",
+      "translations": {
+       "zh": "她学习法国文学。",
+       "en": "She studies French literature."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "art",
+  "phonetic": "/aʁ/",
+  "cefr": "B1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "arts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "création d'œuvres belles : peinture, musique, etc.",
+    "translations": {
+     "zh": "艺术",
+     "en": "art"
+    },
+    "examples": [
+     {
+      "text": "Il s'intéresse à l'art moderne.",
+      "cloze": "Il s'intéresse à l'{{art}} moderne.",
+      "translations": {
+       "zh": "他对现代艺术感兴趣。",
+       "en": "He's interested in modern art."
+      }
+     }
+    ],
+    "usageNote": "t 不发音；les beaux-arts = 美术。"
+   }
+  ]
+ },
+ {
+  "headword": "conte",
+  "phonetic": "/kɔ̃t/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "contes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "court récit imaginaire, souvent pour les enfants",
+    "translations": {
+     "zh": "故事；童话",
+     "en": "tale, story"
+    },
+    "examples": [
+     {
+      "text": "Ma mère me lisait un conte chaque soir.",
+      "translations": {
+       "zh": "我妈妈以前每晚给我读一个故事。",
+       "en": "My mother read me a story every evening."
+      }
+     }
+    ],
+    "usageNote": "conte de fées = 童话；与 compte（账户）同音。"
+   }
+  ]
+ },
+ {
+  "headword": "mettre en scène",
+  "phonetic": "/mɛtʁ.ɑ̃.sɛn/",
+  "cefr": "B2",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "diriger la réalisation d'une pièce ou d'un film",
+    "translations": {
+     "zh": "导演；执导（戏剧、电影）",
+     "en": "to direct, to stage"
+    },
+    "examples": [
+     {
+      "text": "Il va mettre en scène une pièce de Racine.",
+      "cloze": "Il va {{mettre en scène}} une pièce de Racine.",
+      "translations": {
+       "zh": "他将执导一部拉辛的戏剧。",
+       "en": "He's going to stage a play by Racine."
+      }
+     }
+    ],
+    "usageNote": "mettre 不规则变位；名词 la mise en scène = 导演、舞台调度。"
+   }
+  ]
+ },
+ {
+  "headword": "recette",
+  "phonetic": "/ʁə.sɛt/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "recettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "explication pour préparer un plat",
+    "translations": {
+     "zh": "菜谱；食谱",
+     "en": "recipe"
+    },
+    "examples": [
+     {
+      "text": "Tu me donnes ta recette de la tarte ?",
+      "translations": {
+       "zh": "能把你做馅饼的方子给我吗？",
+       "en": "Will you give me your tart recipe?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ingrédient",
+  "phonetic": "/ɛ̃.ɡʁe.djɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ingrédients"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "produit qui entre dans une recette",
+    "translations": {
+     "zh": "配料；原料",
+     "en": "ingredient"
+    },
+    "examples": [
+     {
+      "text": "Il manque un ingrédient : le sucre.",
+      "translations": {
+       "zh": "缺一样配料：糖。",
+       "en": "One ingredient is missing: sugar."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cuire",
+  "phonetic": "/kɥiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "conjugation": "不规则：je cuis, nous cuisons, ils cuisent；过去分词 cuit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "préparer un aliment par la chaleur ; devenir prêt à manger",
+    "translations": {
+     "zh": "煮；烹调；烤",
+     "en": "to cook"
+    },
+    "examples": [
+     {
+      "text": "Laisse cuire les pâtes dix minutes.",
+      "translations": {
+       "zh": "让面条煮十分钟。",
+       "en": "Let the pasta cook for ten minutes."
+      }
+     }
+    ],
+    "usageNote": "常说 faire cuire qqch：Fais cuire le riz.（把米饭煮上。）"
+   }
+  ]
+ },
+ {
+  "headword": "cuisson",
+  "phonetic": "/kɥi.sɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cuissons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de cuire un aliment ; manière de le cuire",
+    "translations": {
+     "zh": "烹煮；（肉的）熟度",
+     "en": "cooking; doneness"
+    },
+    "examples": [
+     {
+      "text": "Quelle cuisson pour votre steak ?",
+      "translations": {
+       "zh": "您的牛排要几分熟？",
+       "en": "How would you like your steak cooked?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "four",
+  "phonetic": "/fuʁ/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil fermé où l'on fait cuire les aliments",
+    "translations": {
+     "zh": "烤箱；炉子",
+     "en": "oven"
+    },
+    "examples": [
+     {
+      "text": "Le gâteau est dans le four.",
+      "translations": {
+       "zh": "蛋糕在烤箱里。",
+       "en": "The cake is in the oven."
+      }
+     }
+    ],
+    "usageNote": "four à micro-ondes = 微波炉。"
+   }
+  ]
+ },
+ {
+  "headword": "poêle",
+  "phonetic": "/pwal/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "poêles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ustensile plat avec un manche pour faire frire",
+    "translations": {
+     "zh": "平底锅；煎锅",
+     "en": "frying pan"
+    },
+    "examples": [
+     {
+      "text": "Fais chauffer un peu d'huile dans la poêle.",
+      "translations": {
+       "zh": "在平底锅里热一点油。",
+       "en": "Heat a little oil in the frying pan."
+      }
+     }
+    ],
+    "usageNote": "读 /pwal/；un poêle（阳性）= 火炉。"
+   }
+  ]
+ },
+ {
+  "headword": "casserole",
+  "phonetic": "/kas.ʁɔl/",
+  "cefr": "B1",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "casseroles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "récipient avec un manche pour faire cuire",
+    "translations": {
+     "zh": "（有柄的）汤锅；炖锅",
+     "en": "saucepan"
+    },
+    "examples": [
+     {
+      "text": "Fais bouillir l'eau dans une casserole.",
+      "translations": {
+       "zh": "在锅里把水烧开。",
+       "en": "Boil the water in a saucepan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "épice",
+  "phonetic": "/e.pis/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "épices"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "substance qui donne du goût : poivre, cannelle, etc.",
+    "translations": {
+     "zh": "香料；调料",
+     "en": "spice"
+    },
+    "examples": [
+     {
+      "text": "Cette épice vient d'Inde.",
+      "translations": {
+       "zh": "这种香料来自印度。",
+       "en": "This spice comes from India."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "goût",
+  "phonetic": "/ɡu/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "goûts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "saveur d'un aliment ; sens qui la perçoit",
+    "translations": {
+     "zh": "味道；味觉",
+     "en": "taste, flavour"
+    },
+    "examples": [
+     {
+      "text": "Cette soupe a un goût bizarre.",
+      "translations": {
+       "zh": "这汤味道怪怪的。",
+       "en": "This soup tastes strange."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "capacité à juger ce qui est beau ; préférence",
+    "translations": {
+     "zh": "品味；爱好",
+     "en": "taste (judgement)"
+    },
+    "examples": [
+     {
+      "text": "Elle a très bon goût.",
+      "translations": {
+       "zh": "她很有品味。",
+       "en": "She has very good taste."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "goûter",
+  "phonetic": "/ɡu.te/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "manger un peu pour connaître le goût",
+    "translations": {
+     "zh": "品尝；尝",
+     "en": "to taste, to try"
+    },
+    "examples": [
+     {
+      "text": "Tu veux goûter mon dessert ?",
+      "translations": {
+       "zh": "你想尝尝我的甜点吗？",
+       "en": "Do you want to try my dessert?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit repas de l'après-midi",
+    "translations": {
+     "zh": "下午点心",
+     "en": "afternoon snack"
+    },
+    "examples": [
+     {
+      "text": "Les enfants prennent leur goûter à quatre heures.",
+      "translations": {
+       "zh": "孩子们四点吃下午点心。",
+       "en": "The children have their snack at four."
+      }
+     }
+    ],
+    "usageNote": "作名词时为阳性 le goûter。"
+   }
+  ]
+ },
+ {
+  "headword": "saveur",
+  "phonetic": "/sa.vœʁ/",
+  "cefr": "B2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "saveurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "goût d'un aliment",
+    "translations": {
+     "zh": "滋味；风味",
+     "en": "flavour"
+    },
+    "examples": [
+     {
+      "text": "Ce plat a une saveur unique.",
+      "translations": {
+       "zh": "这道菜有独特的风味。",
+       "en": "This dish has a unique flavour."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plat",
+  "phonetic": "/pla/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "plats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "préparation culinaire ; partie d'un repas",
+    "translations": {
+     "zh": "菜；一道菜",
+     "en": "dish, course"
+    },
+    "examples": [
+     {
+      "text": "Le plat du jour, c'est du poisson.",
+      "translations": {
+       "zh": "今日特色菜是鱼。",
+       "en": "The dish of the day is fish."
+      }
+     }
+    ],
+    "usageNote": "plat principal = 主菜。"
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "sans relief, sans bosse",
+    "translations": {
+     "zh": "平的；平坦的",
+     "en": "flat"
+    },
+    "examples": [
+     {
+      "text": "Ce pays est plat comme la main.",
+      "translations": {
+       "zh": "这个国家地势平坦。",
+       "en": "This country is as flat as a pancake."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gastronomie",
+  "phonetic": "/ɡas.tʁɔ.nɔ.mi/",
+  "cefr": "B2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "gastronomies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art de bien cuisiner et de bien manger",
+    "translations": {
+     "zh": "美食；烹饪艺术",
+     "en": "gastronomy"
+    },
+    "examples": [
+     {
+      "text": "La gastronomie française est célèbre.",
+      "translations": {
+       "zh": "法国美食闻名世界。",
+       "en": "French gastronomy is famous."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cuisinier",
+  "phonetic": "/kɥi.zi.nje/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cuisiniers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait la cuisine",
+    "translations": {
+     "zh": "厨师",
+     "en": "cook"
+    },
+    "examples": [
+     {
+      "text": "Mon père est un excellent cuisinier.",
+      "translations": {
+       "zh": "我爸爸厨艺一流。",
+       "en": "My father is an excellent cook."
+      }
+     }
+    ],
+    "usageNote": "女厨师是 cuisinière；cuisinière 也指“炉灶”。"
+   }
+  ]
+ },
+ {
+  "headword": "chef",
+  "phonetic": "/ʃɛf/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chefs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui dirige la cuisine d'un restaurant",
+    "translations": {
+     "zh": "主厨；厨师长",
+     "en": "chef"
+    },
+    "examples": [
+     {
+      "text": "Le chef nous a préparé un menu spécial.",
+      "translations": {
+       "zh": "主厨给我们准备了特别菜单。",
+       "en": "The chef prepared a special menu for us."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui commande",
+    "translations": {
+     "zh": "首领；领导",
+     "en": "boss, head"
+    },
+    "examples": [
+     {
+      "text": "C'est le chef de l'équipe.",
+      "translations": {
+       "zh": "他是团队负责人。",
+       "en": "He's the head of the team."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mélanger",
+  "phonetic": "/me.lɑ̃.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous mélangeons；过去分词 mélangé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre ensemble plusieurs choses",
+    "translations": {
+     "zh": "混合；搅拌",
+     "en": "to mix"
+    },
+    "examples": [
+     {
+      "text": "Il faut bien mélanger la farine et les œufs.",
+      "translations": {
+       "zh": "要把面粉和鸡蛋搅拌均匀。",
+       "en": "Mix the flour and eggs well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "éplucher",
+  "phonetic": "/e.ply.ʃe/",
+  "cefr": "B2",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "enlever la peau d'un fruit ou d'un légume",
+    "translations": {
+     "zh": "削皮；剥皮",
+     "en": "to peel"
+    },
+    "examples": [
+     {
+      "text": "Tu peux éplucher les carottes ?",
+      "translations": {
+       "zh": "你能削一下胡萝卜吗？",
+       "en": "Can you peel the carrots?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "verser",
+  "phonetic": "/vɛʁ.se/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire couler un liquide",
+    "translations": {
+     "zh": "倒；倒入",
+     "en": "to pour"
+    },
+    "examples": [
+     {
+      "text": "Il faut verser le lait doucement.",
+      "translations": {
+       "zh": "要慢慢倒入牛奶。",
+       "en": "Pour the milk in slowly."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner de l'argent, payer",
+    "translations": {
+     "zh": "支付；交付",
+     "en": "to pay (in)"
+    },
+    "examples": [
+     {
+      "text": "Vous devez verser une caution.",
+      "translations": {
+       "zh": "您需要交押金。",
+       "en": "You have to pay a deposit."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bouillir",
+  "phonetic": "/bu.jiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "conjugation": "不规则：je bous, il bout, nous bouillons；过去分词 bouilli"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être si chaud que des bulles apparaissent",
+    "translations": {
+     "zh": "沸腾；煮开",
+     "en": "to boil"
+    },
+    "examples": [
+     {
+      "text": "L'eau commence à bouillir.",
+      "translations": {
+       "zh": "水开始沸腾了。",
+       "en": "The water's starting to boil."
+      }
+     }
+    ],
+    "usageNote": "常说 faire bouillir de l'eau（烧开水）。"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1450 @@
+[
+  {
+    "headword": "plainte",
+    "phonetic": "/plɛ̃t/",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "plaintes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "démarche par laquelle on signale une infraction à la justice ; lamentation",
+        "translations": {
+          "zh": "诉状，控告；抱怨，呻吟",
+          "en": "complaint (legal); moan"
+        },
+        "examples": [
+          {
+            "text": "Elle a porté plainte contre son voisin pour harcèlement.",
+            "translations": {
+              "zh": "她以骚扰罪起诉了她的邻居。",
+              "en": "She filed a complaint against her neighbour for harassment."
+            }
+          }
+        ],
+        "usageNote": "porter plainte (contre qqn)：报案，起诉。"
+      }
+    ]
+  },
+  {
+    "headword": "jurisprudence",
+    "phonetic": "/ʒy.ʁis.pʁy.dɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "jurisprudences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble des décisions des tribunaux qui servent de référence",
+        "translations": {
+          "zh": "判例；判例法",
+          "en": "case law"
+        },
+        "examples": [
+          {
+            "text": "Cette décision va faire jurisprudence.",
+            "translations": {
+              "zh": "这一判决将成为判例。",
+              "en": "This ruling will set a precedent."
+            }
+          }
+        ],
+        "usageNote": "faire jurisprudence：成为先例。"
+      }
+    ]
+  },
+  {
+    "headword": "décret",
+    "phonetic": "/de.kʁɛ/",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "décrets"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "décision écrite du gouvernement qui a force de loi",
+        "translations": {
+          "zh": "法令；政令",
+          "en": "decree"
+        },
+        "examples": [
+          {
+            "text": "Le décret d'application a été publié au Journal officiel.",
+            "translations": {
+              "zh": "实施细则已在《政府公报》上公布。",
+              "en": "The implementing decree was published in the Official Journal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "juridiction",
+    "phonetic": "/ʒy.ʁi.dik.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "juridictions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tribunal ; pouvoir et compétence d'un tribunal",
+        "translations": {
+          "zh": "司法管辖；法院",
+          "en": "jurisdiction; court"
+        },
+        "examples": [
+          {
+            "text": "Cette affaire ne relève pas de notre juridiction.",
+            "translations": {
+              "zh": "此案不属于我们的管辖范围。",
+              "en": "This case does not fall within our jurisdiction."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "procès",
+    "phonetic": "/pʁɔ.sɛ/",
+    "cefr": "C1",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "procès"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "affaire jugée devant un tribunal",
+        "translations": {
+          "zh": "诉讼；审判",
+          "en": "trial, lawsuit"
+        },
+        "examples": [
+          {
+            "text": "Le procès s'ouvrira lundi devant la cour d'assises.",
+            "translations": {
+              "zh": "审判将于周一在重罪法庭开庭。",
+              "en": "The trial will open on Monday at the criminal court."
+            }
+          }
+        ],
+        "usageNote": "intenter un procès à qqn：控告某人。单复数同形。"
+      }
+    ]
+  },
+  {
+    "headword": "prévenu",
+    "phonetic": "/pʁev.ny/",
+    "cefr": "C1",
+    "frequencyRank": 11700,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "prévenus"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne poursuivie devant un tribunal pour un délit",
+        "translations": {
+          "zh": "（轻罪）被告",
+          "en": "defendant, accused"
+        },
+        "examples": [
+          {
+            "text": "Le prévenu a refusé de répondre aux questions du juge.",
+            "translations": {
+              "zh": "被告拒绝回答法官的问题。",
+              "en": "The defendant refused to answer the judge's questions."
+            }
+          }
+        ],
+        "usageNote": "阴性 prévenue。重罪被告称 accusé。"
+      }
+    ]
+  },
+  {
+    "headword": "inculper",
+    "phonetic": "/ɛ̃.kyl.pe/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "accuser officiellement quelqu'un d'une infraction",
+        "translations": {
+          "zh": "起诉；控告",
+          "en": "to charge"
+        },
+        "examples": [
+          {
+            "text": "Il a été inculpé de fraude fiscale.",
+            "cloze": "Il a été {{inculpé}} de fraude fiscale.",
+            "translations": {
+              "zh": "他被控逃税。",
+              "en": "He was charged with tax fraud."
+            }
+          }
+        ],
+        "usageNote": "法国现在正式用语为 mettre en examen，但 inculper 仍常见于媒体和比利时、瑞士。"
+      }
+    ]
+  },
+  {
+    "headword": "mise en examen",
+    "phonetic": "/mi.zɑ̃.nɛɡ.za.mɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "mises en examen"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "décision d'un juge de poursuivre quelqu'un soupçonné d'une infraction",
+        "translations": {
+          "zh": "（法国）立案审查，正式被列为嫌疑人",
+          "en": "formal investigation, indictment"
+        },
+        "examples": [
+          {
+            "text": "Le ministre a démenti toute mise en examen.",
+            "cloze": "Le ministre a démenti toute {{mise en examen}}.",
+            "translations": {
+              "zh": "部长否认自己已被立案审查。",
+              "en": "The minister denied being placed under formal investigation."
+            }
+          }
+        ],
+        "usageNote": "être mis en examen：被立案调查（不等于被定罪）。"
+      }
+    ]
+  },
+  {
+    "headword": "garde à vue",
+    "phonetic": "/ɡaʁ.da.vy/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "gardes à vue"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "période pendant laquelle la police retient un suspect pour l'interroger",
+        "translations": {
+          "zh": "拘留（审讯期间）",
+          "en": "police custody"
+        },
+        "examples": [
+          {
+            "text": "Le suspect a passé quarante-huit heures en garde à vue.",
+            "cloze": "Le suspect a passé quarante-huit heures en {{garde à vue}}.",
+            "translations": {
+              "zh": "嫌疑人被拘留了四十八小时。",
+              "en": "The suspect spent forty-eight hours in police custody."
+            }
+          }
+        ],
+        "usageNote": "placer qqn en garde à vue：拘留某人。"
+      }
+    ]
+  },
+  {
+    "headword": "verdict",
+    "phonetic": "/vɛʁ.dikt/",
+    "cefr": "C1",
+    "frequencyRank": 8700,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "verdicts"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "décision d'un jury ou d'un tribunal ; jugement définitif",
+        "translations": {
+          "zh": "判决；裁决",
+          "en": "verdict"
+        },
+        "examples": [
+          {
+            "text": "Le verdict sera rendu dans la soirée.",
+            "translations": {
+              "zh": "判决将于今晚宣布。",
+              "en": "The verdict will be delivered this evening."
+            }
+          }
+        ],
+        "usageNote": "末尾 ct 发音 /kt/。"
+      }
+    ]
+  },
+  {
+    "headword": "acquitter",
+    "phonetic": "/a.ki.te/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "déclarer un accusé non coupable ; payer une dette",
+        "translations": {
+          "zh": "宣告无罪；付清（债务）",
+          "en": "to acquit; to pay off"
+        },
+        "examples": [
+          {
+            "text": "Faute de preuves, le jury a acquitté l'accusé.",
+            "cloze": "Faute de preuves, le jury a {{acquitté}} l'accusé.",
+            "translations": {
+              "zh": "因证据不足，陪审团宣告被告无罪。",
+              "en": "For lack of evidence, the jury acquitted the defendant."
+            }
+          }
+        ],
+        "usageNote": "s'acquitter de：履行（义务），偿清。"
+      }
+    ]
+  },
+  {
+    "headword": "condamner",
+    "phonetic": "/kɔ̃.da.ne/",
+    "cefr": "C1",
+    "frequencyRank": 3600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "infliger une peine par un jugement ; désapprouver fortement",
+        "translations": {
+          "zh": "判刑；谴责；封死（门窗）",
+          "en": "to sentence; to condemn"
+        },
+        "examples": [
+          {
+            "text": "Il a été condamné à deux ans de prison.",
+            "cloze": "Il a été {{condamné}} à deux ans de prison.",
+            "translations": {
+              "zh": "他被判处两年监禁。",
+              "en": "He was sentenced to two years in prison."
+            }
+          }
+        ],
+        "usageNote": "m 不发音：/kɔ̃.da.ne/。"
+      }
+    ]
+  },
+  {
+    "headword": "sursis",
+    "phonetic": "/syʁ.si/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "sursis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "suspension de l'exécution d'une peine",
+        "translations": {
+          "zh": "缓刑；延期",
+          "en": "suspended sentence; reprieve"
+        },
+        "examples": [
+          {
+            "text": "Il a écopé de six mois de prison avec sursis.",
+            "translations": {
+              "zh": "他被判六个月监禁，缓期执行。",
+              "en": "He got a six-month suspended sentence."
+            }
+          }
+        ],
+        "usageNote": "avec sursis：缓刑；ferme：实刑。"
+      }
+    ]
+  },
+  {
+    "headword": "amende",
+    "phonetic": "/a.mɑ̃d/",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "amendes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "somme d'argent à payer comme sanction",
+        "translations": {
+          "zh": "罚款",
+          "en": "fine"
+        },
+        "examples": [
+          {
+            "text": "Elle a reçu une amende de 135 euros pour excès de vitesse.",
+            "translations": {
+              "zh": "她因超速被罚了135欧元。",
+              "en": "She got a 135-euro fine for speeding."
+            }
+          }
+        ],
+        "usageNote": "faire amende honorable：公开认错。"
+      }
+    ]
+  },
+  {
+    "headword": "recours",
+    "phonetic": "/ʁə.kuʁ/",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "recours"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "action de demander de l'aide ; démarche pour contester une décision",
+        "translations": {
+          "zh": "求助；上诉，申诉",
+          "en": "recourse; appeal"
+        },
+        "examples": [
+          {
+            "text": "L'association a déposé un recours devant le Conseil d'État.",
+            "translations": {
+              "zh": "该协会向最高行政法院提起了申诉。",
+              "en": "The association lodged an appeal with the Council of State."
+            }
+          }
+        ],
+        "usageNote": "avoir recours à：求助于，采用。"
+      }
+    ]
+  },
+  {
+    "headword": "cour d'appel",
+    "phonetic": "/kuʁ.da.pɛl/",
+    "cefr": "C1",
+    "frequencyRank": 9600,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "cours d'appel"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tribunal qui juge une affaire une seconde fois",
+        "translations": {
+          "zh": "上诉法院",
+          "en": "court of appeal"
+        },
+        "examples": [
+          {
+            "text": "La cour d'appel a confirmé la condamnation.",
+            "cloze": "La {{cour d'appel}} a confirmé la condamnation.",
+            "translations": {
+              "zh": "上诉法院维持了原判。",
+              "en": "The court of appeal upheld the conviction."
+            }
+          }
+        ],
+        "usageNote": "faire appel：上诉。"
+      }
+    ]
+  },
+  {
+    "headword": "cassation",
+    "phonetic": "/ka.sa.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "cassations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "annulation d'un jugement par la plus haute juridiction",
+        "translations": {
+          "zh": "撤销原判",
+          "en": "annulment (of a judgment)"
+        },
+        "examples": [
+          {
+            "text": "Ses avocats ont formé un pourvoi en cassation.",
+            "translations": {
+              "zh": "他的律师向最高法院申请撤销原判。",
+              "en": "His lawyers appealed to the Court of Cassation."
+            }
+          }
+        ],
+        "usageNote": "la Cour de cassation：法国最高司法法院。"
+      }
+    ]
+  },
+  {
+    "headword": "huissier",
+    "phonetic": "/ɥi.sje/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "huissiers"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "officier chargé de faire exécuter les décisions de justice",
+        "translations": {
+          "zh": "执达员；法警",
+          "en": "bailiff"
+        },
+        "examples": [
+          {
+            "text": "L'huissier est venu saisir les meubles.",
+            "cloze": "L'{{huissier}} est venu saisir les meubles.",
+            "translations": {
+              "zh": "执达员上门查封了家具。",
+              "en": "The bailiff came to seize the furniture."
+            }
+          }
+        ],
+        "usageNote": "h 哑音：l'huissier。现正式称 commissaire de justice。"
+      }
+    ]
+  },
+  {
+    "headword": "magistrat",
+    "phonetic": "/ma.ʒis.tʁa/",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "magistrats"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "juge ou procureur, membre de l'autorité judiciaire",
+        "translations": {
+          "zh": "法官；司法官",
+          "en": "magistrate, judge"
+        },
+        "examples": [
+          {
+            "text": "Les magistrats protestent contre le manque de moyens.",
+            "cloze": "Les {{magistrats}} protestent contre le manque de moyens.",
+            "translations": {
+              "zh": "司法官们抗议资源不足。",
+              "en": "Magistrates are protesting about the lack of resources."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "juge d'instruction",
+    "phonetic": "/ʒyʒ.dɛ̃s.tʁyk.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "juges d'instruction"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "juge chargé de mener l'enquête dans les affaires graves",
+        "translations": {
+          "zh": "预审法官",
+          "en": "investigating judge"
+        },
+        "examples": [
+          {
+            "text": "Le juge d'instruction a convoqué l'ancien maire.",
+            "cloze": "Le {{juge d'instruction}} a convoqué l'ancien maire.",
+            "translations": {
+              "zh": "预审法官传唤了前市长。",
+              "en": "The investigating judge summoned the former mayor."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "témoignage",
+    "phonetic": "/te.mwa.ɲaʒ/",
+    "cefr": "C1",
+    "frequencyRank": 5400,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "témoignages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "déclaration de ce qu'on a vu ou entendu",
+        "translations": {
+          "zh": "证词；见证",
+          "en": "testimony, account"
+        },
+        "examples": [
+          {
+            "text": "Son témoignage a été décisif pour l'enquête.",
+            "translations": {
+              "zh": "他的证词对调查起了决定性作用。",
+              "en": "His testimony was decisive for the investigation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "préjudice",
+    "phonetic": "/pʁe.ʒy.dis/",
+    "cefr": "C1",
+    "frequencyRank": 9400,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "préjudices"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tort, dommage subi par quelqu'un",
+        "translations": {
+          "zh": "损害；损失",
+          "en": "harm, damage"
+        },
+        "examples": [
+          {
+            "text": "La victime demande réparation du préjudice subi.",
+            "translations": {
+              "zh": "受害人要求赔偿所受损失。",
+              "en": "The victim is seeking compensation for the harm suffered."
+            }
+          }
+        ],
+        "usageNote": "porter préjudice à：损害。sans préjudice de：不影响……"
+      }
+    ]
+  },
+  {
+    "headword": "dommages et intérêts",
+    "phonetic": "/dɔ.maʒ.ze.ɛ̃.te.ʁɛ/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "只用复数"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "somme versée pour réparer un préjudice",
+        "translations": {
+          "zh": "损害赔偿金",
+          "en": "damages"
+        },
+        "examples": [
+          {
+            "text": "Le journal devra verser dix mille euros de dommages et intérêts.",
+            "cloze": "Le journal devra verser dix mille euros de {{dommages et intérêts}}.",
+            "translations": {
+              "zh": "该报须支付一万欧元的损害赔偿金。",
+              "en": "The newspaper will have to pay ten thousand euros in damages."
+            }
+          }
+        ],
+        "usageNote": "也写作 dommages-intérêts。"
+      }
+    ]
+  },
+  {
+    "headword": "litige",
+    "phonetic": "/li.tiʒ/",
+    "cefr": "C1",
+    "frequencyRank": 9100,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "litiges"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "désaccord qui peut être porté devant la justice",
+        "translations": {
+          "zh": "争议；纠纷",
+          "en": "dispute"
+        },
+        "examples": [
+          {
+            "text": "Le litige entre les deux sociétés porte sur un brevet.",
+            "translations": {
+              "zh": "两家公司的纠纷涉及一项专利。",
+              "en": "The dispute between the two companies concerns a patent."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "contentieux",
+    "phonetic": "/kɔ̃.tɑ̃.sjø/",
+    "cefr": "C1",
+    "frequencyRank": 13800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "contentieux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble des litiges ; service juridique qui les traite",
+        "translations": {
+          "zh": "争端；诉讼事务（部门）",
+          "en": "litigation; dispute"
+        },
+        "examples": [
+          {
+            "text": "Un vieux contentieux oppose les deux pays sur la frontière.",
+            "translations": {
+              "zh": "两国之间存在一个由来已久的边界争端。",
+              "en": "A long-standing dispute pits the two countries against each other over the border."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "légiférer",
+    "phonetic": "/le.ʒi.fe.ʁe/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "grammarNotes": {
+      "conjugation": "变音：je légifère, nous légiférons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire des lois",
+        "translations": {
+          "zh": "立法",
+          "en": "to legislate"
+        },
+        "examples": [
+          {
+            "text": "Le Parlement doit légiférer sur l'intelligence artificielle.",
+            "translations": {
+              "zh": "议会必须就人工智能立法。",
+              "en": "Parliament must legislate on artificial intelligence."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "abroger",
+    "phonetic": "/a.bʁɔ.ʒe/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous abrogeons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "annuler une loi ou un décret",
+        "translations": {
+          "zh": "废除（法律）",
+          "en": "to repeal"
+        },
+        "examples": [
+          {
+            "text": "La nouvelle majorité veut abroger cette réforme.",
+            "translations": {
+              "zh": "新的多数派想废除这项改革。",
+              "en": "The new majority wants to repeal this reform."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "promulguer",
+    "phonetic": "/pʁɔ.myl.ɡe/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rendre une loi officiellement applicable",
+        "translations": {
+          "zh": "颁布；公布（法律）",
+          "en": "to promulgate"
+        },
+        "examples": [
+          {
+            "text": "Le président a quinze jours pour promulguer la loi.",
+            "translations": {
+              "zh": "总统有十五天时间颁布该法律。",
+              "en": "The president has fifteen days to enact the law."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ordonnance",
+    "phonetic": "/ɔʁ.dɔ.nɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 7700,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "ordonnances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "papier sur lequel le médecin écrit les médicaments ; décision du gouvernement ou d'un juge",
+        "translations": {
+          "zh": "处方；（政府）法令，（法官）裁定",
+          "en": "prescription; ordinance, order"
+        },
+        "examples": [
+          {
+            "text": "Ce médicament n'est délivré que sur ordonnance.",
+            "translations": {
+              "zh": "这种药凭处方才能购买。",
+              "en": "This medicine is only available on prescription."
+            }
+          }
+        ],
+        "usageNote": "政府“法令”义：légiférer par ordonnances（以法令方式立法）。"
+      }
+    ]
+  },
+  {
+    "headword": "préfecture",
+    "phonetic": "/pʁe.fɛk.tyʁ/",
+    "cefr": "C1",
+    "frequencyRank": 8100,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "préfectures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "administration qui représente l'État dans un département",
+        "translations": {
+          "zh": "省政府；警察局（巴黎）",
+          "en": "prefecture"
+        },
+        "examples": [
+          {
+            "text": "Il faut prendre rendez-vous à la préfecture pour renouveler son titre de séjour.",
+            "translations": {
+              "zh": "续签居留证需在省政府预约。",
+              "en": "You must book an appointment at the prefecture to renew your residence permit."
+            }
+          }
+        ],
+        "usageNote": "留学生必知：居留手续在 préfecture 办理。"
+      }
+    ]
+  },
+  {
+    "headword": "casier judiciaire",
+    "phonetic": "/ka.zje.ʒy.di.sjɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "casiers judiciaires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "relevé des condamnations d'une personne",
+        "translations": {
+          "zh": "犯罪记录",
+          "en": "criminal record"
+        },
+        "examples": [
+          {
+            "text": "Pour ce poste, il faut un casier judiciaire vierge.",
+            "cloze": "Pour ce poste, il faut un {{casier judiciaire}} vierge.",
+            "translations": {
+              "zh": "这个职位要求无犯罪记录。",
+              "en": "For this job you need a clean criminal record."
+            }
+          }
+        ],
+        "usageNote": "casier vierge：无犯罪记录。"
+      }
+    ]
+  },
+  {
+    "headword": "présomption d'innocence",
+    "phonetic": "/pʁe.zɔ̃p.sjɔ̃.di.nɔ.sɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "présomption d'innocences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "principe selon lequel un suspect est innocent tant qu'il n'est pas jugé coupable",
+        "translations": {
+          "zh": "无罪推定",
+          "en": "presumption of innocence"
+        },
+        "examples": [
+          {
+            "text": "Les médias doivent respecter la présomption d'innocence.",
+            "cloze": "Les médias doivent respecter la {{présomption d'innocence}}.",
+            "translations": {
+              "zh": "媒体必须尊重无罪推定原则。",
+              "en": "The media must respect the presumption of innocence."
+            }
+          }
+        ],
+        "usageNote": "présomption 中 p 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "non-lieu",
+    "phonetic": "/nɔ̃.ljø/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "non-lieux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "décision d'arrêter les poursuites faute de charges suffisantes",
+        "translations": {
+          "zh": "不起诉决定；免予起诉",
+          "en": "dismissal of charges"
+        },
+        "examples": [
+          {
+            "text": "L'enquête s'est terminée par un non-lieu.",
+            "cloze": "L'enquête s'est terminée par un {{non-lieu}}.",
+            "translations": {
+              "zh": "调查以不起诉告终。",
+              "en": "The investigation ended with the charges being dismissed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "détention provisoire",
+    "phonetic": "/de.tɑ̃.sjɔ̃.pʁɔ.vi.zwaʁ/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "détention provisoires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "emprisonnement d'une personne avant son jugement",
+        "translations": {
+          "zh": "审前羁押",
+          "en": "pre-trial detention"
+        },
+        "examples": [
+          {
+            "text": "Le juge a ordonné son placement en détention provisoire.",
+            "cloze": "Le juge a ordonné son placement en {{détention provisoire}}.",
+            "translations": {
+              "zh": "法官下令对他进行审前羁押。",
+              "en": "The judge ordered him remanded in custody."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "plaider",
+    "phonetic": "/ple.de/",
+    "cefr": "C1",
+    "frequencyRank": 9300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "défendre une cause devant un tribunal ; soutenir une idée",
+        "translations": {
+          "zh": "辩护；申辩；主张",
+          "en": "to plead, to argue"
+        },
+        "examples": [
+          {
+            "text": "L'avocate a plaidé la légitime défense.",
+            "cloze": "L'avocate a {{plaidé}} la légitime défense.",
+            "translations": {
+              "zh": "女律师以正当防卫为由辩护。",
+              "en": "The lawyer pleaded self-defence."
+            }
+          }
+        ],
+        "usageNote": "plaider coupable：认罪；plaider pour / en faveur de：力主。"
+      }
+    ]
+  },
+  {
+    "headword": "délit",
+    "phonetic": "/de.li/",
+    "cefr": "C1",
+    "frequencyRank": 6700,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "délits"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "infraction punie par la loi, moins grave qu'un crime",
+        "translations": {
+          "zh": "轻罪；违法行为",
+          "en": "offence, misdemeanour"
+        },
+        "examples": [
+          {
+            "text": "Conduire sans permis est un délit.",
+            "translations": {
+              "zh": "无照驾驶属于违法行为。",
+              "en": "Driving without a licence is an offence."
+            }
+          }
+        ],
+        "usageNote": "法国法律分三级：contravention（违警罪）< délit（轻罪）< crime（重罪）。"
+      }
+    ]
+  },
+  {
+    "headword": "escroquerie",
+    "phonetic": "/ɛs.kʁɔk.ʁi/",
+    "cefr": "C1",
+    "frequencyRank": 11200,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "escroqueries"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "action de tromper quelqu'un pour lui prendre de l'argent",
+        "translations": {
+          "zh": "诈骗",
+          "en": "fraud, swindle"
+        },
+        "examples": [
+          {
+            "text": "Des milliers de retraités ont été victimes de cette escroquerie.",
+            "translations": {
+              "zh": "数千名退休者成了这场诈骗的受害者。",
+              "en": "Thousands of pensioners fell victim to this scam."
+            }
+          }
+        ],
+        "usageNote": "escroc：骗子。"
+      }
+    ]
+  },
+  {
+    "headword": "diffamation",
+    "phonetic": "/di.fa.ma.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 12300,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "diffamations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de dire ou d'écrire des choses fausses qui nuisent à la réputation de quelqu'un",
+        "translations": {
+          "zh": "诽谤",
+          "en": "defamation"
+        },
+        "examples": [
+          {
+            "text": "Le chanteur a porté plainte pour diffamation.",
+            "translations": {
+              "zh": "这位歌手以诽谤罪提起诉讼。",
+              "en": "The singer sued for defamation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "vice de forme",
+    "phonetic": "/vis.də.fɔʁm/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "vices de forme"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "erreur de procédure qui rend un acte nul",
+        "translations": {
+          "zh": "程序瑕疵",
+          "en": "procedural irregularity"
+        },
+        "examples": [
+          {
+            "text": "Le procès a été annulé pour vice de forme.",
+            "cloze": "Le procès a été annulé pour {{vice de forme}}.",
+            "translations": {
+              "zh": "审判因程序瑕疵被宣告无效。",
+              "en": "The trial was annulled on a technicality."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "délibéré",
+    "phonetic": "/de.li.be.ʁe/",
+    "cefr": "C1",
+    "frequencyRank": 18000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "délibérés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "moment où les juges discutent avant de rendre leur décision",
+        "translations": {
+          "zh": "（法官）合议",
+          "en": "deliberation"
+        },
+        "examples": [
+          {
+            "text": "La décision a été mise en délibéré au 12 mai.",
+            "translations": {
+              "zh": "判决将于5月12日合议后宣布。",
+              "en": "Judgment has been reserved until 12 May."
+            }
+          }
+        ],
+        "usageNote": "mettre en délibéré：择日宣判。"
+      }
+    ]
+  },
+  {
+    "headword": "scrutin",
+    "phonetic": "/skʁy.tɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 8300,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "scrutins"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "vote ; ensemble des opérations d'une élection",
+        "translations": {
+          "zh": "投票；选举",
+          "en": "ballot, vote"
+        },
+        "examples": [
+          {
+            "text": "Le second tour du scrutin aura lieu dimanche prochain.",
+            "translations": {
+              "zh": "第二轮投票将于下周日举行。",
+              "en": "The second round of voting will take place next Sunday."
+            }
+          }
+        ],
+        "usageNote": "scrutin majoritaire / proportionnel：多数制 / 比例制选举。"
+      }
+    ]
+  },
+  {
+    "headword": "suffrage",
+    "phonetic": "/sy.fʁaʒ/",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "suffrages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "vote exprimé ; droit de voter",
+        "translations": {
+          "zh": "选票；选举权",
+          "en": "vote, suffrage"
+        },
+        "examples": [
+          {
+            "text": "Le candidat a obtenu 52 % des suffrages exprimés.",
+            "cloze": "Le candidat a obtenu 52 % des {{suffrages}} exprimés.",
+            "translations": {
+              "zh": "该候选人获得了52%的有效选票。",
+              "en": "The candidate won 52% of the votes cast."
+            }
+          }
+        ],
+        "usageNote": "suffrage universel：普选。"
+      }
+    ]
+  },
+  {
+    "headword": "législatif",
+    "phonetic": "/le.ʒis.la.tif/",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 législative；复数 législatifs, législatives"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui concerne l'élaboration des lois",
+        "translations": {
+          "zh": "立法的",
+          "en": "legislative"
+        },
+        "examples": [
+          {
+            "text": "Le pouvoir législatif appartient au Parlement.",
+            "translations": {
+              "zh": "立法权属于议会。",
+              "en": "Legislative power belongs to Parliament."
+            }
+          }
+        ],
+        "usageNote": "les législatives（阴性复数）：国民议会选举。"
+      }
+    ]
+  },
+  {
+    "headword": "exécutif",
+    "phonetic": "/ɛɡ.ze.ky.tif/",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "exécutifs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "pouvoir chargé d'appliquer les lois ; le gouvernement",
+        "translations": {
+          "zh": "行政权；政府",
+          "en": "the executive"
+        },
+        "examples": [
+          {
+            "text": "L'exécutif a présenté son plan de relance.",
+            "cloze": "L'{{exécutif}} a présenté son plan de relance.",
+            "translations": {
+              "zh": "政府公布了经济复苏计划。",
+              "en": "The executive presented its recovery plan."
+            }
+          }
+        ],
+        "usageNote": "也可作形容词：pouvoir exécutif。"
+      }
+    ]
+  },
+  {
+    "headword": "remaniement",
+    "phonetic": "/ʁə.ma.ni.mɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "remaniements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "changement dans la composition du gouvernement",
+        "translations": {
+          "zh": "（内阁）改组",
+          "en": "reshuffle"
+        },
+        "examples": [
+          {
+            "text": "Un remaniement ministériel est attendu après les élections.",
+            "translations": {
+              "zh": "预计选举后会进行内阁改组。",
+              "en": "A cabinet reshuffle is expected after the elections."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "motion de censure",
+    "phonetic": "/mo.sjɔ̃.də.sɑ̃.syʁ/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "motions de censure"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "vote de l'Assemblée qui peut renverser le gouvernement",
+        "translations": {
+          "zh": "不信任动议",
+          "en": "motion of no confidence"
+        },
+        "examples": [
+          {
+            "text": "L'opposition a déposé une motion de censure contre le gouvernement.",
+            "cloze": "L'opposition a déposé une {{motion de censure}} contre le gouvernement.",
+            "translations": {
+              "zh": "反对派对政府提出了不信任动议。",
+              "en": "The opposition tabled a motion of no confidence in the government."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cohabitation",
+    "phonetic": "/kɔ.a.bi.ta.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 11800,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "cohabitations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de vivre ensemble ; en France, président et Premier ministre de bords opposés",
+        "translations": {
+          "zh": "共处；（法国）左右共治",
+          "en": "cohabitation; living together"
+        },
+        "examples": [
+          {
+            "text": "La France a connu trois périodes de cohabitation.",
+            "translations": {
+              "zh": "法国经历过三次左右共治时期。",
+              "en": "France has had three periods of cohabitation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "coalition",
+    "phonetic": "/kɔ.a.li.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 7900,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "coalitions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "alliance de partis ou de pays pour agir ensemble",
+        "translations": {
+          "zh": "联盟；联合政府",
+          "en": "coalition"
+        },
+        "examples": [
+          {
+            "text": "Les trois partis ont formé une coalition.",
+            "translations": {
+              "zh": "三个党派组成了联合政府。",
+              "en": "The three parties formed a coalition."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mandat",
+    "phonetic": "/mɑ̃.da/",
+    "cefr": "C1",
+    "frequencyRank": 5300,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "mandats"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "mission confiée par des électeurs pour une durée ; ordre officiel",
+        "translations": {
+          "zh": "任期；授权；（司法）令状",
+          "en": "term of office; mandate; warrant"
+        },
+        "examples": [
+          {
+            "text": "Le maire a été réélu pour un troisième mandat.",
+            "translations": {
+              "zh": "市长第三次连任。",
+              "en": "The mayor was re-elected for a third term."
+            }
+          }
+        ],
+        "usageNote": "mandat d'arrêt：逮捕令。"
+      }
+    ]
+  }
+]

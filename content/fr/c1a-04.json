@@ -1,0 +1,1377 @@
+[
+ {
+  "headword": "rigueur",
+  "phonetic": "/ʁi.ɡœʁ/",
+  "cefr": "C1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "rigueurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande exactitude, précision dans le raisonnement",
+    "translations": {
+     "zh": "严谨；严格",
+     "en": "rigour, precision"
+    },
+    "examples": [
+     {
+      "text": "Ce travail manque de rigueur méthodologique.",
+      "translations": {
+       "zh": "这项工作在方法上不够严谨。",
+       "en": "This work lacks methodological rigour."
+      }
+     }
+    ],
+    "usageNote": "de rigueur：必须的（tenue de rigueur）；politique de rigueur：紧缩政策。"
+   }
+  ]
+ },
+ {
+  "headword": "exhaustivité",
+  "phonetic": "/ɛɡ.zos.ti.vi.te/",
+  "cefr": "C1",
+  "frequencyRank": 17000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère de ce qui est complet",
+    "translations": {
+     "zh": "详尽性；完整性",
+     "en": "comprehensiveness, exhaustiveness"
+    },
+    "examples": [
+     {
+      "text": "Ce rapport ne vise pas l'exhaustivité.",
+      "translations": {
+       "zh": "本报告并不追求面面俱到。",
+       "en": "This report does not aim to be exhaustive."
+      },
+      "cloze": "Ce rapport ne vise pas l'{{exhaustivité}}."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "impartialité",
+  "phonetic": "/ɛ̃.paʁ.sja.li.te/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "absence de parti pris",
+    "translations": {
+     "zh": "公正；不偏不倚",
+     "en": "impartiality"
+    },
+    "examples": [
+     {
+      "text": "On attend du juge une parfaite impartialité.",
+      "translations": {
+       "zh": "人们期望法官做到绝对公正。",
+       "en": "A judge is expected to be perfectly impartial."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "biais",
+  "phonetic": "/bjɛ/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "biais"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "déformation systématique d'un jugement ou d'une mesure",
+    "translations": {
+     "zh": "偏差；偏见",
+     "en": "bias"
+    },
+    "examples": [
+     {
+      "text": "Cette enquête présente un biais méthodologique.",
+      "translations": {
+       "zh": "这项调查存在方法上的偏差。",
+       "en": "This survey has a methodological bias."
+      }
+     }
+    ],
+    "usageNote": "biais cognitif：认知偏差；par le biais de：通过…途径。"
+   }
+  ]
+ },
+ {
+  "headword": "idée reçue",
+  "phonetic": "/i.de ʁə.sy/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "idées reçues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "opinion répandue mais non vérifiée",
+    "translations": {
+     "zh": "成见；固有观念",
+     "en": "received idea, misconception"
+    },
+    "examples": [
+     {
+      "text": "Il faut combattre cette idée reçue sur les jeunes.",
+      "translations": {
+       "zh": "必须破除对年轻人的这种成见。",
+       "en": "We must fight this misconception about young people."
+      },
+      "cloze": "Il faut combattre cette {{idée reçue}} sur les jeunes."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dogme",
+  "phonetic": "/dɔɡm/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dogmes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "croyance présentée comme incontestable",
+    "translations": {
+     "zh": "教条；信条",
+     "en": "dogma"
+    },
+    "examples": [
+     {
+      "text": "La croissance infinie est devenue un dogme.",
+      "translations": {
+       "zh": "无限增长已成为一种教条。",
+       "en": "Infinite growth has become a dogma."
+      }
+     }
+    ],
+    "usageNote": "形容词 dogmatique：教条主义的。"
+   }
+  ]
+ },
+ {
+  "headword": "présupposé",
+  "phonetic": "/pʁe.sy.po.ze/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "présupposés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qui est admis implicitement au départ",
+    "translations": {
+     "zh": "预设；前提假设",
+     "en": "presupposition, assumption"
+    },
+    "examples": [
+     {
+      "text": "Ce discours repose sur un présupposé idéologique.",
+      "translations": {
+       "zh": "这番言论建立在一种意识形态预设之上。",
+       "en": "This speech rests on an ideological assumption."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ressort",
+  "phonetic": "/ʁə.sɔʁ/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ressorts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "cause profonde qui fait agir",
+    "translations": {
+     "zh": "动力；内在原因",
+     "en": "driving force, mainspring"
+    },
+    "examples": [
+     {
+      "text": "La peur est le principal ressort de ce film.",
+      "translations": {
+       "zh": "恐惧是这部电影的主要推动力。",
+       "en": "Fear is the main driving force of this film."
+      }
+     }
+    ],
+    "usageNote": "本义“弹簧”；en dernier ressort：最终。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "domaine de compétence",
+    "translations": {
+     "zh": "职权范围",
+     "en": "remit, jurisdiction"
+    },
+    "examples": [
+     {
+      "text": "Cette affaire n'est pas de mon ressort.",
+      "translations": {
+       "zh": "这件事不归我管。",
+       "en": "This matter is not within my remit."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gageure",
+  "phonetic": "/ɡa.ʒyʁ/",
+  "cefr": "C1",
+  "frequencyRank": 17000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "gageures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "entreprise très difficile, presque impossible",
+    "translations": {
+     "zh": "几乎不可能的事；艰巨的挑战",
+     "en": "challenge, near-impossible feat"
+    },
+    "examples": [
+     {
+      "text": "Tourner ce film avec si peu de moyens relevait de la gageure.",
+      "translations": {
+       "zh": "用这么少的经费拍这部电影简直是不可能的挑战。",
+       "en": "Shooting this film on such a small budget was a real challenge."
+      }
+     }
+    ],
+    "usageNote": "读音 /ɡa.ʒyʁ/，ge 后的 u 读 /y/，不读 /ɡa.ʒœʁ/。"
+   }
+  ]
+ },
+ {
+  "headword": "primauté",
+  "phonetic": "/pʁi.mo.te/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "supériorité, premier rang",
+    "translations": {
+     "zh": "首要地位；优先",
+     "en": "primacy"
+    },
+    "examples": [
+     {
+      "text": "La Constitution affirme la primauté du droit.",
+      "translations": {
+       "zh": "宪法确立了法律至上的原则。",
+       "en": "The Constitution affirms the primacy of law."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "interdépendance",
+  "phonetic": "/ɛ̃.tɛʁ.de.pɑ̃.dɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "interdépendances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "dépendance mutuelle",
+    "translations": {
+     "zh": "相互依存",
+     "en": "interdependence"
+    },
+    "examples": [
+     {
+      "text": "La mondialisation crée une forte interdépendance entre les économies.",
+      "translations": {
+       "zh": "全球化使各经济体高度相互依存。",
+       "en": "Globalization creates strong interdependence between economies."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pérennité",
+  "phonetic": "/pe.ʁe.ni.te/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère de ce qui dure longtemps",
+    "translations": {
+     "zh": "持久性；长期存续",
+     "en": "durability, continuity"
+    },
+    "examples": [
+     {
+      "text": "Il faut assurer la pérennité de l'entreprise.",
+      "translations": {
+       "zh": "必须确保企业的长期存续。",
+       "en": "The company's long-term survival must be ensured."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "viabilité",
+  "phonetic": "/vja.bi.li.te/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "capacité à durer, à fonctionner",
+    "translations": {
+     "zh": "可行性；生存能力",
+     "en": "viability"
+    },
+    "examples": [
+     {
+      "text": "Les experts doutent de la viabilité du projet.",
+      "translations": {
+       "zh": "专家们怀疑该项目是否可行。",
+       "en": "Experts doubt the project's viability."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "faisabilité",
+  "phonetic": "/fə.za.bi.li.te/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère de ce qui est réalisable",
+    "translations": {
+     "zh": "可行性",
+     "en": "feasibility"
+    },
+    "examples": [
+     {
+      "text": "Une étude de faisabilité sera menée cet automne.",
+      "translations": {
+       "zh": "今年秋天将进行一项可行性研究。",
+       "en": "A feasibility study will be carried out this autumn."
+      }
+     }
+    ],
+    "usageNote": "注意 fai- 读 /fə/，同 faisons。"
+   }
+  ]
+ },
+ {
+  "headword": "véracité",
+  "phonetic": "/ve.ʁa.si.te/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "conformité à la vérité",
+    "translations": {
+     "zh": "真实性",
+     "en": "truthfulness, veracity"
+    },
+    "examples": [
+     {
+      "text": "Nous n'avons pas pu vérifier la véracité de ses propos.",
+      "translations": {
+       "zh": "我们无法核实他所说是否属实。",
+       "en": "We were unable to verify the truth of his statements."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vraisemblance",
+  "phonetic": "/vʁɛ.sɑ̃.blɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vraisemblances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère de ce qui semble vrai",
+    "translations": {
+     "zh": "可能性；逼真",
+     "en": "plausibility, likelihood"
+    },
+    "examples": [
+     {
+      "text": "Selon toute vraisemblance, il ne viendra pas.",
+      "translations": {
+       "zh": "他十有八九不会来了。",
+       "en": "In all likelihood, he will not come."
+      }
+     }
+    ],
+    "usageNote": "selon toute vraisemblance：极有可能；注意 -ai- 读 /ɛ/，s 读 /s/。"
+   }
+  ]
+ },
+ {
+  "headword": "antithèse",
+  "phonetic": "/ɑ̃.ti.tɛz/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "antithèses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "idée ou chose exactement opposée",
+    "translations": {
+     "zh": "反题；对立面",
+     "en": "antithesis, opposite"
+    },
+    "examples": [
+     {
+      "text": "Ce personnage est l'antithèse du héros classique.",
+      "translations": {
+       "zh": "这个人物与传统英雄截然相反。",
+       "en": "This character is the antithesis of the classic hero."
+      },
+      "cloze": "Ce personnage est l'{{antithèse}} du héros classique."
+     }
+    ],
+    "usageNote": "法国论文常用 thèse – antithèse – synthèse 三段式。"
+   }
+  ]
+ },
+ {
+  "headword": "digression",
+  "phonetic": "/di.ɡʁɛ.sjɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "digressions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "développement qui s'écarte du sujet",
+    "translations": {
+     "zh": "离题；题外话",
+     "en": "digression"
+    },
+    "examples": [
+     {
+      "text": "Pardonnez-moi cette courte digression.",
+      "translations": {
+       "zh": "请原谅我稍微离题一下。",
+       "en": "Forgive me this short digression."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "donne",
+  "phonetic": "/dɔn/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "donnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation, ensemble des éléments d'un problème",
+    "translations": {
+     "zh": "局面；格局",
+     "en": "state of play, situation"
+    },
+    "examples": [
+     {
+      "text": "Cette élection change la donne politique.",
+      "translations": {
+       "zh": "这次选举改变了政治格局。",
+       "en": "This election changes the political landscape."
+      }
+     }
+    ],
+    "usageNote": "本义“（纸牌）发牌”；changer la donne / rebattre les cartes：改变局面。"
+   }
+  ]
+ },
+ {
+  "headword": "équivoque",
+  "phonetic": "/e.ki.vɔk/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "équivoques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ambiguïté, incertitude sur le sens",
+    "translations": {
+     "zh": "含糊；模棱两可",
+     "en": "ambiguity, equivocation"
+    },
+    "examples": [
+     {
+      "text": "Sa réponse ne laisse place à aucune équivoque.",
+      "translations": {
+       "zh": "他的回答毫不含糊。",
+       "en": "His answer leaves no room for ambiguity."
+      }
+     }
+    ],
+    "usageNote": "sans équivoque：明确地；也作形容词：模棱两可的。"
+   }
+  ]
+ },
+ {
+  "headword": "pertinent",
+  "phonetic": "/pɛʁ.ti.nɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "approprié, qui convient exactement au sujet",
+    "translations": {
+     "zh": "中肯的；恰当的；相关的",
+     "en": "relevant, apt"
+    },
+    "examples": [
+     {
+      "text": "C'est un argument très pertinent.",
+      "translations": {
+       "zh": "这是一个非常中肯的论点。",
+       "en": "That is a very relevant argument."
+      }
+     }
+    ],
+    "usageNote": "une question pertinente：一个切中要害的问题。"
+   }
+  ]
+ },
+ {
+  "headword": "ambigu",
+  "phonetic": "/ɑ̃.bi.ɡy/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "irregularForms": "阴性 ambiguë（新拼写 ambigüe）；复数 ambigus, ambiguës"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui peut être compris de plusieurs façons",
+    "translations": {
+     "zh": "模棱两可的；含糊的",
+     "en": "ambiguous"
+    },
+    "examples": [
+     {
+      "text": "Son rôle dans cette affaire reste ambigu.",
+      "translations": {
+       "zh": "他在这件事中的角色仍然暧昧不明。",
+       "en": "His role in this affair remains ambiguous."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "inéluctable",
+  "phonetic": "/i.ne.lyk.tabl/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qu'on ne peut empêcher ni éviter",
+    "translations": {
+     "zh": "不可避免的",
+     "en": "inevitable, inescapable"
+    },
+    "examples": [
+     {
+      "text": "Le déclin de cette industrie semble inéluctable.",
+      "translations": {
+       "zh": "这个行业的衰落似乎不可避免。",
+       "en": "The decline of this industry seems inevitable."
+      }
+     }
+    ],
+    "usageNote": "比 inévitable 更书面、更有宿命意味。"
+   }
+  ]
+ },
+ {
+  "headword": "sous-jacent",
+  "phonetic": "/su.ʒa.sɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "caché sous la surface, implicite",
+    "translations": {
+     "zh": "潜在的；深层的",
+     "en": "underlying"
+    },
+    "examples": [
+     {
+      "text": "Le problème sous-jacent est le manque de confiance.",
+      "translations": {
+       "zh": "深层问题在于缺乏信任。",
+       "en": "The underlying problem is a lack of trust."
+      },
+      "cloze": "Le problème {{sous-jacent}} est le manque de confiance."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "intrinsèque",
+  "phonetic": "/ɛ̃.tʁɛ̃.sɛk/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui appartient à la nature même d'une chose",
+    "translations": {
+     "zh": "内在的；固有的",
+     "en": "intrinsic"
+    },
+    "examples": [
+     {
+      "text": "La valeur intrinsèque de l'œuvre est indiscutable.",
+      "translations": {
+       "zh": "这部作品的内在价值是毋庸置疑的。",
+       "en": "The intrinsic value of the work is beyond question."
+      }
+     }
+    ],
+    "usageNote": "反义 extrinsèque（外在的）。"
+   }
+  ]
+ },
+ {
+  "headword": "inhérent",
+  "phonetic": "/i.ne.ʁɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "lié par nature à quelque chose",
+    "translations": {
+     "zh": "固有的；内在的",
+     "en": "inherent"
+    },
+    "examples": [
+     {
+      "text": "Ce risque est inhérent à toute activité financière.",
+      "translations": {
+       "zh": "这种风险是所有金融活动所固有的。",
+       "en": "This risk is inherent in any financial activity."
+      }
+     }
+    ],
+    "usageNote": "inhérent à qch。"
+   }
+  ]
+ },
+ {
+  "headword": "implicite",
+  "phonetic": "/ɛ̃.pli.sit/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "sous-entendu, non formulé",
+    "translations": {
+     "zh": "隐含的；含蓄的",
+     "en": "implicit"
+    },
+    "examples": [
+     {
+      "text": "Il existe un accord implicite entre les deux parties.",
+      "translations": {
+       "zh": "双方之间存在一种默契。",
+       "en": "There is an implicit agreement between the two parties."
+      }
+     }
+    ],
+    "usageNote": "反义 explicite。"
+   }
+  ]
+ },
+ {
+  "headword": "flagrant",
+  "phonetic": "/fla.ɡʁɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "évident, qu'on ne peut contester",
+    "translations": {
+     "zh": "明显的；公然的",
+     "en": "blatant, flagrant"
+    },
+    "examples": [
+     {
+      "text": "C'est un exemple flagrant d'injustice.",
+      "translations": {
+       "zh": "这是不公正的一个明显例子。",
+       "en": "It is a blatant example of injustice."
+      }
+     }
+    ],
+    "usageNote": "en flagrant délit：当场（被抓）。"
+   }
+  ]
+ },
+ {
+  "headword": "indéniable",
+  "phonetic": "/ɛ̃.de.njabl/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qu'on ne peut nier",
+    "translations": {
+     "zh": "不可否认的",
+     "en": "undeniable"
+    },
+    "examples": [
+     {
+      "text": "Ce film a un charme indéniable.",
+      "translations": {
+       "zh": "这部电影有着不可否认的魅力。",
+       "en": "This film has undeniable charm."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "irréfutable",
+  "phonetic": "/i.ʁe.fy.tabl/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qu'on ne peut réfuter",
+    "translations": {
+     "zh": "无可辩驳的",
+     "en": "irrefutable"
+    },
+    "examples": [
+     {
+      "text": "Il a présenté un argument irréfutable.",
+      "translations": {
+       "zh": "他提出了一个无可辩驳的论据。",
+       "en": "He presented an irrefutable argument."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "discutable",
+  "phonetic": "/dis.ky.tabl/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui peut être contesté",
+    "translations": {
+     "zh": "值得商榷的；有争议的",
+     "en": "debatable, questionable"
+    },
+    "examples": [
+     {
+      "text": "Ce choix me paraît très discutable.",
+      "translations": {
+       "zh": "我觉得这个选择很值得商榷。",
+       "en": "This choice seems very questionable to me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "épineux",
+  "phonetic": "/e.pi.nø/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "irregularForms": "阴性 épineuse；阴性复数 épineuses（阳性复数不变）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "délicat, difficile à résoudre",
+    "translations": {
+     "zh": "棘手的",
+     "en": "thorny, tricky"
+    },
+    "examples": [
+     {
+      "text": "Le financement reste un sujet épineux.",
+      "translations": {
+       "zh": "资金问题仍然是个棘手的话题。",
+       "en": "Funding remains a thorny subject."
+      }
+     }
+    ],
+    "usageNote": "本义“多刺的”。"
+   }
+  ]
+ },
+ {
+  "headword": "ardu",
+  "phonetic": "/aʁ.dy/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "difficile, qui demande beaucoup d'efforts",
+    "translations": {
+     "zh": "艰难的；费力的",
+     "en": "arduous, difficult"
+    },
+    "examples": [
+     {
+      "text": "C'est un travail long et ardu.",
+      "translations": {
+       "zh": "这是一项漫长而艰巨的工作。",
+       "en": "It is a long and arduous task."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fastidieux",
+  "phonetic": "/fas.ti.djø/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "irregularForms": "阴性 fastidieuse；阴性复数 fastidieuses（阳性复数不变）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ennuyeux par sa longueur ou sa répétition",
+    "translations": {
+     "zh": "繁琐乏味的",
+     "en": "tedious"
+    },
+    "examples": [
+     {
+      "text": "Remplir tous ces formulaires est fastidieux.",
+      "translations": {
+       "zh": "填写所有这些表格十分繁琐。",
+       "en": "Filling in all these forms is tedious."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "exhaustif",
+  "phonetic": "/ɛɡ.zos.tif/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "irregularForms": "阴性 exhaustive；复数 exhaustifs, exhaustives"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "complet, qui traite tous les éléments",
+    "translations": {
+     "zh": "详尽无遗的",
+     "en": "exhaustive, comprehensive"
+    },
+    "examples": [
+     {
+      "text": "Ce n'est pas un inventaire exhaustif.",
+      "translations": {
+       "zh": "这并不是一份详尽的清单。",
+       "en": "This is not an exhaustive inventory."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "succinct",
+  "phonetic": "/syk.sɛ̃/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "irregularForms": "阴性 succincte /syk.sɛ̃t/；复数 succincts, succinctes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "bref, exprimé en peu de mots",
+    "translations": {
+     "zh": "简明扼要的",
+     "en": "succinct, brief"
+    },
+    "examples": [
+     {
+      "text": "Faites-nous un résumé succinct de la réunion.",
+      "translations": {
+       "zh": "请给我们简要概述一下会议内容。",
+       "en": "Give us a brief summary of the meeting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lapidaire",
+  "phonetic": "/la.pi.dɛʁ/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "d'une concision frappante, parfois brutale",
+    "translations": {
+     "zh": "简练有力的；（话）简短生硬的",
+     "en": "terse, pithy"
+    },
+    "examples": [
+     {
+      "text": "Sa réponse fut lapidaire : « Non. »",
+      "translations": {
+       "zh": "他的回答简短生硬：“不。”",
+       "en": "His answer was terse: \"No.\""
+      }
+     }
+    ],
+    "usageNote": "formule lapidaire：精辟的格言。"
+   }
+  ]
+ },
+ {
+  "headword": "fallacieux",
+  "phonetic": "/fa.la.sjø/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "irregularForms": "阴性 fallacieuse；阴性复数 fallacieuses（阳性复数不变）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "trompeur, destiné à induire en erreur",
+    "translations": {
+     "zh": "似是而非的；骗人的",
+     "en": "fallacious, misleading"
+    },
+    "examples": [
+     {
+      "text": "Ce raisonnement fallacieux a convaincu beaucoup de gens.",
+      "translations": {
+       "zh": "这一似是而非的推理说服了很多人。",
+       "en": "This fallacious reasoning convinced many people."
+      }
+     }
+    ],
+    "usageNote": "sous un prétexte fallacieux：以虚假借口。"
+   }
+  ]
+ },
+ {
+  "headword": "erroné",
+  "phonetic": "/e.ʁɔ.ne/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui contient des erreurs",
+    "translations": {
+     "zh": "错误的",
+     "en": "erroneous, incorrect"
+    },
+    "examples": [
+     {
+      "text": "Ce calcul est erroné.",
+      "translations": {
+       "zh": "这个计算是错误的。",
+       "en": "This calculation is incorrect."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tangible",
+  "phonetic": "/tɑ̃.ʒibl/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "concret, réel, qu'on peut constater",
+    "translations": {
+     "zh": "切实的；可感知的",
+     "en": "tangible"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a aucun progrès tangible pour l'instant.",
+      "translations": {
+       "zh": "目前还没有任何切实的进展。",
+       "en": "There is no tangible progress so far."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "substantiel",
+  "phonetic": "/syp.stɑ̃.sjɛl/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "irregularForms": "阴性 substantielle；复数 substantiels, substantielles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "important, considérable",
+    "translations": {
+     "zh": "大量的；实质性的",
+     "en": "substantial"
+    },
+    "examples": [
+     {
+      "text": "Le projet a reçu un soutien substantiel de l'État.",
+      "translations": {
+       "zh": "该项目获得了国家的大力支持。",
+       "en": "The project received substantial support from the State."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "primordial",
+  "phonetic": "/pʁi.mɔʁ.djal/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "irregularForms": "阳性复数 primordiaux；阴性 primordiale, primordiales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de première importance",
+    "translations": {
+     "zh": "首要的；至关重要的",
+     "en": "essential, paramount"
+    },
+    "examples": [
+     {
+      "text": "Le rôle des parents est primordial.",
+      "translations": {
+       "zh": "父母的作用至关重要。",
+       "en": "The parents' role is paramount."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "prépondérant",
+  "phonetic": "/pʁe.pɔ̃.de.ʁɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a plus d'importance ou d'influence",
+    "translations": {
+     "zh": "占主导地位的",
+     "en": "predominant, leading"
+    },
+    "examples": [
+     {
+      "text": "La France a joué un rôle prépondérant dans ces négociations.",
+      "translations": {
+       "zh": "法国在这些谈判中起了主导作用。",
+       "en": "France played a leading role in these negotiations."
+      }
+     }
+    ],
+    "usageNote": "voix prépondérante：（票数相等时）决定性的一票。"
+   }
+  ]
+ },
+ {
+  "headword": "récurrent",
+  "phonetic": "/ʁe.ky.ʁɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui revient régulièrement",
+    "translations": {
+     "zh": "反复出现的",
+     "en": "recurring, recurrent"
+    },
+    "examples": [
+     {
+      "text": "C'est un problème récurrent dans nos services.",
+      "translations": {
+       "zh": "这是我们部门反复出现的问题。",
+       "en": "It is a recurring problem in our departments."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sporadique",
+  "phonetic": "/spɔ.ʁa.dik/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui se produit de façon irrégulière et isolée",
+    "translations": {
+     "zh": "零星的；偶发的",
+     "en": "sporadic"
+    },
+    "examples": [
+     {
+      "text": "Son engagement reste sporadique et peu fiable.",
+      "translations": {
+       "zh": "他的投入时有时无，不太可靠。",
+       "en": "His commitment remains sporadic and unreliable."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tributaire",
+  "phonetic": "/tʁi.by.tɛʁ/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui dépend de quelque chose",
+    "translations": {
+     "zh": "依赖于…的",
+     "en": "dependent (on)"
+    },
+    "examples": [
+     {
+      "text": "L'agriculture reste tributaire de la météo.",
+      "translations": {
+       "zh": "农业仍然靠天吃饭。",
+       "en": "Agriculture remains dependent on the weather."
+      }
+     }
+    ],
+    "usageNote": "être tributaire de qch；地理学：（河流）支流。"
+   }
+  ]
+ },
+ {
+  "headword": "paradoxal",
+  "phonetic": "/pa.ʁa.dɔk.sal/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "irregularForms": "阳性复数 paradoxaux；阴性 paradoxale, paradoxales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui contient un paradoxe",
+    "translations": {
+     "zh": "矛盾的；悖论式的",
+     "en": "paradoxical"
+    },
+    "examples": [
+     {
+      "text": "Il est paradoxal de prôner la paix en vendant des armes.",
+      "translations": {
+       "zh": "一边宣扬和平一边贩卖武器，真是自相矛盾。",
+       "en": "It is paradoxical to preach peace while selling weapons."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "aléatoire",
+  "phonetic": "/a.le.a.twaʁ/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui dépend du hasard ; incertain",
+    "translations": {
+     "zh": "随机的；不确定的",
+     "en": "random, uncertain"
+    },
+    "examples": [
+     {
+      "text": "Le succès de l'opération reste très aléatoire.",
+      "translations": {
+       "zh": "这次行动能否成功仍很难说。",
+       "en": "The success of the operation remains very uncertain."
+      }
+     }
+    ],
+    "usageNote": "统计学：échantillon aléatoire（随机样本）。"
+   }
+  ]
+ },
+ {
+  "headword": "empirique",
+  "phonetic": "/ɑ̃.pi.ʁik/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "fondé sur l'expérience et l'observation",
+    "translations": {
+     "zh": "经验的；实证的",
+     "en": "empirical"
+    },
+    "examples": [
+     {
+      "text": "Les chercheurs ont mené une étude empirique sur 500 familles.",
+      "translations": {
+       "zh": "研究人员对 500 个家庭进行了实证研究。",
+       "en": "The researchers carried out an empirical study of 500 families."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

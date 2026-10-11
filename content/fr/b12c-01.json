@@ -1,0 +1,1536 @@
+[
+  {
+    "headword": "caractère",
+    "phonetic": "/ka.ʁak.tɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "caractères"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble des traits qui définissent une personne",
+        "translations": {
+          "zh": "性格；个性",
+          "en": "character, temper"
+        },
+        "examples": [
+          {
+            "text": "Elle a un caractère très doux.",
+            "translations": {
+              "zh": "她性格很温和。",
+              "en": "She has a very gentle character."
+            }
+          }
+        ],
+        "usageNote": "avoir du caractère 指“有个性、有主见”；avoir mauvais caractère 指“脾气不好”。"
+      }
+    ]
+  },
+  {
+    "headword": "personnalité",
+    "phonetic": "/pɛʁ.sɔ.na.li.te/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "personnalités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qui rend une personne unique",
+        "translations": {
+          "zh": "个性；人格",
+          "en": "personality"
+        },
+        "examples": [
+          {
+            "text": "Ton frère a une forte personnalité.",
+            "translations": {
+              "zh": "你哥哥个性很强。",
+              "en": "Your brother has a strong personality."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne connue",
+        "translations": {
+          "zh": "名人；要人",
+          "en": "public figure, celebrity"
+        },
+        "examples": [
+          {
+            "text": "Plusieurs personnalités politiques étaient présentes.",
+            "translations": {
+              "zh": "好几位政界要人出席了。",
+              "en": "Several political figures were present."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "défaut",
+    "phonetic": "/de.fo/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "défauts"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "point faible du caractère ou d'une chose",
+        "translations": {
+          "zh": "缺点；毛病",
+          "en": "flaw, fault"
+        },
+        "examples": [
+          {
+            "text": "Son plus grand défaut, c'est l'impatience.",
+            "translations": {
+              "zh": "他最大的缺点是没耐心。",
+              "en": "His biggest flaw is impatience."
+            }
+          }
+        ],
+        "usageNote": "反义词是 qualité（优点）。"
+      }
+    ]
+  },
+  {
+    "headword": "qualité",
+    "phonetic": "/ka.li.te/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "qualités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "trait positif d'une personne",
+        "translations": {
+          "zh": "优点；长处",
+          "en": "quality, strength"
+        },
+        "examples": [
+          {
+            "text": "La patience est une grande qualité.",
+            "translations": {
+              "zh": "耐心是一大优点。",
+              "en": "Patience is a great quality."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "niveau de valeur d'une chose",
+        "translations": {
+          "zh": "质量；品质",
+          "en": "quality"
+        },
+        "examples": [
+          {
+            "text": "Ces chaussures sont de bonne qualité.",
+            "translations": {
+              "zh": "这双鞋质量很好。",
+              "en": "These shoes are good quality."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "humour",
+    "phonetic": "/y.muʁ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "humours"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "capacité à faire rire ou à voir le côté drôle",
+        "translations": {
+          "zh": "幽默；幽默感",
+          "en": "humour"
+        },
+        "examples": [
+          {
+            "text": "Il a beaucoup d'humour.",
+            "translations": {
+              "zh": "他很有幽默感。",
+              "en": "He has a great sense of humour."
+            },
+            "cloze": "Il a beaucoup d'{{humour}}."
+          }
+        ],
+        "usageNote": "说“有幽默感”用 avoir de l'humour 或 avoir le sens de l'humour。"
+      }
+    ]
+  },
+  {
+    "headword": "ambitieux",
+    "phonetic": "/ɑ̃.bi.sjø/",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "irregularForms": "阴性 ambitieuse；复数 ambitieux, ambitieuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui veut réussir et aller loin",
+        "translations": {
+          "zh": "有抱负的；有野心的",
+          "en": "ambitious"
+        },
+        "examples": [
+          {
+            "text": "C'est un jeune homme très ambitieux.",
+            "translations": {
+              "zh": "这是个很有抱负的年轻人。",
+              "en": "He's a very ambitious young man."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "honnête",
+    "phonetic": "/ɔ.nɛt/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 honnêtes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne ment pas et ne vole pas",
+        "translations": {
+          "zh": "诚实的；正直的",
+          "en": "honest"
+        },
+        "examples": [
+          {
+            "text": "Sois honnête : tu as aimé le film ?",
+            "translations": {
+              "zh": "说实话：你喜欢这部电影吗？",
+              "en": "Be honest: did you like the film?"
+            }
+          }
+        ],
+        "usageNote": "h 为哑音，可省音、连诵：un honnête homme（正派人）。"
+      }
+    ]
+  },
+  {
+    "headword": "généreux",
+    "phonetic": "/ʒe.ne.ʁø/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "irregularForms": "阴性 généreuse；复数 généreux, généreuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui donne volontiers aux autres",
+        "translations": {
+          "zh": "慷慨的；大方的",
+          "en": "generous"
+        },
+        "examples": [
+          {
+            "text": "Ma grand-mère est très généreuse.",
+            "translations": {
+              "zh": "我奶奶非常大方。",
+              "en": "My grandmother is very generous."
+            },
+            "cloze": "Ma grand-mère est très {{généreuse}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "têtu",
+    "phonetic": "/te.ty/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 têtue；复数 têtus, têtues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne change pas d'avis",
+        "translations": {
+          "zh": "固执的；倔强的",
+          "en": "stubborn"
+        },
+        "examples": [
+          {
+            "text": "Il est têtu comme une mule.",
+            "translations": {
+              "zh": "他倔得像头骡子。",
+              "en": "He's as stubborn as a mule."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sensible",
+    "phonetic": "/sɑ̃.sibl/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 sensibles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ressent les choses fortement",
+        "translations": {
+          "zh": "敏感的；易动感情的",
+          "en": "sensitive"
+        },
+        "examples": [
+          {
+            "text": "C'est un enfant très sensible.",
+            "translations": {
+              "zh": "这是个很敏感的孩子。",
+              "en": "He's a very sensitive child."
+            }
+          }
+        ],
+        "usageNote": "假朋友：sensible 是“敏感的”，不是英语 sensible（明智的）；“明智的”用 raisonnable。"
+      }
+    ]
+  },
+  {
+    "headword": "timide",
+    "phonetic": "/ti.mid/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 timides"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui manque d'assurance avec les autres",
+        "translations": {
+          "zh": "害羞的；腼腆的",
+          "en": "shy"
+        },
+        "examples": [
+          {
+            "text": "Elle est trop timide pour parler en public.",
+            "translations": {
+              "zh": "她太害羞了，不敢当众讲话。",
+              "en": "She's too shy to speak in public."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "patient",
+    "phonetic": "/pa.sjɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴性 patiente；复数 patients, patientes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui sait attendre calmement",
+        "translations": {
+          "zh": "有耐心的",
+          "en": "patient"
+        },
+        "examples": [
+          {
+            "text": "Avec les enfants, il faut être patient.",
+            "translations": {
+              "zh": "跟孩子在一起要有耐心。",
+              "en": "You need to be patient with children."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne soignée par un médecin",
+        "translations": {
+          "zh": "病人；患者",
+          "en": "patient"
+        },
+        "examples": [
+          {
+            "text": "Le médecin a vu dix patients ce matin.",
+            "translations": {
+              "zh": "医生今天上午看了十个病人。",
+              "en": "The doctor saw ten patients this morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "impatient",
+    "phonetic": "/ɛ̃.pa.sjɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴性 impatiente；复数 impatients, impatientes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'aime pas attendre",
+        "translations": {
+          "zh": "不耐烦的；急切的",
+          "en": "impatient"
+        },
+        "examples": [
+          {
+            "text": "Je suis impatient de te revoir !",
+            "translations": {
+              "zh": "我迫不及待想再见到你！",
+              "en": "I can't wait to see you again!"
+            }
+          }
+        ],
+        "usageNote": "être impatient de + 动词原形：迫不及待做某事。"
+      }
+    ]
+  },
+  {
+    "headword": "paresseux",
+    "phonetic": "/pa.ʁɛ.sø/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴性 paresseuse；复数 paresseux, paresseuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'aime pas travailler ni faire d'efforts",
+        "translations": {
+          "zh": "懒惰的",
+          "en": "lazy"
+        },
+        "examples": [
+          {
+            "text": "Mon chat est vraiment paresseux.",
+            "translations": {
+              "zh": "我的猫真懒。",
+              "en": "My cat is really lazy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "travailleur",
+    "phonetic": "/tʁa.va.jœʁ/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 travailleuse；复数 travailleurs, travailleuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui aime travailler, qui fait des efforts",
+        "translations": {
+          "zh": "勤劳的；用功的",
+          "en": "hard-working"
+        },
+        "examples": [
+          {
+            "text": "C'est une élève sérieuse et travailleuse.",
+            "translations": {
+              "zh": "她是个认真又用功的学生。",
+              "en": "She's a serious, hard-working pupil."
+            },
+            "cloze": "C'est une élève sérieuse et {{travailleuse}}."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui travaille",
+        "translations": {
+          "zh": "劳动者；工人",
+          "en": "worker"
+        }
+      }
+    ]
+  },
+  {
+    "headword": "curieux",
+    "phonetic": "/ky.ʁjø/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "irregularForms": "阴性 curieuse；复数 curieux, curieuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui veut tout savoir",
+        "translations": {
+          "zh": "好奇的",
+          "en": "curious"
+        },
+        "examples": [
+          {
+            "text": "Les enfants sont naturellement curieux.",
+            "translations": {
+              "zh": "孩子天生好奇。",
+              "en": "Children are naturally curious."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "bizarre, étonnant",
+        "translations": {
+          "zh": "奇怪的",
+          "en": "strange, odd"
+        },
+        "examples": [
+          {
+            "text": "C'est curieux, il n'a pas répondu.",
+            "translations": {
+              "zh": "奇怪，他没回复。",
+              "en": "That's odd, he didn't answer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sérieux",
+    "phonetic": "/se.ʁjø/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "irregularForms": "阴性 sérieuse；复数 sérieux, sérieuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui fait les choses avec soin",
+        "translations": {
+          "zh": "认真的；严肃的",
+          "en": "serious, reliable"
+        },
+        "examples": [
+          {
+            "text": "Paul est un garçon sérieux.",
+            "translations": {
+              "zh": "保罗是个踏实认真的男孩。",
+              "en": "Paul is a serious, reliable boy."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "grave, important",
+        "translations": {
+          "zh": "严重的",
+          "en": "serious, grave"
+        },
+        "examples": [
+          {
+            "text": "C'est un problème sérieux.",
+            "translations": {
+              "zh": "这是个严重的问题。",
+              "en": "It's a serious problem."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "nerveux",
+    "phonetic": "/nɛʁ.vø/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴性 nerveuse；复数 nerveux, nerveuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui est agité et a du mal à rester calme",
+        "translations": {
+          "zh": "紧张的；神经质的",
+          "en": "nervous, tense"
+        },
+        "examples": [
+          {
+            "text": "Il est toujours nerveux avant un examen.",
+            "translations": {
+              "zh": "他考试前总是很紧张。",
+              "en": "He's always nervous before an exam."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "jaloux",
+    "phonetic": "/ʒa.lu/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 jalouse；复数 jaloux, jalouses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a peur de perdre l'amour de qqn ou envie les autres",
+        "translations": {
+          "zh": "嫉妒的；吃醋的",
+          "en": "jealous"
+        },
+        "examples": [
+          {
+            "text": "Son copain est très jaloux.",
+            "translations": {
+              "zh": "她男朋友醋劲很大。",
+              "en": "Her boyfriend is very jealous."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "fier",
+    "phonetic": "/fjɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴性 fière；复数 fiers, fières"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "content de soi ou de qqn",
+        "translations": {
+          "zh": "自豪的；骄傲的",
+          "en": "proud"
+        },
+        "examples": [
+          {
+            "text": "Je suis fier de toi !",
+            "translations": {
+              "zh": "我为你骄傲！",
+              "en": "I'm proud of you!"
+            }
+          }
+        ],
+        "usageNote": "être fier de qqn / qqch：为……感到自豪。r 要发音。"
+      }
+    ]
+  },
+  {
+    "headword": "égoïste",
+    "phonetic": "/e.ɡɔ.ist/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 égoïstes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne pense qu'à lui-même",
+        "translations": {
+          "zh": "自私的",
+          "en": "selfish"
+        },
+        "examples": [
+          {
+            "text": "Ne sois pas égoïste, partage avec ta sœur.",
+            "translations": {
+              "zh": "别那么自私，跟你妹妹分一分。",
+              "en": "Don't be selfish, share with your sister."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "poli",
+    "phonetic": "/pɔ.li/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴性 polie；复数 polis, polies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui respecte les règles de politesse",
+        "translations": {
+          "zh": "有礼貌的",
+          "en": "polite"
+        },
+        "examples": [
+          {
+            "text": "Ses enfants sont très polis.",
+            "translations": {
+              "zh": "他的孩子们很有礼貌。",
+              "en": "His children are very polite."
+            },
+            "cloze": "Ses enfants sont très {{polis}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "impoli",
+    "phonetic": "/ɛ̃.pɔ.li/",
+    "cefr": "B1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 impolie；复数 impolis, impolies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui manque de politesse",
+        "translations": {
+          "zh": "没礼貌的",
+          "en": "rude, impolite"
+        },
+        "examples": [
+          {
+            "text": "C'est impoli de parler la bouche pleine.",
+            "translations": {
+              "zh": "嘴里塞满东西说话很没礼貌。",
+              "en": "It's rude to talk with your mouth full."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "aimable",
+    "phonetic": "/ɛ.mabl/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 aimables"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "gentil et agréable avec les autres",
+        "translations": {
+          "zh": "和蔼的；客气的",
+          "en": "kind, friendly"
+        },
+        "examples": [
+          {
+            "text": "La dame de l'accueil était très aimable.",
+            "translations": {
+              "zh": "前台的女士非常客气。",
+              "en": "The lady at reception was very kind."
+            }
+          }
+        ],
+        "usageNote": "Vous êtes bien aimable. 是很客气的道谢说法。"
+      }
+    ]
+  },
+  {
+    "headword": "sympathique",
+    "phonetic": "/sɛ̃.pa.tik/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 sympathiques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "agréable, avec qui on s'entend bien",
+        "translations": {
+          "zh": "讨人喜欢的；亲切的",
+          "en": "nice, likeable"
+        },
+        "examples": [
+          {
+            "text": "Ton nouveau collègue est sympathique.",
+            "translations": {
+              "zh": "你的新同事人挺好的。",
+              "en": "Your new colleague is nice."
+            }
+          }
+        ],
+        "usageNote": "口语常缩写为 sympa，复数 sympas。"
+      }
+    ]
+  },
+  {
+    "headword": "optimiste",
+    "phonetic": "/ɔp.ti.mist/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 optimistes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui voit le bon côté des choses",
+        "translations": {
+          "zh": "乐观的",
+          "en": "optimistic"
+        },
+        "examples": [
+          {
+            "text": "Reste optimiste, tout va s'arranger.",
+            "translations": {
+              "zh": "保持乐观，一切都会好起来的。",
+              "en": "Stay optimistic, everything will work out."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "pessimiste",
+    "phonetic": "/pɛ.si.mist/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 pessimistes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui voit le mauvais côté des choses",
+        "translations": {
+          "zh": "悲观的",
+          "en": "pessimistic"
+        },
+        "examples": [
+          {
+            "text": "Tu es trop pessimiste sur ton avenir.",
+            "translations": {
+              "zh": "你对自己的前途太悲观了。",
+              "en": "You're too pessimistic about your future."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "créatif",
+    "phonetic": "/kʁe.a.tif/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 créative；复数 créatifs, créatives"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a beaucoup d'idées nouvelles",
+        "translations": {
+          "zh": "有创造力的",
+          "en": "creative"
+        },
+        "examples": [
+          {
+            "text": "Elle est très créative en cuisine.",
+            "translations": {
+              "zh": "她做菜很有创意。",
+              "en": "She's very creative in the kitchen."
+            },
+            "cloze": "Elle est très {{créative}} en cuisine."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sociable",
+    "phonetic": "/sɔ.sjabl/",
+    "cefr": "B1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 sociables"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui aime être avec les autres",
+        "translations": {
+          "zh": "爱交际的；合群的",
+          "en": "sociable, outgoing"
+        },
+        "examples": [
+          {
+            "text": "Mon fils est très sociable, il a plein d'amis.",
+            "translations": {
+              "zh": "我儿子很爱交朋友，朋友一大堆。",
+              "en": "My son is very sociable; he has loads of friends."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bavard",
+    "phonetic": "/ba.vaʁ/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 bavarde；复数 bavards, bavardes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui parle beaucoup",
+        "translations": {
+          "zh": "爱说话的；话多的",
+          "en": "talkative, chatty"
+        },
+        "examples": [
+          {
+            "text": "Ma voisine est très bavarde.",
+            "translations": {
+              "zh": "我的女邻居话特别多。",
+              "en": "My neighbour is very chatty."
+            },
+            "cloze": "Ma voisine est très {{bavarde}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "discret",
+    "phonetic": "/dis.kʁɛ/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴性 discrète；复数 discrets, discrètes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne se fait pas remarquer, qui garde les secrets",
+        "translations": {
+          "zh": "谨慎的；低调的；守口如瓶的",
+          "en": "discreet"
+        },
+        "examples": [
+          {
+            "text": "Tu peux lui parler, il est discret.",
+            "translations": {
+              "zh": "你可以跟他说，他嘴很严。",
+              "en": "You can talk to him, he's discreet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "modeste",
+    "phonetic": "/mɔ.dɛst/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 modestes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne se vante pas",
+        "translations": {
+          "zh": "谦虚的",
+          "en": "modest"
+        },
+        "examples": [
+          {
+            "text": "Malgré son succès, il est resté modeste.",
+            "translations": {
+              "zh": "尽管很成功，他依然很谦虚。",
+              "en": "Despite his success, he remained modest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "prudent",
+    "phonetic": "/pʁy.dɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "irregularForms": "阴性 prudente；复数 prudents, prudentes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui fait attention aux dangers",
+        "translations": {
+          "zh": "谨慎的；小心的",
+          "en": "careful, cautious"
+        },
+        "examples": [
+          {
+            "text": "Sois prudent sur la route !",
+            "translations": {
+              "zh": "路上小心！",
+              "en": "Be careful on the road!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "courageux",
+    "phonetic": "/ku.ʁa.ʒø/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴性 courageuse；复数 courageux, courageuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'a pas peur du danger ou de l'effort",
+        "translations": {
+          "zh": "勇敢的",
+          "en": "brave, courageous"
+        },
+        "examples": [
+          {
+            "text": "C'est une femme courageuse.",
+            "translations": {
+              "zh": "她是一位勇敢的女性。",
+              "en": "She's a brave woman."
+            },
+            "cloze": "C'est une femme {{courageuse}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "lâche",
+    "phonetic": "/lɑʃ/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 lâches"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui manque de courage",
+        "translations": {
+          "zh": "懦弱的；胆小的",
+          "en": "cowardly"
+        },
+        "examples": [
+          {
+            "text": "Il a été lâche de partir sans rien dire.",
+            "translations": {
+              "zh": "他一声不吭就走了，真是懦弱。",
+              "en": "It was cowardly of him to leave without a word."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "fidèle",
+    "phonetic": "/fi.dɛl/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 fidèles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui reste attaché à qqn ou à qqch",
+        "translations": {
+          "zh": "忠诚的；忠实的",
+          "en": "faithful, loyal"
+        },
+        "examples": [
+          {
+            "text": "Le chien est un animal fidèle.",
+            "translations": {
+              "zh": "狗是忠诚的动物。",
+              "en": "The dog is a loyal animal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "exigeant",
+    "phonetic": "/ɛɡ.zi.ʒɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 exigeante；复数 exigeants, exigeantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui demande beaucoup aux autres",
+        "translations": {
+          "zh": "要求高的；苛刻的",
+          "en": "demanding"
+        },
+        "examples": [
+          {
+            "text": "Notre prof est exigeant mais juste.",
+            "translations": {
+              "zh": "我们老师要求严格但很公正。",
+              "en": "Our teacher is demanding but fair."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "susceptible",
+    "phonetic": "/sy.sɛp.tibl/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 susceptibles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui se vexe facilement",
+        "translations": {
+          "zh": "爱生气的；易受刺激的",
+          "en": "touchy, easily offended"
+        },
+        "examples": [
+          {
+            "text": "Attention, il est très susceptible.",
+            "translations": {
+              "zh": "小心，他很容易生气。",
+              "en": "Careful, he's very touchy."
+            }
+          }
+        ],
+        "usageNote": "假朋友：不等于英语 susceptible（易受影响的）。"
+      }
+    ]
+  },
+  {
+    "headword": "naïf",
+    "phonetic": "/na.if/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴性 naïve；复数 naïfs, naïves"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui croit tout trop facilement",
+        "translations": {
+          "zh": "天真的；幼稚的",
+          "en": "naive"
+        },
+        "examples": [
+          {
+            "text": "Tu es trop naïf, il t'a menti.",
+            "translations": {
+              "zh": "你太天真了，他骗了你。",
+              "en": "You're too naive, he lied to you."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "malin",
+    "phonetic": "/ma.lɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 maligne；复数 malins, malignes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "intelligent et habile pour se débrouiller",
+        "translations": {
+          "zh": "机灵的；狡猾的",
+          "en": "clever, smart, sly"
+        },
+        "examples": [
+          {
+            "text": "Ce gamin est malin comme un singe.",
+            "translations": {
+              "zh": "这孩子机灵得像只猴子。",
+              "en": "That kid is as sharp as a monkey."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bête",
+    "phonetic": "/bɛt/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 bêtes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui manque d'intelligence",
+        "translations": {
+          "zh": "笨的；傻的",
+          "en": "stupid, silly"
+        },
+        "examples": [
+          {
+            "text": "Ce n'est pas bête, ton idée !",
+            "translations": {
+              "zh": "你这个主意不错嘛！",
+              "en": "That's not a bad idea of yours!"
+            }
+          }
+        ],
+        "usageNote": "口语 C'est bête ! 也表示“真可惜/真倒霉”。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "animal",
+        "translations": {
+          "zh": "牲畜；动物",
+          "en": "animal, beast"
+        },
+        "examples": [
+          {
+            "text": "Les bêtes sont dans le pré.",
+            "translations": {
+              "zh": "牲口在草地上。",
+              "en": "The animals are in the meadow."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "souriant",
+    "phonetic": "/su.ʁjɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴性 souriante；复数 souriants, souriantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui sourit souvent",
+        "translations": {
+          "zh": "面带笑容的；爱笑的",
+          "en": "smiling, cheerful"
+        },
+        "examples": [
+          {
+            "text": "La serveuse était souriante et rapide.",
+            "translations": {
+              "zh": "女服务员笑容可掬，动作又快。",
+              "en": "The waitress was cheerful and quick."
+            },
+            "cloze": "La serveuse était {{souriante}} et rapide."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "chaleureux",
+    "phonetic": "/ʃa.lø.ʁø/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴性 chaleureuse；复数 chaleureux, chaleureuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui accueille avec amitié",
+        "translations": {
+          "zh": "热情的；热忱的",
+          "en": "warm, friendly"
+        },
+        "examples": [
+          {
+            "text": "Merci pour cet accueil chaleureux.",
+            "translations": {
+              "zh": "谢谢你们的热情款待。",
+              "en": "Thank you for this warm welcome."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "indépendant",
+    "phonetic": "/ɛ̃.de.pɑ̃.dɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "irregularForms": "阴性 indépendante；复数 indépendants, indépendantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne dépend de personne",
+        "translations": {
+          "zh": "独立的；自主的",
+          "en": "independent"
+        },
+        "examples": [
+          {
+            "text": "Il veut être indépendant et gagner sa vie.",
+            "translations": {
+              "zh": "他想独立，自己挣钱养活自己。",
+              "en": "He wants to be independent and earn his own living."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "maladroit",
+    "phonetic": "/ma.la.dʁwa/",
+    "cefr": "B1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "irregularForms": "阴性 maladroite；复数 maladroits, maladroites"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui fait souvent tomber ou casser les choses",
+        "translations": {
+          "zh": "笨手笨脚的",
+          "en": "clumsy"
+        },
+        "examples": [
+          {
+            "text": "Je suis maladroit, j'ai encore cassé un verre.",
+            "translations": {
+              "zh": "我真笨手笨脚，又打碎了一个杯子。",
+              "en": "I'm so clumsy, I broke another glass."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "distrait",
+    "phonetic": "/dis.tʁɛ/",
+    "cefr": "B1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 distraite；复数 distraits, distraites"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne fait pas attention",
+        "translations": {
+          "zh": "心不在焉的；走神的",
+          "en": "absent-minded"
+        },
+        "examples": [
+          {
+            "text": "Il est distrait, il oublie toujours ses clés.",
+            "translations": {
+              "zh": "他丢三落四的，总忘带钥匙。",
+              "en": "He's absent-minded, he always forgets his keys."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "franc",
+    "phonetic": "/fʁɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "irregularForms": "阴性 franche；复数 francs, franches"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui dit ce qu'il pense",
+        "translations": {
+          "zh": "坦率的；直爽的",
+          "en": "frank, honest"
+        },
+        "examples": [
+          {
+            "text": "Pour être franc, je n'aime pas ce projet.",
+            "translations": {
+              "zh": "坦白说，我不喜欢这个计划。",
+              "en": "To be frank, I don't like this project."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "hypocrite",
+    "phonetic": "/i.pɔ.kʁit/",
+    "cefr": "B2",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 hypocrites"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui fait semblant d'avoir des sentiments qu'il n'a pas",
+        "translations": {
+          "zh": "虚伪的",
+          "en": "hypocritical"
+        },
+        "examples": [
+          {
+            "text": "Arrête d'être hypocrite, dis ce que tu penses.",
+            "translations": {
+              "zh": "别虚伪了，说出你的真实想法。",
+              "en": "Stop being a hypocrite, say what you think."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "arrogant",
+    "phonetic": "/a.ʁɔ.ɡɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 arrogante；复数 arrogants, arrogantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui se croit supérieur aux autres",
+        "translations": {
+          "zh": "傲慢的；自大的",
+          "en": "arrogant"
+        },
+        "examples": [
+          {
+            "text": "Il est devenu arrogant après sa promotion.",
+            "translations": {
+              "zh": "升职后他变得傲慢了。",
+              "en": "He became arrogant after his promotion."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avare",
+    "phonetic": "/a.vaʁ/",
+    "cefr": "B2",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 avares"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'aime pas dépenser son argent",
+        "translations": {
+          "zh": "吝啬的；小气的",
+          "en": "stingy, miserly"
+        },
+        "examples": [
+          {
+            "text": "Son oncle est riche mais avare.",
+            "translations": {
+              "zh": "他叔叔有钱但很抠门。",
+              "en": "His uncle is rich but stingy."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

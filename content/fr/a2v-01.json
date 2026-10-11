@@ -1,0 +1,1280 @@
+[
+ {
+  "headword": "se réveiller",
+  "phonetic": "/sə.ʁe.ve.je/",
+  "cefr": "A2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "conjugation": "je me réveille, tu te réveilles, nous nous réveillons, ils se réveillent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "sortir du sommeil",
+    "translations": {
+     "zh": "醒来",
+     "en": "to wake up"
+    },
+    "examples": [
+     {
+      "text": "Je me réveille à six heures.",
+      "cloze": "Je {{me réveille}} à six heures.",
+      "translations": {
+       "zh": "我六点醒来。",
+       "en": "I wake up at six."
+      }
+     }
+    ],
+    "usageNote": "réveiller quelqu'un 是“叫醒某人”：Réveille-moi à sept heures."
+   }
+  ]
+ },
+ {
+  "headword": "s'habiller",
+  "phonetic": "/sa.bi.je/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "conjugation": "je m'habille, tu t'habilles, nous nous habillons, ils s'habillent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre ses vêtements",
+    "translations": {
+     "zh": "穿衣服",
+     "en": "to get dressed"
+    },
+    "examples": [
+     {
+      "text": "Il s'habille vite le matin.",
+      "cloze": "Il {{s'habille}} vite le matin.",
+      "translations": {
+       "zh": "他早上穿衣服很快。",
+       "en": "He gets dressed quickly in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se dépêcher",
+  "phonetic": "/sə.de.pe.ʃe/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "conjugation": "je me dépêche, nous nous dépêchons；命令式 dépêche-toi, dépêchez-vous"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire vite",
+    "translations": {
+     "zh": "赶快；抓紧",
+     "en": "to hurry"
+    },
+    "examples": [
+     {
+      "text": "Dépêche-toi, le bus arrive !",
+      "cloze": "{{Dépêche-toi}}, le bus arrive !",
+      "translations": {
+       "zh": "快点，公交车来了！",
+       "en": "Hurry up, the bus is coming!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se laver",
+  "phonetic": "/sə.la.ve/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "conjugation": "je me lave, tu te laves, nous nous lavons, ils se lavent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se nettoyer le corps avec de l'eau",
+    "translations": {
+     "zh": "洗澡；洗（自己的身体）",
+     "en": "to wash (oneself)"
+    },
+    "examples": [
+     {
+      "text": "Je me lave les mains.",
+      "cloze": "Je {{me lave}} les mains.",
+      "translations": {
+       "zh": "我洗手。",
+       "en": "I wash my hands."
+      }
+     }
+    ],
+    "usageNote": "洗身体部位时用定冠词，不用物主形容词：se laver les mains，不说 ses mains。"
+   }
+  ]
+ },
+ {
+  "headword": "se brosser",
+  "phonetic": "/sə.bʁɔ.se/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "conjugation": "je me brosse, nous nous brossons, ils se brossent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se nettoyer avec une brosse",
+    "translations": {
+     "zh": "（给自己）刷",
+     "en": "to brush (one's hair, teeth)"
+    },
+    "examples": [
+     {
+      "text": "Les enfants se brossent les dents.",
+      "cloze": "Les enfants {{se brossent}} les dents.",
+      "translations": {
+       "zh": "孩子们在刷牙。",
+       "en": "The children are brushing their teeth."
+      }
+     }
+    ],
+    "usageNote": "常用搭配：se brosser les dents（刷牙），se brosser les cheveux（梳头）。"
+   }
+  ]
+ },
+ {
+  "headword": "se doucher",
+  "phonetic": "/sə.du.ʃe/",
+  "cefr": "A2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "conjugation": "je me douche, nous nous douchons, ils se douchent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre une douche",
+    "translations": {
+     "zh": "淋浴；冲澡",
+     "en": "to take a shower"
+    },
+    "examples": [
+     {
+      "text": "Je me douche tous les soirs.",
+      "cloze": "Je {{me douche}} tous les soirs.",
+      "translations": {
+       "zh": "我每天晚上冲澡。",
+       "en": "I shower every evening."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se reposer",
+  "phonetic": "/sə.ʁə.po.ze/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "conjugation": "je me repose, nous nous reposons, ils se reposent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arrêter de travailler pour être moins fatigué",
+    "translations": {
+     "zh": "休息",
+     "en": "to rest"
+    },
+    "examples": [
+     {
+      "text": "Tu es fatigué, repose-toi un peu.",
+      "cloze": "Tu es fatigué, {{repose-toi}} un peu.",
+      "translations": {
+       "zh": "你累了，休息一下吧。",
+       "en": "You're tired, rest a little."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se promener",
+  "phonetic": "/sə.pʁɔm.ne/",
+  "cefr": "A2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je me promène, nous nous promenons, ils se promènent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "marcher pour le plaisir",
+    "translations": {
+     "zh": "散步；闲逛",
+     "en": "to go for a walk"
+    },
+    "examples": [
+     {
+      "text": "Nous nous promenons au bord du lac.",
+      "cloze": "Nous {{nous promenons}} au bord du lac.",
+      "translations": {
+       "zh": "我们在湖边散步。",
+       "en": "We walk along the lake."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'asseoir",
+  "phonetic": "/sa.swaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "conjugation": "不规则：je m'assieds, tu t'assieds, il s'assied, nous nous asseyons, ils s'asseyent；过去分词 assis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se mettre sur une chaise",
+    "translations": {
+     "zh": "坐下",
+     "en": "to sit down"
+    },
+    "examples": [
+     {
+      "text": "Asseyez-vous, s'il vous plaît.",
+      "cloze": "{{Asseyez-vous}}, s'il vous plaît.",
+      "translations": {
+       "zh": "请坐。",
+       "en": "Please sit down."
+      }
+     }
+    ],
+    "usageNote": "être assis 表示“坐着”的状态：Il est assis près de la fenêtre."
+   }
+  ]
+ },
+ {
+  "headword": "s'amuser",
+  "phonetic": "/sa.my.ze/",
+  "cefr": "A2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "conjugation": "je m'amuse, nous nous amusons, ils s'amusent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "passer un bon moment",
+    "translations": {
+     "zh": "玩得开心",
+     "en": "to have fun"
+    },
+    "examples": [
+     {
+      "text": "Les enfants s'amusent dans le jardin.",
+      "cloze": "Les enfants {{s'amusent}} dans le jardin.",
+      "translations": {
+       "zh": "孩子们在花园里玩得很开心。",
+       "en": "The children are having fun in the garden."
+      }
+     }
+    ],
+    "usageNote": "祝人玩得开心：Amuse-toi bien !"
+   }
+  ]
+ },
+ {
+  "headword": "s'occuper",
+  "phonetic": "/sɔ.ky.pe/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "conjugation": "je m'occupe, nous nous occupons, ils s'occupent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre soin de quelqu'un ou de quelque chose",
+    "translations": {
+     "zh": "照顾；负责",
+     "en": "to take care of, to deal with"
+    },
+    "examples": [
+     {
+      "text": "Je m'occupe de mon petit frère.",
+      "cloze": "Je {{m'occupe}} de mon petit frère.",
+      "translations": {
+       "zh": "我照顾我弟弟。",
+       "en": "I look after my little brother."
+      }
+     }
+    ],
+    "usageNote": "后面接 de：s'occuper de qqn / qqch。"
+   }
+  ]
+ },
+ {
+  "headword": "se sentir",
+  "phonetic": "/sə.sɑ̃.tiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "conjugation": "不规则：je me sens, tu te sens, il se sent, nous nous sentons, ils se sentent；过去分词 senti"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "éprouver un état physique ou moral",
+    "translations": {
+     "zh": "感觉（自己）",
+     "en": "to feel"
+    },
+    "examples": [
+     {
+      "text": "Je me sens mieux aujourd'hui.",
+      "cloze": "Je {{me sens}} mieux aujourd'hui.",
+      "translations": {
+       "zh": "我今天感觉好些了。",
+       "en": "I feel better today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se souvenir",
+  "phonetic": "/sə.suv.niʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "conjugation": "不规则：je me souviens, il se souvient, nous nous souvenons, ils se souviennent；过去分词 souvenu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "garder quelque chose dans sa mémoire",
+    "translations": {
+     "zh": "记得；想起",
+     "en": "to remember"
+    },
+    "examples": [
+     {
+      "text": "Tu te souviens de moi ?",
+      "cloze": "Tu {{te souviens}} de moi ?",
+      "translations": {
+       "zh": "你还记得我吗？",
+       "en": "Do you remember me?"
+      }
+     }
+    ],
+    "usageNote": "后面接 de：se souvenir de qqn / qqch。"
+   }
+  ]
+ },
+ {
+  "headword": "se tromper",
+  "phonetic": "/sə.tʁɔ̃.pe/",
+  "cefr": "A2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "conjugation": "je me trompe, nous nous trompons；复合过去时 je me suis trompé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire une erreur",
+    "translations": {
+     "zh": "弄错；搞错",
+     "en": "to make a mistake, to be wrong"
+    },
+    "examples": [
+     {
+      "text": "Pardon, je me suis trompé de numéro.",
+      "cloze": "Pardon, je {{me suis trompé}} de numéro.",
+      "translations": {
+       "zh": "对不起，我打错电话了。",
+       "en": "Sorry, I got the wrong number."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'arrêter",
+  "phonetic": "/sa.ʁɛ.te/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "conjugation": "je m'arrête, nous nous arrêtons, ils s'arrêtent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne plus avancer ; ne plus continuer",
+    "translations": {
+     "zh": "停下；停止",
+     "en": "to stop"
+    },
+    "examples": [
+     {
+      "text": "Le bus s'arrête devant la gare.",
+      "cloze": "Le bus {{s'arrête}} devant la gare.",
+      "translations": {
+       "zh": "公交车停在火车站前。",
+       "en": "The bus stops in front of the station."
+      }
+     }
+    ],
+    "usageNote": "arrêter de + 不定式 表示“停止做某事”：Il a arrêté de fumer."
+   }
+  ]
+ },
+ {
+  "headword": "se préparer",
+  "phonetic": "/sə.pʁe.pa.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "conjugation": "je me prépare, nous nous préparons, ils se préparent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se rendre prêt",
+    "translations": {
+     "zh": "准备（自己）；梳洗打扮",
+     "en": "to get ready"
+    },
+    "examples": [
+     {
+      "text": "Je me prépare pour sortir.",
+      "cloze": "Je {{me prépare}} pour sortir.",
+      "translations": {
+       "zh": "我在准备出门。",
+       "en": "I'm getting ready to go out."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se coiffer",
+  "phonetic": "/sə.kwa.fe/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "conjugation": "je me coiffe, nous nous coiffons, ils se coiffent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arranger ses cheveux",
+    "translations": {
+     "zh": "梳头；做头发",
+     "en": "to do one's hair"
+    },
+    "examples": [
+     {
+      "text": "Elle se coiffe devant le miroir.",
+      "cloze": "Elle {{se coiffe}} devant le miroir.",
+      "translations": {
+       "zh": "她对着镜子梳头。",
+       "en": "She does her hair in front of the mirror."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se maquiller",
+  "phonetic": "/sə.ma.ki.je/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "conjugation": "je me maquille, nous nous maquillons, ils se maquillent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre du maquillage sur son visage",
+    "translations": {
+     "zh": "化妆",
+     "en": "to put on make-up"
+    },
+    "examples": [
+     {
+      "text": "Ma sœur se maquille dans la salle de bains.",
+      "cloze": "Ma sœur {{se maquille}} dans la salle de bains.",
+      "translations": {
+       "zh": "我姐姐在浴室里化妆。",
+       "en": "My sister puts on make-up in the bathroom."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'endormir",
+  "phonetic": "/sɑ̃.dɔʁ.miʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "conjugation": "不规则：je m'endors, il s'endort, nous nous endormons, ils s'endorment；过去分词 endormi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "commencer à dormir",
+    "translations": {
+     "zh": "睡着；入睡",
+     "en": "to fall asleep"
+    },
+    "examples": [
+     {
+      "text": "Le bébé s'endort tout de suite.",
+      "cloze": "Le bébé {{s'endort}} tout de suite.",
+      "translations": {
+       "zh": "宝宝马上就睡着了。",
+       "en": "The baby falls asleep right away."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se marier",
+  "phonetic": "/sə.ma.ʁje/",
+  "cefr": "A2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "conjugation": "je me marie, nous nous marions, ils se marient"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "devenir mari et femme",
+    "translations": {
+     "zh": "结婚",
+     "en": "to get married"
+    },
+    "examples": [
+     {
+      "text": "Ils se marient en juin.",
+      "cloze": "Ils {{se marient}} en juin.",
+      "translations": {
+       "zh": "他们六月结婚。",
+       "en": "They're getting married in June."
+      }
+     }
+    ],
+    "usageNote": "“和某人结婚”：se marier avec qqn。"
+   }
+  ]
+ },
+ {
+  "headword": "s'inquiéter",
+  "phonetic": "/sɛ̃.kje.te/",
+  "cefr": "A2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je m'inquiète, nous nous inquiétons, ils s'inquiètent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir peur qu'il arrive quelque chose",
+    "translations": {
+     "zh": "担心；不安",
+     "en": "to worry"
+    },
+    "examples": [
+     {
+      "text": "Ne t'inquiète pas, tout va bien.",
+      "cloze": "Ne {{t'inquiète}} pas, tout va bien.",
+      "translations": {
+       "zh": "别担心，一切都好。",
+       "en": "Don't worry, everything is fine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'intéresser",
+  "phonetic": "/sɛ̃.te.ʁe.se/",
+  "cefr": "A2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "conjugation": "je m'intéresse, nous nous intéressons, ils s'intéressent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir de l'intérêt pour quelque chose",
+    "translations": {
+     "zh": "对……感兴趣",
+     "en": "to be interested in"
+    },
+    "examples": [
+     {
+      "text": "Je m'intéresse à l'histoire.",
+      "cloze": "Je {{m'intéresse}} à l'histoire.",
+      "translations": {
+       "zh": "我对历史感兴趣。",
+       "en": "I'm interested in history."
+      }
+     }
+    ],
+    "usageNote": "后面接 à：s'intéresser à qqch。"
+   }
+  ]
+ },
+ {
+  "headword": "se passer",
+  "phonetic": "/sə.pa.se/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "conjugation": "il se passe, ils se passent；复合过去时 il s'est passé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir lieu, arriver",
+    "translations": {
+     "zh": "发生",
+     "en": "to happen"
+    },
+    "examples": [
+     {
+      "text": "Qu'est-ce qui se passe ?",
+      "cloze": "Qu'est-ce qui {{se passe}} ?",
+      "translations": {
+       "zh": "发生什么事了？",
+       "en": "What's happening?"
+      }
+     }
+    ],
+    "usageNote": "多用第三人称：Ça s'est bien passé ?（进展顺利吗？）"
+   }
+  ]
+ },
+ {
+  "headword": "se trouver",
+  "phonetic": "/sə.tʁu.ve/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "conjugation": "il se trouve, ils se trouvent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être situé à un endroit",
+    "translations": {
+     "zh": "位于；在",
+     "en": "to be located"
+    },
+    "examples": [
+     {
+      "text": "La gare se trouve en face du musée.",
+      "cloze": "La gare {{se trouve}} en face du musée.",
+      "translations": {
+       "zh": "火车站在博物馆对面。",
+       "en": "The station is opposite the museum."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'ennuyer",
+  "phonetic": "/sɑ̃.nɥi.je/",
+  "cefr": "A2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je m'ennuie, nous nous ennuyons, ils s'ennuient"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas savoir quoi faire, ne pas s'amuser",
+    "translations": {
+     "zh": "感到无聊",
+     "en": "to be bored"
+    },
+    "examples": [
+     {
+      "text": "Je m'ennuie à la maison.",
+      "cloze": "Je {{m'ennuie}} à la maison.",
+      "translations": {
+       "zh": "我在家里觉得好无聊。",
+       "en": "I'm bored at home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se disputer",
+  "phonetic": "/sə.dis.py.te/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "conjugation": "je me dispute, nous nous disputons, ils se disputent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se parler avec colère",
+    "translations": {
+     "zh": "吵架；争吵",
+     "en": "to argue, to quarrel"
+    },
+    "examples": [
+     {
+      "text": "Mes parents se disputent souvent.",
+      "cloze": "Mes parents {{se disputent}} souvent.",
+      "translations": {
+       "zh": "我父母经常吵架。",
+       "en": "My parents often argue."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'excuser",
+  "phonetic": "/sɛk.sky.ze/",
+  "cefr": "A2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "conjugation": "je m'excuse, nous nous excusons, ils s'excusent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "demander pardon",
+    "translations": {
+     "zh": "道歉",
+     "en": "to apologize"
+    },
+    "examples": [
+     {
+      "text": "Il s'excuse pour son retard.",
+      "cloze": "Il {{s'excuse}} pour son retard.",
+      "translations": {
+       "zh": "他为迟到道歉。",
+       "en": "He apologizes for being late."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se raser",
+  "phonetic": "/sə.ʁa.ze/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "conjugation": "je me rase, nous nous rasons, ils se rasent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "couper les poils du visage",
+    "translations": {
+     "zh": "刮胡子",
+     "en": "to shave"
+    },
+    "examples": [
+     {
+      "text": "Mon père se rase tous les matins.",
+      "cloze": "Mon père {{se rase}} tous les matins.",
+      "translations": {
+       "zh": "我爸爸每天早上刮胡子。",
+       "en": "My father shaves every morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se baigner",
+  "phonetic": "/sə.be.ɲe/",
+  "cefr": "A2",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "conjugation": "je me baigne, nous nous baignons, ils se baignent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller dans l'eau pour nager ou jouer",
+    "translations": {
+     "zh": "游泳；（在海里、河里）洗澡",
+     "en": "to go swimming, to bathe"
+    },
+    "examples": [
+     {
+      "text": "On se baigne dans la mer cet après-midi ?",
+      "cloze": "On {{se baigne}} dans la mer cet après-midi ?",
+      "translations": {
+       "zh": "今天下午我们去海里游泳吗？",
+       "en": "Shall we go for a swim in the sea this afternoon?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'entendre",
+  "phonetic": "/sɑ̃.tɑ̃dʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "conjugation": "je m'entends, il s'entend, nous nous entendons, ils s'entendent；过去分词 entendu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir de bonnes relations avec quelqu'un",
+    "translations": {
+     "zh": "相处（融洽）",
+     "en": "to get along"
+    },
+    "examples": [
+     {
+      "text": "Je m'entends bien avec ma sœur.",
+      "cloze": "Je {{m'entends}} bien avec ma sœur.",
+      "translations": {
+       "zh": "我和姐姐相处得很好。",
+       "en": "I get along well with my sister."
+      }
+     }
+    ],
+    "usageNote": "常说 s'entendre bien / mal avec qqn。"
+   }
+  ]
+ },
+ {
+  "headword": "se rappeler",
+  "phonetic": "/sə.ʁa.ple/",
+  "cefr": "A2",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je me rappelle, nous nous rappelons, ils se rappellent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "garder ou retrouver dans sa mémoire",
+    "translations": {
+     "zh": "记得；回想起",
+     "en": "to remember, to recall"
+    },
+    "examples": [
+     {
+      "text": "Je me rappelle son nom.",
+      "cloze": "Je {{me rappelle}} son nom.",
+      "translations": {
+       "zh": "我记得他的名字。",
+       "en": "I remember his name."
+      }
+     }
+    ],
+    "usageNote": "直接接宾语：se rappeler qqch（而 se souvenir 要加 de）。"
+   }
+  ]
+ },
+ {
+  "headword": "se taire",
+  "phonetic": "/sə.tɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "conjugation": "不规则：je me tais, il se tait, nous nous taisons, ils se taisent；过去分词 tu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne plus parler",
+    "translations": {
+     "zh": "不说话；安静下来",
+     "en": "to be quiet, to stop talking"
+    },
+    "examples": [
+     {
+      "text": "Taisez-vous, s'il vous plaît !",
+      "cloze": "{{Taisez-vous}}, s'il vous plaît !",
+      "translations": {
+       "zh": "请安静！",
+       "en": "Be quiet, please!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se blesser",
+  "phonetic": "/sə.ble.se/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "conjugation": "je me blesse, nous nous blessons；复合过去时 il s'est blessé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se faire mal, avoir une blessure",
+    "translations": {
+     "zh": "受伤",
+     "en": "to hurt oneself"
+    },
+    "examples": [
+     {
+      "text": "Il s'est blessé au genou.",
+      "cloze": "Il {{s'est blessé}} au genou.",
+      "translations": {
+       "zh": "他膝盖受伤了。",
+       "en": "He hurt his knee."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "expliquer",
+  "phonetic": "/ɛks.pli.ke/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire comprendre quelque chose",
+    "translations": {
+     "zh": "解释；讲解",
+     "en": "to explain"
+    },
+    "examples": [
+     {
+      "text": "Le professeur explique la leçon.",
+      "cloze": "Le professeur {{explique}} la leçon.",
+      "translations": {
+       "zh": "老师讲解课文。",
+       "en": "The teacher explains the lesson."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "raconter",
+  "phonetic": "/ʁa.kɔ̃.te/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire une histoire ou ce qui s'est passé",
+    "translations": {
+     "zh": "讲述；讲（故事）",
+     "en": "to tell (a story)"
+    },
+    "examples": [
+     {
+      "text": "Raconte-moi ton voyage !",
+      "cloze": "{{Raconte-moi}} ton voyage !",
+      "translations": {
+       "zh": "给我讲讲你的旅行吧！",
+       "en": "Tell me about your trip!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "discuter",
+  "phonetic": "/dis.ky.te/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "parler avec quelqu'un d'un sujet",
+    "translations": {
+     "zh": "讨论；聊天",
+     "en": "to discuss, to chat"
+    },
+    "examples": [
+     {
+      "text": "Nous discutons du film.",
+      "cloze": "Nous {{discutons}} du film.",
+      "translations": {
+       "zh": "我们在讨论这部电影。",
+       "en": "We're talking about the film."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "poser",
+  "phonetic": "/po.ze/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre quelque chose quelque part",
+    "translations": {
+     "zh": "放；放下",
+     "en": "to put (down)"
+    },
+    "examples": [
+     {
+      "text": "Pose ton sac sur la chaise.",
+      "cloze": "{{Pose}} ton sac sur la chaise.",
+      "translations": {
+       "zh": "把你的包放在椅子上。",
+       "en": "Put your bag on the chair."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire (une question)",
+    "translations": {
+     "zh": "提（问题）",
+     "en": "to ask (a question)"
+    },
+    "examples": [
+     {
+      "text": "Je peux poser une question ?",
+      "translations": {
+       "zh": "我可以提个问题吗？",
+       "en": "Can I ask a question?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "crier",
+  "phonetic": "/kʁi.je/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "parler très fort",
+    "translations": {
+     "zh": "喊；叫",
+     "en": "to shout"
+    },
+    "examples": [
+     {
+      "text": "Ne crie pas, je t'entends !",
+      "cloze": "Ne {{crie}} pas, je t'entends !",
+      "translations": {
+       "zh": "别喊，我听得见！",
+       "en": "Don't shout, I can hear you!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "remercier",
+  "phonetic": "/ʁə.mɛʁ.sje/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire merci",
+    "translations": {
+     "zh": "感谢",
+     "en": "to thank"
+    },
+    "examples": [
+     {
+      "text": "Je vous remercie pour votre aide.",
+      "cloze": "Je vous {{remercie}} pour votre aide.",
+      "translations": {
+       "zh": "感谢您的帮助。",
+       "en": "Thank you for your help."
+      }
+     }
+    ],
+    "usageNote": "感谢某事用 pour 或 de：remercier qqn pour / de qqch。"
+   }
+  ]
+ },
+ {
+  "headword": "inviter",
+  "phonetic": "/ɛ̃.vi.te/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "demander à quelqu'un de venir",
+    "translations": {
+     "zh": "邀请",
+     "en": "to invite"
+    },
+    "examples": [
+     {
+      "text": "J'invite mes amis à dîner.",
+      "cloze": "J'{{invite}} mes amis à dîner.",
+      "translations": {
+       "zh": "我请朋友们来吃晚饭。",
+       "en": "I'm inviting my friends to dinner."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "accepter",
+  "phonetic": "/ak.sɛp.te/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire oui à ce qu'on propose",
+    "translations": {
+     "zh": "接受；同意",
+     "en": "to accept"
+    },
+    "examples": [
+     {
+      "text": "Elle accepte notre invitation.",
+      "cloze": "Elle {{accepte}} notre invitation.",
+      "translations": {
+       "zh": "她接受了我们的邀请。",
+       "en": "She accepts our invitation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "refuser",
+  "phonetic": "/ʁə.fy.ze/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire non",
+    "translations": {
+     "zh": "拒绝",
+     "en": "to refuse"
+    },
+    "examples": [
+     {
+      "text": "Il refuse de manger sa soupe.",
+      "cloze": "Il {{refuse}} de manger sa soupe.",
+      "translations": {
+       "zh": "他不肯喝汤。",
+       "en": "He refuses to eat his soup."
+      }
+     }
+    ],
+    "usageNote": "refuser de + 不定式：拒绝做某事。"
+   }
+  ]
+ },
+ {
+  "headword": "promettre",
+  "phonetic": "/pʁɔ.mɛtʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "conjugation": "不规则：je promets, il promet, nous promettons, ils promettent；过去分词 promis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire qu'on va faire quelque chose, sûrement",
+    "translations": {
+     "zh": "答应；保证",
+     "en": "to promise"
+    },
+    "examples": [
+     {
+      "text": "Je te promets de venir.",
+      "cloze": "Je te {{promets}} de venir.",
+      "translations": {
+       "zh": "我答应你会来。",
+       "en": "I promise you I'll come."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "proposer",
+  "phonetic": "/pʁɔ.po.ze/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "présenter une idée ou une offre",
+    "translations": {
+     "zh": "提议；提供",
+     "en": "to suggest, to offer"
+    },
+    "examples": [
+     {
+      "text": "Je propose d'aller au cinéma.",
+      "cloze": "Je {{propose}} d'aller au cinéma.",
+      "translations": {
+       "zh": "我提议去看电影。",
+       "en": "I suggest going to the cinema."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

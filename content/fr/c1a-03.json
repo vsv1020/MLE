@@ -1,0 +1,1395 @@
+[
+ {
+  "headword": "enjeu",
+  "phonetic": "/ɑ̃.ʒø/",
+  "cefr": "C1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "enjeux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce que l'on peut gagner ou perdre ; question décisive",
+    "translations": {
+     "zh": "关键问题；利害；赌注",
+     "en": "stake, what is at stake"
+    },
+    "examples": [
+     {
+      "text": "La transition énergétique est un enjeu majeur de notre époque.",
+      "translations": {
+       "zh": "能源转型是我们这个时代的重大课题。",
+       "en": "The energy transition is a major issue of our time."
+      }
+     }
+    ],
+    "usageNote": "les enjeux d'un débat：辩论的关键所在；本义“赌注”。"
+   }
+  ]
+ },
+ {
+  "headword": "ampleur",
+  "phonetic": "/ɑ̃.plœʁ/",
+  "cefr": "C1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "importance, étendue d'un phénomène",
+    "translations": {
+     "zh": "规模；程度",
+     "en": "scale, extent"
+    },
+    "examples": [
+     {
+      "text": "Une crise d'une telle ampleur était imprévisible.",
+      "translations": {
+       "zh": "如此规模的危机是无法预料的。",
+       "en": "A crisis of such magnitude was unforeseeable."
+      }
+     }
+    ],
+    "usageNote": "prendre de l'ampleur：扩大，加剧。"
+   }
+  ]
+ },
+ {
+  "headword": "paradoxe",
+  "phonetic": "/pa.ʁa.dɔks/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "paradoxes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation ou affirmation contraire à ce qu'on attend",
+    "translations": {
+     "zh": "悖论；矛盾现象",
+     "en": "paradox"
+    },
+    "examples": [
+     {
+      "text": "C'est un paradoxe : plus on communique, plus on se sent seul.",
+      "translations": {
+       "zh": "这是个悖论：交流越多，越感到孤独。",
+       "en": "It's a paradox: the more we communicate, the lonelier we feel."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "contrainte",
+  "phonetic": "/kɔ̃.tʁɛ̃t/",
+  "cefr": "C1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "contraintes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "obligation qui limite la liberté d'action",
+    "translations": {
+     "zh": "约束；限制",
+     "en": "constraint"
+    },
+    "examples": [
+     {
+      "text": "Le manque de temps est une contrainte importante.",
+      "translations": {
+       "zh": "时间不足是一个重要的制约因素。",
+       "en": "Lack of time is a major constraint."
+      }
+     }
+    ],
+    "usageNote": "sous la contrainte：被迫；contraintes budgétaires：预算限制。"
+   }
+  ]
+ },
+ {
+  "headword": "cohérence",
+  "phonetic": "/kɔ.e.ʁɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cohérences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "absence de contradiction, harmonie logique",
+    "translations": {
+     "zh": "连贯性；一致性",
+     "en": "coherence, consistency"
+    },
+    "examples": [
+     {
+      "text": "Ce texte manque de cohérence.",
+      "translations": {
+       "zh": "这篇文章缺乏连贯性。",
+       "en": "This text lacks coherence."
+      }
+     }
+    ],
+    "usageNote": "形容词 cohérent；反义 incohérence。"
+   }
+  ]
+ },
+ {
+  "headword": "pertinence",
+  "phonetic": "/pɛʁ.ti.nɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pertinences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère de ce qui est approprié, adapté",
+    "translations": {
+     "zh": "中肯；相关性；恰当",
+     "en": "relevance, aptness"
+    },
+    "examples": [
+     {
+      "text": "Je doute de la pertinence de cette comparaison.",
+      "translations": {
+       "zh": "我怀疑这个比较是否恰当。",
+       "en": "I doubt the relevance of this comparison."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "postulat",
+  "phonetic": "/pɔs.ty.la/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "postulats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "principe admis sans démonstration",
+    "translations": {
+     "zh": "公设；假定前提",
+     "en": "postulate, premise"
+    },
+    "examples": [
+     {
+      "text": "Tout le raisonnement part d'un postulat discutable.",
+      "translations": {
+       "zh": "整个推理都基于一个值得商榷的前提。",
+       "en": "The whole argument starts from a debatable premise."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "prémisse",
+  "phonetic": "/pʁe.mis/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "prémisses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "proposition dont on tire une conclusion",
+    "translations": {
+     "zh": "前提",
+     "en": "premise"
+    },
+    "examples": [
+     {
+      "text": "Si la prémisse est fausse, la conclusion l'est aussi.",
+      "translations": {
+       "zh": "如果前提是错的，结论也是错的。",
+       "en": "If the premise is false, so is the conclusion."
+      }
+     }
+    ],
+    "usageNote": "与 prémices（开端，只用复数）同音，勿混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "corollaire",
+  "phonetic": "/kɔ.ʁɔ.lɛʁ/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "corollaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "conséquence directe et nécessaire",
+    "translations": {
+     "zh": "必然结果；推论",
+     "en": "corollary"
+    },
+    "examples": [
+     {
+      "text": "La hausse du chômage a pour corollaire une baisse de la consommation.",
+      "translations": {
+       "zh": "失业率上升必然导致消费下降。",
+       "en": "Rising unemployment has a drop in consumption as its corollary."
+      }
+     }
+    ],
+    "usageNote": "avoir pour corollaire qch：必然带来…。"
+   }
+  ]
+ },
+ {
+  "headword": "paradigme",
+  "phonetic": "/pa.ʁa.diɡm/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "paradigmes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "modèle de pensée dominant dans un domaine",
+    "translations": {
+     "zh": "范式",
+     "en": "paradigm"
+    },
+    "examples": [
+     {
+      "text": "Nous assistons à un changement de paradigme en médecine.",
+      "translations": {
+       "zh": "我们正在见证医学领域的范式转变。",
+       "en": "We are witnessing a paradigm shift in medicine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "problématique",
+  "phonetic": "/pʁɔ.ble.ma.tik/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "problématiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des questions posées par un sujet",
+    "translations": {
+     "zh": "问题意识；核心问题",
+     "en": "set of issues, central question"
+    },
+    "examples": [
+     {
+      "text": "Votre introduction doit poser clairement la problématique.",
+      "translations": {
+       "zh": "你的引言必须清楚地提出核心问题。",
+       "en": "Your introduction must clearly set out the central question."
+      }
+     }
+    ],
+    "usageNote": "法国论文写作的核心概念；也作形容词：棘手的。"
+   }
+  ]
+ },
+ {
+  "headword": "ambiguïté",
+  "phonetic": "/ɑ̃.bi.ɡɥi.te/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ambiguïtés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère de ce qui peut avoir plusieurs sens",
+    "translations": {
+     "zh": "歧义；含糊",
+     "en": "ambiguity"
+    },
+    "examples": [
+     {
+      "text": "Pour éviter toute ambiguïté, précisons les termes.",
+      "translations": {
+       "zh": "为避免任何歧义，我们先明确术语。",
+       "en": "To avoid any ambiguity, let us define the terms."
+      }
+     }
+    ],
+    "usageNote": "lever une ambiguïté：消除歧义；新拼写 ambigüité。"
+   }
+  ]
+ },
+ {
+  "headword": "ambivalence",
+  "phonetic": "/ɑ̃.bi.va.lɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ambivalences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "coexistence de deux attitudes ou sentiments opposés",
+    "translations": {
+     "zh": "矛盾心理；双重性",
+     "en": "ambivalence"
+    },
+    "examples": [
+     {
+      "text": "Son attitude révèle une profonde ambivalence.",
+      "translations": {
+       "zh": "他的态度流露出深深的矛盾心理。",
+       "en": "His attitude reveals a deep ambivalence."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dichotomie",
+  "phonetic": "/di.kɔ.tɔ.mi/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "dichotomies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "division en deux éléments opposés",
+    "translations": {
+     "zh": "二分法；对立",
+     "en": "dichotomy"
+    },
+    "examples": [
+     {
+      "text": "Il faut dépasser la dichotomie entre nature et culture.",
+      "translations": {
+       "zh": "必须超越自然与文化的二元对立。",
+       "en": "We must move beyond the dichotomy between nature and culture."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "antagonisme",
+  "phonetic": "/ɑ̃.ta.ɡɔ.nism/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "antagonismes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "opposition entre des forces ou des personnes",
+    "translations": {
+     "zh": "对立；对抗",
+     "en": "antagonism"
+    },
+    "examples": [
+     {
+      "text": "On observe un fort antagonisme entre les deux camps.",
+      "translations": {
+       "zh": "两个阵营之间存在强烈的对立。",
+       "en": "There is strong antagonism between the two camps."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "divergence",
+  "phonetic": "/di.vɛʁ.ʒɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "divergences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "différence d'opinions ou d'orientations",
+    "translations": {
+     "zh": "分歧",
+     "en": "divergence, disagreement"
+    },
+    "examples": [
+     {
+      "text": "Il subsiste une divergence de vues sur ce point.",
+      "translations": {
+       "zh": "在这一点上仍存在意见分歧。",
+       "en": "There is still a difference of opinion on this point."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "controverse",
+  "phonetic": "/kɔ̃.tʁɔ.vɛʁs/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "controverses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "débat suivi et animé sur une question",
+    "translations": {
+     "zh": "争论；论战",
+     "en": "controversy"
+    },
+    "examples": [
+     {
+      "text": "Cette découverte a soulevé une vive controverse.",
+      "translations": {
+       "zh": "这一发现引发了激烈的争论。",
+       "en": "This discovery sparked a heated controversy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "assertion",
+  "phonetic": "/a.sɛʁ.sjɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "assertions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "affirmation présentée comme vraie",
+    "translations": {
+     "zh": "断言；主张",
+     "en": "assertion"
+    },
+    "examples": [
+     {
+      "text": "Cette assertion ne repose sur aucune preuve.",
+      "translations": {
+       "zh": "这一断言没有任何证据支持。",
+       "en": "This assertion is not based on any evidence."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "allégation",
+  "phonetic": "/a.le.ɡa.sjɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "allégations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "affirmation qui n'est pas prouvée",
+    "translations": {
+     "zh": "（未经证实的）说法；指控",
+     "en": "allegation"
+    },
+    "examples": [
+     {
+      "text": "Cette allégation reste à démontrer.",
+      "translations": {
+       "zh": "这一说法尚待证实。",
+       "en": "This allegation remains to be proven."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fondement",
+  "phonetic": "/fɔ̃d.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fondements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "base, principe sur lequel repose quelque chose",
+    "translations": {
+     "zh": "基础；根据",
+     "en": "foundation, basis"
+    },
+    "examples": [
+     {
+      "text": "Cette rumeur est sans fondement.",
+      "translations": {
+       "zh": "这个传言毫无根据。",
+       "en": "This rumour is unfounded."
+      }
+     }
+    ],
+    "usageNote": "sans fondement：毫无根据；les fondements de la démocratie：民主的基础。"
+   }
+  ]
+ },
+ {
+  "headword": "bien-fondé",
+  "phonetic": "/bjɛ̃ fɔ̃.de/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bien-fondés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère légitime, justifié",
+    "translations": {
+     "zh": "合理性；正当性",
+     "en": "validity, legitimacy"
+    },
+    "examples": [
+     {
+      "text": "Personne ne conteste le bien-fondé de cette mesure.",
+      "translations": {
+       "zh": "没有人质疑这项措施的合理性。",
+       "en": "No one disputes the validity of this measure."
+      },
+      "cloze": "Personne ne conteste le {{bien-fondé}} de cette mesure."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "portée",
+  "phonetic": "/pɔʁ.te/",
+  "cefr": "C1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "portées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "importance, conséquences d'un acte ou d'une idée",
+    "translations": {
+     "zh": "意义；影响范围",
+     "en": "scope, significance"
+    },
+    "examples": [
+     {
+      "text": "Les scientifiques ont sous-estimé la portée de cette découverte.",
+      "translations": {
+       "zh": "科学家们低估了这一发现的意义。",
+       "en": "Scientists underestimated the significance of this discovery."
+      }
+     }
+    ],
+    "usageNote": "à la portée de：在…能力范围内；hors de portée：够不着。"
+   }
+  ]
+ },
+ {
+  "headword": "envergure",
+  "phonetic": "/ɑ̃.vɛʁ.ɡyʁ/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "envergures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ampleur, importance ; valeur d'une personne",
+    "translations": {
+     "zh": "规模；才干",
+     "en": "scale, calibre"
+    },
+    "examples": [
+     {
+      "text": "Un projet de cette envergure demande des années.",
+      "translations": {
+       "zh": "如此规模的项目需要数年时间。",
+       "en": "A project of this scale takes years."
+      }
+     }
+    ],
+    "usageNote": "本义“翼展”；un homme d'envergure：有才干的人。"
+   }
+  ]
+ },
+ {
+  "headword": "teneur",
+  "phonetic": "/tə.nœʁ/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "teneurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "contenu exact d'un texte ou d'un propos",
+    "translations": {
+     "zh": "内容；含量",
+     "en": "content, substance"
+    },
+    "examples": [
+     {
+      "text": "La teneur exacte de l'accord reste secrète.",
+      "translations": {
+       "zh": "协议的确切内容仍然保密。",
+       "en": "The exact content of the agreement remains secret."
+      }
+     }
+    ],
+    "usageNote": "也指“含量”：teneur en sucre（含糖量）。"
+   }
+  ]
+ },
+ {
+  "headword": "finalité",
+  "phonetic": "/fi.na.li.te/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "finalités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "but, objectif ultime",
+    "translations": {
+     "zh": "最终目的",
+     "en": "purpose, ultimate aim"
+    },
+    "examples": [
+     {
+      "text": "Quelle est la finalité de cette réforme ?",
+      "translations": {
+       "zh": "这项改革的最终目的是什么？",
+       "en": "What is the ultimate purpose of this reform?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "genèse",
+  "phonetic": "/ʒə.nɛz/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "genèses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "origine et processus de formation",
+    "translations": {
+     "zh": "起源；形成过程",
+     "en": "genesis, origins"
+    },
+    "examples": [
+     {
+      "text": "Le livre retrace la genèse du projet européen.",
+      "translations": {
+       "zh": "这本书追溯了欧洲一体化计划的起源。",
+       "en": "The book traces the origins of the European project."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "prémices",
+  "phonetic": "/pʁe.mis/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "premiers signes, commencement",
+    "translations": {
+     "zh": "开端；初步迹象",
+     "en": "beginnings, first signs"
+    },
+    "examples": [
+     {
+      "text": "On observe les prémices d'une reprise économique.",
+      "translations": {
+       "zh": "我们看到了经济复苏的初步迹象。",
+       "en": "We are seeing the first signs of an economic recovery."
+      }
+     }
+    ],
+    "usageNote": "只用复数；勿与 prémisse（前提）混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "essor",
+  "phonetic": "/e.sɔʁ/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "essors"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "développement rapide",
+    "translations": {
+     "zh": "蓬勃发展；腾飞",
+     "en": "boom, rapid growth"
+    },
+    "examples": [
+     {
+      "text": "Le commerce en ligne connaît un essor considérable.",
+      "translations": {
+       "zh": "电子商务正蓬勃发展。",
+       "en": "Online commerce is booming."
+      }
+     }
+    ],
+    "usageNote": "en plein essor：正蓬勃发展。"
+   }
+  ]
+ },
+ {
+  "headword": "mutation",
+  "phonetic": "/my.ta.sjɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mutations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "transformation profonde",
+    "translations": {
+     "zh": "深刻变化；转型",
+     "en": "transformation, change"
+    },
+    "examples": [
+     {
+      "text": "Le monde du travail est en pleine mutation.",
+      "translations": {
+       "zh": "职场正在经历深刻变革。",
+       "en": "The world of work is undergoing a profound transformation."
+      }
+     }
+    ],
+    "usageNote": "也指基因突变、（公务员）调职。"
+   }
+  ]
+ },
+ {
+  "headword": "levier",
+  "phonetic": "/lə.vje/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "leviers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moyen d'action efficace",
+    "translations": {
+     "zh": "杠杆；手段",
+     "en": "lever, means of action"
+    },
+    "examples": [
+     {
+      "text": "L'éducation est un levier essentiel du développement.",
+      "translations": {
+       "zh": "教育是推动发展的重要手段。",
+       "en": "Education is an essential lever for development."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "écueil",
+  "phonetic": "/e.kœj/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "écueils"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "difficulté ou danger à éviter",
+    "translations": {
+     "zh": "暗礁；陷阱；难点",
+     "en": "pitfall"
+    },
+    "examples": [
+     {
+      "text": "Le principal écueil serait de généraliser trop vite.",
+      "translations": {
+       "zh": "最大的陷阱是过快地以偏概全。",
+       "en": "The main pitfall would be to generalize too quickly."
+      }
+     }
+    ],
+    "usageNote": "本义“暗礁”；éviter l'écueil de…：避免…的陷阱。"
+   }
+  ]
+ },
+ {
+  "headword": "aléa",
+  "phonetic": "/a.le.a/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "aléas"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "événement imprévisible, risque",
+    "translations": {
+     "zh": "意外；不确定因素",
+     "en": "hazard, uncertainty"
+    },
+    "examples": [
+     {
+      "text": "Il faut tenir compte des aléas du marché.",
+      "translations": {
+       "zh": "必须考虑市场的不确定因素。",
+       "en": "Market uncertainties must be taken into account."
+      },
+      "cloze": "Il faut tenir compte des {{aléas}} du marché."
+     }
+    ],
+    "usageNote": "多用复数：les aléas de la vie（人生无常）；形容词 aléatoire。"
+   }
+  ]
+ },
+ {
+  "headword": "préalable",
+  "phonetic": "/pʁe.a.labl/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "préalables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "condition qui doit être remplie d'abord",
+    "translations": {
+     "zh": "先决条件",
+     "en": "prerequisite"
+    },
+    "examples": [
+     {
+      "text": "Le dialogue est un préalable à toute négociation.",
+      "translations": {
+       "zh": "对话是任何谈判的先决条件。",
+       "en": "Dialogue is a prerequisite for any negotiation."
+      }
+     }
+    ],
+    "usageNote": "au préalable：事先；也作形容词：préalable（预先的）。"
+   }
+  ]
+ },
+ {
+  "headword": "corrélation",
+  "phonetic": "/kɔ.ʁe.la.sjɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "corrélations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rapport réciproque entre deux phénomènes",
+    "translations": {
+     "zh": "相关性",
+     "en": "correlation"
+    },
+    "examples": [
+     {
+      "text": "Il existe une corrélation entre pauvreté et santé.",
+      "translations": {
+       "zh": "贫困与健康之间存在相关性。",
+       "en": "There is a correlation between poverty and health."
+      }
+     }
+    ],
+    "usageNote": "corrélation ≠ causalité：相关不等于因果。"
+   }
+  ]
+ },
+ {
+  "headword": "causalité",
+  "phonetic": "/ko.za.li.te/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "causalités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rapport de cause à effet",
+    "translations": {
+     "zh": "因果关系",
+     "en": "causality, causation"
+    },
+    "examples": [
+     {
+      "text": "Rien ne prouve un lien de causalité entre ces deux faits.",
+      "translations": {
+       "zh": "没有任何证据表明这两件事之间存在因果关系。",
+       "en": "Nothing proves a causal link between these two facts."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "répercussion",
+  "phonetic": "/ʁe.pɛʁ.ky.sjɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "répercussions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "conséquence indirecte",
+    "translations": {
+     "zh": "影响；后果",
+     "en": "repercussion"
+    },
+    "examples": [
+     {
+      "text": "Cette crise aura des répercussions mondiales.",
+      "translations": {
+       "zh": "这场危机将产生全球性影响。",
+       "en": "This crisis will have global repercussions."
+      },
+      "cloze": "Cette crise aura des {{répercussions}} mondiales."
+     }
+    ],
+    "usageNote": "多用复数：avoir des répercussions sur…"
+   }
+  ]
+ },
+ {
+  "headword": "retombée",
+  "phonetic": "/ʁə.tɔ̃.be/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "retombées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "conséquence, effet indirect",
+    "translations": {
+     "zh": "影响；（带来的）效益",
+     "en": "spin-off, fallout"
+    },
+    "examples": [
+     {
+      "text": "Les retombées économiques du festival sont importantes.",
+      "translations": {
+       "zh": "这个节日带来的经济效益相当可观。",
+       "en": "The festival's economic spin-offs are significant."
+      },
+      "cloze": "Les {{retombées}} économiques du festival sont importantes."
+     }
+    ],
+    "usageNote": "多用复数；retombées radioactives：放射性沉降物。"
+   }
+  ]
+ },
+ {
+  "headword": "incidence",
+  "phonetic": "/ɛ̃.si.dɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "incidences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "effet, conséquence sur quelque chose",
+    "translations": {
+     "zh": "影响",
+     "en": "effect, impact"
+    },
+    "examples": [
+     {
+      "text": "Cette loi aura une incidence directe sur les loyers.",
+      "translations": {
+       "zh": "这部法律将直接影响房租。",
+       "en": "This law will have a direct impact on rents."
+      }
+     }
+    ],
+    "usageNote": "avoir une incidence sur…；医学上指“发病率”。"
+   }
+  ]
+ },
+ {
+  "headword": "constat",
+  "phonetic": "/kɔ̃s.ta/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "constats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "observation objective d'une situation",
+    "translations": {
+     "zh": "（客观的）结论；判断",
+     "en": "observation, finding"
+    },
+    "examples": [
+     {
+      "text": "Le constat est sans appel : la pollution augmente.",
+      "translations": {
+       "zh": "结论毋庸置疑：污染在加剧。",
+       "en": "The finding is indisputable: pollution is increasing."
+      }
+     }
+    ],
+    "usageNote": "faire le constat que…；constat amiable：交通事故协议书。"
+   }
+  ]
+ },
+ {
+  "headword": "optique",
+  "phonetic": "/ɔp.tik/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "optiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "manière de voir, point de vue",
+    "translations": {
+     "zh": "观点；角度",
+     "en": "perspective, viewpoint"
+    },
+    "examples": [
+     {
+      "text": "Dans cette optique, la réforme paraît nécessaire.",
+      "translations": {
+       "zh": "从这个角度看，改革似乎是必要的。",
+       "en": "From this perspective, the reform seems necessary."
+      }
+     }
+    ],
+    "usageNote": "dans l'optique de + 不定式：为了…；本义“光学”。"
+   }
+  ]
+ },
+ {
+  "headword": "prisme",
+  "phonetic": "/pʁism/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "prismes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "point de vue qui oriente ou déforme la perception",
+    "translations": {
+     "zh": "视角；棱镜",
+     "en": "lens, prism"
+    },
+    "examples": [
+     {
+      "text": "Il analyse la société à travers le prisme de l'économie.",
+      "translations": {
+       "zh": "他从经济学的视角来分析社会。",
+       "en": "He analyses society through the lens of economics."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "facette",
+  "phonetic": "/fa.sɛt/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "facettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "aspect particulier d'une personne ou d'une chose",
+    "translations": {
+     "zh": "方面",
+     "en": "facet, aspect"
+    },
+    "examples": [
+     {
+      "text": "Ce roman révèle une autre facette de l'auteur.",
+      "translations": {
+       "zh": "这部小说展现了作者的另一面。",
+       "en": "This novel reveals another facet of the author."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "subtilité",
+  "phonetic": "/syp.ti.li.te/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "subtilités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nuance fine, difficile à saisir",
+    "translations": {
+     "zh": "微妙之处；细微差别",
+     "en": "subtlety"
+    },
+    "examples": [
+     {
+      "text": "Toute la subtilité du texte réside dans son ironie.",
+      "translations": {
+       "zh": "这篇文章的妙处全在于其中的讽刺。",
+       "en": "The whole subtlety of the text lies in its irony."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lacune",
+  "phonetic": "/la.kyn/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "lacunes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "manque, vide dans un ensemble",
+    "translations": {
+     "zh": "缺陷；空白；欠缺",
+     "en": "gap, shortcoming"
+    },
+    "examples": [
+     {
+      "text": "Cette étude comble une lacune importante de la recherche.",
+      "translations": {
+       "zh": "这项研究填补了一个重要的学术空白。",
+       "en": "This study fills a major gap in research."
+      }
+     }
+    ],
+    "usageNote": "combler une lacune：填补空白；avoir des lacunes en maths：数学基础薄弱。"
+   }
+  ]
+ },
+ {
+  "headword": "dérive",
+  "phonetic": "/de.ʁiv/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "dérives"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "évolution incontrôlée vers un excès",
+    "translations": {
+     "zh": "偏离；失控",
+     "en": "drift, excess"
+    },
+    "examples": [
+     {
+      "text": "Il faut éviter toute dérive autoritaire.",
+      "translations": {
+       "zh": "必须防止任何滑向专制的倾向。",
+       "en": "Any drift towards authoritarianism must be avoided."
+      }
+     }
+    ],
+    "usageNote": "à la dérive：随波逐流，漂流。"
+   }
+  ]
+ },
+ {
+  "headword": "disparité",
+  "phonetic": "/dis.pa.ʁi.te/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "disparités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "inégalité, différence marquée",
+    "translations": {
+     "zh": "差异；不平衡",
+     "en": "disparity"
+    },
+    "examples": [
+     {
+      "text": "On constate une forte disparité entre les régions.",
+      "translations": {
+       "zh": "各地区之间存在明显差异。",
+       "en": "There is a marked disparity between regions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cohésion",
+  "phonetic": "/kɔ.e.zjɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cohésions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "solidité des liens au sein d'un groupe",
+    "translations": {
+     "zh": "凝聚力",
+     "en": "cohesion"
+    },
+    "examples": [
+     {
+      "text": "Cette crise menace la cohésion sociale.",
+      "translations": {
+       "zh": "这场危机威胁着社会凝聚力。",
+       "en": "This crisis threatens social cohesion."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

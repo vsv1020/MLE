@@ -1,0 +1,1325 @@
+[
+  {
+    "headword": "cependant",
+    "phonetic": "/sə.pɑ̃.dɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "marque une opposition ; pourtant",
+        "translations": {
+          "zh": "然而；但是",
+          "en": "however"
+        },
+        "examples": [
+          {
+            "text": "Le projet est intéressant ; cependant, il coûte cher.",
+            "translations": {
+              "zh": "这个项目很有意思，但是成本很高。",
+              "en": "The project is interesting; however, it's expensive."
+            }
+          }
+        ],
+        "usageNote": "比 mais 正式，多用于书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "pourtant",
+    "phonetic": "/puʁ.tɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 700,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "marque une opposition inattendue",
+        "translations": {
+          "zh": "可是；然而",
+          "en": "yet, however"
+        },
+        "examples": [
+          {
+            "text": "Il est malade, et pourtant il travaille.",
+            "translations": {
+              "zh": "他病了，可还在工作。",
+              "en": "He's ill, and yet he's working."
+            }
+          }
+        ],
+        "usageNote": "强调与预期相反；比较 cependant（更书面）。"
+      }
+    ]
+  },
+  {
+    "headword": "néanmoins",
+    "phonetic": "/ne.ɑ̃.mwɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "malgré cela",
+        "translations": {
+          "zh": "尽管如此；然而",
+          "en": "nevertheless"
+        },
+        "examples": [
+          {
+            "text": "C'est difficile, néanmoins c'est possible.",
+            "translations": {
+              "zh": "这很难，但并非不可能。",
+              "en": "It's difficult; nevertheless, it's possible."
+            }
+          }
+        ],
+        "usageNote": "书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "toutefois",
+    "phonetic": "/tut.fwa/",
+    "cefr": "B2",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "cependant, malgré cela",
+        "translations": {
+          "zh": "不过；然而",
+          "en": "however"
+        },
+        "examples": [
+          {
+            "text": "Vous pouvez entrer ; toutefois, ne touchez à rien.",
+            "translations": {
+              "zh": "您可以进来，不过什么都别碰。",
+              "en": "You may come in; however, don't touch anything."
+            }
+          }
+        ],
+        "usageNote": "书面语，语气比 mais 委婉。"
+      }
+    ]
+  },
+  {
+    "headword": "d'ailleurs",
+    "phonetic": "/da.jœʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "de plus ; du reste",
+        "translations": {
+          "zh": "况且；再说；顺便说",
+          "en": "besides, moreover"
+        },
+        "examples": [
+          {
+            "text": "Je n'aime pas ce film ; d'ailleurs, personne ne l'aime.",
+            "translations": {
+              "zh": "我不喜欢这部电影，况且也没人喜欢。",
+              "en": "I don't like this film; besides, nobody does."
+            }
+          }
+        ],
+        "usageNote": "用来补充一个支持论点的理由或顺带提及。"
+      }
+    ]
+  },
+  {
+    "headword": "en effet",
+    "phonetic": "/ɑ̃ ne.fɛ/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "introduit une explication ou une confirmation",
+        "translations": {
+          "zh": "确实；因为",
+          "en": "indeed; in fact"
+        },
+        "examples": [
+          {
+            "text": "Il est absent ; en effet, il est malade.",
+            "cloze": "Il est absent ; {{en effet}}, il est malade.",
+            "translations": {
+              "zh": "他缺席了，因为他病了。",
+              "en": "He's absent; indeed, he's ill."
+            }
+          }
+        ],
+        "usageNote": "用于解释原因或确认对方说法；不等于英语 in effect。"
+      }
+    ]
+  },
+  {
+    "headword": "en fait",
+    "phonetic": "/ɑ̃ fɛt/",
+    "cefr": "B1",
+    "frequencyRank": 800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en réalité",
+        "translations": {
+          "zh": "其实；实际上",
+          "en": "actually, in fact"
+        },
+        "examples": [
+          {
+            "text": "En fait, je ne suis pas d'accord.",
+            "cloze": "{{En fait}}, je ne suis pas d'accord.",
+            "translations": {
+              "zh": "其实我不同意。",
+              "en": "Actually, I don't agree."
+            }
+          }
+        ],
+        "usageNote": "fait 的 t 通常发音；注意与 en effet（确实）区分。"
+      }
+    ]
+  },
+  {
+    "headword": "au lieu de",
+    "phonetic": "/o ljø də/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "à la place de",
+        "translations": {
+          "zh": "而不是；代替",
+          "en": "instead of"
+        },
+        "examples": [
+          {
+            "text": "Au lieu de te plaindre, aide-moi !",
+            "cloze": "{{Au lieu de}} te plaindre, aide-moi !",
+            "translations": {
+              "zh": "别光抱怨，来帮帮我！",
+              "en": "Instead of complaining, help me!"
+            }
+          }
+        ],
+        "usageNote": "au lieu de + 名词/不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "grâce à",
+    "phonetic": "/ɡʁɑs a/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "par l'action positive de",
+        "translations": {
+          "zh": "多亏；由于",
+          "en": "thanks to"
+        },
+        "examples": [
+          {
+            "text": "J'ai réussi grâce à toi.",
+            "cloze": "J'ai réussi {{grâce à}} toi.",
+            "translations": {
+              "zh": "多亏了你，我才成功。",
+              "en": "I succeeded thanks to you."
+            }
+          }
+        ],
+        "usageNote": "用于好的原因；坏的原因用 à cause de。"
+      }
+    ]
+  },
+  {
+    "headword": "à cause de",
+    "phonetic": "/a koz də/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "en raison de (souvent négatif)",
+        "translations": {
+          "zh": "因为；由于",
+          "en": "because of"
+        },
+        "examples": [
+          {
+            "text": "Le match est annulé à cause de la pluie.",
+            "cloze": "Le match est annulé {{à cause de}} la pluie.",
+            "translations": {
+              "zh": "比赛因雨取消。",
+              "en": "The match is cancelled because of the rain."
+            }
+          }
+        ],
+        "usageNote": "后接名词；接从句用 parce que。"
+      }
+    ]
+  },
+  {
+    "headword": "quant à",
+    "phonetic": "/kɑ̃ ta/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "en ce qui concerne",
+        "translations": {
+          "zh": "至于",
+          "en": "as for"
+        },
+        "examples": [
+          {
+            "text": "Quant à moi, je reste ici.",
+            "cloze": "{{Quant à}} moi, je reste ici.",
+            "translations": {
+              "zh": "至于我，我留在这儿。",
+              "en": "As for me, I'm staying here."
+            }
+          }
+        ],
+        "usageNote": "与冠词缩合：quant au, quant aux。"
+      }
+    ]
+  },
+  {
+    "headword": "à condition que",
+    "phonetic": "/a kɔ̃.di.sjɔ̃ kə/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "seulement si",
+        "translations": {
+          "zh": "只要；条件是",
+          "en": "provided that"
+        },
+        "examples": [
+          {
+            "text": "Je viens, à condition que tu conduises.",
+            "cloze": "Je viens, {{à condition que}} tu conduises.",
+            "translations": {
+              "zh": "我来，条件是你开车。",
+              "en": "I'll come, provided that you drive."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式；主语相同时用 à condition de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "bien que",
+    "phonetic": "/bjɛ̃ kə/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "malgré le fait que",
+        "translations": {
+          "zh": "虽然；尽管",
+          "en": "although"
+        },
+        "examples": [
+          {
+            "text": "Bien que je sois fatigué, je viens avec toi.",
+            "cloze": "{{Bien que}} je sois fatigué, je viens avec toi.",
+            "translations": {
+              "zh": "虽然我累了，我还是跟你去。",
+              "en": "Although I'm tired, I'm coming with you."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "quoique",
+    "phonetic": "/kwa.kə/",
+    "cefr": "B2",
+    "frequencyRank": 3200,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "bien que",
+        "translations": {
+          "zh": "虽然；尽管",
+          "en": "although"
+        },
+        "examples": [
+          {
+            "text": "Quoique je sois pressé, je vais t'aider.",
+            "translations": {
+              "zh": "虽然我很赶时间，还是会帮你。",
+              "en": "Although I'm in a hurry, I'll help you."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式；与 quoi que（无论什么）不同。"
+      }
+    ]
+  },
+  {
+    "headword": "malgré",
+    "phonetic": "/mal.ɡʁe/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "en dépit de",
+        "translations": {
+          "zh": "尽管；不顾",
+          "en": "despite, in spite of"
+        },
+        "examples": [
+          {
+            "text": "Ils sont sortis malgré la pluie.",
+            "translations": {
+              "zh": "尽管下雨，他们还是出去了。",
+              "en": "They went out despite the rain."
+            }
+          }
+        ],
+        "usageNote": "malgré + 名词；接从句建议用 bien que。"
+      }
+    ]
+  },
+  {
+    "headword": "afin de",
+    "phonetic": "/a.fɛ̃ də/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "pour (indique le but)",
+        "translations": {
+          "zh": "为了",
+          "en": "in order to"
+        },
+        "examples": [
+          {
+            "text": "Il travaille dur afin de réussir.",
+            "cloze": "Il travaille dur {{afin de}} réussir.",
+            "translations": {
+              "zh": "他努力工作是为了成功。",
+              "en": "He works hard in order to succeed."
+            }
+          }
+        ],
+        "usageNote": "比 pour 正式，后接不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "afin que",
+    "phonetic": "/a.fɛ̃ kə/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "pour que",
+        "translations": {
+          "zh": "以便；为了",
+          "en": "so that"
+        },
+        "examples": [
+          {
+            "text": "Je t'explique afin que tu comprennes.",
+            "cloze": "Je t'explique {{afin que}} tu comprennes.",
+            "translations": {
+              "zh": "我解释给你听，好让你明白。",
+              "en": "I'm explaining so that you understand."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "pour que",
+    "phonetic": "/puʁ kə/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "dans le but que",
+        "translations": {
+          "zh": "为了；以便",
+          "en": "so that"
+        },
+        "examples": [
+          {
+            "text": "Parle fort pour que tout le monde t'entende.",
+            "cloze": "Parle fort {{pour que}} tout le monde t'entende.",
+            "translations": {
+              "zh": "大声说，好让大家都听见。",
+              "en": "Speak loudly so that everyone can hear you."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "de sorte que",
+    "phonetic": "/də sɔʁt kə/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "si bien que ; pour que",
+        "translations": {
+          "zh": "以致；以便",
+          "en": "so that"
+        },
+        "examples": [
+          {
+            "text": "Il a crié, de sorte que tout le monde s'est retourné.",
+            "cloze": "Il a crié, {{de sorte que}} tout le monde s'est retourné.",
+            "translations": {
+              "zh": "他喊了一声，结果大家都转过身来。",
+              "en": "He shouted, so that everyone turned round."
+            }
+          }
+        ],
+        "usageNote": "表结果用直陈式，表目的用虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "puisque",
+    "phonetic": "/pɥisk/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "étant donné que (cause connue)",
+        "translations": {
+          "zh": "既然",
+          "en": "since"
+        },
+        "examples": [
+          {
+            "text": "Puisque tu es là, aide-moi.",
+            "translations": {
+              "zh": "既然你在，就帮帮我吧。",
+              "en": "Since you're here, help me."
+            }
+          }
+        ],
+        "usageNote": "表示双方都知道的原因；元音前写 puisqu'。"
+      }
+    ]
+  },
+  {
+    "headword": "car",
+    "phonetic": "/kaʁ/",
+    "cefr": "B1",
+    "frequencyRank": 500,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "parce que (à l'écrit surtout)",
+        "translations": {
+          "zh": "因为",
+          "en": "because, for"
+        },
+        "examples": [
+          {
+            "text": "Je reste à la maison, car il pleut.",
+            "translations": {
+              "zh": "我待在家里，因为在下雨。",
+              "en": "I'm staying at home, because it's raining."
+            }
+          }
+        ],
+        "usageNote": "car 不能放在句首；多用于书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "alors que",
+    "phonetic": "/a.lɔʁ kə/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "marque l'opposition ou la simultanéité",
+        "translations": {
+          "zh": "而；然而；正当……时",
+          "en": "whereas, while"
+        },
+        "examples": [
+          {
+            "text": "Elle travaille alors que son frère dort.",
+            "cloze": "Elle travaille {{alors que}} son frère dort.",
+            "translations": {
+              "zh": "她在工作，而她弟弟在睡觉。",
+              "en": "She's working while her brother sleeps."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tandis que",
+    "phonetic": "/tɑ̃.di kə/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "pendant que ; alors que (opposition)",
+        "translations": {
+          "zh": "而；与此同时",
+          "en": "while, whereas"
+        },
+        "examples": [
+          {
+            "text": "Lui aime la mer, tandis que moi, je préfère la montagne.",
+            "cloze": "Lui aime la mer, {{tandis que}} moi, je préfère la montagne.",
+            "translations": {
+              "zh": "他喜欢海，而我更喜欢山。",
+              "en": "He loves the sea, whereas I prefer the mountains."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "lorsque",
+    "phonetic": "/lɔʁsk/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "quand",
+        "translations": {
+          "zh": "当……时",
+          "en": "when"
+        },
+        "examples": [
+          {
+            "text": "Lorsque je suis arrivé, il était parti.",
+            "translations": {
+              "zh": "我到的时候，他已经走了。",
+              "en": "When I arrived, he had left."
+            }
+          }
+        ],
+        "usageNote": "比 quand 正式；元音前写 lorsqu'。"
+      }
+    ]
+  },
+  {
+    "headword": "dès que",
+    "phonetic": "/dɛ kə/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "aussitôt que",
+        "translations": {
+          "zh": "一……就",
+          "en": "as soon as"
+        },
+        "examples": [
+          {
+            "text": "Appelle-moi dès que tu arriveras.",
+            "cloze": "Appelle-moi {{dès que}} tu arriveras.",
+            "translations": {
+              "zh": "你一到就给我打电话。",
+              "en": "Call me as soon as you arrive."
+            }
+          }
+        ],
+        "usageNote": "指将来时，法语从句用简单将来时：dès que tu arriveras。"
+      }
+    ]
+  },
+  {
+    "headword": "sauf",
+    "phonetic": "/sof/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "à l'exception de",
+        "translations": {
+          "zh": "除了",
+          "en": "except"
+        },
+        "examples": [
+          {
+            "text": "Tout le monde est venu sauf Paul.",
+            "translations": {
+              "zh": "除了保罗，大家都来了。",
+              "en": "Everyone came except Paul."
+            }
+          }
+        ],
+        "usageNote": "sauf si：除非。"
+      }
+    ]
+  },
+  {
+    "headword": "à moins que",
+    "phonetic": "/a mwɛ̃ kə/",
+    "cefr": "B2",
+    "frequencyRank": 3200,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "sauf si",
+        "translations": {
+          "zh": "除非",
+          "en": "unless"
+        },
+        "examples": [
+          {
+            "text": "Nous partirons demain, à moins que tu ne préfères attendre.",
+            "cloze": "Nous partirons demain, {{à moins que}} tu ne préfères attendre.",
+            "translations": {
+              "zh": "我们明天走，除非你想再等等。",
+              "en": "We'll leave tomorrow, unless you'd rather wait."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式，常带赘词 ne（不表否定）。"
+      }
+    ]
+  },
+  {
+    "headword": "pourvu que",
+    "phonetic": "/puʁ.vy kə/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "à condition que ; (en exclamation) espérons que",
+        "translations": {
+          "zh": "只要；但愿",
+          "en": "provided that; let's hope"
+        },
+        "examples": [
+          {
+            "text": "Pourvu qu'il fasse beau demain !",
+            "cloze": "{{Pourvu qu'}}il fasse beau demain !",
+            "translations": {
+              "zh": "但愿明天天气好！",
+              "en": "Let's hope it's nice tomorrow!"
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式；元音前写 pourvu qu'。"
+      }
+    ]
+  },
+  {
+    "headword": "au cas où",
+    "phonetic": "/o ka u/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "si jamais",
+        "translations": {
+          "zh": "万一；以防",
+          "en": "in case"
+        },
+        "examples": [
+          {
+            "text": "Prends un parapluie au cas où il pleuvrait.",
+            "cloze": "Prends un parapluie {{au cas où}} il pleuvrait.",
+            "translations": {
+              "zh": "带把伞，万一下雨呢。",
+              "en": "Take an umbrella in case it rains."
+            }
+          }
+        ],
+        "usageNote": "+ 条件式。也可单独用：Prends-le, au cas où.（以防万一。）"
+      }
+    ]
+  },
+  {
+    "headword": "même si",
+    "phonetic": "/mɛm si/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "en admettant que",
+        "translations": {
+          "zh": "即使",
+          "en": "even if"
+        },
+        "examples": [
+          {
+            "text": "Je viendrai même si je suis fatigué.",
+            "cloze": "Je viendrai {{même si}} je suis fatigué.",
+            "translations": {
+              "zh": "即使累了我也会来。",
+              "en": "I'll come even if I'm tired."
+            }
+          }
+        ],
+        "usageNote": "+ 直陈式（不同于 bien que）；il 前写 même s'il。"
+      }
+    ]
+  },
+  {
+    "headword": "si bien que",
+    "phonetic": "/si bjɛ̃ kə/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "de sorte que (conséquence)",
+        "translations": {
+          "zh": "以致；所以",
+          "en": "so that, with the result that"
+        },
+        "examples": [
+          {
+            "text": "Il a beaucoup neigé, si bien que les routes sont fermées.",
+            "cloze": "Il a beaucoup neigé, {{si bien que}} les routes sont fermées.",
+            "translations": {
+              "zh": "雪下得很大，以致道路封闭了。",
+              "en": "It snowed heavily, so the roads are closed."
+            }
+          }
+        ],
+        "usageNote": "+ 直陈式。"
+      }
+    ]
+  },
+  {
+    "headword": "étant donné que",
+    "phonetic": "/e.tɑ̃ dɔ.ne kə/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "puisque, vu que",
+        "translations": {
+          "zh": "鉴于；既然",
+          "en": "given that"
+        },
+        "examples": [
+          {
+            "text": "Étant donné que tu es malade, reste ici.",
+            "cloze": "{{Étant donné que}} tu es malade, reste ici.",
+            "translations": {
+              "zh": "既然你病了，就待在这里吧。",
+              "en": "Given that you're ill, stay here."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "vu que",
+    "phonetic": "/vy kə/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "étant donné que",
+        "translations": {
+          "zh": "鉴于；既然",
+          "en": "seeing that"
+        },
+        "examples": [
+          {
+            "text": "Vu que personne ne répond, je rentre.",
+            "cloze": "{{Vu que}} personne ne répond, je rentre.",
+            "translations": {
+              "zh": "既然没人应答，我就回去了。",
+              "en": "Seeing that nobody's answering, I'm going home."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "dans la mesure où",
+    "phonetic": "/dɑ̃ la mə.zyʁ u/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "puisque ; dans la proportion où",
+        "translations": {
+          "zh": "就……而言；既然",
+          "en": "insofar as"
+        },
+        "examples": [
+          {
+            "text": "Je t'aiderai dans la mesure où je le peux.",
+            "cloze": "Je t'aiderai {{dans la mesure où}} je le peux.",
+            "translations": {
+              "zh": "我会尽我所能帮你。",
+              "en": "I'll help you insofar as I can."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "jusqu'à ce que",
+    "phonetic": "/ʒys.ka sə kə/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "jusqu'au moment où",
+        "translations": {
+          "zh": "直到",
+          "en": "until"
+        },
+        "examples": [
+          {
+            "text": "Attends ici jusqu'à ce que je revienne.",
+            "cloze": "Attends ici {{jusqu'à ce que}} je revienne.",
+            "translations": {
+              "zh": "在这儿等我回来。",
+              "en": "Wait here until I come back."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "avant que",
+    "phonetic": "/a.vɑ̃ kə/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "avant le moment où",
+        "translations": {
+          "zh": "在……之前",
+          "en": "before"
+        },
+        "examples": [
+          {
+            "text": "Finis tes devoirs avant que ta mère rentre.",
+            "cloze": "Finis tes devoirs {{avant que}} ta mère rentre.",
+            "translations": {
+              "zh": "在你妈妈回来之前把作业写完。",
+              "en": "Finish your homework before your mother gets back."
+            }
+          }
+        ],
+        "usageNote": "+ 虚拟式；主语相同时用 avant de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "depuis que",
+    "phonetic": "/də.pɥi kə/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "à partir du moment où",
+        "translations": {
+          "zh": "自从",
+          "en": "since"
+        },
+        "examples": [
+          {
+            "text": "Depuis que je travaille ici, je suis heureux.",
+            "cloze": "{{Depuis que}} je travaille ici, je suis heureux.",
+            "translations": {
+              "zh": "自从在这儿工作，我很开心。",
+              "en": "Since I've been working here, I've been happy."
+            }
+          }
+        ],
+        "usageNote": "+ 直陈式。"
+      }
+    ]
+  },
+  {
+    "headword": "à partir de",
+    "phonetic": "/a paʁ.tiʁ də/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "en commençant à",
+        "translations": {
+          "zh": "从……起",
+          "en": "from, starting from"
+        },
+        "examples": [
+          {
+            "text": "Le magasin est ouvert à partir de 9 heures.",
+            "cloze": "Le magasin est ouvert {{à partir de}} 9 heures.",
+            "translations": {
+              "zh": "商店9点开门。",
+              "en": "The shop is open from 9 o'clock."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "selon",
+    "phonetic": "/sə.lɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 700,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "d'après ; en fonction de",
+        "translations": {
+          "zh": "根据；按照",
+          "en": "according to"
+        },
+        "examples": [
+          {
+            "text": "Selon la météo, il va neiger.",
+            "translations": {
+              "zh": "根据天气预报，要下雪了。",
+              "en": "According to the forecast, it's going to snow."
+            }
+          }
+        ],
+        "usageNote": "Selon moi…（依我看……）；C'est selon.（看情况。）"
+      }
+    ]
+  },
+  {
+    "headword": "d'après",
+    "phonetic": "/da.pʁɛ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "selon",
+        "translations": {
+          "zh": "根据；照……看",
+          "en": "according to"
+        },
+        "examples": [
+          {
+            "text": "D'après lui, tout va bien.",
+            "translations": {
+              "zh": "照他的说法，一切都好。",
+              "en": "According to him, everything's fine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "parmi",
+    "phonetic": "/paʁ.mi/",
+    "cefr": "B1",
+    "frequencyRank": 800,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "au milieu de, entre (plus de deux)",
+        "translations": {
+          "zh": "在……之中",
+          "en": "among"
+        },
+        "examples": [
+          {
+            "text": "Parmi les invités, il y avait le maire.",
+            "translations": {
+              "zh": "客人中有市长。",
+              "en": "Among the guests was the mayor."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "envers",
+    "phonetic": "/ɑ̃.vɛʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2300,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "à l'égard de",
+        "translations": {
+          "zh": "对；对待",
+          "en": "towards"
+        },
+        "examples": [
+          {
+            "text": "Il est très gentil envers ses voisins.",
+            "translations": {
+              "zh": "他对邻居很友善。",
+              "en": "He is very kind towards his neighbours."
+            }
+          }
+        ],
+        "usageNote": "用于态度、感情；方向用 vers。"
+      }
+    ]
+  },
+  {
+    "headword": "en dépit de",
+    "phonetic": "/ɑ̃ de.pi də/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "malgré",
+        "translations": {
+          "zh": "尽管；不顾",
+          "en": "in spite of"
+        },
+        "examples": [
+          {
+            "text": "Ils ont continué en dépit de la tempête.",
+            "cloze": "Ils ont continué {{en dépit de}} la tempête.",
+            "translations": {
+              "zh": "尽管有暴风雨，他们还是继续前进。",
+              "en": "They carried on in spite of the storm."
+            }
+          }
+        ],
+        "usageNote": "比 malgré 更书面。"
+      }
+    ]
+  },
+  {
+    "headword": "vis-à-vis de",
+    "phonetic": "/vi.za.vi də/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "à l'égard de, envers",
+        "translations": {
+          "zh": "对于；面对",
+          "en": "towards, with regard to"
+        },
+        "examples": [
+          {
+            "text": "Il est honnête vis-à-vis de ses clients.",
+            "cloze": "Il est honnête {{vis-à-vis de}} ses clients.",
+            "translations": {
+              "zh": "他对客户很诚实。",
+              "en": "He is honest with his customers."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "à l'égard de",
+    "phonetic": "/a le.ɡaʁ də/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "envers ; en ce qui concerne",
+        "translations": {
+          "zh": "对于；关于",
+          "en": "towards, regarding"
+        },
+        "examples": [
+          {
+            "text": "Il est sévère à l'égard de ses enfants.",
+            "cloze": "Il est sévère {{à l'égard de}} ses enfants.",
+            "translations": {
+              "zh": "他对孩子很严厉。",
+              "en": "He is strict with his children."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "au sujet de",
+    "phonetic": "/o sy.ʒɛ də/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "à propos de",
+        "translations": {
+          "zh": "关于",
+          "en": "about, concerning"
+        },
+        "examples": [
+          {
+            "text": "J'ai une question au sujet de la facture.",
+            "cloze": "J'ai une question {{au sujet de}} la facture.",
+            "translations": {
+              "zh": "我对账单有个问题。",
+              "en": "I have a question about the bill."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "à propos de",
+    "phonetic": "/a pʁɔ.po də/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "au sujet de",
+        "translations": {
+          "zh": "关于",
+          "en": "about"
+        },
+        "examples": [
+          {
+            "text": "On s'est disputés à propos de l'argent.",
+            "cloze": "On s'est disputés {{à propos de}} l'argent.",
+            "translations": {
+              "zh": "我们为钱吵了一架。",
+              "en": "We argued about money."
+            }
+          }
+        ],
+        "usageNote": "单独用 À propos, … = 顺便说一下……"
+      }
+    ]
+  },
+  {
+    "headword": "en ce qui concerne",
+    "phonetic": "/ɑ̃ sə ki kɔ̃.sɛʁn/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "pour ce qui est de, quant à",
+        "translations": {
+          "zh": "关于；至于",
+          "en": "as regards, concerning"
+        },
+        "examples": [
+          {
+            "text": "En ce qui concerne le prix, on verra plus tard.",
+            "cloze": "{{En ce qui concerne}} le prix, on verra plus tard.",
+            "translations": {
+              "zh": "至于价格，以后再说。",
+              "en": "As for the price, we'll see later."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "lors de",
+    "phonetic": "/lɔʁ də/",
+    "cefr": "B2",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "au moment de, pendant",
+        "translations": {
+          "zh": "在……的时候",
+          "en": "during, at the time of"
+        },
+        "examples": [
+          {
+            "text": "Je l'ai rencontré lors de la conférence.",
+            "cloze": "Je l'ai rencontré {{lors de}} la conférence.",
+            "translations": {
+              "zh": "我是在会议期间认识他的。",
+              "en": "I met him at the conference."
+            }
+          }
+        ],
+        "usageNote": "书面语，相当于 pendant / au moment de。"
+      }
+    ]
+  },
+  {
+    "headword": "à force de",
+    "phonetic": "/a fɔʁs də/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "grâce à beaucoup de, en répétant",
+        "translations": {
+          "zh": "由于反复；靠不断",
+          "en": "by dint of, through repeated"
+        },
+        "examples": [
+          {
+            "text": "À force de travailler, il a réussi.",
+            "cloze": "{{À force de}} travailler, il a réussi.",
+            "translations": {
+              "zh": "靠着不断努力，他成功了。",
+              "en": "Through sheer hard work, he succeeded."
+            }
+          }
+        ],
+        "usageNote": "à force de + 不定式/名词（不加冠词）。"
+      }
+    ]
+  }
+]

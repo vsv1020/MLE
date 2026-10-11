@@ -1,0 +1,1510 @@
+[
+ {
+  "headword": "office de tourisme",
+  "phonetic": "/ɔ.fis də tu.ʁism/",
+  "cefr": "A2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "offices de tourisme"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bureau qui donne des informations aux touristes",
+    "translations": {
+     "zh": "旅游咨询处",
+     "en": "tourist office"
+    },
+    "examples": [
+     {
+      "text": "L'office de tourisme est près de la gare.",
+      "cloze": "L'{{office de tourisme}} est près de la gare.",
+      "translations": {
+       "zh": "旅游咨询处在火车站附近。",
+       "en": "The tourist office is near the station."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "camping",
+  "phonetic": "/kɑ̃.piŋ/",
+  "cefr": "A2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "campings"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terrain où on dort sous une tente",
+    "translations": {
+     "zh": "露营地；露营",
+     "en": "campsite, camping"
+    },
+    "examples": [
+     {
+      "text": "Nous dormons au camping cette nuit.",
+      "translations": {
+       "zh": "我们今晚睡在露营地。",
+       "en": "We're sleeping at the campsite tonight."
+      }
+     }
+    ],
+    "usageNote": "读音结尾 -ing 发 /iŋ/。"
+   }
+  ]
+ },
+ {
+  "headword": "auberge de jeunesse",
+  "phonetic": "/o.bɛʁʒ də ʒœ.nɛs/",
+  "cefr": "A2",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "auberges de jeunesse"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "hôtel pas cher pour les jeunes voyageurs",
+    "translations": {
+     "zh": "青年旅舍",
+     "en": "youth hostel"
+    },
+    "examples": [
+     {
+      "text": "On a dormi dans une auberge de jeunesse.",
+      "cloze": "On a dormi dans une {{auberge de jeunesse}}.",
+      "translations": {
+       "zh": "我们住在一家青年旅舍。",
+       "en": "We slept in a youth hostel."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "séjour",
+  "phonetic": "/se.ʒuʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "séjours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "temps qu'on passe dans un endroit",
+    "translations": {
+     "zh": "逗留；住宿期间",
+     "en": "stay"
+    },
+    "examples": [
+     {
+      "text": "Bon séjour à Paris !",
+      "translations": {
+       "zh": "祝你在巴黎玩得愉快！",
+       "en": "Enjoy your stay in Paris!"
+      }
+     }
+    ],
+    "usageNote": "也指“客厅”（= salle de séjour）。"
+   }
+  ]
+ },
+ {
+  "headword": "visite",
+  "phonetic": "/vi.zit/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "visites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'aller voir un lieu ou une personne",
+    "translations": {
+     "zh": "参观；拜访",
+     "en": "visit"
+    },
+    "examples": [
+     {
+      "text": "La visite du musée dure une heure.",
+      "translations": {
+       "zh": "参观博物馆要一个小时。",
+       "en": "The museum visit lasts an hour."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "souvenir",
+  "phonetic": "/suv.niʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "souvenirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose qu'on garde en mémoire",
+    "translations": {
+     "zh": "回忆",
+     "en": "memory"
+    },
+    "examples": [
+     {
+      "text": "J'ai un bon souvenir de ce voyage.",
+      "translations": {
+       "zh": "那次旅行给我留下了美好的回忆。",
+       "en": "I have a good memory of that trip."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit objet qu'on achète en voyage",
+    "translations": {
+     "zh": "纪念品",
+     "en": "souvenir"
+    },
+    "examples": [
+     {
+      "text": "J'ai acheté des souvenirs pour ma famille.",
+      "translations": {
+       "zh": "我给家人买了纪念品。",
+       "en": "I bought souvenirs for my family."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ascenseur",
+  "phonetic": "/a.sɑ̃.sœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ascenseurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui monte et descend les étages",
+    "translations": {
+     "zh": "电梯",
+     "en": "lift, elevator"
+    },
+    "examples": [
+     {
+      "text": "L'ascenseur est en panne.",
+      "cloze": "L'{{ascenseur}} est en panne.",
+      "translations": {
+       "zh": "电梯坏了。",
+       "en": "The lift is out of order."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "climatisation",
+  "phonetic": "/kli.ma.ti.za.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "climatisations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui rafraîchit l'air",
+    "translations": {
+     "zh": "空调",
+     "en": "air conditioning"
+    },
+    "examples": [
+     {
+      "text": "La chambre a la climatisation ?",
+      "translations": {
+       "zh": "房间有空调吗？",
+       "en": "Does the room have air conditioning?"
+      }
+     }
+    ],
+    "usageNote": "口语简称 la clim。"
+   }
+  ]
+ },
+ {
+  "headword": "tente",
+  "phonetic": "/tɑ̃t/",
+  "cefr": "A2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tentes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "abri en tissu pour dormir dehors",
+    "translations": {
+     "zh": "帐篷",
+     "en": "tent"
+    },
+    "examples": [
+     {
+      "text": "On monte la tente près du lac.",
+      "translations": {
+       "zh": "我们在湖边搭帐篷。",
+       "en": "We put up the tent near the lake."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sac à dos",
+  "phonetic": "/sak a do/",
+  "cefr": "A2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sacs à dos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sac qu'on porte sur le dos",
+    "translations": {
+     "zh": "双肩背包",
+     "en": "backpack"
+    },
+    "examples": [
+     {
+      "text": "Mon sac à dos est plein.",
+      "cloze": "Mon {{sac à dos}} est plein.",
+      "translations": {
+       "zh": "我的背包满了。",
+       "en": "My backpack is full."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "autoroute",
+  "phonetic": "/o.to.ʁut/",
+  "cefr": "A2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "autoroutes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande route rapide, souvent payante",
+    "translations": {
+     "zh": "高速公路",
+     "en": "motorway, highway"
+    },
+    "examples": [
+     {
+      "text": "On prend l'autoroute pour aller à Lyon.",
+      "cloze": "On prend l'{{autoroute}} pour aller à Lyon.",
+      "translations": {
+       "zh": "我们走高速去里昂。",
+       "en": "We take the motorway to Lyon."
+      }
+     }
+    ],
+    "usageNote": "法国高速大多收费：le péage。"
+   }
+  ]
+ },
+ {
+  "headword": "station-service",
+  "phonetic": "/sta.sjɔ̃.sɛʁ.vis/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "stations-service"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où on achète de l'essence",
+    "translations": {
+     "zh": "加油站",
+     "en": "petrol station"
+    },
+    "examples": [
+     {
+      "text": "Il y a une station-service sur l'autoroute.",
+      "cloze": "Il y a une {{station-service}} sur l'autoroute.",
+      "translations": {
+       "zh": "高速上有个加油站。",
+       "en": "There's a petrol station on the motorway."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "permis de conduire",
+  "phonetic": "/pɛʁ.mi də kɔ̃.dɥiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "permis de conduire"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document qui permet de conduire une voiture",
+    "translations": {
+     "zh": "驾照",
+     "en": "driving licence"
+    },
+    "examples": [
+     {
+      "text": "Elle a eu son permis de conduire hier.",
+      "cloze": "Elle a eu son {{permis de conduire}} hier.",
+      "translations": {
+       "zh": "她昨天拿到了驾照。",
+       "en": "She got her driving licence yesterday."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 le permis。"
+   }
+  ]
+ },
+ {
+  "headword": "essence",
+  "phonetic": "/e.sɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "essences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide qu'on met dans le moteur d'une voiture",
+    "translations": {
+     "zh": "汽油",
+     "en": "petrol, gas"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a plus d'essence !",
+      "cloze": "Il n'y a plus d'{{essence}} !",
+      "translations": {
+       "zh": "没油了！",
+       "en": "We're out of petrol!"
+      }
+     }
+    ],
+    "usageNote": "柴油是 gazole / diesel。"
+   }
+  ]
+ },
+ {
+  "headword": "aller-retour",
+  "phonetic": "/a.le.ʁə.tuʁ/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "allers-retours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "billet pour aller et revenir",
+    "translations": {
+     "zh": "往返票",
+     "en": "return ticket, round trip"
+    },
+    "examples": [
+     {
+      "text": "Un aller-retour pour Nice, s'il vous plaît.",
+      "cloze": "Un {{aller-retour}} pour Nice, s'il vous plaît.",
+      "translations": {
+       "zh": "请给我一张去尼斯的往返票。",
+       "en": "A return ticket to Nice, please."
+      }
+     }
+    ],
+    "usageNote": "单程票是 aller simple。"
+   }
+  ]
+ },
+ {
+  "headword": "location",
+  "phonetic": "/lɔ.ka.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 5100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "locations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de payer pour utiliser une voiture ou un logement",
+    "translations": {
+     "zh": "租赁；出租",
+     "en": "rental, hire"
+    },
+    "examples": [
+     {
+      "text": "La location de vélos coûte dix euros.",
+      "translations": {
+       "zh": "租自行车要十欧元。",
+       "en": "Bike hire costs ten euros."
+      }
+     }
+    ],
+    "usageNote": "假朋友：不是“位置”（位置是 emplacement）。"
+   }
+  ]
+ },
+ {
+  "headword": "frontière",
+  "phonetic": "/fʁɔ̃.tjɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "frontières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "limite entre deux pays",
+    "translations": {
+     "zh": "边境；国界",
+     "en": "border"
+    },
+    "examples": [
+     {
+      "text": "On passe la frontière espagnole.",
+      "translations": {
+       "zh": "我们过了西班牙边境。",
+       "en": "We're crossing the Spanish border."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "voyageur",
+  "phonetic": "/vwa.ja.ʒœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "voyageurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait un voyage",
+    "translations": {
+     "zh": "旅客；乘客",
+     "en": "traveller, passenger"
+    },
+    "examples": [
+     {
+      "text": "Les voyageurs attendent sur le quai.",
+      "cloze": "Les {{voyageurs}} attendent sur le quai.",
+      "translations": {
+       "zh": "旅客们在站台上等车。",
+       "en": "The passengers are waiting on the platform."
+      }
+     }
+    ],
+    "usageNote": "阴性 voyageuse。"
+   }
+  ]
+ },
+ {
+  "headword": "ceinture",
+  "phonetic": "/sɛ̃.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ceintures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bande qu'on met autour de la taille",
+    "translations": {
+     "zh": "腰带；安全带",
+     "en": "belt"
+    },
+    "examples": [
+     {
+      "text": "Attachez votre ceinture, s'il vous plaît.",
+      "translations": {
+       "zh": "请系好安全带。",
+       "en": "Please fasten your seat belt."
+      }
+     }
+    ],
+    "usageNote": "安全带全称 ceinture de sécurité。"
+   }
+  ]
+ },
+ {
+  "headword": "rendez-vous",
+  "phonetic": "/ʁɑ̃.de.vu/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "rendez-vous"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "heure fixée pour voir quelqu'un",
+    "translations": {
+     "zh": "预约；约会",
+     "en": "appointment"
+    },
+    "examples": [
+     {
+      "text": "J'ai rendez-vous chez le médecin à trois heures.",
+      "cloze": "J'ai {{rendez-vous}} chez le médecin à trois heures.",
+      "translations": {
+       "zh": "我三点约了看医生。",
+       "en": "I have a doctor's appointment at three."
+      }
+     }
+    ],
+    "usageNote": "复数不变。prendre rendez-vous = 预约。"
+   }
+  ]
+ },
+ {
+  "headword": "ordonnance",
+  "phonetic": "/ɔʁ.dɔ.nɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 6300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ordonnances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier du médecin pour acheter des médicaments",
+    "translations": {
+     "zh": "处方",
+     "en": "prescription"
+    },
+    "examples": [
+     {
+      "text": "Le médecin m'a donné une ordonnance.",
+      "translations": {
+       "zh": "医生给我开了处方。",
+       "en": "The doctor gave me a prescription."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "douleur",
+  "phonetic": "/du.lœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "douleurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sensation physique désagréable quand on a mal",
+    "translations": {
+     "zh": "疼痛",
+     "en": "pain"
+    },
+    "examples": [
+     {
+      "text": "J'ai une douleur dans le dos.",
+      "translations": {
+       "zh": "我背疼。",
+       "en": "I have a pain in my back."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "toux",
+  "phonetic": "/tu/",
+  "cefr": "A2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "toux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de tousser souvent quand on est malade",
+    "translations": {
+     "zh": "咳嗽",
+     "en": "cough"
+    },
+    "examples": [
+     {
+      "text": "Ce sirop est bon contre la toux.",
+      "translations": {
+       "zh": "这种糖浆治咳嗽很有效。",
+       "en": "This syrup is good for coughs."
+      }
+     }
+    ],
+    "usageNote": "复数不变；动词是 tousser。"
+   }
+  ]
+ },
+ {
+  "headword": "blessure",
+  "phonetic": "/blɛ.syʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "blessures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps abîmée après un accident",
+    "translations": {
+     "zh": "伤；伤口",
+     "en": "injury, wound"
+    },
+    "examples": [
+     {
+      "text": "Sa blessure n'est pas grave.",
+      "translations": {
+       "zh": "他的伤不严重。",
+       "en": "His injury isn't serious."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "grippe",
+  "phonetic": "/ɡʁip/",
+  "cefr": "A2",
+  "frequencyRank": 6900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "grippes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "maladie avec fièvre, toux et fatigue",
+    "translations": {
+     "zh": "流感",
+     "en": "flu"
+    },
+    "examples": [
+     {
+      "text": "J'ai la grippe depuis lundi.",
+      "translations": {
+       "zh": "我从星期一开始得了流感。",
+       "en": "I've had the flu since Monday."
+      }
+     }
+    ],
+    "usageNote": "常说 avoir la grippe。"
+   }
+  ]
+ },
+ {
+  "headword": "urgence",
+  "phonetic": "/yʁ.ʒɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "urgences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation grave où il faut agir vite",
+    "translations": {
+     "zh": "紧急情况",
+     "en": "emergency"
+    },
+    "examples": [
+     {
+      "text": "En cas d'urgence, appelez le 15.",
+      "cloze": "En cas d'{{urgence}}, appelez le 15.",
+      "translations": {
+       "zh": "紧急情况请拨打15。",
+       "en": "In an emergency, call 15."
+      }
+     }
+    ],
+    "usageNote": "les urgences 指医院的“急诊室”。"
+   }
+  ]
+ },
+ {
+  "headword": "ambulance",
+  "phonetic": "/ɑ̃.by.lɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ambulances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "véhicule qui transporte les malades",
+    "translations": {
+     "zh": "救护车",
+     "en": "ambulance"
+    },
+    "examples": [
+     {
+      "text": "L'ambulance arrive dans cinq minutes.",
+      "cloze": "L'{{ambulance}} arrive dans cinq minutes.",
+      "translations": {
+       "zh": "救护车五分钟后到。",
+       "en": "The ambulance is arriving in five minutes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pansement",
+  "phonetic": "/pɑ̃s.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pansements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on met sur une blessure pour la protéger",
+    "translations": {
+     "zh": "绷带；创可贴",
+     "en": "bandage, plaster"
+    },
+    "examples": [
+     {
+      "text": "Mets un pansement sur ton doigt.",
+      "translations": {
+       "zh": "在你手指上贴个创可贴。",
+       "en": "Put a plaster on your finger."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "comprimé",
+  "phonetic": "/kɔ̃.pʁi.me/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "comprimés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit médicament rond qu'on avale",
+    "translations": {
+     "zh": "药片",
+     "en": "tablet, pill"
+    },
+    "examples": [
+     {
+      "text": "Prenez un comprimé le matin.",
+      "translations": {
+       "zh": "早上吃一片。",
+       "en": "Take one tablet in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sirop",
+  "phonetic": "/si.ʁo/",
+  "cefr": "A2",
+  "frequencyRank": 8800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sirops"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "médicament ou boisson sucrée et liquide",
+    "translations": {
+     "zh": "糖浆；果汁糖浆",
+     "en": "syrup"
+    },
+    "examples": [
+     {
+      "text": "Les enfants prennent du sirop contre la toux.",
+      "translations": {
+       "zh": "孩子们喝止咳糖浆。",
+       "en": "The children take cough syrup."
+      }
+     }
+    ],
+    "usageNote": "也指兑水喝的果味糖浆：un sirop de menthe。"
+   }
+  ]
+ },
+ {
+  "headword": "piqûre",
+  "phonetic": "/pi.kyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 9600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "piqûres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de mettre un médicament avec une aiguille",
+    "translations": {
+     "zh": "打针",
+     "en": "injection, shot"
+    },
+    "examples": [
+     {
+      "text": "L'infirmière me fait une piqûre.",
+      "translations": {
+       "zh": "护士给我打针。",
+       "en": "The nurse gives me an injection."
+      }
+     }
+    ],
+    "usageNote": "也指蚊虫叮咬：une piqûre de moustique。"
+   }
+  ]
+ },
+ {
+  "headword": "mal de tête",
+  "phonetic": "/mal də tɛt/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "maux de tête"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "douleur dans la tête",
+    "translations": {
+     "zh": "头痛",
+     "en": "headache"
+    },
+    "examples": [
+     {
+      "text": "J'ai un mal de tête terrible.",
+      "cloze": "J'ai un {{mal de tête}} terrible.",
+      "translations": {
+       "zh": "我头疼得厉害。",
+       "en": "I have a terrible headache."
+      }
+     }
+    ],
+    "usageNote": "也说 avoir mal à la tête。复数 maux de tête。"
+   }
+  ]
+ },
+ {
+  "headword": "maladie",
+  "phonetic": "/ma.la.di/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "maladies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "problème de santé",
+    "translations": {
+     "zh": "疾病",
+     "en": "illness, disease"
+    },
+    "examples": [
+     {
+      "text": "Cette maladie n'est pas dangereuse.",
+      "translations": {
+       "zh": "这种病不危险。",
+       "en": "This illness isn't dangerous."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "allergie",
+  "phonetic": "/a.lɛʁ.ʒi/",
+  "cefr": "A2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "allergies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "réaction du corps à certaines choses",
+    "translations": {
+     "zh": "过敏",
+     "en": "allergy"
+    },
+    "examples": [
+     {
+      "text": "J'ai une allergie aux arachides.",
+      "translations": {
+       "zh": "我对花生过敏。",
+       "en": "I have a peanut allergy."
+      }
+     }
+    ],
+    "usageNote": "说“对……过敏”用 allergie à。"
+   }
+  ]
+ },
+ {
+  "headword": "température",
+  "phonetic": "/tɑ̃.pe.ʁa.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "températures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "degré de chaleur ou de froid",
+    "translations": {
+     "zh": "温度；体温",
+     "en": "temperature"
+    },
+    "examples": [
+     {
+      "text": "Quelle est la température aujourd'hui ?",
+      "translations": {
+       "zh": "今天多少度？",
+       "en": "What's the temperature today?"
+      }
+     }
+    ],
+    "usageNote": "avoir de la température = 发烧。"
+   }
+  ]
+ },
+ {
+  "headword": "gorge",
+  "phonetic": "/ɡɔʁʒ/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "gorges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie intérieure du cou",
+    "translations": {
+     "zh": "喉咙",
+     "en": "throat"
+    },
+    "examples": [
+     {
+      "text": "J'ai mal à la gorge.",
+      "translations": {
+       "zh": "我嗓子疼。",
+       "en": "I have a sore throat."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "estomac",
+  "phonetic": "/ɛs.tɔ.ma/",
+  "cefr": "A2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "estomacs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps où arrive la nourriture",
+    "translations": {
+     "zh": "胃",
+     "en": "stomach"
+    },
+    "examples": [
+     {
+      "text": "J'ai mal à l'estomac.",
+      "cloze": "J'ai mal à l'{{estomac}}.",
+      "translations": {
+       "zh": "我胃疼。",
+       "en": "I have a stomachache."
+      }
+     }
+    ],
+    "usageNote": "词尾 c 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "épaule",
+  "phonetic": "/e.pol/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "épaules"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps entre le cou et le bras",
+    "translations": {
+     "zh": "肩膀",
+     "en": "shoulder"
+    },
+    "examples": [
+     {
+      "text": "Il a mal à l'épaule droite.",
+      "cloze": "Il a mal à l'{{épaule}} droite.",
+      "translations": {
+       "zh": "他右肩疼。",
+       "en": "His right shoulder hurts."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "genou",
+  "phonetic": "/ʒə.nu/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "genoux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du milieu de la jambe",
+    "translations": {
+     "zh": "膝盖",
+     "en": "knee"
+    },
+    "examples": [
+     {
+      "text": "Je suis tombé sur le genou.",
+      "translations": {
+       "zh": "我摔倒磕到了膝盖。",
+       "en": "I fell on my knee."
+      }
+     }
+    ],
+    "usageNote": "复数特殊：genoux。"
+   }
+  ]
+ },
+ {
+  "headword": "cou",
+  "phonetic": "/ku/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cous"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps entre la tête et les épaules",
+    "translations": {
+     "zh": "脖子",
+     "en": "neck"
+    },
+    "examples": [
+     {
+      "text": "Elle porte une écharpe autour du cou.",
+      "translations": {
+       "zh": "她脖子上围着围巾。",
+       "en": "She's wearing a scarf around her neck."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "peau",
+  "phonetic": "/po/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "peaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qui couvre le corps",
+    "translations": {
+     "zh": "皮肤",
+     "en": "skin"
+    },
+    "examples": [
+     {
+      "text": "Le soleil abîme la peau.",
+      "translations": {
+       "zh": "太阳会伤皮肤。",
+       "en": "The sun damages the skin."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sang",
+  "phonetic": "/sɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sangs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide rouge dans le corps",
+    "translations": {
+     "zh": "血",
+     "en": "blood"
+    },
+    "examples": [
+     {
+      "text": "Il y a du sang sur ton bras.",
+      "translations": {
+       "zh": "你胳膊上有血。",
+       "en": "There's blood on your arm."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "os",
+  "phonetic": "/ɔs/",
+  "cefr": "A2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "os"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie dure à l'intérieur du corps",
+    "translations": {
+     "zh": "骨头",
+     "en": "bone"
+    },
+    "examples": [
+     {
+      "text": "Le chien mange un os.",
+      "translations": {
+       "zh": "狗在啃骨头。",
+       "en": "The dog is eating a bone."
+      }
+     }
+    ],
+    "usageNote": "复数 os 读 /o/。"
+   }
+  ]
+ },
+ {
+  "headword": "visage",
+  "phonetic": "/vi.zaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "visages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "devant de la tête : yeux, nez, bouche",
+    "translations": {
+     "zh": "脸",
+     "en": "face"
+    },
+    "examples": [
+     {
+      "text": "Elle a un joli visage.",
+      "translations": {
+       "zh": "她的脸很漂亮。",
+       "en": "She has a pretty face."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "assurance",
+  "phonetic": "/a.sy.ʁɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "assurances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "contrat qui paie en cas d'accident ou de maladie",
+    "translations": {
+     "zh": "保险",
+     "en": "insurance"
+    },
+    "examples": [
+     {
+      "text": "Vous avez une assurance voyage ?",
+      "translations": {
+       "zh": "您有旅游保险吗？",
+       "en": "Do you have travel insurance?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "régime",
+  "phonetic": "/ʁe.ʒim/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "régimes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "façon de manger pour maigrir ou être en bonne santé",
+    "translations": {
+     "zh": "节食；饮食计划",
+     "en": "diet"
+    },
+    "examples": [
+     {
+      "text": "Ma mère fait un régime.",
+      "translations": {
+       "zh": "我妈妈在节食。",
+       "en": "My mother is on a diet."
+      }
+     }
+    ],
+    "usageNote": "faire un régime = 节食减肥；也指“政权、制度”。"
+   }
+  ]
+ },
+ {
+  "headword": "poids",
+  "phonetic": "/pwa/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "poids"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "combien une chose ou une personne est lourde",
+    "translations": {
+     "zh": "体重；重量",
+     "en": "weight"
+    },
+    "examples": [
+     {
+      "text": "Quel est votre poids ?",
+      "translations": {
+       "zh": "您体重多少？",
+       "en": "What's your weight?"
+      }
+     }
+    ],
+    "usageNote": "复数不变；d 和 s 都不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "vaccin",
+  "phonetic": "/vak.sɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vaccins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "produit qui protège contre une maladie",
+    "translations": {
+     "zh": "疫苗",
+     "en": "vaccine"
+    },
+    "examples": [
+     {
+      "text": "Le vaccin contre la grippe est gratuit.",
+      "translations": {
+       "zh": "流感疫苗是免费的。",
+       "en": "The flu vaccine is free."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "crème solaire",
+  "phonetic": "/kʁɛm sɔ.lɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "crèmes solaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "crème qui protège la peau du soleil",
+    "translations": {
+     "zh": "防晒霜",
+     "en": "sunscreen"
+    },
+    "examples": [
+     {
+      "text": "N'oublie pas la crème solaire à la plage.",
+      "cloze": "N'oublie pas la {{crème solaire}} à la plage.",
+      "translations": {
+       "zh": "去海滩别忘了防晒霜。",
+       "en": "Don't forget sunscreen at the beach."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "timbre",
+  "phonetic": "/tɛ̃bʁ/",
+  "cefr": "A2",
+  "frequencyRank": 7600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "timbres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite image collée sur une lettre pour l'envoyer",
+    "translations": {
+     "zh": "邮票",
+     "en": "stamp"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais un timbre pour la Chine.",
+      "translations": {
+       "zh": "我想要一张寄往中国的邮票。",
+       "en": "I'd like a stamp for China."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

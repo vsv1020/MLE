@@ -1,0 +1,1137 @@
+[
+ {
+  "headword": "un peu",
+  "phonetic": "/œ̃.pø/",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "une petite quantité, pas beaucoup",
+    "translations": {
+     "zh": "一点儿；有点",
+     "en": "a little, a bit"
+    },
+    "examples": [
+     {
+      "text": "Je parle un peu français.",
+      "cloze": "Je parle {{un peu}} français.",
+      "translations": {
+       "zh": "我会说一点法语。",
+       "en": "I speak a little French."
+      }
+     }
+    ],
+    "usageNote": "un peu de + 名词：一点儿……（un peu de sucre）。"
+   }
+  ]
+ },
+ {
+  "headword": "longtemps",
+  "phonetic": "/lɔ̃.tɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pendant beaucoup de temps",
+    "translations": {
+     "zh": "很久；长时间",
+     "en": "for a long time"
+    },
+    "examples": [
+     {
+      "text": "J'ai attendu longtemps.",
+      "translations": {
+       "zh": "我等了很久。",
+       "en": "I waited a long time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tout de suite",
+  "phonetic": "/tut.sɥit/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "maintenant, sans attendre",
+    "translations": {
+     "zh": "立刻；马上",
+     "en": "right away, immediately"
+    },
+    "examples": [
+     {
+      "text": "J'arrive tout de suite !",
+      "cloze": "J'arrive {{tout de suite}} !",
+      "translations": {
+       "zh": "我马上就来！",
+       "en": "I'm coming right away!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tout à l'heure",
+  "phonetic": "/tu.ta.lœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans un moment ; il y a un moment",
+    "translations": {
+     "zh": "待会儿；刚才",
+     "en": "in a moment, a moment ago"
+    },
+    "examples": [
+     {
+      "text": "Je te rappelle tout à l'heure.",
+      "cloze": "Je te rappelle {{tout à l'heure}}.",
+      "translations": {
+       "zh": "我待会儿给你回电话。",
+       "en": "I'll call you back in a bit."
+      }
+     }
+    ],
+    "usageNote": "既可指“待会儿”，也可指“刚才”，看时态判断。"
+   }
+  ]
+ },
+ {
+  "headword": "récemment",
+  "phonetic": "/ʁe.sa.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "il y a peu de temps",
+    "translations": {
+     "zh": "最近",
+     "en": "recently"
+    },
+    "examples": [
+     {
+      "text": "J'ai déménagé récemment.",
+      "translations": {
+       "zh": "我最近搬家了。",
+       "en": "I moved recently."
+      }
+     }
+    ],
+    "usageNote": "-emment 读 /amɑ̃/。"
+   }
+  ]
+ },
+ {
+  "headword": "plus tard",
+  "phonetic": "/ply.taʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "après, dans le futur",
+    "translations": {
+     "zh": "以后；晚些时候",
+     "en": "later"
+    },
+    "examples": [
+     {
+      "text": "On en parle plus tard.",
+      "cloze": "On en parle {{plus tard}}.",
+      "translations": {
+       "zh": "我们晚点再说。",
+       "en": "We'll talk about it later."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lentement",
+  "phonetic": "/lɑ̃t.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pas vite",
+    "translations": {
+     "zh": "慢慢地",
+     "en": "slowly"
+    },
+    "examples": [
+     {
+      "text": "Parlez lentement, s'il vous plaît.",
+      "translations": {
+       "zh": "请说慢一点。",
+       "en": "Please speak slowly."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "doucement",
+  "phonetic": "/dus.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "sans bruit, sans force ; lentement",
+    "translations": {
+     "zh": "轻轻地；慢慢地",
+     "en": "gently, quietly"
+    },
+    "examples": [
+     {
+      "text": "Ferme la porte doucement, le bébé dort.",
+      "translations": {
+       "zh": "轻轻关门，宝宝在睡觉。",
+       "en": "Close the door gently, the baby is sleeping."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "facilement",
+  "phonetic": "/fa.sil.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "sans difficulté",
+    "translations": {
+     "zh": "容易地；轻松地",
+     "en": "easily"
+    },
+    "examples": [
+     {
+      "text": "Tu trouveras facilement la gare.",
+      "translations": {
+       "zh": "你会很容易找到火车站。",
+       "en": "You'll easily find the station."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "heureusement",
+  "phonetic": "/œ.ʁøz.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "par chance",
+    "translations": {
+     "zh": "幸好；幸亏",
+     "en": "fortunately, luckily"
+    },
+    "examples": [
+     {
+      "text": "Heureusement, il ne pleut pas.",
+      "translations": {
+       "zh": "幸好没下雨。",
+       "en": "Luckily, it isn't raining."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "malheureusement",
+  "phonetic": "/ma.lœ.ʁøz.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "par malchance, c'est dommage",
+    "translations": {
+     "zh": "不幸的是；可惜",
+     "en": "unfortunately"
+    },
+    "examples": [
+     {
+      "text": "Malheureusement, je ne peux pas venir.",
+      "translations": {
+       "zh": "可惜我来不了。",
+       "en": "Unfortunately, I can't come."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "partout",
+  "phonetic": "/paʁ.tu/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans tous les endroits",
+    "translations": {
+     "zh": "到处",
+     "en": "everywhere"
+    },
+    "examples": [
+     {
+      "text": "J'ai cherché mes clés partout.",
+      "translations": {
+       "zh": "我到处找我的钥匙。",
+       "en": "I looked everywhere for my keys."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ailleurs",
+  "phonetic": "/a.jœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans un autre endroit",
+    "translations": {
+     "zh": "在别处",
+     "en": "elsewhere"
+    },
+    "examples": [
+     {
+      "text": "Allons manger ailleurs.",
+      "translations": {
+       "zh": "我们去别处吃吧。",
+       "en": "Let's eat somewhere else."
+      }
+     }
+    ],
+    "usageNote": "d'ailleurs：而且，再说。"
+   }
+  ]
+ },
+ {
+  "headword": "dehors",
+  "phonetic": "/də.ɔʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à l'extérieur",
+    "translations": {
+     "zh": "在外面",
+     "en": "outside"
+    },
+    "examples": [
+     {
+      "text": "Les enfants jouent dehors.",
+      "translations": {
+       "zh": "孩子们在外面玩。",
+       "en": "The children are playing outside."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dedans",
+  "phonetic": "/də.dɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à l'intérieur",
+    "translations": {
+     "zh": "在里面",
+     "en": "inside"
+    },
+    "examples": [
+     {
+      "text": "Il fait froid, on reste dedans.",
+      "translations": {
+       "zh": "天冷，我们待在里面吧。",
+       "en": "It's cold, let's stay inside."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en haut",
+  "phonetic": "/ɑ̃.o/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans la partie haute",
+    "translations": {
+     "zh": "在上面；在楼上",
+     "en": "upstairs, at the top"
+    },
+    "examples": [
+     {
+      "text": "Ma chambre est en haut.",
+      "cloze": "Ma chambre est {{en haut}}.",
+      "translations": {
+       "zh": "我的房间在楼上。",
+       "en": "My room is upstairs."
+      }
+     }
+    ],
+    "usageNote": "haut 的 h 不连读：en haut 读 /ɑ̃.o/。"
+   }
+  ]
+ },
+ {
+  "headword": "en bas",
+  "phonetic": "/ɑ̃.ba/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans la partie basse",
+    "translations": {
+     "zh": "在下面；在楼下",
+     "en": "downstairs, at the bottom"
+    },
+    "examples": [
+     {
+      "text": "Je t'attends en bas.",
+      "cloze": "Je t'attends {{en bas}}.",
+      "translations": {
+       "zh": "我在楼下等你。",
+       "en": "I'll wait for you downstairs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à côté",
+  "phonetic": "/a.ko.te/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "tout près",
+    "translations": {
+     "zh": "在旁边；在隔壁",
+     "en": "nearby, next door"
+    },
+    "examples": [
+     {
+      "text": "La boulangerie est juste à côté.",
+      "cloze": "La boulangerie est juste {{à côté}}.",
+      "translations": {
+       "zh": "面包店就在旁边。",
+       "en": "The bakery is right next door."
+      }
+     }
+    ],
+    "usageNote": "à côté de + 名词：在……旁边。"
+   }
+  ]
+ },
+ {
+  "headword": "quelque part",
+  "phonetic": "/kɛl.kə.paʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans un endroit qu'on ne connaît pas",
+    "translations": {
+     "zh": "某处；某个地方",
+     "en": "somewhere"
+    },
+    "examples": [
+     {
+      "text": "J'ai vu ce film quelque part.",
+      "cloze": "J'ai vu ce film {{quelque part}}.",
+      "translations": {
+       "zh": "我在哪儿看过这部电影。",
+       "en": "I've seen this film somewhere."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "loin",
+  "phonetic": "/lwɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à une grande distance",
+    "translations": {
+     "zh": "远",
+     "en": "far"
+    },
+    "examples": [
+     {
+      "text": "Ma maison n'est pas loin.",
+      "translations": {
+       "zh": "我家不远。",
+       "en": "My house isn't far."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en avance",
+  "phonetic": "/ɑ̃.na.vɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "avant l'heure prévue",
+    "translations": {
+     "zh": "提前；早到",
+     "en": "early, ahead of time"
+    },
+    "examples": [
+     {
+      "text": "Nous sommes arrivés en avance.",
+      "cloze": "Nous sommes arrivés {{en avance}}.",
+      "translations": {
+       "zh": "我们提前到了。",
+       "en": "We arrived early."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en retard",
+  "phonetic": "/ɑ̃.ʁə.taʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "après l'heure prévue",
+    "translations": {
+     "zh": "迟到；晚了",
+     "en": "late"
+    },
+    "examples": [
+     {
+      "text": "Dépêche-toi, on est en retard !",
+      "cloze": "Dépêche-toi, on est {{en retard}} !",
+      "translations": {
+       "zh": "快点，我们迟到了！",
+       "en": "Hurry up, we're late!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à l'heure",
+  "phonetic": "/a.lœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "au bon moment, ni avant ni après",
+    "translations": {
+     "zh": "准时",
+     "en": "on time"
+    },
+    "examples": [
+     {
+      "text": "Le train est à l'heure.",
+      "cloze": "Le train est {{à l'heure}}.",
+      "translations": {
+       "zh": "火车准点。",
+       "en": "The train is on time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "d'abord",
+  "phonetic": "/da.bɔʁ/",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en premier",
+    "translations": {
+     "zh": "首先；先",
+     "en": "first, first of all"
+    },
+    "examples": [
+     {
+      "text": "D'abord, on achète les billets.",
+      "translations": {
+       "zh": "首先，我们买票。",
+       "en": "First, we buy the tickets."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ensuite",
+  "phonetic": "/ɑ̃.sɥit/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "après cela",
+    "translations": {
+     "zh": "然后；接着",
+     "en": "then, next"
+    },
+    "examples": [
+     {
+      "text": "On mange, ensuite on va au cinéma.",
+      "translations": {
+       "zh": "我们先吃饭，然后去看电影。",
+       "en": "We eat, then we go to the cinema."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "puis",
+  "phonetic": "/pɥi/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "après, ensuite",
+    "translations": {
+     "zh": "然后；接着",
+     "en": "then"
+    },
+    "examples": [
+     {
+      "text": "Il a mangé, puis il est parti.",
+      "translations": {
+       "zh": "他吃完饭，然后走了。",
+       "en": "He ate, then he left."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "enfin",
+  "phonetic": "/ɑ̃.fɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à la fin, après une longue attente",
+    "translations": {
+     "zh": "终于；最后",
+     "en": "finally, at last"
+    },
+    "examples": [
+     {
+      "text": "Enfin les vacances !",
+      "translations": {
+       "zh": "终于放假了！",
+       "en": "Holidays at last!"
+      }
+     }
+    ],
+    "usageNote": "口语中也表示纠正：Il est grand… enfin, assez grand.（他很高……嗯，算是挺高。）"
+   }
+  ]
+ },
+ {
+  "headword": "finalement",
+  "phonetic": "/fi.nal.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à la fin ; en fin de compte",
+    "translations": {
+     "zh": "最后；最终",
+     "en": "finally, in the end"
+    },
+    "examples": [
+     {
+      "text": "Finalement, on est restés à la maison.",
+      "translations": {
+       "zh": "最后我们还是待在家里了。",
+       "en": "In the end, we stayed at home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pourtant",
+  "phonetic": "/puʁ.tɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "malgré cela",
+    "translations": {
+     "zh": "然而；可是",
+     "en": "yet, however"
+    },
+    "examples": [
+     {
+      "text": "Il est riche, et pourtant il n'est pas heureux.",
+      "translations": {
+       "zh": "他很有钱，可是并不快乐。",
+       "en": "He's rich, and yet he isn't happy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "alors",
+  "phonetic": "/a.lɔʁ/",
+  "cefr": "A2",
+  "frequencyRank": 200,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à ce moment-là ; donc",
+    "translations": {
+     "zh": "那么；于是",
+     "en": "so, then"
+    },
+    "examples": [
+     {
+      "text": "Il pleut, alors je prends un parapluie.",
+      "translations": {
+       "zh": "下雨了，所以我带把伞。",
+       "en": "It's raining, so I'm taking an umbrella."
+      }
+     }
+    ],
+    "usageNote": "口语里常用来开头：Alors, ça va ?（那么，还好吗？）"
+   }
+  ]
+ },
+ {
+  "headword": "car",
+  "phonetic": "/kaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "parce que (à l'écrit)",
+    "translations": {
+     "zh": "因为",
+     "en": "because, for"
+    },
+    "examples": [
+     {
+      "text": "Je reste à la maison, car je suis malade.",
+      "translations": {
+       "zh": "我待在家里，因为我病了。",
+       "en": "I'm staying at home because I'm ill."
+      }
+     }
+    ],
+    "usageNote": "car 多用于书面语，前面一般有逗号，不能放在句首。"
+   }
+  ]
+ },
+ {
+  "headword": "par contre",
+  "phonetic": "/paʁ.kɔ̃tʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "au contraire, mais",
+    "translations": {
+     "zh": "相反；但是",
+     "en": "on the other hand"
+    },
+    "examples": [
+     {
+      "text": "Le jour il fait chaud, par contre la nuit il fait froid.",
+      "cloze": "Le jour il fait chaud, {{par contre}} la nuit il fait froid.",
+      "translations": {
+       "zh": "白天很热，但晚上很冷。",
+       "en": "It's hot by day, but on the other hand cold at night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en plus",
+  "phonetic": "/ɑ̃.plys/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "aussi, de plus",
+    "translations": {
+     "zh": "而且；另外",
+     "en": "what's more, besides"
+    },
+    "examples": [
+     {
+      "text": "C'est cher et en plus c'est loin.",
+      "cloze": "C'est cher et {{en plus}} c'est loin.",
+      "translations": {
+       "zh": "那里又贵又远。",
+       "en": "It's expensive and what's more it's far."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quand même",
+  "phonetic": "/kɑ̃.mɛm/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "malgré tout",
+    "translations": {
+     "zh": "还是；仍然",
+     "en": "anyway, still"
+    },
+    "examples": [
+     {
+      "text": "Il pleut, mais on sort quand même.",
+      "cloze": "Il pleut, mais on sort {{quand même}}.",
+      "translations": {
+       "zh": "下着雨，但我们还是要出门。",
+       "en": "It's raining, but we're going out anyway."
+      }
+     }
+    ],
+    "usageNote": "口语中也表示惊讶或不满：Quand même !（真是的！）"
+   }
+  ]
+ },
+ {
+  "headword": "par exemple",
+  "phonetic": "/paʁ.ɛɡ.zɑ̃pl/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pour donner un exemple",
+    "translations": {
+     "zh": "例如；比如",
+     "en": "for example"
+    },
+    "examples": [
+     {
+      "text": "J'aime les fruits, par exemple les pommes.",
+      "cloze": "J'aime les fruits, {{par exemple}} les pommes.",
+      "translations": {
+       "zh": "我喜欢水果，比如苹果。",
+       "en": "I like fruit, for example apples."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en fait",
+  "phonetic": "/ɑ̃.fɛt/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en réalité",
+    "translations": {
+     "zh": "其实；实际上",
+     "en": "in fact, actually"
+    },
+    "examples": [
+     {
+      "text": "En fait, je ne suis pas d'accord.",
+      "cloze": "{{En fait}}, je ne suis pas d'accord.",
+      "translations": {
+       "zh": "其实我不同意。",
+       "en": "Actually, I don't agree."
+      }
+     }
+    ],
+    "usageNote": "这里 fait 的 t 发音。"
+   }
+  ]
+ },
+ {
+  "headword": "au moins",
+  "phonetic": "/o.mwɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pas moins de",
+    "translations": {
+     "zh": "至少",
+     "en": "at least"
+    },
+    "examples": [
+     {
+      "text": "Il faut au moins deux heures.",
+      "cloze": "Il faut {{au moins}} deux heures.",
+      "translations": {
+       "zh": "至少需要两个小时。",
+       "en": "It takes at least two hours."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "c'est-à-dire",
+  "phonetic": "/sɛ.ta.diʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "sert à expliquer autrement",
+    "translations": {
+     "zh": "也就是说",
+     "en": "that is to say"
+    },
+    "examples": [
+     {
+      "text": "Je pars demain, c'est-à-dire lundi.",
+      "cloze": "Je pars demain, {{c'est-à-dire}} lundi.",
+      "translations": {
+       "zh": "我明天走，也就是星期一。",
+       "en": "I'm leaving tomorrow, that is Monday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bien sûr",
+  "phonetic": "/bjɛ̃.syʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "évidemment, oui",
+    "translations": {
+     "zh": "当然",
+     "en": "of course"
+    },
+    "examples": [
+     {
+      "text": "Tu viens ? — Bien sûr !",
+      "cloze": "Tu viens ? — {{Bien sûr}} !",
+      "translations": {
+       "zh": "你来吗？——当然！",
+       "en": "Are you coming? — Of course!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sans doute",
+  "phonetic": "/sɑ̃.dut/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "probablement",
+    "translations": {
+     "zh": "大概；也许",
+     "en": "probably"
+    },
+    "examples": [
+     {
+      "text": "Il est sans doute malade.",
+      "cloze": "Il est {{sans doute}} malade.",
+      "translations": {
+       "zh": "他大概是病了。",
+       "en": "He's probably ill."
+      }
+     }
+    ],
+    "usageNote": "注意：sans doute 是“大概”，“毫无疑问”要说 sans aucun doute。"
+   }
+  ]
+ },
+ {
+  "headword": "sinon",
+  "phonetic": "/si.nɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "si ce n'est pas le cas",
+    "translations": {
+     "zh": "否则；不然",
+     "en": "otherwise, or else"
+    },
+    "examples": [
+     {
+      "text": "Dépêche-toi, sinon on va rater le bus.",
+      "translations": {
+       "zh": "快点，不然要错过公交车了。",
+       "en": "Hurry up, or else we'll miss the bus."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pendant",
+  "phonetic": "/pɑ̃.dɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "durant un certain temps",
+    "translations": {
+     "zh": "在……期间",
+     "en": "during, for"
+    },
+    "examples": [
+     {
+      "text": "J'ai dormi pendant le film.",
+      "translations": {
+       "zh": "我在看电影时睡着了。",
+       "en": "I slept during the film."
+      }
+     }
+    ],
+    "usageNote": "pendant que + 句子：当……的时候。"
+   }
+  ]
+ },
+ {
+  "headword": "depuis",
+  "phonetic": "/də.pɥi/",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à partir d'un moment du passé jusqu'à maintenant",
+    "translations": {
+     "zh": "自从；……以来",
+     "en": "since, for"
+    },
+    "examples": [
+     {
+      "text": "J'habite ici depuis deux ans.",
+      "translations": {
+       "zh": "我在这里住了两年了。",
+       "en": "I've lived here for two years."
+      }
+     }
+    ],
+    "usageNote": "动作持续到现在，法语用现在时：J'apprends le français depuis un an."
+   }
+  ]
+ },
+ {
+  "headword": "jusqu'à",
+  "phonetic": "/ʒys.ka/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "indique une limite dans le temps ou l'espace",
+    "translations": {
+     "zh": "直到；一直到",
+     "en": "until, as far as"
+    },
+    "examples": [
+     {
+      "text": "Je travaille jusqu'à six heures.",
+      "translations": {
+       "zh": "我工作到六点。",
+       "en": "I work until six o'clock."
+      }
+     }
+    ],
+    "usageNote": "与 le 合写：jusqu'au bout（直到最后）。"
+   }
+  ]
+ }
+]

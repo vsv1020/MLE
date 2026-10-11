@@ -1,0 +1,1487 @@
+[
+ {
+  "headword": "recherche",
+  "phonetic": "/ʁə.ʃɛʁʃ/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "recherches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de chercher",
+    "translations": {
+     "zh": "搜索；研究",
+     "en": "search, research"
+    },
+    "examples": [
+     {
+      "text": "Je fais une recherche sur internet.",
+      "translations": {
+       "zh": "我在网上查一下。",
+       "en": "I'm doing a search on the internet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vidéo",
+  "phonetic": "/vi.de.o/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vidéos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "film court qu'on regarde sur un écran",
+    "translations": {
+     "zh": "视频",
+     "en": "video"
+    },
+    "examples": [
+     {
+      "text": "Regarde cette vidéo, elle est drôle !",
+      "translations": {
+       "zh": "看这个视频，太好笑了！",
+       "en": "Watch this video, it's funny!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "wifi",
+  "phonetic": "/wi.fi/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "wifis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "connexion à internet sans fil",
+    "translations": {
+     "zh": "无线网络",
+     "en": "Wi-Fi"
+    },
+    "examples": [
+     {
+      "text": "Quel est le code du wifi ?",
+      "translations": {
+       "zh": "Wi-Fi密码是多少？",
+       "en": "What's the Wi-Fi password?"
+      }
+     }
+    ],
+    "usageNote": "法国也有人说 la wifi，阳性更常见。"
+   }
+  ]
+ },
+ {
+  "headword": "écouteurs",
+  "phonetic": "/e.ku.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "通常用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petits haut-parleurs qu'on met dans les oreilles",
+    "translations": {
+     "zh": "耳机",
+     "en": "earphones"
+    },
+    "examples": [
+     {
+      "text": "J'écoute de la musique avec mes écouteurs.",
+      "translations": {
+       "zh": "我用耳机听音乐。",
+       "en": "I listen to music with my earphones."
+      }
+     }
+    ],
+    "usageNote": "头戴式耳机是 casque。"
+   }
+  ]
+ },
+ {
+  "headword": "internet",
+  "phonetic": "/ɛ̃.tɛʁ.nɛt/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "无复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "réseau mondial d'ordinateurs",
+    "translations": {
+     "zh": "互联网",
+     "en": "internet"
+    },
+    "examples": [
+     {
+      "text": "Je regarde les nouvelles sur internet.",
+      "translations": {
+       "zh": "我在网上看新闻。",
+       "en": "I read the news on the internet."
+      }
+     }
+    ],
+    "usageNote": "常写作大写 Internet；“在网上”说 sur internet。"
+   }
+  ]
+ },
+ {
+  "headword": "page",
+  "phonetic": "/paʒ/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "côté d'une feuille de livre ; écran d'un site",
+    "translations": {
+     "zh": "页；页面",
+     "en": "page"
+    },
+    "examples": [
+     {
+      "text": "Ouvrez votre livre à la page dix.",
+      "translations": {
+       "zh": "把书翻到第十页。",
+       "en": "Open your book at page ten."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "télécommande",
+  "phonetic": "/te.le.kɔ.mɑ̃d/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "télécommandes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit appareil pour changer de chaîne à distance",
+    "translations": {
+     "zh": "遥控器",
+     "en": "remote control"
+    },
+    "examples": [
+     {
+      "text": "Où est la télécommande ?",
+      "translations": {
+       "zh": "遥控器在哪儿？",
+       "en": "Where's the remote?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "radio",
+  "phonetic": "/ʁa.djo/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "radios"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil ou émission qu'on écoute",
+    "translations": {
+     "zh": "收音机；广播",
+     "en": "radio"
+    },
+    "examples": [
+     {
+      "text": "J'écoute la radio dans la voiture.",
+      "translations": {
+       "zh": "我在车里听广播。",
+       "en": "I listen to the radio in the car."
+      }
+     }
+    ],
+    "usageNote": "注意是阴性：la radio。也指“X光片”。"
+   }
+  ]
+ },
+ {
+  "headword": "aspirateur",
+  "phonetic": "/as.pi.ʁa.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "aspirateurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui nettoie le sol en aspirant la poussière",
+    "translations": {
+     "zh": "吸尘器",
+     "en": "vacuum cleaner"
+    },
+    "examples": [
+     {
+      "text": "Je passe l'aspirateur le samedi.",
+      "cloze": "Je passe l'{{aspirateur}} le samedi.",
+      "translations": {
+       "zh": "我星期六用吸尘器打扫。",
+       "en": "I vacuum on Saturdays."
+      }
+     }
+    ],
+    "usageNote": "吸地说 passer l'aspirateur。"
+   }
+  ]
+ },
+ {
+  "headword": "balai",
+  "phonetic": "/ba.lɛ/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "balais"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet avec un long manche pour nettoyer le sol",
+    "translations": {
+     "zh": "扫帚",
+     "en": "broom"
+    },
+    "examples": [
+     {
+      "text": "Prends le balai et nettoie la cuisine.",
+      "translations": {
+       "zh": "拿扫帚把厨房扫一下。",
+       "en": "Take the broom and clean the kitchen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ménage",
+  "phonetic": "/me.naʒ/",
+  "cefr": "A2",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ménages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail pour nettoyer la maison",
+    "translations": {
+     "zh": "家务；打扫",
+     "en": "housework, cleaning"
+    },
+    "examples": [
+     {
+      "text": "Je fais le ménage le dimanche.",
+      "translations": {
+       "zh": "我星期天打扫卫生。",
+       "en": "I do the cleaning on Sundays."
+      }
+     }
+    ],
+    "usageNote": "faire le ménage = 打扫房间。"
+   }
+  ]
+ },
+ {
+  "headword": "lessive",
+  "phonetic": "/le.siv/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "lessives"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lavage du linge ; produit pour laver le linge",
+    "translations": {
+     "zh": "洗衣；洗衣粉",
+     "en": "laundry, washing powder"
+    },
+    "examples": [
+     {
+      "text": "Je fais la lessive ce soir.",
+      "translations": {
+       "zh": "我今晚洗衣服。",
+       "en": "I'm doing the laundry tonight."
+      }
+     }
+    ],
+    "usageNote": "faire la lessive = 洗衣服。"
+   }
+  ]
+ },
+ {
+  "headword": "machine à laver",
+  "phonetic": "/ma.ʃin a la.ve/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "machines à laver"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui lave le linge",
+    "translations": {
+     "zh": "洗衣机",
+     "en": "washing machine"
+    },
+    "examples": [
+     {
+      "text": "La machine à laver est en panne.",
+      "cloze": "La {{machine à laver}} est en panne.",
+      "translations": {
+       "zh": "洗衣机坏了。",
+       "en": "The washing machine is broken."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lave-vaisselle",
+  "phonetic": "/lav.vɛ.sɛl/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lave-vaisselle"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui lave les assiettes et les verres",
+    "translations": {
+     "zh": "洗碗机",
+     "en": "dishwasher"
+    },
+    "examples": [
+     {
+      "text": "Mets les verres dans le lave-vaisselle.",
+      "cloze": "Mets les verres dans le {{lave-vaisselle}}.",
+      "translations": {
+       "zh": "把杯子放进洗碗机。",
+       "en": "Put the glasses in the dishwasher."
+      }
+     }
+    ],
+    "usageNote": "复数不变。"
+   }
+  ]
+ },
+ {
+  "headword": "vaisselle",
+  "phonetic": "/vɛ.sɛl/",
+  "cefr": "A2",
+  "frequencyRank": 6800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "无复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "assiettes, verres et couverts",
+    "translations": {
+     "zh": "餐具；洗碗",
+     "en": "dishes"
+    },
+    "examples": [
+     {
+      "text": "C'est ton tour de faire la vaisselle.",
+      "translations": {
+       "zh": "轮到你洗碗了。",
+       "en": "It's your turn to do the dishes."
+      }
+     }
+    ],
+    "usageNote": "faire la vaisselle = 洗碗。"
+   }
+  ]
+ },
+ {
+  "headword": "poubelle",
+  "phonetic": "/pu.bɛl/",
+  "cefr": "A2",
+  "frequencyRank": 7300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "poubelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "récipient pour jeter les déchets",
+    "translations": {
+     "zh": "垃圾桶",
+     "en": "bin, trash can"
+    },
+    "examples": [
+     {
+      "text": "Jette ça à la poubelle.",
+      "translations": {
+       "zh": "把这个扔进垃圾桶。",
+       "en": "Throw that in the bin."
+      }
+     }
+    ],
+    "usageNote": "sortir la poubelle = 倒垃圾。"
+   }
+  ]
+ },
+ {
+  "headword": "four",
+  "phonetic": "/fuʁ/",
+  "cefr": "A2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil fermé pour cuire les aliments",
+    "translations": {
+     "zh": "烤箱",
+     "en": "oven"
+    },
+    "examples": [
+     {
+      "text": "Le gâteau est dans le four.",
+      "translations": {
+       "zh": "蛋糕在烤箱里。",
+       "en": "The cake is in the oven."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "micro-ondes",
+  "phonetic": "/mi.kʁo.ɔ̃d/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "micro-ondes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit four qui chauffe très vite",
+    "translations": {
+     "zh": "微波炉",
+     "en": "microwave"
+    },
+    "examples": [
+     {
+      "text": "Chauffe la soupe au micro-ondes.",
+      "cloze": "Chauffe la soupe au {{micro-ondes}}.",
+      "translations": {
+       "zh": "用微波炉热一下汤。",
+       "en": "Heat the soup in the microwave."
+      }
+     }
+    ],
+    "usageNote": "复数不变。"
+   }
+  ]
+ },
+ {
+  "headword": "casserole",
+  "phonetic": "/kas.ʁɔl/",
+  "cefr": "A2",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "casseroles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "récipient avec un manche pour faire cuire",
+    "translations": {
+     "zh": "锅；平底深锅",
+     "en": "saucepan"
+    },
+    "examples": [
+     {
+      "text": "Fais chauffer l'eau dans une casserole.",
+      "translations": {
+       "zh": "用小锅烧水。",
+       "en": "Heat the water in a saucepan."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "poêle",
+  "phonetic": "/pwal/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "poêles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "récipient plat pour faire frire",
+    "translations": {
+     "zh": "平底锅；煎锅",
+     "en": "frying pan"
+    },
+    "examples": [
+     {
+      "text": "Je fais les œufs dans la poêle.",
+      "translations": {
+       "zh": "我用平底锅煎蛋。",
+       "en": "I cook the eggs in the frying pan."
+      }
+     }
+    ],
+    "usageNote": "读 /pwal/。阳性 un poêle 指“火炉”。"
+   }
+  ]
+ },
+ {
+  "headword": "évier",
+  "phonetic": "/e.vje/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "éviers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bassin de la cuisine pour laver la vaisselle",
+    "translations": {
+     "zh": "水槽",
+     "en": "sink"
+    },
+    "examples": [
+     {
+      "text": "Les assiettes sont dans l'évier.",
+      "cloze": "Les assiettes sont dans l'{{évier}}.",
+      "translations": {
+       "zh": "盘子在水槽里。",
+       "en": "The plates are in the sink."
+      }
+     }
+    ],
+    "usageNote": "浴室洗手池是 lavabo。"
+   }
+  ]
+ },
+ {
+  "headword": "robinet",
+  "phonetic": "/ʁɔ.bi.nɛ/",
+  "cefr": "A2",
+  "frequencyRank": 9200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "robinets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on tourne pour avoir de l'eau",
+    "translations": {
+     "zh": "水龙头",
+     "en": "tap, faucet"
+    },
+    "examples": [
+     {
+      "text": "Ferme le robinet, s'il te plaît.",
+      "translations": {
+       "zh": "请关上水龙头。",
+       "en": "Turn off the tap, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "serviette",
+  "phonetic": "/sɛʁ.vjɛt/",
+  "cefr": "A2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "serviettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "tissu pour s'essuyer",
+    "translations": {
+     "zh": "毛巾；餐巾",
+     "en": "towel, napkin"
+    },
+    "examples": [
+     {
+      "text": "Prends une serviette pour la plage.",
+      "translations": {
+       "zh": "带条毛巾去海滩。",
+       "en": "Take a towel for the beach."
+      }
+     }
+    ],
+    "usageNote": "餐巾也叫 serviette。"
+   }
+  ]
+ },
+ {
+  "headword": "savon",
+  "phonetic": "/sa.vɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "savons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "produit pour se laver les mains",
+    "translations": {
+     "zh": "肥皂",
+     "en": "soap"
+    },
+    "examples": [
+     {
+      "text": "Lave-toi les mains avec du savon.",
+      "translations": {
+       "zh": "用肥皂洗手。",
+       "en": "Wash your hands with soap."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dentifrice",
+  "phonetic": "/dɑ̃.ti.fʁis/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dentifrices"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pâte pour se laver les dents",
+    "translations": {
+     "zh": "牙膏",
+     "en": "toothpaste"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a plus de dentifrice.",
+      "translations": {
+       "zh": "牙膏用完了。",
+       "en": "There's no toothpaste left."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "brosse à dents",
+  "phonetic": "/bʁɔs a dɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "brosses à dents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite brosse pour se laver les dents",
+    "translations": {
+     "zh": "牙刷",
+     "en": "toothbrush"
+    },
+    "examples": [
+     {
+      "text": "J'ai oublié ma brosse à dents.",
+      "cloze": "J'ai oublié ma {{brosse à dents}}.",
+      "translations": {
+       "zh": "我忘带牙刷了。",
+       "en": "I forgot my toothbrush."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "couverture",
+  "phonetic": "/ku.vɛʁ.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "couvertures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand tissu chaud qu'on met sur le lit",
+    "translations": {
+     "zh": "毯子；被子",
+     "en": "blanket"
+    },
+    "examples": [
+     {
+      "text": "J'ai froid, donne-moi une couverture.",
+      "translations": {
+       "zh": "我冷，给我一条毯子。",
+       "en": "I'm cold, give me a blanket."
+      }
+     }
+    ],
+    "usageNote": "也指书的“封面”。"
+   }
+  ]
+ },
+ {
+  "headword": "oreiller",
+  "phonetic": "/ɔ.ʁɛ.je/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "oreillers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "coussin pour mettre la tête dans le lit",
+    "translations": {
+     "zh": "枕头",
+     "en": "pillow"
+    },
+    "examples": [
+     {
+      "text": "Cet oreiller est trop dur.",
+      "translations": {
+       "zh": "这个枕头太硬了。",
+       "en": "This pillow is too hard."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "drap",
+  "phonetic": "/dʁa/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "draps"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand tissu qu'on met sur le lit",
+    "translations": {
+     "zh": "床单",
+     "en": "sheet"
+    },
+    "examples": [
+     {
+      "text": "Je change les draps chaque semaine.",
+      "cloze": "Je change les {{draps}} chaque semaine.",
+      "translations": {
+       "zh": "我每周换床单。",
+       "en": "I change the sheets every week."
+      }
+     }
+    ],
+    "usageNote": "词尾 p 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "rideau",
+  "phonetic": "/ʁi.do/",
+  "cefr": "A2",
+  "frequencyRank": 5700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "rideaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "tissu devant une fenêtre",
+    "translations": {
+     "zh": "窗帘",
+     "en": "curtain"
+    },
+    "examples": [
+     {
+      "text": "Ferme les rideaux, il fait nuit.",
+      "cloze": "Ferme les {{rideaux}}, il fait nuit.",
+      "translations": {
+       "zh": "拉上窗帘，天黑了。",
+       "en": "Close the curtains, it's dark."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tapis",
+  "phonetic": "/ta.pi/",
+  "cefr": "A2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tapis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "tissu épais posé sur le sol",
+    "translations": {
+     "zh": "地毯",
+     "en": "rug, carpet"
+    },
+    "examples": [
+     {
+      "text": "Le chat dort sur le tapis.",
+      "translations": {
+       "zh": "猫睡在地毯上。",
+       "en": "The cat is sleeping on the rug."
+      }
+     }
+    ],
+    "usageNote": "复数不变。"
+   }
+  ]
+ },
+ {
+  "headword": "étagère",
+  "phonetic": "/e.ta.ʒɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "étagères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "planche fixée au mur pour poser des objets",
+    "translations": {
+     "zh": "架子；书架",
+     "en": "shelf"
+    },
+    "examples": [
+     {
+      "text": "Les livres sont sur l'étagère.",
+      "cloze": "Les livres sont sur l'{{étagère}}.",
+      "translations": {
+       "zh": "书在架子上。",
+       "en": "The books are on the shelf."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tiroir",
+  "phonetic": "/ti.ʁwaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tiroirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un meuble qu'on tire pour ranger",
+    "translations": {
+     "zh": "抽屉",
+     "en": "drawer"
+    },
+    "examples": [
+     {
+      "text": "Les couteaux sont dans le tiroir.",
+      "translations": {
+       "zh": "刀在抽屉里。",
+       "en": "The knives are in the drawer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fer à repasser",
+  "phonetic": "/fɛʁ a ʁə.pa.se/",
+  "cefr": "A2",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fers à repasser"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil chaud pour enlever les plis des vêtements",
+    "translations": {
+     "zh": "熨斗",
+     "en": "iron"
+    },
+    "examples": [
+     {
+      "text": "Le fer à repasser est encore chaud.",
+      "cloze": "Le {{fer à repasser}} est encore chaud.",
+      "translations": {
+       "zh": "熨斗还热着。",
+       "en": "The iron is still hot."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chauffage",
+  "phonetic": "/ʃo.faʒ/",
+  "cefr": "A2",
+  "frequencyRank": 6300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chauffages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "système qui chauffe une maison",
+    "translations": {
+     "zh": "暖气",
+     "en": "heating"
+    },
+    "examples": [
+     {
+      "text": "Allume le chauffage, il fait froid.",
+      "translations": {
+       "zh": "开暖气吧，好冷。",
+       "en": "Turn on the heating, it's cold."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "toit",
+  "phonetic": "/twa/",
+  "cefr": "A2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "toits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie haute qui couvre une maison",
+    "translations": {
+     "zh": "屋顶",
+     "en": "roof"
+    },
+    "examples": [
+     {
+      "text": "Il y a un chat sur le toit.",
+      "translations": {
+       "zh": "屋顶上有只猫。",
+       "en": "There's a cat on the roof."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cave",
+  "phonetic": "/kav/",
+  "cefr": "A2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "caves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce sous la maison",
+    "translations": {
+     "zh": "地下室；酒窖",
+     "en": "cellar"
+    },
+    "examples": [
+     {
+      "text": "On garde le vin dans la cave.",
+      "translations": {
+       "zh": "我们把葡萄酒存在地下室。",
+       "en": "We keep the wine in the cellar."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "garage",
+  "phonetic": "/ɡa.ʁaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "garages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où on met la voiture ; atelier de réparation",
+    "translations": {
+     "zh": "车库；修车厂",
+     "en": "garage"
+    },
+    "examples": [
+     {
+      "text": "La voiture est au garage.",
+      "translations": {
+       "zh": "车在车库（修车厂）里。",
+       "en": "The car is in the garage."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "balcon",
+  "phonetic": "/bal.kɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "balcons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite terrasse devant une fenêtre",
+    "translations": {
+     "zh": "阳台",
+     "en": "balcony"
+    },
+    "examples": [
+     {
+      "text": "On prend le café sur le balcon.",
+      "translations": {
+       "zh": "我们在阳台上喝咖啡。",
+       "en": "We have coffee on the balcony."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "couloir",
+  "phonetic": "/ku.lwaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "couloirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "passage étroit entre les pièces",
+    "translations": {
+     "zh": "走廊",
+     "en": "corridor, hallway"
+    },
+    "examples": [
+     {
+      "text": "Les toilettes sont au bout du couloir.",
+      "translations": {
+       "zh": "洗手间在走廊尽头。",
+       "en": "The toilet is at the end of the corridor."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "loyer",
+  "phonetic": "/lwa.je/",
+  "cefr": "A2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "loyers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on paie chaque mois pour un logement",
+    "translations": {
+     "zh": "房租",
+     "en": "rent"
+    },
+    "examples": [
+     {
+      "text": "Le loyer est de huit cents euros.",
+      "translations": {
+       "zh": "房租是八百欧元。",
+       "en": "The rent is eight hundred euros."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "propriétaire",
+  "phonetic": "/pʁɔ.pʁi.je.tɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "propriétaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne à qui appartient une maison ou un objet",
+    "translations": {
+     "zh": "房东；所有者",
+     "en": "owner, landlord"
+    },
+    "examples": [
+     {
+      "text": "Le propriétaire habite au premier étage.",
+      "translations": {
+       "zh": "房东住在二楼。",
+       "en": "The landlord lives on the first floor."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une propriétaire。租客是 locataire。"
+   }
+  ]
+ },
+ {
+  "headword": "meuble",
+  "phonetic": "/mœbl/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "meubles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "table, chaise, lit, armoire…",
+    "translations": {
+     "zh": "家具",
+     "en": "piece of furniture"
+    },
+    "examples": [
+     {
+      "text": "On a acheté des meubles pour le salon.",
+      "cloze": "On a acheté des {{meubles}} pour le salon.",
+      "translations": {
+       "zh": "我们给客厅买了家具。",
+       "en": "We bought furniture for the living room."
+      }
+     }
+    ],
+    "usageNote": "注意 un meuble 是一件家具，可数。"
+   }
+  ]
+ },
+ {
+  "headword": "ampoule",
+  "phonetic": "/ɑ̃.pul/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ampoules"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet en verre qui donne de la lumière",
+    "translations": {
+     "zh": "灯泡",
+     "en": "light bulb"
+    },
+    "examples": [
+     {
+      "text": "Il faut changer l'ampoule.",
+      "cloze": "Il faut changer l'{{ampoule}}.",
+      "translations": {
+       "zh": "得换灯泡了。",
+       "en": "The bulb needs changing."
+      }
+     }
+    ],
+    "usageNote": "也指脚上磨出的“水泡”。"
+   }
+  ]
+ },
+ {
+  "headword": "prise",
+  "phonetic": "/pʁiz/",
+  "cefr": "A2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "prises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "trou dans le mur pour brancher un appareil",
+    "translations": {
+     "zh": "插座",
+     "en": "socket, plug"
+    },
+    "examples": [
+     {
+      "text": "Où est la prise pour mon chargeur ?",
+      "translations": {
+       "zh": "我的充电器插在哪个插座？",
+       "en": "Where's the socket for my charger?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "natation",
+  "phonetic": "/na.ta.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 7600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "无复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sport qui consiste à nager",
+    "translations": {
+     "zh": "游泳（运动）",
+     "en": "swimming"
+    },
+    "examples": [
+     {
+      "text": "Je fais de la natation le mercredi.",
+      "translations": {
+       "zh": "我每周三游泳。",
+       "en": "I go swimming on Wednesdays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "équipe",
+  "phonetic": "/e.kip/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "équipes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe de personnes qui jouent ou travaillent ensemble",
+    "translations": {
+     "zh": "队；团队",
+     "en": "team"
+    },
+    "examples": [
+     {
+      "text": "Notre équipe a gagné le match.",
+      "translations": {
+       "zh": "我们队赢了比赛。",
+       "en": "Our team won the match."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "match",
+  "phonetic": "/matʃ/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "matchs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rencontre sportive entre deux équipes",
+    "translations": {
+     "zh": "比赛",
+     "en": "match, game"
+    },
+    "examples": [
+     {
+      "text": "On regarde le match ce soir ?",
+      "translations": {
+       "zh": "今晚一起看比赛吗？",
+       "en": "Shall we watch the match tonight?"
+      }
+     }
+    ],
+    "usageNote": "复数 matchs（也见 matches）。"
+   }
+  ]
+ },
+ {
+  "headword": "joueur",
+  "phonetic": "/ʒwœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "joueurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui joue à un jeu ou à un sport",
+    "translations": {
+     "zh": "运动员；玩家",
+     "en": "player"
+    },
+    "examples": [
+     {
+      "text": "C'est le meilleur joueur de l'équipe.",
+      "translations": {
+       "zh": "他是队里最好的球员。",
+       "en": "He's the best player on the team."
+      }
+     }
+    ],
+    "usageNote": "阴性 joueuse。"
+   }
+  ]
+ },
+ {
+  "headword": "ballon",
+  "phonetic": "/ba.lɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ballons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grosse balle qu'on gonfle avec de l'air",
+    "translations": {
+     "zh": "球；气球",
+     "en": "ball, balloon"
+    },
+    "examples": [
+     {
+      "text": "Les enfants jouent au ballon.",
+      "translations": {
+       "zh": "孩子们在玩球。",
+       "en": "The children are playing ball."
+      }
+     }
+    ],
+    "usageNote": "小球（网球等）用 balle。"
+   }
+  ]
+ }
+]

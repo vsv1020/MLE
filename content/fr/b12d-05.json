@@ -1,0 +1,1587 @@
+[
+ {
+  "headword": "griller",
+  "phonetic": "/ɡʁi.je/",
+  "cefr": "B1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "cuire sur le feu ou sous une forte chaleur",
+    "translations": {
+     "zh": "烤；烧烤",
+     "en": "to grill, to toast"
+    },
+    "examples": [
+     {
+      "text": "On va griller des saucisses au jardin.",
+      "translations": {
+       "zh": "我们要在花园里烤香肠。",
+       "en": "We're going to grill sausages in the garden."
+      }
+     }
+    ],
+    "usageNote": "pain grillé = 烤面包片。"
+   }
+  ]
+ },
+ {
+  "headword": "sauce",
+  "phonetic": "/sos/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sauces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide plus ou moins épais qui accompagne un plat",
+    "translations": {
+     "zh": "酱汁；调味汁",
+     "en": "sauce"
+    },
+    "examples": [
+     {
+      "text": "Cette sauce est un peu trop salée.",
+      "translations": {
+       "zh": "这个酱汁有点太咸了。",
+       "en": "This sauce is a bit too salty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "farine",
+  "phonetic": "/fa.ʁin/",
+  "cefr": "B1",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "farines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "poudre de blé pour faire le pain et les gâteaux",
+    "translations": {
+     "zh": "面粉",
+     "en": "flour"
+    },
+    "examples": [
+     {
+      "text": "Il faut 200 grammes de farine.",
+      "translations": {
+       "zh": "需要两百克面粉。",
+       "en": "You need 200 grams of flour."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pâte",
+  "phonetic": "/pɑt/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pâtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mélange de farine et d'eau pour faire le pain, les tartes",
+    "translations": {
+     "zh": "面团；面糊",
+     "en": "dough, pastry"
+    },
+    "examples": [
+     {
+      "text": "Laisse reposer la pâte une heure.",
+      "translations": {
+       "zh": "让面团醒一个小时。",
+       "en": "Let the dough rest for an hour."
+      }
+     }
+    ],
+    "usageNote": "les pâtes（复数）= 意大利面。"
+   }
+  ]
+ },
+ {
+  "headword": "terroir",
+  "phonetic": "/tɛ.ʁwaʁ/",
+  "cefr": "B2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "terroirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "région agricole et ses produits typiques",
+    "translations": {
+     "zh": "（农产品的）产地；乡土",
+     "en": "local area, terroir"
+    },
+    "examples": [
+     {
+      "text": "Ce fromage est un produit du terroir.",
+      "translations": {
+       "zh": "这种奶酪是本地特产。",
+       "en": "This cheese is a local product."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "végétarien",
+  "phonetic": "/ve.ʒe.ta.ʁjɛ̃/",
+  "cefr": "B1",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "irregularForms": "阴性 végétarienne；复数 végétariens, végétariennes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne mange pas de viande ni de poisson",
+    "translations": {
+     "zh": "素食的；吃素的",
+     "en": "vegetarian"
+    },
+    "examples": [
+     {
+      "text": "Vous avez un menu végétarien ?",
+      "translations": {
+       "zh": "你们有素食套餐吗？",
+       "en": "Do you have a vegetarian menu?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bio",
+  "phonetic": "/bjo/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "irregularForms": "不变：un produit bio, des légumes bio"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "produit sans engrais ni pesticides chimiques",
+    "translations": {
+     "zh": "有机的",
+     "en": "organic"
+    },
+    "examples": [
+     {
+      "text": "J'achète des légumes bio au marché.",
+      "translations": {
+       "zh": "我在市场买有机蔬菜。",
+       "en": "I buy organic vegetables at the market."
+      }
+     }
+    ],
+    "usageNote": "是 biologique 的缩写，口语常用。"
+   }
+  ]
+ },
+ {
+  "headword": "régime",
+  "phonetic": "/ʁe.ʒim/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "régimes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "façon de manger pour maigrir ou pour la santé",
+    "translations": {
+     "zh": "节食；饮食控制",
+     "en": "diet"
+    },
+    "examples": [
+     {
+      "text": "Je ne mange pas de gâteau, je suis au régime.",
+      "translations": {
+       "zh": "我不吃蛋糕，我在节食。",
+       "en": "I'm not eating cake, I'm on a diet."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "système politique",
+    "translations": {
+     "zh": "政体；政权",
+     "en": "regime"
+    },
+    "examples": [
+     {
+      "text": "Le pays a changé de régime.",
+      "translations": {
+       "zh": "这个国家换了政体。",
+       "en": "The country changed its regime."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nourriture",
+  "phonetic": "/nu.ʁi.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "nourritures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on mange",
+    "translations": {
+     "zh": "食物",
+     "en": "food"
+    },
+    "examples": [
+     {
+      "text": "La nourriture est excellente dans ce restaurant.",
+      "translations": {
+       "zh": "这家餐厅的菜很棒。",
+       "en": "The food is excellent in this restaurant."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "alimentation",
+  "phonetic": "/a.li.mɑ̃.ta.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "alimentations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "manière de se nourrir ; produits qu'on mange",
+    "translations": {
+     "zh": "饮食；食品",
+     "en": "diet, food"
+    },
+    "examples": [
+     {
+      "text": "Une bonne alimentation est essentielle pour la santé.",
+      "translations": {
+       "zh": "良好的饮食对健康至关重要。",
+       "en": "A good diet is essential for health."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "frais",
+  "phonetic": "/fʁɛ/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "irregularForms": "阴性 fraîche；复数 frais, fraîches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "récent, pas conservé ; un peu froid",
+    "translations": {
+     "zh": "新鲜的；凉爽的",
+     "en": "fresh; cool"
+    },
+    "examples": [
+     {
+      "text": "Ce poisson est très frais.",
+      "translations": {
+       "zh": "这鱼很新鲜。",
+       "en": "This fish is very fresh."
+      }
+     }
+    ],
+    "usageNote": "Il fait frais. = 天气凉快。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on dépense pour quelque chose",
+    "translations": {
+     "zh": "费用",
+     "en": "costs, expenses"
+    },
+    "examples": [
+     {
+      "text": "Les frais de transport sont compris.",
+      "translations": {
+       "zh": "交通费已包含在内。",
+       "en": "Transport costs are included."
+      }
+     }
+    ],
+    "usageNote": "作“费用”讲时为阳性复数 les frais。"
+   }
+  ]
+ },
+ {
+  "headword": "cru",
+  "phonetic": "/kʁy/",
+  "cefr": "B2",
+  "frequencyRank": 7500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas cuit",
+    "translations": {
+     "zh": "生的；未煮的",
+     "en": "raw"
+    },
+    "examples": [
+     {
+      "text": "Les Japonais mangent souvent du poisson cru.",
+      "translations": {
+       "zh": "日本人常吃生鱼。",
+       "en": "Japanese people often eat raw fish."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "épicé",
+  "homograph": 2,
+  "phonetic": "/e.pi.se/",
+  "cefr": "B1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui contient beaucoup d'épices",
+    "translations": {
+     "zh": "辣的；加香料的",
+     "en": "spicy"
+    },
+    "examples": [
+     {
+      "text": "Ce plat est trop épicé pour moi.",
+      "translations": {
+       "zh": "这道菜对我来说太辣了。",
+       "en": "This dish is too spicy for me."
+      }
+     }
+    ],
+    "usageNote": "说“辣”也可用 piquant。"
+   }
+  ]
+ },
+ {
+  "headword": "sucré",
+  "homograph": 2,
+  "phonetic": "/sy.kʁe/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a le goût du sucre",
+    "translations": {
+     "zh": "甜的",
+     "en": "sweet"
+    },
+    "examples": [
+     {
+      "text": "Ce gâteau est trop sucré.",
+      "translations": {
+       "zh": "这个蛋糕太甜了。",
+       "en": "This cake is too sweet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salé",
+  "homograph": 2,
+  "phonetic": "/sa.le/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a le goût du sel",
+    "translations": {
+     "zh": "咸的",
+     "en": "salty, savoury"
+    },
+    "examples": [
+     {
+      "text": "Je préfère le beurre salé.",
+      "translations": {
+       "zh": "我更喜欢咸黄油。",
+       "en": "I prefer salted butter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "amer",
+  "phonetic": "/a.mɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "irregularForms": "阴性 amère；复数 amers, amères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a un goût fort et désagréable, comme le café sans sucre",
+    "translations": {
+     "zh": "苦的",
+     "en": "bitter"
+    },
+    "examples": [
+     {
+      "text": "Ce café est trop amer.",
+      "translations": {
+       "zh": "这咖啡太苦了。",
+       "en": "This coffee is too bitter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "savoureux",
+  "phonetic": "/sa.vu.ʁø/",
+  "cefr": "B2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "irregularForms": "阴性 savoureuse；复数 savoureux, savoureuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a très bon goût",
+    "translations": {
+     "zh": "美味的；可口的",
+     "en": "tasty"
+    },
+    "examples": [
+     {
+      "text": "Ce poulet rôti est savoureux.",
+      "translations": {
+       "zh": "这只烤鸡很美味。",
+       "en": "This roast chicken is tasty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "déguster",
+  "phonetic": "/de.ɡys.te/",
+  "cefr": "B2",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "manger ou boire lentement pour apprécier le goût",
+    "translations": {
+     "zh": "品尝；细细品味",
+     "en": "to savour, to taste"
+    },
+    "examples": [
+     {
+      "text": "On a pu déguster les vins de la région.",
+      "translations": {
+       "zh": "我们品尝了当地的葡萄酒。",
+       "en": "We got to taste the local wines."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dégustation",
+  "phonetic": "/de.ɡys.ta.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "dégustations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de goûter un produit pour l'apprécier",
+    "translations": {
+     "zh": "品尝；品鉴",
+     "en": "tasting"
+    },
+    "examples": [
+     {
+      "text": "La cave propose une dégustation gratuite.",
+      "translations": {
+       "zh": "酒窖提供免费品酒。",
+       "en": "The wine cellar offers a free tasting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "portion",
+  "phonetic": "/pɔʁ.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "portions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "quantité de nourriture pour une personne",
+    "translations": {
+     "zh": "（食物的）一份",
+     "en": "portion, helping"
+    },
+    "examples": [
+     {
+      "text": "Chaque portion coûte cinq euros.",
+      "translations": {
+       "zh": "每份五欧元。",
+       "en": "Each portion costs five euros."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "spécialité",
+  "phonetic": "/spe.sja.li.te/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "spécialités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "plat ou produit typique d'une région ou d'un restaurant",
+    "translations": {
+     "zh": "特产；招牌菜",
+     "en": "speciality"
+    },
+    "examples": [
+     {
+      "text": "La choucroute est une spécialité alsacienne.",
+      "translations": {
+       "zh": "酸菜腌肉是阿尔萨斯的特色菜。",
+       "en": "Sauerkraut is an Alsatian speciality."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pourboire",
+  "phonetic": "/puʁ.bwaʁ/",
+  "cefr": "B1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pourboires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on donne en plus au serveur",
+    "translations": {
+     "zh": "小费",
+     "en": "tip"
+    },
+    "examples": [
+     {
+      "text": "En France, le pourboire n'est pas obligatoire.",
+      "translations": {
+       "zh": "在法国，小费不是必须的。",
+       "en": "In France, tipping isn't compulsory."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "surgelé",
+  "phonetic": "/syʁ.ʒə.le/",
+  "cefr": "B2",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "congelé très vite pour être conservé",
+    "translations": {
+     "zh": "速冻的",
+     "en": "frozen"
+    },
+    "examples": [
+     {
+      "text": "J'achète parfois du poisson surgelé.",
+      "translations": {
+       "zh": "我有时买速冻鱼。",
+       "en": "I sometimes buy frozen fish."
+      }
+     }
+    ],
+    "usageNote": "les surgelés（名词）= 速冻食品。"
+   }
+  ]
+ },
+ {
+  "headword": "logement",
+  "phonetic": "/lɔʒ.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "logements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où l'on habite",
+    "translations": {
+     "zh": "住房；住所",
+     "en": "accommodation, housing"
+    },
+    "examples": [
+     {
+      "text": "Il est difficile de trouver un logement à Paris.",
+      "translations": {
+       "zh": "在巴黎很难找到住处。",
+       "en": "It's hard to find accommodation in Paris."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "loyer",
+  "phonetic": "/lwa.je/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "loyers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme qu'on paie chaque mois pour un logement loué",
+    "translations": {
+     "zh": "房租；租金",
+     "en": "rent"
+    },
+    "examples": [
+     {
+      "text": "Le loyer augmente chaque année.",
+      "translations": {
+       "zh": "房租每年都在涨。",
+       "en": "The rent goes up every year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quartier",
+  "phonetic": "/kaʁ.tje/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "quartiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'une ville",
+    "translations": {
+     "zh": "街区；区",
+     "en": "neighbourhood, district"
+    },
+    "examples": [
+     {
+      "text": "J'habite dans un quartier calme.",
+      "translations": {
+       "zh": "我住在一个安静的街区。",
+       "en": "I live in a quiet neighbourhood."
+      }
+     }
+    ],
+    "usageNote": "le Quartier latin = 巴黎拉丁区。"
+   }
+  ]
+ },
+ {
+  "headword": "banlieue",
+  "phonetic": "/bɑ̃.ljø/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "banlieues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des villes autour d'une grande ville",
+    "translations": {
+     "zh": "郊区；城郊",
+     "en": "suburbs"
+    },
+    "examples": [
+     {
+      "text": "Beaucoup de gens vivent en banlieue et travaillent à Paris.",
+      "translations": {
+       "zh": "很多人住在郊区，在巴黎上班。",
+       "en": "Many people live in the suburbs and work in Paris."
+      }
+     }
+    ],
+    "usageNote": "法国的 banlieue 有时带“问题街区”的含义。"
+   }
+  ]
+ },
+ {
+  "headword": "déménager",
+  "phonetic": "/de.me.na.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous déménageons；过去分词 déménagé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "quitter son logement pour aller habiter ailleurs",
+    "translations": {
+     "zh": "搬家",
+     "en": "to move (house)"
+    },
+    "examples": [
+     {
+      "text": "Nous allons déménager à Lyon en juin.",
+      "translations": {
+       "zh": "我们六月要搬到里昂去。",
+       "en": "We're going to move to Lyon in June."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "déménagement",
+  "phonetic": "/de.me.naʒ.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "déménagements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de déménager",
+    "translations": {
+     "zh": "搬家",
+     "en": "move, removal"
+    },
+    "examples": [
+     {
+      "text": "Mes amis m'ont aidé pour le déménagement.",
+      "translations": {
+       "zh": "朋友们帮我搬了家。",
+       "en": "My friends helped me with the move."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "emménager",
+  "phonetic": "/ɑ̃.me.na.ʒe/",
+  "cefr": "B2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous emménageons；过去分词 emménagé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "s'installer dans un nouveau logement",
+    "translations": {
+     "zh": "搬进；迁入",
+     "en": "to move in"
+    },
+    "examples": [
+     {
+      "text": "On va emménager dans notre nouvel appartement samedi.",
+      "translations": {
+       "zh": "我们周六搬进新公寓。",
+       "en": "We're moving into our new flat on Saturday."
+      }
+     }
+    ],
+    "usageNote": "反义词：déménager（搬走）。"
+   }
+  ]
+ },
+ {
+  "headword": "locataire",
+  "phonetic": "/lɔ.ka.tɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "locataires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui loue un logement",
+    "translations": {
+     "zh": "租户；房客",
+     "en": "tenant"
+    },
+    "examples": [
+     {
+      "text": "Le locataire doit payer le loyer le premier du mois.",
+      "translations": {
+       "zh": "房客要在每月一号付房租。",
+       "en": "The tenant must pay the rent on the first of the month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "propriétaire",
+  "phonetic": "/pʁɔ.pʁi.je.tɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "propriétaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne à qui appartient une chose, un logement",
+    "translations": {
+     "zh": "房东；所有者",
+     "en": "owner, landlord"
+    },
+    "examples": [
+     {
+      "text": "Le propriétaire va réparer le chauffage.",
+      "translations": {
+       "zh": "房东会修暖气。",
+       "en": "The landlord is going to fix the heating."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "immeuble",
+  "phonetic": "/i.mœbl/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "immeubles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand bâtiment de plusieurs étages",
+    "translations": {
+     "zh": "楼房；大楼",
+     "en": "building, block of flats"
+    },
+    "examples": [
+     {
+      "text": "J'habite au cinquième étage de cet immeuble.",
+      "translations": {
+       "zh": "我住在这栋楼的六楼。",
+       "en": "I live on the fifth floor of this building."
+      }
+     }
+    ],
+    "usageNote": "法国的 cinquième étage 相当于中国的六楼。"
+   }
+  ]
+ },
+ {
+  "headword": "bâtiment",
+  "phonetic": "/bɑ.ti.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bâtiments"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "construction qui sert d'habitation, de bureau, etc.",
+    "translations": {
+     "zh": "建筑物；楼",
+     "en": "building"
+    },
+    "examples": [
+     {
+      "text": "Le bâtiment B est fermé pour travaux.",
+      "translations": {
+       "zh": "B 楼因施工关闭。",
+       "en": "Building B is closed for works."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "colocation",
+  "phonetic": "/kɔ.lɔ.ka.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "colocations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de partager un logement loué avec d'autres",
+    "translations": {
+     "zh": "合租",
+     "en": "flat-share"
+    },
+    "examples": [
+     {
+      "text": "Je vis en colocation avec deux étudiants.",
+      "translations": {
+       "zh": "我和两个学生合租。",
+       "en": "I live in a flat-share with two students."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 la coloc。"
+   }
+  ]
+ },
+ {
+  "headword": "colocataire",
+  "phonetic": "/kɔ.lɔ.ka.tɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "colocataires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne avec qui l'on partage un logement",
+    "translations": {
+     "zh": "合租室友",
+     "en": "flatmate"
+    },
+    "examples": [
+     {
+      "text": "Mon colocataire fait toujours la cuisine.",
+      "translations": {
+       "zh": "我的室友总是做饭。",
+       "en": "My flatmate always does the cooking."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 le/la coloc。"
+   }
+  ]
+ },
+ {
+  "headword": "meublé",
+  "phonetic": "/mœ.ble/",
+  "cefr": "B1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "loué avec des meubles",
+    "translations": {
+     "zh": "带家具的",
+     "en": "furnished"
+    },
+    "examples": [
+     {
+      "text": "Je cherche un studio meublé.",
+      "translations": {
+       "zh": "我在找一个带家具的单间。",
+       "en": "I'm looking for a furnished studio."
+      }
+     }
+    ]
+   }
+  ],
+  "homograph": 2
+ },
+ {
+  "headword": "chauffage",
+  "phonetic": "/ʃo.faʒ/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chauffages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "système qui chauffe un logement",
+    "translations": {
+     "zh": "暖气；供暖",
+     "en": "heating"
+    },
+    "examples": [
+     {
+      "text": "Le chauffage ne marche pas.",
+      "translations": {
+       "zh": "暖气坏了。",
+       "en": "The heating isn't working."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "caution",
+  "phonetic": "/ko.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cautions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme qu'on donne en garantie au propriétaire",
+    "translations": {
+     "zh": "押金；保证金",
+     "en": "deposit"
+    },
+    "examples": [
+     {
+      "text": "La caution est d'un mois de loyer.",
+      "translations": {
+       "zh": "押金是一个月房租。",
+       "en": "The deposit is one month's rent."
+      }
+     }
+    ],
+    "usageNote": "也指“担保人”（un garant）。"
+   }
+  ]
+ },
+ {
+  "headword": "bail",
+  "phonetic": "/baj/",
+  "cefr": "B2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "baux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "contrat de location d'un logement",
+    "translations": {
+     "zh": "租约；租赁合同",
+     "en": "lease"
+    },
+    "examples": [
+     {
+      "text": "Nous avons signé un bail de trois ans.",
+      "translations": {
+       "zh": "我们签了三年的租约。",
+       "en": "We signed a three-year lease."
+      }
+     }
+    ],
+    "usageNote": "复数不规则：des baux /bo/。"
+   }
+  ]
+ },
+ {
+  "headword": "voisinage",
+  "phonetic": "/vwa.zi.naʒ/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "voisinages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des voisins ; environs",
+    "translations": {
+     "zh": "邻里；附近",
+     "en": "neighbourhood, neighbours"
+    },
+    "examples": [
+     {
+      "text": "Il y a une bonne ambiance dans le voisinage.",
+      "translations": {
+       "zh": "邻里氛围很好。",
+       "en": "There's a nice atmosphere in the neighbourhood."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "centre-ville",
+  "phonetic": "/sɑ̃.tʁə.vil/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "centres-villes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "quartier central d'une ville",
+    "translations": {
+     "zh": "市中心",
+     "en": "town centre, downtown"
+    },
+    "examples": [
+     {
+      "text": "L'hôtel est en plein centre-ville.",
+      "cloze": "L'hôtel est en plein {{centre-ville}}.",
+      "translations": {
+       "zh": "酒店就在市中心。",
+       "en": "The hotel is right in the town centre."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "habitant",
+  "phonetic": "/a.bi.tɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "habitants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui vit dans un lieu",
+    "translations": {
+     "zh": "居民；住户",
+     "en": "inhabitant, resident"
+    },
+    "examples": [
+     {
+      "text": "Chaque habitant reçoit une lettre de la mairie.",
+      "translations": {
+       "zh": "每位居民都收到市政府的一封信。",
+       "en": "Every resident receives a letter from the town hall."
+      }
+     }
+    ],
+    "usageNote": "女居民是 habitante；loger chez l'habitant = 住在当地人家里。"
+   }
+  ]
+ },
+ {
+  "headword": "mairie",
+  "phonetic": "/mɛ.ʁi/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mairies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bâtiment où travaillent le maire et ses services",
+    "translations": {
+     "zh": "市政厅；区政府",
+     "en": "town hall"
+    },
+    "examples": [
+     {
+      "text": "Ils se sont mariés à la mairie.",
+      "translations": {
+       "zh": "他们在市政厅结的婚。",
+       "en": "They got married at the town hall."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "trottoir",
+  "phonetic": "/tʁɔ.twaʁ/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "trottoirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie de la rue réservée aux piétons",
+    "translations": {
+     "zh": "人行道",
+     "en": "pavement, sidewalk"
+    },
+    "examples": [
+     {
+      "text": "Ne te gare pas sur le trottoir !",
+      "translations": {
+       "zh": "别把车停在人行道上！",
+       "en": "Don't park on the pavement!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "carrefour",
+  "phonetic": "/kaʁ.fuʁ/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "carrefours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où plusieurs rues se croisent",
+    "translations": {
+     "zh": "十字路口",
+     "en": "crossroads, junction"
+    },
+    "examples": [
+     {
+      "text": "Tournez à gauche au prochain carrefour.",
+      "translations": {
+       "zh": "下个路口左转。",
+       "en": "Turn left at the next junction."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "embouteillage",
+  "phonetic": "/ɑ̃.bu.tɛ.jaʒ/",
+  "cefr": "B1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "embouteillages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "trop de voitures qui bloquent la circulation",
+    "translations": {
+     "zh": "堵车；交通堵塞",
+     "en": "traffic jam"
+    },
+    "examples": [
+     {
+      "text": "Il y a toujours un embouteillage à huit heures.",
+      "translations": {
+       "zh": "八点总是堵车。",
+       "en": "There's always a traffic jam at eight."
+      }
+     }
+    ],
+    "usageNote": "同义：un bouchon。"
+   }
+  ]
+ },
+ {
+  "headword": "piéton",
+  "phonetic": "/pje.tɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "piétons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui marche dans la rue",
+    "translations": {
+     "zh": "行人",
+     "en": "pedestrian"
+    },
+    "examples": [
+     {
+      "text": "Le piéton traverse au feu vert.",
+      "translations": {
+       "zh": "行人在绿灯时过马路。",
+       "en": "The pedestrian crosses on the green light."
+      }
+     }
+    ],
+    "usageNote": "rue piétonne = 步行街。"
+   }
+  ]
+ },
+ {
+  "headword": "urbain",
+  "phonetic": "/yʁ.bɛ̃/",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "irregularForms": "阴性 urbaine；复数 urbains, urbaines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne la ville",
+    "translations": {
+     "zh": "城市的",
+     "en": "urban"
+    },
+    "examples": [
+     {
+      "text": "Le transport urbain est gratuit le dimanche.",
+      "translations": {
+       "zh": "市内交通周日免费。",
+       "en": "Urban transport is free on Sundays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rural",
+  "phonetic": "/ʁy.ʁal/",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "irregularForms": "阳性复数 ruraux；阴性 rurale(s)"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne la campagne",
+    "translations": {
+     "zh": "农村的；乡村的",
+     "en": "rural"
+    },
+    "examples": [
+     {
+      "text": "Il a grandi dans un village rural.",
+      "translations": {
+       "zh": "他在乡村长大。",
+       "en": "He grew up in a rural village."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ascenseur",
+  "phonetic": "/a.sɑ̃.sœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ascenseurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui monte et descend les étages",
+    "translations": {
+     "zh": "电梯",
+     "en": "lift, elevator"
+    },
+    "examples": [
+     {
+      "text": "L'ascenseur est en panne, prenons l'escalier.",
+      "cloze": "L'{{ascenseur}} est en panne, prenons l'escalier.",
+      "translations": {
+       "zh": "电梯坏了，我们走楼梯吧。",
+       "en": "The lift is out of order, let's take the stairs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rez-de-chaussée",
+  "phonetic": "/ʁed.ʃo.se/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "rez-de-chaussée（不变）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un bâtiment au niveau de la rue",
+    "translations": {
+     "zh": "底层；一楼",
+     "en": "ground floor"
+    },
+    "examples": [
+     {
+      "text": "La boulangerie est au rez-de-chaussée.",
+      "cloze": "La boulangerie est au {{rez-de-chaussée}}.",
+      "translations": {
+       "zh": "面包店在一楼。",
+       "en": "The bakery is on the ground floor."
+      }
+     }
+    ],
+    "usageNote": "法国的 rez-de-chaussée 相当于中国的一楼，premier étage 是二楼。"
+   }
+  ]
+ },
+ {
+  "headword": "cave",
+  "phonetic": "/kav/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "caves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce sous une maison ; lieu où l'on garde le vin",
+    "translations": {
+     "zh": "地窖；酒窖",
+     "en": "cellar"
+    },
+    "examples": [
+     {
+      "text": "On garde les vélos dans la cave.",
+      "translations": {
+       "zh": "我们把自行车放在地下室。",
+       "en": "We keep the bikes in the cellar."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "grenier",
+  "phonetic": "/ɡʁə.nje/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "greniers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'une maison sous le toit",
+    "translations": {
+     "zh": "阁楼",
+     "en": "attic, loft"
+    },
+    "examples": [
+     {
+      "text": "J'ai trouvé de vieilles photos au grenier.",
+      "translations": {
+       "zh": "我在阁楼找到了旧照片。",
+       "en": "I found some old photos in the attic."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

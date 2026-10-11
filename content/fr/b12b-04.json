@@ -1,0 +1,1504 @@
+[
+ {
+  "headword": "presse",
+  "phonetic": "/pʁɛs/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "presses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des journaux et des journalistes",
+    "translations": {
+     "zh": "报刊；新闻界",
+     "en": "the press"
+    },
+    "examples": [
+     {
+      "text": "La presse parle beaucoup de cette affaire.",
+      "translations": {
+       "zh": "新闻界对这件事报道很多。",
+       "en": "The press is talking a lot about this affair."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "article",
+  "phonetic": "/aʁ.tikl/",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "articles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "texte publié dans un journal ou sur un site",
+    "translations": {
+     "zh": "文章；条款；商品",
+     "en": "article"
+    },
+    "examples": [
+     {
+      "text": "J'ai lu un article intéressant sur l'économie.",
+      "translations": {
+       "zh": "我读了一篇关于经济的有趣文章。",
+       "en": "I read an interesting article about the economy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "journaliste",
+  "phonetic": "/ʒuʁ.na.list/",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "journalistes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui écrit ou présente l'information",
+    "translations": {
+     "zh": "记者",
+     "en": "journalist"
+    },
+    "examples": [
+     {
+      "text": "La journaliste a interviewé le maire.",
+      "translations": {
+       "zh": "那位女记者采访了市长。",
+       "en": "The journalist interviewed the mayor."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une journaliste。"
+   }
+  ]
+ },
+ {
+  "headword": "information",
+  "phonetic": "/ɛ̃.fɔʁ.ma.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "informations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "renseignement ; nouvelles données par les médias",
+    "translations": {
+     "zh": "信息；消息",
+     "en": "information"
+    },
+    "examples": [
+     {
+      "text": "Pour plus d'informations, consultez notre site.",
+      "cloze": "Pour plus d'{{informations}}, consultez notre site.",
+      "translations": {
+       "zh": "欲了解更多信息，请访问我们的网站。",
+       "en": "For more information, visit our website."
+      }
+     }
+    ],
+    "usageNote": "les informations（口语 les infos）= 新闻节目。可数名词，可用复数。"
+   }
+  ]
+ },
+ {
+  "headword": "actualité",
+  "phonetic": "/ak.tɥa.li.te/",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "actualités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des événements récents",
+    "translations": {
+     "zh": "时事；新闻",
+     "en": "current events, news"
+    },
+    "examples": [
+     {
+      "text": "Je suis l'actualité sur mon téléphone.",
+      "cloze": "Je suis l'{{actualité}} sur mon téléphone.",
+      "translations": {
+       "zh": "我在手机上关注时事。",
+       "en": "I follow the news on my phone."
+      }
+     }
+    ],
+    "usageNote": "les actualités（口语 les actus）= 新闻。"
+   }
+  ]
+ },
+ {
+  "headword": "nouvelle",
+  "phonetic": "/nu.vɛl/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "nouvelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "information sur un événement récent",
+    "translations": {
+     "zh": "消息；新闻",
+     "en": "piece of news"
+    },
+    "examples": [
+     {
+      "text": "J'ai une bonne nouvelle à t'annoncer !",
+      "translations": {
+       "zh": "我有个好消息要告诉你！",
+       "en": "I have some good news to tell you!"
+      }
+     }
+    ],
+    "usageNote": "Tu as des nouvelles de Marie ? = 你有玛丽的消息吗？"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "récit court",
+    "translations": {
+     "zh": "短篇小说",
+     "en": "short story"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "magazine",
+  "phonetic": "/ma.ɡa.zin/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "magazines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "publication illustrée qui paraît régulièrement",
+    "translations": {
+     "zh": "杂志",
+     "en": "magazine"
+    },
+    "examples": [
+     {
+      "text": "Elle lit un magazine de mode.",
+      "translations": {
+       "zh": "她在看时尚杂志。",
+       "en": "She is reading a fashion magazine."
+      }
+     }
+    ],
+    "usageNote": "注意是阳性：un magazine。"
+   }
+  ]
+ },
+ {
+  "headword": "émission",
+  "phonetic": "/e.mi.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "émissions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme de radio ou de télévision",
+    "translations": {
+     "zh": "（电视、广播）节目",
+     "en": "programme, show"
+    },
+    "examples": [
+     {
+      "text": "Cette émission passe tous les soirs à vingt heures.",
+      "translations": {
+       "zh": "这个节目每晚八点播出。",
+       "en": "This programme is on every evening at eight."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de rejeter un gaz dans l'air",
+    "translations": {
+     "zh": "排放",
+     "en": "emission"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "chaîne",
+  "phonetic": "/ʃɛn/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chaînes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "entreprise qui diffuse des émissions de télévision",
+    "translations": {
+     "zh": "（电视）频道；连锁店",
+     "en": "channel; chain"
+    },
+    "examples": [
+     {
+      "text": "Il change de chaîne toutes les cinq minutes.",
+      "translations": {
+       "zh": "他每五分钟就换一次台。",
+       "en": "He changes the channel every five minutes."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "suite d'anneaux en métal",
+    "translations": {
+     "zh": "链子",
+     "en": "chain"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "radio",
+  "phonetic": "/ʁa.djo/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "radios"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moyen de diffuser des sons ; appareil qui les reçoit",
+    "translations": {
+     "zh": "广播；收音机",
+     "en": "radio"
+    },
+    "examples": [
+     {
+      "text": "J'écoute la radio dans la voiture.",
+      "translations": {
+       "zh": "我在车里听广播。",
+       "en": "I listen to the radio in the car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "reportage",
+  "phonetic": "/ʁə.pɔʁ.taʒ/",
+  "cefr": "B1",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "reportages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "article ou émission sur un événement vu sur place",
+    "translations": {
+     "zh": "报道；纪实节目",
+     "en": "report, documentary"
+    },
+    "examples": [
+     {
+      "text": "J'ai vu un reportage sur la pollution.",
+      "translations": {
+       "zh": "我看了一个关于污染的纪实报道。",
+       "en": "I saw a report on pollution."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "interview",
+  "phonetic": "/ɛ̃.tɛʁ.vju/",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "interviews"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "entretien d'un journaliste avec une personne",
+    "translations": {
+     "zh": "采访；访谈",
+     "en": "interview"
+    },
+    "examples": [
+     {
+      "text": "L'actrice a donné une interview à la radio.",
+      "translations": {
+       "zh": "那位女演员接受了电台采访。",
+       "en": "The actress gave an interview on the radio."
+      }
+     }
+    ],
+    "usageNote": "求职面试说 un entretien，不说 interview。"
+   }
+  ]
+ },
+ {
+  "headword": "titre",
+  "phonetic": "/titʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "titres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nom d'un livre, d'un film, d'un article",
+    "translations": {
+     "zh": "标题；书名；头衔",
+     "en": "title; headline"
+    },
+    "examples": [
+     {
+      "text": "Le titre de l'article est un peu long.",
+      "translations": {
+       "zh": "这篇文章的标题有点长。",
+       "en": "The title of the article is a bit long."
+      }
+     }
+    ],
+    "usageNote": "les gros titres = 头条新闻。"
+   }
+  ]
+ },
+ {
+  "headword": "publicité",
+  "phonetic": "/py.bli.si.te/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "publicités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "message pour faire acheter un produit",
+    "translations": {
+     "zh": "广告",
+     "en": "advertising, advert"
+    },
+    "examples": [
+     {
+      "text": "Il y a trop de publicité à la télé.",
+      "translations": {
+       "zh": "电视上广告太多了。",
+       "en": "There is too much advertising on TV."
+      }
+     }
+    ],
+    "usageNote": "口语简称 la pub。"
+   }
+  ]
+ },
+ {
+  "headword": "annonce",
+  "phonetic": "/a.nɔ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "annonces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "message qui fait savoir quelque chose",
+    "translations": {
+     "zh": "通知；广告；启事",
+     "en": "announcement; ad"
+    },
+    "examples": [
+     {
+      "text": "J'ai trouvé mon appartement grâce à une annonce sur internet.",
+      "translations": {
+       "zh": "我通过网上的一则广告找到了公寓。",
+       "en": "I found my apartment through an ad online."
+      }
+     }
+    ],
+    "usageNote": "petites annonces = 分类广告。"
+   }
+  ]
+ },
+ {
+  "headword": "média",
+  "phonetic": "/me.dja/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "médias"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moyen de diffuser l'information : presse, radio, télé, internet",
+    "translations": {
+     "zh": "媒体",
+     "en": "medium; (the) media"
+    },
+    "examples": [
+     {
+      "text": "Les médias ont beaucoup parlé de ce scandale.",
+      "cloze": "Les {{médias}} ont beaucoup parlé de ce scandale.",
+      "translations": {
+       "zh": "媒体对这桩丑闻做了大量报道。",
+       "en": "The media talked a lot about this scandal."
+      }
+     }
+    ],
+    "usageNote": "常用复数 les médias。"
+   }
+  ]
+ },
+ {
+  "headword": "réseau",
+  "phonetic": "/ʁe.zo/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "réseaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de lignes ou de personnes reliées entre elles",
+    "translations": {
+     "zh": "网络；网",
+     "en": "network"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a pas de réseau dans ce village.",
+      "translations": {
+       "zh": "这个村子没有信号。",
+       "en": "There's no signal in this village."
+      }
+     }
+    ],
+    "usageNote": "复数 réseaux；réseau aussi指手机信号。"
+   }
+  ]
+ },
+ {
+  "headword": "réseau social",
+  "phonetic": "/ʁe.zo sɔ.sjal/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "réseaux sociaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "site où les gens partagent des contenus et échangent",
+    "translations": {
+     "zh": "社交网络",
+     "en": "social network"
+    },
+    "examples": [
+     {
+      "text": "Elle passe trop de temps sur les réseaux sociaux.",
+      "cloze": "Elle passe trop de temps sur les {{réseaux sociaux}}.",
+      "translations": {
+       "zh": "她在社交网络上花太多时间了。",
+       "en": "She spends too much time on social media."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "internet",
+  "phonetic": "/ɛ̃.tɛʁ.nɛt/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "réseau mondial qui relie les ordinateurs",
+    "translations": {
+     "zh": "互联网",
+     "en": "internet"
+    },
+    "examples": [
+     {
+      "text": "J'ai réservé le billet sur internet.",
+      "translations": {
+       "zh": "我在网上订了票。",
+       "en": "I booked the ticket online."
+      }
+     }
+    ],
+    "usageNote": "一般不加冠词：sur internet；也常写作大写 Internet。"
+   }
+  ]
+ },
+ {
+  "headword": "site",
+  "phonetic": "/sit/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de pages sur internet ; lieu",
+    "translations": {
+     "zh": "网站；遗址；地点",
+     "en": "website; site"
+    },
+    "examples": [
+     {
+      "text": "Vous trouverez les horaires sur notre site.",
+      "translations": {
+       "zh": "您可以在我们的网站上查到时间表。",
+       "en": "You'll find the timetable on our website."
+      }
+     }
+    ],
+    "usageNote": "site web / site internet = 网站。"
+   }
+  ]
+ },
+ {
+  "headword": "lien",
+  "phonetic": "/ljɛ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "liens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "adresse sur laquelle on clique ; relation",
+    "translations": {
+     "zh": "链接；联系；纽带",
+     "en": "link; bond"
+    },
+    "examples": [
+     {
+      "text": "Je t'envoie le lien de la vidéo.",
+      "translations": {
+       "zh": "我把视频链接发给你。",
+       "en": "I'll send you the link to the video."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "télécharger",
+  "phonetic": "/te.le.ʃaʁ.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "conjugation": "-ger 动词：je télécharge, nous téléchargeons；过去分词 téléchargé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "copier un fichier depuis internet",
+    "translations": {
+     "zh": "下载",
+     "en": "to download"
+    },
+    "examples": [
+     {
+      "text": "Tu peux télécharger l'application gratuitement.",
+      "translations": {
+       "zh": "你可以免费下载这个应用。",
+       "en": "You can download the app for free."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "publier",
+  "phonetic": "/py.bli.je/",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je publie, nous publions；过去分词 publié"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire paraître un texte, une photo",
+    "translations": {
+     "zh": "出版；发表；发布",
+     "en": "to publish, to post"
+    },
+    "examples": [
+     {
+      "text": "Il a publié une photo de ses vacances.",
+      "cloze": "Il a {{publié}} une photo de ses vacances.",
+      "translations": {
+       "zh": "他发布了一张度假照片。",
+       "en": "He posted a photo from his holiday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "partager",
+  "phonetic": "/paʁ.ta.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "conjugation": "-ger 动词：je partage, nous partageons；过去分词 partagé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "diviser entre plusieurs personnes ; faire connaître à d'autres",
+    "translations": {
+     "zh": "分享；分担；分配",
+     "en": "to share"
+    },
+    "examples": [
+     {
+      "text": "N'hésitez pas à partager cet article.",
+      "translations": {
+       "zh": "欢迎分享这篇文章。",
+       "en": "Feel free to share this article."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "commentaire",
+  "phonetic": "/kɔ.mɑ̃.tɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "commentaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "remarque sur un sujet, souvent écrite sous un article",
+    "translations": {
+     "zh": "评论；评语",
+     "en": "comment"
+    },
+    "examples": [
+     {
+      "text": "Laissez un commentaire sous la vidéo.",
+      "translations": {
+       "zh": "请在视频下面留言评论。",
+       "en": "Leave a comment under the video."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "abonnement",
+  "phonetic": "/a.bɔn.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 5100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "abonnements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "contrat pour recevoir un service régulier",
+    "translations": {
+     "zh": "订阅；月票；套餐",
+     "en": "subscription; pass"
+    },
+    "examples": [
+     {
+      "text": "J'ai un abonnement mensuel pour le métro.",
+      "translations": {
+       "zh": "我办了地铁月票。",
+       "en": "I have a monthly metro pass."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'abonner",
+  "phonetic": "/sa.bɔ.ne/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "conjugation": "代词式第一组规则动词：je m'abonne, nous nous abonnons；复合时态用 être：je me suis abonné"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre un abonnement",
+    "translations": {
+     "zh": "订阅；关注",
+     "en": "to subscribe"
+    },
+    "examples": [
+     {
+      "text": "Je me suis abonné à sa chaîne.",
+      "cloze": "Je me suis {{abonné}} à sa chaîne.",
+      "translations": {
+       "zh": "我订阅了他的频道。",
+       "en": "I subscribed to his channel."
+      }
+     }
+    ],
+    "usageNote": "s'abonner à qqch。"
+   }
+  ]
+ },
+ {
+  "headword": "vidéo",
+  "phonetic": "/vi.de.o/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vidéos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "film court qu'on regarde sur un écran",
+    "translations": {
+     "zh": "视频；录像",
+     "en": "video"
+    },
+    "examples": [
+     {
+      "text": "Cette vidéo a été vue un million de fois.",
+      "translations": {
+       "zh": "这个视频的观看次数达到了一百万。",
+       "en": "This video has been viewed a million times."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "écran",
+  "phonetic": "/e.kʁɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "écrans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "surface où apparaissent les images",
+    "translations": {
+     "zh": "屏幕",
+     "en": "screen"
+    },
+    "examples": [
+     {
+      "text": "Les enfants passent trop de temps devant les écrans.",
+      "cloze": "Les enfants passent trop de temps devant les {{écrans}}.",
+      "translations": {
+       "zh": "孩子们在屏幕前待的时间太长了。",
+       "en": "Children spend too much time in front of screens."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "message",
+  "phonetic": "/me.saʒ/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "messages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "information envoyée à quelqu'un",
+    "translations": {
+     "zh": "消息；留言；信息",
+     "en": "message"
+    },
+    "examples": [
+     {
+      "text": "Je t'ai laissé un message sur ton répondeur.",
+      "translations": {
+       "zh": "我在你的语音信箱里留了言。",
+       "en": "I left you a message on your voicemail."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "courriel",
+  "phonetic": "/ku.ʁjɛl/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "courriels"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "message envoyé par internet",
+    "translations": {
+     "zh": "电子邮件",
+     "en": "email"
+    },
+    "examples": [
+     {
+      "text": "Merci de répondre à ce courriel avant vendredi.",
+      "translations": {
+       "zh": "请在周五前回复此邮件。",
+       "en": "Please reply to this email before Friday."
+      }
+     }
+    ],
+    "usageNote": "法国口语多说 un mail / un e-mail；courriel 更正式。"
+   }
+  ]
+ },
+ {
+  "headword": "mot de passe",
+  "phonetic": "/mo.də.pɑs/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mots de passe"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mot secret pour accéder à un compte",
+    "translations": {
+     "zh": "密码",
+     "en": "password"
+    },
+    "examples": [
+     {
+      "text": "J'ai oublié mon mot de passe.",
+      "cloze": "J'ai oublié mon {{mot de passe}}.",
+      "translations": {
+       "zh": "我忘了密码。",
+       "en": "I forgot my password."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "application",
+  "phonetic": "/a.pli.ka.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "applications"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme qu'on utilise sur un téléphone ou un ordinateur",
+    "translations": {
+     "zh": "应用程序",
+     "en": "app, application"
+    },
+    "examples": [
+     {
+      "text": "Tu peux réserver avec cette application.",
+      "translations": {
+       "zh": "你可以用这个应用预订。",
+       "en": "You can book with this app."
+      }
+     }
+    ],
+    "usageNote": "口语简称 une appli。"
+   }
+  ]
+ },
+ {
+  "headword": "logiciel",
+  "phonetic": "/lɔ.ʒi.sjɛl/",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "logiciels"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme informatique",
+    "translations": {
+     "zh": "软件",
+     "en": "software, program"
+    },
+    "examples": [
+     {
+      "text": "Il faut installer ce logiciel sur ton ordinateur.",
+      "translations": {
+       "zh": "你得在电脑上安装这个软件。",
+       "en": "You need to install this software on your computer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "donnée",
+  "phonetic": "/dɔ.ne/",
+  "cefr": "B2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "données"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "information utilisée par un ordinateur ou une étude",
+    "translations": {
+     "zh": "数据；资料",
+     "en": "data, piece of data"
+    },
+    "examples": [
+     {
+      "text": "Ce site protège-t-il vos données personnelles ?",
+      "cloze": "Ce site protège-t-il vos {{données}} personnelles ?",
+      "translations": {
+       "zh": "这个网站会保护你的个人数据吗？",
+       "en": "Does this site protect your personal data?"
+      }
+     }
+    ],
+    "usageNote": "常用复数 les données。"
+   }
+  ]
+ },
+ {
+  "headword": "fichier",
+  "phonetic": "/fi.ʃje/",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fichiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble d'informations enregistrées dans un ordinateur",
+    "translations": {
+     "zh": "文件；档案",
+     "en": "file"
+    },
+    "examples": [
+     {
+      "text": "Envoie-moi le fichier en pièce jointe.",
+      "translations": {
+       "zh": "把文件作为附件发给我。",
+       "en": "Send me the file as an attachment."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en ligne",
+  "phonetic": "/ɑ̃ liɲ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "sur internet ; connecté",
+    "translations": {
+     "zh": "在线；网上",
+     "en": "online"
+    },
+    "examples": [
+     {
+      "text": "On peut payer ses impôts en ligne.",
+      "cloze": "On peut payer ses impôts {{en ligne}}.",
+      "translations": {
+       "zh": "可以在网上缴税。",
+       "en": "You can pay your taxes online."
+      }
+     }
+    ],
+    "usageNote": "打电话时 être en ligne 指“正在通话”。"
+   }
+  ]
+ },
+ {
+  "headword": "connexion",
+  "phonetic": "/kɔ.nɛk.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "connexions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lien avec un réseau, surtout internet",
+    "translations": {
+     "zh": "连接；网络连接",
+     "en": "connection"
+    },
+    "examples": [
+     {
+      "text": "La connexion est très lente ici.",
+      "translations": {
+       "zh": "这里网速很慢。",
+       "en": "The connection is very slow here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se connecter",
+  "phonetic": "/sə kɔ.nɛk.te/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "conjugation": "代词式第一组规则动词：je me connecte, nous nous connectons；复合时态用 être"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "accéder à internet ou à son compte",
+    "translations": {
+     "zh": "登录；连接",
+     "en": "to log in, to connect"
+    },
+    "examples": [
+     {
+      "text": "Connectez-vous pour voir votre commande.",
+      "cloze": "{{Connectez-vous}} pour voir votre commande.",
+      "translations": {
+       "zh": "请登录查看您的订单。",
+       "en": "Log in to see your order."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "moteur de recherche",
+  "phonetic": "/mɔ.tœʁ də ʁə.ʃɛʁʃ/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "moteurs de recherche"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "site qui permet de trouver des pages sur internet",
+    "translations": {
+     "zh": "搜索引擎",
+     "en": "search engine"
+    },
+    "examples": [
+     {
+      "text": "Tape le nom de l'hôtel dans un moteur de recherche.",
+      "cloze": "Tape le nom de l'hôtel dans un {{moteur de recherche}}.",
+      "translations": {
+       "zh": "在搜索引擎里输入酒店名称。",
+       "en": "Type the hotel's name into a search engine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rumeur",
+  "phonetic": "/ʁy.mœʁ/",
+  "cefr": "B2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "rumeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "information non vérifiée qui circule",
+    "translations": {
+     "zh": "谣言；传闻",
+     "en": "rumour"
+    },
+    "examples": [
+     {
+      "text": "Il ne faut pas croire toutes les rumeurs.",
+      "cloze": "Il ne faut pas croire toutes les {{rumeurs}}.",
+      "translations": {
+       "zh": "不要相信所有的传言。",
+       "en": "You shouldn't believe every rumour."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "source",
+  "phonetic": "/suʁs/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sources"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "origine d'une information ; endroit où naît une rivière",
+    "translations": {
+     "zh": "来源；出处；泉",
+     "en": "source; spring"
+    },
+    "examples": [
+     {
+      "text": "Un bon journaliste vérifie toujours ses sources.",
+      "cloze": "Un bon journaliste vérifie toujours ses {{sources}}.",
+      "translations": {
+       "zh": "好记者总会核实消息来源。",
+       "en": "A good journalist always checks their sources."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "opinion",
+  "phonetic": "/ɔ.pi.njɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "opinions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on pense sur un sujet",
+    "translations": {
+     "zh": "意见；看法；舆论",
+     "en": "opinion"
+    },
+    "examples": [
+     {
+      "text": "Chacun a le droit d'avoir son opinion.",
+      "translations": {
+       "zh": "每个人都有权持有自己的看法。",
+       "en": "Everyone has the right to their opinion."
+      }
+     }
+    ],
+    "usageNote": "l'opinion publique = 公众舆论。"
+   }
+  ]
+ },
+ {
+  "headword": "sondage",
+  "phonetic": "/sɔ̃.daʒ/",
+  "cefr": "B2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sondages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "enquête pour connaître l'opinion des gens",
+    "translations": {
+     "zh": "民意调查",
+     "en": "poll, survey"
+    },
+    "examples": [
+     {
+      "text": "Selon un sondage, la majorité est contre ce projet.",
+      "translations": {
+       "zh": "根据一项民调，大多数人反对这个项目。",
+       "en": "According to a poll, the majority is against this project."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lecteur",
+  "phonetic": "/lɛk.tœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lecteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui lit un journal, un livre",
+    "translations": {
+     "zh": "读者",
+     "en": "reader"
+    },
+    "examples": [
+     {
+      "text": "Ce journal a perdu beaucoup de lecteurs.",
+      "cloze": "Ce journal a perdu beaucoup de {{lecteurs}}.",
+      "translations": {
+       "zh": "这份报纸流失了很多读者。",
+       "en": "This newspaper has lost a lot of readers."
+      }
+     }
+    ],
+    "usageNote": "阴性 lectrice；也指播放器：lecteur de DVD。"
+   }
+  ]
+ },
+ {
+  "headword": "événement",
+  "phonetic": "/e.vɛn.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "événements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose importante qui arrive",
+    "translations": {
+     "zh": "事件；大事",
+     "en": "event"
+    },
+    "examples": [
+     {
+      "text": "Ce concert est l'événement de l'année.",
+      "cloze": "Ce concert est l'{{événement}} de l'année.",
+      "translations": {
+       "zh": "这场音乐会是年度盛事。",
+       "en": "This concert is the event of the year."
+      }
+     }
+    ],
+    "usageNote": "也拼作 évènement。"
+   }
+  ]
+ },
+ {
+  "headword": "blog",
+  "phonetic": "/blɔɡ/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "blogs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "site personnel où on publie des articles",
+    "translations": {
+     "zh": "博客",
+     "en": "blog"
+    },
+    "examples": [
+     {
+      "text": "Elle raconte ses voyages sur son blog.",
+      "translations": {
+       "zh": "她在博客上讲述自己的旅行。",
+       "en": "She writes about her travels on her blog."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cliquer",
+  "phonetic": "/kli.ke/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je clique, nous cliquons；过去分词 cliqué"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "appuyer sur le bouton de la souris",
+    "translations": {
+     "zh": "点击",
+     "en": "to click"
+    },
+    "examples": [
+     {
+      "text": "Cliquez ici pour vous inscrire.",
+      "cloze": "{{Cliquez}} ici pour vous inscrire.",
+      "translations": {
+       "zh": "点击这里注册。",
+       "en": "Click here to sign up."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "imprimer",
+  "phonetic": "/ɛ̃.pʁi.me/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'imprime, nous imprimons；过去分词 imprimé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "reproduire un texte sur du papier",
+    "translations": {
+     "zh": "打印；印刷",
+     "en": "to print"
+    },
+    "examples": [
+     {
+      "text": "Je dois imprimer mon billet de train.",
+      "translations": {
+       "zh": "我得把火车票打印出来。",
+       "en": "I need to print my train ticket."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "enregistrer",
+  "phonetic": "/ɑ̃.ʁə.ʒis.tʁe/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'enregistre, nous enregistrons；过去分词 enregistré"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "garder des sons, des images ou des données",
+    "translations": {
+     "zh": "录制；保存；登记",
+     "en": "to record; to save"
+    },
+    "examples": [
+     {
+      "text": "N'oublie pas d'enregistrer ton document.",
+      "cloze": "N'oublie pas d'{{enregistrer}} ton document.",
+      "translations": {
+       "zh": "别忘了保存文档。",
+       "en": "Don't forget to save your document."
+      }
+     }
+    ],
+    "usageNote": "在机场 enregistrer ses bagages = 托运行李。"
+   }
+  ]
+ }
+]

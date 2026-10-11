@@ -1,0 +1,1683 @@
+[
+ {
+  "headword": "théorie",
+  "phonetic": "/te.ɔ.ʁi/",
+  "cefr": "B2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "théories"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble d'idées qui expliquent un phénomène",
+    "translations": {
+     "zh": "理论",
+     "en": "theory"
+    },
+    "examples": [
+     {
+      "text": "En théorie, c'est possible.",
+      "translations": {
+       "zh": "理论上这是可能的。",
+       "en": "In theory, it's possible."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "analyser",
+  "phonetic": "/a.na.li.ze/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "étudier en détail",
+    "translations": {
+     "zh": "分析",
+     "en": "to analyse"
+    },
+    "examples": [
+     {
+      "text": "Il faut analyser ces résultats.",
+      "translations": {
+       "zh": "需要分析这些结果。",
+       "en": "These results need to be analysed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "résultat",
+  "phonetic": "/ʁe.zyl.ta/",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "résultats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on obtient à la fin",
+    "translations": {
+     "zh": "结果；成绩",
+     "en": "result"
+    },
+    "examples": [
+     {
+      "text": "Le résultat de l'expérience est surprenant.",
+      "translations": {
+       "zh": "实验结果出人意料。",
+       "en": "The result of the experiment is surprising."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "prouver",
+  "phonetic": "/pʁu.ve/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "montrer que quelque chose est vrai",
+    "translations": {
+     "zh": "证明",
+     "en": "to prove"
+    },
+    "examples": [
+     {
+      "text": "Il est difficile de prouver cette idée.",
+      "translations": {
+       "zh": "这个观点很难证明。",
+       "en": "This idea is hard to prove."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "preuve",
+  "phonetic": "/pʁœv/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "preuves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qui montre qu'une chose est vraie",
+    "translations": {
+     "zh": "证据；证明",
+     "en": "proof, evidence"
+    },
+    "examples": [
+     {
+      "text": "Vous n'avez aucune preuve.",
+      "translations": {
+       "zh": "您没有任何证据。",
+       "en": "You have no proof."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "outil",
+  "phonetic": "/u.ti/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "outils"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet qui sert à faire un travail",
+    "translations": {
+     "zh": "工具",
+     "en": "tool"
+    },
+    "examples": [
+     {
+      "text": "Internet est un outil formidable.",
+      "translations": {
+       "zh": "互联网是很棒的工具。",
+       "en": "The Internet is a great tool."
+      }
+     }
+    ],
+    "usageNote": "l 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "machine",
+  "phonetic": "/ma.ʃin/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "machines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui fait un travail",
+    "translations": {
+     "zh": "机器",
+     "en": "machine"
+    },
+    "examples": [
+     {
+      "text": "Mets ton linge dans la machine.",
+      "translations": {
+       "zh": "把你的衣服放进洗衣机。",
+       "en": "Put your clothes in the machine."
+      }
+     }
+    ],
+    "usageNote": "machine à laver = 洗衣机。"
+   }
+  ]
+ },
+ {
+  "headword": "virtuel",
+  "phonetic": "/viʁ.tɥɛl/",
+  "cefr": "B2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "irregularForms": "阴性 virtuelle；复数 virtuels, virtuelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui existe sur un ordinateur, pas dans la réalité",
+    "translations": {
+     "zh": "虚拟的",
+     "en": "virtual"
+    },
+    "examples": [
+     {
+      "text": "Il passe sa vie dans un monde virtuel.",
+      "translations": {
+       "zh": "他整天生活在虚拟世界里。",
+       "en": "He spends his life in a virtual world."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mettre à jour",
+  "phonetic": "/mɛtʁ.a.ʒuʁ/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "rendre plus récent, installer la dernière version",
+    "translations": {
+     "zh": "更新",
+     "en": "to update"
+    },
+    "examples": [
+     {
+      "text": "Il faut mettre à jour l'application.",
+      "cloze": "Il faut {{mettre à jour}} l'application.",
+      "translations": {
+       "zh": "需要更新这个应用。",
+       "en": "You need to update the app."
+      }
+     }
+    ],
+    "usageNote": "mettre 不规则变位：je mets à jour；名词 une mise à jour。"
+   }
+  ]
+ },
+ {
+  "headword": "séjour",
+  "phonetic": "/se.ʒuʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "séjours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de rester quelque temps dans un lieu",
+    "translations": {
+     "zh": "逗留；旅居",
+     "en": "stay"
+    },
+    "examples": [
+     {
+      "text": "Bon séjour à Paris !",
+      "translations": {
+       "zh": "祝您在巴黎玩得愉快！",
+       "en": "Enjoy your stay in Paris!"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce principale d'un appartement",
+    "translations": {
+     "zh": "客厅；起居室",
+     "en": "living room"
+    },
+    "examples": [
+     {
+      "text": "Le séjour donne sur le jardin.",
+      "translations": {
+       "zh": "客厅朝向花园。",
+       "en": "The living room looks onto the garden."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réservation",
+  "phonetic": "/ʁe.zɛʁ.va.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réservations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de réserver une place, une chambre, une table",
+    "translations": {
+     "zh": "预订",
+     "en": "booking, reservation"
+    },
+    "examples": [
+     {
+      "text": "J'ai une réservation au nom de Wang.",
+      "translations": {
+       "zh": "我用王的名字预订了。",
+       "en": "I have a booking under the name Wang."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réserver",
+  "phonetic": "/ʁe.zɛʁ.ve/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "demander à l'avance une place, une chambre",
+    "translations": {
+     "zh": "预订；预定",
+     "en": "to book, to reserve"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais réserver une table pour deux.",
+      "translations": {
+       "zh": "我想订一张两人桌。",
+       "en": "I'd like to book a table for two."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "passeport",
+  "phonetic": "/pas.pɔʁ/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "passeports"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document officiel pour voyager à l'étranger",
+    "translations": {
+     "zh": "护照",
+     "en": "passport"
+    },
+    "examples": [
+     {
+      "text": "N'oublie pas ton passeport !",
+      "translations": {
+       "zh": "别忘了你的护照！",
+       "en": "Don't forget your passport!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "valise",
+  "phonetic": "/va.liz/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "valises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand sac rigide pour transporter ses affaires en voyage",
+    "translations": {
+     "zh": "行李箱；手提箱",
+     "en": "suitcase"
+    },
+    "examples": [
+     {
+      "text": "Ma valise est trop lourde.",
+      "translations": {
+       "zh": "我的行李箱太重了。",
+       "en": "My suitcase is too heavy."
+      }
+     }
+    ],
+    "usageNote": "faire sa valise = 收拾行李。"
+   }
+  ]
+ },
+ {
+  "headword": "bagage",
+  "phonetic": "/ba.ɡaʒ/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bagages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sac ou valise qu'on emporte en voyage",
+    "translations": {
+     "zh": "行李",
+     "en": "luggage, bag"
+    },
+    "examples": [
+     {
+      "text": "Vous avez un seul bagage ?",
+      "translations": {
+       "zh": "您只有一件行李吗？",
+       "en": "Do you only have one bag?"
+      }
+     }
+    ],
+    "usageNote": "常用复数 les bagages；bagage à main = 手提行李。"
+   }
+  ]
+ },
+ {
+  "headword": "touriste",
+  "phonetic": "/tu.ʁist/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "touristes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui voyage pour son plaisir",
+    "translations": {
+     "zh": "游客；观光客",
+     "en": "tourist"
+    },
+    "examples": [
+     {
+      "text": "Ce touriste cherche la tour Eiffel.",
+      "translations": {
+       "zh": "这位游客在找埃菲尔铁塔。",
+       "en": "This tourist is looking for the Eiffel Tower."
+      }
+     }
+    ],
+    "usageNote": "un touriste / une touriste。"
+   }
+  ]
+ },
+ {
+  "headword": "tourisme",
+  "phonetic": "/tu.ʁism/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tourismes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de voyager pour son plaisir ; activité économique liée",
+    "translations": {
+     "zh": "旅游；旅游业",
+     "en": "tourism"
+    },
+    "examples": [
+     {
+      "text": "Le tourisme est important pour l'économie française.",
+      "translations": {
+       "zh": "旅游业对法国经济很重要。",
+       "en": "Tourism is important for the French economy."
+      }
+     }
+    ],
+    "usageNote": "office de tourisme = 旅游咨询处。"
+   }
+  ]
+ },
+ {
+  "headword": "touristique",
+  "phonetic": "/tu.ʁis.tik/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui attire les touristes",
+    "translations": {
+     "zh": "旅游的；游客多的",
+     "en": "tourist, touristy"
+    },
+    "examples": [
+     {
+      "text": "Ce quartier est très touristique.",
+      "translations": {
+       "zh": "这个街区游客很多。",
+       "en": "This area is very touristy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "destination",
+  "phonetic": "/dɛs.ti.na.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "destinations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on va",
+    "translations": {
+     "zh": "目的地",
+     "en": "destination"
+    },
+    "examples": [
+     {
+      "text": "Quelle est votre destination ?",
+      "translations": {
+       "zh": "您的目的地是哪里？",
+       "en": "What is your destination?"
+      }
+     }
+    ],
+    "usageNote": "à destination de Lyon = 开往里昂。"
+   }
+  ]
+ },
+ {
+  "headword": "itinéraire",
+  "phonetic": "/i.ti.ne.ʁɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "itinéraires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chemin à suivre pour aller d'un lieu à un autre",
+    "translations": {
+     "zh": "路线；行程",
+     "en": "route, itinerary"
+    },
+    "examples": [
+     {
+      "text": "On a préparé notre itinéraire en Italie.",
+      "translations": {
+       "zh": "我们规划好了在意大利的路线。",
+       "en": "We've planned our route in Italy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "excursion",
+  "phonetic": "/ɛks.kyʁ.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "excursions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit voyage pour visiter un endroit",
+    "translations": {
+     "zh": "短途旅行；远足",
+     "en": "excursion, trip"
+    },
+    "examples": [
+     {
+      "text": "Demain, nous faisons une excursion en bateau.",
+      "translations": {
+       "zh": "明天我们坐船出游。",
+       "en": "Tomorrow we're going on a boat trip."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "guide",
+  "phonetic": "/ɡid/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "guides"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait visiter un lieu",
+    "translations": {
+     "zh": "导游；向导",
+     "en": "guide"
+    },
+    "examples": [
+     {
+      "text": "Notre guide parle chinois.",
+      "translations": {
+       "zh": "我们的导游会说中文。",
+       "en": "Our guide speaks Chinese."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "livre qui donne des informations aux voyageurs",
+    "translations": {
+     "zh": "旅游指南",
+     "en": "guidebook"
+    },
+    "examples": [
+     {
+      "text": "J'ai acheté un guide sur la Provence.",
+      "translations": {
+       "zh": "我买了一本普罗旺斯的旅游指南。",
+       "en": "I bought a guidebook on Provence."
+      }
+     }
+    ],
+    "usageNote": "作为“指南书”时是阳性 un guide。"
+   }
+  ]
+ },
+ {
+  "headword": "croisière",
+  "phonetic": "/kʁwa.zjɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "croisières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "voyage de plaisir en bateau",
+    "translations": {
+     "zh": "乘船游览；邮轮旅行",
+     "en": "cruise"
+    },
+    "examples": [
+     {
+      "text": "Mes parents partent en croisière.",
+      "translations": {
+       "zh": "我父母去坐邮轮旅行了。",
+       "en": "My parents are going on a cruise."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "randonnée",
+  "phonetic": "/ʁɑ̃.dɔ.ne/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "randonnées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "longue promenade à pied dans la nature",
+    "translations": {
+     "zh": "徒步旅行；远足",
+     "en": "hike"
+    },
+    "examples": [
+     {
+      "text": "On fait une randonnée en montagne dimanche.",
+      "translations": {
+       "zh": "我们周日去山里徒步。",
+       "en": "We're going hiking in the mountains on Sunday."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 la rando。"
+   }
+  ]
+ },
+ {
+  "headword": "auberge de jeunesse",
+  "phonetic": "/o.bɛʁʒ.də.ʒœ.nɛs/",
+  "cefr": "B1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "auberges de jeunesse"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "logement bon marché pour les jeunes voyageurs",
+    "translations": {
+     "zh": "青年旅舍",
+     "en": "youth hostel"
+    },
+    "examples": [
+     {
+      "text": "Nous dormons dans une auberge de jeunesse.",
+      "cloze": "Nous dormons dans une {{auberge de jeunesse}}.",
+      "translations": {
+       "zh": "我们住在青年旅舍。",
+       "en": "We're sleeping in a youth hostel."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "location",
+  "phonetic": "/lɔ.ka.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "locations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de louer un logement, une voiture",
+    "translations": {
+     "zh": "租赁；出租",
+     "en": "rental, renting"
+    },
+    "examples": [
+     {
+      "text": "La location d'une voiture coûte cher ici.",
+      "translations": {
+       "zh": "这里租车很贵。",
+       "en": "Renting a car is expensive here."
+      }
+     }
+    ],
+    "usageNote": "易错：location 不是“位置”，而是“租赁”。"
+   }
+  ]
+ },
+ {
+  "headword": "louer",
+  "phonetic": "/lwe/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "payer pour utiliser un logement ou un objet ; le donner en échange d'argent",
+    "translations": {
+     "zh": "租；出租",
+     "en": "to rent; to rent out"
+    },
+    "examples": [
+     {
+      "text": "Nous allons louer un appartement près de la mer.",
+      "translations": {
+       "zh": "我们要在海边租一套公寓。",
+       "en": "We're going to rent a flat near the sea."
+      }
+     }
+    ],
+    "usageNote": "租进、租出都用 louer：à louer = 招租。"
+   }
+  ]
+ },
+ {
+  "headword": "hébergement",
+  "phonetic": "/e.bɛʁʒ.mɑ̃/",
+  "cefr": "B2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "hébergements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on peut dormir pendant un voyage",
+    "translations": {
+     "zh": "住宿",
+     "en": "accommodation"
+    },
+    "examples": [
+     {
+      "text": "Le prix comprend le transport et l'hébergement.",
+      "cloze": "Le prix comprend le transport et l'{{hébergement}}.",
+      "translations": {
+       "zh": "价格包含交通和住宿。",
+       "en": "The price includes transport and accommodation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vol",
+  "phonetic": "/vɔl/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vols"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "voyage en avion",
+    "translations": {
+     "zh": "航班；飞行",
+     "en": "flight"
+    },
+    "examples": [
+     {
+      "text": "Notre vol a deux heures de retard.",
+      "translations": {
+       "zh": "我们的航班晚点两小时。",
+       "en": "Our flight is two hours late."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de prendre ce qui est à un autre",
+    "translations": {
+     "zh": "偷窃；盗窃",
+     "en": "theft"
+    },
+    "examples": [
+     {
+      "text": "Il a été victime d'un vol.",
+      "translations": {
+       "zh": "他被偷了东西。",
+       "en": "He was the victim of a theft."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "escale",
+  "phonetic": "/ɛs.kal/",
+  "cefr": "B2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "escales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "arrêt pendant un voyage en avion ou en bateau",
+    "translations": {
+     "zh": "中途停留；经停",
+     "en": "stopover"
+    },
+    "examples": [
+     {
+      "text": "Le vol fait escale à Dubaï.",
+      "translations": {
+       "zh": "航班在迪拜经停。",
+       "en": "The flight stops over in Dubai."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "embarquement",
+  "phonetic": "/ɑ̃.baʁ.kə.mɑ̃/",
+  "cefr": "B2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "embarquements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de monter dans un avion ou un bateau",
+    "translations": {
+     "zh": "登机；登船",
+     "en": "boarding"
+    },
+    "examples": [
+     {
+      "text": "L'embarquement commence à 9 heures.",
+      "cloze": "L'{{embarquement}} commence à 9 heures.",
+      "translations": {
+       "zh": "九点开始登机。",
+       "en": "Boarding starts at 9 o'clock."
+      }
+     }
+    ],
+    "usageNote": "carte d'embarquement = 登机牌。"
+   }
+  ]
+ },
+ {
+  "headword": "douane",
+  "phonetic": "/dwan/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "douanes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "service qui contrôle les marchandises à la frontière",
+    "translations": {
+     "zh": "海关",
+     "en": "customs"
+    },
+    "examples": [
+     {
+      "text": "Nous avons passé la douane rapidement.",
+      "translations": {
+       "zh": "我们很快就过了海关。",
+       "en": "We went through customs quickly."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "visa",
+  "phonetic": "/vi.za/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "visas"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "autorisation d'entrer dans un pays",
+    "translations": {
+     "zh": "签证",
+     "en": "visa"
+    },
+    "examples": [
+     {
+      "text": "J'ai demandé un visa étudiant.",
+      "translations": {
+       "zh": "我申请了学生签证。",
+       "en": "I applied for a student visa."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "décalage horaire",
+  "phonetic": "/de.ka.laʒ.ɔ.ʁɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "décalages horaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "différence d'heure entre deux pays ; fatigue qu'elle provoque",
+    "translations": {
+     "zh": "时差",
+     "en": "time difference; jet lag"
+    },
+    "examples": [
+     {
+      "text": "Le décalage horaire avec la Chine est de six heures en été.",
+      "cloze": "Le {{décalage horaire}} avec la Chine est de six heures en été.",
+      "translations": {
+       "zh": "夏天和中国的时差是六小时。",
+       "en": "In summer, the time difference with China is six hours."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "souvenir",
+  "phonetic": "/suv.niʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "souvenirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on garde en mémoire",
+    "translations": {
+     "zh": "回忆",
+     "en": "memory"
+    },
+    "examples": [
+     {
+      "text": "C'est un souvenir d'enfance.",
+      "translations": {
+       "zh": "这是童年的回忆。",
+       "en": "It's a childhood memory."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit objet qu'on rapporte d'un voyage",
+    "translations": {
+     "zh": "纪念品",
+     "en": "souvenir"
+    },
+    "examples": [
+     {
+      "text": "J'ai acheté des souvenirs pour mes amis.",
+      "translations": {
+       "zh": "我给朋友们买了纪念品。",
+       "en": "I bought souvenirs for my friends."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dépaysement",
+  "phonetic": "/de.pe.iz.mɑ̃/",
+  "cefr": "B2",
+  "frequencyRank": 18000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dépaysements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "impression agréable de changer complètement de cadre",
+    "translations": {
+     "zh": "异域感；换个环境的新鲜感",
+     "en": "change of scenery"
+    },
+    "examples": [
+     {
+      "text": "Au Maroc, le dépaysement est total.",
+      "translations": {
+       "zh": "在摩洛哥，异域风情扑面而来。",
+       "en": "In Morocco, it's a complete change of scenery."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "étranger",
+  "phonetic": "/e.tʁɑ̃.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "irregularForms": "阴性 étrangère；复数 étrangers, étrangères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vient d'un autre pays",
+    "translations": {
+     "zh": "外国的；陌生的",
+     "en": "foreign"
+    },
+    "examples": [
+     {
+      "text": "Il y a un étudiant étranger dans ma classe.",
+      "translations": {
+       "zh": "我班上有一个外国学生。",
+       "en": "There's a foreign student in my class."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "pays autres que le sien",
+    "translations": {
+     "zh": "国外",
+     "en": "abroad"
+    },
+    "examples": [
+     {
+      "text": "Elle a fait ses études à l'étranger.",
+      "translations": {
+       "zh": "她在国外上的学。",
+       "en": "She studied abroad."
+      }
+     }
+    ],
+    "usageNote": "à l'étranger = 在国外 / 去国外。"
+   }
+  ]
+ },
+ {
+  "headword": "atterrir",
+  "phonetic": "/a.te.ʁiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：j'atterris, nous atterrissons；过去分词 atterri"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se poser sur le sol (avion)",
+    "translations": {
+     "zh": "着陆；降落",
+     "en": "to land"
+    },
+    "examples": [
+     {
+      "text": "L'avion va atterrir dans dix minutes.",
+      "translations": {
+       "zh": "飞机将在十分钟后降落。",
+       "en": "The plane will land in ten minutes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "décoller",
+  "phonetic": "/de.kɔ.le/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "quitter le sol (avion)",
+    "translations": {
+     "zh": "起飞",
+     "en": "to take off"
+    },
+    "examples": [
+     {
+      "text": "Notre avion doit décoller à midi.",
+      "translations": {
+       "zh": "我们的飞机中午起飞。",
+       "en": "Our plane is due to take off at noon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "retard",
+  "phonetic": "/ʁə.taʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "retards"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'arriver après l'heure prévue",
+    "translations": {
+     "zh": "迟到；晚点；延误",
+     "en": "delay, lateness"
+    },
+    "examples": [
+     {
+      "text": "Le train a vingt minutes de retard.",
+      "translations": {
+       "zh": "火车晚点二十分钟。",
+       "en": "The train is twenty minutes late."
+      }
+     }
+    ],
+    "usageNote": "être en retard = 迟到。"
+   }
+  ]
+ },
+ {
+  "headword": "annuler",
+  "phonetic": "/a.ny.le/",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "décider que quelque chose n'aura pas lieu",
+    "translations": {
+     "zh": "取消",
+     "en": "to cancel"
+    },
+    "examples": [
+     {
+      "text": "À cause de la neige, il faut annuler le vol.",
+      "translations": {
+       "zh": "因为下雪，航班必须取消。",
+       "en": "Because of the snow, the flight has to be cancelled."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "compagnie aérienne",
+  "phonetic": "/kɔ̃.pa.ɲi.a.e.ʁjɛn/",
+  "cefr": "B1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "compagnies aériennes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "entreprise qui transporte des passagers en avion",
+    "translations": {
+     "zh": "航空公司",
+     "en": "airline"
+    },
+    "examples": [
+     {
+      "text": "Quelle compagnie aérienne as-tu choisie ?",
+      "cloze": "Quelle {{compagnie aérienne}} as-tu choisie ?",
+      "translations": {
+       "zh": "你选了哪家航空公司？",
+       "en": "Which airline did you choose?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sac à dos",
+  "phonetic": "/sak.a.do/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sacs à dos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sac qu'on porte sur le dos",
+    "translations": {
+     "zh": "双肩背包",
+     "en": "backpack, rucksack"
+    },
+    "examples": [
+     {
+      "text": "Il voyage avec un simple sac à dos.",
+      "cloze": "Il voyage avec un simple {{sac à dos}}.",
+      "translations": {
+       "zh": "他只背一个背包旅行。",
+       "en": "He travels with just a backpack."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "visite",
+  "phonetic": "/vi.zit/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "visites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'aller voir un lieu ou une personne",
+    "translations": {
+     "zh": "参观；拜访",
+     "en": "visit, tour"
+    },
+    "examples": [
+     {
+      "text": "La visite du château dure une heure.",
+      "translations": {
+       "zh": "参观城堡需要一个小时。",
+       "en": "The tour of the castle lasts an hour."
+      }
+     }
+    ],
+    "usageNote": "visite guidée = 有导游讲解的参观。"
+   }
+  ]
+ },
+ {
+  "headword": "vue",
+  "phonetic": "/vy/",
+  "cefr": "B1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce que l'on voit d'un endroit",
+    "translations": {
+     "zh": "景色；视野",
+     "en": "view"
+    },
+    "examples": [
+     {
+      "text": "La chambre a une belle vue sur la mer.",
+      "translations": {
+       "zh": "房间海景很美。",
+       "en": "The room has a lovely sea view."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "capacité de voir",
+    "translations": {
+     "zh": "视力",
+     "en": "eyesight"
+    },
+    "examples": [
+     {
+      "text": "Ma grand-mère a une mauvaise vue.",
+      "translations": {
+       "zh": "我奶奶视力不好。",
+       "en": "My grandmother has poor eyesight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "exposition",
+  "phonetic": "/ɛks.po.zi.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "expositions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "présentation d'œuvres d'art au public",
+    "translations": {
+     "zh": "展览",
+     "en": "exhibition"
+    },
+    "examples": [
+     {
+      "text": "On va voir l'exposition Monet au musée.",
+      "cloze": "On va voir l'{{exposition}} Monet au musée.",
+      "translations": {
+       "zh": "我们去博物馆看莫奈画展。",
+       "en": "We're going to see the Monet exhibition at the museum."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 une expo。"
+   }
+  ]
+ },
+ {
+  "headword": "roman",
+  "phonetic": "/ʁɔ.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "romans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "long récit inventé, écrit en prose",
+    "translations": {
+     "zh": "小说（长篇）",
+     "en": "novel"
+    },
+    "examples": [
+     {
+      "text": "Je lis un roman de Victor Hugo.",
+      "translations": {
+       "zh": "我在读一本雨果的小说。",
+       "en": "I'm reading a novel by Victor Hugo."
+      }
+     }
+    ],
+    "usageNote": "roman policier = 侦探小说。"
+   }
+  ]
+ },
+ {
+  "headword": "romancier",
+  "phonetic": "/ʁɔ.mɑ̃.sje/",
+  "cefr": "B2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "romanciers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui écrit des romans",
+    "translations": {
+     "zh": "小说家",
+     "en": "novelist"
+    },
+    "examples": [
+     {
+      "text": "Balzac est un grand romancier.",
+      "translations": {
+       "zh": "巴尔扎克是一位伟大的小说家。",
+       "en": "Balzac is a great novelist."
+      }
+     }
+    ],
+    "usageNote": "女小说家是 romancière。"
+   }
+  ]
+ },
+ {
+  "headword": "spectacle",
+  "phonetic": "/spɛk.takl/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "spectacles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "représentation de théâtre, de danse, de cirque, etc.",
+    "translations": {
+     "zh": "演出；表演",
+     "en": "show, performance"
+    },
+    "examples": [
+     {
+      "text": "Le spectacle commence à 20 heures.",
+      "translations": {
+       "zh": "演出晚上八点开始。",
+       "en": "The show starts at 8 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "peintre",
+  "phonetic": "/pɛ̃tʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "peintres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "artiste qui fait des tableaux",
+    "translations": {
+     "zh": "画家",
+     "en": "painter"
+    },
+    "examples": [
+     {
+      "text": "Van Gogh est mon peintre préféré.",
+      "translations": {
+       "zh": "梵高是我最喜欢的画家。",
+       "en": "Van Gogh is my favourite painter."
+      }
+     }
+    ],
+    "usageNote": "也指“油漆工”。"
+   }
+  ]
+ },
+ {
+  "headword": "peinture",
+  "phonetic": "/pɛ̃.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "peintures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art de peindre ; tableau",
+    "translations": {
+     "zh": "绘画；画作",
+     "en": "painting"
+    },
+    "examples": [
+     {
+      "text": "Elle fait de la peinture le week-end.",
+      "translations": {
+       "zh": "她周末画画。",
+       "en": "She paints at weekends."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide coloré qu'on met sur les murs",
+    "translations": {
+     "zh": "油漆；颜料",
+     "en": "paint"
+    },
+    "examples": [
+     {
+      "text": "Attention, peinture fraîche !",
+      "translations": {
+       "zh": "小心，油漆未干！",
+       "en": "Careful, wet paint!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "patrimoine",
+  "phonetic": "/pa.tʁi.mwan/",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "patrimoines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des richesses culturelles d'un pays",
+    "translations": {
+     "zh": "遗产；文化遗产",
+     "en": "heritage"
+    },
+    "examples": [
+     {
+      "text": "Ce château fait partie du patrimoine national.",
+      "translations": {
+       "zh": "这座城堡是国家遗产的一部分。",
+       "en": "This castle is part of the national heritage."
+      }
+     }
+    ],
+    "usageNote": "patrimoine mondial de l'UNESCO = 联合国教科文组织世界遗产。"
+   }
+  ]
+ },
+ {
+  "headword": "œuvre",
+  "phonetic": "/œvʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "œuvres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce que crée un artiste ou un écrivain",
+    "translations": {
+     "zh": "作品；著作",
+     "en": "work (of art)"
+    },
+    "examples": [
+     {
+      "text": "Cette œuvre est exposée au Louvre.",
+      "translations": {
+       "zh": "这件作品在卢浮宫展出。",
+       "en": "This work is on display at the Louvre."
+      }
+     }
+    ],
+    "usageNote": "œuvre d'art = 艺术品。"
+   }
+  ]
+ },
+ {
+  "headword": "artiste",
+  "phonetic": "/aʁ.tist/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "artistes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui crée des œuvres d'art ou qui joue en public",
+    "translations": {
+     "zh": "艺术家；演艺人员",
+     "en": "artist, performer"
+    },
+    "examples": [
+     {
+      "text": "C'est une artiste très connue.",
+      "translations": {
+       "zh": "她是一位很有名的艺术家。",
+       "en": "She's a very well-known artist."
+      }
+     }
+    ],
+    "usageNote": "un artiste / une artiste。"
+   }
+  ]
+ }
+]

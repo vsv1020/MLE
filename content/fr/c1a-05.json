@@ -1,0 +1,913 @@
+[
+ {
+  "headword": "pérenne",
+  "phonetic": "/pe.ʁɛn/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "durable, qui dure longtemps",
+    "translations": {
+     "zh": "持久的；长期的",
+     "en": "lasting, sustainable"
+    },
+    "examples": [
+     {
+      "text": "Nous cherchons une solution pérenne au problème du logement.",
+      "translations": {
+       "zh": "我们在为住房问题寻找长久的解决办法。",
+       "en": "We are looking for a lasting solution to the housing problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "caduc",
+  "phonetic": "/ka.dyk/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "irregularForms": "阴性 caduque；复数 caducs, caduques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a plus de valeur, dépassé",
+    "translations": {
+     "zh": "失效的；过时的",
+     "en": "null and void, obsolete"
+    },
+    "examples": [
+     {
+      "text": "Ce traité est désormais caduc.",
+      "translations": {
+       "zh": "该条约现已失效。",
+       "en": "This treaty is now null and void."
+      }
+     }
+    ],
+    "usageNote": "法律用语：失效；植物学：feuilles caduques（落叶）。"
+   }
+  ]
+ },
+ {
+  "headword": "inédit",
+  "phonetic": "/i.ne.di/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "nouveau, qu'on n'a jamais vu ; non publié",
+    "translations": {
+     "zh": "前所未有的；未发表的",
+     "en": "unprecedented, unpublished"
+    },
+    "examples": [
+     {
+      "text": "Nous vivons un phénomène inédit.",
+      "translations": {
+       "zh": "我们正在经历一种前所未有的现象。",
+       "en": "We are experiencing an unprecedented phenomenon."
+      }
+     }
+    ],
+    "usageNote": "un texte inédit：未发表的文稿。"
+   }
+  ]
+ },
+ {
+  "headword": "latent",
+  "phonetic": "/la.tɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui existe sans se manifester clairement",
+    "translations": {
+     "zh": "潜在的；潜伏的",
+     "en": "latent"
+    },
+    "examples": [
+     {
+      "text": "Un conflit latent oppose depuis longtemps les deux familles.",
+      "translations": {
+       "zh": "两家之间长期存在潜在的冲突。",
+       "en": "A latent conflict has long divided the two families."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tacite",
+  "phonetic": "/ta.sit/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "non exprimé, mais sous-entendu",
+    "translations": {
+     "zh": "默示的；心照不宣的",
+     "en": "tacit"
+    },
+    "examples": [
+     {
+      "text": "Il y a entre eux un accord tacite.",
+      "translations": {
+       "zh": "他们之间有一种默契。",
+       "en": "There is a tacit agreement between them."
+      }
+     }
+    ],
+    "usageNote": "par tacite reconduction：（合同）自动续约。"
+   }
+  ]
+ },
+ {
+  "headword": "probant",
+  "phonetic": "/pʁɔ.bɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui prouve, qui convainc",
+    "translations": {
+     "zh": "有说服力的；确凿的",
+     "en": "conclusive, convincing"
+    },
+    "examples": [
+     {
+      "text": "Aucun résultat probant n'a été obtenu.",
+      "translations": {
+       "zh": "尚未取得任何令人信服的结果。",
+       "en": "No conclusive result has been obtained."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "concluant",
+  "phonetic": "/kɔ̃.kly.ɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui permet de conclure de façon positive",
+    "translations": {
+     "zh": "有结论性的；令人满意的",
+     "en": "conclusive, successful"
+    },
+    "examples": [
+     {
+      "text": "Le test s'est révélé concluant.",
+      "translations": {
+       "zh": "测试结果令人满意。",
+       "en": "The test proved conclusive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vraisemblable",
+  "phonetic": "/vʁɛ.sɑ̃.blabl/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui semble vrai, probable",
+    "translations": {
+     "zh": "可能的；似真的",
+     "en": "plausible, likely"
+    },
+    "examples": [
+     {
+      "text": "Il est vraisemblable que les prix augmenteront.",
+      "translations": {
+       "zh": "价格很可能会上涨。",
+       "en": "It is likely that prices will rise."
+      }
+     }
+    ],
+    "usageNote": "il est vraisemblable que + 直陈式；反义 invraisemblable（难以置信的）。"
+   }
+  ]
+ },
+ {
+  "headword": "tendancieux",
+  "phonetic": "/tɑ̃.dɑ̃.sjø/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "irregularForms": "阴性 tendancieuse；阴性复数 tendancieuses（阳性复数不变）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui manque d'objectivité, orienté",
+    "translations": {
+     "zh": "有倾向性的；偏颇的",
+     "en": "tendentious, biased"
+    },
+    "examples": [
+     {
+      "text": "Cet article tendancieux déforme les faits.",
+      "translations": {
+       "zh": "这篇带有倾向性的文章歪曲了事实。",
+       "en": "This biased article distorts the facts."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "partial",
+  "phonetic": "/paʁ.sjal/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "irregularForms": "阳性复数 partiaux；阴性 partiale, partiales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui prend parti injustement",
+    "translations": {
+     "zh": "偏袒的；不公正的",
+     "en": "biased, partial"
+    },
+    "examples": [
+     {
+      "text": "L'arbitre a été accusé d'être partial.",
+      "translations": {
+       "zh": "裁判被指责偏袒一方。",
+       "en": "The referee was accused of being biased."
+      }
+     }
+    ],
+    "usageNote": "反义 impartial；勿与 partiel（部分的）混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "éloquent",
+  "phonetic": "/e.lɔ.kɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui exprime beaucoup sans paroles, significatif",
+    "translations": {
+     "zh": "能说明问题的；雄辩的",
+     "en": "telling, eloquent"
+    },
+    "examples": [
+     {
+      "text": "Ce silence est éloquent.",
+      "translations": {
+       "zh": "这种沉默说明了一切。",
+       "en": "This silence speaks volumes."
+      }
+     }
+    ],
+    "usageNote": "les chiffres sont éloquents：数字说明一切。"
+   }
+  ]
+ },
+ {
+  "headword": "d'emblée",
+  "phonetic": "/dɑ̃.ble/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dès le début, immédiatement",
+    "translations": {
+     "zh": "一开始就；立即",
+     "en": "from the outset, straight away"
+    },
+    "examples": [
+     {
+      "text": "Disons-le d'emblée : ce livre est remarquable.",
+      "translations": {
+       "zh": "开门见山地说：这本书非常出色。",
+       "en": "Let us say it from the outset: this book is remarkable."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en l'occurrence",
+  "phonetic": "/ɑ̃ lɔ.ky.ʁɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans le cas présent",
+    "translations": {
+     "zh": "在此情况下；具体来说",
+     "en": "in this case, as it happens"
+    },
+    "examples": [
+     {
+      "text": "Le responsable, en l'occurrence le directeur, doit s'expliquer.",
+      "translations": {
+       "zh": "负责人，具体来说就是主任，必须做出解释。",
+       "en": "The person in charge, in this case the director, must explain himself."
+      },
+      "cloze": "Le responsable, {{en l'occurrence}} le directeur, doit s'expliquer."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "a fortiori",
+  "phonetic": "/a fɔʁ.sjɔ.ʁi/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à plus forte raison",
+    "translations": {
+     "zh": "更何况；更加",
+     "en": "all the more so"
+    },
+    "examples": [
+     {
+      "text": "C'est difficile pour un adulte, a fortiori pour un enfant.",
+      "translations": {
+       "zh": "这对成年人来说都很难，对孩子就更难了。",
+       "en": "It is hard for an adult, all the more so for a child."
+      },
+      "cloze": "C'est difficile pour un adulte, {{a fortiori}} pour un enfant."
+     }
+    ],
+    "usageNote": "拉丁语，传统写法不加重音（也见 à fortiori）。"
+   }
+  ]
+ },
+ {
+  "headword": "a priori",
+  "phonetic": "/a pʁi.jɔ.ʁi/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "au premier abord, avant tout examen",
+    "translations": {
+     "zh": "乍看之下；先验地",
+     "en": "on the face of it, in principle"
+    },
+    "examples": [
+     {
+      "text": "A priori, rien ne s'oppose à ce projet.",
+      "translations": {
+       "zh": "乍看之下，这个项目没有什么障碍。",
+       "en": "On the face of it, nothing stands in the way of this project."
+      },
+      "cloze": "{{A priori}}, rien ne s'oppose à ce projet."
+     }
+    ],
+    "usageNote": "也作阳性名词：avoir des a priori（抱有成见）。"
+   }
+  ]
+ },
+ {
+  "headword": "a posteriori",
+  "phonetic": "/a pɔs.te.ʁjɔ.ʁi/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "après coup, en se fondant sur l'expérience",
+    "translations": {
+     "zh": "事后；后验地",
+     "en": "after the fact, in hindsight"
+    },
+    "examples": [
+     {
+      "text": "On ne peut juger cette décision qu'a posteriori.",
+      "translations": {
+       "zh": "这个决定只能事后评判。",
+       "en": "This decision can only be judged in hindsight."
+      },
+      "cloze": "On ne peut juger cette décision qu'{{a posteriori}}."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "de facto",
+  "phonetic": "/de fak.to/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans les faits, en réalité",
+    "translations": {
+     "zh": "事实上",
+     "en": "de facto, in practice"
+    },
+    "examples": [
+     {
+      "text": "Il est devenu de facto le chef du groupe.",
+      "translations": {
+       "zh": "他实际上成了这个团体的领导。",
+       "en": "He became the de facto leader of the group."
+      },
+      "cloze": "Il est devenu {{de facto}} le chef du groupe."
+     }
+    ],
+    "usageNote": "反义 de jure（法律上）。"
+   }
+  ]
+ },
+ {
+  "headword": "a contrario",
+  "phonetic": "/a kɔ̃.tʁa.ʁjo/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à l'inverse, par un raisonnement contraire",
+    "translations": {
+     "zh": "反过来说；相反",
+     "en": "conversely"
+    },
+    "examples": [
+     {
+      "text": "A contrario, les petites villes perdent des habitants.",
+      "translations": {
+       "zh": "相反，小城镇的人口在减少。",
+       "en": "Conversely, small towns are losing inhabitants."
+      },
+      "cloze": "{{A contrario}}, les petites villes perdent des habitants."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "foncièrement",
+  "phonetic": "/fɔ̃.sjɛʁ.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans le fond, profondément",
+    "translations": {
+     "zh": "根本上；本质上",
+     "en": "fundamentally, deeply"
+    },
+    "examples": [
+     {
+      "text": "C'est un homme foncièrement honnête.",
+      "translations": {
+       "zh": "他本质上是个诚实的人。",
+       "en": "He is a fundamentally honest man."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "intrinsèquement",
+  "phonetic": "/ɛ̃.tʁɛ̃.sɛk.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 17000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "par sa nature même",
+    "translations": {
+     "zh": "本质上；内在地",
+     "en": "intrinsically"
+    },
+    "examples": [
+     {
+      "text": "Aucune technologie n'est intrinsèquement bonne ou mauvaise.",
+      "translations": {
+       "zh": "没有哪种技术本身是好或坏的。",
+       "en": "No technology is intrinsically good or bad."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "résolument",
+  "phonetic": "/ʁe.zɔ.ly.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "d'une manière ferme et décidée",
+    "translations": {
+     "zh": "坚决地；毅然",
+     "en": "resolutely, firmly"
+    },
+    "examples": [
+     {
+      "text": "L'entreprise s'est résolument tournée vers l'innovation.",
+      "translations": {
+       "zh": "公司毅然转向创新。",
+       "en": "The company has resolutely turned towards innovation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "indéniablement",
+  "phonetic": "/ɛ̃.de.nja.blə.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "sans qu'on puisse le nier",
+    "translations": {
+     "zh": "无可否认地",
+     "en": "undeniably"
+    },
+    "examples": [
+     {
+      "text": "Ce roman est indéniablement son meilleur.",
+      "translations": {
+       "zh": "这部小说无疑是他最好的作品。",
+       "en": "This novel is undeniably his best."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "manifestement",
+  "phonetic": "/ma.ni.fɛs.tə.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "de toute évidence",
+    "translations": {
+     "zh": "显然",
+     "en": "clearly, obviously"
+    },
+    "examples": [
+     {
+      "text": "Il ne s'était manifestement pas préparé.",
+      "translations": {
+       "zh": "他显然没有做准备。",
+       "en": "He clearly had not prepared."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vraisemblablement",
+  "phonetic": "/vʁɛ.sɑ̃.bla.blə.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "selon toute probabilité",
+    "translations": {
+     "zh": "很可能",
+     "en": "in all likelihood, probably"
+    },
+    "examples": [
+     {
+      "text": "La réunion sera vraisemblablement reportée.",
+      "translations": {
+       "zh": "会议很可能会延期。",
+       "en": "The meeting will probably be postponed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sensiblement",
+  "phonetic": "/sɑ̃.si.blə.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "de façon notable",
+    "translations": {
+     "zh": "明显地",
+     "en": "noticeably, appreciably"
+    },
+    "examples": [
+     {
+      "text": "Les prix ont sensiblement augmenté cette année.",
+      "translations": {
+       "zh": "今年物价明显上涨。",
+       "en": "Prices have risen noticeably this year."
+      }
+     }
+    ],
+    "usageNote": "第二义“大致上”：sensiblement égal（大致相等）。"
+   }
+  ]
+ },
+ {
+  "headword": "d'ores et déjà",
+  "phonetic": "/dɔʁ.z‿e de.ʒa/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dès maintenant, dès à présent",
+    "translations": {
+     "zh": "从现在起就；已经",
+     "en": "already, as of now"
+    },
+    "examples": [
+     {
+      "text": "Les inscriptions sont d'ores et déjà ouvertes.",
+      "translations": {
+       "zh": "报名现已开始。",
+       "en": "Registration is already open."
+      },
+      "cloze": "Les inscriptions sont {{d'ores et déjà}} ouvertes."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en définitive",
+  "phonetic": "/ɑ̃ de.fi.ni.tiv/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "finalement, tout bien considéré",
+    "translations": {
+     "zh": "总之；归根结底",
+     "en": "ultimately, in the end"
+    },
+    "examples": [
+     {
+      "text": "En définitive, le projet a été un succès.",
+      "translations": {
+       "zh": "总的来说，这个项目是成功的。",
+       "en": "Ultimately, the project was a success."
+      },
+      "cloze": "{{En définitive}}, le projet a été un succès."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "somme toute",
+  "phonetic": "/sɔm tut/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "tout bien considéré",
+    "translations": {
+     "zh": "总而言之；说到底",
+     "en": "all things considered"
+    },
+    "examples": [
+     {
+      "text": "C'était, somme toute, une décision raisonnable.",
+      "translations": {
+       "zh": "说到底，这是一个合理的决定。",
+       "en": "It was, all things considered, a reasonable decision."
+      },
+      "cloze": "C'était, {{somme toute}}, une décision raisonnable."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à terme",
+  "phonetic": "/a tɛʁm/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à plus ou moins longue échéance",
+    "translations": {
+     "zh": "最终；从长远看",
+     "en": "in the long run, eventually"
+    },
+    "examples": [
+     {
+      "text": "À terme, cette technologie remplacera le pétrole.",
+      "translations": {
+       "zh": "从长远看，这项技术将取代石油。",
+       "en": "In the long run, this technology will replace oil."
+      },
+      "cloze": "{{À terme}}, cette technologie remplacera le pétrole."
+     }
+    ],
+    "usageNote": "accoucher à terme：足月分娩；marché à terme：期货市场。"
+   }
+  ]
+ },
+ {
+  "headword": "à juste titre",
+  "phonetic": "/a ʒyst titʁ/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "avec raison, légitimement",
+    "translations": {
+     "zh": "有理由地；理所当然地",
+     "en": "rightly, with good reason"
+    },
+    "examples": [
+     {
+      "text": "Les habitants s'inquiètent, à juste titre, de la pollution.",
+      "translations": {
+       "zh": "居民们对污染感到担忧，这是理所当然的。",
+       "en": "Residents are rightly worried about pollution."
+      },
+      "cloze": "Les habitants s'inquiètent, {{à juste titre}}, de la pollution."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "de surcroît",
+  "phonetic": "/də syʁ.kʁwa/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en plus, en outre",
+    "translations": {
+     "zh": "此外；而且",
+     "en": "moreover, what is more"
+    },
+    "examples": [
+     {
+      "text": "Le logement est petit et, de surcroît, très cher.",
+      "translations": {
+       "zh": "这套房子很小，而且还很贵。",
+       "en": "The flat is small and, what is more, very expensive."
+      },
+      "cloze": "Le logement est petit et, {{de surcroît}}, très cher."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "au demeurant",
+  "phonetic": "/o də.mœ.ʁɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "d'ailleurs, au reste",
+    "translations": {
+     "zh": "此外；再说",
+     "en": "for that matter, besides"
+    },
+    "examples": [
+     {
+      "text": "Ce film, au demeurant bien réalisé, manque d'émotion.",
+      "translations": {
+       "zh": "这部电影虽说拍得不错，却缺乏感染力。",
+       "en": "This film, well made for that matter, lacks emotion."
+      },
+      "cloze": "Ce film, {{au demeurant}} bien réalisé, manque d'émotion."
+     }
+    ],
+    "usageNote": "书面语，插入句中补充说明。"
+   }
+  ]
+ },
+ {
+  "headword": "préalablement",
+  "phonetic": "/pʁe.a.la.blə.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "auparavant, avant toute chose",
+    "translations": {
+     "zh": "预先；事先",
+     "en": "beforehand, in advance"
+    },
+    "examples": [
+     {
+      "text": "Les participants doivent s'inscrire préalablement.",
+      "translations": {
+       "zh": "参加者须事先报名。",
+       "en": "Participants must register beforehand."
+      }
+     }
+    ],
+    "usageNote": "préalablement à qch：在…之前。"
+   }
+  ]
+ },
+ {
+  "headword": "ultérieurement",
+  "phonetic": "/yl.te.ʁjœʁ.mɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "plus tard, à une date postérieure",
+    "translations": {
+     "zh": "以后；随后",
+     "en": "later, subsequently"
+    },
+    "examples": [
+     {
+      "text": "Les détails seront communiqués ultérieurement.",
+      "translations": {
+       "zh": "具体细节将另行通知。",
+       "en": "Details will be communicated later."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "a minima",
+  "phonetic": "/a mi.ni.ma/",
+  "cefr": "C1",
+  "frequencyRank": 17000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "au minimum, au moins",
+    "translations": {
+     "zh": "至少；最低限度地",
+     "en": "at the very least"
+    },
+    "examples": [
+     {
+      "text": "Il faudrait a minima consulter les habitants.",
+      "translations": {
+       "zh": "至少应该征询居民的意见。",
+       "en": "At the very least, residents should be consulted."
+      },
+      "cloze": "Il faudrait {{a minima}} consulter les habitants."
+     }
+    ]
+   }
+  ]
+ }
+]

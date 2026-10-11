@@ -1,0 +1,1285 @@
+[
+  {
+    "headword": "c'est du gâteau",
+    "phonetic": "/sɛ.dy.ɡa.to/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "c'est très facile",
+        "translations": {
+          "zh": "小菜一碟；易如反掌",
+          "en": "it's a piece of cake"
+        },
+        "examples": [
+          {
+            "text": "Tu vas voir, cet exercice, c'est du gâteau.",
+            "cloze": "Tu vas voir, cet exercice, {{c'est du gâteau}}.",
+            "translations": {
+              "zh": "你看着吧，这道题小菜一碟。",
+              "en": "You'll see, this exercise is a piece of cake."
+            }
+          }
+        ],
+        "usageNote": "口语；否定说法 ce n'est pas du gâteau（可不容易）。"
+      }
+    ]
+  },
+  {
+    "headword": "tenir la route",
+    "phonetic": "/tə.niʁ.la.ʁut/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être solide, cohérent, crédible",
+        "translations": {
+          "zh": "站得住脚；经得起推敲",
+          "en": "to hold water, to stand up"
+        },
+        "examples": [
+          {
+            "text": "Ton argument tient la route, mais il manque de chiffres.",
+            "cloze": "Ton argument {{tient la route}}, mais il manque de chiffres.",
+            "translations": {
+              "zh": "你的论点站得住脚，但缺少数据。",
+              "en": "Your argument holds up, but it lacks figures."
+            }
+          }
+        ],
+        "usageNote": "本义指汽车“抓地性好”。"
+      }
+    ]
+  },
+  {
+    "headword": "faire chou blanc",
+    "phonetic": "/fɛʁ.ʃu.blɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "échouer, ne rien obtenir",
+        "translations": {
+          "zh": "一无所获；扑空",
+          "en": "to draw a blank"
+        },
+        "examples": [
+          {
+            "text": "Les enquêteurs ont fait chou blanc.",
+            "cloze": "Les enquêteurs {{ont fait chou blanc}}.",
+            "translations": {
+              "zh": "调查人员一无所获。",
+              "en": "The investigators drew a blank."
+            }
+          }
+        ],
+        "usageNote": "字面意思“做白菜”，源于九柱戏术语。"
+      }
+    ]
+  },
+  {
+    "headword": "être à côté de la plaque",
+    "phonetic": "/ɛtʁ.a.ko.te.də.la.plak/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "se tromper, ne pas comprendre la situation",
+        "translations": {
+          "zh": "完全搞错；不着边际",
+          "en": "to be wide of the mark"
+        },
+        "examples": [
+          {
+            "text": "Ta réponse est complètement à côté de la plaque.",
+            "cloze": "Ta réponse {{est complètement à côté de la plaque}}.",
+            "translations": {
+              "zh": "你的回答完全不着边际。",
+              "en": "Your answer is completely off the mark."
+            }
+          }
+        ],
+        "usageNote": "口语。"
+      }
+    ]
+  },
+  {
+    "headword": "passer l'éponge",
+    "phonetic": "/pa.se.le.pɔ̃ʒ/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "pardonner et oublier une faute",
+        "translations": {
+          "zh": "既往不咎；一笔勾销",
+          "en": "to let bygones be bygones"
+        },
+        "examples": [
+          {
+            "text": "Pour cette fois, je passe l'éponge.",
+            "cloze": "Pour cette fois, je {{passe l'éponge}}.",
+            "translations": {
+              "zh": "这次就算了，既往不咎。",
+              "en": "This time, I'll let it go."
+            }
+          }
+        ],
+        "usageNote": "字面意思“用海绵擦掉”。注意与 jeter l'éponge（认输）区分。"
+      }
+    ]
+  },
+  {
+    "headword": "en faire tout un fromage",
+    "phonetic": "/ɑ̃.fɛʁ.tu.tœ̃.fʁɔ.maʒ/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "exagérer l'importance d'une chose sans gravité",
+        "translations": {
+          "zh": "小题大做",
+          "en": "to make a mountain out of a molehill"
+        },
+        "examples": [
+          {
+            "text": "Ce n'est qu'une petite rayure, n'en fais pas tout un fromage !",
+            "cloze": "Ce n'est qu'une petite rayure, {{n'en fais pas tout un fromage}} !",
+            "translations": {
+              "zh": "只是一道小划痕，别小题大做！",
+              "en": "It's just a little scratch, don't make such a fuss!"
+            }
+          }
+        ],
+        "usageNote": "口语，字面意思“为此做出一整块奶酪”。"
+      }
+    ]
+  },
+  {
+    "headword": "faire la tête",
+    "phonetic": "/fɛʁ.la.tɛt/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "bouder, montrer qu'on est mécontent",
+        "translations": {
+          "zh": "赌气；摆臭脸",
+          "en": "to sulk"
+        },
+        "examples": [
+          {
+            "text": "Pourquoi tu fais la tête ? Je t'ai fait quelque chose ?",
+            "cloze": "Pourquoi tu {{fais la tête}} ? Je t'ai fait quelque chose ?",
+            "translations": {
+              "zh": "你干嘛摆着张臭脸？我得罪你了？",
+              "en": "Why are you sulking? Did I do something to you?"
+            }
+          }
+        ],
+        "usageNote": "口语。"
+      }
+    ]
+  },
+  {
+    "headword": "mettre les bouchées doubles",
+    "phonetic": "/mɛtʁ.le.bu.ʃe.dubl/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "travailler plus vite pour rattraper un retard",
+        "translations": {
+          "zh": "加快步伐；加紧干",
+          "en": "to step up the pace"
+        },
+        "examples": [
+          {
+            "text": "Il va falloir mettre les bouchées doubles pour finir à temps.",
+            "cloze": "Il va falloir {{mettre les bouchées doubles}} pour finir à temps.",
+            "translations": {
+              "zh": "要按时完成，得加紧干了。",
+              "en": "We'll have to double our efforts to finish on time."
+            }
+          }
+        ],
+        "usageNote": "字面意思“一口吃两口的量”。"
+      }
+    ]
+  },
+  {
+    "headword": "tomber des nues",
+    "phonetic": "/tɔ̃.be.de.ny/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être extrêmement surpris",
+        "translations": {
+          "zh": "大吃一惊；目瞪口呆",
+          "en": "to be flabbergasted"
+        },
+        "examples": [
+          {
+            "text": "Quand j'ai appris sa démission, je suis tombé des nues.",
+            "cloze": "Quand j'ai appris sa démission, je {{suis tombé des nues}}.",
+            "translations": {
+              "zh": "得知他辞职时，我大吃一惊。",
+              "en": "When I heard he had resigned, I was flabbergasted."
+            }
+          }
+        ],
+        "usageNote": "nues 是古语“云”，字面意思“从云端掉下来”。"
+      }
+    ]
+  },
+  {
+    "headword": "se mettre sur son trente et un",
+    "phonetic": "/sə.mɛtʁ.syʁ.sɔ̃.tʁɑ̃.te.œ̃/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "s'habiller de façon très élégante",
+        "translations": {
+          "zh": "盛装打扮；穿得整整齐齐",
+          "en": "to get dressed up to the nines"
+        },
+        "examples": [
+          {
+            "text": "Pour le mariage, toute la famille s'est mise sur son trente et un.",
+            "cloze": "Pour le mariage, toute la famille {{s'est mise sur son trente et un}}.",
+            "translations": {
+              "zh": "为了婚礼，全家都盛装打扮。",
+              "en": "For the wedding, the whole family got dressed up to the nines."
+            }
+          }
+        ],
+        "usageNote": "固定说法，“31”的来源众说纷纭。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir la langue bien pendue",
+    "phonetic": "/a.vwaʁ.la.lɑ̃ɡ.bjɛ̃.pɑ̃.dy/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "parler beaucoup et facilement",
+        "translations": {
+          "zh": "能说会道；话多",
+          "en": "to have the gift of the gab"
+        },
+        "examples": [
+          {
+            "text": "Ta fille a la langue bien pendue pour son âge !",
+            "cloze": "Ta fille {{a la langue bien pendue}} pour son âge !",
+            "translations": {
+              "zh": "你女儿这个年纪就这么能说会道！",
+              "en": "Your daughter is quite the chatterbox for her age!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ne pas être sorti de l'auberge",
+    "phonetic": "/nə.pa.zɛtʁ.sɔʁ.ti.də.lo.bɛʁʒ/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "avoir encore beaucoup de difficultés devant soi",
+        "translations": {
+          "zh": "麻烦还多着呢；还没脱离困境",
+          "en": "not to be out of the woods yet"
+        },
+        "examples": [
+          {
+            "text": "Avec tous ces retards, on n'est pas sorti de l'auberge.",
+            "cloze": "Avec tous ces retards, on {{n'est pas sorti de l'auberge}}.",
+            "translations": {
+              "zh": "这么多延误，麻烦还多着呢。",
+              "en": "With all these delays, we're not out of the woods yet."
+            }
+          }
+        ],
+        "usageNote": "字面意思“还没走出客栈”。口语。"
+      }
+    ]
+  },
+  {
+    "headword": "appeler un chat un chat",
+    "phonetic": "/a.ple.œ̃.ʃa.œ̃.ʃa/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "dire les choses franchement, sans détour",
+        "translations": {
+          "zh": "实话实说；直言不讳",
+          "en": "to call a spade a spade"
+        },
+        "examples": [
+          {
+            "text": "Appelons un chat un chat : ce projet est un échec.",
+            "cloze": "{{Appelons un chat un chat}} : ce projet est un échec.",
+            "translations": {
+              "zh": "实话实说吧：这个项目失败了。",
+              "en": "Let's call a spade a spade: this project is a failure."
+            }
+          }
+        ],
+        "usageNote": "字面意思“把猫叫作猫”。"
+      }
+    ]
+  },
+  {
+    "headword": "tomber à l'eau",
+    "phonetic": "/tɔ̃.be.a.lo/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "échouer, ne pas se réaliser",
+        "translations": {
+          "zh": "泡汤；落空",
+          "en": "to fall through"
+        },
+        "examples": [
+          {
+            "text": "À cause de la grève, notre voyage est tombé à l'eau.",
+            "cloze": "À cause de la grève, notre voyage {{est tombé à l'eau}}.",
+            "translations": {
+              "zh": "因为罢工，我们的旅行泡汤了。",
+              "en": "Because of the strike, our trip fell through."
+            }
+          }
+        ],
+        "usageNote": "字面意思“掉进水里”，与汉语“泡汤”形象相近。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir un coup de barre",
+    "phonetic": "/a.vwaʁ.œ̃.ku.də.baʁ/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ressentir une fatigue soudaine",
+        "translations": {
+          "zh": "突然犯困；一下子累了",
+          "en": "to suddenly feel exhausted"
+        },
+        "examples": [
+          {
+            "text": "Après le déjeuner, j'ai toujours un coup de barre.",
+            "cloze": "Après le déjeuner, j'{{ai toujours un coup de barre}}.",
+            "translations": {
+              "zh": "午饭后我总会突然犯困。",
+              "en": "After lunch I always hit a wall."
+            }
+          }
+        ],
+        "usageNote": "口语。"
+      }
+    ]
+  },
+  {
+    "headword": "bosser",
+    "phonetic": "/bɔ.se/",
+    "cefr": "C1",
+    "frequencyRank": 7500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "travailler",
+        "translations": {
+          "zh": "干活；工作；用功",
+          "en": "to work"
+        },
+        "examples": [
+          {
+            "text": "Je bosse dans une agence de pub depuis trois ans.",
+            "cloze": "Je {{bosse}} dans une agence de pub depuis trois ans.",
+            "translations": {
+              "zh": "我在一家广告公司干了三年了。",
+              "en": "I've been working at an ad agency for three years."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），相当于 travailler；bosser un examen：复习备考。"
+      }
+    ]
+  },
+  {
+    "headword": "bouquin",
+    "phonetic": "/bu.kɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "bouquins"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "livre",
+        "translations": {
+          "zh": "书",
+          "en": "book"
+        },
+        "examples": [
+          {
+            "text": "Tu m'as rendu mon bouquin ?",
+            "translations": {
+              "zh": "你把我的书还我了吗？",
+              "en": "Did you give me my book back?"
+            }
+          }
+        ],
+        "usageNote": "口语（familier）；bouquiner：看书，bouquiniste：旧书商。"
+      }
+    ]
+  },
+  {
+    "headword": "flemme",
+    "phonetic": "/flɛm/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "flemmes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "paresse, manque d'envie de faire un effort",
+        "translations": {
+          "zh": "懒劲；不想动",
+          "en": "laziness"
+        },
+        "examples": [
+          {
+            "text": "J'ai la flemme de faire la vaisselle ce soir.",
+            "translations": {
+              "zh": "今晚我懒得洗碗。",
+              "en": "I can't be bothered to do the dishes tonight."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）：avoir la flemme (de faire qch)：懒得做某事。"
+      }
+    ]
+  },
+  {
+    "headword": "boulot",
+    "phonetic": "/bu.lo/",
+    "cefr": "C1",
+    "frequencyRank": 5800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "boulots"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "travail, emploi",
+        "translations": {
+          "zh": "工作；活儿",
+          "en": "job, work"
+        },
+        "examples": [
+          {
+            "text": "Elle a trouvé un nouveau boulot à Bordeaux.",
+            "translations": {
+              "zh": "她在波尔多找了份新工作。",
+              "en": "She found a new job in Bordeaux."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），极常用：petit boulot（零工）。"
+      }
+    ]
+  },
+  {
+    "headword": "fric",
+    "phonetic": "/fʁik/",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "frics"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "argent",
+        "translations": {
+          "zh": "钱；票子",
+          "en": "money, cash"
+        },
+        "examples": [
+          {
+            "text": "Il n'a jamais un sou, il demande toujours du fric à ses parents.",
+            "translations": {
+              "zh": "他总是身无分文，老向父母要钱。",
+              "en": "He's always broke, always asking his parents for cash."
+            }
+          }
+        ],
+        "usageNote": "俚语（familier），近义 thune, pognon。"
+      }
+    ]
+  },
+  {
+    "headword": "bagnole",
+    "phonetic": "/ba.ɲɔl/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "bagnoles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "voiture",
+        "translations": {
+          "zh": "车；汽车",
+          "en": "car"
+        },
+        "examples": [
+          {
+            "text": "Il a garé sa vieille bagnole devant chez moi.",
+            "translations": {
+              "zh": "他把他的破车停在了我家门口。",
+              "en": "He parked his old banger in front of my place."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）。"
+      }
+    ]
+  },
+  {
+    "headword": "mec",
+    "phonetic": "/mɛk/",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "mecs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "homme, garçon ; petit ami",
+        "translations": {
+          "zh": "男的；家伙；男朋友",
+          "en": "guy, bloke; boyfriend"
+        },
+        "examples": [
+          {
+            "text": "C'est un mec super sympa.",
+            "translations": {
+              "zh": "那家伙人超好。",
+              "en": "He's a really nice guy."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）；son mec：她男朋友。"
+      }
+    ]
+  },
+  {
+    "headword": "nana",
+    "phonetic": "/na.na/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "nanas"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "femme, fille ; petite amie",
+        "translations": {
+          "zh": "女的；姑娘；女朋友",
+          "en": "girl, woman; girlfriend"
+        },
+        "examples": [
+          {
+            "text": "Il sort avec une nana de son bureau.",
+            "translations": {
+              "zh": "他在和办公室里的一个姑娘交往。",
+              "en": "He's going out with a girl from his office."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）。"
+      }
+    ]
+  },
+  {
+    "headword": "fringues",
+    "phonetic": "/fʁɛ̃ɡ/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "只用复数"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "vêtements",
+        "translations": {
+          "zh": "衣服",
+          "en": "clothes, gear"
+        },
+        "examples": [
+          {
+            "text": "Elle dépense tout son salaire en fringues.",
+            "translations": {
+              "zh": "她把工资全花在买衣服上。",
+              "en": "She spends her whole salary on clothes."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），多用复数；se fringuer：穿衣打扮。"
+      }
+    ]
+  },
+  {
+    "headword": "pote",
+    "phonetic": "/pɔt/",
+    "cefr": "C1",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "potes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ami, camarade",
+        "translations": {
+          "zh": "哥们儿；朋友",
+          "en": "mate, buddy"
+        },
+        "examples": [
+          {
+            "text": "Ce week-end, je pars camper avec des potes.",
+            "cloze": "Ce week-end, je pars camper avec des {{potes}}.",
+            "translations": {
+              "zh": "这周末我跟几个哥们去露营。",
+              "en": "This weekend I'm going camping with some mates."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），阴阳同形。"
+      }
+    ]
+  },
+  {
+    "headword": "bouffer",
+    "phonetic": "/bu.fe/",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "manger",
+        "translations": {
+          "zh": "吃；大吃",
+          "en": "to eat, to scoff"
+        },
+        "examples": [
+          {
+            "text": "On va bouffer une pizza ce soir ?",
+            "translations": {
+              "zh": "今晚去吃披萨吗？",
+              "en": "Shall we grab a pizza tonight?"
+            }
+          }
+        ],
+        "usageNote": "口语（familier），偏粗；la bouffe：吃的，饭菜。"
+      }
+    ]
+  },
+  {
+    "headword": "kiffer",
+    "phonetic": "/ki.fe/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "aimer beaucoup",
+        "translations": {
+          "zh": "超喜欢；很爱",
+          "en": "to love, to be into"
+        },
+        "examples": [
+          {
+            "text": "Je kiffe trop cette chanson !",
+            "cloze": "Je {{kiffe}} trop cette chanson !",
+            "translations": {
+              "zh": "我超爱这首歌！",
+              "en": "I'm so into this song!"
+            }
+          }
+        ],
+        "usageNote": "年轻人口语（familier），源自阿拉伯语 kif。"
+      }
+    ]
+  },
+  {
+    "headword": "galère",
+    "phonetic": "/ɡa.lɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "galères"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "situation pénible et compliquée ; (à l'origine) navire à rames",
+        "translations": {
+          "zh": "麻烦事；苦差事；（古）桨帆船",
+          "en": "nightmare, hassle; galley"
+        },
+        "examples": [
+          {
+            "text": "Trouver un appartement à Paris, c'est la galère.",
+            "translations": {
+              "zh": "在巴黎找房子简直是活受罪。",
+              "en": "Finding a flat in Paris is a nightmare."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）；galérer：吃苦头、折腾。"
+      }
+    ]
+  },
+  {
+    "headword": "se planter",
+    "phonetic": "/sə.plɑ̃.te/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "échouer, se tromper",
+        "translations": {
+          "zh": "搞砸；失败；出错",
+          "en": "to mess up, to fail"
+        },
+        "examples": [
+          {
+            "text": "Je me suis planté à l'examen de maths.",
+            "cloze": "Je {{me suis planté}} à l'examen de maths.",
+            "translations": {
+              "zh": "我数学考砸了。",
+              "en": "I messed up my maths exam."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）；本义 planter 是“种植”。"
+      }
+    ]
+  },
+  {
+    "headword": "piger",
+    "phonetic": "/pi.ʒe/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous pigeons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "comprendre",
+        "translations": {
+          "zh": "懂；明白",
+          "en": "to get it, to understand"
+        },
+        "examples": [
+          {
+            "text": "Tu as pigé ce qu'il voulait dire ?",
+            "cloze": "Tu as {{pigé}} ce qu'il voulait dire ?",
+            "translations": {
+              "zh": "你明白他什么意思了吗？",
+              "en": "Did you get what he meant?"
+            }
+          }
+        ],
+        "usageNote": "口语（familier）；Pigé ! = 懂了！"
+      }
+    ]
+  },
+  {
+    "headword": "thune",
+    "phonetic": "/tyn/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "thunes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "argent",
+        "translations": {
+          "zh": "钱",
+          "en": "dosh, cash"
+        },
+        "examples": [
+          {
+            "text": "J'ai plus de thune, je peux pas sortir ce soir.",
+            "translations": {
+              "zh": "我没钱了，今晚出不去了。",
+              "en": "I'm out of cash, I can't go out tonight."
+            }
+          }
+        ],
+        "usageNote": "俚语（familier），也拼作 tune；例句中省略 ne 也是口语特征。"
+      }
+    ]
+  },
+  {
+    "headword": "crevé",
+    "phonetic": "/kʁə.ve/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "irregularForms": "阴性 crevée；复数 crevés, crevées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "très fatigué ; percé (pneu)",
+        "translations": {
+          "zh": "累坏了；（轮胎）爆了的",
+          "en": "knackered, exhausted; flat"
+        },
+        "examples": [
+          {
+            "text": "Je suis crevé, je vais me coucher.",
+            "translations": {
+              "zh": "我累死了，去睡了。",
+              "en": "I'm knackered, I'm off to bed."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）；un pneu crevé：爆胎。"
+      }
+    ]
+  },
+  {
+    "headword": "flic",
+    "phonetic": "/flik/",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "flics"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "policier",
+        "translations": {
+          "zh": "警察；条子",
+          "en": "cop"
+        },
+        "examples": [
+          {
+            "text": "Les flics sont arrivés au bout de dix minutes.",
+            "cloze": "Les {{flics}} sont arrivés au bout de dix minutes.",
+            "translations": {
+              "zh": "十分钟后警察来了。",
+              "en": "The cops arrived ten minutes later."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），中性偏随意。"
+      }
+    ]
+  },
+  {
+    "headword": "taf",
+    "phonetic": "/taf/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "tafs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "travail",
+        "translations": {
+          "zh": "活儿；工作",
+          "en": "job, work"
+        },
+        "examples": [
+          {
+            "text": "Demain, je commence le taf à sept heures.",
+            "translations": {
+              "zh": "明天我七点开工。",
+              "en": "Tomorrow I start work at seven."
+            }
+          }
+        ],
+        "usageNote": "俚语（familier）。"
+      }
+    ]
+  },
+  {
+    "headword": "relou",
+    "phonetic": "/ʁə.lu/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "grammarNotes": {
+      "irregularForms": "阴性 relou（或 reloue）；复数 relous"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "pénible, agaçant",
+        "translations": {
+          "zh": "烦人的；讨厌的",
+          "en": "annoying, a pain"
+        },
+        "examples": [
+          {
+            "text": "Il est relou avec ses blagues nulles.",
+            "translations": {
+              "zh": "他那些冷笑话真烦人。",
+              "en": "He's annoying with his lame jokes."
+            }
+          }
+        ],
+        "usageNote": "verlan（倒序俚语）：lourd → relou。年轻人口语。"
+      }
+    ]
+  },
+  {
+    "headword": "meuf",
+    "phonetic": "/mœf/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "meufs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "femme ; petite amie",
+        "translations": {
+          "zh": "女的；女朋友",
+          "en": "girl, woman; girlfriend"
+        },
+        "examples": [
+          {
+            "text": "Sa meuf est venue le chercher à la gare.",
+            "translations": {
+              "zh": "他女朋友来车站接他。",
+              "en": "His girlfriend came to pick him up at the station."
+            }
+          }
+        ],
+        "usageNote": "verlan：femme → meuf。俚语（familier）。"
+      }
+    ]
+  },
+  {
+    "headword": "gosse",
+    "phonetic": "/ɡɔs/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "gosses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "enfant",
+        "translations": {
+          "zh": "小孩；孩子",
+          "en": "kid"
+        },
+        "examples": [
+          {
+            "text": "Les gosses jouent dans la cour.",
+            "cloze": "Les {{gosses}} jouent dans la cour.",
+            "translations": {
+              "zh": "孩子们在院子里玩。",
+              "en": "The kids are playing in the yard."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）。注意：在魁北克 gosse 是粗话，慎用。"
+      }
+    ]
+  },
+  {
+    "headword": "se marrer",
+    "phonetic": "/sə.ma.ʁe/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rire, s'amuser beaucoup",
+        "translations": {
+          "zh": "大笑；玩得开心",
+          "en": "to have a laugh"
+        },
+        "examples": [
+          {
+            "text": "On s'est bien marrés à la soirée d'hier.",
+            "cloze": "On {{s'est bien marrés}} à la soirée d'hier.",
+            "translations": {
+              "zh": "昨晚的聚会我们笑得很开心。",
+              "en": "We had a good laugh at the party last night."
+            }
+          }
+        ],
+        "usageNote": "口语（familier）；marrant：好笑的。"
+      }
+    ]
+  },
+  {
+    "headword": "chelou",
+    "phonetic": "/ʃə.lu/",
+    "cefr": "C1",
+    "frequencyRank": 17500,
+    "grammarNotes": {
+      "irregularForms": "阳性阴性同形；复数 chelous"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "bizarre, louche",
+        "translations": {
+          "zh": "古怪的；可疑的",
+          "en": "weird, dodgy"
+        },
+        "examples": [
+          {
+            "text": "Ce type est un peu chelou.",
+            "translations": {
+              "zh": "这家伙有点怪。",
+              "en": "This guy is a bit weird."
+            }
+          }
+        ],
+        "usageNote": "verlan：louche → chelou。年轻人俚语。"
+      }
+    ]
+  },
+  {
+    "headword": "bled",
+    "phonetic": "/blɛd/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "bleds"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "petit village isolé ; pays d'origine",
+        "translations": {
+          "zh": "偏僻小地方；老家",
+          "en": "backwater; home village"
+        },
+        "examples": [
+          {
+            "text": "Il vient d'un petit bled perdu dans le Cantal.",
+            "translations": {
+              "zh": "他来自康塔尔省一个偏僻的小村子。",
+              "en": "He comes from a tiny village in the middle of nowhere in the Cantal."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），源自阿拉伯语 balad（国家、地方）。"
+      }
+    ]
+  },
+  {
+    "headword": "toubib",
+    "phonetic": "/tu.bib/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "toubibs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "médecin",
+        "translations": {
+          "zh": "大夫；医生",
+          "en": "doc"
+        },
+        "examples": [
+          {
+            "text": "Si ça ne passe pas, va voir un toubib.",
+            "translations": {
+              "zh": "要是还不好，去看看大夫。",
+              "en": "If it doesn't clear up, go and see a doc."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），源自阿拉伯语。"
+      }
+    ]
+  },
+  {
+    "headword": "fastoche",
+    "phonetic": "/fas.tɔʃ/",
+    "cefr": "C1",
+    "frequencyRank": 17500,
+    "grammarNotes": {
+      "irregularForms": "阳性阴性同形；复数 fastoches"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "très facile",
+        "translations": {
+          "zh": "超简单的",
+          "en": "dead easy"
+        },
+        "examples": [
+          {
+            "text": "Le test était fastoche.",
+            "translations": {
+              "zh": "这次测验超简单。",
+              "en": "The test was dead easy."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），由 facile 变来，孩子和年轻人常用。"
+      }
+    ]
+  },
+  {
+    "headword": "nickel",
+    "phonetic": "/ni.kɛl/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "irregularForms": "不变"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "parfaitement propre ou réussi",
+        "translations": {
+          "zh": "完美的；干干净净的",
+          "en": "spotless, perfect"
+        },
+        "examples": [
+          {
+            "text": "Ta cuisine est nickel !",
+            "translations": {
+              "zh": "你的厨房一尘不染！",
+              "en": "Your kitchen is spotless!"
+            }
+          }
+        ],
+        "usageNote": "口语（familier），作形容词时不变化；Nickel ! = 太好了！"
+      }
+    ]
+  },
+  {
+    "headword": "rencard",
+    "phonetic": "/ʁɑ̃.kaʁ/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "rencards"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "rendez-vous, souvent amoureux",
+        "translations": {
+          "zh": "约会；碰头",
+          "en": "date, meeting"
+        },
+        "examples": [
+          {
+            "text": "J'ai un rencard ce soir, souhaite-moi bonne chance !",
+            "translations": {
+              "zh": "我今晚有个约会，祝我好运吧！",
+              "en": "I've got a date tonight, wish me luck!"
+            }
+          }
+        ],
+        "usageNote": "口语（familier），也拼作 rancard。"
+      }
+    ]
+  },
+  {
+    "headword": "se casser",
+    "phonetic": "/sə.ka.se/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "partir, s'en aller",
+        "translations": {
+          "zh": "走人；溜了",
+          "en": "to clear off, to leave"
+        },
+        "examples": [
+          {
+            "text": "Bon, il est tard, je me casse.",
+            "cloze": "Bon, il est tard, je {{me casse}}.",
+            "translations": {
+              "zh": "好了，太晚了，我走了。",
+              "en": "Right, it's late, I'm off."
+            }
+          }
+        ],
+        "usageNote": "口语（familier），偏粗鲁；Casse-toi ! = 滚！慎用。"
+      }
+    ]
+  }
+]

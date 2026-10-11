@@ -1,0 +1,1531 @@
+[
+ {
+  "headword": "balcon",
+  "phonetic": "/bal.kɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "balcons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite plate-forme à l'extérieur d'un appartement",
+    "translations": {
+     "zh": "阳台",
+     "en": "balcony"
+    },
+    "examples": [
+     {
+      "text": "On prend le petit-déjeuner sur le balcon.",
+      "translations": {
+       "zh": "我们在阳台上吃早餐。",
+       "en": "We have breakfast on the balcony."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "terrasse",
+  "phonetic": "/tɛ.ʁas/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "terrasses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un café sur le trottoir ; grand balcon",
+    "translations": {
+     "zh": "（咖啡馆的）露天座位；露台",
+     "en": "terrace"
+    },
+    "examples": [
+     {
+      "text": "On s'installe en terrasse ?",
+      "translations": {
+       "zh": "我们坐露天座位吗？",
+       "en": "Shall we sit outside?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "parking",
+  "phonetic": "/paʁ.kiŋ/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "parkings"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on gare les voitures",
+    "translations": {
+     "zh": "停车场",
+     "en": "car park, parking lot"
+    },
+    "examples": [
+     {
+      "text": "Le parking de la gare est complet.",
+      "translations": {
+       "zh": "火车站停车场满了。",
+       "en": "The station car park is full."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se garer",
+  "phonetic": "/sə.ɡa.ʁe/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre sa voiture à un endroit et l'arrêter",
+    "translations": {
+     "zh": "停车",
+     "en": "to park"
+    },
+    "examples": [
+     {
+      "text": "C'est difficile de se garer dans ce quartier.",
+      "cloze": "C'est difficile de {{se garer}} dans ce quartier.",
+      "translations": {
+       "zh": "在这个街区很难停车。",
+       "en": "It's hard to park in this area."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bruyant",
+  "phonetic": "/bʁɥi.jɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 8500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fait beaucoup de bruit",
+    "translations": {
+     "zh": "吵闹的；嘈杂的",
+     "en": "noisy"
+    },
+    "examples": [
+     {
+      "text": "Cet appartement est bruyant mais bien situé.",
+      "translations": {
+       "zh": "这套公寓很吵，但位置好。",
+       "en": "This flat is noisy but well located."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "animé",
+  "phonetic": "/a.ni.me/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "où il y a beaucoup de vie et de mouvement",
+    "translations": {
+     "zh": "热闹的",
+     "en": "lively, busy"
+    },
+    "examples": [
+     {
+      "text": "Ce quartier est très animé le soir.",
+      "translations": {
+       "zh": "这个街区晚上很热闹。",
+       "en": "This area is very lively in the evening."
+      }
+     }
+    ],
+    "usageNote": "dessin animé = 动画片。"
+   }
+  ]
+ },
+ {
+  "headword": "agence immobilière",
+  "phonetic": "/a.ʒɑ̃s.i.mɔ.bi.ljɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "agences immobilières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "entreprise qui vend et loue des logements",
+    "translations": {
+     "zh": "房产中介",
+     "en": "estate agency"
+    },
+    "examples": [
+     {
+      "text": "J'ai trouvé cet appartement par une agence immobilière.",
+      "cloze": "J'ai trouvé cet appartement par une {{agence immobilière}}.",
+      "translations": {
+       "zh": "我是通过房产中介找到这套公寓的。",
+       "en": "I found this flat through an estate agency."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "studio",
+  "phonetic": "/sty.djo/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "studios"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit appartement d'une seule pièce",
+    "translations": {
+     "zh": "单间公寓",
+     "en": "studio flat"
+    },
+    "examples": [
+     {
+      "text": "Elle loue un studio près de la fac.",
+      "translations": {
+       "zh": "她在大学附近租了个单间。",
+       "en": "She rents a studio near the university."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rénover",
+  "phonetic": "/ʁe.nɔ.ve/",
+  "cefr": "B2",
+  "frequencyRank": 9500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "remettre à neuf",
+    "translations": {
+     "zh": "翻新；整修",
+     "en": "to renovate"
+    },
+    "examples": [
+     {
+      "text": "Ils veulent rénover la vieille maison.",
+      "translations": {
+       "zh": "他们想翻新那栋老房子。",
+       "en": "They want to renovate the old house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mètre carré",
+  "phonetic": "/mɛtʁ.ka.ʁe/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mètres carrés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "unité de surface (m²)",
+    "translations": {
+     "zh": "平方米",
+     "en": "square metre"
+    },
+    "examples": [
+     {
+      "text": "Le loyer est de vingt euros le mètre carré.",
+      "cloze": "Le loyer est de vingt euros le {{mètre carré}}.",
+      "translations": {
+       "zh": "房租每平方米二十欧元。",
+       "en": "The rent is twenty euros per square metre."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "espace vert",
+  "phonetic": "/ɛs.pas.vɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "espaces verts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "parc ou jardin public dans une ville",
+    "translations": {
+     "zh": "绿地",
+     "en": "green space"
+    },
+    "examples": [
+     {
+      "text": "Notre ville manque d'espaces verts.",
+      "cloze": "Notre ville manque d'{{espaces verts}}.",
+      "translations": {
+       "zh": "我们的城市缺少绿地。",
+       "en": "Our town lacks green spaces."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "capitale",
+  "phonetic": "/ka.pi.tal/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "capitales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ville principale d'un pays",
+    "translations": {
+     "zh": "首都",
+     "en": "capital (city)"
+    },
+    "examples": [
+     {
+      "text": "Pékin est la capitale de la Chine.",
+      "translations": {
+       "zh": "北京是中国的首都。",
+       "en": "Beijing is the capital of China."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "transport",
+  "phonetic": "/tʁɑ̃s.pɔʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "transports"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de déplacer des personnes ou des marchandises",
+    "translations": {
+     "zh": "运输；交通",
+     "en": "transport"
+    },
+    "examples": [
+     {
+      "text": "Le prix du transport est compris.",
+      "translations": {
+       "zh": "价格包含交通费。",
+       "en": "The cost of transport is included."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "transports en commun",
+  "phonetic": "/tʁɑ̃s.pɔʁ.ɑ̃.kɔ.mœ̃/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bus, métro, tram, train utilisés par le public",
+    "translations": {
+     "zh": "公共交通",
+     "en": "public transport"
+    },
+    "examples": [
+     {
+      "text": "Je prends les transports en commun pour aller au travail.",
+      "cloze": "Je prends les {{transports en commun}} pour aller au travail.",
+      "translations": {
+       "zh": "我坐公共交通去上班。",
+       "en": "I take public transport to work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "trajet",
+  "phonetic": "/tʁa.ʒɛ/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "trajets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chemin parcouru pour aller d'un lieu à un autre ; sa durée",
+    "translations": {
+     "zh": "路程；行程",
+     "en": "journey, trip"
+    },
+    "examples": [
+     {
+      "text": "Le trajet dure quarante minutes.",
+      "translations": {
+       "zh": "路上要四十分钟。",
+       "en": "The journey takes forty minutes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "correspondance",
+  "phonetic": "/kɔ.ʁɛs.pɔ̃.dɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "correspondances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "changement de train, de métro ou d'avion",
+    "translations": {
+     "zh": "换乘；转车",
+     "en": "connection, change"
+    },
+    "examples": [
+     {
+      "text": "J'ai raté ma correspondance à Lyon.",
+      "translations": {
+       "zh": "我在里昂错过了转车。",
+       "en": "I missed my connection in Lyon."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "échange de lettres",
+    "translations": {
+     "zh": "通信；书信往来",
+     "en": "correspondence"
+    },
+    "examples": [
+     {
+      "text": "Ils ont gardé une correspondance pendant des années.",
+      "translations": {
+       "zh": "他们通信多年。",
+       "en": "They kept up a correspondence for years."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "abonnement",
+  "phonetic": "/a.bɔn.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "abonnements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "contrat pour utiliser un service pendant une période",
+    "translations": {
+     "zh": "订阅；月票；套餐",
+     "en": "subscription, pass"
+    },
+    "examples": [
+     {
+      "text": "J'ai un abonnement mensuel pour le métro.",
+      "translations": {
+       "zh": "我有地铁月票。",
+       "en": "I have a monthly metro pass."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quai",
+  "phonetic": "/ke/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "quais"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit d'une gare où l'on attend le train",
+    "translations": {
+     "zh": "站台；月台",
+     "en": "platform"
+    },
+    "examples": [
+     {
+      "text": "Le train part du quai numéro trois.",
+      "translations": {
+       "zh": "火车从三号站台出发。",
+       "en": "The train leaves from platform three."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "bord d'une rivière aménagé dans une ville",
+    "translations": {
+     "zh": "河岸；码头",
+     "en": "embankment, quay"
+    },
+    "examples": [
+     {
+      "text": "On se promène sur les quais de la Seine.",
+      "translations": {
+       "zh": "我们在塞纳河畔散步。",
+       "en": "We walk along the banks of the Seine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "voie",
+  "phonetic": "/vwa/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "voies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chemin, route ; partie de la gare où passe le train",
+    "translations": {
+     "zh": "道路；车道；轨道",
+     "en": "way, lane; track"
+    },
+    "examples": [
+     {
+      "text": "Le TGV arrive voie 5.",
+      "translations": {
+       "zh": "高铁停在五号轨道。",
+       "en": "The TGV is arriving on track 5."
+      }
+     }
+    ],
+    "usageNote": "en voie de = 正在……中：espèce en voie de disparition（濒危物种）。"
+   }
+  ]
+ },
+ {
+  "headword": "conducteur",
+  "phonetic": "/kɔ̃.dyk.tœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "conducteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui conduit un véhicule",
+    "translations": {
+     "zh": "司机；驾驶员",
+     "en": "driver"
+    },
+    "examples": [
+     {
+      "text": "Le conducteur du bus est très prudent.",
+      "translations": {
+       "zh": "公交车司机很谨慎。",
+       "en": "The bus driver is very careful."
+      }
+     }
+    ],
+    "usageNote": "女司机是 conductrice。"
+   }
+  ]
+ },
+ {
+  "headword": "conduire",
+  "phonetic": "/kɔ̃.dɥiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "conjugation": "不规则：je conduis, nous conduisons, ils conduisent；过去分词 conduit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "diriger une voiture ou un autre véhicule",
+    "translations": {
+     "zh": "驾驶；开车",
+     "en": "to drive"
+    },
+    "examples": [
+     {
+      "text": "Tu sais conduire ?",
+      "translations": {
+       "zh": "你会开车吗？",
+       "en": "Can you drive?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "emmener quelqu'un quelque part",
+    "translations": {
+     "zh": "带领；送",
+     "en": "to take, to lead"
+    },
+    "examples": [
+     {
+      "text": "Ce chemin conduit au lac.",
+      "translations": {
+       "zh": "这条路通往湖边。",
+       "en": "This path leads to the lake."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "permis de conduire",
+  "phonetic": "/pɛʁ.mi.də.kɔ̃.dɥiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "permis de conduire（不变）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document qui autorise à conduire",
+    "translations": {
+     "zh": "驾照；驾驶执照",
+     "en": "driving licence"
+    },
+    "examples": [
+     {
+      "text": "Elle vient d'avoir son permis de conduire.",
+      "cloze": "Elle vient d'avoir son {{permis de conduire}}.",
+      "translations": {
+       "zh": "她刚拿到驾照。",
+       "en": "She's just got her driving licence."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 le permis。"
+   }
+  ]
+ },
+ {
+  "headword": "autoroute",
+  "phonetic": "/o.to.ʁut/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "autoroutes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande route rapide, souvent payante",
+    "translations": {
+     "zh": "高速公路",
+     "en": "motorway, highway"
+    },
+    "examples": [
+     {
+      "text": "Sur l'autoroute, la vitesse est limitée à 130.",
+      "cloze": "Sur l'{{autoroute}}, la vitesse est limitée à 130.",
+      "translations": {
+       "zh": "高速公路限速一百三十公里。",
+       "en": "On the motorway, the speed limit is 130."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "circulation",
+  "phonetic": "/siʁ.ky.la.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "circulations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mouvement des voitures dans les rues",
+    "translations": {
+     "zh": "交通；车流",
+     "en": "traffic"
+    },
+    "examples": [
+     {
+      "text": "Il y a beaucoup de circulation ce matin.",
+      "translations": {
+       "zh": "今天早上车很多。",
+       "en": "There's a lot of traffic this morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vitesse",
+  "phonetic": "/vi.tɛs/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vitesses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rapidité d'un mouvement",
+    "translations": {
+     "zh": "速度",
+     "en": "speed"
+    },
+    "examples": [
+     {
+      "text": "Il roulait à grande vitesse.",
+      "translations": {
+       "zh": "他开得飞快。",
+       "en": "He was driving at high speed."
+      }
+     }
+    ],
+    "usageNote": "TGV = train à grande vitesse（高速列车）。"
+   }
+  ]
+ },
+ {
+  "headword": "accident",
+  "phonetic": "/ak.si.dɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "accidents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "événement imprévu qui cause des dégâts ou des blessures",
+    "translations": {
+     "zh": "事故；意外",
+     "en": "accident"
+    },
+    "examples": [
+     {
+      "text": "Il y a eu un accident sur l'autoroute.",
+      "translations": {
+       "zh": "高速公路上出了车祸。",
+       "en": "There's been an accident on the motorway."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "essence",
+  "phonetic": "/e.sɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "essences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "carburant pour les voitures",
+    "translations": {
+     "zh": "汽油",
+     "en": "petrol, gas"
+    },
+    "examples": [
+     {
+      "text": "On doit prendre de l'essence avant de partir.",
+      "cloze": "On doit prendre de l'{{essence}} avant de partir.",
+      "translations": {
+       "zh": "出发前得加油。",
+       "en": "We need to get petrol before leaving."
+      }
+     }
+    ],
+    "usageNote": "faire le plein = 加满油。"
+   }
+  ]
+ },
+ {
+  "headword": "station-service",
+  "phonetic": "/sta.sjɔ̃.sɛʁ.vis/",
+  "cefr": "B1",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "stations-service"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on achète de l'essence",
+    "translations": {
+     "zh": "加油站",
+     "en": "petrol station"
+    },
+    "examples": [
+     {
+      "text": "Il y a une station-service à la sortie de la ville.",
+      "cloze": "Il y a une {{station-service}} à la sortie de la ville.",
+      "translations": {
+       "zh": "城市出口有一个加油站。",
+       "en": "There's a petrol station on the way out of town."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ralentir",
+  "phonetic": "/ʁa.lɑ̃.tiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：je ralentis, nous ralentissons；过去分词 ralenti"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller moins vite",
+    "translations": {
+     "zh": "减速；放慢",
+     "en": "to slow down"
+    },
+    "examples": [
+     {
+      "text": "Il faut ralentir près de l'école.",
+      "translations": {
+       "zh": "学校附近要减速。",
+       "en": "You have to slow down near the school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "freiner",
+  "phonetic": "/fʁe.ne/",
+  "cefr": "B1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ralentir ou arrêter un véhicule avec les freins",
+    "translations": {
+     "zh": "刹车；制动",
+     "en": "to brake"
+    },
+    "examples": [
+     {
+      "text": "Le conducteur n'a pas eu le temps de freiner.",
+      "translations": {
+       "zh": "司机来不及刹车。",
+       "en": "The driver didn't have time to brake."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rouler",
+  "phonetic": "/ʁu.le/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avancer sur des roues ; conduire",
+    "translations": {
+     "zh": "（车辆）行驶；开车",
+     "en": "to drive, to roll"
+    },
+    "examples": [
+     {
+      "text": "La voiture peut rouler sans essence.",
+      "translations": {
+       "zh": "这辆车不用汽油也能开。",
+       "en": "The car can run without petrol."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "piste cyclable",
+  "phonetic": "/pist.si.klabl/",
+  "cefr": "B1",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pistes cyclables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie de la route réservée aux vélos",
+    "translations": {
+     "zh": "自行车道",
+     "en": "cycle lane"
+    },
+    "examples": [
+     {
+      "text": "La ville a construit une nouvelle piste cyclable.",
+      "cloze": "La ville a construit une nouvelle {{piste cyclable}}.",
+      "translations": {
+       "zh": "市里修了一条新的自行车道。",
+       "en": "The town has built a new cycle lane."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tramway",
+  "phonetic": "/tʁam.wɛ/",
+  "cefr": "B1",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tramways"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "train électrique qui roule dans les rues d'une ville",
+    "translations": {
+     "zh": "有轨电车",
+     "en": "tram"
+    },
+    "examples": [
+     {
+      "text": "Je prends le tramway pour aller à la fac.",
+      "translations": {
+       "zh": "我坐有轨电车去大学。",
+       "en": "I take the tram to university."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 le tram。"
+   }
+  ]
+ },
+ {
+  "headword": "covoiturage",
+  "phonetic": "/ko.vwa.ty.ʁaʒ/",
+  "cefr": "B2",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "covoiturages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de partager une voiture pour un trajet",
+    "translations": {
+     "zh": "拼车；顺风车",
+     "en": "car-sharing, carpooling"
+    },
+    "examples": [
+     {
+      "text": "On est allés à Bordeaux en covoiturage.",
+      "translations": {
+       "zh": "我们拼车去了波尔多。",
+       "en": "We went to Bordeaux by carpooling."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "horaire",
+  "phonetic": "/ɔ.ʁɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "horaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "heures de départ et d'arrivée ; heures de travail",
+    "translations": {
+     "zh": "时刻表；时间表",
+     "en": "timetable, schedule"
+    },
+    "examples": [
+     {
+      "text": "Cet horaire de bus a changé en septembre.",
+      "translations": {
+       "zh": "这个公交时刻表九月份变了。",
+       "en": "This bus timetable changed in September."
+      }
+     }
+    ],
+    "usageNote": "常用复数 les horaires；horaires d'ouverture = 营业时间。"
+   }
+  ]
+ },
+ {
+  "headword": "panneau",
+  "phonetic": "/pa.no/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "panneaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "plaque qui donne une information sur la route",
+    "translations": {
+     "zh": "指示牌；标牌",
+     "en": "sign, panel"
+    },
+    "examples": [
+     {
+      "text": "Suivez le panneau « Centre-ville ».",
+      "translations": {
+       "zh": "跟着“市中心”的指示牌走。",
+       "en": "Follow the \"Town centre\" sign."
+      }
+     }
+    ],
+    "usageNote": "panneau solaire = 太阳能板。"
+   }
+  ]
+ },
+ {
+  "headword": "feu",
+  "phonetic": "/fø/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "feux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lumière qui règle la circulation",
+    "translations": {
+     "zh": "红绿灯；交通灯",
+     "en": "traffic light"
+    },
+    "examples": [
+     {
+      "text": "Arrête-toi, le feu est rouge !",
+      "translations": {
+       "zh": "停下，红灯了！",
+       "en": "Stop, the light's red!"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "flammes qui brûlent",
+    "translations": {
+     "zh": "火；火灾",
+     "en": "fire"
+    },
+    "examples": [
+     {
+      "text": "Au feu ! Appelez les pompiers !",
+      "translations": {
+       "zh": "着火了！快叫消防员！",
+       "en": "Fire! Call the fire brigade!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "stationner",
+  "phonetic": "/sta.sjɔ.ne/",
+  "cefr": "B2",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arrêter un véhicule dans un lieu",
+    "translations": {
+     "zh": "停车；停放",
+     "en": "to park"
+    },
+    "examples": [
+     {
+      "text": "Il est interdit de stationner devant la porte.",
+      "translations": {
+       "zh": "门前禁止停车。",
+       "en": "Parking in front of the door is forbidden."
+      }
+     }
+    ],
+    "usageNote": "比 se garer 更正式，常见于告示。"
+   }
+  ]
+ },
+ {
+  "headword": "passager",
+  "phonetic": "/pa.sa.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "passagers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui voyage dans un véhicule sans le conduire",
+    "translations": {
+     "zh": "乘客；旅客",
+     "en": "passenger"
+    },
+    "examples": [
+     {
+      "text": "Chaque passager a droit à une valise.",
+      "translations": {
+       "zh": "每位乘客可以带一个行李箱。",
+       "en": "Each passenger is allowed one suitcase."
+      }
+     }
+    ],
+    "usageNote": "女乘客是 passagère。"
+   }
+  ]
+ },
+ {
+  "headword": "véhicule",
+  "phonetic": "/ve.i.kyl/",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "véhicules"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moyen de transport à roues : voiture, camion, etc.",
+    "translations": {
+     "zh": "车辆；交通工具",
+     "en": "vehicle"
+    },
+    "examples": [
+     {
+      "text": "Ce véhicule est électrique.",
+      "translations": {
+       "zh": "这辆车是电动的。",
+       "en": "This vehicle is electric."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "camion",
+  "phonetic": "/ka.mjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "camions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand véhicule pour transporter des marchandises",
+    "translations": {
+     "zh": "卡车；货车",
+     "en": "lorry, truck"
+    },
+    "examples": [
+     {
+      "text": "Un camion bloque la rue.",
+      "translations": {
+       "zh": "一辆卡车挡住了街道。",
+       "en": "A lorry is blocking the street."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "électrique",
+  "phonetic": "/e.lɛk.tʁik/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fonctionne avec l'électricité",
+    "translations": {
+     "zh": "电的；电动的",
+     "en": "electric"
+    },
+    "examples": [
+     {
+      "text": "Il a acheté une voiture électrique.",
+      "translations": {
+       "zh": "他买了一辆电动车。",
+       "en": "He bought an electric car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "aller-retour",
+  "phonetic": "/a.le.ʁə.tuʁ/",
+  "cefr": "B1",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "allers-retours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "billet pour aller et revenir ; voyage aller et retour",
+    "translations": {
+     "zh": "往返票；往返",
+     "en": "return ticket, round trip"
+    },
+    "examples": [
+     {
+      "text": "Un aller-retour pour Nice, s'il vous plaît.",
+      "cloze": "Un {{aller-retour}} pour Nice, s'il vous plaît.",
+      "translations": {
+       "zh": "请给我一张去尼斯的往返票。",
+       "en": "A return to Nice, please."
+      }
+     }
+    ],
+    "usageNote": "单程票是 un aller simple。"
+   }
+  ]
+ },
+ {
+  "headword": "direction",
+  "phonetic": "/di.ʁɛk.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "directions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "côté vers lequel on va",
+    "translations": {
+     "zh": "方向",
+     "en": "direction"
+    },
+    "examples": [
+     {
+      "text": "Prenez le métro direction Château de Vincennes.",
+      "translations": {
+       "zh": "坐开往樊尚城堡方向的地铁。",
+       "en": "Take the metro towards Château de Vincennes."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "personnes qui dirigent une entreprise",
+    "translations": {
+     "zh": "领导层；管理部门",
+     "en": "management"
+    },
+    "examples": [
+     {
+      "text": "La direction a refusé.",
+      "translations": {
+       "zh": "管理层拒绝了。",
+       "en": "The management refused."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "embouchure",
+  "phonetic": "/ɑ̃.bu.ʃyʁ/",
+  "cefr": "B2",
+  "frequencyRank": 17000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "embouchures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où un fleuve se jette dans la mer",
+    "translations": {
+     "zh": "河口；入海口",
+     "en": "mouth (of a river)"
+    },
+    "examples": [
+     {
+      "text": "Bordeaux n'est pas loin de l'embouchure de la Gironde.",
+      "cloze": "Bordeaux n'est pas loin de l'{{embouchure}} de la Gironde.",
+      "translations": {
+       "zh": "波尔多离吉伦特河口不远。",
+       "en": "Bordeaux isn't far from the mouth of the Gironde."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "randonneur",
+  "phonetic": "/ʁɑ̃.dɔ.nœʁ/",
+  "cefr": "B2",
+  "frequencyRank": 18000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "randonneurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait de la randonnée",
+    "translations": {
+     "zh": "徒步旅行者",
+     "en": "hiker"
+    },
+    "examples": [
+     {
+      "text": "Un randonneur s'est perdu dans la montagne.",
+      "translations": {
+       "zh": "一名徒步者在山里迷路了。",
+       "en": "A hiker got lost in the mountains."
+      }
+     }
+    ],
+    "usageNote": "女徒步者是 randonneuse。"
+   }
+  ]
+ },
+ {
+  "headword": "moyen de transport",
+  "phonetic": "/mwa.jɛ̃.də.tʁɑ̃s.pɔʁ/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "moyens de transport"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on utilise pour se déplacer : bus, vélo, etc.",
+    "translations": {
+     "zh": "交通工具",
+     "en": "means of transport"
+    },
+    "examples": [
+     {
+      "text": "Le train est mon moyen de transport préféré.",
+      "cloze": "Le train est mon {{moyen de transport}} préféré.",
+      "translations": {
+       "zh": "火车是我最喜欢的交通工具。",
+       "en": "The train is my favourite means of transport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ticket",
+  "phonetic": "/ti.kɛ/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tickets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit billet pour le bus, le métro ; reçu",
+    "translations": {
+     "zh": "（车、地铁）票；小票",
+     "en": "ticket; receipt"
+    },
+    "examples": [
+     {
+      "text": "Il faut valider ton ticket dans le bus.",
+      "translations": {
+       "zh": "上公交要刷票。",
+       "en": "You must validate your ticket on the bus."
+      }
+     }
+    ],
+    "usageNote": "火车、飞机、演出的票一般说 billet。"
+   }
+  ]
+ },
+ {
+  "headword": "métropole",
+  "phonetic": "/me.tʁɔ.pɔl/",
+  "cefr": "B2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "métropoles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très grande ville ; la France continentale",
+    "translations": {
+     "zh": "大都市；（法国）本土",
+     "en": "metropolis; mainland France"
+    },
+    "examples": [
+     {
+      "text": "Shanghai est une immense métropole.",
+      "translations": {
+       "zh": "上海是一座巨大的都市。",
+       "en": "Shanghai is a huge metropolis."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "environs",
+  "phonetic": "/ɑ̃.vi.ʁɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieux qui sont autour d'une ville",
+    "translations": {
+     "zh": "周边；附近一带",
+     "en": "surroundings, area"
+    },
+    "examples": [
+     {
+      "text": "On a visité Paris et ses environs.",
+      "translations": {
+       "zh": "我们游览了巴黎及其周边。",
+       "en": "We visited Paris and the surrounding area."
+      }
+     }
+    ],
+    "usageNote": "aux environs de = 在……附近 / 大约……时候。"
+   }
+  ]
+ }
+]

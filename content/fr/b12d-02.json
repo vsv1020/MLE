@@ -1,0 +1,1700 @@
+[
+ {
+  "headword": "océan",
+  "phonetic": "/ɔ.se.ɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "océans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très grande étendue d'eau salée",
+    "translations": {
+     "zh": "海洋；大洋",
+     "en": "ocean"
+    },
+    "examples": [
+     {
+      "text": "L'océan Atlantique est très froid ici.",
+      "cloze": "L'{{océan}} Atlantique est très froid ici.",
+      "translations": {
+       "zh": "这里的大西洋海水很冷。",
+       "en": "The Atlantic Ocean is very cold here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "désert",
+  "phonetic": "/de.zɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "déserts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "région très sèche où il ne pleut presque pas",
+    "translations": {
+     "zh": "沙漠",
+     "en": "desert"
+    },
+    "examples": [
+     {
+      "text": "Ils ont traversé le désert en voiture.",
+      "translations": {
+       "zh": "他们开车穿越了沙漠。",
+       "en": "They crossed the desert by car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sommet",
+  "phonetic": "/sɔ.mɛ/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sommets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie la plus haute d'une montagne",
+    "translations": {
+     "zh": "山顶；顶峰",
+     "en": "summit, top"
+    },
+    "examples": [
+     {
+      "text": "Nous sommes arrivés au sommet à midi.",
+      "translations": {
+       "zh": "我们中午到达了山顶。",
+       "en": "We reached the summit at noon."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "réunion de chefs d'État",
+    "translations": {
+     "zh": "峰会；首脑会议",
+     "en": "summit (meeting)"
+    },
+    "examples": [
+     {
+      "text": "Le sommet européen a lieu à Bruxelles.",
+      "translations": {
+       "zh": "欧洲峰会在布鲁塞尔举行。",
+       "en": "The European summit is taking place in Brussels."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "falaise",
+  "phonetic": "/fa.lɛz/",
+  "cefr": "B2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "falaises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "côte très haute et droite au bord de la mer",
+    "translations": {
+     "zh": "悬崖；峭壁",
+     "en": "cliff"
+    },
+    "examples": [
+     {
+      "text": "On voit la mer du haut de la falaise.",
+      "translations": {
+       "zh": "从悬崖顶上能看到大海。",
+       "en": "You can see the sea from the top of the cliff."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "volcan",
+  "phonetic": "/vɔl.kɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "volcans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "montagne d'où peut sortir de la lave",
+    "translations": {
+     "zh": "火山",
+     "en": "volcano"
+    },
+    "examples": [
+     {
+      "text": "Ce volcan est encore actif.",
+      "translations": {
+       "zh": "这座火山仍然活跃。",
+       "en": "This volcano is still active."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "glacier",
+  "phonetic": "/ɡla.sje/",
+  "cefr": "B2",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "glaciers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande masse de glace dans les montagnes",
+    "translations": {
+     "zh": "冰川",
+     "en": "glacier"
+    },
+    "examples": [
+     {
+      "text": "Ce glacier fond chaque année un peu plus.",
+      "translations": {
+       "zh": "这条冰川每年都融化得更多。",
+       "en": "This glacier melts a little more every year."
+      }
+     }
+    ],
+    "usageNote": "也指“冰淇淋商”。"
+   }
+  ]
+ },
+ {
+  "headword": "continent",
+  "phonetic": "/kɔ̃.ti.nɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "continents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très grande étendue de terre",
+    "translations": {
+     "zh": "大洲；大陆",
+     "en": "continent"
+    },
+    "examples": [
+     {
+      "text": "L'Afrique est un continent immense.",
+      "translations": {
+       "zh": "非洲是一个辽阔的大洲。",
+       "en": "Africa is a huge continent."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "région",
+  "phonetic": "/ʁe.ʒjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "régions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un pays ; zone géographique",
+    "translations": {
+     "zh": "地区；（法国的）大区",
+     "en": "region, area"
+    },
+    "examples": [
+     {
+      "text": "Cette région est connue pour ses vins.",
+      "translations": {
+       "zh": "这个地区以葡萄酒闻名。",
+       "en": "This region is known for its wines."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rocher",
+  "phonetic": "/ʁɔ.ʃe/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "rochers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande masse de pierre",
+    "translations": {
+     "zh": "岩石；礁石",
+     "en": "rock"
+    },
+    "examples": [
+     {
+      "text": "Les enfants grimpent sur le rocher.",
+      "translations": {
+       "zh": "孩子们在岩石上攀爬。",
+       "en": "The children are climbing on the rock."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sable",
+  "phonetic": "/sabl/",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petits grains qui couvrent les plages et les déserts",
+    "translations": {
+     "zh": "沙子",
+     "en": "sand"
+    },
+    "examples": [
+     {
+      "text": "Le sable est chaud sous nos pieds.",
+      "translations": {
+       "zh": "脚下的沙子很烫。",
+       "en": "The sand is hot under our feet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vague",
+  "phonetic": "/vaɡ/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vagues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mouvement de l'eau de la mer qui monte et descend",
+    "translations": {
+     "zh": "波浪；海浪",
+     "en": "wave"
+    },
+    "examples": [
+     {
+      "text": "Une grosse vague a mouillé nos serviettes.",
+      "translations": {
+       "zh": "一个大浪打湿了我们的毛巾。",
+       "en": "A big wave soaked our towels."
+      }
+     }
+    ],
+    "usageNote": "une vague de chaleur = 热浪。"
+   }
+  ]
+ },
+ {
+  "headword": "grotte",
+  "phonetic": "/ɡʁɔt/",
+  "cefr": "B2",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "grottes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "trou naturel dans la roche ou la montagne",
+    "translations": {
+     "zh": "山洞；岩洞",
+     "en": "cave"
+    },
+    "examples": [
+     {
+      "text": "On a visité une grotte préhistorique.",
+      "translations": {
+       "zh": "我们参观了一个史前洞穴。",
+       "en": "We visited a prehistoric cave."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cascade",
+  "phonetic": "/kas.kad/",
+  "cefr": "B2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cascades"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chute d'eau dans une rivière",
+    "translations": {
+     "zh": "瀑布",
+     "en": "waterfall"
+    },
+    "examples": [
+     {
+      "text": "On entend la cascade de loin.",
+      "translations": {
+       "zh": "老远就能听到瀑布声。",
+       "en": "You can hear the waterfall from far away."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "source",
+  "phonetic": "/suʁs/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sources"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où l'eau sort de la terre",
+    "translations": {
+     "zh": "泉；水源；源头",
+     "en": "spring, source"
+    },
+    "examples": [
+     {
+      "text": "Cette eau vient d'une source de montagne.",
+      "translations": {
+       "zh": "这水来自山泉。",
+       "en": "This water comes from a mountain spring."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "origine d'une information",
+    "translations": {
+     "zh": "（消息）来源",
+     "en": "source (of information)"
+    },
+    "examples": [
+     {
+      "text": "Le journaliste ne donne pas sa source.",
+      "translations": {
+       "zh": "记者没有透露消息来源。",
+       "en": "The journalist doesn't reveal his source."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "frontière",
+  "phonetic": "/fʁɔ̃.tjɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "frontières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "limite qui sépare deux pays",
+    "translations": {
+     "zh": "边境；国界",
+     "en": "border"
+    },
+    "examples": [
+     {
+      "text": "Nous avons passé la frontière espagnole.",
+      "translations": {
+       "zh": "我们越过了西班牙边境。",
+       "en": "We crossed the Spanish border."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "altitude",
+  "phonetic": "/al.ti.tyd/",
+  "cefr": "B2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "altitudes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "hauteur par rapport au niveau de la mer",
+    "translations": {
+     "zh": "海拔；高度",
+     "en": "altitude"
+    },
+    "examples": [
+     {
+      "text": "Le village est à 1 500 mètres d'altitude.",
+      "cloze": "Le village est à 1 500 mètres d'{{altitude}}.",
+      "translations": {
+       "zh": "村庄海拔一千五百米。",
+       "en": "The village is at an altitude of 1,500 metres."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plaine",
+  "phonetic": "/plɛn/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "plaines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande étendue de terrain plat",
+    "translations": {
+     "zh": "平原",
+     "en": "plain"
+    },
+    "examples": [
+     {
+      "text": "Le blé pousse dans la plaine.",
+      "translations": {
+       "zh": "小麦生长在平原上。",
+       "en": "Wheat grows on the plain."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "marée",
+  "phonetic": "/ma.ʁe/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "marées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mouvement régulier de la mer qui monte et descend",
+    "translations": {
+     "zh": "潮汐；潮水",
+     "en": "tide"
+    },
+    "examples": [
+     {
+      "text": "À marée basse, on peut marcher jusqu'à l'île.",
+      "translations": {
+       "zh": "退潮时可以走到岛上。",
+       "en": "At low tide, you can walk to the island."
+      }
+     }
+    ],
+    "usageNote": "marée haute = 涨潮；marée basse = 退潮；marée noire = 石油泄漏污染。"
+   }
+  ]
+ },
+ {
+  "headword": "fondre",
+  "phonetic": "/fɔ̃dʁ/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "conjugation": "不规则：je fonds, il fond, nous fondons；过去分词 fondu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "devenir liquide sous l'effet de la chaleur",
+    "translations": {
+     "zh": "融化；熔化",
+     "en": "to melt"
+    },
+    "examples": [
+     {
+      "text": "La neige commence à fondre.",
+      "translations": {
+       "zh": "雪开始融化了。",
+       "en": "The snow is starting to melt."
+      }
+     }
+    ],
+    "usageNote": "fondre en larmes = 哭成泪人。"
+   }
+  ]
+ },
+ {
+  "headword": "science",
+  "phonetic": "/sjɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sciences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des connaissances sur la nature et le monde",
+    "translations": {
+     "zh": "科学",
+     "en": "science"
+    },
+    "examples": [
+     {
+      "text": "Elle veut faire des études de science.",
+      "translations": {
+       "zh": "她想学理科。",
+       "en": "She wants to study science."
+      }
+     }
+    ],
+    "usageNote": "les sciences = 理科；sciences humaines = 人文科学。"
+   }
+  ]
+ },
+ {
+  "headword": "scientifique",
+  "phonetic": "/sjɑ̃.ti.fik/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne la science",
+    "translations": {
+     "zh": "科学的",
+     "en": "scientific"
+    },
+    "examples": [
+     {
+      "text": "Cette étude scientifique est sérieuse.",
+      "translations": {
+       "zh": "这项科学研究很严谨。",
+       "en": "This scientific study is serious."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille dans les sciences",
+    "translations": {
+     "zh": "科学家",
+     "en": "scientist"
+    },
+    "examples": [
+     {
+      "text": "Les scientifiques sont d'accord sur ce point.",
+      "translations": {
+       "zh": "科学家们在这一点上意见一致。",
+       "en": "Scientists agree on this point."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "recherche",
+  "phonetic": "/ʁə.ʃɛʁʃ/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "recherches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail pour découvrir de nouvelles connaissances",
+    "translations": {
+     "zh": "研究；科研",
+     "en": "research"
+    },
+    "examples": [
+     {
+      "text": "Il travaille dans la recherche médicale.",
+      "translations": {
+       "zh": "他从事医学研究。",
+       "en": "He works in medical research."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de chercher quelque chose",
+    "translations": {
+     "zh": "寻找；搜索",
+     "en": "search"
+    },
+    "examples": [
+     {
+      "text": "Fais une recherche sur Internet.",
+      "translations": {
+       "zh": "在网上搜一下。",
+       "en": "Do a search on the Internet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chercheur",
+  "phonetic": "/ʃɛʁ.ʃœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chercheurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait de la recherche scientifique",
+    "translations": {
+     "zh": "研究员；研究人员",
+     "en": "researcher"
+    },
+    "examples": [
+     {
+      "text": "Ce chercheur étudie le cerveau.",
+      "translations": {
+       "zh": "这位研究员研究大脑。",
+       "en": "This researcher studies the brain."
+      }
+     }
+    ],
+    "usageNote": "女研究员是 chercheuse。"
+   }
+  ]
+ },
+ {
+  "headword": "découverte",
+  "phonetic": "/de.ku.vɛʁt/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "découvertes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de trouver ce qui était inconnu",
+    "translations": {
+     "zh": "发现",
+     "en": "discovery"
+    },
+    "examples": [
+     {
+      "text": "C'est une découverte importante pour la médecine.",
+      "translations": {
+       "zh": "这是医学上的一项重要发现。",
+       "en": "It's an important discovery for medicine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "découvrir",
+  "phonetic": "/de.ku.vʁiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "conjugation": "不规则：je découvre, nous découvrons（变位像 -er 动词）；过去分词 découvert"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "trouver ce qui était inconnu ou caché",
+    "translations": {
+     "zh": "发现；发掘",
+     "en": "to discover"
+    },
+    "examples": [
+     {
+      "text": "J'aime découvrir de nouveaux pays.",
+      "translations": {
+       "zh": "我喜欢探索新的国家。",
+       "en": "I like discovering new countries."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "expérience",
+  "phonetic": "/ɛks.pe.ʁjɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "expériences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "connaissance acquise par la pratique",
+    "translations": {
+     "zh": "经验；经历",
+     "en": "experience"
+    },
+    "examples": [
+     {
+      "text": "Elle a beaucoup d'expérience dans ce domaine.",
+      "cloze": "Elle a beaucoup d'{{expérience}} dans ce domaine.",
+      "translations": {
+       "zh": "她在这一领域经验丰富。",
+       "en": "She has a lot of experience in this field."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "essai scientifique pour vérifier une idée",
+    "translations": {
+     "zh": "实验",
+     "en": "experiment"
+    },
+    "examples": [
+     {
+      "text": "Les élèves font une expérience de chimie.",
+      "translations": {
+       "zh": "学生们在做化学实验。",
+       "en": "The pupils are doing a chemistry experiment."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "laboratoire",
+  "phonetic": "/la.bɔ.ʁa.twaʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "laboratoires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on fait des recherches et des analyses",
+    "translations": {
+     "zh": "实验室",
+     "en": "laboratory"
+    },
+    "examples": [
+     {
+      "text": "Il passe ses journées au laboratoire.",
+      "translations": {
+       "zh": "他整天待在实验室里。",
+       "en": "He spends his days in the laboratory."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 le labo。"
+   }
+  ]
+ },
+ {
+  "headword": "technologie",
+  "phonetic": "/tɛk.nɔ.lɔ.ʒi/",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "technologies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des techniques modernes",
+    "translations": {
+     "zh": "技术；科技",
+     "en": "technology"
+    },
+    "examples": [
+     {
+      "text": "La technologie change vite.",
+      "translations": {
+       "zh": "科技变化很快。",
+       "en": "Technology changes fast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "logiciel",
+  "phonetic": "/lɔ.ʒi.sjɛl/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "logiciels"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme qui fait fonctionner un ordinateur",
+    "translations": {
+     "zh": "软件",
+     "en": "software, program"
+    },
+    "examples": [
+     {
+      "text": "Il faut installer ce logiciel.",
+      "translations": {
+       "zh": "需要安装这个软件。",
+       "en": "You need to install this software."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "appareil",
+  "phonetic": "/a.pa.ʁɛj/",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "appareils"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet ou machine qui sert à faire quelque chose",
+    "translations": {
+     "zh": "器具；设备；装置",
+     "en": "device, appliance"
+    },
+    "examples": [
+     {
+      "text": "Cet appareil ne marche plus.",
+      "translations": {
+       "zh": "这台设备坏了。",
+       "en": "This device doesn't work any more."
+      }
+     }
+    ],
+    "usageNote": "appareil photo = 照相机。"
+   }
+  ]
+ },
+ {
+  "headword": "données",
+  "phonetic": "/dɔ.ne/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "informations, chiffres qu'on peut analyser",
+    "translations": {
+     "zh": "数据；资料",
+     "en": "data"
+    },
+    "examples": [
+     {
+      "text": "Ces données sont confidentielles.",
+      "translations": {
+       "zh": "这些数据是机密的。",
+       "en": "This data is confidential."
+      }
+     }
+    ],
+    "usageNote": "单数 une donnée 指“一项数据”；protection des données = 数据保护。"
+   }
+  ]
+ },
+ {
+  "headword": "écran",
+  "phonetic": "/e.kʁɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "écrans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "surface où apparaissent les images",
+    "translations": {
+     "zh": "屏幕",
+     "en": "screen"
+    },
+    "examples": [
+     {
+      "text": "Les enfants passent trop de temps devant un écran.",
+      "translations": {
+       "zh": "孩子们花太多时间看屏幕。",
+       "en": "Children spend too much time in front of a screen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "clavier",
+  "phonetic": "/kla.vje/",
+  "cefr": "B1",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "claviers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des touches d'un ordinateur ou d'un piano",
+    "translations": {
+     "zh": "键盘",
+     "en": "keyboard"
+    },
+    "examples": [
+     {
+      "text": "Le clavier français n'est pas comme le clavier anglais.",
+      "translations": {
+       "zh": "法语键盘和英语键盘不一样。",
+       "en": "The French keyboard isn't like the English one."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "application",
+  "phonetic": "/a.pli.ka.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "applications"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme qu'on utilise sur un téléphone ou un ordinateur",
+    "translations": {
+     "zh": "应用程序；App",
+     "en": "app, application"
+    },
+    "examples": [
+     {
+      "text": "Télécharge cette application, elle est gratuite.",
+      "translations": {
+       "zh": "下载这个应用吧，是免费的。",
+       "en": "Download this app, it's free."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 une appli。"
+   }
+  ]
+ },
+ {
+  "headword": "réseau",
+  "phonetic": "/ʁe.zo/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "réseaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de lignes ou de personnes reliées entre elles",
+    "translations": {
+     "zh": "网络；网",
+     "en": "network"
+    },
+    "examples": [
+     {
+      "text": "Je n'ai pas de réseau ici.",
+      "translations": {
+       "zh": "我这儿没信号。",
+       "en": "I don't have any signal here."
+      }
+     }
+    ],
+    "usageNote": "réseaux sociaux = 社交网络。"
+   }
+  ]
+ },
+ {
+  "headword": "numérique",
+  "phonetic": "/ny.me.ʁik/",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui utilise des données informatiques",
+    "translations": {
+     "zh": "数字的；数码的",
+     "en": "digital"
+    },
+    "examples": [
+     {
+      "text": "Il préfère un appareil photo numérique.",
+      "translations": {
+       "zh": "他更喜欢数码相机。",
+       "en": "He prefers a digital camera."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "télécharger",
+  "phonetic": "/te.le.ʃaʁ.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous téléchargeons；过去分词 téléchargé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "copier un fichier depuis Internet",
+    "translations": {
+     "zh": "下载",
+     "en": "to download"
+    },
+    "examples": [
+     {
+      "text": "Tu peux télécharger le document ici.",
+      "translations": {
+       "zh": "你可以在这里下载文件。",
+       "en": "You can download the document here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "enregistrer",
+  "phonetic": "/ɑ̃.ʁə.ʒis.tʁe/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "garder un fichier ou un son sur un appareil",
+    "translations": {
+     "zh": "保存；录制",
+     "en": "to save; to record"
+    },
+    "examples": [
+     {
+      "text": "N'oublie pas d'enregistrer ton travail.",
+      "cloze": "N'oublie pas d'{{enregistrer}} ton travail.",
+      "translations": {
+       "zh": "别忘了保存你的作业。",
+       "en": "Don't forget to save your work."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire contrôler ses bagages à l'aéroport",
+    "translations": {
+     "zh": "托运（行李）；办理登机",
+     "en": "to check in"
+    },
+    "examples": [
+     {
+      "text": "J'ai déjà enregistré ma valise.",
+      "translations": {
+       "zh": "我已经托运了行李箱。",
+       "en": "I've already checked in my suitcase."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fichier",
+  "phonetic": "/fi.ʃje/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fichiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de données enregistrées sous un nom",
+    "translations": {
+     "zh": "文件；档案",
+     "en": "file"
+    },
+    "examples": [
+     {
+      "text": "Je t'envoie le fichier par mail.",
+      "translations": {
+       "zh": "我通过邮件把文件发给你。",
+       "en": "I'll send you the file by email."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mot de passe",
+  "phonetic": "/mo.də.pas/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mots de passe"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "code secret pour accéder à un compte",
+    "translations": {
+     "zh": "密码",
+     "en": "password"
+    },
+    "examples": [
+     {
+      "text": "J'ai oublié mon mot de passe.",
+      "cloze": "J'ai oublié mon {{mot de passe}}.",
+      "translations": {
+       "zh": "我忘了密码。",
+       "en": "I've forgotten my password."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "connexion",
+  "phonetic": "/kɔ.nɛk.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "connexions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liaison avec un réseau ou Internet",
+    "translations": {
+     "zh": "连接；网络连接",
+     "en": "connection"
+    },
+    "examples": [
+     {
+      "text": "La connexion est très lente aujourd'hui.",
+      "translations": {
+       "zh": "今天网速很慢。",
+       "en": "The connection is very slow today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en ligne",
+  "phonetic": "/ɑ̃.liɲ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "sur Internet",
+    "translations": {
+     "zh": "在线；网上",
+     "en": "online"
+    },
+    "examples": [
+     {
+      "text": "J'ai acheté mes billets en ligne.",
+      "cloze": "J'ai acheté mes billets {{en ligne}}.",
+      "translations": {
+       "zh": "我在网上买了票。",
+       "en": "I bought my tickets online."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "inventer",
+  "phonetic": "/ɛ̃.vɑ̃.te/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "créer quelque chose de nouveau",
+    "translations": {
+     "zh": "发明；编造",
+     "en": "to invent; to make up"
+    },
+    "examples": [
+     {
+      "text": "Il a fallu inventer une nouvelle machine.",
+      "translations": {
+       "zh": "必须发明一种新机器。",
+       "en": "A new machine had to be invented."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "invention",
+  "phonetic": "/ɛ̃.vɑ̃.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "inventions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose nouvelle créée par quelqu'un",
+    "translations": {
+     "zh": "发明",
+     "en": "invention"
+    },
+    "examples": [
+     {
+      "text": "L'imprimerie est une invention extraordinaire.",
+      "translations": {
+       "zh": "印刷术是一项了不起的发明。",
+       "en": "Printing is an extraordinary invention."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "progrès",
+  "phonetic": "/pʁɔ.ɡʁɛ/",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "progrès"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'avancer, de s'améliorer",
+    "translations": {
+     "zh": "进步；进展",
+     "en": "progress"
+    },
+    "examples": [
+     {
+      "text": "Tu as fait des progrès en français !",
+      "translations": {
+       "zh": "你的法语进步了！",
+       "en": "You've made progress in French!"
+      }
+     }
+    ],
+    "usageNote": "单复数同形；faire des progrès = 取得进步。"
+   }
+  ]
+ },
+ {
+  "headword": "innovation",
+  "phonetic": "/i.nɔ.va.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "innovations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "idée ou technique nouvelle",
+    "translations": {
+     "zh": "创新；革新",
+     "en": "innovation"
+    },
+    "examples": [
+     {
+      "text": "Cette entreprise mise sur l'innovation.",
+      "cloze": "Cette entreprise mise sur l'{{innovation}}.",
+      "translations": {
+       "zh": "这家公司押注于创新。",
+       "en": "This company is betting on innovation."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "batterie",
+  "phonetic": "/ba.tʁi/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "batteries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "réserve d'électricité d'un appareil",
+    "translations": {
+     "zh": "电池；蓄电池",
+     "en": "battery"
+    },
+    "examples": [
+     {
+      "text": "Ma batterie est presque vide.",
+      "translations": {
+       "zh": "我的电池快没电了。",
+       "en": "My battery is almost dead."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "instrument de musique à percussion",
+    "translations": {
+     "zh": "架子鼓",
+     "en": "drums"
+    },
+    "examples": [
+     {
+      "text": "Mon frère joue de la batterie.",
+      "translations": {
+       "zh": "我哥哥打架子鼓。",
+       "en": "My brother plays the drums."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "recharger",
+  "phonetic": "/ʁə.ʃaʁ.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous rechargeons；过去分词 rechargé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "remettre de l'électricité dans une batterie",
+    "translations": {
+     "zh": "充电；重新装填",
+     "en": "to recharge, to charge"
+    },
+    "examples": [
+     {
+      "text": "Je dois recharger mon téléphone.",
+      "translations": {
+       "zh": "我得给手机充电。",
+       "en": "I have to charge my phone."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "imprimante",
+  "phonetic": "/ɛ̃.pʁi.mɑ̃t/",
+  "cefr": "B1",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "imprimantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "machine qui imprime des documents",
+    "translations": {
+     "zh": "打印机",
+     "en": "printer"
+    },
+    "examples": [
+     {
+      "text": "L'imprimante n'a plus d'encre.",
+      "cloze": "L'{{imprimante}} n'a plus d'encre.",
+      "translations": {
+       "zh": "打印机没墨了。",
+       "en": "The printer is out of ink."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "site",
+  "phonetic": "/sit/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de pages sur Internet",
+    "translations": {
+     "zh": "网站",
+     "en": "website"
+    },
+    "examples": [
+     {
+      "text": "Réservez sur notre site.",
+      "translations": {
+       "zh": "请在我们的网站上预订。",
+       "en": "Book on our website."
+      }
+     }
+    ],
+    "usageNote": "site web / site internet 都可以。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu remarquable",
+    "translations": {
+     "zh": "名胜；遗址；场地",
+     "en": "site"
+    },
+    "examples": [
+     {
+      "text": "Ce site archéologique est très visité.",
+      "translations": {
+       "zh": "这个考古遗址游客很多。",
+       "en": "This archaeological site gets many visitors."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "courriel",
+  "phonetic": "/ku.ʁjɛl/",
+  "cefr": "B2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "courriels"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "message envoyé par Internet",
+    "translations": {
+     "zh": "电子邮件",
+     "en": "email"
+    },
+    "examples": [
+     {
+      "text": "Envoyez-nous un courriel.",
+      "translations": {
+       "zh": "请给我们发一封电子邮件。",
+       "en": "Send us an email."
+      }
+     }
+    ],
+    "usageNote": "较正式（尤其在魁北克）；日常多说 un mail / un e-mail。"
+   }
+  ]
+ },
+ {
+  "headword": "robot",
+  "phonetic": "/ʁɔ.bo/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "robots"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "machine qui fait des tâches automatiquement",
+    "translations": {
+     "zh": "机器人",
+     "en": "robot"
+    },
+    "examples": [
+     {
+      "text": "Ce robot nettoie la maison tout seul.",
+      "translations": {
+       "zh": "这个机器人能自己打扫房子。",
+       "en": "This robot cleans the house by itself."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "intelligence artificielle",
+  "phonetic": "/ɛ̃.te.li.ʒɑ̃s.aʁ.ti.fi.sjɛl/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "intelligences artificielles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "technologie qui imite l'intelligence humaine",
+    "translations": {
+     "zh": "人工智能",
+     "en": "artificial intelligence"
+    },
+    "examples": [
+     {
+      "text": "L'intelligence artificielle change notre travail.",
+      "cloze": "L'{{intelligence artificielle}} change notre travail.",
+      "translations": {
+       "zh": "人工智能正在改变我们的工作。",
+       "en": "Artificial intelligence is changing our work."
+      }
+     }
+    ],
+    "usageNote": "缩写 IA（l'IA）。"
+   }
+  ]
+ },
+ {
+  "headword": "mesurer",
+  "phonetic": "/mə.zy.ʁe/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "trouver la taille ou la quantité de quelque chose",
+    "translations": {
+     "zh": "测量；量",
+     "en": "to measure"
+    },
+    "examples": [
+     {
+      "text": "On va mesurer la température de l'eau.",
+      "translations": {
+       "zh": "我们来测一下水温。",
+       "en": "We'll measure the water temperature."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

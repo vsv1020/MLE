@@ -1,0 +1,1241 @@
+[
+ {
+  "headword": "accompagner",
+  "phonetic": "/a.kɔ̃.pa.ɲe/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller avec quelqu'un",
+    "translations": {
+     "zh": "陪同；陪伴",
+     "en": "to go with, to accompany"
+    },
+    "examples": [
+     {
+      "text": "Tu m'accompagnes à la gare ?",
+      "cloze": "Tu {{m'accompagnes}} à la gare ?",
+      "translations": {
+       "zh": "你陪我去火车站吗？",
+       "en": "Will you come with me to the station?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rejoindre",
+  "phonetic": "/ʁə.ʒwɛ̃dʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "conjugation": "不规则：je rejoins, il rejoint, nous rejoignons, ils rejoignent；过去分词 rejoint"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller retrouver quelqu'un",
+    "translations": {
+     "zh": "去和……会合",
+     "en": "to join, to meet up with"
+    },
+    "examples": [
+     {
+      "text": "Je te rejoins au café.",
+      "cloze": "Je te {{rejoins}} au café.",
+      "translations": {
+       "zh": "我去咖啡馆找你。",
+       "en": "I'll meet you at the café."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sauter",
+  "phonetic": "/so.te/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "quitter le sol avec les pieds",
+    "translations": {
+     "zh": "跳",
+     "en": "to jump"
+    },
+    "examples": [
+     {
+      "text": "Le chat saute sur la table.",
+      "cloze": "Le chat {{saute}} sur la table.",
+      "translations": {
+       "zh": "猫跳到桌子上。",
+       "en": "The cat jumps onto the table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "retrouver",
+  "phonetic": "/ʁə.tʁu.ve/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "trouver ce qu'on avait perdu ; revoir quelqu'un",
+    "translations": {
+     "zh": "找回；与……碰面",
+     "en": "to find again, to meet"
+    },
+    "examples": [
+     {
+      "text": "J'ai retrouvé mes clés !",
+      "cloze": "J'ai {{retrouvé}} mes clés !",
+      "translations": {
+       "zh": "我找到我的钥匙了！",
+       "en": "I found my keys!"
+      }
+     }
+    ],
+    "usageNote": "se retrouver 表示“约好碰面”：On se retrouve à midi ?"
+   }
+  ]
+ },
+ {
+  "headword": "avancer",
+  "phonetic": "/a.vɑ̃.se/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous avançons；过去分词 avancé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller vers l'avant",
+    "translations": {
+     "zh": "前进；往前走",
+     "en": "to move forward"
+    },
+    "examples": [
+     {
+      "text": "Avancez, s'il vous plaît !",
+      "cloze": "{{Avancez}}, s'il vous plaît !",
+      "translations": {
+       "zh": "请往前走！",
+       "en": "Move forward, please!"
+      }
+     }
+    ],
+    "usageNote": "Ma montre avance.（我的表快了。）"
+   }
+  ]
+ },
+ {
+  "headword": "rouler",
+  "phonetic": "/ʁu.le/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avancer sur des roues",
+    "translations": {
+     "zh": "（车）行驶；滚动",
+     "en": "to drive, to roll"
+    },
+    "examples": [
+     {
+      "text": "La voiture roule trop vite.",
+      "cloze": "La voiture {{roule}} trop vite.",
+      "translations": {
+       "zh": "这辆车开得太快了。",
+       "en": "The car is going too fast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "voler",
+  "phonetic": "/vɔ.le/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se déplacer dans l'air",
+    "translations": {
+     "zh": "飞",
+     "en": "to fly"
+    },
+    "examples": [
+     {
+      "text": "Les oiseaux volent au-dessus du lac.",
+      "cloze": "Les oiseaux {{volent}} au-dessus du lac.",
+      "translations": {
+       "zh": "鸟儿在湖上飞。",
+       "en": "The birds fly over the lake."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre ce qui est à un autre",
+    "translations": {
+     "zh": "偷",
+     "en": "to steal"
+    },
+    "examples": [
+     {
+      "text": "On m'a volé mon portefeuille.",
+      "cloze": "On m'a {{volé}} mon portefeuille.",
+      "translations": {
+       "zh": "我的钱包被偷了。",
+       "en": "My wallet was stolen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "déménager",
+  "phonetic": "/de.me.na.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous déménageons；过去分词 déménagé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "changer de logement",
+    "translations": {
+     "zh": "搬家",
+     "en": "to move (house)"
+    },
+    "examples": [
+     {
+      "text": "Nous déménageons à Marseille.",
+      "cloze": "Nous {{déménageons}} à Marseille.",
+      "translations": {
+       "zh": "我们要搬到马赛去。",
+       "en": "We're moving to Marseille."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bouger",
+  "phonetic": "/bu.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous bougeons；过去分词 bougé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire un mouvement",
+    "translations": {
+     "zh": "动；移动",
+     "en": "to move"
+    },
+    "examples": [
+     {
+      "text": "Ne bouge pas, je prends une photo !",
+      "cloze": "Ne {{bouge}} pas, je prends une photo !",
+      "translations": {
+       "zh": "别动，我拍张照！",
+       "en": "Don't move, I'm taking a photo!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "utiliser",
+  "phonetic": "/y.ti.li.ze/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se servir de quelque chose",
+    "translations": {
+     "zh": "使用；用",
+     "en": "to use"
+    },
+    "examples": [
+     {
+      "text": "Tu peux utiliser mon ordinateur.",
+      "translations": {
+       "zh": "你可以用我的电脑。",
+       "en": "You can use my computer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nettoyer",
+  "phonetic": "/nɛ.twa.je/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je nettoie, nous nettoyons, ils nettoient"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre propre",
+    "translations": {
+     "zh": "打扫；清洁",
+     "en": "to clean"
+    },
+    "examples": [
+     {
+      "text": "Je nettoie la cuisine le samedi.",
+      "cloze": "Je {{nettoie}} la cuisine le samedi.",
+      "translations": {
+       "zh": "我每周六打扫厨房。",
+       "en": "I clean the kitchen on Saturdays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ranger",
+  "phonetic": "/ʁɑ̃.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous rangeons；过去分词 rangé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre les choses à leur place",
+    "translations": {
+     "zh": "整理；收拾",
+     "en": "to tidy, to put away"
+    },
+    "examples": [
+     {
+      "text": "Range ta chambre, s'il te plaît !",
+      "cloze": "{{Range}} ta chambre, s'il te plaît !",
+      "translations": {
+       "zh": "请收拾你的房间！",
+       "en": "Tidy your room, please!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cuisiner",
+  "phonetic": "/kɥi.zi.ne/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "préparer à manger",
+    "translations": {
+     "zh": "做饭；烹饪",
+     "en": "to cook"
+    },
+    "examples": [
+     {
+      "text": "Mon mari cuisine très bien.",
+      "cloze": "Mon mari {{cuisine}} très bien.",
+      "translations": {
+       "zh": "我丈夫做饭做得很好。",
+       "en": "My husband cooks very well."
+      }
+     }
+    ],
+    "usageNote": "也常说 faire la cuisine。"
+   }
+  ]
+ },
+ {
+  "headword": "couper",
+  "phonetic": "/ku.pe/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "séparer en morceaux avec un couteau",
+    "translations": {
+     "zh": "切；剪",
+     "en": "to cut"
+    },
+    "examples": [
+     {
+      "text": "Coupe le pain, s'il te plaît.",
+      "cloze": "{{Coupe}} le pain, s'il te plaît.",
+      "translations": {
+       "zh": "请把面包切一下。",
+       "en": "Cut the bread, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "casser",
+  "phonetic": "/ka.se/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre en morceaux",
+    "translations": {
+     "zh": "打破；弄坏",
+     "en": "to break"
+    },
+    "examples": [
+     {
+      "text": "J'ai cassé un verre.",
+      "cloze": "J'ai {{cassé}} un verre.",
+      "translations": {
+       "zh": "我打碎了一个杯子。",
+       "en": "I broke a glass."
+      }
+     }
+    ],
+    "usageNote": "se casser la jambe：摔断腿。"
+   }
+  ]
+ },
+ {
+  "headword": "réparer",
+  "phonetic": "/ʁe.pa.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "remettre en bon état",
+    "translations": {
+     "zh": "修理",
+     "en": "to repair, to fix"
+    },
+    "examples": [
+     {
+      "text": "Il répare mon vélo.",
+      "cloze": "Il {{répare}} mon vélo.",
+      "translations": {
+       "zh": "他在修我的自行车。",
+       "en": "He's fixing my bike."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "allumer",
+  "phonetic": "/a.ly.me/",
+  "cefr": "A2",
+  "frequencyRank": 3300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire marcher la lumière ou un appareil",
+    "translations": {
+     "zh": "开（灯、电器）；点燃",
+     "en": "to switch on, to light"
+    },
+    "examples": [
+     {
+      "text": "Allume la lumière, il fait noir.",
+      "cloze": "{{Allume}} la lumière, il fait noir.",
+      "translations": {
+       "zh": "开灯吧，太黑了。",
+       "en": "Turn on the light, it's dark."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "éteindre",
+  "phonetic": "/e.tɛ̃dʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "conjugation": "不规则：j'éteins, il éteint, nous éteignons, ils éteignent；过去分词 éteint"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arrêter la lumière ou un appareil",
+    "translations": {
+     "zh": "关（灯、电器）；熄灭",
+     "en": "to switch off, to put out"
+    },
+    "examples": [
+     {
+      "text": "N'oublie pas d'éteindre la télé.",
+      "cloze": "N'oublie pas {{d'éteindre}} la télé.",
+      "translations": {
+       "zh": "别忘了关电视。",
+       "en": "Don't forget to turn off the TV."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "remplir",
+  "phonetic": "/ʁɑ̃.pliʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "conjugation": "第二组动词：je remplis, nous remplissons, ils remplissent；过去分词 rempli"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre plein",
+    "translations": {
+     "zh": "装满；填写",
+     "en": "to fill, to fill in"
+    },
+    "examples": [
+     {
+      "text": "Remplissez ce formulaire, s'il vous plaît.",
+      "cloze": "{{Remplissez}} ce formulaire, s'il vous plaît.",
+      "translations": {
+       "zh": "请填写这张表格。",
+       "en": "Please fill in this form."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vider",
+  "phonetic": "/vi.de/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre vide",
+    "translations": {
+     "zh": "倒空；清空",
+     "en": "to empty"
+    },
+    "examples": [
+     {
+      "text": "Il vide la poubelle.",
+      "cloze": "Il {{vide}} la poubelle.",
+      "translations": {
+       "zh": "他把垃圾桶倒空。",
+       "en": "He empties the bin."
+      }
+     }
+    ],
+    "usageNote": "vide 也是形容词“空的”，这里是动词 vider 的变位。"
+   }
+  ]
+ },
+ {
+  "headword": "jeter",
+  "phonetic": "/ʒə.te/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je jette, nous jetons, ils jettent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre à la poubelle ; lancer",
+    "translations": {
+     "zh": "扔；扔掉",
+     "en": "to throw (away)"
+    },
+    "examples": [
+     {
+      "text": "Ne jette pas tes papiers par terre.",
+      "cloze": "Ne {{jette}} pas tes papiers par terre.",
+      "translations": {
+       "zh": "别把纸扔在地上。",
+       "en": "Don't throw your papers on the ground."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "garder",
+  "phonetic": "/ɡaʁ.de/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas donner, ne pas jeter",
+    "translations": {
+     "zh": "保留；看管",
+     "en": "to keep"
+    },
+    "examples": [
+     {
+      "text": "Gardez la monnaie.",
+      "cloze": "{{Gardez}} la monnaie.",
+      "translations": {
+       "zh": "零钱不用找了。",
+       "en": "Keep the change."
+      }
+     }
+    ],
+    "usageNote": "garder des enfants：看孩子。"
+   }
+  ]
+ },
+ {
+  "headword": "cacher",
+  "phonetic": "/ka.ʃe/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre où on ne peut pas voir",
+    "translations": {
+     "zh": "藏；隐藏",
+     "en": "to hide"
+    },
+    "examples": [
+     {
+      "text": "Elle cache le cadeau sous le lit.",
+      "cloze": "Elle {{cache}} le cadeau sous le lit.",
+      "translations": {
+       "zh": "她把礼物藏在床底下。",
+       "en": "She hides the present under the bed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tirer",
+  "phonetic": "/ti.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire venir vers soi",
+    "translations": {
+     "zh": "拉",
+     "en": "to pull"
+    },
+    "examples": [
+     {
+      "text": "Tirez la porte pour ouvrir.",
+      "cloze": "{{Tirez}} la porte pour ouvrir.",
+      "translations": {
+       "zh": "拉门才能打开。",
+       "en": "Pull the door to open it."
+      }
+     }
+    ],
+    "usageNote": "门上常见 Tirez（拉）/ Poussez（推）。"
+   }
+  ]
+ },
+ {
+  "headword": "pousser",
+  "phonetic": "/pu.se/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire avancer en appuyant",
+    "translations": {
+     "zh": "推",
+     "en": "to push"
+    },
+    "examples": [
+     {
+      "text": "Poussez la porte.",
+      "cloze": "{{Poussez}} la porte.",
+      "translations": {
+       "zh": "推门。",
+       "en": "Push the door."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "grandir (pour les plantes)",
+    "translations": {
+     "zh": "（植物）生长",
+     "en": "to grow"
+    },
+    "examples": [
+     {
+      "text": "Les fleurs poussent vite au printemps.",
+      "cloze": "Les fleurs {{poussent}} vite au printemps.",
+      "translations": {
+       "zh": "春天花长得很快。",
+       "en": "Flowers grow fast in spring."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tenir",
+  "phonetic": "/tə.niʁ/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "conjugation": "不规则：je tiens, il tient, nous tenons, ils tiennent；过去分词 tenu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir dans la main",
+    "translations": {
+     "zh": "拿着；握住",
+     "en": "to hold"
+    },
+    "examples": [
+     {
+      "text": "Tiens-moi la main.",
+      "cloze": "{{Tiens-moi}} la main.",
+      "translations": {
+       "zh": "拉着我的手。",
+       "en": "Hold my hand."
+      }
+     }
+    ],
+    "usageNote": "递东西时说 Tiens ! / Tenez !（给你！）"
+   }
+  ]
+ },
+ {
+  "headword": "sentir",
+  "phonetic": "/sɑ̃.tiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "conjugation": "不规则：je sens, il sent, nous sentons, ils sentent；过去分词 senti"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "percevoir une odeur ; avoir une odeur",
+    "translations": {
+     "zh": "闻；闻起来",
+     "en": "to smell"
+    },
+    "examples": [
+     {
+      "text": "Ça sent bon dans la cuisine !",
+      "cloze": "Ça {{sent}} bon dans la cuisine !",
+      "translations": {
+       "zh": "厨房里好香啊！",
+       "en": "It smells good in the kitchen!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "goûter",
+  "phonetic": "/ɡu.te/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "manger un peu pour connaître le goût",
+    "translations": {
+     "zh": "尝；品尝",
+     "en": "to taste"
+    },
+    "examples": [
+     {
+      "text": "Goûte cette soupe, elle est délicieuse !",
+      "cloze": "{{Goûte}} cette soupe, elle est délicieuse !",
+      "translations": {
+       "zh": "尝尝这个汤，很好喝！",
+       "en": "Taste this soup, it's delicious!"
+      }
+     }
+    ],
+    "usageNote": "le goûter 是名词“（孩子的）下午点心”。"
+   }
+  ]
+ },
+ {
+  "headword": "toucher",
+  "phonetic": "/tu.ʃe/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre la main sur quelque chose",
+    "translations": {
+     "zh": "摸；碰",
+     "en": "to touch"
+    },
+    "examples": [
+     {
+      "text": "Ne touche pas, c'est chaud !",
+      "cloze": "Ne {{touche}} pas, c'est chaud !",
+      "translations": {
+       "zh": "别碰，很烫！",
+       "en": "Don't touch, it's hot!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "laisser",
+  "phonetic": "/lɛ.se/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas prendre ; ne pas empêcher",
+    "translations": {
+     "zh": "留下；让",
+     "en": "to leave, to let"
+    },
+    "examples": [
+     {
+      "text": "J'ai laissé mon parapluie au bureau.",
+      "cloze": "J'ai {{laissé}} mon parapluie au bureau.",
+      "translations": {
+       "zh": "我把雨伞落在办公室了。",
+       "en": "I left my umbrella at the office."
+      }
+     }
+    ],
+    "usageNote": "laisser + 不定式 表示“让……”：Laisse-moi parler."
+   }
+  ]
+ },
+ {
+  "headword": "prêter",
+  "phonetic": "/pʁe.te/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner pour un temps",
+    "translations": {
+     "zh": "借给",
+     "en": "to lend"
+    },
+    "examples": [
+     {
+      "text": "Tu peux me prêter ton stylo ?",
+      "translations": {
+       "zh": "你能把笔借我吗？",
+       "en": "Can you lend me your pen?"
+      }
+     }
+    ],
+    "usageNote": "prêter 是“借出”，emprunter 是“借入”。"
+   }
+  ]
+ },
+ {
+  "headword": "emprunter",
+  "phonetic": "/ɑ̃.pʁœ̃.te/",
+  "cefr": "A2",
+  "frequencyRank": 4300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre pour un temps et rendre après",
+    "translations": {
+     "zh": "借（入）；借用",
+     "en": "to borrow"
+    },
+    "examples": [
+     {
+      "text": "J'emprunte des livres à la bibliothèque.",
+      "cloze": "{{J'emprunte}} des livres à la bibliothèque.",
+      "translations": {
+       "zh": "我在图书馆借书。",
+       "en": "I borrow books from the library."
+      }
+     }
+    ],
+    "usageNote": "向某人借：emprunter qqch à qqn。"
+   }
+  ]
+ },
+ {
+  "headword": "rendre",
+  "phonetic": "/ʁɑ̃dʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "conjugation": "je rends, il rend, nous rendons, ils rendent；过去分词 rendu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner à quelqu'un ce qu'on lui a pris",
+    "translations": {
+     "zh": "归还；还",
+     "en": "to give back"
+    },
+    "examples": [
+     {
+      "text": "Je te rends ton livre demain.",
+      "cloze": "Je te {{rends}} ton livre demain.",
+      "translations": {
+       "zh": "我明天把书还你。",
+       "en": "I'll give you your book back tomorrow."
+      }
+     }
+    ],
+    "usageNote": "rendre visite à qqn：看望某人。"
+   }
+  ]
+ },
+ {
+  "headword": "dépenser",
+  "phonetic": "/de.pɑ̃.se/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "utiliser son argent",
+    "translations": {
+     "zh": "花（钱）",
+     "en": "to spend (money)"
+    },
+    "examples": [
+     {
+      "text": "Il dépense trop d'argent.",
+      "cloze": "Il {{dépense}} trop d'argent.",
+      "translations": {
+       "zh": "他花钱太多了。",
+       "en": "He spends too much money."
+      }
+     }
+    ],
+    "usageNote": "花时间用 passer：passer une heure à lire。"
+   }
+  ]
+ },
+ {
+  "headword": "économiser",
+  "phonetic": "/e.kɔ.nɔ.mi.ze/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "garder de l'argent pour plus tard",
+    "translations": {
+     "zh": "节省；攒钱",
+     "en": "to save"
+    },
+    "examples": [
+     {
+      "text": "J'économise pour acheter un vélo.",
+      "cloze": "{{J'économise}} pour acheter un vélo.",
+      "translations": {
+       "zh": "我在攒钱买自行车。",
+       "en": "I'm saving up to buy a bike."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "commander",
+  "phonetic": "/kɔ.mɑ̃.de/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "demander un plat ou un produit",
+    "translations": {
+     "zh": "点（菜）；订购",
+     "en": "to order"
+    },
+    "examples": [
+     {
+      "text": "On peut commander, s'il vous plaît ?",
+      "translations": {
+       "zh": "请问我们可以点菜了吗？",
+       "en": "Can we order, please?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "servir",
+  "phonetic": "/sɛʁ.viʁ/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "conjugation": "不规则：je sers, il sert, nous servons, ils servent；过去分词 servi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner à manger ou à boire à quelqu'un",
+    "translations": {
+     "zh": "上（菜）；为……服务",
+     "en": "to serve"
+    },
+    "examples": [
+     {
+      "text": "Le serveur nous sert le dessert.",
+      "cloze": "Le serveur nous {{sert}} le dessert.",
+      "translations": {
+       "zh": "服务员给我们上甜点。",
+       "en": "The waiter serves us dessert."
+      }
+     }
+    ],
+    "usageNote": "servir à + 不定式：用来……：Ça sert à quoi ?（这是干什么用的？）"
+   }
+  ]
+ },
+ {
+  "headword": "attraper",
+  "phonetic": "/a.tʁa.pe/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre quelque chose qui bouge",
+    "translations": {
+     "zh": "抓住；接住；染上（病）",
+     "en": "to catch"
+    },
+    "examples": [
+     {
+      "text": "Le chien attrape la balle.",
+      "cloze": "Le chien {{attrape}} la balle.",
+      "translations": {
+       "zh": "狗接住了球。",
+       "en": "The dog catches the ball."
+      }
+     }
+    ],
+    "usageNote": "attraper un rhume：得感冒。"
+   }
+  ]
+ },
+ {
+  "headword": "manquer",
+  "phonetic": "/mɑ̃.ke/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas avoir assez de ; rater",
+    "translations": {
+     "zh": "缺少；错过",
+     "en": "to lack, to miss"
+    },
+    "examples": [
+     {
+      "text": "J'ai manqué le début du film.",
+      "cloze": "J'ai {{manqué}} le début du film.",
+      "translations": {
+       "zh": "我错过了电影的开头。",
+       "en": "I missed the start of the film."
+      }
+     }
+    ],
+    "usageNote": "Tu me manques. 是“我想你”，注意主语和宾语与中文相反。"
+   }
+  ]
+ },
+ {
+  "headword": "plaire",
+  "phonetic": "/plɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "conjugation": "不规则：je plais, il plaît, nous plaisons, ils plaisent；过去分词 plu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être agréable à quelqu'un",
+    "translations": {
+     "zh": "讨……喜欢；使喜欢",
+     "en": "to please, to be liked"
+    },
+    "examples": [
+     {
+      "text": "Ce film me plaît beaucoup.",
+      "cloze": "Ce film me {{plaît}} beaucoup.",
+      "translations": {
+       "zh": "我很喜欢这部电影。",
+       "en": "I really like this film."
+      }
+     }
+    ],
+    "usageNote": "喜欢的东西作主语：La robe te plaît ?（你喜欢这条裙子吗？）s'il vous plaît 也来自这个动词。"
+   }
+  ]
+ },
+ {
+  "headword": "détester",
+  "phonetic": "/de.tɛs.te/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas aimer du tout",
+    "translations": {
+     "zh": "讨厌；憎恨",
+     "en": "to hate"
+    },
+    "examples": [
+     {
+      "text": "Je déteste le froid.",
+      "cloze": "Je {{déteste}} le froid.",
+      "translations": {
+       "zh": "我讨厌寒冷。",
+       "en": "I hate the cold."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "adorer",
+  "phonetic": "/a.dɔ.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aimer beaucoup",
+    "translations": {
+     "zh": "非常喜欢；热爱",
+     "en": "to love, to adore"
+    },
+    "examples": [
+     {
+      "text": "J'adore le chocolat !",
+      "cloze": "{{J'adore}} le chocolat !",
+      "translations": {
+       "zh": "我超爱巧克力！",
+       "en": "I love chocolate!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pleurer",
+  "phonetic": "/plœ.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir des larmes qui coulent des yeux",
+    "translations": {
+     "zh": "哭",
+     "en": "to cry"
+    },
+    "examples": [
+     {
+      "text": "Le bébé pleure, il a faim.",
+      "cloze": "Le bébé {{pleure}}, il a faim.",
+      "translations": {
+       "zh": "宝宝在哭，他饿了。",
+       "en": "The baby is crying, he's hungry."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rire",
+  "phonetic": "/ʁiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "conjugation": "不规则：je ris, il rit, nous rions, ils rient；过去分词 ri"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "montrer qu'on trouve quelque chose drôle",
+    "translations": {
+     "zh": "笑",
+     "en": "to laugh"
+    },
+    "examples": [
+     {
+      "text": "Ses blagues me font rire.",
+      "translations": {
+       "zh": "他的笑话让我发笑。",
+       "en": "His jokes make me laugh."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

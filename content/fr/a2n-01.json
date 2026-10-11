@@ -1,0 +1,1534 @@
+[
+ {
+  "headword": "avocat",
+  "phonetic": "/a.vɔ.ka/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "avocats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui défend les gens devant un juge",
+    "translations": {
+     "zh": "律师",
+     "en": "lawyer"
+    },
+    "examples": [
+     {
+      "text": "Mon oncle est avocat à Lyon.",
+      "translations": {
+       "zh": "我叔叔在里昂当律师。",
+       "en": "My uncle is a lawyer in Lyon."
+      }
+     }
+    ],
+    "usageNote": "女律师是 avocate。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruit vert avec un gros noyau",
+    "translations": {
+     "zh": "牛油果",
+     "en": "avocado"
+    },
+    "examples": [
+     {
+      "text": "J'achète deux avocats pour la salade.",
+      "translations": {
+       "zh": "我买两个牛油果做沙拉。",
+       "en": "I'm buying two avocados for the salad."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "infirmier",
+  "phonetic": "/ɛ̃.fiʁ.mje/",
+  "cefr": "A2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "infirmiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui soigne les malades avec le médecin",
+    "translations": {
+     "zh": "护士",
+     "en": "nurse"
+    },
+    "examples": [
+     {
+      "text": "L'infirmier prend ma température.",
+      "cloze": "L'{{infirmier}} prend ma température.",
+      "translations": {
+       "zh": "护士给我量体温。",
+       "en": "The nurse takes my temperature."
+      }
+     }
+    ],
+    "usageNote": "女护士是 infirmière。"
+   }
+  ]
+ },
+ {
+  "headword": "ingénieur",
+  "phonetic": "/ɛ̃.ʒe.njœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ingénieurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui conçoit des machines ou des bâtiments",
+    "translations": {
+     "zh": "工程师",
+     "en": "engineer"
+    },
+    "examples": [
+     {
+      "text": "Ma sœur est ingénieur chez Airbus.",
+      "translations": {
+       "zh": "我姐姐在空客当工程师。",
+       "en": "My sister is an engineer at Airbus."
+      }
+     }
+    ],
+    "usageNote": "现在也常用阴性形式 ingénieure。"
+   }
+  ]
+ },
+ {
+  "headword": "cuisinier",
+  "phonetic": "/kɥi.zi.nje/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cuisiniers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui prépare les repas",
+    "translations": {
+     "zh": "厨师",
+     "en": "cook"
+    },
+    "examples": [
+     {
+      "text": "Le cuisinier prépare une soupe.",
+      "translations": {
+       "zh": "厨师在做汤。",
+       "en": "The cook is making soup."
+      }
+     }
+    ],
+    "usageNote": "女厨师是 cuisinière；cuisinière 也指“炉灶”。"
+   }
+  ]
+ },
+ {
+  "headword": "serveur",
+  "phonetic": "/sɛʁ.vœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "serveurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui sert les clients au café ou au restaurant",
+    "translations": {
+     "zh": "服务员",
+     "en": "waiter"
+    },
+    "examples": [
+     {
+      "text": "Le serveur apporte l'addition.",
+      "translations": {
+       "zh": "服务员把账单拿来了。",
+       "en": "The waiter brings the bill."
+      }
+     }
+    ],
+    "usageNote": "女服务员是 serveuse；serveur 也指“服务器”。"
+   }
+  ]
+ },
+ {
+  "headword": "boulanger",
+  "phonetic": "/bu.lɑ̃.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 7800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "boulangers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait et vend du pain",
+    "translations": {
+     "zh": "面包师",
+     "en": "baker"
+    },
+    "examples": [
+     {
+      "text": "Le boulanger se lève à quatre heures.",
+      "translations": {
+       "zh": "面包师四点起床。",
+       "en": "The baker gets up at four."
+      }
+     }
+    ],
+    "usageNote": "阴性 boulangère；面包店是 boulangerie。"
+   }
+  ]
+ },
+ {
+  "headword": "coiffeur",
+  "phonetic": "/kwa.fœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "coiffeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui coupe les cheveux",
+    "translations": {
+     "zh": "理发师",
+     "en": "hairdresser"
+    },
+    "examples": [
+     {
+      "text": "Je vais chez le coiffeur samedi.",
+      "translations": {
+       "zh": "我星期六去理发。",
+       "en": "I'm going to the hairdresser's on Saturday."
+      }
+     }
+    ],
+    "usageNote": "阴性 coiffeuse；“去理发店”说 aller chez le coiffeur。"
+   }
+  ]
+ },
+ {
+  "headword": "facteur",
+  "phonetic": "/fak.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "facteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui apporte le courrier",
+    "translations": {
+     "zh": "邮递员",
+     "en": "postman"
+    },
+    "examples": [
+     {
+      "text": "Le facteur passe tous les matins.",
+      "translations": {
+       "zh": "邮递员每天早上都来。",
+       "en": "The postman comes every morning."
+      }
+     }
+    ],
+    "usageNote": "facteur 还有“因素”的意思。"
+   }
+  ]
+ },
+ {
+  "headword": "pompier",
+  "phonetic": "/pɔ̃.pje/",
+  "cefr": "A2",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pompiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui éteint les incendies",
+    "translations": {
+     "zh": "消防员",
+     "en": "firefighter"
+    },
+    "examples": [
+     {
+      "text": "Les pompiers arrivent très vite.",
+      "cloze": "Les {{pompiers}} arrivent très vite.",
+      "translations": {
+       "zh": "消防员很快就到了。",
+       "en": "The firefighters arrive very quickly."
+      }
+     }
+    ],
+    "usageNote": "法国的火警电话是 18。"
+   }
+  ]
+ },
+ {
+  "headword": "agriculteur",
+  "phonetic": "/a.ɡʁi.kyl.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "agriculteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui cultive la terre",
+    "translations": {
+     "zh": "农民；农场主",
+     "en": "farmer"
+    },
+    "examples": [
+     {
+      "text": "Mon grand-père était agriculteur.",
+      "translations": {
+       "zh": "我祖父以前是农民。",
+       "en": "My grandfather was a farmer."
+      }
+     }
+    ],
+    "usageNote": "阴性 agricultrice。"
+   }
+  ]
+ },
+ {
+  "headword": "journaliste",
+  "phonetic": "/ʒuʁ.na.list/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "journalistes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui écrit dans un journal ou parle à la télé",
+    "translations": {
+     "zh": "记者",
+     "en": "journalist"
+    },
+    "examples": [
+     {
+      "text": "Elle veut devenir journaliste.",
+      "translations": {
+       "zh": "她想当记者。",
+       "en": "She wants to become a journalist."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une journaliste。"
+   }
+  ]
+ },
+ {
+  "headword": "chauffeur",
+  "phonetic": "/ʃo.fœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chauffeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui conduit un bus, un taxi ou un camion",
+    "translations": {
+     "zh": "司机",
+     "en": "driver"
+    },
+    "examples": [
+     {
+      "text": "Le chauffeur de bus est sympa.",
+      "translations": {
+       "zh": "公交车司机人很好。",
+       "en": "The bus driver is nice."
+      }
+     }
+    ],
+    "usageNote": "职业司机用 chauffeur；一般“开车的人”说 conducteur。"
+   }
+  ]
+ },
+ {
+  "headword": "secrétaire",
+  "phonetic": "/sə.kʁe.tɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "secrétaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui organise le travail d'un bureau",
+    "translations": {
+     "zh": "秘书",
+     "en": "secretary"
+    },
+    "examples": [
+     {
+      "text": "Demandez à la secrétaire, s'il vous plaît.",
+      "translations": {
+       "zh": "请问一下秘书。",
+       "en": "Please ask the secretary."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une secrétaire。"
+   }
+  ]
+ },
+ {
+  "headword": "directeur",
+  "phonetic": "/di.ʁɛk.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "directeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui dirige une école ou une entreprise",
+    "translations": {
+     "zh": "经理；校长",
+     "en": "director, manager"
+    },
+    "examples": [
+     {
+      "text": "Le directeur est en réunion.",
+      "translations": {
+       "zh": "经理在开会。",
+       "en": "The manager is in a meeting."
+      }
+     }
+    ],
+    "usageNote": "阴性 directrice。"
+   }
+  ]
+ },
+ {
+  "headword": "patron",
+  "phonetic": "/pa.tʁɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "patrons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui commande dans une entreprise",
+    "translations": {
+     "zh": "老板",
+     "en": "boss"
+    },
+    "examples": [
+     {
+      "text": "Mon patron est assez strict.",
+      "translations": {
+       "zh": "我老板挺严格的。",
+       "en": "My boss is quite strict."
+      }
+     }
+    ],
+    "usageNote": "阴性 patronne；口语常用。"
+   }
+  ]
+ },
+ {
+  "headword": "collègue",
+  "phonetic": "/kɔ.lɛɡ/",
+  "cefr": "A2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "collègues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille au même endroit",
+    "translations": {
+     "zh": "同事",
+     "en": "colleague"
+    },
+    "examples": [
+     {
+      "text": "Je déjeune avec un collègue.",
+      "translations": {
+       "zh": "我和一个同事吃午饭。",
+       "en": "I'm having lunch with a colleague."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une collègue。"
+   }
+  ]
+ },
+ {
+  "headword": "employé",
+  "phonetic": "/ɑ̃.plwa.je/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "employés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille pour une entreprise",
+    "translations": {
+     "zh": "职员；雇员",
+     "en": "employee"
+    },
+    "examples": [
+     {
+      "text": "Cette banque a deux cents employés.",
+      "cloze": "Cette banque a deux cents {{employés}}.",
+      "translations": {
+       "zh": "这家银行有两百名员工。",
+       "en": "This bank has two hundred employees."
+      }
+     }
+    ],
+    "usageNote": "阴性 employée。"
+   }
+  ]
+ },
+ {
+  "headword": "réunion",
+  "phonetic": "/ʁe.y.njɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réunions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moment où plusieurs personnes se retrouvent pour parler",
+    "translations": {
+     "zh": "会议",
+     "en": "meeting"
+    },
+    "examples": [
+     {
+      "text": "La réunion commence à dix heures.",
+      "translations": {
+       "zh": "会议十点开始。",
+       "en": "The meeting starts at ten."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salaire",
+  "phonetic": "/sa.lɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "salaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on reçoit pour son travail",
+    "translations": {
+     "zh": "工资",
+     "en": "salary, wages"
+    },
+    "examples": [
+     {
+      "text": "Son salaire est de deux mille euros.",
+      "translations": {
+       "zh": "他的工资是两千欧元。",
+       "en": "His salary is two thousand euros."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "emploi",
+  "phonetic": "/ɑ̃.plwa/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "emplois"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail qu'on fait pour gagner de l'argent",
+    "translations": {
+     "zh": "工作；职位",
+     "en": "job, employment"
+    },
+    "examples": [
+     {
+      "text": "Il cherche un emploi à Paris.",
+      "translations": {
+       "zh": "他在巴黎找工作。",
+       "en": "He's looking for a job in Paris."
+      }
+     }
+    ],
+    "usageNote": "比 travail 更正式，常见于招聘。"
+   }
+  ]
+ },
+ {
+  "headword": "stage",
+  "phonetic": "/staʒ/",
+  "cefr": "A2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "stages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de travail pour apprendre un métier",
+    "translations": {
+     "zh": "实习",
+     "en": "internship"
+    },
+    "examples": [
+     {
+      "text": "Je fais un stage dans un hôtel.",
+      "translations": {
+       "zh": "我在一家酒店实习。",
+       "en": "I'm doing an internship in a hotel."
+      }
+     }
+    ],
+    "usageNote": "实习生是 stagiaire。"
+   }
+  ]
+ },
+ {
+  "headword": "entretien",
+  "phonetic": "/ɑ̃.tʁə.tjɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "entretiens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "conversation pour obtenir un travail",
+    "translations": {
+     "zh": "面试",
+     "en": "job interview"
+    },
+    "examples": [
+     {
+      "text": "J'ai un entretien demain matin.",
+      "translations": {
+       "zh": "我明天上午有个面试。",
+       "en": "I have a job interview tomorrow morning."
+      }
+     }
+    ],
+    "usageNote": "也指“保养、维护”：l'entretien de la voiture。"
+   }
+  ]
+ },
+ {
+  "headword": "usine",
+  "phonetic": "/y.zin/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "usines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand bâtiment où on fabrique des produits",
+    "translations": {
+     "zh": "工厂",
+     "en": "factory"
+    },
+    "examples": [
+     {
+      "text": "Il travaille dans une usine de voitures.",
+      "translations": {
+       "zh": "他在一家汽车厂工作。",
+       "en": "He works in a car factory."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "architecte",
+  "phonetic": "/aʁ.ʃi.tɛkt/",
+  "cefr": "A2",
+  "frequencyRank": 5100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "architectes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui dessine les plans des maisons",
+    "translations": {
+     "zh": "建筑师",
+     "en": "architect"
+    },
+    "examples": [
+     {
+      "text": "L'architecte nous montre les plans.",
+      "cloze": "L'{{architecte}} nous montre les plans.",
+      "translations": {
+       "zh": "建筑师给我们看图纸。",
+       "en": "The architect shows us the plans."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une architecte。"
+   }
+  ]
+ },
+ {
+  "headword": "acteur",
+  "phonetic": "/ak.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "acteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui joue dans un film ou au théâtre",
+    "translations": {
+     "zh": "演员",
+     "en": "actor"
+    },
+    "examples": [
+     {
+      "text": "C'est un acteur très connu.",
+      "translations": {
+       "zh": "这是一位很有名的演员。",
+       "en": "He's a very famous actor."
+      }
+     }
+    ],
+    "usageNote": "女演员是 actrice。"
+   }
+  ]
+ },
+ {
+  "headword": "chanteur",
+  "phonetic": "/ʃɑ̃.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chanteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui chante comme métier",
+    "translations": {
+     "zh": "歌手",
+     "en": "singer"
+    },
+    "examples": [
+     {
+      "text": "Ce chanteur est très populaire en Chine.",
+      "translations": {
+       "zh": "这位歌手在中国很受欢迎。",
+       "en": "This singer is very popular in China."
+      }
+     }
+    ],
+    "usageNote": "女歌手是 chanteuse。"
+   }
+  ]
+ },
+ {
+  "headword": "boucher",
+  "phonetic": "/bu.ʃe/",
+  "cefr": "A2",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bouchers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui vend de la viande",
+    "translations": {
+     "zh": "肉铺老板；屠夫",
+     "en": "butcher"
+    },
+    "examples": [
+     {
+      "text": "Le boucher coupe le poulet.",
+      "translations": {
+       "zh": "肉铺老板在切鸡肉。",
+       "en": "The butcher is cutting the chicken."
+      }
+     }
+    ],
+    "usageNote": "阴性 bouchère；肉店是 boucherie。"
+   }
+  ]
+ },
+ {
+  "headword": "mécanicien",
+  "phonetic": "/me.ka.ni.sjɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 8200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mécaniciens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui répare les voitures",
+    "translations": {
+     "zh": "修车师傅；机械师",
+     "en": "mechanic"
+    },
+    "examples": [
+     {
+      "text": "Le mécanicien répare ma voiture.",
+      "translations": {
+       "zh": "修车师傅在修我的车。",
+       "en": "The mechanic is fixing my car."
+      }
+     }
+    ],
+    "usageNote": "阴性 mécanicienne。"
+   }
+  ]
+ },
+ {
+  "headword": "informaticien",
+  "phonetic": "/ɛ̃.fɔʁ.ma.ti.sjɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 9800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "informaticiens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille avec les ordinateurs",
+    "translations": {
+     "zh": "程序员；IT人员",
+     "en": "IT specialist, programmer"
+    },
+    "examples": [
+     {
+      "text": "Mon frère est informaticien.",
+      "translations": {
+       "zh": "我哥哥是搞IT的。",
+       "en": "My brother works in IT."
+      }
+     }
+    ],
+    "usageNote": "阴性 informaticienne。"
+   }
+  ]
+ },
+ {
+  "headword": "chômage",
+  "phonetic": "/ʃo.maʒ/",
+  "cefr": "A2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chômages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation d'une personne qui n'a pas de travail",
+    "translations": {
+     "zh": "失业",
+     "en": "unemployment"
+    },
+    "examples": [
+     {
+      "text": "Il est au chômage depuis mars.",
+      "translations": {
+       "zh": "他从三月起就失业了。",
+       "en": "He's been unemployed since March."
+      }
+     }
+    ],
+    "usageNote": "常说 être au chômage（失业中）。"
+   }
+  ]
+ },
+ {
+  "headword": "retraite",
+  "phonetic": "/ʁə.tʁɛt/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "retraites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période où on ne travaille plus à cause de l'âge",
+    "translations": {
+     "zh": "退休",
+     "en": "retirement"
+    },
+    "examples": [
+     {
+      "text": "Ma mère est à la retraite.",
+      "translations": {
+       "zh": "我妈妈退休了。",
+       "en": "My mother is retired."
+      }
+     }
+    ],
+    "usageNote": "常说 être à la retraite（已退休）；退休金也叫 retraite。"
+   }
+  ]
+ },
+ {
+  "headword": "horaire",
+  "phonetic": "/ɔ.ʁɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "horaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "heures de travail, d'ouverture ou de départ",
+    "translations": {
+     "zh": "时刻表；作息时间",
+     "en": "schedule, timetable"
+    },
+    "examples": [
+     {
+      "text": "Quels sont les horaires d'ouverture ?",
+      "cloze": "Quels sont les {{horaires}} d'ouverture ?",
+      "translations": {
+       "zh": "营业时间是几点到几点？",
+       "en": "What are the opening hours?"
+      }
+     }
+    ],
+    "usageNote": "常用复数 les horaires。"
+   }
+  ]
+ },
+ {
+  "headword": "dossier",
+  "phonetic": "/do.sje/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dossiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de documents sur un sujet",
+    "translations": {
+     "zh": "文件夹；资料",
+     "en": "file, folder"
+    },
+    "examples": [
+     {
+      "text": "Je mets les papiers dans ce dossier.",
+      "translations": {
+       "zh": "我把文件放进这个文件夹。",
+       "en": "I'm putting the papers in this folder."
+      }
+     }
+    ],
+    "usageNote": "电脑里的“文件夹”也叫 dossier。"
+   }
+  ]
+ },
+ {
+  "headword": "congé",
+  "phonetic": "/kɔ̃.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "congés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jours où on ne va pas au travail",
+    "translations": {
+     "zh": "假期；休假",
+     "en": "leave, time off"
+    },
+    "examples": [
+     {
+      "text": "Je suis en congé la semaine prochaine.",
+      "translations": {
+       "zh": "我下周休假。",
+       "en": "I'm on leave next week."
+      }
+     }
+    ],
+    "usageNote": "带薪假是 congés payés；产假是 congé maternité。"
+   }
+  ]
+ },
+ {
+  "headword": "passeport",
+  "phonetic": "/pas.pɔʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "passeports"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document officiel pour voyager à l'étranger",
+    "translations": {
+     "zh": "护照",
+     "en": "passport"
+    },
+    "examples": [
+     {
+      "text": "N'oublie pas ton passeport !",
+      "translations": {
+       "zh": "别忘了你的护照！",
+       "en": "Don't forget your passport!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "valise",
+  "phonetic": "/va.liz/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "valises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand sac rigide pour transporter ses vêtements en voyage",
+    "translations": {
+     "zh": "行李箱",
+     "en": "suitcase"
+    },
+    "examples": [
+     {
+      "text": "Ma valise est trop lourde.",
+      "translations": {
+       "zh": "我的行李箱太重了。",
+       "en": "My suitcase is too heavy."
+      }
+     }
+    ],
+    "usageNote": "“收拾行李”说 faire sa valise。"
+   }
+  ]
+ },
+ {
+  "headword": "bagage",
+  "phonetic": "/ba.ɡaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bagages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sac ou valise qu'on emporte en voyage",
+    "translations": {
+     "zh": "行李",
+     "en": "luggage, bag"
+    },
+    "examples": [
+     {
+      "text": "Vous avez combien de bagages ?",
+      "cloze": "Vous avez combien de {{bagages}} ?",
+      "translations": {
+       "zh": "您有几件行李？",
+       "en": "How many bags do you have?"
+      }
+     }
+    ],
+    "usageNote": "多用复数 les bagages；手提行李是 bagage à main。"
+   }
+  ]
+ },
+ {
+  "headword": "vol",
+  "phonetic": "/vɔl/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vols"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "voyage en avion",
+    "translations": {
+     "zh": "航班",
+     "en": "flight"
+    },
+    "examples": [
+     {
+      "text": "Notre vol part à midi.",
+      "translations": {
+       "zh": "我们的航班中午起飞。",
+       "en": "Our flight leaves at noon."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de prendre ce qui est à quelqu'un d'autre",
+    "translations": {
+     "zh": "盗窃；偷窃",
+     "en": "theft"
+    },
+    "examples": [
+     {
+      "text": "Il y a eu un vol dans le magasin.",
+      "translations": {
+       "zh": "店里发生了一起盗窃。",
+       "en": "There was a theft in the shop."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réservation",
+  "phonetic": "/ʁe.zɛʁ.va.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réservations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de garder à l'avance une chambre, une table ou une place",
+    "translations": {
+     "zh": "预订",
+     "en": "reservation, booking"
+    },
+    "examples": [
+     {
+      "text": "J'ai une réservation au nom de Wang.",
+      "translations": {
+       "zh": "我用王的名字订过。",
+       "en": "I have a reservation under the name Wang."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réception",
+  "phonetic": "/ʁe.sɛp.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réceptions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit à l'entrée d'un hôtel où on accueille les clients",
+    "translations": {
+     "zh": "前台",
+     "en": "reception desk"
+    },
+    "examples": [
+     {
+      "text": "Laissez la clé à la réception.",
+      "translations": {
+       "zh": "请把钥匙留在前台。",
+       "en": "Leave the key at reception."
+      }
+     }
+    ],
+    "usageNote": "也指“招待会”：une réception à l'ambassade。"
+   }
+  ]
+ },
+ {
+  "headword": "douane",
+  "phonetic": "/dwan/",
+  "cefr": "A2",
+  "frequencyRank": 6600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "douanes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "service qui contrôle les marchandises à la frontière",
+    "translations": {
+     "zh": "海关",
+     "en": "customs"
+    },
+    "examples": [
+     {
+      "text": "On passe la douane à l'aéroport.",
+      "translations": {
+       "zh": "我们在机场过海关。",
+       "en": "We go through customs at the airport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quai",
+  "phonetic": "/kɛ/",
+  "cefr": "A2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "quais"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où on attend le train dans une gare",
+    "translations": {
+     "zh": "站台",
+     "en": "platform"
+    },
+    "examples": [
+     {
+      "text": "Le train part du quai numéro trois.",
+      "translations": {
+       "zh": "火车从三号站台出发。",
+       "en": "The train leaves from platform three."
+      }
+     }
+    ],
+    "usageNote": "也指“河岸码头”，如巴黎的 les quais de Seine。"
+   }
+  ]
+ },
+ {
+  "headword": "guichet",
+  "phonetic": "/ɡi.ʃɛ/",
+  "cefr": "A2",
+  "frequencyRank": 7400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "guichets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite fenêtre où on achète des billets ou parle à un employé",
+    "translations": {
+     "zh": "窗口；售票处",
+     "en": "ticket office, counter"
+    },
+    "examples": [
+     {
+      "text": "Achetez votre billet au guichet.",
+      "translations": {
+       "zh": "请在售票窗口买票。",
+       "en": "Buy your ticket at the ticket office."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "départ",
+  "phonetic": "/de.paʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "départs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moment ou endroit où on part",
+    "translations": {
+     "zh": "出发；离开",
+     "en": "departure"
+    },
+    "examples": [
+     {
+      "text": "Le départ est à huit heures.",
+      "translations": {
+       "zh": "八点出发。",
+       "en": "Departure is at eight."
+      }
+     }
+    ],
+    "usageNote": "反义词 arrivée。"
+   }
+  ]
+ },
+ {
+  "headword": "arrivée",
+  "phonetic": "/a.ʁi.ve/",
+  "cefr": "A2",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "arrivées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moment ou endroit où on arrive",
+    "translations": {
+     "zh": "到达",
+     "en": "arrival"
+    },
+    "examples": [
+     {
+      "text": "Appelle-moi à ton arrivée.",
+      "translations": {
+       "zh": "你到了给我打电话。",
+       "en": "Call me when you arrive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "retard",
+  "phonetic": "/ʁə.taʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "retards"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'arriver après l'heure prévue",
+    "translations": {
+     "zh": "迟到；延误",
+     "en": "delay, lateness"
+    },
+    "examples": [
+     {
+      "text": "Le train a vingt minutes de retard.",
+      "translations": {
+       "zh": "火车晚点二十分钟。",
+       "en": "The train is twenty minutes late."
+      }
+     }
+    ],
+    "usageNote": "être en retard = 迟到。"
+   }
+  ]
+ },
+ {
+  "headword": "correspondance",
+  "phonetic": "/kɔ.ʁɛs.pɔ̃.dɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "correspondances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "changement de train, de métro ou d'avion pendant un voyage",
+    "translations": {
+     "zh": "换乘；转机",
+     "en": "connection"
+    },
+    "examples": [
+     {
+      "text": "J'ai une correspondance à Lyon.",
+      "translations": {
+       "zh": "我要在里昂换车。",
+       "en": "I have a connection in Lyon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plan",
+  "phonetic": "/plɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "plans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "dessin qui montre les rues d'une ville",
+    "translations": {
+     "zh": "地图（城市）；平面图",
+     "en": "map, plan"
+    },
+    "examples": [
+     {
+      "text": "Vous avez un plan de la ville ?",
+      "translations": {
+       "zh": "您有城市地图吗？",
+       "en": "Do you have a map of the town?"
+      }
+     }
+    ],
+    "usageNote": "城市地图用 plan，国家地图用 carte。也指“计划”。"
+   }
+  ]
+ },
+ {
+  "headword": "carte d'embarquement",
+  "phonetic": "/kaʁt dɑ̃.baʁ.kə.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cartes d'embarquement"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document qu'on montre pour monter dans l'avion",
+    "translations": {
+     "zh": "登机牌",
+     "en": "boarding pass"
+    },
+    "examples": [
+     {
+      "text": "Voici ma carte d'embarquement.",
+      "cloze": "Voici ma {{carte d'embarquement}}.",
+      "translations": {
+       "zh": "这是我的登机牌。",
+       "en": "Here's my boarding pass."
+      }
+     }
+    ],
+    "usageNote": "登机口是 porte d'embarquement。"
+   }
+  ]
+ },
+ {
+  "headword": "touriste",
+  "phonetic": "/tu.ʁist/",
+  "cefr": "A2",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "touristes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui voyage pour visiter",
+    "translations": {
+     "zh": "游客",
+     "en": "tourist"
+    },
+    "examples": [
+     {
+      "text": "Il y a beaucoup de touristes en été.",
+      "cloze": "Il y a beaucoup de {{touristes}} en été.",
+      "translations": {
+       "zh": "夏天游客很多。",
+       "en": "There are lots of tourists in summer."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une touriste。"
+   }
+  ]
+ }
+]

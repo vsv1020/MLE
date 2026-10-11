@@ -1,0 +1,1460 @@
+[
+  {
+    "headword": "s'efforcer",
+    "phonetic": "/sɛ.fɔʁ.se/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous nous efforçons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire des efforts pour",
+        "translations": {
+          "zh": "努力；尽力",
+          "en": "to strive, to try hard"
+        },
+        "examples": [
+          {
+            "text": "Je m'efforce d'être patient.",
+            "cloze": "Je {{m'efforce}} d'être patient.",
+            "translations": {
+              "zh": "我尽量保持耐心。",
+              "en": "I try hard to be patient."
+            }
+          }
+        ],
+        "usageNote": "s'efforcer de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "oser",
+    "phonetic": "/o.ze/",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir le courage de",
+        "translations": {
+          "zh": "敢",
+          "en": "to dare"
+        },
+        "examples": [
+          {
+            "text": "Je n'ose pas lui demander.",
+            "cloze": "Je n'{{ose}} pas lui demander.",
+            "translations": {
+              "zh": "我不敢问他。",
+              "en": "I don't dare ask him."
+            }
+          }
+        ],
+        "usageNote": "oser + 不定式（不加介词）。"
+      }
+    ]
+  },
+  {
+    "headword": "obliger",
+    "phonetic": "/ɔ.bli.ʒe/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous obligeons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "imposer de faire qch",
+        "translations": {
+          "zh": "强迫；使不得不",
+          "en": "to force, to oblige"
+        },
+        "examples": [
+          {
+            "text": "Personne ne t'oblige à venir.",
+            "cloze": "Personne ne t'{{oblige}} à venir.",
+            "translations": {
+              "zh": "没人逼你来。",
+              "en": "Nobody is forcing you to come."
+            }
+          }
+        ],
+        "usageNote": "obliger qn à + 不定式；être obligé de + 不定式：不得不。"
+      }
+    ]
+  },
+  {
+    "headword": "forcer",
+    "phonetic": "/fɔʁ.se/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous forçons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "obliger par la force ; ouvrir de force",
+        "translations": {
+          "zh": "强迫；撬开",
+          "en": "to force"
+        },
+        "examples": [
+          {
+            "text": "On l'a forcé à signer.",
+            "cloze": "On l'a {{forcé}} à signer.",
+            "translations": {
+              "zh": "他是被逼签字的。",
+              "en": "He was forced to sign."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "interdire",
+    "phonetic": "/ɛ̃.tɛʁ.diʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则：j'interdis, vous interdisez；过去分词 interdit"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas permettre",
+        "translations": {
+          "zh": "禁止",
+          "en": "to forbid, to ban"
+        },
+        "examples": [
+          {
+            "text": "Il est interdit de fumer ici.",
+            "cloze": "Il est {{interdit}} de fumer ici.",
+            "translations": {
+              "zh": "此处禁止吸烟。",
+              "en": "Smoking is forbidden here."
+            }
+          }
+        ],
+        "usageNote": "interdire à qn de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "autoriser",
+    "phonetic": "/o.tɔ.ʁi.ze/",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner la permission",
+        "translations": {
+          "zh": "批准；允许",
+          "en": "to authorize, to allow"
+        },
+        "examples": [
+          {
+            "text": "Ses parents l'ont autorisé à sortir.",
+            "cloze": "Ses parents l'ont {{autorisé}} à sortir.",
+            "translations": {
+              "zh": "他父母允许他出去。",
+              "en": "His parents allowed him to go out."
+            }
+          }
+        ],
+        "usageNote": "autoriser qn à + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "s'engager",
+    "phonetic": "/sɑ̃.ɡa.ʒe/",
+    "cefr": "B2",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous nous engageons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "promettre ; prendre part à une action",
+        "translations": {
+          "zh": "承诺；投身",
+          "en": "to commit (oneself)"
+        },
+        "examples": [
+          {
+            "text": "Le maire s'est engagé à baisser les impôts.",
+            "cloze": "Le maire {{s'est engagé}} à baisser les impôts.",
+            "translations": {
+              "zh": "市长承诺降低税收。",
+              "en": "The mayor committed to lowering taxes."
+            }
+          }
+        ],
+        "usageNote": "s'engager à + 不定式：承诺做；s'engager dans qch：投身于。"
+      }
+    ]
+  },
+  {
+    "headword": "se charger de",
+    "phonetic": "/sə ʃaʁ.ʒe də/",
+    "cefr": "B2",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous nous chargeons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prendre la responsabilité de",
+        "translations": {
+          "zh": "负责；承担",
+          "en": "to take care of, to be in charge of"
+        },
+        "examples": [
+          {
+            "text": "Je me charge des boissons.",
+            "cloze": "Je {{me charge}} des boissons.",
+            "translations": {
+              "zh": "饮料由我负责。",
+              "en": "I'll take care of the drinks."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'occuper de",
+    "phonetic": "/sɔ.ky.pe də/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prendre soin de ; se charger de",
+        "translations": {
+          "zh": "照顾；负责处理",
+          "en": "to look after, to deal with"
+        },
+        "examples": [
+          {
+            "text": "Elle s'occupe de ses parents.",
+            "cloze": "Elle {{s'occupe}} de ses parents.",
+            "translations": {
+              "zh": "她照顾自己的父母。",
+              "en": "She looks after her parents."
+            }
+          }
+        ],
+        "usageNote": "Je m'en occupe.（这事交给我。）"
+      }
+    ]
+  },
+  {
+    "headword": "s'intéresser à",
+    "phonetic": "/sɛ̃.te.ʁɛ.se a/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir de l'intérêt pour",
+        "translations": {
+          "zh": "对……感兴趣",
+          "en": "to be interested in"
+        },
+        "examples": [
+          {
+            "text": "Je m'intéresse à la politique.",
+            "cloze": "Je {{m'intéresse}} à la politique.",
+            "translations": {
+              "zh": "我对政治感兴趣。",
+              "en": "I'm interested in politics."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "profiter de",
+    "phonetic": "/pʁɔ.fi.te də/",
+    "cefr": "B1",
+    "frequencyRank": 1400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "tirer avantage de ; bien utiliser",
+        "translations": {
+          "zh": "利用；享受",
+          "en": "to take advantage of, to enjoy"
+        },
+        "examples": [
+          {
+            "text": "Profitez bien de vos vacances !",
+            "cloze": "{{Profitez}} bien de vos vacances !",
+            "translations": {
+              "zh": "好好享受假期吧！",
+              "en": "Enjoy your holiday!"
+            }
+          }
+        ],
+        "usageNote": "“享受”义很常用；profiter de qn 则是“占某人便宜”。"
+      }
+    ]
+  },
+  {
+    "headword": "manquer",
+    "phonetic": "/mɑ̃.ke/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas avoir assez de ; être absent",
+        "translations": {
+          "zh": "缺少；缺席",
+          "en": "to lack, to be missing"
+        },
+        "examples": [
+          {
+            "text": "Il manque une page.",
+            "cloze": "Il {{manque}} une page.",
+            "translations": {
+              "zh": "少了一页。",
+              "en": "There's a page missing."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire défaut affectivement",
+        "translations": {
+          "zh": "想念",
+          "en": "to miss (sb)"
+        },
+        "examples": [
+          {
+            "text": "Tu me manques.",
+            "translations": {
+              "zh": "我想你。",
+              "en": "I miss you."
+            }
+          }
+        ],
+        "usageNote": "结构与中文相反：Tu me manques = 我想你（被想念的人作主语）。"
+      }
+    ]
+  },
+  {
+    "headword": "risquer",
+    "phonetic": "/ʁis.ke/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "s'exposer à un danger ; pouvoir arriver",
+        "translations": {
+          "zh": "冒险；有可能会",
+          "en": "to risk, to be likely to"
+        },
+        "examples": [
+          {
+            "text": "Tu risques de rater ton train.",
+            "cloze": "Tu {{risques}} de rater ton train.",
+            "translations": {
+              "zh": "你可能会赶不上火车。",
+              "en": "You might miss your train."
+            }
+          }
+        ],
+        "usageNote": "risquer de + 不定式：有可能（通常指坏事）。"
+      }
+    ]
+  },
+  {
+    "headword": "assurer",
+    "phonetic": "/a.sy.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "affirmer avec certitude",
+        "translations": {
+          "zh": "保证；向……担保",
+          "en": "to assure"
+        },
+        "examples": [
+          {
+            "text": "Je t'assure que c'est vrai.",
+            "cloze": "Je t'{{assure}} que c'est vrai.",
+            "translations": {
+              "zh": "我向你保证这是真的。",
+              "en": "I assure you it's true."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "protéger par une assurance",
+        "translations": {
+          "zh": "给……投保",
+          "en": "to insure"
+        },
+        "examples": [
+          {
+            "text": "Ma voiture est assurée contre le vol.",
+            "translations": {
+              "zh": "我的车上了防盗险。",
+              "en": "My car is insured against theft."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "garantir",
+    "phonetic": "/ɡa.ʁɑ̃.tiʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "assurer, certifier",
+        "translations": {
+          "zh": "保证；担保",
+          "en": "to guarantee"
+        },
+        "examples": [
+          {
+            "text": "Je ne peux pas te garantir le résultat.",
+            "translations": {
+              "zh": "我不能向你保证结果。",
+              "en": "I can't guarantee you the result."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "vérifier",
+    "phonetic": "/ve.ʁi.fje/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "contrôler que qch est exact",
+        "translations": {
+          "zh": "核实；检查",
+          "en": "to check, to verify"
+        },
+        "examples": [
+          {
+            "text": "Vérifie que la porte est fermée.",
+            "cloze": "{{Vérifie}} que la porte est fermée.",
+            "translations": {
+              "zh": "检查一下门关好了没有。",
+              "en": "Check that the door is shut."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "comparer",
+    "phonetic": "/kɔ̃.pa.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "examiner les ressemblances et les différences",
+        "translations": {
+          "zh": "比较",
+          "en": "to compare"
+        },
+        "examples": [
+          {
+            "text": "On ne peut pas comparer ces deux villes.",
+            "translations": {
+              "zh": "这两座城市没法比。",
+              "en": "You can't compare these two cities."
+            }
+          }
+        ],
+        "usageNote": "comparer A à/avec B；par rapport à：与……相比。"
+      }
+    ]
+  },
+  {
+    "headword": "distinguer",
+    "phonetic": "/dis.tɛ̃.ɡe/",
+    "cefr": "B2",
+    "frequencyRank": 1900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "voir la différence entre ; percevoir",
+        "translations": {
+          "zh": "区分；辨认出",
+          "en": "to distinguish, to make out"
+        },
+        "examples": [
+          {
+            "text": "Il ne distingue pas le vert du bleu.",
+            "cloze": "Il ne {{distingue}} pas le vert du bleu.",
+            "translations": {
+              "zh": "他分不清绿色和蓝色。",
+              "en": "He can't tell green from blue."
+            }
+          }
+        ],
+        "usageNote": "distinguer A de B：区分 A 和 B。"
+      }
+    ]
+  },
+  {
+    "headword": "ressembler",
+    "phonetic": "/ʁə.sɑ̃.ble/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir des traits communs avec",
+        "translations": {
+          "zh": "像；相似",
+          "en": "to look like, to resemble"
+        },
+        "examples": [
+          {
+            "text": "Tu ressembles à ta mère.",
+            "cloze": "Tu {{ressembles}} à ta mère.",
+            "translations": {
+              "zh": "你长得像你妈妈。",
+              "en": "You look like your mother."
+            }
+          }
+        ],
+        "usageNote": "ressembler à qn（间接宾语：il lui ressemble）。"
+      }
+    ]
+  },
+  {
+    "headword": "correspondre",
+    "phonetic": "/kɔ.ʁɛs.pɔ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être en accord avec ; être conforme à",
+        "translations": {
+          "zh": "符合；相当于",
+          "en": "to correspond, to match"
+        },
+        "examples": [
+          {
+            "text": "Ce poste correspond à mon profil.",
+            "cloze": "Ce poste {{correspond}} à mon profil.",
+            "translations": {
+              "zh": "这个职位符合我的条件。",
+              "en": "This job matches my profile."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "dépasser",
+    "phonetic": "/de.pa.se/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "aller au-delà de ; doubler",
+        "translations": {
+          "zh": "超过；超越",
+          "en": "to exceed, to overtake"
+        },
+        "examples": [
+          {
+            "text": "Les dépenses dépassent le budget.",
+            "cloze": "Les dépenses {{dépassent}} le budget.",
+            "translations": {
+              "zh": "开支超出了预算。",
+              "en": "Spending exceeds the budget."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'opposer",
+    "phonetic": "/sɔ.po.ze/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être contre",
+        "translations": {
+          "zh": "反对",
+          "en": "to oppose, to be against"
+        },
+        "examples": [
+          {
+            "text": "Les habitants s'opposent au projet.",
+            "cloze": "Les habitants {{s'opposent}} au projet.",
+            "translations": {
+              "zh": "居民们反对这个项目。",
+              "en": "The residents oppose the project."
+            }
+          }
+        ],
+        "usageNote": "s'opposer à qch。"
+      }
+    ]
+  },
+  {
+    "headword": "consister",
+    "phonetic": "/kɔ̃.sis.te/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être composé de ; avoir pour contenu",
+        "translations": {
+          "zh": "在于；由……组成",
+          "en": "to consist"
+        },
+        "examples": [
+          {
+            "text": "Mon travail consiste à répondre aux clients.",
+            "cloze": "Mon travail {{consiste}} à répondre aux clients.",
+            "translations": {
+              "zh": "我的工作就是答复客户。",
+              "en": "My job consists of answering customers."
+            }
+          }
+        ],
+        "usageNote": "consister à + 不定式 / consister en + 名词。"
+      }
+    ]
+  },
+  {
+    "headword": "concerner",
+    "phonetic": "/kɔ̃.sɛʁ.ne/",
+    "cefr": "B1",
+    "frequencyRank": 1400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir rapport à",
+        "translations": {
+          "zh": "涉及；关系到",
+          "en": "to concern"
+        },
+        "examples": [
+          {
+            "text": "Cette règle concerne tous les élèves.",
+            "cloze": "Cette règle {{concerne}} tous les élèves.",
+            "translations": {
+              "zh": "这条规定涉及所有学生。",
+              "en": "This rule concerns all pupils."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "représenter",
+    "phonetic": "/ʁə.pʁe.zɑ̃.te/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être l'image ou le symbole de ; agir au nom de",
+        "translations": {
+          "zh": "代表；表现",
+          "en": "to represent"
+        },
+        "examples": [
+          {
+            "text": "Ce tableau représente un paysage.",
+            "cloze": "Ce tableau {{représente}} un paysage.",
+            "translations": {
+              "zh": "这幅画描绘的是一处风景。",
+              "en": "This painting depicts a landscape."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "définir",
+    "phonetic": "/de.fi.niʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire précisément ce qu'est qch",
+        "translations": {
+          "zh": "定义；确定",
+          "en": "to define"
+        },
+        "examples": [
+          {
+            "text": "Comment définir le bonheur ?",
+            "translations": {
+              "zh": "幸福该如何定义？",
+              "en": "How do you define happiness?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "appartenir",
+    "phonetic": "/a.paʁ.tə.niʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "conjugation": "不规则（同 tenir）：j'appartiens, nous appartenons；过去分词 appartenu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être la propriété de ; faire partie de",
+        "translations": {
+          "zh": "属于",
+          "en": "to belong"
+        },
+        "examples": [
+          {
+            "text": "Ce sac appartient à Marie.",
+            "cloze": "Ce sac {{appartient}} à Marie.",
+            "translations": {
+              "zh": "这个包是玛丽的。",
+              "en": "This bag belongs to Marie."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "comporter",
+    "phonetic": "/kɔ̃.pɔʁ.te/",
+    "cefr": "B2",
+    "frequencyRank": 2300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "contenir, être composé de",
+        "translations": {
+          "zh": "包含；包括",
+          "en": "to include, to comprise"
+        },
+        "examples": [
+          {
+            "text": "Le livre comporte trois parties.",
+            "cloze": "Le livre {{comporte}} trois parties.",
+            "translations": {
+              "zh": "这本书包括三个部分。",
+              "en": "The book has three parts."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "se comporter : agir d'une certaine façon",
+        "translations": {
+          "zh": "表现；举止",
+          "en": "to behave"
+        },
+        "examples": [
+          {
+            "text": "Il s'est mal comporté.",
+            "translations": {
+              "zh": "他表现很差。",
+              "en": "He behaved badly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "impliquer",
+    "phonetic": "/ɛ̃.pli.ke/",
+    "cefr": "B2",
+    "frequencyRank": 2400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir pour conséquence nécessaire ; mêler qn à",
+        "translations": {
+          "zh": "意味着；牵涉",
+          "en": "to imply, to involve"
+        },
+        "examples": [
+          {
+            "text": "Ce poste implique beaucoup de voyages.",
+            "cloze": "Ce poste {{implique}} beaucoup de voyages.",
+            "translations": {
+              "zh": "这个职位需要经常出差。",
+              "en": "This job involves a lot of travel."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "supporter",
+    "phonetic": "/sy.pɔʁ.te/",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "accepter, tolérer qch de pénible",
+        "translations": {
+          "zh": "忍受；受得了",
+          "en": "to bear, to stand"
+        },
+        "examples": [
+          {
+            "text": "Je ne supporte pas le bruit.",
+            "cloze": "Je ne {{supporte}} pas le bruit.",
+            "translations": {
+              "zh": "我受不了噪音。",
+              "en": "I can't stand noise."
+            }
+          }
+        ],
+        "usageNote": "假朋友：一般不表示“支持”（支持 = soutenir）。"
+      }
+    ]
+  },
+  {
+    "headword": "subir",
+    "phonetic": "/sy.biʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être victime de ; endurer",
+        "translations": {
+          "zh": "遭受；经受",
+          "en": "to suffer, to undergo"
+        },
+        "examples": [
+          {
+            "text": "La région a subi de gros dégâts.",
+            "cloze": "La région a {{subi}} de gros dégâts.",
+            "translations": {
+              "zh": "该地区遭受了严重损失。",
+              "en": "The region suffered heavy damage."
+            }
+          }
+        ],
+        "usageNote": "subir une opération：接受手术。"
+      }
+    ]
+  },
+  {
+    "headword": "affronter",
+    "phonetic": "/a.fʁɔ̃.te/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire face avec courage à",
+        "translations": {
+          "zh": "面对；对抗",
+          "en": "to face, to confront"
+        },
+        "examples": [
+          {
+            "text": "Il faut affronter ses peurs.",
+            "translations": {
+              "zh": "要直面自己的恐惧。",
+              "en": "You have to face your fears."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "faire face à",
+    "phonetic": "/fɛʁ fas a/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "affronter une difficulté ; être en face de",
+        "translations": {
+          "zh": "应对；面对",
+          "en": "to face, to cope with"
+        },
+        "examples": [
+          {
+            "text": "Le pays fait face à une crise.",
+            "cloze": "Le pays {{fait face à}} une crise.",
+            "translations": {
+              "zh": "国家正面临一场危机。",
+              "en": "The country is facing a crisis."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "résoudre",
+    "phonetic": "/ʁe.zudʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "conjugation": "不规则：je résous, nous résolvons；过去分词 résolu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "trouver la solution de",
+        "translations": {
+          "zh": "解决",
+          "en": "to solve, to resolve"
+        },
+        "examples": [
+          {
+            "text": "On a enfin résolu le problème.",
+            "cloze": "On a enfin {{résolu}} le problème.",
+            "translations": {
+              "zh": "我们终于解决了问题。",
+              "en": "We finally solved the problem."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "régler",
+    "phonetic": "/ʁe.ɡle/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je règle, nous réglons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "résoudre ; payer",
+        "translations": {
+          "zh": "解决；结算",
+          "en": "to settle, to pay"
+        },
+        "examples": [
+          {
+            "text": "Il faut régler ce problème rapidement.",
+            "translations": {
+              "zh": "必须尽快解决这个问题。",
+              "en": "This problem needs to be settled quickly."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "ajuster un appareil",
+        "translations": {
+          "zh": "调整；调节",
+          "en": "to adjust, to set"
+        },
+        "examples": [
+          {
+            "text": "Je règle le réveil sur sept heures.",
+            "translations": {
+              "zh": "我把闹钟定在七点。",
+              "en": "I set the alarm for seven."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "obtenir",
+    "phonetic": "/ɔp.tə.niʁ/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "conjugation": "不规则（同 tenir）：j'obtiens, nous obtenons；过去分词 obtenu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "réussir à avoir",
+        "translations": {
+          "zh": "获得；取得",
+          "en": "to obtain, to get"
+        },
+        "examples": [
+          {
+            "text": "Elle a obtenu son diplôme.",
+            "cloze": "Elle a {{obtenu}} son diplôme.",
+            "translations": {
+              "zh": "她拿到了文凭。",
+              "en": "She got her degree."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "atteindre",
+    "phonetic": "/a.tɛ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "conjugation": "不规则：j'atteins, nous atteignons；过去分词 atteint"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "arriver à (un lieu, un but)",
+        "translations": {
+          "zh": "达到；到达",
+          "en": "to reach"
+        },
+        "examples": [
+          {
+            "text": "Nous avons atteint notre objectif.",
+            "cloze": "Nous avons {{atteint}} notre objectif.",
+            "translations": {
+              "zh": "我们达到了目标。",
+              "en": "We have reached our goal."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "fournir",
+    "phonetic": "/fuʁ.niʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner, procurer",
+        "translations": {
+          "zh": "提供；供应",
+          "en": "to provide, to supply"
+        },
+        "examples": [
+          {
+            "text": "L'entreprise fournit les ordinateurs.",
+            "cloze": "L'entreprise {{fournit}} les ordinateurs.",
+            "translations": {
+              "zh": "公司提供电脑。",
+              "en": "The company provides the computers."
+            }
+          }
+        ],
+        "usageNote": "fournir qch à qn。"
+      }
+    ]
+  },
+  {
+    "headword": "consacrer",
+    "phonetic": "/kɔ̃.sa.kʁe/",
+    "cefr": "B2",
+    "frequencyRank": 2100,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "employer (du temps, de l'énergie) à",
+        "translations": {
+          "zh": "献出；把……用于",
+          "en": "to devote"
+        },
+        "examples": [
+          {
+            "text": "Il consacre ses week-ends à sa famille.",
+            "cloze": "Il {{consacre}} ses week-ends à sa famille.",
+            "translations": {
+              "zh": "他把周末都留给家人。",
+              "en": "He devotes his weekends to his family."
+            }
+          }
+        ],
+        "usageNote": "consacrer qch à qch；se consacrer à：致力于。"
+      }
+    ]
+  },
+  {
+    "headword": "s'agir",
+    "phonetic": "/sa.ʒiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 700,
+    "grammarNotes": {
+      "conjugation": "无人称动词，只用 il：il s'agit, il s'agissait, il s'est agi"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "il s'agit de : il est question de",
+        "translations": {
+          "zh": "涉及；关于（il s'agit de）",
+          "en": "it is about, it is a matter of"
+        },
+        "examples": [
+          {
+            "text": "Il s'agit d'un malentendu.",
+            "cloze": "Il {{s'agit}} d'un malentendu.",
+            "translations": {
+              "zh": "这是个误会。",
+              "en": "It's a misunderstanding."
+            }
+          }
+        ],
+        "usageNote": "只用于无人称 il s'agit de + 名词/不定式：Il s'agit de bien choisir.（关键在于选好。）"
+      }
+    ]
+  },
+  {
+    "headword": "sembler",
+    "phonetic": "/sɑ̃.ble/",
+    "cefr": "B1",
+    "frequencyRank": 600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir l'air, paraître",
+        "translations": {
+          "zh": "似乎；好像",
+          "en": "to seem"
+        },
+        "examples": [
+          {
+            "text": "Tu sembles fatigué.",
+            "cloze": "Tu {{sembles}} fatigué.",
+            "translations": {
+              "zh": "你看起来很累。",
+              "en": "You seem tired."
+            }
+          }
+        ],
+        "usageNote": "il semble que + 虚拟式；il me semble que + 直陈式。"
+      }
+    ]
+  },
+  {
+    "headword": "paraître",
+    "phonetic": "/pa.ʁɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "conjugation": "不规则：il paraît, nous paraissons；过去分词 paru"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "sembler, avoir l'air",
+        "translations": {
+          "zh": "显得；看起来",
+          "en": "to seem, to appear"
+        },
+        "examples": [
+          {
+            "text": "Elle paraît plus jeune que son âge.",
+            "cloze": "Elle {{paraît}} plus jeune que son âge.",
+            "translations": {
+              "zh": "她看起来比实际年龄年轻。",
+              "en": "She looks younger than her age."
+            }
+          }
+        ],
+        "usageNote": "Il paraît que… = 据说……"
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "être publié",
+        "translations": {
+          "zh": "出版；发表",
+          "en": "to be published"
+        },
+        "examples": [
+          {
+            "text": "Son roman paraîtra en mai.",
+            "translations": {
+              "zh": "他的小说将于五月出版。",
+              "en": "His novel will come out in May."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir l'air",
+    "phonetic": "/a.vwaʁ lɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "sembler",
+        "translations": {
+          "zh": "看起来；显得",
+          "en": "to look, to seem"
+        },
+        "examples": [
+          {
+            "text": "Tu as l'air content.",
+            "cloze": "Tu {{as l'air}} content.",
+            "translations": {
+              "zh": "你看起来很高兴。",
+              "en": "You look happy."
+            }
+          }
+        ],
+        "usageNote": "avoir l'air + 形容词 / avoir l'air de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "se passer de",
+    "phonetic": "/sə pa.se də/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "vivre ou faire sans",
+        "translations": {
+          "zh": "没有……也行；不需要",
+          "en": "to do without"
+        },
+        "examples": [
+          {
+            "text": "Je ne peux pas me passer de café.",
+            "cloze": "Je ne peux pas {{me passer}} de café.",
+            "translations": {
+              "zh": "我离不开咖啡。",
+              "en": "I can't do without coffee."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "éprouver",
+    "phonetic": "/e.pʁu.ve/",
+    "cefr": "B2",
+    "frequencyRank": 2400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ressentir (un sentiment, une sensation)",
+        "translations": {
+          "zh": "感到；体验",
+          "en": "to feel, to experience"
+        },
+        "examples": [
+          {
+            "text": "Il éprouve de la tristesse.",
+            "cloze": "Il {{éprouve}} de la tristesse.",
+            "translations": {
+              "zh": "他感到悲伤。",
+              "en": "He feels sadness."
+            }
+          }
+        ],
+        "usageNote": "éprouver des difficultés à + 不定式：在……方面遇到困难。"
+      }
+    ]
+  },
+  {
+    "headword": "ressentir",
+    "phonetic": "/ʁə.sɑ̃.tiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "conjugation": "不规则（同 sentir）：je ressens, nous ressentons；过去分词 ressenti"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "éprouver une sensation ou un sentiment",
+        "translations": {
+          "zh": "感受到",
+          "en": "to feel"
+        },
+        "examples": [
+          {
+            "text": "J'ai ressenti une grande joie.",
+            "cloze": "J'ai {{ressenti}} une grande joie.",
+            "translations": {
+              "zh": "我感到非常快乐。",
+              "en": "I felt great joy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "regretter",
+    "phonetic": "/ʁə.ɡʁɛ.te/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être désolé de ; avoir de la peine de ne plus avoir",
+        "translations": {
+          "zh": "后悔；遗憾；怀念",
+          "en": "to regret, to miss"
+        },
+        "examples": [
+          {
+            "text": "Je ne regrette rien.",
+            "cloze": "Je ne {{regrette}} rien.",
+            "translations": {
+              "zh": "我什么都不后悔。",
+              "en": "I regret nothing."
+            }
+          }
+        ],
+        "usageNote": "regretter de + 不定式；je regrette que + 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "se soucier de",
+    "phonetic": "/sə su.sje də/",
+    "cefr": "B2",
+    "frequencyRank": 4200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "s'inquiéter de, faire attention à",
+        "translations": {
+          "zh": "关心；在意",
+          "en": "to care about, to worry about"
+        },
+        "examples": [
+          {
+            "text": "Il ne se soucie pas de l'avenir.",
+            "cloze": "Il ne {{se soucie}} pas de l'avenir.",
+            "translations": {
+              "zh": "他不在乎未来。",
+              "en": "He doesn't care about the future."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'inquiéter",
+    "phonetic": "/sɛ̃.kje.te/",
+    "cefr": "B1",
+    "frequencyRank": 1900,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je m'inquiète, nous nous inquiétons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se faire du souci",
+        "translations": {
+          "zh": "担心",
+          "en": "to worry"
+        },
+        "examples": [
+          {
+            "text": "Ne t'inquiète pas, tout va bien.",
+            "cloze": "Ne t'{{inquiète}} pas, tout va bien.",
+            "translations": {
+              "zh": "别担心，一切都好。",
+              "en": "Don't worry, everything's fine."
+            }
+          }
+        ],
+        "usageNote": "s'inquiéter pour qn / de qch。"
+      }
+    ]
+  },
+  {
+    "headword": "se débrouiller",
+    "phonetic": "/sə de.bʁu.je/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se tirer d'affaire seul",
+        "translations": {
+          "zh": "设法应付；自己搞定",
+          "en": "to manage, to get by"
+        },
+        "examples": [
+          {
+            "text": "Ne t'en fais pas, je vais me débrouiller.",
+            "cloze": "Ne t'en fais pas, je vais {{me débrouiller}}.",
+            "translations": {
+              "zh": "别担心，我自己能搞定。",
+              "en": "Don't worry, I'll manage."
+            }
+          }
+        ],
+        "usageNote": "口语常用：Je me débrouille en français.（我法语还过得去。）"
+      }
+    ]
+  }
+]

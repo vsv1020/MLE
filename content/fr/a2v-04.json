@@ -1,0 +1,1198 @@
+[
+ {
+  "headword": "sourire",
+  "phonetic": "/su.ʁiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "conjugation": "不规则：je souris, il sourit, nous sourions, ils sourient；过去分词 souri"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir un petit rire sur le visage",
+    "translations": {
+     "zh": "微笑",
+     "en": "to smile"
+    },
+    "examples": [
+     {
+      "text": "Elle me sourit toujours.",
+      "cloze": "Elle me {{sourit}} toujours.",
+      "translations": {
+       "zh": "她总是对我微笑。",
+       "en": "She always smiles at me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "partager",
+  "phonetic": "/paʁ.ta.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous partageons；过去分词 partagé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner une partie de ce qu'on a",
+    "translations": {
+     "zh": "分享；分",
+     "en": "to share"
+    },
+    "examples": [
+     {
+      "text": "On partage la pizza ?",
+      "cloze": "On {{partage}} la pizza ?",
+      "translations": {
+       "zh": "我们分着吃这个披萨吧？",
+       "en": "Shall we share the pizza?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mourir",
+  "phonetic": "/mu.ʁiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "conjugation": "不规则：je meurs, il meurt, nous mourons, ils meurent；过去分词 mort（复合时态用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arrêter de vivre",
+    "translations": {
+     "zh": "死",
+     "en": "to die"
+    },
+    "examples": [
+     {
+      "text": "Son grand-père est mort l'année dernière.",
+      "cloze": "Son grand-père est {{mort}} l'année dernière.",
+      "translations": {
+       "zh": "他祖父去年去世了。",
+       "en": "His grandfather died last year."
+      }
+     }
+    ],
+    "usageNote": "口语夸张：Je meurs de faim !（我饿死了！）"
+   }
+  ]
+ },
+ {
+  "headword": "naître",
+  "phonetic": "/nɛtʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "conjugation": "不规则：je nais, il naît, nous naissons, ils naissent；过去分词 né（复合时态用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "venir au monde",
+    "translations": {
+     "zh": "出生",
+     "en": "to be born"
+    },
+    "examples": [
+     {
+      "text": "Je suis né à Shanghai.",
+      "cloze": "Je suis {{né}} à Shanghai.",
+      "translations": {
+       "zh": "我出生在上海。",
+       "en": "I was born in Shanghai."
+      }
+     }
+    ],
+    "usageNote": "说“我出生于……”用复合过去时：Je suis né(e) en 2000."
+   }
+  ]
+ },
+ {
+  "headword": "grandir",
+  "phonetic": "/ɡʁɑ̃.diʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "conjugation": "第二组动词：je grandis, nous grandissons, ils grandissent；过去分词 grandi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "devenir plus grand",
+    "translations": {
+     "zh": "长大；长高",
+     "en": "to grow up"
+    },
+    "examples": [
+     {
+      "text": "J'ai grandi à la campagne.",
+      "cloze": "J'ai {{grandi}} à la campagne.",
+      "translations": {
+       "zh": "我在乡下长大。",
+       "en": "I grew up in the countryside."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "maigrir",
+  "phonetic": "/me.ɡʁiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "conjugation": "第二组动词：je maigris, nous maigrissons；过去分词 maigri"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "devenir plus mince",
+    "translations": {
+     "zh": "变瘦；减肥",
+     "en": "to lose weight"
+    },
+    "examples": [
+     {
+      "text": "Il a maigri de cinq kilos.",
+      "cloze": "Il a {{maigri}} de cinq kilos.",
+      "translations": {
+       "zh": "他瘦了五公斤。",
+       "en": "He lost five kilos."
+      }
+     }
+    ],
+    "usageNote": "反义词 grossir（变胖）。"
+   }
+  ]
+ },
+ {
+  "headword": "fumer",
+  "phonetic": "/fy.me/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "respirer la fumée d'une cigarette",
+    "translations": {
+     "zh": "抽烟",
+     "en": "to smoke"
+    },
+    "examples": [
+     {
+      "text": "Il est interdit de fumer ici.",
+      "translations": {
+       "zh": "这里禁止吸烟。",
+       "en": "Smoking is not allowed here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "terminer",
+  "phonetic": "/tɛʁ.mi.ne/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arriver à la fin de quelque chose",
+    "translations": {
+     "zh": "结束；完成",
+     "en": "to finish, to end"
+    },
+    "examples": [
+     {
+      "text": "J'ai terminé mon travail.",
+      "cloze": "J'ai {{terminé}} mon travail.",
+      "translations": {
+       "zh": "我做完了工作。",
+       "en": "I've finished my work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "durer",
+  "phonetic": "/dy.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "continuer pendant un certain temps",
+    "translations": {
+     "zh": "持续",
+     "en": "to last"
+    },
+    "examples": [
+     {
+      "text": "Le film dure deux heures.",
+      "cloze": "Le film {{dure}} deux heures.",
+      "translations": {
+       "zh": "这部电影长两个小时。",
+       "en": "The film lasts two hours."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "devenir",
+  "phonetic": "/də.və.niʁ/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "conjugation": "不规则：je deviens, nous devenons, ils deviennent；过去分词 devenu（复合时态用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "commencer à être",
+    "translations": {
+     "zh": "变成；成为",
+     "en": "to become"
+    },
+    "examples": [
+     {
+      "text": "Elle veut devenir médecin.",
+      "translations": {
+       "zh": "她想成为医生。",
+       "en": "She wants to become a doctor."
+      }
+     }
+    ],
+    "usageNote": "职业前不加冠词：devenir professeur。"
+   }
+  ]
+ },
+ {
+  "headword": "offrir",
+  "phonetic": "/ɔ.fʁiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "conjugation": "不规则：j'offre, tu offres, nous offrons, ils offrent；过去分词 offert"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner un cadeau",
+    "translations": {
+     "zh": "送（礼物）；提供",
+     "en": "to give (as a gift), to offer"
+    },
+    "examples": [
+     {
+      "text": "Je t'offre un café.",
+      "cloze": "Je t'{{offre}} un café.",
+      "translations": {
+       "zh": "我请你喝杯咖啡。",
+       "en": "Let me buy you a coffee."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "construire",
+  "phonetic": "/kɔ̃s.tʁɥiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "conjugation": "不规则：je construis, nous construisons, ils construisent；过去分词 construit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire une maison, un pont…",
+    "translations": {
+     "zh": "建造；建设",
+     "en": "to build"
+    },
+    "examples": [
+     {
+      "text": "Ils construisent une nouvelle école.",
+      "cloze": "Ils {{construisent}} une nouvelle école.",
+      "translations": {
+       "zh": "他们在建一所新学校。",
+       "en": "They're building a new school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dessiner",
+  "phonetic": "/de.si.ne/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire un dessin",
+    "translations": {
+     "zh": "画（图）；绘画",
+     "en": "to draw"
+    },
+    "examples": [
+     {
+      "text": "Mon fils aime dessiner des animaux.",
+      "translations": {
+       "zh": "我儿子喜欢画动物。",
+       "en": "My son likes drawing animals."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vérifier",
+  "phonetic": "/ve.ʁi.fje/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "regarder si c'est juste",
+    "translations": {
+     "zh": "检查；核实",
+     "en": "to check"
+    },
+    "examples": [
+     {
+      "text": "Vérifiez vos réponses.",
+      "cloze": "{{Vérifiez}} vos réponses.",
+      "translations": {
+       "zh": "检查一下你们的答案。",
+       "en": "Check your answers."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "remarquer",
+  "phonetic": "/ʁə.maʁ.ke/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "voir, faire attention à",
+    "translations": {
+     "zh": "注意到；发现",
+     "en": "to notice"
+    },
+    "examples": [
+     {
+      "text": "Tu as remarqué sa nouvelle coiffure ?",
+      "cloze": "Tu as {{remarqué}} sa nouvelle coiffure ?",
+      "translations": {
+       "zh": "你注意到她的新发型了吗？",
+       "en": "Did you notice her new haircut?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "timide",
+  "phonetic": "/ti.mid/",
+  "cefr": "A2",
+  "frequencyRank": 5500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'ose pas parler aux autres",
+    "translations": {
+     "zh": "害羞的；腼腆的",
+     "en": "shy"
+    },
+    "examples": [
+     {
+      "text": "Mon frère est très timide.",
+      "translations": {
+       "zh": "我弟弟很害羞。",
+       "en": "My brother is very shy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "drôle",
+  "phonetic": "/dʁol/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fait rire",
+    "translations": {
+     "zh": "好笑的；有趣的",
+     "en": "funny"
+    },
+    "examples": [
+     {
+      "text": "Ton histoire est vraiment drôle !",
+      "translations": {
+       "zh": "你的故事真好笑！",
+       "en": "Your story is really funny!"
+      }
+     }
+    ],
+    "usageNote": "drôle de + 名词 表示“奇怪的”：une drôle d'idée（一个怪主意）。"
+   }
+  ]
+ },
+ {
+  "headword": "sérieux",
+  "phonetic": "/se.ʁjø/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "irregularForms": "阴性 sérieuse；复数 sérieux, sérieuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fait les choses avec attention ; qui ne rit pas",
+    "translations": {
+     "zh": "认真的；严肃的",
+     "en": "serious"
+    },
+    "examples": [
+     {
+      "text": "C'est un élève sérieux.",
+      "translations": {
+       "zh": "这是个认真的学生。",
+       "en": "He's a hard-working student."
+      }
+     }
+    ],
+    "usageNote": "Tu es sérieux ?（你是认真的吗？）"
+   }
+  ]
+ },
+ {
+  "headword": "inquiet",
+  "phonetic": "/ɛ̃.kjɛ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "irregularForms": "阴性 inquiète；复数 inquiets, inquiètes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a peur qu'il arrive quelque chose",
+    "translations": {
+     "zh": "担心的；不安的",
+     "en": "worried"
+    },
+    "examples": [
+     {
+      "text": "Ma mère est inquiète.",
+      "cloze": "Ma mère est {{inquiète}}.",
+      "translations": {
+       "zh": "我妈妈很担心。",
+       "en": "My mother is worried."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sympa",
+  "phonetic": "/sɛ̃.pa/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "agréable et gentil (familier)",
+    "translations": {
+     "zh": "人好的；讨人喜欢的",
+     "en": "nice, friendly"
+    },
+    "examples": [
+     {
+      "text": "Ton copain est très sympa.",
+      "translations": {
+       "zh": "你朋友人很好。",
+       "en": "Your friend is really nice."
+      }
+     }
+    ],
+    "usageNote": "是 sympathique 的口语缩写，阴阳性同形，复数 sympas。"
+   }
+  ]
+ },
+ {
+  "headword": "poli",
+  "phonetic": "/pɔ.li/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui parle aux autres avec respect",
+    "translations": {
+     "zh": "有礼貌的",
+     "en": "polite"
+    },
+    "examples": [
+     {
+      "text": "Sois poli avec ta grand-mère.",
+      "translations": {
+       "zh": "对你奶奶要有礼貌。",
+       "en": "Be polite to your grandmother."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "calme",
+  "phonetic": "/kalm/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "tranquille, sans bruit ni stress",
+    "translations": {
+     "zh": "安静的；平静的",
+     "en": "calm, quiet"
+    },
+    "examples": [
+     {
+      "text": "C'est un quartier calme.",
+      "translations": {
+       "zh": "这是个安静的街区。",
+       "en": "It's a quiet neighbourhood."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nerveux",
+  "phonetic": "/nɛʁ.vø/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "irregularForms": "阴性 nerveuse；复数 nerveux, nerveuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne peut pas rester calme",
+    "translations": {
+     "zh": "紧张的；焦躁的",
+     "en": "nervous"
+    },
+    "examples": [
+     {
+      "text": "Je suis nerveux avant l'examen.",
+      "translations": {
+       "zh": "考试前我很紧张。",
+       "en": "I'm nervous before the exam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "patient",
+  "phonetic": "/pa.sjɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui sait attendre sans se fâcher",
+    "translations": {
+     "zh": "有耐心的",
+     "en": "patient"
+    },
+    "examples": [
+     {
+      "text": "Avec les enfants, il faut être patient.",
+      "translations": {
+       "zh": "对孩子要有耐心。",
+       "en": "You have to be patient with children."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "paresseux",
+  "phonetic": "/pa.ʁɛ.sø/",
+  "cefr": "A2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "irregularForms": "阴性 paresseuse；复数 paresseux, paresseuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'aime pas travailler",
+    "translations": {
+     "zh": "懒惰的",
+     "en": "lazy"
+    },
+    "examples": [
+     {
+      "text": "Mon chat est très paresseux.",
+      "translations": {
+       "zh": "我的猫很懒。",
+       "en": "My cat is very lazy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "travailleur",
+  "phonetic": "/tʁa.va.jœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "irregularForms": "阴性 travailleuse；复数 travailleurs, travailleuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui travaille beaucoup",
+    "translations": {
+     "zh": "勤劳的；用功的",
+     "en": "hard-working"
+    },
+    "examples": [
+     {
+      "text": "Sophie est très travailleuse.",
+      "cloze": "Sophie est très {{travailleuse}}.",
+      "translations": {
+       "zh": "苏菲非常勤奋。",
+       "en": "Sophie is very hard-working."
+      }
+     }
+    ],
+    "usageNote": "也可作名词，意思是“劳动者”。"
+   }
+  ]
+ },
+ {
+  "headword": "intelligent",
+  "phonetic": "/ɛ̃.te.li.ʒɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui comprend vite et bien",
+    "translations": {
+     "zh": "聪明的",
+     "en": "intelligent, clever"
+    },
+    "examples": [
+     {
+      "text": "C'est une fille très intelligente.",
+      "cloze": "C'est une fille très {{intelligente}}.",
+      "translations": {
+       "zh": "这是个很聪明的女孩。",
+       "en": "She's a very clever girl."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bête",
+  "phonetic": "/bɛt/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas intelligent",
+    "translations": {
+     "zh": "笨的；傻的",
+     "en": "stupid, silly"
+    },
+    "examples": [
+     {
+      "text": "Ce n'est pas une question bête.",
+      "translations": {
+       "zh": "这不是个蠢问题。",
+       "en": "It's not a silly question."
+      }
+     }
+    ],
+    "usageNote": "也是名词 une bête（动物，牲畜）。"
+   }
+  ]
+ },
+ {
+  "headword": "curieux",
+  "phonetic": "/ky.ʁjø/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "irregularForms": "阴性 curieuse；复数 curieux, curieuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui veut tout savoir",
+    "translations": {
+     "zh": "好奇的",
+     "en": "curious"
+    },
+    "examples": [
+     {
+      "text": "Les enfants sont curieux.",
+      "translations": {
+       "zh": "孩子们都很好奇。",
+       "en": "Children are curious."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "généreux",
+  "phonetic": "/ʒe.ne.ʁø/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "irregularForms": "阴性 généreuse；复数 généreux, généreuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui donne facilement",
+    "translations": {
+     "zh": "慷慨的；大方的",
+     "en": "generous"
+    },
+    "examples": [
+     {
+      "text": "Mon oncle est très généreux.",
+      "translations": {
+       "zh": "我叔叔很大方。",
+       "en": "My uncle is very generous."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "honnête",
+  "phonetic": "/ɔ.nɛt/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui dit la vérité, qui ne vole pas",
+    "translations": {
+     "zh": "诚实的",
+     "en": "honest"
+    },
+    "examples": [
+     {
+      "text": "Sois honnête avec moi.",
+      "translations": {
+       "zh": "对我说实话。",
+       "en": "Be honest with me."
+      }
+     }
+    ],
+    "usageNote": "h 不发音，前面要连读或省音：un homme honnête。"
+   }
+  ]
+ },
+ {
+  "headword": "sage",
+  "phonetic": "/saʒ/",
+  "cefr": "A2",
+  "frequencyRank": 3200,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui obéit, calme (pour un enfant)",
+    "translations": {
+     "zh": "乖的；懂事的",
+     "en": "good, well-behaved"
+    },
+    "examples": [
+     {
+      "text": "Les enfants ont été sages aujourd'hui.",
+      "cloze": "Les enfants ont été {{sages}} aujourd'hui.",
+      "translations": {
+       "zh": "孩子们今天很乖。",
+       "en": "The children were good today."
+      }
+     }
+    ],
+    "usageNote": "说大人时意思是“明智的”。"
+   }
+  ]
+ },
+ {
+  "headword": "fier",
+  "phonetic": "/fjɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "irregularForms": "阴性 fière；复数 fiers, fières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "content de ce qu'on a fait",
+    "translations": {
+     "zh": "骄傲的；自豪的",
+     "en": "proud"
+    },
+    "examples": [
+     {
+      "text": "Je suis fier de toi.",
+      "translations": {
+       "zh": "我为你骄傲。",
+       "en": "I'm proud of you."
+      }
+     }
+    ],
+    "usageNote": "注意 r 发音，与 hier 押韵。"
+   }
+  ]
+ },
+ {
+  "headword": "jaloux",
+  "phonetic": "/ʒa.lu/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "irregularForms": "阴性 jalouse；复数 jaloux, jalouses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui veut ce que les autres ont",
+    "translations": {
+     "zh": "嫉妒的；吃醋的",
+     "en": "jealous"
+    },
+    "examples": [
+     {
+      "text": "Il est jaloux de son frère.",
+      "translations": {
+       "zh": "他嫉妒他哥哥。",
+       "en": "He's jealous of his brother."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "amoureux",
+  "phonetic": "/a.mu.ʁø/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "irregularForms": "阴性 amoureuse；复数 amoureux, amoureuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui aime quelqu'un d'amour",
+    "translations": {
+     "zh": "爱上的；恋爱中的",
+     "en": "in love"
+    },
+    "examples": [
+     {
+      "text": "Il est amoureux de Marie.",
+      "translations": {
+       "zh": "他爱上了玛丽。",
+       "en": "He's in love with Marie."
+      }
+     }
+    ],
+    "usageNote": "tomber amoureux de qqn：爱上某人。"
+   }
+  ]
+ },
+ {
+  "headword": "déçu",
+  "phonetic": "/de.sy/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "triste parce que ce n'est pas comme on voulait",
+    "translations": {
+     "zh": "失望的",
+     "en": "disappointed"
+    },
+    "examples": [
+     {
+      "text": "Je suis un peu déçu par le film.",
+      "translations": {
+       "zh": "这部电影让我有点失望。",
+       "en": "I'm a bit disappointed with the film."
+      }
+     }
+    ],
+    "usageNote": "是动词 décevoir（使失望）的过去分词。"
+   }
+  ]
+ },
+ {
+  "headword": "surpris",
+  "phonetic": "/syʁ.pʁi/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "irregularForms": "阴性 surprise；复数 surpris, surprises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne s'attendait pas à quelque chose",
+    "translations": {
+     "zh": "惊讶的",
+     "en": "surprised"
+    },
+    "examples": [
+     {
+      "text": "Elle est surprise de te voir.",
+      "cloze": "Elle est {{surprise}} de te voir.",
+      "translations": {
+       "zh": "她见到你很惊讶。",
+       "en": "She's surprised to see you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fâché",
+  "phonetic": "/fa.ʃe/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas content contre quelqu'un",
+    "translations": {
+     "zh": "生气的",
+     "en": "angry, cross"
+    },
+    "examples": [
+     {
+      "text": "Tu es fâché contre moi ?",
+      "translations": {
+       "zh": "你在生我的气吗？",
+       "en": "Are you angry with me?"
+      }
+     }
+    ],
+    "usageNote": "也可说 être en colère。"
+   }
+  ]
+ },
+ {
+  "headword": "ravi",
+  "phonetic": "/ʁa.vi/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "très content",
+    "translations": {
+     "zh": "非常高兴的",
+     "en": "delighted"
+    },
+    "examples": [
+     {
+      "text": "Je suis ravi de vous rencontrer.",
+      "translations": {
+       "zh": "很高兴认识您。",
+       "en": "I'm delighted to meet you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "désolé",
+  "phonetic": "/de.zɔ.le/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui regrette quelque chose",
+    "translations": {
+     "zh": "抱歉的；遗憾的",
+     "en": "sorry"
+    },
+    "examples": [
+     {
+      "text": "Désolé, je suis en retard.",
+      "translations": {
+       "zh": "抱歉，我迟到了。",
+       "en": "Sorry, I'm late."
+      }
+     }
+    ],
+    "usageNote": "女性说 désolée。"
+   }
+  ]
+ },
+ {
+  "headword": "stressé",
+  "phonetic": "/stʁɛ.se/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est nerveux à cause du travail ou des problèmes",
+    "translations": {
+     "zh": "有压力的；紧张的",
+     "en": "stressed"
+    },
+    "examples": [
+     {
+      "text": "Je suis stressé par le travail.",
+      "translations": {
+       "zh": "工作让我压力很大。",
+       "en": "I'm stressed about work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mince",
+  "phonetic": "/mɛ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas gros",
+    "translations": {
+     "zh": "苗条的；薄的",
+     "en": "slim, thin"
+    },
+    "examples": [
+     {
+      "text": "Elle est grande et mince.",
+      "translations": {
+       "zh": "她又高又苗条。",
+       "en": "She's tall and slim."
+      }
+     }
+    ],
+    "usageNote": "口语中 Mince ! 是感叹“糟了！”。"
+   }
+  ]
+ },
+ {
+  "headword": "laid",
+  "phonetic": "/lɛ/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas beau",
+    "translations": {
+     "zh": "丑的；难看的",
+     "en": "ugly"
+    },
+    "examples": [
+     {
+      "text": "Ce bâtiment est vraiment laid.",
+      "translations": {
+       "zh": "这栋楼真难看。",
+       "en": "This building is really ugly."
+      }
+     }
+    ],
+    "usageNote": "口语里更常说 moche。"
+   }
+  ]
+ },
+ {
+  "headword": "blond",
+  "phonetic": "/blɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a des cheveux jaunes, clairs",
+    "translations": {
+     "zh": "金发的；金黄色的",
+     "en": "blond, fair"
+    },
+    "examples": [
+     {
+      "text": "Sa fille est blonde.",
+      "cloze": "Sa fille est {{blonde}}.",
+      "translations": {
+       "zh": "他女儿是金发。",
+       "en": "His daughter is blonde."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

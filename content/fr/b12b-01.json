@@ -1,0 +1,1539 @@
+[
+ {
+  "headword": "emploi",
+  "phonetic": "/ɑ̃.plwa/",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "emplois"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail rémunéré, poste qu'on occupe",
+    "translations": {
+     "zh": "工作；职位；就业",
+     "en": "job; employment"
+    },
+    "examples": [
+     {
+      "text": "Elle cherche un emploi à Paris.",
+      "translations": {
+       "zh": "她在巴黎找工作。",
+       "en": "She is looking for a job in Paris."
+      }
+     }
+    ],
+    "usageNote": "un emploi 比 un travail 更正式；emploi du temps = 时间表、课表。"
+   }
+  ]
+ },
+ {
+  "headword": "salaire",
+  "phonetic": "/sa.lɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "salaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on reçoit chaque mois pour son travail",
+    "translations": {
+     "zh": "工资；薪水",
+     "en": "salary, wages"
+    },
+    "examples": [
+     {
+      "text": "Son salaire a augmenté cette année.",
+      "translations": {
+       "zh": "他今年涨工资了。",
+       "en": "His salary went up this year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chômage",
+  "phonetic": "/ʃo.maʒ/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation d'une personne qui n'a pas de travail",
+    "translations": {
+     "zh": "失业",
+     "en": "unemployment"
+    },
+    "examples": [
+     {
+      "text": "Mon voisin est au chômage depuis six mois.",
+      "translations": {
+       "zh": "我邻居失业半年了。",
+       "en": "My neighbour has been unemployed for six months."
+      }
+     }
+    ],
+    "usageNote": "être au chômage = 失业；le taux de chômage = 失业率。"
+   }
+  ]
+ },
+ {
+  "headword": "chômeur",
+  "phonetic": "/ʃo.mœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chômeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui n'a pas de travail et en cherche un",
+    "translations": {
+     "zh": "失业者",
+     "en": "unemployed person"
+    },
+    "examples": [
+     {
+      "text": "Le nombre de chômeurs a baissé.",
+      "cloze": "Le nombre de {{chômeurs}} a baissé.",
+      "translations": {
+       "zh": "失业人数下降了。",
+       "en": "The number of unemployed people has fallen."
+      }
+     }
+    ],
+    "usageNote": "阴性 chômeuse。"
+   }
+  ]
+ },
+ {
+  "headword": "embaucher",
+  "phonetic": "/ɑ̃.bo.ʃe/",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'embauche, nous embauchons；过去分词 embauché"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner un travail à quelqu'un",
+    "translations": {
+     "zh": "雇用；招聘",
+     "en": "to hire"
+    },
+    "examples": [
+     {
+      "text": "L'entreprise va embaucher dix personnes.",
+      "translations": {
+       "zh": "公司将招聘十个人。",
+       "en": "The company is going to hire ten people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "licencier",
+  "phonetic": "/li.sɑ̃.sje/",
+  "cefr": "B2",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je licencie, nous licencions；过去分词 licencié"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "renvoyer un salarié de son travail",
+    "translations": {
+     "zh": "解雇；裁员",
+     "en": "to dismiss, to lay off"
+    },
+    "examples": [
+     {
+      "text": "L'usine a licencié deux cents ouvriers.",
+      "cloze": "L'usine a {{licencié}} deux cents ouvriers.",
+      "translations": {
+       "zh": "工厂裁掉了两百名工人。",
+       "en": "The factory laid off two hundred workers."
+      }
+     }
+    ],
+    "usageNote": "口语常说 virer（开除）；être licencié = 被解雇。"
+   }
+  ]
+ },
+ {
+  "headword": "démissionner",
+  "phonetic": "/de.mi.sjɔ.ne/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je démissionne, nous démissionnons；过去分词 démissionné"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "quitter volontairement son travail",
+    "translations": {
+     "zh": "辞职",
+     "en": "to resign, to quit"
+    },
+    "examples": [
+     {
+      "text": "Il a démissionné pour créer sa propre entreprise.",
+      "cloze": "Il a {{démissionné}} pour créer sa propre entreprise.",
+      "translations": {
+       "zh": "他辞职去创办自己的公司了。",
+       "en": "He resigned to start his own company."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "employé",
+  "phonetic": "/ɑ̃.plwa.je/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "employés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille pour un patron contre un salaire",
+    "translations": {
+     "zh": "职员；雇员",
+     "en": "employee"
+    },
+    "examples": [
+     {
+      "text": "Cette banque a trois mille employés.",
+      "cloze": "Cette banque a trois mille {{employés}}.",
+      "translations": {
+       "zh": "这家银行有三千名员工。",
+       "en": "This bank has three thousand employees."
+      }
+     }
+    ],
+    "usageNote": "阴性 employée。"
+   }
+  ]
+ },
+ {
+  "headword": "employeur",
+  "phonetic": "/ɑ̃.plwa.jœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "employeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne ou entreprise qui donne du travail",
+    "translations": {
+     "zh": "雇主",
+     "en": "employer"
+    },
+    "examples": [
+     {
+      "text": "Mon employeur paie une partie de mon abonnement de transport.",
+      "translations": {
+       "zh": "我的雇主承担我一部分交通月票费用。",
+       "en": "My employer pays part of my travel pass."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "employer",
+  "phonetic": "/ɑ̃.plwa.je/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "conjugation": "-oyer 动词，y 在不发音的 e 前变 i：j'emploie, nous employons, ils emploient；过去分词 employé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire travailler quelqu'un ; utiliser",
+    "translations": {
+     "zh": "雇用；使用",
+     "en": "to employ; to use"
+    },
+    "examples": [
+     {
+      "text": "Ce restaurant emploie quinze personnes.",
+      "cloze": "Ce restaurant {{emploie}} quinze personnes.",
+      "translations": {
+       "zh": "这家餐馆雇了十五个人。",
+       "en": "This restaurant employs fifteen people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "patron",
+  "phonetic": "/pa.tʁɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "patrons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chef d'une entreprise ou personne qui dirige des employés",
+    "translations": {
+     "zh": "老板",
+     "en": "boss"
+    },
+    "examples": [
+     {
+      "text": "Je dois demander un jour de congé à mon patron.",
+      "translations": {
+       "zh": "我得向老板请一天假。",
+       "en": "I have to ask my boss for a day off."
+      }
+     }
+    ],
+    "usageNote": "阴性 patronne。"
+   }
+  ]
+ },
+ {
+  "headword": "collègue",
+  "phonetic": "/kɔ.lɛɡ/",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "collègues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille au même endroit que soi",
+    "translations": {
+     "zh": "同事",
+     "en": "colleague"
+    },
+    "examples": [
+     {
+      "text": "Je déjeune souvent avec mes collègues.",
+      "cloze": "Je déjeune souvent avec mes {{collègues}}.",
+      "translations": {
+       "zh": "我经常和同事一起吃午饭。",
+       "en": "I often have lunch with my colleagues."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un collègue / une collègue。"
+   }
+  ]
+ },
+ {
+  "headword": "candidature",
+  "phonetic": "/kɑ̃.di.da.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "candidatures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "demande pour obtenir un poste ou une place",
+    "translations": {
+     "zh": "申请；求职；候选资格",
+     "en": "application; candidacy"
+    },
+    "examples": [
+     {
+      "text": "J'ai envoyé ma candidature par courriel.",
+      "translations": {
+       "zh": "我通过电子邮件寄出了求职申请。",
+       "en": "I sent my application by email."
+      }
+     }
+    ],
+    "usageNote": "poser sa candidature = 提出申请。"
+   }
+  ]
+ },
+ {
+  "headword": "entretien",
+  "phonetic": "/ɑ̃.tʁə.tjɛ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "entretiens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rencontre pour discuter, surtout avant une embauche",
+    "translations": {
+     "zh": "面试；面谈",
+     "en": "interview"
+    },
+    "examples": [
+     {
+      "text": "J'ai un entretien d'embauche demain matin.",
+      "translations": {
+       "zh": "我明天上午有个求职面试。",
+       "en": "I have a job interview tomorrow morning."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de garder quelque chose en bon état",
+    "translations": {
+     "zh": "保养；维护",
+     "en": "maintenance"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "stage",
+  "phonetic": "/staʒ/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "stages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de formation pratique dans une entreprise",
+    "translations": {
+     "zh": "实习；培训",
+     "en": "internship, work placement"
+    },
+    "examples": [
+     {
+      "text": "Elle fait un stage de trois mois dans une agence.",
+      "translations": {
+       "zh": "她在一家公司做三个月的实习。",
+       "en": "She is doing a three-month internship at an agency."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "stagiaire",
+  "phonetic": "/sta.ʒjɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "stagiaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait un stage",
+    "translations": {
+     "zh": "实习生",
+     "en": "intern, trainee"
+    },
+    "examples": [
+     {
+      "text": "Le stagiaire prépare les documents pour la réunion.",
+      "translations": {
+       "zh": "实习生在为会议准备文件。",
+       "en": "The intern is preparing the documents for the meeting."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une stagiaire。"
+   }
+  ]
+ },
+ {
+  "headword": "contrat",
+  "phonetic": "/kɔ̃.tʁa/",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "contrats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "accord écrit entre deux personnes ou plus",
+    "translations": {
+     "zh": "合同",
+     "en": "contract"
+    },
+    "examples": [
+     {
+      "text": "Lisez bien le contrat avant de signer.",
+      "translations": {
+       "zh": "签字前请仔细阅读合同。",
+       "en": "Read the contract carefully before signing."
+      }
+     }
+    ],
+    "usageNote": "CDI = 无固定期限合同；CDD = 固定期限合同。"
+   }
+  ]
+ },
+ {
+  "headword": "carrière",
+  "phonetic": "/ka.ʁjɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "carrières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "suite des emplois d'une personne dans sa vie professionnelle",
+    "translations": {
+     "zh": "职业生涯；事业",
+     "en": "career"
+    },
+    "examples": [
+     {
+      "text": "Il a fait toute sa carrière dans la même entreprise.",
+      "translations": {
+       "zh": "他整个职业生涯都在同一家公司。",
+       "en": "He spent his whole career at the same company."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "compétence",
+  "phonetic": "/kɔ̃.pe.tɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "compétences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "capacité à bien faire quelque chose",
+    "translations": {
+     "zh": "能力；技能",
+     "en": "skill, competence"
+    },
+    "examples": [
+     {
+      "text": "Ce poste demande des compétences en informatique.",
+      "cloze": "Ce poste demande des {{compétences}} en informatique.",
+      "translations": {
+       "zh": "这个职位要求具备计算机技能。",
+       "en": "This job requires computer skills."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "expérience",
+  "phonetic": "/ɛk.spe.ʁjɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "expériences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "connaissances acquises en faisant les choses",
+    "translations": {
+     "zh": "经验；经历",
+     "en": "experience"
+    },
+    "examples": [
+     {
+      "text": "Avez-vous de l'expérience dans la vente ?",
+      "cloze": "Avez-vous de l'{{expérience}} dans la vente ?",
+      "translations": {
+       "zh": "您有销售经验吗？",
+       "en": "Do you have any experience in sales?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "essai fait pour vérifier une idée scientifique",
+    "translations": {
+     "zh": "实验",
+     "en": "experiment"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "formation",
+  "phonetic": "/fɔʁ.ma.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "formations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'apprendre un métier ; études suivies",
+    "translations": {
+     "zh": "培训；教育经历",
+     "en": "training, education"
+    },
+    "examples": [
+     {
+      "text": "L'entreprise propose une formation en anglais.",
+      "translations": {
+       "zh": "公司提供英语培训。",
+       "en": "The company offers English training."
+      }
+     }
+    ],
+    "usageNote": "formation continue = 在职进修。"
+   }
+  ]
+ },
+ {
+  "headword": "syndicat",
+  "phonetic": "/sɛ̃.di.ka/",
+  "cefr": "B2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "syndicats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "association qui défend les intérêts des travailleurs",
+    "translations": {
+     "zh": "工会",
+     "en": "trade union"
+    },
+    "examples": [
+     {
+      "text": "Les syndicats appellent à la grève.",
+      "cloze": "Les {{syndicats}} appellent à la grève.",
+      "translations": {
+       "zh": "工会号召罢工。",
+       "en": "The unions are calling for a strike."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "grève",
+  "phonetic": "/ɡʁɛv/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "grèves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "arrêt collectif du travail pour protester",
+    "translations": {
+     "zh": "罢工",
+     "en": "strike"
+    },
+    "examples": [
+     {
+      "text": "Les conducteurs de train sont en grève.",
+      "translations": {
+       "zh": "火车司机正在罢工。",
+       "en": "The train drivers are on strike."
+      }
+     }
+    ],
+    "usageNote": "faire grève / être en grève = 罢工。"
+   }
+  ]
+ },
+ {
+  "headword": "retraite",
+  "phonetic": "/ʁə.tʁɛt/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "retraites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période où on ne travaille plus à cause de l'âge",
+    "translations": {
+     "zh": "退休；退休金",
+     "en": "retirement; pension"
+    },
+    "examples": [
+     {
+      "text": "Mon père a pris sa retraite à soixante-deux ans.",
+      "translations": {
+       "zh": "我父亲六十二岁退休了。",
+       "en": "My father retired at sixty-two."
+      }
+     }
+    ],
+    "usageNote": "prendre sa retraite = 退休；être à la retraite = 已退休。"
+   }
+  ]
+ },
+ {
+  "headword": "réunion",
+  "phonetic": "/ʁe.y.njɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réunions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rencontre de plusieurs personnes pour travailler ensemble",
+    "translations": {
+     "zh": "会议",
+     "en": "meeting"
+    },
+    "examples": [
+     {
+      "text": "La réunion commence à dix heures.",
+      "translations": {
+       "zh": "会议十点开始。",
+       "en": "The meeting starts at ten."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "équipe",
+  "phonetic": "/e.kip/",
+  "cefr": "B1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "équipes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe de personnes qui travaillent ou jouent ensemble",
+    "translations": {
+     "zh": "团队；队",
+     "en": "team"
+    },
+    "examples": [
+     {
+      "text": "Notre équipe travaille sur un nouveau projet.",
+      "translations": {
+       "zh": "我们团队在做一个新项目。",
+       "en": "Our team is working on a new project."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "responsable",
+  "phonetic": "/ʁɛs.pɔ̃.sabl/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "responsables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui dirige un service ou une activité",
+    "translations": {
+     "zh": "负责人",
+     "en": "person in charge, manager"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais parler au responsable du magasin.",
+      "translations": {
+       "zh": "我想和店里的负责人谈谈。",
+       "en": "I'd like to speak to the store manager."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形；也作形容词：être responsable de = 对……负责。"
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui doit répondre de ses actes ou d'une tâche",
+    "translations": {
+     "zh": "负责的；有责任的",
+     "en": "responsible"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "directeur",
+  "phonetic": "/di.ʁɛk.tœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "directeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui dirige une entreprise, une école, un service",
+    "translations": {
+     "zh": "经理；主任；校长",
+     "en": "director, manager"
+    },
+    "examples": [
+     {
+      "text": "Le directeur a présenté les résultats de l'année.",
+      "translations": {
+       "zh": "经理介绍了全年业绩。",
+       "en": "The director presented the year's results."
+      }
+     }
+    ],
+    "usageNote": "阴性 directrice。"
+   }
+  ]
+ },
+ {
+  "headword": "cadre",
+  "phonetic": "/kadʁ/",
+  "cefr": "B2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cadres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "employé qui a des responsabilités de direction",
+    "translations": {
+     "zh": "管理人员；干部",
+     "en": "executive, manager"
+    },
+    "examples": [
+     {
+      "text": "Elle est cadre dans une grande banque.",
+      "translations": {
+       "zh": "她是一家大银行的管理人员。",
+       "en": "She is an executive at a big bank."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "bordure autour d'un tableau ; environnement",
+    "translations": {
+     "zh": "框；环境",
+     "en": "frame; setting"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "ouvrier",
+  "phonetic": "/u.vʁi.je/",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ouvriers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait un travail manuel, souvent dans une usine",
+    "translations": {
+     "zh": "工人",
+     "en": "worker, labourer"
+    },
+    "examples": [
+     {
+      "text": "Les ouvriers commencent à sept heures.",
+      "cloze": "Les {{ouvriers}} commencent à sept heures.",
+      "translations": {
+       "zh": "工人们七点开工。",
+       "en": "The workers start at seven."
+      }
+     }
+    ],
+    "usageNote": "阴性 ouvrière。"
+   }
+  ]
+ },
+ {
+  "headword": "usine",
+  "phonetic": "/y.zin/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "usines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bâtiment où on fabrique des produits avec des machines",
+    "translations": {
+     "zh": "工厂",
+     "en": "factory"
+    },
+    "examples": [
+     {
+      "text": "Cette usine fabrique des voitures.",
+      "translations": {
+       "zh": "这家工厂生产汽车。",
+       "en": "This factory makes cars."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "secteur",
+  "phonetic": "/sɛk.tœʁ/",
+  "cefr": "B2",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "secteurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "domaine d'activité économique",
+    "translations": {
+     "zh": "行业；领域；区域",
+     "en": "sector"
+    },
+    "examples": [
+     {
+      "text": "Il travaille dans le secteur du tourisme.",
+      "translations": {
+       "zh": "他在旅游行业工作。",
+       "en": "He works in the tourism sector."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "profession",
+  "phonetic": "/pʁɔ.fɛ.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "professions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "métier qu'on exerce",
+    "translations": {
+     "zh": "职业",
+     "en": "profession, occupation"
+    },
+    "examples": [
+     {
+      "text": "Quelle est votre profession ?",
+      "translations": {
+       "zh": "您的职业是什么？",
+       "en": "What is your occupation?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "professionnel",
+  "phonetic": "/pʁɔ.fɛ.sjɔ.nɛl/",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "irregularForms": "阴性 professionnelle；复数 professionnels, professionnelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne le métier ; fait par un spécialiste",
+    "translations": {
+     "zh": "职业的；专业的",
+     "en": "professional"
+    },
+    "examples": [
+     {
+      "text": "Il a un téléphone professionnel et un téléphone personnel.",
+      "translations": {
+       "zh": "他有一部工作手机和一部私人手机。",
+       "en": "He has a work phone and a personal phone."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "recruter",
+  "phonetic": "/ʁə.kʁy.te/",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je recrute, nous recrutons；过去分词 recruté"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "chercher et engager de nouvelles personnes",
+    "translations": {
+     "zh": "招聘；招募",
+     "en": "to recruit"
+    },
+    "examples": [
+     {
+      "text": "Nous recrutons des vendeurs pour l'été.",
+      "cloze": "Nous {{recrutons}} des vendeurs pour l'été.",
+      "translations": {
+       "zh": "我们正在招聘夏季售货员。",
+       "en": "We are recruiting salespeople for the summer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "postuler",
+  "phonetic": "/pɔs.ty.le/",
+  "cefr": "B1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je postule, nous postulons；过去分词 postulé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "demander à obtenir un emploi",
+    "translations": {
+     "zh": "申请（职位）",
+     "en": "to apply (for a job)"
+    },
+    "examples": [
+     {
+      "text": "J'ai postulé à trois offres d'emploi.",
+      "cloze": "J'ai {{postulé}} à trois offres d'emploi.",
+      "translations": {
+       "zh": "我申请了三个职位。",
+       "en": "I applied for three job offers."
+      }
+     }
+    ],
+    "usageNote": "postuler à / pour un poste。"
+   }
+  ]
+ },
+ {
+  "headword": "promotion",
+  "phonetic": "/pʁɔ.mɔ.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "promotions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "passage à un poste plus élevé",
+    "translations": {
+     "zh": "晋升；升职",
+     "en": "promotion"
+    },
+    "examples": [
+     {
+      "text": "Elle a eu une promotion et dirige maintenant l'équipe.",
+      "translations": {
+       "zh": "她升职了，现在领导这个团队。",
+       "en": "She got a promotion and now runs the team."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "baisse temporaire du prix d'un produit",
+    "translations": {
+     "zh": "促销；特价",
+     "en": "special offer"
+    },
+    "examples": [
+     {
+      "text": "Les pâtes sont en promotion cette semaine.",
+      "translations": {
+       "zh": "本周意大利面特价。",
+       "en": "Pasta is on special offer this week."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "augmentation",
+  "phonetic": "/ɔɡ.mɑ̃.ta.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "augmentations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de devenir plus grand ; hausse de salaire",
+    "translations": {
+     "zh": "增加；加薪",
+     "en": "increase; pay rise"
+    },
+    "examples": [
+     {
+      "text": "Je vais demander une augmentation à mon chef.",
+      "translations": {
+       "zh": "我要向上司提加薪。",
+       "en": "I'm going to ask my boss for a pay rise."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "horaire",
+  "phonetic": "/ɔ.ʁɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "horaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "heures de travail, d'ouverture ou de départ",
+    "translations": {
+     "zh": "时刻表；作息时间",
+     "en": "schedule, timetable; hours"
+    },
+    "examples": [
+     {
+      "text": "J'ai des horaires flexibles au travail.",
+      "cloze": "J'ai des {{horaires}} flexibles au travail.",
+      "translations": {
+       "zh": "我的工作时间很灵活。",
+       "en": "I have flexible working hours."
+      }
+     }
+    ],
+    "usageNote": "h 不发音，前面要联诵/省音：l'horaire。"
+   }
+  ]
+ },
+ {
+  "headword": "congé",
+  "phonetic": "/kɔ̃.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "congés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période où un salarié ne travaille pas avec l'accord de l'employeur",
+    "translations": {
+     "zh": "假期；休假",
+     "en": "leave, time off"
+    },
+    "examples": [
+     {
+      "text": "Je suis en congé jusqu'à lundi.",
+      "translations": {
+       "zh": "我休假到周一。",
+       "en": "I'm on leave until Monday."
+      }
+     }
+    ],
+    "usageNote": "congés payés = 带薪假；congé maternité = 产假。"
+   }
+  ]
+ },
+ {
+  "headword": "bénévole",
+  "phonetic": "/be.ne.vɔl/",
+  "cefr": "B2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bénévoles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille sans être payée pour aider",
+    "translations": {
+     "zh": "志愿者",
+     "en": "volunteer"
+    },
+    "examples": [
+     {
+      "text": "Des bénévoles distribuent des repas aux sans-abri.",
+      "cloze": "Des {{bénévoles}} distribuent des repas aux sans-abri.",
+      "translations": {
+       "zh": "志愿者们给无家可归的人分发饭菜。",
+       "en": "Volunteers hand out meals to homeless people."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形；也作形容词：travail bénévole = 义务劳动。"
+   }
+  ]
+ },
+ {
+  "headword": "indépendant",
+  "phonetic": "/ɛ̃.de.pɑ̃.dɑ̃/",
+  "cefr": "B2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "irregularForms": "阴性 indépendante；复数 indépendants, indépendantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne dépend de personne ; qui travaille à son compte",
+    "translations": {
+     "zh": "独立的；自由职业的",
+     "en": "independent; self-employed"
+    },
+    "examples": [
+     {
+      "text": "Mon frère est traducteur indépendant.",
+      "translations": {
+       "zh": "我哥哥是自由职业翻译。",
+       "en": "My brother is a freelance translator."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tâche",
+  "phonetic": "/tɑʃ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tâches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail précis qu'on doit faire",
+    "translations": {
+     "zh": "任务；工作",
+     "en": "task"
+    },
+    "examples": [
+     {
+      "text": "Chaque membre de l'équipe a sa tâche.",
+      "translations": {
+       "zh": "团队每个成员都有自己的任务。",
+       "en": "Each team member has their own task."
+      }
+     }
+    ],
+    "usageNote": "与 tache（污渍）只差 â 上的长音符。"
+   }
+  ]
+ },
+ {
+  "headword": "objectif",
+  "phonetic": "/ɔb.ʒɛk.tif/",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "objectifs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "but qu'on veut atteindre",
+    "translations": {
+     "zh": "目标",
+     "en": "goal, objective"
+    },
+    "examples": [
+     {
+      "text": "Notre objectif est de doubler les ventes.",
+      "translations": {
+       "zh": "我们的目标是让销售额翻倍。",
+       "en": "Our goal is to double sales."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne dépend pas de l'opinion personnelle",
+    "translations": {
+     "zh": "客观的",
+     "en": "objective"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "télétravail",
+  "phonetic": "/te.le.tʁa.vaj/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail fait à la maison grâce à internet",
+    "translations": {
+     "zh": "远程办公",
+     "en": "remote work, working from home"
+    },
+    "examples": [
+     {
+      "text": "Je suis en télétravail deux jours par semaine.",
+      "translations": {
+       "zh": "我每周远程办公两天。",
+       "en": "I work from home two days a week."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "négocier",
+  "phonetic": "/ne.ɡɔ.sje/",
+  "cefr": "B1",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je négocie, nous négocions；过去分词 négocié"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "discuter pour arriver à un accord",
+    "translations": {
+     "zh": "谈判；协商",
+     "en": "to negotiate"
+    },
+    "examples": [
+     {
+      "text": "Il a réussi à négocier un meilleur salaire.",
+      "translations": {
+       "zh": "他成功谈到了更高的薪水。",
+       "en": "He managed to negotiate a better salary."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gérer",
+  "phonetic": "/ʒe.ʁe/",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "conjugation": "é 在不发音词尾前变 è：je gère, nous gérons, ils gèrent；过去分词 géré"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "s'occuper de l'organisation de quelque chose",
+    "translations": {
+     "zh": "管理；处理",
+     "en": "to manage"
+    },
+    "examples": [
+     {
+      "text": "Elle gère un petit restaurant en ville.",
+      "cloze": "Elle {{gère}} un petit restaurant en ville.",
+      "translations": {
+       "zh": "她在城里经营一家小餐馆。",
+       "en": "She runs a small restaurant in town."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "diriger",
+  "phonetic": "/di.ʁi.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "conjugation": "-ger 动词：je dirige, nous dirigeons；过去分词 dirigé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être à la tête d'un groupe ou d'une entreprise",
+    "translations": {
+     "zh": "领导；管理；指挥",
+     "en": "to run, to lead, to direct"
+    },
+    "examples": [
+     {
+      "text": "Sa mère dirige une entreprise de cinquante salariés.",
+      "cloze": "Sa mère {{dirige}} une entreprise de cinquante salariés.",
+      "translations": {
+       "zh": "她母亲领导一家有五十名员工的公司。",
+       "en": "Her mother runs a company with fifty employees."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salarié",
+  "phonetic": "/sa.la.ʁje/",
+  "cefr": "B2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "salariés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne payée par un employeur",
+    "translations": {
+     "zh": "工薪者；雇员",
+     "en": "employee, wage earner"
+    },
+    "examples": [
+     {
+      "text": "Tous les salariés ont reçu une prime.",
+      "cloze": "Tous les {{salariés}} ont reçu une prime.",
+      "translations": {
+       "zh": "所有员工都拿到了奖金。",
+       "en": "All the employees received a bonus."
+      }
+     }
+    ],
+    "usageNote": "阴性 salariée。"
+   }
+  ]
+ },
+ {
+  "headword": "poste",
+  "homograph": 2,
+  "phonetic": "/pɔst/",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "postes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "emploi, place qu'on occupe dans une entreprise",
+    "translations": {
+     "zh": "职位；岗位",
+     "en": "position, job"
+    },
+    "examples": [
+     {
+      "text": "Elle a obtenu un poste de directrice.",
+      "translations": {
+       "zh": "她得到了主管的职位。",
+       "en": "She got a position as director."
+      }
+     }
+    ],
+    "usageNote": "le poste（阳性）= 职位；la poste（阴性）= 邮局。"
+   }
+  ]
+ }
+]

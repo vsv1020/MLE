@@ -1,0 +1,1234 @@
+[
+ {
+  "headword": "conseiller",
+  "phonetic": "/kɔ̃.se.je/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire à quelqu'un ce qu'il doit faire",
+    "translations": {
+     "zh": "建议；劝",
+     "en": "to advise"
+    },
+    "examples": [
+     {
+      "text": "Je te conseille ce restaurant.",
+      "cloze": "Je te {{conseille}} ce restaurant.",
+      "translations": {
+       "zh": "我推荐你去这家餐厅。",
+       "en": "I recommend this restaurant to you."
+      }
+     }
+    ],
+    "usageNote": "conseiller à qqn de + 不定式：Le médecin lui conseille de dormir plus."
+   }
+  ]
+ },
+ {
+  "headword": "téléphoner",
+  "phonetic": "/te.le.fɔ.ne/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "appeler quelqu'un au téléphone",
+    "translations": {
+     "zh": "打电话",
+     "en": "to phone"
+    },
+    "examples": [
+     {
+      "text": "Je téléphone à ma mère tous les dimanches.",
+      "cloze": "Je {{téléphone}} à ma mère tous les dimanches.",
+      "translations": {
+       "zh": "我每周日给妈妈打电话。",
+       "en": "I phone my mother every Sunday."
+      }
+     }
+    ],
+    "usageNote": "后面接 à：téléphoner à qqn。"
+   }
+  ]
+ },
+ {
+  "headword": "envoyer",
+  "phonetic": "/ɑ̃.vwa.je/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "conjugation": "不规则：j'envoie, nous envoyons, ils envoient；将来时 j'enverrai；过去分词 envoyé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire partir quelque chose vers quelqu'un",
+    "translations": {
+     "zh": "寄；发送",
+     "en": "to send"
+    },
+    "examples": [
+     {
+      "text": "J'envoie un message à Paul.",
+      "cloze": "{{J'envoie}} un message à Paul.",
+      "translations": {
+       "zh": "我给保罗发了一条消息。",
+       "en": "I'm sending Paul a message."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "recevoir",
+  "phonetic": "/ʁə.sə.vwaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "conjugation": "不规则：je reçois, il reçoit, nous recevons, ils reçoivent；过去分词 reçu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir ce qu'on vous envoie ou donne",
+    "translations": {
+     "zh": "收到；接待",
+     "en": "to receive"
+    },
+    "examples": [
+     {
+      "text": "J'ai reçu ta lettre hier.",
+      "cloze": "J'ai {{reçu}} ta lettre hier.",
+      "translations": {
+       "zh": "我昨天收到了你的信。",
+       "en": "I received your letter yesterday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "traduire",
+  "phonetic": "/tʁa.dɥiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "conjugation": "不规则：je traduis, nous traduisons, ils traduisent；过去分词 traduit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire la même chose dans une autre langue",
+    "translations": {
+     "zh": "翻译",
+     "en": "to translate"
+    },
+    "examples": [
+     {
+      "text": "Tu peux traduire cette phrase ?",
+      "translations": {
+       "zh": "你能翻译这句话吗？",
+       "en": "Can you translate this sentence?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "répéter",
+  "phonetic": "/ʁe.pe.te/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je répète, nous répétons, ils répètent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire encore une fois",
+    "translations": {
+     "zh": "重复；再说一遍",
+     "en": "to repeat"
+    },
+    "examples": [
+     {
+      "text": "Vous pouvez répéter, s'il vous plaît ?",
+      "translations": {
+       "zh": "您能再说一遍吗？",
+       "en": "Could you repeat that, please?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "épeler",
+  "phonetic": "/e.ple/",
+  "cefr": "A2",
+  "frequencyRank": 18000,
+  "grammarNotes": {
+   "conjugation": "拼写变化：j'épelle, nous épelons, ils épellent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire les lettres d'un mot une par une",
+    "translations": {
+     "zh": "拼读（单词）",
+     "en": "to spell"
+    },
+    "examples": [
+     {
+      "text": "Pouvez-vous épeler votre nom ?",
+      "translations": {
+       "zh": "您能拼一下您的名字吗？",
+       "en": "Can you spell your name?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lire",
+  "phonetic": "/liʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "conjugation": "不规则：je lis, il lit, nous lisons, vous lisez, ils lisent；过去分词 lu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "regarder et comprendre un texte",
+    "translations": {
+     "zh": "读；阅读",
+     "en": "to read"
+    },
+    "examples": [
+     {
+      "text": "J'aime lire le soir.",
+      "translations": {
+       "zh": "我喜欢晚上读书。",
+       "en": "I like reading in the evening."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "annoncer",
+  "phonetic": "/a.nɔ̃.se/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous annonçons；过去分词 annoncé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire savoir une nouvelle",
+    "translations": {
+     "zh": "宣布；通知",
+     "en": "to announce"
+    },
+    "examples": [
+     {
+      "text": "Il annonce une bonne nouvelle.",
+      "cloze": "Il {{annonce}} une bonne nouvelle.",
+      "translations": {
+       "zh": "他宣布了一个好消息。",
+       "en": "He announces some good news."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "décrire",
+  "phonetic": "/de.kʁiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "conjugation": "不规则：je décris, nous décrivons, ils décrivent；过去分词 décrit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire comment est quelqu'un ou quelque chose",
+    "translations": {
+     "zh": "描述；描写",
+     "en": "to describe"
+    },
+    "examples": [
+     {
+      "text": "Décris-moi ta maison.",
+      "cloze": "{{Décris-moi}} ta maison.",
+      "translations": {
+       "zh": "给我描述一下你的房子。",
+       "en": "Describe your house to me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bavarder",
+  "phonetic": "/ba.vaʁ.de/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "parler de choses simples avec quelqu'un",
+    "translations": {
+     "zh": "闲聊；聊天",
+     "en": "to chat"
+    },
+    "examples": [
+     {
+      "text": "Elles bavardent au café.",
+      "cloze": "Elles {{bavardent}} au café.",
+      "translations": {
+       "zh": "她们在咖啡馆闲聊。",
+       "en": "They're chatting at the café."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rappeler",
+  "phonetic": "/ʁa.ple/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je rappelle, nous rappelons, ils rappellent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "téléphoner de nouveau",
+    "translations": {
+     "zh": "回电话；再打电话",
+     "en": "to call back"
+    },
+    "examples": [
+     {
+      "text": "Je vous rappelle ce soir.",
+      "cloze": "Je vous {{rappelle}} ce soir.",
+      "translations": {
+       "zh": "我今晚给您回电话。",
+       "en": "I'll call you back tonight."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire penser à quelque chose",
+    "translations": {
+     "zh": "提醒；使想起",
+     "en": "to remind"
+    },
+    "examples": [
+     {
+      "text": "Rappelle-moi d'acheter du pain.",
+      "translations": {
+       "zh": "提醒我买面包。",
+       "en": "Remind me to buy bread."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "prononcer",
+  "phonetic": "/pʁɔ.nɔ̃.se/",
+  "cefr": "A2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous prononçons；过去分词 prononcé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire le son d'un mot",
+    "translations": {
+     "zh": "发音；念",
+     "en": "to pronounce"
+    },
+    "examples": [
+     {
+      "text": "Comment on prononce ce mot ?",
+      "cloze": "Comment on {{prononce}} ce mot ?",
+      "translations": {
+       "zh": "这个词怎么念？",
+       "en": "How do you pronounce this word?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "compter",
+  "phonetic": "/kɔ̃.te/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "calculer un nombre",
+    "translations": {
+     "zh": "数；计算",
+     "en": "to count"
+    },
+    "examples": [
+     {
+      "text": "Mon fils sait compter jusqu'à cent.",
+      "translations": {
+       "zh": "我儿子会数到一百。",
+       "en": "My son can count to a hundred."
+      }
+     }
+    ],
+    "usageNote": "注意 p 不发音。compter sur qqn 表示“指望某人”。"
+   }
+  ]
+ },
+ {
+  "headword": "permettre",
+  "phonetic": "/pɛʁ.mɛtʁ/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "conjugation": "不规则：je permets, il permet, nous permettons, ils permettent；过去分词 permis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire oui, donner le droit de faire",
+    "translations": {
+     "zh": "允许",
+     "en": "to allow"
+    },
+    "examples": [
+     {
+      "text": "Mes parents me permettent de sortir.",
+      "cloze": "Mes parents me {{permettent}} de sortir.",
+      "translations": {
+       "zh": "我父母允许我出去。",
+       "en": "My parents let me go out."
+      }
+     }
+    ],
+    "usageNote": "permettre à qqn de + 不定式。"
+   }
+  ]
+ },
+ {
+  "headword": "croire",
+  "phonetic": "/kʁwaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "conjugation": "不规则：je crois, il croit, nous croyons, ils croient；过去分词 cru"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "penser que c'est vrai",
+    "translations": {
+     "zh": "相信；认为",
+     "en": "to believe, to think"
+    },
+    "examples": [
+     {
+      "text": "Je crois qu'il va pleuvoir.",
+      "cloze": "Je {{crois}} qu'il va pleuvoir.",
+      "translations": {
+       "zh": "我觉得要下雨了。",
+       "en": "I think it's going to rain."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sembler",
+  "phonetic": "/sɑ̃.ble/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir l'air",
+    "translations": {
+     "zh": "似乎；看起来",
+     "en": "to seem"
+    },
+    "examples": [
+     {
+      "text": "Tu sembles fatigué.",
+      "cloze": "Tu {{sembles}} fatigué.",
+      "translations": {
+       "zh": "你看起来很累。",
+       "en": "You seem tired."
+      }
+     }
+    ],
+    "usageNote": "常用 il semble que…（看来……）。"
+   }
+  ]
+ },
+ {
+  "headword": "reconnaître",
+  "phonetic": "/ʁə.kɔ.nɛtʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "conjugation": "不规则：je reconnais, il reconnaît, nous reconnaissons, ils reconnaissent；过去分词 reconnu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "savoir qui est quelqu'un qu'on a déjà vu",
+    "translations": {
+     "zh": "认出",
+     "en": "to recognize"
+    },
+    "examples": [
+     {
+      "text": "Je ne t'ai pas reconnu !",
+      "cloze": "Je ne t'ai pas {{reconnu}} !",
+      "translations": {
+       "zh": "我都没认出你来！",
+       "en": "I didn't recognize you!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "décider",
+  "phonetic": "/de.si.de/",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "choisir ce qu'on va faire",
+    "translations": {
+     "zh": "决定",
+     "en": "to decide"
+    },
+    "examples": [
+     {
+      "text": "J'ai décidé d'apprendre le français.",
+      "cloze": "J'ai {{décidé}} d'apprendre le français.",
+      "translations": {
+       "zh": "我决定学法语。",
+       "en": "I've decided to learn French."
+      }
+     }
+    ],
+    "usageNote": "décider de + 不定式。"
+   }
+  ]
+ },
+ {
+  "headword": "réfléchir",
+  "phonetic": "/ʁe.fle.ʃiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "conjugation": "第二组动词：je réfléchis, nous réfléchissons, ils réfléchissent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "penser avec attention",
+    "translations": {
+     "zh": "思考；考虑",
+     "en": "to think (carefully)"
+    },
+    "examples": [
+     {
+      "text": "Laisse-moi réfléchir un peu.",
+      "translations": {
+       "zh": "让我想一想。",
+       "en": "Let me think a bit."
+      }
+     }
+    ],
+    "usageNote": "réfléchir à qqch：考虑某事。"
+   }
+  ]
+ },
+ {
+  "headword": "imaginer",
+  "phonetic": "/i.ma.ʒi.ne/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "voir quelque chose dans sa tête",
+    "translations": {
+     "zh": "想象",
+     "en": "to imagine"
+    },
+    "examples": [
+     {
+      "text": "Imagine une maison au bord de la mer.",
+      "cloze": "{{Imagine}} une maison au bord de la mer.",
+      "translations": {
+       "zh": "想象一座海边的房子。",
+       "en": "Imagine a house by the sea."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "espérer",
+  "phonetic": "/ɛs.pe.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "conjugation": "拼写变化：j'espère, nous espérons, ils espèrent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "souhaiter que quelque chose arrive",
+    "translations": {
+     "zh": "希望",
+     "en": "to hope"
+    },
+    "examples": [
+     {
+      "text": "J'espère que tu vas bien.",
+      "cloze": "{{J'espère}} que tu vas bien.",
+      "translations": {
+       "zh": "希望你一切都好。",
+       "en": "I hope you're well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "souhaiter",
+  "phonetic": "/swe.te/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "désirer quelque chose pour soi ou pour un autre",
+    "translations": {
+     "zh": "祝愿；希望",
+     "en": "to wish"
+    },
+    "examples": [
+     {
+      "text": "Je te souhaite un bon anniversaire !",
+      "cloze": "Je te {{souhaite}} un bon anniversaire !",
+      "translations": {
+       "zh": "祝你生日快乐！",
+       "en": "I wish you a happy birthday!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rêver",
+  "phonetic": "/ʁɛ.ve/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "voir des images en dormant ; désirer très fort",
+    "translations": {
+     "zh": "做梦；梦想",
+     "en": "to dream"
+    },
+    "examples": [
+     {
+      "text": "Je rêve de visiter Paris.",
+      "cloze": "Je {{rêve}} de visiter Paris.",
+      "translations": {
+       "zh": "我梦想去巴黎玩。",
+       "en": "I dream of visiting Paris."
+      }
+     }
+    ],
+    "usageNote": "rêver de qqch / de + 不定式。"
+   }
+  ]
+ },
+ {
+  "headword": "regretter",
+  "phonetic": "/ʁə.ɡʁɛ.te/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être triste d'avoir fait ou pas fait quelque chose",
+    "translations": {
+     "zh": "后悔；遗憾",
+     "en": "to regret, to be sorry"
+    },
+    "examples": [
+     {
+      "text": "Je regrette, le magasin est fermé.",
+      "cloze": "Je {{regrette}}, le magasin est fermé.",
+      "translations": {
+       "zh": "抱歉，商店关门了。",
+       "en": "I'm sorry, the shop is closed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "enseigner",
+  "phonetic": "/ɑ̃.se.ɲe/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "apprendre quelque chose à des élèves",
+    "translations": {
+     "zh": "教；教授",
+     "en": "to teach"
+    },
+    "examples": [
+     {
+      "text": "Elle enseigne le chinois à Lyon.",
+      "cloze": "Elle {{enseigne}} le chinois à Lyon.",
+      "translations": {
+       "zh": "她在里昂教中文。",
+       "en": "She teaches Chinese in Lyon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réussir",
+  "phonetic": "/ʁe.y.siʁ/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "conjugation": "第二组动词：je réussis, nous réussissons, ils réussissent；过去分词 réussi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "obtenir un bon résultat",
+    "translations": {
+     "zh": "成功；（考试）通过",
+     "en": "to succeed, to pass"
+    },
+    "examples": [
+     {
+      "text": "J'ai réussi mon examen !",
+      "cloze": "J'ai {{réussi}} mon examen !",
+      "translations": {
+       "zh": "我考试通过了！",
+       "en": "I passed my exam!"
+      }
+     }
+    ],
+    "usageNote": "注意：passer un examen 只是“参加考试”，réussir un examen 才是“考过”。"
+   }
+  ]
+ },
+ {
+  "headword": "rater",
+  "phonetic": "/ʁa.te/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas réussir ; arriver trop tard pour",
+    "translations": {
+     "zh": "错过；没考过；搞砸",
+     "en": "to miss, to fail"
+    },
+    "examples": [
+     {
+      "text": "J'ai raté le train.",
+      "cloze": "J'ai {{raté}} le train.",
+      "translations": {
+       "zh": "我没赶上火车。",
+       "en": "I missed the train."
+      }
+     }
+    ],
+    "usageNote": "口语常用词。"
+   }
+  ]
+ },
+ {
+  "headword": "deviner",
+  "phonetic": "/də.vi.ne/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "trouver une réponse sans la savoir",
+    "translations": {
+     "zh": "猜",
+     "en": "to guess"
+    },
+    "examples": [
+     {
+      "text": "Devine qui est là !",
+      "cloze": "{{Devine}} qui est là !",
+      "translations": {
+       "zh": "猜猜谁来了！",
+       "en": "Guess who's here!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "monter",
+  "phonetic": "/mɔ̃.te/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller vers le haut",
+    "translations": {
+     "zh": "上去；登上；上（车）",
+     "en": "to go up, to get on"
+    },
+    "examples": [
+     {
+      "text": "Je monte dans le train.",
+      "cloze": "Je {{monte}} dans le train.",
+      "translations": {
+       "zh": "我上了火车。",
+       "en": "I get on the train."
+      }
+     }
+    ],
+    "usageNote": "表示“上去、上车”时复合过去时用 être：Je suis monté."
+   }
+  ]
+ },
+ {
+  "headword": "descendre",
+  "phonetic": "/de.sɑ̃dʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "conjugation": "je descends, il descend, nous descendons, ils descendent；过去分词 descendu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller vers le bas",
+    "translations": {
+     "zh": "下去；下（车）",
+     "en": "to go down, to get off"
+    },
+    "examples": [
+     {
+      "text": "On descend au prochain arrêt.",
+      "cloze": "On {{descend}} au prochain arrêt.",
+      "translations": {
+       "zh": "我们在下一站下车。",
+       "en": "We get off at the next stop."
+      }
+     }
+    ],
+    "usageNote": "不及物时复合过去时用 être：Elle est descendue."
+   }
+  ]
+ },
+ {
+  "headword": "tourner",
+  "phonetic": "/tuʁ.ne/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "changer de direction",
+    "translations": {
+     "zh": "转弯；转动",
+     "en": "to turn"
+    },
+    "examples": [
+     {
+      "text": "Tournez à gauche après le pont.",
+      "cloze": "{{Tournez}} à gauche après le pont.",
+      "translations": {
+       "zh": "过了桥向左转。",
+       "en": "Turn left after the bridge."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "traverser",
+  "phonetic": "/tʁa.vɛʁ.se/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "passer d'un côté à l'autre",
+    "translations": {
+     "zh": "穿过；横穿",
+     "en": "to cross"
+    },
+    "examples": [
+     {
+      "text": "Attention quand tu traverses la rue !",
+      "cloze": "Attention quand tu {{traverses}} la rue !",
+      "translations": {
+       "zh": "过马路时要小心！",
+       "en": "Be careful when you cross the street!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "suivre",
+  "phonetic": "/sɥivʁ/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "conjugation": "不规则：je suis, il suit, nous suivons, ils suivent；过去分词 suivi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller derrière quelqu'un",
+    "translations": {
+     "zh": "跟着；跟随",
+     "en": "to follow"
+    },
+    "examples": [
+     {
+      "text": "Suivez-moi, s'il vous plaît.",
+      "cloze": "{{Suivez-moi}}, s'il vous plaît.",
+      "translations": {
+       "zh": "请跟我来。",
+       "en": "Follow me, please."
+      }
+     }
+    ],
+    "usageNote": "je suis 既可以是 être 也可以是 suivre，要看上下文。suivre un cours：上课、修课。"
+   }
+  ]
+ },
+ {
+  "headword": "continuer",
+  "phonetic": "/kɔ̃.ti.nɥe/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas s'arrêter",
+    "translations": {
+     "zh": "继续",
+     "en": "to continue, to go on"
+    },
+    "examples": [
+     {
+      "text": "Continuez tout droit.",
+      "cloze": "{{Continuez}} tout droit.",
+      "translations": {
+       "zh": "一直往前走。",
+       "en": "Keep going straight ahead."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "retourner",
+  "phonetic": "/ʁə.tuʁ.ne/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller de nouveau à un endroit",
+    "translations": {
+     "zh": "回（某地）；返回",
+     "en": "to go back, to return"
+    },
+    "examples": [
+     {
+      "text": "Je retourne en Chine cet été.",
+      "cloze": "Je {{retourne}} en Chine cet été.",
+      "translations": {
+       "zh": "我今年夏天回中国。",
+       "en": "I'm going back to China this summer."
+      }
+     }
+    ],
+    "usageNote": "复合过去时用 être：Il est retourné à Paris."
+   }
+  ]
+ },
+ {
+  "headword": "quitter",
+  "phonetic": "/ki.te/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "partir d'un lieu ou laisser quelqu'un",
+    "translations": {
+     "zh": "离开",
+     "en": "to leave"
+    },
+    "examples": [
+     {
+      "text": "Je quitte la maison à huit heures.",
+      "cloze": "Je {{quitte}} la maison à huit heures.",
+      "translations": {
+       "zh": "我八点离开家。",
+       "en": "I leave home at eight."
+      }
+     }
+    ],
+    "usageNote": "quitter 后面直接接地点或人；partir 要加 de：partir de la maison。"
+   }
+  ]
+ },
+ {
+  "headword": "visiter",
+  "phonetic": "/vi.zi.te/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller voir un lieu",
+    "translations": {
+     "zh": "参观；游览",
+     "en": "to visit (a place)"
+    },
+    "examples": [
+     {
+      "text": "Nous visitons le musée demain.",
+      "cloze": "Nous {{visitons}} le musée demain.",
+      "translations": {
+       "zh": "我们明天参观博物馆。",
+       "en": "We're visiting the museum tomorrow."
+      }
+     }
+    ],
+    "usageNote": "看望人一般用 rendre visite à qqn，不用 visiter。"
+   }
+  ]
+ },
+ {
+  "headword": "conduire",
+  "phonetic": "/kɔ̃.dɥiʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "conjugation": "不规则：je conduis, nous conduisons, ils conduisent；过去分词 conduit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire avancer une voiture",
+    "translations": {
+     "zh": "开（车）；驾驶",
+     "en": "to drive"
+    },
+    "examples": [
+     {
+      "text": "Mon père conduit très bien.",
+      "cloze": "Mon père {{conduit}} très bien.",
+      "translations": {
+       "zh": "我爸爸开车开得很好。",
+       "en": "My father drives very well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réserver",
+  "phonetic": "/ʁe.zɛʁ.ve/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "demander à l'avance une place, une chambre",
+    "translations": {
+     "zh": "预订",
+     "en": "to book, to reserve"
+    },
+    "examples": [
+     {
+      "text": "J'ai réservé une table pour deux.",
+      "cloze": "J'ai {{réservé}} une table pour deux.",
+      "translations": {
+       "zh": "我订了一张两人桌。",
+       "en": "I've booked a table for two."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "louer",
+  "phonetic": "/lwe/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "payer pour utiliser quelque chose pendant un temps",
+    "translations": {
+     "zh": "租；租用",
+     "en": "to rent"
+    },
+    "examples": [
+     {
+      "text": "On loue une voiture pour les vacances.",
+      "cloze": "On {{loue}} une voiture pour les vacances.",
+      "translations": {
+       "zh": "我们度假时租一辆车。",
+       "en": "We're renting a car for the holidays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "apporter",
+  "phonetic": "/a.pɔʁ.te/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "venir avec une chose",
+    "translations": {
+     "zh": "带来；拿来",
+     "en": "to bring"
+    },
+    "examples": [
+     {
+      "text": "J'apporte un gâteau ce soir.",
+      "cloze": "{{J'apporte}} un gâteau ce soir.",
+      "translations": {
+       "zh": "今晚我带个蛋糕来。",
+       "en": "I'll bring a cake tonight."
+      }
+     }
+    ],
+    "usageNote": "apporter 用于带“物”，带“人”用 amener / emmener。"
+   }
+  ]
+ },
+ {
+  "headword": "emmener",
+  "phonetic": "/ɑ̃m.ne/",
+  "cefr": "A2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "conjugation": "拼写变化：j'emmène, nous emmenons, ils emmènent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre quelqu'un avec soi en partant",
+    "translations": {
+     "zh": "带（某人）去",
+     "en": "to take (someone somewhere)"
+    },
+    "examples": [
+     {
+      "text": "J'emmène les enfants à l'école.",
+      "cloze": "{{J'emmène}} les enfants à l'école.",
+      "translations": {
+       "zh": "我送孩子们去学校。",
+       "en": "I take the children to school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "garer",
+  "phonetic": "/ɡa.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "laisser sa voiture à un endroit",
+    "translations": {
+     "zh": "停（车）",
+     "en": "to park"
+    },
+    "examples": [
+     {
+      "text": "Où est-ce que je peux garer la voiture ?",
+      "translations": {
+       "zh": "我可以把车停在哪儿？",
+       "en": "Where can I park the car?"
+      }
+     }
+    ],
+    "usageNote": "也说 se garer：Je me gare devant la maison."
+   }
+  ]
+ }
+]

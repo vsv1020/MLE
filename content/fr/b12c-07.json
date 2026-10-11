@@ -1,0 +1,574 @@
+[
+  {
+    "headword": "moustache",
+    "phonetic": "/mus.taʃ/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "moustaches"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "poils au-dessus de la lèvre",
+        "translations": {
+          "zh": "小胡子；髭",
+          "en": "moustache"
+        },
+        "examples": [
+          {
+            "text": "L'homme à la moustache est mon oncle.",
+            "translations": {
+              "zh": "留小胡子的那个人是我叔叔。",
+              "en": "The man with the moustache is my uncle."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "chauve",
+    "phonetic": "/ʃov/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 chauves"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'a plus de cheveux",
+        "translations": {
+          "zh": "秃顶的",
+          "en": "bald"
+        },
+        "examples": [
+          {
+            "text": "Mon grand-père est chauve.",
+            "translations": {
+              "zh": "我爷爷是秃顶。",
+              "en": "My grandfather is bald."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "frisé",
+    "phonetic": "/fʁi.ze/",
+    "cefr": "B1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 frisée；复数 frisés, frisées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui forme des boucles",
+        "translations": {
+          "zh": "卷曲的（头发）",
+          "en": "curly"
+        },
+        "examples": [
+          {
+            "text": "Il a les cheveux frisés.",
+            "translations": {
+              "zh": "他是卷发。",
+              "en": "He has curly hair."
+            },
+            "cloze": "Il a les cheveux {{frisés}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "raide",
+    "phonetic": "/ʁɛd/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 raides"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "droit et dur, qui ne plie pas",
+        "translations": {
+          "zh": "（头发）直的；僵硬的",
+          "en": "straight (hair); stiff"
+        },
+        "examples": [
+          {
+            "text": "J'ai le dos raide ce matin.",
+            "translations": {
+              "zh": "我今天早上背部僵硬。",
+              "en": "My back is stiff this morning."
+            }
+          }
+        ],
+        "usageNote": "cheveux raides：直发。"
+      }
+    ]
+  },
+  {
+    "headword": "roux",
+    "phonetic": "/ʁu/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 rousse；复数 roux, rousses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "d'une couleur entre le rouge et l'orange (cheveux)",
+        "translations": {
+          "zh": "（头发）红棕色的",
+          "en": "red-haired, ginger"
+        },
+        "examples": [
+          {
+            "text": "Sa fille a les cheveux roux.",
+            "translations": {
+              "zh": "他女儿是红头发。",
+              "en": "His daughter has red hair."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "élégant",
+    "phonetic": "/e.le.ɡɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴性 élégante；复数 élégants, élégantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "habillé avec goût",
+        "translations": {
+          "zh": "优雅的；讲究的",
+          "en": "elegant, smart"
+        },
+        "examples": [
+          {
+            "text": "Tu es très élégant avec ce costume.",
+            "translations": {
+              "zh": "你穿这套西装很精神。",
+              "en": "You look very smart in that suit."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "séduisant",
+    "phonetic": "/se.dɥi.zɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 séduisante；复数 séduisants, séduisantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui attire, qui plaît physiquement",
+        "translations": {
+          "zh": "迷人的；有魅力的",
+          "en": "attractive"
+        },
+        "examples": [
+          {
+            "text": "C'est un homme séduisant.",
+            "translations": {
+              "zh": "这是个很有魅力的男人。",
+              "en": "He's an attractive man."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "laid",
+    "phonetic": "/lɛ/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 laide；复数 laids, laides"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "pas beau du tout",
+        "translations": {
+          "zh": "丑的；难看的",
+          "en": "ugly"
+        },
+        "examples": [
+          {
+            "text": "Ce bâtiment est vraiment laid.",
+            "translations": {
+              "zh": "这栋楼真难看。",
+              "en": "This building is really ugly."
+            }
+          }
+        ],
+        "usageNote": "口语多说 moche。"
+      }
+    ]
+  },
+  {
+    "headword": "moche",
+    "phonetic": "/mɔʃ/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 moches"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "laid (familier)",
+        "translations": {
+          "zh": "难看的；丑的（口语）",
+          "en": "ugly (informal)"
+        },
+        "examples": [
+          {
+            "text": "Ce pull est moche !",
+            "translations": {
+              "zh": "这件毛衣好丑！",
+              "en": "That jumper is ugly!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mignon",
+    "phonetic": "/mi.ɲɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 mignonne；复数 mignons, mignonnes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "joli et charmant, souvent petit",
+        "translations": {
+          "zh": "可爱的；漂亮的",
+          "en": "cute, sweet"
+        },
+        "examples": [
+          {
+            "text": "Ton chiot est trop mignon !",
+            "translations": {
+              "zh": "你的小狗太可爱了！",
+              "en": "Your puppy is so cute!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ressembler",
+    "phonetic": "/ʁə.sɑ̃.ble/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir des traits communs avec qqn",
+        "translations": {
+          "zh": "像；相似",
+          "en": "to look like, to resemble"
+        },
+        "examples": [
+          {
+            "text": "Tu ressembles beaucoup à ta mère.",
+            "translations": {
+              "zh": "你长得很像你妈妈。",
+              "en": "You look a lot like your mother."
+            },
+            "cloze": "Tu {{ressembles}} beaucoup à ta mère."
+          }
+        ],
+        "usageNote": "ressembler à qqn。se ressembler：彼此相像。"
+      }
+    ]
+  },
+  {
+    "headword": "tatouage",
+    "phonetic": "/ta.twaʒ/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "tatouages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "dessin fait dans la peau",
+        "translations": {
+          "zh": "文身",
+          "en": "tattoo"
+        },
+        "examples": [
+          {
+            "text": "Il a un tatouage sur le bras.",
+            "translations": {
+              "zh": "他胳膊上有个文身。",
+              "en": "He has a tattoo on his arm."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "maquillage",
+    "phonetic": "/ma.ki.jaʒ/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "maquillages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "produits qu'on met sur le visage pour l'embellir",
+        "translations": {
+          "zh": "化妆；化妆品",
+          "en": "make-up"
+        },
+        "examples": [
+          {
+            "text": "Elle ne porte jamais de maquillage.",
+            "translations": {
+              "zh": "她从不化妆。",
+              "en": "She never wears make-up."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "coiffure",
+    "phonetic": "/kwa.fyʁ/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "coiffures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "façon d'arranger les cheveux",
+        "translations": {
+          "zh": "发型",
+          "en": "hairstyle"
+        },
+        "examples": [
+          {
+            "text": "J'adore ta nouvelle coiffure !",
+            "translations": {
+              "zh": "我超喜欢你的新发型！",
+              "en": "I love your new hairstyle!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "allure",
+    "phonetic": "/a.lyʁ/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "allures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "façon de marcher, de se tenir ; aspect",
+        "translations": {
+          "zh": "风度；外表；速度",
+          "en": "look, bearing; pace"
+        },
+        "examples": [
+          {
+            "text": "Elle a beaucoup d'allure.",
+            "translations": {
+              "zh": "她很有风度。",
+              "en": "She has great style."
+            },
+            "cloze": "Elle a beaucoup d'{{allure}}."
+          }
+        ],
+        "usageNote": "à toute allure：飞快地。"
+      }
+    ]
+  },
+  {
+    "headword": "silhouette",
+    "phonetic": "/si.lwɛt/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "silhouettes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "forme générale du corps",
+        "translations": {
+          "zh": "身材；轮廓",
+          "en": "figure, silhouette"
+        },
+        "examples": [
+          {
+            "text": "Elle fait du sport pour garder la silhouette.",
+            "translations": {
+              "zh": "她运动以保持身材。",
+              "en": "She does sport to keep her figure."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "musclé",
+    "phonetic": "/mys.kle/",
+    "cefr": "B1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 musclée；复数 musclés, musclées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a de gros muscles",
+        "translations": {
+          "zh": "肌肉发达的",
+          "en": "muscular"
+        },
+        "examples": [
+          {
+            "text": "Il est grand et musclé.",
+            "translations": {
+              "zh": "他又高又壮。",
+              "en": "He's tall and muscular."
+            }
+          }
+        ]
+      }
+    ],
+    "homograph": 2
+  },
+  {
+    "headword": "costaud",
+    "phonetic": "/kɔs.to/",
+    "cefr": "B2",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 costaude；复数 costauds, costaudes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "fort, robuste (familier)",
+        "translations": {
+          "zh": "强壮的；结实的",
+          "en": "strong, sturdy"
+        },
+        "examples": [
+          {
+            "text": "Ton frère est costaud, il peut porter le canapé.",
+            "translations": {
+              "zh": "你哥哥很壮，搬得动沙发。",
+              "en": "Your brother is strong, he can carry the sofa."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "teint",
+    "phonetic": "/tɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "teints"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "couleur de la peau du visage",
+        "translations": {
+          "zh": "肤色；气色",
+          "en": "complexion"
+        },
+        "examples": [
+          {
+            "text": "Elle a le teint pâle.",
+            "translations": {
+              "zh": "她脸色苍白。",
+              "en": "She has a pale complexion."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bronzé",
+    "phonetic": "/bʁɔ̃.ze/",
+    "cefr": "B1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 bronzée；复数 bronzés, bronzées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "dont la peau est brunie par le soleil",
+        "translations": {
+          "zh": "晒黑的",
+          "en": "tanned"
+        },
+        "examples": [
+          {
+            "text": "Tu es tout bronzé, tu reviens de vacances ?",
+            "translations": {
+              "zh": "你晒得好黑，刚度假回来？",
+              "en": "You're so tanned, are you back from holiday?"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

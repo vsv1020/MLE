@@ -1,0 +1,1550 @@
+[
+ {
+  "headword": "carrefour",
+  "phonetic": "/kaʁ.fuʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "carrefours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où plusieurs routes se croisent",
+    "translations": {
+     "zh": "十字路口",
+     "en": "crossroads, junction"
+    },
+    "examples": [
+     {
+      "text": "Tournez à gauche au carrefour.",
+      "translations": {
+       "zh": "在路口左转。",
+       "en": "Turn left at the crossroads."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "feu",
+  "phonetic": "/fø/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "feux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "flammes qui brûlent",
+    "translations": {
+     "zh": "火",
+     "en": "fire"
+    },
+    "examples": [
+     {
+      "text": "Le feu brûle dans la cheminée.",
+      "translations": {
+       "zh": "壁炉里火在燃烧。",
+       "en": "The fire is burning in the fireplace."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "lumière qui règle la circulation",
+    "translations": {
+     "zh": "红绿灯",
+     "en": "traffic light"
+    },
+    "examples": [
+     {
+      "text": "Arrête-toi au feu rouge.",
+      "translations": {
+       "zh": "红灯停下。",
+       "en": "Stop at the red light."
+      }
+     }
+    ],
+    "usageNote": "复数 feux。"
+   }
+  ]
+ },
+ {
+  "headword": "trottoir",
+  "phonetic": "/tʁɔ.twaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "trottoirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie de la rue où marchent les piétons",
+    "translations": {
+     "zh": "人行道",
+     "en": "pavement, sidewalk"
+    },
+    "examples": [
+     {
+      "text": "Marche sur le trottoir !",
+      "translations": {
+       "zh": "走人行道！",
+       "en": "Walk on the pavement!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "piéton",
+  "phonetic": "/pje.tɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "piétons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui marche dans la rue",
+    "translations": {
+     "zh": "行人",
+     "en": "pedestrian"
+    },
+    "examples": [
+     {
+      "text": "Cette rue est réservée aux piétons.",
+      "cloze": "Cette rue est réservée aux {{piétons}}.",
+      "translations": {
+       "zh": "这条街只供行人通行。",
+       "en": "This street is for pedestrians only."
+      }
+     }
+    ],
+    "usageNote": "人行横道是 passage piéton。"
+   }
+  ]
+ },
+ {
+  "headword": "arrêt",
+  "phonetic": "/a.ʁɛ/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "arrêts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où le bus s'arrête",
+    "translations": {
+     "zh": "车站（公交）",
+     "en": "stop"
+    },
+    "examples": [
+     {
+      "text": "Je descends au prochain arrêt.",
+      "translations": {
+       "zh": "我下一站下车。",
+       "en": "I'm getting off at the next stop."
+      }
+     }
+    ],
+    "usageNote": "公交站说 arrêt de bus。"
+   }
+  ]
+ },
+ {
+  "headword": "parking",
+  "phonetic": "/paʁ.kiŋ/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "parkings"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit pour garer les voitures",
+    "translations": {
+     "zh": "停车场",
+     "en": "car park, parking lot"
+    },
+    "examples": [
+     {
+      "text": "Le parking est complet.",
+      "translations": {
+       "zh": "停车场满了。",
+       "en": "The car park is full."
+      }
+     }
+    ],
+    "usageNote": "英语借词，但意思是“停车场”，不是“停车”。"
+   }
+  ]
+ },
+ {
+  "headword": "station",
+  "phonetic": "/sta.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "stations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "arrêt de métro ou de taxi",
+    "translations": {
+     "zh": "车站（地铁）；站点",
+     "en": "station"
+    },
+    "examples": [
+     {
+      "text": "La station de métro est à deux minutes.",
+      "translations": {
+       "zh": "地铁站走两分钟就到。",
+       "en": "The metro station is two minutes away."
+      }
+     }
+    ],
+    "usageNote": "火车站用 gare。"
+   }
+  ]
+ },
+ {
+  "headword": "avenue",
+  "phonetic": "/av.ny/",
+  "cefr": "A2",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "avenues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande rue large, souvent avec des arbres",
+    "translations": {
+     "zh": "大街；林荫道",
+     "en": "avenue"
+    },
+    "examples": [
+     {
+      "text": "Les Champs-Élysées sont une avenue célèbre.",
+      "translations": {
+       "zh": "香榭丽舍是一条著名的大街。",
+       "en": "The Champs-Élysées is a famous avenue."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "immeuble",
+  "phonetic": "/i.mœbl/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "immeubles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand bâtiment avec plusieurs appartements",
+    "translations": {
+     "zh": "楼房；公寓楼",
+     "en": "block of flats, building"
+    },
+    "examples": [
+     {
+      "text": "J'habite dans un immeuble de six étages.",
+      "translations": {
+       "zh": "我住在一栋六层的楼里。",
+       "en": "I live in a six-storey building."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bâtiment",
+  "phonetic": "/bɑ.ti.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bâtiments"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "construction comme une maison, une école, un bureau",
+    "translations": {
+     "zh": "建筑物",
+     "en": "building"
+    },
+    "examples": [
+     {
+      "text": "Le bâtiment B est à droite.",
+      "translations": {
+       "zh": "B栋在右边。",
+       "en": "Building B is on the right."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "centre-ville",
+  "phonetic": "/sɑ̃.tʁə.vil/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "centres-villes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "quartier au milieu d'une ville",
+    "translations": {
+     "zh": "市中心",
+     "en": "town centre, downtown"
+    },
+    "examples": [
+     {
+      "text": "On se retrouve au centre-ville ?",
+      "cloze": "On se retrouve au {{centre-ville}} ?",
+      "translations": {
+       "zh": "我们在市中心碰头？",
+       "en": "Shall we meet in town?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "banlieue",
+  "phonetic": "/bɑ̃.ljø/",
+  "cefr": "A2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "banlieues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petites villes autour d'une grande ville",
+    "translations": {
+     "zh": "郊区",
+     "en": "suburbs"
+    },
+    "examples": [
+     {
+      "text": "Ils habitent en banlieue parisienne.",
+      "translations": {
+       "zh": "他们住在巴黎郊区。",
+       "en": "They live in the Paris suburbs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "habitant",
+  "phonetic": "/a.bi.tɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "habitants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui vit dans un lieu",
+    "translations": {
+     "zh": "居民",
+     "en": "inhabitant"
+    },
+    "examples": [
+     {
+      "text": "Cette ville a cent mille habitants.",
+      "cloze": "Cette ville a cent mille {{habitants}}.",
+      "translations": {
+       "zh": "这座城市有十万居民。",
+       "en": "This town has a hundred thousand inhabitants."
+      }
+     }
+    ],
+    "usageNote": "阴性 habitante。"
+   }
+  ]
+ },
+ {
+  "headword": "circulation",
+  "phonetic": "/siʁ.ky.la.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "circulations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "voitures qui roulent dans les rues",
+    "translations": {
+     "zh": "交通",
+     "en": "traffic"
+    },
+    "examples": [
+     {
+      "text": "Il y a beaucoup de circulation ce matin.",
+      "translations": {
+       "zh": "今天早上车很多。",
+       "en": "There's a lot of traffic this morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "embouteillage",
+  "phonetic": "/ɑ̃.bu.tɛ.jaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "embouteillages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "trop de voitures qui ne peuvent plus avancer",
+    "translations": {
+     "zh": "堵车",
+     "en": "traffic jam"
+    },
+    "examples": [
+     {
+      "text": "Je suis dans un embouteillage.",
+      "translations": {
+       "zh": "我堵在路上了。",
+       "en": "I'm stuck in a traffic jam."
+      }
+     }
+    ],
+    "usageNote": "口语也说 un bouchon。"
+   }
+  ]
+ },
+ {
+  "headword": "panneau",
+  "phonetic": "/pa.no/",
+  "cefr": "A2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "panneaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "plaque qui donne une information sur la route",
+    "translations": {
+     "zh": "指示牌；标牌",
+     "en": "sign"
+    },
+    "examples": [
+     {
+      "text": "Suivez le panneau « Centre-ville ».",
+      "translations": {
+       "zh": "跟着“市中心”的路牌走。",
+       "en": "Follow the \"Town centre\" sign."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "monument",
+  "phonetic": "/mɔ.ny.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "monuments"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bâtiment important ou célèbre",
+    "translations": {
+     "zh": "名胜古迹；纪念碑",
+     "en": "monument"
+    },
+    "examples": [
+     {
+      "text": "La tour Eiffel est un monument célèbre.",
+      "translations": {
+       "zh": "埃菲尔铁塔是著名的地标。",
+       "en": "The Eiffel Tower is a famous monument."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "château",
+  "phonetic": "/ʃɑ.to/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "châteaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande et belle maison ancienne d'un roi ou d'un noble",
+    "translations": {
+     "zh": "城堡",
+     "en": "castle, chateau"
+    },
+    "examples": [
+     {
+      "text": "Nous visitons le château de Versailles.",
+      "translations": {
+       "zh": "我们参观凡尔赛宫。",
+       "en": "We're visiting the Palace of Versailles."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "zoo",
+  "phonetic": "/zo/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "zoos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "parc où on peut voir des animaux",
+    "translations": {
+     "zh": "动物园",
+     "en": "zoo"
+    },
+    "examples": [
+     {
+      "text": "Les enfants veulent aller au zoo.",
+      "translations": {
+       "zh": "孩子们想去动物园。",
+       "en": "The children want to go to the zoo."
+      }
+     }
+    ],
+    "usageNote": "也读 /zo.o/。"
+   }
+  ]
+ },
+ {
+  "headword": "déchet",
+  "phonetic": "/de.ʃɛ/",
+  "cefr": "A2",
+  "frequencyRank": 5400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "déchets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on jette parce qu'on ne l'utilise plus",
+    "translations": {
+     "zh": "垃圾；废物",
+     "en": "waste, rubbish"
+    },
+    "examples": [
+     {
+      "text": "Triez vos déchets, s'il vous plaît.",
+      "cloze": "Triez vos {{déchets}}, s'il vous plaît.",
+      "translations": {
+       "zh": "请将垃圾分类。",
+       "en": "Please sort your rubbish."
+      }
+     }
+    ],
+    "usageNote": "多用复数 les déchets。"
+   }
+  ]
+ },
+ {
+  "headword": "recyclage",
+  "phonetic": "/ʁə.si.klaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "无复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de transformer les déchets pour les réutiliser",
+    "translations": {
+     "zh": "回收利用",
+     "en": "recycling"
+    },
+    "examples": [
+     {
+      "text": "Le recyclage est important pour la planète.",
+      "translations": {
+       "zh": "回收利用对地球很重要。",
+       "en": "Recycling is important for the planet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "matière",
+  "phonetic": "/ma.tjɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "matières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose qu'on étudie à l'école",
+    "translations": {
+     "zh": "科目",
+     "en": "school subject"
+    },
+    "examples": [
+     {
+      "text": "Ta matière préférée, c'est quoi ?",
+      "translations": {
+       "zh": "你最喜欢哪门课？",
+       "en": "What's your favourite subject?"
+      }
+     }
+    ],
+    "usageNote": "也指“材料、物质”。"
+   }
+  ]
+ },
+ {
+  "headword": "mathématiques",
+  "phonetic": "/ma.te.ma.tik/",
+  "cefr": "A2",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "science des nombres et des formes",
+    "translations": {
+     "zh": "数学",
+     "en": "mathematics"
+    },
+    "examples": [
+     {
+      "text": "Il est très fort en mathématiques.",
+      "translations": {
+       "zh": "他数学很好。",
+       "en": "He's very good at maths."
+      }
+     }
+    ],
+    "usageNote": "口语常说 les maths。"
+   }
+  ]
+ },
+ {
+  "headword": "histoire",
+  "phonetic": "/is.twaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "histoires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qui s'est passé dans le passé ; matière à l'école",
+    "translations": {
+     "zh": "历史",
+     "en": "history"
+    },
+    "examples": [
+     {
+      "text": "J'adore l'histoire de France.",
+      "cloze": "J'adore l'{{histoire}} de France.",
+      "translations": {
+       "zh": "我很喜欢法国历史。",
+       "en": "I love French history."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "récit, vrai ou inventé",
+    "translations": {
+     "zh": "故事",
+     "en": "story"
+    },
+    "examples": [
+     {
+      "text": "Papa me raconte une histoire.",
+      "translations": {
+       "zh": "爸爸给我讲故事。",
+       "en": "Dad tells me a story."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "géographie",
+  "phonetic": "/ʒe.ɔ.ɡʁa.fi/",
+  "cefr": "A2",
+  "frequencyRank": 6800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "géographies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "science qui étudie la terre, les pays et les villes",
+    "translations": {
+     "zh": "地理",
+     "en": "geography"
+    },
+    "examples": [
+     {
+      "text": "En géographie, on étudie les fleuves.",
+      "translations": {
+       "zh": "地理课上我们学习河流。",
+       "en": "In geography, we study rivers."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "physique",
+  "phonetic": "/fi.zik/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "physiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "science de la matière, de l'énergie, du mouvement",
+    "translations": {
+     "zh": "物理",
+     "en": "physics"
+    },
+    "examples": [
+     {
+      "text": "Le cours de physique est difficile.",
+      "translations": {
+       "zh": "物理课很难。",
+       "en": "The physics class is hard."
+      }
+     }
+    ],
+    "usageNote": "作阳性名词 le physique 指“外貌、体格”。"
+   }
+  ]
+ },
+ {
+  "headword": "chimie",
+  "phonetic": "/ʃi.mi/",
+  "cefr": "A2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chimies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "science des substances et de leurs réactions",
+    "translations": {
+     "zh": "化学",
+     "en": "chemistry"
+    },
+    "examples": [
+     {
+      "text": "Elle étudie la chimie à l'université.",
+      "translations": {
+       "zh": "她在大学学化学。",
+       "en": "She studies chemistry at university."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "biologie",
+  "phonetic": "/bjɔ.lɔ.ʒi/",
+  "cefr": "A2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "biologies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "science des êtres vivants",
+    "translations": {
+     "zh": "生物学",
+     "en": "biology"
+    },
+    "examples": [
+     {
+      "text": "On a un examen de biologie demain.",
+      "translations": {
+       "zh": "我们明天有生物考试。",
+       "en": "We have a biology exam tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "informatique",
+  "phonetic": "/ɛ̃.fɔʁ.ma.tik/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "informatiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "science des ordinateurs",
+    "translations": {
+     "zh": "计算机科学",
+     "en": "computer science, IT"
+    },
+    "examples": [
+     {
+      "text": "Mon fils étudie l'informatique.",
+      "cloze": "Mon fils étudie l'{{informatique}}.",
+      "translations": {
+       "zh": "我儿子学计算机。",
+       "en": "My son studies computer science."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "récréation",
+  "phonetic": "/ʁe.kʁe.a.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "récréations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pause entre deux cours où les élèves jouent",
+    "translations": {
+     "zh": "课间休息",
+     "en": "break, recess"
+    },
+    "examples": [
+     {
+      "text": "Les élèves jouent dans la cour pendant la récréation.",
+      "translations": {
+       "zh": "课间学生们在操场上玩。",
+       "en": "The pupils play in the yard at break."
+      }
+     }
+    ],
+    "usageNote": "口语简称 la récré。"
+   }
+  ]
+ },
+ {
+  "headword": "cantine",
+  "phonetic": "/kɑ̃.tin/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cantines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "restaurant d'une école ou d'une entreprise",
+    "translations": {
+     "zh": "食堂",
+     "en": "canteen"
+    },
+    "examples": [
+     {
+      "text": "Je mange à la cantine à midi.",
+      "translations": {
+       "zh": "我中午在食堂吃饭。",
+       "en": "I eat in the canteen at lunchtime."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "emploi du temps",
+  "phonetic": "/ɑ̃.plwa dy tɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "emplois du temps"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liste des cours ou des activités de la semaine",
+    "translations": {
+     "zh": "课程表；日程",
+     "en": "timetable, schedule"
+    },
+    "examples": [
+     {
+      "text": "Regarde ton emploi du temps pour demain.",
+      "cloze": "Regarde ton {{emploi du temps}} pour demain.",
+      "translations": {
+       "zh": "看看你明天的课程表。",
+       "en": "Check your timetable for tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "diplôme",
+  "phonetic": "/di.plom/",
+  "cefr": "A2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "diplômes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier officiel qu'on reçoit après des études réussies",
+    "translations": {
+     "zh": "文凭；学位",
+     "en": "diploma, degree"
+    },
+    "examples": [
+     {
+      "text": "Elle a obtenu son diplôme en juin.",
+      "translations": {
+       "zh": "她六月拿到了文凭。",
+       "en": "She got her degree in June."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "note",
+  "phonetic": "/nɔt/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "notes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chiffre qui juge le travail d'un élève",
+    "translations": {
+     "zh": "分数",
+     "en": "mark, grade"
+    },
+    "examples": [
+     {
+      "text": "J'ai eu une bonne note en anglais.",
+      "translations": {
+       "zh": "我英语考了个好分数。",
+       "en": "I got a good mark in English."
+      }
+     }
+    ],
+    "usageNote": "法国常用20分制。也指“笔记”：prendre des notes。"
+   }
+  ]
+ },
+ {
+  "headword": "exercice",
+  "phonetic": "/ɛɡ.zɛʁ.sis/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "exercices"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail pour s'entraîner",
+    "translations": {
+     "zh": "练习；锻炼",
+     "en": "exercise"
+    },
+    "examples": [
+     {
+      "text": "Faites l'exercice numéro trois.",
+      "cloze": "Faites l'{{exercice}} numéro trois.",
+      "translations": {
+       "zh": "做第三题。",
+       "en": "Do exercise number three."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cours",
+  "phonetic": "/kuʁ/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "leçon donnée par un professeur",
+    "translations": {
+     "zh": "课",
+     "en": "class, lesson"
+    },
+    "examples": [
+     {
+      "text": "Le cours de français commence à neuf heures.",
+      "translations": {
+       "zh": "法语课九点开始。",
+       "en": "French class starts at nine."
+      }
+     }
+    ],
+    "usageNote": "复数不变；注意词尾有 s。"
+   }
+  ]
+ },
+ {
+  "headword": "collège",
+  "phonetic": "/kɔ.lɛʒ/",
+  "cefr": "A2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "collèges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "école pour les élèves de 11 à 15 ans",
+    "translations": {
+     "zh": "初中",
+     "en": "secondary school (11–15)"
+    },
+    "examples": [
+     {
+      "text": "Ma fille entre au collège en septembre.",
+      "translations": {
+       "zh": "我女儿九月上初中。",
+       "en": "My daughter starts secondary school in September."
+      }
+     }
+    ],
+    "usageNote": "假朋友：不是“大学”（大学是 université）。"
+   }
+  ]
+ },
+ {
+  "headword": "lycée",
+  "phonetic": "/li.se/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lycées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "école pour les élèves de 15 à 18 ans",
+    "translations": {
+     "zh": "高中",
+     "en": "high school"
+    },
+    "examples": [
+     {
+      "text": "Mon frère est au lycée.",
+      "translations": {
+       "zh": "我弟弟在上高中。",
+       "en": "My brother is in high school."
+      }
+     }
+    ],
+    "usageNote": "以 -ée 结尾却是阳性：le lycée。"
+   }
+  ]
+ },
+ {
+  "headword": "tableau",
+  "phonetic": "/ta.blo/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tableaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande surface au mur de la classe pour écrire",
+    "translations": {
+     "zh": "黑板；白板",
+     "en": "board"
+    },
+    "examples": [
+     {
+      "text": "Le professeur écrit au tableau.",
+      "translations": {
+       "zh": "老师在黑板上写字。",
+       "en": "The teacher writes on the board."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "peinture faite par un artiste",
+    "translations": {
+     "zh": "画；画作",
+     "en": "painting"
+    },
+    "examples": [
+     {
+      "text": "Ce tableau est de Picasso.",
+      "translations": {
+       "zh": "这幅画是毕加索画的。",
+       "en": "This painting is by Picasso."
+      }
+     }
+    ],
+    "usageNote": "也指“表格”。"
+   }
+  ]
+ },
+ {
+  "headword": "cartable",
+  "phonetic": "/kaʁ.tabl/",
+  "cefr": "A2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cartables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sac pour porter les livres à l'école",
+    "translations": {
+     "zh": "书包",
+     "en": "schoolbag"
+    },
+    "examples": [
+     {
+      "text": "Ton cartable est trop lourd.",
+      "translations": {
+       "zh": "你的书包太重了。",
+       "en": "Your schoolbag is too heavy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "trousse",
+  "phonetic": "/tʁus/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "trousses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit sac pour les stylos et les crayons",
+    "translations": {
+     "zh": "笔袋；文具盒",
+     "en": "pencil case"
+    },
+    "examples": [
+     {
+      "text": "J'ai oublié ma trousse à la maison.",
+      "translations": {
+       "zh": "我把笔袋忘在家里了。",
+       "en": "I left my pencil case at home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gomme",
+  "phonetic": "/ɡɔm/",
+  "cefr": "A2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "gommes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit objet pour effacer le crayon",
+    "translations": {
+     "zh": "橡皮",
+     "en": "eraser, rubber"
+    },
+    "examples": [
+     {
+      "text": "Tu peux me prêter ta gomme ?",
+      "translations": {
+       "zh": "能借我你的橡皮吗？",
+       "en": "Can you lend me your eraser?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "règle",
+  "phonetic": "/ʁɛɡl/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "règles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on doit faire ou ne pas faire",
+    "translations": {
+     "zh": "规则",
+     "en": "rule"
+    },
+    "examples": [
+     {
+      "text": "Tu connais les règles du jeu ?",
+      "cloze": "Tu connais les {{règles}} du jeu ?",
+      "translations": {
+       "zh": "你知道游戏规则吗？",
+       "en": "Do you know the rules of the game?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet long et droit pour tracer des lignes",
+    "translations": {
+     "zh": "尺子",
+     "en": "ruler"
+    },
+    "examples": [
+     {
+      "text": "Trace une ligne avec ta règle.",
+      "translations": {
+       "zh": "用尺子画一条线。",
+       "en": "Draw a line with your ruler."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dictionnaire",
+  "phonetic": "/dik.sjɔ.nɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dictionnaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "livre qui explique le sens des mots",
+    "translations": {
+     "zh": "词典",
+     "en": "dictionary"
+    },
+    "examples": [
+     {
+      "text": "Cherche ce mot dans le dictionnaire.",
+      "translations": {
+       "zh": "在词典里查这个词。",
+       "en": "Look this word up in the dictionary."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "grammaire",
+  "phonetic": "/ɡʁa.mɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "grammaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "règles d'une langue",
+    "translations": {
+     "zh": "语法",
+     "en": "grammar"
+    },
+    "examples": [
+     {
+      "text": "La grammaire française est difficile.",
+      "translations": {
+       "zh": "法语语法很难。",
+       "en": "French grammar is difficult."
+      }
+     }
+    ],
+    "usageNote": "以 -aire 结尾却是阴性。"
+   }
+  ]
+ },
+ {
+  "headword": "erreur",
+  "phonetic": "/e.ʁœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "erreurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose fausse ou mal faite",
+    "translations": {
+     "zh": "错误",
+     "en": "mistake, error"
+    },
+    "examples": [
+     {
+      "text": "Il y a une erreur dans ta phrase.",
+      "translations": {
+       "zh": "你的句子里有个错误。",
+       "en": "There's a mistake in your sentence."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rentrée",
+  "phonetic": "/ʁɑ̃.tʁe/",
+  "cefr": "A2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "rentrées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "retour à l'école ou au travail après les vacances",
+    "translations": {
+     "zh": "开学；返工",
+     "en": "back to school"
+    },
+    "examples": [
+     {
+      "text": "La rentrée est en septembre.",
+      "translations": {
+       "zh": "九月开学。",
+       "en": "School starts again in September."
+      }
+     }
+    ],
+    "usageNote": "法国特有说法，指暑假后的“开学季”。"
+   }
+  ]
+ },
+ {
+  "headword": "bac",
+  "phonetic": "/bak/",
+  "cefr": "A2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bacs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "examen à la fin du lycée en France",
+    "translations": {
+     "zh": "高中毕业会考",
+     "en": "baccalaureate (French school-leaving exam)"
+    },
+    "examples": [
+     {
+      "text": "Elle passe le bac cette année.",
+      "translations": {
+       "zh": "她今年参加高中会考。",
+       "en": "She's taking her baccalaureate this year."
+      }
+     }
+    ],
+    "usageNote": "全称 baccalauréat；passer le bac = 参加会考。"
+   }
+  ]
+ },
+ {
+  "headword": "mariage",
+  "phonetic": "/ma.ʁjaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mariages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fête où deux personnes se marient",
+    "translations": {
+     "zh": "婚礼；婚姻",
+     "en": "wedding, marriage"
+    },
+    "examples": [
+     {
+      "text": "Nous sommes invités au mariage de Paul.",
+      "translations": {
+       "zh": "我们被邀请参加保罗的婚礼。",
+       "en": "We're invited to Paul's wedding."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "naissance",
+  "phonetic": "/nɛ.sɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "naissances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moment où un bébé vient au monde",
+    "translations": {
+     "zh": "出生",
+     "en": "birth"
+    },
+    "examples": [
+     {
+      "text": "Quelle est votre date de naissance ?",
+      "translations": {
+       "zh": "您的出生日期是哪天？",
+       "en": "What's your date of birth?"
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,1425 @@
+[
+  {
+    "headword": "gaz à effet de serre",
+    "phonetic": "/ɡaz.a.e.fɛ.də.sɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "gaz à effet de serre"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "gaz qui retient la chaleur dans l'atmosphère",
+        "translations": {
+          "zh": "温室气体",
+          "en": "greenhouse gas"
+        },
+        "examples": [
+          {
+            "text": "Les transports produisent un tiers des gaz à effet de serre.",
+            "cloze": "Les transports produisent un tiers des {{gaz à effet de serre}}.",
+            "translations": {
+              "zh": "交通运输产生了三分之一的温室气体。",
+              "en": "Transport produces a third of greenhouse gases."
+            }
+          }
+        ],
+        "usageNote": "缩写 GES。"
+      }
+    ]
+  },
+  {
+    "headword": "biodiversité",
+    "phonetic": "/bjo.di.vɛʁ.si.te/",
+    "cefr": "C1",
+    "frequencyRank": 9300,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "biodiversités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "variété des espèces vivantes dans un milieu",
+        "translations": {
+          "zh": "生物多样性",
+          "en": "biodiversity"
+        },
+        "examples": [
+          {
+            "text": "La disparition des insectes menace la biodiversité.",
+            "translations": {
+              "zh": "昆虫的消失威胁着生物多样性。",
+              "en": "The disappearance of insects threatens biodiversity."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "kinésithérapeute",
+    "phonetic": "/ki.ne.zi.te.ʁa.pøt/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "kinésithérapeutes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "professionnel qui soigne par le mouvement et le massage",
+        "translations": {
+          "zh": "理疗师；康复师",
+          "en": "physiotherapist"
+        },
+        "examples": [
+          {
+            "text": "Après ma blessure, j'ai vu un kinésithérapeute pendant deux mois.",
+            "translations": {
+              "zh": "受伤后我看了两个月的理疗师。",
+              "en": "After my injury I saw a physiotherapist for two months."
+            }
+          }
+        ],
+        "usageNote": "口语简称 kiné。"
+      }
+    ]
+  },
+  {
+    "headword": "rééducation",
+    "phonetic": "/ʁe.e.dy.ka.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "rééducations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "exercices pour retrouver l'usage d'un membre ou d'une fonction",
+        "translations": {
+          "zh": "康复训练",
+          "en": "rehabilitation, physiotherapy"
+        },
+        "examples": [
+          {
+            "text": "Après l'accident, il a fait six mois de rééducation.",
+            "translations": {
+              "zh": "事故后他做了六个月的康复训练。",
+              "en": "After the accident he did six months of rehab."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "prise de sang",
+    "phonetic": "/pʁiz.də.sɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "prises de sang"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "prélèvement de sang pour l'analyser",
+        "translations": {
+          "zh": "抽血（化验）",
+          "en": "blood test"
+        },
+        "examples": [
+          {
+            "text": "Il faut être à jeun pour la prise de sang.",
+            "cloze": "Il faut être à jeun pour la {{prise de sang}}.",
+            "translations": {
+              "zh": "抽血须空腹。",
+              "en": "You must fast before the blood test."
+            }
+          }
+        ],
+        "usageNote": "à jeun：空腹。"
+      }
+    ]
+  },
+  {
+    "headword": "arrêt maladie",
+    "phonetic": "/a.ʁɛ.ma.la.di/",
+    "cefr": "C1",
+    "frequencyRank": 10800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "arrêts maladie"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "période où un salarié malade ne travaille pas, sur avis médical",
+        "translations": {
+          "zh": "病假",
+          "en": "sick leave"
+        },
+        "examples": [
+          {
+            "text": "Le médecin m'a prescrit une semaine d'arrêt maladie.",
+            "cloze": "Le médecin m'a prescrit une semaine d'{{arrêt maladie}}.",
+            "translations": {
+              "zh": "医生给我开了一周病假。",
+              "en": "The doctor signed me off sick for a week."
+            }
+          }
+        ],
+        "usageNote": "être en arrêt maladie：休病假。"
+      }
+    ]
+  },
+  {
+    "headword": "bloc opératoire",
+    "phonetic": "/blɔk.ɔ.pe.ʁa.twaʁ/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "blocs opératoires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble de salles où l'on fait les opérations chirurgicales",
+        "translations": {
+          "zh": "手术室",
+          "en": "operating theatre"
+        },
+        "examples": [
+          {
+            "text": "Le patient vient d'entrer au bloc opératoire.",
+            "cloze": "Le patient vient d'entrer au {{bloc opératoire}}.",
+            "translations": {
+              "zh": "病人刚刚进了手术室。",
+              "en": "The patient has just gone into the operating theatre."
+            }
+          }
+        ],
+        "usageNote": "口语常简称 le bloc。"
+      }
+    ]
+  },
+  {
+    "headword": "pathologie",
+    "phonetic": "/pa.tɔ.lɔ.ʒi/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "pathologies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "maladie ; étude des maladies",
+        "translations": {
+          "zh": "疾病；病理学",
+          "en": "disease, pathology"
+        },
+        "examples": [
+          {
+            "text": "Ce médecin est spécialiste des pathologies du cœur.",
+            "cloze": "Ce médecin est spécialiste des {{pathologies}} du cœur.",
+            "translations": {
+              "zh": "这位医生是心脏疾病专家。",
+              "en": "This doctor specialises in heart conditions."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "urgentiste",
+    "phonetic": "/yʁ.ʒɑ̃.tist/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "urgentistes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "médecin qui travaille aux urgences",
+        "translations": {
+          "zh": "急诊医生",
+          "en": "emergency doctor"
+        },
+        "examples": [
+          {
+            "text": "Les urgentistes dénoncent la saturation des hôpitaux.",
+            "cloze": "Les {{urgentistes}} dénoncent la saturation des hôpitaux.",
+            "translations": {
+              "zh": "急诊医生抗议医院人满为患。",
+              "en": "Emergency doctors are denouncing overcrowded hospitals."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "chirurgien",
+    "phonetic": "/ʃi.ʁyʁ.ʒjɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "chirurgiens"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "médecin qui fait des opérations",
+        "translations": {
+          "zh": "外科医生",
+          "en": "surgeon"
+        },
+        "examples": [
+          {
+            "text": "Le chirurgien a opéré le genou pendant trois heures.",
+            "translations": {
+              "zh": "外科医生为膝盖做了三小时手术。",
+              "en": "The surgeon operated on the knee for three hours."
+            }
+          }
+        ],
+        "usageNote": "阴性 chirurgienne。chirurgien-dentiste：牙医（正式称呼）。"
+      }
+    ]
+  },
+  {
+    "headword": "éditorial",
+    "phonetic": "/e.di.tɔ.ʁjal/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "éditoriaux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "article qui exprime la position d'un journal",
+        "translations": {
+          "zh": "社论",
+          "en": "editorial"
+        },
+        "examples": [
+          {
+            "text": "L'éditorial du Monde critique sévèrement le projet de loi.",
+            "cloze": "L'{{éditorial}} du Monde critique sévèrement le projet de loi.",
+            "translations": {
+              "zh": "《世界报》的社论严厉批评了这项法案。",
+              "en": "Le Monde's editorial sharply criticises the bill."
+            }
+          }
+        ],
+        "usageNote": "口语简称 édito。"
+      }
+    ]
+  },
+  {
+    "headword": "chroniqueur",
+    "phonetic": "/kʁɔ.ni.kœʁ/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "chroniqueurs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "journaliste qui tient une rubrique régulière",
+        "translations": {
+          "zh": "专栏作者；评论员",
+          "en": "columnist, commentator"
+        },
+        "examples": [
+          {
+            "text": "Ce chroniqueur intervient chaque matin à la radio.",
+            "translations": {
+              "zh": "这位评论员每天早上在电台发表评论。",
+              "en": "This commentator is on the radio every morning."
+            }
+          }
+        ],
+        "usageNote": "阴性 chroniqueuse。"
+      }
+    ]
+  },
+  {
+    "headword": "pigiste",
+    "phonetic": "/pi.ʒist/",
+    "cefr": "C1",
+    "frequencyRank": 17500,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "pigistes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "journaliste payé à l'article, sans contrat fixe",
+        "translations": {
+          "zh": "自由撰稿记者",
+          "en": "freelance journalist"
+        },
+        "examples": [
+          {
+            "text": "Elle travaille comme pigiste pour plusieurs magazines.",
+            "translations": {
+              "zh": "她为几家杂志做自由撰稿人。",
+              "en": "She works freelance for several magazines."
+            }
+          }
+        ],
+        "usageNote": "按稿计酬叫 à la pige。"
+      }
+    ]
+  },
+  {
+    "headword": "rédaction",
+    "phonetic": "/ʁe.dak.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "rédactions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "action d'écrire un texte ; ensemble des journalistes d'un média",
+        "translations": {
+          "zh": "撰写；编辑部",
+          "en": "writing; newsroom, editorial staff"
+        },
+        "examples": [
+          {
+            "text": "Toute la rédaction s'est mise en grève.",
+            "translations": {
+              "zh": "整个编辑部都罢工了。",
+              "en": "The whole newsroom went on strike."
+            }
+          }
+        ],
+        "usageNote": "学校里 rédaction 也指“作文”。"
+      }
+    ]
+  },
+  {
+    "headword": "rédacteur en chef",
+    "phonetic": "/ʁe.dak.tœʁ.ɑ̃.ʃɛf/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "rédacteurs en chef"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "journaliste qui dirige la rédaction",
+        "translations": {
+          "zh": "主编；总编辑",
+          "en": "editor-in-chief"
+        },
+        "examples": [
+          {
+            "text": "Le rédacteur en chef a refusé de publier l'article.",
+            "cloze": "Le {{rédacteur en chef}} a refusé de publier l'article.",
+            "translations": {
+              "zh": "主编拒绝发表这篇文章。",
+              "en": "The editor-in-chief refused to publish the article."
+            }
+          }
+        ],
+        "usageNote": "阴性 rédactrice en chef。"
+      }
+    ]
+  },
+  {
+    "headword": "à la une",
+    "phonetic": "/a.la.yn/",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "en première page d'un journal ; dans l'actualité principale",
+        "translations": {
+          "zh": "上头版；成为头条",
+          "en": "on the front page"
+        },
+        "examples": [
+          {
+            "text": "Le scandale est à la une de tous les journaux.",
+            "cloze": "Le scandale est {{à la une}} de tous les journaux.",
+            "translations": {
+              "zh": "这桩丑闻登上了所有报纸的头版。",
+              "en": "The scandal is on the front page of every newspaper."
+            }
+          }
+        ],
+        "usageNote": "faire la une：上头条。"
+      }
+    ]
+  },
+  {
+    "headword": "dépêche",
+    "phonetic": "/de.pɛʃ/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "dépêches"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "information courte transmise par une agence de presse",
+        "translations": {
+          "zh": "电讯；快讯",
+          "en": "dispatch, news wire"
+        },
+        "examples": [
+          {
+            "text": "Selon une dépêche de l'AFP, le ministre aurait démissionné.",
+            "translations": {
+              "zh": "据法新社电讯，部长可能已辞职。",
+              "en": "According to an AFP dispatch, the minister has reportedly resigned."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "démenti",
+    "phonetic": "/de.mɑ̃.ti/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "démentis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "déclaration qui affirme qu'une information est fausse",
+        "translations": {
+          "zh": "辟谣；否认声明",
+          "en": "denial"
+        },
+        "examples": [
+          {
+            "text": "L'Élysée a publié un démenti formel.",
+            "translations": {
+              "zh": "爱丽舍宫发表了正式否认声明。",
+              "en": "The Élysée issued a formal denial."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "démentir",
+    "phonetic": "/de.mɑ̃.tiʁ/",
+    "cefr": "C1",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 mentir）：je démens, nous démentons；过去分词 démenti"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "affirmer qu'une information est fausse",
+        "translations": {
+          "zh": "否认；辟谣",
+          "en": "to deny, to refute"
+        },
+        "examples": [
+          {
+            "text": "Le porte-parole a démenti ces rumeurs.",
+            "cloze": "Le porte-parole a {{démenti}} ces rumeurs.",
+            "translations": {
+              "zh": "发言人否认了这些传闻。",
+              "en": "The spokesman denied these rumours."
+            }
+          }
+        ],
+        "usageNote": "ne pas se démentir：始终如一。"
+      }
+    ]
+  },
+  {
+    "headword": "désinformation",
+    "phonetic": "/de.zɛ̃.fɔʁ.ma.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "désinformations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "diffusion volontaire d'informations fausses",
+        "translations": {
+          "zh": "虚假信息；造谣",
+          "en": "disinformation"
+        },
+        "examples": [
+          {
+            "text": "Les réseaux sociaux sont accusés de favoriser la désinformation.",
+            "translations": {
+              "zh": "社交网络被指助长虚假信息传播。",
+              "en": "Social networks are accused of fostering disinformation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "infox",
+    "phonetic": "/ɛ̃.fɔks/",
+    "cefr": "C1",
+    "frequencyRank": 18000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "infox"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fausse information diffusée pour tromper",
+        "translations": {
+          "zh": "假新闻",
+          "en": "fake news"
+        },
+        "examples": [
+          {
+            "text": "Méfiez-vous des infox qui circulent sur internet.",
+            "translations": {
+              "zh": "小心网上流传的假新闻。",
+              "en": "Beware of the fake news circulating online."
+            }
+          }
+        ],
+        "usageNote": "官方推荐用来替代英语 fake news 的新词（info + intox）。"
+      }
+    ]
+  },
+  {
+    "headword": "audimat",
+    "phonetic": "/o.di.mat/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "audimats"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "mesure du nombre de téléspectateurs ; audience",
+        "translations": {
+          "zh": "收视率",
+          "en": "ratings"
+        },
+        "examples": [
+          {
+            "text": "Cette émission fait exploser l'audimat.",
+            "cloze": "Cette émission fait exploser l'{{audimat}}.",
+            "translations": {
+              "zh": "这个节目收视率暴涨。",
+              "en": "This show is sending the ratings through the roof."
+            }
+          }
+        ],
+        "usageNote": "原为商标名，现泛指收视率。"
+      }
+    ]
+  },
+  {
+    "headword": "tribune",
+    "phonetic": "/tʁi.byn/",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "tribunes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "texte d'opinion publié dans un journal ; estrade",
+        "translations": {
+          "zh": "评论文章；讲台；看台",
+          "en": "op-ed; platform; stand"
+        },
+        "examples": [
+          {
+            "text": "Cent scientifiques signent une tribune dans Libération.",
+            "translations": {
+              "zh": "百名科学家在《解放报》联署发表了一篇评论文章。",
+              "en": "A hundred scientists sign an op-ed in Libération."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "polémique",
+    "phonetic": "/pɔ.le.mik/",
+    "cefr": "C1",
+    "frequencyRank": 7100,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "polémiques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "débat vif et souvent agressif",
+        "translations": {
+          "zh": "论战；争议",
+          "en": "controversy, row"
+        },
+        "examples": [
+          {
+            "text": "Ses propos ont déclenché une vive polémique.",
+            "translations": {
+              "zh": "他的言论引发了激烈争议。",
+              "en": "His remarks sparked a heated controversy."
+            }
+          }
+        ],
+        "usageNote": "也作形容词：un ton polémique（论战口吻）。"
+      }
+    ]
+  },
+  {
+    "headword": "interpeller",
+    "phonetic": "/ɛ̃.tɛʁ.pə.le/",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：j'interpelle, nous interpellons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "adresser vivement la parole à quelqu'un pour lui demander des comptes ; arrêter (police)",
+        "translations": {
+          "zh": "质问；（警察）盘问，逮捕",
+          "en": "to call on, to challenge; to detain"
+        },
+        "examples": [
+          {
+            "text": "Une députée a interpellé le ministre sur la crise du logement.",
+            "cloze": "Une députée a {{interpellé}} le ministre sur la crise du logement.",
+            "translations": {
+              "zh": "一名女议员就住房危机质询了部长。",
+              "en": "An MP challenged the minister on the housing crisis."
+            }
+          }
+        ],
+        "usageNote": "ça m'interpelle：这引起我的注意 / 触动我。"
+      }
+    ]
+  },
+  {
+    "headword": "rétorquer",
+    "phonetic": "/ʁe.tɔʁ.ke/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "répondre vivement en s'opposant",
+        "translations": {
+          "zh": "反驳；回敬",
+          "en": "to retort"
+        },
+        "examples": [
+          {
+            "text": "« C'est faux », a rétorqué le candidat.",
+            "cloze": "« C'est faux », a {{rétorqué}} le candidat.",
+            "translations": {
+              "zh": "“这不是真的。”候选人反驳道。",
+              "en": "\"That's untrue,\" the candidate retorted."
+            }
+          }
+        ],
+        "usageNote": "多用于引语之后。"
+      }
+    ]
+  },
+  {
+    "headword": "censure",
+    "phonetic": "/sɑ̃.syʁ/",
+    "cefr": "C1",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "censures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "contrôle qui interdit la diffusion de certains contenus",
+        "translations": {
+          "zh": "审查（制度）",
+          "en": "censorship"
+        },
+        "examples": [
+          {
+            "text": "Le film a échappé de justesse à la censure.",
+            "translations": {
+              "zh": "这部电影险些未能通过审查。",
+              "en": "The film narrowly escaped the censor."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "liberté de la presse",
+    "phonetic": "/li.bɛʁ.te.də.la.pʁɛs/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "liberté de la presses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "droit des médias d'informer sans contrôle de l'État",
+        "translations": {
+          "zh": "新闻自由",
+          "en": "freedom of the press"
+        },
+        "examples": [
+          {
+            "text": "La liberté de la presse est garantie par la loi de 1881.",
+            "cloze": "La {{liberté de la presse}} est garantie par la loi de 1881.",
+            "translations": {
+              "zh": "新闻自由受1881年法律保障。",
+              "en": "Press freedom is guaranteed by the 1881 law."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "lanceur d'alerte",
+    "phonetic": "/lɑ̃.sœʁ.da.lɛʁt/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "lanceurs d'alerte"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui révèle publiquement des faits graves ou illégaux",
+        "translations": {
+          "zh": "吹哨人；揭发者",
+          "en": "whistleblower"
+        },
+        "examples": [
+          {
+            "text": "La loi protège désormais les lanceurs d'alerte.",
+            "cloze": "La loi protège désormais les {{lanceurs d'alerte}}.",
+            "translations": {
+              "zh": "法律如今保护吹哨人。",
+              "en": "The law now protects whistleblowers."
+            }
+          }
+        ],
+        "usageNote": "阴性 lanceuse d'alerte。"
+      }
+    ]
+  },
+  {
+    "headword": "relayer",
+    "phonetic": "/ʁə.le.je/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "conjugation": "变化：je relaie / relaye, nous relayons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "transmettre une information plus loin ; remplacer quelqu'un",
+        "translations": {
+          "zh": "转发；转播；接替",
+          "en": "to relay, to pass on; to take over from"
+        },
+        "examples": [
+          {
+            "text": "Plusieurs médias ont relayé cette fausse information.",
+            "cloze": "Plusieurs médias ont {{relayé}} cette fausse information.",
+            "translations": {
+              "zh": "多家媒体转发了这条假消息。",
+              "en": "Several media outlets passed on this false information."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tollé",
+    "phonetic": "/tɔ.le/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "tollés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "protestation générale et indignée",
+        "translations": {
+          "zh": "一片抗议；群情激愤",
+          "en": "outcry"
+        },
+        "examples": [
+          {
+            "text": "Cette décision a provoqué un tollé général.",
+            "translations": {
+              "zh": "这一决定引发了一片抗议声。",
+              "en": "This decision caused a general outcry."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "droit de réponse",
+    "phonetic": "/dʁwa.də.ʁe.pɔ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "droits de réponse"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "droit d'une personne mise en cause de faire publier sa réponse",
+        "translations": {
+          "zh": "答辩权；回应权",
+          "en": "right of reply"
+        },
+        "examples": [
+          {
+            "text": "Le maire a exigé un droit de réponse dans le journal.",
+            "cloze": "Le maire a exigé un {{droit de réponse}} dans le journal.",
+            "translations": {
+              "zh": "市长要求在报上行使答辩权。",
+              "en": "The mayor demanded a right of reply in the newspaper."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "couverture médiatique",
+    "phonetic": "/ku.vɛʁ.tyʁ.me.dja.tik/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "couverture médiatiques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "place que les médias accordent à un événement",
+        "translations": {
+          "zh": "媒体报道（力度）",
+          "en": "media coverage"
+        },
+        "examples": [
+          {
+            "text": "Le procès bénéficie d'une couverture médiatique exceptionnelle.",
+            "cloze": "Le procès bénéficie d'une {{couverture médiatique}} exceptionnelle.",
+            "translations": {
+              "zh": "这场审判获得了空前的媒体关注。",
+              "en": "The trial is getting exceptional media coverage."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tergiverser",
+    "phonetic": "/tɛʁ.ʒi.vɛʁ.se/",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "hésiter, chercher des détours pour éviter de décider",
+        "translations": {
+          "zh": "支吾搪塞；拖延不决",
+          "en": "to procrastinate, to beat about the bush"
+        },
+        "examples": [
+          {
+            "text": "Arrêtez de tergiverser et donnez-nous une réponse claire.",
+            "translations": {
+              "zh": "别再支吾搪塞了，给我们一个明确的答复。",
+              "en": "Stop dithering and give us a clear answer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "surenchère",
+    "phonetic": "/sy.ʁɑ̃.ʃɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "surenchères"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "offre plus élevée ; fait d'aller toujours plus loin pour l'emporter",
+        "translations": {
+          "zh": "加价竞争；（言辞等）层层加码",
+          "en": "outbidding; one-upmanship"
+        },
+        "examples": [
+          {
+            "text": "Les candidats se livrent à une surenchère de promesses.",
+            "translations": {
+              "zh": "候选人们竞相开出越来越高的承诺。",
+              "en": "The candidates are trying to outbid each other with promises."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "langue de vipère",
+    "phonetic": "/lɑ̃ɡ.də.vi.pɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 17500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "langues de vipère"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui dit du mal des autres ; médisance",
+        "translations": {
+          "zh": "毒舌；长舌妇",
+          "en": "backbiter, poisonous tongue"
+        },
+        "examples": [
+          {
+            "text": "Ne l'écoute pas, c'est une vraie langue de vipère.",
+            "cloze": "Ne l'écoute pas, c'est une vraie {{langue de vipère}}.",
+            "translations": {
+              "zh": "别听她的，她就是个毒舌。",
+              "en": "Don't listen to her, she has a poisonous tongue."
+            }
+          }
+        ],
+        "usageNote": "字面意思“毒蛇的舌头”。"
+      }
+    ]
+  },
+  {
+    "headword": "porte-à-faux",
+    "phonetic": "/pɔʁ.ta.fo/",
+    "cefr": "C1",
+    "frequencyRank": 18000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "不变"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "situation instable, délicate ; contradiction",
+        "translations": {
+          "zh": "不稳；处境尴尬",
+          "en": "awkward position"
+        },
+        "examples": [
+          {
+            "text": "Cette déclaration met le gouvernement en porte-à-faux.",
+            "cloze": "Cette déclaration met le gouvernement en {{porte-à-faux}}.",
+            "translations": {
+              "zh": "这番声明让政府处境尴尬。",
+              "en": "This statement puts the government in an awkward position."
+            }
+          }
+        ],
+        "usageNote": "常用 être / mettre en porte-à-faux。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir du pain sur la planche",
+    "phonetic": "/a.vwaʁ.dy.pɛ̃.syʁ.la.plɑ̃ʃ/",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "avoir beaucoup de travail à faire",
+        "translations": {
+          "zh": "有很多活要干；任重道远",
+          "en": "to have a lot on one's plate"
+        },
+        "examples": [
+          {
+            "text": "Avec ce nouveau projet, on a du pain sur la planche.",
+            "cloze": "Avec ce nouveau projet, on {{a du pain sur la planche}}.",
+            "translations": {
+              "zh": "接了这个新项目，我们有的忙了。",
+              "en": "With this new project, we've got our work cut out."
+            }
+          }
+        ],
+        "usageNote": "字面意思“案板上有面包（要做）”。口语常用。"
+      }
+    ]
+  },
+  {
+    "headword": "tomber dans les pommes",
+    "phonetic": "/tɔ̃.be.dɑ̃.le.pɔm/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "s'évanouir",
+        "translations": {
+          "zh": "晕倒；昏过去",
+          "en": "to faint, to pass out"
+        },
+        "examples": [
+          {
+            "text": "Il faisait si chaud qu'elle est tombée dans les pommes.",
+            "cloze": "Il faisait si chaud qu'elle {{est tombée dans les pommes}}.",
+            "translations": {
+              "zh": "天太热了，她晕了过去。",
+              "en": "It was so hot that she passed out."
+            }
+          }
+        ],
+        "usageNote": "字面意思“掉进苹果里”。口语。"
+      }
+    ]
+  },
+  {
+    "headword": "coûter les yeux de la tête",
+    "phonetic": "/ku.te.le.zjø.də.la.tɛt/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "coûter extrêmement cher",
+        "translations": {
+          "zh": "贵得要命；价格高昂",
+          "en": "to cost an arm and a leg"
+        },
+        "examples": [
+          {
+            "text": "Ce sac de marque coûte les yeux de la tête.",
+            "cloze": "Ce sac de marque {{coûte les yeux de la tête}}.",
+            "translations": {
+              "zh": "这个名牌包贵得离谱。",
+              "en": "This designer bag costs an arm and a leg."
+            }
+          }
+        ],
+        "usageNote": "字面意思“值得上脑袋上的两只眼睛”。"
+      }
+    ]
+  },
+  {
+    "headword": "mettre les points sur les i",
+    "phonetic": "/mɛtʁ.le.pwɛ̃.syʁ.le.zi/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "s'expliquer clairement pour éviter tout malentendu",
+        "translations": {
+          "zh": "把话挑明；说清楚",
+          "en": "to spell it out, to dot the i's"
+        },
+        "examples": [
+          {
+            "text": "Je vais mettre les points sur les i : personne ne part avant 18 heures.",
+            "cloze": "Je vais {{mettre les points sur les i}} : personne ne part avant 18 heures.",
+            "translations": {
+              "zh": "我把话说明白：18点前谁也不许走。",
+              "en": "Let me spell it out: nobody leaves before 6 p.m."
+            }
+          }
+        ],
+        "usageNote": "字面意思“给 i 加上点”，常带警告、不满的语气。"
+      }
+    ]
+  },
+  {
+    "headword": "poser un lapin",
+    "phonetic": "/po.ze.œ̃.la.pɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ne pas venir à un rendez-vous",
+        "translations": {
+          "zh": "放鸽子；爽约",
+          "en": "to stand someone up"
+        },
+        "examples": [
+          {
+            "text": "Il m'a posé un lapin hier soir.",
+            "cloze": "Il m'a {{posé un lapin}} hier soir.",
+            "translations": {
+              "zh": "他昨晚放了我鸽子。",
+              "en": "He stood me up last night."
+            }
+          }
+        ],
+        "usageNote": "字面意思“放一只兔子”。口语：poser un lapin à qqn。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir le cafard",
+    "phonetic": "/a.vwaʁ.lə.ka.faʁ/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être triste, déprimé",
+        "translations": {
+          "zh": "心情低落；闷闷不乐",
+          "en": "to feel down, to have the blues"
+        },
+        "examples": [
+          {
+            "text": "Le dimanche soir, j'ai souvent le cafard.",
+            "cloze": "Le dimanche soir, j'{{ai souvent le cafard}}.",
+            "translations": {
+              "zh": "周日晚上我常常心情低落。",
+              "en": "On Sunday evenings I often feel down."
+            }
+          }
+        ],
+        "usageNote": "cafard 原意“蟑螂”。口语。"
+      }
+    ]
+  },
+  {
+    "headword": "casser les pieds",
+    "phonetic": "/ka.se.le.pje/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ennuyer, agacer quelqu'un",
+        "translations": {
+          "zh": "烦人；让人厌烦",
+          "en": "to get on someone's nerves"
+        },
+        "examples": [
+          {
+            "text": "Arrête de me casser les pieds avec tes histoires !",
+            "cloze": "Arrête de me {{casser les pieds}} avec tes histoires !",
+            "translations": {
+              "zh": "别再拿你那些事烦我了！",
+              "en": "Stop bugging me with your stories!"
+            }
+          }
+        ],
+        "usageNote": "字面意思“打断脚”。口语：casse-pieds（讨厌鬼）。"
+      }
+    ]
+  },
+  {
+    "headword": "donner sa langue au chat",
+    "phonetic": "/dɔ.ne.sa.lɑ̃ɡ.o.ʃa/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "renoncer à deviner une réponse",
+        "translations": {
+          "zh": "（猜不出）认输，告诉我答案吧",
+          "en": "to give up guessing"
+        },
+        "examples": [
+          {
+            "text": "Je ne trouve pas, je donne ma langue au chat.",
+            "cloze": "Je ne trouve pas, je {{donne ma langue au chat}}.",
+            "translations": {
+              "zh": "我猜不出来，认输了。",
+              "en": "I can't get it, I give up."
+            }
+          }
+        ],
+        "usageNote": "字面意思“把舌头交给猫”。"
+      }
+    ]
+  },
+  {
+    "headword": "se serrer la ceinture",
+    "phonetic": "/sə.se.ʁe.la.sɛ̃.tyʁ/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "faire des économies, se priver",
+        "translations": {
+          "zh": "勒紧裤腰带；节衣缩食",
+          "en": "to tighten one's belt"
+        },
+        "examples": [
+          {
+            "text": "Avec la crise, beaucoup de familles doivent se serrer la ceinture.",
+            "cloze": "Avec la crise, beaucoup de familles doivent {{se serrer la ceinture}}.",
+            "translations": {
+              "zh": "危机之下，很多家庭不得不勒紧裤腰带。",
+              "en": "With the crisis, many families have to tighten their belts."
+            }
+          }
+        ],
+        "usageNote": "与汉语“勒紧裤腰带”几乎完全对应。"
+      }
+    ]
+  },
+  {
+    "headword": "tirer les vers du nez",
+    "phonetic": "/ti.ʁe.le.vɛʁ.dy.ne/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "faire parler quelqu'un pour obtenir une information",
+        "translations": {
+          "zh": "套话；旁敲侧击地打听",
+          "en": "to worm information out of someone"
+        },
+        "examples": [
+          {
+            "text": "Elle a essayé de me tirer les vers du nez, mais je n'ai rien dit.",
+            "cloze": "Elle a essayé de me {{tirer les vers du nez}}, mais je n'ai rien dit.",
+            "translations": {
+              "zh": "她想套我的话，但我什么也没说。",
+              "en": "She tried to worm it out of me, but I said nothing."
+            }
+          }
+        ],
+        "usageNote": "字面意思“从鼻子里拉出虫子”。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir un poil dans la main",
+    "phonetic": "/a.vwaʁ.œ̃.pwal.dɑ̃.la.mɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être très paresseux",
+        "translations": {
+          "zh": "懒得出奇；好吃懒做",
+          "en": "to be bone idle"
+        },
+        "examples": [
+          {
+            "text": "Ton frère n'a jamais rien fait, il a un poil dans la main.",
+            "cloze": "Ton frère n'a jamais rien fait, il {{a un poil dans la main}}.",
+            "translations": {
+              "zh": "你弟弟从来什么都不干，懒到家了。",
+              "en": "Your brother never does anything, he's bone idle."
+            }
+          }
+        ],
+        "usageNote": "字面意思“手心长毛”（因从不干活）。口语，带贬义。"
+      }
+    ]
+  },
+  {
+    "headword": "couper la poire en deux",
+    "phonetic": "/ku.pe.la.pwaʁ.ɑ̃.dø/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "faire un compromis où chacun cède la moitié",
+        "translations": {
+          "zh": "各让一步；折中",
+          "en": "to split the difference"
+        },
+        "examples": [
+          {
+            "text": "Vous demandez 800 euros, j'en offre 600 : coupons la poire en deux.",
+            "cloze": "Vous demandez 800 euros, j'en offre 600 : {{coupons la poire en deux}}.",
+            "translations": {
+              "zh": "您要800欧，我出600，咱们各让一步吧。",
+              "en": "You're asking 800 euros, I'm offering 600: let's split the difference."
+            }
+          }
+        ],
+        "usageNote": "字面意思“把梨切成两半”。"
+      }
+    ]
+  }
+]

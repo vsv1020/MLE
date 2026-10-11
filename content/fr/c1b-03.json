@@ -1,0 +1,1458 @@
+[
+  {
+    "headword": "circonscription",
+    "phonetic": "/siʁ.kɔ̃s.kʁip.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "circonscriptions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "division du territoire pour une élection",
+        "translations": {
+          "zh": "选区",
+          "en": "constituency"
+        },
+        "examples": [
+          {
+            "text": "Elle est députée de la deuxième circonscription de Paris.",
+            "translations": {
+              "zh": "她是巴黎第二选区的议员。",
+              "en": "She is the MP for Paris's second constituency."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "abstention",
+    "phonetic": "/ap.stɑ̃.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 8900,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "abstentions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de ne pas voter",
+        "translations": {
+          "zh": "弃权；不投票",
+          "en": "abstention"
+        },
+        "examples": [
+          {
+            "text": "L'abstention a atteint un niveau record.",
+            "cloze": "L'{{abstention}} a atteint un niveau record.",
+            "translations": {
+              "zh": "弃权率创下纪录。",
+              "en": "Abstention reached a record level."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "référendum",
+    "phonetic": "/ʁe.fe.ʁɛ̃.dɔm/",
+    "cefr": "C1",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "référendums"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "vote où les citoyens répondent par oui ou non à une question",
+        "translations": {
+          "zh": "全民公投",
+          "en": "referendum"
+        },
+        "examples": [
+          {
+            "text": "Le gouvernement envisage un référendum sur la réforme.",
+            "translations": {
+              "zh": "政府考虑就这项改革举行全民公投。",
+              "en": "The government is considering a referendum on the reform."
+            }
+          }
+        ],
+        "usageNote": "-um 读 /ɔm/。"
+      }
+    ]
+  },
+  {
+    "headword": "sommet",
+    "phonetic": "/sɔ.mɛ/",
+    "cefr": "C1",
+    "frequencyRank": 5100,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "sommets"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "point le plus haut ; réunion de chefs d'État",
+        "translations": {
+          "zh": "山顶；顶峰；峰会",
+          "en": "summit, top"
+        },
+        "examples": [
+          {
+            "text": "Le sommet du G20 se tient cette année en Inde.",
+            "translations": {
+              "zh": "今年的G20峰会在印度举行。",
+              "en": "This year's G20 summit is being held in India."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "traité",
+    "phonetic": "/tʁe.te/",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "traités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "accord écrit entre États",
+        "translations": {
+          "zh": "条约",
+          "en": "treaty"
+        },
+        "examples": [
+          {
+            "text": "Le traité de paix a été signé à Versailles.",
+            "translations": {
+              "zh": "和约在凡尔赛签署。",
+              "en": "The peace treaty was signed at Versailles."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ratifier",
+    "phonetic": "/ʁa.ti.fje/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "approuver officiellement un traité ou une décision",
+        "translations": {
+          "zh": "批准（条约）",
+          "en": "to ratify"
+        },
+        "examples": [
+          {
+            "text": "Le Parlement doit encore ratifier l'accord.",
+            "translations": {
+              "zh": "议会尚需批准该协议。",
+              "en": "Parliament still has to ratify the agreement."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sanction",
+    "phonetic": "/sɑ̃k.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "sanctions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "punition ; mesure prise contre un État",
+        "translations": {
+          "zh": "制裁；处罚",
+          "en": "sanction, penalty"
+        },
+        "examples": [
+          {
+            "text": "L'Union européenne a adopté de nouvelles sanctions économiques.",
+            "cloze": "L'Union européenne a adopté de nouvelles {{sanctions}} économiques.",
+            "translations": {
+              "zh": "欧盟通过了新的经济制裁。",
+              "en": "The EU adopted new economic sanctions."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cessez-le-feu",
+    "phonetic": "/se.se.lə.fø/",
+    "cefr": "C1",
+    "frequencyRank": 10800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "不变"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "arrêt des combats décidé par les parties en guerre",
+        "translations": {
+          "zh": "停火",
+          "en": "ceasefire"
+        },
+        "examples": [
+          {
+            "text": "Un cessez-le-feu fragile est entré en vigueur à minuit.",
+            "cloze": "Un {{cessez-le-feu}} fragile est entré en vigueur à minuit.",
+            "translations": {
+              "zh": "脆弱的停火协议于午夜生效。",
+              "en": "A fragile ceasefire came into force at midnight."
+            }
+          }
+        ],
+        "usageNote": "复数不变：des cessez-le-feu。"
+      }
+    ]
+  },
+  {
+    "headword": "pourparlers",
+    "phonetic": "/puʁ.paʁ.le/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "只用复数"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "discussions préparant un accord",
+        "translations": {
+          "zh": "会谈；谈判",
+          "en": "talks, negotiations"
+        },
+        "examples": [
+          {
+            "text": "Les pourparlers de paix reprendront à Genève.",
+            "translations": {
+              "zh": "和平谈判将在日内瓦恢复。",
+              "en": "Peace talks will resume in Geneva."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ingérence",
+    "phonetic": "/ɛ̃.ʒe.ʁɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "ingérences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait d'intervenir dans les affaires d'un autre pays",
+        "translations": {
+          "zh": "干涉；干预",
+          "en": "interference"
+        },
+        "examples": [
+          {
+            "text": "Pékin dénonce toute ingérence dans ses affaires intérieures.",
+            "translations": {
+              "zh": "北京谴责任何对其内政的干涉。",
+              "en": "Beijing condemns any interference in its internal affairs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "souveraineté",
+    "phonetic": "/su.vʁɛn.te/",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "souverainetés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "pouvoir suprême d'un État indépendant",
+        "translations": {
+          "zh": "主权",
+          "en": "sovereignty"
+        },
+        "examples": [
+          {
+            "text": "Le pays défend farouchement sa souveraineté.",
+            "translations": {
+              "zh": "这个国家坚决捍卫自己的主权。",
+              "en": "The country fiercely defends its sovereignty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bilatéral",
+    "phonetic": "/bi.la.te.ʁal/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "irregularForms": "阴性 bilatérale；复数 bilatéraux, bilatérales"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui concerne deux parties",
+        "translations": {
+          "zh": "双边的",
+          "en": "bilateral"
+        },
+        "examples": [
+          {
+            "text": "Les deux pays ont signé un accord bilatéral.",
+            "translations": {
+              "zh": "两国签署了一项双边协议。",
+              "en": "The two countries signed a bilateral agreement."
+            }
+          }
+        ],
+        "usageNote": "multilatéral：多边的。"
+      }
+    ]
+  },
+  {
+    "headword": "ressortissant",
+    "phonetic": "/ʁə.sɔʁ.ti.sɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "ressortissants"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui a la nationalité d'un pays, vue depuis l'étranger",
+        "translations": {
+          "zh": "侨民；（某国）公民",
+          "en": "national (of a country)"
+        },
+        "examples": [
+          {
+            "text": "Le consulat conseille aux ressortissants français de quitter le pays.",
+            "cloze": "Le consulat conseille aux {{ressortissants}} français de quitter le pays.",
+            "translations": {
+              "zh": "领事馆建议法国侨民离开该国。",
+              "en": "The consulate advises French nationals to leave the country."
+            }
+          }
+        ],
+        "usageNote": "阴性 ressortissante。"
+      }
+    ]
+  },
+  {
+    "headword": "asile",
+    "phonetic": "/a.zil/",
+    "cefr": "C1",
+    "frequencyRank": 7500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "asiles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "protection accordée par un État à un réfugié",
+        "translations": {
+          "zh": "庇护；避难",
+          "en": "asylum"
+        },
+        "examples": [
+          {
+            "text": "Il a demandé l'asile politique en France.",
+            "cloze": "Il a demandé l'{{asile}} politique en France.",
+            "translations": {
+              "zh": "他在法国申请了政治庇护。",
+              "en": "He applied for political asylum in France."
+            }
+          }
+        ],
+        "usageNote": "demandeur d'asile：寻求庇护者。"
+      }
+    ]
+  },
+  {
+    "headword": "porte-parole",
+    "phonetic": "/pɔʁt.pa.ʁɔl/",
+    "cefr": "C1",
+    "frequencyRank": 7200,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "不变"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui parle au nom d'un groupe ou d'un gouvernement",
+        "translations": {
+          "zh": "发言人",
+          "en": "spokesperson"
+        },
+        "examples": [
+          {
+            "text": "La porte-parole du gouvernement a refusé de commenter.",
+            "cloze": "La {{porte-parole}} du gouvernement a refusé de commenter.",
+            "translations": {
+              "zh": "政府女发言人拒绝发表评论。",
+              "en": "The government spokeswoman declined to comment."
+            }
+          }
+        ],
+        "usageNote": "阴阳同形，复数不变。"
+      }
+    ]
+  },
+  {
+    "headword": "hémicycle",
+    "phonetic": "/e.mi.sikl/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "hémicycles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "salle en demi-cercle de l'Assemblée nationale ; l'Assemblée elle-même",
+        "translations": {
+          "zh": "半圆形会议厅；（法国）国民议会",
+          "en": "chamber (of parliament)"
+        },
+        "examples": [
+          {
+            "text": "Le texte a été adopté dans un hémicycle presque vide.",
+            "translations": {
+              "zh": "该法案在几乎空荡荡的议会厅里获得通过。",
+              "en": "The bill was passed in an almost empty chamber."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "député",
+    "phonetic": "/de.py.te/",
+    "cefr": "C1",
+    "frequencyRank": 4800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "députés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "membre élu de l'Assemblée nationale",
+        "translations": {
+          "zh": "（国民议会）议员",
+          "en": "member of parliament"
+        },
+        "examples": [
+          {
+            "text": "Les députés ont voté le budget dans la nuit.",
+            "cloze": "Les {{députés}} ont voté le budget dans la nuit.",
+            "translations": {
+              "zh": "议员们连夜表决通过了预算。",
+              "en": "MPs passed the budget overnight."
+            }
+          }
+        ],
+        "usageNote": "阴性 députée。"
+      }
+    ]
+  },
+  {
+    "headword": "militant",
+    "phonetic": "/mi.li.tɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 6300,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "militants"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui agit activement pour une cause ou un parti",
+        "translations": {
+          "zh": "积极分子；活动人士",
+          "en": "activist"
+        },
+        "examples": [
+          {
+            "text": "Des militants écologistes ont bloqué l'entrée du site.",
+            "cloze": "Des {{militants}} écologistes ont bloqué l'entrée du site.",
+            "translations": {
+              "zh": "环保活动人士堵住了场地入口。",
+              "en": "Environmental activists blocked the site entrance."
+            }
+          }
+        ],
+        "usageNote": "阴性 militante；也作形容词。"
+      }
+    ]
+  },
+  {
+    "headword": "groupe de pression",
+    "phonetic": "/ɡʁup.də.pʁe.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "groupes de pression"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "organisation qui cherche à influencer les décisions politiques",
+        "translations": {
+          "zh": "游说团体；压力集团",
+          "en": "lobby, pressure group"
+        },
+        "examples": [
+          {
+            "text": "Les groupes de pression agricoles sont très puissants à Bruxelles.",
+            "cloze": "Les {{groupes de pression}} agricoles sont très puissants à Bruxelles.",
+            "translations": {
+              "zh": "农业游说团体在布鲁塞尔势力很大。",
+              "en": "Farm lobbies are very powerful in Brussels."
+            }
+          }
+        ],
+        "usageNote": "英语借词 lobby 也很常用。"
+      }
+    ]
+  },
+  {
+    "headword": "démagogie",
+    "phonetic": "/de.ma.ɡɔ.ʒi/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "démagogies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de flatter le peuple pour obtenir son soutien",
+        "translations": {
+          "zh": "煽动；蛊惑人心",
+          "en": "demagogy, populism"
+        },
+        "examples": [
+          {
+            "text": "Promettre la retraite à cinquante ans, c'est de la démagogie.",
+            "translations": {
+              "zh": "承诺五十岁退休纯属蛊惑人心。",
+              "en": "Promising retirement at fifty is pure demagoguery."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "clivage",
+    "phonetic": "/kli.vaʒ/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "clivages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "séparation profonde entre des groupes ou des idées",
+        "translations": {
+          "zh": "分歧；裂痕",
+          "en": "divide, split"
+        },
+        "examples": [
+          {
+            "text": "Le clivage gauche-droite a-t-il encore un sens ?",
+            "translations": {
+              "zh": "左右之分还有意义吗？",
+              "en": "Does the left-right divide still mean anything?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "alternance",
+    "phonetic": "/al.tɛʁ.nɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "alternances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "succession régulière ; passage du pouvoir d'un camp à l'autre",
+        "translations": {
+          "zh": "交替；政党轮替",
+          "en": "alternation; change of government"
+        },
+        "examples": [
+          {
+            "text": "L'alternance politique est un signe de démocratie vivante.",
+            "cloze": "L'{{alternance}} politique est un signe de démocratie vivante.",
+            "translations": {
+              "zh": "政党轮替是民主活力的标志。",
+              "en": "A change of power is a sign of a living democracy."
+            }
+          }
+        ],
+        "usageNote": "en alternance：轮流，交替。"
+      }
+    ]
+  },
+  {
+    "headword": "quinquennat",
+    "phonetic": "/kɛ̃.ke.na/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "quinquennats"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "mandat de cinq ans, en particulier celui du président français",
+        "translations": {
+          "zh": "五年任期",
+          "en": "five-year term"
+        },
+        "examples": [
+          {
+            "text": "Cette réforme a marqué la fin du quinquennat.",
+            "translations": {
+              "zh": "这项改革为五年任期画上了句号。",
+              "en": "This reform marked the end of the five-year term."
+            }
+          }
+        ],
+        "usageNote": "读 /kɛ̃.ke.na/，qu 读 /k/。"
+      }
+    ]
+  },
+  {
+    "headword": "élu",
+    "phonetic": "/e.ly/",
+    "cefr": "C1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "élus"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne choisie par un vote pour exercer une fonction",
+        "translations": {
+          "zh": "当选者；民选官员",
+          "en": "elected official"
+        },
+        "examples": [
+          {
+            "text": "Les élus locaux réclament plus de moyens.",
+            "cloze": "Les {{élus}} locaux réclament plus de moyens.",
+            "translations": {
+              "zh": "地方民选官员要求更多资源。",
+              "en": "Local elected officials are calling for more resources."
+            }
+          }
+        ],
+        "usageNote": "阴性 élue；来自 élire 的过去分词。"
+      }
+    ]
+  },
+  {
+    "headword": "chef d'état",
+    "phonetic": "/ʃɛf.de.ta/",
+    "cefr": "C1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "chefs d'État"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui dirige un pays",
+        "translations": {
+          "zh": "国家元首",
+          "en": "head of state"
+        },
+        "examples": [
+          {
+            "text": "Une vingtaine de chefs d'État assistaient à la cérémonie.",
+            "cloze": "Une vingtaine de {{chefs d'État}} assistaient à la cérémonie.",
+            "translations": {
+              "zh": "约二十位国家元首出席了仪式。",
+              "en": "Around twenty heads of state attended the ceremony."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "langue de bois",
+    "phonetic": "/lɑ̃ɡ.də.bwa/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "langue de bois"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "façon de parler figée qui évite de dire les choses clairement",
+        "translations": {
+          "zh": "官腔；套话",
+          "en": "waffle, political doublespeak"
+        },
+        "examples": [
+          {
+            "text": "Le ministre a répondu avec sa langue de bois habituelle.",
+            "cloze": "Le ministre a répondu avec sa {{langue de bois}} habituelle.",
+            "translations": {
+              "zh": "部长用他惯常的官腔作了回答。",
+              "en": "The minister answered with his usual waffle."
+            }
+          }
+        ],
+        "usageNote": "字面意思“木头舌头”。"
+      }
+    ]
+  },
+  {
+    "headword": "diagnostic",
+    "phonetic": "/djaɡ.nɔs.tik/",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "diagnostics"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "identification d'une maladie à partir des symptômes",
+        "translations": {
+          "zh": "诊断",
+          "en": "diagnosis"
+        },
+        "examples": [
+          {
+            "text": "Le médecin a posé un diagnostic rapide.",
+            "translations": {
+              "zh": "医生迅速作出了诊断。",
+              "en": "The doctor quickly made a diagnosis."
+            }
+          }
+        ],
+        "usageNote": "poser un diagnostic：作出诊断。"
+      }
+    ]
+  },
+  {
+    "headword": "pronostic",
+    "phonetic": "/pʁɔ.nɔs.tik/",
+    "cefr": "C1",
+    "frequencyRank": 9800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "pronostics"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "prévision sur l'évolution d'une maladie ou d'un événement",
+        "translations": {
+          "zh": "预后；预测",
+          "en": "prognosis; forecast"
+        },
+        "examples": [
+          {
+            "text": "Le pronostic vital du blessé est engagé.",
+            "translations": {
+              "zh": "伤者有生命危险。",
+              "en": "The injured man's life is in danger."
+            }
+          }
+        ],
+        "usageNote": "le pronostic vital est engagé：有生命危险（新闻常用）。"
+      }
+    ]
+  },
+  {
+    "headword": "séquelle",
+    "phonetic": "/se.kɛl/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "séquelles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "trouble qui persiste après une maladie ou un accident",
+        "translations": {
+          "zh": "后遗症",
+          "en": "after-effect"
+        },
+        "examples": [
+          {
+            "text": "Il garde des séquelles de son accident de moto.",
+            "cloze": "Il garde des {{séquelles}} de son accident de moto.",
+            "translations": {
+              "zh": "他的摩托车事故留下了后遗症。",
+              "en": "He still suffers the after-effects of his motorbike accident."
+            }
+          }
+        ],
+        "usageNote": "多用复数。"
+      }
+    ]
+  },
+  {
+    "headword": "posologie",
+    "phonetic": "/pɔ.zɔ.lɔ.ʒi/",
+    "cefr": "C1",
+    "frequencyRank": 17500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "posologies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "quantité de médicament à prendre et fréquence",
+        "translations": {
+          "zh": "用法用量",
+          "en": "dosage"
+        },
+        "examples": [
+          {
+            "text": "Respectez la posologie indiquée sur la notice.",
+            "translations": {
+              "zh": "请遵照说明书上的用法用量。",
+              "en": "Follow the dosage given in the leaflet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "effet secondaire",
+    "phonetic": "/e.fɛ.sə.ɡɔ̃.dɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "effets secondaires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "effet non voulu d'un médicament",
+        "translations": {
+          "zh": "副作用",
+          "en": "side effect"
+        },
+        "examples": [
+          {
+            "text": "Ce traitement provoque peu d'effets secondaires.",
+            "cloze": "Ce traitement provoque peu d'{{effets secondaires}}.",
+            "translations": {
+              "zh": "这种疗法副作用很少。",
+              "en": "This treatment causes few side effects."
+            }
+          }
+        ],
+        "usageNote": "secondaire 中 c 读 /ɡ/。"
+      }
+    ]
+  },
+  {
+    "headword": "dépistage",
+    "phonetic": "/de.pis.taʒ/",
+    "cefr": "C1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "dépistages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "examen pour découvrir une maladie le plus tôt possible",
+        "translations": {
+          "zh": "筛查；检测",
+          "en": "screening"
+        },
+        "examples": [
+          {
+            "text": "Le dépistage du cancer du sein est gratuit à partir de cinquante ans.",
+            "translations": {
+              "zh": "五十岁以上可免费进行乳腺癌筛查。",
+              "en": "Breast cancer screening is free from age fifty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "anesthésie",
+    "phonetic": "/a.nɛs.te.zi/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "anesthésies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "suppression de la sensibilité, surtout de la douleur, avant une opération",
+        "translations": {
+          "zh": "麻醉",
+          "en": "anaesthesia"
+        },
+        "examples": [
+          {
+            "text": "L'opération se fait sous anesthésie locale.",
+            "translations": {
+              "zh": "手术在局部麻醉下进行。",
+              "en": "The operation is done under local anaesthetic."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "greffe",
+    "phonetic": "/ɡʁɛf/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "greffes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "transfert d'un organe ou d'un tissu d'un individu à un autre",
+        "translations": {
+          "zh": "移植；嫁接",
+          "en": "transplant, graft"
+        },
+        "examples": [
+          {
+            "text": "Il attend une greffe de rein depuis deux ans.",
+            "translations": {
+              "zh": "他等肾移植已经两年了。",
+              "en": "He has been waiting two years for a kidney transplant."
+            }
+          }
+        ],
+        "usageNote": "另：le greffe（阳性）指法院书记室。"
+      }
+    ]
+  },
+  {
+    "headword": "chimiothérapie",
+    "phonetic": "/ʃi.mjo.te.ʁa.pi/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "chimiothérapies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "traitement par des médicaments chimiques, surtout contre le cancer",
+        "translations": {
+          "zh": "化疗",
+          "en": "chemotherapy"
+        },
+        "examples": [
+          {
+            "text": "Elle a terminé sa dernière séance de chimiothérapie.",
+            "translations": {
+              "zh": "她完成了最后一次化疗。",
+              "en": "She finished her last chemotherapy session."
+            }
+          }
+        ],
+        "usageNote": "口语简称 chimio。"
+      }
+    ]
+  },
+  {
+    "headword": "tumeur",
+    "phonetic": "/ty.mœʁ/",
+    "cefr": "C1",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "tumeurs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "masse anormale de cellules dans le corps",
+        "translations": {
+          "zh": "肿瘤",
+          "en": "tumour"
+        },
+        "examples": [
+          {
+            "text": "Les examens ont révélé une petite tumeur au poumon.",
+            "translations": {
+              "zh": "检查发现肺部有一个小肿瘤。",
+              "en": "Tests revealed a small tumour on the lung."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bénin",
+    "phonetic": "/be.nɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "irregularForms": "阴性 bénigne；复数 bénins, bénignes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "sans gravité ; non cancéreux",
+        "translations": {
+          "zh": "良性的；轻微的",
+          "en": "benign, minor"
+        },
+        "examples": [
+          {
+            "text": "Heureusement, la tumeur était bénigne.",
+            "cloze": "Heureusement, la tumeur était {{bénigne}}.",
+            "translations": {
+              "zh": "幸好肿瘤是良性的。",
+              "en": "Fortunately the tumour was benign."
+            }
+          }
+        ],
+        "usageNote": "反义词 malin / maligne（恶性的）。"
+      }
+    ]
+  },
+  {
+    "headword": "pandémie",
+    "phonetic": "/pɑ̃.de.mi/",
+    "cefr": "C1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "pandémies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "épidémie qui touche le monde entier",
+        "translations": {
+          "zh": "大流行病",
+          "en": "pandemic"
+        },
+        "examples": [
+          {
+            "text": "La pandémie a bouleversé nos habitudes de travail.",
+            "translations": {
+              "zh": "疫情大流行彻底改变了我们的工作习惯。",
+              "en": "The pandemic upended our working habits."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "contagieux",
+    "phonetic": "/kɔ̃.ta.ʒjø/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "irregularForms": "阴性 contagieuse；复数 contagieux, contagieuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui se transmet facilement d'une personne à l'autre",
+        "translations": {
+          "zh": "传染性的；有感染力的",
+          "en": "contagious"
+        },
+        "examples": [
+          {
+            "text": "Ce virus est très contagieux.",
+            "translations": {
+              "zh": "这种病毒传染性很强。",
+              "en": "This virus is highly contagious."
+            }
+          }
+        ],
+        "usageNote": "也可比喻：un rire contagieux（有感染力的笑声）。"
+      }
+    ]
+  },
+  {
+    "headword": "immunité",
+    "phonetic": "/i.my.ni.te/",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "immunités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "résistance d'un organisme à une maladie ; protection légale",
+        "translations": {
+          "zh": "免疫力；豁免权",
+          "en": "immunity"
+        },
+        "examples": [
+          {
+            "text": "Le vaccin assure une immunité de plusieurs années.",
+            "translations": {
+              "zh": "这种疫苗能提供数年的免疫力。",
+              "en": "The vaccine provides immunity for several years."
+            }
+          }
+        ],
+        "usageNote": "immunité parlementaire / diplomatique：议员 / 外交豁免权。"
+      }
+    ]
+  },
+  {
+    "headword": "anticorps",
+    "phonetic": "/ɑ̃.ti.kɔʁ/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "anticorps"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "substance produite par le corps pour se défendre contre un microbe",
+        "translations": {
+          "zh": "抗体",
+          "en": "antibody"
+        },
+        "examples": [
+          {
+            "text": "La prise de sang montre la présence d'anticorps.",
+            "cloze": "La prise de sang montre la présence d'{{anticorps}}.",
+            "translations": {
+              "zh": "验血显示存在抗体。",
+              "en": "The blood test shows antibodies are present."
+            }
+          }
+        ],
+        "usageNote": "单复数同形，词尾 ps 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "essai clinique",
+    "phonetic": "/e.sɛ.kli.nik/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "essais cliniques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "étude d'un traitement sur des patients volontaires",
+        "translations": {
+          "zh": "临床试验",
+          "en": "clinical trial"
+        },
+        "examples": [
+          {
+            "text": "Le nouveau médicament est en phase trois d'essai clinique.",
+            "cloze": "Le nouveau médicament est en phase trois d'{{essai clinique}}.",
+            "translations": {
+              "zh": "新药正处于三期临床试验阶段。",
+              "en": "The new drug is in phase three of clinical trials."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "génome",
+    "phonetic": "/ʒe.nom/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "génomes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble du matériel génétique d'un être vivant",
+        "translations": {
+          "zh": "基因组",
+          "en": "genome"
+        },
+        "examples": [
+          {
+            "text": "Les chercheurs ont séquencé le génome du blé.",
+            "translations": {
+              "zh": "研究人员完成了小麦基因组测序。",
+              "en": "Researchers have sequenced the wheat genome."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "neurone",
+    "phonetic": "/nø.ʁɔn/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "neurones"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "cellule du système nerveux",
+        "translations": {
+          "zh": "神经元",
+          "en": "neuron"
+        },
+        "examples": [
+          {
+            "text": "Le cerveau humain compte environ cent milliards de neurones.",
+            "cloze": "Le cerveau humain compte environ cent milliards de {{neurones}}.",
+            "translations": {
+              "zh": "人脑约有一千亿个神经元。",
+              "en": "The human brain has about a hundred billion neurons."
+            }
+          }
+        ],
+        "usageNote": "阳性：un neurone。"
+      }
+    ]
+  },
+  {
+    "headword": "convalescence",
+    "phonetic": "/kɔ̃.va.le.sɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "convalescences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "période de retour progressif à la santé après une maladie",
+        "translations": {
+          "zh": "康复期；恢复期",
+          "en": "convalescence"
+        },
+        "examples": [
+          {
+            "text": "Après l'opération, prévoyez un mois de convalescence.",
+            "translations": {
+              "zh": "手术后需预留一个月康复期。",
+              "en": "After the operation, allow a month to recover."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "généraliste",
+    "phonetic": "/ʒe.ne.ʁa.list/",
+    "cefr": "C1",
+    "frequencyRank": 9800,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "généralistes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "médecin qui soigne toutes sortes de maladies courantes",
+        "translations": {
+          "zh": "全科医生",
+          "en": "general practitioner, GP"
+        },
+        "examples": [
+          {
+            "text": "Prenez d'abord rendez-vous chez votre généraliste.",
+            "translations": {
+              "zh": "请先预约您的全科医生。",
+              "en": "First make an appointment with your GP."
+            }
+          }
+        ],
+        "usageNote": "在法国看专科前通常先看 médecin traitant（主治全科医生）。"
+      }
+    ]
+  },
+  {
+    "headword": "hospitaliser",
+    "phonetic": "/ɔs.pi.ta.li.ze/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire entrer quelqu'un à l'hôpital pour le soigner",
+        "translations": {
+          "zh": "使住院",
+          "en": "to hospitalize"
+        },
+        "examples": [
+          {
+            "text": "Ma grand-mère a été hospitalisée pour une pneumonie.",
+            "cloze": "Ma grand-mère a été {{hospitalisée}} pour une pneumonie.",
+            "translations": {
+              "zh": "我奶奶因肺炎住院了。",
+              "en": "My grandmother was hospitalised with pneumonia."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cicatrice",
+    "phonetic": "/si.ka.tʁis/",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "cicatrices"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "marque laissée sur la peau par une blessure",
+        "translations": {
+          "zh": "伤疤；创伤",
+          "en": "scar"
+        },
+        "examples": [
+          {
+            "text": "Il a une cicatrice au-dessus de l'œil gauche.",
+            "translations": {
+              "zh": "他左眼上方有一道伤疤。",
+              "en": "He has a scar above his left eye."
+            }
+          }
+        ],
+        "usageNote": "也可比喻战争、历史的“创伤”。"
+      }
+    ]
+  },
+  {
+    "headword": "carence",
+    "phonetic": "/ka.ʁɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 11800,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "carences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "manque d'un élément nécessaire ; insuffisance",
+        "translations": {
+          "zh": "缺乏；（营养）缺乏症；失职",
+          "en": "deficiency; failure"
+        },
+        "examples": [
+          {
+            "text": "Une carence en fer peut provoquer une grande fatigue.",
+            "translations": {
+              "zh": "缺铁会导致严重疲劳。",
+              "en": "Iron deficiency can cause severe tiredness."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

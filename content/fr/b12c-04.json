@@ -1,0 +1,1549 @@
+[
+  {
+    "headword": "célibataire",
+    "phonetic": "/se.li.ba.tɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 célibataires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'est pas marié, qui n'est pas en couple",
+        "translations": {
+          "zh": "单身的；未婚的",
+          "en": "single"
+        },
+        "examples": [
+          {
+            "text": "Mon frère est encore célibataire.",
+            "translations": {
+              "zh": "我哥哥还是单身。",
+              "en": "My brother is still single."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "veuf",
+    "phonetic": "/vœf/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 veuve；复数 veufs, veuves"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "dont l'époux ou l'épouse est mort",
+        "translations": {
+          "zh": "丧偶的",
+          "en": "widowed"
+        },
+        "examples": [
+          {
+            "text": "Mon grand-père est veuf depuis cinq ans.",
+            "translations": {
+              "zh": "我爷爷丧偶已经五年了。",
+              "en": "My grandfather has been a widower for five years."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "collègue",
+    "phonetic": "/kɔ.lɛɡ/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "collègues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui travaille au même endroit",
+        "translations": {
+          "zh": "同事",
+          "en": "colleague"
+        },
+        "examples": [
+          {
+            "text": "Je déjeune souvent avec mes collègues.",
+            "translations": {
+              "zh": "我常和同事一起吃午饭。",
+              "en": "I often have lunch with my colleagues."
+            },
+            "cloze": "Je déjeune souvent avec mes {{collègues}}."
+          }
+        ],
+        "usageNote": "un collègue / une collègue，阴阳同形。"
+      }
+    ]
+  },
+  {
+    "headword": "copain",
+    "phonetic": "/kɔ.pɛ̃/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "copains"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ami (familier) ; petit ami",
+        "translations": {
+          "zh": "朋友；男朋友（口语）",
+          "en": "friend, boyfriend"
+        },
+        "examples": [
+          {
+            "text": "Je sors avec des copains ce soir.",
+            "translations": {
+              "zh": "我今晚跟朋友出去玩。",
+              "en": "I'm going out with some friends tonight."
+            },
+            "cloze": "Je sors avec des {{copains}} ce soir."
+          }
+        ],
+        "usageNote": "阴性 copine。mon copain / ma copine 常指“男/女朋友”。"
+      }
+    ]
+  },
+  {
+    "headword": "petit ami",
+    "phonetic": "/pə.ti.t‿a.mi/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "petits amis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne avec qui on a une relation amoureuse",
+        "translations": {
+          "zh": "男朋友",
+          "en": "boyfriend"
+        },
+        "examples": [
+          {
+            "text": "Elle nous a présenté son petit ami.",
+            "translations": {
+              "zh": "她把男朋友介绍给我们认识。",
+              "en": "She introduced her boyfriend to us."
+            },
+            "cloze": "Elle nous a présenté son {{petit ami}}."
+          }
+        ],
+        "usageNote": "女朋友是 petite amie。"
+      }
+    ]
+  },
+  {
+    "headword": "connaissance",
+    "phonetic": "/kɔ.nɛ.sɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "connaissances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qu'on connaît un peu",
+        "translations": {
+          "zh": "熟人",
+          "en": "acquaintance"
+        },
+        "examples": [
+          {
+            "text": "Ce n'est pas un ami, juste une connaissance.",
+            "translations": {
+              "zh": "他不算朋友，只是个熟人。",
+              "en": "He's not a friend, just an acquaintance."
+            }
+          }
+        ],
+        "usageNote": "faire la connaissance de qqn：结识某人。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qu'on sait",
+        "translations": {
+          "zh": "知识；了解",
+          "en": "knowledge"
+        },
+        "examples": [
+          {
+            "text": "Il a de bonnes connaissances en histoire.",
+            "translations": {
+              "zh": "他历史知识很丰富。",
+              "en": "He has a good knowledge of history."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "relation",
+    "phonetic": "/ʁə.la.sjɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "relations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "lien entre des personnes",
+        "translations": {
+          "zh": "关系",
+          "en": "relationship"
+        },
+        "examples": [
+          {
+            "text": "J'ai une bonne relation avec mes parents.",
+            "translations": {
+              "zh": "我和父母关系很好。",
+              "en": "I have a good relationship with my parents."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se disputer",
+    "phonetic": "/sə dis.py.te/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "échanger des paroles violentes avec qqn",
+        "translations": {
+          "zh": "吵架；争吵",
+          "en": "to argue, to quarrel"
+        },
+        "examples": [
+          {
+            "text": "Mes voisins se disputent tous les soirs.",
+            "translations": {
+              "zh": "我的邻居们每晚都吵架。",
+              "en": "My neighbours argue every night."
+            },
+            "cloze": "Mes voisins {{se disputent}} tous les soirs."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "dispute",
+    "phonetic": "/dis.pyt/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "disputes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "échange de paroles violentes",
+        "translations": {
+          "zh": "争吵；吵架",
+          "en": "argument, quarrel"
+        },
+        "examples": [
+          {
+            "text": "Ils ont eu une dispute à cause de l'argent.",
+            "translations": {
+              "zh": "他们为钱吵了一架。",
+              "en": "They had an argument about money."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "faire confiance",
+    "phonetic": "/fɛʁ kɔ̃.fjɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "conjugation": "faire 不规则：je fais, nous faisons, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "croire qu'on peut compter sur qqn",
+        "translations": {
+          "zh": "信任",
+          "en": "to trust"
+        },
+        "examples": [
+          {
+            "text": "Tu peux me faire confiance.",
+            "translations": {
+              "zh": "你可以信任我。",
+              "en": "You can trust me."
+            },
+            "cloze": "Tu peux me {{faire confiance}}."
+          }
+        ],
+        "usageNote": "faire confiance à qqn：信任某人。"
+      }
+    ]
+  },
+  {
+    "headword": "se réconcilier",
+    "phonetic": "/sə ʁe.kɔ̃.si.lje/",
+    "cefr": "B2",
+    "frequencyRank": 12000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "redevenir amis après une dispute",
+        "translations": {
+          "zh": "和好；和解",
+          "en": "to make up, to reconcile"
+        },
+        "examples": [
+          {
+            "text": "Les deux frères se sont réconciliés.",
+            "translations": {
+              "zh": "兄弟俩和好了。",
+              "en": "The two brothers made up."
+            },
+            "cloze": "Les deux frères {{se sont réconciliés}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "rompre",
+    "phonetic": "/ʁɔ̃pʁ/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "-re 动词，但第三人称单数 il rompt；过去分词 rompu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "mettre fin à une relation",
+        "translations": {
+          "zh": "分手；断绝",
+          "en": "to break up"
+        },
+        "examples": [
+          {
+            "text": "Elle a rompu avec son copain.",
+            "translations": {
+              "zh": "她和男朋友分手了。",
+              "en": "She broke up with her boyfriend."
+            },
+            "cloze": "Elle a {{rompu}} avec son copain."
+          }
+        ],
+        "usageNote": "rompre avec qqn：与某人分手。口语也说 casser。"
+      }
+    ]
+  },
+  {
+    "headword": "rupture",
+    "phonetic": "/ʁyp.tyʁ/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "ruptures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fin d'une relation",
+        "translations": {
+          "zh": "分手；破裂",
+          "en": "break-up"
+        },
+        "examples": [
+          {
+            "text": "Il a mal vécu la rupture.",
+            "translations": {
+              "zh": "分手让他很难受。",
+              "en": "He took the break-up badly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "amoureux",
+    "phonetic": "/a.mu.ʁø/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴性 amoureuse；复数 amoureux, amoureuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui éprouve de l'amour pour qqn",
+        "translations": {
+          "zh": "恋爱中的；爱上的",
+          "en": "in love"
+        },
+        "examples": [
+          {
+            "text": "Il est amoureux de sa voisine.",
+            "translations": {
+              "zh": "他爱上了他的女邻居。",
+              "en": "He's in love with his neighbour."
+            }
+          }
+        ],
+        "usageNote": "tomber amoureux de qqn：爱上某人。"
+      }
+    ]
+  },
+  {
+    "headword": "s'entendre",
+    "phonetic": "/sɑ̃.tɑ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "-re 动词：je m'entends, nous nous entendons；过去分词 entendu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir de bonnes relations avec qqn",
+        "translations": {
+          "zh": "相处融洽",
+          "en": "to get along"
+        },
+        "examples": [
+          {
+            "text": "Je m'entends très bien avec ma belle-mère.",
+            "translations": {
+              "zh": "我和婆婆相处得很好。",
+              "en": "I get along very well with my mother-in-law."
+            },
+            "cloze": "Je {{m'entends}} très bien avec ma belle-mère."
+          }
+        ],
+        "usageNote": "bien s'entendre avec qqn：与某人合得来。"
+      }
+    ]
+  },
+  {
+    "headword": "se séparer",
+    "phonetic": "/sə se.pa.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "arrêter de vivre ensemble",
+        "translations": {
+          "zh": "分开；分居",
+          "en": "to separate, to split up"
+        },
+        "examples": [
+          {
+            "text": "Ses parents se sont séparés l'année dernière.",
+            "translations": {
+              "zh": "他父母去年分开了。",
+              "en": "His parents separated last year."
+            },
+            "cloze": "Ses parents {{se sont séparés}} l'année dernière."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "embrasser",
+    "phonetic": "/ɑ̃.bʁa.se/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner un baiser",
+        "translations": {
+          "zh": "亲吻；拥抱",
+          "en": "to kiss, to hug"
+        },
+        "examples": [
+          {
+            "text": "Il embrasse sa mère avant de partir.",
+            "translations": {
+              "zh": "他出门前亲了亲妈妈。",
+              "en": "He kisses his mother before leaving."
+            },
+            "cloze": "Il {{embrasse}} sa mère avant de partir."
+          }
+        ],
+        "usageNote": "信件结尾常写 Je t'embrasse / Bises（吻你）。"
+      }
+    ]
+  },
+  {
+    "headword": "se moquer",
+    "phonetic": "/sə mɔ.ke/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rire de qqn de façon méchante",
+        "translations": {
+          "zh": "嘲笑；取笑",
+          "en": "to make fun of"
+        },
+        "examples": [
+          {
+            "text": "Arrête de te moquer de ton frère !",
+            "translations": {
+              "zh": "别取笑你弟弟了！",
+              "en": "Stop making fun of your brother!"
+            },
+            "cloze": "Arrête de {{te moquer}} de ton frère !"
+          }
+        ],
+        "usageNote": "se moquer de qqn：取笑某人；Je m'en moque. = 我不在乎。"
+      }
+    ]
+  },
+  {
+    "headword": "respecter",
+    "phonetic": "/ʁɛs.pɛk.te/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir de la considération pour qqn ; obéir à une règle",
+        "translations": {
+          "zh": "尊重；遵守",
+          "en": "to respect"
+        },
+        "examples": [
+          {
+            "text": "Il faut respecter les personnes âgées.",
+            "translations": {
+              "zh": "要尊敬老人。",
+              "en": "You must respect the elderly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "compter sur",
+    "phonetic": "/kɔ̃.te syʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "avoir confiance dans l'aide de qqn",
+        "translations": {
+          "zh": "依靠；指望",
+          "en": "to count on, to rely on"
+        },
+        "examples": [
+          {
+            "text": "Tu peux compter sur moi.",
+            "translations": {
+              "zh": "你可以指望我。",
+              "en": "You can count on me."
+            },
+            "cloze": "Tu peux {{compter sur}} moi."
+          }
+        ],
+        "usageNote": "compter 中的 p 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "trahir",
+    "phonetic": "/tʁa.iʁ/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je trahis, nous trahissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "tromper la confiance de qqn",
+        "translations": {
+          "zh": "背叛；出卖",
+          "en": "to betray"
+        },
+        "examples": [
+          {
+            "text": "Il a trahi son meilleur ami.",
+            "translations": {
+              "zh": "他背叛了他最好的朋友。",
+              "en": "He betrayed his best friend."
+            },
+            "cloze": "Il a {{trahi}} son meilleur ami."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "soutenir",
+    "phonetic": "/su.tə.niʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 tenir）：je soutiens, nous soutenons, ils soutiennent；过去分词 soutenu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "aider, encourager qqn",
+        "translations": {
+          "zh": "支持；扶持",
+          "en": "to support"
+        },
+        "examples": [
+          {
+            "text": "Ma famille me soutient dans mes projets.",
+            "translations": {
+              "zh": "家人支持我的计划。",
+              "en": "My family supports me in my plans."
+            },
+            "cloze": "Ma famille me {{soutient}} dans mes projets."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "soutien",
+    "phonetic": "/su.tjɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "soutiens"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "aide apportée à qqn",
+        "translations": {
+          "zh": "支持；帮助",
+          "en": "support"
+        },
+        "examples": [
+          {
+            "text": "Merci pour ton soutien pendant cette période.",
+            "translations": {
+              "zh": "谢谢你在这段时间的支持。",
+              "en": "Thank you for your support during this time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "rencontre",
+    "phonetic": "/ʁɑ̃.kɔ̃tʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "rencontres"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de voir qqn pour la première fois ou par hasard",
+        "translations": {
+          "zh": "相遇；结识",
+          "en": "meeting, encounter"
+        },
+        "examples": [
+          {
+            "text": "Notre rencontre a changé ma vie.",
+            "translations": {
+              "zh": "我们的相遇改变了我的一生。",
+              "en": "Meeting you changed my life."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "entourage",
+    "phonetic": "/ɑ̃.tu.ʁaʒ/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "entourages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "les personnes qui vivent près de qqn",
+        "translations": {
+          "zh": "身边的人；亲友圈",
+          "en": "circle, those around one"
+        },
+        "examples": [
+          {
+            "text": "Il a parlé de son projet à son entourage.",
+            "translations": {
+              "zh": "他把计划告诉了身边的亲友。",
+              "en": "He told the people close to him about his plan."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ménage",
+    "phonetic": "/me.naʒ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "ménages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "travaux pour nettoyer la maison",
+        "translations": {
+          "zh": "家务；打扫",
+          "en": "housework, cleaning"
+        },
+        "examples": [
+          {
+            "text": "Le samedi, on fait le ménage.",
+            "translations": {
+              "zh": "周六我们打扫卫生。",
+              "en": "On Saturdays we do the housework."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "couple, foyer",
+        "translations": {
+          "zh": "家庭；夫妻",
+          "en": "household, couple"
+        },
+        "examples": [
+          {
+            "text": "Ce jeune ménage cherche un appartement.",
+            "translations": {
+              "zh": "这对小夫妻在找公寓。",
+              "en": "This young couple is looking for a flat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "foyer",
+    "phonetic": "/fwa.je/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "foyers"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "lieu où vit une famille",
+        "translations": {
+          "zh": "家；家庭",
+          "en": "home, household"
+        },
+        "examples": [
+          {
+            "text": "Elle a quitté le foyer familial à 18 ans.",
+            "translations": {
+              "zh": "她十八岁离开了家。",
+              "en": "She left the family home at 18."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "résidence pour étudiants, jeunes travailleurs…",
+        "translations": {
+          "zh": "（学生、青年工人等的）宿舍；之家",
+          "en": "hostel, residence"
+        }
+      }
+    ]
+  },
+  {
+    "headword": "adopter",
+    "phonetic": "/a.dɔp.te/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prendre légalement un enfant comme le sien",
+        "translations": {
+          "zh": "收养；领养",
+          "en": "to adopt"
+        },
+        "examples": [
+          {
+            "text": "Ils ont adopté une petite fille.",
+            "translations": {
+              "zh": "他们收养了一个小女孩。",
+              "en": "They adopted a little girl."
+            },
+            "cloze": "Ils ont {{adopté}} une petite fille."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "élever",
+    "phonetic": "/el.ve/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：j'élève, nous élevons, ils élèvent"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "s'occuper d'un enfant jusqu'à l'âge adulte",
+        "translations": {
+          "zh": "抚养；养育",
+          "en": "to raise, to bring up"
+        },
+        "examples": [
+          {
+            "text": "Elle a élevé seule ses trois enfants.",
+            "translations": {
+              "zh": "她独自抚养了三个孩子。",
+              "en": "She brought up her three children alone."
+            },
+            "cloze": "Elle a {{élevé}} seule ses trois enfants."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "nourrir et faire grandir des animaux",
+        "translations": {
+          "zh": "饲养",
+          "en": "to breed, to rear"
+        },
+        "examples": [
+          {
+            "text": "Il élève des moutons.",
+            "translations": {
+              "zh": "他养羊。",
+              "en": "He raises sheep."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "neveu",
+    "phonetic": "/nə.vø/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "neveux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fils du frère ou de la sœur",
+        "translations": {
+          "zh": "侄子；外甥",
+          "en": "nephew"
+        },
+        "examples": [
+          {
+            "text": "Mon neveu a eu dix ans hier.",
+            "translations": {
+              "zh": "我侄子昨天满十岁了。",
+              "en": "My nephew turned ten yesterday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "nièce",
+    "phonetic": "/njɛs/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "nièces"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fille du frère ou de la sœur",
+        "translations": {
+          "zh": "侄女；外甥女",
+          "en": "niece"
+        },
+        "examples": [
+          {
+            "text": "Ma nièce habite à Lyon.",
+            "translations": {
+              "zh": "我外甥女住在里昂。",
+              "en": "My niece lives in Lyon."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "petit-fils",
+    "phonetic": "/pə.ti.fis/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "petits-fils"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fils du fils ou de la fille",
+        "translations": {
+          "zh": "孙子；外孙",
+          "en": "grandson"
+        },
+        "examples": [
+          {
+            "text": "Son petit-fils vient la voir chaque dimanche.",
+            "translations": {
+              "zh": "她孙子每个星期天都来看她。",
+              "en": "Her grandson visits her every Sunday."
+            },
+            "cloze": "Son {{petit-fils}} vient la voir chaque dimanche."
+          }
+        ],
+        "usageNote": "孙辈统称 petits-enfants。"
+      }
+    ]
+  },
+  {
+    "headword": "petite-fille",
+    "phonetic": "/pə.tit.fij/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "petites-filles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fille du fils ou de la fille",
+        "translations": {
+          "zh": "孙女；外孙女",
+          "en": "granddaughter"
+        },
+        "examples": [
+          {
+            "text": "Sa petite-fille fait des études de médecine.",
+            "translations": {
+              "zh": "他孙女在学医。",
+              "en": "His granddaughter is studying medicine."
+            },
+            "cloze": "Sa {{petite-fille}} fait des études de médecine."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "beau-père",
+    "phonetic": "/bo.pɛʁ/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "beaux-pères"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "père du conjoint ; mari de la mère",
+        "translations": {
+          "zh": "岳父；公公；继父",
+          "en": "father-in-law; stepfather"
+        },
+        "examples": [
+          {
+            "text": "Je m'entends bien avec mon beau-père.",
+            "translations": {
+              "zh": "我和岳父相处得很好。",
+              "en": "I get on well with my father-in-law."
+            },
+            "cloze": "Je m'entends bien avec mon {{beau-père}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "belle-mère",
+    "phonetic": "/bɛl.mɛʁ/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "belles-mères"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "mère du conjoint ; femme du père",
+        "translations": {
+          "zh": "岳母；婆婆；继母",
+          "en": "mother-in-law; stepmother"
+        },
+        "examples": [
+          {
+            "text": "Ma belle-mère vient dîner ce soir.",
+            "translations": {
+              "zh": "我婆婆今晚来吃饭。",
+              "en": "My mother-in-law is coming to dinner tonight."
+            },
+            "cloze": "Ma {{belle-mère}} vient dîner ce soir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "jumeau",
+    "phonetic": "/ʒy.mo/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "jumeaux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "chacun des deux enfants nés en même temps",
+        "translations": {
+          "zh": "双胞胎之一",
+          "en": "twin"
+        },
+        "examples": [
+          {
+            "text": "Paul a un frère jumeau.",
+            "translations": {
+              "zh": "保罗有个双胞胎兄弟。",
+              "en": "Paul has a twin brother."
+            }
+          }
+        ],
+        "usageNote": "阴性 jumelle；des jumeaux：双胞胎。"
+      }
+    ]
+  },
+  {
+    "headword": "aîné",
+    "phonetic": "/ɛ.ne/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 aînée；复数 aînés, aînées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "le plus âgé des enfants",
+        "translations": {
+          "zh": "年长的；排行老大的",
+          "en": "elder, eldest"
+        },
+        "examples": [
+          {
+            "text": "C'est ma sœur aînée.",
+            "translations": {
+              "zh": "这是我姐姐。",
+              "en": "This is my older sister."
+            },
+            "cloze": "C'est ma sœur {{aînée}}."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "enfant le plus âgé",
+        "translations": {
+          "zh": "长子；长女",
+          "en": "eldest child"
+        },
+        "examples": [
+          {
+            "text": "L'aîné de la famille est médecin.",
+            "translations": {
+              "zh": "家里的老大是医生。",
+              "en": "The eldest in the family is a doctor."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cadet",
+    "phonetic": "/ka.dɛ/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴性 cadette；复数 cadets, cadettes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "plus jeune (frère, sœur)",
+        "translations": {
+          "zh": "年幼的；排行小的",
+          "en": "younger"
+        },
+        "examples": [
+          {
+            "text": "Mon frère cadet est encore au lycée.",
+            "translations": {
+              "zh": "我弟弟还在上高中。",
+              "en": "My younger brother is still at secondary school."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "naissance",
+    "phonetic": "/nɛ.sɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "naissances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de naître",
+        "translations": {
+          "zh": "出生；诞生",
+          "en": "birth"
+        },
+        "examples": [
+          {
+            "text": "Quelle est votre date de naissance ?",
+            "translations": {
+              "zh": "您的出生日期是哪天？",
+              "en": "What is your date of birth?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "naître",
+    "phonetic": "/nɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "conjugation": "不规则：je nais, il naît, nous naissons；过去分词 né（用 être）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "venir au monde",
+        "translations": {
+          "zh": "出生",
+          "en": "to be born"
+        },
+        "examples": [
+          {
+            "text": "Je suis né à Shanghai en 1998.",
+            "translations": {
+              "zh": "我1998年生于上海。",
+              "en": "I was born in Shanghai in 1998."
+            },
+            "cloze": "Je suis {{né}} à Shanghai en 1998."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mourir",
+    "phonetic": "/mu.ʁiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "conjugation": "不规则：je meurs, nous mourons, ils meurent；过去分词 mort（用 être）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "cesser de vivre",
+        "translations": {
+          "zh": "死；去世",
+          "en": "to die"
+        },
+        "examples": [
+          {
+            "text": "Son grand-père est mort l'an dernier.",
+            "translations": {
+              "zh": "他爷爷去年去世了。",
+              "en": "His grandfather died last year."
+            },
+            "cloze": "Son grand-père est {{mort}} l'an dernier."
+          }
+        ],
+        "usageNote": "口语夸张：mourir de faim（饿死了）、mourir de rire（笑死了）。"
+      }
+    ]
+  },
+  {
+    "headword": "mort",
+    "phonetic": "/mɔʁ/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "morts"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fin de la vie",
+        "translations": {
+          "zh": "死亡",
+          "en": "death"
+        },
+        "examples": [
+          {
+            "text": "La mort de son chien l'a rendu triste.",
+            "translations": {
+              "zh": "他的狗死了，他很难过。",
+              "en": "His dog's death made him sad."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne vit plus",
+        "translations": {
+          "zh": "死的",
+          "en": "dead"
+        },
+        "examples": [
+          {
+            "text": "Les fleurs sont mortes.",
+            "translations": {
+              "zh": "花都枯死了。",
+              "en": "The flowers are dead."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "décès",
+    "phonetic": "/de.sɛ/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "décès"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "mort d'une personne (langue officielle)",
+        "translations": {
+          "zh": "去世；逝世",
+          "en": "death, passing"
+        },
+        "examples": [
+          {
+            "text": "Nous avons appris le décès de notre voisin.",
+            "translations": {
+              "zh": "我们得知了邻居去世的消息。",
+              "en": "We learned of our neighbour's death."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "enterrement",
+    "phonetic": "/ɑ̃.tɛʁ.mɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "enterrements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "cérémonie où l'on met un mort en terre",
+        "translations": {
+          "zh": "葬礼；下葬",
+          "en": "funeral, burial"
+        },
+        "examples": [
+          {
+            "text": "Toute la famille est venue à l'enterrement.",
+            "translations": {
+              "zh": "全家人都来参加葬礼了。",
+              "en": "The whole family came to the funeral."
+            },
+            "cloze": "Toute la famille est venue à l'{{enterrement}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "deuil",
+    "phonetic": "/dœj/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "deuils"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tristesse après la mort de qqn ; période qui suit",
+        "translations": {
+          "zh": "哀悼；服丧",
+          "en": "mourning, bereavement"
+        },
+        "examples": [
+          {
+            "text": "Elle est en deuil depuis la mort de sa mère.",
+            "translations": {
+              "zh": "母亲去世后她一直在服丧。",
+              "en": "She has been in mourning since her mother died."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "enfance",
+    "phonetic": "/ɑ̃.fɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "enfances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "période de la vie d'un enfant",
+        "translations": {
+          "zh": "童年",
+          "en": "childhood"
+        },
+        "examples": [
+          {
+            "text": "J'ai passé mon enfance à la campagne.",
+            "translations": {
+              "zh": "我在乡下度过了童年。",
+              "en": "I spent my childhood in the countryside."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "adolescent",
+    "phonetic": "/a.dɔ.le.sɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "adolescents"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "jeune entre l'enfance et l'âge adulte",
+        "translations": {
+          "zh": "青少年",
+          "en": "teenager, adolescent"
+        },
+        "examples": [
+          {
+            "text": "C'est un adolescent de quinze ans.",
+            "translations": {
+              "zh": "他是个十五岁的少年。",
+              "en": "He's a fifteen-year-old teenager."
+            }
+          }
+        ],
+        "usageNote": "阴性 adolescente；口语缩写 ado。"
+      }
+    ]
+  },
+  {
+    "headword": "adolescence",
+    "phonetic": "/a.dɔ.le.sɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "adolescences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "période entre l'enfance et l'âge adulte",
+        "translations": {
+          "zh": "青春期",
+          "en": "adolescence"
+        },
+        "examples": [
+          {
+            "text": "L'adolescence est une période difficile.",
+            "translations": {
+              "zh": "青春期是个艰难的阶段。",
+              "en": "Adolescence is a difficult time."
+            },
+            "cloze": "L'{{adolescence}} est une période difficile."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "adulte",
+    "phonetic": "/a.dylt/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "adultes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui a fini de grandir",
+        "translations": {
+          "zh": "成年人",
+          "en": "adult"
+        },
+        "examples": [
+          {
+            "text": "Le billet coûte dix euros pour les adultes.",
+            "translations": {
+              "zh": "成人票十欧元。",
+              "en": "The ticket costs ten euros for adults."
+            },
+            "cloze": "Le billet coûte dix euros pour les {{adultes}}."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a fini de grandir",
+        "translations": {
+          "zh": "成年的",
+          "en": "adult, grown-up"
+        }
+      }
+    ]
+  },
+  {
+    "headword": "jeunesse",
+    "phonetic": "/ʒœ.nɛs/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "jeunesses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "période où l'on est jeune ; les jeunes",
+        "translations": {
+          "zh": "青春；青年时代；年轻人",
+          "en": "youth"
+        },
+        "examples": [
+          {
+            "text": "Dans sa jeunesse, il voyageait beaucoup.",
+            "translations": {
+              "zh": "他年轻时经常旅行。",
+              "en": "In his youth he travelled a lot."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1498 @@
+[
+  {
+    "headword": "avertir",
+    "phonetic": "/a.vɛʁ.tiʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "informer d'un danger ou d'une conséquence",
+        "translations": {
+          "zh": "警告；提醒",
+          "en": "to warn"
+        },
+        "examples": [
+          {
+            "text": "Je t'avais averti !",
+            "cloze": "Je t'avais {{averti}} !",
+            "translations": {
+              "zh": "我早就警告过你了！",
+              "en": "I warned you!"
+            }
+          }
+        ],
+        "usageNote": "avertir qn de qch。名词 un avertissement（警告）。"
+      }
+    ]
+  },
+  {
+    "headword": "prévenir",
+    "phonetic": "/pʁe.və.niʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 venir）：je préviens, nous prévenons, ils préviennent；过去分词 prévenu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "informer à l'avance",
+        "translations": {
+          "zh": "事先通知；告诉",
+          "en": "to let know, to warn"
+        },
+        "examples": [
+          {
+            "text": "Préviens-moi si tu es en retard.",
+            "cloze": "{{Préviens}}-moi si tu es en retard.",
+            "translations": {
+              "zh": "你要是迟到就告诉我一声。",
+              "en": "Let me know if you're running late."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "empêcher qch d'arriver",
+        "translations": {
+          "zh": "预防",
+          "en": "to prevent"
+        },
+        "examples": [
+          {
+            "text": "Mieux vaut prévenir que guérir.",
+            "translations": {
+              "zh": "预防胜于治疗。",
+              "en": "Prevention is better than cure."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "annoncer",
+    "phonetic": "/a.nɔ̃.se/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous annonçons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire savoir publiquement",
+        "translations": {
+          "zh": "宣布；通知",
+          "en": "to announce"
+        },
+        "examples": [
+          {
+            "text": "Le gouvernement a annoncé de nouvelles mesures.",
+            "cloze": "Le gouvernement a {{annoncé}} de nouvelles mesures.",
+            "translations": {
+              "zh": "政府宣布了新措施。",
+              "en": "The government announced new measures."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "déclarer",
+    "phonetic": "/de.kla.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire officiellement ; signaler à une administration",
+        "translations": {
+          "zh": "宣布；声明；申报",
+          "en": "to declare, to state"
+        },
+        "examples": [
+          {
+            "text": "Il a déclaré qu'il quittait la politique.",
+            "cloze": "Il a {{déclaré}} qu'il quittait la politique.",
+            "translations": {
+              "zh": "他宣布退出政坛。",
+              "en": "He declared he was leaving politics."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "exprimer",
+    "phonetic": "/ɛks.pʁi.me/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire connaître par des mots ou des gestes",
+        "translations": {
+          "zh": "表达",
+          "en": "to express"
+        },
+        "examples": [
+          {
+            "text": "Il a du mal à exprimer ses sentiments.",
+            "translations": {
+              "zh": "他不太会表达自己的感情。",
+              "en": "He finds it hard to express his feelings."
+            }
+          }
+        ],
+        "usageNote": "s'exprimer：表达自己（的想法）。"
+      }
+    ]
+  },
+  {
+    "headword": "interpréter",
+    "phonetic": "/ɛ̃.tɛʁ.pʁe.te/",
+    "cefr": "B2",
+    "frequencyRank": 2700,
+    "grammarNotes": {
+      "conjugation": "拼写变化：j'interprète, nous interprétons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner un sens à",
+        "translations": {
+          "zh": "解读；诠释",
+          "en": "to interpret"
+        },
+        "examples": [
+          {
+            "text": "Comment interpréter ce silence ?",
+            "translations": {
+              "zh": "这种沉默该怎么理解？",
+              "en": "How should we interpret this silence?"
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "jouer un rôle, chanter ou jouer une œuvre",
+        "translations": {
+          "zh": "演绎；扮演",
+          "en": "to perform, to play"
+        },
+        "examples": [
+          {
+            "text": "Elle interprète le rôle principal.",
+            "translations": {
+              "zh": "她饰演主角。",
+              "en": "She plays the lead role."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "informer",
+    "phonetic": "/ɛ̃.fɔʁ.me/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "mettre qn au courant",
+        "translations": {
+          "zh": "通知；告知",
+          "en": "to inform"
+        },
+        "examples": [
+          {
+            "text": "Nous vous informons que le magasin ferme à 18 h.",
+            "cloze": "Nous vous {{informons}} que le magasin ferme à 18 h.",
+            "translations": {
+              "zh": "特此通知，本店18点关门。",
+              "en": "Please be informed that the shop closes at 6 p.m."
+            }
+          }
+        ],
+        "usageNote": "informer qn de qch。"
+      }
+    ]
+  },
+  {
+    "headword": "se renseigner",
+    "phonetic": "/sə ʁɑ̃.se.ɲe/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "chercher des informations",
+        "translations": {
+          "zh": "打听；咨询",
+          "en": "to find out, to inquire"
+        },
+        "examples": [
+          {
+            "text": "Je vais me renseigner sur les horaires.",
+            "cloze": "Je vais {{me renseigner}} sur les horaires.",
+            "translations": {
+              "zh": "我去打听一下时刻表。",
+              "en": "I'll find out about the timetable."
+            }
+          }
+        ],
+        "usageNote": "se renseigner sur qch；名词 un renseignement（信息）。"
+      }
+    ]
+  },
+  {
+    "headword": "confirmer",
+    "phonetic": "/kɔ̃.fiʁ.me/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "affirmer que qch est vrai ou certain",
+        "translations": {
+          "zh": "确认；证实",
+          "en": "to confirm"
+        },
+        "examples": [
+          {
+            "text": "Pouvez-vous confirmer votre réservation ?",
+            "translations": {
+              "zh": "您能确认一下预订吗？",
+              "en": "Could you confirm your booking?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "contredire",
+    "phonetic": "/kɔ̃.tʁə.diʁ/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "不规则：je contredis, vous contredisez；过去分词 contredit"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire le contraire de",
+        "translations": {
+          "zh": "反驳；与……矛盾",
+          "en": "to contradict"
+        },
+        "examples": [
+          {
+            "text": "Arrête de me contredire !",
+            "translations": {
+              "zh": "别再跟我唱反调了！",
+              "en": "Stop contradicting me!"
+            }
+          }
+        ],
+        "usageNote": "注意 vous contredisez（不同于 vous dites）。"
+      }
+    ]
+  },
+  {
+    "headword": "se disputer",
+    "phonetic": "/sə dis.py.te/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir une querelle",
+        "translations": {
+          "zh": "争吵",
+          "en": "to argue, to quarrel"
+        },
+        "examples": [
+          {
+            "text": "Ils se disputent tout le temps.",
+            "cloze": "Ils {{se disputent}} tout le temps.",
+            "translations": {
+              "zh": "他们总是吵架。",
+              "en": "They argue all the time."
+            }
+          }
+        ],
+        "usageNote": "se disputer avec qn。"
+      }
+    ]
+  },
+  {
+    "headword": "promettre",
+    "phonetic": "/pʁɔ.mɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "conjugation": "不规则：je promets, nous promettons；过去分词 promis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "s'engager à faire qch",
+        "translations": {
+          "zh": "答应；承诺",
+          "en": "to promise"
+        },
+        "examples": [
+          {
+            "text": "Je te promets de revenir.",
+            "cloze": "Je te {{promets}} de revenir.",
+            "translations": {
+              "zh": "我答应你会回来。",
+              "en": "I promise you I'll come back."
+            }
+          }
+        ],
+        "usageNote": "promettre à qn de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "refuser",
+    "phonetic": "/ʁə.fy.ze/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas accepter",
+        "translations": {
+          "zh": "拒绝",
+          "en": "to refuse"
+        },
+        "examples": [
+          {
+            "text": "Il a refusé de répondre.",
+            "cloze": "Il a {{refusé}} de répondre.",
+            "translations": {
+              "zh": "他拒绝回答。",
+              "en": "He refused to answer."
+            }
+          }
+        ],
+        "usageNote": "refuser de + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "accorder",
+    "phonetic": "/a.kɔʁ.de/",
+    "cefr": "B2",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner, permettre",
+        "translations": {
+          "zh": "给予；准许",
+          "en": "to grant, to give"
+        },
+        "examples": [
+          {
+            "text": "La banque lui a accordé un prêt.",
+            "cloze": "La banque lui a {{accordé}} un prêt.",
+            "translations": {
+              "zh": "银行给了他一笔贷款。",
+              "en": "The bank granted him a loan."
+            }
+          }
+        ],
+        "usageNote": "accorder de l'importance à qch：重视某事。"
+      }
+    ]
+  },
+  {
+    "headword": "interrompre",
+    "phonetic": "/ɛ̃.te.ʁɔ̃pʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "conjugation": "不规则：j'interromps, il interrompt；过去分词 interrompu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "couper la parole ; arrêter pour un temps",
+        "translations": {
+          "zh": "打断；中断",
+          "en": "to interrupt"
+        },
+        "examples": [
+          {
+            "text": "Excuse-moi de t'interrompre.",
+            "cloze": "Excuse-moi de t'{{interrompre}}.",
+            "translations": {
+              "zh": "不好意思打断你一下。",
+              "en": "Sorry to interrupt you."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "transformer",
+    "phonetic": "/tʁɑ̃s.fɔʁ.me/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "changer complètement",
+        "translations": {
+          "zh": "改变；转变",
+          "en": "to transform"
+        },
+        "examples": [
+          {
+            "text": "Ce voyage a transformé sa vie.",
+            "cloze": "Ce voyage a {{transformé}} sa vie.",
+            "translations": {
+              "zh": "这次旅行改变了他的人生。",
+              "en": "This trip transformed his life."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "modifier",
+    "phonetic": "/mɔ.di.fje/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "changer en partie",
+        "translations": {
+          "zh": "修改；更改",
+          "en": "to modify, to change"
+        },
+        "examples": [
+          {
+            "text": "J'ai modifié mon mot de passe.",
+            "cloze": "J'ai {{modifié}} mon mot de passe.",
+            "translations": {
+              "zh": "我改了密码。",
+              "en": "I changed my password."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "évoluer",
+    "phonetic": "/e.vɔ.lɥe/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "changer progressivement",
+        "translations": {
+          "zh": "发展；演变",
+          "en": "to evolve, to develop"
+        },
+        "examples": [
+          {
+            "text": "La situation évolue rapidement.",
+            "cloze": "La situation {{évolue}} rapidement.",
+            "translations": {
+              "zh": "形势变化很快。",
+              "en": "The situation is changing quickly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "développer",
+    "phonetic": "/de.vlɔ.pe/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire grandir, faire progresser",
+        "translations": {
+          "zh": "发展；开发",
+          "en": "to develop"
+        },
+        "examples": [
+          {
+            "text": "L'entreprise veut développer ses ventes en Asie.",
+            "translations": {
+              "zh": "公司想扩大在亚洲的销售。",
+              "en": "The company wants to develop its sales in Asia."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "améliorer",
+    "phonetic": "/a.me.ljɔ.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rendre meilleur",
+        "translations": {
+          "zh": "改善；提高",
+          "en": "to improve"
+        },
+        "examples": [
+          {
+            "text": "Je veux améliorer mon français.",
+            "translations": {
+              "zh": "我想提高我的法语。",
+              "en": "I want to improve my French."
+            }
+          }
+        ],
+        "usageNote": "s'améliorer：（自身）变好。"
+      }
+    ]
+  },
+  {
+    "headword": "aggraver",
+    "phonetic": "/a.ɡʁa.ve/",
+    "cefr": "B2",
+    "frequencyRank": 3300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rendre plus grave",
+        "translations": {
+          "zh": "加重；使恶化",
+          "en": "to aggravate, to worsen"
+        },
+        "examples": [
+          {
+            "text": "Le froid a aggravé sa maladie.",
+            "cloze": "Le froid a {{aggravé}} sa maladie.",
+            "translations": {
+              "zh": "寒冷加重了他的病情。",
+              "en": "The cold made his illness worse."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "augmenter",
+    "phonetic": "/ɔɡ.mɑ̃.te/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "devenir ou rendre plus grand",
+        "translations": {
+          "zh": "增加；上涨",
+          "en": "to increase, to rise"
+        },
+        "examples": [
+          {
+            "text": "Les prix ont beaucoup augmenté.",
+            "cloze": "Les prix ont beaucoup {{augmenté}}.",
+            "translations": {
+              "zh": "物价涨了很多。",
+              "en": "Prices have gone up a lot."
+            }
+          }
+        ],
+        "usageNote": "名词 une augmentation（增长；加薪）。"
+      }
+    ]
+  },
+  {
+    "headword": "diminuer",
+    "phonetic": "/di.mi.nɥe/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "devenir ou rendre plus petit",
+        "translations": {
+          "zh": "减少；降低",
+          "en": "to decrease, to reduce"
+        },
+        "examples": [
+          {
+            "text": "Le chômage diminue lentement.",
+            "cloze": "Le chômage {{diminue}} lentement.",
+            "translations": {
+              "zh": "失业率在缓慢下降。",
+              "en": "Unemployment is slowly falling."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "réduire",
+    "phonetic": "/ʁe.dɥiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "conjugation": "不规则：je réduis, nous réduisons；过去分词 réduit"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rendre plus petit, moins important",
+        "translations": {
+          "zh": "减少；缩小",
+          "en": "to reduce"
+        },
+        "examples": [
+          {
+            "text": "Il faut réduire nos dépenses.",
+            "translations": {
+              "zh": "我们得减少开支。",
+              "en": "We need to cut our spending."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "remplacer",
+    "phonetic": "/ʁɑ̃.pla.se/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous remplaçons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "mettre à la place de",
+        "translations": {
+          "zh": "替换；代替",
+          "en": "to replace"
+        },
+        "examples": [
+          {
+            "text": "Qui va remplacer le directeur ?",
+            "translations": {
+              "zh": "谁来接替经理？",
+              "en": "Who is going to replace the director?"
+            }
+          }
+        ],
+        "usageNote": "remplacer A par B：用 B 替换 A。"
+      }
+    ]
+  },
+  {
+    "headword": "s'adapter",
+    "phonetic": "/sa.dap.te/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "changer pour convenir à une situation",
+        "translations": {
+          "zh": "适应",
+          "en": "to adapt"
+        },
+        "examples": [
+          {
+            "text": "Les enfants s'adaptent vite.",
+            "cloze": "Les enfants {{s'adaptent}} vite.",
+            "translations": {
+              "zh": "孩子们适应得很快。",
+              "en": "Children adapt quickly."
+            }
+          }
+        ],
+        "usageNote": "s'adapter à qch。"
+      }
+    ]
+  },
+  {
+    "headword": "s'habituer",
+    "phonetic": "/sa.bi.tɥe/",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prendre l'habitude de qch",
+        "translations": {
+          "zh": "习惯于",
+          "en": "to get used to"
+        },
+        "examples": [
+          {
+            "text": "Je me suis habitué au froid.",
+            "cloze": "Je {{me suis habitué}} au froid.",
+            "translations": {
+              "zh": "我已经习惯了寒冷。",
+              "en": "I've got used to the cold."
+            }
+          }
+        ],
+        "usageNote": "s'habituer à + 名词/不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "progresser",
+    "phonetic": "/pʁɔ.ɡʁɛ.se/",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avancer, s'améliorer",
+        "translations": {
+          "zh": "进步；进展",
+          "en": "to progress, to improve"
+        },
+        "examples": [
+          {
+            "text": "Tu as beaucoup progressé en français.",
+            "cloze": "Tu as beaucoup {{progressé}} en français.",
+            "translations": {
+              "zh": "你的法语进步很大。",
+              "en": "Your French has improved a lot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "disparaître",
+    "phonetic": "/dis.pa.ʁɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "conjugation": "不规则：je disparais, il disparaît, nous disparaissons；过去分词 disparu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "cesser d'être visible ou d'exister",
+        "translations": {
+          "zh": "消失",
+          "en": "to disappear"
+        },
+        "examples": [
+          {
+            "text": "Mes clés ont disparu.",
+            "cloze": "Mes clés ont {{disparu}}.",
+            "translations": {
+              "zh": "我的钥匙不见了。",
+              "en": "My keys have disappeared."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "apparaître",
+    "phonetic": "/a.pa.ʁɛtʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "conjugation": "不规则：il apparaît, nous apparaissons；过去分词 apparu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "devenir visible ; se montrer",
+        "translations": {
+          "zh": "出现",
+          "en": "to appear"
+        },
+        "examples": [
+          {
+            "text": "Un message apparaît à l'écran.",
+            "cloze": "Un message {{apparaît}} à l'écran.",
+            "translations": {
+              "zh": "屏幕上出现一条消息。",
+              "en": "A message appears on the screen."
+            }
+          }
+        ],
+        "usageNote": "复合时态用 être：il est apparu。"
+      }
+    ]
+  },
+  {
+    "headword": "supprimer",
+    "phonetic": "/sy.pʁi.me/",
+    "cefr": "B1",
+    "frequencyRank": 2100,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire disparaître, enlever",
+        "translations": {
+          "zh": "删除；取消",
+          "en": "to delete, to remove"
+        },
+        "examples": [
+          {
+            "text": "J'ai supprimé ce fichier par erreur.",
+            "cloze": "J'ai {{supprimé}} ce fichier par erreur.",
+            "translations": {
+              "zh": "我误删了这个文件。",
+              "en": "I deleted this file by mistake."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "adopter",
+    "phonetic": "/a.dɔp.te/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "choisir et appliquer",
+        "translations": {
+          "zh": "采取；采纳；通过",
+          "en": "to adopt"
+        },
+        "examples": [
+          {
+            "text": "Le pays a adopté une nouvelle loi.",
+            "cloze": "Le pays a {{adopté}} une nouvelle loi.",
+            "translations": {
+              "zh": "该国通过了一项新法律。",
+              "en": "The country adopted a new law."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "prendre légalement un enfant comme sien",
+        "translations": {
+          "zh": "收养",
+          "en": "to adopt (a child)"
+        },
+        "examples": [
+          {
+            "text": "Ils ont adopté une petite fille.",
+            "translations": {
+              "zh": "他们收养了一个小女孩。",
+              "en": "They adopted a little girl."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "provoquer",
+    "phonetic": "/pʁɔ.vɔ.ke/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être la cause de",
+        "translations": {
+          "zh": "引起；造成",
+          "en": "to cause, to provoke"
+        },
+        "examples": [
+          {
+            "text": "L'orage a provoqué des inondations.",
+            "cloze": "L'orage a {{provoqué}} des inondations.",
+            "translations": {
+              "zh": "暴风雨引发了洪水。",
+              "en": "The storm caused flooding."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "causer",
+    "phonetic": "/ko.ze/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être la cause de",
+        "translations": {
+          "zh": "造成；引起",
+          "en": "to cause"
+        },
+        "examples": [
+          {
+            "text": "L'accident a causé trois blessés.",
+            "cloze": "L'accident a {{causé}} trois blessés.",
+            "translations": {
+              "zh": "事故造成三人受伤。",
+              "en": "The accident left three people injured."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "(familier) bavarder",
+        "translations": {
+          "zh": "聊天",
+          "en": "to chat"
+        },
+        "examples": [
+          {
+            "text": "On a causé toute la soirée.",
+            "translations": {
+              "zh": "我们聊了一整晚。",
+              "en": "We chatted all evening."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "entraîner",
+    "phonetic": "/ɑ̃.tʁɛ.ne/",
+    "cefr": "B2",
+    "frequencyRank": 1400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir pour conséquence",
+        "translations": {
+          "zh": "导致；带来",
+          "en": "to lead to, to entail"
+        },
+        "examples": [
+          {
+            "text": "Ce choix va entraîner des problèmes.",
+            "translations": {
+              "zh": "这个选择会带来问题。",
+              "en": "This choice will lead to problems."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "préparer par des exercices",
+        "translations": {
+          "zh": "训练",
+          "en": "to train"
+        },
+        "examples": [
+          {
+            "text": "Il entraîne l'équipe de foot du village.",
+            "translations": {
+              "zh": "他训练村里的足球队。",
+              "en": "He coaches the village football team."
+            }
+          }
+        ],
+        "usageNote": "s'entraîner：（自己）训练、练习。"
+      }
+    ]
+  },
+  {
+    "headword": "dépendre",
+    "phonetic": "/de.pɑ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être lié à, être soumis à",
+        "translations": {
+          "zh": "取决于；依赖",
+          "en": "to depend"
+        },
+        "examples": [
+          {
+            "text": "Ça dépend du temps.",
+            "cloze": "Ça {{dépend}} du temps.",
+            "translations": {
+              "zh": "这要看天气。",
+              "en": "It depends on the weather."
+            }
+          }
+        ],
+        "usageNote": "dépendre de qch；Ça dépend.（看情况。）"
+      }
+    ]
+  },
+  {
+    "headword": "résulter",
+    "phonetic": "/ʁe.zyl.te/",
+    "cefr": "B2",
+    "frequencyRank": 3200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être la conséquence de",
+        "translations": {
+          "zh": "产生于；由……造成",
+          "en": "to result"
+        },
+        "examples": [
+          {
+            "text": "Il en résulte une grande confusion.",
+            "cloze": "Il en {{résulte}} une grande confusion.",
+            "translations": {
+              "zh": "结果造成了很大的混乱。",
+              "en": "A great deal of confusion results from it."
+            }
+          }
+        ],
+        "usageNote": "résulter de qch；常用无人称 il en résulte que……"
+      }
+    ]
+  },
+  {
+    "headword": "influencer",
+    "phonetic": "/ɛ̃.fly.ɑ̃.se/",
+    "cefr": "B1",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous influençons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir un effet sur",
+        "translations": {
+          "zh": "影响",
+          "en": "to influence"
+        },
+        "examples": [
+          {
+            "text": "La publicité influence nos choix.",
+            "cloze": "La publicité {{influence}} nos choix.",
+            "translations": {
+              "zh": "广告影响我们的选择。",
+              "en": "Advertising influences our choices."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "contribuer",
+    "phonetic": "/kɔ̃.tʁi.bɥe/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "participer à un résultat",
+        "translations": {
+          "zh": "有助于；贡献",
+          "en": "to contribute"
+        },
+        "examples": [
+          {
+            "text": "Le sport contribue à une bonne santé.",
+            "cloze": "Le sport {{contribue}} à une bonne santé.",
+            "translations": {
+              "zh": "运动有益于健康。",
+              "en": "Sport contributes to good health."
+            }
+          }
+        ],
+        "usageNote": "contribuer à qch / à + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "favoriser",
+    "phonetic": "/fa.vɔ.ʁi.ze/",
+    "cefr": "B2",
+    "frequencyRank": 2400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "aider au développement de",
+        "translations": {
+          "zh": "促进；有利于",
+          "en": "to promote, to favour"
+        },
+        "examples": [
+          {
+            "text": "Le soleil favorise la croissance des plantes.",
+            "cloze": "Le soleil {{favorise}} la croissance des plantes.",
+            "translations": {
+              "zh": "阳光促进植物生长。",
+              "en": "Sunshine promotes plant growth."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "susciter",
+    "phonetic": "/sy.si.te/",
+    "cefr": "B2",
+    "frequencyRank": 3100,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire naître (un sentiment, une réaction)",
+        "translations": {
+          "zh": "引起；激起",
+          "en": "to arouse, to give rise to"
+        },
+        "examples": [
+          {
+            "text": "Cette décision a suscité beaucoup de critiques.",
+            "cloze": "Cette décision a {{suscité}} beaucoup de critiques.",
+            "translations": {
+              "zh": "这个决定招致了很多批评。",
+              "en": "This decision drew a lot of criticism."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "aboutir",
+    "phonetic": "/a.bu.tiʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "arriver à un résultat",
+        "translations": {
+          "zh": "取得结果；最终导致",
+          "en": "to succeed, to result in"
+        },
+        "examples": [
+          {
+            "text": "Les négociations n'ont pas abouti.",
+            "cloze": "Les négociations n'ont pas {{abouti}}.",
+            "translations": {
+              "zh": "谈判没有取得结果。",
+              "en": "The negotiations came to nothing."
+            }
+          }
+        ],
+        "usageNote": "aboutir à qch：最终导致、通向。"
+      }
+    ]
+  },
+  {
+    "headword": "mener",
+    "phonetic": "/mə.ne/",
+    "cefr": "B1",
+    "frequencyRank": 1100,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je mène, nous menons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "conduire vers ; diriger",
+        "translations": {
+          "zh": "通向；带领",
+          "en": "to lead"
+        },
+        "examples": [
+          {
+            "text": "Cette route mène au village.",
+            "cloze": "Cette route {{mène}} au village.",
+            "translations": {
+              "zh": "这条路通往村子。",
+              "en": "This road leads to the village."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "réaliser, conduire (une enquête, un projet)",
+        "translations": {
+          "zh": "进行；开展",
+          "en": "to carry out, to conduct"
+        },
+        "examples": [
+          {
+            "text": "La police mène l'enquête.",
+            "translations": {
+              "zh": "警方正在调查。",
+              "en": "The police are conducting the investigation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "servir à",
+    "phonetic": "/sɛʁ.viʁ a/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "conjugation": "不规则：je sers, nous servons；过去分词 servi"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir pour utilité",
+        "translations": {
+          "zh": "用于；用来",
+          "en": "to be used for"
+        },
+        "examples": [
+          {
+            "text": "Ça sert à quoi, ce bouton ?",
+            "cloze": "Ça {{sert à}} quoi, ce bouton ?",
+            "translations": {
+              "zh": "这个按钮是干什么用的？",
+              "en": "What's this button for?"
+            }
+          }
+        ],
+        "usageNote": "Ça ne sert à rien.（没用。）"
+      }
+    ]
+  },
+  {
+    "headword": "renoncer",
+    "phonetic": "/ʁə.nɔ̃.se/",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous renonçons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "abandonner une idée, un projet",
+        "translations": {
+          "zh": "放弃",
+          "en": "to give up"
+        },
+        "examples": [
+          {
+            "text": "Il a renoncé à son voyage.",
+            "cloze": "Il a {{renoncé}} à son voyage.",
+            "translations": {
+              "zh": "他放弃了旅行。",
+              "en": "He gave up on his trip."
+            }
+          }
+        ],
+        "usageNote": "renoncer à qch / à + 不定式。"
+      }
+    ]
+  },
+  {
+    "headword": "opter",
+    "phonetic": "/ɔp.te/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "choisir entre plusieurs possibilités",
+        "translations": {
+          "zh": "选择",
+          "en": "to opt"
+        },
+        "examples": [
+          {
+            "text": "Nous avons opté pour le train.",
+            "cloze": "Nous avons {{opté}} pour le train.",
+            "translations": {
+              "zh": "我们选择了坐火车。",
+              "en": "We opted for the train."
+            }
+          }
+        ],
+        "usageNote": "opter pour qch。"
+      }
+    ]
+  },
+  {
+    "headword": "trancher",
+    "phonetic": "/tʁɑ̃.ʃe/",
+    "cefr": "B2",
+    "frequencyRank": 4200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prendre une décision nette",
+        "translations": {
+          "zh": "裁决；果断决定",
+          "en": "to decide, to settle"
+        },
+        "examples": [
+          {
+            "text": "C'est au juge de trancher.",
+            "translations": {
+              "zh": "这要由法官来裁决。",
+              "en": "It's up to the judge to decide."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "couper en tranches",
+        "translations": {
+          "zh": "切开；切片",
+          "en": "to slice"
+        },
+        "examples": [
+          {
+            "text": "Tranchez le pain finement.",
+            "translations": {
+              "zh": "把面包切成薄片。",
+              "en": "Slice the bread thinly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "parvenir",
+    "phonetic": "/paʁ.və.niʁ/",
+    "cefr": "B2",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "conjugation": "不规则（同 venir）：je parviens, nous parvenons；过去分词 parvenu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "réussir à ; arriver à",
+        "translations": {
+          "zh": "成功做到；到达",
+          "en": "to manage, to reach"
+        },
+        "examples": [
+          {
+            "text": "Il est parvenu à convaincre son patron.",
+            "cloze": "Il est {{parvenu}} à convaincre son patron.",
+            "translations": {
+              "zh": "他终于说服了老板。",
+              "en": "He managed to convince his boss."
+            }
+          }
+        ],
+        "usageNote": "parvenir à + 不定式，比 réussir à 正式；复合时态用 être。"
+      }
+    ]
+  },
+  {
+    "headword": "échouer",
+    "phonetic": "/e.ʃwe/",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas réussir",
+        "translations": {
+          "zh": "失败",
+          "en": "to fail"
+        },
+        "examples": [
+          {
+            "text": "Il a échoué à l'examen.",
+            "cloze": "Il a {{échoué}} à l'examen.",
+            "translations": {
+              "zh": "他考试没通过。",
+              "en": "He failed the exam."
+            }
+          }
+        ],
+        "usageNote": "échouer à un examen：考试不及格。"
+      }
+    ]
+  },
+  {
+    "headword": "tenter",
+    "phonetic": "/tɑ̃.te/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "essayer",
+        "translations": {
+          "zh": "尝试；试图",
+          "en": "to try, to attempt"
+        },
+        "examples": [
+          {
+            "text": "Il a tenté de s'échapper.",
+            "cloze": "Il a {{tenté}} de s'échapper.",
+            "translations": {
+              "zh": "他试图逃跑。",
+              "en": "He tried to escape."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner envie",
+        "translations": {
+          "zh": "吸引；诱惑",
+          "en": "to tempt"
+        },
+        "examples": [
+          {
+            "text": "Ça te tente, un ciné ce soir ?",
+            "translations": {
+              "zh": "今晚去看电影，你有兴趣吗？",
+              "en": "Do you fancy a film tonight?"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1204 @@
+[
+ {
+  "headword": "déceler",
+  "phonetic": "/des.le/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "découvrir ce qui est caché ou peu visible",
+    "translations": {
+     "zh": "察觉；发现",
+     "en": "to detect, to discover"
+    },
+    "examples": [
+     {
+      "text": "Les experts ont décelé plusieurs anomalies dans les comptes.",
+      "translations": {
+       "zh": "专家们在账目中发现了几处异常。",
+       "en": "The experts detected several anomalies in the accounts."
+      },
+      "cloze": "Les experts ont {{décelé}} plusieurs anomalies dans les comptes."
+     }
+    ],
+    "usageNote": "变位 je décèle（e→è）；déceler une erreur / une faille。"
+   }
+  ]
+ },
+ {
+  "headword": "discerner",
+  "phonetic": "/di.sɛʁ.ne/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "distinguer par la vue ou par l'esprit",
+    "translations": {
+     "zh": "辨别；看出",
+     "en": "to discern, to distinguish"
+    },
+    "examples": [
+     {
+      "text": "Il est parfois difficile de discerner le vrai du faux.",
+      "translations": {
+       "zh": "有时很难辨别真假。",
+       "en": "It is sometimes hard to tell truth from falsehood."
+      }
+     }
+    ],
+    "usageNote": "discerner A de B；名词 discernement（判断力）。"
+   }
+  ]
+ },
+ {
+  "headword": "fustiger",
+  "phonetic": "/fys.ti.ʒe/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "critiquer avec violence",
+    "translations": {
+     "zh": "严厉批评；抨击",
+     "en": "to castigate, to lambast"
+    },
+    "examples": [
+     {
+      "text": "L'éditorial fustige l'inaction du gouvernement.",
+      "translations": {
+       "zh": "社论猛烈抨击政府的不作为。",
+       "en": "The editorial lambasts the government's inaction."
+      },
+      "cloze": "L'éditorial {{fustige}} l'inaction du gouvernement."
+     }
+    ],
+    "usageNote": "书面语，多见于新闻评论；nous fustigeons（g 后加 e）。"
+   }
+  ]
+ },
+ {
+  "headword": "récuser",
+  "phonetic": "/ʁe.ky.ze/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "refuser d'admettre l'autorité ou la validité de",
+    "translations": {
+     "zh": "否认；拒绝接受",
+     "en": "to reject, to challenge"
+    },
+    "examples": [
+     {
+      "text": "Le chercheur récuse cette interprétation de ses travaux.",
+      "translations": {
+       "zh": "这位研究者不接受对其研究的这种解读。",
+       "en": "The researcher rejects this interpretation of his work."
+      },
+      "cloze": "Le chercheur {{récuse}} cette interprétation de ses travaux."
+     }
+    ],
+    "usageNote": "法律用语：要求（法官、证人）回避。"
+   }
+  ]
+ },
+ {
+  "headword": "concéder",
+  "phonetic": "/kɔ̃.se.de/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "admettre un point de vue opposé",
+    "translations": {
+     "zh": "承认；让步",
+     "en": "to concede, to grant"
+    },
+    "examples": [
+     {
+      "text": "Je vous concède que l'argument est solide.",
+      "translations": {
+       "zh": "我承认这个论点很有力。",
+       "en": "I grant you that the argument is sound."
+      },
+      "cloze": "Je vous {{concède}} que l'argument est solide."
+     }
+    ],
+    "usageNote": "concéder que + 直陈式；je concède（é→è）；名词 concession。"
+   }
+  ]
+ },
+ {
+  "headword": "se démarquer",
+  "phonetic": "/sə de.maʁ.ke/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se distinguer des autres, prendre ses distances",
+    "translations": {
+     "zh": "与众不同；划清界限",
+     "en": "to stand out, to distance oneself"
+    },
+    "examples": [
+     {
+      "text": "Cette entreprise se démarque par son originalité.",
+      "translations": {
+       "zh": "这家公司以其独创性脱颖而出。",
+       "en": "This company stands out for its originality."
+      },
+      "cloze": "Cette entreprise {{se démarque}} par son originalité."
+     }
+    ],
+    "usageNote": "se démarquer de qn/qch：与…区别开来。"
+   }
+  ]
+ },
+ {
+  "headword": "attiser",
+  "phonetic": "/a.ti.ze/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre plus vif (un conflit, une passion)",
+    "translations": {
+     "zh": "煽动；激化",
+     "en": "to stir up, to fuel"
+    },
+    "examples": [
+     {
+      "text": "Ces déclarations ont attisé la colère des manifestants.",
+      "translations": {
+       "zh": "这些言论激起了示威者的怒火。",
+       "en": "These statements fuelled the protesters' anger."
+      },
+      "cloze": "Ces déclarations ont {{attisé}} la colère des manifestants."
+     }
+    ],
+    "usageNote": "本义“拨旺（火）”；attiser la haine / les tensions。"
+   }
+  ]
+ },
+ {
+  "headword": "véhiculer",
+  "phonetic": "/ve.i.ky.le/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "transmettre, diffuser (des idées, des valeurs)",
+    "translations": {
+     "zh": "传播；传递",
+     "en": "to convey, to carry"
+    },
+    "examples": [
+     {
+      "text": "La publicité véhicule souvent des stéréotypes.",
+      "translations": {
+       "zh": "广告常常传播刻板印象。",
+       "en": "Advertising often conveys stereotypes."
+      },
+      "cloze": "La publicité {{véhicule}} souvent des stéréotypes."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se traduire par",
+  "phonetic": "/sə tʁa.dɥiʁ paʁ/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 conduire：il se traduit, ils se traduisent；过去分词 traduit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir pour résultat concret, se manifester par",
+    "translations": {
+     "zh": "表现为；体现为",
+     "en": "to result in, to translate into"
+    },
+    "examples": [
+     {
+      "text": "La réforme s'est traduite par une baisse des impôts.",
+      "translations": {
+       "zh": "这项改革带来了减税。",
+       "en": "The reform resulted in a tax cut."
+      },
+      "cloze": "La réforme {{s'est traduite par}} une baisse des impôts."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "témoigner de",
+  "phonetic": "/te.mwa.ɲe də/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être la preuve, le signe de",
+    "translations": {
+     "zh": "证明；显示出",
+     "en": "to bear witness to, to show"
+    },
+    "examples": [
+     {
+      "text": "Ce succès témoigne de la qualité du travail accompli.",
+      "translations": {
+       "zh": "这一成功证明了所做工作的质量。",
+       "en": "This success shows the quality of the work done."
+      },
+      "cloze": "Ce succès {{témoigne de}} la qualité du travail accompli."
+     }
+    ],
+    "usageNote": "témoigner 单用时指“作证”；témoigner de 表示“表明，证明”。"
+   }
+  ]
+ },
+ {
+  "headword": "attester",
+  "phonetic": "/a.tɛs.te/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prouver, certifier l'existence ou la vérité de",
+    "translations": {
+     "zh": "证明；证实",
+     "en": "to attest, to prove"
+    },
+    "examples": [
+     {
+      "text": "Ces documents attestent l'existence du village au Moyen Âge.",
+      "translations": {
+       "zh": "这些文献证明该村庄在中世纪就已存在。",
+       "en": "These documents attest to the village's existence in the Middle Ages."
+      },
+      "cloze": "Ces documents {{attestent}} l'existence du village au Moyen Âge."
+     }
+    ],
+    "usageNote": "名词 attestation：证明（文件）。"
+   }
+  ]
+ },
+ {
+  "headword": "déboucher sur",
+  "phonetic": "/de.bu.ʃe syʁ/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aboutir à, avoir pour résultat",
+    "translations": {
+     "zh": "导致；产生（结果）",
+     "en": "to lead to, to result in"
+    },
+    "examples": [
+     {
+      "text": "Les négociations ont débouché sur un accord historique.",
+      "translations": {
+       "zh": "谈判达成了一项历史性协议。",
+       "en": "The negotiations led to a historic agreement."
+      },
+      "cloze": "Les négociations ont {{débouché sur}} un accord historique."
+     }
+    ],
+    "usageNote": "本义“（道路）通向”；名词 débouché：出路，销路。"
+   }
+  ]
+ },
+ {
+  "headword": "s'ensuivre",
+  "phonetic": "/sɑ̃.sɥivʁ/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 suivre，只用第三人称：il s'ensuit, ils s'ensuivent；过去分词 ensuivi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "venir ensuite comme conséquence",
+    "translations": {
+     "zh": "随之而来；由此产生",
+     "en": "to ensue, to follow"
+    },
+    "examples": [
+     {
+      "text": "Il s'ensuit que la théorie doit être révisée.",
+      "translations": {
+       "zh": "由此可见，这一理论必须修正。",
+       "en": "It follows that the theory must be revised."
+      },
+      "cloze": "Il {{s'ensuit}} que la théorie doit être révisée."
+     }
+    ],
+    "usageNote": "常用无人称结构 il s'ensuit que…（由此得出）。"
+   }
+  ]
+ },
+ {
+  "headword": "conditionner",
+  "phonetic": "/kɔ̃.di.sjɔ.ne/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être la condition nécessaire de",
+    "translations": {
+     "zh": "决定；制约",
+     "en": "to determine, to govern"
+    },
+    "examples": [
+     {
+      "text": "La réussite du projet conditionne la suite des financements.",
+      "translations": {
+       "zh": "项目的成败决定了后续资金。",
+       "en": "The project's success determines further funding."
+      },
+      "cloze": "La réussite du projet {{conditionne}} la suite des financements."
+     }
+    ],
+    "usageNote": "另有“包装”和“使形成条件反射”之义。"
+   }
+  ]
+ },
+ {
+  "headword": "influer sur",
+  "phonetic": "/ɛ̃.fly.e syʁ/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "exercer une influence sur",
+    "translations": {
+     "zh": "影响",
+     "en": "to influence, to have an effect on"
+    },
+    "examples": [
+     {
+      "text": "Le climat influe sur le comportement des consommateurs.",
+      "translations": {
+       "zh": "气候会影响消费者的行为。",
+       "en": "The climate influences consumer behaviour."
+      },
+      "cloze": "Le climat {{influe sur}} le comportement des consommateurs."
+     }
+    ],
+    "usageNote": "书面语，比 influencer 更正式；注意拼写 influer，不是 influencer。"
+   }
+  ]
+ },
+ {
+  "headword": "compromettre",
+  "phonetic": "/kɔ̃.pʁɔ.mɛtʁ/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 mettre：je compromets, nous compromettons；过去分词 compromis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "exposer à un danger, nuire à",
+    "translations": {
+     "zh": "危及；损害",
+     "en": "to jeopardize, to compromise"
+    },
+    "examples": [
+     {
+      "text": "Ce scandale pourrait compromettre sa carrière.",
+      "translations": {
+       "zh": "这桩丑闻可能会断送他的前程。",
+       "en": "This scandal could jeopardize his career."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "hypothéquer",
+  "phonetic": "/i.pɔ.te.ke/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "compromettre par avance (l'avenir)",
+    "translations": {
+     "zh": "危及（未来）；抵押",
+     "en": "to jeopardize, to mortgage"
+    },
+    "examples": [
+     {
+      "text": "Cette dette hypothèque l'avenir des générations futures.",
+      "translations": {
+       "zh": "这笔债务危及子孙后代的未来。",
+       "en": "This debt jeopardizes the future of generations to come."
+      },
+      "cloze": "Cette dette {{hypothèque}} l'avenir des générations futures."
+     }
+    ],
+    "usageNote": "本义“抵押”；il hypothèque（é→è）。"
+   }
+  ]
+ },
+ {
+  "headword": "saper",
+  "phonetic": "/sa.pe/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "affaiblir progressivement, détruire les bases de",
+    "translations": {
+     "zh": "暗中破坏；削弱",
+     "en": "to undermine"
+    },
+    "examples": [
+     {
+      "text": "Ces rumeurs sapent la confiance du public.",
+      "translations": {
+       "zh": "这些谣言在削弱公众的信任。",
+       "en": "These rumours are undermining public confidence."
+      },
+      "cloze": "Ces rumeurs {{sapent}} la confiance du public."
+     }
+    ],
+    "usageNote": "saper le moral：打击士气。"
+   }
+  ]
+ },
+ {
+  "headword": "ébranler",
+  "phonetic": "/e.bʁɑ̃.le/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre moins solide, faire douter",
+    "translations": {
+     "zh": "动摇",
+     "en": "to shake"
+    },
+    "examples": [
+     {
+      "text": "La crise a ébranlé les certitudes des économistes.",
+      "translations": {
+       "zh": "这场危机动摇了经济学家们的信念。",
+       "en": "The crisis shook economists' certainties."
+      },
+      "cloze": "La crise a {{ébranlé}} les certitudes des économistes."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fragiliser",
+  "phonetic": "/fʁa.ʒi.li.ze/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre plus fragile, plus vulnérable",
+    "translations": {
+     "zh": "削弱；使脆弱",
+     "en": "to weaken"
+    },
+    "examples": [
+     {
+      "text": "La guerre commerciale fragilise les petites entreprises.",
+      "translations": {
+       "zh": "贸易战削弱了小企业。",
+       "en": "The trade war is weakening small businesses."
+      },
+      "cloze": "La guerre commerciale {{fragilise}} les petites entreprises."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se pencher sur",
+  "phonetic": "/sə pɑ̃.ʃe syʁ/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "examiner avec attention",
+    "translations": {
+     "zh": "研究；关注",
+     "en": "to look into, to examine"
+    },
+    "examples": [
+     {
+      "text": "La commission va se pencher sur ce dossier.",
+      "translations": {
+       "zh": "委员会将研究这一案子。",
+       "en": "The commission will look into this matter."
+      },
+      "cloze": "La commission va {{se pencher sur}} ce dossier."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "esquisser",
+  "phonetic": "/ɛs.ki.se/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "présenter dans ses grandes lignes",
+    "translations": {
+     "zh": "勾勒；概述",
+     "en": "to outline, to sketch"
+    },
+    "examples": [
+     {
+      "text": "Le rapport esquisse quelques pistes de réflexion.",
+      "translations": {
+       "zh": "报告概述了几条思路。",
+       "en": "The report outlines a few avenues for reflection."
+      },
+      "cloze": "Le rapport {{esquisse}} quelques pistes de réflexion."
+     }
+    ],
+    "usageNote": "esquisser un sourire：微微一笑；名词 esquisse（草图、梗概）。"
+   }
+  ]
+ },
+ {
+  "headword": "recenser",
+  "phonetic": "/ʁə.sɑ̃.se/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dénombrer, faire l'inventaire de",
+    "translations": {
+     "zh": "统计；清点",
+     "en": "to list, to count"
+    },
+    "examples": [
+     {
+      "text": "L'étude recense plus de deux cents espèces.",
+      "translations": {
+       "zh": "该研究统计了两百多个物种。",
+       "en": "The study lists more than two hundred species."
+      },
+      "cloze": "L'étude {{recense}} plus de deux cents espèces."
+     }
+    ],
+    "usageNote": "名词 recensement：人口普查。"
+   }
+  ]
+ },
+ {
+  "headword": "synthétiser",
+  "phonetic": "/sɛ̃.te.ti.ze/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "résumer en rassemblant l'essentiel",
+    "translations": {
+     "zh": "综合；归纳",
+     "en": "to synthesize, to sum up"
+    },
+    "examples": [
+     {
+      "text": "Pouvez-vous synthétiser les principaux arguments ?",
+      "translations": {
+       "zh": "您能归纳一下主要论点吗？",
+       "en": "Can you sum up the main arguments?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "récapituler",
+  "phonetic": "/ʁe.ka.pi.ty.le/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "reprendre en résumant les points principaux",
+    "translations": {
+     "zh": "概括；扼要重述",
+     "en": "to recap, to summarize"
+    },
+    "examples": [
+     {
+      "text": "Récapitulons les points essentiels de la discussion.",
+      "translations": {
+       "zh": "我们来概括一下讨论的要点。",
+       "en": "Let us recap the key points of the discussion."
+      },
+      "cloze": "{{Récapitulons}} les points essentiels de la discussion."
+     }
+    ],
+    "usageNote": "口语缩写 récap。"
+   }
+  ]
+ },
+ {
+  "headword": "corréler",
+  "phonetic": "/kɔ.ʁe.le/",
+  "cefr": "C1",
+  "frequencyRank": 18000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "établir une relation entre deux phénomènes",
+    "translations": {
+     "zh": "使相关；把…联系起来",
+     "en": "to correlate"
+    },
+    "examples": [
+     {
+      "text": "Le niveau d'études est corrélé à l'espérance de vie.",
+      "translations": {
+       "zh": "受教育程度与预期寿命相关。",
+       "en": "Level of education is correlated with life expectancy."
+      },
+      "cloze": "Le niveau d'études est {{corrélé}} à l'espérance de vie."
+     }
+    ],
+    "usageNote": "多用被动：être corrélé à / avec qch；il corrèle（é→è）。"
+   }
+  ]
+ },
+ {
+  "headword": "assimiler",
+  "phonetic": "/a.si.mi.le/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "considérer comme semblable à",
+    "translations": {
+     "zh": "把…等同于",
+     "en": "to equate, to liken"
+    },
+    "examples": [
+     {
+      "text": "On ne peut pas assimiler critique et hostilité.",
+      "translations": {
+       "zh": "不能把批评和敌意混为一谈。",
+       "en": "Criticism cannot be equated with hostility."
+      }
+     }
+    ],
+    "usageNote": "assimiler A à B。"
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "comprendre et intégrer des connaissances",
+    "translations": {
+     "zh": "吸收；消化（知识）",
+     "en": "to absorb, to take in"
+    },
+    "examples": [
+     {
+      "text": "Les élèves ont du mal à assimiler toutes ces notions.",
+      "translations": {
+       "zh": "学生们很难消化所有这些概念。",
+       "en": "The pupils struggle to take in all these notions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "amalgamer",
+  "phonetic": "/a.mal.ɡa.me/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "confondre abusivement des choses différentes",
+    "translations": {
+     "zh": "混为一谈",
+     "en": "to lump together"
+    },
+    "examples": [
+     {
+      "text": "Il ne faut pas amalgamer des situations si différentes.",
+      "translations": {
+       "zh": "不应把如此不同的情况混为一谈。",
+       "en": "We must not lump together such different situations."
+      }
+     }
+    ],
+    "usageNote": "名词 amalgame：faire l'amalgame（混为一谈）。"
+   }
+  ]
+ },
+ {
+  "headword": "objecter",
+  "phonetic": "/ɔb.ʒɛk.te/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "opposer un argument contraire",
+    "translations": {
+     "zh": "反驳；提出异议",
+     "en": "to object"
+    },
+    "examples": [
+     {
+      "text": "On pourrait objecter que cette mesure coûte trop cher.",
+      "translations": {
+       "zh": "有人可能会反驳说这项措施代价太高。",
+       "en": "One might object that this measure is too costly."
+      }
+     }
+    ],
+    "usageNote": "objecter que + 直陈式；名词 objection。"
+   }
+  ]
+ },
+ {
+  "headword": "se dégager",
+  "phonetic": "/sə de.ɡa.ʒe/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "apparaître, ressortir d'un ensemble",
+    "translations": {
+     "zh": "显现出；呈现出",
+     "en": "to emerge"
+    },
+    "examples": [
+     {
+      "text": "Une tendance nette se dégage de cette enquête.",
+      "translations": {
+       "zh": "这项调查呈现出一个明显的趋势。",
+       "en": "A clear trend emerges from this survey."
+      },
+      "cloze": "Une tendance nette {{se dégage}} de cette enquête."
+     }
+    ],
+    "usageNote": "il se dégage de … que：从…中可以看出…；nous nous dégageons。"
+   }
+  ]
+ },
+ {
+  "headword": "ressortir",
+  "phonetic": "/ʁə.sɔʁ.tiʁ/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 sortir：il ressort, ils ressortent；过去分词 ressorti"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "apparaître comme conclusion",
+    "translations": {
+     "zh": "显示出；由…得出",
+     "en": "to emerge, to be evident"
+    },
+    "examples": [
+     {
+      "text": "Il ressort de l'enquête que les clients sont satisfaits.",
+      "translations": {
+       "zh": "调查显示顾客感到满意。",
+       "en": "The survey shows that customers are satisfied."
+      },
+      "cloze": "Il {{ressort}} de l'enquête que les clients sont satisfaits."
+     }
+    ],
+    "usageNote": "本义“再出去”；此义常用无人称 il ressort de … que。"
+   }
+  ]
+ },
+ {
+  "headword": "émaner",
+  "phonetic": "/e.ma.ne/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "provenir de (une source, une autorité)",
+    "translations": {
+     "zh": "来自；发自",
+     "en": "to emanate, to come from"
+    },
+    "examples": [
+     {
+      "text": "Cette proposition émane directement du ministère.",
+      "translations": {
+       "zh": "这项提议直接来自部里。",
+       "en": "This proposal comes directly from the ministry."
+      },
+      "cloze": "Cette proposition {{émane}} directement du ministère."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "reposer sur",
+  "phonetic": "/ʁə.po.ze syʁ/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être fondé sur",
+    "translations": {
+     "zh": "建立在…基础上",
+     "en": "to rest on, to be based on"
+    },
+    "examples": [
+     {
+      "text": "Son raisonnement repose sur une hypothèse fragile.",
+      "translations": {
+       "zh": "他的推理建立在一个站不住脚的假设之上。",
+       "en": "His reasoning rests on a shaky hypothesis."
+      },
+      "cloze": "Son raisonnement {{repose sur}} une hypothèse fragile."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "accréditer",
+  "phonetic": "/a.kʁe.di.te/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre plus crédible",
+    "translations": {
+     "zh": "使可信；使人相信",
+     "en": "to lend credence to"
+    },
+    "examples": [
+     {
+      "text": "Ces indices accréditent la thèse de l'accident.",
+      "translations": {
+       "zh": "这些迹象使意外事故的说法更加可信。",
+       "en": "These clues lend credence to the accident theory."
+      },
+      "cloze": "Ces indices {{accréditent}} la thèse de l'accident."
+     }
+    ],
+    "usageNote": "另指“授权，派驻（外交官、记者）”：journaliste accrédité。"
+   }
+  ]
+ },
+ {
+  "headword": "discréditer",
+  "phonetic": "/dis.kʁe.di.te/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire perdre la crédibilité, la réputation",
+    "translations": {
+     "zh": "使丧失信誉；诋毁",
+     "en": "to discredit"
+    },
+    "examples": [
+     {
+      "text": "Cette erreur a discrédité toute l'étude.",
+      "translations": {
+       "zh": "这个错误让整项研究失去了可信度。",
+       "en": "This mistake discredited the whole study."
+      },
+      "cloze": "Cette erreur a {{discrédité}} toute l'étude."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "légitimer",
+  "phonetic": "/le.ʒi.ti.me/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre légitime, justifier",
+    "translations": {
+     "zh": "使合理化；使正当",
+     "en": "to legitimize, to justify"
+    },
+    "examples": [
+     {
+      "text": "Rien ne peut légitimer une telle violence.",
+      "translations": {
+       "zh": "任何理由都不能使这种暴力正当化。",
+       "en": "Nothing can justify such violence."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "occasionner",
+  "phonetic": "/ɔ.ka.zjɔ.ne/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être la cause de (un désagrément)",
+    "translations": {
+     "zh": "引起；造成",
+     "en": "to cause, to bring about"
+    },
+    "examples": [
+     {
+      "text": "Ces travaux vont occasionner des retards.",
+      "translations": {
+       "zh": "这些施工将造成延误。",
+       "en": "This work will cause delays."
+      }
+     }
+    ],
+    "usageNote": "多用于负面结果：occasionner des frais / des dégâts / une gêne。"
+   }
+  ]
+ },
+ {
+  "headword": "s'inscrire dans",
+  "phonetic": "/sɛ̃s.kʁiʁ dɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 écrire：il s'inscrit, ils s'inscrivent；过去分词 inscrit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire partie d'un ensemble, d'un cadre",
+    "translations": {
+     "zh": "属于…的一部分；纳入…框架",
+     "en": "to be part of, to fit into"
+    },
+    "examples": [
+     {
+      "text": "Ce projet s'inscrit dans une démarche de développement durable.",
+      "translations": {
+       "zh": "该项目是可持续发展举措的一部分。",
+       "en": "This project is part of a sustainable development approach."
+      },
+      "cloze": "Ce projet {{s'inscrit dans}} une démarche de développement durable."
+     }
+    ],
+    "usageNote": "s'inscrire 本义“注册”；此为抽象用法，正式文本高频。"
+   }
+  ]
+ },
+ {
+  "headword": "se heurter à",
+  "phonetic": "/sə œʁ.te a/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rencontrer un obstacle, une opposition",
+    "translations": {
+     "zh": "遇到（阻碍）；碰上",
+     "en": "to come up against"
+    },
+    "examples": [
+     {
+      "text": "Le projet se heurte à de nombreuses résistances.",
+      "translations": {
+       "zh": "这个项目遭遇了许多阻力。",
+       "en": "The project is coming up against a lot of resistance."
+      },
+      "cloze": "Le projet {{se heurte à}} de nombreuses résistances."
+     }
+    ],
+    "usageNote": "heurter 为嘘音 h，不连诵：se heurter 读 /sə œʁ.te/。"
+   }
+  ]
+ },
+ {
+  "headword": "préjuger",
+  "phonetic": "/pʁe.ʒy.ʒe/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "juger d'avance, avant examen",
+    "translations": {
+     "zh": "预先判断",
+     "en": "to prejudge"
+    },
+    "examples": [
+     {
+      "text": "Cela ne préjuge en rien de la décision finale.",
+      "translations": {
+       "zh": "这丝毫不影响对最终决定的判断。",
+       "en": "This in no way prejudges the final decision."
+      },
+      "cloze": "Cela ne {{préjuge}} en rien de la décision finale."
+     }
+    ],
+    "usageNote": "常用否定：sans préjuger de…（不预断…）；nous préjugeons。"
+   }
+  ]
+ },
+ {
+  "headword": "requérir",
+  "phonetic": "/ʁə.ke.ʁiʁ/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "conjugation": "不规则：je requiers, nous requérons, ils requièrent；过去分词 requis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "exiger, nécessiter",
+    "translations": {
+     "zh": "需要；要求",
+     "en": "to require"
+    },
+    "examples": [
+     {
+      "text": "Cette tâche requiert une grande précision.",
+      "translations": {
+       "zh": "这项任务需要极高的精确度。",
+       "en": "This task requires great precision."
+      },
+      "cloze": "Cette tâche {{requiert}} une grande précision."
+     }
+    ],
+    "usageNote": "法律用语：requérir une peine（检方请求判处…）；过去分词 requis 常用：les compétences requises。"
+   }
+  ]
+ },
+ {
+  "headword": "englober",
+  "phonetic": "/ɑ̃.ɡlɔ.be/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "réunir dans un ensemble",
+    "translations": {
+     "zh": "包括；涵盖",
+     "en": "to encompass, to include"
+    },
+    "examples": [
+     {
+      "text": "Ce concept englobe des réalités très diverses.",
+      "translations": {
+       "zh": "这个概念涵盖了非常多样的现实情况。",
+       "en": "This concept encompasses very diverse realities."
+      },
+      "cloze": "Ce concept {{englobe}} des réalités très diverses."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "privilégier",
+  "phonetic": "/pʁi.vi.le.ʒje/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "accorder la préférence à",
+    "translations": {
+     "zh": "优先考虑；偏重",
+     "en": "to favour, to prioritize"
+    },
+    "examples": [
+     {
+      "text": "Nous avons privilégié une approche qualitative.",
+      "translations": {
+       "zh": "我们优先采用了定性研究方法。",
+       "en": "We favoured a qualitative approach."
+      },
+      "cloze": "Nous avons {{privilégié}} une approche qualitative."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'interroger sur",
+  "phonetic": "/sɛ̃.te.ʁɔ.ʒe syʁ/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se poser des questions à propos de",
+    "translations": {
+     "zh": "思考；对…提出疑问",
+     "en": "to wonder about, to question"
+    },
+    "examples": [
+     {
+      "text": "Les philosophes s'interrogent sur la nature du temps.",
+      "translations": {
+       "zh": "哲学家们探讨时间的本质。",
+       "en": "Philosophers question the nature of time."
+      },
+      "cloze": "Les philosophes {{s'interrogent sur}} la nature du temps."
+     }
+    ],
+    "usageNote": "nous nous interrogeons（g 后加 e）。"
+   }
+  ]
+ }
+]

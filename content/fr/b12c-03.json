@@ -1,0 +1,1469 @@
+[
+  {
+    "headword": "fâché",
+    "phonetic": "/fa.ʃe/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴性 fâchée；复数 fâchés, fâchées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "en colère, ou brouillé avec qqn",
+        "translations": {
+          "zh": "生气的；闹翻的",
+          "en": "angry, cross"
+        },
+        "examples": [
+          {
+            "text": "Tu es fâché contre moi ?",
+            "translations": {
+              "zh": "你在生我的气吗？",
+              "en": "Are you angry with me?"
+            }
+          }
+        ],
+        "usageNote": "être fâché avec qqn：和某人闹翻了。"
+      }
+    ]
+  },
+  {
+    "headword": "déprimé",
+    "phonetic": "/de.pʁi.me/",
+    "cefr": "B1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "irregularForms": "阴性 déprimée；复数 déprimés, déprimées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "très triste, sans énergie",
+        "translations": {
+          "zh": "沮丧的；消沉的",
+          "en": "depressed, down"
+        },
+        "examples": [
+          {
+            "text": "Il est déprimé depuis qu'il a perdu son travail.",
+            "translations": {
+              "zh": "丢了工作以后他一直很消沉。",
+              "en": "He's been depressed since he lost his job."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "stressé",
+    "phonetic": "/stʁɛ.se/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 stressée；复数 stressés, stressées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ressent du stress",
+        "translations": {
+          "zh": "压力大的；紧张的",
+          "en": "stressed"
+        },
+        "examples": [
+          {
+            "text": "Je suis stressé à cause des examens.",
+            "translations": {
+              "zh": "因为考试我压力很大。",
+              "en": "I'm stressed because of the exams."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "anxieux",
+    "phonetic": "/ɑ̃k.sjø/",
+    "cefr": "B2",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "irregularForms": "阴性 anxieuse；复数 anxieux, anxieuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui s'inquiète souvent et beaucoup",
+        "translations": {
+          "zh": "焦虑的",
+          "en": "anxious"
+        },
+        "examples": [
+          {
+            "text": "C'est une personne anxieuse de nature.",
+            "translations": {
+              "zh": "她天生容易焦虑。",
+              "en": "She's an anxious person by nature."
+            },
+            "cloze": "C'est une personne {{anxieuse}} de nature."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "soulagé",
+    "phonetic": "/su.la.ʒe/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 soulagée；复数 soulagés, soulagées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ressent du soulagement",
+        "translations": {
+          "zh": "宽慰的；松了口气的",
+          "en": "relieved"
+        },
+        "examples": [
+          {
+            "text": "Je suis soulagé que tout se soit bien passé.",
+            "translations": {
+              "zh": "一切顺利，我松了一口气。",
+              "en": "I'm relieved everything went well."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "détendu",
+    "phonetic": "/de.tɑ̃.dy/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 détendue；复数 détendus, détendues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "calme, sans tension",
+        "translations": {
+          "zh": "放松的；轻松的",
+          "en": "relaxed"
+        },
+        "examples": [
+          {
+            "text": "Après les vacances, elle semble détendue.",
+            "translations": {
+              "zh": "度假回来，她看起来很放松。",
+              "en": "After the holidays, she seems relaxed."
+            },
+            "cloze": "Après les vacances, elle semble {{détendue}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "gêné",
+    "phonetic": "/ʒe.ne/",
+    "cefr": "B2",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 gênée；复数 gênés, gênées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "mal à l'aise, un peu honteux",
+        "translations": {
+          "zh": "尴尬的；不自在的",
+          "en": "embarrassed, uncomfortable"
+        },
+        "examples": [
+          {
+            "text": "Il avait l'air gêné quand je suis entré.",
+            "translations": {
+              "zh": "我进去的时候他显得很尴尬。",
+              "en": "He looked embarrassed when I came in."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "honteux",
+    "phonetic": "/ɔ̃.tø/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 honteuse；复数 honteux, honteuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a honte, ou qui fait honte",
+        "translations": {
+          "zh": "羞愧的；可耻的",
+          "en": "ashamed, shameful"
+        },
+        "examples": [
+          {
+            "text": "C'est honteux de traiter les gens ainsi.",
+            "translations": {
+              "zh": "这样对待别人太可耻了。",
+              "en": "It's shameful to treat people like that."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "reconnaissant",
+    "phonetic": "/ʁə.kɔ.nɛ.sɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴性 reconnaissante；复数 reconnaissants, reconnaissantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui se souvient d'un service rendu",
+        "translations": {
+          "zh": "感激的",
+          "en": "grateful"
+        },
+        "examples": [
+          {
+            "text": "Je vous suis très reconnaissant de votre aide.",
+            "translations": {
+              "zh": "非常感激您的帮助。",
+              "en": "I'm very grateful for your help."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bouleversé",
+    "phonetic": "/bul.vɛʁ.se/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "irregularForms": "阴性 bouleversée；复数 bouleversés, bouleversées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "très ému, choqué",
+        "translations": {
+          "zh": "心绪大乱的；深受震动的",
+          "en": "deeply upset, shaken"
+        },
+        "examples": [
+          {
+            "text": "Elle était bouleversée par la nouvelle.",
+            "translations": {
+              "zh": "这个消息让她心乱如麻。",
+              "en": "She was deeply shaken by the news."
+            },
+            "cloze": "Elle était {{bouleversée}} par la nouvelle."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "épanoui",
+    "phonetic": "/e.pa.nwi/",
+    "cefr": "B2",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "irregularForms": "阴性 épanouie；复数 épanouis, épanouies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "heureux et bien dans sa vie",
+        "translations": {
+          "zh": "（身心）舒展的；幸福满足的",
+          "en": "fulfilled, happy"
+        },
+        "examples": [
+          {
+            "text": "Depuis qu'elle a changé de travail, elle est épanouie.",
+            "translations": {
+              "zh": "换了工作以后，她过得舒心多了。",
+              "en": "Since she changed jobs, she's been fulfilled."
+            },
+            "cloze": "Depuis qu'elle a changé de travail, elle est {{épanouie}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "passionné",
+    "phonetic": "/pa.sjɔ.ne/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴性 passionnée；复数 passionnés, passionnées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui aime qqch avec beaucoup d'enthousiasme",
+        "translations": {
+          "zh": "热衷的；充满激情的",
+          "en": "passionate, keen"
+        },
+        "examples": [
+          {
+            "text": "Il est passionné de photographie.",
+            "translations": {
+              "zh": "他热衷于摄影。",
+              "en": "He's passionate about photography."
+            }
+          }
+        ],
+        "usageNote": "être passionné de / par qqch：对……着迷。"
+      }
+    ]
+  },
+  {
+    "headword": "indifférent",
+    "phonetic": "/ɛ̃.di.fe.ʁɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 indifférente；复数 indifférents, indifférentes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne montre aucun intérêt",
+        "translations": {
+          "zh": "冷漠的；无所谓的",
+          "en": "indifferent"
+        },
+        "examples": [
+          {
+            "text": "Ses problèmes me laissent indifférent.",
+            "translations": {
+              "zh": "他的问题我无所谓。",
+              "en": "His problems leave me indifferent."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "motivé",
+    "phonetic": "/mɔ.ti.ve/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴性 motivée；复数 motivés, motivées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a envie d'agir, de réussir",
+        "translations": {
+          "zh": "有干劲的；积极的",
+          "en": "motivated"
+        },
+        "examples": [
+          {
+            "text": "Les élèves sont très motivés cette année.",
+            "translations": {
+              "zh": "今年学生们干劲十足。",
+              "en": "The pupils are very motivated this year."
+            },
+            "cloze": "Les élèves sont très {{motivés}} cette année."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'inquiéter",
+    "phonetic": "/sɛ̃.kje.te/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je m'inquiète, nous nous inquiétons, ils s'inquiètent"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se faire du souci",
+        "translations": {
+          "zh": "担心；不安",
+          "en": "to worry"
+        },
+        "examples": [
+          {
+            "text": "Ne t'inquiète pas, je serai à l'heure.",
+            "translations": {
+              "zh": "别担心，我会准时到的。",
+              "en": "Don't worry, I'll be on time."
+            },
+            "cloze": "Ne t'{{inquiète}} pas, je serai à l'heure."
+          }
+        ],
+        "usageNote": "s'inquiéter pour qqn / de qqch：为……担心。"
+      }
+    ]
+  },
+  {
+    "headword": "regretter",
+    "phonetic": "/ʁə.ɡʁɛ.te/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être triste d'avoir fait ou de ne pas avoir fait qqch",
+        "translations": {
+          "zh": "后悔；遗憾",
+          "en": "to regret"
+        },
+        "examples": [
+          {
+            "text": "Je ne regrette rien.",
+            "translations": {
+              "zh": "我什么都不后悔。",
+              "en": "I regret nothing."
+            },
+            "cloze": "Je ne {{regrette}} rien."
+          }
+        ],
+        "usageNote": "Je regrette, mais… 也是礼貌地表示“抱歉，但是……”。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "être triste de l'absence de qqn ou qqch",
+        "translations": {
+          "zh": "怀念；惋惜",
+          "en": "to miss"
+        },
+        "examples": [
+          {
+            "text": "Je regrette le temps où on habitait à la mer.",
+            "translations": {
+              "zh": "我怀念我们住在海边的日子。",
+              "en": "I miss the time when we lived by the sea."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se sentir",
+    "phonetic": "/sə sɑ̃.tiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则：je me sens, nous nous sentons, ils se sentent；过去分词 senti"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "éprouver un état physique ou moral",
+        "translations": {
+          "zh": "感觉；觉得（自己）",
+          "en": "to feel"
+        },
+        "examples": [
+          {
+            "text": "Je me sens beaucoup mieux aujourd'hui.",
+            "translations": {
+              "zh": "我今天感觉好多了。",
+              "en": "I feel much better today."
+            },
+            "cloze": "Je {{me sens}} beaucoup mieux aujourd'hui."
+          }
+        ],
+        "usageNote": "se sentir + 形容词/副词：Je me sens seul.（我感到孤独。）"
+      }
+    ]
+  },
+  {
+    "headword": "s'énerver",
+    "phonetic": "/se.nɛʁ.ve/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "perdre son calme",
+        "translations": {
+          "zh": "发火；急躁",
+          "en": "to get annoyed, to lose one's temper"
+        },
+        "examples": [
+          {
+            "text": "Calme-toi, ne t'énerve pas !",
+            "translations": {
+              "zh": "冷静点，别发火！",
+              "en": "Calm down, don't get worked up!"
+            },
+            "cloze": "Calme-toi, ne t'{{énerve}} pas !"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se fâcher",
+    "phonetic": "/sə fa.ʃe/",
+    "cefr": "B1",
+    "frequencyRank": 10000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se mettre en colère ; se brouiller",
+        "translations": {
+          "zh": "生气；闹翻",
+          "en": "to get angry, to fall out"
+        },
+        "examples": [
+          {
+            "text": "Elle s'est fâchée avec sa sœur.",
+            "translations": {
+              "zh": "她和她姐姐闹翻了。",
+              "en": "She fell out with her sister."
+            },
+            "cloze": "Elle {{s'est fâchée}} avec sa sœur."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se calmer",
+    "phonetic": "/sə kal.me/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "devenir calme",
+        "translations": {
+          "zh": "冷静下来；平息",
+          "en": "to calm down"
+        },
+        "examples": [
+          {
+            "text": "Attends qu'il se calme avant de lui parler.",
+            "translations": {
+              "zh": "等他冷静下来再跟他谈。",
+              "en": "Wait for him to calm down before talking to him."
+            },
+            "cloze": "Attends qu'il {{se calme}} avant de lui parler."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se détendre",
+    "phonetic": "/sə de.tɑ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "conjugation": "-re 动词：je me détends, nous nous détendons；过去分词 détendu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se reposer, se relaxer",
+        "translations": {
+          "zh": "放松",
+          "en": "to relax"
+        },
+        "examples": [
+          {
+            "text": "Le week-end, j'aime me détendre à la campagne.",
+            "translations": {
+              "zh": "周末我喜欢去乡下放松。",
+              "en": "At weekends I like to relax in the countryside."
+            },
+            "cloze": "Le week-end, j'aime {{me détendre}} à la campagne."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se plaindre",
+    "phonetic": "/sə plɛ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "conjugation": "不规则：je me plains, nous nous plaignons, ils se plaignent；过去分词 plaint"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire qu'on n'est pas content",
+        "translations": {
+          "zh": "抱怨；诉苦",
+          "en": "to complain"
+        },
+        "examples": [
+          {
+            "text": "Il se plaint tout le temps de son travail.",
+            "translations": {
+              "zh": "他总是抱怨他的工作。",
+              "en": "He's always complaining about his job."
+            },
+            "cloze": "Il {{se plaint}} tout le temps de son travail."
+          }
+        ],
+        "usageNote": "se plaindre de qqch：抱怨某事。"
+      }
+    ]
+  },
+  {
+    "headword": "s'ennuyer",
+    "phonetic": "/sɑ̃.nɥi.je/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je m'ennuie, nous nous ennuyons, ils s'ennuient"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas savoir quoi faire, trouver le temps long",
+        "translations": {
+          "zh": "感到无聊",
+          "en": "to be bored"
+        },
+        "examples": [
+          {
+            "text": "Les enfants s'ennuient pendant les longs trajets.",
+            "translations": {
+              "zh": "长途旅行时孩子们会觉得无聊。",
+              "en": "Children get bored on long journeys."
+            },
+            "cloze": "Les enfants {{s'ennuient}} pendant les longs trajets."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "craindre",
+    "phonetic": "/kʁɛ̃dʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "conjugation": "不规则：je crains, nous craignons, ils craignent；过去分词 craint"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir peur de",
+        "translations": {
+          "zh": "害怕；担心",
+          "en": "to fear"
+        },
+        "examples": [
+          {
+            "text": "Je crains qu'il ne soit trop tard.",
+            "translations": {
+              "zh": "我担心已经太晚了。",
+              "en": "I'm afraid it's too late."
+            },
+            "cloze": "Je {{crains}} qu'il ne soit trop tard."
+          }
+        ],
+        "usageNote": "比 avoir peur 更书面。口语 Ça craint ! 意为“真糟糕！”"
+      }
+    ]
+  },
+  {
+    "headword": "ressentir",
+    "phonetic": "/ʁə.sɑ̃.tiʁ/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 sentir）：je ressens, nous ressentons；过去分词 ressenti"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "éprouver un sentiment ou une sensation",
+        "translations": {
+          "zh": "感受到；体会到",
+          "en": "to feel, to experience"
+        },
+        "examples": [
+          {
+            "text": "Je ne ressens plus aucune douleur.",
+            "translations": {
+              "zh": "我不再感到任何疼痛了。",
+              "en": "I no longer feel any pain."
+            },
+            "cloze": "Je ne {{ressens}} plus aucune douleur."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "éprouver",
+    "phonetic": "/e.pʁu.ve/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ressentir",
+        "translations": {
+          "zh": "感到；体验",
+          "en": "to feel, to experience"
+        },
+        "examples": [
+          {
+            "text": "Il éprouve beaucoup de respect pour elle.",
+            "translations": {
+              "zh": "他对她怀有深深的敬意。",
+              "en": "He feels great respect for her."
+            },
+            "cloze": "Il {{éprouve}} beaucoup de respect pour elle."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "rassurer",
+    "phonetic": "/ʁa.sy.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rendre la confiance, calmer l'inquiétude",
+        "translations": {
+          "zh": "使放心；安慰",
+          "en": "to reassure"
+        },
+        "examples": [
+          {
+            "text": "Le médecin a voulu nous rassurer.",
+            "translations": {
+              "zh": "医生想让我们放心。",
+              "en": "The doctor wanted to reassure us."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "encourager",
+    "phonetic": "/ɑ̃.ku.ʁa.ʒe/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous encourageons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "donner du courage, soutenir",
+        "translations": {
+          "zh": "鼓励；激励",
+          "en": "to encourage"
+        },
+        "examples": [
+          {
+            "text": "Ses parents l'encouragent à continuer ses études.",
+            "translations": {
+              "zh": "父母鼓励他继续读书。",
+              "en": "His parents encourage him to continue his studies."
+            },
+            "cloze": "Ses parents l'{{encouragent}} à continuer ses études."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "applaudir, crier pour soutenir un joueur",
+        "translations": {
+          "zh": "（为选手）加油",
+          "en": "to cheer on"
+        }
+      }
+    ]
+  },
+  {
+    "headword": "décevoir",
+    "phonetic": "/de.sə.vwaʁ/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "conjugation": "不规则：je déçois, nous décevons, ils déçoivent；过去分词 déçu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas répondre à ce qu'on attendait",
+        "translations": {
+          "zh": "使失望",
+          "en": "to disappoint"
+        },
+        "examples": [
+          {
+            "text": "Je ne veux pas décevoir mes parents.",
+            "translations": {
+              "zh": "我不想让父母失望。",
+              "en": "I don't want to disappoint my parents."
+            },
+            "cloze": "Je ne veux pas {{décevoir}} mes parents."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "consoler",
+    "phonetic": "/kɔ̃.sɔ.le/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "réconforter qqn qui a de la peine",
+        "translations": {
+          "zh": "安慰",
+          "en": "to comfort, to console"
+        },
+        "examples": [
+          {
+            "text": "Elle console son fils qui pleure.",
+            "translations": {
+              "zh": "她在安慰哭泣的儿子。",
+              "en": "She comforts her crying son."
+            },
+            "cloze": "Elle {{console}} son fils qui pleure."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se réjouir",
+    "phonetic": "/sə ʁe.ʒwiʁ/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je me réjouis, nous nous réjouissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être très content de qqch",
+        "translations": {
+          "zh": "高兴；欣喜",
+          "en": "to be delighted"
+        },
+        "examples": [
+          {
+            "text": "Je me réjouis de vous revoir.",
+            "translations": {
+              "zh": "我很高兴能再见到您。",
+              "en": "I'm delighted to see you again."
+            },
+            "cloze": "Je {{me réjouis}} de vous revoir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "supporter",
+    "phonetic": "/sy.pɔʁ.te/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "accepter qqch de pénible, tolérer",
+        "translations": {
+          "zh": "忍受；受得了",
+          "en": "to bear, to put up with"
+        },
+        "examples": [
+          {
+            "text": "Je ne supporte pas le bruit.",
+            "translations": {
+              "zh": "我受不了噪音。",
+              "en": "I can't stand noise."
+            },
+            "cloze": "Je ne {{supporte}} pas le bruit."
+          }
+        ],
+        "usageNote": "假朋友：主要意思是“忍受”，不是“支持”（支持用 soutenir）。"
+      }
+    ]
+  },
+  {
+    "headword": "pardonner",
+    "phonetic": "/paʁ.dɔ.ne/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne plus en vouloir à qqn",
+        "translations": {
+          "zh": "原谅；宽恕",
+          "en": "to forgive"
+        },
+        "examples": [
+          {
+            "text": "Je te pardonne, mais ne recommence pas.",
+            "translations": {
+              "zh": "我原谅你，但别再犯了。",
+              "en": "I forgive you, but don't do it again."
+            },
+            "cloze": "Je te {{pardonne}}, mais ne recommence pas."
+          }
+        ],
+        "usageNote": "pardonner à qqn / pardonner qqch à qqn。"
+      }
+    ]
+  },
+  {
+    "headword": "mentir",
+    "phonetic": "/mɑ̃.tiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "不规则：je mens, nous mentons, ils mentent；过去分词 menti"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "dire qqch de faux volontairement",
+        "translations": {
+          "zh": "说谎",
+          "en": "to lie"
+        },
+        "examples": [
+          {
+            "text": "Ne me mens pas, je sais tout.",
+            "translations": {
+              "zh": "别对我说谎，我全都知道。",
+              "en": "Don't lie to me, I know everything."
+            },
+            "cloze": "Ne me {{mens}} pas, je sais tout."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sourire",
+    "phonetic": "/su.ʁiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "conjugation": "不规则：je souris, nous sourions, ils sourient；过去分词 souri",
+      "gender": "阳性",
+      "plural": "sourires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire une expression joyeuse avec la bouche",
+        "translations": {
+          "zh": "微笑",
+          "en": "to smile"
+        },
+        "examples": [
+          {
+            "text": "Elle m'a souri dans la rue.",
+            "translations": {
+              "zh": "她在街上对我笑了笑。",
+              "en": "She smiled at me in the street."
+            },
+            "cloze": "Elle m'a {{souri}} dans la rue."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "expression joyeuse du visage",
+        "translations": {
+          "zh": "微笑",
+          "en": "smile"
+        },
+        "examples": [
+          {
+            "text": "Elle a un très joli sourire.",
+            "translations": {
+              "zh": "她的笑容很美。",
+              "en": "She has a lovely smile."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "pleurer",
+    "phonetic": "/plœ.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "verser des larmes",
+        "translations": {
+          "zh": "哭",
+          "en": "to cry"
+        },
+        "examples": [
+          {
+            "text": "Ce film m'a fait pleurer.",
+            "translations": {
+              "zh": "这部电影把我看哭了。",
+              "en": "This film made me cry."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "rougir",
+    "phonetic": "/ʁu.ʒiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je rougis, nous rougissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "devenir rouge (de honte, de timidité)",
+        "translations": {
+          "zh": "脸红",
+          "en": "to blush"
+        },
+        "examples": [
+          {
+            "text": "Il rougit dès qu'elle lui parle.",
+            "translations": {
+              "zh": "她一跟他说话，他就脸红。",
+              "en": "He blushes as soon as she speaks to him."
+            },
+            "cloze": "Il {{rougit}} dès qu'elle lui parle."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "paniquer",
+    "phonetic": "/pa.ni.ke/",
+    "cefr": "B1",
+    "frequencyRank": 12000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être pris de panique",
+        "translations": {
+          "zh": "惊慌；慌张",
+          "en": "to panic"
+        },
+        "examples": [
+          {
+            "text": "Ne panique pas, respire calmement.",
+            "translations": {
+              "zh": "别慌，慢慢呼吸。",
+              "en": "Don't panic, breathe calmly."
+            },
+            "cloze": "Ne {{panique}} pas, respire calmement."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "détester",
+    "phonetic": "/de.tɛs.te/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas aimer du tout",
+        "translations": {
+          "zh": "讨厌；憎恶",
+          "en": "to hate, to detest"
+        },
+        "examples": [
+          {
+            "text": "Je déteste me lever tôt.",
+            "translations": {
+              "zh": "我讨厌早起。",
+              "en": "I hate getting up early."
+            },
+            "cloze": "Je {{déteste}} me lever tôt."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "haïr",
+    "phonetic": "/a.iʁ/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "conjugation": "不规则：je hais, il hait, nous haïssons；过去分词 haï"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "détester très fortement",
+        "translations": {
+          "zh": "憎恨；仇恨",
+          "en": "to hate"
+        },
+        "examples": [
+          {
+            "text": "Il hait l'injustice.",
+            "translations": {
+              "zh": "他痛恨不公。",
+              "en": "He hates injustice."
+            },
+            "cloze": "Il {{hait}} l'injustice."
+          }
+        ],
+        "usageNote": "h 嘘音：je hais（不省音）。"
+      }
+    ]
+  },
+  {
+    "headword": "admirer",
+    "phonetic": "/ad.mi.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "regarder avec respect ou plaisir",
+        "translations": {
+          "zh": "钦佩；欣赏",
+          "en": "to admire"
+        },
+        "examples": [
+          {
+            "text": "J'admire beaucoup son courage.",
+            "translations": {
+              "zh": "我很钦佩他的勇气。",
+              "en": "I really admire his courage."
+            },
+            "cloze": "J'{{admire}} beaucoup son courage."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "manquer",
+    "phonetic": "/mɑ̃.ke/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être absent et regretté",
+        "translations": {
+          "zh": "（某人）想念",
+          "en": "to be missed"
+        },
+        "examples": [
+          {
+            "text": "Tu me manques beaucoup.",
+            "translations": {
+              "zh": "我很想你。",
+              "en": "I miss you a lot."
+            },
+            "cloze": "Tu me {{manques}} beaucoup."
+          }
+        ],
+        "usageNote": "语序与中文相反：Tu me manques. = 我想你（直译“你让我缺失”）。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "ne pas avoir assez de qqch ; rater",
+        "translations": {
+          "zh": "缺少；错过",
+          "en": "to lack; to miss"
+        },
+        "examples": [
+          {
+            "text": "J'ai manqué le train.",
+            "translations": {
+              "zh": "我错过了火车。",
+              "en": "I missed the train."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "couple",
+    "phonetic": "/kupl/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "couples"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "deux personnes qui vivent une relation amoureuse",
+        "translations": {
+          "zh": "夫妻；情侣",
+          "en": "couple"
+        },
+        "examples": [
+          {
+            "text": "Ils forment un couple très uni.",
+            "translations": {
+              "zh": "他们是一对非常恩爱的伴侣。",
+              "en": "They're a very close couple."
+            }
+          }
+        ],
+        "usageNote": "vivre en couple：同居。"
+      }
+    ]
+  },
+  {
+    "headword": "mariage",
+    "phonetic": "/ma.ʁjaʒ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "mariages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "union officielle de deux personnes ; la fête qui l'accompagne",
+        "translations": {
+          "zh": "婚姻；婚礼",
+          "en": "marriage, wedding"
+        },
+        "examples": [
+          {
+            "text": "Nous sommes invités à un mariage samedi.",
+            "translations": {
+              "zh": "我们周六受邀参加一场婚礼。",
+              "en": "We're invited to a wedding on Saturday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "divorce",
+    "phonetic": "/di.vɔʁs/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "divorces"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fin officielle d'un mariage",
+        "translations": {
+          "zh": "离婚",
+          "en": "divorce"
+        },
+        "examples": [
+          {
+            "text": "Ses parents ont demandé le divorce.",
+            "translations": {
+              "zh": "他父母提出了离婚。",
+              "en": "His parents filed for divorce."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "divorcer",
+    "phonetic": "/di.vɔʁ.se/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：nous divorçons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "mettre fin à son mariage",
+        "translations": {
+          "zh": "离婚",
+          "en": "to divorce, to get divorced"
+        },
+        "examples": [
+          {
+            "text": "Ils ont divorcé après dix ans de mariage.",
+            "translations": {
+              "zh": "结婚十年后他们离婚了。",
+              "en": "They divorced after ten years of marriage."
+            },
+            "cloze": "Ils ont {{divorcé}} après dix ans de mariage."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se marier",
+    "phonetic": "/sə ma.ʁje/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "s'unir par le mariage",
+        "translations": {
+          "zh": "结婚",
+          "en": "to get married"
+        },
+        "examples": [
+          {
+            "text": "Ils vont se marier au printemps.",
+            "translations": {
+              "zh": "他们打算春天结婚。",
+              "en": "They're getting married in the spring."
+            },
+            "cloze": "Ils vont {{se marier}} au printemps."
+          }
+        ],
+        "usageNote": "se marier avec qqn：和某人结婚。"
+      }
+    ]
+  },
+  {
+    "headword": "épouser",
+    "phonetic": "/e.pu.ze/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se marier avec qqn",
+        "translations": {
+          "zh": "娶；嫁",
+          "en": "to marry"
+        },
+        "examples": [
+          {
+            "text": "Il a épousé son amie d'enfance.",
+            "translations": {
+              "zh": "他娶了青梅竹马的女友。",
+              "en": "He married his childhood friend."
+            },
+            "cloze": "Il a {{épousé}} son amie d'enfance."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "époux",
+    "phonetic": "/e.pu/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "époux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "mari (langue officielle)",
+        "translations": {
+          "zh": "配偶；丈夫",
+          "en": "spouse, husband"
+        },
+        "examples": [
+          {
+            "text": "Les époux ont signé le registre.",
+            "translations": {
+              "zh": "新婚夫妇在登记簿上签了字。",
+              "en": "The bride and groom signed the register."
+            }
+          }
+        ],
+        "usageNote": "阴性 épouse（妻子）；复数 les époux 可指“夫妇”。"
+      }
+    ]
+  },
+  {
+    "headword": "fiancé",
+    "phonetic": "/fjɑ̃.se/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "fiancés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui a promis de se marier",
+        "translations": {
+          "zh": "未婚夫",
+          "en": "fiancé"
+        },
+        "examples": [
+          {
+            "text": "Je te présente mon fiancé.",
+            "translations": {
+              "zh": "给你介绍一下我的未婚夫。",
+              "en": "Let me introduce my fiancé."
+            }
+          }
+        ],
+        "usageNote": "阴性 fiancée（未婚妻）。"
+      }
+    ]
+  }
+]

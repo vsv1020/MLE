@@ -1,0 +1,1561 @@
+[
+ {
+  "headword": "économie",
+  "phonetic": "/e.kɔ.nɔ.mi/",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "économies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "activité de production, d'échange et de consommation d'un pays",
+    "translations": {
+     "zh": "经济；经济学",
+     "en": "economy; economics"
+    },
+    "examples": [
+     {
+      "text": "L'économie du pays va mieux cette année.",
+      "cloze": "L'{{économie}} du pays va mieux cette année.",
+      "translations": {
+       "zh": "今年国家经济有所好转。",
+       "en": "The country's economy is doing better this year."
+      }
+     }
+    ],
+    "usageNote": "复数 des économies 常指“积蓄”：faire des économies = 存钱、省钱。"
+   }
+  ]
+ },
+ {
+  "headword": "économique",
+  "phonetic": "/e.kɔ.nɔ.mik/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "irregularForms": "阴阳同形；复数 économiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne l'économie ; qui coûte peu",
+    "translations": {
+     "zh": "经济的；节省的",
+     "en": "economic; economical"
+    },
+    "examples": [
+     {
+      "text": "Le pays traverse une période économique difficile.",
+      "translations": {
+       "zh": "国家正经历一段艰难的经济时期。",
+       "en": "The country is going through a difficult economic period."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "croissance",
+  "phonetic": "/kʁwa.sɑ̃s/",
+  "cefr": "B2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "croissances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "augmentation de la production et des richesses",
+    "translations": {
+     "zh": "增长；成长",
+     "en": "growth"
+    },
+    "examples": [
+     {
+      "text": "La croissance a ralenti au dernier trimestre.",
+      "translations": {
+       "zh": "上个季度经济增长放缓了。",
+       "en": "Growth slowed down in the last quarter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "crise",
+  "phonetic": "/kʁiz/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "crises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moment grave et difficile",
+    "translations": {
+     "zh": "危机",
+     "en": "crisis"
+    },
+    "examples": [
+     {
+      "text": "Beaucoup d'entreprises ont fermé pendant la crise.",
+      "translations": {
+       "zh": "危机期间很多企业倒闭了。",
+       "en": "Many businesses closed during the crisis."
+      }
+     }
+    ],
+    "usageNote": "crise de nerfs = 精神崩溃；crise cardiaque = 心脏病发作。"
+   }
+  ]
+ },
+ {
+  "headword": "inflation",
+  "phonetic": "/ɛ̃.fla.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "hausse générale des prix",
+    "translations": {
+     "zh": "通货膨胀",
+     "en": "inflation"
+    },
+    "examples": [
+     {
+      "text": "L'inflation fait monter le prix des courses.",
+      "cloze": "L'{{inflation}} fait monter le prix des courses.",
+      "translations": {
+       "zh": "通货膨胀让买菜越来越贵。",
+       "en": "Inflation is pushing up grocery prices."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "commerce",
+  "phonetic": "/kɔ.mɛʁs/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "commerces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "activité d'acheter et de vendre ; magasin",
+    "translations": {
+     "zh": "商业；贸易；商店",
+     "en": "trade, commerce; shop"
+    },
+    "examples": [
+     {
+      "text": "Le commerce en ligne se développe très vite.",
+      "translations": {
+       "zh": "网上贸易发展得很快。",
+       "en": "Online commerce is growing very fast."
+      }
+     }
+    ],
+    "usageNote": "les petits commerces = 小商铺。"
+   }
+  ]
+ },
+ {
+  "headword": "commercial",
+  "phonetic": "/kɔ.mɛʁ.sjal/",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "irregularForms": "阴性 commerciale；复数 commerciaux, commerciales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne le commerce",
+    "translations": {
+     "zh": "商业的；贸易的",
+     "en": "commercial"
+    },
+    "examples": [
+     {
+      "text": "On a ouvert un nouveau centre commercial près de chez moi.",
+      "translations": {
+       "zh": "我家附近新开了一家购物中心。",
+       "en": "A new shopping centre opened near my place."
+      }
+     }
+    ],
+    "usageNote": "centre commercial = 购物中心；名词 un commercial = 销售员。"
+   }
+  ]
+ },
+ {
+  "headword": "industrie",
+  "phonetic": "/ɛ̃.dys.tʁi/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "industries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des activités qui fabriquent des produits",
+    "translations": {
+     "zh": "工业；产业",
+     "en": "industry"
+    },
+    "examples": [
+     {
+      "text": "L'industrie automobile emploie beaucoup de monde.",
+      "cloze": "L'{{industrie}} automobile emploie beaucoup de monde.",
+      "translations": {
+       "zh": "汽车工业雇用了很多人。",
+       "en": "The car industry employs a lot of people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "impôt",
+  "phonetic": "/ɛ̃.po/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "impôts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent que les citoyens doivent payer à l'État",
+    "translations": {
+     "zh": "税；税款",
+     "en": "tax"
+    },
+    "examples": [
+     {
+      "text": "Chaque année, je dois déclarer mes revenus aux impôts.",
+      "cloze": "Chaque année, je dois déclarer mes revenus aux {{impôts}}.",
+      "translations": {
+       "zh": "我每年都要向税务部门申报收入。",
+       "en": "Every year I have to declare my income to the tax office."
+      }
+     }
+    ],
+    "usageNote": "impôt sur le revenu = 个人所得税；les impôts 也指税务局。"
+   }
+  ]
+ },
+ {
+  "headword": "taxe",
+  "phonetic": "/taks/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "taxes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme prélevée par l'État sur un produit ou un service",
+    "translations": {
+     "zh": "税；捐",
+     "en": "tax, duty"
+    },
+    "examples": [
+     {
+      "text": "Ce prix comprend toutes les taxes.",
+      "cloze": "Ce prix comprend toutes les {{taxes}}.",
+      "translations": {
+       "zh": "这个价格含所有税费。",
+       "en": "This price includes all taxes."
+      }
+     }
+    ],
+    "usageNote": "TVA = 增值税；hors taxes (HT) = 不含税。"
+   }
+  ]
+ },
+ {
+  "headword": "budget",
+  "phonetic": "/byd.ʒɛ/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "budgets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme d'argent prévue pour des dépenses",
+    "translations": {
+     "zh": "预算",
+     "en": "budget"
+    },
+    "examples": [
+     {
+      "text": "Quel est votre budget pour les vacances ?",
+      "translations": {
+       "zh": "你们的度假预算是多少？",
+       "en": "What is your budget for the holidays?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dette",
+  "phonetic": "/dɛt/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "dettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on doit à quelqu'un",
+    "translations": {
+     "zh": "债务；欠款",
+     "en": "debt"
+    },
+    "examples": [
+     {
+      "text": "Il a enfin payé toutes ses dettes.",
+      "cloze": "Il a enfin payé toutes ses {{dettes}}.",
+      "translations": {
+       "zh": "他终于还清了所有债务。",
+       "en": "He finally paid off all his debts."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "crédit",
+  "phonetic": "/kʁe.di/",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "crédits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent prêté par une banque",
+    "translations": {
+     "zh": "贷款；信贷；信用",
+     "en": "credit, loan"
+    },
+    "examples": [
+     {
+      "text": "Ils ont acheté leur maison à crédit.",
+      "translations": {
+       "zh": "他们贷款买了房子。",
+       "en": "They bought their house on credit."
+      }
+     }
+    ],
+    "usageNote": "carte de crédit = 信用卡；acheter à crédit = 分期/贷款购买。"
+   }
+  ]
+ },
+ {
+  "headword": "prêt",
+  "homograph": 2,
+  "phonetic": "/pʁɛ/",
+  "cefr": "B2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "prêts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme d'argent prêtée qu'il faut rendre",
+    "translations": {
+     "zh": "贷款；借出",
+     "en": "loan"
+    },
+    "examples": [
+     {
+      "text": "La banque m'a accordé un prêt pour mes études.",
+      "translations": {
+       "zh": "银行给我批了一笔助学贷款。",
+       "en": "The bank gave me a loan for my studies."
+      }
+     }
+    ],
+    "usageNote": "名词 le prêt（贷款）与形容词 prêt（准备好的）同形。来自动词 prêter（借出）。"
+   }
+  ]
+ },
+ {
+  "headword": "emprunter",
+  "phonetic": "/ɑ̃.pʁœ̃.te/",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'emprunte, nous empruntons；过去分词 emprunté"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "obtenir quelque chose qu'on devra rendre",
+    "translations": {
+     "zh": "借（入）",
+     "en": "to borrow"
+    },
+    "examples": [
+     {
+      "text": "J'ai emprunté de l'argent à mes parents.",
+      "cloze": "J'ai {{emprunté}} de l'argent à mes parents.",
+      "translations": {
+       "zh": "我向父母借了钱。",
+       "en": "I borrowed money from my parents."
+      }
+     }
+    ],
+    "usageNote": "emprunter qqch à qqn = 向某人借；prêter qqch à qqn = 借给某人。"
+   }
+  ]
+ },
+ {
+  "headword": "rembourser",
+  "phonetic": "/ʁɑ̃.buʁ.se/",
+  "cefr": "B1",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je rembourse, nous remboursons；过去分词 remboursé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre l'argent qu'on a emprunté ou payé",
+    "translations": {
+     "zh": "偿还；退款；报销",
+     "en": "to pay back, to refund"
+    },
+    "examples": [
+     {
+      "text": "Le magasin m'a remboursé sans problème.",
+      "cloze": "Le magasin m'a {{remboursé}} sans problème.",
+      "translations": {
+       "zh": "商店顺利给我退了款。",
+       "en": "The shop refunded me without any problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "épargne",
+  "phonetic": "/e.paʁɲ/",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "épargnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on met de côté",
+    "translations": {
+     "zh": "储蓄；积蓄",
+     "en": "savings"
+    },
+    "examples": [
+     {
+      "text": "Elle place son épargne sur un livret à la banque.",
+      "translations": {
+       "zh": "她把积蓄存进银行的储蓄账户。",
+       "en": "She keeps her savings in a bank savings account."
+      }
+     }
+    ],
+    "usageNote": "注意：son épargne 用 son，因为以元音开头。"
+   }
+  ]
+ },
+ {
+  "headword": "économiser",
+  "phonetic": "/e.kɔ.nɔ.mi.ze/",
+  "cefr": "B1",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'économise, nous économisons；过去分词 économisé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "garder de l'argent au lieu de le dépenser ; utiliser moins",
+    "translations": {
+     "zh": "节省；攒钱",
+     "en": "to save"
+    },
+    "examples": [
+     {
+      "text": "J'économise pour acheter une voiture.",
+      "cloze": "J'{{économise}} pour acheter une voiture.",
+      "translations": {
+       "zh": "我在攒钱买车。",
+       "en": "I'm saving up to buy a car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "investir",
+  "phonetic": "/ɛ̃.vɛs.tiʁ/",
+  "cefr": "B2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：j'investis, nous investissons；过去分词 investi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "placer de l'argent pour en gagner plus tard",
+    "translations": {
+     "zh": "投资",
+     "en": "to invest"
+    },
+    "examples": [
+     {
+      "text": "Il a investi toutes ses économies dans ce projet.",
+      "cloze": "Il a {{investi}} toutes ses économies dans ce projet.",
+      "translations": {
+       "zh": "他把全部积蓄都投进了这个项目。",
+       "en": "He invested all his savings in this project."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "investissement",
+  "phonetic": "/ɛ̃.vɛs.tis.mɑ̃/",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "investissements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent placé pour obtenir un profit",
+    "translations": {
+     "zh": "投资",
+     "en": "investment"
+    },
+    "examples": [
+     {
+      "text": "Un appartement, c'est un bon investissement.",
+      "translations": {
+       "zh": "买套公寓是一项不错的投资。",
+       "en": "An apartment is a good investment."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bénéfice",
+  "phonetic": "/be.ne.fis/",
+  "cefr": "B2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bénéfices"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent gagné après avoir payé les frais",
+    "translations": {
+     "zh": "利润；好处",
+     "en": "profit; benefit"
+    },
+    "examples": [
+     {
+      "text": "L'entreprise a fait un bénéfice record.",
+      "translations": {
+       "zh": "公司创下了利润纪录。",
+       "en": "The company made a record profit."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "perte",
+  "phonetic": "/pɛʁt/",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pertes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de perdre quelque chose, de l'argent",
+    "translations": {
+     "zh": "损失；失去",
+     "en": "loss"
+    },
+    "examples": [
+     {
+      "text": "Le magasin vend à perte pour attirer les clients.",
+      "translations": {
+       "zh": "这家店亏本销售来吸引顾客。",
+       "en": "The shop sells at a loss to attract customers."
+      }
+     }
+    ],
+    "usageNote": "C'est une perte de temps = 这是浪费时间。"
+   }
+  ]
+ },
+ {
+  "headword": "dépenser",
+  "phonetic": "/de.pɑ̃.se/",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je dépense, nous dépensons；过去分词 dépensé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "utiliser de l'argent pour acheter",
+    "translations": {
+     "zh": "花（钱）；消耗",
+     "en": "to spend"
+    },
+    "examples": [
+     {
+      "text": "Elle dépense beaucoup en vêtements.",
+      "cloze": "Elle {{dépense}} beaucoup en vêtements.",
+      "translations": {
+       "zh": "她在衣服上花很多钱。",
+       "en": "She spends a lot on clothes."
+      }
+     }
+    ],
+    "usageNote": "花时间用 passer du temps，不用 dépenser。"
+   }
+  ]
+ },
+ {
+  "headword": "dépense",
+  "phonetic": "/de.pɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "dépenses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on dépense",
+    "translations": {
+     "zh": "开支；花费",
+     "en": "expense, spending"
+    },
+    "examples": [
+     {
+      "text": "Je note toutes mes dépenses dans un cahier.",
+      "cloze": "Je note toutes mes {{dépenses}} dans un cahier.",
+      "translations": {
+       "zh": "我把所有开支记在本子上。",
+       "en": "I write down all my expenses in a notebook."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "consommer",
+  "phonetic": "/kɔ̃.sɔ.me/",
+  "cefr": "B1",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je consomme, nous consommons；过去分词 consommé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "utiliser des produits, de l'énergie ; manger ou boire",
+    "translations": {
+     "zh": "消费；消耗",
+     "en": "to consume"
+    },
+    "examples": [
+     {
+      "text": "Cette voiture consomme peu d'essence.",
+      "cloze": "Cette voiture {{consomme}} peu d'essence.",
+      "translations": {
+       "zh": "这辆车很省油。",
+       "en": "This car uses little petrol."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "consommateur",
+  "phonetic": "/kɔ̃.sɔ.ma.tœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "consommateurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui achète et utilise des produits",
+    "translations": {
+     "zh": "消费者",
+     "en": "consumer"
+    },
+    "examples": [
+     {
+      "text": "Les consommateurs veulent des produits moins chers.",
+      "cloze": "Les {{consommateurs}} veulent des produits moins chers.",
+      "translations": {
+       "zh": "消费者想要更便宜的商品。",
+       "en": "Consumers want cheaper products."
+      }
+     }
+    ],
+    "usageNote": "阴性 consommatrice。"
+   }
+  ]
+ },
+ {
+  "headword": "consommation",
+  "phonetic": "/kɔ̃.sɔ.ma.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "consommations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'utiliser des produits ou de l'énergie",
+    "translations": {
+     "zh": "消费；消耗量",
+     "en": "consumption"
+    },
+    "examples": [
+     {
+      "text": "Il faut réduire notre consommation d'électricité.",
+      "translations": {
+       "zh": "我们得减少用电量。",
+       "en": "We need to reduce our electricity consumption."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "boisson commandée dans un café",
+    "translations": {
+     "zh": "（咖啡馆里点的）饮料",
+     "en": "drink (in a café)"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "achat",
+  "phonetic": "/a.ʃa/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "achats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'acheter ; chose achetée",
+    "translations": {
+     "zh": "购买；购买的东西",
+     "en": "purchase"
+    },
+    "examples": [
+     {
+      "text": "Gardez le ticket de caisse après votre achat.",
+      "translations": {
+       "zh": "购买后请保留收银小票。",
+       "en": "Keep the receipt after your purchase."
+      }
+     }
+    ],
+    "usageNote": "faire des achats = 购物。"
+   }
+  ]
+ },
+ {
+  "headword": "vente",
+  "phonetic": "/vɑ̃t/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ventes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de vendre",
+    "translations": {
+     "zh": "销售；出售",
+     "en": "sale"
+    },
+    "examples": [
+     {
+      "text": "Cette maison est en vente depuis un an.",
+      "translations": {
+       "zh": "这栋房子挂牌出售一年了。",
+       "en": "This house has been for sale for a year."
+      }
+     }
+    ],
+    "usageNote": "en vente = 有售、出售中。"
+   }
+  ]
+ },
+ {
+  "headword": "réduction",
+  "phonetic": "/ʁe.dyk.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réductions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "baisse d'un prix ou d'une quantité",
+    "translations": {
+     "zh": "减价；折扣；减少",
+     "en": "discount; reduction"
+    },
+    "examples": [
+     {
+      "text": "Les étudiants ont droit à une réduction de 20 %.",
+      "translations": {
+       "zh": "学生可享八折优惠。",
+       "en": "Students are entitled to a 20% discount."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "facture",
+  "phonetic": "/fak.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "factures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier qui indique ce qu'on doit payer",
+    "translations": {
+     "zh": "账单；发票",
+     "en": "bill, invoice"
+    },
+    "examples": [
+     {
+      "text": "Je n'ai pas encore payé la facture d'électricité.",
+      "translations": {
+       "zh": "我还没交电费账单。",
+       "en": "I haven't paid the electricity bill yet."
+      }
+     }
+    ],
+    "usageNote": "餐馆结账说 l'addition，不说 la facture。"
+   }
+  ]
+ },
+ {
+  "headword": "compte",
+  "phonetic": "/kɔ̃t/",
+  "cefr": "B1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "comptes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'une personne a dans une banque",
+    "translations": {
+     "zh": "账户",
+     "en": "account"
+    },
+    "examples": [
+     {
+      "text": "J'ai ouvert un compte dans une banque en ligne.",
+      "translations": {
+       "zh": "我在一家网上银行开了账户。",
+       "en": "I opened an account with an online bank."
+      }
+     }
+    ],
+    "usageNote": "p 不发音，与 conte（故事）同音。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "accès personnel à un site ou une application",
+    "translations": {
+     "zh": "（网络）账号",
+     "en": "(online) account"
+    },
+    "examples": [
+     {
+      "text": "Créez un compte pour commander.",
+      "translations": {
+       "zh": "请注册账号后下单。",
+       "en": "Create an account to order."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "carte bancaire",
+  "phonetic": "/kaʁt bɑ̃.kɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cartes bancaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "carte pour payer ou retirer de l'argent",
+    "translations": {
+     "zh": "银行卡",
+     "en": "bank card"
+    },
+    "examples": [
+     {
+      "text": "Je peux payer par carte bancaire ?",
+      "cloze": "Je peux payer par {{carte bancaire}} ?",
+      "translations": {
+       "zh": "我可以刷银行卡吗？",
+       "en": "Can I pay by card?"
+      }
+     }
+    ],
+    "usageNote": "口语常简称 la carte 或 la CB。"
+   }
+  ]
+ },
+ {
+  "headword": "chèque",
+  "phonetic": "/ʃɛk/",
+  "cefr": "B1",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chèques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier de banque utilisé pour payer",
+    "translations": {
+     "zh": "支票",
+     "en": "cheque"
+    },
+    "examples": [
+     {
+      "text": "Peu de gens paient encore par chèque.",
+      "translations": {
+       "zh": "现在很少有人还用支票付款。",
+       "en": "Few people still pay by cheque."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "virement",
+  "phonetic": "/viʁ.mɑ̃/",
+  "cefr": "B2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "virements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "passage d'argent d'un compte à un autre",
+    "translations": {
+     "zh": "转账",
+     "en": "bank transfer"
+    },
+    "examples": [
+     {
+      "text": "Je vous envoie l'argent par virement.",
+      "translations": {
+       "zh": "我通过转账把钱汇给您。",
+       "en": "I'll send you the money by bank transfer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "retirer",
+  "phonetic": "/ʁə.ti.ʁe/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je retire, nous retirons；过去分词 retiré"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre de l'argent sur son compte ; enlever",
+    "translations": {
+     "zh": "取（钱）；取出；撤回",
+     "en": "to withdraw; to take off"
+    },
+    "examples": [
+     {
+      "text": "Je dois retirer de l'argent au distributeur.",
+      "translations": {
+       "zh": "我得去取款机取钱。",
+       "en": "I need to withdraw money from the cash machine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "loyer",
+  "phonetic": "/lwa.je/",
+  "cefr": "B1",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "loyers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent payé chaque mois pour un logement loué",
+    "translations": {
+     "zh": "房租；租金",
+     "en": "rent"
+    },
+    "examples": [
+     {
+      "text": "Le loyer est trop cher dans ce quartier.",
+      "translations": {
+       "zh": "这个街区的房租太贵了。",
+       "en": "The rent is too expensive in this neighbourhood."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "revenu",
+  "phonetic": "/ʁəv.ny/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "revenus"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on gagne régulièrement",
+    "translations": {
+     "zh": "收入",
+     "en": "income"
+    },
+    "examples": [
+     {
+      "text": "Leurs revenus ne suffisent pas pour vivre.",
+      "cloze": "Leurs {{revenus}} ne suffisent pas pour vivre.",
+      "translations": {
+       "zh": "他们的收入不够生活。",
+       "en": "Their income isn't enough to live on."
+      }
+     }
+    ],
+    "usageNote": "常用复数：les revenus。"
+   }
+  ]
+ },
+ {
+  "headword": "richesse",
+  "phonetic": "/ʁi.ʃɛs/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "richesses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'être riche ; ce qui a de la valeur",
+    "translations": {
+     "zh": "财富；丰富",
+     "en": "wealth, richness"
+    },
+    "examples": [
+     {
+      "text": "La richesse est mal répartie dans le monde.",
+      "translations": {
+       "zh": "世界上的财富分配不均。",
+       "en": "Wealth is unevenly distributed in the world."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pauvreté",
+  "phonetic": "/pov.ʁə.te/",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "état d'une personne qui manque d'argent",
+    "translations": {
+     "zh": "贫穷；贫困",
+     "en": "poverty"
+    },
+    "examples": [
+     {
+      "text": "Des millions de personnes vivent dans la pauvreté.",
+      "translations": {
+       "zh": "数百万人生活在贫困中。",
+       "en": "Millions of people live in poverty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gratuit",
+  "phonetic": "/ɡʁa.tɥi/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "irregularForms": "阴性 gratuite；复数 gratuits, gratuites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qu'on n'a pas besoin de payer",
+    "translations": {
+     "zh": "免费的",
+     "en": "free (of charge)"
+    },
+    "examples": [
+     {
+      "text": "L'entrée du musée est gratuite le dimanche.",
+      "cloze": "L'entrée du musée est {{gratuite}} le dimanche.",
+      "translations": {
+       "zh": "博物馆周日免费入场。",
+       "en": "Admission to the museum is free on Sundays."
+      }
+     }
+    ],
+    "usageNote": "“自由的”用 libre，不用 gratuit。"
+   }
+  ]
+ },
+ {
+  "headword": "coût",
+  "phonetic": "/ku/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "coûts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme qu'il faut payer pour quelque chose",
+    "translations": {
+     "zh": "费用；成本",
+     "en": "cost"
+    },
+    "examples": [
+     {
+      "text": "Le coût de la vie augmente.",
+      "translations": {
+       "zh": "生活成本在上涨。",
+       "en": "The cost of living is rising."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tarif",
+  "phonetic": "/ta.ʁif/",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tarifs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "prix fixé pour un service",
+    "translations": {
+     "zh": "价目；收费标准",
+     "en": "rate, fare, price"
+    },
+    "examples": [
+     {
+      "text": "Il existe un tarif réduit pour les enfants.",
+      "translations": {
+       "zh": "儿童有优惠票价。",
+       "en": "There is a reduced fare for children."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bourse",
+  "phonetic": "/buʁs/",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bourses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent donné à un étudiant pour payer ses études",
+    "translations": {
+     "zh": "奖学金；助学金",
+     "en": "grant, scholarship"
+    },
+    "examples": [
+     {
+      "text": "Elle a obtenu une bourse pour étudier à Lyon.",
+      "translations": {
+       "zh": "她获得了去里昂学习的奖学金。",
+       "en": "She got a grant to study in Lyon."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "marché où on achète et vend des actions",
+    "translations": {
+     "zh": "证券交易所；股市",
+     "en": "stock exchange"
+    },
+    "examples": [
+     {
+      "text": "La Bourse de Paris a baissé aujourd'hui.",
+      "translations": {
+       "zh": "巴黎股市今天下跌了。",
+       "en": "The Paris stock exchange fell today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "assurance",
+  "phonetic": "/a.sy.ʁɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "assurances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "contrat qui protège contre les risques en payant une somme",
+    "translations": {
+     "zh": "保险",
+     "en": "insurance"
+    },
+    "examples": [
+     {
+      "text": "Avez-vous une assurance pour votre voiture ?",
+      "translations": {
+       "zh": "您的车上保险了吗？",
+       "en": "Do you have insurance for your car?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'être sûr de soi",
+    "translations": {
+     "zh": "自信；把握",
+     "en": "self-confidence"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "livraison",
+  "phonetic": "/li.vʁɛ.zɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "livraisons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'apporter une marchandise à quelqu'un",
+    "translations": {
+     "zh": "送货；交付",
+     "en": "delivery"
+    },
+    "examples": [
+     {
+      "text": "La livraison est gratuite à partir de cinquante euros.",
+      "translations": {
+       "zh": "满五十欧免运费。",
+       "en": "Delivery is free for orders over fifty euros."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "livrer",
+  "phonetic": "/li.vʁe/",
+  "cefr": "B1",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je livre, nous livrons；过去分词 livré"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "apporter une marchandise chez quelqu'un",
+    "translations": {
+     "zh": "送货；交付",
+     "en": "to deliver"
+    },
+    "examples": [
+     {
+      "text": "Le colis sera livré demain.",
+      "cloze": "Le colis sera {{livré}} demain.",
+      "translations": {
+       "zh": "包裹明天送到。",
+       "en": "The parcel will be delivered tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "marque",
+  "phonetic": "/maʁk/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "marques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nom d'un fabricant ou d'un produit",
+    "translations": {
+     "zh": "品牌；标记",
+     "en": "brand; mark"
+    },
+    "examples": [
+     {
+      "text": "De quelle marque est ton téléphone ?",
+      "translations": {
+       "zh": "你的手机是什么牌子的？",
+       "en": "What brand is your phone?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "produit",
+  "phonetic": "/pʁɔ.dɥi/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "produits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose fabriquée ou cultivée pour être vendue",
+    "translations": {
+     "zh": "产品；产物",
+     "en": "product"
+    },
+    "examples": [
+     {
+      "text": "Ce magasin vend des produits locaux.",
+      "cloze": "Ce magasin vend des {{produits}} locaux.",
+      "translations": {
+       "zh": "这家店卖本地产品。",
+       "en": "This shop sells local products."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "concurrence",
+  "phonetic": "/kɔ̃.ky.ʁɑ̃s/",
+  "cefr": "B2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rivalité entre entreprises qui vendent les mêmes produits",
+    "translations": {
+     "zh": "竞争",
+     "en": "competition"
+    },
+    "examples": [
+     {
+      "text": "La concurrence entre les supermarchés fait baisser les prix.",
+      "translations": {
+       "zh": "超市之间的竞争使价格下降。",
+       "en": "Competition between supermarkets brings prices down."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pouvoir d'achat",
+  "phonetic": "/pu.vwaʁ da.ʃa/",
+  "cefr": "B2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "quantité de biens qu'on peut acheter avec ses revenus",
+    "translations": {
+     "zh": "购买力",
+     "en": "purchasing power"
+    },
+    "examples": [
+     {
+      "text": "Les familles se plaignent de la baisse du pouvoir d'achat.",
+      "cloze": "Les familles se plaignent de la baisse du {{pouvoir d'achat}}.",
+      "translations": {
+       "zh": "家庭抱怨购买力下降。",
+       "en": "Families complain about the drop in purchasing power."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

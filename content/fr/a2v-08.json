@@ -1,0 +1,1093 @@
+[
+ {
+  "headword": "vers",
+  "phonetic": "/vɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en direction de ; environ (pour l'heure)",
+    "translations": {
+     "zh": "朝；大约（几点）",
+     "en": "towards, around"
+    },
+    "examples": [
+     {
+      "text": "On se voit vers huit heures.",
+      "translations": {
+       "zh": "我们八点左右见。",
+       "en": "See you around eight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "au lieu de",
+  "phonetic": "/o.ljø.də/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à la place de",
+    "translations": {
+     "zh": "而不是；代替",
+     "en": "instead of"
+    },
+    "examples": [
+     {
+      "text": "Prends le vélo au lieu de la voiture.",
+      "cloze": "Prends le vélo {{au lieu de}} la voiture.",
+      "translations": {
+       "zh": "骑自行车，别开车。",
+       "en": "Take the bike instead of the car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "grâce à",
+  "phonetic": "/ɡʁɑs.a/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "avec l'aide de (pour une chose positive)",
+    "translations": {
+     "zh": "多亏；由于",
+     "en": "thanks to"
+    },
+    "examples": [
+     {
+      "text": "J'ai réussi grâce à toi.",
+      "cloze": "J'ai réussi {{grâce à}} toi.",
+      "translations": {
+       "zh": "多亏了你，我才成功了。",
+       "en": "I succeeded thanks to you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à cause de",
+  "phonetic": "/a.koz.də/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "indique la raison (souvent négative)",
+    "translations": {
+     "zh": "因为；由于",
+     "en": "because of"
+    },
+    "examples": [
+     {
+      "text": "Le match est annulé à cause de la pluie.",
+      "cloze": "Le match est annulé {{à cause de}} la pluie.",
+      "translations": {
+       "zh": "比赛因为下雨取消了。",
+       "en": "The match is cancelled because of the rain."
+      }
+     }
+    ],
+    "usageNote": "好的原因用 grâce à，坏的原因多用 à cause de。"
+   }
+  ]
+ },
+ {
+  "headword": "sauf",
+  "phonetic": "/sof/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à part, excepté",
+    "translations": {
+     "zh": "除了",
+     "en": "except"
+    },
+    "examples": [
+     {
+      "text": "Le musée est ouvert tous les jours sauf le mardi.",
+      "translations": {
+       "zh": "博物馆除了周二每天都开。",
+       "en": "The museum is open every day except Tuesday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avant de",
+  "phonetic": "/a.vɑ̃.də/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "avant le moment de (+ infinitif)",
+    "translations": {
+     "zh": "在……之前",
+     "en": "before (doing)"
+    },
+    "examples": [
+     {
+      "text": "Lave-toi les mains avant de manger.",
+      "cloze": "Lave-toi les mains {{avant de}} manger.",
+      "translations": {
+       "zh": "吃饭前洗手。",
+       "en": "Wash your hands before eating."
+      }
+     }
+    ],
+    "usageNote": "后面接不定式；接名词用 avant：avant le dîner。"
+   }
+  ]
+ },
+ {
+  "headword": "chaque",
+  "phonetic": "/ʃak/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "tous, un par un",
+    "translations": {
+     "zh": "每个；每一",
+     "en": "each, every"
+    },
+    "examples": [
+     {
+      "text": "Chaque matin, je bois un café.",
+      "translations": {
+       "zh": "每天早上我喝一杯咖啡。",
+       "en": "Every morning I drink a coffee."
+      }
+     }
+    ],
+    "usageNote": "后面只接单数名词。"
+   }
+  ]
+ },
+ {
+  "headword": "quelques",
+  "phonetic": "/kɛl.kə/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "un petit nombre de",
+    "translations": {
+     "zh": "一些；几个",
+     "en": "a few, some"
+    },
+    "examples": [
+     {
+      "text": "J'ai quelques questions.",
+      "translations": {
+       "zh": "我有几个问题。",
+       "en": "I have a few questions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plusieurs",
+  "phonetic": "/ply.zjœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "plus de deux",
+    "translations": {
+     "zh": "好几个；几个",
+     "en": "several"
+    },
+    "examples": [
+     {
+      "text": "J'ai plusieurs amis à Paris.",
+      "translations": {
+       "zh": "我在巴黎有好几个朋友。",
+       "en": "I have several friends in Paris."
+      }
+     }
+    ],
+    "usageNote": "阴阳性同形，永远是复数。"
+   }
+  ]
+ },
+ {
+  "headword": "aucun",
+  "phonetic": "/o.kœ̃/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "irregularForms": "阴性 aucune；一般不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "pas un seul",
+    "translations": {
+     "zh": "没有任何；一个也没有",
+     "en": "no, not any"
+    },
+    "examples": [
+     {
+      "text": "Je n'ai aucune idée.",
+      "cloze": "Je n'ai {{aucune}} idée.",
+      "translations": {
+       "zh": "我完全不知道。",
+       "en": "I have no idea."
+      }
+     }
+    ],
+    "usageNote": "与 ne 连用：Il n'y a aucun problème."
+   }
+  ]
+ },
+ {
+  "headword": "quelqu'un",
+  "phonetic": "/kɛl.kœ̃/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "une personne qu'on ne nomme pas",
+    "translations": {
+     "zh": "某人；有人",
+     "en": "someone, anyone"
+    },
+    "examples": [
+     {
+      "text": "Il y a quelqu'un ?",
+      "translations": {
+       "zh": "有人吗？",
+       "en": "Is anyone there?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quelque chose",
+  "phonetic": "/kɛl.kə.ʃoz/",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "une chose qu'on ne nomme pas",
+    "translations": {
+     "zh": "某事；某物；什么东西",
+     "en": "something"
+    },
+    "examples": [
+     {
+      "text": "Tu veux boire quelque chose ?",
+      "cloze": "Tu veux boire {{quelque chose}} ?",
+      "translations": {
+       "zh": "你想喝点什么吗？",
+       "en": "Would you like something to drink?"
+      }
+     }
+    ],
+    "usageNote": "接形容词要加 de：quelque chose de bon（好吃的东西）。"
+   }
+  ]
+ },
+ {
+  "headword": "rien",
+  "phonetic": "/ʁjɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 200,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "aucune chose",
+    "translations": {
+     "zh": "什么也没有；没什么",
+     "en": "nothing"
+    },
+    "examples": [
+     {
+      "text": "Je ne vois rien.",
+      "translations": {
+       "zh": "我什么也看不见。",
+       "en": "I can't see anything."
+      }
+     }
+    ],
+    "usageNote": "与 ne 连用：Je n'ai rien compris. 单独回答：Rien."
+   }
+  ]
+ },
+ {
+  "headword": "il y a",
+  "phonetic": "/il.i.ja/",
+  "cefr": "A2",
+  "frequencyRank": 50,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "sert à dire qu'une chose existe",
+    "translations": {
+     "zh": "有；（时间）……以前",
+     "en": "there is, there are; ago"
+    },
+    "examples": [
+     {
+      "text": "Il y a un chat dans le jardin.",
+      "cloze": "{{Il y a}} un chat dans le jardin.",
+      "translations": {
+       "zh": "花园里有一只猫。",
+       "en": "There's a cat in the garden."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "phrase",
+    "definition": "indique un moment passé",
+    "translations": {
+     "zh": "……以前",
+     "en": "ago"
+    },
+    "examples": [
+     {
+      "text": "Je suis arrivé il y a deux jours.",
+      "translations": {
+       "zh": "我两天前到的。",
+       "en": "I arrived two days ago."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avoir besoin de",
+  "phonetic": "/a.vwaʁ.bə.zwɛ̃.də/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "il faut quelque chose pour soi",
+    "translations": {
+     "zh": "需要",
+     "en": "to need"
+    },
+    "examples": [
+     {
+      "text": "J'ai besoin de ton aide.",
+      "cloze": "J'{{ai besoin de}} ton aide.",
+      "translations": {
+       "zh": "我需要你的帮助。",
+       "en": "I need your help."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avoir envie de",
+  "phonetic": "/a.vwaʁ.ɑ̃.vi.də/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "désirer quelque chose",
+    "translations": {
+     "zh": "想要；想做",
+     "en": "to feel like, to want"
+    },
+    "examples": [
+     {
+      "text": "J'ai envie de dormir.",
+      "cloze": "J'{{ai envie de}} dormir.",
+      "translations": {
+       "zh": "我想睡觉。",
+       "en": "I feel like sleeping."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avoir l'air",
+  "phonetic": "/a.vwaʁ.lɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "sembler",
+    "translations": {
+     "zh": "看起来；显得",
+     "en": "to look, to seem"
+    },
+    "examples": [
+     {
+      "text": "Tu as l'air fatigué.",
+      "cloze": "Tu {{as l'air}} fatigué.",
+      "translations": {
+       "zh": "你看起来很累。",
+       "en": "You look tired."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avoir raison",
+  "phonetic": "/a.vwaʁ.ʁɛ.zɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "dire ou penser ce qui est juste",
+    "translations": {
+     "zh": "有道理；说得对",
+     "en": "to be right"
+    },
+    "examples": [
+     {
+      "text": "Tu as raison, il est tard.",
+      "cloze": "Tu {{as raison}}, il est tard.",
+      "translations": {
+       "zh": "你说得对，很晚了。",
+       "en": "You're right, it's late."
+      }
+     }
+    ],
+    "usageNote": "反义：avoir tort（错了）。"
+   }
+  ]
+ },
+ {
+  "headword": "avoir tort",
+  "phonetic": "/a.vwaʁ.tɔʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "se tromper",
+    "translations": {
+     "zh": "错了；没道理",
+     "en": "to be wrong"
+    },
+    "examples": [
+     {
+      "text": "Il a tort de crier.",
+      "cloze": "Il {{a tort}} de crier.",
+      "translations": {
+       "zh": "他大喊大叫是不对的。",
+       "en": "He's wrong to shout."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avoir de la chance",
+  "phonetic": "/a.vwaʁ.də.la.ʃɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "avoir une bonne situation par hasard",
+    "translations": {
+     "zh": "运气好",
+     "en": "to be lucky"
+    },
+    "examples": [
+     {
+      "text": "Tu as de la chance !",
+      "cloze": "Tu {{as de la chance}} !",
+      "translations": {
+       "zh": "你运气真好！",
+       "en": "You're lucky!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "être en train de",
+  "phonetic": "/ɛ.tʁɑ̃.tʁɛ̃.də/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "faire une action en ce moment",
+    "translations": {
+     "zh": "正在（做）",
+     "en": "to be (doing something)"
+    },
+    "examples": [
+     {
+      "text": "Je suis en train de manger.",
+      "cloze": "Je {{suis en train de}} manger.",
+      "translations": {
+       "zh": "我正在吃饭。",
+       "en": "I'm eating right now."
+      }
+     }
+    ],
+    "usageNote": "后面接不定式，强调动作正在进行。"
+   }
+  ]
+ },
+ {
+  "headword": "venir de",
+  "phonetic": "/və.niʁ.də/",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "avoir fait juste avant (+ infinitif)",
+    "translations": {
+     "zh": "刚刚（做了）",
+     "en": "to have just (done)"
+    },
+    "examples": [
+     {
+      "text": "Je viens de rentrer.",
+      "cloze": "Je {{viens de}} rentrer.",
+      "translations": {
+       "zh": "我刚回来。",
+       "en": "I've just come home."
+      }
+     }
+    ],
+    "usageNote": "venir 现在时 + de + 不定式 = 刚刚完成的动作。"
+   }
+  ]
+ },
+ {
+  "headword": "faire attention",
+  "phonetic": "/fɛʁ.a.tɑ̃.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "être prudent ; bien regarder",
+    "translations": {
+     "zh": "小心；注意",
+     "en": "to be careful, to pay attention"
+    },
+    "examples": [
+     {
+      "text": "Fais attention, la route est glissante.",
+      "cloze": "{{Fais attention}}, la route est glissante.",
+      "translations": {
+       "zh": "小心，路很滑。",
+       "en": "Be careful, the road is slippery."
+      }
+     }
+    ],
+    "usageNote": "faire attention à qqch：注意某事。"
+   }
+  ]
+ },
+ {
+  "headword": "faire les courses",
+  "phonetic": "/fɛʁ.le.kuʁs/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "acheter à manger et les choses de la maison",
+    "translations": {
+     "zh": "买东西；买菜",
+     "en": "to do the shopping"
+    },
+    "examples": [
+     {
+      "text": "Je fais les courses le samedi.",
+      "cloze": "Je {{fais les courses}} le samedi.",
+      "translations": {
+       "zh": "我每周六去采购。",
+       "en": "I do the shopping on Saturdays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ça dépend",
+  "phonetic": "/sa.de.pɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ce n'est pas sûr, il y a plusieurs cas",
+    "translations": {
+     "zh": "看情况",
+     "en": "it depends"
+    },
+    "examples": [
+     {
+      "text": "Tu viens ce soir ? — Ça dépend.",
+      "cloze": "Tu viens ce soir ? — {{Ça dépend}}.",
+      "translations": {
+       "zh": "你今晚来吗？——看情况。",
+       "en": "Are you coming tonight? — It depends."
+      }
+     }
+    ],
+    "usageNote": "ça dépend de qqch：取决于……"
+   }
+  ]
+ },
+ {
+  "headword": "ça m'est égal",
+  "phonetic": "/sa.mɛ.te.ɡal/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "je n'ai pas de préférence",
+    "translations": {
+     "zh": "我无所谓",
+     "en": "I don't mind"
+    },
+    "examples": [
+     {
+      "text": "Thé ou café ? — Ça m'est égal.",
+      "cloze": "Thé ou café ? — {{Ça m'est égal}}.",
+      "translations": {
+       "zh": "茶还是咖啡？——都行。",
+       "en": "Tea or coffee? — I don't mind."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pas mal",
+  "phonetic": "/pa.mal/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "assez bien (familier)",
+    "translations": {
+     "zh": "不错",
+     "en": "not bad"
+    },
+    "examples": [
+     {
+      "text": "Ce restaurant n'est pas mal.",
+      "cloze": "Ce restaurant n'est {{pas mal}}.",
+      "translations": {
+       "zh": "这家餐厅还不错。",
+       "en": "This restaurant isn't bad."
+      }
+     }
+    ],
+    "usageNote": "pas mal de + 名词：相当多的……（口语）。"
+   }
+  ]
+ },
+ {
+  "headword": "bonne chance",
+  "phonetic": "/bɔn.ʃɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule pour souhaiter le succès",
+    "translations": {
+     "zh": "祝你好运",
+     "en": "good luck"
+    },
+    "examples": [
+     {
+      "text": "Bonne chance pour ton examen !",
+      "cloze": "{{Bonne chance}} pour ton examen !",
+      "translations": {
+       "zh": "祝你考试顺利！",
+       "en": "Good luck with your exam!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bon appétit",
+  "phonetic": "/bɔ.na.pe.ti/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule dite avant de manger",
+    "translations": {
+     "zh": "祝你胃口好；请慢用",
+     "en": "enjoy your meal"
+    },
+    "examples": [
+     {
+      "text": "Le dîner est prêt, bon appétit !",
+      "cloze": "Le dîner est prêt, {{bon appétit}} !",
+      "translations": {
+       "zh": "晚饭好了，大家慢慢吃！",
+       "en": "Dinner's ready, enjoy your meal!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bon voyage",
+  "phonetic": "/bɔ̃.vwa.jaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule pour quelqu'un qui part",
+    "translations": {
+     "zh": "一路顺风",
+     "en": "have a good trip"
+    },
+    "examples": [
+     {
+      "text": "Au revoir et bon voyage !",
+      "cloze": "Au revoir et {{bon voyage}} !",
+      "translations": {
+       "zh": "再见，一路顺风！",
+       "en": "Goodbye and have a good trip!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à tout à l'heure",
+  "phonetic": "/a.tu.ta.lœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "au revoir, on se revoit bientôt aujourd'hui",
+    "translations": {
+     "zh": "待会儿见",
+     "en": "see you later"
+    },
+    "examples": [
+     {
+      "text": "Je vais à la poste, à tout à l'heure !",
+      "cloze": "Je vais à la poste, {{à tout à l'heure}} !",
+      "translations": {
+       "zh": "我去趟邮局，待会儿见！",
+       "en": "I'm going to the post office, see you later!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à demain",
+  "phonetic": "/a.də.mɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "au revoir, on se revoit demain",
+    "translations": {
+     "zh": "明天见",
+     "en": "see you tomorrow"
+    },
+    "examples": [
+     {
+      "text": "Bonne nuit, à demain !",
+      "cloze": "Bonne nuit, {{à demain}} !",
+      "translations": {
+       "zh": "晚安，明天见！",
+       "en": "Good night, see you tomorrow!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bienvenue",
+  "phonetic": "/bjɛ̃v.ny/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "formule pour accueillir quelqu'un",
+    "translations": {
+     "zh": "欢迎",
+     "en": "welcome"
+    },
+    "examples": [
+     {
+      "text": "Bienvenue à Paris !",
+      "translations": {
+       "zh": "欢迎来到巴黎！",
+       "en": "Welcome to Paris!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "félicitations",
+  "phonetic": "/fe.li.si.ta.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "formule pour dire bravo",
+    "translations": {
+     "zh": "祝贺；恭喜",
+     "en": "congratulations"
+    },
+    "examples": [
+     {
+      "text": "Félicitations pour ton mariage !",
+      "translations": {
+       "zh": "恭喜你结婚！",
+       "en": "Congratulations on your wedding!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avec plaisir",
+  "phonetic": "/a.vɛk.ple.ziʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "oui, volontiers",
+    "translations": {
+     "zh": "乐意；很高兴（地）",
+     "en": "with pleasure"
+    },
+    "examples": [
+     {
+      "text": "Tu viens dîner ? — Avec plaisir !",
+      "cloze": "Tu viens dîner ? — {{Avec plaisir}} !",
+      "translations": {
+       "zh": "你来吃晚饭吗？——乐意之至！",
+       "en": "Will you come to dinner? — With pleasure!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pas de problème",
+  "phonetic": "/pa.də.pʁɔ.blɛm/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ce n'est pas difficile, c'est d'accord",
+    "translations": {
+     "zh": "没问题",
+     "en": "no problem"
+    },
+    "examples": [
+     {
+      "text": "Tu peux m'aider ? — Pas de problème.",
+      "cloze": "Tu peux m'aider ? — {{Pas de problème}}.",
+      "translations": {
+       "zh": "你能帮我吗？——没问题。",
+       "en": "Can you help me? — No problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "c'est ça",
+  "phonetic": "/sɛ.sa/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "oui, c'est exact",
+    "translations": {
+     "zh": "对；就是这样",
+     "en": "that's right"
+    },
+    "examples": [
+     {
+      "text": "Vous êtes Madame Martin ? — Oui, c'est ça.",
+      "cloze": "Vous êtes Madame Martin ? — Oui, {{c'est ça}}.",
+      "translations": {
+       "zh": "您是马丁太太吗？——对，是我。",
+       "en": "Are you Mrs Martin? — Yes, that's right."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tant pis",
+  "phonetic": "/tɑ̃.pi/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ce n'est pas grave, on accepte",
+    "translations": {
+     "zh": "算了；那也没办法",
+     "en": "never mind, too bad"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a plus de gâteau ? Tant pis.",
+      "cloze": "Il n'y a plus de gâteau ? {{Tant pis}}.",
+      "translations": {
+       "zh": "蛋糕没了？那就算了。",
+       "en": "No more cake? Never mind."
+      }
+     }
+    ],
+    "usageNote": "反义：tant mieux（那太好了）。"
+   }
+  ]
+ },
+ {
+  "headword": "tant mieux",
+  "phonetic": "/tɑ̃.mjø/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "c'est une bonne chose",
+    "translations": {
+     "zh": "那太好了",
+     "en": "so much the better, good"
+    },
+    "examples": [
+     {
+      "text": "Tu es guéri ? Tant mieux !",
+      "cloze": "Tu es guéri ? {{Tant mieux}} !",
+      "translations": {
+       "zh": "你病好了？那太好了！",
+       "en": "You're better? Great!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "volontiers",
+  "phonetic": "/vɔ.lɔ̃.tje/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "avec plaisir",
+    "translations": {
+     "zh": "乐意地；很愿意",
+     "en": "gladly, with pleasure"
+    },
+    "examples": [
+     {
+      "text": "Un café ? — Oui, volontiers !",
+      "translations": {
+       "zh": "来杯咖啡？——好的，很乐意！",
+       "en": "A coffee? — Yes, I'd love one!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en colère",
+  "phonetic": "/ɑ̃.kɔ.lɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "très fâché",
+    "translations": {
+     "zh": "生气的；发怒的",
+     "en": "angry"
+    },
+    "examples": [
+     {
+      "text": "Mon père est en colère.",
+      "cloze": "Mon père est {{en colère}}.",
+      "translations": {
+       "zh": "我爸爸生气了。",
+       "en": "My father is angry."
+      }
+     }
+    ],
+    "usageNote": "常用 être en colère contre qqn（生某人的气）。"
+   }
+  ]
+ }
+]

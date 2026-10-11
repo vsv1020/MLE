@@ -1,0 +1,767 @@
+[
+ {
+  "headword": "réveillon",
+  "phonetic": "/ʁe.vɛ.jɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 15000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "réveillons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand repas la nuit du 24 ou du 31 décembre",
+    "translations": {
+     "zh": "平安夜/跨年夜大餐",
+     "en": "Christmas Eve / New Year's Eve dinner"
+    },
+    "examples": [
+     {
+      "text": "On fait le réveillon chez mes parents.",
+      "translations": {
+       "zh": "我们在我父母家吃年夜饭。",
+       "en": "We're having the Christmas Eve dinner at my parents'."
+      }
+     }
+    ],
+    "usageNote": "圣诞前夜和新年前夜的晚宴都叫 réveillon。"
+   }
+  ]
+ },
+ {
+  "headword": "invitation",
+  "phonetic": "/ɛ̃.vi.ta.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "invitations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'inviter ; carte pour inviter",
+    "translations": {
+     "zh": "邀请；请柬",
+     "en": "invitation"
+    },
+    "examples": [
+     {
+      "text": "Merci pour ton invitation !",
+      "translations": {
+       "zh": "谢谢你的邀请！",
+       "en": "Thanks for your invitation!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "invité",
+  "phonetic": "/ɛ̃.vi.te/",
+  "cefr": "A2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "invités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qu'on invite chez soi ou à une fête",
+    "translations": {
+     "zh": "客人",
+     "en": "guest"
+    },
+    "examples": [
+     {
+      "text": "Nous avons dix invités ce soir.",
+      "cloze": "Nous avons dix {{invités}} ce soir.",
+      "translations": {
+       "zh": "我们今晚有十位客人。",
+       "en": "We have ten guests tonight."
+      }
+     }
+    ],
+    "usageNote": "阴性 invitée。"
+   }
+  ]
+ },
+ {
+  "headword": "soirée",
+  "phonetic": "/swa.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "soirées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fin de la journée ; fête le soir",
+    "translations": {
+     "zh": "晚上；晚会",
+     "en": "evening, party"
+    },
+    "examples": [
+     {
+      "text": "On organise une soirée samedi.",
+      "translations": {
+       "zh": "我们星期六办个晚会。",
+       "en": "We're having a party on Saturday."
+      }
+     }
+    ],
+    "usageNote": "与 soir 相比，soirée 强调整个晚上的时段。"
+   }
+  ]
+ },
+ {
+  "headword": "bougie",
+  "phonetic": "/bu.ʒi/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bougies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bâton de cire qui donne de la lumière",
+    "translations": {
+     "zh": "蜡烛",
+     "en": "candle"
+    },
+    "examples": [
+     {
+      "text": "Souffle les bougies !",
+      "cloze": "Souffle les {{bougies}} !",
+      "translations": {
+       "zh": "吹蜡烛！",
+       "en": "Blow out the candles!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "feu d'artifice",
+  "phonetic": "/fø daʁ.ti.fis/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "feux d'artifice"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lumières de couleur qui explosent dans le ciel",
+    "translations": {
+     "zh": "烟花",
+     "en": "fireworks"
+    },
+    "examples": [
+     {
+      "text": "On regarde le feu d'artifice le 14 juillet.",
+      "cloze": "On regarde le {{feu d'artifice}} le 14 juillet.",
+      "translations": {
+       "zh": "我们7月14日看烟花。",
+       "en": "We watch the fireworks on 14 July."
+      }
+     }
+    ],
+    "usageNote": "复数 feux d'artifice。"
+   }
+  ]
+ },
+ {
+  "headword": "défilé",
+  "phonetic": "/de.fi.le/",
+  "cefr": "A2",
+  "frequencyRank": 7600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "défilés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe de personnes qui marchent dans la rue pour une fête",
+    "translations": {
+     "zh": "游行；时装秀",
+     "en": "parade"
+    },
+    "examples": [
+     {
+      "text": "Le défilé passe sur les Champs-Élysées.",
+      "translations": {
+       "zh": "游行队伍经过香榭丽舍大街。",
+       "en": "The parade goes along the Champs-Élysées."
+      }
+     }
+    ],
+    "usageNote": "时装秀是 défilé de mode。"
+   }
+  ]
+ },
+ {
+  "headword": "jour férié",
+  "phonetic": "/ʒuʁ fe.ʁje/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jours fériés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jour de fête où on ne travaille pas",
+    "translations": {
+     "zh": "法定节假日",
+     "en": "public holiday"
+    },
+    "examples": [
+     {
+      "text": "Le premier mai est un jour férié.",
+      "cloze": "Le premier mai est un {{jour férié}}.",
+      "translations": {
+       "zh": "五月一日是法定假日。",
+       "en": "May 1st is a public holiday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cérémonie",
+  "phonetic": "/se.ʁe.mɔ.ni/",
+  "cefr": "A2",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cérémonies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "événement officiel et solennel",
+    "translations": {
+     "zh": "仪式；典礼",
+     "en": "ceremony"
+    },
+    "examples": [
+     {
+      "text": "La cérémonie commence à onze heures.",
+      "translations": {
+       "zh": "典礼十一点开始。",
+       "en": "The ceremony starts at eleven."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "festival",
+  "phonetic": "/fɛs.ti.val/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "festivals"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande fête de musique, de cinéma ou de théâtre",
+    "translations": {
+     "zh": "节；艺术节",
+     "en": "festival"
+    },
+    "examples": [
+     {
+      "text": "Le festival de Cannes a lieu en mai.",
+      "translations": {
+       "zh": "戛纳电影节在五月举行。",
+       "en": "The Cannes Film Festival takes place in May."
+      }
+     }
+    ],
+    "usageNote": "复数 festivals（不是 -aux）。"
+   }
+  ]
+ },
+ {
+  "headword": "vœu",
+  "phonetic": "/vø/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vœux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on souhaite pour quelqu'un",
+    "translations": {
+     "zh": "祝愿；愿望",
+     "en": "wish"
+    },
+    "examples": [
+     {
+      "text": "Meilleurs vœux pour la nouvelle année !",
+      "cloze": "Meilleurs {{vœux}} pour la nouvelle année !",
+      "translations": {
+       "zh": "新年快乐，万事如意！",
+       "en": "Best wishes for the new year!"
+      }
+     }
+    ],
+    "usageNote": "faire un vœu = 许愿。"
+   }
+  ]
+ },
+ {
+  "headword": "pique-nique",
+  "phonetic": "/pik.nik/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pique-niques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "repas qu'on mange dehors, dans la nature",
+    "translations": {
+     "zh": "野餐",
+     "en": "picnic"
+    },
+    "examples": [
+     {
+      "text": "On fait un pique-nique au parc dimanche.",
+      "cloze": "On fait un {{pique-nique}} au parc dimanche.",
+      "translations": {
+       "zh": "我们星期天去公园野餐。",
+       "en": "We're having a picnic in the park on Sunday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "barbecue",
+  "phonetic": "/baʁ.bə.kju/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "barbecues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "repas où on cuit la viande dehors sur le feu",
+    "translations": {
+     "zh": "烧烤",
+     "en": "barbecue"
+    },
+    "examples": [
+     {
+      "text": "On fait un barbecue dans le jardin.",
+      "translations": {
+       "zh": "我们在花园里烧烤。",
+       "en": "We're having a barbecue in the garden."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "décoration",
+  "phonetic": "/de.kɔ.ʁa.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "décorations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objets qui rendent un lieu plus joli",
+    "translations": {
+     "zh": "装饰",
+     "en": "decoration"
+    },
+    "examples": [
+     {
+      "text": "Les enfants préparent les décorations de Noël.",
+      "cloze": "Les enfants préparent les {{décorations}} de Noël.",
+      "translations": {
+       "zh": "孩子们在准备圣诞装饰。",
+       "en": "The children are making the Christmas decorations."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "costume",
+  "phonetic": "/kɔs.tym/",
+  "cefr": "A2",
+  "frequencyRank": 4400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "costumes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "veste et pantalon pour homme ; vêtement pour se déguiser",
+    "translations": {
+     "zh": "西装；戏服",
+     "en": "suit, costume"
+    },
+    "examples": [
+     {
+      "text": "Il porte un costume pour le mariage.",
+      "translations": {
+       "zh": "他穿西装去参加婚礼。",
+       "en": "He's wearing a suit for the wedding."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tradition",
+  "phonetic": "/tʁa.di.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "traditions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "habitude ancienne qu'on garde dans une famille ou un pays",
+    "translations": {
+     "zh": "传统",
+     "en": "tradition"
+    },
+    "examples": [
+     {
+      "text": "Manger des crêpes en février, c'est une tradition.",
+      "translations": {
+       "zh": "二月吃可丽饼是一种传统。",
+       "en": "Eating crêpes in February is a tradition."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "idée",
+  "phonetic": "/i.de/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "idées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on pense ; projet dans la tête",
+    "translations": {
+     "zh": "主意；想法",
+     "en": "idea"
+    },
+    "examples": [
+     {
+      "text": "C'est une bonne idée !",
+      "translations": {
+       "zh": "好主意！",
+       "en": "That's a good idea!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "problème",
+  "phonetic": "/pʁɔ.blɛm/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "problèmes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose difficile à résoudre",
+    "translations": {
+     "zh": "问题；麻烦",
+     "en": "problem"
+    },
+    "examples": [
+     {
+      "text": "Pas de problème !",
+      "translations": {
+       "zh": "没问题！",
+       "en": "No problem!"
+      }
+     }
+    ],
+    "usageNote": "以 -ème 结尾却是阳性：le problème。"
+   }
+  ]
+ },
+ {
+  "headword": "numéro",
+  "phonetic": "/ny.me.ʁo/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "numéros"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nombre qui sert à identifier quelque chose",
+    "translations": {
+     "zh": "号码",
+     "en": "number"
+    },
+    "examples": [
+     {
+      "text": "Tu me donnes ton numéro ?",
+      "translations": {
+       "zh": "你能给我你的电话号码吗？",
+       "en": "Can you give me your number?"
+      }
+     }
+    ],
+    "usageNote": "数字本身是 nombre 或 chiffre。"
+   }
+  ]
+ },
+ {
+  "headword": "renseignement",
+  "phonetic": "/ʁɑ̃.sɛɲ.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "renseignements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "information qu'on demande",
+    "translations": {
+     "zh": "信息；询问",
+     "en": "information"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais un renseignement, s'il vous plaît.",
+      "translations": {
+       "zh": "我想打听一下。",
+       "en": "I'd like some information, please."
+      }
+     }
+    ],
+    "usageNote": "常用复数 les renseignements。"
+   }
+  ]
+ },
+ {
+  "headword": "formulaire",
+  "phonetic": "/fɔʁ.my.lɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "formulaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier avec des questions à remplir",
+    "translations": {
+     "zh": "表格",
+     "en": "form"
+    },
+    "examples": [
+     {
+      "text": "Remplissez ce formulaire, s'il vous plaît.",
+      "translations": {
+       "zh": "请填写这张表格。",
+       "en": "Please fill in this form."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "accueil",
+  "phonetic": "/a.kœj/",
+  "cefr": "A2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "accueils"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où on reçoit les visiteurs",
+    "translations": {
+     "zh": "接待处；欢迎",
+     "en": "reception, welcome"
+    },
+    "examples": [
+     {
+      "text": "Demandez à l'accueil.",
+      "cloze": "Demandez à l'{{accueil}}.",
+      "translations": {
+       "zh": "请问接待处。",
+       "en": "Ask at reception."
+      }
+     }
+    ],
+    "usageNote": "拼写特殊：-cueil 读 /kœj/。"
+   }
+  ]
+ },
+ {
+  "headword": "sortie",
+  "phonetic": "/sɔʁ.ti/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sorties"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit par où on sort",
+    "translations": {
+     "zh": "出口",
+     "en": "exit, way out"
+    },
+    "examples": [
+     {
+      "text": "Où est la sortie ?",
+      "translations": {
+       "zh": "出口在哪儿？",
+       "en": "Where's the exit?"
+      }
+     }
+    ],
+    "usageNote": "入口是 entrée；sortie 也指“外出游玩”。"
+   }
+  ]
+ },
+ {
+  "headword": "entrée",
+  "phonetic": "/ɑ̃.tʁe/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "entrées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit par où on entre",
+    "translations": {
+     "zh": "入口",
+     "en": "entrance"
+    },
+    "examples": [
+     {
+      "text": "L'entrée du musée est gratuite.",
+      "cloze": "L'{{entrée}} du musée est gratuite.",
+      "translations": {
+       "zh": "博物馆免费入场。",
+       "en": "Entrance to the museum is free."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "premier plat d'un repas",
+    "translations": {
+     "zh": "前菜；头盘",
+     "en": "starter"
+    },
+    "examples": [
+     {
+      "text": "Comme entrée, je prends une salade.",
+      "translations": {
+       "zh": "前菜我要沙拉。",
+       "en": "For my starter, I'll have a salad."
+      }
+     }
+    ],
+    "usageNote": "假朋友：法国菜单上的 entrée 是“前菜”，不是主菜。"
+   }
+  ]
+ },
+ {
+  "headword": "toilettes",
+  "phonetic": "/twa.lɛt/",
+  "cefr": "A2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce avec les WC",
+    "translations": {
+     "zh": "洗手间；厕所",
+     "en": "toilet, restroom"
+    },
+    "examples": [
+     {
+      "text": "Où sont les toilettes, s'il vous plaît ?",
+      "translations": {
+       "zh": "请问洗手间在哪儿？",
+       "en": "Where's the toilet, please?"
+      }
+     }
+    ],
+    "usageNote": "“厕所”总用复数 les toilettes；单数 la toilette 指“梳洗”。"
+   }
+  ]
+ }
+]

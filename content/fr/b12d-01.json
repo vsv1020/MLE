@@ -1,0 +1,1672 @@
+[
+ {
+  "headword": "environnement",
+  "phonetic": "/ɑ̃.vi.ʁɔn.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "environnements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "milieu naturel où vivent les êtres vivants",
+    "translations": {
+     "zh": "环境；自然环境",
+     "en": "environment"
+    },
+    "examples": [
+     {
+      "text": "Il faut respecter l'environnement.",
+      "cloze": "Il faut respecter l'{{environnement}}.",
+      "translations": {
+       "zh": "要爱护环境。",
+       "en": "We must respect the environment."
+      }
+     }
+    ],
+    "usageNote": "注意拼写有两个 n：environnement。"
+   }
+  ]
+ },
+ {
+  "headword": "pollution",
+  "phonetic": "/pɔ.ly.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pollutions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "dégradation de l'air, de l'eau ou du sol par des substances nocives",
+    "translations": {
+     "zh": "污染",
+     "en": "pollution"
+    },
+    "examples": [
+     {
+      "text": "La pollution de l'air est grave dans cette ville.",
+      "translations": {
+       "zh": "这座城市的空气污染很严重。",
+       "en": "Air pollution is serious in this city."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "polluer",
+  "phonetic": "/pɔ.lɥe/",
+  "cefr": "B1",
+  "frequencyRank": 5200,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "salir l'environnement avec des substances nocives",
+    "translations": {
+     "zh": "污染",
+     "en": "to pollute"
+    },
+    "examples": [
+     {
+      "text": "Les usines polluent la rivière.",
+      "cloze": "Les usines {{polluent}} la rivière.",
+      "translations": {
+       "zh": "工厂污染了这条河。",
+       "en": "The factories pollute the river."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "recycler",
+  "phonetic": "/ʁə.si.kle/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "traiter un déchet pour le réutiliser",
+    "translations": {
+     "zh": "回收利用；循环利用",
+     "en": "to recycle"
+    },
+    "examples": [
+     {
+      "text": "On peut recycler le verre et le papier.",
+      "translations": {
+       "zh": "玻璃和纸都可以回收。",
+       "en": "Glass and paper can be recycled."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "recyclage",
+  "phonetic": "/ʁə.si.klaʒ/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "recyclages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "traitement des déchets pour les réutiliser",
+    "translations": {
+     "zh": "回收利用",
+     "en": "recycling"
+    },
+    "examples": [
+     {
+      "text": "Le recyclage du plastique coûte cher.",
+      "translations": {
+       "zh": "塑料回收成本很高。",
+       "en": "Recycling plastic is expensive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "déchet",
+  "phonetic": "/de.ʃɛ/",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "déchets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qui reste et qu'on jette",
+    "translations": {
+     "zh": "垃圾；废物",
+     "en": "waste, rubbish"
+    },
+    "examples": [
+     {
+      "text": "Ne jetez pas vos déchets dans la nature.",
+      "cloze": "Ne jetez pas vos {{déchets}} dans la nature.",
+      "translations": {
+       "zh": "不要把垃圾扔在野外。",
+       "en": "Don't throw your rubbish into the countryside."
+      }
+     }
+    ],
+    "usageNote": "常用复数 les déchets；生活垃圾也叫 les ordures。"
+   }
+  ]
+ },
+ {
+  "headword": "poubelle",
+  "phonetic": "/pu.bɛl/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "poubelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "récipient où l'on met les déchets",
+    "translations": {
+     "zh": "垃圾桶",
+     "en": "bin, dustbin"
+    },
+    "examples": [
+     {
+      "text": "Mets ce papier à la poubelle.",
+      "translations": {
+       "zh": "把这张纸扔进垃圾桶。",
+       "en": "Put this paper in the bin."
+      }
+     }
+    ],
+    "usageNote": "sortir la poubelle = 把垃圾拿出去倒掉。"
+   }
+  ]
+ },
+ {
+  "headword": "trier",
+  "phonetic": "/tʁi.je/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "séparer des choses selon leur catégorie",
+    "translations": {
+     "zh": "分类；挑选",
+     "en": "to sort"
+    },
+    "examples": [
+     {
+      "text": "Chez nous, on trie les déchets.",
+      "cloze": "Chez nous, on {{trie}} les déchets.",
+      "translations": {
+       "zh": "我们家会把垃圾分类。",
+       "en": "At home, we sort our waste."
+      }
+     }
+    ],
+    "usageNote": "le tri sélectif = 垃圾分类。"
+   }
+  ]
+ },
+ {
+  "headword": "énergie",
+  "phonetic": "/e.nɛʁ.ʒi/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "énergies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "force qui permet de produire du travail, de la chaleur ou de l'électricité",
+    "translations": {
+     "zh": "能源；能量",
+     "en": "energy"
+    },
+    "examples": [
+     {
+      "text": "Le soleil est une énergie propre.",
+      "translations": {
+       "zh": "太阳能是一种清洁能源。",
+       "en": "The sun is a clean source of energy."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "force physique ou morale d'une personne",
+    "translations": {
+     "zh": "精力；活力",
+     "en": "energy, vigour"
+    },
+    "examples": [
+     {
+      "text": "Elle a beaucoup d'énergie le matin.",
+      "translations": {
+       "zh": "她早上精力充沛。",
+       "en": "She has a lot of energy in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "électricité",
+  "phonetic": "/e.lɛk.tʁi.si.te/",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "électricités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "forme d'énergie qui fait marcher les lampes et les machines",
+    "translations": {
+     "zh": "电；电力",
+     "en": "electricity"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a plus d'électricité dans le quartier.",
+      "cloze": "Il n'y a plus d'{{électricité}} dans le quartier.",
+      "translations": {
+       "zh": "这个街区停电了。",
+       "en": "There's no more electricity in the neighbourhood."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pétrole",
+  "phonetic": "/pe.tʁɔl/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pétroles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "huile minérale qu'on tire du sol pour faire du carburant",
+    "translations": {
+     "zh": "石油",
+     "en": "oil, petroleum"
+    },
+    "examples": [
+     {
+      "text": "Le prix du pétrole augmente.",
+      "translations": {
+       "zh": "石油价格在上涨。",
+       "en": "The price of oil is rising."
+      }
+     }
+    ],
+    "usageNote": "食用油是 huile，不是 pétrole。"
+   }
+  ]
+ },
+ {
+  "headword": "solaire",
+  "phonetic": "/sɔ.lɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vient du soleil ou qui utilise le soleil",
+    "translations": {
+     "zh": "太阳的；太阳能的",
+     "en": "solar"
+    },
+    "examples": [
+     {
+      "text": "Ils ont mis des panneaux solaires sur le toit.",
+      "cloze": "Ils ont mis des panneaux {{solaires}} sur le toit.",
+      "translations": {
+       "zh": "他们在屋顶装了太阳能板。",
+       "en": "They put solar panels on the roof."
+      }
+     }
+    ],
+    "usageNote": "crème solaire = 防晒霜。"
+   }
+  ]
+ },
+ {
+  "headword": "nucléaire",
+  "phonetic": "/ny.kle.ɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 3300,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui utilise l'énergie du noyau de l'atome",
+    "translations": {
+     "zh": "核的；核能的",
+     "en": "nuclear"
+    },
+    "examples": [
+     {
+      "text": "La France a beaucoup de centrales nucléaires.",
+      "cloze": "La France a beaucoup de centrales {{nucléaires}}.",
+      "translations": {
+       "zh": "法国有很多核电站。",
+       "en": "France has many nuclear power stations."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "renouvelable",
+  "phonetic": "/ʁə.nu.vlabl/",
+  "cefr": "B2",
+  "frequencyRank": 8500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui se renouvelle naturellement et ne s'épuise pas",
+    "translations": {
+     "zh": "可再生的",
+     "en": "renewable"
+    },
+    "examples": [
+     {
+      "text": "Le vent est une énergie renouvelable.",
+      "translations": {
+       "zh": "风能是一种可再生能源。",
+       "en": "Wind is a renewable energy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "éolienne",
+  "phonetic": "/e.ɔ.ljɛn/",
+  "cefr": "B2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "éoliennes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "machine qui produit de l'électricité avec le vent",
+    "translations": {
+     "zh": "风力发电机；风车",
+     "en": "wind turbine"
+    },
+    "examples": [
+     {
+      "text": "On voit des éoliennes le long de la côte.",
+      "cloze": "On voit des {{éoliennes}} le long de la côte.",
+      "translations": {
+       "zh": "沿海岸可以看到许多风力发电机。",
+       "en": "You can see wind turbines along the coast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "climat",
+  "phonetic": "/kli.ma/",
+  "cefr": "B1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "climats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "temps qu'il fait habituellement dans une région",
+    "translations": {
+     "zh": "气候",
+     "en": "climate"
+    },
+    "examples": [
+     {
+      "text": "Le climat de Marseille est doux.",
+      "translations": {
+       "zh": "马赛的气候很温和。",
+       "en": "Marseille's climate is mild."
+      }
+     }
+    ],
+    "usageNote": "t 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "climatique",
+  "phonetic": "/kli.ma.tik/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne le climat",
+    "translations": {
+     "zh": "气候的",
+     "en": "climate, climatic"
+    },
+    "examples": [
+     {
+      "text": "Le changement climatique inquiète les jeunes.",
+      "translations": {
+       "zh": "气候变化让年轻人忧心。",
+       "en": "Climate change worries young people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réchauffement",
+  "phonetic": "/ʁe.ʃof.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 7800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "réchauffements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de devenir plus chaud",
+    "translations": {
+     "zh": "变暖；升温",
+     "en": "warming"
+    },
+    "examples": [
+     {
+      "text": "Le réchauffement de la planète est rapide.",
+      "translations": {
+       "zh": "全球变暖速度很快。",
+       "en": "Global warming is happening fast."
+      }
+     }
+    ],
+    "usageNote": "le réchauffement climatique = 全球气候变暖。"
+   }
+  ]
+ },
+ {
+  "headword": "effet de serre",
+  "phonetic": "/e.fɛ.də.sɛʁ/",
+  "cefr": "B2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "effets de serre"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "réchauffement de l'atmosphère causé par certains gaz",
+    "translations": {
+     "zh": "温室效应",
+     "en": "greenhouse effect"
+    },
+    "examples": [
+     {
+      "text": "Le CO2 augmente l'effet de serre.",
+      "cloze": "Le CO2 augmente l'{{effet de serre}}.",
+      "translations": {
+       "zh": "二氧化碳加剧温室效应。",
+       "en": "CO2 increases the greenhouse effect."
+      }
+     }
+    ],
+    "usageNote": "gaz à effet de serre = 温室气体。"
+   }
+  ]
+ },
+ {
+  "headword": "émission",
+  "phonetic": "/e.mi.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "émissions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de rejeter un gaz ou une substance dans l'air",
+    "translations": {
+     "zh": "排放",
+     "en": "emission"
+    },
+    "examples": [
+     {
+      "text": "Il faut réduire les émissions de CO2.",
+      "cloze": "Il faut réduire les {{émissions}} de CO2.",
+      "translations": {
+       "zh": "必须减少二氧化碳排放。",
+       "en": "CO2 emissions must be reduced."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme de radio ou de télévision",
+    "translations": {
+     "zh": "（电视、广播）节目",
+     "en": "programme, broadcast"
+    },
+    "examples": [
+     {
+      "text": "C'est mon émission préférée.",
+      "translations": {
+       "zh": "这是我最喜欢的节目。",
+       "en": "It's my favourite programme."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "carbone",
+  "phonetic": "/kaʁ.bɔn/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "carbones"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "élément chimique présent dans le charbon et le CO2",
+    "translations": {
+     "zh": "碳",
+     "en": "carbon"
+    },
+    "examples": [
+     {
+      "text": "Cette voiture produit peu de carbone.",
+      "translations": {
+       "zh": "这辆车碳排放很少。",
+       "en": "This car produces little carbon."
+      }
+     }
+    ],
+    "usageNote": "empreinte carbone = 碳足迹。"
+   }
+  ]
+ },
+ {
+  "headword": "protéger",
+  "phonetic": "/pʁɔ.te.ʒe/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "conjugation": "变音：je protège, nous protégeons, ils protègent；过去分词 protégé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "défendre contre un danger",
+    "translations": {
+     "zh": "保护",
+     "en": "to protect"
+    },
+    "examples": [
+     {
+      "text": "Nous devons protéger les forêts.",
+      "translations": {
+       "zh": "我们必须保护森林。",
+       "en": "We must protect the forests."
+      }
+     }
+    ],
+    "usageNote": "protéger qqn/qqch de/contre qqch = 保护……免受……"
+   }
+  ]
+ },
+ {
+  "headword": "protection",
+  "phonetic": "/pʁɔ.tɛk.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "protections"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de protéger",
+    "translations": {
+     "zh": "保护",
+     "en": "protection"
+    },
+    "examples": [
+     {
+      "text": "Cette association travaille pour la protection des animaux.",
+      "translations": {
+       "zh": "这个协会致力于动物保护。",
+       "en": "This association works for animal protection."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gaspiller",
+  "phonetic": "/ɡas.pi.je/",
+  "cefr": "B1",
+  "frequencyRank": 9500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "utiliser sans faire attention, perdre inutilement",
+    "translations": {
+     "zh": "浪费",
+     "en": "to waste"
+    },
+    "examples": [
+     {
+      "text": "Ne gaspille pas l'eau !",
+      "cloze": "Ne {{gaspille}} pas l'eau !",
+      "translations": {
+       "zh": "别浪费水！",
+       "en": "Don't waste water!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gaspillage",
+  "phonetic": "/ɡas.pi.jaʒ/",
+  "cefr": "B2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "gaspillages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait de gaspiller",
+    "translations": {
+     "zh": "浪费",
+     "en": "waste, wastefulness"
+    },
+    "examples": [
+     {
+      "text": "Le gaspillage alimentaire est un vrai problème.",
+      "translations": {
+       "zh": "食物浪费是个大问题。",
+       "en": "Food waste is a real problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "économiser",
+  "phonetic": "/e.kɔ.nɔ.mi.ze/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dépenser ou consommer moins",
+    "translations": {
+     "zh": "节省；节约",
+     "en": "to save"
+    },
+    "examples": [
+     {
+      "text": "Éteins la lumière pour économiser l'énergie.",
+      "translations": {
+       "zh": "关灯以节约能源。",
+       "en": "Turn off the light to save energy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "consommation",
+  "phonetic": "/kɔ̃.sɔ.ma.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "consommations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'utiliser des produits ou de l'énergie",
+    "translations": {
+     "zh": "消费；消耗",
+     "en": "consumption"
+    },
+    "examples": [
+     {
+      "text": "Notre consommation d'eau a baissé.",
+      "translations": {
+       "zh": "我们的用水量下降了。",
+       "en": "Our water consumption has gone down."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "durable",
+  "phonetic": "/dy.ʁabl/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui dure longtemps ; qui respecte l'environnement à long terme",
+    "translations": {
+     "zh": "持久的；可持续的",
+     "en": "lasting; sustainable"
+    },
+    "examples": [
+     {
+      "text": "Le développement durable est une priorité.",
+      "translations": {
+       "zh": "可持续发展是优先事项。",
+       "en": "Sustainable development is a priority."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "écologique",
+  "phonetic": "/e.kɔ.lɔ.ʒik/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui respecte l'environnement",
+    "translations": {
+     "zh": "环保的；生态的",
+     "en": "ecological, eco-friendly"
+    },
+    "examples": [
+     {
+      "text": "Le vélo est un moyen de transport écologique.",
+      "translations": {
+       "zh": "自行车是环保的交通工具。",
+       "en": "The bike is an eco-friendly means of transport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "écologie",
+  "phonetic": "/e.kɔ.lɔ.ʒi/",
+  "cefr": "B1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "écologies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "science et mouvement pour la protection de la nature",
+    "translations": {
+     "zh": "生态学；环保",
+     "en": "ecology"
+    },
+    "examples": [
+     {
+      "text": "Elle s'intéresse beaucoup à l'écologie.",
+      "cloze": "Elle s'intéresse beaucoup à l'{{écologie}}.",
+      "translations": {
+       "zh": "她对环保很感兴趣。",
+       "en": "She's very interested in ecology."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "environnemental",
+  "phonetic": "/ɑ̃.vi.ʁɔn.mɑ̃.tal/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "irregularForms": "阳性复数 environnementaux；阴性 environnementale(s)"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne l'environnement",
+    "translations": {
+     "zh": "环境的",
+     "en": "environmental"
+    },
+    "examples": [
+     {
+      "text": "C'est un problème environnemental majeur.",
+      "translations": {
+       "zh": "这是一个重大的环境问题。",
+       "en": "It's a major environmental problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plastique",
+  "phonetic": "/plas.tik/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "plastiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "matière fabriquée avec du pétrole",
+    "translations": {
+     "zh": "塑料",
+     "en": "plastic"
+    },
+    "examples": [
+     {
+      "text": "Ces bouteilles sont en plastique.",
+      "translations": {
+       "zh": "这些瓶子是塑料的。",
+       "en": "These bottles are made of plastic."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "emballage",
+  "phonetic": "/ɑ̃.ba.laʒ/",
+  "cefr": "B1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "emballages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qui enveloppe un produit",
+    "translations": {
+     "zh": "包装",
+     "en": "packaging, wrapping"
+    },
+    "examples": [
+     {
+      "text": "Il y a trop d'emballage sur ce produit.",
+      "cloze": "Il y a trop d'{{emballage}} sur ce produit.",
+      "translations": {
+       "zh": "这个产品包装太多了。",
+       "en": "There's too much packaging on this product."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ressource",
+  "phonetic": "/ʁə.suʁs/",
+  "cefr": "B2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "ressources"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "richesse naturelle ou moyen disponible",
+    "translations": {
+     "zh": "资源",
+     "en": "resource"
+    },
+    "examples": [
+     {
+      "text": "L'eau est une ressource précieuse.",
+      "translations": {
+       "zh": "水是宝贵的资源。",
+       "en": "Water is a precious resource."
+      }
+     }
+    ],
+    "usageNote": "复数 ressources 也可指“收入、财力”。"
+   }
+  ]
+ },
+ {
+  "headword": "espèce",
+  "phonetic": "/ɛs.pɛs/",
+  "cefr": "B1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "espèces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe d'êtres vivants semblables",
+    "translations": {
+     "zh": "物种；种类",
+     "en": "species; kind"
+    },
+    "examples": [
+     {
+      "text": "Cette espèce d'oiseau est menacée.",
+      "translations": {
+       "zh": "这种鸟濒临灭绝。",
+       "en": "This species of bird is endangered."
+      }
+     }
+    ],
+    "usageNote": "en espèces = 用现金（付款）。"
+   }
+  ]
+ },
+ {
+  "headword": "menacer",
+  "phonetic": "/mə.na.se/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous menaçons；过去分词 menacé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre en danger",
+    "translations": {
+     "zh": "威胁",
+     "en": "to threaten"
+    },
+    "examples": [
+     {
+      "text": "La pollution menace la santé des habitants.",
+      "cloze": "La pollution {{menace}} la santé des habitants.",
+      "translations": {
+       "zh": "污染威胁着居民的健康。",
+       "en": "Pollution threatens the residents' health."
+      }
+     }
+    ],
+    "usageNote": "espèce menacée = 濒危物种。"
+   }
+  ]
+ },
+ {
+  "headword": "disparaître",
+  "phonetic": "/dis.pa.ʁɛtʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "conjugation": "不规则：je disparais, il disparaît, nous disparaissons；过去分词 disparu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne plus être visible ; cesser d'exister",
+    "translations": {
+     "zh": "消失；灭绝",
+     "en": "to disappear"
+    },
+    "examples": [
+     {
+      "text": "Beaucoup d'animaux risquent de disparaître.",
+      "translations": {
+       "zh": "许多动物面临灭绝的危险。",
+       "en": "Many animals are at risk of disappearing."
+      }
+     }
+    ],
+    "usageNote": "新拼写也可写作 disparaitre（无音符）。"
+   }
+  ]
+ },
+ {
+  "headword": "biodiversité",
+  "phonetic": "/bjo.di.vɛʁ.si.te/",
+  "cefr": "B2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "biodiversités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "variété des espèces vivantes dans un milieu",
+    "translations": {
+     "zh": "生物多样性",
+     "en": "biodiversity"
+    },
+    "examples": [
+     {
+      "text": "La biodiversité diminue partout dans le monde.",
+      "translations": {
+       "zh": "全世界的生物多样性都在减少。",
+       "en": "Biodiversity is declining all over the world."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sécheresse",
+  "phonetic": "/se.ʃʁɛs/",
+  "cefr": "B2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sécheresses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "longue période sans pluie",
+    "translations": {
+     "zh": "干旱",
+     "en": "drought"
+    },
+    "examples": [
+     {
+      "text": "La sécheresse a détruit les récoltes.",
+      "translations": {
+       "zh": "干旱毁了庄稼。",
+       "en": "The drought destroyed the crops."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "inondation",
+  "phonetic": "/i.nɔ̃.da.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "inondations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "eau qui couvre une zone normalement sèche",
+    "translations": {
+     "zh": "洪水；水灾",
+     "en": "flood"
+    },
+    "examples": [
+     {
+      "text": "Les inondations ont touché tout le village.",
+      "cloze": "Les {{inondations}} ont touché tout le village.",
+      "translations": {
+       "zh": "洪水波及了整个村子。",
+       "en": "The floods hit the whole village."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tempête",
+  "phonetic": "/tɑ̃.pɛt/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tempêtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vent très violent, souvent avec de la pluie",
+    "translations": {
+     "zh": "暴风雨；风暴",
+     "en": "storm"
+    },
+    "examples": [
+     {
+      "text": "Une tempête a fait tomber des arbres.",
+      "translations": {
+       "zh": "一场暴风雨刮倒了很多树。",
+       "en": "A storm brought down trees."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "température",
+  "phonetic": "/tɑ̃.pe.ʁa.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "températures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "degré de chaleur ou de froid",
+    "translations": {
+     "zh": "温度；气温",
+     "en": "temperature"
+    },
+    "examples": [
+     {
+      "text": "La température va baisser ce soir.",
+      "translations": {
+       "zh": "今晚气温会下降。",
+       "en": "The temperature will drop tonight."
+      }
+     }
+    ],
+    "usageNote": "avoir de la température = 发烧。"
+   }
+  ]
+ },
+ {
+  "headword": "catastrophe",
+  "phonetic": "/ka.tas.tʁɔf/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "catastrophes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "malheur très grave et soudain",
+    "translations": {
+     "zh": "灾难",
+     "en": "disaster, catastrophe"
+    },
+    "examples": [
+     {
+      "text": "Le séisme a été une catastrophe pour la région.",
+      "translations": {
+       "zh": "地震对该地区是一场灾难。",
+       "en": "The earthquake was a disaster for the region."
+      }
+     }
+    ],
+    "usageNote": "catastrophe naturelle = 自然灾害。"
+   }
+  ]
+ },
+ {
+  "headword": "nature",
+  "phonetic": "/na.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "natures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des plantes, des animaux et des paysages",
+    "translations": {
+     "zh": "大自然",
+     "en": "nature"
+    },
+    "examples": [
+     {
+      "text": "J'aime me promener dans la nature.",
+      "translations": {
+       "zh": "我喜欢在大自然中散步。",
+       "en": "I like walking in nature."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "caractère propre d'une personne ou d'une chose",
+    "translations": {
+     "zh": "本性；性质",
+     "en": "nature, character"
+    },
+    "examples": [
+     {
+      "text": "Il est timide de nature.",
+      "translations": {
+       "zh": "他天性腼腆。",
+       "en": "He's shy by nature."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "naturel",
+  "phonetic": "/na.ty.ʁɛl/",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "irregularForms": "阴性 naturelle；复数 naturels, naturelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vient de la nature, sans produit chimique",
+    "translations": {
+     "zh": "天然的；自然的",
+     "en": "natural"
+    },
+    "examples": [
+     {
+      "text": "Ce jus est cent pour cent naturel.",
+      "translations": {
+       "zh": "这种果汁是百分之百天然的。",
+       "en": "This juice is a hundred percent natural."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "normal, qui va de soi",
+    "translations": {
+     "zh": "理所当然的；自然的",
+     "en": "natural, normal"
+    },
+    "examples": [
+     {
+      "text": "C'est naturel d'avoir peur.",
+      "translations": {
+       "zh": "害怕是很正常的。",
+       "en": "It's natural to be afraid."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sauvage",
+  "phonetic": "/so.vaʒ/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vit en liberté dans la nature",
+    "translations": {
+     "zh": "野生的；野的",
+     "en": "wild"
+    },
+    "examples": [
+     {
+      "text": "Il y a des animaux sauvages dans cette forêt.",
+      "cloze": "Il y a des animaux {{sauvages}} dans cette forêt.",
+      "translations": {
+       "zh": "这片森林里有野生动物。",
+       "en": "There are wild animals in this forest."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "peu sociable, qui fuit les autres",
+    "translations": {
+     "zh": "怕生的；不合群的",
+     "en": "unsociable, shy"
+    },
+    "examples": [
+     {
+      "text": "Ce chat est un peu sauvage.",
+      "translations": {
+       "zh": "这只猫有点怕生。",
+       "en": "This cat is a bit shy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "planète",
+  "phonetic": "/pla.nɛt/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "planètes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "corps céleste qui tourne autour d'une étoile",
+    "translations": {
+     "zh": "行星；地球",
+     "en": "planet"
+    },
+    "examples": [
+     {
+      "text": "Il faut sauver la planète.",
+      "translations": {
+       "zh": "我们要拯救地球。",
+       "en": "We must save the planet."
+      }
+     }
+    ],
+    "usageNote": "la planète 常指地球。"
+   }
+  ]
+ },
+ {
+  "headword": "terre",
+  "phonetic": "/tɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "terres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "la planète où nous vivons",
+    "translations": {
+     "zh": "地球",
+     "en": "earth"
+    },
+    "examples": [
+     {
+      "text": "La Terre tourne autour du Soleil.",
+      "translations": {
+       "zh": "地球绕着太阳转。",
+       "en": "The Earth goes round the Sun."
+      }
+     }
+    ],
+    "usageNote": "指地球时常大写 la Terre。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "sol, matière où poussent les plantes",
+    "translations": {
+     "zh": "土；土地；地面",
+     "en": "soil, ground"
+    },
+    "examples": [
+     {
+      "text": "La terre est sèche après l'été.",
+      "translations": {
+       "zh": "夏天过后土地很干。",
+       "en": "The soil is dry after the summer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "paysage",
+  "phonetic": "/pe.i.zaʒ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "paysages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "étendue de pays que l'on voit d'un endroit",
+    "translations": {
+     "zh": "风景；景色",
+     "en": "landscape, scenery"
+    },
+    "examples": [
+     {
+      "text": "Le paysage est magnifique depuis le sommet.",
+      "translations": {
+       "zh": "从山顶看风景很美。",
+       "en": "The scenery is magnificent from the top."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "côte",
+  "phonetic": "/kot/",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "côtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bord de la mer",
+    "translations": {
+     "zh": "海岸；海边",
+     "en": "coast"
+    },
+    "examples": [
+     {
+      "text": "Nous passons l'été sur la côte bretonne.",
+      "translations": {
+       "zh": "我们在布列塔尼海岸过夏天。",
+       "en": "We spend the summer on the Breton coast."
+      }
+     }
+    ],
+    "usageNote": "la Côte d'Azur = 蔚蓝海岸。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "os du thorax ; pente d'une colline",
+    "translations": {
+     "zh": "肋骨；山坡",
+     "en": "rib; slope"
+    },
+    "examples": [
+     {
+      "text": "Il s'est cassé une côte.",
+      "translations": {
+       "zh": "他摔断了一根肋骨。",
+       "en": "He broke a rib."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "île",
+  "phonetic": "/il/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "îles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terre entourée d'eau de tous côtés",
+    "translations": {
+     "zh": "岛",
+     "en": "island"
+    },
+    "examples": [
+     {
+      "text": "La Corse est une île de la Méditerranée.",
+      "translations": {
+       "zh": "科西嘉是地中海的一个岛。",
+       "en": "Corsica is an island in the Mediterranean."
+      }
+     }
+    ],
+    "usageNote": "新拼写可写作 ile。"
+   }
+  ]
+ },
+ {
+  "headword": "colline",
+  "phonetic": "/kɔ.lin/",
+  "cefr": "B1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "collines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite montagne aux pentes douces",
+    "translations": {
+     "zh": "小山；丘陵",
+     "en": "hill"
+    },
+    "examples": [
+     {
+      "text": "Le village est construit sur une colline.",
+      "translations": {
+       "zh": "村子建在一座小山上。",
+       "en": "The village is built on a hill."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vallée",
+  "phonetic": "/va.le/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vallées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terrain bas entre des montagnes",
+    "translations": {
+     "zh": "山谷；河谷",
+     "en": "valley"
+    },
+    "examples": [
+     {
+      "text": "Une rivière coule au fond de la vallée.",
+      "translations": {
+       "zh": "一条河流过谷底。",
+       "en": "A river flows along the bottom of the valley."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fleuve",
+  "phonetic": "/flœv/",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fleuves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande rivière qui se jette dans la mer",
+    "translations": {
+     "zh": "大河；江",
+     "en": "(large) river"
+    },
+    "examples": [
+     {
+      "text": "La Loire est le plus long fleuve de France.",
+      "translations": {
+       "zh": "卢瓦尔河是法国最长的河。",
+       "en": "The Loire is the longest river in France."
+      }
+     }
+    ],
+    "usageNote": "fleuve 流入大海；rivière 流入另一条河。"
+   }
+  ]
+ }
+]

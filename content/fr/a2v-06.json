@@ -1,0 +1,1193 @@
+[
+ {
+  "headword": "possible",
+  "phonetic": "/pɔ.sibl/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui peut exister ou être fait",
+    "translations": {
+     "zh": "可能的",
+     "en": "possible"
+    },
+    "examples": [
+     {
+      "text": "C'est possible de venir demain ?",
+      "translations": {
+       "zh": "明天可以来吗？",
+       "en": "Is it possible to come tomorrow?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "impossible",
+  "phonetic": "/ɛ̃.pɔ.sibl/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne peut pas être fait",
+    "translations": {
+     "zh": "不可能的",
+     "en": "impossible"
+    },
+    "examples": [
+     {
+      "text": "C'est impossible de dormir ici !",
+      "translations": {
+       "zh": "在这儿根本没法睡觉！",
+       "en": "It's impossible to sleep here!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "simple",
+  "phonetic": "/sɛ̃pl/",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "facile, pas compliqué",
+    "translations": {
+     "zh": "简单的",
+     "en": "simple, easy"
+    },
+    "examples": [
+     {
+      "text": "La recette est très simple.",
+      "translations": {
+       "zh": "这个菜谱很简单。",
+       "en": "The recipe is very simple."
+      }
+     }
+    ],
+    "usageNote": "un aller simple：单程票。"
+   }
+  ]
+ },
+ {
+  "headword": "compliqué",
+  "phonetic": "/kɔ̃.pli.ke/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "difficile à comprendre ou à faire",
+    "translations": {
+     "zh": "复杂的",
+     "en": "complicated"
+    },
+    "examples": [
+     {
+      "text": "Cet exercice est compliqué.",
+      "translations": {
+       "zh": "这道练习很复杂。",
+       "en": "This exercise is complicated."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gratuit",
+  "phonetic": "/ɡʁa.tɥi/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qu'on n'a pas besoin de payer",
+    "translations": {
+     "zh": "免费的",
+     "en": "free (of charge)"
+    },
+    "examples": [
+     {
+      "text": "L'entrée du musée est gratuite.",
+      "cloze": "L'entrée du musée est {{gratuite}}.",
+      "translations": {
+       "zh": "博物馆免费入场。",
+       "en": "Entry to the museum is free."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "délicieux",
+  "phonetic": "/de.li.sjø/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "irregularForms": "阴性 délicieuse；复数 délicieux, délicieuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a très bon goût",
+    "translations": {
+     "zh": "美味的；好吃的",
+     "en": "delicious"
+    },
+    "examples": [
+     {
+      "text": "Ce gâteau est délicieux !",
+      "translations": {
+       "zh": "这块蛋糕太好吃了！",
+       "en": "This cake is delicious!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sucré",
+  "phonetic": "/sy.kʁe/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a le goût du sucre",
+    "translations": {
+     "zh": "甜的",
+     "en": "sweet"
+    },
+    "examples": [
+     {
+      "text": "Ce café est trop sucré.",
+      "translations": {
+       "zh": "这杯咖啡太甜了。",
+       "en": "This coffee is too sweet."
+      }
+     }
+    ]
+   }
+  ],
+  "homograph": 2
+ },
+ {
+  "headword": "salé",
+  "phonetic": "/sa.le/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a le goût du sel",
+    "translations": {
+     "zh": "咸的",
+     "en": "salty, savoury"
+    },
+    "examples": [
+     {
+      "text": "La soupe est trop salée.",
+      "cloze": "La soupe est trop {{salée}}.",
+      "translations": {
+       "zh": "汤太咸了。",
+       "en": "The soup is too salty."
+      }
+     }
+    ]
+   }
+  ],
+  "homograph": 2
+ },
+ {
+  "headword": "épicé",
+  "phonetic": "/e.pi.se/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "avec beaucoup d'épices",
+    "translations": {
+     "zh": "辣的；（香料）味重的",
+     "en": "spicy"
+    },
+    "examples": [
+     {
+      "text": "J'aime la cuisine épicée.",
+      "cloze": "J'aime la cuisine {{épicée}}.",
+      "translations": {
+       "zh": "我喜欢辣的菜。",
+       "en": "I like spicy food."
+      }
+     }
+    ],
+    "usageNote": "也常说 piquant（辣）。"
+   }
+  ],
+  "homograph": 2
+ },
+ {
+  "headword": "ouvert",
+  "phonetic": "/u.vɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "irregularForms": "阴性 ouverte；复数 ouverts, ouvertes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas fermé",
+    "translations": {
+     "zh": "开着的；营业的",
+     "en": "open"
+    },
+    "examples": [
+     {
+      "text": "La pharmacie est ouverte le dimanche.",
+      "cloze": "La pharmacie est {{ouverte}} le dimanche.",
+      "translations": {
+       "zh": "药店星期天营业。",
+       "en": "The chemist's is open on Sundays."
+      }
+     }
+    ],
+    "usageNote": "是 ouvrir 的过去分词。"
+   }
+  ]
+ },
+ {
+  "headword": "fermé",
+  "phonetic": "/fɛʁ.me/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas ouvert",
+    "translations": {
+     "zh": "关着的；关门的",
+     "en": "closed"
+    },
+    "examples": [
+     {
+      "text": "Le magasin est fermé le lundi.",
+      "translations": {
+       "zh": "这家店周一不营业。",
+       "en": "The shop is closed on Mondays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "parfait",
+  "phonetic": "/paʁ.fɛ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "sans aucun défaut",
+    "translations": {
+     "zh": "完美的",
+     "en": "perfect"
+    },
+    "examples": [
+     {
+      "text": "Ton français est parfait !",
+      "translations": {
+       "zh": "你的法语很完美！",
+       "en": "Your French is perfect!"
+      }
+     }
+    ],
+    "usageNote": "口语回答 Parfait ! 表示“太好了！”。"
+   }
+  ]
+ },
+ {
+  "headword": "normal",
+  "phonetic": "/nɔʁ.mal/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "irregularForms": "阴性 normale；复数 normaux, normales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "comme d'habitude, pas bizarre",
+    "translations": {
+     "zh": "正常的",
+     "en": "normal"
+    },
+    "examples": [
+     {
+      "text": "C'est normal d'être fatigué.",
+      "translations": {
+       "zh": "累是很正常的。",
+       "en": "It's normal to be tired."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "différent",
+  "phonetic": "/di.fe.ʁɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas pareil",
+    "translations": {
+     "zh": "不同的",
+     "en": "different"
+    },
+    "examples": [
+     {
+      "text": "Nos goûts sont très différents.",
+      "cloze": "Nos goûts sont très {{différents}}.",
+      "translations": {
+       "zh": "我们的口味很不一样。",
+       "en": "Our tastes are very different."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pareil",
+  "phonetic": "/pa.ʁɛj/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "irregularForms": "阴性 pareille；复数 pareils, pareilles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est comme un autre",
+    "translations": {
+     "zh": "一样的；相同的",
+     "en": "the same, alike"
+    },
+    "examples": [
+     {
+      "text": "Nos deux sacs sont pareils.",
+      "cloze": "Nos deux sacs sont {{pareils}}.",
+      "translations": {
+       "zh": "我们俩的包一模一样。",
+       "en": "Our two bags are the same."
+      }
+     }
+    ],
+    "usageNote": "口语 C'est pareil.（都一样。）"
+   }
+  ]
+ },
+ {
+  "headword": "même",
+  "phonetic": "/mɛm/",
+  "cefr": "A2",
+  "frequencyRank": 80,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas différent",
+    "translations": {
+     "zh": "相同的；同一个",
+     "en": "same"
+    },
+    "examples": [
+     {
+      "text": "Nous avons le même âge.",
+      "translations": {
+       "zh": "我们同岁。",
+       "en": "We're the same age."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adverb",
+    "definition": "indique une chose surprenante",
+    "translations": {
+     "zh": "甚至；连……都",
+     "en": "even"
+    },
+    "examples": [
+     {
+      "text": "Il travaille même le dimanche.",
+      "translations": {
+       "zh": "他连星期天都工作。",
+       "en": "He even works on Sundays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vrai",
+  "phonetic": "/vʁɛ/",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas faux",
+    "translations": {
+     "zh": "真的；真实的",
+     "en": "true, real"
+    },
+    "examples": [
+     {
+      "text": "C'est une histoire vraie.",
+      "cloze": "C'est une histoire {{vraie}}.",
+      "translations": {
+       "zh": "这是一个真实的故事。",
+       "en": "It's a true story."
+      }
+     }
+    ],
+    "usageNote": "C'est vrai ?（真的吗？）"
+   }
+  ]
+ },
+ {
+  "headword": "faux",
+  "phonetic": "/fo/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "irregularForms": "阴性 fausse；复数 faux, fausses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas vrai ou pas juste",
+    "translations": {
+     "zh": "假的；错误的",
+     "en": "false, wrong"
+    },
+    "examples": [
+     {
+      "text": "Cette réponse est fausse.",
+      "cloze": "Cette réponse est {{fausse}}.",
+      "translations": {
+       "zh": "这个答案是错的。",
+       "en": "This answer is wrong."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "juste",
+  "phonetic": "/ʒyst/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est correct ; qui respecte les règles",
+    "translations": {
+     "zh": "正确的；公平的",
+     "en": "right, correct, fair"
+    },
+    "examples": [
+     {
+      "text": "Ta réponse est juste.",
+      "translations": {
+       "zh": "你的答案是对的。",
+       "en": "Your answer is right."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adverb",
+    "definition": "seulement ; exactement",
+    "translations": {
+     "zh": "只是；刚好",
+     "en": "just, only"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais juste un café.",
+      "translations": {
+       "zh": "我只要一杯咖啡。",
+       "en": "I'd just like a coffee."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "entier",
+  "phonetic": "/ɑ̃.tje/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "irregularForms": "阴性 entière；复数 entiers, entières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "complet, sans rien en moins",
+    "translations": {
+     "zh": "整个的；完整的",
+     "en": "whole, entire"
+    },
+    "examples": [
+     {
+      "text": "Il a mangé le gâteau entier !",
+      "translations": {
+       "zh": "他把整个蛋糕都吃了！",
+       "en": "He ate the whole cake!"
+      }
+     }
+    ],
+    "usageNote": "dans le monde entier：全世界。"
+   }
+  ]
+ },
+ {
+  "headword": "bizarre",
+  "phonetic": "/bi.zaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "pas normal, étonnant",
+    "translations": {
+     "zh": "奇怪的",
+     "en": "strange, weird"
+    },
+    "examples": [
+     {
+      "text": "Ce bruit est bizarre.",
+      "translations": {
+       "zh": "这个声音很奇怪。",
+       "en": "That noise is strange."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "magnifique",
+  "phonetic": "/ma.ɲi.fik/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "très beau",
+    "translations": {
+     "zh": "美极了的；壮丽的",
+     "en": "magnificent, gorgeous"
+    },
+    "examples": [
+     {
+      "text": "La vue est magnifique !",
+      "translations": {
+       "zh": "风景美极了！",
+       "en": "The view is magnificent!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "génial",
+  "phonetic": "/ʒe.njal/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "irregularForms": "阴性 géniale；复数 géniaux, géniales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "très bien, excellent (familier)",
+    "translations": {
+     "zh": "棒极了的；天才的",
+     "en": "great, brilliant"
+    },
+    "examples": [
+     {
+      "text": "Ton idée est géniale !",
+      "cloze": "Ton idée est {{géniale}} !",
+      "translations": {
+       "zh": "你的主意太棒了！",
+       "en": "Your idea is brilliant!"
+      }
+     }
+    ],
+    "usageNote": "口语常单说 Génial !（太棒了！）"
+   }
+  ]
+ },
+ {
+  "headword": "nul",
+  "phonetic": "/nyl/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "irregularForms": "阴性 nulle；复数 nuls, nulles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "très mauvais (familier)",
+    "translations": {
+     "zh": "很差的；不行的",
+     "en": "rubbish, useless"
+    },
+    "examples": [
+     {
+      "text": "Je suis nul en maths.",
+      "translations": {
+       "zh": "我数学很差。",
+       "en": "I'm hopeless at maths."
+      }
+     }
+    ],
+    "usageNote": "être nul en + 学科：某科很差。"
+   }
+  ]
+ },
+ {
+  "headword": "énorme",
+  "phonetic": "/e.nɔʁm/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "très grand, très gros",
+    "translations": {
+     "zh": "巨大的",
+     "en": "huge"
+    },
+    "examples": [
+     {
+      "text": "Il y a une énorme araignée !",
+      "translations": {
+       "zh": "有一只巨大的蜘蛛！",
+       "en": "There's a huge spider!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rond",
+  "phonetic": "/ʁɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a la forme d'un cercle",
+    "translations": {
+     "zh": "圆的",
+     "en": "round"
+    },
+    "examples": [
+     {
+      "text": "Nous avons une table ronde.",
+      "cloze": "Nous avons une table {{ronde}}.",
+      "translations": {
+       "zh": "我们有一张圆桌。",
+       "en": "We have a round table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "carré",
+  "phonetic": "/ka.ʁe/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a quatre côtés égaux",
+    "translations": {
+     "zh": "正方形的；平方的",
+     "en": "square"
+    },
+    "examples": [
+     {
+      "text": "La boîte est carrée.",
+      "cloze": "La boîte est {{carrée}}.",
+      "translations": {
+       "zh": "这个盒子是方的。",
+       "en": "The box is square."
+      }
+     }
+    ],
+    "usageNote": "un mètre carré：一平方米。"
+   }
+  ]
+ },
+ {
+  "headword": "meilleur",
+  "phonetic": "/mɛ.jœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "plus bon",
+    "translations": {
+     "zh": "更好的；最好的",
+     "en": "better, best"
+    },
+    "examples": [
+     {
+      "text": "C'est mon meilleur ami.",
+      "translations": {
+       "zh": "他是我最好的朋友。",
+       "en": "He's my best friend."
+      }
+     }
+    ],
+    "usageNote": "bon 的比较级是 meilleur，不说 plus bon。副词 bien 的比较级是 mieux。"
+   }
+  ]
+ },
+ {
+  "headword": "mieux",
+  "phonetic": "/mjø/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "plus bien",
+    "translations": {
+     "zh": "更好地；更好",
+     "en": "better"
+    },
+    "examples": [
+     {
+      "text": "Je vais mieux aujourd'hui.",
+      "translations": {
+       "zh": "我今天好多了。",
+       "en": "I'm better today."
+      }
+     }
+    ],
+    "usageNote": "是 bien 的比较级；le mieux：最好。"
+   }
+  ]
+ },
+ {
+  "headword": "rarement",
+  "phonetic": "/ʁaʁ.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pas souvent",
+    "translations": {
+     "zh": "很少；难得",
+     "en": "rarely"
+    },
+    "examples": [
+     {
+      "text": "Je regarde rarement la télé.",
+      "translations": {
+       "zh": "我很少看电视。",
+       "en": "I rarely watch TV."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quelquefois",
+  "phonetic": "/kɛl.kə.fwa/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "de temps en temps",
+    "translations": {
+     "zh": "有时",
+     "en": "sometimes"
+    },
+    "examples": [
+     {
+      "text": "Je vais quelquefois à la piscine.",
+      "translations": {
+       "zh": "我有时去游泳池。",
+       "en": "I sometimes go to the swimming pool."
+      }
+     }
+    ],
+    "usageNote": "意思同 parfois。"
+   }
+  ]
+ },
+ {
+  "headword": "d'habitude",
+  "phonetic": "/da.bi.tyd/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "le plus souvent, normalement",
+    "translations": {
+     "zh": "通常；平常",
+     "en": "usually"
+    },
+    "examples": [
+     {
+      "text": "D'habitude, je prends le métro.",
+      "translations": {
+       "zh": "我平常坐地铁。",
+       "en": "I usually take the metro."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "de temps en temps",
+  "phonetic": "/də.tɑ̃.zɑ̃.tɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "quelquefois, pas souvent",
+    "translations": {
+     "zh": "有时；不时",
+     "en": "from time to time"
+    },
+    "examples": [
+     {
+      "text": "On se voit de temps en temps.",
+      "cloze": "On se voit {{de temps en temps}}.",
+      "translations": {
+       "zh": "我们偶尔见见面。",
+       "en": "We see each other from time to time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tous les jours",
+  "phonetic": "/tu.le.ʒuʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "chaque jour",
+    "translations": {
+     "zh": "每天",
+     "en": "every day"
+    },
+    "examples": [
+     {
+      "text": "Je fais du sport tous les jours.",
+      "cloze": "Je fais du sport {{tous les jours}}.",
+      "translations": {
+       "zh": "我每天运动。",
+       "en": "I exercise every day."
+      }
+     }
+    ],
+    "usageNote": "同类说法：tous les matins（每天早上），toutes les semaines（每周）。"
+   }
+  ]
+ },
+ {
+  "headword": "presque",
+  "phonetic": "/pʁɛsk/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pas tout à fait",
+    "translations": {
+     "zh": "几乎；差不多",
+     "en": "almost"
+    },
+    "examples": [
+     {
+      "text": "J'ai presque fini.",
+      "translations": {
+       "zh": "我快做完了。",
+       "en": "I've almost finished."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "assez",
+  "phonetic": "/a.se/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "autant qu'il faut ; un peu",
+    "translations": {
+     "zh": "足够；相当",
+     "en": "enough, quite"
+    },
+    "examples": [
+     {
+      "text": "Tu as assez mangé ?",
+      "translations": {
+       "zh": "你吃饱了吗？",
+       "en": "Have you had enough to eat?"
+      }
+     }
+    ],
+    "usageNote": "assez de + 名词：足够的……（assez d'argent）。C'est assez bien：还不错。"
+   }
+  ]
+ },
+ {
+  "headword": "vraiment",
+  "phonetic": "/vʁɛ.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en vérité ; très",
+    "translations": {
+     "zh": "真的；确实",
+     "en": "really"
+    },
+    "examples": [
+     {
+      "text": "Ce film est vraiment bien.",
+      "translations": {
+       "zh": "这部电影真的很好看。",
+       "en": "This film is really good."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tellement",
+  "phonetic": "/tɛl.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à un très haut degré",
+    "translations": {
+     "zh": "那么；非常",
+     "en": "so, so much"
+    },
+    "examples": [
+     {
+      "text": "Je suis tellement content !",
+      "translations": {
+       "zh": "我太高兴了！",
+       "en": "I'm so happy!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plutôt",
+  "phonetic": "/ply.to/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "assez ; de préférence",
+    "translations": {
+     "zh": "相当；宁可，更愿意",
+     "en": "rather, quite"
+    },
+    "examples": [
+     {
+      "text": "Il fait plutôt froid ce matin.",
+      "translations": {
+       "zh": "今天早上挺冷的。",
+       "en": "It's rather cold this morning."
+      }
+     }
+    ],
+    "usageNote": "plutôt que：与其……不如。"
+   }
+  ]
+ },
+ {
+  "headword": "environ",
+  "phonetic": "/ɑ̃.vi.ʁɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à peu près",
+    "translations": {
+     "zh": "大约",
+     "en": "about, around"
+    },
+    "examples": [
+     {
+      "text": "Le voyage dure environ trois heures.",
+      "translations": {
+       "zh": "旅程大约三个小时。",
+       "en": "The trip takes about three hours."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "seulement",
+  "phonetic": "/sœl.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pas plus que",
+    "translations": {
+     "zh": "只；仅仅",
+     "en": "only"
+    },
+    "examples": [
+     {
+      "text": "J'ai seulement dix euros.",
+      "translations": {
+       "zh": "我只有十欧元。",
+       "en": "I only have ten euros."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "surtout",
+  "phonetic": "/syʁ.tu/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "plus que tout",
+    "translations": {
+     "zh": "尤其；特别是",
+     "en": "especially, above all"
+    },
+    "examples": [
+     {
+      "text": "J'aime les fruits, surtout les fraises.",
+      "translations": {
+       "zh": "我喜欢水果，尤其是草莓。",
+       "en": "I like fruit, especially strawberries."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "complètement",
+  "phonetic": "/kɔ̃.plɛt.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "tout à fait, entièrement",
+    "translations": {
+     "zh": "完全地",
+     "en": "completely"
+    },
+    "examples": [
+     {
+      "text": "J'ai complètement oublié !",
+      "translations": {
+       "zh": "我完全忘了！",
+       "en": "I completely forgot!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tout à fait",
+  "phonetic": "/tu.ta.fɛ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "complètement ; oui, exactement",
+    "translations": {
+     "zh": "完全；正是如此",
+     "en": "absolutely, quite"
+    },
+    "examples": [
+     {
+      "text": "Vous avez tout à fait raison.",
+      "cloze": "Vous avez {{tout à fait}} raison.",
+      "translations": {
+       "zh": "您说得完全对。",
+       "en": "You're absolutely right."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

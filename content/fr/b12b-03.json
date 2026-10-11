@@ -1,0 +1,1677 @@
+[
+ {
+  "headword": "politique",
+  "phonetic": "/pɔ.li.tik/",
+  "cefr": "B1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "politiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "activités liées au gouvernement d'un pays ; manière d'agir",
+    "translations": {
+     "zh": "政治；政策",
+     "en": "politics; policy"
+    },
+    "examples": [
+     {
+      "text": "Mon grand-père adore parler de politique.",
+      "translations": {
+       "zh": "我爷爷特别爱谈政治。",
+       "en": "My grandfather loves talking about politics."
+      }
+     }
+    ],
+    "usageNote": "un homme / une femme politique = 政治家。"
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne le pouvoir et le gouvernement",
+    "translations": {
+     "zh": "政治的",
+     "en": "political"
+    },
+    "examples": [
+     {
+      "text": "Il appartient à un parti politique.",
+      "translations": {
+       "zh": "他属于一个政党。",
+       "en": "He belongs to a political party."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gouvernement",
+  "phonetic": "/ɡu.vɛʁ.nə.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "gouvernements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe de personnes qui dirigent un pays",
+    "translations": {
+     "zh": "政府",
+     "en": "government"
+    },
+    "examples": [
+     {
+      "text": "Le gouvernement a annoncé de nouvelles mesures.",
+      "translations": {
+       "zh": "政府宣布了新措施。",
+       "en": "The government announced new measures."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "président",
+  "phonetic": "/pʁe.zi.dɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "présidents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chef de l'État ou d'une organisation",
+    "translations": {
+     "zh": "总统；主席；董事长",
+     "en": "president"
+    },
+    "examples": [
+     {
+      "text": "Le président parlera à la télévision ce soir.",
+      "translations": {
+       "zh": "总统今晚将发表电视讲话。",
+       "en": "The president will speak on television tonight."
+      }
+     }
+    ],
+    "usageNote": "阴性 présidente。"
+   }
+  ]
+ },
+ {
+  "headword": "ministre",
+  "phonetic": "/mi.nistʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ministres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "membre du gouvernement qui dirige un ministère",
+    "translations": {
+     "zh": "部长",
+     "en": "minister"
+    },
+    "examples": [
+     {
+      "text": "La ministre de l'Éducation visite une école.",
+      "translations": {
+       "zh": "教育部长正在视察一所学校。",
+       "en": "The Minister of Education is visiting a school."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：le/la ministre；Premier ministre = 总理。"
+   }
+  ]
+ },
+ {
+  "headword": "député",
+  "phonetic": "/de.py.te/",
+  "cefr": "B2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "députés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne élue pour voter les lois au Parlement",
+    "translations": {
+     "zh": "议员；众议员",
+     "en": "member of parliament"
+    },
+    "examples": [
+     {
+      "text": "Les députés ont voté la loi hier soir.",
+      "cloze": "Les {{députés}} ont voté la loi hier soir.",
+      "translations": {
+       "zh": "议员们昨晚表决通过了这项法律。",
+       "en": "The MPs voted on the law last night."
+      }
+     }
+    ],
+    "usageNote": "阴性 députée。"
+   }
+  ]
+ },
+ {
+  "headword": "parlement",
+  "phonetic": "/paʁ.lə.mɑ̃/",
+  "cefr": "B2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "parlements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "assemblée élue qui vote les lois",
+    "translations": {
+     "zh": "议会；国会",
+     "en": "parliament"
+    },
+    "examples": [
+     {
+      "text": "Le projet de loi sera discuté au Parlement.",
+      "translations": {
+       "zh": "这项法案将在议会讨论。",
+       "en": "The bill will be debated in Parliament."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "état",
+  "phonetic": "/e.ta/",
+  "cefr": "B1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "états"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pays avec son gouvernement et ses institutions",
+    "translations": {
+     "zh": "国家；政府",
+     "en": "state"
+    },
+    "examples": [
+     {
+      "text": "L'État finance les écoles publiques.",
+      "cloze": "L'{{État}} finance les écoles publiques.",
+      "translations": {
+       "zh": "国家资助公立学校。",
+       "en": "The State funds public schools."
+      }
+     }
+    ],
+    "usageNote": "指“国家、政府”时首字母大写：l'État。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "manière d'être de quelqu'un ou de quelque chose",
+    "translations": {
+     "zh": "状态；情况",
+     "en": "condition, state"
+    },
+    "examples": [
+     {
+      "text": "La voiture est en bon état.",
+      "translations": {
+       "zh": "这辆车车况良好。",
+       "en": "The car is in good condition."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "république",
+  "phonetic": "/ʁe.py.blik/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "républiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "régime politique où le chef de l'État est élu",
+    "translations": {
+     "zh": "共和国；共和制",
+     "en": "republic"
+    },
+    "examples": [
+     {
+      "text": "La France est une république.",
+      "translations": {
+       "zh": "法国是一个共和国。",
+       "en": "France is a republic."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "démocratie",
+  "phonetic": "/de.mɔ.kʁa.si/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "démocraties"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "régime où le peuple choisit ses dirigeants",
+    "translations": {
+     "zh": "民主；民主国家",
+     "en": "democracy"
+    },
+    "examples": [
+     {
+      "text": "Le droit de vote est essentiel dans une démocratie.",
+      "translations": {
+       "zh": "投票权在民主制度中至关重要。",
+       "en": "The right to vote is essential in a democracy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "élection",
+  "phonetic": "/e.lɛk.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "élections"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "choix de représentants par un vote",
+    "translations": {
+     "zh": "选举",
+     "en": "election"
+    },
+    "examples": [
+     {
+      "text": "Les élections ont lieu en mai.",
+      "cloze": "Les {{élections}} ont lieu en mai.",
+      "translations": {
+       "zh": "选举在五月举行。",
+       "en": "The elections take place in May."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "élire",
+  "phonetic": "/e.liʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "conjugation": "不规则（同 lire）：j'élis, nous élisons, ils élisent；过去分词 élu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "choisir quelqu'un par un vote",
+    "translations": {
+     "zh": "选举；选出",
+     "en": "to elect"
+    },
+    "examples": [
+     {
+      "text": "Les Français ont élu un nouveau président.",
+      "cloze": "Les Français ont {{élu}} un nouveau président.",
+      "translations": {
+       "zh": "法国人选出了新总统。",
+       "en": "The French elected a new president."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "voter",
+  "phonetic": "/vɔ.te/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je vote, nous votons；过去分词 voté"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner son choix lors d'une élection",
+    "translations": {
+     "zh": "投票；表决",
+     "en": "to vote"
+    },
+    "examples": [
+     {
+      "text": "Tu vas voter dimanche ?",
+      "translations": {
+       "zh": "你周日去投票吗？",
+       "en": "Are you going to vote on Sunday?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vote",
+  "phonetic": "/vɔt/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "votes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de choisir en exprimant son avis",
+    "translations": {
+     "zh": "投票；选票",
+     "en": "vote"
+    },
+    "examples": [
+     {
+      "text": "Le vote est secret.",
+      "translations": {
+       "zh": "投票是不记名的。",
+       "en": "Voting is secret."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "candidat",
+  "phonetic": "/kɑ̃.di.da/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "candidats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui se présente à une élection, un examen ou un poste",
+    "translations": {
+     "zh": "候选人；考生；应聘者",
+     "en": "candidate"
+    },
+    "examples": [
+     {
+      "text": "Il y a douze candidats à cette élection.",
+      "cloze": "Il y a douze {{candidats}} à cette élection.",
+      "translations": {
+       "zh": "这次选举有十二名候选人。",
+       "en": "There are twelve candidates in this election."
+      }
+     }
+    ],
+    "usageNote": "阴性 candidate。"
+   }
+  ]
+ },
+ {
+  "headword": "citoyen",
+  "phonetic": "/si.twa.jɛ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "citoyens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "membre d'un État qui a des droits et des devoirs",
+    "translations": {
+     "zh": "公民",
+     "en": "citizen"
+    },
+    "examples": [
+     {
+      "text": "Chaque citoyen a le droit de s'exprimer.",
+      "translations": {
+       "zh": "每个公民都有表达的权利。",
+       "en": "Every citizen has the right to express themselves."
+      }
+     }
+    ],
+    "usageNote": "阴性 citoyenne。"
+   }
+  ]
+ },
+ {
+  "headword": "nationalité",
+  "phonetic": "/na.sjɔ.na.li.te/",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "nationalités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'appartenir légalement à un pays",
+    "translations": {
+     "zh": "国籍",
+     "en": "nationality"
+    },
+    "examples": [
+     {
+      "text": "Elle a la double nationalité française et chinoise.",
+      "translations": {
+       "zh": "她拥有法国和中国双重国籍。",
+       "en": "She has dual French and Chinese nationality."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "parti",
+  "phonetic": "/paʁ.ti/",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "partis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "organisation politique",
+    "translations": {
+     "zh": "政党；党派",
+     "en": "(political) party"
+    },
+    "examples": [
+     {
+      "text": "Quel parti a gagné les élections ?",
+      "translations": {
+       "zh": "哪个党赢了选举？",
+       "en": "Which party won the election?"
+      }
+     }
+    ],
+    "usageNote": "“聚会”是 une fête 或 une soirée，不是 parti。"
+   }
+  ]
+ },
+ {
+  "headword": "loi",
+  "phonetic": "/lwa/",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "lois"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "règle obligatoire votée par le Parlement",
+    "translations": {
+     "zh": "法律；法规",
+     "en": "law"
+    },
+    "examples": [
+     {
+      "text": "Fumer dans les restaurants est interdit par la loi.",
+      "translations": {
+       "zh": "法律禁止在餐馆吸烟。",
+       "en": "Smoking in restaurants is banned by law."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "droit",
+  "phonetic": "/dʁwa/",
+  "cefr": "B1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "droits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on peut faire ou exiger selon la loi",
+    "translations": {
+     "zh": "权利",
+     "en": "right"
+    },
+    "examples": [
+     {
+      "text": "Les enfants ont le droit d'aller à l'école.",
+      "translations": {
+       "zh": "儿童有上学的权利。",
+       "en": "Children have the right to go to school."
+      }
+     }
+    ],
+    "usageNote": "avoir le droit de + 动词原形 = 有权做……；les droits de l'homme = 人权。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "science des lois",
+    "translations": {
+     "zh": "法律；法学",
+     "en": "law (subject)"
+    },
+    "examples": [
+     {
+      "text": "Mon frère fait des études de droit.",
+      "translations": {
+       "zh": "我哥哥在学法律。",
+       "en": "My brother is studying law."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "justice",
+  "phonetic": "/ʒys.tis/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "respect des droits ; institution qui juge",
+    "translations": {
+     "zh": "公正；司法",
+     "en": "justice"
+    },
+    "examples": [
+     {
+      "text": "Les victimes demandent justice.",
+      "translations": {
+       "zh": "受害者要求讨回公道。",
+       "en": "The victims are demanding justice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "juge",
+  "phonetic": "/ʒyʒ/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "juges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui décide dans un tribunal",
+    "translations": {
+     "zh": "法官",
+     "en": "judge"
+    },
+    "examples": [
+     {
+      "text": "Le juge a condamné l'homme à deux ans de prison.",
+      "translations": {
+       "zh": "法官判处该男子两年监禁。",
+       "en": "The judge sentenced the man to two years in prison."
+      }
+     }
+    ],
+    "usageNote": "le juge / la juge 均可。"
+   }
+  ]
+ },
+ {
+  "headword": "tribunal",
+  "phonetic": "/tʁi.by.nal/",
+  "cefr": "B2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tribunaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où on juge les affaires",
+    "translations": {
+     "zh": "法庭；法院",
+     "en": "court"
+    },
+    "examples": [
+     {
+      "text": "L'affaire passera devant le tribunal en juin.",
+      "translations": {
+       "zh": "此案将于六月开庭审理。",
+       "en": "The case will go to court in June."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avocat",
+  "phonetic": "/a.vɔ.ka/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "avocats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui défend quelqu'un devant la justice",
+    "translations": {
+     "zh": "律师",
+     "en": "lawyer"
+    },
+    "examples": [
+     {
+      "text": "Je veux parler à mon avocat.",
+      "translations": {
+       "zh": "我要和我的律师谈谈。",
+       "en": "I want to speak to my lawyer."
+      }
+     }
+    ],
+    "usageNote": "阴性 avocate。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruit vert avec un gros noyau",
+    "translations": {
+     "zh": "牛油果",
+     "en": "avocado"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "procès",
+  "phonetic": "/pʁɔ.sɛ/",
+  "cefr": "B2",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "procès"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "affaire jugée par un tribunal",
+    "translations": {
+     "zh": "诉讼；审判",
+     "en": "trial, lawsuit"
+    },
+    "examples": [
+     {
+      "text": "Le procès va durer plusieurs semaines.",
+      "translations": {
+       "zh": "这场审判将持续数周。",
+       "en": "The trial will last several weeks."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "crime",
+  "phonetic": "/kʁim/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "crimes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "acte grave puni par la loi",
+    "translations": {
+     "zh": "罪行；犯罪",
+     "en": "crime"
+    },
+    "examples": [
+     {
+      "text": "La police enquête sur ce crime.",
+      "translations": {
+       "zh": "警方正在调查这起罪案。",
+       "en": "The police are investigating this crime."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "victime",
+  "phonetic": "/vik.tim/",
+  "cefr": "B1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "victimes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui subit un accident ou un crime",
+    "translations": {
+     "zh": "受害者；遇难者",
+     "en": "victim"
+    },
+    "examples": [
+     {
+      "text": "Il a été victime d'un vol dans le métro.",
+      "translations": {
+       "zh": "他在地铁里被偷了。",
+       "en": "He was the victim of a theft in the metro."
+      }
+     }
+    ],
+    "usageNote": "总是阴性：une victime，即使指男性。"
+   }
+  ]
+ },
+ {
+  "headword": "témoin",
+  "phonetic": "/te.mwɛ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "témoins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui a vu ou entendu un événement",
+    "translations": {
+     "zh": "证人；目击者",
+     "en": "witness"
+    },
+    "examples": [
+     {
+      "text": "Un témoin a appelé la police.",
+      "translations": {
+       "zh": "一名目击者报了警。",
+       "en": "A witness called the police."
+      }
+     }
+    ],
+    "usageNote": "总是阳性：un témoin，即使指女性。"
+   }
+  ]
+ },
+ {
+  "headword": "voleur",
+  "phonetic": "/vɔ.lœʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "voleurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui prend ce qui ne lui appartient pas",
+    "translations": {
+     "zh": "小偷；窃贼",
+     "en": "thief"
+    },
+    "examples": [
+     {
+      "text": "Le voleur est parti avec mon sac.",
+      "translations": {
+       "zh": "小偷拿着我的包跑了。",
+       "en": "The thief ran off with my bag."
+      }
+     }
+    ],
+    "usageNote": "阴性 voleuse。"
+   }
+  ]
+ },
+ {
+  "headword": "vol",
+  "phonetic": "/vɔl/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vols"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de prendre ce qui est à quelqu'un d'autre",
+    "translations": {
+     "zh": "偷窃；盗窃",
+     "en": "theft"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais déclarer un vol.",
+      "translations": {
+       "zh": "我要报案，东西被偷了。",
+       "en": "I'd like to report a theft."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "trajet d'un avion ; action de voler dans l'air",
+    "translations": {
+     "zh": "航班；飞行",
+     "en": "flight"
+    },
+    "examples": [
+     {
+      "text": "Notre vol a deux heures de retard.",
+      "translations": {
+       "zh": "我们的航班晚点两小时。",
+       "en": "Our flight is two hours late."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "police",
+  "phonetic": "/pɔ.lis/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "polices"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "service public chargé de maintenir l'ordre",
+    "translations": {
+     "zh": "警察（机构）",
+     "en": "police"
+    },
+    "examples": [
+     {
+      "text": "Appelez la police !",
+      "translations": {
+       "zh": "快报警！",
+       "en": "Call the police!"
+      }
+     }
+    ],
+    "usageNote": "la police 指警察机构，单数；个人警察是 un policier。"
+   }
+  ]
+ },
+ {
+  "headword": "coupable",
+  "phonetic": "/ku.pabl/",
+  "cefr": "B2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "irregularForms": "阴阳同形；复数 coupables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a commis une faute ou un crime",
+    "translations": {
+     "zh": "有罪的",
+     "en": "guilty"
+    },
+    "examples": [
+     {
+      "text": "Le tribunal l'a déclaré coupable.",
+      "translations": {
+       "zh": "法庭判他有罪。",
+       "en": "The court found him guilty."
+      }
+     }
+    ],
+    "usageNote": "也可作名词：le coupable = 罪犯。"
+   }
+  ]
+ },
+ {
+  "headword": "innocent",
+  "phonetic": "/i.nɔ.sɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "irregularForms": "阴性 innocente；复数 innocents, innocentes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a pas commis la faute dont on l'accuse",
+    "translations": {
+     "zh": "无辜的；清白的",
+     "en": "innocent"
+    },
+    "examples": [
+     {
+      "text": "Il a toujours dit qu'il était innocent.",
+      "translations": {
+       "zh": "他一直说自己是清白的。",
+       "en": "He always said he was innocent."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "amende",
+  "phonetic": "/a.mɑ̃d/",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "amendes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme à payer comme punition",
+    "translations": {
+     "zh": "罚款",
+     "en": "fine"
+    },
+    "examples": [
+     {
+      "text": "J'ai eu une amende pour excès de vitesse.",
+      "translations": {
+       "zh": "我因超速被罚款了。",
+       "en": "I got a fine for speeding."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "prison",
+  "phonetic": "/pʁi.zɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "prisons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où on enferme les condamnés",
+    "translations": {
+     "zh": "监狱",
+     "en": "prison"
+    },
+    "examples": [
+     {
+      "text": "Il a passé trois ans en prison.",
+      "translations": {
+       "zh": "他坐了三年牢。",
+       "en": "He spent three years in prison."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "liberté",
+  "phonetic": "/li.bɛʁ.te/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "libertés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "possibilité d'agir comme on veut",
+    "translations": {
+     "zh": "自由",
+     "en": "freedom, liberty"
+    },
+    "examples": [
+     {
+      "text": "La liberté de la presse est un droit fondamental.",
+      "translations": {
+       "zh": "新闻自由是一项基本权利。",
+       "en": "Freedom of the press is a fundamental right."
+      }
+     }
+    ],
+    "usageNote": "法国国家格言：Liberté, Égalité, Fraternité（自由、平等、博爱）。"
+   }
+  ]
+ },
+ {
+  "headword": "égalité",
+  "phonetic": "/e.ɡa.li.te/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fait d'être égal, d'avoir les mêmes droits",
+    "translations": {
+     "zh": "平等；相等",
+     "en": "equality"
+    },
+    "examples": [
+     {
+      "text": "Ils se battent pour l'égalité entre les hommes et les femmes.",
+      "cloze": "Ils se battent pour l'{{égalité}} entre les hommes et les femmes.",
+      "translations": {
+       "zh": "他们为男女平等而斗争。",
+       "en": "They are fighting for equality between men and women."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "manifestation",
+  "phonetic": "/ma.ni.fɛs.ta.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "manifestations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rassemblement dans la rue pour protester",
+    "translations": {
+     "zh": "示威游行；（文化）活动",
+     "en": "demonstration, protest; event"
+    },
+    "examples": [
+     {
+      "text": "Des milliers de personnes ont participé à la manifestation.",
+      "translations": {
+       "zh": "数千人参加了游行。",
+       "en": "Thousands of people took part in the demonstration."
+      }
+     }
+    ],
+    "usageNote": "口语简称 une manif。"
+   }
+  ]
+ },
+ {
+  "headword": "réforme",
+  "phonetic": "/ʁe.fɔʁm/",
+  "cefr": "B2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réformes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "changement important d'une loi ou d'un système",
+    "translations": {
+     "zh": "改革",
+     "en": "reform"
+    },
+    "examples": [
+     {
+      "text": "La réforme des retraites provoque des grèves.",
+      "translations": {
+       "zh": "退休制度改革引发了罢工。",
+       "en": "The pension reform is causing strikes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "débat",
+  "phonetic": "/de.ba/",
+  "cefr": "B1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "débats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "discussion organisée où chacun donne son avis",
+    "translations": {
+     "zh": "辩论；讨论",
+     "en": "debate"
+    },
+    "examples": [
+     {
+      "text": "Les deux candidats participent à un débat télévisé.",
+      "translations": {
+       "zh": "两位候选人参加电视辩论。",
+       "en": "The two candidates are taking part in a televised debate."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "guerre",
+  "phonetic": "/ɡɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "guerres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lutte armée entre des pays ou des groupes",
+    "translations": {
+     "zh": "战争",
+     "en": "war"
+    },
+    "examples": [
+     {
+      "text": "Ses grands-parents ont connu la guerre.",
+      "translations": {
+       "zh": "他的祖父母经历过战争。",
+       "en": "His grandparents lived through the war."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "paix",
+  "phonetic": "/pɛ/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation sans guerre ; calme",
+    "translations": {
+     "zh": "和平；安宁",
+     "en": "peace"
+    },
+    "examples": [
+     {
+      "text": "Les deux pays vivent en paix depuis cinquante ans.",
+      "translations": {
+       "zh": "两国已和平相处五十年。",
+       "en": "The two countries have lived in peace for fifty years."
+      }
+     }
+    ],
+    "usageNote": "Laisse-moi en paix ! = 别烦我！"
+   }
+  ]
+ },
+ {
+  "headword": "sécurité",
+  "phonetic": "/se.ky.ʁi.te/",
+  "cefr": "B1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常不用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation où on ne risque rien",
+    "translations": {
+     "zh": "安全；保障",
+     "en": "safety, security"
+    },
+    "examples": [
+     {
+      "text": "Pour votre sécurité, attachez votre ceinture.",
+      "translations": {
+       "zh": "为了您的安全，请系好安全带。",
+       "en": "For your safety, fasten your seat belt."
+      }
+     }
+    ],
+    "usageNote": "la Sécurité sociale = 法国社会保障体系。"
+   }
+  ]
+ },
+ {
+  "headword": "illégal",
+  "phonetic": "/i.le.ɡal/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "irregularForms": "阴性 illégale；复数 illégaux, illégales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est contraire à la loi",
+    "translations": {
+     "zh": "非法的；违法的",
+     "en": "illegal"
+    },
+    "examples": [
+     {
+      "text": "Télécharger des films sans payer est illégal.",
+      "translations": {
+       "zh": "不付费下载电影是违法的。",
+       "en": "Downloading films without paying is illegal."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "interdire",
+  "phonetic": "/ɛ̃.tɛʁ.diʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "conjugation": "不规则：j'interdis, nous interdisons, vous interdisez, ils interdisent；过去分词 interdit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dire qu'une chose n'est pas permise",
+    "translations": {
+     "zh": "禁止",
+     "en": "to forbid, to ban"
+    },
+    "examples": [
+     {
+      "text": "La mairie a interdit les voitures dans le centre-ville.",
+      "cloze": "La mairie a {{interdit}} les voitures dans le centre-ville.",
+      "translations": {
+       "zh": "市政府禁止汽车进入市中心。",
+       "en": "The town hall banned cars from the town centre."
+      }
+     }
+    ],
+    "usageNote": "vous interdisez，不是 vous interdites（与 dire 不同）。"
+   }
+  ]
+ },
+ {
+  "headword": "autoriser",
+  "phonetic": "/o.tɔ.ʁi.ze/",
+  "cefr": "B1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'autorise, nous autorisons；过去分词 autorisé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner la permission",
+    "translations": {
+     "zh": "允许；批准",
+     "en": "to authorize, to allow"
+    },
+    "examples": [
+     {
+      "text": "Les chiens ne sont pas autorisés dans le parc.",
+      "cloze": "Les chiens ne sont pas {{autorisés}} dans le parc.",
+      "translations": {
+       "zh": "公园里不允许带狗。",
+       "en": "Dogs are not allowed in the park."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "obligatoire",
+  "phonetic": "/ɔ.bli.ɡa.twaʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "irregularForms": "阴阳同形；复数 obligatoires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qu'on doit faire selon la loi ou la règle",
+    "translations": {
+     "zh": "必须的；强制的",
+     "en": "compulsory, mandatory"
+    },
+    "examples": [
+     {
+      "text": "Le port du casque est obligatoire sur le chantier.",
+      "translations": {
+       "zh": "在工地必须戴安全帽。",
+       "en": "Wearing a helmet is compulsory on the building site."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "respecter",
+  "phonetic": "/ʁɛs.pɛk.te/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je respecte, nous respectons；过去分词 respecté"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "suivre une règle ; avoir de l'estime pour quelqu'un",
+    "translations": {
+     "zh": "遵守；尊重",
+     "en": "to respect; to comply with"
+    },
+    "examples": [
+     {
+      "text": "Il faut respecter le code de la route.",
+      "translations": {
+       "zh": "必须遵守交通规则。",
+       "en": "You must obey the highway code."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "règle",
+  "phonetic": "/ʁɛɡl/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "règles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on doit faire ou ne pas faire",
+    "translations": {
+     "zh": "规则；规定",
+     "en": "rule"
+    },
+    "examples": [
+     {
+      "text": "Tout le monde doit suivre les règles.",
+      "cloze": "Tout le monde doit suivre les {{règles}}.",
+      "translations": {
+       "zh": "每个人都必须遵守规则。",
+       "en": "Everyone must follow the rules."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "instrument pour tracer des lignes droites",
+    "translations": {
+     "zh": "尺子",
+     "en": "ruler"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "international",
+  "phonetic": "/ɛ̃.tɛʁ.na.sjɔ.nal/",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "irregularForms": "阴性 internationale；复数 internationaux, internationales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne plusieurs pays",
+    "translations": {
+     "zh": "国际的",
+     "en": "international"
+    },
+    "examples": [
+     {
+      "text": "Cette entreprise a une dimension internationale.",
+      "cloze": "Cette entreprise a une dimension {{internationale}}.",
+      "translations": {
+       "zh": "这家公司具有国际规模。",
+       "en": "This company operates on an international scale."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "société",
+  "phonetic": "/sɔ.sje.te/",
+  "cefr": "B1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sociétés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des personnes qui vivent ensemble avec des règles",
+    "translations": {
+     "zh": "社会",
+     "en": "society"
+    },
+    "examples": [
+     {
+      "text": "Internet a changé notre société.",
+      "translations": {
+       "zh": "互联网改变了我们的社会。",
+       "en": "The internet has changed our society."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "entreprise commerciale",
+    "translations": {
+     "zh": "公司",
+     "en": "company"
+    },
+    "examples": [
+     {
+      "text": "Il travaille pour une société d'informatique.",
+      "translations": {
+       "zh": "他在一家IT公司工作。",
+       "en": "He works for an IT company."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "social",
+  "phonetic": "/sɔ.sjal/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "irregularForms": "阴性 sociale；复数 sociaux, sociales"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne la société ou les relations entre les personnes",
+    "translations": {
+     "zh": "社会的",
+     "en": "social"
+    },
+    "examples": [
+     {
+      "text": "Le chômage est un grave problème social.",
+      "translations": {
+       "zh": "失业是一个严重的社会问题。",
+       "en": "Unemployment is a serious social problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "public",
+  "phonetic": "/py.blik/",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "irregularForms": "阴性 publique；复数 publics, publiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne tout le monde ; qui appartient à l'État",
+    "translations": {
+     "zh": "公共的；公立的；公开的",
+     "en": "public"
+    },
+    "examples": [
+     {
+      "text": "Les transports publics sont gratuits dans cette ville.",
+      "cloze": "Les transports {{publics}} sont gratuits dans cette ville.",
+      "translations": {
+       "zh": "这座城市的公共交通免费。",
+       "en": "Public transport is free in this city."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des spectateurs, lecteurs ou auditeurs",
+    "translations": {
+     "zh": "观众；公众",
+     "en": "audience, public"
+    },
+    "examples": [
+     {
+      "text": "Le public a applaudi longtemps.",
+      "translations": {
+       "zh": "观众久久鼓掌。",
+       "en": "The audience applauded for a long time."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "manifester",
+  "phonetic": "/ma.ni.fɛs.te/",
+  "cefr": "B2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je manifeste, nous manifestons；过去分词 manifesté"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "participer à une manifestation ; montrer",
+    "translations": {
+     "zh": "示威游行；表示",
+     "en": "to demonstrate, to protest; to show"
+    },
+    "examples": [
+     {
+      "text": "Les étudiants manifestent contre la hausse des frais.",
+      "cloze": "Les étudiants {{manifestent}} contre la hausse des frais.",
+      "translations": {
+       "zh": "学生们游行抗议学费上涨。",
+       "en": "The students are protesting against the fee increase."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

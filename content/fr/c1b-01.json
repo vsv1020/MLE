@@ -1,0 +1,1453 @@
+[
+  {
+    "headword": "bilan",
+    "phonetic": "/bi.lɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "bilans"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "document comptable qui présente l'actif et le passif ; évaluation d'une situation",
+        "translations": {
+          "zh": "资产负债表；总结，盘点",
+          "en": "balance sheet; assessment, review"
+        },
+        "examples": [
+          {
+            "text": "Le bilan de l'entreprise fait apparaître une perte importante.",
+            "translations": {
+              "zh": "公司的资产负债表显示出一笔不小的亏损。",
+              "en": "The company's balance sheet shows a significant loss."
+            }
+          }
+        ],
+        "usageNote": "faire le bilan de qch：对某事做总结、盘点。"
+      }
+    ]
+  },
+  {
+    "headword": "chiffre d'affaires",
+    "phonetic": "/ʃifʁ.da.fɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 5200,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "chiffres d'affaires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "montant total des ventes d'une entreprise sur une période",
+        "translations": {
+          "zh": "营业额；销售总额",
+          "en": "turnover, revenue"
+        },
+        "examples": [
+          {
+            "text": "Notre chiffre d'affaires a augmenté de dix pour cent cette année.",
+            "cloze": "Notre {{chiffre d'affaires}} a augmenté de dix pour cent cette année.",
+            "translations": {
+              "zh": "我们今年的营业额增长了百分之十。",
+              "en": "Our turnover rose by ten percent this year."
+            }
+          }
+        ],
+        "usageNote": "常缩写为 CA。"
+      }
+    ]
+  },
+  {
+    "headword": "rentabilité",
+    "phonetic": "/ʁɑ̃.ta.bi.li.te/",
+    "cefr": "C1",
+    "frequencyRank": 7800,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "rentabilités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "capacité à produire des bénéfices",
+        "translations": {
+          "zh": "盈利能力；收益率",
+          "en": "profitability"
+        },
+        "examples": [
+          {
+            "text": "La rentabilité du projet reste à démontrer.",
+            "translations": {
+              "zh": "该项目的盈利能力还有待证明。",
+              "en": "The project's profitability has yet to be proven."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "rentable",
+    "phonetic": "/ʁɑ̃.tabl/",
+    "cefr": "C1",
+    "frequencyRank": 6400,
+    "grammarNotes": {
+      "irregularForms": "阳性阴性同形 rentable；复数 rentables"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui rapporte plus qu'il ne coûte",
+        "translations": {
+          "zh": "有利可图的；赚钱的",
+          "en": "profitable"
+        },
+        "examples": [
+          {
+            "text": "Ce petit magasin n'est plus rentable depuis deux ans.",
+            "translations": {
+              "zh": "这家小店两年来已经不赚钱了。",
+              "en": "This little shop hasn't been profitable for two years."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "actionnaire",
+    "phonetic": "/ak.sjɔ.nɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 6900,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "actionnaires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui possède des actions d'une société",
+        "translations": {
+          "zh": "股东",
+          "en": "shareholder"
+        },
+        "examples": [
+          {
+            "text": "Les actionnaires ont voté contre la fusion.",
+            "cloze": "Les {{actionnaires}} ont voté contre la fusion.",
+            "translations": {
+              "zh": "股东们投票反对合并。",
+              "en": "The shareholders voted against the merger."
+            }
+          }
+        ],
+        "usageNote": "阴阳同形：un/une actionnaire。"
+      }
+    ]
+  },
+  {
+    "headword": "dividende",
+    "phonetic": "/di.vi.dɑ̃d/",
+    "cefr": "C1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "dividendes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "part des bénéfices versée aux actionnaires",
+        "translations": {
+          "zh": "股息；红利",
+          "en": "dividend"
+        },
+        "examples": [
+          {
+            "text": "La société versera un dividende exceptionnel en juin.",
+            "translations": {
+              "zh": "公司将在六月发放一笔特别股息。",
+              "en": "The company will pay a special dividend in June."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bénéfice",
+    "phonetic": "/be.ne.fis/",
+    "cefr": "C1",
+    "frequencyRank": 4600,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "bénéfices"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "gain financier obtenu après déduction des coûts ; avantage",
+        "translations": {
+          "zh": "利润；好处",
+          "en": "profit; benefit"
+        },
+        "examples": [
+          {
+            "text": "L'entreprise a réalisé un bénéfice record l'an dernier.",
+            "translations": {
+              "zh": "这家公司去年取得了创纪录的利润。",
+              "en": "The company made a record profit last year."
+            }
+          }
+        ],
+        "usageNote": "au bénéfice de：有利于……"
+      }
+    ]
+  },
+  {
+    "headword": "trésorerie",
+    "phonetic": "/tʁe.zɔʁ.ʁi/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "trésoreries"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "argent dont une entreprise dispose immédiatement",
+        "translations": {
+          "zh": "现金流；可用资金",
+          "en": "cash, cash flow"
+        },
+        "examples": [
+          {
+            "text": "Faute de trésorerie, la PME ne peut pas payer ses fournisseurs.",
+            "translations": {
+              "zh": "由于缺乏现金流，这家中小企业付不了供应商的钱。",
+              "en": "Short of cash, the small firm can't pay its suppliers."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "endettement",
+    "phonetic": "/ɑ̃.dɛt.mɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 9800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "endettements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait d'avoir des dettes ; montant total des dettes",
+        "translations": {
+          "zh": "负债；债务水平",
+          "en": "debt, indebtedness"
+        },
+        "examples": [
+          {
+            "text": "L'endettement des ménages inquiète la banque centrale.",
+            "cloze": "L'{{endettement}} des ménages inquiète la banque centrale.",
+            "translations": {
+              "zh": "家庭负债令央行担忧。",
+              "en": "Household debt is worrying the central bank."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "créancier",
+    "phonetic": "/kʁe.ɑ̃.sje/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "créanciers"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne à qui l'on doit de l'argent",
+        "translations": {
+          "zh": "债权人",
+          "en": "creditor"
+        },
+        "examples": [
+          {
+            "text": "Le créancier exige d'être remboursé avant la fin du mois.",
+            "translations": {
+              "zh": "债权人要求在月底前还款。",
+              "en": "The creditor demands to be repaid before the end of the month."
+            }
+          }
+        ],
+        "usageNote": "阴性 créancière；反义词 débiteur（债务人）。"
+      }
+    ]
+  },
+  {
+    "headword": "faillite",
+    "phonetic": "/fa.jit/",
+    "cefr": "C1",
+    "frequencyRank": 7300,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "faillites"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "situation d'une entreprise qui ne peut plus payer ses dettes",
+        "translations": {
+          "zh": "破产；倒闭",
+          "en": "bankruptcy"
+        },
+        "examples": [
+          {
+            "text": "Après trois ans de pertes, la société a fait faillite.",
+            "translations": {
+              "zh": "连续亏损三年后，这家公司破产了。",
+              "en": "After three years of losses, the company went bankrupt."
+            }
+          }
+        ],
+        "usageNote": "faire faillite：破产。"
+      }
+    ]
+  },
+  {
+    "headword": "fusion",
+    "phonetic": "/fy.zjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 6200,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "fusions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "réunion de deux entreprises en une seule",
+        "translations": {
+          "zh": "合并；融合",
+          "en": "merger"
+        },
+        "examples": [
+          {
+            "text": "La fusion des deux banques créera un géant européen.",
+            "translations": {
+              "zh": "两家银行合并后将诞生一个欧洲巨头。",
+              "en": "The merger of the two banks will create a European giant."
+            }
+          }
+        ],
+        "usageNote": "fusion-acquisition：并购。"
+      }
+    ]
+  },
+  {
+    "headword": "rachat",
+    "phonetic": "/ʁa.ʃa/",
+    "cefr": "C1",
+    "frequencyRank": 9300,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "rachats"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "achat d'une entreprise par une autre",
+        "translations": {
+          "zh": "收购；回购",
+          "en": "buyout, takeover"
+        },
+        "examples": [
+          {
+            "text": "Le rachat de la start-up a été annoncé ce matin.",
+            "translations": {
+              "zh": "今天早上宣布了对这家初创公司的收购。",
+              "en": "The buyout of the start-up was announced this morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "filiale",
+    "phonetic": "/fi.ljal/",
+    "cefr": "C1",
+    "frequencyRank": 8600,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "filiales"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "société contrôlée par une société mère",
+        "translations": {
+          "zh": "子公司",
+          "en": "subsidiary"
+        },
+        "examples": [
+          {
+            "text": "Le groupe possède une filiale à Shanghai.",
+            "translations": {
+              "zh": "该集团在上海有一家子公司。",
+              "en": "The group has a subsidiary in Shanghai."
+            }
+          }
+        ],
+        "usageNote": "société mère：母公司。"
+      }
+    ]
+  },
+  {
+    "headword": "conseil d'administration",
+    "phonetic": "/kɔ̃.sɛj.dad.mi.nis.tʁa.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "conseils d'administration"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "groupe de personnes qui dirige une société anonyme",
+        "translations": {
+          "zh": "董事会",
+          "en": "board of directors"
+        },
+        "examples": [
+          {
+            "text": "Le conseil d'administration a nommé un nouveau directeur général.",
+            "cloze": "Le {{conseil d'administration}} a nommé un nouveau directeur général.",
+            "translations": {
+              "zh": "董事会任命了一位新的总经理。",
+              "en": "The board of directors appointed a new CEO."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "placement",
+    "phonetic": "/plas.mɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 7600,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "placements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "argent investi pour qu'il rapporte",
+        "translations": {
+          "zh": "投资；理财",
+          "en": "investment"
+        },
+        "examples": [
+          {
+            "text": "L'immobilier reste un placement sûr pour beaucoup de Français.",
+            "translations": {
+              "zh": "对许多法国人来说，房地产仍是稳妥的投资。",
+              "en": "Property remains a safe investment for many French people."
+            }
+          }
+        ],
+        "usageNote": "另有“职业介绍、安置”之意：agence de placement。"
+      }
+    ]
+  },
+  {
+    "headword": "rendement",
+    "phonetic": "/ʁɑ̃d.mɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 7100,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "rendements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce que rapporte un placement ou un travail",
+        "translations": {
+          "zh": "收益率；产出，效率",
+          "en": "yield, return; output"
+        },
+        "examples": [
+          {
+            "text": "Ce livret d'épargne offre un rendement de trois pour cent.",
+            "translations": {
+              "zh": "这个储蓄账户的收益率是百分之三。",
+              "en": "This savings account offers a three percent return."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "taux d'intérêt",
+    "phonetic": "/to.dɛ̃.te.ʁɛ/",
+    "cefr": "C1",
+    "frequencyRank": 6800,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "taux d'intérêt"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "pourcentage que coûte un emprunt ou que rapporte un placement",
+        "translations": {
+          "zh": "利率",
+          "en": "interest rate"
+        },
+        "examples": [
+          {
+            "text": "La banque centrale a relevé ses taux d'intérêt.",
+            "cloze": "La banque centrale a relevé ses {{taux d'intérêt}}.",
+            "translations": {
+              "zh": "央行上调了利率。",
+              "en": "The central bank raised its interest rates."
+            }
+          }
+        ],
+        "usageNote": "taux 单复数同形。"
+      }
+    ]
+  },
+  {
+    "headword": "emprunt",
+    "phonetic": "/ɑ̃.pʁœ̃/",
+    "cefr": "C1",
+    "frequencyRank": 6600,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "emprunts"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "somme d'argent prêtée qu'il faut rembourser",
+        "translations": {
+          "zh": "借款；贷款；借用",
+          "en": "loan, borrowing"
+        },
+        "examples": [
+          {
+            "text": "Ils ont contracté un emprunt sur vingt ans pour acheter leur maison.",
+            "translations": {
+              "zh": "他们为买房贷了一笔二十年期的贷款。",
+              "en": "They took out a twenty-year loan to buy their house."
+            }
+          }
+        ],
+        "usageNote": "contracter un emprunt：借贷。也指语言上的“借词”。"
+      }
+    ]
+  },
+  {
+    "headword": "hypothèque",
+    "phonetic": "/i.pɔ.tɛk/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "hypothèques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "garantie sur un bien immobilier en échange d'un prêt",
+        "translations": {
+          "zh": "抵押",
+          "en": "mortgage"
+        },
+        "examples": [
+          {
+            "text": "La maison est encore grevée d'une hypothèque.",
+            "translations": {
+              "zh": "这栋房子仍处于抵押状态。",
+              "en": "The house is still mortgaged."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "devis",
+    "phonetic": "/də.vi/",
+    "cefr": "C1",
+    "frequencyRank": 9500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "devis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "document indiquant le prix prévu d'un travail",
+        "translations": {
+          "zh": "报价单；估价",
+          "en": "quote, estimate"
+        },
+        "examples": [
+          {
+            "text": "Demandez plusieurs devis avant de choisir un artisan.",
+            "translations": {
+              "zh": "选工匠之前多要几份报价单。",
+              "en": "Ask for several quotes before choosing a tradesman."
+            }
+          }
+        ],
+        "usageNote": "单复数同形，词尾 s 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "facturer",
+    "phonetic": "/fak.ty.ʁe/",
+    "cefr": "C1",
+    "frequencyRank": 10800,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire payer quelque chose en établissant une facture",
+        "translations": {
+          "zh": "开发票；收费",
+          "en": "to invoice, to charge"
+        },
+        "examples": [
+          {
+            "text": "Le garagiste nous a facturé deux heures de main-d'œuvre.",
+            "cloze": "Le garagiste nous a {{facturé}} deux heures de main-d'œuvre.",
+            "translations": {
+              "zh": "修车师傅向我们收取了两小时的工时费。",
+              "en": "The mechanic charged us for two hours of labour."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "chiffrer",
+    "phonetic": "/ʃi.fʁe/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "évaluer le coût de quelque chose en chiffres",
+        "translations": {
+          "zh": "估算（费用）；用数字计算",
+          "en": "to cost, to put a figure on"
+        },
+        "examples": [
+          {
+            "text": "Les dégâts sont chiffrés à plusieurs millions d'euros.",
+            "cloze": "Les dégâts sont {{chiffrés}} à plusieurs millions d'euros.",
+            "translations": {
+              "zh": "损失估计达数百万欧元。",
+              "en": "The damage is put at several million euros."
+            }
+          }
+        ],
+        "usageNote": "se chiffrer à：总计达……"
+      }
+    ]
+  },
+  {
+    "headword": "licenciement",
+    "phonetic": "/li.sɑ̃.si.mɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "licenciements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de renvoyer un salarié",
+        "translations": {
+          "zh": "解雇；裁员",
+          "en": "dismissal, layoff"
+        },
+        "examples": [
+          {
+            "text": "L'usine a annoncé cent licenciements.",
+            "cloze": "L'usine a annoncé cent {{licenciements}}.",
+            "translations": {
+              "zh": "工厂宣布裁员一百人。",
+              "en": "The factory announced a hundred layoffs."
+            }
+          }
+        ],
+        "usageNote": "licenciement économique：经济性裁员。"
+      }
+    ]
+  },
+  {
+    "headword": "plan social",
+    "phonetic": "/plɑ̃.sɔ.sjal/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "plans sociaux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble de licenciements accompagnés de mesures pour les salariés",
+        "translations": {
+          "zh": "裁员计划",
+          "en": "redundancy plan"
+        },
+        "examples": [
+          {
+            "text": "Les syndicats dénoncent le plan social annoncé par la direction.",
+            "cloze": "Les syndicats dénoncent le {{plan social}} annoncé par la direction.",
+            "translations": {
+              "zh": "工会谴责管理层宣布的裁员计划。",
+              "en": "The unions condemn the redundancy plan announced by management."
+            }
+          }
+        ],
+        "usageNote": "委婉说法，官方名称为 plan de sauvegarde de l'emploi (PSE)。"
+      }
+    ]
+  },
+  {
+    "headword": "délocalisation",
+    "phonetic": "/de.lɔ.ka.li.za.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 10200,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "délocalisations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "transfert d'une activité vers un pays où produire coûte moins cher",
+        "translations": {
+          "zh": "（产业）外迁；转移生产",
+          "en": "offshoring, relocation"
+        },
+        "examples": [
+          {
+            "text": "La délocalisation de l'usine a fait perdre mille emplois à la ville.",
+            "translations": {
+              "zh": "工厂外迁让这座城市失去了一千个工作岗位。",
+              "en": "Moving the factory abroad cost the town a thousand jobs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sous-traitance",
+    "phonetic": "/su.tʁɛ.tɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "sous-traitances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de confier une partie d'un travail à une autre entreprise",
+        "translations": {
+          "zh": "外包；转包",
+          "en": "subcontracting"
+        },
+        "examples": [
+          {
+            "text": "La maintenance est confiée en sous-traitance à une société locale.",
+            "cloze": "La maintenance est confiée en {{sous-traitance}} à une société locale.",
+            "translations": {
+              "zh": "维护工作外包给了一家本地公司。",
+              "en": "Maintenance is subcontracted to a local firm."
+            }
+          }
+        ],
+        "usageNote": "sous-traitant：外包商。"
+      }
+    ]
+  },
+  {
+    "headword": "concurrentiel",
+    "phonetic": "/kɔ̃.ky.ʁɑ̃.sjɛl/",
+    "cefr": "C1",
+    "frequencyRank": 9700,
+    "grammarNotes": {
+      "irregularForms": "阴性 concurrentielle；复数 concurrentiels, concurrentielles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "où la concurrence est forte ; capable d'affronter la concurrence",
+        "translations": {
+          "zh": "竞争激烈的；有竞争力的",
+          "en": "competitive"
+        },
+        "examples": [
+          {
+            "text": "Le marché des smartphones est extrêmement concurrentiel.",
+            "translations": {
+              "zh": "智能手机市场竞争极其激烈。",
+              "en": "The smartphone market is extremely competitive."
+            }
+          }
+        ],
+        "usageNote": "prix concurrentiels：有竞争力的价格。"
+      }
+    ]
+  },
+  {
+    "headword": "déficitaire",
+    "phonetic": "/de.fi.si.tɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 12800,
+    "grammarNotes": {
+      "irregularForms": "阳性阴性同形；复数 déficitaires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "dont les dépenses dépassent les recettes",
+        "translations": {
+          "zh": "亏损的；有赤字的",
+          "en": "loss-making, in deficit"
+        },
+        "examples": [
+          {
+            "text": "La ligne de train est déficitaire depuis des années.",
+            "translations": {
+              "zh": "这条铁路线多年来一直亏损。",
+              "en": "The rail line has been losing money for years."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "excédent",
+    "phonetic": "/ɛk.se.dɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 9900,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "excédents"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qui dépasse la quantité prévue ; surplus de recettes",
+        "translations": {
+          "zh": "盈余；过剩",
+          "en": "surplus"
+        },
+        "examples": [
+          {
+            "text": "L'Allemagne affiche un excédent commercial considérable.",
+            "translations": {
+              "zh": "德国的贸易顺差相当可观。",
+              "en": "Germany shows a considerable trade surplus."
+            }
+          }
+        ],
+        "usageNote": "excédent de bagages：行李超重。反义词 déficit。"
+      }
+    ]
+  },
+  {
+    "headword": "récession",
+    "phonetic": "/ʁe.se.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 8500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "récessions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "baisse de l'activité économique pendant plusieurs mois",
+        "translations": {
+          "zh": "经济衰退",
+          "en": "recession"
+        },
+        "examples": [
+          {
+            "text": "Les experts craignent que le pays entre en récession.",
+            "translations": {
+              "zh": "专家担心国家会陷入经济衰退。",
+              "en": "Experts fear the country will go into recession."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "fiscalité",
+    "phonetic": "/fis.ka.li.te/",
+    "cefr": "C1",
+    "frequencyRank": 10100,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "fiscalités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble des impôts et des règles qui les concernent",
+        "translations": {
+          "zh": "税制；税收",
+          "en": "taxation, tax system"
+        },
+        "examples": [
+          {
+            "text": "Le gouvernement promet de simplifier la fiscalité des entreprises.",
+            "translations": {
+              "zh": "政府承诺简化企业税制。",
+              "en": "The government promises to simplify corporate taxation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "contribuable",
+    "phonetic": "/kɔ̃.tʁi.bɥabl/",
+    "cefr": "C1",
+    "frequencyRank": 11200,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "contribuables"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui paie des impôts",
+        "translations": {
+          "zh": "纳税人",
+          "en": "taxpayer"
+        },
+        "examples": [
+          {
+            "text": "Ce sont les contribuables qui financeront ces travaux.",
+            "cloze": "Ce sont les {{contribuables}} qui financeront ces travaux.",
+            "translations": {
+              "zh": "这些工程最终由纳税人买单。",
+              "en": "It's the taxpayers who will pay for these works."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cotisation",
+    "phonetic": "/kɔ.ti.za.sjɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 10400,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "cotisations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "somme versée régulièrement à un organisme ou une association",
+        "translations": {
+          "zh": "会费；（社会保险）缴费",
+          "en": "contribution, membership fee"
+        },
+        "examples": [
+          {
+            "text": "Les cotisations sociales sont prélevées directement sur le salaire.",
+            "cloze": "Les {{cotisations}} sociales sont prélevées directement sur le salaire.",
+            "translations": {
+              "zh": "社保缴费直接从工资中扣除。",
+              "en": "Social security contributions are deducted straight from wages."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "comptabilité",
+    "phonetic": "/kɔ̃.ta.bi.li.te/",
+    "cefr": "C1",
+    "frequencyRank": 8800,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "comptabilités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tenue des comptes d'une entreprise ; service qui s'en occupe",
+        "translations": {
+          "zh": "会计；账目；财务部",
+          "en": "accounting, bookkeeping"
+        },
+        "examples": [
+          {
+            "text": "Envoyez cette facture à la comptabilité.",
+            "translations": {
+              "zh": "把这张发票送到财务部。",
+              "en": "Send this invoice to accounts."
+            }
+          }
+        ],
+        "usageNote": "注意 comptabilité 中的 p 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "expert-comptable",
+    "phonetic": "/ɛks.pɛʁ.kɔ̃.tabl/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "experts-comptables"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "professionnel qui vérifie et tient les comptes des entreprises",
+        "translations": {
+          "zh": "注册会计师",
+          "en": "chartered accountant"
+        },
+        "examples": [
+          {
+            "text": "Notre expert-comptable prépare la déclaration fiscale.",
+            "cloze": "Notre {{expert-comptable}} prépare la déclaration fiscale.",
+            "translations": {
+              "zh": "我们的注册会计师正在准备报税单。",
+              "en": "Our accountant is preparing the tax return."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "marge",
+    "phonetic": "/maʁʒ/",
+    "cefr": "C1",
+    "frequencyRank": 5600,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "marges"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "espace blanc au bord d'une page ; différence entre prix de vente et coût",
+        "translations": {
+          "zh": "页边；利润空间；余地",
+          "en": "margin"
+        },
+        "examples": [
+          {
+            "text": "Nos marges ont fondu à cause de la hausse des prix.",
+            "cloze": "Nos {{marges}} ont fondu à cause de la hausse des prix.",
+            "translations": {
+              "zh": "由于价格上涨，我们的利润空间大大缩水。",
+              "en": "Our margins have melted away because of rising prices."
+            }
+          }
+        ],
+        "usageNote": "en marge de：在……边缘；marge de manœuvre：回旋余地。"
+      }
+    ]
+  },
+  {
+    "headword": "levée de fonds",
+    "phonetic": "/lə.ve.də.fɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "levées de fonds"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "opération pour réunir des capitaux auprès d'investisseurs",
+        "translations": {
+          "zh": "融资；募资",
+          "en": "fundraising"
+        },
+        "examples": [
+          {
+            "text": "La start-up a réussi une levée de fonds de cinq millions.",
+            "cloze": "La start-up a réussi une {{levée de fonds}} de cinq millions.",
+            "translations": {
+              "zh": "这家初创公司成功融资五百万。",
+              "en": "The start-up pulled off a five-million fundraising round."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "investisseur",
+    "phonetic": "/ɛ̃.vɛs.ti.sœʁ/",
+    "cefr": "C1",
+    "frequencyRank": 7400,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "investisseurs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne ou organisme qui place de l'argent dans une activité",
+        "translations": {
+          "zh": "投资者",
+          "en": "investor"
+        },
+        "examples": [
+          {
+            "text": "Les investisseurs étrangers se méfient de l'instabilité politique.",
+            "cloze": "Les {{investisseurs}} étrangers se méfient de l'instabilité politique.",
+            "translations": {
+              "zh": "外国投资者对政治不稳定心存戒备。",
+              "en": "Foreign investors are wary of political instability."
+            }
+          }
+        ],
+        "usageNote": "阴性 investisseuse。"
+      }
+    ]
+  },
+  {
+    "headword": "prestataire",
+    "phonetic": "/pʁɛs.ta.tɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 10900,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "prestataires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "entreprise ou personne qui fournit un service",
+        "translations": {
+          "zh": "服务商；服务提供者",
+          "en": "service provider"
+        },
+        "examples": [
+          {
+            "text": "Nous avons changé de prestataire informatique.",
+            "translations": {
+              "zh": "我们换了一家IT服务商。",
+              "en": "We've changed our IT service provider."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cahier des charges",
+    "phonetic": "/ka.je.de.ʃaʁʒ/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "cahiers des charges"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "document qui décrit précisément ce qu'on attend d'un travail",
+        "translations": {
+          "zh": "任务书；规格说明书",
+          "en": "specifications, brief"
+        },
+        "examples": [
+          {
+            "text": "Le prototype ne respecte pas le cahier des charges.",
+            "cloze": "Le prototype ne respecte pas le {{cahier des charges}}.",
+            "translations": {
+              "zh": "样机不符合规格说明书的要求。",
+              "en": "The prototype does not meet the specifications."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "échéance",
+    "phonetic": "/e.ʃe.ɑ̃s/",
+    "cefr": "C1",
+    "frequencyRank": 8200,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "échéances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "date à laquelle quelque chose doit être payé ou fait",
+        "translations": {
+          "zh": "到期日；期限",
+          "en": "due date, deadline"
+        },
+        "examples": [
+          {
+            "text": "La première échéance du prêt tombe le 5 mars.",
+            "translations": {
+              "zh": "第一期贷款3月5日到期。",
+              "en": "The first loan payment is due on 5 March."
+            }
+          }
+        ],
+        "usageNote": "à brève / longue échéance：短期 / 长期内。"
+      }
+    ]
+  },
+  {
+    "headword": "redressement judiciaire",
+    "phonetic": "/ʁə.dʁɛs.mɑ̃.ʒy.di.sjɛʁ/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "redressements judiciaires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "procédure qui permet à une entreprise en difficulté de continuer sous contrôle d'un juge",
+        "translations": {
+          "zh": "司法重整",
+          "en": "receivership"
+        },
+        "examples": [
+          {
+            "text": "Le tribunal a placé la chaîne de magasins en redressement judiciaire.",
+            "cloze": "Le tribunal a placé la chaîne de magasins en {{redressement judiciaire}}.",
+            "translations": {
+              "zh": "法院将这家连锁店置于司法重整之下。",
+              "en": "The court placed the store chain in receivership."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "démarcher",
+    "phonetic": "/de.maʁ.ʃe/",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "aller voir des clients potentiels pour leur proposer quelque chose",
+        "translations": {
+          "zh": "上门推销；拓展客户",
+          "en": "to canvass, to prospect"
+        },
+        "examples": [
+          {
+            "text": "Elle démarche de nouveaux clients par téléphone.",
+            "cloze": "Elle {{démarche}} de nouveaux clients par téléphone.",
+            "translations": {
+              "zh": "她通过电话开拓新客户。",
+              "en": "She canvasses new clients by phone."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "conjoncture",
+    "phonetic": "/kɔ̃.ʒɔ̃k.tyʁ/",
+    "cefr": "C1",
+    "frequencyRank": 9200,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "conjonctures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "situation économique à un moment donné",
+        "translations": {
+          "zh": "（经济）形势；行情",
+          "en": "economic situation"
+        },
+        "examples": [
+          {
+            "text": "Dans la conjoncture actuelle, mieux vaut ne pas embaucher.",
+            "translations": {
+              "zh": "在当前形势下，最好别招人。",
+              "en": "In the current economic climate, it's better not to hire."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "actionnariat",
+    "phonetic": "/ak.sjɔ.na.ʁja/",
+    "cefr": "C1",
+    "frequencyRank": 19000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "actionnariats"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble des actionnaires d'une société",
+        "translations": {
+          "zh": "股东（总称）；股权结构",
+          "en": "shareholding, shareholders"
+        },
+        "examples": [
+          {
+            "text": "L'État reste présent dans l'actionnariat de la compagnie.",
+            "cloze": "L'État reste présent dans l'{{actionnariat}} de la compagnie.",
+            "translations": {
+              "zh": "国家仍持有该公司的股份。",
+              "en": "The state is still among the company's shareholders."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "chômage partiel",
+    "phonetic": "/ʃo.maʒ.paʁ.sjɛl/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "chômage partiels"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "réduction temporaire du temps de travail, compensée en partie par l'État",
+        "translations": {
+          "zh": "部分失业；（企业）减时停工",
+          "en": "short-time working"
+        },
+        "examples": [
+          {
+            "text": "Pendant la crise, des milliers de salariés étaient au chômage partiel.",
+            "cloze": "Pendant la crise, des milliers de salariés étaient au {{chômage partiel}}.",
+            "translations": {
+              "zh": "危机期间，数千名员工处于部分停工状态。",
+              "en": "During the crisis, thousands of employees were on short-time working."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "pouvoir d'achat",
+    "phonetic": "/pu.vwaʁ.da.ʃa/",
+    "cefr": "C1",
+    "frequencyRank": 6500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "pouvoir d'achats"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "quantité de biens qu'un revenu permet d'acheter",
+        "translations": {
+          "zh": "购买力",
+          "en": "purchasing power"
+        },
+        "examples": [
+          {
+            "text": "La hausse des prix pèse sur le pouvoir d'achat des ménages.",
+            "cloze": "La hausse des prix pèse sur le {{pouvoir d'achat}} des ménages.",
+            "translations": {
+              "zh": "物价上涨削弱了家庭的购买力。",
+              "en": "Rising prices are squeezing household purchasing power."
+            }
+          }
+        ],
+        "usageNote": "法国政治、媒体的高频话题。"
+      }
+    ]
+  },
+  {
+    "headword": "tribunal",
+    "phonetic": "/tʁi.by.nal/",
+    "cefr": "C1",
+    "frequencyRank": 3900,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "tribunaux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "lieu et ensemble des juges qui rendent la justice",
+        "translations": {
+          "zh": "法院；法庭",
+          "en": "court, tribunal"
+        },
+        "examples": [
+          {
+            "text": "L'affaire sera jugée par le tribunal de Lyon.",
+            "translations": {
+              "zh": "此案将由里昂法院审理。",
+              "en": "The case will be tried by the Lyon court."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

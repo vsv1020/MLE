@@ -1,0 +1,1494 @@
+[
+  {
+    "headword": "vieillesse",
+    "phonetic": "/vjɛ.jɛs/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "vieillesses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "dernière période de la vie",
+        "translations": {
+          "zh": "老年；晚年",
+          "en": "old age"
+        },
+        "examples": [
+          {
+            "text": "Il a passé sa vieillesse au bord de la mer.",
+            "translations": {
+              "zh": "他在海边度过了晚年。",
+              "en": "He spent his old age by the sea."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "vieillir",
+    "phonetic": "/vje.jiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je vieillis, nous vieillissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "devenir vieux",
+        "translations": {
+          "zh": "变老；衰老",
+          "en": "to grow old, to age"
+        },
+        "examples": [
+          {
+            "text": "Personne n'aime vieillir.",
+            "translations": {
+              "zh": "没人喜欢变老。",
+              "en": "Nobody likes getting old."
+            },
+            "cloze": "Personne n'aime {{vieillir}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "grandir",
+    "phonetic": "/ɡʁɑ̃.diʁ/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je grandis, nous grandissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "devenir plus grand ; passer son enfance",
+        "translations": {
+          "zh": "长大；成长",
+          "en": "to grow up"
+        },
+        "examples": [
+          {
+            "text": "J'ai grandi dans une petite ville.",
+            "translations": {
+              "zh": "我在一个小城长大。",
+              "en": "I grew up in a small town."
+            },
+            "cloze": "J'ai {{grandi}} dans une petite ville."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "âgé",
+    "phonetic": "/ɑ.ʒe/",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "irregularForms": "阴性 âgée；复数 âgés, âgées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a beaucoup d'années",
+        "translations": {
+          "zh": "年长的；上了年纪的",
+          "en": "elderly, old"
+        },
+        "examples": [
+          {
+            "text": "Il aide une dame âgée à traverser.",
+            "translations": {
+              "zh": "他扶一位老太太过马路。",
+              "en": "He helps an elderly lady cross the road."
+            },
+            "cloze": "Il aide une dame {{âgée}} à traverser."
+          }
+        ],
+        "usageNote": "比 vieux 更礼貌：une personne âgée（老人）。也可指“……岁的”：âgé de 20 ans。"
+      }
+    ],
+    "homograph": 2
+  },
+  {
+    "headword": "retraite",
+    "phonetic": "/ʁə.tʁɛt/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "retraites"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fin de la vie professionnelle ; pension",
+        "translations": {
+          "zh": "退休；退休金",
+          "en": "retirement; pension"
+        },
+        "examples": [
+          {
+            "text": "Mon père prend sa retraite l'année prochaine.",
+            "translations": {
+              "zh": "我父亲明年退休。",
+              "en": "My father retires next year."
+            }
+          }
+        ],
+        "usageNote": "prendre sa retraite：退休；être à la retraite：已退休。"
+      }
+    ]
+  },
+  {
+    "headword": "retraité",
+    "phonetic": "/ʁə.tʁɛ.te/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "retraités"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui ne travaille plus à cause de son âge",
+        "translations": {
+          "zh": "退休人员",
+          "en": "retiree, pensioner"
+        },
+        "examples": [
+          {
+            "text": "Beaucoup de retraités font du bénévolat.",
+            "translations": {
+              "zh": "很多退休人员做志愿者。",
+              "en": "Many retirees do volunteer work."
+            },
+            "cloze": "Beaucoup de {{retraités}} font du bénévolat."
+          }
+        ],
+        "usageNote": "阴性 retraitée。"
+      }
+    ],
+    "homograph": 2
+  },
+  {
+    "headword": "génération",
+    "phonetic": "/ʒe.ne.ʁa.sjɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "générations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble des personnes du même âge",
+        "translations": {
+          "zh": "一代人；代",
+          "en": "generation"
+        },
+        "examples": [
+          {
+            "text": "Trois générations vivent sous le même toit.",
+            "translations": {
+              "zh": "三代人住在同一个屋檐下。",
+              "en": "Three generations live under the same roof."
+            },
+            "cloze": "Trois {{générations}} vivent sous le même toit."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "majeur",
+    "phonetic": "/ma.ʒœʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "irregularForms": "阴性 majeure；复数 majeurs, majeures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a l'âge légal d'un adulte (18 ans en France)",
+        "translations": {
+          "zh": "成年的",
+          "en": "of age, adult"
+        },
+        "examples": [
+          {
+            "text": "Tu pourras voter quand tu seras majeur.",
+            "translations": {
+              "zh": "等你成年了就能投票了。",
+              "en": "You'll be able to vote when you're of age."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "très important",
+        "translations": {
+          "zh": "主要的；重大的",
+          "en": "major"
+        },
+        "examples": [
+          {
+            "text": "C'est un problème majeur.",
+            "translations": {
+              "zh": "这是个重大问题。",
+              "en": "It's a major problem."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mineur",
+    "phonetic": "/mi.nœʁ/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴性 mineure；复数 mineurs, mineures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'a pas encore l'âge légal d'un adulte",
+        "translations": {
+          "zh": "未成年的",
+          "en": "underage, minor"
+        },
+        "examples": [
+          {
+            "text": "Il est encore mineur, il ne peut pas conduire.",
+            "translations": {
+              "zh": "他还未成年，不能开车。",
+              "en": "He's still a minor, he can't drive."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui n'est pas majeure",
+        "translations": {
+          "zh": "未成年人",
+          "en": "minor"
+        },
+        "examples": [
+          {
+            "text": "La vente d'alcool aux mineurs est interdite.",
+            "translations": {
+              "zh": "禁止向未成年人售酒。",
+              "en": "Selling alcohol to minors is forbidden."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "enceinte",
+    "phonetic": "/ɑ̃.sɛ̃t/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "只有阴性；复数 enceintes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui attend un bébé",
+        "translations": {
+          "zh": "怀孕的",
+          "en": "pregnant"
+        },
+        "examples": [
+          {
+            "text": "Ma sœur est enceinte de six mois.",
+            "translations": {
+              "zh": "我姐姐怀孕六个月了。",
+              "en": "My sister is six months pregnant."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "grossesse",
+    "phonetic": "/ɡʁo.sɛs/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "grossesses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état d'une femme enceinte",
+        "translations": {
+          "zh": "怀孕；孕期",
+          "en": "pregnancy"
+        },
+        "examples": [
+          {
+            "text": "Elle a eu une grossesse sans problème.",
+            "translations": {
+              "zh": "她的孕期很顺利。",
+              "en": "She had a trouble-free pregnancy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "accoucher",
+    "phonetic": "/a.ku.ʃe/",
+    "cefr": "B2",
+    "frequencyRank": 10000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "mettre un enfant au monde",
+        "translations": {
+          "zh": "分娩；生孩子",
+          "en": "to give birth"
+        },
+        "examples": [
+          {
+            "text": "Elle a accouché d'une petite fille.",
+            "translations": {
+              "zh": "她生了一个小女孩。",
+              "en": "She gave birth to a baby girl."
+            },
+            "cloze": "Elle a {{accouché}} d'une petite fille."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "maladie",
+    "phonetic": "/ma.la.di/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "maladies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "altération de la santé",
+        "translations": {
+          "zh": "疾病；病",
+          "en": "illness, disease"
+        },
+        "examples": [
+          {
+            "text": "Cette maladie se soigne bien aujourd'hui.",
+            "translations": {
+              "zh": "这种病如今很好治。",
+              "en": "This disease is easily treated nowadays."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "symptôme",
+    "phonetic": "/sɛ̃p.tom/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "symptômes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "signe qui montre une maladie",
+        "translations": {
+          "zh": "症状",
+          "en": "symptom"
+        },
+        "examples": [
+          {
+            "text": "La fièvre est un symptôme de la grippe.",
+            "translations": {
+              "zh": "发烧是流感的一种症状。",
+              "en": "Fever is a symptom of flu."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ordonnance",
+    "phonetic": "/ɔʁ.dɔ.nɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "ordonnances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "papier du médecin qui indique les médicaments",
+        "translations": {
+          "zh": "处方；药方",
+          "en": "prescription"
+        },
+        "examples": [
+          {
+            "text": "Ce médicament est vendu sur ordonnance.",
+            "translations": {
+              "zh": "这种药凭处方出售。",
+              "en": "This medicine is sold on prescription."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "guérir",
+    "phonetic": "/ɡe.ʁiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je guéris, nous guérissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "retrouver la santé ; rendre la santé",
+        "translations": {
+          "zh": "痊愈；治愈",
+          "en": "to recover; to cure"
+        },
+        "examples": [
+          {
+            "text": "Il faut une semaine pour guérir.",
+            "translations": {
+              "zh": "需要一周才能痊愈。",
+              "en": "It takes a week to recover."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "guérison",
+    "phonetic": "/ɡe.ʁi.zɔ̃/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "guérisons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de guérir",
+        "translations": {
+          "zh": "痊愈；康复",
+          "en": "recovery, cure"
+        },
+        "examples": [
+          {
+            "text": "Nous vous souhaitons une prompte guérison.",
+            "translations": {
+              "zh": "祝您早日康复。",
+              "en": "We wish you a speedy recovery."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "blessure",
+    "phonetic": "/blɛ.syʁ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "blessures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "lésion du corps causée par un coup ou un accident",
+        "translations": {
+          "zh": "伤；伤口",
+          "en": "injury, wound"
+        },
+        "examples": [
+          {
+            "text": "Sa blessure au genou n'est pas grave.",
+            "translations": {
+              "zh": "他膝盖的伤不严重。",
+              "en": "His knee injury isn't serious."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "blesser",
+    "phonetic": "/blɛ.se/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire une blessure ; faire de la peine",
+        "translations": {
+          "zh": "使受伤；伤害",
+          "en": "to injure, to hurt"
+        },
+        "examples": [
+          {
+            "text": "Il s'est blessé en jouant au foot.",
+            "translations": {
+              "zh": "他踢足球时受伤了。",
+              "en": "He hurt himself playing football."
+            },
+            "cloze": "Il s'est {{blessé}} en jouant au foot."
+          }
+        ],
+        "usageNote": "se blesser：受伤；也可指伤感情：Ses mots m'ont blessé."
+      }
+    ]
+  },
+  {
+    "headword": "douleur",
+    "phonetic": "/du.lœʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "douleurs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sensation physique ou morale qui fait mal",
+        "translations": {
+          "zh": "疼痛；痛苦",
+          "en": "pain"
+        },
+        "examples": [
+          {
+            "text": "J'ai une douleur dans le dos.",
+            "translations": {
+              "zh": "我背痛。",
+              "en": "I have a pain in my back."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "souffrir",
+    "phonetic": "/su.fʁiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "conjugation": "不规则：je souffre, nous souffrons（变位像 -er 动词）；过去分词 souffert"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir mal, physiquement ou moralement",
+        "translations": {
+          "zh": "受苦；患（病）",
+          "en": "to suffer"
+        },
+        "examples": [
+          {
+            "text": "Il souffre de maux de tête.",
+            "translations": {
+              "zh": "他饱受头痛之苦。",
+              "en": "He suffers from headaches."
+            },
+            "cloze": "Il {{souffre}} de maux de tête."
+          }
+        ],
+        "usageNote": "souffrir de + 病症：患有……"
+      }
+    ]
+  },
+  {
+    "headword": "soigner",
+    "phonetic": "/swa.ɲe/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "s'occuper de la santé d'un malade",
+        "translations": {
+          "zh": "治疗；照料",
+          "en": "to treat, to look after"
+        },
+        "examples": [
+          {
+            "text": "Il faut bien soigner ce rhume.",
+            "translations": {
+              "zh": "这次感冒得好好治一治。",
+              "en": "You need to look after that cold properly."
+            },
+            "cloze": "Il faut bien {{soigner}} ce rhume."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "soin",
+    "phonetic": "/swɛ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "soins"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qu'on fait pour guérir ou pour entretenir (souvent au pluriel)",
+        "translations": {
+          "zh": "护理；照料",
+          "en": "care, treatment"
+        },
+        "examples": [
+          {
+            "text": "Il a reçu les premiers soins sur place.",
+            "translations": {
+              "zh": "他在现场接受了急救。",
+              "en": "He received first aid on the spot."
+            },
+            "cloze": "Il a reçu les premiers {{soins}} sur place."
+          }
+        ],
+        "usageNote": "prendre soin de qqn / qqch：照顾……"
+      }
+    ]
+  },
+  {
+    "headword": "traitement",
+    "phonetic": "/tʁɛt.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "traitements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ensemble des soins pour guérir une maladie",
+        "translations": {
+          "zh": "治疗；疗法",
+          "en": "treatment"
+        },
+        "examples": [
+          {
+            "text": "Le traitement dure trois mois.",
+            "translations": {
+              "zh": "疗程为三个月。",
+              "en": "The treatment lasts three months."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "consultation",
+    "phonetic": "/kɔ̃.syl.ta.sjɔ̃/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "consultations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "rendez-vous chez le médecin",
+        "translations": {
+          "zh": "（医生）看诊；咨询",
+          "en": "consultation, appointment"
+        },
+        "examples": [
+          {
+            "text": "La consultation coûte trente euros.",
+            "translations": {
+              "zh": "看一次诊三十欧元。",
+              "en": "The consultation costs thirty euros."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "urgence",
+    "phonetic": "/yʁ.ʒɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "urgences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "situation qui demande d'agir vite",
+        "translations": {
+          "zh": "紧急情况",
+          "en": "emergency"
+        },
+        "examples": [
+          {
+            "text": "En cas d'urgence, appelez le 15.",
+            "translations": {
+              "zh": "如遇紧急情况，请拨打15。",
+              "en": "In an emergency, call 15."
+            },
+            "cloze": "En cas d'{{urgence}}, appelez le 15."
+          }
+        ],
+        "usageNote": "les urgences：（医院）急诊室。"
+      }
+    ]
+  },
+  {
+    "headword": "ambulance",
+    "phonetic": "/ɑ̃.by.lɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "ambulances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "véhicule qui transporte les malades et les blessés",
+        "translations": {
+          "zh": "救护车",
+          "en": "ambulance"
+        },
+        "examples": [
+          {
+            "text": "Appelle une ambulance, vite !",
+            "translations": {
+              "zh": "快叫救护车！",
+              "en": "Call an ambulance, quick!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "infirmier",
+    "phonetic": "/ɛ̃.fiʁ.mje/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "infirmiers"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui soigne les malades avec le médecin",
+        "translations": {
+          "zh": "护士（男）",
+          "en": "nurse"
+        },
+        "examples": [
+          {
+            "text": "L'infirmier m'a fait une prise de sang.",
+            "translations": {
+              "zh": "护士给我抽了血。",
+              "en": "The nurse took a blood sample."
+            },
+            "cloze": "L'{{infirmier}} m'a fait une prise de sang."
+          }
+        ],
+        "usageNote": "女护士是 infirmière。"
+      }
+    ]
+  },
+  {
+    "headword": "pharmacien",
+    "phonetic": "/faʁ.ma.sjɛ̃/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "pharmaciens"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "personne qui vend les médicaments",
+        "translations": {
+          "zh": "药剂师",
+          "en": "pharmacist"
+        },
+        "examples": [
+          {
+            "text": "Demande conseil au pharmacien.",
+            "translations": {
+              "zh": "问问药剂师的意见。",
+              "en": "Ask the pharmacist for advice."
+            }
+          }
+        ],
+        "usageNote": "阴性 pharmacienne。"
+      }
+    ]
+  },
+  {
+    "headword": "vaccin",
+    "phonetic": "/vak.sɛ̃/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "vaccins"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "produit qui protège contre une maladie",
+        "translations": {
+          "zh": "疫苗",
+          "en": "vaccine"
+        },
+        "examples": [
+          {
+            "text": "Ce vaccin est obligatoire pour les enfants.",
+            "translations": {
+              "zh": "这种疫苗儿童必须接种。",
+              "en": "This vaccine is compulsory for children."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "piqûre",
+    "phonetic": "/pi.kyʁ/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "piqûres"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "injection avec une seringue ; morsure d'insecte",
+        "translations": {
+          "zh": "打针；（虫）叮咬",
+          "en": "injection, shot; sting"
+        },
+        "examples": [
+          {
+            "text": "L'infirmière m'a fait une piqûre.",
+            "translations": {
+              "zh": "护士给我打了一针。",
+              "en": "The nurse gave me an injection."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "comprimé",
+    "phonetic": "/kɔ̃.pʁi.me/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "comprimés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "médicament en forme de petite pastille",
+        "translations": {
+          "zh": "药片",
+          "en": "tablet, pill"
+        },
+        "examples": [
+          {
+            "text": "Prenez un comprimé trois fois par jour.",
+            "translations": {
+              "zh": "每天三次，每次一片。",
+              "en": "Take one tablet three times a day."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "grippe",
+    "phonetic": "/ɡʁip/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "grippes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "maladie avec fièvre et fatigue",
+        "translations": {
+          "zh": "流感",
+          "en": "flu"
+        },
+        "examples": [
+          {
+            "text": "J'ai attrapé la grippe.",
+            "translations": {
+              "zh": "我得了流感。",
+              "en": "I've caught the flu."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "toux",
+    "phonetic": "/tu/",
+    "cefr": "B1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "toux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de tousser",
+        "translations": {
+          "zh": "咳嗽",
+          "en": "cough"
+        },
+        "examples": [
+          {
+            "text": "Ce sirop calme la toux.",
+            "translations": {
+              "zh": "这种糖浆能止咳。",
+              "en": "This syrup soothes coughs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tousser",
+    "phonetic": "/tu.se/",
+    "cefr": "B1",
+    "frequencyRank": 10000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "chasser l'air des poumons avec bruit",
+        "translations": {
+          "zh": "咳嗽",
+          "en": "to cough"
+        },
+        "examples": [
+          {
+            "text": "Il n'arrête pas de tousser la nuit.",
+            "translations": {
+              "zh": "他夜里咳个不停。",
+              "en": "He keeps coughing at night."
+            },
+            "cloze": "Il n'arrête pas de {{tousser}} la nuit."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "éternuer",
+    "phonetic": "/e.tɛʁ.nɥe/",
+    "cefr": "B2",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rejeter l'air brusquement par le nez",
+        "translations": {
+          "zh": "打喷嚏",
+          "en": "to sneeze"
+        },
+        "examples": [
+          {
+            "text": "Le pollen me fait éternuer.",
+            "translations": {
+              "zh": "花粉让我打喷嚏。",
+              "en": "Pollen makes me sneeze."
+            },
+            "cloze": "Le pollen me fait {{éternuer}}."
+          }
+        ],
+        "usageNote": "别人打喷嚏时可以说 À tes souhaits !（祝你如愿！）"
+      }
+    ]
+  },
+  {
+    "headword": "allergie",
+    "phonetic": "/a.lɛʁ.ʒi/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "allergies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "réaction du corps à une substance",
+        "translations": {
+          "zh": "过敏",
+          "en": "allergy"
+        },
+        "examples": [
+          {
+            "text": "J'ai une allergie aux arachides.",
+            "translations": {
+              "zh": "我对花生过敏。",
+              "en": "I have a peanut allergy."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "allergique",
+    "phonetic": "/a.lɛʁ.ʒik/",
+    "cefr": "B1",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 allergiques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a une allergie",
+        "translations": {
+          "zh": "过敏的",
+          "en": "allergic"
+        },
+        "examples": [
+          {
+            "text": "Je suis allergique aux chats.",
+            "translations": {
+              "zh": "我对猫过敏。",
+              "en": "I'm allergic to cats."
+            }
+          }
+        ],
+        "usageNote": "être allergique à qqch：对……过敏。"
+      }
+    ]
+  },
+  {
+    "headword": "migraine",
+    "phonetic": "/mi.ɡʁɛn/",
+    "cefr": "B2",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "migraines"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "mal de tête violent",
+        "translations": {
+          "zh": "偏头痛",
+          "en": "migraine"
+        },
+        "examples": [
+          {
+            "text": "J'ai une migraine terrible.",
+            "translations": {
+              "zh": "我偏头痛得厉害。",
+              "en": "I have a terrible migraine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "vertige",
+    "phonetic": "/vɛʁ.tiʒ/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "vertiges"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "impression que tout tourne ; peur du vide",
+        "translations": {
+          "zh": "头晕；恐高",
+          "en": "dizziness; vertigo"
+        },
+        "examples": [
+          {
+            "text": "J'ai le vertige en haut de la tour.",
+            "translations": {
+              "zh": "我在塔顶上感到头晕。",
+              "en": "I feel dizzy at the top of the tower."
+            }
+          }
+        ],
+        "usageNote": "avoir le vertige：头晕、恐高。"
+      }
+    ]
+  },
+  {
+    "headword": "nausée",
+    "phonetic": "/no.ze/",
+    "cefr": "B2",
+    "frequencyRank": 10000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "nausées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "envie de vomir",
+        "translations": {
+          "zh": "恶心；反胃",
+          "en": "nausea"
+        },
+        "examples": [
+          {
+            "text": "Le bateau me donne la nausée.",
+            "translations": {
+              "zh": "坐船让我恶心。",
+              "en": "Boats make me feel sick."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "vomir",
+    "phonetic": "/vɔ.miʁ/",
+    "cefr": "B2",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je vomis, nous vomissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "rejeter par la bouche ce qu'on a mangé",
+        "translations": {
+          "zh": "呕吐",
+          "en": "to vomit, to be sick"
+        },
+        "examples": [
+          {
+            "text": "L'enfant a vomi dans la voiture.",
+            "translations": {
+              "zh": "孩子在车里吐了。",
+              "en": "The child was sick in the car."
+            },
+            "cloze": "L'enfant a {{vomi}} dans la voiture."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "infection",
+    "phonetic": "/ɛ̃.fɛk.sjɔ̃/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "infections"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "maladie causée par des microbes",
+        "translations": {
+          "zh": "感染；传染",
+          "en": "infection"
+        },
+        "examples": [
+          {
+            "text": "Il a une infection à l'oreille.",
+            "translations": {
+              "zh": "他耳朵感染了。",
+              "en": "He has an ear infection."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "virus",
+    "phonetic": "/vi.ʁys/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "virus"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "très petit organisme qui cause des maladies",
+        "translations": {
+          "zh": "病毒",
+          "en": "virus"
+        },
+        "examples": [
+          {
+            "text": "Ce virus se transmet facilement.",
+            "translations": {
+              "zh": "这种病毒很容易传播。",
+              "en": "This virus spreads easily."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "contagieux",
+    "phonetic": "/kɔ̃.ta.ʒjø/",
+    "cefr": "B2",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 contagieuse；复数 contagieux, contagieuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui se transmet d'une personne à l'autre",
+        "translations": {
+          "zh": "传染性的",
+          "en": "contagious"
+        },
+        "examples": [
+          {
+            "text": "Reste à la maison, tu es contagieux.",
+            "translations": {
+              "zh": "你待在家里吧，你会传染人。",
+              "en": "Stay at home, you're contagious."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cancer",
+    "phonetic": "/kɑ̃.sɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "cancers"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "maladie grave où des cellules se multiplient",
+        "translations": {
+          "zh": "癌症",
+          "en": "cancer"
+        },
+        "examples": [
+          {
+            "text": "Le tabac augmente le risque de cancer.",
+            "translations": {
+              "zh": "吸烟会增加患癌风险。",
+              "en": "Smoking increases the risk of cancer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "opération",
+    "phonetic": "/ɔ.pe.ʁa.sjɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "opérations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "intervention d'un chirurgien",
+        "translations": {
+          "zh": "手术",
+          "en": "operation, surgery"
+        },
+        "examples": [
+          {
+            "text": "L'opération s'est bien passée.",
+            "translations": {
+              "zh": "手术很顺利。",
+              "en": "The operation went well."
+            },
+            "cloze": "L'{{opération}} s'est bien passée."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "calcul (addition, soustraction…)",
+        "translations": {
+          "zh": "运算",
+          "en": "operation, calculation"
+        }
+      }
+    ]
+  },
+  {
+    "headword": "opérer",
+    "phonetic": "/ɔ.pe.ʁe/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "conjugation": "拼写变化：j'opère, nous opérons, ils opèrent"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire une opération chirurgicale",
+        "translations": {
+          "zh": "给……做手术",
+          "en": "to operate on"
+        },
+        "examples": [
+          {
+            "text": "Elle s'est fait opérer du genou.",
+            "translations": {
+              "zh": "她做了膝盖手术。",
+              "en": "She had knee surgery."
+            },
+            "cloze": "Elle s'est fait {{opérer}} du genou."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "chirurgien",
+    "phonetic": "/ʃi.ʁyʁ.ʒjɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "chirurgiens"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "médecin qui fait des opérations",
+        "translations": {
+          "zh": "外科医生",
+          "en": "surgeon"
+        },
+        "examples": [
+          {
+            "text": "Le chirurgien a opéré pendant cinq heures.",
+            "translations": {
+              "zh": "外科医生做了五个小时的手术。",
+              "en": "The surgeon operated for five hours."
+            }
+          }
+        ],
+        "usageNote": "阴性 chirurgienne。"
+      }
+    ]
+  },
+  {
+    "headword": "fracture",
+    "phonetic": "/fʁak.tyʁ/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "fractures"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "os cassé",
+        "translations": {
+          "zh": "骨折",
+          "en": "fracture"
+        },
+        "examples": [
+          {
+            "text": "Il a une fracture du bras.",
+            "translations": {
+              "zh": "他胳膊骨折了。",
+              "en": "He has a broken arm."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

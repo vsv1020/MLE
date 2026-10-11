@@ -1,0 +1,1416 @@
+[
+  {
+    "headword": "se rendre compte",
+    "phonetic": "/sə ʁɑ̃dʁ kɔ̃t/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "comprendre soudain, prendre conscience",
+        "translations": {
+          "zh": "意识到；发觉",
+          "en": "to realize"
+        },
+        "examples": [
+          {
+            "text": "Il s'est rendu compte de son erreur.",
+            "cloze": "Il {{s'est rendu compte}} de son erreur.",
+            "translations": {
+              "zh": "他意识到了自己的错误。",
+              "en": "He realized his mistake."
+            }
+          }
+        ],
+        "usageNote": "se rendre compte de qch / que + 直陈式；复合时态中 rendu 不配合：elle s'est rendu compte。"
+      }
+    ]
+  },
+  {
+    "headword": "rendre compte de",
+    "phonetic": "/ʁɑ̃dʁ kɔ̃t də/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire un rapport sur ; expliquer",
+        "translations": {
+          "zh": "汇报；说明",
+          "en": "to report on, to account for"
+        },
+        "examples": [
+          {
+            "text": "Il doit rendre compte de son travail à son chef.",
+            "cloze": "Il doit {{rendre compte}} de son travail à son chef.",
+            "translations": {
+              "zh": "他得向上司汇报工作。",
+              "en": "He has to report on his work to his boss."
+            }
+          }
+        ],
+        "usageNote": "注意区分：se rendre compte = 意识到；rendre compte de = 汇报。名词 un compte rendu（报告、纪要）。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir besoin de",
+    "phonetic": "/a.vwaʁ bə.zwɛ̃ də/",
+    "cefr": "B1",
+    "frequencyRank": 400,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "ne pas pouvoir se passer de",
+        "translations": {
+          "zh": "需要",
+          "en": "to need"
+        },
+        "examples": [
+          {
+            "text": "J'ai besoin d'aide.",
+            "cloze": "J'{{ai besoin}} d'aide.",
+            "translations": {
+              "zh": "我需要帮助。",
+              "en": "I need help."
+            }
+          }
+        ],
+        "usageNote": "avoir besoin de + 名词/不定式；J'en ai besoin.（我需要它。）"
+      }
+    ]
+  },
+  {
+    "headword": "avoir envie de",
+    "phonetic": "/a.vwaʁ ɑ̃.vi də/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "désirer",
+        "translations": {
+          "zh": "想要",
+          "en": "to feel like, to want"
+        },
+        "examples": [
+          {
+            "text": "J'ai envie de partir en vacances.",
+            "cloze": "J'{{ai envie}} de partir en vacances.",
+            "translations": {
+              "zh": "我想去度假。",
+              "en": "I feel like going on holiday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir l'intention de",
+    "phonetic": "/a.vwaʁ lɛ̃.tɑ̃.sjɔ̃ də/",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "projeter de faire qch",
+        "translations": {
+          "zh": "打算",
+          "en": "to intend to"
+        },
+        "examples": [
+          {
+            "text": "J'ai l'intention de changer de travail.",
+            "cloze": "J'{{ai l'intention}} de changer de travail.",
+            "translations": {
+              "zh": "我打算换工作。",
+              "en": "I intend to change jobs."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir lieu",
+    "phonetic": "/a.vwaʁ ljø/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "se produire, se dérouler",
+        "translations": {
+          "zh": "举行；发生",
+          "en": "to take place"
+        },
+        "examples": [
+          {
+            "text": "La réunion aura lieu lundi.",
+            "cloze": "La réunion {{aura lieu}} lundi.",
+            "translations": {
+              "zh": "会议将在周一举行。",
+              "en": "The meeting will take place on Monday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir du mal à",
+    "phonetic": "/a.vwaʁ dy mal a/",
+    "cefr": "B1",
+    "frequencyRank": 2100,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "avoir des difficultés à",
+        "translations": {
+          "zh": "很难做到；费劲",
+          "en": "to have trouble (doing)"
+        },
+        "examples": [
+          {
+            "text": "J'ai du mal à dormir.",
+            "cloze": "J'{{ai du mal}} à dormir.",
+            "translations": {
+              "zh": "我难以入睡。",
+              "en": "I have trouble sleeping."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir tendance à",
+    "phonetic": "/a.vwaʁ tɑ̃.dɑ̃s a/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "faire souvent, être enclin à",
+        "translations": {
+          "zh": "倾向于；往往",
+          "en": "to tend to"
+        },
+        "examples": [
+          {
+            "text": "Il a tendance à exagérer.",
+            "cloze": "Il {{a tendance}} à exagérer.",
+            "translations": {
+              "zh": "他总爱夸大其词。",
+              "en": "He tends to exaggerate."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir affaire à",
+    "phonetic": "/a.vwaʁ a.fɛʁ a/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "être en relation avec ; devoir traiter avec",
+        "translations": {
+          "zh": "与……打交道",
+          "en": "to deal with"
+        },
+        "examples": [
+          {
+            "text": "Tu vas avoir affaire à moi !",
+            "cloze": "Tu vas {{avoir affaire}} à moi !",
+            "translations": {
+              "zh": "你给我等着！",
+              "en": "You'll have me to deal with!"
+            }
+          }
+        ],
+        "usageNote": "也作警告：Tu vas avoir affaire à moi !（你等着瞧！）"
+      }
+    ]
+  },
+  {
+    "headword": "avoir recours à",
+    "phonetic": "/a.vwaʁ ʁə.kuʁ a/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "utiliser comme moyen",
+        "translations": {
+          "zh": "求助于；采用",
+          "en": "to resort to"
+        },
+        "examples": [
+          {
+            "text": "Il a fallu avoir recours à la police.",
+            "cloze": "Il a fallu {{avoir recours}} à la police.",
+            "translations": {
+              "zh": "不得不求助于警察。",
+              "en": "We had to call in the police."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir beau",
+    "phonetic": "/a.vwaʁ bo/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 avoir）：j'ai, il a, nous avons, ils ont；过去分词 eu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "faire qch en vain (+ infinitif)",
+        "translations": {
+          "zh": "尽管……也（无济于事）",
+          "en": "however much…, no matter how…"
+        },
+        "examples": [
+          {
+            "text": "J'ai beau chercher, je ne trouve pas mes clés.",
+            "cloze": "J'{{ai beau}} chercher, je ne trouve pas mes clés.",
+            "translations": {
+              "zh": "我怎么找也找不到钥匙。",
+              "en": "No matter how hard I look, I can't find my keys."
+            }
+          }
+        ],
+        "usageNote": "avoir beau + 不定式，后接说明“徒劳”的分句。"
+      }
+    ]
+  },
+  {
+    "headword": "faire attention à",
+    "phonetic": "/fɛʁ a.tɑ̃.sjɔ̃ a/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "être attentif, prudent",
+        "translations": {
+          "zh": "注意；小心",
+          "en": "to pay attention to, to be careful"
+        },
+        "examples": [
+          {
+            "text": "Fais attention à la marche !",
+            "cloze": "{{Fais attention}} à la marche !",
+            "translations": {
+              "zh": "小心台阶！",
+              "en": "Mind the step!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "faire semblant de",
+    "phonetic": "/fɛʁ sɑ̃.blɑ̃ də/",
+    "cefr": "B1",
+    "frequencyRank": 3200,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "faire comme si",
+        "translations": {
+          "zh": "假装",
+          "en": "to pretend"
+        },
+        "examples": [
+          {
+            "text": "Il fait semblant de dormir.",
+            "cloze": "Il {{fait semblant}} de dormir.",
+            "translations": {
+              "zh": "他在装睡。",
+              "en": "He's pretending to sleep."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "faire confiance à",
+    "phonetic": "/fɛʁ kɔ̃.fjɑ̃s a/",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "croire en qn, se fier à",
+        "translations": {
+          "zh": "信任",
+          "en": "to trust"
+        },
+        "examples": [
+          {
+            "text": "Je te fais confiance.",
+            "cloze": "Je te {{fais confiance}}.",
+            "translations": {
+              "zh": "我信任你。",
+              "en": "I trust you."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "faire exprès",
+    "phonetic": "/fɛʁ ɛks.pʁɛ/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "agir volontairement",
+        "translations": {
+          "zh": "故意",
+          "en": "to do on purpose"
+        },
+        "examples": [
+          {
+            "text": "Pardon, je ne l'ai pas fait exprès.",
+            "cloze": "Pardon, je ne l'ai pas {{fait exprès}}.",
+            "translations": {
+              "zh": "对不起，我不是故意的。",
+              "en": "Sorry, I didn't do it on purpose."
+            }
+          }
+        ],
+        "usageNote": "exprès 的 s 发音。"
+      }
+    ]
+  },
+  {
+    "headword": "faire partie de",
+    "phonetic": "/fɛʁ paʁ.ti də/",
+    "cefr": "B1",
+    "frequencyRank": 1200,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "être un élément de",
+        "translations": {
+          "zh": "是……的一部分；属于",
+          "en": "to be part of"
+        },
+        "examples": [
+          {
+            "text": "Elle fait partie de l'équipe.",
+            "cloze": "Elle {{fait partie}} de l'équipe.",
+            "translations": {
+              "zh": "她是队里的一员。",
+              "en": "She is part of the team."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "faire part de",
+    "phonetic": "/fɛʁ paʁ də/",
+    "cefr": "B2",
+    "frequencyRank": 4200,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "informer de, communiquer",
+        "translations": {
+          "zh": "告知；通知",
+          "en": "to inform of, to share"
+        },
+        "examples": [
+          {
+            "text": "Il m'a fait part de ses doutes.",
+            "cloze": "Il m'a {{fait part}} de ses doutes.",
+            "translations": {
+              "zh": "他跟我说了他的疑虑。",
+              "en": "He shared his doubts with me."
+            }
+          }
+        ],
+        "usageNote": "un faire-part：（婚礼、出生等）通知卡。"
+      }
+    ]
+  },
+  {
+    "headword": "se mettre à",
+    "phonetic": "/sə mɛtʁ a/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 mettre）：je mets, nous mettons；过去分词 mis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "commencer à",
+        "translations": {
+          "zh": "开始（做）",
+          "en": "to start (doing)"
+        },
+        "examples": [
+          {
+            "text": "Il s'est mis à pleuvoir.",
+            "cloze": "Il {{s'est mis}} à pleuvoir.",
+            "translations": {
+              "zh": "开始下雨了。",
+              "en": "It started to rain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "être en train de",
+    "phonetic": "/ɛtʁ ɑ̃ tʁɛ̃ də/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "grammarNotes": {
+      "conjugation": "不规则（同 être）：je suis, il est, nous sommes, ils sont；过去分词 été"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "indique une action en cours",
+        "translations": {
+          "zh": "正在",
+          "en": "to be in the middle of (doing)"
+        },
+        "examples": [
+          {
+            "text": "Je suis en train de cuisiner.",
+            "cloze": "Je {{suis en train}} de cuisiner.",
+            "translations": {
+              "zh": "我正在做饭。",
+              "en": "I'm cooking right now."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "être sur le point de",
+    "phonetic": "/ɛtʁ syʁ lə pwɛ̃ də/",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "conjugation": "不规则（同 être）：je suis, il est, nous sommes, ils sont；过去分词 été"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "aller faire qch très bientôt",
+        "translations": {
+          "zh": "即将；正要",
+          "en": "to be about to"
+        },
+        "examples": [
+          {
+            "text": "J'étais sur le point de partir.",
+            "cloze": "J'{{étais sur le point}} de partir.",
+            "translations": {
+              "zh": "我正要走。",
+              "en": "I was about to leave."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "être au courant",
+    "phonetic": "/ɛtʁ o ku.ʁɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 être）：je suis, il est, nous sommes, ils sont；过去分词 été"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "être informé",
+        "translations": {
+          "zh": "知情；了解情况",
+          "en": "to be aware, to know about"
+        },
+        "examples": [
+          {
+            "text": "Tu es au courant de la nouvelle ?",
+            "cloze": "Tu {{es au courant}} de la nouvelle ?",
+            "translations": {
+              "zh": "你听说这个消息了吗？",
+              "en": "Have you heard the news?"
+            }
+          }
+        ],
+        "usageNote": "être au courant de qch；tenir qn au courant：随时告知某人。"
+      }
+    ]
+  },
+  {
+    "headword": "tenir compte de",
+    "phonetic": "/tə.niʁ kɔ̃t də/",
+    "cefr": "B2",
+    "frequencyRank": 2600,
+    "grammarNotes": {
+      "conjugation": "不规则（同 tenir）：je tiens, nous tenons；过去分词 tenu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "prendre en considération",
+        "translations": {
+          "zh": "考虑到",
+          "en": "to take into account"
+        },
+        "examples": [
+          {
+            "text": "Il faut tenir compte de son âge.",
+            "cloze": "Il faut {{tenir compte}} de son âge.",
+            "translations": {
+              "zh": "要考虑到他的年龄。",
+              "en": "You have to take his age into account."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "prendre en compte",
+    "phonetic": "/pʁɑ̃dʁ ɑ̃ kɔ̃t/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 prendre）：je prends, nous prenons, ils prennent；过去分词 pris"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "considérer, intégrer dans sa réflexion",
+        "translations": {
+          "zh": "考虑；纳入考量",
+          "en": "to take into account"
+        },
+        "examples": [
+          {
+            "text": "Vos remarques seront prises en compte.",
+            "cloze": "Vos remarques seront {{prises en compte}}.",
+            "translations": {
+              "zh": "您的意见会被考虑。",
+              "en": "Your comments will be taken into account."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mettre en œuvre",
+    "phonetic": "/mɛtʁ ɑ̃ nœvʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3300,
+    "grammarNotes": {
+      "conjugation": "不规则（同 mettre）：je mets, nous mettons；过去分词 mis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "appliquer, réaliser concrètement",
+        "translations": {
+          "zh": "实施；落实",
+          "en": "to implement"
+        },
+        "examples": [
+          {
+            "text": "Le gouvernement va mettre en œuvre cette réforme.",
+            "cloze": "Le gouvernement va {{mettre en œuvre}} cette réforme.",
+            "translations": {
+              "zh": "政府将实施这项改革。",
+              "en": "The government will implement this reform."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mettre en place",
+    "phonetic": "/mɛtʁ ɑ̃ plas/",
+    "cefr": "B2",
+    "frequencyRank": 2200,
+    "grammarNotes": {
+      "conjugation": "不规则（同 mettre）：je mets, nous mettons；过去分词 mis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "installer, organiser",
+        "translations": {
+          "zh": "建立；设立",
+          "en": "to set up, to put in place"
+        },
+        "examples": [
+          {
+            "text": "La ville a mis en place un nouveau service.",
+            "cloze": "La ville a {{mis en place}} un nouveau service.",
+            "translations": {
+              "zh": "市里推出了一项新服务。",
+              "en": "The town has set up a new service."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mettre fin à",
+    "phonetic": "/mɛtʁ fɛ̃ a/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 mettre）：je mets, nous mettons；过去分词 mis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "arrêter, terminer",
+        "translations": {
+          "zh": "结束；终止",
+          "en": "to put an end to"
+        },
+        "examples": [
+          {
+            "text": "Ils ont mis fin à leur contrat.",
+            "cloze": "Ils ont {{mis fin}} à leur contrat.",
+            "translations": {
+              "zh": "他们终止了合同。",
+              "en": "They ended their contract."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "prendre conscience de",
+    "phonetic": "/pʁɑ̃dʁ kɔ̃.sjɑ̃s də/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 prendre）：je prends, nous prenons, ils prennent；过去分词 pris"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "se rendre compte de",
+        "translations": {
+          "zh": "意识到；认识到",
+          "en": "to become aware of"
+        },
+        "examples": [
+          {
+            "text": "Il faut prendre conscience des risques.",
+            "cloze": "Il faut {{prendre conscience}} des risques.",
+            "translations": {
+              "zh": "必须认识到其中的风险。",
+              "en": "We must become aware of the risks."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "donner lieu à",
+    "phonetic": "/dɔ.ne ljø a/",
+    "cefr": "B2",
+    "frequencyRank": 4200,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "provoquer, entraîner",
+        "translations": {
+          "zh": "引起；导致",
+          "en": "to give rise to"
+        },
+        "examples": [
+          {
+            "text": "Ce match a donné lieu à des violences.",
+            "cloze": "Ce match a {{donné lieu}} à des violences.",
+            "translations": {
+              "zh": "这场比赛引发了暴力事件。",
+              "en": "This match gave rise to violence."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "il vaut mieux",
+    "phonetic": "/il vo mjø/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "il est préférable de",
+        "translations": {
+          "zh": "最好……",
+          "en": "it's better to"
+        },
+        "examples": [
+          {
+            "text": "Il vaut mieux partir tôt.",
+            "cloze": "{{Il vaut mieux}} partir tôt.",
+            "translations": {
+              "zh": "最好早点出发。",
+              "en": "It's better to leave early."
+            }
+          }
+        ],
+        "usageNote": "il vaut mieux + 不定式；il vaut mieux que + 虚拟式。"
+      }
+    ]
+  },
+  {
+    "headword": "valoir la peine",
+    "phonetic": "/va.lwaʁ la pɛn/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "conjugation": "不规则：je vaux, il vaut, nous valons；过去分词 valu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "mériter l'effort",
+        "translations": {
+          "zh": "值得",
+          "en": "to be worth it"
+        },
+        "examples": [
+          {
+            "text": "Ce film vaut la peine d'être vu.",
+            "cloze": "Ce film {{vaut la peine}} d'être vu.",
+            "translations": {
+              "zh": "这部电影值得一看。",
+              "en": "This film is worth seeing."
+            }
+          }
+        ],
+        "usageNote": "Ça vaut la peine.（值得。）口语也说 ça vaut le coup。"
+      }
+    ]
+  },
+  {
+    "headword": "suffire",
+    "phonetic": "/sy.fiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "不规则：je suffis, il suffit, nous suffisons；过去分词 suffi"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "être assez",
+        "translations": {
+          "zh": "足够",
+          "en": "to be enough"
+        },
+        "examples": [
+          {
+            "text": "Une heure va suffire.",
+            "translations": {
+              "zh": "一个小时就够了。",
+              "en": "An hour will be enough."
+            }
+          }
+        ],
+        "usageNote": "il suffit de + 不定式：只要……就行。Ça suffit !（够了！）"
+      }
+    ]
+  },
+  {
+    "headword": "compter sur",
+    "phonetic": "/kɔ̃.te syʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2300,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "avoir confiance en l'aide de",
+        "translations": {
+          "zh": "指望；依靠",
+          "en": "to count on, to rely on"
+        },
+        "examples": [
+          {
+            "text": "Tu peux compter sur moi.",
+            "cloze": "Tu peux {{compter sur}} moi.",
+            "translations": {
+              "zh": "你可以指望我。",
+              "en": "You can count on me."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se fier à",
+    "phonetic": "/sə fje a/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire confiance à",
+        "translations": {
+          "zh": "信任；相信",
+          "en": "to trust, to rely on"
+        },
+        "examples": [
+          {
+            "text": "Ne te fie pas aux apparences.",
+            "cloze": "Ne {{te fie}} pas aux apparences.",
+            "translations": {
+              "zh": "不要相信表面现象。",
+              "en": "Don't trust appearances."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'appuyer sur",
+    "phonetic": "/sa.pɥi.je syʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "conjugation": "拼写变化：je m'appuie, nous nous appuyons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se baser sur ; prendre appui sur",
+        "translations": {
+          "zh": "依据；倚靠",
+          "en": "to rely on, to lean on"
+        },
+        "examples": [
+          {
+            "text": "Cette théorie s'appuie sur des faits.",
+            "cloze": "Cette théorie {{s'appuie}} sur des faits.",
+            "translations": {
+              "zh": "这一理论以事实为依据。",
+              "en": "This theory is based on facts."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se contenter de",
+    "phonetic": "/sə kɔ̃.tɑ̃.te də/",
+    "cefr": "B2",
+    "frequencyRank": 3600,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "se satisfaire de ; se limiter à",
+        "translations": {
+          "zh": "满足于；只……",
+          "en": "to be content with, to make do with"
+        },
+        "examples": [
+          {
+            "text": "Je me contente d'un café le matin.",
+            "cloze": "Je {{me contente}} d'un café le matin.",
+            "translations": {
+              "zh": "我早上喝杯咖啡就够了。",
+              "en": "I make do with a coffee in the morning."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'en sortir",
+    "phonetic": "/sɑ̃ sɔʁ.tiʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "conjugation": "不规则（同 sortir）：je m'en sors, nous nous en sortons；过去分词 sorti"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "réussir à surmonter une difficulté",
+        "translations": {
+          "zh": "摆脱困境；应付过来",
+          "en": "to cope, to pull through"
+        },
+        "examples": [
+          {
+            "text": "Avec ce salaire, on a du mal à s'en sortir.",
+            "cloze": "Avec ce salaire, on a du mal à {{s'en sortir}}.",
+            "translations": {
+              "zh": "靠这点工资，日子很难过。",
+              "en": "On this salary, it's hard to get by."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'en faire",
+    "phonetic": "/sɑ̃ fɛʁ/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 faire）：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "s'inquiéter",
+        "translations": {
+          "zh": "担心；发愁",
+          "en": "to worry"
+        },
+        "examples": [
+          {
+            "text": "Ne t'en fais pas, ça va aller.",
+            "cloze": "Ne {{t'en fais}} pas, ça va aller.",
+            "translations": {
+              "zh": "别担心，会好的。",
+              "en": "Don't worry, it'll be fine."
+            }
+          }
+        ],
+        "usageNote": "口语，多用否定命令式：Ne t'en fais pas / Ne vous en faites pas。"
+      }
+    ]
+  },
+  {
+    "headword": "en vouloir à",
+    "phonetic": "/ɑ̃ vu.lwaʁ a/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "conjugation": "不规则（同 vouloir）：j'en veux, nous en voulons, ils en veulent；过去分词 voulu"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "garder de la rancune contre qn",
+        "translations": {
+          "zh": "怨恨；生……的气",
+          "en": "to hold a grudge against"
+        },
+        "examples": [
+          {
+            "text": "Tu m'en veux encore ?",
+            "cloze": "Tu m'{{en veux}} encore ?",
+            "translations": {
+              "zh": "你还在生我的气吗？",
+              "en": "Are you still angry with me?"
+            }
+          }
+        ],
+        "usageNote": "Je ne t'en veux pas.（我不怪你。）"
+      }
+    ]
+  },
+  {
+    "headword": "tirer parti de",
+    "phonetic": "/ti.ʁe paʁ.ti də/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "utiliser à son avantage",
+        "translations": {
+          "zh": "利用；从……中获益",
+          "en": "to make the most of"
+        },
+        "examples": [
+          {
+            "text": "Il faut tirer parti de cette situation.",
+            "cloze": "Il faut {{tirer parti}} de cette situation.",
+            "translations": {
+              "zh": "要好好利用这个局面。",
+              "en": "We should make the most of this situation."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mettre au point",
+    "phonetic": "/mɛtʁ o pwɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "grammarNotes": {
+      "conjugation": "不规则（同 mettre）：je mets, nous mettons；过去分词 mis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "élaborer, mettre en état de fonctionner",
+        "translations": {
+          "zh": "研制；调试",
+          "en": "to develop, to perfect"
+        },
+        "examples": [
+          {
+            "text": "Les chercheurs ont mis au point un nouveau vaccin.",
+            "cloze": "Les chercheurs ont {{mis au point}} un nouveau vaccin.",
+            "translations": {
+              "zh": "研究人员研制出一种新疫苗。",
+              "en": "Researchers have developed a new vaccine."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se mettre d'accord",
+    "phonetic": "/sə mɛtʁ da.kɔʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2800,
+    "grammarNotes": {
+      "conjugation": "不规则（同 mettre）：je mets, nous mettons；过去分词 mis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "arriver à un accord",
+        "translations": {
+          "zh": "达成一致",
+          "en": "to agree, to come to an agreement"
+        },
+        "examples": [
+          {
+            "text": "On s'est mis d'accord sur la date.",
+            "cloze": "On {{s'est mis d'accord}} sur la date.",
+            "translations": {
+              "zh": "我们商定了日期。",
+              "en": "We agreed on the date."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "à mon avis",
+    "phonetic": "/a mɔ̃ na.vi/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "selon moi",
+        "translations": {
+          "zh": "依我看",
+          "en": "in my opinion"
+        },
+        "examples": [
+          {
+            "text": "À mon avis, il a tort.",
+            "cloze": "{{À mon avis}}, il a tort.",
+            "translations": {
+              "zh": "依我看，他错了。",
+              "en": "In my opinion, he's wrong."
+            }
+          }
+        ],
+        "usageNote": "也可说 à ton avis ?（你怎么看？）"
+      }
+    ]
+  },
+  {
+    "headword": "quoi qu'il en soit",
+    "phonetic": "/kwa kil ɑ̃ swa/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "en tout cas, de toute façon",
+        "translations": {
+          "zh": "无论如何",
+          "en": "be that as it may, anyway"
+        },
+        "examples": [
+          {
+            "text": "Quoi qu'il en soit, je serai là.",
+            "cloze": "{{Quoi qu'il en soit}}, je serai là.",
+            "translations": {
+              "zh": "无论如何，我都会到场。",
+              "en": "Be that as it may, I'll be there."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "c'est pourquoi",
+    "phonetic": "/sɛ puʁ.kwa/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "pour cette raison",
+        "translations": {
+          "zh": "这就是为什么；因此",
+          "en": "that's why"
+        },
+        "examples": [
+          {
+            "text": "Il pleuvait, c'est pourquoi je suis resté.",
+            "cloze": "Il pleuvait, {{c'est pourquoi}} je suis resté.",
+            "translations": {
+              "zh": "当时在下雨，所以我留下了。",
+              "en": "It was raining, that's why I stayed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "c'est-à-dire",
+    "phonetic": "/sɛ.ta.diʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "autrement dit",
+        "translations": {
+          "zh": "也就是说",
+          "en": "that is to say"
+        },
+        "examples": [
+          {
+            "text": "Il arrive après-demain, c'est-à-dire jeudi.",
+            "cloze": "Il arrive après-demain, {{c'est-à-dire}} jeudi.",
+            "translations": {
+              "zh": "他后天到，也就是周四。",
+              "en": "He arrives the day after tomorrow, that is, Thursday."
+            }
+          }
+        ],
+        "usageNote": "缩写 c.-à-d.。"
+      }
+    ]
+  },
+  {
+    "headword": "autrement dit",
+    "phonetic": "/o.tʁə.mɑ̃ di/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "en d'autres termes",
+        "translations": {
+          "zh": "换句话说",
+          "en": "in other words"
+        },
+        "examples": [
+          {
+            "text": "Il est parti sans payer, autrement dit il nous a volés.",
+            "cloze": "Il est parti sans payer, {{autrement dit}} il nous a volés.",
+            "translations": {
+              "zh": "他没付钱就走了，换句话说他偷了我们的。",
+              "en": "He left without paying; in other words, he robbed us."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "à vrai dire",
+    "phonetic": "/a vʁɛ diʁ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "pour être franc",
+        "translations": {
+          "zh": "说实话",
+          "en": "to tell the truth"
+        },
+        "examples": [
+          {
+            "text": "À vrai dire, je n'en sais rien.",
+            "cloze": "{{À vrai dire}}, je n'en sais rien.",
+            "translations": {
+              "zh": "说实话，我一点也不知道。",
+              "en": "To tell the truth, I have no idea."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "en tout cas",
+    "phonetic": "/ɑ̃ tu ka/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "quoi qu'il arrive ; du moins",
+        "translations": {
+          "zh": "无论如何；反正",
+          "en": "in any case, anyway"
+        },
+        "examples": [
+          {
+            "text": "En tout cas, merci pour ton aide.",
+            "cloze": "{{En tout cas}}, merci pour ton aide.",
+            "translations": {
+              "zh": "无论如何，谢谢你的帮助。",
+              "en": "In any case, thanks for your help."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "de toute façon",
+    "phonetic": "/də tut fa.sɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "quoi qu'il en soit",
+        "translations": {
+          "zh": "反正；不管怎样",
+          "en": "anyway, in any case"
+        },
+        "examples": [
+          {
+            "text": "De toute façon, il est trop tard.",
+            "cloze": "{{De toute façon}}, il est trop tard.",
+            "translations": {
+              "zh": "反正已经太晚了。",
+              "en": "Anyway, it's too late."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "du coup",
+    "phonetic": "/dy ku/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "(familier) par conséquent",
+        "translations": {
+          "zh": "所以；结果",
+          "en": "so, as a result"
+        },
+        "examples": [
+          {
+            "text": "Il pleuvait, du coup on est restés à la maison.",
+            "cloze": "Il pleuvait, {{du coup}} on est restés à la maison.",
+            "translations": {
+              "zh": "下雨了，所以我们待在家里。",
+              "en": "It was raining, so we stayed at home."
+            }
+          }
+        ],
+        "usageNote": "口语非常常用；书面语用 donc 或 par conséquent。"
+      }
+    ]
+  }
+]

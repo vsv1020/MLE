@@ -1,0 +1,1246 @@
+[
+ {
+  "headword": "nuancer",
+  "phonetic": "/nɥɑ̃.se/",
+  "cefr": "C1",
+  "frequencyRank": 7500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "exprimer avec des distinctions fines, rendre moins catégorique",
+    "translations": {
+     "zh": "使（说法）更有分寸；加以细化",
+     "en": "to qualify, to add nuance to"
+    },
+    "examples": [
+     {
+      "text": "Il faut nuancer ce jugement un peu trop sévère.",
+      "translations": {
+       "zh": "这个判断有点过于严厉，需要说得更有分寸些。",
+       "en": "This rather harsh judgement needs to be qualified."
+      }
+     }
+    ],
+    "usageNote": "nuancer un propos / une affirmation；nous nuançons（c→ç）。名词 nuance。"
+   }
+  ]
+ },
+ {
+  "headword": "préconiser",
+  "phonetic": "/pʁe.kɔ.ni.ze/",
+  "cefr": "C1",
+  "frequencyRank": 6500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "recommander vivement (une mesure, une méthode)",
+    "translations": {
+     "zh": "竭力推荐；主张",
+     "en": "to recommend, to advocate"
+    },
+    "examples": [
+     {
+      "text": "Le rapport préconise une réforme en profondeur du système.",
+      "translations": {
+       "zh": "报告建议对该体系进行深入改革。",
+       "en": "The report recommends an in-depth reform of the system."
+      },
+      "cloze": "Le rapport {{préconise}} une réforme en profondeur du système."
+     }
+    ],
+    "usageNote": "多见于报告、专家意见：préconiser une mesure / de + 不定式。"
+   }
+  ]
+ },
+ {
+  "headword": "entraver",
+  "phonetic": "/ɑ̃.tʁa.ve/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "gêner, empêcher le déroulement normal de",
+    "translations": {
+     "zh": "妨碍；阻挠",
+     "en": "to hinder, to impede"
+    },
+    "examples": [
+     {
+      "text": "Une bureaucratie excessive entrave l'innovation.",
+      "translations": {
+       "zh": "过度的官僚主义阻碍创新。",
+       "en": "Excessive bureaucracy hinders innovation."
+      },
+      "cloze": "Une bureaucratie excessive {{entrave}} l'innovation."
+     }
+    ],
+    "usageNote": "常见搭配：entraver la liberté / le bon fonctionnement；名词 entrave（障碍）。"
+   }
+  ]
+ },
+ {
+  "headword": "s'avérer",
+  "phonetic": "/sa.ve.ʁe/",
+  "cefr": "C1",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se révéler, apparaître finalement comme",
+    "translations": {
+     "zh": "证明是；结果是",
+     "en": "to prove (to be), to turn out"
+    },
+    "examples": [
+     {
+      "text": "Cette solution s'est avérée inefficace.",
+      "translations": {
+       "zh": "这个方案结果证明无效。",
+       "en": "This solution proved ineffective."
+      },
+      "cloze": "Cette solution {{s'est avérée}} inefficace."
+     }
+    ],
+    "usageNote": "后接形容词：s'avérer utile / difficile；变位 il s'avère（é→è）。"
+   }
+  ]
+ },
+ {
+  "headword": "remettre en cause",
+  "phonetic": "/ʁə.mɛtʁ ɑ̃ koz/",
+  "cefr": "C1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 mettre：je remets, nous remettons, ils remettent；过去分词 remis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "contester le bien-fondé ou la validité de",
+    "translations": {
+     "zh": "质疑；对…提出疑问",
+     "en": "to call into question"
+    },
+    "examples": [
+     {
+      "text": "Ces résultats remettent en cause la théorie dominante.",
+      "translations": {
+       "zh": "这些结果对主流理论提出了质疑。",
+       "en": "These results call the dominant theory into question."
+      },
+      "cloze": "Ces résultats {{remettent en cause}} la théorie dominante."
+     }
+    ],
+    "usageNote": "近义：remettre en question；名词 remise en cause。"
+   }
+  ]
+ },
+ {
+  "headword": "mettre en évidence",
+  "phonetic": "/mɛ.tʁ‿ɑ̃.n‿e.vi.dɑ̃s/",
+  "cefr": "C1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "conjugation": "不规则：同 mettre：je mets, nous mettons, ils mettent；过去分词 mis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire apparaître clairement",
+    "translations": {
+     "zh": "揭示；突出显示",
+     "en": "to highlight, to bring to light"
+    },
+    "examples": [
+     {
+      "text": "L'étude met en évidence un lien entre stress et sommeil.",
+      "translations": {
+       "zh": "该研究揭示了压力与睡眠之间的联系。",
+       "en": "The study brings to light a link between stress and sleep."
+      },
+      "cloze": "L'étude {{met en évidence}} un lien entre stress et sommeil."
+     }
+    ],
+    "usageNote": "学术写作高频；近义 mettre en lumière, souligner。"
+   }
+  ]
+ },
+ {
+  "headword": "étayer",
+  "phonetic": "/e.te.je/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "appuyer par des arguments ou des preuves",
+    "translations": {
+     "zh": "支撑；佐证",
+     "en": "to support, to back up"
+    },
+    "examples": [
+     {
+      "text": "Il étaye sa thèse par de nombreux exemples.",
+      "translations": {
+       "zh": "他用大量例子来佐证自己的论点。",
+       "en": "He backs up his thesis with numerous examples."
+      },
+      "cloze": "Il {{étaye}} sa thèse par de nombreux exemples."
+     }
+    ],
+    "usageNote": "étayer un argument / une hypothèse；变位 j'étaie 或 j'étaye 均可。"
+   }
+  ]
+ },
+ {
+  "headword": "corroborer",
+  "phonetic": "/kɔ.ʁɔ.bɔ.ʁe/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "confirmer, appuyer une idée ou un témoignage",
+    "translations": {
+     "zh": "证实；印证",
+     "en": "to corroborate"
+    },
+    "examples": [
+     {
+      "text": "Les témoignages corroborent la version de l'accusé.",
+      "translations": {
+       "zh": "证人证词印证了被告的说法。",
+       "en": "The testimonies corroborate the defendant's version."
+      },
+      "cloze": "Les témoignages {{corroborent}} la version de l'accusé."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "infirmer",
+  "phonetic": "/ɛ̃.fiʁ.me/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "démontrer la fausseté de, contredire",
+    "translations": {
+     "zh": "否定；推翻；驳倒",
+     "en": "to invalidate, to disprove"
+    },
+    "examples": [
+     {
+      "text": "Les nouvelles données infirment cette hypothèse.",
+      "translations": {
+       "zh": "新数据推翻了这一假设。",
+       "en": "The new data disprove this hypothesis."
+      },
+      "cloze": "Les nouvelles données {{infirment}} cette hypothèse."
+     }
+    ],
+    "usageNote": "反义 confirmer，常连用：confirmer ou infirmer；法律上指“撤销（判决）”。"
+   }
+  ]
+ },
+ {
+  "headword": "réfuter",
+  "phonetic": "/ʁe.fy.te/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "démontrer qu'une affirmation est fausse",
+    "translations": {
+     "zh": "驳斥；反驳",
+     "en": "to refute"
+    },
+    "examples": [
+     {
+      "text": "Le ministre a réfuté toutes les accusations portées contre lui.",
+      "translations": {
+       "zh": "部长驳斥了针对他的所有指控。",
+       "en": "The minister refuted all the accusations made against him."
+      },
+      "cloze": "Le ministre a {{réfuté}} toutes les accusations portées contre lui."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "élucider",
+  "phonetic": "/e.ly.si.de/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre clair ce qui était obscur",
+    "translations": {
+     "zh": "阐明；查明",
+     "en": "to elucidate, to clear up"
+    },
+    "examples": [
+     {
+      "text": "Il reste à élucider les causes de l'accident.",
+      "translations": {
+       "zh": "事故原因还有待查明。",
+       "en": "The causes of the accident remain to be cleared up."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "appréhender",
+  "phonetic": "/a.pʁe.ɑ̃.de/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "saisir par l'esprit, comprendre",
+    "translations": {
+     "zh": "理解；把握",
+     "en": "to grasp, to comprehend"
+    },
+    "examples": [
+     {
+      "text": "Ce phénomène est difficile à appréhender dans sa globalité.",
+      "translations": {
+       "zh": "这一现象很难从整体上把握。",
+       "en": "This phenomenon is hard to grasp as a whole."
+      }
+     }
+    ],
+    "usageNote": "另有“担心、害怕”和“逮捕”之义。"
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "craindre, redouter par avance",
+    "translations": {
+     "zh": "担心；害怕",
+     "en": "to dread"
+    },
+    "examples": [
+     {
+      "text": "Elle appréhende son entretien de demain.",
+      "translations": {
+       "zh": "她对明天的面试感到忐忑。",
+       "en": "She is dreading her interview tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cerner",
+  "phonetic": "/sɛʁ.ne/",
+  "cefr": "C1",
+  "frequencyRank": 8500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "définir avec précision les contours de",
+    "translations": {
+     "zh": "弄清；把握（问题实质）",
+     "en": "to pin down, to define"
+    },
+    "examples": [
+     {
+      "text": "Il faut d'abord cerner le problème avant de chercher des solutions.",
+      "translations": {
+       "zh": "在找解决办法之前，必须先弄清问题所在。",
+       "en": "We must first pin down the problem before looking for solutions."
+      }
+     }
+    ],
+    "usageNote": "本义“包围”；cerner les enjeux / un sujet / une personnalité。"
+   }
+  ]
+ },
+ {
+  "headword": "circonscrire",
+  "phonetic": "/siʁ.kɔ̃s.kʁiʁ/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 écrire：je circonscris, nous circonscrivons；过去分词 circonscrit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "limiter, contenir dans certaines limites",
+    "translations": {
+     "zh": "限定；控制（范围）",
+     "en": "to contain, to delimit"
+    },
+    "examples": [
+     {
+      "text": "Les pompiers ont réussi à circonscrire l'incendie.",
+      "translations": {
+       "zh": "消防员成功控制住了火势。",
+       "en": "The firefighters managed to contain the fire."
+      }
+     }
+    ],
+    "usageNote": "论文写作中：circonscrire le sujet（限定论题范围）。"
+   }
+  ]
+ },
+ {
+  "headword": "sous-tendre",
+  "phonetic": "/su.tɑ̃dʁ/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 tendre：il sous-tend, ils sous-tendent；过去分词 sous-tendu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "constituer la base implicite de",
+    "translations": {
+     "zh": "构成…的基础；隐含于",
+     "en": "to underlie"
+    },
+    "examples": [
+     {
+      "text": "Quelles idées sous-tendent ce discours ?",
+      "translations": {
+       "zh": "这篇讲话背后隐含着哪些观念？",
+       "en": "What ideas underlie this speech?"
+      },
+      "cloze": "Quelles idées {{sous-tendent}} ce discours ?"
+     }
+    ],
+    "usageNote": "常用于分析文本、政策背后的逻辑；形容词近义 sous-jacent。"
+   }
+  ]
+ },
+ {
+  "headword": "découler",
+  "phonetic": "/de.ku.le/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "résulter, être la conséquence de",
+    "translations": {
+     "zh": "源于；由…产生",
+     "en": "to stem from, to follow from"
+    },
+    "examples": [
+     {
+      "text": "Ces difficultés découlent d'un manque de moyens.",
+      "translations": {
+       "zh": "这些困难源于资源不足。",
+       "en": "These difficulties stem from a lack of resources."
+      },
+      "cloze": "Ces difficultés {{découlent}} d'un manque de moyens."
+     }
+    ],
+    "usageNote": "découler de qch；无人称：il découle de … que（由此可见…）。"
+   }
+  ]
+ },
+ {
+  "headword": "engendrer",
+  "phonetic": "/ɑ̃.ʒɑ̃.dʁe/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "causer, produire (un effet)",
+    "translations": {
+     "zh": "引起；造成",
+     "en": "to generate, to cause"
+    },
+    "examples": [
+     {
+      "text": "La crise a engendré un chômage massif.",
+      "translations": {
+       "zh": "这场危机造成了大规模失业。",
+       "en": "The crisis caused mass unemployment."
+      },
+      "cloze": "La crise a {{engendré}} un chômage massif."
+     }
+    ],
+    "usageNote": "本义“生育”；抽象义多指负面后果：engendrer des tensions / des coûts。"
+   }
+  ]
+ },
+ {
+  "headword": "induire",
+  "phonetic": "/ɛ̃.dɥiʁ/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 conduire：j'induis, nous induisons；过去分词 induit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir pour conséquence, entraîner",
+    "translations": {
+     "zh": "导致；引起",
+     "en": "to entail, to induce"
+    },
+    "examples": [
+     {
+      "text": "Ce changement induit des coûts supplémentaires.",
+      "translations": {
+       "zh": "这一变化带来了额外成本。",
+       "en": "This change entails additional costs."
+      },
+      "cloze": "Ce changement {{induit}} des coûts supplémentaires."
+     }
+    ],
+    "usageNote": "induire qn en erreur：使人误入歧途；逻辑学中指“归纳”。"
+   }
+  ]
+ },
+ {
+  "headword": "occulter",
+  "phonetic": "/ɔ.kyl.te/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "cacher, passer sous silence",
+    "translations": {
+     "zh": "掩盖；回避",
+     "en": "to obscure, to overshadow"
+    },
+    "examples": [
+     {
+      "text": "Ce débat ne doit pas occulter les vrais problèmes.",
+      "translations": {
+       "zh": "这场辩论不应掩盖真正的问题。",
+       "en": "This debate must not obscure the real problems."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "éluder",
+  "phonetic": "/e.ly.de/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "éviter avec adresse (une question, une difficulté)",
+    "translations": {
+     "zh": "回避；避开（问题）",
+     "en": "to evade, to sidestep"
+    },
+    "examples": [
+     {
+      "text": "Le candidat a éludé la question sur ses finances.",
+      "translations": {
+       "zh": "候选人回避了有关他财务状况的问题。",
+       "en": "The candidate sidestepped the question about his finances."
+      },
+      "cloze": "Le candidat a {{éludé}} la question sur ses finances."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "relativiser",
+  "phonetic": "/ʁə.la.ti.vi.ze/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "considérer de manière moins absolue, moins dramatique",
+    "translations": {
+     "zh": "相对地看待；淡化",
+     "en": "to put into perspective"
+    },
+    "examples": [
+     {
+      "text": "Il faut relativiser ces chiffres alarmants.",
+      "translations": {
+       "zh": "对这些惊人的数字应该理性看待。",
+       "en": "These alarming figures should be put into perspective."
+      }
+     }
+    ],
+    "usageNote": "口语中也常单独用：Il faut relativiser !（别想得太严重！）"
+   }
+  ]
+ },
+ {
+  "headword": "pondérer",
+  "phonetic": "/pɔ̃.de.ʁe/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "équilibrer, attribuer un poids relatif à",
+    "translations": {
+     "zh": "权衡；加权",
+     "en": "to weight, to balance"
+    },
+    "examples": [
+     {
+      "text": "Les notes sont pondérées selon l'importance de chaque épreuve.",
+      "translations": {
+       "zh": "分数根据每项考试的重要性加权计算。",
+       "en": "The marks are weighted according to the importance of each test."
+      },
+      "cloze": "Les notes sont {{pondérées}} selon l'importance de chaque épreuve."
+     }
+    ],
+    "usageNote": "统计学：moyenne pondérée（加权平均）；变位 il pondère（é→è）。"
+   }
+  ]
+ },
+ {
+  "headword": "atténuer",
+  "phonetic": "/a.te.nɥe/",
+  "cefr": "C1",
+  "frequencyRank": 7500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre moins fort, moins grave",
+    "translations": {
+     "zh": "减轻；缓和",
+     "en": "to mitigate, to soften"
+    },
+    "examples": [
+     {
+      "text": "Ces mesures visent à atténuer les effets de la crise.",
+      "translations": {
+       "zh": "这些措施旨在减轻危机的影响。",
+       "en": "These measures aim to mitigate the effects of the crisis."
+      }
+     }
+    ],
+    "usageNote": "atténuer la douleur / une critique；形容词 circonstances atténuantes（减轻罪责的情节）。"
+   }
+  ]
+ },
+ {
+  "headword": "exacerber",
+  "phonetic": "/ɛɡ.za.sɛʁ.be/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre plus aigu, plus intense",
+    "translations": {
+     "zh": "加剧；激化",
+     "en": "to exacerbate"
+    },
+    "examples": [
+     {
+      "text": "La pénurie a exacerbé les tensions sociales.",
+      "translations": {
+       "zh": "物资短缺激化了社会矛盾。",
+       "en": "The shortage exacerbated social tensions."
+      },
+      "cloze": "La pénurie a {{exacerbé}} les tensions sociales."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pallier",
+  "phonetic": "/pa.lje/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "remédier de façon provisoire à (un manque)",
+    "translations": {
+     "zh": "弥补；缓解",
+     "en": "to make up for, to compensate for"
+    },
+    "examples": [
+     {
+      "text": "Le recrutement doit pallier le manque de personnel.",
+      "translations": {
+       "zh": "招聘应该弥补人手不足。",
+       "en": "Recruitment should make up for the staff shortage."
+      }
+     }
+    ],
+    "usageNote": "规范用法为直接及物：pallier qch；pallier à qch 很常见，但被视为不规范。"
+   }
+  ]
+ },
+ {
+  "headword": "remédier",
+  "phonetic": "/ʁə.me.dje/",
+  "cefr": "C1",
+  "frequencyRank": 7500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "apporter une solution à un problème",
+    "translations": {
+     "zh": "补救；纠正",
+     "en": "to remedy"
+    },
+    "examples": [
+     {
+      "text": "Comment remédier à cette situation ?",
+      "translations": {
+       "zh": "如何补救这种局面？",
+       "en": "How can this situation be remedied?"
+      }
+     }
+    ],
+    "usageNote": "间接及物：remédier à qch。"
+   }
+  ]
+ },
+ {
+  "headword": "endiguer",
+  "phonetic": "/ɑ̃.di.ɡe/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "contenir, freiner la progression de",
+    "translations": {
+     "zh": "遏制；控制",
+     "en": "to stem, to contain"
+    },
+    "examples": [
+     {
+      "text": "Les autorités peinent à endiguer l'épidémie.",
+      "translations": {
+       "zh": "当局难以遏制疫情。",
+       "en": "The authorities are struggling to contain the epidemic."
+      }
+     }
+    ],
+    "usageNote": "本义“筑堤拦水”；endiguer la violence / la hausse des prix。"
+   }
+  ]
+ },
+ {
+  "headword": "enrayer",
+  "phonetic": "/ɑ̃.ʁɛ.je/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arrêter la progression de (un mal)",
+    "translations": {
+     "zh": "遏止；制止",
+     "en": "to check, to halt"
+    },
+    "examples": [
+     {
+      "text": "Rien ne semble pouvoir enrayer la hausse des prix.",
+      "translations": {
+       "zh": "似乎没有什么能遏止物价上涨。",
+       "en": "Nothing seems able to halt the rise in prices."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "juguler",
+  "phonetic": "/ʒy.ɡy.le/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arrêter dans son développement, maîtriser",
+    "translations": {
+     "zh": "遏制；控制",
+     "en": "to curb, to check"
+    },
+    "examples": [
+     {
+      "text": "Il faut juguler l'inflation au plus vite.",
+      "translations": {
+       "zh": "必须尽快遏制通货膨胀。",
+       "en": "Inflation must be curbed as quickly as possible."
+      }
+     }
+    ],
+    "usageNote": "多见于经济、医学语境：juguler l'inflation / une épidémie。"
+   }
+  ]
+ },
+ {
+  "headword": "prôner",
+  "phonetic": "/pʁo.ne/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "recommander avec insistance, vanter",
+    "translations": {
+     "zh": "鼓吹；提倡",
+     "en": "to advocate, to extol"
+    },
+    "examples": [
+     {
+      "text": "Ce parti prône une politique de rigueur budgétaire.",
+      "translations": {
+       "zh": "这个政党主张紧缩的财政政策。",
+       "en": "This party advocates a policy of budgetary austerity."
+      },
+      "cloze": "Ce parti {{prône}} une politique de rigueur budgétaire."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "préfigurer",
+  "phonetic": "/pʁe.fi.ɡy.ʁe/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "annoncer par avance, laisser présager",
+    "translations": {
+     "zh": "预示",
+     "en": "to foreshadow, to prefigure"
+    },
+    "examples": [
+     {
+      "text": "Ces premiers succès préfigurent une transformation du secteur.",
+      "translations": {
+       "zh": "这些初步成功预示着整个行业的转型。",
+       "en": "These early successes foreshadow a transformation of the sector."
+      },
+      "cloze": "Ces premiers succès {{préfigurent}} une transformation du secteur."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "relever de",
+  "phonetic": "/ʁəl.ve də/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être du domaine ou de la compétence de",
+    "translations": {
+     "zh": "属于（…的范畴或职权）",
+     "en": "to fall within, to be a matter of"
+    },
+    "examples": [
+     {
+      "text": "Cette question relève de la compétence de l'État.",
+      "translations": {
+       "zh": "这个问题属于国家的职权范围。",
+       "en": "This question falls within the competence of the State."
+      },
+      "cloze": "Cette question {{relève de}} la compétence de l'État."
+     }
+    ],
+    "usageNote": "il relève（e→è）；relever du miracle：简直是奇迹。"
+   }
+  ]
+ },
+ {
+  "headword": "incomber",
+  "phonetic": "/ɛ̃.kɔ̃.be/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "revenir à quelqu'un comme obligation",
+    "translations": {
+     "zh": "由…承担；落在…身上",
+     "en": "to be incumbent on, to fall to"
+    },
+    "examples": [
+     {
+      "text": "Cette responsabilité incombe aux parents.",
+      "translations": {
+       "zh": "这个责任由父母承担。",
+       "en": "This responsibility falls to the parents."
+      },
+      "cloze": "Cette responsabilité {{incombe}} aux parents."
+     }
+    ],
+    "usageNote": "只用第三人称：il incombe à qn de + 不定式。"
+   }
+  ]
+ },
+ {
+  "headword": "primer",
+  "phonetic": "/pʁi.me/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "l'emporter, avoir plus d'importance",
+    "translations": {
+     "zh": "占首要地位；优先于",
+     "en": "to take precedence, to prevail"
+    },
+    "examples": [
+     {
+      "text": "Pour lui, la qualité prime sur la quantité.",
+      "translations": {
+       "zh": "对他来说，质量比数量更重要。",
+       "en": "For him, quality takes precedence over quantity."
+      },
+      "cloze": "Pour lui, la qualité {{prime}} sur la quantité."
+     }
+    ],
+    "usageNote": "primer sur qch；另有“给…颁奖”之义：un film primé。"
+   }
+  ]
+ },
+ {
+  "headword": "prévaloir",
+  "phonetic": "/pʁe.va.lwaʁ/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "conjugation": "不规则：同 valoir：il prévaut, ils prévalent；过去分词 prévalu；虚拟式 qu'il prévale"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "l'emporter, dominer",
+    "translations": {
+     "zh": "占上风；盛行",
+     "en": "to prevail"
+    },
+    "examples": [
+     {
+      "text": "C'est l'intérêt général qui doit prévaloir.",
+      "translations": {
+       "zh": "必须以公共利益为重。",
+       "en": "It is the general interest that must prevail."
+      }
+     }
+    ],
+    "usageNote": "se prévaloir de qch：以…自恃，援引…。"
+   }
+  ]
+ },
+ {
+  "headword": "entériner",
+  "phonetic": "/ɑ̃.te.ʁi.ne/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "approuver officiellement, ratifier",
+    "translations": {
+     "zh": "批准；认可",
+     "en": "to ratify, to endorse"
+    },
+    "examples": [
+     {
+      "text": "Le conseil a entériné la décision du comité.",
+      "translations": {
+       "zh": "理事会批准了委员会的决定。",
+       "en": "The council ratified the committee's decision."
+      },
+      "cloze": "Le conseil a {{entériné}} la décision du comité."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cautionner",
+  "phonetic": "/ko.sjɔ.ne/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "approuver, donner son soutien à",
+    "translations": {
+     "zh": "支持；赞同",
+     "en": "to condone, to endorse"
+    },
+    "examples": [
+     {
+      "text": "Je ne peux pas cautionner de telles pratiques.",
+      "translations": {
+       "zh": "我不能认同这种做法。",
+       "en": "I cannot condone such practices."
+      }
+     }
+    ],
+    "usageNote": "本义“为…担保”；抽象义多用于否定句。"
+   }
+  ]
+ },
+ {
+  "headword": "conforter",
+  "phonetic": "/kɔ̃.fɔʁ.te/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre plus solide, renforcer",
+    "translations": {
+     "zh": "加强；巩固",
+     "en": "to reinforce, to strengthen"
+    },
+    "examples": [
+     {
+      "text": "Ce sondage conforte le candidat dans sa stratégie.",
+      "translations": {
+       "zh": "这项民调让候选人更坚信自己的策略。",
+       "en": "This poll strengthens the candidate's confidence in his strategy."
+      },
+      "cloze": "Ce sondage {{conforte}} le candidat dans sa stratégie."
+     }
+    ],
+    "usageNote": "conforter qn dans son opinion：使某人更加坚信；勿与 réconforter（安慰）混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "étoffer",
+  "phonetic": "/e.tɔ.fe/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "enrichir, développer davantage",
+    "translations": {
+     "zh": "充实；丰富（内容）",
+     "en": "to flesh out, to expand"
+    },
+    "examples": [
+     {
+      "text": "Votre argumentation mérite d'être étoffée.",
+      "translations": {
+       "zh": "你的论证还需要再充实一些。",
+       "en": "Your argument deserves to be fleshed out."
+      },
+      "cloze": "Votre argumentation mérite d'être {{étoffée}}."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "expliciter",
+  "phonetic": "/ɛks.pli.si.te/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "formuler clairement, rendre explicite",
+    "translations": {
+     "zh": "明确说明；阐明",
+     "en": "to spell out, to make explicit"
+    },
+    "examples": [
+     {
+      "text": "Pourriez-vous expliciter votre raisonnement ?",
+      "translations": {
+       "zh": "您能把您的推理说清楚一些吗？",
+       "en": "Could you spell out your reasoning?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "énoncer",
+  "phonetic": "/e.nɔ̃.se/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "exprimer en termes nets, formuler",
+    "translations": {
+     "zh": "陈述；阐述",
+     "en": "to state, to set out"
+    },
+    "examples": [
+     {
+      "text": "Le théorème est énoncé au début du chapitre.",
+      "translations": {
+       "zh": "该定理在本章开头就已陈述。",
+       "en": "The theorem is stated at the beginning of the chapter."
+      },
+      "cloze": "Le théorème est {{énoncé}} au début du chapitre."
+     }
+    ],
+    "usageNote": "nous énonçons（c→ç）；名词 énoncé：题目、陈述。"
+   }
+  ]
+ },
+ {
+  "headword": "présupposer",
+  "phonetic": "/pʁe.sy.po.ze/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "admettre au préalable, impliquer comme condition",
+    "translations": {
+     "zh": "预设；以…为前提",
+     "en": "to presuppose"
+    },
+    "examples": [
+     {
+      "text": "Cette méthode présuppose une bonne maîtrise des statistiques.",
+      "translations": {
+       "zh": "这种方法以熟练掌握统计学为前提。",
+       "en": "This method presupposes a good command of statistics."
+      },
+      "cloze": "Cette méthode {{présuppose}} une bonne maîtrise des statistiques."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "extrapoler",
+  "phonetic": "/ɛks.tʁa.pɔ.le/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "généraliser à partir de données limitées",
+    "translations": {
+     "zh": "推断；外推",
+     "en": "to extrapolate"
+    },
+    "examples": [
+     {
+      "text": "On ne peut pas extrapoler à partir d'un seul cas.",
+      "translations": {
+       "zh": "不能仅凭一个案例就进行推断。",
+       "en": "One cannot extrapolate from a single case."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "inférer",
+  "phonetic": "/ɛ̃.fe.ʁe/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "tirer une conclusion à partir de faits",
+    "translations": {
+     "zh": "推断；推论",
+     "en": "to infer"
+    },
+    "examples": [
+     {
+      "text": "Que peut-on inférer de ces observations ?",
+      "translations": {
+       "zh": "从这些观察中能推断出什么？",
+       "en": "What can we infer from these observations?"
+      }
+     }
+    ],
+    "usageNote": "inférer qch de qch；j'infère（é→è）。"
+   }
+  ]
+ },
+ {
+  "headword": "imputer",
+  "phonetic": "/ɛ̃.py.te/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "attribuer la responsabilité de quelque chose à",
+    "translations": {
+     "zh": "归咎于；归因于",
+     "en": "to attribute, to impute"
+    },
+    "examples": [
+     {
+      "text": "On impute cet échec à un manque de préparation.",
+      "translations": {
+       "zh": "这次失败被归咎于准备不足。",
+       "en": "This failure is attributed to a lack of preparation."
+      },
+      "cloze": "On {{impute}} cet échec à un manque de préparation."
+     }
+    ],
+    "usageNote": "imputer qch à qn/qch；会计用语：把费用记入（某账目）。"
+   }
+  ]
+ },
+ {
+  "headword": "dissocier",
+  "phonetic": "/di.sɔ.sje/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "séparer des éléments considérés comme liés",
+    "translations": {
+     "zh": "区分开；分离",
+     "en": "to dissociate, to separate"
+    },
+    "examples": [
+     {
+      "text": "Il est difficile de dissocier la vie privée et la vie publique.",
+      "translations": {
+       "zh": "很难把私人生活和公共生活分开。",
+       "en": "It is hard to separate private life from public life."
+      }
+     }
+    ],
+    "usageNote": "dissocier A de B / A et B；反义 associer。"
+   }
+  ]
+ }
+]

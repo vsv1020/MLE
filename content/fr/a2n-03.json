@@ -1,0 +1,1509 @@
+[
+ {
+  "headword": "enveloppe",
+  "phonetic": "/ɑ̃.vlɔp/",
+  "cefr": "A2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "enveloppes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier plié dans lequel on met une lettre",
+    "translations": {
+     "zh": "信封",
+     "en": "envelope"
+    },
+    "examples": [
+     {
+      "text": "Écris l'adresse sur l'enveloppe.",
+      "cloze": "Écris l'adresse sur l'{{enveloppe}}.",
+      "translations": {
+       "zh": "把地址写在信封上。",
+       "en": "Write the address on the envelope."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "colis",
+  "phonetic": "/kɔ.li/",
+  "cefr": "A2",
+  "frequencyRank": 7800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "colis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "paquet qu'on envoie par la poste",
+    "translations": {
+     "zh": "包裹",
+     "en": "parcel"
+    },
+    "examples": [
+     {
+      "text": "J'attends un colis de ma mère.",
+      "translations": {
+       "zh": "我在等我妈妈寄来的包裹。",
+       "en": "I'm waiting for a parcel from my mother."
+      }
+     }
+    ],
+    "usageNote": "复数不变。"
+   }
+  ]
+ },
+ {
+  "headword": "adresse",
+  "phonetic": "/a.dʁɛs/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "adresses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nom de la rue et de la ville où on habite",
+    "translations": {
+     "zh": "地址",
+     "en": "address"
+    },
+    "examples": [
+     {
+      "text": "Quelle est ton adresse ?",
+      "translations": {
+       "zh": "你的地址是什么？",
+       "en": "What's your address?"
+      }
+     }
+    ],
+    "usageNote": "法语只有一个 d：adresse。电邮地址是 adresse mail。"
+   }
+  ]
+ },
+ {
+  "headword": "code postal",
+  "phonetic": "/kɔd pɔs.tal/",
+  "cefr": "A2",
+  "frequencyRank": 12000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "codes postaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "numéro qui indique la ville dans une adresse",
+    "translations": {
+     "zh": "邮政编码",
+     "en": "postcode, zip code"
+    },
+    "examples": [
+     {
+      "text": "Quel est votre code postal ?",
+      "cloze": "Quel est votre {{code postal}} ?",
+      "translations": {
+       "zh": "您的邮编是多少？",
+       "en": "What's your postcode?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "compte",
+  "phonetic": "/kɔ̃t/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "comptes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent qu'on garde dans une banque",
+    "translations": {
+     "zh": "账户",
+     "en": "account"
+    },
+    "examples": [
+     {
+      "text": "J'ouvre un compte à la banque.",
+      "translations": {
+       "zh": "我在银行开个账户。",
+       "en": "I'm opening a bank account."
+      }
+     }
+    ],
+    "usageNote": "网站“账号”也叫 compte。"
+   }
+  ]
+ },
+ {
+  "headword": "distributeur",
+  "phonetic": "/dis.tʁi.by.tœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "distributeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "machine qui donne des billets ou des boissons",
+    "translations": {
+     "zh": "取款机；自动售货机",
+     "en": "cash machine, vending machine"
+    },
+    "examples": [
+     {
+      "text": "Il y a un distributeur près de la poste.",
+      "translations": {
+       "zh": "邮局旁边有台取款机。",
+       "en": "There's a cash machine near the post office."
+      }
+     }
+    ],
+    "usageNote": "取款机全称 distributeur de billets。"
+   }
+  ]
+ },
+ {
+  "headword": "carte bancaire",
+  "phonetic": "/kaʁt bɑ̃.kɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cartes bancaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "carte pour payer ou retirer de l'argent",
+    "translations": {
+     "zh": "银行卡",
+     "en": "bank card"
+    },
+    "examples": [
+     {
+      "text": "Je peux payer par carte bancaire ?",
+      "cloze": "Je peux payer par {{carte bancaire}} ?",
+      "translations": {
+       "zh": "我可以刷卡吗？",
+       "en": "Can I pay by card?"
+      }
+     }
+    ],
+    "usageNote": "口语常说 la carte bleue 或 la CB。"
+   }
+  ]
+ },
+ {
+  "headword": "chèque",
+  "phonetic": "/ʃɛk/",
+  "cefr": "A2",
+  "frequencyRank": 6400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chèques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier pour payer avec l'argent de son compte",
+    "translations": {
+     "zh": "支票",
+     "en": "cheque"
+    },
+    "examples": [
+     {
+      "text": "Il paie le loyer par chèque.",
+      "translations": {
+       "zh": "他用支票付房租。",
+       "en": "He pays the rent by cheque."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "espèces",
+  "phonetic": "/ɛs.pɛs/",
+  "cefr": "A2",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent en billets et en pièces",
+    "translations": {
+     "zh": "现金",
+     "en": "cash"
+    },
+    "examples": [
+     {
+      "text": "Vous payez en espèces ?",
+      "translations": {
+       "zh": "您付现金吗？",
+       "en": "Are you paying cash?"
+      }
+     }
+    ],
+    "usageNote": "常说 payer en espèces；单数 espèce 意为“种类、物种”。"
+   }
+  ]
+ },
+ {
+  "headword": "pièce",
+  "phonetic": "/pjɛs/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pièces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'une maison ou d'un appartement",
+    "translations": {
+     "zh": "房间",
+     "en": "room"
+    },
+    "examples": [
+     {
+      "text": "Mon appartement a trois pièces.",
+      "cloze": "Mon appartement a trois {{pièces}}.",
+      "translations": {
+       "zh": "我的公寓有三个房间。",
+       "en": "My flat has three rooms."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit objet rond en métal qui sert d'argent",
+    "translations": {
+     "zh": "硬币",
+     "en": "coin"
+    },
+    "examples": [
+     {
+      "text": "Tu as une pièce de deux euros ?",
+      "translations": {
+       "zh": "你有两欧元的硬币吗？",
+       "en": "Do you have a two-euro coin?"
+      }
+     }
+    ],
+    "usageNote": "也指“戏剧”：une pièce de théâtre。"
+   }
+  ]
+ },
+ {
+  "headword": "ticket",
+  "phonetic": "/ti.kɛ/",
+  "cefr": "A2",
+  "frequencyRank": 5700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tickets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit papier pour le bus, le métro ou après un achat",
+    "translations": {
+     "zh": "票；小票",
+     "en": "ticket, receipt"
+    },
+    "examples": [
+     {
+      "text": "Garde le ticket de caisse.",
+      "translations": {
+       "zh": "留着购物小票。",
+       "en": "Keep the receipt."
+      }
+     }
+    ],
+    "usageNote": "车票、电影票多用 billet；地铁票、小票常用 ticket。"
+   }
+  ]
+ },
+ {
+  "headword": "facture",
+  "phonetic": "/fak.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "factures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier qui indique combien on doit payer",
+    "translations": {
+     "zh": "发票；账单",
+     "en": "bill, invoice"
+    },
+    "examples": [
+     {
+      "text": "La facture d'électricité est arrivée.",
+      "translations": {
+       "zh": "电费单来了。",
+       "en": "The electricity bill has arrived."
+      }
+     }
+    ],
+    "usageNote": "餐馆的账单用 addition。"
+   }
+  ]
+ },
+ {
+  "headword": "réduction",
+  "phonetic": "/ʁe.dyk.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réductions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "prix plus bas que d'habitude",
+    "translations": {
+     "zh": "折扣；减价",
+     "en": "discount"
+    },
+    "examples": [
+     {
+      "text": "Les étudiants ont une réduction.",
+      "translations": {
+       "zh": "学生有折扣。",
+       "en": "Students get a discount."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "soldes",
+  "phonetic": "/sɔld/",
+  "cefr": "A2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "通常只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période où les magasins vendent moins cher",
+    "translations": {
+     "zh": "打折季；大减价",
+     "en": "sales"
+    },
+    "examples": [
+     {
+      "text": "Les soldes commencent en janvier.",
+      "translations": {
+       "zh": "打折季一月开始。",
+       "en": "The sales start in January."
+      }
+     }
+    ],
+    "usageNote": "法国冬夏各一次官方打折季。en solde = 打折中。"
+   }
+  ]
+ },
+ {
+  "headword": "pointure",
+  "phonetic": "/pwɛ̃.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pointures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "taille des chaussures",
+    "translations": {
+     "zh": "鞋码",
+     "en": "shoe size"
+    },
+    "examples": [
+     {
+      "text": "Quelle est votre pointure ?",
+      "translations": {
+       "zh": "您穿多大码的鞋？",
+       "en": "What's your shoe size?"
+      }
+     }
+    ],
+    "usageNote": "衣服尺码用 taille。"
+   }
+  ]
+ },
+ {
+  "headword": "rayon",
+  "phonetic": "/ʁɛ.jɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "rayons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un magasin pour un type de produits",
+    "translations": {
+     "zh": "货架区；柜台",
+     "en": "department, aisle"
+    },
+    "examples": [
+     {
+      "text": "Le lait est au rayon frais.",
+      "translations": {
+       "zh": "牛奶在冷藏区。",
+       "en": "The milk is in the chilled aisle."
+      }
+     }
+    ],
+    "usageNote": "也指“光线”：un rayon de soleil。"
+   }
+  ]
+ },
+ {
+  "headword": "caissier",
+  "phonetic": "/kɛ.sje/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "caissiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait payer les clients au magasin",
+    "translations": {
+     "zh": "收银员",
+     "en": "cashier"
+    },
+    "examples": [
+     {
+      "text": "Le caissier me rend la monnaie.",
+      "translations": {
+       "zh": "收银员找给我零钱。",
+       "en": "The cashier gives me my change."
+      }
+     }
+    ],
+    "usageNote": "阴性 caissière。"
+   }
+  ]
+ },
+ {
+  "headword": "panier",
+  "phonetic": "/pa.nje/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "paniers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet pour porter les courses",
+    "translations": {
+     "zh": "篮子；购物篮",
+     "en": "basket"
+    },
+    "examples": [
+     {
+      "text": "Prenez un panier à l'entrée.",
+      "translations": {
+       "zh": "在入口拿个购物篮。",
+       "en": "Take a basket at the entrance."
+      }
+     }
+    ],
+    "usageNote": "网购的“购物车”也叫 panier。"
+   }
+  ]
+ },
+ {
+  "headword": "chariot",
+  "phonetic": "/ʃa.ʁjo/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chariots"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand panier à roues au supermarché",
+    "translations": {
+     "zh": "购物车；推车",
+     "en": "trolley, cart"
+    },
+    "examples": [
+     {
+      "text": "Le chariot est plein de courses.",
+      "translations": {
+       "zh": "购物车装满了东西。",
+       "en": "The trolley is full of shopping."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salon de coiffure",
+  "phonetic": "/sa.lɔ̃ də kwa.fyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "salons de coiffure"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "magasin où on se fait couper les cheveux",
+    "translations": {
+     "zh": "理发店",
+     "en": "hair salon"
+    },
+    "examples": [
+     {
+      "text": "Il y a un salon de coiffure en face.",
+      "cloze": "Il y a un {{salon de coiffure}} en face.",
+      "translations": {
+       "zh": "对面有家理发店。",
+       "en": "There's a hair salon opposite."
+      }
+     }
+    ],
+    "usageNote": "口语常说 aller chez le coiffeur。"
+   }
+  ]
+ },
+ {
+  "headword": "pressing",
+  "phonetic": "/pʁɛ.siŋ/",
+  "cefr": "A2",
+  "frequencyRank": 16000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pressings"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "magasin où on nettoie les vêtements",
+    "translations": {
+     "zh": "干洗店",
+     "en": "dry cleaner's"
+    },
+    "examples": [
+     {
+      "text": "Je porte ma veste au pressing.",
+      "translations": {
+       "zh": "我把外套送去干洗店。",
+       "en": "I'm taking my jacket to the dry cleaner's."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "librairie",
+  "phonetic": "/li.bʁɛ.ʁi/",
+  "cefr": "A2",
+  "frequencyRank": 5300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "librairies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "magasin où on vend des livres",
+    "translations": {
+     "zh": "书店",
+     "en": "bookshop"
+    },
+    "examples": [
+     {
+      "text": "J'ai acheté ce roman à la librairie.",
+      "translations": {
+       "zh": "这本小说是我在书店买的。",
+       "en": "I bought this novel at the bookshop."
+      }
+     }
+    ],
+    "usageNote": "假朋友：图书馆是 bibliothèque。"
+   }
+  ]
+ },
+ {
+  "headword": "boucherie",
+  "phonetic": "/bu.ʃʁi/",
+  "cefr": "A2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "boucheries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "magasin où on vend de la viande",
+    "translations": {
+     "zh": "肉店",
+     "en": "butcher's shop"
+    },
+    "examples": [
+     {
+      "text": "J'achète du bœuf à la boucherie.",
+      "translations": {
+       "zh": "我在肉店买牛肉。",
+       "en": "I buy beef at the butcher's."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "épicerie",
+  "phonetic": "/e.pis.ʁi/",
+  "cefr": "A2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "épiceries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit magasin d'alimentation",
+    "translations": {
+     "zh": "杂货店；食品店",
+     "en": "grocery shop"
+    },
+    "examples": [
+     {
+      "text": "L'épicerie ferme à vingt heures.",
+      "cloze": "L'{{épicerie}} ferme à vingt heures.",
+      "translations": {
+       "zh": "杂货店晚上八点关门。",
+       "en": "The grocery shop closes at 8 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pâtisserie",
+  "phonetic": "/pɑ.tis.ʁi/",
+  "cefr": "A2",
+  "frequencyRank": 8700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pâtisseries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "magasin où on vend des gâteaux",
+    "translations": {
+     "zh": "糕点店；糕点",
+     "en": "cake shop, pastry"
+    },
+    "examples": [
+     {
+      "text": "Cette pâtisserie fait de très bons éclairs.",
+      "translations": {
+       "zh": "这家糕点店的闪电泡芙很好吃。",
+       "en": "This cake shop makes very good éclairs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "centre commercial",
+  "phonetic": "/sɑ̃tʁ kɔ.mɛʁ.sjal/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "centres commerciaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand bâtiment avec beaucoup de magasins",
+    "translations": {
+     "zh": "购物中心",
+     "en": "shopping centre, mall"
+    },
+    "examples": [
+     {
+      "text": "On va au centre commercial samedi ?",
+      "cloze": "On va au {{centre commercial}} samedi ?",
+      "translations": {
+       "zh": "星期六我们去购物中心吗？",
+       "en": "Shall we go to the mall on Saturday?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "marque",
+  "phonetic": "/maʁk/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "marques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nom d'une entreprise sur un produit",
+    "translations": {
+     "zh": "品牌",
+     "en": "brand"
+    },
+    "examples": [
+     {
+      "text": "C'est une marque française.",
+      "translations": {
+       "zh": "这是个法国品牌。",
+       "en": "It's a French brand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "qualité",
+  "phonetic": "/ka.li.te/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "qualités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qui rend une chose bonne ou mauvaise",
+    "translations": {
+     "zh": "质量；优点",
+     "en": "quality"
+    },
+    "examples": [
+     {
+      "text": "Ce sac est de bonne qualité.",
+      "translations": {
+       "zh": "这个包质量很好。",
+       "en": "This bag is good quality."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "commande",
+  "phonetic": "/kɔ.mɑ̃d/",
+  "cefr": "A2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "commandes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on demande d'acheter ou de manger",
+    "translations": {
+     "zh": "订单；点菜",
+     "en": "order"
+    },
+    "examples": [
+     {
+      "text": "Ma commande n'est pas encore arrivée.",
+      "translations": {
+       "zh": "我的订单还没到。",
+       "en": "My order hasn't arrived yet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "livraison",
+  "phonetic": "/li.vʁɛ.zɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "livraisons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'apporter un produit chez le client",
+    "translations": {
+     "zh": "送货；配送",
+     "en": "delivery"
+    },
+    "examples": [
+     {
+      "text": "La livraison est gratuite.",
+      "translations": {
+       "zh": "免费送货。",
+       "en": "Delivery is free."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "file d'attente",
+  "phonetic": "/fil da.tɑ̃t/",
+  "cefr": "A2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "files d'attente"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personnes qui attendent les unes derrière les autres",
+    "translations": {
+     "zh": "排队的队伍",
+     "en": "queue, line"
+    },
+    "examples": [
+     {
+      "text": "La file d'attente est très longue.",
+      "cloze": "La {{file d'attente}} est très longue.",
+      "translations": {
+       "zh": "排的队很长。",
+       "en": "The queue is very long."
+      }
+     }
+    ],
+    "usageNote": "口语常说 faire la queue（排队）。"
+   }
+  ]
+ },
+ {
+  "headword": "achat",
+  "phonetic": "/a.ʃa/",
+  "cefr": "A2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "achats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chose qu'on a achetée",
+    "translations": {
+     "zh": "购买；买的东西",
+     "en": "purchase"
+    },
+    "examples": [
+     {
+      "text": "Je fais mes achats en ligne.",
+      "cloze": "Je fais mes {{achats}} en ligne.",
+      "translations": {
+       "zh": "我在网上购物。",
+       "en": "I do my shopping online."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "portable",
+  "phonetic": "/pɔʁ.tabl/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "portables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "téléphone qu'on emporte partout",
+    "translations": {
+     "zh": "手机",
+     "en": "mobile phone"
+    },
+    "examples": [
+     {
+      "text": "Mon portable n'a plus de batterie.",
+      "translations": {
+       "zh": "我的手机没电了。",
+       "en": "My phone's battery is dead."
+      }
+     }
+    ],
+    "usageNote": "也可指笔记本电脑（ordinateur portable）。"
+   }
+  ]
+ },
+ {
+  "headword": "écran",
+  "phonetic": "/e.kʁɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "écrans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un appareil où on voit les images",
+    "translations": {
+     "zh": "屏幕",
+     "en": "screen"
+    },
+    "examples": [
+     {
+      "text": "L'écran de mon téléphone est cassé.",
+      "cloze": "L'{{écran}} de mon téléphone est cassé.",
+      "translations": {
+       "zh": "我手机屏幕碎了。",
+       "en": "My phone screen is broken."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "clavier",
+  "phonetic": "/kla.vje/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "claviers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des touches pour écrire sur un ordinateur",
+    "translations": {
+     "zh": "键盘",
+     "en": "keyboard"
+    },
+    "examples": [
+     {
+      "text": "Ce clavier est français.",
+      "translations": {
+       "zh": "这是法语键盘。",
+       "en": "This keyboard is French."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "imprimante",
+  "phonetic": "/ɛ̃.pʁi.mɑ̃t/",
+  "cefr": "A2",
+  "frequencyRank": 11000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "imprimantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "machine qui met sur papier ce qui est dans l'ordinateur",
+    "translations": {
+     "zh": "打印机",
+     "en": "printer"
+    },
+    "examples": [
+     {
+      "text": "L'imprimante n'a plus de papier.",
+      "cloze": "L'{{imprimante}} n'a plus de papier.",
+      "translations": {
+       "zh": "打印机没纸了。",
+       "en": "The printer is out of paper."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mail",
+  "phonetic": "/mɛl/",
+  "cefr": "A2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mails"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "message envoyé par internet",
+    "translations": {
+     "zh": "电子邮件",
+     "en": "email"
+    },
+    "examples": [
+     {
+      "text": "Je t'envoie un mail ce soir.",
+      "translations": {
+       "zh": "我今晚给你发邮件。",
+       "en": "I'll send you an email tonight."
+      }
+     }
+    ],
+    "usageNote": "正式说法 courriel 或 e-mail。"
+   }
+  ]
+ },
+ {
+  "headword": "site",
+  "phonetic": "/sit/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pages sur internet à une même adresse",
+    "translations": {
+     "zh": "网站",
+     "en": "website"
+    },
+    "examples": [
+     {
+      "text": "Réservez sur notre site internet.",
+      "translations": {
+       "zh": "请在我们的网站上预订。",
+       "en": "Book on our website."
+      }
+     }
+    ],
+    "usageNote": "也指“景点、遗址”：un site touristique。"
+   }
+  ]
+ },
+ {
+  "headword": "mot de passe",
+  "phonetic": "/mo də pas/",
+  "cefr": "A2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mots de passe"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mot secret pour ouvrir un compte",
+    "translations": {
+     "zh": "密码",
+     "en": "password"
+    },
+    "examples": [
+     {
+      "text": "J'ai oublié mon mot de passe.",
+      "cloze": "J'ai oublié mon {{mot de passe}}.",
+      "translations": {
+       "zh": "我忘了密码。",
+       "en": "I've forgotten my password."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réseau",
+  "phonetic": "/ʁe.zo/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "réseaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de choses reliées entre elles",
+    "translations": {
+     "zh": "网络",
+     "en": "network"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a pas de réseau ici.",
+      "translations": {
+       "zh": "这里没信号。",
+       "en": "There's no signal here."
+      }
+     }
+    ],
+    "usageNote": "社交网络是 les réseaux sociaux。"
+   }
+  ]
+ },
+ {
+  "headword": "application",
+  "phonetic": "/a.pli.ka.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "applications"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme sur un téléphone",
+    "translations": {
+     "zh": "应用程序；App",
+     "en": "app"
+    },
+    "examples": [
+     {
+      "text": "Télécharge cette application pour apprendre le français.",
+      "translations": {
+       "zh": "下载这个App学法语吧。",
+       "en": "Download this app to learn French."
+      }
+     }
+    ],
+    "usageNote": "口语简称 une appli。"
+   }
+  ]
+ },
+ {
+  "headword": "message",
+  "phonetic": "/me.saʒ/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "messages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "texte ou mots qu'on envoie à quelqu'un",
+    "translations": {
+     "zh": "消息；留言",
+     "en": "message"
+    },
+    "examples": [
+     {
+      "text": "Laisse-moi un message.",
+      "translations": {
+       "zh": "给我留个言。",
+       "en": "Leave me a message."
+      }
+     }
+    ],
+    "usageNote": "手机短信也叫 SMS 或 texto。"
+   }
+  ]
+ },
+ {
+  "headword": "fichier",
+  "phonetic": "/fi.ʃje/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fichiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document enregistré dans un ordinateur",
+    "translations": {
+     "zh": "文件",
+     "en": "file"
+    },
+    "examples": [
+     {
+      "text": "Envoie-moi le fichier par mail.",
+      "translations": {
+       "zh": "把文件用邮件发给我。",
+       "en": "Send me the file by email."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "logiciel",
+  "phonetic": "/lɔ.ʒi.sjɛl/",
+  "cefr": "A2",
+  "frequencyRank": 7200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "logiciels"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "programme d'ordinateur",
+    "translations": {
+     "zh": "软件",
+     "en": "software"
+    },
+    "examples": [
+     {
+      "text": "Ce logiciel est gratuit.",
+      "translations": {
+       "zh": "这个软件是免费的。",
+       "en": "This software is free."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "jeu vidéo",
+  "phonetic": "/ʒø vi.de.o/",
+  "cefr": "A2",
+  "frequencyRank": 8500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jeux vidéo"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jeu sur un écran",
+    "translations": {
+     "zh": "电子游戏",
+     "en": "video game"
+    },
+    "examples": [
+     {
+      "text": "Mon fils adore ce jeu vidéo.",
+      "cloze": "Mon fils adore ce {{jeu vidéo}}.",
+      "translations": {
+       "zh": "我儿子很喜欢这个电子游戏。",
+       "en": "My son loves this video game."
+      }
+     }
+    ],
+    "usageNote": "复数 jeux vidéo（vidéo 不变）。"
+   }
+  ]
+ },
+ {
+  "headword": "tablette",
+  "phonetic": "/ta.blɛt/",
+  "cefr": "A2",
+  "frequencyRank": 9500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tablettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit ordinateur plat avec un écran tactile",
+    "translations": {
+     "zh": "平板电脑",
+     "en": "tablet"
+    },
+    "examples": [
+     {
+      "text": "Elle lit des livres sur sa tablette.",
+      "translations": {
+       "zh": "她在平板上看书。",
+       "en": "She reads books on her tablet."
+      }
+     }
+    ],
+    "usageNote": "也指“一板巧克力”：une tablette de chocolat。"
+   }
+  ]
+ },
+ {
+  "headword": "chargeur",
+  "phonetic": "/ʃaʁ.ʒœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chargeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "câble pour remplir la batterie d'un téléphone",
+    "translations": {
+     "zh": "充电器",
+     "en": "charger"
+    },
+    "examples": [
+     {
+      "text": "Tu peux me prêter ton chargeur ?",
+      "translations": {
+       "zh": "能借我你的充电器吗？",
+       "en": "Can you lend me your charger?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "batterie",
+  "phonetic": "/ba.tʁi/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "batteries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie qui donne l'électricité à un téléphone ou une voiture",
+    "translations": {
+     "zh": "电池",
+     "en": "battery"
+    },
+    "examples": [
+     {
+      "text": "Ma batterie est presque vide.",
+      "translations": {
+       "zh": "我电池快没电了。",
+       "en": "My battery is almost flat."
+      }
+     }
+    ],
+    "usageNote": "也指乐器“架子鼓”。小电池是 pile。"
+   }
+  ]
+ },
+ {
+  "headword": "appareil photo",
+  "phonetic": "/a.pa.ʁɛj fɔ.to/",
+  "cefr": "A2",
+  "frequencyRank": 10000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "appareils photo"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil pour prendre des photos",
+    "translations": {
+     "zh": "相机",
+     "en": "camera"
+    },
+    "examples": [
+     {
+      "text": "J'ai un nouvel appareil photo.",
+      "cloze": "J'ai un nouvel {{appareil photo}}.",
+      "translations": {
+       "zh": "我有一台新相机。",
+       "en": "I have a new camera."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lien",
+  "phonetic": "/ljɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "liens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "adresse sur laquelle on clique pour aller sur une page",
+    "translations": {
+     "zh": "链接；联系",
+     "en": "link"
+    },
+    "examples": [
+     {
+      "text": "Clique sur ce lien.",
+      "translations": {
+       "zh": "点击这个链接。",
+       "en": "Click on this link."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

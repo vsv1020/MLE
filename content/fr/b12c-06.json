@@ -1,0 +1,1501 @@
+[
+  {
+    "headword": "plâtre",
+    "phonetic": "/plɑtʁ/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "plâtres"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "matière dure qui tient un membre cassé",
+        "translations": {
+          "zh": "石膏（夹板）",
+          "en": "plaster cast"
+        },
+        "examples": [
+          {
+            "text": "Elle a la jambe dans le plâtre.",
+            "translations": {
+              "zh": "她腿上打着石膏。",
+              "en": "Her leg is in a cast."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "pansement",
+    "phonetic": "/pɑ̃s.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 11000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "pansements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qu'on met sur une blessure pour la protéger",
+        "translations": {
+          "zh": "绷带；创可贴",
+          "en": "dressing, plaster, bandage"
+        },
+        "examples": [
+          {
+            "text": "Mets un pansement sur ton doigt.",
+            "translations": {
+              "zh": "在手指上贴个创可贴。",
+              "en": "Put a plaster on your finger."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sang",
+    "phonetic": "/sɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "sangs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "liquide rouge qui circule dans le corps",
+        "translations": {
+          "zh": "血；血液",
+          "en": "blood"
+        },
+        "examples": [
+          {
+            "text": "Je dois faire une prise de sang.",
+            "translations": {
+              "zh": "我得去抽个血。",
+              "en": "I need to have a blood test."
+            }
+          }
+        ],
+        "usageNote": "donner son sang：献血。"
+      }
+    ]
+  },
+  {
+    "headword": "cicatrice",
+    "phonetic": "/si.ka.tʁis/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "cicatrices"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "marque qui reste sur la peau après une blessure",
+        "translations": {
+          "zh": "伤疤",
+          "en": "scar"
+        },
+        "examples": [
+          {
+            "text": "Il a une cicatrice sur le front.",
+            "translations": {
+              "zh": "他额头上有道疤。",
+              "en": "He has a scar on his forehead."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "handicap",
+    "phonetic": "/ɑ̃.di.kap/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "handicaps"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "déficience physique ou mentale durable",
+        "translations": {
+          "zh": "残疾；障碍",
+          "en": "disability"
+        },
+        "examples": [
+          {
+            "text": "Cette école accueille des enfants en situation de handicap.",
+            "translations": {
+              "zh": "这所学校接收残障儿童。",
+              "en": "This school takes in children with disabilities."
+            }
+          }
+        ],
+        "usageNote": "h 嘘音：le handicap，不省音不连诵。"
+      }
+    ]
+  },
+  {
+    "headword": "en forme",
+    "phonetic": "/ɑ̃ fɔʁm/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "en bonne santé, plein d'énergie",
+        "translations": {
+          "zh": "状态好；身体好",
+          "en": "fit, in good shape"
+        },
+        "examples": [
+          {
+            "text": "Tu as l'air en forme aujourd'hui !",
+            "translations": {
+              "zh": "你今天看起来精神不错！",
+              "en": "You look in good shape today!"
+            },
+            "cloze": "Tu as l'air {{en forme}} aujourd'hui !"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "régime",
+    "phonetic": "/ʁe.ʒim/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "régimes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "façon de se nourrir pour maigrir ou pour la santé",
+        "translations": {
+          "zh": "节食；饮食控制",
+          "en": "diet"
+        },
+        "examples": [
+          {
+            "text": "Je suis au régime depuis un mois.",
+            "translations": {
+              "zh": "我节食一个月了。",
+              "en": "I've been on a diet for a month."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "système politique",
+        "translations": {
+          "zh": "政体；制度",
+          "en": "regime, system"
+        },
+        "examples": [
+          {
+            "text": "Le pays a changé de régime.",
+            "translations": {
+              "zh": "这个国家换了政体。",
+              "en": "The country changed its regime."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "maigrir",
+    "phonetic": "/me.ɡʁiʁ/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je maigris, nous maigrissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "perdre du poids",
+        "translations": {
+          "zh": "变瘦；减肥",
+          "en": "to lose weight"
+        },
+        "examples": [
+          {
+            "text": "Il a maigri de cinq kilos.",
+            "translations": {
+              "zh": "他瘦了五公斤。",
+              "en": "He's lost five kilos."
+            },
+            "cloze": "Il a {{maigri}} de cinq kilos."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "grossir",
+    "phonetic": "/ɡʁo.siʁ/",
+    "cefr": "B1",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "conjugation": "第二组规则动词：je grossis, nous grossissons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "prendre du poids",
+        "translations": {
+          "zh": "变胖；长胖",
+          "en": "to put on weight"
+        },
+        "examples": [
+          {
+            "text": "J'ai grossi pendant les vacances.",
+            "translations": {
+              "zh": "假期里我长胖了。",
+              "en": "I put on weight during the holidays."
+            },
+            "cloze": "J'ai {{grossi}} pendant les vacances."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "poids",
+    "phonetic": "/pwa/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "poids"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "masse d'une personne ou d'une chose",
+        "translations": {
+          "zh": "体重；重量",
+          "en": "weight"
+        },
+        "examples": [
+          {
+            "text": "Il surveille son poids.",
+            "translations": {
+              "zh": "他很注意自己的体重。",
+              "en": "He watches his weight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "respirer",
+    "phonetic": "/ʁɛs.pi.ʁe/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "faire entrer et sortir l'air des poumons",
+        "translations": {
+          "zh": "呼吸",
+          "en": "to breathe"
+        },
+        "examples": [
+          {
+            "text": "Respirez profondément, s'il vous plaît.",
+            "translations": {
+              "zh": "请深呼吸。",
+              "en": "Breathe deeply, please."
+            },
+            "cloze": "{{Respirez}} profondément, s'il vous plaît."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "respiration",
+    "phonetic": "/ʁɛs.pi.ʁa.sjɔ̃/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "respirations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de respirer",
+        "translations": {
+          "zh": "呼吸",
+          "en": "breathing"
+        },
+        "examples": [
+          {
+            "text": "Sa respiration est devenue difficile.",
+            "translations": {
+              "zh": "他呼吸变得困难了。",
+              "en": "His breathing became laboured."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sommeil",
+    "phonetic": "/sɔ.mɛj/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "sommeils"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état de qqn qui dort",
+        "translations": {
+          "zh": "睡眠；睡意",
+          "en": "sleep"
+        },
+        "examples": [
+          {
+            "text": "Le sommeil est important pour la santé.",
+            "translations": {
+              "zh": "睡眠对健康很重要。",
+              "en": "Sleep is important for your health."
+            }
+          }
+        ],
+        "usageNote": "avoir sommeil：困了。"
+      }
+    ]
+  },
+  {
+    "headword": "se reposer",
+    "phonetic": "/sə ʁə.po.ze/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "arrêter de travailler pour retrouver des forces",
+        "translations": {
+          "zh": "休息",
+          "en": "to rest"
+        },
+        "examples": [
+          {
+            "text": "Tu devrais te reposer un peu.",
+            "translations": {
+              "zh": "你该休息一下了。",
+              "en": "You should rest a little."
+            },
+            "cloze": "Tu devrais {{te reposer}} un peu."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "repos",
+    "phonetic": "/ʁə.po/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "repos"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de se reposer",
+        "translations": {
+          "zh": "休息",
+          "en": "rest"
+        },
+        "examples": [
+          {
+            "text": "Le médecin m'a prescrit une semaine de repos.",
+            "translations": {
+              "zh": "医生让我休息一周。",
+              "en": "The doctor prescribed a week's rest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "fatigue",
+    "phonetic": "/fa.tiɡ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "fatigues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état d'une personne fatiguée",
+        "translations": {
+          "zh": "疲劳；劳累",
+          "en": "tiredness, fatigue"
+        },
+        "examples": [
+          {
+            "text": "Je suis mort de fatigue.",
+            "translations": {
+              "zh": "我累死了。",
+              "en": "I'm dead tired."
+            }
+          }
+        ]
+      }
+    ],
+    "homograph": 2
+  },
+  {
+    "headword": "épuisé",
+    "phonetic": "/e.pɥi.ze/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "irregularForms": "阴性 épuisée；复数 épuisés, épuisées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "extrêmement fatigué",
+        "translations": {
+          "zh": "精疲力竭的",
+          "en": "exhausted"
+        },
+        "examples": [
+          {
+            "text": "Après le marathon, j'étais épuisé.",
+            "translations": {
+              "zh": "跑完马拉松，我精疲力竭。",
+              "en": "After the marathon I was exhausted."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "insomnie",
+    "phonetic": "/ɛ̃.sɔm.ni/",
+    "cefr": "B2",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "insomnies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "difficulté à dormir",
+        "translations": {
+          "zh": "失眠",
+          "en": "insomnia"
+        },
+        "examples": [
+          {
+            "text": "Le stress lui donne des insomnies.",
+            "translations": {
+              "zh": "压力让他失眠。",
+              "en": "Stress gives him insomnia."
+            },
+            "cloze": "Le stress lui donne des {{insomnies}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "s'endormir",
+    "phonetic": "/sɑ̃.dɔʁ.miʁ/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "conjugation": "不规则（同 dormir）：je m'endors, nous nous endormons；过去分词 endormi"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "commencer à dormir",
+        "translations": {
+          "zh": "入睡；睡着",
+          "en": "to fall asleep"
+        },
+        "examples": [
+          {
+            "text": "Je m'endors toujours devant la télé.",
+            "translations": {
+              "zh": "我总在电视机前睡着。",
+              "en": "I always fall asleep in front of the TV."
+            },
+            "cloze": "Je {{m'endors}} toujours devant la télé."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cauchemar",
+    "phonetic": "/koʃ.maʁ/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "cauchemars"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "rêve qui fait peur",
+        "translations": {
+          "zh": "噩梦",
+          "en": "nightmare"
+        },
+        "examples": [
+          {
+            "text": "J'ai fait un cauchemar cette nuit.",
+            "translations": {
+              "zh": "我昨晚做了个噩梦。",
+              "en": "I had a nightmare last night."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "enrhumé",
+    "phonetic": "/ɑ̃.ʁy.me/",
+    "cefr": "B1",
+    "frequencyRank": 15000,
+    "grammarNotes": {
+      "irregularForms": "阴性 enrhumée；复数 enrhumés, enrhumées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a un rhume",
+        "translations": {
+          "zh": "感冒的；伤风的",
+          "en": "having a cold"
+        },
+        "examples": [
+          {
+            "text": "Je suis enrhumé, j'ai le nez qui coule.",
+            "translations": {
+              "zh": "我感冒了，流鼻涕。",
+              "en": "I have a cold, my nose is running."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tension",
+    "phonetic": "/tɑ̃.sjɔ̃/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "tensions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "pression du sang dans les artères",
+        "translations": {
+          "zh": "血压",
+          "en": "blood pressure"
+        },
+        "examples": [
+          {
+            "text": "L'infirmière prend ma tension.",
+            "translations": {
+              "zh": "护士给我量血压。",
+              "en": "The nurse takes my blood pressure."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "situation difficile entre des personnes",
+        "translations": {
+          "zh": "紧张（关系）",
+          "en": "tension"
+        },
+        "examples": [
+          {
+            "text": "Il y a des tensions dans l'équipe.",
+            "translations": {
+              "zh": "团队里关系紧张。",
+              "en": "There are tensions in the team."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "visage",
+    "phonetic": "/vi.zaʒ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "visages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "devant de la tête",
+        "translations": {
+          "zh": "脸；面孔",
+          "en": "face"
+        },
+        "examples": [
+          {
+            "text": "Elle a un visage très expressif.",
+            "translations": {
+              "zh": "她的脸很有表现力。",
+              "en": "She has a very expressive face."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "épaule",
+    "phonetic": "/e.pol/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "épaules"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "partie du corps entre le cou et le bras",
+        "translations": {
+          "zh": "肩膀",
+          "en": "shoulder"
+        },
+        "examples": [
+          {
+            "text": "J'ai mal à l'épaule droite.",
+            "translations": {
+              "zh": "我右肩疼。",
+              "en": "My right shoulder hurts."
+            },
+            "cloze": "J'ai mal à l'{{épaule}} droite."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "genou",
+    "phonetic": "/ʒə.nu/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "genoux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "articulation au milieu de la jambe",
+        "translations": {
+          "zh": "膝盖",
+          "en": "knee"
+        },
+        "examples": [
+          {
+            "text": "Il s'est fait mal au genou.",
+            "translations": {
+              "zh": "他膝盖受伤了。",
+              "en": "He hurt his knee."
+            }
+          }
+        ],
+        "usageNote": "复数不规则：genoux。à genoux：跪着。"
+      }
+    ]
+  },
+  {
+    "headword": "coude",
+    "phonetic": "/kud/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "coudes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "articulation au milieu du bras",
+        "translations": {
+          "zh": "肘；胳膊肘",
+          "en": "elbow"
+        },
+        "examples": [
+          {
+            "text": "Ne mets pas les coudes sur la table.",
+            "translations": {
+              "zh": "别把胳膊肘放在桌上。",
+              "en": "Don't put your elbows on the table."
+            },
+            "cloze": "Ne mets pas les {{coudes}} sur la table."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cou",
+    "phonetic": "/ku/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "cous"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "partie du corps entre la tête et les épaules",
+        "translations": {
+          "zh": "脖子",
+          "en": "neck"
+        },
+        "examples": [
+          {
+            "text": "Elle porte un collier autour du cou.",
+            "translations": {
+              "zh": "她脖子上戴着项链。",
+              "en": "She wears a necklace around her neck."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "gorge",
+    "phonetic": "/ɡɔʁʒ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "gorges"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "partie intérieure du cou",
+        "translations": {
+          "zh": "喉咙",
+          "en": "throat"
+        },
+        "examples": [
+          {
+            "text": "J'ai mal à la gorge.",
+            "translations": {
+              "zh": "我嗓子疼。",
+              "en": "I have a sore throat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "poitrine",
+    "phonetic": "/pwa.tʁin/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "poitrines"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "partie avant du corps, entre le cou et le ventre",
+        "translations": {
+          "zh": "胸部；胸口",
+          "en": "chest"
+        },
+        "examples": [
+          {
+            "text": "Il ressent une douleur dans la poitrine.",
+            "translations": {
+              "zh": "他感到胸口疼。",
+              "en": "He feels a pain in his chest."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "poignet",
+    "phonetic": "/pwa.ɲɛ/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "poignets"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "articulation entre la main et le bras",
+        "translations": {
+          "zh": "手腕",
+          "en": "wrist"
+        },
+        "examples": [
+          {
+            "text": "Elle s'est cassé le poignet au ski.",
+            "translations": {
+              "zh": "她滑雪时摔断了手腕。",
+              "en": "She broke her wrist skiing."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cheville",
+    "phonetic": "/ʃə.vij/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "chevilles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "articulation entre le pied et la jambe",
+        "translations": {
+          "zh": "脚踝",
+          "en": "ankle"
+        },
+        "examples": [
+          {
+            "text": "Je me suis tordu la cheville.",
+            "translations": {
+              "zh": "我扭伤了脚踝。",
+              "en": "I twisted my ankle."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "peau",
+    "phonetic": "/po/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "peaux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qui recouvre le corps",
+        "translations": {
+          "zh": "皮肤",
+          "en": "skin"
+        },
+        "examples": [
+          {
+            "text": "Elle a la peau très sensible au soleil.",
+            "translations": {
+              "zh": "她的皮肤对阳光很敏感。",
+              "en": "Her skin is very sensitive to the sun."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "os",
+    "phonetic": "/ɔs/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "os"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "partie dure du squelette",
+        "translations": {
+          "zh": "骨头",
+          "en": "bone"
+        },
+        "examples": [
+          {
+            "text": "Le chien ronge un os.",
+            "translations": {
+              "zh": "狗在啃骨头。",
+              "en": "The dog is gnawing a bone."
+            }
+          }
+        ],
+        "usageNote": "单数读 /ɔs/，复数 les os 读 /o/。"
+      }
+    ]
+  },
+  {
+    "headword": "muscle",
+    "phonetic": "/myskl/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "muscles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "organe qui permet de bouger",
+        "translations": {
+          "zh": "肌肉",
+          "en": "muscle"
+        },
+        "examples": [
+          {
+            "text": "Le sport renforce les muscles.",
+            "translations": {
+              "zh": "运动能增强肌肉。",
+              "en": "Sport strengthens the muscles."
+            },
+            "cloze": "Le sport renforce les {{muscles}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "cerveau",
+    "phonetic": "/sɛʁ.vo/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "cerveaux"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "organe de la pensée, dans la tête",
+        "translations": {
+          "zh": "大脑",
+          "en": "brain"
+        },
+        "examples": [
+          {
+            "text": "Le cerveau a besoin de sommeil.",
+            "translations": {
+              "zh": "大脑需要睡眠。",
+              "en": "The brain needs sleep."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "estomac",
+    "phonetic": "/ɛs.tɔ.ma/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "estomacs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "organe où les aliments sont digérés",
+        "translations": {
+          "zh": "胃",
+          "en": "stomach"
+        },
+        "examples": [
+          {
+            "text": "J'ai mal à l'estomac.",
+            "translations": {
+              "zh": "我胃疼。",
+              "en": "I have a stomach ache."
+            },
+            "cloze": "J'ai mal à l'{{estomac}}."
+          }
+        ],
+        "usageNote": "词尾 c 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "poumon",
+    "phonetic": "/pu.mɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "poumons"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "organe de la respiration",
+        "translations": {
+          "zh": "肺",
+          "en": "lung"
+        },
+        "examples": [
+          {
+            "text": "Il a une infection au poumon.",
+            "translations": {
+              "zh": "他肺部感染了。",
+              "en": "He has a lung infection."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "foie",
+    "phonetic": "/fwa/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "foies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "organe qui filtre le sang",
+        "translations": {
+          "zh": "肝；肝脏",
+          "en": "liver"
+        },
+        "examples": [
+          {
+            "text": "L'alcool est mauvais pour le foie.",
+            "translations": {
+              "zh": "酒精伤肝。",
+              "en": "Alcohol is bad for the liver."
+            }
+          }
+        ],
+        "usageNote": "同音词：la foi（信仰）、une fois（一次）。"
+      }
+    ]
+  },
+  {
+    "headword": "lèvre",
+    "phonetic": "/lɛvʁ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "lèvres"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "bord de la bouche",
+        "translations": {
+          "zh": "嘴唇",
+          "en": "lip"
+        },
+        "examples": [
+          {
+            "text": "J'ai la lèvre qui saigne.",
+            "translations": {
+              "zh": "我的嘴唇在流血。",
+              "en": "My lip is bleeding."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "joue",
+    "phonetic": "/ʒu/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "joues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "côté du visage sous l'œil",
+        "translations": {
+          "zh": "脸颊",
+          "en": "cheek"
+        },
+        "examples": [
+          {
+            "text": "Elle lui a fait un bisou sur la joue.",
+            "translations": {
+              "zh": "她亲了他的脸颊。",
+              "en": "She kissed him on the cheek."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "front",
+    "phonetic": "/fʁɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "fronts"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "haut du visage, au-dessus des yeux",
+        "translations": {
+          "zh": "额头；前额",
+          "en": "forehead"
+        },
+        "examples": [
+          {
+            "text": "Il a de la fièvre, touche son front.",
+            "translations": {
+              "zh": "他发烧了，摸摸他额头。",
+              "en": "He has a fever, feel his forehead."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "zone de combat",
+        "translations": {
+          "zh": "前线",
+          "en": "front (military)"
+        }
+      }
+    ]
+  },
+  {
+    "headword": "sourcil",
+    "phonetic": "/suʁ.si/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "sourcils"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "poils au-dessus de l'œil",
+        "translations": {
+          "zh": "眉毛",
+          "en": "eyebrow"
+        },
+        "examples": [
+          {
+            "text": "Il a froncé les sourcils.",
+            "translations": {
+              "zh": "他皱起了眉头。",
+              "en": "He frowned."
+            },
+            "cloze": "Il a froncé les {{sourcils}}."
+          }
+        ],
+        "usageNote": "词尾 l 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "ongle",
+    "phonetic": "/ɔ̃ɡl/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "ongles"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "partie dure au bout des doigts",
+        "translations": {
+          "zh": "指甲",
+          "en": "nail"
+        },
+        "examples": [
+          {
+            "text": "Arrête de te ronger les ongles !",
+            "translations": {
+              "zh": "别咬指甲了！",
+              "en": "Stop biting your nails!"
+            },
+            "cloze": "Arrête de te ronger les {{ongles}} !"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "hanche",
+    "phonetic": "/ɑ̃ʃ/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "hanches"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "partie du corps entre la taille et la cuisse",
+        "translations": {
+          "zh": "髋部；胯",
+          "en": "hip"
+        },
+        "examples": [
+          {
+            "text": "Ma grand-mère s'est cassé la hanche.",
+            "translations": {
+              "zh": "我奶奶摔断了髋骨。",
+              "en": "My grandmother broke her hip."
+            }
+          }
+        ],
+        "usageNote": "h 嘘音：la hanche。"
+      }
+    ]
+  },
+  {
+    "headword": "apparence",
+    "phonetic": "/a.pa.ʁɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "apparences"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qu'on voit de qqn de l'extérieur",
+        "translations": {
+          "zh": "外表；外貌",
+          "en": "appearance"
+        },
+        "examples": [
+          {
+            "text": "Il ne faut pas se fier aux apparences.",
+            "translations": {
+              "zh": "不能以貌取人。",
+              "en": "Don't trust appearances."
+            },
+            "cloze": "Il ne faut pas se fier aux {{apparences}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "avoir l'air",
+    "phonetic": "/a.vwaʁ lɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "conjugation": "avoir 不规则：j'ai, tu as, il a, nous avons, ils ont"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "sembler, paraître",
+        "translations": {
+          "zh": "看起来；显得",
+          "en": "to look, to seem"
+        },
+        "examples": [
+          {
+            "text": "Tu as l'air fatigué ce matin.",
+            "translations": {
+              "zh": "你今天早上看起来很累。",
+              "en": "You look tired this morning."
+            },
+            "cloze": "Tu {{as l'air}} fatigué ce matin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mince",
+    "phonetic": "/mɛ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 minces"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui n'est pas gros, svelte",
+        "translations": {
+          "zh": "苗条的；薄的",
+          "en": "slim, thin"
+        },
+        "examples": [
+          {
+            "text": "Elle est grande et mince.",
+            "translations": {
+              "zh": "她又高又苗条。",
+              "en": "She's tall and slim."
+            }
+          }
+        ],
+        "usageNote": "褒义的“瘦”；maigre 多带贬义。"
+      }
+    ]
+  },
+  {
+    "headword": "maigre",
+    "phonetic": "/mɛɡʁ/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 maigres"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "trop mince",
+        "translations": {
+          "zh": "瘦的；消瘦的",
+          "en": "skinny, thin"
+        },
+        "examples": [
+          {
+            "text": "Il est devenu très maigre après sa maladie.",
+            "translations": {
+              "zh": "病后他变得很瘦。",
+              "en": "He became very thin after his illness."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ride",
+    "phonetic": "/ʁid/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "rides"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "pli de la peau dû à l'âge",
+        "translations": {
+          "zh": "皱纹",
+          "en": "wrinkle"
+        },
+        "examples": [
+          {
+            "text": "Elle a quelques rides autour des yeux.",
+            "translations": {
+              "zh": "她眼角有几道皱纹。",
+              "en": "She has a few wrinkles around her eyes."
+            },
+            "cloze": "Elle a quelques {{rides}} autour des yeux."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "barbe",
+    "phonetic": "/baʁb/",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "barbes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "poils sur le menton et les joues",
+        "translations": {
+          "zh": "胡子（络腮胡）",
+          "en": "beard"
+        },
+        "examples": [
+          {
+            "text": "Mon père porte la barbe.",
+            "translations": {
+              "zh": "我爸爸留着胡子。",
+              "en": "My father has a beard."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

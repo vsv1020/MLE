@@ -1,0 +1,1643 @@
+[
+ {
+  "headword": "administration",
+  "phonetic": "/ad.mi.nis.tʁa.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "administrations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble des services publics ; direction d'une organisation",
+    "translations": {
+     "zh": "行政机关；管理",
+     "en": "administration, authorities"
+    },
+    "examples": [
+     {
+      "text": "L'administration française demande beaucoup de papiers.",
+      "cloze": "L'{{administration}} française demande beaucoup de papiers.",
+      "translations": {
+       "zh": "法国行政部门要很多材料。",
+       "en": "French administration requires a lot of paperwork."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "formulaire",
+  "phonetic": "/fɔʁ.my.lɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "formulaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document avec des cases à remplir",
+    "translations": {
+     "zh": "表格",
+     "en": "form"
+    },
+    "examples": [
+     {
+      "text": "Remplissez ce formulaire en lettres majuscules.",
+      "translations": {
+       "zh": "请用大写字母填写这张表。",
+       "en": "Fill in this form in capital letters."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dossier",
+  "phonetic": "/do.sje/",
+  "cefr": "B1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dossiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ensemble de documents sur un sujet ou une personne",
+    "translations": {
+     "zh": "档案；材料；文件夹",
+     "en": "file, application"
+    },
+    "examples": [
+     {
+      "text": "Votre dossier est incomplet : il manque une photo.",
+      "translations": {
+       "zh": "您的材料不完整：缺一张照片。",
+       "en": "Your file is incomplete: a photo is missing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "document",
+  "phonetic": "/dɔ.ky.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "documents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier ou fichier qui donne une information",
+    "translations": {
+     "zh": "文件；资料",
+     "en": "document"
+    },
+    "examples": [
+     {
+      "text": "Apportez tous vos documents au rendez-vous.",
+      "cloze": "Apportez tous vos {{documents}} au rendez-vous.",
+      "translations": {
+       "zh": "请带上所有文件来面谈。",
+       "en": "Bring all your documents to the appointment."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "passeport",
+  "phonetic": "/pas.pɔʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "passeports"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document officiel pour voyager à l'étranger",
+    "translations": {
+     "zh": "护照",
+     "en": "passport"
+    },
+    "examples": [
+     {
+      "text": "Mon passeport expire l'année prochaine.",
+      "translations": {
+       "zh": "我的护照明年到期。",
+       "en": "My passport expires next year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "carte d'identité",
+  "phonetic": "/kaʁt di.dɑ̃.ti.te/",
+  "cefr": "B1",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cartes d'identité"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document officiel qui prouve qui on est",
+    "translations": {
+     "zh": "身份证",
+     "en": "identity card"
+    },
+    "examples": [
+     {
+      "text": "Présentez votre carte d'identité au guichet.",
+      "cloze": "Présentez votre {{carte d'identité}} au guichet.",
+      "translations": {
+       "zh": "请在窗口出示身份证。",
+       "en": "Show your identity card at the counter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "permis",
+  "phonetic": "/pɛʁ.mi/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "permis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document officiel qui autorise à faire quelque chose",
+    "translations": {
+     "zh": "许可证；执照",
+     "en": "licence, permit"
+    },
+    "examples": [
+     {
+      "text": "Il vient d'avoir son permis de conduire.",
+      "translations": {
+       "zh": "他刚拿到驾照。",
+       "en": "He has just got his driving licence."
+      }
+     }
+    ],
+    "usageNote": "permis de conduire = 驾照；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "demande",
+  "phonetic": "/də.mɑ̃d/",
+  "cefr": "B1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "demandes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de demander quelque chose, souvent par écrit",
+    "translations": {
+     "zh": "申请；请求；需求",
+     "en": "request, application; demand"
+    },
+    "examples": [
+     {
+      "text": "J'ai fait une demande de visa.",
+      "translations": {
+       "zh": "我申请了签证。",
+       "en": "I applied for a visa."
+      }
+     }
+    ],
+    "usageNote": "l'offre et la demande = 供与求。"
+   }
+  ]
+ },
+ {
+  "headword": "remplir",
+  "phonetic": "/ʁɑ̃.pliʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：je remplis, nous remplissons；过去分词 rempli"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "écrire les informations demandées ; rendre plein",
+    "translations": {
+     "zh": "填写；装满",
+     "en": "to fill in; to fill"
+    },
+    "examples": [
+     {
+      "text": "Il faut remplir ce document et le signer.",
+      "translations": {
+       "zh": "需要填写并签署这份文件。",
+       "en": "You have to fill in this document and sign it."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "signer",
+  "phonetic": "/si.ɲe/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je signe, nous signons；过去分词 signé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "écrire son nom pour montrer son accord",
+    "translations": {
+     "zh": "签名；签署",
+     "en": "to sign"
+    },
+    "examples": [
+     {
+      "text": "Signez en bas de la page, s'il vous plaît.",
+      "cloze": "{{Signez}} en bas de la page, s'il vous plaît.",
+      "translations": {
+       "zh": "请在页面底部签名。",
+       "en": "Please sign at the bottom of the page."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "signature",
+  "phonetic": "/si.ɲa.tyʁ/",
+  "cefr": "B1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "signatures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nom écrit à la main pour montrer son accord",
+    "translations": {
+     "zh": "签名；签署",
+     "en": "signature"
+    },
+    "examples": [
+     {
+      "text": "Il manque votre signature sur ce contrat.",
+      "translations": {
+       "zh": "这份合同上缺您的签名。",
+       "en": "Your signature is missing on this contract."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rendez-vous",
+  "phonetic": "/ʁɑ̃.de.vu/",
+  "cefr": "B1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "rendez-vous"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "rencontre fixée à une heure et un lieu précis",
+    "translations": {
+     "zh": "约会；预约",
+     "en": "appointment, meeting"
+    },
+    "examples": [
+     {
+      "text": "J'ai pris rendez-vous à la mairie pour lundi.",
+      "cloze": "J'ai pris {{rendez-vous}} à la mairie pour lundi.",
+      "translations": {
+       "zh": "我预约了周一去市政府办事。",
+       "en": "I made an appointment at the town hall for Monday."
+      }
+     }
+    ],
+    "usageNote": "单复数同形；prendre rendez-vous = 预约。"
+   }
+  ]
+ },
+ {
+  "headword": "guichet",
+  "phonetic": "/ɡi.ʃɛ/",
+  "cefr": "B1",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "guichets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite ouverture où un employé reçoit le public",
+    "translations": {
+     "zh": "窗口；柜台",
+     "en": "counter, window"
+    },
+    "examples": [
+     {
+      "text": "Adressez-vous au guichet numéro trois.",
+      "translations": {
+       "zh": "请到三号窗口办理。",
+       "en": "Go to window number three."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "démarche",
+  "phonetic": "/de.maʁʃ/",
+  "cefr": "B2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "démarches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action faite pour obtenir quelque chose, souvent administrative",
+    "translations": {
+     "zh": "手续；步骤",
+     "en": "step, procedure"
+    },
+    "examples": [
+     {
+      "text": "Les démarches pour obtenir un visa sont longues.",
+      "cloze": "Les {{démarches}} pour obtenir un visa sont longues.",
+      "translations": {
+       "zh": "办签证的手续很繁琐。",
+       "en": "The procedures for getting a visa take a long time."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "manière de marcher",
+    "translations": {
+     "zh": "步态；走路的样子",
+     "en": "gait, walk"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "inscription",
+  "phonetic": "/ɛ̃s.kʁip.sjɔ̃/",
+  "cefr": "B1",
+  "frequencyRank": 3400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "inscriptions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de s'inscrire sur une liste",
+    "translations": {
+     "zh": "注册；报名",
+     "en": "registration, enrolment"
+    },
+    "examples": [
+     {
+      "text": "Les inscriptions à l'université commencent en juillet.",
+      "cloze": "Les {{inscriptions}} à l'université commencent en juillet.",
+      "translations": {
+       "zh": "大学注册七月开始。",
+       "en": "University enrolment begins in July."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'inscrire",
+  "phonetic": "/sɛ̃s.kʁiʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "conjugation": "不规则（同 écrire）：je m'inscris, nous nous inscrivons, ils s'inscrivent；过去分词 inscrit；复合时态用 être"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre son nom sur une liste pour participer",
+    "translations": {
+     "zh": "注册；报名",
+     "en": "to sign up, to register"
+    },
+    "examples": [
+     {
+      "text": "Je me suis inscrit à un cours de cuisine.",
+      "cloze": "Je me suis {{inscrit}} à un cours de cuisine.",
+      "translations": {
+       "zh": "我报名了一个烹饪班。",
+       "en": "I signed up for a cooking class."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "attestation",
+  "phonetic": "/a.tɛs.ta.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "attestations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document qui prouve quelque chose",
+    "translations": {
+     "zh": "证明；证明书",
+     "en": "certificate, proof"
+    },
+    "examples": [
+     {
+      "text": "Il me faut une attestation de domicile.",
+      "translations": {
+       "zh": "我需要一份住址证明。",
+       "en": "I need proof of address."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "certificat",
+  "phonetic": "/sɛʁ.ti.fi.ka/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "certificats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document officiel qui confirme un fait",
+    "translations": {
+     "zh": "证书；证明",
+     "en": "certificate"
+    },
+    "examples": [
+     {
+      "text": "Le médecin m'a donné un certificat médical.",
+      "translations": {
+       "zh": "医生给我开了一份医疗证明。",
+       "en": "The doctor gave me a medical certificate."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fonctionnaire",
+  "phonetic": "/fɔ̃k.sjɔ.nɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fonctionnaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille pour l'État",
+    "translations": {
+     "zh": "公务员",
+     "en": "civil servant"
+    },
+    "examples": [
+     {
+      "text": "Sa sœur est fonctionnaire au ministère.",
+      "translations": {
+       "zh": "她姐姐在部里当公务员。",
+       "en": "Her sister is a civil servant at the ministry."
+      }
+     }
+    ],
+    "usageNote": "阴阳同形：un/une fonctionnaire。"
+   }
+  ]
+ },
+ {
+  "headword": "mairie",
+  "phonetic": "/mɛ.ʁi/",
+  "cefr": "B1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mairies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bâtiment où travaillent le maire et ses services",
+    "translations": {
+     "zh": "市政府；区政府",
+     "en": "town hall"
+    },
+    "examples": [
+     {
+      "text": "Ils se sont mariés à la mairie.",
+      "translations": {
+       "zh": "他们在市政厅结了婚。",
+       "en": "They got married at the town hall."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "maire",
+  "phonetic": "/mɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "maires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne élue qui dirige une commune",
+    "translations": {
+     "zh": "市长；镇长",
+     "en": "mayor"
+    },
+    "examples": [
+     {
+      "text": "Le maire a inauguré la nouvelle école.",
+      "translations": {
+       "zh": "市长为新学校揭幕。",
+       "en": "The mayor opened the new school."
+      }
+     }
+    ],
+    "usageNote": "与 mère、mer 同音；le/la maire 均可。"
+   }
+  ]
+ },
+ {
+  "headword": "préfecture",
+  "phonetic": "/pʁe.fɛk.tyʁ/",
+  "cefr": "B2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "préfectures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "administration de l'État dans un département",
+    "translations": {
+     "zh": "省政府（国家在省里的行政机关）",
+     "en": "prefecture"
+    },
+    "examples": [
+     {
+      "text": "Je dois aller à la préfecture pour mon titre de séjour.",
+      "translations": {
+       "zh": "我得去省政府办居留证。",
+       "en": "I have to go to the prefecture for my residence permit."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "allocation",
+  "phonetic": "/a.lɔ.ka.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "allocations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme versée par l'État à certaines personnes",
+    "translations": {
+     "zh": "补助；津贴",
+     "en": "allowance, benefit"
+    },
+    "examples": [
+     {
+      "text": "Les étudiants peuvent recevoir une allocation logement.",
+      "translations": {
+       "zh": "学生可以领取住房补助。",
+       "en": "Students can receive a housing allowance."
+      }
+     }
+    ],
+    "usageNote": "allocations familiales = 家庭补助。"
+   }
+  ]
+ },
+ {
+  "headword": "réclamation",
+  "phonetic": "/ʁe.kla.ma.sjɔ̃/",
+  "cefr": "B2",
+  "frequencyRank": 6200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réclamations"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "demande faite pour se plaindre d'un problème",
+    "translations": {
+     "zh": "投诉；索赔",
+     "en": "complaint, claim"
+    },
+    "examples": [
+     {
+      "text": "J'ai fait une réclamation au service client.",
+      "translations": {
+       "zh": "我向客服投诉了。",
+       "en": "I made a complaint to customer service."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plainte",
+  "phonetic": "/plɛ̃t/",
+  "cefr": "B1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "plaintes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "déclaration à la police contre quelqu'un ; fait de se plaindre",
+    "translations": {
+     "zh": "控告；报案；抱怨",
+     "en": "complaint (to police)"
+    },
+    "examples": [
+     {
+      "text": "Elle a porté plainte pour vol.",
+      "translations": {
+       "zh": "她报案称被盗。",
+       "en": "She reported the theft to the police."
+      }
+     }
+    ],
+    "usageNote": "porter plainte = 报案；起诉。"
+   }
+  ]
+ },
+ {
+  "headword": "urgence",
+  "phonetic": "/yʁ.ʒɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "urgences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "situation qui demande une action rapide",
+    "translations": {
+     "zh": "紧急情况",
+     "en": "emergency, urgency"
+    },
+    "examples": [
+     {
+      "text": "En cas d'urgence, appelez le 112.",
+      "cloze": "En cas d'{{urgence}}, appelez le 112.",
+      "translations": {
+       "zh": "遇到紧急情况，请拨打112。",
+       "en": "In an emergency, call 112."
+      }
+     }
+    ],
+    "usageNote": "les urgences = 医院急诊室。"
+   }
+  ]
+ },
+ {
+  "headword": "enseignement",
+  "phonetic": "/ɑ̃.sɛɲ.mɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "enseignements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'enseigner ; système scolaire",
+    "translations": {
+     "zh": "教育；教学",
+     "en": "teaching, education"
+    },
+    "examples": [
+     {
+      "text": "L'enseignement est gratuit dans les écoles publiques.",
+      "cloze": "L'{{enseignement}} est gratuit dans les écoles publiques.",
+      "translations": {
+       "zh": "公立学校实行免费教育。",
+       "en": "Education is free in public schools."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "enseignant",
+  "phonetic": "/ɑ̃.sɛ.ɲɑ̃/",
+  "cefr": "B1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "enseignants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne dont le métier est d'enseigner",
+    "translations": {
+     "zh": "教师",
+     "en": "teacher"
+    },
+    "examples": [
+     {
+      "text": "Les enseignants sont en grève aujourd'hui.",
+      "cloze": "Les {{enseignants}} sont en grève aujourd'hui.",
+      "translations": {
+       "zh": "教师们今天罢工。",
+       "en": "The teachers are on strike today."
+      }
+     }
+    ],
+    "usageNote": "阴性 enseignante；比 professeur 更泛指各级教师。"
+   }
+  ]
+ },
+ {
+  "headword": "enseigner",
+  "phonetic": "/ɑ̃.sɛ.ɲe/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'enseigne, nous enseignons；过去分词 enseigné"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "transmettre des connaissances",
+    "translations": {
+     "zh": "教；教授",
+     "en": "to teach"
+    },
+    "examples": [
+     {
+      "text": "Elle enseigne le chinois dans un lycée.",
+      "cloze": "Elle {{enseigne}} le chinois dans un lycée.",
+      "translations": {
+       "zh": "她在一所高中教中文。",
+       "en": "She teaches Chinese at a high school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lycée",
+  "phonetic": "/li.se/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lycées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "établissement scolaire de 15 à 18 ans environ",
+    "translations": {
+     "zh": "高中",
+     "en": "high school"
+    },
+    "examples": [
+     {
+      "text": "Mon fils entre au lycée en septembre.",
+      "translations": {
+       "zh": "我儿子九月上高中。",
+       "en": "My son starts high school in September."
+      }
+     }
+    ],
+    "usageNote": "以 -ée 结尾却是阳性：le lycée。学生叫 lycéen / lycéenne。"
+   }
+  ]
+ },
+ {
+  "headword": "collège",
+  "phonetic": "/kɔ.lɛʒ/",
+  "cefr": "B1",
+  "frequencyRank": 3100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "collèges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "établissement scolaire de 11 à 15 ans environ",
+    "translations": {
+     "zh": "初中",
+     "en": "secondary school (ages 11–15)"
+    },
+    "examples": [
+     {
+      "text": "Ma fille est en troisième au collège.",
+      "translations": {
+       "zh": "我女儿在读初三。",
+       "en": "My daughter is in her last year of middle school."
+      }
+     }
+    ],
+    "usageNote": "法国的 collège 是初中，不是“大学”。"
+   }
+  ]
+ },
+ {
+  "headword": "faculté",
+  "phonetic": "/fa.kyl.te/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "facultés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'une université pour une discipline",
+    "translations": {
+     "zh": "（大学的）学院；能力",
+     "en": "faculty; university"
+    },
+    "examples": [
+     {
+      "text": "Il étudie à la faculté de médecine.",
+      "translations": {
+       "zh": "他在医学院学习。",
+       "en": "He studies at the faculty of medicine."
+      }
+     }
+    ],
+    "usageNote": "口语简称 la fac：aller à la fac = 上大学。"
+   }
+  ]
+ },
+ {
+  "headword": "licence",
+  "phonetic": "/li.sɑ̃s/",
+  "cefr": "B2",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "licences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "diplôme universitaire obtenu après trois ans",
+    "translations": {
+     "zh": "学士学位",
+     "en": "bachelor's degree"
+    },
+    "examples": [
+     {
+      "text": "Elle a une licence d'histoire.",
+      "translations": {
+       "zh": "她有历史学学士学位。",
+       "en": "She has a bachelor's degree in history."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "autorisation officielle d'exercer une activité",
+    "translations": {
+     "zh": "许可证；执照",
+     "en": "licence"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "doctorat",
+  "phonetic": "/dɔk.tɔ.ʁa/",
+  "cefr": "B2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "doctorats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "diplôme universitaire le plus élevé",
+    "translations": {
+     "zh": "博士学位",
+     "en": "doctorate, PhD"
+    },
+    "examples": [
+     {
+      "text": "Il prépare un doctorat en chimie.",
+      "translations": {
+       "zh": "他在攻读化学博士学位。",
+       "en": "He is doing a PhD in chemistry."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "diplôme",
+  "phonetic": "/di.plom/",
+  "cefr": "B1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "diplômes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "document qui prouve qu'on a réussi des études",
+    "translations": {
+     "zh": "文凭；学位证书",
+     "en": "diploma, degree"
+    },
+    "examples": [
+     {
+      "text": "Sans diplôme, c'est difficile de trouver du travail.",
+      "translations": {
+       "zh": "没有文凭很难找到工作。",
+       "en": "Without a qualification, it's hard to find work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cours",
+  "phonetic": "/kuʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "leçon donnée par un professeur",
+    "translations": {
+     "zh": "课；课程",
+     "en": "class, course, lesson"
+    },
+    "examples": [
+     {
+      "text": "J'ai cours de français le mardi.",
+      "translations": {
+       "zh": "我周二有法语课。",
+       "en": "I have French class on Tuesdays."
+      }
+     }
+    ],
+    "usageNote": "单复数同形；s 不发音。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "prix d'une monnaie ou d'une action",
+    "translations": {
+     "zh": "行情；汇率",
+     "en": "rate, price"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "matière",
+  "phonetic": "/ma.tjɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "matières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "discipline enseignée à l'école",
+    "translations": {
+     "zh": "科目；学科；物质",
+     "en": "subject; material"
+    },
+    "examples": [
+     {
+      "text": "Les maths sont ma matière préférée.",
+      "translations": {
+       "zh": "数学是我最喜欢的科目。",
+       "en": "Maths is my favourite subject."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "note",
+  "phonetic": "/nɔt/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "notes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chiffre qui évalue un travail scolaire",
+    "translations": {
+     "zh": "分数；成绩",
+     "en": "mark, grade"
+    },
+    "examples": [
+     {
+      "text": "Il a eu une bonne note en anglais.",
+      "translations": {
+       "zh": "他英语考了个好分数。",
+       "en": "He got a good mark in English."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "texte court écrit pour se souvenir",
+    "translations": {
+     "zh": "笔记；便条",
+     "en": "note"
+    },
+    "examples": [
+     {
+      "text": "Je prends des notes pendant le cours.",
+      "cloze": "Je prends des {{notes}} pendant le cours.",
+      "translations": {
+       "zh": "我上课时记笔记。",
+       "en": "I take notes in class."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "moyenne",
+  "phonetic": "/mwa.jɛn/",
+  "cefr": "B1",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "moyennes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "résultat de l'addition de valeurs divisée par leur nombre",
+    "translations": {
+     "zh": "平均数；平均分",
+     "en": "average"
+    },
+    "examples": [
+     {
+      "text": "Il faut avoir dix de moyenne pour passer.",
+      "translations": {
+       "zh": "平均分要达到十分才能及格。",
+       "en": "You need an average of ten out of twenty to pass."
+      }
+     }
+    ],
+    "usageNote": "法国学校满分20分，10分及格。"
+   }
+  ]
+ },
+ {
+  "headword": "réussir",
+  "phonetic": "/ʁe.y.siʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：je réussis, nous réussissons；过去分词 réussi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "obtenir un bon résultat",
+    "translations": {
+     "zh": "成功；通过（考试）",
+     "en": "to succeed; to pass"
+    },
+    "examples": [
+     {
+      "text": "Elle a réussi son examen du premier coup.",
+      "cloze": "Elle a {{réussi}} son examen du premier coup.",
+      "translations": {
+       "zh": "她一次就通过了考试。",
+       "en": "She passed her exam on the first try."
+      }
+     }
+    ],
+    "usageNote": "réussir un examen = 考试通过；réussir à + 动词 = 成功做到。"
+   }
+  ]
+ },
+ {
+  "headword": "échouer",
+  "phonetic": "/e.ʃwe/",
+  "cefr": "B1",
+  "frequencyRank": 4100,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：j'échoue, nous échouons；过去分词 échoué"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas réussir",
+    "translations": {
+     "zh": "失败；不及格",
+     "en": "to fail"
+    },
+    "examples": [
+     {
+      "text": "Il a échoué au permis de conduire deux fois.",
+      "cloze": "Il a {{échoué}} au permis de conduire deux fois.",
+      "translations": {
+       "zh": "他驾照考试挂了两次。",
+       "en": "He failed his driving test twice."
+      }
+     }
+    ],
+    "usageNote": "échouer à un examen；口语常说 rater。"
+   }
+  ]
+ },
+ {
+  "headword": "concours",
+  "phonetic": "/kɔ̃.kuʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "concours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "examen où seuls les meilleurs sont admis ; compétition",
+    "translations": {
+     "zh": "竞赛；选拔考试",
+     "en": "competitive exam; contest"
+    },
+    "examples": [
+     {
+      "text": "Elle prépare le concours pour devenir professeure.",
+      "translations": {
+       "zh": "她在准备教师资格考试。",
+       "en": "She is preparing for the exam to become a teacher."
+      }
+     }
+    ],
+    "usageNote": "单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "baccalauréat",
+  "phonetic": "/ba.ka.lɔ.ʁe.a/",
+  "cefr": "B1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "baccalauréats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "examen à la fin du lycée en France",
+    "translations": {
+     "zh": "（法国）高中毕业会考",
+     "en": "baccalaureate"
+    },
+    "examples": [
+     {
+      "text": "Il a obtenu son baccalauréat avec mention.",
+      "translations": {
+       "zh": "他以优等成绩通过了高中会考。",
+       "en": "He passed his baccalaureate with honours."
+      }
+     }
+    ],
+    "usageNote": "口语简称 le bac。"
+   }
+  ]
+ },
+ {
+  "headword": "étude",
+  "phonetic": "/e.tyd/",
+  "cefr": "B1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "études"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'étudier ; travail de recherche",
+    "translations": {
+     "zh": "学习；研究",
+     "en": "study"
+    },
+    "examples": [
+     {
+      "text": "Après ses études, il est parti travailler au Canada.",
+      "cloze": "Après ses {{études}}, il est parti travailler au Canada.",
+      "translations": {
+       "zh": "毕业后他去加拿大工作了。",
+       "en": "After his studies, he went to work in Canada."
+      }
+     }
+    ],
+    "usageNote": "faire des études = 上学、读大学（常用复数）。"
+   }
+  ]
+ },
+ {
+  "headword": "recherche",
+  "phonetic": "/ʁə.ʃɛʁʃ/",
+  "cefr": "B1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "recherches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de chercher ; travail scientifique",
+    "translations": {
+     "zh": "研究；搜寻",
+     "en": "research; search"
+    },
+    "examples": [
+     {
+      "text": "Elle travaille dans la recherche médicale.",
+      "translations": {
+       "zh": "她从事医学研究。",
+       "en": "She works in medical research."
+      }
+     }
+    ],
+    "usageNote": "être à la recherche de = 正在寻找。"
+   }
+  ]
+ },
+ {
+  "headword": "chercheur",
+  "phonetic": "/ʃɛʁ.ʃœʁ/",
+  "cefr": "B2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chercheurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait de la recherche scientifique",
+    "translations": {
+     "zh": "研究人员",
+     "en": "researcher"
+    },
+    "examples": [
+     {
+      "text": "Des chercheurs ont découvert un nouveau médicament.",
+      "cloze": "Des {{chercheurs}} ont découvert un nouveau médicament.",
+      "translations": {
+       "zh": "研究人员发现了一种新药。",
+       "en": "Researchers have discovered a new medicine."
+      }
+     }
+    ],
+    "usageNote": "阴性 chercheuse。"
+   }
+  ]
+ },
+ {
+  "headword": "exposé",
+  "phonetic": "/ɛk.spo.ze/",
+  "cefr": "B1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "exposés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "présentation orale sur un sujet",
+    "translations": {
+     "zh": "（课堂）报告；陈述",
+     "en": "presentation, talk"
+    },
+    "examples": [
+     {
+      "text": "Je dois faire un exposé sur la Révolution française.",
+      "translations": {
+       "zh": "我得做一个关于法国大革命的报告。",
+       "en": "I have to give a presentation on the French Revolution."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "conférence",
+  "phonetic": "/kɔ̃.fe.ʁɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "conférences"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "discours sur un sujet devant un public ; grande réunion",
+    "translations": {
+     "zh": "讲座；会议",
+     "en": "lecture, talk; conference"
+    },
+    "examples": [
+     {
+      "text": "Un écrivain donne une conférence à la bibliothèque.",
+      "translations": {
+       "zh": "一位作家在图书馆举办讲座。",
+       "en": "A writer is giving a talk at the library."
+      }
+     }
+    ],
+    "usageNote": "conférence de presse = 新闻发布会。"
+   }
+  ]
+ },
+ {
+  "headword": "semestre",
+  "phonetic": "/sə.mɛstʁ/",
+  "cefr": "B1",
+  "frequencyRank": 5600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "semestres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de six mois, surtout à l'université",
+    "translations": {
+     "zh": "学期；半年",
+     "en": "semester"
+    },
+    "examples": [
+     {
+      "text": "Les examens ont lieu à la fin du semestre.",
+      "translations": {
+       "zh": "考试在学期末举行。",
+       "en": "Exams take place at the end of the semester."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réviser",
+  "phonetic": "/ʁe.vi.ze/",
+  "cefr": "B1",
+  "frequencyRank": 5200,
+  "grammarNotes": {
+   "conjugation": "第一组规则动词：je révise, nous révisons；过去分词 révisé"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "étudier de nouveau avant un examen ; vérifier",
+    "translations": {
+     "zh": "复习；检修",
+     "en": "to revise, to review"
+    },
+    "examples": [
+     {
+      "text": "Je dois réviser pour l'examen de demain.",
+      "translations": {
+       "zh": "我得为明天的考试复习。",
+       "en": "I need to revise for tomorrow's exam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rentrée",
+  "phonetic": "/ʁɑ̃.tʁe/",
+  "cefr": "B1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "rentrées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "reprise des cours ou du travail après les vacances",
+    "translations": {
+     "zh": "开学；（假期后）复工",
+     "en": "start of the school year"
+    },
+    "examples": [
+     {
+      "text": "La rentrée scolaire est le 2 septembre.",
+      "translations": {
+       "zh": "九月二日开学。",
+       "en": "School starts again on 2 September."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "scolaire",
+  "phonetic": "/skɔ.lɛʁ/",
+  "cefr": "B1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "irregularForms": "阴阳同形；复数 scolaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui concerne l'école",
+    "translations": {
+     "zh": "学校的；学业的",
+     "en": "school, academic"
+    },
+    "examples": [
+     {
+      "text": "Les vacances scolaires commencent samedi.",
+      "cloze": "Les vacances {{scolaires}} commencent samedi.",
+      "translations": {
+       "zh": "学校假期周六开始。",
+       "en": "The school holidays start on Saturday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "obtenir",
+  "phonetic": "/ɔp.tə.niʁ/",
+  "cefr": "B1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "conjugation": "不规则（同 tenir）：j'obtiens, nous obtenons, ils obtiennent；过去分词 obtenu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "réussir à avoir quelque chose",
+    "translations": {
+     "zh": "获得；取得",
+     "en": "to obtain, to get"
+    },
+    "examples": [
+     {
+      "text": "Elle a obtenu son visa en deux semaines.",
+      "cloze": "Elle a {{obtenu}} son visa en deux semaines.",
+      "translations": {
+       "zh": "她两周就拿到了签证。",
+       "en": "She got her visa in two weeks."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "connaissance",
+  "phonetic": "/kɔ.nɛ.sɑ̃s/",
+  "cefr": "B1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "connaissances"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on sait ; personne qu'on connaît un peu",
+    "translations": {
+     "zh": "知识；认识的人",
+     "en": "knowledge; acquaintance"
+    },
+    "examples": [
+     {
+      "text": "Ce test évalue vos connaissances en grammaire.",
+      "cloze": "Ce test évalue vos {{connaissances}} en grammaire.",
+      "translations": {
+       "zh": "这项测试评估你的语法知识。",
+       "en": "This test assesses your knowledge of grammar."
+      }
+     }
+    ],
+    "usageNote": "faire la connaissance de qqn = 结识某人；Enchanté de faire votre connaissance。"
+   }
+  ]
+ }
+]

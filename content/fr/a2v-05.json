@@ -1,0 +1,1192 @@
+[
+ {
+  "headword": "brun",
+  "phonetic": "/bʁœ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a des cheveux foncés",
+    "translations": {
+     "zh": "棕发的；深褐色的",
+     "en": "brown-haired, dark"
+    },
+    "examples": [
+     {
+      "text": "Mon père est brun.",
+      "translations": {
+       "zh": "我爸爸是深色头发。",
+       "en": "My father has dark hair."
+      }
+     }
+    ],
+    "usageNote": "阴性 brune /bʁyn/。"
+   }
+  ]
+ },
+ {
+  "headword": "roux",
+  "phonetic": "/ʁu/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "irregularForms": "阴性 rousse；复数 roux, rousses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a des cheveux orange",
+    "translations": {
+     "zh": "红棕发的",
+     "en": "red-haired, ginger"
+    },
+    "examples": [
+     {
+      "text": "Il a les cheveux roux.",
+      "translations": {
+       "zh": "他头发是红棕色的。",
+       "en": "He has red hair."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bavard",
+  "phonetic": "/ba.vaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui parle beaucoup",
+    "translations": {
+     "zh": "爱说话的；话多的",
+     "en": "talkative, chatty"
+    },
+    "examples": [
+     {
+      "text": "Ma voisine est très bavarde.",
+      "cloze": "Ma voisine est très {{bavarde}}.",
+      "translations": {
+       "zh": "我的邻居话很多。",
+       "en": "My neighbour is very chatty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sportif",
+  "phonetic": "/spɔʁ.tif/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "irregularForms": "阴性 sportive；复数 sportifs, sportives"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui aime faire du sport",
+    "translations": {
+     "zh": "爱运动的",
+     "en": "sporty"
+    },
+    "examples": [
+     {
+      "text": "Ma sœur est très sportive.",
+      "cloze": "Ma sœur est très {{sportive}}.",
+      "translations": {
+       "zh": "我姐姐很爱运动。",
+       "en": "My sister is very sporty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "célèbre",
+  "phonetic": "/se.lɛbʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "que beaucoup de gens connaissent",
+    "translations": {
+     "zh": "著名的；有名的",
+     "en": "famous"
+    },
+    "examples": [
+     {
+      "text": "C'est un acteur célèbre.",
+      "translations": {
+       "zh": "这是一位著名演员。",
+       "en": "He's a famous actor."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "riche",
+  "phonetic": "/ʁiʃ/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a beaucoup d'argent",
+    "translations": {
+     "zh": "有钱的；富有的",
+     "en": "rich"
+    },
+    "examples": [
+     {
+      "text": "Ce monsieur est très riche.",
+      "translations": {
+       "zh": "这位先生很有钱。",
+       "en": "This gentleman is very rich."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pauvre",
+  "phonetic": "/povʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a pas beaucoup d'argent",
+    "translations": {
+     "zh": "穷的",
+     "en": "poor"
+    },
+    "examples": [
+     {
+      "text": "C'est une région pauvre.",
+      "translations": {
+       "zh": "这是个贫穷的地区。",
+       "en": "It's a poor region."
+      }
+     }
+    ],
+    "usageNote": "放在名词前表示“可怜的”：le pauvre chat（可怜的猫）。"
+   }
+  ]
+ },
+ {
+  "headword": "faible",
+  "phonetic": "/fɛbl/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a pas de force",
+    "translations": {
+     "zh": "虚弱的；弱的",
+     "en": "weak"
+    },
+    "examples": [
+     {
+      "text": "Je me sens faible aujourd'hui.",
+      "translations": {
+       "zh": "我今天觉得浑身没劲。",
+       "en": "I feel weak today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fou",
+  "phonetic": "/fu/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "irregularForms": "阳性元音前 fol；阴性 folle；复数 fous, folles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne pense pas normalement",
+    "translations": {
+     "zh": "疯的；疯狂的",
+     "en": "mad, crazy"
+    },
+    "examples": [
+     {
+      "text": "Tu es fou ? Il fait trop froid !",
+      "translations": {
+       "zh": "你疯了吗？太冷了！",
+       "en": "Are you crazy? It's too cold!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "marié",
+  "phonetic": "/ma.ʁje/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a un mari ou une femme",
+    "translations": {
+     "zh": "已婚的",
+     "en": "married"
+    },
+    "examples": [
+     {
+      "text": "Vous êtes marié ?",
+      "translations": {
+       "zh": "您结婚了吗？",
+       "en": "Are you married?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "célibataire",
+  "phonetic": "/se.li.ba.tɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas marié",
+    "translations": {
+     "zh": "单身的；未婚的",
+     "en": "single"
+    },
+    "examples": [
+     {
+      "text": "Mon frère est encore célibataire.",
+      "translations": {
+       "zh": "我哥哥还是单身。",
+       "en": "My brother is still single."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ennuyeux",
+  "phonetic": "/ɑ̃.nɥi.jø/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "irregularForms": "阴性 ennuyeuse；复数 ennuyeux, ennuyeuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas intéressant",
+    "translations": {
+     "zh": "无聊的；令人厌烦的",
+     "en": "boring"
+    },
+    "examples": [
+     {
+      "text": "Ce livre est un peu ennuyeux.",
+      "translations": {
+       "zh": "这本书有点无聊。",
+       "en": "This book is a bit boring."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "amusant",
+  "phonetic": "/a.my.zɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fait passer un bon moment",
+    "translations": {
+     "zh": "好玩的；有趣的",
+     "en": "fun, amusing"
+    },
+    "examples": [
+     {
+      "text": "Ce jeu est très amusant.",
+      "translations": {
+       "zh": "这个游戏很好玩。",
+       "en": "This game is a lot of fun."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "agréable",
+  "phonetic": "/a.ɡʁe.abl/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fait plaisir",
+    "translations": {
+     "zh": "令人愉快的；舒适的",
+     "en": "pleasant"
+    },
+    "examples": [
+     {
+      "text": "Il fait un temps agréable.",
+      "translations": {
+       "zh": "天气很宜人。",
+       "en": "The weather is pleasant."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sûr",
+  "phonetic": "/syʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne doute pas",
+    "translations": {
+     "zh": "确定的；有把握的",
+     "en": "sure"
+    },
+    "examples": [
+     {
+      "text": "Tu es sûr ?",
+      "translations": {
+       "zh": "你确定吗？",
+       "en": "Are you sure?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "sans danger",
+    "translations": {
+     "zh": "安全的",
+     "en": "safe"
+    },
+    "examples": [
+     {
+      "text": "Ce quartier est sûr.",
+      "translations": {
+       "zh": "这个街区很安全。",
+       "en": "This neighbourhood is safe."
+      }
+     }
+    ]
+   }
+  ],
+  "homograph": 2
+ },
+ {
+  "headword": "libre",
+  "phonetic": "/libʁ/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas occupé",
+    "translations": {
+     "zh": "空闲的；有空的；自由的",
+     "en": "free"
+    },
+    "examples": [
+     {
+      "text": "Tu es libre ce soir ?",
+      "translations": {
+       "zh": "你今晚有空吗？",
+       "en": "Are you free tonight?"
+      }
+     }
+    ],
+    "usageNote": "“免费”用 gratuit，不用 libre。"
+   }
+  ]
+ },
+ {
+  "headword": "occupé",
+  "phonetic": "/ɔ.ky.pe/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a beaucoup de choses à faire",
+    "translations": {
+     "zh": "忙的；（位子、电话）被占用的",
+     "en": "busy, taken"
+    },
+    "examples": [
+     {
+      "text": "Je suis très occupé cette semaine.",
+      "translations": {
+       "zh": "我这周很忙。",
+       "en": "I'm very busy this week."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pressé",
+  "phonetic": "/pʁɛ.se/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a pas beaucoup de temps",
+    "translations": {
+     "zh": "匆忙的；赶时间的",
+     "en": "in a hurry"
+    },
+    "examples": [
+     {
+      "text": "Désolé, je suis pressé.",
+      "translations": {
+       "zh": "抱歉，我赶时间。",
+       "en": "Sorry, I'm in a hurry."
+      }
+     }
+    ],
+    "usageNote": "un jus d'orange pressé：鲜榨橙汁。"
+   }
+  ],
+  "homograph": 2
+ },
+ {
+  "headword": "malheureux",
+  "phonetic": "/ma.lø.ʁø/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "irregularForms": "阴性 malheureuse；复数 malheureux, malheureuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas heureux",
+    "translations": {
+     "zh": "不幸的；不快乐的",
+     "en": "unhappy"
+    },
+    "examples": [
+     {
+      "text": "Il est malheureux sans ses amis.",
+      "translations": {
+       "zh": "没有朋友他很不开心。",
+       "en": "He's unhappy without his friends."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mignon",
+  "phonetic": "/mi.ɲɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "irregularForms": "阴性 mignonne；复数 mignons, mignonnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "joli et gentil",
+    "translations": {
+     "zh": "可爱的",
+     "en": "cute"
+    },
+    "examples": [
+     {
+      "text": "Ton chien est trop mignon !",
+      "translations": {
+       "zh": "你的狗太可爱了！",
+       "en": "Your dog is so cute!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lourd",
+  "phonetic": "/luʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui pèse beaucoup",
+    "translations": {
+     "zh": "重的",
+     "en": "heavy"
+    },
+    "examples": [
+     {
+      "text": "Ce sac est très lourd.",
+      "translations": {
+       "zh": "这个包很重。",
+       "en": "This bag is very heavy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "léger",
+  "phonetic": "/le.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "irregularForms": "阴性 légère；复数 légers, légères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne pèse pas beaucoup",
+    "translations": {
+     "zh": "轻的",
+     "en": "light"
+    },
+    "examples": [
+     {
+      "text": "Ma valise est légère.",
+      "cloze": "Ma valise est {{légère}}.",
+      "translations": {
+       "zh": "我的行李箱很轻。",
+       "en": "My suitcase is light."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cassé",
+  "phonetic": "/ka.se/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne marche plus, en morceaux",
+    "translations": {
+     "zh": "坏了的；破的",
+     "en": "broken"
+    },
+    "examples": [
+     {
+      "text": "Mon téléphone est cassé.",
+      "translations": {
+       "zh": "我的手机坏了。",
+       "en": "My phone is broken."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "neuf",
+  "homograph": 2,
+  "phonetic": "/nœf/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "irregularForms": "阴性 neuve；复数 neufs, neuves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vient d'être fait ou acheté",
+    "translations": {
+     "zh": "全新的",
+     "en": "brand new"
+    },
+    "examples": [
+     {
+      "text": "J'ai des chaussures neuves.",
+      "cloze": "J'ai des chaussures {{neuves}}.",
+      "translations": {
+       "zh": "我有一双新鞋。",
+       "en": "I have new shoes."
+      }
+     }
+    ],
+    "usageNote": "neuf 指“全新的、没用过的”；nouveau 指“新的、另一个”。和数字 neuf（九）同形。"
+   }
+  ]
+ },
+ {
+  "headword": "ancien",
+  "phonetic": "/ɑ̃.sjɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "irregularForms": "阴性 ancienne；复数 anciens, anciennes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui existe depuis longtemps",
+    "translations": {
+     "zh": "古老的；旧的",
+     "en": "old, ancient"
+    },
+    "examples": [
+     {
+      "text": "Nous habitons dans une maison ancienne.",
+      "cloze": "Nous habitons dans une maison {{ancienne}}.",
+      "translations": {
+       "zh": "我们住在一栋老房子里。",
+       "en": "We live in an old house."
+      }
+     }
+    ],
+    "usageNote": "放在名词前表示“以前的”：mon ancien professeur（我以前的老师）。"
+   }
+  ]
+ },
+ {
+  "headword": "moderne",
+  "phonetic": "/mɔ.dɛʁn/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est de notre époque",
+    "translations": {
+     "zh": "现代的；新式的",
+     "en": "modern"
+    },
+    "examples": [
+     {
+      "text": "La cuisine est très moderne.",
+      "translations": {
+       "zh": "厨房很现代化。",
+       "en": "The kitchen is very modern."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dur",
+  "phonetic": "/dyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas mou ; difficile",
+    "translations": {
+     "zh": "硬的；艰难的",
+     "en": "hard"
+    },
+    "examples": [
+     {
+      "text": "Ce pain est dur.",
+      "translations": {
+       "zh": "这块面包硬了。",
+       "en": "This bread is hard."
+      }
+     }
+    ],
+    "usageNote": "C'est dur ! 表示“这很难／很辛苦”。"
+   }
+  ]
+ },
+ {
+  "headword": "mou",
+  "phonetic": "/mu/",
+  "cefr": "A2",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "irregularForms": "阳性元音前 mol；阴性 molle；复数 mous, molles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas dur",
+    "translations": {
+     "zh": "软的",
+     "en": "soft"
+    },
+    "examples": [
+     {
+      "text": "Ce lit est trop mou.",
+      "translations": {
+       "zh": "这张床太软了。",
+       "en": "This bed is too soft."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "doux",
+  "phonetic": "/du/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "irregularForms": "阴性 douce；复数 doux, douces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "agréable à toucher ; pas fort",
+    "translations": {
+     "zh": "柔软的；温和的",
+     "en": "soft, gentle, mild"
+    },
+    "examples": [
+     {
+      "text": "Ce pull est très doux.",
+      "translations": {
+       "zh": "这件毛衣很柔软。",
+       "en": "This jumper is very soft."
+      }
+     }
+    ],
+    "usageNote": "说天气：Il fait doux.（天气温和。）"
+   }
+  ]
+ },
+ {
+  "headword": "large",
+  "phonetic": "/laʁʒ/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a une grande largeur",
+    "translations": {
+     "zh": "宽的",
+     "en": "wide"
+    },
+    "examples": [
+     {
+      "text": "La rue est large.",
+      "translations": {
+       "zh": "这条街很宽。",
+       "en": "The street is wide."
+      }
+     }
+    ],
+    "usageNote": "小心“假朋友”：large 是“宽”，不是英语的 large（大）。"
+   }
+  ]
+ },
+ {
+  "headword": "étroit",
+  "phonetic": "/e.tʁwa/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas large",
+    "translations": {
+     "zh": "窄的；紧的",
+     "en": "narrow, tight"
+    },
+    "examples": [
+     {
+      "text": "Le chemin est très étroit.",
+      "translations": {
+       "zh": "这条小路很窄。",
+       "en": "The path is very narrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "haut",
+  "phonetic": "/o/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est grand du bas vers le haut",
+    "translations": {
+     "zh": "高的",
+     "en": "high, tall"
+    },
+    "examples": [
+     {
+      "text": "Cette montagne est très haute.",
+      "cloze": "Cette montagne est très {{haute}}.",
+      "translations": {
+       "zh": "这座山很高。",
+       "en": "This mountain is very high."
+      }
+     }
+    ],
+    "usageNote": "h 是嘘音 h，不连读：le haut，不说 l'haut。人高用 grand。"
+   }
+  ]
+ },
+ {
+  "headword": "bas",
+  "phonetic": "/ba/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "irregularForms": "阴性 basse；复数 bas, basses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas haut",
+    "translations": {
+     "zh": "低的；矮的",
+     "en": "low"
+    },
+    "examples": [
+     {
+      "text": "La table est trop basse.",
+      "cloze": "La table est trop {{basse}}.",
+      "translations": {
+       "zh": "这张桌子太矮了。",
+       "en": "The table is too low."
+      }
+     }
+    ],
+    "usageNote": "parler à voix basse：小声说话。"
+   }
+  ]
+ },
+ {
+  "headword": "sec",
+  "phonetic": "/sɛk/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "irregularForms": "阴性 sèche；复数 secs, sèches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a pas d'eau",
+    "translations": {
+     "zh": "干的；干燥的",
+     "en": "dry"
+    },
+    "examples": [
+     {
+      "text": "Le linge est sec.",
+      "translations": {
+       "zh": "衣服干了。",
+       "en": "The washing is dry."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mouillé",
+  "phonetic": "/mu.je/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a de l'eau dessus",
+    "translations": {
+     "zh": "湿的",
+     "en": "wet"
+    },
+    "examples": [
+     {
+      "text": "Mes chaussures sont mouillées.",
+      "cloze": "Mes chaussures sont {{mouillées}}.",
+      "translations": {
+       "zh": "我的鞋湿了。",
+       "en": "My shoes are wet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "frais",
+  "phonetic": "/fʁɛ/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "irregularForms": "阴性 fraîche；复数 frais, fraîches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "un peu froid ; qui vient d'être fait",
+    "translations": {
+     "zh": "凉爽的；新鲜的",
+     "en": "cool, fresh"
+    },
+    "examples": [
+     {
+      "text": "Le poisson est très frais.",
+      "translations": {
+       "zh": "这条鱼很新鲜。",
+       "en": "The fish is very fresh."
+      }
+     }
+    ],
+    "usageNote": "Il fait frais.（天气凉爽。）"
+   }
+  ]
+ },
+ {
+  "headword": "bruyant",
+  "phonetic": "/bʁɥi.jɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fait beaucoup de bruit",
+    "translations": {
+     "zh": "吵闹的",
+     "en": "noisy"
+    },
+    "examples": [
+     {
+      "text": "Mes voisins sont bruyants.",
+      "cloze": "Mes voisins sont {{bruyants}}.",
+      "translations": {
+       "zh": "我的邻居很吵。",
+       "en": "My neighbours are noisy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tranquille",
+  "phonetic": "/tʁɑ̃.kil/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "calme, sans bruit",
+    "translations": {
+     "zh": "安静的；安心的",
+     "en": "quiet, peaceful"
+    },
+    "examples": [
+     {
+      "text": "Laisse-moi tranquille !",
+      "translations": {
+       "zh": "别烦我！",
+       "en": "Leave me alone!"
+      }
+     }
+    ],
+    "usageNote": "tranquille 中 ll 读 /l/，不读 /j/。"
+   }
+  ]
+ },
+ {
+  "headword": "sombre",
+  "phonetic": "/sɔ̃bʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a pas beaucoup de lumière",
+    "translations": {
+     "zh": "暗的；（颜色）深的",
+     "en": "dark"
+    },
+    "examples": [
+     {
+      "text": "La chambre est sombre.",
+      "translations": {
+       "zh": "这个房间很暗。",
+       "en": "The room is dark."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "clair",
+  "phonetic": "/klɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "plein de lumière ; facile à comprendre",
+    "translations": {
+     "zh": "明亮的；清楚的；（颜色）浅的",
+     "en": "light, bright, clear"
+    },
+    "examples": [
+     {
+      "text": "L'appartement est grand et clair.",
+      "translations": {
+       "zh": "公寓又大又亮。",
+       "en": "The flat is big and bright."
+      }
+     }
+    ],
+    "usageNote": "bleu clair：浅蓝色。C'est clair ?（明白了吗？）"
+   }
+  ]
+ },
+ {
+  "headword": "confortable",
+  "phonetic": "/kɔ̃.fɔʁ.tabl/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "où on est bien, agréable pour le corps",
+    "translations": {
+     "zh": "舒适的",
+     "en": "comfortable"
+    },
+    "examples": [
+     {
+      "text": "Ce canapé est très confortable.",
+      "translations": {
+       "zh": "这个沙发很舒服。",
+       "en": "This sofa is very comfortable."
+      }
+     }
+    ],
+    "usageNote": "说人“感觉舒服”不用 confortable，用 être bien / à l'aise。"
+   }
+  ]
+ },
+ {
+  "headword": "pratique",
+  "phonetic": "/pʁa.tik/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "facile et utile à utiliser",
+    "translations": {
+     "zh": "方便的；实用的",
+     "en": "practical, handy"
+    },
+    "examples": [
+     {
+      "text": "Ce sac est très pratique.",
+      "translations": {
+       "zh": "这个包很实用。",
+       "en": "This bag is very practical."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "utile",
+  "phonetic": "/y.til/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui sert à quelque chose",
+    "translations": {
+     "zh": "有用的",
+     "en": "useful"
+    },
+    "examples": [
+     {
+      "text": "Ce dictionnaire est très utile.",
+      "translations": {
+       "zh": "这本词典很有用。",
+       "en": "This dictionary is very useful."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dangereux",
+  "phonetic": "/dɑ̃ʒ.ʁø/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "irregularForms": "阴性 dangereuse；复数 dangereux, dangereuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui peut faire du mal",
+    "translations": {
+     "zh": "危险的",
+     "en": "dangerous"
+    },
+    "examples": [
+     {
+      "text": "Cette route est dangereuse.",
+      "cloze": "Cette route est {{dangereuse}}.",
+      "translations": {
+       "zh": "这条路很危险。",
+       "en": "This road is dangerous."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

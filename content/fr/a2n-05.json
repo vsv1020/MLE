@@ -1,0 +1,1532 @@
+[
+ {
+  "headword": "stade",
+  "phonetic": "/stad/",
+  "cefr": "A2",
+  "frequencyRank": 3900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "stades"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand terrain de sport avec des places pour le public",
+    "translations": {
+     "zh": "体育场",
+     "en": "stadium"
+    },
+    "examples": [
+     {
+      "text": "Le stade est plein ce soir.",
+      "translations": {
+       "zh": "今晚体育场座无虚席。",
+       "en": "The stadium is full tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "piscine",
+  "phonetic": "/pi.sin/",
+  "cefr": "A2",
+  "frequencyRank": 4300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "piscines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand bassin pour nager",
+    "translations": {
+     "zh": "游泳池",
+     "en": "swimming pool"
+    },
+    "examples": [
+     {
+      "text": "On va à la piscine cet après-midi.",
+      "translations": {
+       "zh": "我们今天下午去游泳池。",
+       "en": "We're going to the pool this afternoon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tennis",
+  "phonetic": "/te.nis/",
+  "cefr": "A2",
+  "frequencyRank": 4800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "tennis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sport avec une raquette et une petite balle",
+    "translations": {
+     "zh": "网球",
+     "en": "tennis"
+    },
+    "examples": [
+     {
+      "text": "Il joue au tennis avec son père.",
+      "translations": {
+       "zh": "他和爸爸打网球。",
+       "en": "He plays tennis with his father."
+      }
+     }
+    ],
+    "usageNote": "运动用 jouer au + 运动名；des tennis 口语也指“运动鞋”。"
+   }
+  ]
+ },
+ {
+  "headword": "course",
+  "phonetic": "/kuʁs/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "courses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de courir ; compétition de vitesse",
+    "translations": {
+     "zh": "跑步；赛跑",
+     "en": "running, race"
+    },
+    "examples": [
+     {
+      "text": "Elle a gagné la course.",
+      "translations": {
+       "zh": "她赢了赛跑。",
+       "en": "She won the race."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "achats qu'on fait pour la maison",
+    "translations": {
+     "zh": "购物；买东西",
+     "en": "shopping, errands"
+    },
+    "examples": [
+     {
+      "text": "Je fais les courses au supermarché.",
+      "translations": {
+       "zh": "我在超市买东西。",
+       "en": "I do the shopping at the supermarket."
+      }
+     }
+    ],
+    "usageNote": "此义常用复数：faire les courses。"
+   }
+  ]
+ },
+ {
+  "headword": "randonnée",
+  "phonetic": "/ʁɑ̃.dɔ.ne/",
+  "cefr": "A2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "randonnées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "longue promenade à pied dans la nature",
+    "translations": {
+     "zh": "徒步；远足",
+     "en": "hike"
+    },
+    "examples": [
+     {
+      "text": "On fait une randonnée en montagne.",
+      "translations": {
+       "zh": "我们去山里徒步。",
+       "en": "We're going hiking in the mountains."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ski",
+  "phonetic": "/ski/",
+  "cefr": "A2",
+  "frequencyRank": 5800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "skis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sport où on glisse sur la neige",
+    "translations": {
+     "zh": "滑雪",
+     "en": "skiing"
+    },
+    "examples": [
+     {
+      "text": "Nous faisons du ski en février.",
+      "translations": {
+       "zh": "我们二月去滑雪。",
+       "en": "We go skiing in February."
+      }
+     }
+    ],
+    "usageNote": "也指“滑雪板”：une paire de skis。"
+   }
+  ]
+ },
+ {
+  "headword": "loisir",
+  "phonetic": "/lwa.ziʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "loisirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "activité qu'on fait pendant son temps libre",
+    "translations": {
+     "zh": "业余爱好；休闲",
+     "en": "hobby, leisure"
+    },
+    "examples": [
+     {
+      "text": "Quels sont tes loisirs ?",
+      "cloze": "Quels sont tes {{loisirs}} ?",
+      "translations": {
+       "zh": "你有什么业余爱好？",
+       "en": "What are your hobbies?"
+      }
+     }
+    ],
+    "usageNote": "常用复数 les loisirs。"
+   }
+  ]
+ },
+ {
+  "headword": "peinture",
+  "phonetic": "/pɛ̃.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "peintures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art de faire des tableaux ; produit coloré pour les murs",
+    "translations": {
+     "zh": "绘画；油漆",
+     "en": "painting, paint"
+    },
+    "examples": [
+     {
+      "text": "Ma mère fait de la peinture.",
+      "translations": {
+       "zh": "我妈妈画画。",
+       "en": "My mother paints."
+      }
+     }
+    ],
+    "usageNote": "告示 Peinture fraîche = 油漆未干。"
+   }
+  ]
+ },
+ {
+  "headword": "lecture",
+  "phonetic": "/lɛk.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "lectures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action de lire",
+    "translations": {
+     "zh": "阅读",
+     "en": "reading"
+    },
+    "examples": [
+     {
+      "text": "La lecture est mon loisir préféré.",
+      "translations": {
+       "zh": "阅读是我最喜欢的爱好。",
+       "en": "Reading is my favourite hobby."
+      }
+     }
+    ],
+    "usageNote": "假朋友：“讲座”是 conférence。"
+   }
+  ]
+ },
+ {
+  "headword": "jardinage",
+  "phonetic": "/ʒaʁ.di.naʒ/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "无复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail dans le jardin",
+    "translations": {
+     "zh": "园艺",
+     "en": "gardening"
+    },
+    "examples": [
+     {
+      "text": "Mon grand-père adore le jardinage.",
+      "translations": {
+       "zh": "我爷爷很喜欢园艺。",
+       "en": "My grandfather loves gardening."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pêche",
+  "phonetic": "/pɛʃ/",
+  "cefr": "A2",
+  "frequencyRank": 4900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pêches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruit rond et doux à la peau douce",
+    "translations": {
+     "zh": "桃子",
+     "en": "peach"
+    },
+    "examples": [
+     {
+      "text": "Cette pêche est très sucrée.",
+      "translations": {
+       "zh": "这个桃子很甜。",
+       "en": "This peach is very sweet."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'attraper des poissons",
+    "translations": {
+     "zh": "钓鱼",
+     "en": "fishing"
+    },
+    "examples": [
+     {
+      "text": "Mon oncle va à la pêche le dimanche.",
+      "translations": {
+       "zh": "我叔叔星期天去钓鱼。",
+       "en": "My uncle goes fishing on Sundays."
+      }
+     }
+    ],
+    "usageNote": "aller à la pêche = 去钓鱼。"
+   }
+  ]
+ },
+ {
+  "headword": "échecs",
+  "phonetic": "/e.ʃɛk/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "通常只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jeu de stratégie pour deux joueurs sur un plateau",
+    "translations": {
+     "zh": "国际象棋",
+     "en": "chess"
+    },
+    "examples": [
+     {
+      "text": "Tu sais jouer aux échecs ?",
+      "translations": {
+       "zh": "你会下国际象棋吗？",
+       "en": "Can you play chess?"
+      }
+     }
+    ],
+    "usageNote": "单数 échec 意为“失败”。"
+   }
+  ]
+ },
+ {
+  "headword": "concert",
+  "phonetic": "/kɔ̃.sɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "concerts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "spectacle de musique",
+    "translations": {
+     "zh": "音乐会；演唱会",
+     "en": "concert"
+    },
+    "examples": [
+     {
+      "text": "On va au concert samedi soir.",
+      "translations": {
+       "zh": "我们星期六晚上去听音乐会。",
+       "en": "We're going to a concert on Saturday night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "théâtre",
+  "phonetic": "/te.ɑtʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "théâtres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art ou lieu où des acteurs jouent devant le public",
+    "translations": {
+     "zh": "戏剧；剧院",
+     "en": "theatre"
+    },
+    "examples": [
+     {
+      "text": "Je vais au théâtre avec ma sœur.",
+      "translations": {
+       "zh": "我和姐姐去看戏。",
+       "en": "I'm going to the theatre with my sister."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "exposition",
+  "phonetic": "/ɛks.po.zi.sjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "expositions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "présentation d'œuvres d'art au public",
+    "translations": {
+     "zh": "展览",
+     "en": "exhibition"
+    },
+    "examples": [
+     {
+      "text": "Il y a une exposition de Monet au musée.",
+      "translations": {
+       "zh": "博物馆里有莫奈的展览。",
+       "en": "There's a Monet exhibition at the museum."
+      }
+     }
+    ],
+    "usageNote": "口语简称 une expo。"
+   }
+  ]
+ },
+ {
+  "headword": "spectacle",
+  "phonetic": "/spɛk.takl/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "spectacles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on regarde au théâtre, au cirque ou dans un concert",
+    "translations": {
+     "zh": "演出",
+     "en": "show"
+    },
+    "examples": [
+     {
+      "text": "Le spectacle commence à vingt heures.",
+      "translations": {
+       "zh": "演出晚上八点开始。",
+       "en": "The show starts at 8 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "club",
+  "phonetic": "/klœb/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "clubs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe de personnes qui ont la même activité",
+    "translations": {
+     "zh": "俱乐部",
+     "en": "club"
+    },
+    "examples": [
+     {
+      "text": "Il est dans un club de foot.",
+      "translations": {
+       "zh": "他在一个足球俱乐部。",
+       "en": "He's in a football club."
+      }
+     }
+    ],
+    "usageNote": "读音 /klœb/。"
+   }
+  ]
+ },
+ {
+  "headword": "entraînement",
+  "phonetic": "/ɑ̃.tʁɛn.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 5900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "entraînements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "exercices qu'on fait pour progresser dans un sport",
+    "translations": {
+     "zh": "训练",
+     "en": "training"
+    },
+    "examples": [
+     {
+      "text": "L'entraînement est le mardi soir.",
+      "cloze": "L'{{entraînement}} est le mardi soir.",
+      "translations": {
+       "zh": "训练在星期二晚上。",
+       "en": "Training is on Tuesday evenings."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salle de sport",
+  "phonetic": "/sal də spɔʁ/",
+  "cefr": "A2",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "salles de sport"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit avec des machines pour faire du sport",
+    "translations": {
+     "zh": "健身房",
+     "en": "gym"
+    },
+    "examples": [
+     {
+      "text": "Je vais à la salle de sport trois fois par semaine.",
+      "cloze": "Je vais à la {{salle de sport}} trois fois par semaine.",
+      "translations": {
+       "zh": "我一周去三次健身房。",
+       "en": "I go to the gym three times a week."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "violon",
+  "phonetic": "/vjɔ.lɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 8200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "violons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "instrument de musique à cordes",
+    "translations": {
+     "zh": "小提琴",
+     "en": "violin"
+    },
+    "examples": [
+     {
+      "text": "Elle joue du violon depuis l'âge de six ans.",
+      "translations": {
+       "zh": "她从六岁开始拉小提琴。",
+       "en": "She's played the violin since she was six."
+      }
+     }
+    ],
+    "usageNote": "乐器用 jouer du/de la + 乐器名。"
+   }
+  ]
+ },
+ {
+  "headword": "plante",
+  "phonetic": "/plɑ̃t/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "plantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "être vivant vert qui pousse dans la terre",
+    "translations": {
+     "zh": "植物",
+     "en": "plant"
+    },
+    "examples": [
+     {
+      "text": "N'oublie pas d'arroser les plantes.",
+      "cloze": "N'oublie pas d'arroser les {{plantes}}.",
+      "translations": {
+       "zh": "别忘了给植物浇水。",
+       "en": "Don't forget to water the plants."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "feuille",
+  "phonetic": "/fœj/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "feuilles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie verte et plate d'un arbre",
+    "translations": {
+     "zh": "树叶",
+     "en": "leaf"
+    },
+    "examples": [
+     {
+      "text": "Les feuilles tombent en automne.",
+      "cloze": "Les {{feuilles}} tombent en automne.",
+      "translations": {
+       "zh": "秋天树叶落了。",
+       "en": "The leaves fall in autumn."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "morceau de papier",
+    "translations": {
+     "zh": "一张纸",
+     "en": "sheet of paper"
+    },
+    "examples": [
+     {
+      "text": "Prenez une feuille et un stylo.",
+      "translations": {
+       "zh": "拿一张纸和一支笔。",
+       "en": "Take a sheet of paper and a pen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "île",
+  "phonetic": "/il/",
+  "cefr": "A2",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "îles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terre entourée d'eau",
+    "translations": {
+     "zh": "岛",
+     "en": "island"
+    },
+    "examples": [
+     {
+      "text": "La Corse est une île.",
+      "translations": {
+       "zh": "科西嘉是一个岛。",
+       "en": "Corsica is an island."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "colline",
+  "phonetic": "/kɔ.lin/",
+  "cefr": "A2",
+  "frequencyRank": 4600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "collines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite montagne",
+    "translations": {
+     "zh": "小山；丘陵",
+     "en": "hill"
+    },
+    "examples": [
+     {
+      "text": "La maison est en haut de la colline.",
+      "translations": {
+       "zh": "房子在山丘顶上。",
+       "en": "The house is at the top of the hill."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vallée",
+  "phonetic": "/va.le/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vallées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terre basse entre deux montagnes",
+    "translations": {
+     "zh": "山谷",
+     "en": "valley"
+    },
+    "examples": [
+     {
+      "text": "Le village est dans une vallée.",
+      "translations": {
+       "zh": "村子在山谷里。",
+       "en": "The village is in a valley."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "champ",
+  "phonetic": "/ʃɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "champs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terrain où on cultive des plantes",
+    "translations": {
+     "zh": "田地",
+     "en": "field"
+    },
+    "examples": [
+     {
+      "text": "Il y a des vaches dans le champ.",
+      "translations": {
+       "zh": "田里有几头牛。",
+       "en": "There are cows in the field."
+      }
+     }
+    ],
+    "usageNote": "词尾 p 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "ferme",
+  "homograph": 2,
+  "phonetic": "/fɛʁm/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "fermes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "maison et terres d'un agriculteur",
+    "translations": {
+     "zh": "农场",
+     "en": "farm"
+    },
+    "examples": [
+     {
+      "text": "On a visité une ferme avec les enfants.",
+      "translations": {
+       "zh": "我们带孩子去参观了农场。",
+       "en": "We visited a farm with the children."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "désert",
+  "phonetic": "/de.zɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "déserts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande région sèche avec du sable",
+    "translations": {
+     "zh": "沙漠",
+     "en": "desert"
+    },
+    "examples": [
+     {
+      "text": "Il fait très chaud dans le désert.",
+      "translations": {
+       "zh": "沙漠里非常热。",
+       "en": "It's very hot in the desert."
+      }
+     }
+    ],
+    "usageNote": "注意与 dessert（甜点）区分。"
+   }
+  ]
+ },
+ {
+  "headword": "fleuve",
+  "phonetic": "/flœv/",
+  "cefr": "A2",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fleuves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande rivière qui va jusqu'à la mer",
+    "translations": {
+     "zh": "大河；江",
+     "en": "river"
+    },
+    "examples": [
+     {
+      "text": "La Loire est le plus long fleuve de France.",
+      "translations": {
+       "zh": "卢瓦尔河是法国最长的河。",
+       "en": "The Loire is the longest river in France."
+      }
+     }
+    ],
+    "usageNote": "流入大海的大河叫 fleuve，支流叫 rivière。"
+   }
+  ]
+ },
+ {
+  "headword": "océan",
+  "phonetic": "/ɔ.se.ɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "océans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très grande mer",
+    "translations": {
+     "zh": "海洋；大洋",
+     "en": "ocean"
+    },
+    "examples": [
+     {
+      "text": "On nage dans l'océan Atlantique.",
+      "cloze": "On nage dans l'{{océan}} Atlantique.",
+      "translations": {
+       "zh": "我们在大西洋里游泳。",
+       "en": "We swim in the Atlantic Ocean."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "côte",
+  "phonetic": "/kot/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "côtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terre au bord de la mer",
+    "translations": {
+     "zh": "海岸",
+     "en": "coast"
+    },
+    "examples": [
+     {
+      "text": "On passe l'été sur la côte.",
+      "translations": {
+       "zh": "我们在海边过夏天。",
+       "en": "We spend the summer on the coast."
+      }
+     }
+    ],
+    "usageNote": "蔚蓝海岸是 la Côte d'Azur；也指“肋骨”。"
+   }
+  ]
+ },
+ {
+  "headword": "sable",
+  "phonetic": "/sabl/",
+  "cefr": "A2",
+  "frequencyRank": 4200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petits grains sur la plage",
+    "translations": {
+     "zh": "沙子",
+     "en": "sand"
+    },
+    "examples": [
+     {
+      "text": "Les enfants jouent dans le sable.",
+      "translations": {
+       "zh": "孩子们在沙子里玩。",
+       "en": "The children play in the sand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pierre",
+  "phonetic": "/pjɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pierres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "morceau dur de la terre",
+    "translations": {
+     "zh": "石头",
+     "en": "stone"
+    },
+    "examples": [
+     {
+      "text": "Cette maison est en pierre.",
+      "translations": {
+       "zh": "这座房子是石头建的。",
+       "en": "This house is made of stone."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bois",
+  "phonetic": "/bwa/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bois"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "matière qui vient des arbres",
+    "translations": {
+     "zh": "木头",
+     "en": "wood"
+    },
+    "examples": [
+     {
+      "text": "La table est en bois.",
+      "translations": {
+       "zh": "桌子是木头的。",
+       "en": "The table is made of wood."
+      }
+     }
+    ],
+    "usageNote": "也指“小树林”：se promener dans les bois。复数不变。"
+   }
+  ]
+ },
+ {
+  "headword": "nature",
+  "phonetic": "/na.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "natures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "les plantes, les animaux, les paysages",
+    "translations": {
+     "zh": "大自然",
+     "en": "nature"
+    },
+    "examples": [
+     {
+      "text": "J'aime me promener dans la nature.",
+      "translations": {
+       "zh": "我喜欢在大自然里散步。",
+       "en": "I like walking in nature."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "paysage",
+  "phonetic": "/pe.i.zaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "paysages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on voit d'un endroit : montagnes, champs…",
+    "translations": {
+     "zh": "风景",
+     "en": "landscape, scenery"
+    },
+    "examples": [
+     {
+      "text": "Quel beau paysage !",
+      "translations": {
+       "zh": "风景多美啊！",
+       "en": "What beautiful scenery!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "environnement",
+  "phonetic": "/ɑ̃.vi.ʁɔn.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "environnements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "la nature autour de nous",
+    "translations": {
+     "zh": "环境",
+     "en": "environment"
+    },
+    "examples": [
+     {
+      "text": "Il faut protéger l'environnement.",
+      "cloze": "Il faut protéger l'{{environnement}}.",
+      "translations": {
+       "zh": "我们要保护环境。",
+       "en": "We must protect the environment."
+      }
+     }
+    ],
+    "usageNote": "注意拼写有两个 n：environnement。"
+   }
+  ]
+ },
+ {
+  "headword": "orage",
+  "phonetic": "/ɔ.ʁaʒ/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "orages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mauvais temps avec pluie, éclairs et tonnerre",
+    "translations": {
+     "zh": "雷雨",
+     "en": "storm, thunderstorm"
+    },
+    "examples": [
+     {
+      "text": "Il y a un orage ce soir.",
+      "translations": {
+       "zh": "今晚有雷雨。",
+       "en": "There's a thunderstorm tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "brouillard",
+  "phonetic": "/bʁu.jaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "brouillards"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nuage près du sol qui empêche de voir loin",
+    "translations": {
+     "zh": "雾",
+     "en": "fog"
+    },
+    "examples": [
+     {
+      "text": "Il y a du brouillard ce matin.",
+      "translations": {
+       "zh": "今天早上有雾。",
+       "en": "It's foggy this morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "météo",
+  "phonetic": "/me.te.o/",
+  "cefr": "A2",
+  "frequencyRank": 6400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "météos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "prévisions du temps qu'il va faire",
+    "translations": {
+     "zh": "天气预报",
+     "en": "weather forecast"
+    },
+    "examples": [
+     {
+      "text": "La météo annonce de la pluie.",
+      "translations": {
+       "zh": "天气预报说有雨。",
+       "en": "The forecast says rain."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "climat",
+  "phonetic": "/kli.ma/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "climats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "temps habituel d'une région",
+    "translations": {
+     "zh": "气候",
+     "en": "climate"
+    },
+    "examples": [
+     {
+      "text": "Le climat est doux en Bretagne.",
+      "translations": {
+       "zh": "布列塔尼的气候温和。",
+       "en": "The climate is mild in Brittany."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "insecte",
+  "phonetic": "/ɛ̃.sɛkt/",
+  "cefr": "A2",
+  "frequencyRank": 5700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "insectes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit animal à six pattes",
+    "translations": {
+     "zh": "昆虫",
+     "en": "insect"
+    },
+    "examples": [
+     {
+      "text": "Il y a beaucoup d'insectes en été.",
+      "cloze": "Il y a beaucoup d'{{insectes}} en été.",
+      "translations": {
+       "zh": "夏天虫子很多。",
+       "en": "There are lots of insects in summer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "région",
+  "phonetic": "/ʁe.ʒjɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "régions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'un pays",
+    "translations": {
+     "zh": "地区",
+     "en": "region"
+    },
+    "examples": [
+     {
+      "text": "La Provence est une belle région.",
+      "translations": {
+       "zh": "普罗旺斯是个美丽的地区。",
+       "en": "Provence is a beautiful region."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "terre",
+  "phonetic": "/tɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "terres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sol où poussent les plantes ; notre planète",
+    "translations": {
+     "zh": "土地；泥土；地球",
+     "en": "earth, soil, ground"
+    },
+    "examples": [
+     {
+      "text": "Il plante des fleurs dans la terre.",
+      "translations": {
+       "zh": "他在土里种花。",
+       "en": "He's planting flowers in the soil."
+      }
+     }
+    ],
+    "usageNote": "地球写作 la Terre；par terre = 在地上。"
+   }
+  ]
+ },
+ {
+  "headword": "planète",
+  "phonetic": "/pla.nɛt/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "planètes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand objet qui tourne autour du soleil",
+    "translations": {
+     "zh": "行星；地球",
+     "en": "planet"
+    },
+    "examples": [
+     {
+      "text": "Notre planète est en danger.",
+      "translations": {
+       "zh": "我们的地球处境危险。",
+       "en": "Our planet is in danger."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chemin",
+  "phonetic": "/ʃə.mɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chemins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite route ; direction pour aller quelque part",
+    "translations": {
+     "zh": "小路；路线",
+     "en": "path, way"
+    },
+    "examples": [
+     {
+      "text": "Ce chemin va jusqu'au lac.",
+      "translations": {
+       "zh": "这条小路通往湖边。",
+       "en": "This path goes to the lake."
+      }
+     }
+    ],
+    "usageNote": "demander son chemin = 问路。"
+   }
+  ]
+ },
+ {
+  "headword": "mairie",
+  "phonetic": "/mɛ.ʁi/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mairies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bâtiment où travaille le maire d'une ville",
+    "translations": {
+     "zh": "市政厅",
+     "en": "town hall"
+    },
+    "examples": [
+     {
+      "text": "Ils se marient à la mairie samedi.",
+      "translations": {
+       "zh": "他们星期六在市政厅结婚。",
+       "en": "They're getting married at the town hall on Saturday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "commissariat",
+  "phonetic": "/kɔ.mi.sa.ʁja/",
+  "cefr": "A2",
+  "frequencyRank": 9000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "commissariats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bureau de la police dans une ville",
+    "translations": {
+     "zh": "警察局",
+     "en": "police station"
+    },
+    "examples": [
+     {
+      "text": "Il faut aller au commissariat.",
+      "translations": {
+       "zh": "得去一趟警察局。",
+       "en": "We have to go to the police station."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "police",
+  "phonetic": "/pɔ.lis/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "polices"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "service qui protège les gens et fait respecter la loi",
+    "translations": {
+     "zh": "警察（机构）",
+     "en": "police"
+    },
+    "examples": [
+     {
+      "text": "Appelle la police !",
+      "translations": {
+       "zh": "快报警！",
+       "en": "Call the police!"
+      }
+     }
+    ],
+    "usageNote": "法国报警电话是 17。"
+   }
+  ]
+ },
+ {
+  "headword": "quartier",
+  "phonetic": "/kaʁ.tje/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "quartiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie d'une ville",
+    "translations": {
+     "zh": "街区；社区",
+     "en": "neighbourhood, district"
+    },
+    "examples": [
+     {
+      "text": "J'habite dans un quartier calme.",
+      "translations": {
+       "zh": "我住在一个安静的街区。",
+       "en": "I live in a quiet neighbourhood."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

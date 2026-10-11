@@ -1,0 +1,1324 @@
+[
+  {
+    "headword": "mettre la puce à l'oreille",
+    "phonetic": "/mɛtʁ.la.pys.a.lɔ.ʁɛj/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "éveiller les soupçons de quelqu'un",
+        "translations": {
+          "zh": "引起怀疑；让人起疑心",
+          "en": "to make someone suspicious"
+        },
+        "examples": [
+          {
+            "text": "Son silence soudain m'a mis la puce à l'oreille.",
+            "cloze": "Son silence soudain {{m'a mis la puce à l'oreille}}.",
+            "translations": {
+              "zh": "他突然沉默让我起了疑心。",
+              "en": "His sudden silence made me suspicious."
+            }
+          }
+        ],
+        "usageNote": "字面意思“把跳蚤放进耳朵”。"
+      }
+    ]
+  },
+  {
+    "headword": "être dans la lune",
+    "phonetic": "/ɛtʁ.dɑ̃.la.lyn/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être distrait, rêveur",
+        "translations": {
+          "zh": "心不在焉；走神",
+          "en": "to have one's head in the clouds"
+        },
+        "examples": [
+          {
+            "text": "Pardon, tu disais ? J'étais dans la lune.",
+            "cloze": "Pardon, tu disais ? J'{{étais dans la lune}}.",
+            "translations": {
+              "zh": "抱歉，你刚说什么？我走神了。",
+              "en": "Sorry, what were you saying? I was miles away."
+            }
+          }
+        ],
+        "usageNote": "字面意思“在月亮上”。"
+      }
+    ]
+  },
+  {
+    "headword": "tourner autour du pot",
+    "phonetic": "/tuʁ.ne.o.tuʁ.dy.po/",
+    "cefr": "C1",
+    "frequencyRank": 12000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "parler sans aborder directement le sujet",
+        "translations": {
+          "zh": "拐弯抹角；兜圈子",
+          "en": "to beat about the bush"
+        },
+        "examples": [
+          {
+            "text": "Arrête de tourner autour du pot et dis-moi la vérité.",
+            "cloze": "Arrête de {{tourner autour du pot}} et dis-moi la vérité.",
+            "translations": {
+              "zh": "别兜圈子了，跟我说实话。",
+              "en": "Stop beating about the bush and tell me the truth."
+            }
+          }
+        ],
+        "usageNote": "字面意思“绕着罐子转”。"
+      }
+    ]
+  },
+  {
+    "headword": "jeter l'éponge",
+    "phonetic": "/ʒə.te.le.pɔ̃ʒ/",
+    "cefr": "C1",
+    "frequencyRank": 12500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "abandonner, renoncer",
+        "translations": {
+          "zh": "认输；放弃",
+          "en": "to throw in the towel"
+        },
+        "examples": [
+          {
+            "text": "Après trois échecs, il a fini par jeter l'éponge.",
+            "cloze": "Après trois échecs, il a fini par {{jeter l'éponge}}.",
+            "translations": {
+              "zh": "失败三次后，他终于放弃了。",
+              "en": "After three failures he finally threw in the towel."
+            }
+          }
+        ],
+        "usageNote": "源自拳击：教练扔海绵表示认输。"
+      }
+    ]
+  },
+  {
+    "headword": "prendre la mouche",
+    "phonetic": "/pʁɑ̃dʁ.la.muʃ/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "se vexer brusquement pour peu de chose",
+        "translations": {
+          "zh": "无端动气；一点就着",
+          "en": "to fly off the handle, to take offence"
+        },
+        "examples": [
+          {
+            "text": "Il prend la mouche pour un rien.",
+            "cloze": "Il {{prend la mouche}} pour un rien.",
+            "translations": {
+              "zh": "他为一点小事就动气。",
+              "en": "He takes offence at the slightest thing."
+            }
+          }
+        ],
+        "usageNote": "字面意思“抓住苍蝇”。"
+      }
+    ]
+  },
+  {
+    "headword": "se mettre le doigt dans l'œil",
+    "phonetic": "/sə.mɛtʁ.lə.dwa.dɑ̃.lœj/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "se tromper complètement",
+        "translations": {
+          "zh": "大错特错；完全想错",
+          "en": "to be way off the mark"
+        },
+        "examples": [
+          {
+            "text": "S'il croit que je vais l'aider, il se met le doigt dans l'œil.",
+            "cloze": "S'il croit que je vais l'aider, il {{se met le doigt dans l'œil}}.",
+            "translations": {
+              "zh": "他要是以为我会帮他，那就大错特错了。",
+              "en": "If he thinks I'll help him, he's kidding himself."
+            }
+          }
+        ],
+        "usageNote": "字面意思“把手指戳进眼睛”。口语；强调说法 jusqu'au coude（直到手肘）。"
+      }
+    ]
+  },
+  {
+    "headword": "mettre les pieds dans le plat",
+    "phonetic": "/mɛtʁ.le.pje.dɑ̃.lə.pla/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "aborder maladroitement un sujet délicat",
+        "translations": {
+          "zh": "说话冒失；哪壶不开提哪壶",
+          "en": "to put one's foot in it"
+        },
+        "examples": [
+          {
+            "text": "Il a mis les pieds dans le plat en parlant du divorce de son hôte.",
+            "cloze": "Il {{a mis les pieds dans le plat}} en parlant du divorce de son hôte.",
+            "translations": {
+              "zh": "他提起主人的离婚，真是哪壶不开提哪壶。",
+              "en": "He put his foot in it by mentioning his host's divorce."
+            }
+          }
+        ],
+        "usageNote": "字面意思“把脚踩进菜盘”。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir le bras long",
+    "phonetic": "/a.vwaʁ.lə.bʁa.lɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "avoir beaucoup d'influence et de relations",
+        "translations": {
+          "zh": "有门路；神通广大",
+          "en": "to have friends in high places"
+        },
+        "examples": [
+          {
+            "text": "Son père a le bras long, il lui trouvera un stage.",
+            "cloze": "Son père {{a le bras long}}, il lui trouvera un stage.",
+            "translations": {
+              "zh": "他父亲神通广大，会给他找到实习的。",
+              "en": "His father has connections; he'll find him an internship."
+            }
+          }
+        ],
+        "usageNote": "字面意思“手臂很长”。"
+      }
+    ]
+  },
+  {
+    "headword": "tomber à pic",
+    "phonetic": "/tɔ̃.be.a.pik/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "arriver exactement au bon moment",
+        "translations": {
+          "zh": "来得正好；恰逢其时",
+          "en": "to come at just the right time"
+        },
+        "examples": [
+          {
+            "text": "Tu tombes à pic, on avait besoin de toi !",
+            "cloze": "Tu {{tombes à pic}}, on avait besoin de toi !",
+            "translations": {
+              "zh": "你来得正好，我们正需要你！",
+              "en": "You've come at just the right time, we needed you!"
+            }
+          }
+        ],
+        "usageNote": "口语；近义 tomber pile。"
+      }
+    ]
+  },
+  {
+    "headword": "il pleut des cordes",
+    "phonetic": "/il.plø.de.kɔʁd/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "il pleut très fort",
+        "translations": {
+          "zh": "大雨倾盆；下瓢泼大雨",
+          "en": "it's raining cats and dogs"
+        },
+        "examples": [
+          {
+            "text": "Prends un parapluie, il pleut des cordes.",
+            "cloze": "Prends un parapluie, {{il pleut des cordes}}.",
+            "translations": {
+              "zh": "带把伞吧，外面下着瓢泼大雨。",
+              "en": "Take an umbrella, it's pouring down."
+            }
+          }
+        ],
+        "usageNote": "字面意思“下绳子”。"
+      }
+    ]
+  },
+  {
+    "headword": "en avoir ras le bol",
+    "phonetic": "/ɑ̃.na.vwaʁ.ʁa.lə.bɔl/",
+    "cefr": "C1",
+    "frequencyRank": 11500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "en avoir assez, être exaspéré",
+        "translations": {
+          "zh": "受够了；忍无可忍",
+          "en": "to be fed up"
+        },
+        "examples": [
+          {
+            "text": "J'en ai ras le bol de ces réunions inutiles !",
+            "cloze": "J'{{en ai ras le bol}} de ces réunions inutiles !",
+            "translations": {
+              "zh": "这些没用的会我真受够了！",
+              "en": "I'm fed up with these pointless meetings!"
+            }
+          }
+        ],
+        "usageNote": "口语。字面意思“碗满到边了”；名词 un ras-le-bol（不满情绪）。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir les dents longues",
+    "phonetic": "/a.vwaʁ.le.dɑ̃.lɔ̃ɡ/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être très ambitieux",
+        "translations": {
+          "zh": "野心勃勃",
+          "en": "to be very ambitious"
+        },
+        "examples": [
+          {
+            "text": "Ce jeune cadre a les dents longues.",
+            "cloze": "Ce jeune cadre {{a les dents longues}}.",
+            "translations": {
+              "zh": "这个年轻主管野心勃勃。",
+              "en": "This young manager is very ambitious."
+            }
+          }
+        ],
+        "usageNote": "字面意思“牙很长”；可褒可贬。"
+      }
+    ]
+  },
+  {
+    "headword": "être aux anges",
+    "phonetic": "/ɛtʁ.o.zɑ̃ʒ/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être extrêmement heureux",
+        "translations": {
+          "zh": "欣喜若狂；乐开了花",
+          "en": "to be over the moon"
+        },
+        "examples": [
+          {
+            "text": "Depuis la naissance de sa fille, il est aux anges.",
+            "cloze": "Depuis la naissance de sa fille, il {{est aux anges}}.",
+            "translations": {
+              "zh": "女儿出生后，他高兴得不得了。",
+              "en": "Since his daughter was born he's been over the moon."
+            }
+          }
+        ],
+        "usageNote": "字面意思“在天使身边”。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir d'autres chats à fouetter",
+    "phonetic": "/a.vwaʁ.dotʁ.ʃa.za.fwɛ.te/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "avoir des choses plus importantes à faire",
+        "translations": {
+          "zh": "有更要紧的事要做",
+          "en": "to have bigger fish to fry"
+        },
+        "examples": [
+          {
+            "text": "Désolé, j'ai d'autres chats à fouetter.",
+            "cloze": "Désolé, j'{{ai d'autres chats à fouetter}}.",
+            "translations": {
+              "zh": "抱歉，我有更要紧的事。",
+              "en": "Sorry, I've got bigger fish to fry."
+            }
+          }
+        ],
+        "usageNote": "字面意思“有别的猫要抽打”。"
+      }
+    ]
+  },
+  {
+    "headword": "noyer le poisson",
+    "phonetic": "/nwa.je.lə.pwa.sɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "embrouiller une question pour éviter d'y répondre",
+        "translations": {
+          "zh": "混淆视听；转移话题",
+          "en": "to muddy the waters"
+        },
+        "examples": [
+          {
+            "text": "Le ministre a noyé le poisson au lieu de répondre.",
+            "cloze": "Le ministre {{a noyé le poisson}} au lieu de répondre.",
+            "translations": {
+              "zh": "部长没有正面回答，而是在混淆视听。",
+              "en": "Instead of answering, the minister muddied the waters."
+            }
+          }
+        ],
+        "usageNote": "字面意思“淹死鱼”。政治评论常用。"
+      }
+    ]
+  },
+  {
+    "headword": "mettre de l'eau dans son vin",
+    "phonetic": "/mɛtʁ.də.lo.dɑ̃.sɔ̃.vɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "devenir moins exigeant, modérer ses positions",
+        "translations": {
+          "zh": "降低要求；作出让步",
+          "en": "to tone it down, to compromise"
+        },
+        "examples": [
+          {
+            "text": "Les syndicats ont dû mettre de l'eau dans leur vin.",
+            "cloze": "Les syndicats ont dû {{mettre de l'eau dans leur vin}}.",
+            "translations": {
+              "zh": "工会不得不降低要求。",
+              "en": "The unions had to tone down their demands."
+            }
+          }
+        ],
+        "usageNote": "字面意思“往酒里兑水”。son 随主语变化。"
+      }
+    ]
+  },
+  {
+    "headword": "ne pas y aller par quatre chemins",
+    "phonetic": "/nə.pa.zi.a.le.paʁ.katʁ.ʃə.mɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "parler franchement, sans détour",
+        "translations": {
+          "zh": "直截了当；开门见山",
+          "en": "not to beat about the bush"
+        },
+        "examples": [
+          {
+            "text": "Je ne vais pas y aller par quatre chemins : votre projet est refusé.",
+            "cloze": "Je {{ne vais pas y aller par quatre chemins}} : votre projet est refusé.",
+            "translations": {
+              "zh": "我就直说了：您的方案被否决了。",
+              "en": "I won't beat about the bush: your project has been rejected."
+            }
+          }
+        ],
+        "usageNote": "字面意思“不走四条路”。"
+      }
+    ]
+  },
+  {
+    "headword": "prendre le taureau par les cornes",
+    "phonetic": "/pʁɑ̃dʁ.lə.to.ʁo.paʁ.le.kɔʁn/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "affronter une difficulté avec courage et directement",
+        "translations": {
+          "zh": "迎难而上；直面难题",
+          "en": "to take the bull by the horns"
+        },
+        "examples": [
+          {
+            "text": "Il est temps de prendre le taureau par les cornes.",
+            "cloze": "Il est temps de {{prendre le taureau par les cornes}}.",
+            "translations": {
+              "zh": "是时候直面问题了。",
+              "en": "It's time to take the bull by the horns."
+            }
+          }
+        ],
+        "usageNote": "与英语说法完全对应。"
+      }
+    ]
+  },
+  {
+    "headword": "la goutte d'eau qui fait déborder le vase",
+    "phonetic": "/la.ɡut.do.ki.fɛ.de.bɔʁ.de.lə.vaz/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "petit incident qui, après d'autres, provoque une réaction violente",
+        "translations": {
+          "zh": "压垮骆驼的最后一根稻草",
+          "en": "the last straw"
+        },
+        "examples": [
+          {
+            "text": "Ce dernier retard, c'est la goutte d'eau qui fait déborder le vase.",
+            "cloze": "Ce dernier retard, c'est {{la goutte d'eau qui fait déborder le vase}}.",
+            "translations": {
+              "zh": "这次又迟到，真是压垮骆驼的最后一根稻草。",
+              "en": "This latest delay is the last straw."
+            }
+          }
+        ],
+        "usageNote": "字面意思“让花瓶溢出的那滴水”。"
+      }
+    ]
+  },
+  {
+    "headword": "revenir à ses moutons",
+    "phonetic": "/ʁə.və.niʁ.a.se.mu.tɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "revenir au sujet principal après une digression",
+        "translations": {
+          "zh": "言归正传",
+          "en": "to get back to the subject"
+        },
+        "examples": [
+          {
+            "text": "Bon, revenons à nos moutons : le budget.",
+            "cloze": "Bon, {{revenons à nos moutons}} : le budget.",
+            "translations": {
+              "zh": "好，言归正传：说说预算。",
+              "en": "Right, let's get back to the point: the budget."
+            }
+          }
+        ],
+        "usageNote": "出自中世纪闹剧《巴特林律师》。常用 Revenons à nos moutons。"
+      }
+    ]
+  },
+  {
+    "headword": "rouler sur l'or",
+    "phonetic": "/ʁu.le.syʁ.lɔʁ/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être très riche",
+        "translations": {
+          "zh": "腰缠万贯；富得流油",
+          "en": "to be rolling in money"
+        },
+        "examples": [
+          {
+            "text": "Depuis qu'il a vendu sa start-up, il roule sur l'or.",
+            "cloze": "Depuis qu'il a vendu sa start-up, il {{roule sur l'or}}.",
+            "translations": {
+              "zh": "自从卖掉初创公司，他就富得流油了。",
+              "en": "Since he sold his start-up, he's been rolling in money."
+            }
+          }
+        ],
+        "usageNote": "字面意思“在金子上打滚”。常用于否定句：ils ne roulent pas sur l'or（他们并不富裕）。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir le vent en poupe",
+    "phonetic": "/a.vwaʁ.lə.vɑ̃.ɑ̃.pup/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "connaître le succès, être favorisé par les circonstances",
+        "translations": {
+          "zh": "一帆风顺；势头正旺",
+          "en": "to be on a roll, to ride high"
+        },
+        "examples": [
+          {
+            "text": "Les voitures électriques ont le vent en poupe.",
+            "cloze": "Les voitures électriques {{ont le vent en poupe}}.",
+            "translations": {
+              "zh": "电动汽车势头正旺。",
+              "en": "Electric cars are riding high."
+            }
+          }
+        ],
+        "usageNote": "字面意思“顺风从船尾吹来”，正好对应“一帆风顺”。"
+      }
+    ]
+  },
+  {
+    "headword": "battre le fer pendant qu'il est chaud",
+    "phonetic": "/batʁ.lə.fɛʁ.pɑ̃.dɑ̃.ki.lɛ.ʃo/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "agir sans tarder quand l'occasion est favorable",
+        "translations": {
+          "zh": "趁热打铁",
+          "en": "to strike while the iron is hot"
+        },
+        "examples": [
+          {
+            "text": "Les ventes décollent : il faut battre le fer pendant qu'il est chaud.",
+            "cloze": "Les ventes décollent : il faut {{battre le fer pendant qu'il est chaud}}.",
+            "translations": {
+              "zh": "销量起来了，得趁热打铁。",
+              "en": "Sales are taking off: we must strike while the iron is hot."
+            }
+          }
+        ],
+        "usageNote": "与汉语“趁热打铁”完全对应。"
+      }
+    ]
+  },
+  {
+    "headword": "faire d'une pierre deux coups",
+    "phonetic": "/fɛʁ.dyn.pjɛʁ.dø.ku/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "obtenir deux résultats en une seule action",
+        "translations": {
+          "zh": "一石二鸟；一举两得",
+          "en": "to kill two birds with one stone"
+        },
+        "examples": [
+          {
+            "text": "En allant à Lyon, je fais d'une pierre deux coups : travail et famille.",
+            "cloze": "En allant à Lyon, je {{fais d'une pierre deux coups}} : travail et famille.",
+            "translations": {
+              "zh": "去里昂我一举两得：既工作又探亲。",
+              "en": "Going to Lyon, I kill two birds with one stone: work and family."
+            }
+          }
+        ],
+        "usageNote": "字面意思“一块石头打两下”。"
+      }
+    ]
+  },
+  {
+    "headword": "chercher la petite bête",
+    "phonetic": "/ʃɛʁ.ʃe.la.pə.tit.bɛt/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "chercher le moindre défaut, critiquer pour des détails",
+        "translations": {
+          "zh": "吹毛求疵；鸡蛋里挑骨头",
+          "en": "to nitpick"
+        },
+        "examples": [
+          {
+            "text": "Mon chef cherche toujours la petite bête dans mes rapports.",
+            "cloze": "Mon chef {{cherche toujours la petite bête}} dans mes rapports.",
+            "translations": {
+              "zh": "我老板总在我的报告里鸡蛋里挑骨头。",
+              "en": "My boss always nitpicks my reports."
+            }
+          }
+        ],
+        "usageNote": "字面意思“找小虫子”。"
+      }
+    ]
+  },
+  {
+    "headword": "se faire rouler dans la farine",
+    "phonetic": "/sə.fɛʁ.ʁu.le.dɑ̃.la.fa.ʁin/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "se faire tromper, duper",
+        "translations": {
+          "zh": "上当受骗；被人耍了",
+          "en": "to be taken for a ride"
+        },
+        "examples": [
+          {
+            "text": "Avec ce vendeur, je me suis fait rouler dans la farine.",
+            "cloze": "Avec ce vendeur, je {{me suis fait rouler dans la farine}}.",
+            "translations": {
+              "zh": "碰上那个卖家，我被骗得团团转。",
+              "en": "With that seller, I got taken for a ride."
+            }
+          }
+        ],
+        "usageNote": "字面意思“被裹上面粉”。口语。"
+      }
+    ]
+  },
+  {
+    "headword": "être sur la même longueur d'onde",
+    "phonetic": "/ɛtʁ.syʁ.la.mɛm.lɔ̃.ɡœʁ.dɔ̃d/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "bien se comprendre, avoir les mêmes idées",
+        "translations": {
+          "zh": "想法一致；心有灵犀",
+          "en": "to be on the same wavelength"
+        },
+        "examples": [
+          {
+            "text": "Avec mon associé, nous sommes sur la même longueur d'onde.",
+            "cloze": "Avec mon associé, nous {{sommes sur la même longueur d'onde}}.",
+            "translations": {
+              "zh": "我和合伙人想法一致。",
+              "en": "My partner and I are on the same wavelength."
+            }
+          }
+        ],
+        "usageNote": "字面意思“在同一波长上”。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir la tête dans le guidon",
+    "phonetic": "/a.vwaʁ.la.tɛt.dɑ̃.lə.ɡi.dɔ̃/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être tellement pris par son travail qu'on manque de recul",
+        "translations": {
+          "zh": "埋头苦干，无暇他顾",
+          "en": "to be too busy to see the bigger picture"
+        },
+        "examples": [
+          {
+            "text": "En fin de trimestre, toute l'équipe a la tête dans le guidon.",
+            "cloze": "En fin de trimestre, toute l'équipe {{a la tête dans le guidon}}.",
+            "translations": {
+              "zh": "季度末，整个团队都忙得抬不起头。",
+              "en": "At the end of the quarter, the whole team is flat out."
+            }
+          }
+        ],
+        "usageNote": "字面意思“头埋在自行车车把上”（像拼命骑车的车手）。口语。"
+      }
+    ]
+  },
+  {
+    "headword": "tirer son épingle du jeu",
+    "phonetic": "/ti.ʁe.sɔ̃.ne.pɛ̃ɡl.dy.ʒø/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "se sortir habilement d'une situation difficile",
+        "translations": {
+          "zh": "全身而退；巧妙脱身",
+          "en": "to come out on top, to get out unscathed"
+        },
+        "examples": [
+          {
+            "text": "Malgré la crise, cette marque a su tirer son épingle du jeu.",
+            "cloze": "Malgré la crise, cette marque a su {{tirer son épingle du jeu}}.",
+            "translations": {
+              "zh": "尽管危机重重，这个品牌还是成功突围了。",
+              "en": "Despite the crisis, this brand managed to come out ahead."
+            }
+          }
+        ],
+        "usageNote": "源自旧时儿童游戏。商业评论常用。"
+      }
+    ]
+  },
+  {
+    "headword": "mettre la charrue avant les bœufs",
+    "phonetic": "/mɛtʁ.la.ʃa.ʁy.a.vɑ̃.le.bø/",
+    "cefr": "C1",
+    "frequencyRank": 16000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "faire les choses dans le mauvais ordre",
+        "translations": {
+          "zh": "本末倒置；操之过急",
+          "en": "to put the cart before the horse"
+        },
+        "examples": [
+          {
+            "text": "Choisir la décoration avant d'acheter l'appartement, c'est mettre la charrue avant les bœufs.",
+            "cloze": "Choisir la décoration avant d'acheter l'appartement, c'est {{mettre la charrue avant les bœufs}}.",
+            "translations": {
+              "zh": "还没买房就挑装修，这是本末倒置。",
+              "en": "Choosing the decor before buying the flat is putting the cart before the horse."
+            }
+          }
+        ],
+        "usageNote": "bœufs 复数读 /bø/，f 不发音。"
+      }
+    ]
+  },
+  {
+    "headword": "vendre la peau de l'ours avant de l'avoir tué",
+    "phonetic": "/vɑ̃dʁ.la.po.də.luʁs.a.vɑ̃.də.la.vwaʁ.tɥe/",
+    "cefr": "C1",
+    "frequencyRank": 17000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "se réjouir d'un succès qui n'est pas encore certain",
+        "translations": {
+          "zh": "高兴得太早；八字还没一撇",
+          "en": "to count one's chickens before they hatch"
+        },
+        "examples": [
+          {
+            "text": "Ne vendons pas la peau de l'ours avant de l'avoir tué.",
+            "cloze": "{{Ne vendons pas la peau de l'ours avant de l'avoir tué}}.",
+            "translations": {
+              "zh": "别高兴得太早，八字还没一撇呢。",
+              "en": "Let's not count our chickens before they hatch."
+            }
+          }
+        ],
+        "usageNote": "字面意思“还没打死熊就卖熊皮”，出自拉封丹寓言。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir une faim de loup",
+    "phonetic": "/a.vwaʁ.yn.fɛ̃.də.lu/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "avoir très faim",
+        "translations": {
+          "zh": "饿得要命；饥肠辘辘",
+          "en": "to be starving"
+        },
+        "examples": [
+          {
+            "text": "Après la randonnée, on avait une faim de loup.",
+            "cloze": "Après la randonnée, on {{avait une faim de loup}}.",
+            "translations": {
+              "zh": "徒步之后我们饿坏了。",
+              "en": "After the hike we were starving."
+            }
+          }
+        ],
+        "usageNote": "字面意思“狼一样的饥饿”。"
+      }
+    ]
+  },
+  {
+    "headword": "être au pied du mur",
+    "phonetic": "/ɛtʁ.o.pje.dy.myʁ/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être obligé d'agir ou de décider, sans échappatoire",
+        "translations": {
+          "zh": "被逼到墙角；骑虎难下",
+          "en": "to have one's back to the wall"
+        },
+        "examples": [
+          {
+            "text": "Maintenant que la date est fixée, nous sommes au pied du mur.",
+            "cloze": "Maintenant que la date est fixée, nous {{sommes au pied du mur}}.",
+            "translations": {
+              "zh": "日期既已定下，我们已无退路。",
+              "en": "Now the date is set, our backs are to the wall."
+            }
+          }
+        ],
+        "usageNote": "字面意思“站在墙脚下”。mettre qqn au pied du mur：逼某人表态。"
+      }
+    ]
+  },
+  {
+    "headword": "mettre sa main au feu",
+    "phonetic": "/mɛtʁ.sa.mɛ̃.o.fø/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être absolument sûr de quelque chose",
+        "translations": {
+          "zh": "打包票；敢担保",
+          "en": "to stake one's life on it"
+        },
+        "examples": [
+          {
+            "text": "C'est lui qui a pris l'argent, j'en mettrais ma main au feu.",
+            "cloze": "C'est lui qui a pris l'argent, j'en {{mettrais ma main au feu}}.",
+            "translations": {
+              "zh": "钱就是他拿的，我敢打包票。",
+              "en": "He's the one who took the money, I'd stake my life on it."
+            }
+          }
+        ],
+        "usageNote": "字面意思“把手伸进火里（发誓）”，常用条件式 j'en mettrais ma main au feu。"
+      }
+    ]
+  },
+  {
+    "headword": "coûter un bras",
+    "phonetic": "/ku.te.œ̃.bʁa/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "coûter très cher",
+        "translations": {
+          "zh": "贵得离谱",
+          "en": "to cost an arm and a leg"
+        },
+        "examples": [
+          {
+            "text": "Réparer cette vieille voiture va te coûter un bras.",
+            "cloze": "Réparer cette vieille voiture va te {{coûter un bras}}.",
+            "translations": {
+              "zh": "修这辆旧车得花你一大笔钱。",
+              "en": "Repairing this old car will cost you an arm and a leg."
+            }
+          }
+        ],
+        "usageNote": "口语，比 coûter les yeux de la tête 更随意。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir le cœur sur la main",
+    "phonetic": "/a.vwaʁ.lə.kœʁ.syʁ.la.mɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être très généreux",
+        "translations": {
+          "zh": "慷慨大方；乐善好施",
+          "en": "to be very generous"
+        },
+        "examples": [
+          {
+            "text": "Ma grand-mère a le cœur sur la main.",
+            "cloze": "Ma grand-mère {{a le cœur sur la main}}.",
+            "translations": {
+              "zh": "我奶奶为人非常慷慨。",
+              "en": "My grandmother is generosity itself."
+            }
+          }
+        ],
+        "usageNote": "字面意思“心放在手上（随时给人）”。"
+      }
+    ]
+  },
+  {
+    "headword": "faire la sourde oreille",
+    "phonetic": "/fɛʁ.la.suʁd.ɔ.ʁɛj/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "faire semblant de ne pas entendre une demande",
+        "translations": {
+          "zh": "充耳不闻；装聋作哑",
+          "en": "to turn a deaf ear"
+        },
+        "examples": [
+          {
+            "text": "Le gouvernement fait la sourde oreille aux revendications des agriculteurs.",
+            "cloze": "Le gouvernement {{fait la sourde oreille}} aux revendications des agriculteurs.",
+            "translations": {
+              "zh": "政府对农民的诉求充耳不闻。",
+              "en": "The government is turning a deaf ear to the farmers' demands."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "se creuser la tête",
+    "phonetic": "/sə.kʁø.ze.la.tɛt/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "réfléchir longuement et intensément",
+        "translations": {
+          "zh": "绞尽脑汁；冥思苦想",
+          "en": "to rack one's brains"
+        },
+        "examples": [
+          {
+            "text": "Je me creuse la tête pour trouver un cadeau original.",
+            "cloze": "Je {{me creuse la tête}} pour trouver un cadeau original.",
+            "translations": {
+              "zh": "我绞尽脑汁想找一份别致的礼物。",
+              "en": "I'm racking my brains for an original present."
+            }
+          }
+        ],
+        "usageNote": "字面意思“挖自己的脑袋”。"
+      }
+    ]
+  },
+  {
+    "headword": "trou de mémoire",
+    "phonetic": "/tʁu.də.me.mwaʁ/",
+    "cefr": "C1",
+    "frequencyRank": 14500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "trous de mémoire"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "oubli momentané",
+        "translations": {
+          "zh": "一时想不起；突然忘词",
+          "en": "memory lapse, mental blank"
+        },
+        "examples": [
+          {
+            "text": "Pendant l'oral, j'ai eu un trou de mémoire.",
+            "cloze": "Pendant l'oral, j'ai eu un {{trou de mémoire}}.",
+            "translations": {
+              "zh": "口试时我突然脑子一片空白。",
+              "en": "During the oral exam, my mind went blank."
+            }
+          }
+        ],
+        "usageNote": "avoir un trou de mémoire：一时想不起。"
+      }
+    ]
+  },
+  {
+    "headword": "la main dans le sac",
+    "phonetic": "/la.mɛ̃.dɑ̃.lə.sak/",
+    "cefr": "C1",
+    "frequencyRank": 14000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "en train de commettre un vol ou une faute",
+        "translations": {
+          "zh": "当场抓获；人赃俱获",
+          "en": "red-handed"
+        },
+        "examples": [
+          {
+            "text": "Le voleur a été pris la main dans le sac.",
+            "cloze": "Le voleur a été pris {{la main dans le sac}}.",
+            "translations": {
+              "zh": "小偷被当场抓获。",
+              "en": "The thief was caught red-handed."
+            }
+          }
+        ],
+        "usageNote": "常用 prendre / surprendre qqn la main dans le sac。"
+      }
+    ]
+  },
+  {
+    "headword": "sauter du coq à l'âne",
+    "phonetic": "/so.te.dy.kɔ.ka.lan/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "passer brusquement d'un sujet à un autre sans transition",
+        "translations": {
+          "zh": "东拉西扯；话题跳来跳去",
+          "en": "to jump from one subject to another"
+        },
+        "examples": [
+          {
+            "text": "Il saute du coq à l'âne, impossible de suivre sa conversation.",
+            "cloze": "Il {{saute du coq à l'âne}}, impossible de suivre sa conversation.",
+            "translations": {
+              "zh": "他说话东一句西一句，根本跟不上。",
+              "en": "He jumps from one topic to the next; impossible to follow."
+            }
+          }
+        ],
+        "usageNote": "字面意思“从公鸡跳到驴”。"
+      }
+    ]
+  },
+  {
+    "headword": "à vue d'œil",
+    "phonetic": "/a.vy.dœj/",
+    "cefr": "C1",
+    "frequencyRank": 13000,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "très rapidement, de façon visible",
+        "translations": {
+          "zh": "眼看着；肉眼可见地",
+          "en": "visibly, before one's very eyes"
+        },
+        "examples": [
+          {
+            "text": "Depuis qu'il fait du sport, il maigrit à vue d'œil.",
+            "cloze": "Depuis qu'il fait du sport, il maigrit {{à vue d'œil}}.",
+            "translations": {
+              "zh": "自从开始运动，他肉眼可见地瘦了。",
+              "en": "Since he started exercising, he's been visibly losing weight."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "du jour au lendemain",
+    "phonetic": "/dy.ʒuʁ.o.lɑ̃d.mɛ̃/",
+    "cefr": "C1",
+    "frequencyRank": 10500,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "très brusquement, d'un moment à l'autre",
+        "translations": {
+          "zh": "一夜之间；突然",
+          "en": "overnight"
+        },
+        "examples": [
+          {
+            "text": "Du jour au lendemain, il a tout quitté pour partir en Asie.",
+            "cloze": "{{Du jour au lendemain}}, il a tout quitté pour partir en Asie.",
+            "translations": {
+              "zh": "一夜之间，他抛下一切去了亚洲。",
+              "en": "Overnight, he left everything to go to Asia."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "au pied levé",
+    "phonetic": "/o.pje.lə.ve/",
+    "cefr": "C1",
+    "frequencyRank": 15500,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "sans préparation, à l'improviste",
+        "translations": {
+          "zh": "临时；仓促上阵",
+          "en": "at a moment's notice"
+        },
+        "examples": [
+          {
+            "text": "J'ai dû remplacer ma collègue au pied levé.",
+            "cloze": "J'ai dû remplacer ma collègue {{au pied levé}}.",
+            "translations": {
+              "zh": "我不得不临时顶替我的同事。",
+              "en": "I had to stand in for my colleague at a moment's notice."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "à tout bout de champ",
+    "phonetic": "/a.tu.bu.də.ʃɑ̃/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "à tout moment, sans cesse",
+        "translations": {
+          "zh": "动不动；时时刻刻",
+          "en": "all the time, at every turn"
+        },
+        "examples": [
+          {
+            "text": "Il regarde son téléphone à tout bout de champ.",
+            "cloze": "Il regarde son téléphone {{à tout bout de champ}}.",
+            "translations": {
+              "zh": "他动不动就看手机。",
+              "en": "He checks his phone all the time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mettre l'eau à la bouche",
+    "phonetic": "/mɛtʁ.lo.a.la.buʃ/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "donner très envie de manger ou d'avoir quelque chose",
+        "translations": {
+          "zh": "令人垂涎；勾起欲望",
+          "en": "to make one's mouth water"
+        },
+        "examples": [
+          {
+            "text": "L'odeur des croissants me met l'eau à la bouche.",
+            "cloze": "L'odeur des croissants me {{met l'eau à la bouche}}.",
+            "translations": {
+              "zh": "可颂的香味让我直流口水。",
+              "en": "The smell of croissants makes my mouth water."
+            }
+          }
+        ],
+        "usageNote": "也可比喻：这个方案很诱人。"
+      }
+    ]
+  },
+  {
+    "headword": "il n'y a pas de quoi fouetter un chat",
+    "phonetic": "/il.nja.pa.də.kwa.fwɛ.te.œ̃.ʃa/",
+    "cefr": "C1",
+    "frequencyRank": 16500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ce n'est pas grave, cela ne mérite pas qu'on s'énerve",
+        "translations": {
+          "zh": "没什么大不了的；不值得大惊小怪",
+          "en": "it's no big deal"
+        },
+        "examples": [
+          {
+            "text": "Il a cassé un verre, il n'y a pas de quoi fouetter un chat.",
+            "cloze": "Il a cassé un verre, {{il n'y a pas de quoi fouetter un chat}}.",
+            "translations": {
+              "zh": "他打碎了一个杯子，没什么大不了的。",
+              "en": "He broke a glass; it's no big deal."
+            }
+          }
+        ],
+        "usageNote": "字面意思“没有理由抽打一只猫”。"
+      }
+    ]
+  },
+  {
+    "headword": "se tourner les pouces",
+    "phonetic": "/sə.tuʁ.ne.le.pus/",
+    "cefr": "C1",
+    "frequencyRank": 15000,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "ne rien faire, rester inactif",
+        "translations": {
+          "zh": "无所事事；闲得发慌",
+          "en": "to twiddle one's thumbs"
+        },
+        "examples": [
+          {
+            "text": "Pendant que je travaille, lui se tourne les pouces.",
+            "cloze": "Pendant que je travaille, lui {{se tourne les pouces}}.",
+            "translations": {
+              "zh": "我在干活，他却无所事事。",
+              "en": "While I work, he just twiddles his thumbs."
+            }
+          }
+        ],
+        "usageNote": "字面意思“转大拇指”。"
+      }
+    ]
+  },
+  {
+    "headword": "avoir la gueule de bois",
+    "phonetic": "/a.vwaʁ.la.ɡœl.də.bwa/",
+    "cefr": "C1",
+    "frequencyRank": 13500,
+    "senses": [
+      {
+        "partOfSpeech": "idiom",
+        "definition": "être malade après avoir trop bu la veille",
+        "translations": {
+          "zh": "宿醉",
+          "en": "to have a hangover"
+        },
+        "examples": [
+          {
+            "text": "Après la fête, tout le monde avait la gueule de bois.",
+            "cloze": "Après la fête, tout le monde {{avait la gueule de bois}}.",
+            "translations": {
+              "zh": "派对过后，大家都宿醉未醒。",
+              "en": "After the party, everyone had a hangover."
+            }
+          }
+        ],
+        "usageNote": "俗语（gueule 原指动物的嘴），朋友间常用，正式场合避免。"
+      }
+    ]
+  }
+]

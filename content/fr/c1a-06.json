@@ -1,0 +1,990 @@
+[
+ {
+  "headword": "dès lors",
+  "phonetic": "/dɛ lɔʁ/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "par conséquent ; à partir de ce moment",
+    "translations": {
+     "zh": "因此；从那时起",
+     "en": "consequently; from then on"
+    },
+    "examples": [
+     {
+      "text": "Les preuves manquent ; dès lors, l'accusé doit être libéré.",
+      "translations": {
+       "zh": "证据不足，因此被告应当获释。",
+       "en": "There is no evidence; consequently, the accused must be released."
+      },
+      "cloze": "Les preuves manquent ; {{dès lors}}, l'accusé doit être libéré."
+     }
+    ],
+    "usageNote": "dès lors que：既然；一旦。"
+   }
+  ]
+ },
+ {
+  "headword": "à l'instar de",
+  "phonetic": "/a lɛ̃s.taʁ də/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à l'exemple de, comme",
+    "translations": {
+     "zh": "仿效；如同",
+     "en": "like, following the example of"
+    },
+    "examples": [
+     {
+      "text": "À l'instar de ses voisins, le pays a réduit ses impôts.",
+      "translations": {
+       "zh": "和邻国一样，该国也减了税。",
+       "en": "Like its neighbours, the country has cut taxes."
+      },
+      "cloze": "{{À l'instar de}} ses voisins, le pays a réduit ses impôts."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pour autant",
+  "phonetic": "/puʁ o.tɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "malgré cela, pour cette raison",
+    "translations": {
+     "zh": "尽管如此（却并不…）",
+     "en": "for all that, nevertheless"
+    },
+    "examples": [
+     {
+      "text": "Il est riche, mais il n'est pas heureux pour autant.",
+      "translations": {
+       "zh": "他很有钱，但并不因此而幸福。",
+       "en": "He is rich, but he is not happy for all that."
+      },
+      "cloze": "Il est riche, mais il n'est pas heureux {{pour autant}}."
+     }
+    ],
+    "usageNote": "多用于否定句；pour autant que + 虚拟式：就…而言。"
+   }
+  ]
+ },
+ {
+  "headword": "or",
+  "phonetic": "/ɔʁ/",
+  "cefr": "C1",
+  "frequencyRank": 3000,
+  "homograph": 2,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "introduit un fait nouveau qui fait avancer ou contredit un raisonnement",
+    "translations": {
+     "zh": "然而；可是（引出关键事实）",
+     "en": "now, yet, but"
+    },
+    "examples": [
+     {
+      "text": "Il dit être resté chez lui ; or on l'a vu en ville.",
+      "translations": {
+       "zh": "他说自己一直待在家里，可是有人在城里看见了他。",
+       "en": "He says he stayed at home, yet he was seen in town."
+      }
+     }
+    ],
+    "usageNote": "推理中引出小前提：Tous les hommes sont mortels ; or Socrate est un homme…；与名词 or（金子）同形。"
+   }
+  ]
+ },
+ {
+  "headword": "dès lors que",
+  "phonetic": "/dɛ lɔʁ kə/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "du moment que, puisque",
+    "translations": {
+     "zh": "既然；只要",
+     "en": "since, as soon as"
+    },
+    "examples": [
+     {
+      "text": "Dès lors que les conditions sont réunies, le contrat est valable.",
+      "translations": {
+       "zh": "只要条件具备，合同即有效。",
+       "en": "As soon as the conditions are met, the contract is valid."
+      },
+      "cloze": "{{Dès lors que}} les conditions sont réunies, le contrat est valable."
+     }
+    ],
+    "usageNote": "后接直陈式。"
+   }
+  ]
+ },
+ {
+  "headword": "pour peu que",
+  "phonetic": "/puʁ pø kə/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "si seulement, il suffit que",
+    "translations": {
+     "zh": "只要稍微",
+     "en": "if only, provided that"
+    },
+    "examples": [
+     {
+      "text": "Pour peu que tu fasses un effort, tu réussiras.",
+      "translations": {
+       "zh": "只要你稍加努力，就会成功。",
+       "en": "If only you make an effort, you will succeed."
+      },
+      "cloze": "{{Pour peu que}} tu fasses un effort, tu réussiras."
+     }
+    ],
+    "usageNote": "后接虚拟式。"
+   }
+  ]
+ },
+ {
+  "headword": "encore que",
+  "phonetic": "/ɑ̃.kɔʁ kə/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "bien que (apporte une restriction)",
+    "translations": {
+     "zh": "虽然；尽管（补充保留意见）",
+     "en": "although, even though"
+    },
+    "examples": [
+     {
+      "text": "Le plan est bon, encore que certains points soient discutables.",
+      "translations": {
+       "zh": "计划不错，尽管有些地方还值得商榷。",
+       "en": "The plan is good, although some points are debatable."
+      },
+      "cloze": "Le plan est bon, {{encore que}} certains points soient discutables."
+     }
+    ],
+    "usageNote": "后接虚拟式，引出保留意见。"
+   }
+  ]
+ },
+ {
+  "headword": "eu égard à",
+  "phonetic": "/y e.ɡaʁ a/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en considération de",
+    "translations": {
+     "zh": "考虑到",
+     "en": "in view of, considering"
+    },
+    "examples": [
+     {
+      "text": "Eu égard à son âge, il a été dispensé de l'épreuve.",
+      "translations": {
+       "zh": "考虑到他的年龄，他被免于参加这项考试。",
+       "en": "In view of his age, he was exempted from the test."
+      },
+      "cloze": "{{Eu égard à}} son âge, il a été dispensé de l'épreuve."
+     }
+    ],
+    "usageNote": "正式书面语，多见于法律、行政文本。"
+   }
+  ]
+ },
+ {
+  "headword": "compte tenu de",
+  "phonetic": "/kɔ̃t tə.ny də/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en tenant compte de",
+    "translations": {
+     "zh": "鉴于；考虑到",
+     "en": "given, in view of"
+    },
+    "examples": [
+     {
+      "text": "Compte tenu de la situation, la réunion est annulée.",
+      "translations": {
+       "zh": "鉴于目前情况，会议取消。",
+       "en": "Given the situation, the meeting is cancelled."
+      },
+      "cloze": "{{Compte tenu de}} la situation, la réunion est annulée."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "au regard de",
+  "phonetic": "/o ʁə.ɡaʁ də/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "par rapport à, du point de vue de",
+    "translations": {
+     "zh": "从…角度看；根据",
+     "en": "in light of, with regard to"
+    },
+    "examples": [
+     {
+      "text": "Au regard de la loi, cette pratique est interdite.",
+      "translations": {
+       "zh": "从法律角度看，这种做法是被禁止的。",
+       "en": "In the eyes of the law, this practice is prohibited."
+      },
+      "cloze": "{{Au regard de}} la loi, cette pratique est interdite."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en vertu de",
+  "phonetic": "/ɑ̃ vɛʁ.ty də/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en application de, conformément à",
+    "translations": {
+     "zh": "根据；依据",
+     "en": "by virtue of, under"
+    },
+    "examples": [
+     {
+      "text": "En vertu de l'article 5, vous avez droit à une indemnité.",
+      "translations": {
+       "zh": "根据第五条，您有权获得赔偿。",
+       "en": "Under Article 5, you are entitled to compensation."
+      },
+      "cloze": "{{En vertu de}} l'article 5, vous avez droit à une indemnité."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "au détriment de",
+  "phonetic": "/o de.tʁi.mɑ̃ də/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en causant du tort à",
+    "translations": {
+     "zh": "以损害…为代价",
+     "en": "to the detriment of, at the expense of"
+    },
+    "examples": [
+     {
+      "text": "Il a privilégié la quantité au détriment de la qualité.",
+      "translations": {
+       "zh": "他重数量而轻质量。",
+       "en": "He favoured quantity at the expense of quality."
+      },
+      "cloze": "Il a privilégié la quantité {{au détriment de}} la qualité."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à défaut de",
+  "phonetic": "/a de.fo də/",
+  "cefr": "C1",
+  "frequencyRank": 10000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en l'absence de",
+    "translations": {
+     "zh": "没有…的话；缺少…时",
+     "en": "failing, in the absence of"
+    },
+    "examples": [
+     {
+      "text": "À défaut de preuves, le suspect a été relâché.",
+      "translations": {
+       "zh": "由于缺乏证据，嫌疑人被释放了。",
+       "en": "In the absence of evidence, the suspect was released."
+      },
+      "cloze": "{{À défaut de}} preuves, le suspect a été relâché."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "moyennant",
+  "phonetic": "/mwa.jɛ.nɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "au moyen de, en échange de",
+    "translations": {
+     "zh": "以…为代价；通过",
+     "en": "in return for, for"
+    },
+    "examples": [
+     {
+      "text": "Vous pouvez entrer moyennant un petit supplément.",
+      "translations": {
+       "zh": "补交一点费用就可以入场。",
+       "en": "You can get in for a small extra charge."
+      }
+     }
+    ],
+    "usageNote": "moyennant finances：只要付钱。"
+   }
+  ]
+ },
+ {
+  "headword": "hormis",
+  "phonetic": "/ɔʁ.mi/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "excepté, sauf",
+    "translations": {
+     "zh": "除…之外",
+     "en": "except, apart from"
+    },
+    "examples": [
+     {
+      "text": "Tous étaient présents, hormis le directeur.",
+      "translations": {
+       "zh": "除了主任，大家都到了。",
+       "en": "Everyone was present except the director."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nonobstant",
+  "phonetic": "/nɔ.nɔps.tɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 17000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "malgré, sans tenir compte de",
+    "translations": {
+     "zh": "尽管；不顾（法律书面语）",
+     "en": "notwithstanding"
+    },
+    "examples": [
+     {
+      "text": "Nonobstant ces difficultés, le projet avance.",
+      "translations": {
+       "zh": "尽管有这些困难，项目仍在推进。",
+       "en": "Notwithstanding these difficulties, the project is moving forward."
+      }
+     }
+    ],
+    "usageNote": "非常正式，多见于法律文本。"
+   }
+  ]
+ },
+ {
+  "headword": "sous réserve de",
+  "phonetic": "/su ʁe.zɛʁv də/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à la condition de",
+    "translations": {
+     "zh": "以…为条件",
+     "en": "subject to"
+    },
+    "examples": [
+     {
+      "text": "L'offre est valable sous réserve de disponibilité.",
+      "translations": {
+       "zh": "本优惠视库存情况而定。",
+       "en": "The offer is valid subject to availability."
+      },
+      "cloze": "L'offre est valable {{sous réserve de}} disponibilité."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à supposer que",
+  "phonetic": "/a sy.po.ze kə/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "en admettant que",
+    "translations": {
+     "zh": "假设",
+     "en": "assuming that, supposing that"
+    },
+    "examples": [
+     {
+      "text": "À supposer que vous ayez raison, que proposez-vous ?",
+      "translations": {
+       "zh": "假设您是对的，那您有什么建议？",
+       "en": "Assuming you are right, what do you suggest?"
+      },
+      "cloze": "{{À supposer que}} vous ayez raison, que proposez-vous ?"
+     }
+    ],
+    "usageNote": "后接虚拟式。"
+   }
+  ]
+ },
+ {
+  "headword": "quand bien même",
+  "phonetic": "/kɑ̃ bjɛ̃ mɛm/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "même si",
+    "translations": {
+     "zh": "即使",
+     "en": "even if"
+    },
+    "examples": [
+     {
+      "text": "Quand bien même il s'excuserait, je ne lui pardonnerais pas.",
+      "translations": {
+       "zh": "即使他道歉，我也不会原谅他。",
+       "en": "Even if he apologized, I would not forgive him."
+      },
+      "cloze": "{{Quand bien même}} il s'excuserait, je ne lui pardonnerais pas."
+     }
+    ],
+    "usageNote": "后接条件式。"
+   }
+  ]
+ },
+ {
+  "headword": "au même titre que",
+  "phonetic": "/o mɛm titʁ kə/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "de la même manière que",
+    "translations": {
+     "zh": "和…一样；与…同等",
+     "en": "in the same way as, just like"
+    },
+    "examples": [
+     {
+      "text": "La culture est un droit, au même titre que l'éducation.",
+      "translations": {
+       "zh": "文化和教育一样，都是一项权利。",
+       "en": "Culture is a right, just like education."
+      },
+      "cloze": "La culture est un droit, {{au même titre que}} l'éducation."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "en matière de",
+  "phonetic": "/ɑ̃ ma.tjɛʁ də/",
+  "cefr": "C1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "dans le domaine de",
+    "translations": {
+     "zh": "在…方面",
+     "en": "in terms of, as regards"
+    },
+    "examples": [
+     {
+      "text": "Le pays est en retard en matière de recherche.",
+      "translations": {
+       "zh": "该国在科研方面落后了。",
+       "en": "The country lags behind in terms of research."
+      },
+      "cloze": "Le pays est en retard {{en matière de}} recherche."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "de fait",
+  "phonetic": "/də fɛt/",
+  "cefr": "C1",
+  "frequencyRank": 8000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "effectivement, en réalité",
+    "translations": {
+     "zh": "事实上；的确",
+     "en": "in fact, indeed"
+    },
+    "examples": [
+     {
+      "text": "De fait, la situation s'est nettement améliorée.",
+      "translations": {
+       "zh": "事实上，情况已经明显好转。",
+       "en": "In fact, the situation has improved markedly."
+      },
+      "cloze": "{{De fait}}, la situation s'est nettement améliorée."
+     }
+    ],
+    "usageNote": "t 要发音：/fɛt/。"
+   }
+  ]
+ },
+ {
+  "headword": "voire",
+  "phonetic": "/vwaʁ/",
+  "cefr": "C1",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "et même (renforce ce qui précède)",
+    "translations": {
+     "zh": "甚至",
+     "en": "even, indeed"
+    },
+    "examples": [
+     {
+      "text": "Ce travail prendra des semaines, voire des mois.",
+      "translations": {
+       "zh": "这项工作需要几周，甚至几个月。",
+       "en": "This work will take weeks, even months."
+      }
+     }
+    ],
+    "usageNote": "勿与 voir（看）混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "ne serait-ce que",
+  "phonetic": "/nə sə.ʁɛs kə/",
+  "cefr": "C1",
+  "frequencyRank": 11000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "même seulement, au moins",
+    "translations": {
+     "zh": "哪怕只是；即便只是",
+     "en": "if only, even just"
+    },
+    "examples": [
+     {
+      "text": "Venez, ne serait-ce que pour une heure.",
+      "translations": {
+       "zh": "来吧，哪怕只待一个小时。",
+       "en": "Come, even if only for an hour."
+      },
+      "cloze": "Venez, {{ne serait-ce que}} pour une heure."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "à cet égard",
+  "phonetic": "/a sɛ.t‿e.ɡaʁ/",
+  "cefr": "C1",
+  "frequencyRank": 9000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "sur ce point, de ce point de vue",
+    "translations": {
+     "zh": "在这方面",
+     "en": "in this respect"
+    },
+    "examples": [
+     {
+      "text": "À cet égard, le rapport est très clair.",
+      "translations": {
+       "zh": "在这一点上，报告说得非常清楚。",
+       "en": "In this respect, the report is very clear."
+      },
+      "cloze": "{{À cet égard}}, le rapport est très clair."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "attendu que",
+  "phonetic": "/a.tɑ̃.dy kə/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "étant donné que (langage juridique)",
+    "translations": {
+     "zh": "鉴于；既然",
+     "en": "whereas, given that"
+    },
+    "examples": [
+     {
+      "text": "Attendu que le contrat n'a pas été respecté, la société est condamnée.",
+      "translations": {
+       "zh": "鉴于合同未被履行，该公司被判败诉。",
+       "en": "Given that the contract was not honoured, the company is found liable."
+      },
+      "cloze": "{{Attendu que}} le contrat n'a pas été respecté, la société est condamnée."
+     }
+    ],
+    "usageNote": "司法判决书用语；名词 les attendus：判决理由。"
+   }
+  ]
+ },
+ {
+  "headword": "en l'état",
+  "phonetic": "/ɑ̃ le.ta/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans la situation actuelle, sans modification",
+    "translations": {
+     "zh": "就现状而言；照原样",
+     "en": "as it stands"
+    },
+    "examples": [
+     {
+      "text": "En l'état, le texte ne peut pas être adopté.",
+      "translations": {
+       "zh": "就目前的版本而言，该文本无法通过。",
+       "en": "As it stands, the text cannot be adopted."
+      },
+      "cloze": "{{En l'état}}, le texte ne peut pas être adopté."
+     }
+    ],
+    "usageNote": "vendu en l'état：按现状出售。"
+   }
+  ]
+ },
+ {
+  "headword": "pâtir",
+  "phonetic": "/pɑ.tiʁ/",
+  "cefr": "C1",
+  "frequencyRank": 12000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "subir un dommage à cause de",
+    "translations": {
+     "zh": "因…受害；受…之苦",
+     "en": "to suffer (from)"
+    },
+    "examples": [
+     {
+      "text": "Les petits commerces pâtissent de la concurrence en ligne.",
+      "translations": {
+       "zh": "小商店深受网购竞争之害。",
+       "en": "Small shops are suffering from online competition."
+      },
+      "cloze": "Les petits commerces {{pâtissent}} de la concurrence en ligne."
+     }
+    ],
+    "usageNote": "pâtir de qch；按第二组动词变位：nous pâtissons。"
+   }
+  ]
+ },
+ {
+  "headword": "infléchir",
+  "phonetic": "/ɛ̃.fle.ʃiʁ/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "modifier l'orientation de",
+    "translations": {
+     "zh": "改变（方向、走势）；扭转",
+     "en": "to shift, to alter the course of"
+    },
+    "examples": [
+     {
+      "text": "Le gouvernement ne veut pas infléchir sa politique.",
+      "translations": {
+       "zh": "政府不愿调整其政策方向。",
+       "en": "The government does not want to alter the course of its policy."
+      }
+     }
+    ],
+    "usageNote": "按第二组动词变位：nous infléchissons；infléchir une tendance：扭转趋势。"
+   }
+  ]
+ },
+ {
+  "headword": "galvauder",
+  "phonetic": "/ɡal.vo.de/",
+  "cefr": "C1",
+  "frequencyRank": 16000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "dévaloriser par un usage excessif ou mauvais",
+    "translations": {
+     "zh": "滥用（以致贬值）",
+     "en": "to debase, to overuse"
+    },
+    "examples": [
+     {
+      "text": "Le mot « génie » est aujourd'hui galvaudé.",
+      "translations": {
+       "zh": "“天才”这个词如今已被用滥了。",
+       "en": "The word \"genius\" is overused nowadays."
+      },
+      "cloze": "Le mot « génie » est aujourd'hui {{galvaudé}}."
+     }
+    ],
+    "usageNote": "常用过去分词：un terme galvaudé（被用滥的词）。"
+   }
+  ]
+ },
+ {
+  "headword": "s'atteler à",
+  "phonetic": "/sa.tə.le a/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se mettre sérieusement à une tâche",
+    "translations": {
+     "zh": "着手；致力于",
+     "en": "to get down to, to tackle"
+    },
+    "examples": [
+     {
+      "text": "Le nouveau ministre s'attelle à la réforme des retraites.",
+      "translations": {
+       "zh": "新任部长着手推进退休制度改革。",
+       "en": "The new minister is tackling pension reform."
+      },
+      "cloze": "Le nouveau ministre {{s'attelle à}} la réforme des retraites."
+     }
+    ],
+    "usageNote": "变位 il s'attelle（双写 l）；本义“套（马）”。"
+   }
+  ]
+ },
+ {
+  "headword": "obérer",
+  "phonetic": "/ɔ.be.ʁe/",
+  "cefr": "C1",
+  "frequencyRank": 17000,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire peser une lourde charge sur, compromettre",
+    "translations": {
+     "zh": "使负担沉重；拖累",
+     "en": "to burden, to weigh on"
+    },
+    "examples": [
+     {
+      "text": "Ces dépenses obèrent le budget de la commune.",
+      "translations": {
+       "zh": "这些开支使市镇预算不堪重负。",
+       "en": "These expenses are weighing heavily on the town's budget."
+      },
+      "cloze": "Ces dépenses {{obèrent}} le budget de la commune."
+     }
+    ],
+    "usageNote": "书面语；il obère（é→è）。"
+   }
+  ]
+ },
+ {
+  "headword": "ténu",
+  "phonetic": "/te.ny/",
+  "cefr": "C1",
+  "frequencyRank": 15000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "très mince, à peine perceptible",
+    "translations": {
+     "zh": "细微的；微弱的",
+     "en": "tenuous, slender"
+    },
+    "examples": [
+     {
+      "text": "Le lien entre ces deux affaires reste ténu.",
+      "translations": {
+       "zh": "这两起案件之间的联系仍然很微弱。",
+       "en": "The link between these two cases remains tenuous."
+      }
+     }
+    ],
+    "usageNote": "un espoir ténu：一线希望。"
+   }
+  ]
+ },
+ {
+  "headword": "spécieux",
+  "phonetic": "/spe.sjø/",
+  "cefr": "C1",
+  "frequencyRank": 18000,
+  "grammarNotes": {
+   "irregularForms": "阴性 spécieuse；阴性复数 spécieuses（阳性复数不变）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'a qu'une apparence de vérité",
+    "translations": {
+     "zh": "似是而非的；貌似有理的",
+     "en": "specious"
+    },
+    "examples": [
+     {
+      "text": "Il a avancé un argument spécieux pour se justifier.",
+      "translations": {
+       "zh": "他提出了一个似是而非的理由为自己辩解。",
+       "en": "He put forward a specious argument to justify himself."
+      }
+     }
+    ],
+    "usageNote": "近义 fallacieux；书面语。"
+   }
+  ]
+ },
+ {
+  "headword": "patent",
+  "phonetic": "/pa.tɑ̃/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "évident, manifeste",
+    "translations": {
+     "zh": "明显的；显而易见的",
+     "en": "obvious, patent"
+    },
+    "examples": [
+     {
+      "text": "Son manque de préparation était patent.",
+      "translations": {
+       "zh": "他准备不足是显而易见的。",
+       "en": "His lack of preparation was obvious."
+      }
+     }
+    ],
+    "usageNote": "t 不发音（阳性）；阴性 patente /pa.tɑ̃t/。"
+   }
+  ]
+ },
+ {
+  "headword": "jalon",
+  "phonetic": "/ʒa.lɔ̃/",
+  "cefr": "C1",
+  "frequencyRank": 13000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jalons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "étape importante, point de repère",
+    "translations": {
+     "zh": "里程碑；基础（步骤）",
+     "en": "milestone, landmark"
+    },
+    "examples": [
+     {
+      "text": "Ce traité constitue un jalon dans l'histoire européenne.",
+      "translations": {
+       "zh": "该条约是欧洲历史上的一个里程碑。",
+       "en": "This treaty is a milestone in European history."
+      }
+     }
+    ],
+    "usageNote": "poser les jalons de qch：为…奠定基础；本义“标杆”。"
+   }
+  ]
+ },
+ {
+  "headword": "acuité",
+  "phonetic": "/a.kɥi.te/",
+  "cefr": "C1",
+  "frequencyRank": 14000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "（通常用单数）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "intensité ; finesse de perception",
+    "translations": {
+     "zh": "尖锐；敏锐度",
+     "en": "acuteness, keenness"
+    },
+    "examples": [
+     {
+      "text": "Le problème du logement se pose avec acuité.",
+      "translations": {
+       "zh": "住房问题十分尖锐。",
+       "en": "The housing problem is particularly acute."
+      }
+     }
+    ],
+    "usageNote": "acuité visuelle：视力；se poser avec acuité：（问题）十分尖锐。"
+   }
+  ]
+ }
+]

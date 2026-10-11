@@ -1,0 +1,1455 @@
+[
+  {
+    "headword": "faute de",
+    "phonetic": "/fot də/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "par manque de",
+        "translations": {
+          "zh": "因为缺少",
+          "en": "for lack of"
+        },
+        "examples": [
+          {
+            "text": "Faute de temps, je n'ai pas fini.",
+            "cloze": "{{Faute de}} temps, je n'ai pas fini.",
+            "translations": {
+              "zh": "由于没时间，我没做完。",
+              "en": "For lack of time, I didn't finish."
+            }
+          }
+        ],
+        "usageNote": "后接名词（不加冠词）或不定式；faute de mieux：没有更好的办法。"
+      }
+    ]
+  },
+  {
+    "headword": "en raison de",
+    "phonetic": "/ɑ̃ ʁɛ.zɔ̃ də/",
+    "cefr": "B2",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "à cause de (registre soutenu)",
+        "translations": {
+          "zh": "由于；鉴于",
+          "en": "due to, owing to"
+        },
+        "examples": [
+          {
+            "text": "Le vol est annulé en raison de la grève.",
+            "cloze": "Le vol est annulé {{en raison de}} la grève.",
+            "translations": {
+              "zh": "由于罢工，航班取消。",
+              "en": "The flight is cancelled due to the strike."
+            }
+          }
+        ],
+        "usageNote": "公告、新闻常用。"
+      }
+    ]
+  },
+  {
+    "headword": "suite à",
+    "phonetic": "/sɥit a/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "après, à la suite de",
+        "translations": {
+          "zh": "继……之后；根据",
+          "en": "following"
+        },
+        "examples": [
+          {
+            "text": "Suite à votre demande, voici les documents.",
+            "cloze": "{{Suite à}} votre demande, voici les documents.",
+            "translations": {
+              "zh": "根据您的要求，现附上文件。",
+              "en": "Following your request, here are the documents."
+            }
+          }
+        ],
+        "usageNote": "公文、商务信函常用。"
+      }
+    ]
+  },
+  {
+    "headword": "par conséquent",
+    "phonetic": "/paʁ kɔ̃.se.kɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "donc, en conséquence",
+        "translations": {
+          "zh": "因此",
+          "en": "therefore, consequently"
+        },
+        "examples": [
+          {
+            "text": "Il était malade ; par conséquent, il n'est pas venu.",
+            "cloze": "Il était malade ; {{par conséquent}}, il n'est pas venu.",
+            "translations": {
+              "zh": "他病了，因此没来。",
+              "en": "He was ill; consequently, he didn't come."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "en revanche",
+    "phonetic": "/ɑ̃ ʁə.vɑ̃ʃ/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "au contraire, par contre",
+        "translations": {
+          "zh": "相反；另一方面",
+          "en": "on the other hand"
+        },
+        "examples": [
+          {
+            "text": "Il est nul en maths ; en revanche, il parle trois langues.",
+            "cloze": "Il est nul en maths ; {{en revanche}}, il parle trois langues.",
+            "translations": {
+              "zh": "他数学很差，不过会说三种语言。",
+              "en": "He's hopeless at maths; on the other hand, he speaks three languages."
+            }
+          }
+        ],
+        "usageNote": "比 par contre 更正式。"
+      }
+    ]
+  },
+  {
+    "headword": "par contre",
+    "phonetic": "/paʁ kɔ̃tʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en revanche",
+        "translations": {
+          "zh": "但是；另一方面",
+          "en": "on the other hand, however"
+        },
+        "examples": [
+          {
+            "text": "L'hôtel est cher ; par contre, il est très confortable.",
+            "cloze": "L'hôtel est cher ; {{par contre}}, il est très confortable.",
+            "translations": {
+              "zh": "酒店很贵，但很舒适。",
+              "en": "The hotel is expensive; on the other hand, it's very comfortable."
+            }
+          }
+        ],
+        "usageNote": "口语常用；正式书面语更宜用 en revanche。"
+      }
+    ]
+  },
+  {
+    "headword": "en outre",
+    "phonetic": "/ɑ̃ nutʁ/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "de plus",
+        "translations": {
+          "zh": "此外；而且",
+          "en": "furthermore"
+        },
+        "examples": [
+          {
+            "text": "En outre, le loyer a augmenté.",
+            "cloze": "{{En outre}}, le loyer a augmenté.",
+            "translations": {
+              "zh": "此外，房租涨了。",
+              "en": "Furthermore, the rent has gone up."
+            }
+          }
+        ],
+        "usageNote": "书面语。"
+      }
+    ]
+  },
+  {
+    "headword": "de plus",
+    "phonetic": "/də plys/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en outre, en plus",
+        "translations": {
+          "zh": "此外；再说",
+          "en": "moreover, in addition"
+        },
+        "examples": [
+          {
+            "text": "Il fait froid ; de plus, il pleut.",
+            "cloze": "Il fait froid ; {{de plus}}, il pleut.",
+            "translations": {
+              "zh": "天很冷，而且还下雨。",
+              "en": "It's cold; moreover, it's raining."
+            }
+          }
+        ],
+        "usageNote": "这里 plus 的 s 发音。"
+      }
+    ]
+  },
+  {
+    "headword": "par ailleurs",
+    "phonetic": "/paʁ a.jœʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "d'un autre côté ; en outre",
+        "translations": {
+          "zh": "另外；此外",
+          "en": "moreover, besides"
+        },
+        "examples": [
+          {
+            "text": "Par ailleurs, la réunion est déplacée à lundi.",
+            "cloze": "{{Par ailleurs}}, la réunion est déplacée à lundi.",
+            "translations": {
+              "zh": "另外，会议改到周一。",
+              "en": "Also, the meeting has been moved to Monday."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "d'une part",
+    "phonetic": "/dyn paʁ/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "phrase",
+        "definition": "introduit le premier de deux arguments",
+        "translations": {
+          "zh": "一方面",
+          "en": "on the one hand"
+        },
+        "examples": [
+          {
+            "text": "D'une part c'est cher, d'autre part c'est loin.",
+            "cloze": "{{D'une part}} c'est cher, d'autre part c'est loin.",
+            "translations": {
+              "zh": "一方面贵，另一方面远。",
+              "en": "On the one hand it's expensive, on the other it's far."
+            }
+          }
+        ],
+        "usageNote": "d'une part… d'autre part…：一方面……另一方面……"
+      }
+    ]
+  },
+  {
+    "headword": "finalement",
+    "phonetic": "/fi.nal.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en fin de compte ; à la fin",
+        "translations": {
+          "zh": "最后；最终；终究",
+          "en": "in the end, finally"
+        },
+        "examples": [
+          {
+            "text": "Finalement, on est restés à la maison.",
+            "translations": {
+              "zh": "最后我们还是待在家里了。",
+              "en": "In the end, we stayed at home."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ainsi",
+    "phonetic": "/ɛ̃.si/",
+    "cefr": "B1",
+    "frequencyRank": 500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "de cette façon",
+        "translations": {
+          "zh": "这样；如此",
+          "en": "thus, in this way"
+        },
+        "examples": [
+          {
+            "text": "C'est ainsi que j'ai appris le français.",
+            "translations": {
+              "zh": "我就是这样学会法语的。",
+              "en": "That's how I learned French."
+            }
+          }
+        ],
+        "usageNote": "ainsi que：以及；正如。"
+      },
+      {
+        "partOfSpeech": "adverb",
+        "definition": "par conséquent",
+        "translations": {
+          "zh": "因此",
+          "en": "so, thus"
+        },
+        "examples": [
+          {
+            "text": "Ainsi, nous avons gagné du temps.",
+            "translations": {
+              "zh": "因此我们节省了时间。",
+              "en": "Thus we saved time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "notamment",
+    "phonetic": "/nɔ.ta.mɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en particulier",
+        "translations": {
+          "zh": "尤其；特别是",
+          "en": "notably, in particular"
+        },
+        "examples": [
+          {
+            "text": "Il parle plusieurs langues, notamment le chinois.",
+            "translations": {
+              "zh": "他会说好几种语言，特别是中文。",
+              "en": "He speaks several languages, notably Chinese."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "plutôt",
+    "phonetic": "/ply.to/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "de préférence",
+        "translations": {
+          "zh": "宁可；倒不如",
+          "en": "rather"
+        },
+        "examples": [
+          {
+            "text": "Je prendrai plutôt du thé.",
+            "translations": {
+              "zh": "我还是喝茶吧。",
+              "en": "I'll have tea instead."
+            }
+          }
+        ],
+        "usageNote": "plutôt que：而不是。注意区分 plus tôt（更早）。"
+      },
+      {
+        "partOfSpeech": "adverb",
+        "definition": "assez",
+        "translations": {
+          "zh": "相当；挺",
+          "en": "quite, fairly"
+        },
+        "examples": [
+          {
+            "text": "C'est plutôt bien.",
+            "translations": {
+              "zh": "挺不错的。",
+              "en": "It's pretty good."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "à peine",
+    "phonetic": "/a pɛn/",
+    "cefr": "B2",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "presque pas ; tout juste",
+        "translations": {
+          "zh": "几乎不；刚刚",
+          "en": "hardly, barely"
+        },
+        "examples": [
+          {
+            "text": "Je le connais à peine.",
+            "cloze": "Je le connais {{à peine}}.",
+            "translations": {
+              "zh": "我跟他不太熟。",
+              "en": "I hardly know him."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tellement",
+    "phonetic": "/tɛl.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "si, à un tel point",
+        "translations": {
+          "zh": "那么；如此",
+          "en": "so, so much"
+        },
+        "examples": [
+          {
+            "text": "Je suis tellement fatigué !",
+            "translations": {
+              "zh": "我太累了！",
+              "en": "I'm so tired!"
+            }
+          }
+        ],
+        "usageNote": "tellement… que…：如此……以至于……"
+      }
+    ]
+  },
+  {
+    "headword": "autant",
+    "phonetic": "/o.tɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "la même quantité, le même degré",
+        "translations": {
+          "zh": "同样多；一样",
+          "en": "as much, as many"
+        },
+        "examples": [
+          {
+            "text": "Il travaille autant que moi.",
+            "translations": {
+              "zh": "他和我工作得一样多。",
+              "en": "He works as much as I do."
+            }
+          }
+        ],
+        "usageNote": "autant de + 名词 + que：和……一样多的……"
+      }
+    ]
+  },
+  {
+    "headword": "davantage",
+    "phonetic": "/da.vɑ̃.taʒ/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "plus",
+        "translations": {
+          "zh": "更多",
+          "en": "more"
+        },
+        "examples": [
+          {
+            "text": "Il faudrait travailler davantage.",
+            "translations": {
+              "zh": "应该更努力些。",
+              "en": "We should work more."
+            }
+          }
+        ],
+        "usageNote": "书面语，相当于 plus。"
+      }
+    ]
+  },
+  {
+    "headword": "d'autant plus que",
+    "phonetic": "/do.tɑ̃ ply kə/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "pour la raison supplémentaire que",
+        "translations": {
+          "zh": "更何况；尤其因为",
+          "en": "all the more so since"
+        },
+        "examples": [
+          {
+            "text": "Reste dîner, d'autant plus que tes parents sont absents.",
+            "cloze": "Reste dîner, {{d'autant plus que}} tes parents sont absents.",
+            "translations": {
+              "zh": "留下来吃晚饭吧，何况你父母也不在家。",
+              "en": "Stay for dinner, all the more so since your parents are away."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "au moins",
+    "phonetic": "/o mwɛ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "au minimum",
+        "translations": {
+          "zh": "至少",
+          "en": "at least"
+        },
+        "examples": [
+          {
+            "text": "Il y avait au moins cent personnes.",
+            "cloze": "Il y avait {{au moins}} cent personnes.",
+            "translations": {
+              "zh": "至少有一百人。",
+              "en": "There were at least a hundred people."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "du moins",
+    "phonetic": "/dy mwɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en tout cas, pour ce qui est de",
+        "translations": {
+          "zh": "至少（用于修正）",
+          "en": "at least (correcting oneself)"
+        },
+        "examples": [
+          {
+            "text": "Il est sincère, du moins je le crois.",
+            "cloze": "Il est sincère, {{du moins}} je le crois.",
+            "translations": {
+              "zh": "他是真诚的，至少我这么认为。",
+              "en": "He's sincere, or at least I think so."
+            }
+          }
+        ],
+        "usageNote": "用来修正或限定前面的话；数量上的“至少”用 au moins。"
+      }
+    ]
+  },
+  {
+    "headword": "sans doute",
+    "phonetic": "/sɑ̃ dut/",
+    "cefr": "B1",
+    "frequencyRank": 1400,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "probablement",
+        "translations": {
+          "zh": "大概；也许",
+          "en": "probably"
+        },
+        "examples": [
+          {
+            "text": "Il viendra sans doute demain.",
+            "cloze": "Il viendra {{sans doute}} demain.",
+            "translations": {
+              "zh": "他大概明天来。",
+              "en": "He'll probably come tomorrow."
+            }
+          }
+        ],
+        "usageNote": "易错：sans doute = 大概；“毫无疑问”要说 sans aucun doute。"
+      }
+    ]
+  },
+  {
+    "headword": "certes",
+    "phonetic": "/sɛʁt/",
+    "cefr": "B2",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "il est vrai que (concession)",
+        "translations": {
+          "zh": "诚然；固然",
+          "en": "admittedly, certainly"
+        },
+        "examples": [
+          {
+            "text": "C'est cher, certes, mais c'est de qualité.",
+            "translations": {
+              "zh": "诚然很贵，但质量好。",
+              "en": "It's expensive, admittedly, but it's good quality."
+            }
+          }
+        ],
+        "usageNote": "常与 mais 搭配表让步。"
+      }
+    ]
+  },
+  {
+    "headword": "évidemment",
+    "phonetic": "/e.vi.da.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "bien sûr, de façon évidente",
+        "translations": {
+          "zh": "当然；显然",
+          "en": "obviously, of course"
+        },
+        "examples": [
+          {
+            "text": "Évidemment, il était en retard.",
+            "translations": {
+              "zh": "不用说，他又迟到了。",
+              "en": "Obviously, he was late."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "apparemment",
+    "phonetic": "/a.pa.ʁa.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "selon les apparences",
+        "translations": {
+          "zh": "看来；似乎",
+          "en": "apparently"
+        },
+        "examples": [
+          {
+            "text": "Apparemment, le magasin est fermé.",
+            "translations": {
+              "zh": "看来商店关门了。",
+              "en": "Apparently, the shop is closed."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "probablement",
+    "phonetic": "/pʁɔ.ba.blə.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "selon toute probabilité",
+        "translations": {
+          "zh": "很可能；大概",
+          "en": "probably"
+        },
+        "examples": [
+          {
+            "text": "Il va probablement pleuvoir.",
+            "translations": {
+              "zh": "很可能会下雨。",
+              "en": "It's probably going to rain."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "éventuellement",
+    "phonetic": "/e.vɑ̃.tɥɛl.mɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 3200,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "si cela se présente ; peut-être",
+        "translations": {
+          "zh": "可能的话；必要时",
+          "en": "possibly, if need be"
+        },
+        "examples": [
+          {
+            "text": "On pourrait éventuellement partir plus tôt.",
+            "translations": {
+              "zh": "必要的话我们可以早点走。",
+              "en": "We could possibly leave earlier."
+            }
+          }
+        ],
+        "usageNote": "假朋友：不是英语 eventually（最终 = finalement）。"
+      }
+    ]
+  },
+  {
+    "headword": "actuellement",
+    "phonetic": "/ak.tɥɛl.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en ce moment",
+        "translations": {
+          "zh": "目前；现在",
+          "en": "currently, at present"
+        },
+        "examples": [
+          {
+            "text": "Il est actuellement en réunion.",
+            "translations": {
+              "zh": "他目前正在开会。",
+              "en": "He is currently in a meeting."
+            }
+          }
+        ],
+        "usageNote": "假朋友：不是英语 actually（其实 = en fait）。"
+      }
+    ]
+  },
+  {
+    "headword": "désormais",
+    "phonetic": "/de.zɔʁ.mɛ/",
+    "cefr": "B2",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "à partir de maintenant",
+        "translations": {
+          "zh": "从今以后；今后",
+          "en": "from now on, henceforth"
+        },
+        "examples": [
+          {
+            "text": "Désormais, le magasin ferme à 20 heures.",
+            "translations": {
+              "zh": "今后商店晚上8点关门。",
+              "en": "From now on, the shop closes at 8 p.m."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "dorénavant",
+    "phonetic": "/dɔ.ʁe.na.vɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 4500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "à partir de maintenant",
+        "translations": {
+          "zh": "今后；从此",
+          "en": "from now on"
+        },
+        "examples": [
+          {
+            "text": "Dorénavant, tu rangeras ta chambre.",
+            "translations": {
+              "zh": "以后你要自己收拾房间。",
+              "en": "From now on, you'll tidy your room."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "auparavant",
+    "phonetic": "/o.pa.ʁa.vɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "avant, plus tôt",
+        "translations": {
+          "zh": "以前；之前",
+          "en": "beforehand, previously"
+        },
+        "examples": [
+          {
+            "text": "Auparavant, il habitait à Lyon.",
+            "translations": {
+              "zh": "他以前住在里昂。",
+              "en": "Previously, he lived in Lyon."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "aussitôt",
+    "phonetic": "/o.si.to/",
+    "cefr": "B2",
+    "frequencyRank": 2300,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "immédiatement",
+        "translations": {
+          "zh": "立刻；马上",
+          "en": "immediately, at once"
+        },
+        "examples": [
+          {
+            "text": "Il est parti aussitôt.",
+            "translations": {
+              "zh": "他立刻走了。",
+              "en": "He left at once."
+            }
+          }
+        ],
+        "usageNote": "aussitôt que = dès que（一……就）。"
+      }
+    ]
+  },
+  {
+    "headword": "soudain",
+    "phonetic": "/su.dɛ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1600,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "tout à coup",
+        "translations": {
+          "zh": "突然",
+          "en": "suddenly"
+        },
+        "examples": [
+          {
+            "text": "Soudain, la lumière s'est éteinte.",
+            "translations": {
+              "zh": "突然，灯灭了。",
+              "en": "Suddenly, the light went out."
+            }
+          }
+        ],
+        "usageNote": "也是形容词：soudain, soudaine（突然的）。"
+      }
+    ]
+  },
+  {
+    "headword": "tout à coup",
+    "phonetic": "/tu.ta ku/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "brusquement",
+        "translations": {
+          "zh": "突然",
+          "en": "suddenly"
+        },
+        "examples": [
+          {
+            "text": "Tout à coup, le téléphone a sonné.",
+            "cloze": "{{Tout à coup}}, le téléphone a sonné.",
+            "translations": {
+              "zh": "突然，电话响了。",
+              "en": "Suddenly, the phone rang."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "peu à peu",
+    "phonetic": "/pø a pø/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "progressivement",
+        "translations": {
+          "zh": "逐渐；渐渐",
+          "en": "little by little"
+        },
+        "examples": [
+          {
+            "text": "Peu à peu, il a repris confiance.",
+            "cloze": "{{Peu à peu}}, il a repris confiance.",
+            "translations": {
+              "zh": "他渐渐恢复了信心。",
+              "en": "Little by little, he regained his confidence."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "au fur et à mesure",
+    "phonetic": "/o fyʁ e a mə.zyʁ/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "progressivement, en même temps que",
+        "translations": {
+          "zh": "随着；逐步",
+          "en": "gradually, as one goes along"
+        },
+        "examples": [
+          {
+            "text": "Je corrige les erreurs au fur et à mesure.",
+            "cloze": "Je corrige les erreurs {{au fur et à mesure}}.",
+            "translations": {
+              "zh": "我边做边改错。",
+              "en": "I correct the mistakes as I go along."
+            }
+          }
+        ],
+        "usageNote": "au fur et à mesure que + 直陈式：随着……"
+      }
+    ]
+  },
+  {
+    "headword": "à la fois",
+    "phonetic": "/a la fwa/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en même temps",
+        "translations": {
+          "zh": "同时；既……又……",
+          "en": "at the same time, both"
+        },
+        "examples": [
+          {
+            "text": "Il est à la fois drôle et intelligent.",
+            "cloze": "Il est {{à la fois}} drôle et intelligent.",
+            "translations": {
+              "zh": "他既风趣又聪明。",
+              "en": "He's both funny and intelligent."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "de nouveau",
+    "phonetic": "/də nu.vo/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "une fois de plus",
+        "translations": {
+          "zh": "再次；重新",
+          "en": "again"
+        },
+        "examples": [
+          {
+            "text": "Il est de nouveau malade.",
+            "cloze": "Il est {{de nouveau}} malade.",
+            "translations": {
+              "zh": "他又病了。",
+              "en": "He's ill again."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sinon",
+    "phonetic": "/si.nɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1300,
+    "senses": [
+      {
+        "partOfSpeech": "conjunction",
+        "definition": "dans le cas contraire",
+        "translations": {
+          "zh": "否则；不然",
+          "en": "otherwise, or else"
+        },
+        "examples": [
+          {
+            "text": "Dépêche-toi, sinon on va rater le train.",
+            "translations": {
+              "zh": "快点，不然要赶不上火车了。",
+              "en": "Hurry up, or we'll miss the train."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "en somme",
+    "phonetic": "/ɑ̃ sɔm/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en résumé",
+        "translations": {
+          "zh": "总之",
+          "en": "in short, all in all"
+        },
+        "examples": [
+          {
+            "text": "En somme, tout s'est bien passé.",
+            "cloze": "{{En somme}}, tout s'est bien passé.",
+            "translations": {
+              "zh": "总之，一切顺利。",
+              "en": "All in all, everything went well."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bref",
+    "phonetic": "/bʁɛf/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "grammarNotes": {
+      "irregularForms": "阴性 brève；复数 brefs, brèves"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "pour résumer",
+        "translations": {
+          "zh": "总之；简而言之",
+          "en": "in short, anyway"
+        },
+        "examples": [
+          {
+            "text": "On s'est perdus, il a plu… bref, une journée horrible.",
+            "translations": {
+              "zh": "我们迷了路，又下了雨……总之，糟糕的一天。",
+              "en": "We got lost, it rained… in short, a horrible day."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "de courte durée",
+        "translations": {
+          "zh": "简短的",
+          "en": "brief, short"
+        },
+        "examples": [
+          {
+            "text": "Il a fait un discours bref.",
+            "translations": {
+              "zh": "他作了简短的讲话。",
+              "en": "He gave a brief speech."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "au fond",
+    "phonetic": "/o fɔ̃/",
+    "cefr": "B2",
+    "frequencyRank": 2800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en réalité, si on va à l'essentiel",
+        "translations": {
+          "zh": "说到底；其实",
+          "en": "basically, deep down"
+        },
+        "examples": [
+          {
+            "text": "Au fond, il n'est pas méchant.",
+            "cloze": "{{Au fond}}, il n'est pas méchant.",
+            "translations": {
+              "zh": "其实他人不坏。",
+              "en": "Deep down, he isn't nasty."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "justement",
+    "phonetic": "/ʒys.tə.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "précisément ; avec raison",
+        "translations": {
+          "zh": "正是；恰好",
+          "en": "precisely, just"
+        },
+        "examples": [
+          {
+            "text": "Je voulais justement t'appeler.",
+            "translations": {
+              "zh": "我正想给你打电话呢。",
+              "en": "I was just about to call you."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "effectivement",
+    "phonetic": "/e.fɛk.tiv.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "en effet, réellement",
+        "translations": {
+          "zh": "确实；的确",
+          "en": "indeed, actually"
+        },
+        "examples": [
+          {
+            "text": "Effectivement, tu avais raison.",
+            "translations": {
+              "zh": "确实，你说得对。",
+              "en": "Indeed, you were right."
+            }
+          }
+        ],
+        "usageNote": "用于确认对方的话；不完全等于英语 effectively。"
+      }
+    ]
+  },
+  {
+    "headword": "forcément",
+    "phonetic": "/fɔʁ.se.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2200,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "nécessairement",
+        "translations": {
+          "zh": "必然；一定",
+          "en": "necessarily, inevitably"
+        },
+        "examples": [
+          {
+            "text": "Ce n'est pas forcément une mauvaise idée.",
+            "translations": {
+              "zh": "这不一定是个坏主意。",
+              "en": "It's not necessarily a bad idea."
+            }
+          }
+        ],
+        "usageNote": "pas forcément = 不一定。"
+      }
+    ]
+  },
+  {
+    "headword": "franchement",
+    "phonetic": "/fʁɑ̃ʃ.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2400,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "sincèrement, directement",
+        "translations": {
+          "zh": "坦白说；说实话",
+          "en": "frankly, honestly"
+        },
+        "examples": [
+          {
+            "text": "Franchement, ce film est nul.",
+            "translations": {
+              "zh": "说实话，这部电影很烂。",
+              "en": "Frankly, this film is rubbish."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "volontiers",
+    "phonetic": "/vɔ.lɔ̃.tje/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "avec plaisir",
+        "translations": {
+          "zh": "乐意；很愿意",
+          "en": "gladly, willingly"
+        },
+        "examples": [
+          {
+            "text": "Un café ? — Volontiers !",
+            "translations": {
+              "zh": "来杯咖啡？——好呀！",
+              "en": "A coffee? — Gladly!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "quand même",
+    "phonetic": "/kɑ̃ mɛm/",
+    "cefr": "B1",
+    "frequencyRank": 1000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "malgré tout",
+        "translations": {
+          "zh": "还是；毕竟",
+          "en": "all the same, still"
+        },
+        "examples": [
+          {
+            "text": "Il pleuvait, mais on est sortis quand même.",
+            "cloze": "Il pleuvait, mais on est sortis {{quand même}}.",
+            "translations": {
+              "zh": "下着雨，不过我们还是出去了。",
+              "en": "It was raining, but we went out all the same."
+            }
+          }
+        ],
+        "usageNote": "口语也表强调：Tu exagères quand même !（你也太过分了！）"
+      }
+    ]
+  },
+  {
+    "headword": "tout de même",
+    "phonetic": "/tu də mɛm/",
+    "cefr": "B2",
+    "frequencyRank": 2000,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "quand même",
+        "translations": {
+          "zh": "仍然；毕竟；真是",
+          "en": "all the same, nevertheless"
+        },
+        "examples": [
+          {
+            "text": "C'est tout de même incroyable !",
+            "cloze": "C'est {{tout de même}} incroyable !",
+            "translations": {
+              "zh": "这真是难以置信！",
+              "en": "It's really incredible all the same!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "au contraire",
+    "phonetic": "/o kɔ̃.tʁɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "à l'opposé",
+        "translations": {
+          "zh": "相反",
+          "en": "on the contrary"
+        },
+        "examples": [
+          {
+            "text": "Je ne suis pas fâché, au contraire !",
+            "cloze": "Je ne suis pas fâché, {{au contraire}} !",
+            "translations": {
+              "zh": "我没生气，正相反！",
+              "en": "I'm not angry, quite the opposite!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "également",
+    "phonetic": "/e.ɡal.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 900,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "aussi",
+        "translations": {
+          "zh": "也；同样",
+          "en": "also, as well"
+        },
+        "examples": [
+          {
+            "text": "Il parle également espagnol.",
+            "translations": {
+              "zh": "他也会说西班牙语。",
+              "en": "He also speaks Spanish."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "particulièrement",
+    "phonetic": "/paʁ.ti.ky.ljɛʁ.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1700,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "surtout, spécialement",
+        "translations": {
+          "zh": "特别；尤其",
+          "en": "particularly"
+        },
+        "examples": [
+          {
+            "text": "Je n'aime pas particulièrement le sport.",
+            "translations": {
+              "zh": "我不是特别喜欢运动。",
+              "en": "I'm not particularly fond of sport."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "principalement",
+    "phonetic": "/pʁɛ̃.si.pal.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "surtout, avant tout",
+        "translations": {
+          "zh": "主要地",
+          "en": "mainly"
+        },
+        "examples": [
+          {
+            "text": "Ce sont principalement des étudiants.",
+            "translations": {
+              "zh": "主要是学生。",
+              "en": "They are mainly students."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "globalement",
+    "phonetic": "/ɡlɔ.bal.mɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 3800,
+    "senses": [
+      {
+        "partOfSpeech": "adverb",
+        "definition": "dans l'ensemble",
+        "translations": {
+          "zh": "总体上",
+          "en": "overall"
+        },
+        "examples": [
+          {
+            "text": "Globalement, je suis satisfait.",
+            "translations": {
+              "zh": "总体上我很满意。",
+              "en": "Overall, I'm satisfied."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

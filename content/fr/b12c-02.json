@@ -1,0 +1,1550 @@
+[
+  {
+    "headword": "dynamique",
+    "phonetic": "/di.na.mik/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 dynamiques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "plein d'énergie",
+        "translations": {
+          "zh": "有活力的；积极的",
+          "en": "energetic, dynamic"
+        },
+        "examples": [
+          {
+            "text": "Nous cherchons une personne dynamique et motivée.",
+            "translations": {
+              "zh": "我们在找一位积极、有干劲的人。",
+              "en": "We're looking for an energetic, motivated person."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "spontané",
+    "phonetic": "/spɔ̃.ta.ne/",
+    "cefr": "B2",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "irregularForms": "阴性 spontanée；复数 spontanés, spontanées"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui agit sans calculer",
+        "translations": {
+          "zh": "自然率真的；自发的",
+          "en": "spontaneous"
+        },
+        "examples": [
+          {
+            "text": "J'aime les gens spontanés et naturels.",
+            "translations": {
+              "zh": "我喜欢率真自然的人。",
+              "en": "I like spontaneous, natural people."
+            },
+            "cloze": "J'aime les gens {{spontanés}} et naturels."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "charmant",
+    "phonetic": "/ʃaʁ.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "irregularForms": "阴性 charmante；复数 charmants, charmantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "très agréable, qui plaît",
+        "translations": {
+          "zh": "迷人的；可爱的",
+          "en": "charming"
+        },
+        "examples": [
+          {
+            "text": "Quel charmant petit village !",
+            "translations": {
+              "zh": "多迷人的小村庄啊！",
+              "en": "What a charming little village!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sage",
+    "phonetic": "/saʒ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 sages"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "calme et obéissant (pour un enfant)",
+        "translations": {
+          "zh": "乖的；听话的",
+          "en": "well-behaved, good"
+        },
+        "examples": [
+          {
+            "text": "Les enfants ont été sages aujourd'hui.",
+            "translations": {
+              "zh": "孩子们今天很乖。",
+              "en": "The children were good today."
+            },
+            "cloze": "Les enfants ont été {{sages}} aujourd'hui."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a de la raison et de l'expérience",
+        "translations": {
+          "zh": "明智的；睿智的",
+          "en": "wise"
+        },
+        "examples": [
+          {
+            "text": "C'est une décision sage.",
+            "translations": {
+              "zh": "这是个明智的决定。",
+              "en": "It's a wise decision."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "méfiant",
+    "phonetic": "/me.fjɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 12000,
+    "grammarNotes": {
+      "irregularForms": "阴性 méfiante；复数 méfiants, méfiantes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ne fait pas facilement confiance",
+        "translations": {
+          "zh": "多疑的；有戒心的",
+          "en": "suspicious, wary"
+        },
+        "examples": [
+          {
+            "text": "Les habitants sont méfiants envers les inconnus.",
+            "translations": {
+              "zh": "居民们对陌生人有戒心。",
+              "en": "The locals are wary of strangers."
+            },
+            "cloze": "Les habitants sont {{méfiants}} envers les inconnus."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tendre",
+    "phonetic": "/tɑ̃dʁ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴阳性同形；复数 tendres"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "doux et affectueux",
+        "translations": {
+          "zh": "温柔的；亲切的",
+          "en": "tender, affectionate"
+        },
+        "examples": [
+          {
+            "text": "C'est un père tendre avec ses enfants.",
+            "translations": {
+              "zh": "他对孩子们是个温柔的父亲。",
+              "en": "He's a tender father to his children."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "facile à couper ou à mâcher",
+        "translations": {
+          "zh": "（肉）嫩的；软的",
+          "en": "tender, soft"
+        },
+        "examples": [
+          {
+            "text": "Cette viande est très tendre.",
+            "translations": {
+              "zh": "这块肉很嫩。",
+              "en": "This meat is very tender."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "tempérament",
+    "phonetic": "/tɑ̃.pe.ʁa.mɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "tempéraments"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "caractère naturel d'une personne",
+        "translations": {
+          "zh": "气质；脾性",
+          "en": "temperament"
+        },
+        "examples": [
+          {
+            "text": "Elle a un tempérament calme.",
+            "translations": {
+              "zh": "她生性沉稳。",
+              "en": "She has a calm temperament."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "émotion",
+    "phonetic": "/e.mo.sjɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "émotions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "réaction forte comme la joie, la peur ou la colère",
+        "translations": {
+          "zh": "情绪；激动",
+          "en": "emotion"
+        },
+        "examples": [
+          {
+            "text": "Il a du mal à cacher ses émotions.",
+            "translations": {
+              "zh": "他很难掩饰自己的情绪。",
+              "en": "He finds it hard to hide his emotions."
+            },
+            "cloze": "Il a du mal à cacher ses {{émotions}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "sentiment",
+    "phonetic": "/sɑ̃.ti.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "sentiments"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qu'on ressent pour qqn ou qqch",
+        "translations": {
+          "zh": "感情；感觉",
+          "en": "feeling"
+        },
+        "examples": [
+          {
+            "text": "J'ai le sentiment qu'il nous cache quelque chose.",
+            "translations": {
+              "zh": "我感觉他有事瞒着我们。",
+              "en": "I have the feeling he's hiding something from us."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "humeur",
+    "phonetic": "/y.mœʁ/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "humeurs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état d'esprit d'une personne à un moment donné",
+        "translations": {
+          "zh": "心情；情绪",
+          "en": "mood"
+        },
+        "examples": [
+          {
+            "text": "Ce matin, il est de bonne humeur.",
+            "translations": {
+              "zh": "今天早上他心情不错。",
+              "en": "This morning he's in a good mood."
+            }
+          }
+        ],
+        "usageNote": "être de bonne / mauvaise humeur：心情好/不好。"
+      }
+    ]
+  },
+  {
+    "headword": "angoisse",
+    "phonetic": "/ɑ̃.ɡwas/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "angoisses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "peur très forte, sans cause précise",
+        "translations": {
+          "zh": "焦虑；极度不安",
+          "en": "anxiety, anguish"
+        },
+        "examples": [
+          {
+            "text": "Il vit dans l'angoisse depuis son accident.",
+            "translations": {
+              "zh": "出事以后他一直活在焦虑中。",
+              "en": "He has lived in anxiety since his accident."
+            },
+            "cloze": "Il vit dans l'{{angoisse}} depuis son accident."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "fierté",
+    "phonetic": "/fjɛʁ.te/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "fiertés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment d'être content de soi ou de qqn",
+        "translations": {
+          "zh": "自豪；骄傲",
+          "en": "pride"
+        },
+        "examples": [
+          {
+            "text": "Elle parle de son fils avec fierté.",
+            "translations": {
+              "zh": "她自豪地谈起她的儿子。",
+              "en": "She speaks of her son with pride."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "honte",
+    "phonetic": "/ɔ̃t/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "hontes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment pénible quand on a fait qqch de mal ou de ridicule",
+        "translations": {
+          "zh": "羞愧；耻辱",
+          "en": "shame"
+        },
+        "examples": [
+          {
+            "text": "J'ai honte de mon comportement d'hier.",
+            "translations": {
+              "zh": "我为昨天的行为感到羞愧。",
+              "en": "I'm ashamed of my behaviour yesterday."
+            }
+          }
+        ],
+        "usageNote": "h 嘘音，不连诵不省音：la honte。avoir honte de：对……感到羞愧。"
+      }
+    ]
+  },
+  {
+    "headword": "déception",
+    "phonetic": "/de.sɛp.sjɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "déceptions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tristesse quand on n'obtient pas ce qu'on espérait",
+        "translations": {
+          "zh": "失望",
+          "en": "disappointment"
+        },
+        "examples": [
+          {
+            "text": "Quelle déception, le concert est annulé !",
+            "translations": {
+              "zh": "太失望了，音乐会取消了！",
+              "en": "What a disappointment, the concert is cancelled!"
+            }
+          }
+        ],
+        "usageNote": "假朋友：déception 是“失望”，不是英语 deception（欺骗）。"
+      }
+    ]
+  },
+  {
+    "headword": "soulagement",
+    "phonetic": "/su.laʒ.mɑ̃/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "soulagements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment agréable quand une peine ou une peur s'arrête",
+        "translations": {
+          "zh": "宽慰；松了一口气",
+          "en": "relief"
+        },
+        "examples": [
+          {
+            "text": "Quel soulagement d'apprendre qu'il va bien !",
+            "translations": {
+              "zh": "得知他平安，真是松了一口气！",
+              "en": "What a relief to hear he's fine!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "colère",
+    "phonetic": "/kɔ.lɛʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "colères"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "violent mécontentement",
+        "translations": {
+          "zh": "愤怒；生气",
+          "en": "anger"
+        },
+        "examples": [
+          {
+            "text": "Il est rouge de colère.",
+            "translations": {
+              "zh": "他气得满脸通红。",
+              "en": "He's red with anger."
+            }
+          }
+        ],
+        "usageNote": "être en colère：在生气；se mettre en colère：发火。"
+      }
+    ]
+  },
+  {
+    "headword": "tristesse",
+    "phonetic": "/tʁis.tɛs/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "tristesses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état d'une personne triste",
+        "translations": {
+          "zh": "悲伤；忧愁",
+          "en": "sadness"
+        },
+        "examples": [
+          {
+            "text": "On voyait la tristesse dans ses yeux.",
+            "translations": {
+              "zh": "能从他眼里看到悲伤。",
+              "en": "You could see the sadness in his eyes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "bonheur",
+    "phonetic": "/bɔ.nœʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "bonheurs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état de grande satisfaction",
+        "translations": {
+          "zh": "幸福",
+          "en": "happiness"
+        },
+        "examples": [
+          {
+            "text": "L'argent ne fait pas le bonheur.",
+            "translations": {
+              "zh": "金钱买不来幸福。",
+              "en": "Money can't buy happiness."
+            }
+          }
+        ],
+        "usageNote": "par bonheur：幸好。"
+      }
+    ]
+  },
+  {
+    "headword": "malheur",
+    "phonetic": "/ma.lœʁ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "malheurs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "événement triste et grave",
+        "translations": {
+          "zh": "不幸；灾祸",
+          "en": "misfortune"
+        },
+        "examples": [
+          {
+            "text": "Un malheur n'arrive jamais seul.",
+            "translations": {
+              "zh": "祸不单行。",
+              "en": "Misfortunes never come singly."
+            }
+          }
+        ],
+        "usageNote": "par malheur：不幸的是。"
+      }
+    ]
+  },
+  {
+    "headword": "inquiétude",
+    "phonetic": "/ɛ̃.kje.tyd/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "inquiétudes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état d'une personne qui a peur de ce qui peut arriver",
+        "translations": {
+          "zh": "担心；忧虑",
+          "en": "worry, concern"
+        },
+        "examples": [
+          {
+            "text": "Ne vous faites pas d'inquiétude.",
+            "translations": {
+              "zh": "您别担心。",
+              "en": "Don't worry."
+            },
+            "cloze": "Ne vous faites pas d'{{inquiétude}}."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "jalousie",
+    "phonetic": "/ʒa.lu.zi/",
+    "cefr": "B1",
+    "frequencyRank": 8000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "jalousies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment d'une personne jalouse",
+        "translations": {
+          "zh": "嫉妒；醋意",
+          "en": "jealousy"
+        },
+        "examples": [
+          {
+            "text": "La jalousie a détruit leur couple.",
+            "translations": {
+              "zh": "嫉妒毁了他们的感情。",
+              "en": "Jealousy destroyed their relationship."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ennui",
+    "phonetic": "/ɑ̃.nɥi/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "ennuis"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment de quelqu'un qui n'a rien d'intéressant à faire",
+        "translations": {
+          "zh": "无聊；厌倦",
+          "en": "boredom"
+        },
+        "examples": [
+          {
+            "text": "Je meurs d'ennui dans cette réunion.",
+            "translations": {
+              "zh": "这个会无聊死我了。",
+              "en": "I'm dying of boredom in this meeting."
+            },
+            "cloze": "Je meurs d'{{ennui}} dans cette réunion."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "difficulté, problème (souvent au pluriel)",
+        "translations": {
+          "zh": "麻烦；烦恼",
+          "en": "trouble, problem"
+        },
+        "examples": [
+          {
+            "text": "Il a des ennuis avec la police.",
+            "translations": {
+              "zh": "他惹上了警察的麻烦。",
+              "en": "He's in trouble with the police."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "solitude",
+    "phonetic": "/sɔ.li.tyd/",
+    "cefr": "B1",
+    "frequencyRank": 4500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "solitudes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état d'une personne seule",
+        "translations": {
+          "zh": "孤独；寂寞",
+          "en": "loneliness, solitude"
+        },
+        "examples": [
+          {
+            "text": "Beaucoup de personnes âgées souffrent de solitude.",
+            "translations": {
+              "zh": "很多老人饱受孤独之苦。",
+              "en": "Many elderly people suffer from loneliness."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "espoir",
+    "phonetic": "/ɛs.pwaʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "espoirs"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait d'attendre qqch avec confiance",
+        "translations": {
+          "zh": "希望",
+          "en": "hope"
+        },
+        "examples": [
+          {
+            "text": "Il ne faut jamais perdre espoir.",
+            "translations": {
+              "zh": "永远不要失去希望。",
+              "en": "You must never lose hope."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "confiance",
+    "phonetic": "/kɔ̃.fjɑ̃s/",
+    "cefr": "B1",
+    "frequencyRank": 1800,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "confiances"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "fait de croire qu'on peut compter sur qqn",
+        "translations": {
+          "zh": "信任；信心",
+          "en": "trust, confidence"
+        },
+        "examples": [
+          {
+            "text": "J'ai toute confiance en elle.",
+            "translations": {
+              "zh": "我完全信任她。",
+              "en": "I trust her completely."
+            }
+          }
+        ],
+        "usageNote": "avoir confiance en qqn：信任某人；confiance en soi：自信。"
+      }
+    ]
+  },
+  {
+    "headword": "stress",
+    "phonetic": "/stʁɛs/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "stress"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tension nerveuse causée par la pression",
+        "translations": {
+          "zh": "压力；紧张",
+          "en": "stress"
+        },
+        "examples": [
+          {
+            "text": "Le sport m'aide à gérer le stress.",
+            "translations": {
+              "zh": "运动帮我缓解压力。",
+              "en": "Sport helps me manage stress."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "crainte",
+    "phonetic": "/kʁɛ̃t/",
+    "cefr": "B2",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "craintes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "peur de ce qui pourrait arriver",
+        "translations": {
+          "zh": "害怕；担忧",
+          "en": "fear"
+        },
+        "examples": [
+          {
+            "text": "Il n'a exprimé aucune crainte.",
+            "translations": {
+              "zh": "他没有表露任何担忧。",
+              "en": "He expressed no fear."
+            }
+          }
+        ],
+        "usageNote": "比 peur 更书面。de crainte de / que：唯恐……"
+      }
+    ]
+  },
+  {
+    "headword": "regret",
+    "phonetic": "/ʁə.ɡʁɛ/",
+    "cefr": "B1",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "regrets"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tristesse d'avoir fait ou de ne pas avoir fait qqch",
+        "translations": {
+          "zh": "后悔；遗憾",
+          "en": "regret"
+        },
+        "examples": [
+          {
+            "text": "Je n'ai aucun regret.",
+            "translations": {
+              "zh": "我毫无遗憾。",
+              "en": "I have no regrets."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "envie",
+    "phonetic": "/ɑ̃.vi/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "envies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "désir de faire ou d'avoir qqch",
+        "translations": {
+          "zh": "想要；欲望",
+          "en": "desire, wish"
+        },
+        "examples": [
+          {
+            "text": "J'ai envie d'une glace.",
+            "translations": {
+              "zh": "我想吃个冰淇淋。",
+              "en": "I feel like an ice cream."
+            }
+          }
+        ],
+        "usageNote": "avoir envie de + 名词/动词原形：想要……"
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "jalousie envers ce que possède un autre",
+        "translations": {
+          "zh": "羡慕；妒忌",
+          "en": "envy"
+        },
+        "examples": [
+          {
+            "text": "Son succès fait envie à tout le monde.",
+            "translations": {
+              "zh": "他的成功让人人羡慕。",
+              "en": "Everyone envies his success."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "nostalgie",
+    "phonetic": "/nɔs.tal.ʒi/",
+    "cefr": "B2",
+    "frequencyRank": 9000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "nostalgies"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "regret du passé ou d'un lieu lointain",
+        "translations": {
+          "zh": "怀旧；乡愁",
+          "en": "nostalgia, homesickness"
+        },
+        "examples": [
+          {
+            "text": "Elle a la nostalgie de son enfance.",
+            "translations": {
+              "zh": "她怀念自己的童年。",
+              "en": "She's nostalgic for her childhood."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "moral",
+    "phonetic": "/mɔ.ʁal/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "（一般不用复数）"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "état d'esprit, courage face aux difficultés",
+        "translations": {
+          "zh": "精神状态；士气",
+          "en": "morale, spirits"
+        },
+        "examples": [
+          {
+            "text": "Malgré la maladie, il garde le moral.",
+            "translations": {
+              "zh": "尽管生病，他依然保持乐观。",
+              "en": "Despite his illness, he keeps his spirits up."
+            }
+          }
+        ],
+        "usageNote": "avoir le moral：情绪好；ne pas avoir le moral：情绪低落。阴性 la morale 是“道德”。"
+      }
+    ]
+  },
+  {
+    "headword": "dépression",
+    "phonetic": "/de.pʁe.sjɔ̃/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "dépressions"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "maladie qui cause une grande tristesse durable",
+        "translations": {
+          "zh": "抑郁症；消沉",
+          "en": "depression"
+        },
+        "examples": [
+          {
+            "text": "Il a fait une dépression après son divorce.",
+            "translations": {
+              "zh": "离婚后他得了抑郁症。",
+              "en": "He went through depression after his divorce."
+            }
+          }
+        ],
+        "usageNote": "faire une dépression：患抑郁症。"
+      }
+    ]
+  },
+  {
+    "headword": "tendresse",
+    "phonetic": "/tɑ̃.dʁɛs/",
+    "cefr": "B2",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "tendresses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment doux et affectueux",
+        "translations": {
+          "zh": "柔情；温柔",
+          "en": "tenderness, affection"
+        },
+        "examples": [
+          {
+            "text": "Elle regarde son bébé avec tendresse.",
+            "translations": {
+              "zh": "她温柔地看着她的宝宝。",
+              "en": "She looks at her baby tenderly."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "haine",
+    "phonetic": "/ɛn/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "haines"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment violent contre qqn",
+        "translations": {
+          "zh": "仇恨；憎恨",
+          "en": "hatred"
+        },
+        "examples": [
+          {
+            "text": "Il n'éprouve aucune haine envers eux.",
+            "translations": {
+              "zh": "他对他们毫无恨意。",
+              "en": "He feels no hatred towards them."
+            }
+          }
+        ],
+        "usageNote": "h 嘘音：la haine，不省音。"
+      }
+    ]
+  },
+  {
+    "headword": "mépris",
+    "phonetic": "/me.pʁi/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "mépris"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "sentiment qu'une personne ne mérite aucun respect",
+        "translations": {
+          "zh": "蔑视；鄙视",
+          "en": "contempt"
+        },
+        "examples": [
+          {
+            "text": "Il m'a regardé avec mépris.",
+            "translations": {
+              "zh": "他轻蔑地看了我一眼。",
+              "en": "He looked at me with contempt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "peine",
+    "phonetic": "/pɛn/",
+    "cefr": "B1",
+    "frequencyRank": 1500,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "peines"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tristesse, chagrin",
+        "translations": {
+          "zh": "痛苦；难过",
+          "en": "sorrow, grief"
+        },
+        "examples": [
+          {
+            "text": "Sa mort m'a fait beaucoup de peine.",
+            "translations": {
+              "zh": "他的去世让我很难过。",
+              "en": "His death caused me great sorrow."
+            }
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "effort, difficulté",
+        "translations": {
+          "zh": "辛苦；麻烦",
+          "en": "effort, trouble"
+        },
+        "examples": [
+          {
+            "text": "Ce n'est pas la peine de venir.",
+            "translations": {
+              "zh": "不用来了。",
+              "en": "There's no need to come."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "chagrin",
+    "phonetic": "/ʃa.ɡʁɛ̃/",
+    "cefr": "B2",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "chagrins"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "tristesse profonde",
+        "translations": {
+          "zh": "悲伤；忧伤",
+          "en": "grief, sorrow"
+        },
+        "examples": [
+          {
+            "text": "Elle a eu un gros chagrin d'amour.",
+            "translations": {
+              "zh": "她经历了一场很痛苦的失恋。",
+              "en": "She suffered a terrible heartbreak."
+            }
+          }
+        ],
+        "usageNote": "chagrin d'amour：失恋的痛苦。"
+      }
+    ]
+  },
+  {
+    "headword": "panique",
+    "phonetic": "/pa.nik/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "paniques"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "peur soudaine qui empêche de réfléchir",
+        "translations": {
+          "zh": "惊慌；恐慌",
+          "en": "panic"
+        },
+        "examples": [
+          {
+            "text": "Pas de panique, on a encore le temps.",
+            "translations": {
+              "zh": "别慌，我们还有时间。",
+              "en": "Don't panic, we still have time."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "enthousiasme",
+    "phonetic": "/ɑ̃.tu.zjasm/",
+    "cefr": "B2",
+    "frequencyRank": 5000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "enthousiasmes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "grande joie et énergie pour faire qqch",
+        "translations": {
+          "zh": "热情；热忱",
+          "en": "enthusiasm"
+        },
+        "examples": [
+          {
+            "text": "Ils ont accepté avec enthousiasme.",
+            "translations": {
+              "zh": "他们热情地答应了。",
+              "en": "They accepted enthusiastically."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "volonté",
+    "phonetic": "/vɔ.lɔ̃.te/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "volontés"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "capacité de décider et de faire des efforts",
+        "translations": {
+          "zh": "意志；意愿",
+          "en": "will, willpower"
+        },
+        "examples": [
+          {
+            "text": "Pour arrêter de fumer, il faut de la volonté.",
+            "translations": {
+              "zh": "要戒烟，得有意志力。",
+              "en": "To quit smoking, you need willpower."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "motivation",
+    "phonetic": "/mɔ.ti.va.sjɔ̃/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "motivations"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "raison ou énergie qui pousse à agir",
+        "translations": {
+          "zh": "动力；积极性",
+          "en": "motivation"
+        },
+        "examples": [
+          {
+            "text": "J'ai perdu toute motivation pour ce travail.",
+            "translations": {
+              "zh": "我对这份工作完全没了干劲。",
+              "en": "I've lost all motivation for this job."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mémoire",
+    "phonetic": "/me.mwaʁ/",
+    "cefr": "B1",
+    "frequencyRank": 2000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "mémoires"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "capacité de se souvenir",
+        "translations": {
+          "zh": "记忆；记忆力",
+          "en": "memory"
+        },
+        "examples": [
+          {
+            "text": "Ma grand-mère perd la mémoire.",
+            "translations": {
+              "zh": "我奶奶的记性越来越差。",
+              "en": "My grandmother is losing her memory."
+            }
+          }
+        ],
+        "usageNote": "阳性 un mémoire 指“论文”。"
+      }
+    ]
+  },
+  {
+    "headword": "comportement",
+    "phonetic": "/kɔ̃.pɔʁ.tə.mɑ̃/",
+    "cefr": "B1",
+    "frequencyRank": 2500,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "comportements"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "manière d'agir",
+        "translations": {
+          "zh": "行为；举止",
+          "en": "behaviour"
+        },
+        "examples": [
+          {
+            "text": "Son comportement a beaucoup changé.",
+            "translations": {
+              "zh": "他的行为举止变了很多。",
+              "en": "His behaviour has changed a lot."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "psychologue",
+    "phonetic": "/psi.kɔ.lɔɡ/",
+    "cefr": "B1",
+    "frequencyRank": 7000,
+    "grammarNotes": {
+      "gender": "阳性或阴性",
+      "plural": "psychologues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "spécialiste du fonctionnement de l'esprit",
+        "translations": {
+          "zh": "心理学家；心理咨询师",
+          "en": "psychologist"
+        },
+        "examples": [
+          {
+            "text": "Elle consulte un psychologue depuis un an.",
+            "translations": {
+              "zh": "她看心理咨询师已经一年了。",
+              "en": "She has been seeing a psychologist for a year."
+            }
+          }
+        ],
+        "usageNote": "开头 p 要发音：/psi/。"
+      }
+    ]
+  },
+  {
+    "headword": "larme",
+    "phonetic": "/laʁm/",
+    "cefr": "B1",
+    "frequencyRank": 3000,
+    "grammarNotes": {
+      "gender": "阴性",
+      "plural": "larmes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "goutte d'eau qui coule des yeux",
+        "translations": {
+          "zh": "眼泪",
+          "en": "tear"
+        },
+        "examples": [
+          {
+            "text": "Elle avait les larmes aux yeux.",
+            "translations": {
+              "zh": "她眼里含着泪水。",
+              "en": "She had tears in her eyes."
+            },
+            "cloze": "Elle avait les {{larmes}} aux yeux."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "mensonge",
+    "phonetic": "/mɑ̃.sɔ̃ʒ/",
+    "cefr": "B1",
+    "frequencyRank": 4000,
+    "grammarNotes": {
+      "gender": "阳性",
+      "plural": "mensonges"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "ce qu'on dit et qui n'est pas vrai",
+        "translations": {
+          "zh": "谎言",
+          "en": "lie"
+        },
+        "examples": [
+          {
+            "text": "C'est un mensonge, je n'ai rien dit !",
+            "translations": {
+              "zh": "这是谎话，我什么也没说！",
+              "en": "That's a lie, I didn't say anything!"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "inquiet",
+    "phonetic": "/ɛ̃.kjɛ/",
+    "cefr": "B1",
+    "frequencyRank": 3500,
+    "grammarNotes": {
+      "irregularForms": "阴性 inquiète；复数 inquiets, inquiètes"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui a peur de ce qui peut arriver",
+        "translations": {
+          "zh": "担心的；不安的",
+          "en": "worried"
+        },
+        "examples": [
+          {
+            "text": "Je suis inquiet, il n'est pas encore rentré.",
+            "translations": {
+              "zh": "我很担心，他还没回家。",
+              "en": "I'm worried, he's not home yet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "déçu",
+    "phonetic": "/de.sy/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 déçue；复数 déçus, déçues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "qui ressent de la déception",
+        "translations": {
+          "zh": "失望的",
+          "en": "disappointed"
+        },
+        "examples": [
+          {
+            "text": "Je suis déçu par ce film.",
+            "translations": {
+              "zh": "这部电影让我很失望。",
+              "en": "I'm disappointed by this film."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "ému",
+    "phonetic": "/e.my/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 émue；复数 émus, émues"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "touché par une émotion",
+        "translations": {
+          "zh": "感动的；激动的",
+          "en": "moved, touched"
+        },
+        "examples": [
+          {
+            "text": "Il était très ému pendant son discours.",
+            "translations": {
+              "zh": "他演讲时非常激动。",
+              "en": "He was very moved during his speech."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "headword": "furieux",
+    "phonetic": "/fy.ʁjø/",
+    "cefr": "B1",
+    "frequencyRank": 6000,
+    "grammarNotes": {
+      "irregularForms": "阴性 furieuse；复数 furieux, furieuses"
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "très en colère",
+        "translations": {
+          "zh": "狂怒的；非常生气的",
+          "en": "furious"
+        },
+        "examples": [
+          {
+            "text": "Mon père était furieux contre moi.",
+            "translations": {
+              "zh": "我爸爸对我大发雷霆。",
+              "en": "My father was furious with me."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
