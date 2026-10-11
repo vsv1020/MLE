@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Validate and merge English word-pack content.
+"""Validate and merge word-pack content (English, French, Thai).
 
-    python3 scripts/seeds.py check FILE...          # validate chunk files (JSON arrays of entries)
-    python3 scripts/seeds.py merge CHUNK_DIR        # merge chunks into VocabLoop/Resources/Seeds
+    python3 scripts/seeds.py check [--lang en|fr|th] FILE...    # validate chunk files (JSON arrays)
+    python3 scripts/seeds.py merge [--lang en|fr|th] CHUNK_DIR  # merge chunks into VocabLoop/Resources/Seeds
+
+--lang defaults to en.
 
 A chunk file is a JSON array of entries in the SeedEntry shape (see SeedPack.swift). Its level is
 taken from each entry's "cefr". Merge keeps every entry already in the packs, drops invalid or
@@ -18,10 +20,25 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEEDS = os.path.join(ROOT, "VocabLoop", "Resources", "Seeds")
 
-PACKS = {
-    "en_core_a1_a2": {"A1", "A2"},
-    "en_core_b1_b2": {"B1", "B2"},
-    "en_core_c1": {"C1", "C2"},
+PACKS_BY_LANG = {
+    "en": {
+        "en_core_a1_a2": {"A1", "A2"},
+        "en_core_b1_b2": {"B1", "B2"},
+        "en_core_c1": {"C1", "C2"},
+    },
+    # One pack per language for now; every level goes in it.
+    "fr": {"fr_starter": {"A1", "A2", "B1", "B2", "C1", "C2"}},
+    "th": {"th_starter": {"A1", "A2", "B1", "B2", "C1", "C2"}},
+}
+PACKS = PACKS_BY_LANG["en"]
+
+HEADWORD_PATTERNS = {
+    "en": r"[a-z][a-z' -]*[a-z]|[a-z]",
+    # Lower-case French letters, with the apostrophes, hyphens and spaces of
+    # "aujourd'hui", "peut-être" and "pomme de terre".
+    "fr": r"[a-zàâäçéèêëîïôöùûüÿœæ][a-zàâäçéèêëîïôöùûüÿœæ' -]*[a-zàâäçéèêëîïôöùûüÿœæ]|[a-zàâäçéèêëîïôöùûüÿœæ]",
+    # Thai script only (U+0E00–U+0E7F), spaces allowed inside.
+    "th": r"[\u0E00-\u0E7F][\u0E00-\u0E7F ]*[\u0E00-\u0E7F]|[\u0E00-\u0E7F]",
 }
 LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"]
 POS = {
@@ -51,9 +68,26 @@ def surface_forms(headword):
     return forms
 
 
-def example_has_target(headword, example):
+def fold(text):
+    """Mirror of ClozeMasker.fold: case- and diacritic-insensitive."""
+    import unicodedata
+    decomposed = unicodedata.normalize("NFD", text.lower())
+    return "".join(c for c in decomposed if not unicodedata.combining(c)).strip()
+
+
+def example_has_target(headword, example, lang="en"):
     if "cloze" in example and example["cloze"]:
         return "{{" in example["cloze"]
+    if lang == "th":
+        # Thai has no spaces between words: ClozeMasker searches for the headword as a substring.
+        return headword in example["text"]
+    if lang == "fr":
+        # exactOnly: a whole token equal to the headword (apostrophes are word characters, so
+        # "l'eau" does not contain the token "eau"). A multi-word headword needs an authored blank.
+        if " " in headword:
+            return False
+        tokens = re.findall(r"[\w'\u2019]+", example["text"])
+        return any(fold(t) == fold(headword) for t in tokens)
     text = example["text"].lower()
     if " " in headword:
         # ClozeMasker matches single tokens only, so a phrase always needs an authored blank.
@@ -65,16 +99,25 @@ def example_has_target(headword, example):
     return any(t in forms for t in tokens)
 
 
-def check_entry(e):
+def check_entry(e, lang="en"):
     """Return a list of problems (empty when valid)."""
     p = []
     hw = e.get("headword")
     if not isinstance(hw, str) or not hw.strip() or hw != hw.strip():
         return ["missing or untrimmed headword"]
-    if not re.fullmatch(r"[a-z][a-z' -]*[a-z]|[a-z]", hw):
-        p.append("headword must be lower-case letters (spaces, hyphens, apostrophes allowed)")
+    if not re.fullmatch(HEADWORD_PATTERNS[lang], hw):
+        p.append({"th": "headword must be Thai script",
+                  "fr": "headword must be lower-case French letters (spaces, hyphens, apostrophes allowed)"}
+                 .get(lang, "headword must be lower-case letters (spaces, hyphens, apostrophes allowed)"))
     ph = e.get("phonetic")
-    if not isinstance(ph, str) or not re.fullmatch(r"/[^/]+/", ph):
+    if lang == "th":
+        # Thai uses a romanisation (RTGS-style, no tone marks) rather than IPA.
+        if not isinstance(ph, str) or not re.fullmatch(r"[a-z][a-z' -]*", ph):
+            p.append("phonetic must be a lower-case romanisation like 'sawatdi'")
+        tone = (e.get("grammarNotes") or {}).get("toneMarks")
+        if not isinstance(tone, str) or "·" not in tone:
+            p.append("grammarNotes.toneMarks required, like 'sa-wàt-dii · 低, 低, 中'")
+    elif not isinstance(ph, str) or not re.fullmatch(r"/[^/]+/", ph):
         p.append("phonetic must look like /.../")
     if e.get("cefr") not in LEVEL_ORDER:
         p.append("cefr must be one of A1..C2")
@@ -108,7 +151,7 @@ def check_entry(e):
                 if stripped != ex["text"] or ex["cloze"].count("{{") != 1:
                     p.append(f"{tag} example {j + 1}: cloze must equal text with exactly one {{{{…}}}}")
         first = (senses[0].get("examples") or [None])[0]
-        if i == 0 and first and first.get("text") and not example_has_target(hw, first):
+        if i == 0 and first and first.get("text") and not example_has_target(hw, first, lang):
             p.append("first example does not contain the headword or a regular inflection "
                      "(rephrase, or add \"cloze\" marking the irregular form)")
     return p
@@ -122,14 +165,14 @@ def load(path):
     return data
 
 
-def cmd_check(paths):
+def cmd_check(paths, lang="en"):
     bad = 0
     total = 0
     seen = {}
     for path in paths:
         for e in load(path):
             total += 1
-            problems = check_entry(e)
+            problems = check_entry(e, lang)
             hw = e.get("headword")
             if hw in seen:
                 problems.append(f"duplicate of the entry in {seen[hw]}")
@@ -141,7 +184,8 @@ def cmd_check(paths):
     return 1 if bad else 0
 
 
-def cmd_merge(chunk_dir):
+def cmd_merge(chunk_dir, lang="en"):
+    PACKS = PACKS_BY_LANG[lang]
     packs = {}
     for name in PACKS:
         with open(os.path.join(SEEDS, name + ".json"), encoding="utf-8") as f:
@@ -160,7 +204,7 @@ def cmd_merge(chunk_dir):
     rejected = 0
     for path in sorted(glob.glob(os.path.join(chunk_dir, "*.json"))):
         for e in load(path):
-            if check_entry(e):
+            if check_entry(e, lang):
                 rejected += 1
                 continue
             hw = e["headword"]
@@ -187,10 +231,18 @@ def cmd_merge(chunk_dir):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 3 and sys.argv[1] == "check":
-        sys.exit(cmd_check(sys.argv[2:]))
-    if len(sys.argv) == 3 and sys.argv[1] == "merge":
-        cmd_merge(sys.argv[2])
+    args = sys.argv[1:]
+    lang = "en"
+    if len(args) >= 2 and args[1] == "--lang":
+        lang = args[2] if len(args) > 2 else ""
+        args = [args[0]] + args[3:]
+    if lang not in PACKS_BY_LANG:
+        print(f"unknown --lang {lang!r}; use one of {sorted(PACKS_BY_LANG)}")
+        sys.exit(2)
+    if len(args) >= 2 and args[0] == "check":
+        sys.exit(cmd_check(args[1:], lang))
+    if len(args) == 2 and args[0] == "merge":
+        cmd_merge(args[1], lang)
     else:
         print(__doc__)
         sys.exit(2)
