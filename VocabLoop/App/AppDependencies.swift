@@ -228,6 +228,22 @@ public final class AppDependencies {
         }
     }
 
+    /// Make `language` the one being studied — the single path for every switch, from Settings
+    /// ▸ 语言 and from the language chip on the study screen alike.
+    ///
+    /// Installs the language's packs *before* switching, so the user never lands on an empty
+    /// dictionary. Progress in every other language stays in the store untouched; switching back
+    /// picks it up where it was. A no-op when `language` is already active.
+    ///
+    /// Whoever shows a study queue rebuilds it afterwards: the queue was built for the old
+    /// language and does not watch preferences.
+    public func switchLanguage(to language: LearningLanguage) async {
+        guard let preferences, preferences.activeLanguage != language else { return }
+        await installLanguage(language)
+        preferences.activeLanguage = language
+        savePreferences()
+    }
+
     /// Persist a preferences change and queue it for sync.
     ///
     /// Every settings screen routes through here, so no path can save preferences without

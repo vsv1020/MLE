@@ -393,27 +393,13 @@ struct LanguageSettingsView: View {
                         Button {
                             switchTo(language, preferences: preferences)
                         } label: {
-                            HStack(spacing: Spacing.sm) {
-                                Text(language.flagEmoji)
-                                    .font(.title3)
-                                VStack(alignment: .leading, spacing: 2) {
-                                    Text(language.displayName)
-                                        .foregroundStyle(Palette.textPrimary)
-                                    Text(language.isFullyStocked
-                                        ? language.endonym
-                                        : "\(language.endonym) · 入门词库")
-                                        .font(Typography.caption)
-                                        .foregroundStyle(Palette.textSecondary)
-                                }
-                                Spacer()
-                                if installing == language {
-                                    ProgressView()
-                                } else if preferences.activeLanguage == language {
-                                    Image(systemName: "checkmark")
-                                        .foregroundStyle(Palette.brandPrimary)
-                                }
-                            }
+                            LanguageOptionRow(
+                                language: language,
+                                isActive: preferences.activeLanguage == language,
+                                isInstalling: installing == language
+                            )
                         }
+                        .disabled(installing != nil)
                         .accessibilityAddTraits(
                             preferences.activeLanguage == language ? [.isSelected, .isButton] : .isButton
                         )
@@ -433,10 +419,9 @@ struct LanguageSettingsView: View {
         guard preferences.activeLanguage != language else { return }
         installing = language
         Task {
-            // Import before switching, so the user never lands on an empty dictionary.
-            await dependencies.installLanguage(language)
-            preferences.activeLanguage = language
-            dependencies.savePreferences()
+            // The same switch as the language chip on the study screen. The root session
+            // rebuilds its queue for the new language when the library sheet closes.
+            await dependencies.switchLanguage(to: language)
             installing = nil
         }
     }
