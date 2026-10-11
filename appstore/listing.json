@@ -7,12 +7,12 @@
       "subtitle": "打开就背，会记住的单词卡",
       "privacyPolicyUrl": "https://mle.doge6.com/privacy.html",
       "privacyChoicesUrl": null,
-      "description": "麻薯背单词是一款打开就能背的单词卡，帮你学英语、法语和泰语。\n\n没有菜单，没有关卡，打开 App 就是一张单词卡。想背多少背多少，停了就停了。\n\n【三门语言，8,000 多个词】\n• 英语 3,300 多词，法语 2,600 多词，泰语 2,300 多词，从入门 A1 到高级 C1\n• 每个词都有中文释义、发音、例句和例句翻译\n• 法语名词标出阴阳性，泰语每个词都标出声调和量词\n• 全中文界面，孩子也能自己用\n\n【会记住，是因为复习得刚刚好】\n麻薯背单词使用 FSRS 记忆算法，为每个单词计算你大概什么时候会忘，并在那之前安排复习。背得越熟，间隔越长；容易忘的词会更常出现。\n\n【轻松开始】\n• 打开就学，常用词自动安排\n• 每日目标可设可不设，达成时有小小的庆祝\n• 发音、例句、填空卡、小测验\n• 陪你背单词的小伙伴麻薯：升级、换装扮、集贴纸、拿徽章\n• 一键生成分享海报，晒出今天的进步\n\n【安心】\n• 无广告、无追踪、不收集任何个人数据\n• 全部离线可用，数据只保存在你的设备上\n• 可以不注册直接使用；也支持邮箱、Apple、Google 登录\n\n【麻薯 Plus · 一次买断】\n背单词永久免费，三门语言的 A1–A2 核心词全部免费。Plus 为一次性购买（非订阅），解锁：\n• 英语、法语、泰语的 B1–B2 和 C1 进阶词库，以及今后所有新词库\n• 根据你的复习记录调节记忆算法\n• 麻薯的 Plus 衣橱和家长报告历史\n\n使用条款：https://mle.doge6.com/terms.html\n隐私政策：https://mle.doge6.com/privacy.html",
+      "description": "麻薯背单词是一款打开就能背的单词卡，帮你学英语、法语和泰语。\n\n没有菜单，没有关卡，打开 App 就是一张单词卡。想背多少背多少，停了就停了。\n\n【三门语言，8,000 多个词】\n• 英语 3,300 多词，法语 2,600 多词，泰语 2,300 多词，从入门 A1 到高级 C1\n• 每个词都有中文释义、发音、例句和例句翻译\n• 法语名词标出阴阳性，泰语每个词都标出声调和量词\n• 全中文界面，孩子也能自己用\n\n【会记住，是因为复习得刚刚好】\n麻薯背单词使用 FSRS 记忆算法，为每个单词计算你大概什么时候会忘，并在那之前安排复习。背得越熟，间隔越长；容易忘的词会更常出现。\n\n【轻松开始】\n• 打开就学，常用词自动安排\n• 每日目标可设可不设，达成时有小小的庆祝\n• 发音、例句、填空卡、小测验\n• 陪你背单词的小伙伴麻薯：升级、换装扮、集贴纸、拿徽章\n• 一键生成分享海报，晒出今天的进步\n\n【安心】\n• 无广告、无追踪，不收集姓名、邮箱等个人信息\n• 全部离线可用，学习数据只保存在你的设备上\n• 活动和新功能通知默认关闭；只有你在设置里打开后，才会把推送标识发送到我们的服务器\n• 可以不注册直接使用；也支持邮箱、Apple、Google 登录\n\n【麻薯 Plus · 一次买断】\n背单词永久免费，三门语言的 A1–A2 核心词全部免费。Plus 为一次性购买（非订阅），解锁：\n• 英语、法语、泰语的 B1–B2 和 C1 进阶词库，以及今后所有新词库\n• 根据你的复习记录调节记忆算法\n• 麻薯的 Plus 衣橱和家长报告历史\n\n使用条款：https://mle.doge6.com/terms.html\n隐私政策：https://mle.doge6.com/privacy.html",
       "keywords": "单词,背单词,英语单词,法语,泰语,词汇,记单词,单词卡,闪卡,记忆曲线,艾宾浩斯,四级,六级,雅思,托福,小学英语",
       "promotionalText": "英语、法语、泰语，打开就是单词卡。FSRS 记忆算法在你快忘的时候提醒复习。全中文界面，无广告、不追踪、离线可用。",
       "supportUrl": "https://mle.doge6.com/support.html",
       "marketingUrl": "https://mle.doge6.com/",
-      "whatsNew": "• 全新中文界面，释义只显示中文\n• 新增法语和泰语词库：各 2,000 多词，从入门到高级\n• 学习页显示当前语言，点一下就能切换\n• 分享海报带下载二维码，适合发朋友圈和小红书\n• 完成今日目标后重新打开 App，会停在“明天见”，不再自动继续\n• 若干修复和改进"
+      "whatsNew": "• 新增“活动和新功能通知”：在设置里打开后，会收到新词库、新功能等消息；默认关闭，随时可以关掉\n• 若干修复和改进"
     }
   },
   "copyright": "© 2026 Zhang Tao",
@@ -24,7 +24,7 @@
     "madeForKids": false
   },
   "review": {
-    "notes": "VocabLoop works fully without an account (guest mode). Email sign-up is local to the device; Sign in with Apple and Sign in with Google are optional.\nThe in-app purchase \"VocabLoop Plus Lifetime\" (non-consumable) is in Settings > VocabLoop Plus, with a Restore Purchase button.\nNo data is collected; everything is stored on the device.",
+    "notes": "VocabLoop works fully without an account (guest mode). Email sign-up is local to the device; Sign in with Apple and Sign in with Google are optional.\nThe in-app purchase \"VocabLoop Plus Lifetime\" (non-consumable) is in Settings > VocabLoop Plus, with a Restore Purchase button.\nStudy data stays on the device. Optional: if the user turns on \"接收活动和新功能通知\" (announcements) in Settings, the APNs device token is sent to our server (mle.doge6.com) only to deliver those notifications; it is off by default and removed when turned off.",
     "demoAccountRequired": false,
     "contactFirstName": "Tao",
     "contactLastName": "Zhang",
