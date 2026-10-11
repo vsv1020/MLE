@@ -5,6 +5,7 @@ import XCTest
 ///
 /// Skips itself unless the workflow sets TEST_RUNNER_SHARE_POSTER_PREVIEW=1, so the regular test
 /// suite does not carry seven 1080×1440 images in every result bundle.
+@MainActor
 final class SharePosterPreviewTests: XCTestCase {
     func testRenderEveryPosterForReview() throws {
         try XCTSkipUnless(
