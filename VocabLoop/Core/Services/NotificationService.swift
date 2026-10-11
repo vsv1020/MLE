@@ -9,8 +9,8 @@ import OSLog
 /// Local study reminders.
 ///
 /// Local notifications only — no push, no server, no device token. That keeps reminders
-/// working offline and means the app needs no notification infrastructure at all, which
-/// is the right trade for a feature whose entire job is "remind me at 8pm".
+/// working offline, which is the right trade for a feature whose entire job is "remind me at
+/// 8pm". The opt-in announcement push is separate: ``PushRegistrationService``.
 @MainActor
 public final class NotificationService {
     private let center: UNUserNotificationCenter
