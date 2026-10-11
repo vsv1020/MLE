@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [PUSHCHECK, scripts/apns-check.mjs]
+    paths: [PUSHCHECK, STATUS, scripts/apns-check.mjs]
 
 jobs:
   check:
@@ -36,7 +36,7 @@ jobs:
           done
       - name: Check the APNs key
         env:
-          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 || vars.APNS_KEY_P8 || secrets.APNS_KEY || secrets.APNS_P8 || secrets.APNS_AUTH_KEY }}
-          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID || vars.APNS_KEY_ID || secrets.APNS_KEYID }}
+          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 || vars.APNS_KEY_P8 || secrets.APNS_KEY || secrets.APNS_P8 || secrets.APNS_AUTH_KEY || secrets.ASC_KEY_P8 }}
+          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID || vars.APNS_KEY_ID || secrets.APNS_KEYID || secrets.ASC_KEY_ID }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID || vars.APPLE_TEAM_ID }}
         run: node scripts/apns-check.mjs
