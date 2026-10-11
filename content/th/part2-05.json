@@ -1,0 +1,1818 @@
+[
+ {
+  "headword": "จดหมาย",
+  "phonetic": "chotmai",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "jòt-mǎai · 低, 升",
+   "classifier": "ฉบับ（封）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้อความที่เขียนส่งถึงคนอื่น",
+    "translations": {
+     "zh": "信",
+     "en": "letter"
+    },
+    "examples": [
+     {
+      "text": "ฉันเขียนจดหมายถึงยาย",
+      "translations": {
+       "zh": "我给外婆写信。",
+       "en": "I'm writing a letter to Grandma."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข่าว",
+  "phonetic": "khao",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "khàao · 低",
+   "classifier": "ข่าว（条）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องที่เกิดขึ้นใหม่ ๆ",
+    "translations": {
+     "zh": "新闻；消息",
+     "en": "news"
+    },
+    "examples": [
+     {
+      "text": "พ่ออ่านข่าวทุกเช้า",
+      "translations": {
+       "zh": "爸爸每天早上看新闻。",
+       "en": "Dad reads the news every morning."
+      }
+     }
+    ],
+    "usageNote": "注意声调：ข่าว（低调）新闻，ข้าว（降调）米饭，ขาว（升调）白色。"
+   }
+  ]
+ },
+ {
+  "headword": "ปัญหา",
+  "phonetic": "panha",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "pan-hǎa · 中, 升",
+   "classifier": "ข้อ（个，条）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เรื่องที่ยากหรือต้องแก้ไข",
+    "translations": {
+     "zh": "问题；麻烦",
+     "en": "problem"
+    },
+    "examples": [
+     {
+      "text": "ไม่มีปัญหาครับ",
+      "translations": {
+       "zh": "没问题。",
+       "en": "No problem."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อากาศ",
+  "phonetic": "akat",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "aa-kàat · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สภาพลม แดด ฝน ร้อนหรือหนาว",
+    "translations": {
+     "zh": "天气；空气",
+     "en": "weather, air"
+    },
+    "examples": [
+     {
+      "text": "อากาศที่เชียงใหม่เย็นสบาย",
+      "translations": {
+       "zh": "清迈的天气凉爽舒适。",
+       "en": "The weather in Chiang Mai is cool and pleasant."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฝน",
+  "phonetic": "fon",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "fǒn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้ำที่ตกลงมาจากฟ้า",
+    "translations": {
+     "zh": "雨",
+     "en": "rain"
+    },
+    "examples": [
+     {
+      "text": "ฝนตกหนักมาก",
+      "translations": {
+       "zh": "雨下得很大。",
+       "en": "It's raining heavily."
+      }
+     }
+    ],
+    "usageNote": "“下雨”说 ฝนตก。"
+   }
+  ]
+ },
+ {
+  "headword": "แดด",
+  "phonetic": "daet",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "dɛ̀ɛt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แสงจากดวงอาทิตย์",
+    "translations": {
+     "zh": "阳光",
+     "en": "sunshine, sunlight"
+    },
+    "examples": [
+     {
+      "text": "วันนี้แดดร้อนมาก",
+      "translations": {
+       "zh": "今天太阳很晒。",
+       "en": "The sun is really hot today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลม",
+  "phonetic": "lom",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "lom · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อากาศที่เคลื่อนที่",
+    "translations": {
+     "zh": "风",
+     "en": "wind"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ลมแรง",
+      "translations": {
+       "zh": "今天风很大。",
+       "en": "It's windy today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฟ้า",
+  "phonetic": "fa",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "fáa · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ท้องฟ้า ที่อยู่เหนือหัวเรา",
+    "translations": {
+     "zh": "天空",
+     "en": "sky"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ฟ้าสวยมาก",
+      "translations": {
+       "zh": "今天天空很美。",
+       "en": "The sky is beautiful today."
+      }
+     }
+    ],
+    "usageNote": "ฟ้าร้อง 是打雷；浅蓝色是 สีฟ้า。"
+   }
+  ]
+ },
+ {
+  "headword": "ดาว",
+  "phonetic": "dao",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "daao · 中",
+   "classifier": "ดวง（颗）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "จุดสว่างบนฟ้าตอนกลางคืน",
+    "translations": {
+     "zh": "星星",
+     "en": "star"
+    },
+    "examples": [
+     {
+      "text": "คืนนี้มีดาวเยอะมาก",
+      "translations": {
+       "zh": "今晚星星很多。",
+       "en": "There are lots of stars tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หิมะ",
+  "phonetic": "hima",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "hi-má · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้ำแข็งเป็นเกล็ดสีขาวที่ตกจากฟ้า",
+    "translations": {
+     "zh": "雪",
+     "en": "snow"
+    },
+    "examples": [
+     {
+      "text": "ประเทศไทยไม่มีหิมะ",
+      "translations": {
+       "zh": "泰国不下雪。",
+       "en": "There's no snow in Thailand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทะเล",
+  "phonetic": "thale",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "tha-lee · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้ำเค็มกว้างใหญ่",
+    "translations": {
+     "zh": "海；大海",
+     "en": "sea"
+    },
+    "examples": [
+     {
+      "text": "ฉันอยากไปเที่ยวทะเล",
+      "translations": {
+       "zh": "我想去海边玩。",
+       "en": "I want to go to the seaside."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกาะ",
+  "phonetic": "ko",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "kɔ̀ · 低",
+   "classifier": "เกาะ（座）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แผ่นดินที่มีน้ำล้อมรอบ",
+    "translations": {
+     "zh": "岛",
+     "en": "island"
+    },
+    "examples": [
+     {
+      "text": "เกาะนี้มีหาดทรายสวย",
+      "translations": {
+       "zh": "这个岛有美丽的沙滩。",
+       "en": "This island has beautiful beaches."
+      }
+     }
+    ],
+    "usageNote": "地名中常见，如 เกาะสมุย（苏梅岛），RTGS 写作 Ko。"
+   }
+  ]
+ },
+ {
+  "headword": "แม่น้ำ",
+  "phonetic": "maenam",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "mɛ̂ɛ-náam · 降, 高",
+   "classifier": "สาย（条）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ทางน้ำใหญ่ที่ไหลยาว",
+    "translations": {
+     "zh": "河；江",
+     "en": "river"
+    },
+    "examples": [
+     {
+      "text": "แม่น้ำสายนี้ยาวมาก",
+      "translations": {
+       "zh": "这条河很长。",
+       "en": "This river is very long."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น้ำตก",
+  "phonetic": "namtok",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "náam-tòk · 高, 低",
+   "classifier": "แห่ง（处）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้ำที่ไหลตกลงมาจากที่สูง",
+    "translations": {
+     "zh": "瀑布",
+     "en": "waterfall"
+    },
+    "examples": [
+     {
+      "text": "เราไปเที่ยวน้ำตกกัน",
+      "translations": {
+       "zh": "我们去瀑布玩吧。",
+       "en": "Let's go to the waterfall."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ภูเขา",
+  "phonetic": "phukhao",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "phuu-khǎo · 中, 升",
+   "classifier": "ลูก（座）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พื้นดินที่สูงมาก",
+    "translations": {
+     "zh": "山",
+     "en": "mountain"
+    },
+    "examples": [
+     {
+      "text": "ภูเขาลูกนี้สูงมาก",
+      "translations": {
+       "zh": "这座山很高。",
+       "en": "This mountain is very high."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ป่า",
+  "phonetic": "pa",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "pàa · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ที่มีต้นไม้มาก ๆ",
+    "translations": {
+     "zh": "森林",
+     "en": "forest, jungle"
+    },
+    "examples": [
+     {
+      "text": "ช้างป่าอยู่ในป่า",
+      "translations": {
+       "zh": "野象生活在森林里。",
+       "en": "Wild elephants live in the forest."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต้นไม้",
+  "phonetic": "ton mai",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "tôn-máai · 降, 高",
+   "classifier": "ต้น（棵）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พืชที่มีลำต้น กิ่ง และใบ",
+    "translations": {
+     "zh": "树",
+     "en": "tree"
+    },
+    "examples": [
+     {
+      "text": "หน้าบ้านมีต้นไม้ใหญ่",
+      "translations": {
+       "zh": "房子前面有一棵大树。",
+       "en": "There's a big tree in front of the house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดอกไม้",
+  "phonetic": "dokmai",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "dɔ̀ɔk-máai · 低, 高",
+   "classifier": "ดอก（朵）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนที่สวยงามของต้นไม้ มีหลายสี",
+    "translations": {
+     "zh": "花",
+     "en": "flower"
+    },
+    "examples": [
+     {
+      "text": "แม่ชอบปลูกดอกไม้",
+      "translations": {
+       "zh": "妈妈喜欢种花。",
+       "en": "Mom likes growing flowers."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หญ้า",
+  "phonetic": "ya",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "yâa · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พืชเล็ก ๆ สีเขียวบนพื้นดิน",
+    "translations": {
+     "zh": "草",
+     "en": "grass"
+    },
+    "examples": [
+     {
+      "text": "วัวกินหญ้า",
+      "translations": {
+       "zh": "牛吃草。",
+       "en": "Cows eat grass."
+      }
+     }
+    ],
+    "usageNote": "和 ย่า（奶奶）同音不同字。"
+   }
+  ]
+ },
+ {
+  "headword": "สัตว์",
+  "phonetic": "sat",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "sàt · 低",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งมีชีวิตที่เคลื่อนที่ได้ เช่น หมา แมว",
+    "translations": {
+     "zh": "动物",
+     "en": "animal"
+    },
+    "examples": [
+     {
+      "text": "ลูกชอบดูสัตว์",
+      "translations": {
+       "zh": "孩子喜欢看动物。",
+       "en": "My child loves looking at animals."
+      }
+     }
+    ],
+    "usageNote": "ว์ 不发音。动物园是 สวนสัตว์。"
+   }
+  ]
+ },
+ {
+  "headword": "หมา",
+  "phonetic": "ma",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "mǎa · 升",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์เลี้ยงที่เห่าได้",
+    "translations": {
+     "zh": "狗",
+     "en": "dog"
+    },
+    "examples": [
+     {
+      "text": "หมาตัวนี้ไม่กัด",
+      "translations": {
+       "zh": "这只狗不咬人。",
+       "en": "This dog doesn't bite."
+      }
+     }
+    ],
+    "usageNote": "正式说法是 สุนัข。"
+   }
+  ]
+ },
+ {
+  "headword": "แมว",
+  "phonetic": "maeo",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "mɛɛw · 中",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์เลี้ยงตัวเล็ก ร้องเหมียว",
+    "translations": {
+     "zh": "猫",
+     "en": "cat"
+    },
+    "examples": [
+     {
+      "text": "แมวของฉันชอบนอน",
+      "translations": {
+       "zh": "我的猫喜欢睡觉。",
+       "en": "My cat likes to sleep."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ช้าง",
+  "phonetic": "chang",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "cháang · 高",
+   "classifier": "ตัว（头），เชือก（头，正式）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ใหญ่ มีงวงยาว",
+    "translations": {
+     "zh": "大象",
+     "en": "elephant"
+    },
+    "examples": [
+     {
+      "text": "ช้างเป็นสัตว์ประจำชาติไทย",
+      "translations": {
+       "zh": "大象是泰国的国兽。",
+       "en": "The elephant is Thailand's national animal."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นก",
+  "phonetic": "nok",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "nók · 高",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์มีปีก บินได้",
+    "translations": {
+     "zh": "鸟",
+     "en": "bird"
+    },
+    "examples": [
+     {
+      "text": "นกร้องเพลงตอนเช้า",
+      "translations": {
+       "zh": "鸟儿在早上唱歌。",
+       "en": "Birds sing in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วัว",
+  "phonetic": "wua",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "wua · 中",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ใหญ่ที่ให้นมและเนื้อ",
+    "translations": {
+     "zh": "牛",
+     "en": "cow"
+    },
+    "examples": [
+     {
+      "text": "ชาวนาเลี้ยงวัวสามตัว",
+      "translations": {
+       "zh": "农民养了三头牛。",
+       "en": "The farmer keeps three cows."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ควาย",
+  "phonetic": "khwai",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "khwaai · 中",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ใหญ่สีเทาดำ ใช้ไถนา",
+    "translations": {
+     "zh": "水牛",
+     "en": "water buffalo"
+    },
+    "examples": [
+     {
+      "text": "ควายชอบนอนในน้ำ",
+      "translations": {
+       "zh": "水牛喜欢躺在水里。",
+       "en": "Buffaloes like lying in water."
+      }
+     }
+    ],
+    "usageNote": "口语中 ควาย 也用来骂人“笨”，要小心使用。"
+   }
+  ]
+ },
+ {
+  "headword": "ม้า",
+  "phonetic": "ma",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "máa · 高",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์สี่ขาที่คนขี่ได้",
+    "translations": {
+     "zh": "马",
+     "en": "horse"
+    },
+    "examples": [
+     {
+      "text": "เขาขี่ม้าเป็น",
+      "translations": {
+       "zh": "他会骑马。",
+       "en": "He can ride a horse."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลิง",
+  "phonetic": "ling",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "ling · 中",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ที่ปีนต้นไม้เก่ง",
+    "translations": {
+     "zh": "猴子",
+     "en": "monkey"
+    },
+    "examples": [
+     {
+      "text": "ที่ลพบุรีมีลิงเยอะมาก",
+      "translations": {
+       "zh": "华富里有很多猴子。",
+       "en": "There are lots of monkeys in Lopburi."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "งู",
+  "phonetic": "ngu",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "nguu · 中",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ตัวยาว ไม่มีขา",
+    "translations": {
+     "zh": "蛇",
+     "en": "snake"
+    },
+    "examples": [
+     {
+      "text": "ในป่ามีงูเยอะ",
+      "translations": {
+       "zh": "森林里有很多蛇。",
+       "en": "There are many snakes in the forest."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนู",
+  "phonetic": "nu",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "nǔu · 升",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ตัวเล็ก หางยาว",
+    "translations": {
+     "zh": "老鼠",
+     "en": "mouse, rat"
+    },
+    "examples": [
+     {
+      "text": "ในครัวมีหนู",
+      "translations": {
+       "zh": "厨房里有老鼠。",
+       "en": "There's a mouse in the kitchen."
+      }
+     }
+    ],
+    "usageNote": "小女孩也常用 หนู 自称，大人也用它亲切地称呼小孩。"
+   }
+  ]
+ },
+ {
+  "headword": "เป็ด",
+  "phonetic": "pet",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "pèt · 低",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ปีกที่ว่ายน้ำได้",
+    "translations": {
+     "zh": "鸭子",
+     "en": "duck"
+    },
+    "examples": [
+     {
+      "text": "เป็ดว่ายน้ำในบ่อ",
+      "translations": {
+       "zh": "鸭子在池塘里游泳。",
+       "en": "Ducks are swimming in the pond."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยุง",
+  "phonetic": "yung",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "yung · 中",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แมลงตัวเล็กที่กัดและดูดเลือด",
+    "translations": {
+     "zh": "蚊子",
+     "en": "mosquito"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่ยุงเยอะมาก",
+      "translations": {
+       "zh": "这里蚊子很多。",
+       "en": "There are lots of mosquitoes here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สี",
+  "phonetic": "si",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "sǐi · 升",
+   "classifier": "สี（种）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่ตามองเห็น เช่น แดง เขียว",
+    "translations": {
+     "zh": "颜色",
+     "en": "colour"
+    },
+    "examples": [
+     {
+      "text": "คุณชอบสีอะไร",
+      "translations": {
+       "zh": "你喜欢什么颜色？",
+       "en": "What colour do you like?"
+      }
+     }
+    ],
+    "usageNote": "颜色词＝สี + 颜色，修饰名词时放在名词后：เสื้อสีแดง（红色的衣服）。"
+   }
+  ]
+ },
+ {
+  "headword": "สีแดง",
+  "phonetic": "si daeng",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-dɛɛng · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเหมือนเลือด",
+    "translations": {
+     "zh": "红色",
+     "en": "red"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบเสื้อสีแดง",
+      "translations": {
+       "zh": "我喜欢红色的衣服。",
+       "en": "I like the red shirt."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีเขียว",
+  "phonetic": "si khiao",
+  "cefr": "A1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "sǐi-khǐaw · 升, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเหมือนใบไม้",
+    "translations": {
+     "zh": "绿色",
+     "en": "green"
+    },
+    "examples": [
+     {
+      "text": "ใบไม้เป็นสีเขียว",
+      "translations": {
+       "zh": "树叶是绿色的。",
+       "en": "Leaves are green."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีน้ำเงิน",
+  "phonetic": "si namngoen",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-náam-ngən · 升, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีฟ้าเข้ม",
+    "translations": {
+     "zh": "深蓝色",
+     "en": "(dark) blue"
+    },
+    "examples": [
+     {
+      "text": "กางเกงสีน้ำเงินตัวนี้ราคาเท่าไร",
+      "translations": {
+       "zh": "这条深蓝色的裤子多少钱？",
+       "en": "How much are these navy trousers?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีฟ้า",
+  "phonetic": "si fa",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-fáa · 升, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเหมือนท้องฟ้า",
+    "translations": {
+     "zh": "浅蓝色；天蓝色",
+     "en": "light blue, sky blue"
+    },
+    "examples": [
+     {
+      "text": "ท้องฟ้าเป็นสีฟ้า",
+      "translations": {
+       "zh": "天空是蓝色的。",
+       "en": "The sky is blue."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีเหลือง",
+  "phonetic": "si lueang",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "sǐi-lʉ̌ang · 升, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเหมือนกล้วยสุก",
+    "translations": {
+     "zh": "黄色",
+     "en": "yellow"
+    },
+    "examples": [
+     {
+      "text": "เสื้อสีเหลืองตัวนี้สวยมาก",
+      "translations": {
+       "zh": "这件黄色的衣服很漂亮。",
+       "en": "This yellow shirt is very nice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีขาว",
+  "phonetic": "si khao",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-khǎao · 升, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเหมือนนม",
+    "translations": {
+     "zh": "白色",
+     "en": "white"
+    },
+    "examples": [
+     {
+      "text": "นักเรียนใส่เสื้อสีขาว",
+      "translations": {
+       "zh": "学生穿白色上衣。",
+       "en": "Students wear white shirts."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีดำ",
+  "phonetic": "si dam",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-dam · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเข้มที่สุด เหมือนกลางคืน",
+    "translations": {
+     "zh": "黑色",
+     "en": "black"
+    },
+    "examples": [
+     {
+      "text": "แมวสีดำนอนอยู่บนเก้าอี้",
+      "translations": {
+       "zh": "黑猫正睡在椅子上。",
+       "en": "A black cat is sleeping on the chair."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีชมพู",
+  "phonetic": "si chomphu",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "sǐi-chom-phuu · 升, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีแดงอ่อน ๆ",
+    "translations": {
+     "zh": "粉红色",
+     "en": "pink"
+    },
+    "examples": [
+     {
+      "text": "แท็กซี่สีชมพูอยู่หน้าโรงแรม",
+      "translations": {
+       "zh": "粉色出租车在酒店门口。",
+       "en": "A pink taxi is in front of the hotel."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีม่วง",
+  "phonetic": "si muang",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-mûang · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีที่ผสมแดงกับน้ำเงิน",
+    "translations": {
+     "zh": "紫色",
+     "en": "purple"
+    },
+    "examples": [
+     {
+      "text": "ดอกไม้สีม่วงสวยมาก",
+      "translations": {
+       "zh": "紫色的花很漂亮。",
+       "en": "The purple flowers are beautiful."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีส้ม",
+  "phonetic": "si som",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-sôm · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเหมือนผลส้ม",
+    "translations": {
+     "zh": "橙色",
+     "en": "orange (colour)"
+    },
+    "examples": [
+     {
+      "text": "พระใส่จีวรสีส้ม",
+      "translations": {
+       "zh": "僧人穿橙色的袈裟。",
+       "en": "Monks wear orange robes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีน้ำตาล",
+  "phonetic": "si namtan",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "sǐi-náam-taan · 升, 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีเหมือนกาแฟ",
+    "translations": {
+     "zh": "棕色；咖啡色",
+     "en": "brown"
+    },
+    "examples": [
+     {
+      "text": "หมาสีน้ำตาลตัวนี้น่ารัก",
+      "translations": {
+       "zh": "这只棕色的狗很可爱。",
+       "en": "This brown dog is cute."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สีเทา",
+  "phonetic": "si thao",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "sǐi-thao · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สีระหว่างขาวกับดำ",
+    "translations": {
+     "zh": "灰色",
+     "en": "grey"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ฟ้าเป็นสีเทา",
+      "translations": {
+       "zh": "今天天空是灰色的。",
+       "en": "The sky is grey today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เงิน",
+  "phonetic": "ngoen",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "ngən · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่ใช้ซื้อของ",
+    "translations": {
+     "zh": "钱；银",
+     "en": "money; silver"
+    },
+    "examples": [
+     {
+      "text": "ฉันลืมเอาเงินมา",
+      "translations": {
+       "zh": "我忘了带钱。",
+       "en": "I forgot to bring money."
+      }
+     }
+    ],
+    "usageNote": "“付钱”说 จ่ายเงิน。"
+   }
+  ]
+ },
+ {
+  "headword": "เงินสด",
+  "phonetic": "ngoen sot",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "ngən-sòt · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่เป็นธนบัตรและเหรียญ",
+    "translations": {
+     "zh": "现金",
+     "en": "cash"
+    },
+    "examples": [
+     {
+      "text": "จ่ายเงินสดได้ไหม",
+      "translations": {
+       "zh": "可以付现金吗？",
+       "en": "Can I pay in cash?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บาท",
+  "phonetic": "bat",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "bàat · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หน่วยเงินของประเทศไทย",
+    "translations": {
+     "zh": "泰铢",
+     "en": "baht"
+    },
+    "examples": [
+     {
+      "text": "กาแฟแก้วละสี่สิบบาท",
+      "translations": {
+       "zh": "咖啡一杯四十泰铢。",
+       "en": "Coffee is forty baht a cup."
+      }
+     }
+    ],
+    "usageNote": "1 บาท＝100 สตางค์。"
+   }
+  ]
+ },
+ {
+  "headword": "ราคา",
+  "phonetic": "rakha",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "raa-khaa · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "จำนวนเงินที่ต้องจ่ายเพื่อซื้อของ",
+    "translations": {
+     "zh": "价格；价钱",
+     "en": "price"
+    },
+    "examples": [
+     {
+      "text": "ราคาเท่าไรครับ",
+      "translations": {
+       "zh": "多少钱？",
+       "en": "How much is it?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่วนลด",
+  "phonetic": "suan lot",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "sùan-lót · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ลดจากราคาเดิม",
+    "translations": {
+     "zh": "折扣",
+     "en": "discount"
+    },
+    "examples": [
+     {
+      "text": "มีส่วนลดไหมคะ",
+      "translations": {
+       "zh": "有折扣吗？",
+       "en": "Is there a discount?"
+      }
+     }
+    ],
+    "usageNote": "讲价可以说 ลดได้ไหม（能便宜点吗）。"
+   }
+  ]
+ },
+ {
+  "headword": "บัตรเครดิต",
+  "phonetic": "bat khredit",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "bàt-khree-dìt · 低, 中, 低",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "บัตรที่ใช้จ่ายเงินแทนเงินสด",
+    "translations": {
+     "zh": "信用卡",
+     "en": "credit card"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้รับบัตรเครดิตไหม",
+      "translations": {
+       "zh": "这家店收信用卡吗？",
+       "en": "Does this shop take credit cards?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใบเสร็จ",
+  "phonetic": "bai set",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "bai-sèt · 中, 低",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กระดาษที่แสดงว่าจ่ายเงินแล้ว",
+    "translations": {
+     "zh": "收据；小票",
+     "en": "receipt"
+    },
+    "examples": [
+     {
+      "text": "ขอใบเสร็จด้วยครับ",
+      "translations": {
+       "zh": "请给我收据。",
+       "en": "Could I have a receipt, please?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เหรียญ",
+  "phonetic": "rian",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "rǐan · 升",
+   "classifier": "เหรียญ（枚）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ทำจากโลหะ",
+    "translations": {
+     "zh": "硬币",
+     "en": "coin"
+    },
+    "examples": [
+     {
+      "text": "ฉันมีเหรียญสิบบาท",
+      "translations": {
+       "zh": "我有一枚十泰铢的硬币。",
+       "en": "I have a ten-baht coin."
+      }
+     }
+    ],
+    "usageNote": "和 เรียน（学习，中调）只差声调。"
+   }
+  ]
+ },
+ {
+  "headword": "กระเป๋าสตางค์",
+  "phonetic": "krapao satang",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "kra-pǎo-sa-taang · 低, 升, 低, 中",
+   "classifier": "ใบ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กระเป๋าเล็ก ๆ ใส่เงิน",
+    "translations": {
+     "zh": "钱包",
+     "en": "wallet, purse"
+    },
+    "examples": [
+     {
+      "text": "กระเป๋าสตางค์ของฉันหาย",
+      "translations": {
+       "zh": "我的钱包丢了。",
+       "en": "I've lost my wallet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ของขวัญ",
+  "phonetic": "khongkhwan",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "khɔ̌ɔng-khwǎn · 升, 升",
+   "classifier": "ชิ้น（件）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ของที่ให้คนอื่นในโอกาสพิเศษ",
+    "translations": {
+     "zh": "礼物",
+     "en": "gift, present"
+    },
+    "examples": [
+     {
+      "text": "ฉันซื้อของขวัญให้แม่",
+      "translations": {
+       "zh": "我给妈妈买了礼物。",
+       "en": "I bought Mom a present."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สินค้า",
+  "phonetic": "sinkha",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sǐn-kháa · 升, 高",
+   "classifier": "ชิ้น（件）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ของที่ขายในร้าน",
+    "translations": {
+     "zh": "商品；货物",
+     "en": "goods, product"
+    },
+    "examples": [
+     {
+      "text": "สินค้าในร้านนี้ราคาถูก",
+      "translations": {
+       "zh": "这家店的商品很便宜。",
+       "en": "The goods in this shop are cheap."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนังสือเดินทาง",
+  "phonetic": "nangsue doenthang",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "nǎng-sʉ̌ʉ-dəən-thaang · 升, 升, 中, 中",
+   "classifier": "เล่ม（本）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เอกสารที่ใช้เดินทางไปต่างประเทศ",
+    "translations": {
+     "zh": "护照",
+     "en": "passport"
+    },
+    "examples": [
+     {
+      "text": "อย่าลืมหนังสือเดินทางนะ",
+      "translations": {
+       "zh": "别忘了带护照。",
+       "en": "Don't forget your passport."
+      }
+     }
+    ],
+    "usageNote": "口语也说 พาสปอร์ต。"
+   }
+  ]
+ },
+ {
+  "headword": "วีซ่า",
+  "phonetic": "wisa",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "wii-sâa · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เอกสารอนุญาตให้เข้าประเทศ",
+    "translations": {
+     "zh": "签证",
+     "en": "visa"
+    },
+    "examples": [
+     {
+      "text": "ต้องขอวีซ่าไหม",
+      "translations": {
+       "zh": "需要申请签证吗？",
+       "en": "Do I need to apply for a visa?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กระเป๋าเดินทาง",
+  "phonetic": "krapao doenthang",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "kra-pǎo-dəən-thaang · 低, 升, 中, 中",
+   "classifier": "ใบ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กระเป๋าใหญ่ใส่ของเวลาเดินทาง",
+    "translations": {
+     "zh": "行李箱",
+     "en": "suitcase"
+    },
+    "examples": [
+     {
+      "text": "กระเป๋าเดินทางใบนี้หนักมาก",
+      "translations": {
+       "zh": "这个行李箱很重。",
+       "en": "This suitcase is very heavy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นักท่องเที่ยว",
+  "phonetic": "nak thongthiao",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "nák-thɔ̂ng-thîaw · 高, 降, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เดินทางไปเที่ยว",
+    "translations": {
+     "zh": "游客",
+     "en": "tourist"
+    },
+    "examples": [
+     {
+      "text": "นักท่องเที่ยวจีนมาภูเก็ตเยอะ",
+      "translations": {
+       "zh": "很多中国游客来普吉。",
+       "en": "Many Chinese tourists come to Phuket."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชาวต่างชาติ",
+  "phonetic": "chao tangchat",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "chaaw-tàang-châat · 中, 低, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่มาจากประเทศอื่น",
+    "translations": {
+     "zh": "外国人",
+     "en": "foreigner"
+    },
+    "examples": [
+     {
+      "text": "ชาวต่างชาติชอบอาหารไทย",
+      "translations": {
+       "zh": "外国人喜欢泰国菜。",
+       "en": "Foreigners love Thai food."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไวไฟ",
+  "phonetic": "wai fai",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "wai-fai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อินเทอร์เน็ตไร้สาย",
+    "translations": {
+     "zh": "无线网络（Wi-Fi）",
+     "en": "Wi-Fi"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่มีไวไฟไหม",
+      "translations": {
+       "zh": "这里有Wi-Fi吗？",
+       "en": "Is there Wi-Fi here?"
+      }
+     }
+    ],
+    "usageNote": "密码是 รหัส 或 พาสเวิร์ด。"
+   }
+  ]
+ },
+ {
+  "headword": "เรื่อง",
+  "phonetic": "rueang",
+  "cefr": "A1",
+  "frequencyRank": 250,
+  "grammarNotes": {
+   "toneMarks": "rʉ̂ang · 降",
+   "classifier": "เรื่อง（件，个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่เกิดขึ้นหรือที่เล่า",
+    "translations": {
+     "zh": "事情；故事",
+     "en": "matter, story"
+    },
+    "examples": [
+     {
+      "text": "เรื่องนี้สำคัญมาก",
+      "translations": {
+       "zh": "这件事很重要。",
+       "en": "This matter is very important."
+      }
+     }
+    ],
+    "usageNote": "也是电影、故事的量词：หนังสองเรื่อง（两部电影）。"
+   }
+  ]
+ }
+]

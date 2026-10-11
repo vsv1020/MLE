@@ -1,0 +1,1449 @@
+[
+ {
+  "headword": "เรียก",
+  "phonetic": "riak",
+  "cefr": "A1",
+  "frequencyRank": 410,
+  "grammarNotes": {
+   "toneMarks": "rîak · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งเสียงให้คนมา หรือตั้งชื่อ",
+    "translations": {
+     "zh": "叫；称呼",
+     "en": "to call"
+    },
+    "examples": [
+     {
+      "text": "ช่วยเรียกแท็กซี่ให้หน่อยครับ",
+      "translations": {
+       "zh": "请帮我叫一辆出租车。",
+       "en": "Please call me a taxi."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โทร",
+  "phonetic": "tho",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "thoo · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้โทรศัพท์พูดกับคนอื่น",
+    "translations": {
+     "zh": "打电话",
+     "en": "to phone, to call"
+    },
+    "examples": [
+     {
+      "text": "เดี๋ยวผมโทรหานะ",
+      "translations": {
+       "zh": "我待会儿给你打电话。",
+       "en": "I'll call you in a moment."
+      }
+     }
+    ],
+    "usageNote": "โทร 是 โทรศัพท์（电话）的简称。“给某人打电话”说 โทรหา + 人。"
+   }
+  ]
+ },
+ {
+  "headword": "เล่น",
+  "phonetic": "len",
+  "cefr": "A1",
+  "frequencyRank": 270,
+  "grammarNotes": {
+   "toneMarks": "lên · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำเพื่อความสนุก",
+    "translations": {
+     "zh": "玩；（玩）游戏/运动",
+     "en": "to play"
+    },
+    "examples": [
+     {
+      "text": "เด็ก ๆ เล่นฟุตบอลกัน",
+      "translations": {
+       "zh": "孩子们在踢足球。",
+       "en": "The children are playing football."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ร้องเพลง",
+  "phonetic": "rongphleng",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "rɔ́ɔng-phleeng · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้เสียงร้องเป็นทำนอง",
+    "translations": {
+     "zh": "唱歌",
+     "en": "to sing"
+    },
+    "examples": [
+     {
+      "text": "เธอร้องเพลงเพราะมาก",
+      "translations": {
+       "zh": "她唱歌很好听。",
+       "en": "She sings beautifully."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาบน้ำ",
+  "phonetic": "apnam",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "àap-náam · 低, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้น้ำล้างตัว",
+    "translations": {
+     "zh": "洗澡",
+     "en": "to take a shower, to bathe"
+    },
+    "examples": [
+     {
+      "text": "ผมอาบน้ำทุกเช้า",
+      "translations": {
+       "zh": "我每天早上洗澡。",
+       "en": "I shower every morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ล้าง",
+  "phonetic": "lang",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "láang · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้น้ำทำให้สะอาด",
+    "translations": {
+     "zh": "洗（手、碗等）",
+     "en": "to wash"
+    },
+    "examples": [
+     {
+      "text": "ล้างมือก่อนกินข้าวนะ",
+      "translations": {
+       "zh": "吃饭前要洗手哦。",
+       "en": "Wash your hands before eating."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หลับ",
+  "phonetic": "lap",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "làp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่รู้สึกตัวเพราะนอน",
+    "translations": {
+     "zh": "睡着",
+     "en": "to fall asleep"
+    },
+    "examples": [
+     {
+      "text": "ลูกหลับแล้ว",
+      "translations": {
+       "zh": "孩子睡着了。",
+       "en": "The baby has fallen asleep."
+      }
+     }
+    ],
+    "usageNote": "นอน 是“去睡、躺下”，หลับ 是“睡着”。"
+   }
+  ]
+ },
+ {
+  "headword": "เจอ",
+  "phonetic": "choe",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "grammarNotes": {
+   "toneMarks": "jəə · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พบกัน หรือหาแล้วพบ",
+    "translations": {
+     "zh": "遇见；找到",
+     "en": "to meet; to find"
+    },
+    "examples": [
+     {
+      "text": "เจอกันพรุ่งนี้นะ",
+      "translations": {
+       "zh": "明天见！",
+       "en": "See you tomorrow!"
+      }
+     }
+    ],
+    "usageNote": "เจอ 是口语，较正式的说法是 พบ。"
+   }
+  ]
+ },
+ {
+  "headword": "พบ",
+  "phonetic": "phop",
+  "cefr": "A2",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "toneMarks": "phóp · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เจอ (ภาษาสุภาพ)",
+    "translations": {
+     "zh": "遇见；见面（较正式）",
+     "en": "to meet, to find (formal)"
+    },
+    "examples": [
+     {
+      "text": "ผมพบเขาที่สนามบิน",
+      "translations": {
+       "zh": "我在机场见到了他。",
+       "en": "I met him at the airport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รู้จัก",
+  "phonetic": "ruchak",
+  "cefr": "A1",
+  "frequencyRank": 330,
+  "grammarNotes": {
+   "toneMarks": "rúu-jàk · 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เคยพบและรู้ว่าเป็นใคร",
+    "translations": {
+     "zh": "认识",
+     "en": "to know (a person, a place)"
+    },
+    "examples": [
+     {
+      "text": "คุณรู้จักเขาไหม",
+      "translations": {
+       "zh": "你认识他吗？",
+       "en": "Do you know him?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลืม",
+  "phonetic": "luem",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "lʉʉm · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "จำไม่ได้",
+    "translations": {
+     "zh": "忘记",
+     "en": "to forget"
+    },
+    "examples": [
+     {
+      "text": "ผมลืมกระเป๋าไว้ในรถ",
+      "translations": {
+       "zh": "我把包忘在车里了。",
+       "en": "I left my bag in the car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส่ง",
+  "phonetic": "song",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "sòng · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ของหรือข้อความไปถึงคนอื่น",
+    "translations": {
+     "zh": "送；寄；发",
+     "en": "to send"
+    },
+    "examples": [
+     {
+      "text": "ส่งรูปมาให้หน่อย",
+      "translations": {
+       "zh": "把照片发给我吧。",
+       "en": "Send me the photo."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ได้ยิน",
+  "phonetic": "daiyin",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "dâi-yin · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้ได้ด้วยหู",
+    "translations": {
+     "zh": "听见",
+     "en": "to hear"
+    },
+    "examples": [
+     {
+      "text": "คุณได้ยินไหม",
+      "translations": {
+       "zh": "你听见了吗？",
+       "en": "Can you hear (it)?"
+      }
+     }
+    ],
+    "usageNote": "ได้ยิน 是“听见”（结果）；主动“听”用 ฟัง。"
+   }
+  ]
+ },
+ {
+  "headword": "เอา",
+  "phonetic": "ao",
+  "cefr": "A1",
+  "frequencyRank": 65,
+  "grammarNotes": {
+   "toneMarks": "ao · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หยิบมา หรือเลือกรับ",
+    "translations": {
+     "zh": "要；拿",
+     "en": "to take; to want (something)"
+    },
+    "examples": [
+     {
+      "text": "เอากาแฟเย็นหนึ่งแก้วครับ",
+      "translations": {
+       "zh": "要一杯冰咖啡。",
+       "en": "One iced coffee, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถือ",
+  "phonetic": "thue",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ʉ · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้มือจับไว้",
+    "translations": {
+     "zh": "拿着；提着",
+     "en": "to hold, to carry"
+    },
+    "examples": [
+     {
+      "text": "เขาถือกระเป๋าใบใหญ่",
+      "translations": {
+       "zh": "他提着一个大包。",
+       "en": "He is carrying a big bag."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หยุด",
+  "phonetic": "yut",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "toneMarks": "yùt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไม่ทำต่อ หรือไม่ไปต่อ",
+    "translations": {
+     "zh": "停；停止",
+     "en": "to stop"
+    },
+    "examples": [
+     {
+      "text": "หยุดตรงนี้ครับ",
+      "translations": {
+       "zh": "在这里停。",
+       "en": "Stop here, please."
+      }
+     }
+    ],
+    "usageNote": "วันหยุด = 假日、休息日。"
+   }
+  ]
+ },
+ {
+  "headword": "เริ่ม",
+  "phonetic": "roem",
+  "cefr": "A1",
+  "frequencyRank": 380,
+  "grammarNotes": {
+   "toneMarks": "rə̂əm · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำเป็นครั้งแรก ทำตอนต้น",
+    "translations": {
+     "zh": "开始",
+     "en": "to start, to begin"
+    },
+    "examples": [
+     {
+      "text": "หนังเริ่มแล้ว",
+      "translations": {
+       "zh": "电影开始了。",
+       "en": "The film has started."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสร็จ",
+  "phonetic": "set",
+  "cefr": "A1",
+  "frequencyRank": 750,
+  "grammarNotes": {
+   "toneMarks": "sèt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำจนจบ",
+    "translations": {
+     "zh": "完成；做完",
+     "en": "to finish, to be done"
+    },
+    "examples": [
+     {
+      "text": "ทำการบ้านเสร็จแล้ว",
+      "translations": {
+       "zh": "作业做完了。",
+       "en": "Homework is done."
+      }
+     }
+    ],
+    "usageNote": "ร 不发音，读 sèt。"
+   }
+  ]
+ },
+ {
+  "headword": "เปลี่ยน",
+  "phonetic": "plian",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "grammarNotes": {
+   "toneMarks": "plìan · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ไม่เหมือนเดิม หรือเอาอันใหม่มาแทน",
+    "translations": {
+     "zh": "换；改变",
+     "en": "to change"
+    },
+    "examples": [
+     {
+      "text": "ผมเปลี่ยนเสื้อแล้ว",
+      "translations": {
+       "zh": "我换了衣服。",
+       "en": "I've changed my shirt."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เลือก",
+  "phonetic": "lueak",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "lʉ̂ak · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาอันที่ชอบจากหลายอัน",
+    "translations": {
+     "zh": "选；选择",
+     "en": "to choose"
+    },
+    "examples": [
+     {
+      "text": "เลือกอันไหนดี",
+      "translations": {
+       "zh": "选哪个好呢？",
+       "en": "Which one should I choose?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลอง",
+  "phonetic": "long",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "lɔɔng · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำดูเพื่อให้รู้",
+    "translations": {
+     "zh": "试；尝试",
+     "en": "to try"
+    },
+    "examples": [
+     {
+      "text": "ลองใส่ดูไหมคะ",
+      "translations": {
+       "zh": "要试穿一下吗？",
+       "en": "Would you like to try it on?"
+      }
+     }
+    ],
+    "usageNote": "ลอง + 动词 + ดู = “……看看”：ลองกินดู（尝尝看）。"
+   }
+  ]
+ },
+ {
+  "headword": "ใส่",
+  "phonetic": "sai",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "sài · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "สวมเสื้อผ้า หรือเอาของเข้าไปข้างใน",
+    "translations": {
+     "zh": "穿；戴；放进",
+     "en": "to put on, to wear; to put in"
+    },
+    "examples": [
+     {
+      "text": "ใส่เสื้อกันหนาวนะ",
+      "translations": {
+       "zh": "穿上外套啊。",
+       "en": "Put on a jacket."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาของเข้าไปในสิ่งอื่น",
+    "translations": {
+     "zh": "放入；加",
+     "en": "to put in, to add"
+    },
+    "examples": [
+     {
+      "text": "ไม่ใส่น้ำตาลครับ",
+      "translations": {
+       "zh": "不加糖。",
+       "en": "No sugar, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถอด",
+  "phonetic": "thot",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "thɔ̀ɔt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาเสื้อผ้าหรือรองเท้าออกจากตัว",
+    "translations": {
+     "zh": "脱；摘下",
+     "en": "to take off"
+    },
+    "examples": [
+     {
+      "text": "ถอดรองเท้าก่อนเข้าบ้าน",
+      "translations": {
+       "zh": "进屋前脱鞋。",
+       "en": "Take off your shoes before going into the house."
+      }
+     }
+    ],
+    "usageNote": "在泰国进家门、进寺庙一般要 ถอดรองเท้า（脱鞋）。"
+   }
+  ]
+ },
+ {
+  "headword": "เดินทาง",
+  "phonetic": "doenthang",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "dəən-thaang · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปจากที่หนึ่งสู่อีกที่หนึ่ง",
+    "translations": {
+     "zh": "旅行；出行",
+     "en": "to travel"
+    },
+    "examples": [
+     {
+      "text": "ผมชอบเดินทางคนเดียว",
+      "translations": {
+       "zh": "我喜欢一个人旅行。",
+       "en": "I like travelling alone."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พัก",
+  "phonetic": "phak",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "phák · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หยุดทำงานเพื่อให้หายเหนื่อย หรืออยู่ชั่วคราว",
+    "translations": {
+     "zh": "休息；暂住",
+     "en": "to rest; to stay"
+    },
+    "examples": [
+     {
+      "text": "พักสักครู่ไหม",
+      "translations": {
+       "zh": "休息一会儿吗？",
+       "en": "Shall we take a short break?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เที่ยว",
+  "phonetic": "thiao",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "toneMarks": "thîao · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปเพื่อความสนุกหรือพักผ่อน",
+    "translations": {
+     "zh": "游玩；去玩",
+     "en": "to go out for fun, to travel"
+    },
+    "examples": [
+     {
+      "text": "ไปเที่ยวทะเลกันไหม",
+      "translations": {
+       "zh": "一起去海边玩吗？",
+       "en": "Shall we go to the beach?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตัด",
+  "phonetic": "tat",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "tàt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้มีดหรือกรรไกรทำให้ขาด",
+    "translations": {
+     "zh": "剪；切",
+     "en": "to cut"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันจะไปตัดผม",
+      "translations": {
+       "zh": "明天我要去剪头发。",
+       "en": "Tomorrow I'm going to get a haircut."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทิ้ง",
+  "phonetic": "thing",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "thíng · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ปล่อยไป ไม่เอาแล้ว",
+    "translations": {
+     "zh": "扔；丢弃",
+     "en": "to throw away"
+    },
+    "examples": [
+     {
+      "text": "อย่าทิ้งขยะตรงนี้",
+      "translations": {
+       "zh": "别在这里扔垃圾。",
+       "en": "Don't throw rubbish here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เก็บ",
+  "phonetic": "kep",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "toneMarks": "kèp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอามารวมไว้ หรือเอาไว้ที่เดิม",
+    "translations": {
+     "zh": "收；收拾；保存",
+     "en": "to keep; to tidy up"
+    },
+    "examples": [
+     {
+      "text": "เก็บของเล่นด้วยนะ",
+      "translations": {
+       "zh": "把玩具收好哦。",
+       "en": "Put your toys away, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จอง",
+  "phonetic": "chong",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "jɔɔng · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกไว้ก่อนว่าจะใช้หรือจะซื้อ",
+    "translations": {
+     "zh": "预订",
+     "en": "to book, to reserve"
+    },
+    "examples": [
+     {
+      "text": "ผมจองโต๊ะไว้แล้ว",
+      "translations": {
+       "zh": "我已经订好桌子了。",
+       "en": "I've booked a table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หัวเราะ",
+  "phonetic": "huaro",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "hǔa-rɔ́ · 升, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งเสียงเมื่อรู้สึกขำ",
+    "translations": {
+     "zh": "笑；大笑",
+     "en": "to laugh"
+    },
+    "examples": [
+     {
+      "text": "เด็กหัวเราะเสียงดัง",
+      "translations": {
+       "zh": "孩子大声地笑。",
+       "en": "The child laughs loudly."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ร้องไห้",
+  "phonetic": "ronghai",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "rɔ́ɔng-hâi · 高, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีน้ำตาไหลเพราะเสียใจหรือเจ็บ",
+    "translations": {
+     "zh": "哭",
+     "en": "to cry"
+    },
+    "examples": [
+     {
+      "text": "น้องร้องไห้ทำไม",
+      "translations": {
+       "zh": "弟弟/妹妹为什么哭？",
+       "en": "Why is the little one crying?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยิ้ม",
+  "phonetic": "yim",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "yím · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำปากให้ดูมีความสุข",
+    "translations": {
+     "zh": "微笑",
+     "en": "to smile"
+    },
+    "examples": [
+     {
+      "text": "เธอยิ้มสวยมาก",
+      "translations": {
+       "zh": "她笑得很美。",
+       "en": "She has a lovely smile."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชิม",
+  "phonetic": "chim",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "chim · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ลองกินเพื่อรู้รส",
+    "translations": {
+     "zh": "尝；品尝",
+     "en": "to taste"
+    },
+    "examples": [
+     {
+      "text": "ลองชิมดูสิ อร่อยนะ",
+      "translations": {
+       "zh": "尝尝看吧，很好吃的。",
+       "en": "Have a taste, it's good."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขอ",
+  "phonetic": "kho",
+  "cefr": "A1",
+  "frequencyRank": 85,
+  "grammarNotes": {
+   "toneMarks": "khɔ̌ɔ · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดเพื่อให้คนอื่นให้",
+    "translations": {
+     "zh": "要；请求",
+     "en": "to ask for, may I have"
+    },
+    "examples": [
+     {
+      "text": "ขอเมนูหน่อยครับ",
+      "translations": {
+       "zh": "请给我菜单。",
+       "en": "Could I have the menu, please?"
+      }
+     }
+    ],
+    "usageNote": "ขอ + 名词 + หน่อย 是点菜、买东西最常用的礼貌说法。"
+   }
+  ]
+ },
+ {
+  "headword": "อยู่",
+  "phonetic": "yu",
+  "cefr": "A1",
+  "frequencyRank": 10,
+  "grammarNotes": {
+   "toneMarks": "yùu · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พักอาศัย หรือมีตัวอยู่ที่ใดที่หนึ่ง",
+    "translations": {
+     "zh": "在；住",
+     "en": "to be (at); to live"
+    },
+    "examples": [
+     {
+      "text": "ผมอยู่กรุงเทพ",
+      "translations": {
+       "zh": "我住在曼谷。",
+       "en": "I live in Bangkok."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้หลังคำกริยา บอกว่ากำลังทำอยู่",
+    "translations": {
+     "zh": "正在……（放在动词后）",
+     "en": "(after a verb) to be doing"
+    },
+    "examples": [
+     {
+      "text": "แม่ทำกับข้าวอยู่",
+      "translations": {
+       "zh": "妈妈正在做饭。",
+       "en": "Mum is cooking."
+      }
+     }
+    ],
+    "usageNote": "动词 + อยู่ 表示动作正在进行，常和 กำลัง 一起用。"
+   }
+  ]
+ },
+ {
+  "headword": "คุย",
+  "phonetic": "khui",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "khui · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดกันสบาย ๆ",
+    "translations": {
+     "zh": "聊天；谈话",
+     "en": "to chat, to talk"
+    },
+    "examples": [
+     {
+      "text": "เราคุยกันทั้งคืน",
+      "translations": {
+       "zh": "我们聊了一整晚。",
+       "en": "We talked all night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จับ",
+  "phonetic": "chap",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "jàp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้มือถือไว้หรือเอาไว้",
+    "translations": {
+     "zh": "抓；握；拿",
+     "en": "to hold, to catch"
+    },
+    "examples": [
+     {
+      "text": "จับมือแม่ไว้นะ",
+      "translations": {
+       "zh": "拉住妈妈的手啊。",
+       "en": "Hold Mum's hand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตก",
+  "phonetic": "tok",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "toneMarks": "tòk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ลงจากที่สูงสู่ข้างล่าง",
+    "translations": {
+     "zh": "掉；落；（雨）下",
+     "en": "to fall, to drop"
+    },
+    "examples": [
+     {
+      "text": "ฝนตกหนักมาก",
+      "translations": {
+       "zh": "雨下得很大。",
+       "en": "It's raining heavily."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยืม",
+  "phonetic": "yuem",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "yʉʉm · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาของคนอื่นมาใช้แล้วจะคืน",
+    "translations": {
+     "zh": "借（向别人借）",
+     "en": "to borrow"
+    },
+    "examples": [
+     {
+      "text": "ขอยืมปากกาหน่อยครับ",
+      "translations": {
+       "zh": "借我一支笔好吗？",
+       "en": "Can I borrow a pen?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สั่ง",
+  "phonetic": "sang",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "toneMarks": "sàng · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกให้ทำ หรือบอกว่าจะเอาอาหารอะไร",
+    "translations": {
+     "zh": "点（菜）；订；吩咐",
+     "en": "to order"
+    },
+    "examples": [
+     {
+      "text": "สั่งอาหารหรือยังคะ",
+      "translations": {
+       "zh": "点菜了吗？",
+       "en": "Have you ordered yet?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แปล",
+  "phonetic": "plae",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "plɛɛ · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เปลี่ยนจากภาษาหนึ่งเป็นอีกภาษาหนึ่ง",
+    "translations": {
+     "zh": "翻译；意思是",
+     "en": "to translate; to mean"
+    },
+    "examples": [
+     {
+      "text": "คำนี้แปลว่าอะไร",
+      "translations": {
+       "zh": "这个词是什么意思？",
+       "en": "What does this word mean?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นับ",
+  "phonetic": "nap",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "náp · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกจำนวนทีละหนึ่ง",
+    "translations": {
+     "zh": "数（数）",
+     "en": "to count"
+    },
+    "examples": [
+     {
+      "text": "นับหนึ่งถึงสิบ",
+      "translations": {
+       "zh": "从一数到十。",
+       "en": "Count from one to ten."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เกิด",
+  "phonetic": "koet",
+  "cefr": "A2",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "toneMarks": "kə̀ət · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ออกมาจากท้องแม่ หรือมีขึ้น",
+    "translations": {
+     "zh": "出生；发生",
+     "en": "to be born; to happen"
+    },
+    "examples": [
+     {
+      "text": "ผมเกิดที่ปักกิ่ง",
+      "translations": {
+       "zh": "我出生在北京。",
+       "en": "I was born in Beijing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แต่งงาน",
+  "phonetic": "taengngan",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "tɛ̀ng-ngaan · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เป็นสามีภรรยากัน",
+    "translations": {
+     "zh": "结婚",
+     "en": "to get married"
+    },
+    "examples": [
+     {
+      "text": "พี่สาวแต่งงานแล้ว",
+      "translations": {
+       "zh": "姐姐已经结婚了。",
+       "en": "My older sister is married."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตาย",
+  "phonetic": "tai",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "taai · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หมดลมหายใจ ไม่มีชีวิต",
+    "translations": {
+     "zh": "死",
+     "en": "to die"
+    },
+    "examples": [
+     {
+      "text": "ต้นไม้ตายแล้ว",
+      "translations": {
+       "zh": "树死了。",
+       "en": "The plant has died."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มอง",
+  "phonetic": "mong",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "mɔɔng · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หันตาไปทางนั้น",
+    "translations": {
+     "zh": "看；望",
+     "en": "to look (towards)"
+    },
+    "examples": [
+     {
+      "text": "มองทางนี้หน่อย",
+      "translations": {
+       "zh": "看这边一下。",
+       "en": "Look this way."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ศูนย์",
+  "phonetic": "sun",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "sǔun · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "จำนวนที่ไม่มีอะไรเลย",
+    "translations": {
+     "zh": "零",
+     "en": "zero"
+    },
+    "examples": [
+     {
+      "text": "เบอร์ของฉันขึ้นต้นด้วยศูนย์",
+      "translations": {
+       "zh": "我的号码以零开头。",
+       "en": "My number starts with zero."
+      }
+     }
+    ],
+    "usageNote": "ศูนย์ 也有“中心”的意思：ศูนย์การค้า（购物中心）。"
+   }
+  ]
+ },
+ {
+  "headword": "หนึ่ง",
+  "phonetic": "nueng",
+  "cefr": "A1",
+  "frequencyRank": 50,
+  "grammarNotes": {
+   "toneMarks": "nʉ̀ng · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "จำนวนแรก",
+    "translations": {
+     "zh": "一",
+     "en": "one"
+    },
+    "examples": [
+     {
+      "text": "ขอกาแฟหนึ่งแก้ว",
+      "translations": {
+       "zh": "要一杯咖啡。",
+       "en": "One coffee, please."
+      }
+     }
+    ],
+    "usageNote": "数数的“一”是 หนึ่ง；在十位后面（11、21……）要说 เอ็ด：สิบเอ็ด（十一）。"
+   }
+  ]
+ },
+ {
+  "headword": "สอง",
+  "phonetic": "song",
+  "cefr": "A1",
+  "frequencyRank": 60,
+  "grammarNotes": {
+   "toneMarks": "sɔ̌ɔng · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "หนึ่งบวกหนึ่ง",
+    "translations": {
+     "zh": "二；两",
+     "en": "two"
+    },
+    "examples": [
+     {
+      "text": "ฉันมีพี่สองคน",
+      "translations": {
+       "zh": "我有两个哥哥/姐姐。",
+       "en": "I have two older siblings."
+      }
+     }
+    ],
+    "usageNote": "泰语计数：名词 + 数字 + 量词，如 แมวสองตัว（两只猫）。"
+   }
+  ]
+ }
+]

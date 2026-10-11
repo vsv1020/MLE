@@ -44,7 +44,7 @@ LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"]
 POS = {
     "noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun",
     "determiner", "interjection", "phrasal verb", "idiom", "phrase", "number", "modal verb",
-    "auxiliary verb", "article", "exclamation",
+    "auxiliary verb", "article", "exclamation", "particle", "classifier",
 }
 
 

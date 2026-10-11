@@ -1,0 +1,1487 @@
+[
+ {
+  "headword": "เป็น",
+  "phonetic": "pen",
+  "cefr": "A1",
+  "frequencyRank": 8,
+  "grammarNotes": {
+   "toneMarks": "pen · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้บอกว่าใครหรืออะไรคืออะไร",
+    "translations": {
+     "zh": "是（身份、职业）",
+     "en": "to be (identity, role)"
+    },
+    "examples": [
+     {
+      "text": "ผมเป็นนักเรียนครับ",
+      "translations": {
+       "zh": "我是学生。",
+       "en": "I am a student."
+      }
+     }
+    ],
+    "usageNote": "เป็น 用于“是 + 名词”（身份、职业、关系）。形容词前不用 เป็น：说 เขาสูง（他高），不说 เขาเป็นสูง。"
+   }
+  ]
+ },
+ {
+  "headword": "มี",
+  "phonetic": "mi",
+  "cefr": "A1",
+  "frequencyRank": 6,
+  "grammarNotes": {
+   "toneMarks": "mii · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เป็นเจ้าของ หรือบอกว่ามีอยู่",
+    "translations": {
+     "zh": "有；拥有",
+     "en": "to have; there is"
+    },
+    "examples": [
+     {
+      "text": "ฉันมีแมวสองตัว",
+      "translations": {
+       "zh": "我有两只猫。",
+       "en": "I have two cats."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "บอกว่ามีสิ่งหนึ่งอยู่ที่ใดที่หนึ่ง",
+    "translations": {
+     "zh": "有（存在）",
+     "en": "there is, there are"
+    },
+    "examples": [
+     {
+      "text": "ในห้องมีคนสามคน",
+      "translations": {
+       "zh": "房间里有三个人。",
+       "en": "There are three people in the room."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไป",
+  "phonetic": "pai",
+  "cefr": "A1",
+  "frequencyRank": 5,
+  "grammarNotes": {
+   "toneMarks": "pai · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เคลื่อนที่ออกจากที่นี่ไปที่อื่น",
+    "translations": {
+     "zh": "去",
+     "en": "to go"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ผมจะไปตลาด",
+      "translations": {
+       "zh": "明天我要去市场。",
+       "en": "Tomorrow I will go to the market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มา",
+  "phonetic": "ma",
+  "cefr": "A1",
+  "frequencyRank": 7,
+  "grammarNotes": {
+   "toneMarks": "maa · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เคลื่อนที่เข้ามาหาผู้พูด",
+    "translations": {
+     "zh": "来",
+     "en": "to come"
+    },
+    "examples": [
+     {
+      "text": "เขามาจากจีน",
+      "translations": {
+       "zh": "他来自中国。",
+       "en": "He comes from China."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทำ",
+  "phonetic": "tham",
+  "cefr": "A1",
+  "frequencyRank": 12,
+  "grammarNotes": {
+   "toneMarks": "tham · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ลงมือให้เกิดสิ่งต่าง ๆ",
+    "translations": {
+     "zh": "做；干",
+     "en": "to do, to make"
+    },
+    "examples": [
+     {
+      "text": "คุณทำอะไรอยู่",
+      "translations": {
+       "zh": "你在做什么？",
+       "en": "What are you doing?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กิน",
+  "phonetic": "kin",
+  "cefr": "A1",
+  "frequencyRank": 40,
+  "grammarNotes": {
+   "toneMarks": "kin · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาอาหารเข้าปากแล้วกลืน",
+    "translations": {
+     "zh": "吃",
+     "en": "to eat"
+    },
+    "examples": [
+     {
+      "text": "ผมกินข้าวแล้ว",
+      "translations": {
+       "zh": "我吃过饭了。",
+       "en": "I have eaten."
+      }
+     }
+    ],
+    "usageNote": "กินข้าว 字面是“吃米饭”，日常就是“吃饭”。"
+   }
+  ]
+ },
+ {
+  "headword": "ดื่ม",
+  "phonetic": "duem",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "dʉ̀ʉm · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาน้ำหรือของเหลวเข้าปาก",
+    "translations": {
+     "zh": "喝",
+     "en": "to drink"
+    },
+    "examples": [
+     {
+      "text": "ฉันดื่มกาแฟทุกเช้า",
+      "translations": {
+       "zh": "我每天早上喝咖啡。",
+       "en": "I drink coffee every morning."
+      }
+     }
+    ],
+    "usageNote": "口语里也常用 กิน 表示“喝”，如 กินน้ำ（喝水）。"
+   }
+  ]
+ },
+ {
+  "headword": "พูด",
+  "phonetic": "phut",
+  "cefr": "A1",
+  "frequencyRank": 90,
+  "grammarNotes": {
+   "toneMarks": "phûut · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้เสียงบอกเป็นคำ",
+    "translations": {
+     "zh": "说；讲",
+     "en": "to speak, to say"
+    },
+    "examples": [
+     {
+      "text": "คุณพูดภาษาไทยได้ไหม",
+      "translations": {
+       "zh": "你会说泰语吗？",
+       "en": "Can you speak Thai?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รู้",
+  "phonetic": "ru",
+  "cefr": "A1",
+  "frequencyRank": 60,
+  "grammarNotes": {
+   "toneMarks": "rúu · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "มีความรู้หรือข้อมูลในเรื่องนั้น",
+    "translations": {
+     "zh": "知道",
+     "en": "to know"
+    },
+    "examples": [
+     {
+      "text": "ผมไม่รู้ครับ",
+      "translations": {
+       "zh": "我不知道。",
+       "en": "I don't know."
+      }
+     }
+    ],
+    "usageNote": "รู้ 是“知道（事情）”；“认识（人）”用 รู้จัก。"
+   }
+  ]
+ },
+ {
+  "headword": "เข้าใจ",
+  "phonetic": "khaochai",
+  "cefr": "A1",
+  "frequencyRank": 210,
+  "grammarNotes": {
+   "toneMarks": "khâo-jai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้ความหมายของสิ่งที่ได้ยินหรือเห็น",
+    "translations": {
+     "zh": "明白；理解",
+     "en": "to understand"
+    },
+    "examples": [
+     {
+      "text": "ฉันไม่เข้าใจค่ะ",
+      "translations": {
+       "zh": "我不明白。",
+       "en": "I don't understand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชอบ",
+  "phonetic": "chop",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "toneMarks": "chɔ̂ɔp · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกดีกับสิ่งนั้น",
+    "translations": {
+     "zh": "喜欢",
+     "en": "to like"
+    },
+    "examples": [
+     {
+      "text": "ผมชอบอาหารไทย",
+      "translations": {
+       "zh": "我喜欢泰国菜。",
+       "en": "I like Thai food."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อยาก",
+  "phonetic": "yak",
+  "cefr": "A1",
+  "frequencyRank": 110,
+  "grammarNotes": {
+   "toneMarks": "yàak · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ต้องการจะทำหรือจะได้",
+    "translations": {
+     "zh": "想；想要",
+     "en": "to want (to)"
+    },
+    "examples": [
+     {
+      "text": "ฉันอยากไปทะเล",
+      "translations": {
+       "zh": "我想去海边。",
+       "en": "I want to go to the sea."
+      }
+     }
+    ],
+    "usageNote": "อยาก 后面接动词：อยากกิน（想吃）。想要某样东西常说 อยากได้。"
+   }
+  ]
+ },
+ {
+  "headword": "ได้",
+  "phonetic": "dai",
+  "cefr": "A1",
+  "frequencyRank": 4,
+  "grammarNotes": {
+   "toneMarks": "dâai · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "สามารถทำได้",
+    "translations": {
+     "zh": "能；会；可以",
+     "en": "can, to be able to"
+    },
+    "examples": [
+     {
+      "text": "ผมพูดไทยได้นิดหน่อย",
+      "translations": {
+       "zh": "我会说一点泰语。",
+       "en": "I can speak a little Thai."
+      }
+     }
+    ],
+    "usageNote": "表示“能/会”时 ได้ 放在动词短语的后面。口语常读短音 dâi。"
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "รับเอาไว้เป็นของตน",
+    "translations": {
+     "zh": "得到；收到",
+     "en": "to get, to receive"
+    },
+    "examples": [
+     {
+      "text": "ฉันได้ของขวัญจากแม่",
+      "translations": {
+       "zh": "我收到了妈妈送的礼物。",
+       "en": "I got a present from Mum."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ให้",
+  "phonetic": "hai",
+  "cefr": "A1",
+  "frequencyRank": 9,
+  "grammarNotes": {
+   "toneMarks": "hâi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ส่งของของตนไปให้คนอื่น",
+    "translations": {
+     "zh": "给",
+     "en": "to give"
+    },
+    "examples": [
+     {
+      "text": "แม่ให้เงินผม",
+      "translations": {
+       "zh": "妈妈给我钱。",
+       "en": "Mum gives me money."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้คนอื่นทำบางอย่าง",
+    "translations": {
+     "zh": "让；叫（某人做某事）",
+     "en": "to let, to have (someone do)"
+    },
+    "examples": [
+     {
+      "text": "ครูให้นักเรียนอ่านหนังสือ",
+      "translations": {
+       "zh": "老师让学生读书。",
+       "en": "The teacher has the students read."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เห็น",
+  "phonetic": "hen",
+  "cefr": "A1",
+  "frequencyRank": 140,
+  "grammarNotes": {
+   "toneMarks": "hěn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้ได้ด้วยตา",
+    "translations": {
+     "zh": "看见",
+     "en": "to see"
+    },
+    "examples": [
+     {
+      "text": "คุณเห็นแมวของฉันไหม",
+      "translations": {
+       "zh": "你看见我的猫了吗？",
+       "en": "Have you seen my cat?"
+      }
+     }
+    ],
+    "usageNote": "เห็น 是“看见”（结果）；主动“看”用 ดู。"
+   }
+  ]
+ },
+ {
+  "headword": "ดู",
+  "phonetic": "du",
+  "cefr": "A1",
+  "frequencyRank": 70,
+  "grammarNotes": {
+   "toneMarks": "duu · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้ตามองอย่างตั้งใจ",
+    "translations": {
+     "zh": "看；观看",
+     "en": "to look at, to watch"
+    },
+    "examples": [
+     {
+      "text": "เราดูหนังกันไหม",
+      "translations": {
+       "zh": "我们一起看电影吗？",
+       "en": "Shall we watch a film?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฟัง",
+  "phonetic": "fang",
+  "cefr": "A1",
+  "frequencyRank": 230,
+  "grammarNotes": {
+   "toneMarks": "fang · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้หูรับเสียงอย่างตั้งใจ",
+    "translations": {
+     "zh": "听",
+     "en": "to listen"
+    },
+    "examples": [
+     {
+      "text": "ผมชอบฟังเพลง",
+      "translations": {
+       "zh": "我喜欢听音乐。",
+       "en": "I like listening to music."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อ่าน",
+  "phonetic": "an",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "grammarNotes": {
+   "toneMarks": "àan · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูตัวหนังสือแล้วเข้าใจความหมาย",
+    "translations": {
+     "zh": "读；阅读",
+     "en": "to read"
+    },
+    "examples": [
+     {
+      "text": "ฉันอ่านหนังสือทุกคืน",
+      "translations": {
+       "zh": "我每天晚上看书。",
+       "en": "I read every night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เขียน",
+  "phonetic": "khian",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "khǐan · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้เป็นตัวหนังสือด้วยปากกาหรือดินสอ",
+    "translations": {
+     "zh": "写",
+     "en": "to write"
+    },
+    "examples": [
+     {
+      "text": "เขียนชื่อตรงนี้ครับ",
+      "translations": {
+       "zh": "请在这里写名字。",
+       "en": "Write your name here, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นอน",
+  "phonetic": "non",
+  "cefr": "A1",
+  "frequencyRank": 280,
+  "grammarNotes": {
+   "toneMarks": "nɔɔn · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอนตัวลงพัก หรือหลับ",
+    "translations": {
+     "zh": "睡；躺",
+     "en": "to sleep, to lie down"
+    },
+    "examples": [
+     {
+      "text": "ลูกนอนแล้ว",
+      "translations": {
+       "zh": "孩子已经睡了。",
+       "en": "The child is asleep."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตื่น",
+  "phonetic": "tuen",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "tʉ̀ʉn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "หยุดหลับ ลืมตาขึ้นมา",
+    "translations": {
+     "zh": "醒；起床",
+     "en": "to wake up"
+    },
+    "examples": [
+     {
+      "text": "ฉันตื่นหกโมงเช้า",
+      "translations": {
+       "zh": "我早上六点起床。",
+       "en": "I wake up at six in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ซื้อ",
+  "phonetic": "sue",
+  "cefr": "A1",
+  "frequencyRank": 250,
+  "grammarNotes": {
+   "toneMarks": "sʉ́ʉ · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "จ่ายเงินเพื่อเอาของมา",
+    "translations": {
+     "zh": "买",
+     "en": "to buy"
+    },
+    "examples": [
+     {
+      "text": "ผมซื้อผลไม้ที่ตลาด",
+      "translations": {
+       "zh": "我在市场买水果。",
+       "en": "I buy fruit at the market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขาย",
+  "phonetic": "khai",
+  "cefr": "A1",
+  "frequencyRank": 330,
+  "grammarNotes": {
+   "toneMarks": "khǎai · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้ของแก่คนอื่นเพื่อรับเงิน",
+    "translations": {
+     "zh": "卖",
+     "en": "to sell"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้ขายอะไรครับ",
+      "translations": {
+       "zh": "这家店卖什么？",
+       "en": "What does this shop sell?"
+      }
+     }
+    ],
+    "usageNote": "ขาย（升调，卖）和 ซื้อ（高调，买）是一对反义词。"
+   }
+  ]
+ },
+ {
+  "headword": "จ่าย",
+  "phonetic": "chai",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "jàai · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ให้เงินเป็นค่าของหรือค่าบริการ",
+    "translations": {
+     "zh": "付（钱）",
+     "en": "to pay"
+    },
+    "examples": [
+     {
+      "text": "ผมจ่ายเงินแล้ว",
+      "translations": {
+       "zh": "我已经付钱了。",
+       "en": "I have already paid."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทำงาน",
+  "phonetic": "thamngan",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "grammarNotes": {
+   "toneMarks": "tham-ngaan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำหน้าที่ในอาชีพของตน",
+    "translations": {
+     "zh": "工作；上班",
+     "en": "to work"
+    },
+    "examples": [
+     {
+      "text": "พ่อทำงานที่ธนาคาร",
+      "translations": {
+       "zh": "爸爸在银行工作。",
+       "en": "Dad works at a bank."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สอน",
+  "phonetic": "son",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "sɔ̌ɔn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ช่วยให้คนอื่นรู้หรือทำเป็น",
+    "translations": {
+     "zh": "教",
+     "en": "to teach"
+    },
+    "examples": [
+     {
+      "text": "เธอสอนภาษาอังกฤษ",
+      "translations": {
+       "zh": "她教英语。",
+       "en": "She teaches English."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รอ",
+  "phonetic": "ro",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "toneMarks": "rɔɔ · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อยู่จนกว่าคนหรือสิ่งที่หวังจะมา",
+    "translations": {
+     "zh": "等",
+     "en": "to wait"
+    },
+    "examples": [
+     {
+      "text": "รอสักครู่นะคะ",
+      "translations": {
+       "zh": "请稍等一下。",
+       "en": "Please wait a moment."
+      }
+     }
+    ],
+    "usageNote": "รอสักครู่ 是礼貌的“请稍等”，女性句末用 นะคะ，男性用 นะครับ。"
+   }
+  ]
+ },
+ {
+  "headword": "หา",
+  "phonetic": "ha",
+  "cefr": "A1",
+  "frequencyRank": 240,
+  "grammarNotes": {
+   "toneMarks": "hǎa · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พยายามให้เจอสิ่งที่ต้องการ",
+    "translations": {
+     "zh": "找",
+     "en": "to look for"
+    },
+    "examples": [
+     {
+      "text": "ผมหากุญแจไม่เจอ",
+      "translations": {
+       "zh": "我找不到钥匙。",
+       "en": "I can't find my keys."
+      }
+     }
+    ],
+    "usageNote": "หา 是“找”的过程，找到了用 เจอ：หาเจอ（找到了）。"
+   }
+  ]
+ },
+ {
+  "headword": "เปิด",
+  "phonetic": "poet",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "grammarNotes": {
+   "toneMarks": "pə̀ət · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ไม่ปิด หรือทำให้เครื่องทำงาน",
+    "translations": {
+     "zh": "开；打开",
+     "en": "to open; to turn on"
+    },
+    "examples": [
+     {
+      "text": "เปิดประตูหน่อยครับ",
+      "translations": {
+       "zh": "请开一下门。",
+       "en": "Please open the door."
+      }
+     }
+    ],
+    "usageNote": "开灯、开电视也用 เปิด：เปิดไฟ（开灯）。"
+   }
+  ]
+ },
+ {
+  "headword": "ปิด",
+  "phonetic": "pit",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "toneMarks": "pìt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้ไม่เปิด หรือทำให้เครื่องหยุดทำงาน",
+    "translations": {
+     "zh": "关；关闭",
+     "en": "to close; to turn off"
+    },
+    "examples": [
+     {
+      "text": "ปิดไฟก่อนนอนนะ",
+      "translations": {
+       "zh": "睡觉前把灯关了啊。",
+       "en": "Turn off the light before bed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใช้",
+  "phonetic": "chai",
+  "cefr": "A1",
+  "frequencyRank": 30,
+  "grammarNotes": {
+   "toneMarks": "chái · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาสิ่งของมาทำประโยชน์",
+    "translations": {
+     "zh": "用；使用",
+     "en": "to use"
+    },
+    "examples": [
+     {
+      "text": "ฉันใช้โทรศัพท์ทุกวัน",
+      "translations": {
+       "zh": "我每天用手机。",
+       "en": "I use my phone every day."
+      }
+     }
+    ],
+    "usageNote": "ใช้（高调，用）和 ใช่（降调，是的）只差声调，要分清。"
+   }
+  ]
+ },
+ {
+  "headword": "เดิน",
+  "phonetic": "doen",
+  "cefr": "A1",
+  "frequencyRank": 340,
+  "grammarNotes": {
+   "toneMarks": "dəən · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้ขาก้าวไป",
+    "translations": {
+     "zh": "走；步行",
+     "en": "to walk"
+    },
+    "examples": [
+     {
+      "text": "เราเดินไปโรงเรียน",
+      "translations": {
+       "zh": "我们走路去学校。",
+       "en": "We walk to school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วิ่ง",
+  "phonetic": "wing",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "wîng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้ขาไปเร็ว ๆ",
+    "translations": {
+     "zh": "跑",
+     "en": "to run"
+    },
+    "examples": [
+     {
+      "text": "ผมวิ่งทุกเช้า",
+      "translations": {
+       "zh": "我每天早上跑步。",
+       "en": "I run every morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นั่ง",
+  "phonetic": "nang",
+  "cefr": "A1",
+  "frequencyRank": 380,
+  "grammarNotes": {
+   "toneMarks": "nâng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เอาก้นวางลงบนที่",
+    "translations": {
+     "zh": "坐",
+     "en": "to sit"
+    },
+    "examples": [
+     {
+      "text": "เชิญนั่งครับ",
+      "translations": {
+       "zh": "请坐。",
+       "en": "Please sit down."
+      }
+     }
+    ],
+    "usageNote": "坐车也用 นั่ง：นั่งรถเมล์（坐公交车）。"
+   }
+  ]
+ },
+ {
+  "headword": "ยืน",
+  "phonetic": "yuen",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "yʉʉn · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ตั้งตัวตรงอยู่บนเท้า",
+    "translations": {
+     "zh": "站",
+     "en": "to stand"
+    },
+    "examples": [
+     {
+      "text": "เขายืนอยู่หน้าบ้าน",
+      "translations": {
+       "zh": "他站在房子前面。",
+       "en": "He is standing in front of the house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กลับ",
+  "phonetic": "klap",
+  "cefr": "A1",
+  "frequencyRank": 160,
+  "grammarNotes": {
+   "toneMarks": "klàp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปยังที่ที่มาจาก",
+    "translations": {
+     "zh": "回；返回",
+     "en": "to return, to go back"
+    },
+    "examples": [
+     {
+      "text": "ผมกลับบ้านแล้ว",
+      "translations": {
+       "zh": "我回家了。",
+       "en": "I've gone home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ถึง",
+  "phonetic": "thueng",
+  "cefr": "A1",
+  "frequencyRank": 55,
+  "grammarNotes": {
+   "toneMarks": "thʉ̌ng · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปหรือมาจนสุดทาง",
+    "translations": {
+     "zh": "到；到达",
+     "en": "to arrive, to reach"
+    },
+    "examples": [
+     {
+      "text": "เราถึงกรุงเทพแล้ว",
+      "translations": {
+       "zh": "我们到曼谷了。",
+       "en": "We have arrived in Bangkok."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "preposition",
+    "definition": "จนกระทั่ง จนไปเจอ",
+    "translations": {
+     "zh": "到（为止）",
+     "en": "to, until"
+    },
+    "examples": [
+     {
+      "text": "ร้านเปิดถึงสี่ทุ่ม",
+      "translations": {
+       "zh": "商店营业到晚上十点。",
+       "en": "The shop is open until 10 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ออก",
+  "phonetic": "ok",
+  "cefr": "A1",
+  "frequencyRank": 120,
+  "grammarNotes": {
+   "toneMarks": "ɔ̀ɔk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปจากข้างในสู่ข้างนอก",
+    "translations": {
+     "zh": "出；出去；离开",
+     "en": "to go out, to leave"
+    },
+    "examples": [
+     {
+      "text": "เขาออกจากบ้านแต่เช้า",
+      "translations": {
+       "zh": "他一早就出门了。",
+       "en": "He left home early."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เข้า",
+  "phonetic": "khao",
+  "cefr": "A1",
+  "frequencyRank": 100,
+  "grammarNotes": {
+   "toneMarks": "khâo · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปจากข้างนอกสู่ข้างใน",
+    "translations": {
+     "zh": "进；进入",
+     "en": "to enter, to go in"
+    },
+    "examples": [
+     {
+      "text": "เชิญเข้ามาข้างในครับ",
+      "translations": {
+       "zh": "请进来。",
+       "en": "Please come in."
+      }
+     }
+    ],
+    "usageNote": "เข้า（降调，进）和 เขา（升调，他）字形接近，只差一个声调符号。"
+   }
+  ]
+ },
+ {
+  "headword": "ขึ้น",
+  "phonetic": "khuen",
+  "cefr": "A1",
+  "frequencyRank": 200,
+  "grammarNotes": {
+   "toneMarks": "khʉ̂n · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปยังที่ที่สูงกว่า หรือขึ้นรถ",
+    "translations": {
+     "zh": "上；登上",
+     "en": "to go up; to get on"
+    },
+    "examples": [
+     {
+      "text": "เราขึ้นรถไฟที่นี่",
+      "translations": {
+       "zh": "我们在这里上火车。",
+       "en": "We get on the train here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลง",
+  "phonetic": "long",
+  "cefr": "A1",
+  "frequencyRank": 220,
+  "grammarNotes": {
+   "toneMarks": "long · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ไปยังที่ที่ต่ำกว่า หรือออกจากรถ",
+    "translations": {
+     "zh": "下；下来",
+     "en": "to go down; to get off"
+    },
+    "examples": [
+     {
+      "text": "ลงรถตรงนี้ครับ",
+      "translations": {
+       "zh": "在这里下车。",
+       "en": "Get off here, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขับ",
+  "phonetic": "khap",
+  "cefr": "A1",
+  "frequencyRank": 950,
+  "grammarNotes": {
+   "toneMarks": "khàp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "บังคับรถให้ไป",
+    "translations": {
+     "zh": "开（车）；驾驶",
+     "en": "to drive"
+    },
+    "examples": [
+     {
+      "text": "พ่อขับรถไปทำงาน",
+      "translations": {
+       "zh": "爸爸开车去上班。",
+       "en": "Dad drives to work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ช่วย",
+  "phonetic": "chuai",
+  "cefr": "A1",
+  "frequencyRank": 190,
+  "grammarNotes": {
+   "toneMarks": "chûai · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ทำให้คนอื่นสบายขึ้นหรือทำงานเสร็จ",
+    "translations": {
+     "zh": "帮助；帮忙",
+     "en": "to help"
+    },
+    "examples": [
+     {
+      "text": "ช่วยผมหน่อยได้ไหมครับ",
+      "translations": {
+       "zh": "可以帮我一下吗？",
+       "en": "Could you help me?"
+      }
+     }
+    ],
+    "usageNote": "ช่วย + 动词 + หน่อย 是礼貌地请别人做事：ช่วยพูดช้า ๆ หน่อย（请说慢一点）。"
+   }
+  ]
+ },
+ {
+  "headword": "คิด",
+  "phonetic": "khit",
+  "cefr": "A1",
+  "frequencyRank": 130,
+  "grammarNotes": {
+   "toneMarks": "khít · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ใช้สมองหาคำตอบหรือมีความเห็น",
+    "translations": {
+     "zh": "想；认为",
+     "en": "to think"
+    },
+    "examples": [
+     {
+      "text": "ผมคิดว่าเขาไม่มา",
+      "translations": {
+       "zh": "我觉得他不来了。",
+       "en": "I think he isn't coming."
+      }
+     }
+    ],
+    "usageNote": "คิดว่า… = “我认为……”。คิดถึง 是“想念”：คิดถึงแม่（想妈妈）。"
+   }
+  ]
+ },
+ {
+  "headword": "รัก",
+  "phonetic": "rak",
+  "cefr": "A1",
+  "frequencyRank": 230,
+  "grammarNotes": {
+   "toneMarks": "rák · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกผูกพันและห่วงใยมาก",
+    "translations": {
+     "zh": "爱",
+     "en": "to love"
+    },
+    "examples": [
+     {
+      "text": "แม่รักลูกมาก",
+      "translations": {
+       "zh": "妈妈很爱孩子。",
+       "en": "Mum loves her child very much."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต้อง",
+  "phonetic": "tong",
+  "cefr": "A1",
+  "frequencyRank": 45,
+  "grammarNotes": {
+   "toneMarks": "tɔ̂ng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "จำเป็นจะต้องทำ",
+    "translations": {
+     "zh": "必须；得",
+     "en": "must, to have to"
+    },
+    "examples": [
+     {
+      "text": "ผมต้องไปแล้ว",
+      "translations": {
+       "zh": "我得走了。",
+       "en": "I have to go now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต้องการ",
+  "phonetic": "tongkan",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "tɔ̂ng-kaan · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "อยากได้ อยากให้มี",
+    "translations": {
+     "zh": "需要；想要",
+     "en": "to want, to need"
+    },
+    "examples": [
+     {
+      "text": "คุณต้องการอะไรคะ",
+      "translations": {
+       "zh": "您需要什么？",
+       "en": "What would you like?"
+      }
+     }
+    ],
+    "usageNote": "ต้องการ 比 อยาก 更正式，店员、服务员常用。"
+   }
+  ]
+ },
+ {
+  "headword": "ถาม",
+  "phonetic": "tham",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "toneMarks": "thǎam · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดเพื่ออยากรู้คำตอบ",
+    "translations": {
+     "zh": "问",
+     "en": "to ask"
+    },
+    "examples": [
+     {
+      "text": "ขอถามหน่อยครับ",
+      "translations": {
+       "zh": "请问一下。",
+       "en": "May I ask something?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตอบ",
+  "phonetic": "top",
+  "cefr": "A1",
+  "frequencyRank": 520,
+  "grammarNotes": {
+   "toneMarks": "tɔ̀ɔp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดหรือเขียนกลับเมื่อมีคนถาม",
+    "translations": {
+     "zh": "回答",
+     "en": "to answer"
+    },
+    "examples": [
+     {
+      "text": "ตอบคำถามนี้หน่อย",
+      "translations": {
+       "zh": "回答一下这个问题。",
+       "en": "Answer this question, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บอก",
+  "phonetic": "bok",
+  "cefr": "A1",
+  "frequencyRank": 95,
+  "grammarNotes": {
+   "toneMarks": "bɔ̀ɔk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "พูดให้คนอื่นรู้",
+    "translations": {
+     "zh": "告诉；说",
+     "en": "to tell"
+    },
+    "examples": [
+     {
+      "text": "เขาบอกว่าไม่ว่าง",
+      "translations": {
+       "zh": "他说他没空。",
+       "en": "He said he was busy."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

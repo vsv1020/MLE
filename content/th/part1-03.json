@@ -1,0 +1,1473 @@
+[
+ {
+  "headword": "สาม",
+  "phonetic": "sam",
+  "cefr": "A1",
+  "frequencyRank": 120,
+  "grammarNotes": {
+   "toneMarks": "sǎam · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สองบวกหนึ่ง",
+    "translations": {
+     "zh": "三",
+     "en": "three"
+    },
+    "examples": [
+     {
+      "text": "เรามีสามคน",
+      "translations": {
+       "zh": "我们有三个人。",
+       "en": "There are three of us."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สี่",
+  "phonetic": "si",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "grammarNotes": {
+   "toneMarks": "sìi · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สามบวกหนึ่ง",
+    "translations": {
+     "zh": "四",
+     "en": "four"
+    },
+    "examples": [
+     {
+      "text": "บ้านนี้มีสี่ห้อง",
+      "translations": {
+       "zh": "这栋房子有四个房间。",
+       "en": "This house has four rooms."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ห้า",
+  "phonetic": "ha",
+  "cefr": "A1",
+  "frequencyRank": 200,
+  "grammarNotes": {
+   "toneMarks": "hâa · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สี่บวกหนึ่ง",
+    "translations": {
+     "zh": "五",
+     "en": "five"
+    },
+    "examples": [
+     {
+      "text": "ห้าโมงเย็นเจอกันนะ",
+      "translations": {
+       "zh": "下午五点见。",
+       "en": "See you at five p.m."
+      }
+     }
+    ],
+    "usageNote": "网上用 555（ห้าห้าห้า，hâa-hâa-hâa）表示“哈哈哈”。"
+   }
+  ]
+ },
+ {
+  "headword": "หก",
+  "phonetic": "hok",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "hòk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "ห้าบวกหนึ่ง",
+    "translations": {
+     "zh": "六",
+     "en": "six"
+    },
+    "examples": [
+     {
+      "text": "ลูกสาวอายุหกขวบ",
+      "translations": {
+       "zh": "女儿六岁。",
+       "en": "My daughter is six."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เจ็ด",
+  "phonetic": "chet",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "toneMarks": "jèt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "หกบวกหนึ่ง",
+    "translations": {
+     "zh": "七",
+     "en": "seven"
+    },
+    "examples": [
+     {
+      "text": "หนึ่งสัปดาห์มีเจ็ดวัน",
+      "translations": {
+       "zh": "一个星期有七天。",
+       "en": "A week has seven days."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แปด",
+  "phonetic": "paet",
+  "cefr": "A1",
+  "frequencyRank": 380,
+  "grammarNotes": {
+   "toneMarks": "pɛ̀ɛt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "เจ็ดบวกหนึ่ง",
+    "translations": {
+     "zh": "八",
+     "en": "eight"
+    },
+    "examples": [
+     {
+      "text": "โรงเรียนเริ่มแปดโมง",
+      "translations": {
+       "zh": "学校八点开始上课。",
+       "en": "School starts at eight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เก้า",
+  "phonetic": "kao",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "kâao · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "แปดบวกหนึ่ง",
+    "translations": {
+     "zh": "九",
+     "en": "nine"
+    },
+    "examples": [
+     {
+      "text": "ร้านเปิดเก้าโมงเช้า",
+      "translations": {
+       "zh": "商店早上九点开门。",
+       "en": "The shop opens at nine a.m."
+      }
+     }
+    ],
+    "usageNote": "เก้า（降调，九）和 เก่า（低调，旧）只差声调。"
+   }
+  ]
+ },
+ {
+  "headword": "สิบ",
+  "phonetic": "sip",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "toneMarks": "sìp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "เก้าบวกหนึ่ง",
+    "translations": {
+     "zh": "十",
+     "en": "ten"
+    },
+    "examples": [
+     {
+      "text": "อันนี้สิบบาท",
+      "translations": {
+       "zh": "这个十泰铢。",
+       "en": "This one is ten baht."
+      }
+     }
+    ],
+    "usageNote": "十一是 สิบเอ็ด，十二是 สิบสอง；二十是 ยี่สิบ，不说 สองสิบ。"
+   }
+  ]
+ },
+ {
+  "headword": "ยี่สิบ",
+  "phonetic": "yisip",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "toneMarks": "yîi-sìp · 降, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สองเท่าของสิบ",
+    "translations": {
+     "zh": "二十",
+     "en": "twenty"
+    },
+    "examples": [
+     {
+      "text": "ผมอายุยี่สิบปี",
+      "translations": {
+       "zh": "我二十岁。",
+       "en": "I am twenty years old."
+      }
+     }
+    ],
+    "usageNote": "“二十”用特殊的 ยี่ 而不是 สอง。二十一是 ยี่สิบเอ็ด。"
+   }
+  ]
+ },
+ {
+  "headword": "ร้อย",
+  "phonetic": "roi",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "rɔ́ɔi · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สิบเท่าของสิบ",
+    "translations": {
+     "zh": "百",
+     "en": "hundred"
+    },
+    "examples": [
+     {
+      "text": "เสื้อตัวนี้สามร้อยบาท",
+      "translations": {
+       "zh": "这件衣服三百泰铢。",
+       "en": "This shirt is 300 baht."
+      }
+     }
+    ],
+    "usageNote": "一百说 หนึ่งร้อย，口语也说 ร้อยนึง。一百零一是 ร้อยเอ็ด。"
+   }
+  ]
+ },
+ {
+  "headword": "พัน",
+  "phonetic": "phan",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "phan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สิบเท่าของร้อย",
+    "translations": {
+     "zh": "千",
+     "en": "thousand"
+    },
+    "examples": [
+     {
+      "text": "ค่าห้องสองพันบาท",
+      "translations": {
+       "zh": "房费两千泰铢。",
+       "en": "The room is 2,000 baht."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หมื่น",
+  "phonetic": "muen",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "mʉ̀ʉn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สิบเท่าของพัน",
+    "translations": {
+     "zh": "万",
+     "en": "ten thousand"
+    },
+    "examples": [
+     {
+      "text": "รถคันนี้ราคาห้าหมื่นบาท",
+      "translations": {
+       "zh": "这辆车五万泰铢。",
+       "en": "This vehicle costs 50,000 baht."
+      }
+     }
+    ],
+    "usageNote": "泰语和中文一样有“万”（หมื่น），还有“十万”（แสน）。"
+   }
+  ]
+ },
+ {
+  "headword": "แสน",
+  "phonetic": "saen",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "sɛ̌ɛn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "สิบเท่าของหมื่น",
+    "translations": {
+     "zh": "十万",
+     "en": "hundred thousand"
+    },
+    "examples": [
+     {
+      "text": "เขาได้เงินหนึ่งแสนบาท",
+      "translations": {
+       "zh": "他得到了十万泰铢。",
+       "en": "He got 100,000 baht."
+      }
+     }
+    ],
+    "usageNote": "แสน 放在形容词前还表示“非常”：แสนดี（非常好）。"
+   }
+  ]
+ },
+ {
+  "headword": "ล้าน",
+  "phonetic": "lan",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "láan · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "ร้อยเท่าของหมื่น",
+    "translations": {
+     "zh": "百万",
+     "en": "million"
+    },
+    "examples": [
+     {
+      "text": "กรุงเทพมีคนหลายล้านคน",
+      "translations": {
+       "zh": "曼谷有好几百万人。",
+       "en": "Bangkok has millions of people."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ครึ่ง",
+  "phonetic": "khrueng",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "khrʉ̂ng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "หนึ่งในสองส่วนที่เท่ากัน",
+    "translations": {
+     "zh": "半；一半",
+     "en": "half"
+    },
+    "examples": [
+     {
+      "text": "ตอนนี้บ่ายสองโมงครึ่ง",
+      "translations": {
+       "zh": "现在下午两点半。",
+       "en": "It's half past two in the afternoon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วันจันทร์",
+  "phonetic": "wan chan",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "wan-jan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันแรกของสัปดาห์ทำงาน",
+    "translations": {
+     "zh": "星期一",
+     "en": "Monday"
+    },
+    "examples": [
+     {
+      "text": "วันจันทร์ผมต้องทำงาน",
+      "translations": {
+       "zh": "星期一我要上班。",
+       "en": "I have to work on Monday."
+      }
+     }
+    ],
+    "usageNote": "泰国每天对应一种颜色，星期一是黄色。"
+   }
+  ]
+ },
+ {
+  "headword": "วันอังคาร",
+  "phonetic": "wan angkhan",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "wan-ang-khaan · 中, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันถัดจากวันจันทร์",
+    "translations": {
+     "zh": "星期二",
+     "en": "Tuesday"
+    },
+    "examples": [
+     {
+      "text": "วันอังคารเรามีเรียนภาษาไทย",
+      "translations": {
+       "zh": "星期二我们有泰语课。",
+       "en": "We have Thai class on Tuesday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วันพุธ",
+  "phonetic": "wan phut",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "wan-phút · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันถัดจากวันอังคาร",
+    "translations": {
+     "zh": "星期三",
+     "en": "Wednesday"
+    },
+    "examples": [
+     {
+      "text": "วันพุธนี้ว่างไหม",
+      "translations": {
+       "zh": "这个星期三有空吗？",
+       "en": "Are you free this Wednesday?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วันพฤหัสบดี",
+  "phonetic": "wan pharuehatsabodi",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "wan-phá-rʉ́-hàt-sà-bɔɔ-dii · 中, 高, 高, 低, 低, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันถัดจากวันพุธ",
+    "translations": {
+     "zh": "星期四",
+     "en": "Thursday"
+    },
+    "examples": [
+     {
+      "text": "วันพฤหัสบดีร้านปิด",
+      "translations": {
+       "zh": "星期四商店不开门。",
+       "en": "The shop is closed on Thursday."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 วันพฤหัส（wan-phá-rʉ́-hàt）。"
+   }
+  ]
+ },
+ {
+  "headword": "วันศุกร์",
+  "phonetic": "wan suk",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "wan-sùk · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันถัดจากวันพฤหัสบดี",
+    "translations": {
+     "zh": "星期五",
+     "en": "Friday"
+    },
+    "examples": [
+     {
+      "text": "วันศุกร์เราไปกินข้าวนอกบ้าน",
+      "translations": {
+       "zh": "星期五我们出去吃饭。",
+       "en": "On Friday we eat out."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วันเสาร์",
+  "phonetic": "wan sao",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "wan-sǎo · 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันถัดจากวันศุกร์",
+    "translations": {
+     "zh": "星期六",
+     "en": "Saturday"
+    },
+    "examples": [
+     {
+      "text": "วันเสาร์ไม่ต้องไปโรงเรียน",
+      "translations": {
+       "zh": "星期六不用去学校。",
+       "en": "No school on Saturday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วันอาทิตย์",
+  "phonetic": "wan athit",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "wan-aa-thít · 中, 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันสุดท้ายของสัปดาห์",
+    "translations": {
+     "zh": "星期日",
+     "en": "Sunday"
+    },
+    "examples": [
+     {
+      "text": "วันอาทิตย์ครอบครัวไปวัด",
+      "translations": {
+       "zh": "星期天全家去寺庙。",
+       "en": "On Sunday the family goes to the temple."
+      }
+     }
+    ],
+    "usageNote": "อาทิตย์ 单用也指“星期、周”：อาทิตย์หน้า（下周）。"
+   }
+  ]
+ },
+ {
+  "headword": "วัน",
+  "phonetic": "wan",
+  "cefr": "A1",
+  "frequencyRank": 35,
+  "grammarNotes": {
+   "toneMarks": "wan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลายี่สิบสี่ชั่วโมง",
+    "translations": {
+     "zh": "天；日",
+     "en": "day"
+    },
+    "examples": [
+     {
+      "text": "ฉันเรียนภาษาไทยทุกวัน",
+      "translations": {
+       "zh": "我每天学泰语。",
+       "en": "I study Thai every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วันนี้",
+  "phonetic": "wanni",
+  "cefr": "A1",
+  "frequencyRank": 200,
+  "grammarNotes": {
+   "toneMarks": "wan-níi · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันที่เป็นอยู่ตอนนี้",
+    "translations": {
+     "zh": "今天",
+     "en": "today"
+    },
+    "examples": [
+     {
+      "text": "วันนี้อากาศร้อนมาก",
+      "translations": {
+       "zh": "今天天气很热。",
+       "en": "It's very hot today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พรุ่งนี้",
+  "phonetic": "phrungni",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "phrûng-níi · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันถัดจากวันนี้",
+    "translations": {
+     "zh": "明天",
+     "en": "tomorrow"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้เจอกันนะ",
+      "translations": {
+       "zh": "明天见。",
+       "en": "See you tomorrow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เมื่อวาน",
+  "phonetic": "mueawan",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "mʉ̂a-waan · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "วันก่อนวันนี้",
+    "translations": {
+     "zh": "昨天",
+     "en": "yesterday"
+    },
+    "examples": [
+     {
+      "text": "เมื่อวานฝนตก",
+      "translations": {
+       "zh": "昨天下雨了。",
+       "en": "It rained yesterday."
+      }
+     }
+    ],
+    "usageNote": "也说 เมื่อวานนี้。"
+   }
+  ]
+ },
+ {
+  "headword": "ตอนนี้",
+  "phonetic": "tonni",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "toneMarks": "tɔɔn-níi · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาที่กำลังพูดอยู่",
+    "translations": {
+     "zh": "现在",
+     "en": "now"
+    },
+    "examples": [
+     {
+      "text": "ตอนนี้กี่โมงแล้ว",
+      "translations": {
+       "zh": "现在几点了？",
+       "en": "What time is it now?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เช้า",
+  "phonetic": "chao",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "toneMarks": "cháao · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาตั้งแต่พระอาทิตย์ขึ้นถึงเที่ยง",
+    "translations": {
+     "zh": "早上",
+     "en": "morning"
+    },
+    "examples": [
+     {
+      "text": "ผมตื่นแต่เช้า",
+      "translations": {
+       "zh": "我很早就起床了。",
+       "en": "I get up early."
+      }
+     }
+    ],
+    "usageNote": "ตอนเช้า = 在早上。เช้า 也可当形容词“早”。"
+   }
+  ]
+ },
+ {
+  "headword": "เย็น",
+  "phonetic": "yen",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "yen · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาตอนพระอาทิตย์ใกล้ตก",
+    "translations": {
+     "zh": "傍晚",
+     "en": "evening"
+    },
+    "examples": [
+     {
+      "text": "ตอนเย็นเราไปเดินเล่นกัน",
+      "translations": {
+       "zh": "傍晚我们去散步。",
+       "en": "In the evening we go for a walk."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ร้อน ค่อนข้างหนาว",
+    "translations": {
+     "zh": "凉；冷（饮料等）",
+     "en": "cool, cold"
+    },
+    "examples": [
+     {
+      "text": "ขอน้ำเย็นหนึ่งขวด",
+      "translations": {
+       "zh": "要一瓶冰水。",
+       "en": "A bottle of cold water, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กลางคืน",
+  "phonetic": "klangkhuen",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "klaang-khʉʉn · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาที่มืด หลังพระอาทิตย์ตก",
+    "translations": {
+     "zh": "夜里；晚上",
+     "en": "night, night-time"
+    },
+    "examples": [
+     {
+      "text": "กลางคืนที่นี่เงียบมาก",
+      "translations": {
+       "zh": "这里晚上很安静。",
+       "en": "It's very quiet here at night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กลางวัน",
+  "phonetic": "klangwan",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "klaang-wan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาที่สว่าง ตั้งแต่เช้าถึงเย็น",
+    "translations": {
+     "zh": "白天；中午",
+     "en": "daytime; midday"
+    },
+    "examples": [
+     {
+      "text": "กลางวันอากาศร้อน",
+      "translations": {
+       "zh": "白天天气热。",
+       "en": "It's hot during the day."
+      }
+     }
+    ],
+    "usageNote": "อาหารกลางวัน = 午饭。"
+   }
+  ]
+ },
+ {
+  "headword": "คืนนี้",
+  "phonetic": "khuenni",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "khʉʉn-níi · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กลางคืนของวันนี้",
+    "translations": {
+     "zh": "今晚",
+     "en": "tonight"
+    },
+    "examples": [
+     {
+      "text": "คืนนี้ไปดูหนังกันไหม",
+      "translations": {
+       "zh": "今晚去看电影吗？",
+       "en": "Shall we see a film tonight?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สัปดาห์",
+  "phonetic": "sappada",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "sàp-daa · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาเจ็ดวัน",
+    "translations": {
+     "zh": "星期；周",
+     "en": "week"
+    },
+    "examples": [
+     {
+      "text": "สัปดาห์หน้าผมจะไปภูเก็ต",
+      "translations": {
+       "zh": "下周我要去普吉。",
+       "en": "Next week I'm going to Phuket."
+      }
+     }
+    ],
+    "usageNote": "สัปดาห์ 较正式，口语常说 อาทิตย์。"
+   }
+  ]
+ },
+ {
+  "headword": "เดือน",
+  "phonetic": "duean",
+  "cefr": "A1",
+  "frequencyRank": 250,
+  "grammarNotes": {
+   "toneMarks": "dʉan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาประมาณสามสิบวัน",
+    "translations": {
+     "zh": "月；月份",
+     "en": "month"
+    },
+    "examples": [
+     {
+      "text": "เดือนหน้าเราจะย้ายบ้าน",
+      "translations": {
+       "zh": "下个月我们要搬家。",
+       "en": "Next month we're moving house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปี",
+  "phonetic": "pi",
+  "cefr": "A1",
+  "frequencyRank": 90,
+  "grammarNotes": {
+   "toneMarks": "pii · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาสิบสองเดือน",
+    "translations": {
+     "zh": "年；岁",
+     "en": "year"
+    },
+    "examples": [
+     {
+      "text": "ปีนี้ฉันอายุสิบปี",
+      "translations": {
+       "zh": "今年我十岁。",
+       "en": "I'm ten this year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชั่วโมง",
+  "phonetic": "chuamong",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "chûa-moong · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาหกสิบนาที",
+    "translations": {
+     "zh": "小时",
+     "en": "hour"
+    },
+    "examples": [
+     {
+      "text": "รอมาหนึ่งชั่วโมงแล้ว",
+      "translations": {
+       "zh": "已经等了一个小时了。",
+       "en": "I've been waiting for an hour."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นาที",
+  "phonetic": "nathi",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "naa-thii · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาหกสิบวินาที",
+    "translations": {
+     "zh": "分钟",
+     "en": "minute"
+    },
+    "examples": [
+     {
+      "text": "อีกห้านาทีถึง",
+      "translations": {
+       "zh": "再过五分钟就到。",
+       "en": "We'll be there in five minutes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เวลา",
+  "phonetic": "wela",
+  "cefr": "A1",
+  "frequencyRank": 160,
+  "grammarNotes": {
+   "toneMarks": "wee-laa · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ช่วงที่ผ่านไป เช่น ชั่วโมง นาที",
+    "translations": {
+     "zh": "时间；时候",
+     "en": "time"
+    },
+    "examples": [
+     {
+      "text": "ไม่มีเวลาแล้ว",
+      "translations": {
+       "zh": "没有时间了。",
+       "en": "There's no time left."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โมง",
+  "phonetic": "mong",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "moong · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คำบอกเวลาในตอนกลางวัน",
+    "translations": {
+     "zh": "点钟（白天）",
+     "en": "o'clock (daytime)"
+    },
+    "examples": [
+     {
+      "text": "เจอกันสิบโมงนะ",
+      "translations": {
+       "zh": "十点见。",
+       "en": "See you at ten."
+      }
+     }
+    ],
+    "usageNote": "泰语口语报时分段：白天用 โมง（如 บ่ายสามโมง 下午三点），晚上七到十一点用 ทุ่ม。问“几点”说 กี่โมง。"
+   }
+  ]
+ },
+ {
+  "headword": "เที่ยง",
+  "phonetic": "thiang",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "thîang · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เวลาสิบสองนาฬิกากลางวัน",
+    "translations": {
+     "zh": "中午十二点",
+     "en": "noon"
+    },
+    "examples": [
+     {
+      "text": "เที่ยงแล้ว ไปกินข้าวกัน",
+      "translations": {
+       "zh": "中午了，去吃饭吧。",
+       "en": "It's noon, let's go eat."
+      }
+     }
+    ],
+    "usageNote": "เที่ยงคืน = 午夜。"
+   }
+  ]
+ },
+ {
+  "headword": "เร็ว",
+  "phonetic": "reo",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "reo · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ใช้เวลาน้อย ไม่ช้า",
+    "translations": {
+     "zh": "快",
+     "en": "fast, quick"
+    },
+    "examples": [
+     {
+      "text": "เขาวิ่งเร็วมาก",
+      "translations": {
+       "zh": "他跑得很快。",
+       "en": "He runs very fast."
+      }
+     }
+    ],
+    "usageNote": "เร็ว ๆ นี้ = 最近、不久。"
+   }
+  ]
+ },
+ {
+  "headword": "ช้า",
+  "phonetic": "cha",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "cháa · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ใช้เวลามาก ไม่เร็ว",
+    "translations": {
+     "zh": "慢",
+     "en": "slow"
+    },
+    "examples": [
+     {
+      "text": "ช่วยพูดช้า ๆ หน่อยครับ",
+      "translations": {
+       "zh": "请说慢一点。",
+       "en": "Please speak slowly."
+      }
+     }
+    ],
+    "usageNote": "ช้า（高调，慢）和 ชา（中调，茶）只差声调。"
+   }
+  ]
+ },
+ {
+  "headword": "สาย",
+  "phonetic": "sai",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "sǎai · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "เลยเวลาที่ควร หรือเกือบเที่ยง",
+    "translations": {
+     "zh": "迟；晚（上午较晚）",
+     "en": "late (in the morning)"
+    },
+    "examples": [
+     {
+      "text": "ขอโทษครับ ผมมาสาย",
+      "translations": {
+       "zh": "对不起，我迟到了。",
+       "en": "Sorry, I'm late."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แล้ว",
+  "phonetic": "laeo",
+  "cefr": "A1",
+  "frequencyRank": 3,
+  "grammarNotes": {
+   "toneMarks": "lɛ́ɛo · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "บอกว่าทำเสร็จหรือเกิดขึ้นแล้ว",
+    "translations": {
+     "zh": "了；已经",
+     "en": "already"
+    },
+    "examples": [
+     {
+      "text": "ฉันกินแล้วค่ะ",
+      "translations": {
+       "zh": "我吃过了。",
+       "en": "I've already eaten."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ต่อจากนั้น",
+    "translations": {
+     "zh": "然后",
+     "en": "and then"
+    },
+    "examples": [
+     {
+      "text": "อาบน้ำแล้วนอน",
+      "translations": {
+       "zh": "洗完澡然后睡觉。",
+       "en": "Have a shower, then go to bed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยัง",
+  "phonetic": "yang",
+  "cefr": "A1",
+  "frequencyRank": 40,
+  "grammarNotes": {
+   "toneMarks": "yang · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ยังคงเป็นอยู่ หรือยังไม่เกิด",
+    "translations": {
+     "zh": "还；仍然",
+     "en": "still; yet"
+    },
+    "examples": [
+     {
+      "text": "ผมยังไม่กินข้าว",
+      "translations": {
+       "zh": "我还没吃饭。",
+       "en": "I haven't eaten yet."
+      }
+     }
+    ],
+    "usageNote": "回答 …หรือยัง（……了吗？）：没有就说 ยัง（还没），有就说 …แล้ว。"
+   }
+  ]
+ },
+ {
+  "headword": "บ่อย",
+  "phonetic": "boi",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "bɔ̀i · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "หลายครั้ง",
+    "translations": {
+     "zh": "经常",
+     "en": "often"
+    },
+    "examples": [
+     {
+      "text": "เขามาที่นี่บ่อย",
+      "translations": {
+       "zh": "他经常来这里。",
+       "en": "He comes here often."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสมอ",
+  "phonetic": "samoe",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "sà-mə̌ə · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ทุกครั้ง",
+    "translations": {
+     "zh": "总是",
+     "en": "always"
+    },
+    "examples": [
+     {
+      "text": "แม่ตื่นเช้าเสมอ",
+      "translations": {
+       "zh": "妈妈总是起得很早。",
+       "en": "Mum always gets up early."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บางครั้ง",
+  "phonetic": "bangkhrang",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "baang-khráng · 中, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ไม่ทุกครั้ง มีบ้างเป็นครั้งคราว",
+    "translations": {
+     "zh": "有时候",
+     "en": "sometimes"
+    },
+    "examples": [
+     {
+      "text": "บางครั้งผมก็ไปทำงานสาย",
+      "translations": {
+       "zh": "我有时上班会迟到。",
+       "en": "Sometimes I'm late for work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เคย",
+  "phonetic": "khoei",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "khəəi · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "มีประสบการณ์ทำมาก่อน",
+    "translations": {
+     "zh": "曾经",
+     "en": "ever, to have once (done)"
+    },
+    "examples": [
+     {
+      "text": "คุณเคยไปเชียงใหม่ไหม",
+      "translations": {
+       "zh": "你去过清迈吗？",
+       "en": "Have you ever been to Chiang Mai?"
+      }
+     }
+    ],
+    "usageNote": "เคย + 动词 = “……过”。ไม่เคย = “从没……过”。"
+   }
+  ]
+ },
+ {
+  "headword": "ก่อน",
+  "phonetic": "kon",
+  "cefr": "A1",
+  "frequencyRank": 110,
+  "grammarNotes": {
+   "toneMarks": "kɔ̀ɔn · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "เกิดขึ้นเร็วกว่า ล่วงหน้า",
+    "translations": {
+     "zh": "先；之前",
+     "en": "first; before"
+    },
+    "examples": [
+     {
+      "text": "ไปก่อนนะ",
+      "translations": {
+       "zh": "我先走了啊。",
+       "en": "I'll be going (first)."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ในเวลาที่เร็วกว่า",
+    "translations": {
+     "zh": "在……之前",
+     "en": "before"
+    },
+    "examples": [
+     {
+      "text": "ล้างมือก่อนกินข้าว",
+      "translations": {
+       "zh": "吃饭前洗手。",
+       "en": "Wash your hands before eating."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

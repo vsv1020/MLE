@@ -1,0 +1,1451 @@
+[
+ {
+  "headword": "หลัง",
+  "phonetic": "lang",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "grammarNotes": {
+   "toneMarks": "lǎng · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ต่อจากเวลานั้น",
+    "translations": {
+     "zh": "在……之后",
+     "en": "after"
+    },
+    "examples": [
+     {
+      "text": "หลังเลิกเรียนเราไปเล่นกัน",
+      "translations": {
+       "zh": "放学后我们去玩。",
+       "en": "After school we go and play."
+      }
+     }
+    ],
+    "usageNote": "หลัง 也是名词“背、后面”。หลังจาก… = 在……之后。"
+   }
+  ]
+ },
+ {
+  "headword": "เดี๋ยว",
+  "phonetic": "diao",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "dǐao · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "อีกไม่นาน ในอีกสักครู่",
+    "translations": {
+     "zh": "一会儿；马上",
+     "en": "in a moment"
+    },
+    "examples": [
+     {
+      "text": "เดี๋ยวมานะ",
+      "translations": {
+       "zh": "我马上回来。",
+       "en": "Be right back."
+      }
+     }
+    ],
+    "usageNote": "เดี๋ยวก่อน = 等一下。"
+   }
+  ]
+ },
+ {
+  "headword": "นาน",
+  "phonetic": "nan",
+  "cefr": "A2",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "toneMarks": "naan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ใช้เวลามาก",
+    "translations": {
+     "zh": "久；长时间",
+     "en": "long (time)"
+    },
+    "examples": [
+     {
+      "text": "ไม่ได้เจอกันนานแล้ว",
+      "translations": {
+       "zh": "好久不见。",
+       "en": "Long time no see."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผม",
+  "phonetic": "phom",
+  "cefr": "A1",
+  "frequencyRank": 15,
+  "grammarNotes": {
+   "toneMarks": "phǒm · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนตัวผู้พูดที่เป็นผู้ชาย",
+    "translations": {
+     "zh": "我（男性用）",
+     "en": "I, me (male speaker)"
+    },
+    "examples": [
+     {
+      "text": "ผมชื่อต้นครับ",
+      "translations": {
+       "zh": "我叫Ton。",
+       "en": "My name is Ton."
+      }
+     }
+    ],
+    "usageNote": "只有男性用 ผม 自称，常和 ครับ 搭配。ผม 还有“头发”的意思。"
+   }
+  ]
+ },
+ {
+  "headword": "ฉัน",
+  "phonetic": "chan",
+  "cefr": "A1",
+  "frequencyRank": 20,
+  "grammarNotes": {
+   "toneMarks": "chǎn · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนตัวผู้พูด มักใช้โดยผู้หญิง",
+    "translations": {
+     "zh": "我（多为女性用）",
+     "en": "I, me (often female)"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบกินมะม่วง",
+      "translations": {
+       "zh": "我喜欢吃芒果。",
+       "en": "I like eating mangoes."
+      }
+     }
+    ],
+    "usageNote": "女性日常常用 ฉัน；男性在朋友、歌词中也会用。口语常读成高调 chán。"
+   }
+  ]
+ },
+ {
+  "headword": "ดิฉัน",
+  "phonetic": "dichan",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "dì-chǎn · 低, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนตัวผู้พูดที่เป็นผู้หญิง (สุภาพ)",
+    "translations": {
+     "zh": "我（女性，正式）",
+     "en": "I, me (female, formal)"
+    },
+    "examples": [
+     {
+      "text": "ดิฉันเป็นครูค่ะ",
+      "translations": {
+       "zh": "我是老师。",
+       "en": "I am a teacher."
+      }
+     }
+    ],
+    "usageNote": "女性在正式场合（工作、演讲）用 ดิฉัน 自称，配 ค่ะ。"
+   }
+  ]
+ },
+ {
+  "headword": "คุณ",
+  "phonetic": "khun",
+  "cefr": "A1",
+  "frequencyRank": 18,
+  "grammarNotes": {
+   "toneMarks": "khun · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนคนที่เราพูดด้วย (สุภาพ)",
+    "translations": {
+     "zh": "你；您",
+     "en": "you (polite)"
+    },
+    "examples": [
+     {
+      "text": "คุณชื่ออะไรครับ",
+      "translations": {
+       "zh": "你叫什么名字？",
+       "en": "What's your name?"
+      }
+     }
+    ],
+    "usageNote": "คุณ 放在名字前表示尊称：คุณสมชาย（颂猜先生）。"
+   }
+  ]
+ },
+ {
+  "headword": "เขา",
+  "phonetic": "khao",
+  "cefr": "A1",
+  "frequencyRank": 11,
+  "grammarNotes": {
+   "toneMarks": "khǎo · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนคนที่พูดถึง",
+    "translations": {
+     "zh": "他；她",
+     "en": "he, she"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นเพื่อนผม",
+      "translations": {
+       "zh": "他是我的朋友。",
+       "en": "He is my friend."
+      }
+     }
+    ],
+    "usageNote": "男女都可用。口语常读高调 kháo。注意别和 เข้า（降调，进）混淆。"
+   }
+  ]
+ },
+ {
+  "headword": "เธอ",
+  "phonetic": "thoe",
+  "cefr": "A1",
+  "frequencyRank": 80,
+  "grammarNotes": {
+   "toneMarks": "thəə · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนผู้หญิงที่พูดถึง หรือคนที่สนิทที่เราพูดด้วย",
+    "translations": {
+     "zh": "她；你（亲密）",
+     "en": "she; you (close friends)"
+    },
+    "examples": [
+     {
+      "text": "เธอสวยมาก",
+      "translations": {
+       "zh": "她很漂亮。",
+       "en": "She is very pretty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เรา",
+  "phonetic": "rao",
+  "cefr": "A1",
+  "frequencyRank": 25,
+  "grammarNotes": {
+   "toneMarks": "rao · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนผู้พูดและคนอื่นรวมกัน",
+    "translations": {
+     "zh": "我们；我",
+     "en": "we, us; I (casual)"
+    },
+    "examples": [
+     {
+      "text": "เราเป็นเพื่อนกัน",
+      "translations": {
+       "zh": "我们是朋友。",
+       "en": "We are friends."
+      }
+     }
+    ],
+    "usageNote": "เรา 有时也用作“我”，听起来比较亲切随意。"
+   }
+  ]
+ },
+ {
+  "headword": "พวกเขา",
+  "phonetic": "phuak khao",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "phûak-khǎo · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนหลายคนที่พูดถึง",
+    "translations": {
+     "zh": "他们；她们",
+     "en": "they, them"
+    },
+    "examples": [
+     {
+      "text": "พวกเขามาจากญี่ปุ่น",
+      "translations": {
+       "zh": "他们来自日本。",
+       "en": "They come from Japan."
+      }
+     }
+    ],
+    "usageNote": "พวก + 代词 表示复数：พวกเรา（我们）、พวกคุณ（你们）。"
+   }
+  ]
+ },
+ {
+  "headword": "พวกเรา",
+  "phonetic": "phuak rao",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "phûak-rao · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "ผู้พูดและคนอื่น ๆ ทั้งกลุ่ม",
+    "translations": {
+     "zh": "我们（大家）",
+     "en": "we, all of us"
+    },
+    "examples": [
+     {
+      "text": "พวกเราไปด้วยกัน",
+      "translations": {
+       "zh": "我们一起去。",
+       "en": "We're all going together."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มัน",
+  "phonetic": "man",
+  "cefr": "A1",
+  "frequencyRank": 60,
+  "grammarNotes": {
+   "toneMarks": "man · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำแทนสัตว์หรือสิ่งของ",
+    "translations": {
+     "zh": "它",
+     "en": "it"
+    },
+    "examples": [
+     {
+      "text": "หมาตัวนี้น่ารัก มันชื่อโบ",
+      "translations": {
+       "zh": "这只狗很可爱，它叫Bo。",
+       "en": "This dog is cute — it's called Bo."
+      }
+     }
+    ],
+    "usageNote": "用 มัน 指人是不礼貌的。"
+   }
+  ]
+ },
+ {
+  "headword": "นี่",
+  "phonetic": "ni",
+  "cefr": "A1",
+  "frequencyRank": 120,
+  "grammarNotes": {
+   "toneMarks": "nîi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "สิ่งที่อยู่ใกล้ผู้พูด",
+    "translations": {
+     "zh": "这；这个",
+     "en": "this (one)"
+    },
+    "examples": [
+     {
+      "text": "นี่คืออะไรคะ",
+      "translations": {
+       "zh": "这是什么？",
+       "en": "What is this?"
+      }
+     }
+    ],
+    "usageNote": "นี่（降调）单独作代词；นี้（高调）放在名词后：อันนี้（这个）。"
+   }
+  ]
+ },
+ {
+  "headword": "นี้",
+  "phonetic": "ni",
+  "cefr": "A1",
+  "frequencyRank": 14,
+  "grammarNotes": {
+   "toneMarks": "níi · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "ใช้หลังคำนามเพื่อชี้สิ่งที่อยู่ใกล้",
+    "translations": {
+     "zh": "这（放在名词后）",
+     "en": "this (after a noun)"
+    },
+    "examples": [
+     {
+      "text": "บ้านหลังนี้ใหญ่มาก",
+      "translations": {
+       "zh": "这栋房子很大。",
+       "en": "This house is very big."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นั่น",
+  "phonetic": "nan",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "nân · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "สิ่งที่อยู่ห่างจากผู้พูด",
+    "translations": {
+     "zh": "那；那个",
+     "en": "that (one)"
+    },
+    "examples": [
+     {
+      "text": "นั่นบ้านของฉัน",
+      "translations": {
+       "zh": "那是我的家。",
+       "en": "That is my house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นั้น",
+  "phonetic": "nan",
+  "cefr": "A1",
+  "frequencyRank": 35,
+  "grammarNotes": {
+   "toneMarks": "nán · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "ใช้หลังคำนามเพื่อชี้สิ่งที่อยู่ไกล",
+    "translations": {
+     "zh": "那（放在名词后）",
+     "en": "that (after a noun)"
+    },
+    "examples": [
+     {
+      "text": "คนนั้นเป็นใคร",
+      "translations": {
+       "zh": "那个人是谁？",
+       "en": "Who is that person?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ครับ",
+  "phonetic": "khrap",
+  "cefr": "A1",
+  "frequencyRank": 2,
+  "grammarNotes": {
+   "toneMarks": "khráp · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "คำลงท้ายแสดงความสุภาพของผู้ชาย",
+    "translations": {
+     "zh": "（男性礼貌语气词）",
+     "en": "polite particle (male speaker)"
+    },
+    "examples": [
+     {
+      "text": "ขอบคุณครับ",
+      "translations": {
+       "zh": "谢谢。",
+       "en": "Thank you."
+      }
+     }
+    ],
+    "usageNote": "男性放在句末表示礼貌，陈述句和疑问句都用 ครับ。单独说 ครับ 也表示“是的、好的”。"
+   }
+  ]
+ },
+ {
+  "headword": "ค่ะ",
+  "phonetic": "kha",
+  "cefr": "A1",
+  "frequencyRank": 3,
+  "grammarNotes": {
+   "toneMarks": "khâ · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "คำลงท้ายแสดงความสุภาพของผู้หญิงในประโยคบอกเล่า",
+    "translations": {
+     "zh": "（女性礼貌语气词，用于陈述句）",
+     "en": "polite particle (female speaker, statements)"
+    },
+    "examples": [
+     {
+      "text": "สวัสดีค่ะ",
+      "translations": {
+       "zh": "你好。",
+       "en": "Hello."
+      }
+     }
+    ],
+    "usageNote": "女性在陈述句末用 ค่ะ（降调）；疑问句末用 คะ（高调）。单独说 ค่ะ 表示“是的、好的”。"
+   }
+  ]
+ },
+ {
+  "headword": "คะ",
+  "phonetic": "kha",
+  "cefr": "A1",
+  "frequencyRank": 30,
+  "grammarNotes": {
+   "toneMarks": "khá · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "คำลงท้ายแสดงความสุภาพของผู้หญิงในประโยคคำถาม",
+    "translations": {
+     "zh": "（女性礼貌语气词，用于疑问句）",
+     "en": "polite particle (female speaker, questions)"
+    },
+    "examples": [
+     {
+      "text": "ห้องน้ำอยู่ที่ไหนคะ",
+      "translations": {
+       "zh": "洗手间在哪里？",
+       "en": "Where is the toilet?"
+      }
+     }
+    ],
+    "usageNote": "女性提问时用 คะ（高调）；陈述句用 ค่ะ（降调）。和 นะ 连用变成 นะคะ。"
+   }
+  ]
+ },
+ {
+  "headword": "นะ",
+  "phonetic": "na",
+  "cefr": "A1",
+  "frequencyRank": 25,
+  "grammarNotes": {
+   "toneMarks": "ná · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "คำลงท้ายทำให้คำพูดนุ่มนวลหรือขอร้อง",
+    "translations": {
+     "zh": "啊；哦；吧（缓和语气）",
+     "en": "softening particle (… okay?)"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้โทรมานะ",
+      "translations": {
+       "zh": "明天给我打电话哦。",
+       "en": "Call me tomorrow, okay?"
+      }
+     }
+    ],
+    "usageNote": "นะ 让语气更柔和、亲切，常和礼貌词连用：นะครับ（男）、นะคะ（女）。"
+   }
+  ]
+ },
+ {
+  "headword": "หน่อย",
+  "phonetic": "noi",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "nɔ̀i · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "ใช้หลังคำขอร้องให้ฟังสุภาพขึ้น",
+    "translations": {
+     "zh": "一下；一点（请求时缓和语气）",
+     "en": "a little; please (softens a request)"
+    },
+    "examples": [
+     {
+      "text": "ขอน้ำแข็งหน่อยครับ",
+      "translations": {
+       "zh": "请给我一点冰。",
+       "en": "Some ice, please."
+      }
+     }
+    ],
+    "usageNote": "请别人做事时放在动词短语后：ช่วย…หน่อย、ขอ…หน่อย，显得客气。"
+   }
+  ]
+ },
+ {
+  "headword": "อะไร",
+  "phonetic": "arai",
+  "cefr": "A1",
+  "frequencyRank": 22,
+  "grammarNotes": {
+   "toneMarks": "à-rai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำถามถึงสิ่งของหรือเรื่องที่ไม่รู้",
+    "translations": {
+     "zh": "什么",
+     "en": "what"
+    },
+    "examples": [
+     {
+      "text": "นี่คืออะไร",
+      "translations": {
+       "zh": "这是什么？",
+       "en": "What is this?"
+      }
+     }
+    ],
+    "usageNote": "泰语疑问词通常放在句末：คุณกินอะไร（你吃什么？）。"
+   }
+  ]
+ },
+ {
+  "headword": "ที่ไหน",
+  "phonetic": "thinai",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "toneMarks": "thîi-nǎi · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คำถามถึงสถานที่",
+    "translations": {
+     "zh": "哪里",
+     "en": "where"
+    },
+    "examples": [
+     {
+      "text": "คุณอยู่ที่ไหน",
+      "translations": {
+       "zh": "你在哪里？",
+       "en": "Where are you?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไหน",
+  "phonetic": "nai",
+  "cefr": "A1",
+  "frequencyRank": 130,
+  "grammarNotes": {
+   "toneMarks": "nǎi · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "คำถามให้เลือกจากหลายอัน",
+    "translations": {
+     "zh": "哪；哪个",
+     "en": "which"
+    },
+    "examples": [
+     {
+      "text": "คุณชอบอันไหน",
+      "translations": {
+       "zh": "你喜欢哪个？",
+       "en": "Which one do you like?"
+      }
+     }
+    ],
+    "usageNote": "ไปไหน（去哪儿？）是熟人见面常见的寒暄。"
+   }
+  ]
+ },
+ {
+  "headword": "เมื่อไร",
+  "phonetic": "muearai",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "mʉ̂a-rai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คำถามถึงเวลา",
+    "translations": {
+     "zh": "什么时候",
+     "en": "when"
+    },
+    "examples": [
+     {
+      "text": "คุณจะกลับเมื่อไร",
+      "translations": {
+       "zh": "你什么时候回来？",
+       "en": "When will you come back?"
+      }
+     }
+    ],
+    "usageNote": "口语常读作 mʉ̂a-rài（低调），也常写成 เมื่อไหร่。"
+   }
+  ]
+ },
+ {
+  "headword": "ใคร",
+  "phonetic": "khrai",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "grammarNotes": {
+   "toneMarks": "khrai · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "คำถามถึงคน",
+    "translations": {
+     "zh": "谁",
+     "en": "who"
+    },
+    "examples": [
+     {
+      "text": "นั่นใคร",
+      "translations": {
+       "zh": "那是谁？",
+       "en": "Who is that?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทำไม",
+  "phonetic": "thammai",
+  "cefr": "A1",
+  "frequencyRank": 230,
+  "grammarNotes": {
+   "toneMarks": "tham-mai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คำถามถึงเหตุผล",
+    "translations": {
+     "zh": "为什么",
+     "en": "why"
+    },
+    "examples": [
+     {
+      "text": "ทำไมคุณไม่มา",
+      "translations": {
+       "zh": "你为什么没来？",
+       "en": "Why didn't you come?"
+      }
+     }
+    ],
+    "usageNote": "ทำไม 可放句首或句末。回答常用 เพราะ（因为）。"
+   }
+  ]
+ },
+ {
+  "headword": "อย่างไร",
+  "phonetic": "yangrai",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "toneMarks": "yàang-rai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คำถามถึงวิธีหรือลักษณะ",
+    "translations": {
+     "zh": "怎么；怎样",
+     "en": "how"
+    },
+    "examples": [
+     {
+      "text": "ไปสถานีรถไฟอย่างไร",
+      "translations": {
+       "zh": "去火车站怎么走？",
+       "en": "How do I get to the train station?"
+      }
+     }
+    ],
+    "usageNote": "อย่างไร 较书面，口语常说 ยังไง。"
+   }
+  ]
+ },
+ {
+  "headword": "ยังไง",
+  "phonetic": "yangngai",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "yang-ngai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "อย่างไร (ภาษาพูด)",
+    "translations": {
+     "zh": "怎么；怎样（口语）",
+     "en": "how (spoken)"
+    },
+    "examples": [
+     {
+      "text": "อันนี้ใช้ยังไง",
+      "translations": {
+       "zh": "这个怎么用？",
+       "en": "How do you use this?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เท่าไร",
+  "phonetic": "thaorai",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "toneMarks": "thâo-rai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คำถามถึงจำนวนหรือราคา",
+    "translations": {
+     "zh": "多少",
+     "en": "how much"
+    },
+    "examples": [
+     {
+      "text": "อันนี้เท่าไรครับ",
+      "translations": {
+       "zh": "这个多少钱？",
+       "en": "How much is this?"
+      }
+     }
+    ],
+    "usageNote": "口语常读作 thâo-rài（低调），也常写成 เท่าไหร่。"
+   }
+  ]
+ },
+ {
+  "headword": "กี่",
+  "phonetic": "ki",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "kìi · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "คำถามถึงจำนวน ใช้กับลักษณนาม",
+    "translations": {
+     "zh": "几；多少（后接量词）",
+     "en": "how many"
+    },
+    "examples": [
+     {
+      "text": "คุณมีพี่น้องกี่คน",
+      "translations": {
+       "zh": "你有几个兄弟姐妹？",
+       "en": "How many siblings do you have?"
+      }
+     }
+    ],
+    "usageNote": "กี่ 后面必须接量词：กี่คน（几个人）、กี่โมง（几点）。"
+   }
+  ]
+ },
+ {
+  "headword": "ไหม",
+  "phonetic": "mai",
+  "cefr": "A1",
+  "frequencyRank": 35,
+  "grammarNotes": {
+   "toneMarks": "mǎi · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "คำลงท้ายประโยคคำถามแบบใช่หรือไม่",
+    "translations": {
+     "zh": "吗",
+     "en": "question particle (yes/no)"
+    },
+    "examples": [
+     {
+      "text": "คุณหิวไหม",
+      "translations": {
+       "zh": "你饿吗？",
+       "en": "Are you hungry?"
+      }
+     }
+    ],
+    "usageNote": "放在句末构成是非问句，口语常读高调 mái。回答时重复动词或形容词：หิว（饿）/ ไม่หิว（不饿）。"
+   }
+  ]
+ },
+ {
+  "headword": "หรือเปล่า",
+  "phonetic": "rue plao",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "rʉ̌ʉ-plào · 升, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ใช้ท้ายประโยคถามว่าใช่หรือไม่",
+    "translations": {
+     "zh": "……还是没有？；……吗？",
+     "en": "or not?"
+    },
+    "examples": [
+     {
+      "text": "คุณว่างหรือเปล่า",
+      "translations": {
+       "zh": "你有没有空？",
+       "en": "Are you free or not?"
+      }
+     }
+    ],
+    "usageNote": "口语常缩成 ป่าว 或 เปล่า。单独说 เปล่า 表示“没有、不是”。"
+   }
+  ]
+ },
+ {
+  "headword": "ไม่",
+  "phonetic": "mai",
+  "cefr": "A1",
+  "frequencyRank": 1,
+  "grammarNotes": {
+   "toneMarks": "mâi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "คำปฏิเสธ",
+    "translations": {
+     "zh": "不；没",
+     "en": "not"
+    },
+    "examples": [
+     {
+      "text": "ผมไม่ชอบเผ็ด",
+      "translations": {
+       "zh": "我不喜欢辣。",
+       "en": "I don't like spicy food."
+      }
+     }
+    ],
+    "usageNote": "ไม่（降调，不）、ไหม（升调，吗）、ใหม่（低调，新）、ไม้（高调，木头）——四个 mai 只靠声调区分。"
+   }
+  ]
+ },
+ {
+  "headword": "ที่",
+  "phonetic": "thi",
+  "cefr": "A1",
+  "frequencyRank": 13,
+  "grammarNotes": {
+   "toneMarks": "thîi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "บอกสถานที่",
+    "translations": {
+     "zh": "在（某处）",
+     "en": "at, in (a place)"
+    },
+    "examples": [
+     {
+      "text": "เจอกันที่ร้านกาแฟ",
+      "translations": {
+       "zh": "在咖啡店见。",
+       "en": "See you at the café."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้เชื่อมคำนามกับข้อความที่ขยาย",
+    "translations": {
+     "zh": "……的（关系词）",
+     "en": "who, which, that"
+    },
+    "examples": [
+     {
+      "text": "คนที่ใส่เสื้อแดงคือพี่ชายผม",
+      "translations": {
+       "zh": "穿红衣服的人是我哥哥。",
+       "en": "The person in red is my older brother."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใน",
+  "phonetic": "nai",
+  "cefr": "A1",
+  "frequencyRank": 16,
+  "grammarNotes": {
+   "toneMarks": "nai · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "อยู่ข้างในของสิ่งใด",
+    "translations": {
+     "zh": "在……里",
+     "en": "in, inside"
+    },
+    "examples": [
+     {
+      "text": "แมวอยู่ในกล่อง",
+      "translations": {
+       "zh": "猫在箱子里。",
+       "en": "The cat is in the box."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บน",
+  "phonetic": "bon",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "bon · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "อยู่เหนือและติดกับสิ่งใด",
+    "translations": {
+     "zh": "在……上",
+     "en": "on, on top of"
+    },
+    "examples": [
+     {
+      "text": "หนังสืออยู่บนโต๊ะ",
+      "translations": {
+       "zh": "书在桌子上。",
+       "en": "The book is on the table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใต้",
+  "phonetic": "tai",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "tâi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "อยู่ข้างล่างของสิ่งใด",
+    "translations": {
+     "zh": "在……下",
+     "en": "under, below"
+    },
+    "examples": [
+     {
+      "text": "หมานอนใต้โต๊ะ",
+      "translations": {
+       "zh": "狗睡在桌子底下。",
+       "en": "The dog is sleeping under the table."
+      }
+     }
+    ],
+    "usageNote": "ใต้ 也表示“南”：ภาคใต้（泰国南部）。"
+   }
+  ]
+ },
+ {
+  "headword": "ข้างหน้า",
+  "phonetic": "khang na",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "khâang-nâa · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ด้านที่อยู่ตรงหน้า",
+    "translations": {
+     "zh": "前面",
+     "en": "in front (of)"
+    },
+    "examples": [
+     {
+      "text": "รถจอดอยู่ข้างหน้าบ้าน",
+      "translations": {
+       "zh": "车停在房子前面。",
+       "en": "The car is parked in front of the house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้างหลัง",
+  "phonetic": "khang lang",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "khâang-lǎng · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ด้านที่อยู่ตรงหลัง",
+    "translations": {
+     "zh": "后面",
+     "en": "behind"
+    },
+    "examples": [
+     {
+      "text": "ห้องน้ำอยู่ข้างหลังร้าน",
+      "translations": {
+       "zh": "洗手间在店后面。",
+       "en": "The toilet is behind the shop."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ใกล้",
+  "phonetic": "klai",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "klâi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ระยะทางไม่ไกล",
+    "translations": {
+     "zh": "近",
+     "en": "near, close"
+    },
+    "examples": [
+     {
+      "text": "บ้านผมอยู่ใกล้โรงเรียน",
+      "translations": {
+       "zh": "我家离学校很近。",
+       "en": "My house is near the school."
+      }
+     }
+    ],
+    "usageNote": "ใกล้（降调，近）和 ไกล（中调，远）意思相反，只差声调，要特别注意。"
+   }
+  ]
+ },
+ {
+  "headword": "ไกล",
+  "phonetic": "klai",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "klai · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ระยะทางมาก ไม่ใกล้",
+    "translations": {
+     "zh": "远",
+     "en": "far"
+    },
+    "examples": [
+     {
+      "text": "สนามบินไกลไหมครับ",
+      "translations": {
+       "zh": "机场远吗？",
+       "en": "Is the airport far?"
+      }
+     }
+    ],
+    "usageNote": "ไกล（中调，远）和 ใกล้（降调，近）只差声调。"
+   }
+  ]
+ },
+ {
+  "headword": "กับ",
+  "phonetic": "kap",
+  "cefr": "A1",
+  "frequencyRank": 17,
+  "grammarNotes": {
+   "toneMarks": "kàp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "ร่วมกัน พร้อมกัน",
+    "translations": {
+     "zh": "和；跟",
+     "en": "with, and"
+    },
+    "examples": [
+     {
+      "text": "ฉันไปกับแม่",
+      "translations": {
+       "zh": "我和妈妈一起去。",
+       "en": "I'm going with Mum."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "และ",
+  "phonetic": "lae",
+  "cefr": "A1",
+  "frequencyRank": 19,
+  "grammarNotes": {
+   "toneMarks": "lɛ́ · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "คำเชื่อมสิ่งที่อยู่ด้วยกัน",
+    "translations": {
+     "zh": "和；并且",
+     "en": "and"
+    },
+    "examples": [
+     {
+      "text": "ผมชอบแมวและหมา",
+      "translations": {
+       "zh": "我喜欢猫和狗。",
+       "en": "I like cats and dogs."
+      }
+     }
+    ],
+    "usageNote": "และ 较书面；口语连接名词常用 กับ。"
+   }
+  ]
+ },
+ {
+  "headword": "แต่",
+  "phonetic": "tae",
+  "cefr": "A1",
+  "frequencyRank": 33,
+  "grammarNotes": {
+   "toneMarks": "tɛ̀ɛ · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้เชื่อมข้อความที่ขัดกัน",
+    "translations": {
+     "zh": "但是",
+     "en": "but"
+    },
+    "examples": [
+     {
+      "text": "อร่อยแต่แพง",
+      "translations": {
+       "zh": "好吃但是贵。",
+       "en": "Tasty but expensive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หรือ",
+  "phonetic": "rue",
+  "cefr": "A1",
+  "frequencyRank": 28,
+  "grammarNotes": {
+   "toneMarks": "rʉ̌ʉ · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้ให้เลือกอย่างใดอย่างหนึ่ง",
+    "translations": {
+     "zh": "或者；还是",
+     "en": "or"
+    },
+    "examples": [
+     {
+      "text": "เอาชาหรือกาแฟคะ",
+      "translations": {
+       "zh": "要茶还是咖啡？",
+       "en": "Tea or coffee?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เพราะ",
+  "phonetic": "phro",
+  "cefr": "A1",
+  "frequencyRank": 75,
+  "grammarNotes": {
+   "toneMarks": "phrɔ́ · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้บอกเหตุผล",
+    "translations": {
+     "zh": "因为",
+     "en": "because"
+    },
+    "examples": [
+     {
+      "text": "ผมไม่ไปเพราะฝนตก",
+      "translations": {
+       "zh": "因为下雨所以我不去。",
+       "en": "I'm not going because it's raining."
+      }
+     }
+    ],
+    "usageNote": "เพราะ 也是形容词“（声音）好听”：เพลงนี้เพราะ（这首歌好听）。"
+   }
+  ]
+ },
+ {
+  "headword": "ถ้า",
+  "phonetic": "tha",
+  "cefr": "A1",
+  "frequencyRank": 120,
+  "grammarNotes": {
+   "toneMarks": "thâa · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้บอกเงื่อนไข",
+    "translations": {
+     "zh": "如果",
+     "en": "if"
+    },
+    "examples": [
+     {
+      "text": "ถ้าว่างไปด้วยกันนะ",
+      "translations": {
+       "zh": "如果有空就一起去吧。",
+       "en": "If you're free, come along."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ว่า",
+  "phonetic": "wa",
+  "cefr": "A1",
+  "frequencyRank": 21,
+  "grammarNotes": {
+   "toneMarks": "wâa · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "ใช้นำข้อความที่พูดหรือคิด",
+    "translations": {
+     "zh": "（说/想）……；说",
+     "en": "that (after say, think)"
+    },
+    "examples": [
+     {
+      "text": "เขาบอกว่าพรุ่งนี้ไม่ว่าง",
+      "translations": {
+       "zh": "他说明天没空。",
+       "en": "He said he's busy tomorrow."
+      }
+     }
+    ],
+    "usageNote": "常跟在 พูด、บอก、คิด、รู้ 后面引出内容。"
+   }
+  ]
+ }
+]

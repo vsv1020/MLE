@@ -1,0 +1,1022 @@
+[
+ {
+  "headword": "เงียบ",
+  "phonetic": "ngiap",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "ngîap · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีเสียง",
+    "translations": {
+     "zh": "安静",
+     "en": "quiet"
+    },
+    "examples": [
+     {
+      "text": "ห้องสมุดเงียบมาก",
+      "translations": {
+       "zh": "图书馆很安静。",
+       "en": "The library is very quiet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สบาย",
+  "phonetic": "sabai",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "sà-baai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้สึกดี ไม่ลำบาก",
+    "translations": {
+     "zh": "舒服；舒适",
+     "en": "comfortable, well"
+    },
+    "examples": [
+     {
+      "text": "เตียงนี้นอนสบาย",
+      "translations": {
+       "zh": "这张床睡着很舒服。",
+       "en": "This bed is comfortable."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ว่าง",
+  "phonetic": "wang",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "wâang · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีงานทำ หรือไม่มีคนใช้",
+    "translations": {
+     "zh": "有空；空着",
+     "en": "free, available; empty"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้คุณว่างไหม",
+      "translations": {
+       "zh": "明天你有空吗？",
+       "en": "Are you free tomorrow?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยุ่ง",
+  "phonetic": "yung",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "yûng · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีงานมาก ไม่ว่าง",
+    "translations": {
+     "zh": "忙",
+     "en": "busy"
+    },
+    "examples": [
+     {
+      "text": "ช่วงนี้ผมยุ่งมาก",
+      "translations": {
+       "zh": "最近我很忙。",
+       "en": "I'm very busy these days."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ป่วย",
+  "phonetic": "puai",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "pùai · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่สบาย เป็นโรค",
+    "translations": {
+     "zh": "生病",
+     "en": "ill, sick"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ลูกป่วย",
+      "translations": {
+       "zh": "今天孩子生病了。",
+       "en": "My child is ill today."
+      }
+     }
+    ],
+    "usageNote": "口语常说 ไม่สบาย（不舒服）表示生病。"
+   }
+  ]
+ },
+ {
+  "headword": "เจ็บ",
+  "phonetic": "chep",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "jèp · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้สึกปวดเพราะถูกตีหรือมีแผล",
+    "translations": {
+     "zh": "痛；疼",
+     "en": "hurt, painful"
+    },
+    "examples": [
+     {
+      "text": "เจ็บตรงไหนคะ",
+      "translations": {
+       "zh": "哪里疼？",
+       "en": "Where does it hurt?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ง่วง",
+  "phonetic": "nguang",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "ngûang · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "อยากนอน",
+    "translations": {
+     "zh": "困",
+     "en": "sleepy"
+    },
+    "examples": [
+     {
+      "text": "ผมง่วงแล้ว ไปนอนก่อนนะ",
+      "translations": {
+       "zh": "我困了，先去睡了。",
+       "en": "I'm sleepy, I'm off to bed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดีใจ",
+  "phonetic": "dichai",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "dii-jai · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้สึกมีความสุข",
+    "translations": {
+     "zh": "高兴",
+     "en": "glad, happy"
+    },
+    "examples": [
+     {
+      "text": "ดีใจที่ได้เจอคุณ",
+      "translations": {
+       "zh": "很高兴见到你。",
+       "en": "I'm glad to see you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เสียใจ",
+  "phonetic": "siachai",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "sǐa-jai · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "รู้สึกไม่มีความสุข เศร้า",
+    "translations": {
+     "zh": "难过；遗憾",
+     "en": "sad; sorry"
+    },
+    "examples": [
+     {
+      "text": "ผมเสียใจด้วยนะ",
+      "translations": {
+       "zh": "我很遗憾。",
+       "en": "I'm sorry to hear that."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โกรธ",
+  "phonetic": "krot",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "kròot · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่พอใจมาก",
+    "translations": {
+     "zh": "生气",
+     "en": "angry"
+    },
+    "examples": [
+     {
+      "text": "แม่โกรธผม",
+      "translations": {
+       "zh": "妈妈生我的气。",
+       "en": "Mum is angry with me."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กลัว",
+  "phonetic": "klua",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "klua · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "รู้สึกไม่อยากเจอเพราะอาจเป็นอันตราย",
+    "translations": {
+     "zh": "怕；害怕",
+     "en": "to be afraid (of)"
+    },
+    "examples": [
+     {
+      "text": "น้องกลัวหมา",
+      "translations": {
+       "zh": "弟弟/妹妹怕狗。",
+       "en": "My little brother/sister is afraid of dogs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เก่ง",
+  "phonetic": "keng",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "kèng · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ทำอะไรได้ดีมาก",
+    "translations": {
+     "zh": "厉害；擅长",
+     "en": "clever, good at"
+    },
+    "examples": [
+     {
+      "text": "คุณพูดไทยเก่งมาก",
+      "translations": {
+       "zh": "你泰语说得真好。",
+       "en": "You speak Thai really well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น่ารัก",
+  "phonetic": "narak",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "nâa-rák · 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "น่าเอ็นดู ทำให้อยากรัก",
+    "translations": {
+     "zh": "可爱",
+     "en": "cute, lovely"
+    },
+    "examples": [
+     {
+      "text": "แมวตัวนี้น่ารักจัง",
+      "translations": {
+       "zh": "这只猫好可爱。",
+       "en": "This cat is so cute."
+      }
+     }
+    ],
+    "usageNote": "น่า + 动词 = “值得……、令人……”，น่ารัก 字面是“令人爱”。"
+   }
+  ]
+ },
+ {
+  "headword": "หล่อ",
+  "phonetic": "lo",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "lɔ̀ɔ · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "หน้าตาดี (ใช้กับผู้ชาย)",
+    "translations": {
+     "zh": "帅",
+     "en": "handsome"
+    },
+    "examples": [
+     {
+      "text": "พี่ชายเธอหล่อมาก",
+      "translations": {
+       "zh": "她哥哥很帅。",
+       "en": "Her older brother is very handsome."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อ้วน",
+  "phonetic": "uan",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "ûan · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ตัวใหญ่ มีเนื้อมาก",
+    "translations": {
+     "zh": "胖",
+     "en": "fat"
+    },
+    "examples": [
+     {
+      "text": "แมวของฉันอ้วนมาก",
+      "translations": {
+       "zh": "我的猫很胖。",
+       "en": "My cat is very fat."
+      }
+     }
+    ],
+    "usageNote": "泰国人说别人“胖”比较直接，但对陌生人说仍不太礼貌。"
+   }
+  ]
+ },
+ {
+  "headword": "ผอม",
+  "phonetic": "phom",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "phɔ̌ɔm · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ตัวเล็ก มีเนื้อน้อย",
+    "translations": {
+     "zh": "瘦",
+     "en": "thin"
+    },
+    "examples": [
+     {
+      "text": "เขาผอมลงเยอะ",
+      "translations": {
+       "zh": "他瘦了很多。",
+       "en": "He has lost a lot of weight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สำคัญ",
+  "phonetic": "samkhan",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "sǎm-khan · 升, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "มีค่ามาก จำเป็น",
+    "translations": {
+     "zh": "重要",
+     "en": "important"
+    },
+    "examples": [
+     {
+      "text": "เรื่องนี้สำคัญมาก",
+      "translations": {
+       "zh": "这件事很重要。",
+       "en": "This matter is very important."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผิด",
+  "phonetic": "phit",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "phìt · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่ถูก ไม่ตรง",
+    "translations": {
+     "zh": "错；错误",
+     "en": "wrong"
+    },
+    "examples": [
+     {
+      "text": "ขอโทษครับ ผมโทรผิด",
+      "translations": {
+       "zh": "对不起，我打错电话了。",
+       "en": "Sorry, wrong number."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มืด",
+  "phonetic": "muet",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "mʉ̂ʉt · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ไม่มีแสง",
+    "translations": {
+     "zh": "黑；暗",
+     "en": "dark"
+    },
+    "examples": [
+     {
+      "text": "ข้างนอกมืดแล้ว",
+      "translations": {
+       "zh": "外面天黑了。",
+       "en": "It's dark outside now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขอโทษ",
+  "phonetic": "khothot",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "khɔ̌ɔ-thôot · 升, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำพูดเมื่อทำผิดหรือรบกวนคนอื่น",
+    "translations": {
+     "zh": "对不起；不好意思",
+     "en": "sorry; excuse me"
+    },
+    "examples": [
+     {
+      "text": "ขอโทษครับ มาช้า",
+      "translations": {
+       "zh": "对不起，来晚了。",
+       "en": "Sorry I'm late."
+      }
+     }
+    ],
+    "usageNote": "也用来引起别人注意，相当于“打扰一下”。"
+   }
+  ]
+ },
+ {
+  "headword": "ไม่เป็นไร",
+  "phonetic": "mai pen rai",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "mâi-pen-rai · 降, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ไม่มีปัญหา ไม่ต้องห่วง",
+    "translations": {
+     "zh": "没关系；不客气",
+     "en": "never mind; you're welcome"
+    },
+    "examples": [
+     {
+      "text": "ไม่เป็นไรครับ",
+      "translations": {
+       "zh": "没关系。",
+       "en": "That's all right."
+      }
+     }
+    ],
+    "usageNote": "回应 ขอโทษ（对不起）或 ขอบคุณ（谢谢）都可以用。"
+   }
+  ]
+ },
+ {
+  "headword": "ใช่",
+  "phonetic": "chai",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "toneMarks": "châi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "คำตอบรับว่าถูกต้อง",
+    "translations": {
+     "zh": "是的；对",
+     "en": "yes, that's right"
+    },
+    "examples": [
+     {
+      "text": "ใช่ครับ ผมเป็นคนจีน",
+      "translations": {
+       "zh": "是的，我是中国人。",
+       "en": "Yes, I'm Chinese."
+      }
+     }
+    ],
+    "usageNote": "ใช่（降调，是）和 ใช้（高调，用）只差声调。"
+   }
+  ]
+ },
+ {
+  "headword": "ไม่ใช่",
+  "phonetic": "mai chai",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "mâi-châi · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำตอบว่าไม่ถูกต้อง",
+    "translations": {
+     "zh": "不是",
+     "en": "no, that's not right"
+    },
+    "examples": [
+     {
+      "text": "ไม่ใช่ค่ะ ฉันไม่ใช่คนไทย",
+      "translations": {
+       "zh": "不是，我不是泰国人。",
+       "en": "No, I'm not Thai."
+      }
+     }
+    ],
+    "usageNote": "否定名词句用 ไม่ใช่（不是），否定动词、形容词用 ไม่。"
+   }
+  ]
+ },
+ {
+  "headword": "ลาก่อน",
+  "phonetic": "la kon",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "laa-kɔ̀ɔn · 中, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำพูดเมื่อจากกันไปนาน",
+    "translations": {
+     "zh": "再见（较正式或久别）",
+     "en": "goodbye"
+    },
+    "examples": [
+     {
+      "text": "ลาก่อนนะ แล้วพบกันใหม่",
+      "translations": {
+       "zh": "再见了，后会有期。",
+       "en": "Goodbye, until we meet again."
+      }
+     }
+    ],
+    "usageNote": "ลาก่อน 语气比较正式，有“久别”的感觉；日常道别常说 สวัสดี 或 ไปก่อนนะ。"
+   }
+  ]
+ },
+ {
+  "headword": "ยินดีที่ได้รู้จัก",
+  "phonetic": "yindi thi dai ruchak",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "yin-dii-thîi-dâi-rúu-jàk · 中, 中, 降, 降, 高, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำพูดเมื่อพบคนใหม่ครั้งแรก",
+    "translations": {
+     "zh": "很高兴认识你",
+     "en": "nice to meet you"
+    },
+    "examples": [
+     {
+      "text": "ยินดีที่ได้รู้จักครับ",
+      "translations": {
+       "zh": "很高兴认识你。",
+       "en": "Nice to meet you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยินดีต้อนรับ",
+  "phonetic": "yindi tonrap",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "yin-dii-tɔ̂ɔn-ráp · 中, 中, 降, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำพูดต้อนรับคนที่มาถึง",
+    "translations": {
+     "zh": "欢迎",
+     "en": "welcome"
+    },
+    "examples": [
+     {
+      "text": "ยินดีต้อนรับสู่เมืองไทย",
+      "translations": {
+       "zh": "欢迎来到泰国。",
+       "en": "Welcome to Thailand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สบายดีไหม",
+  "phonetic": "sabai di mai",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sà-baai-dii-mǎi · 低, 中, 中, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำถามทักทายว่าเป็นอย่างไรบ้าง",
+    "translations": {
+     "zh": "你好吗？",
+     "en": "how are you?"
+    },
+    "examples": [
+     {
+      "text": "สวัสดีครับ สบายดีไหมครับ",
+      "translations": {
+       "zh": "你好，你好吗？",
+       "en": "Hello, how are you?"
+      }
+     }
+    ],
+    "usageNote": "回答：สบายดีครับ/ค่ะ（我很好）。"
+   }
+  ]
+ },
+ {
+  "headword": "โชคดี",
+  "phonetic": "chok di",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "chôok-dii · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำอวยพรให้เจอแต่สิ่งดี",
+    "translations": {
+     "zh": "祝你好运",
+     "en": "good luck"
+    },
+    "examples": [
+     {
+      "text": "โชคดีนะ",
+      "translations": {
+       "zh": "祝你好运！",
+       "en": "Good luck!"
+      }
+     }
+    ],
+    "usageNote": "道别时也常说 โชคดีนะ，相当于“保重”。"
+   }
+  ]
+ },
+ {
+  "headword": "แล้วเจอกัน",
+  "phonetic": "laeo choe kan",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "lɛ́ɛo-jəə-kan · 高, 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำพูดเมื่อจากกันและจะพบกันอีก",
+    "translations": {
+     "zh": "回头见",
+     "en": "see you"
+    },
+    "examples": [
+     {
+      "text": "แล้วเจอกันพรุ่งนี้นะ",
+      "translations": {
+       "zh": "那明天见。",
+       "en": "See you tomorrow, then."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ราตรีสวัสดิ์",
+  "phonetic": "ratri sawat",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "raa-trii-sà-wàt · 中, 中, 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำพูดก่อนนอน",
+    "translations": {
+     "zh": "晚安",
+     "en": "good night"
+    },
+    "examples": [
+     {
+      "text": "ราตรีสวัสดิ์นะลูก",
+      "translations": {
+       "zh": "晚安，孩子。",
+       "en": "Good night, sweetheart."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เชิญ",
+  "phonetic": "choen",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "chəən · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "คำพูดสุภาพให้คนอื่นทำบางอย่าง",
+    "translations": {
+     "zh": "请",
+     "en": "please (go ahead); to invite"
+    },
+    "examples": [
+     {
+      "text": "เชิญทางนี้ค่ะ",
+      "translations": {
+       "zh": "这边请。",
+       "en": "This way, please."
+      }
+     }
+    ],
+    "usageNote": "เชิญ + 动词 是客气地请别人做事：เชิญนั่ง（请坐）。"
+   }
+  ]
+ },
+ {
+  "headword": "ช่วยด้วย",
+  "phonetic": "chuai duai",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "chûai-dûai · 降, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำร้องขอให้ช่วยเมื่อมีอันตราย",
+    "translations": {
+     "zh": "救命！",
+     "en": "help!"
+    },
+    "examples": [
+     {
+      "text": "ช่วยด้วย! มีคนตกน้ำ",
+      "translations": {
+       "zh": "救命！有人落水了！",
+       "en": "Help! Someone fell in the water!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตกลง",
+  "phonetic": "toklong",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "tòk-long · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "รับว่าเห็นด้วย",
+    "translations": {
+     "zh": "好的；同意",
+     "en": "OK, agreed"
+    },
+    "examples": [
+     {
+      "text": "ตกลง เจอกันหกโมงนะ",
+      "translations": {
+       "zh": "好的，六点见。",
+       "en": "OK, see you at six."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขอบใจ",
+  "phonetic": "khopchai",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "khɔ̀ɔp-jai · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "คำขอบคุณที่ใช้กับเพื่อนหรือคนอายุน้อยกว่า",
+    "translations": {
+     "zh": "谢了；谢谢（对晚辈、朋友）",
+     "en": "thanks (to friends, younger people)"
+    },
+    "examples": [
+     {
+      "text": "ขอบใจนะลูก",
+      "translations": {
+       "zh": "谢谢你，孩子。",
+       "en": "Thank you, dear."
+      }
+     }
+    ],
+    "usageNote": "对长辈、陌生人要说 ขอบคุณ，ขอบใจ 只用于朋友或晚辈。"
+   }
+  ]
+ },
+ {
+  "headword": "ได้เลย",
+  "phonetic": "dai loei",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "dâai-ləəi · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ตอบรับว่าทำได้แน่นอน",
+    "translations": {
+     "zh": "当然可以；没问题",
+     "en": "sure, no problem"
+    },
+    "examples": [
+     {
+      "text": "ได้เลยครับ",
+      "translations": {
+       "zh": "没问题。",
+       "en": "Sure thing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ระวัง",
+  "phonetic": "rawang",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "rá-wang · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ดูให้ดีเพื่อไม่ให้เกิดอันตราย",
+    "translations": {
+     "zh": "小心；当心",
+     "en": "to be careful, look out"
+    },
+    "examples": [
+     {
+      "text": "ระวังรถนะ",
+      "translations": {
+       "zh": "小心车啊。",
+       "en": "Watch out for cars."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

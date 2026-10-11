@@ -1,0 +1,234 @@
+[
+ {
+  "headword": "สวัสดี",
+  "phonetic": "sawatdi",
+  "cefr": "A1",
+  "frequencyRank": 50,
+  "grammarNotes": {
+   "toneMarks": "sa-wàt-dii · 低, 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "คำทักทายที่ใช้ได้ทุกเวลา",
+    "translations": {
+     "en": "hello, goodbye",
+     "zh": "你好；再见"
+    },
+    "examples": [
+     {
+      "text": "สวัสดีครับ",
+      "translations": {
+       "en": "Hello (said by a man).",
+       "zh": "你好（男性用语）。"
+      }
+     }
+    ],
+    "usageNote": "句末加 ครับ（男性）或 ค่ะ（女性）显得礼貌，不加听起来比较生硬。"
+   }
+  ]
+ },
+ {
+  "headword": "ขอบคุณ",
+  "phonetic": "khopkhun",
+  "cefr": "A1",
+  "frequencyRank": 90,
+  "grammarNotes": {
+   "toneMarks": "khɔ̀ɔp-khun · 低, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "แสดงความรู้สึกขอบใจ",
+    "translations": {
+     "en": "to thank",
+     "zh": "感谢"
+    },
+    "examples": [
+     {
+      "text": "ขอบคุณมากค่ะ",
+      "translations": {
+       "en": "Thank you very much (said by a woman).",
+       "zh": "非常感谢（女性用语）。"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น้ำ",
+  "phonetic": "nam",
+  "cefr": "A1",
+  "frequencyRank": 130,
+  "grammarNotes": {
+   "toneMarks": "náam · 高",
+   "classifier": "แก้ว（杯）、ขวด（瓶）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ของเหลวใสที่ใช้ดื่ม",
+    "translations": {
+     "en": "water",
+     "zh": "水"
+    },
+    "examples": [
+     {
+      "text": "ขอน้ำหนึ่งแก้ว",
+      "translations": {
+       "en": "One glass of water, please.",
+       "zh": "请给我一杯水。"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เรียน",
+  "phonetic": "rian",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "rian · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ศึกษาหาความรู้",
+    "translations": {
+     "en": "to study, to learn",
+     "zh": "学习"
+    },
+    "examples": [
+     {
+      "text": "ผมเรียนภาษาไทย",
+      "translations": {
+       "en": "I am learning Thai.",
+       "zh": "我在学泰语。"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนังสือ",
+  "phonetic": "nangsue",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "grammarNotes": {
+   "toneMarks": "nǎng-sʉ̌ʉ · 升, 升",
+   "classifier": "เล่ม（本）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งพิมพ์ที่รวมเป็นเล่ม",
+    "translations": {
+     "en": "book",
+     "zh": "书"
+    },
+    "examples": [
+     {
+      "text": "หนังสือสองเล่ม",
+      "translations": {
+       "en": "Two books.",
+       "zh": "两本书。"
+      }
+     }
+    ],
+    "usageNote": "泰语计数用量词：名词 + 数字 + 量词。书的量词是 เล่ม。"
+   }
+  ]
+ },
+ {
+  "headword": "อาหาร",
+  "phonetic": "ahan",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "grammarNotes": {
+   "toneMarks": "aa-hǎan · 中, 升",
+   "classifier": "จาน（盘）、อย่าง（种）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่กินได้",
+    "translations": {
+     "en": "food",
+     "zh": "食物"
+    },
+    "examples": [
+     {
+      "text": "อาหารไทยอร่อยมาก",
+      "translations": {
+       "en": "Thai food is very delicious.",
+       "zh": "泰国菜非常好吃。"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยาก",
+  "phonetic": "yak",
+  "cefr": "A2",
+  "frequencyRank": 640,
+  "grammarNotes": {
+   "toneMarks": "yâak · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "ต้องใช้ความพยายาม ไม่ง่าย",
+    "translations": {
+     "en": "difficult",
+     "zh": "困难的"
+    },
+    "examples": [
+     {
+      "text": "เสียงวรรณยุกต์ยากสำหรับคนต่างชาติ",
+      "translations": {
+       "en": "Tones are difficult for foreigners.",
+       "zh": "声调对外国人来说很难。"
+      }
+     }
+    ],
+    "antonyms": [
+     "ง่าย"
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จำ",
+  "phonetic": "cham",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "jam · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "เก็บไว้ในความคิด ไม่ลืม",
+    "translations": {
+     "en": "to remember, to memorise",
+     "zh": "记住"
+    },
+    "examples": [
+     {
+      "text": "ผมจำคำนี้ไม่ได้",
+      "translations": {
+       "en": "I cannot remember this word.",
+       "zh": "我记不住这个词。"
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

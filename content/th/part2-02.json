@@ -1,0 +1,1455 @@
+[
+ {
+  "headword": "ขา",
+  "phonetic": "kha",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "khǎa · 升",
+   "classifier": "ข้าง（只，一边）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนของร่างกายที่ใช้เดิน",
+    "translations": {
+     "zh": "腿",
+     "en": "leg"
+    },
+    "examples": [
+     {
+      "text": "เดินนานจนเจ็บขา",
+      "translations": {
+       "zh": "走太久，腿都疼了。",
+       "en": "I walked so long my legs hurt."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เท้า",
+  "phonetic": "thao",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "tháao · 高",
+   "classifier": "ข้าง（只，一边）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนล่างสุดของขา ใช้ยืน",
+    "translations": {
+     "zh": "脚",
+     "en": "foot"
+    },
+    "examples": [
+     {
+      "text": "อย่าชี้เท้าไปที่พระ",
+      "translations": {
+       "zh": "不要用脚指向佛像或僧人。",
+       "en": "Don't point your feet at a monk or Buddha image."
+      }
+     }
+    ],
+    "usageNote": "在泰国，脚被视为身体最低下的部位，用脚指人或物很不礼貌。"
+   }
+  ]
+ },
+ {
+  "headword": "ท้อง",
+  "phonetic": "thong",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "thɔ́ɔng · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนกลางของร่างกาย ที่อาหารลงไป",
+    "translations": {
+     "zh": "肚子",
+     "en": "stomach, belly"
+    },
+    "examples": [
+     {
+      "text": "ฉันปวดท้อง",
+      "translations": {
+       "zh": "我肚子疼。",
+       "en": "I have a stomach ache."
+      }
+     }
+    ],
+    "usageNote": "หิว（饿）、ท้องเสีย（拉肚子）都很常用。"
+   }
+  ]
+ },
+ {
+  "headword": "หัวใจ",
+  "phonetic": "huachai",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "hǔa-jai · 升, 中",
+   "classifier": "ดวง（颗）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อวัยวะในอกที่สูบฉีดเลือด",
+    "translations": {
+     "zh": "心脏；心",
+     "en": "heart"
+    },
+    "examples": [
+     {
+      "text": "หัวใจเต้นเร็วมาก",
+      "translations": {
+       "zh": "心跳得很快。",
+       "en": "My heart is beating fast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ร่างกาย",
+  "phonetic": "rangkai",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "râang-kaai · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ตัวคนทั้งหมด",
+    "translations": {
+     "zh": "身体",
+     "en": "body"
+    },
+    "examples": [
+     {
+      "text": "ออกกำลังกายทำให้ร่างกายแข็งแรง",
+      "translations": {
+       "zh": "运动让身体强壮。",
+       "en": "Exercise makes your body strong."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สุขภาพ",
+  "phonetic": "sukkhaphap",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "sùk-kha-phâap · 低, 低, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สภาพของร่างกายและจิตใจ",
+    "translations": {
+     "zh": "健康",
+     "en": "health"
+    },
+    "examples": [
+     {
+      "text": "ผักดีต่อสุขภาพ",
+      "translations": {
+       "zh": "蔬菜对健康有好处。",
+       "en": "Vegetables are good for your health."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โรงพยาบาล",
+  "phonetic": "rongphayaban",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "roong-pha-yaa-baan · 中, 高, 中, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่รักษาคนป่วย",
+    "translations": {
+     "zh": "医院",
+     "en": "hospital"
+    },
+    "examples": [
+     {
+      "text": "โรงพยาบาลอยู่ใกล้โรงแรม",
+      "translations": {
+       "zh": "医院在酒店附近。",
+       "en": "The hospital is near the hotel."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ยา",
+  "phonetic": "ya",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "yaa · 中",
+   "classifier": "เม็ด（片，粒）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่ใช้รักษาโรค",
+    "translations": {
+     "zh": "药",
+     "en": "medicine"
+    },
+    "examples": [
+     {
+      "text": "กินยาหลังอาหาร",
+      "translations": {
+       "zh": "饭后吃药。",
+       "en": "Take the medicine after meals."
+      }
+     }
+    ],
+    "usageNote": "“吃药”在泰语里直接说 กินยา。"
+   }
+  ]
+ },
+ {
+  "headword": "ร้านขายยา",
+  "phonetic": "ran khai ya",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "ráan-khǎai-yaa · 高, 升, 中",
+   "classifier": "ร้าน（家）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ร้านที่ขายยา",
+    "translations": {
+     "zh": "药店",
+     "en": "pharmacy"
+    },
+    "examples": [
+     {
+      "text": "ร้านขายยาอยู่ข้างตลาด",
+      "translations": {
+       "zh": "药店在市场旁边。",
+       "en": "The pharmacy is next to the market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไข้",
+  "phonetic": "khai",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "toneMarks": "khâi · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อาการตัวร้อนเมื่อป่วย",
+    "translations": {
+     "zh": "发烧",
+     "en": "fever"
+    },
+    "examples": [
+     {
+      "text": "ลูกมีไข้สูง",
+      "translations": {
+       "zh": "孩子发高烧。",
+       "en": "My child has a high fever."
+      }
+     }
+    ],
+    "usageNote": "注意声调：ไข้（降调）是发烧，ไข่（低调）是蛋。"
+   }
+  ]
+ },
+ {
+  "headword": "หมอฟัน",
+  "phonetic": "mo fan",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "mɔ̌ɔ-fan · 升, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "หมอที่รักษาฟัน",
+    "translations": {
+     "zh": "牙医",
+     "en": "dentist"
+    },
+    "examples": [
+     {
+      "text": "พรุ่งนี้ฉันจะไปหาหมอฟัน",
+      "translations": {
+       "zh": "明天我要去看牙医。",
+       "en": "Tomorrow I'm going to the dentist."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้าว",
+  "phonetic": "khao",
+  "cefr": "A1",
+  "frequencyRank": 100,
+  "grammarNotes": {
+   "toneMarks": "khâao · 降",
+   "classifier": "จาน（盘）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อาหารหลักของคนไทย เป็นเมล็ดสีขาว",
+    "translations": {
+     "zh": "米饭；饭",
+     "en": "rice, meal"
+    },
+    "examples": [
+     {
+      "text": "ฉันกินข้าวแล้ว",
+      "translations": {
+       "zh": "我吃过饭了。",
+       "en": "I've already eaten."
+      }
+     }
+    ],
+    "usageNote": "กินข้าว 泛指“吃饭”。打招呼时也常问 กินข้าวหรือยัง（吃饭了吗）。"
+   }
+  ]
+ },
+ {
+  "headword": "ข้าวเหนียว",
+  "phonetic": "khao niao",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "khâao-nǐaw · 降, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้าวที่เหนียว นิยมในภาคอีสานและภาคเหนือ",
+    "translations": {
+     "zh": "糯米饭",
+     "en": "sticky rice"
+    },
+    "examples": [
+     {
+      "text": "คนอีสานชอบกินข้าวเหนียว",
+      "translations": {
+       "zh": "东北部的人喜欢吃糯米饭。",
+       "en": "People from Isan love sticky rice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้าวผัด",
+  "phonetic": "khao phat",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "khâao-phàt · 降, 低",
+   "classifier": "จาน（盘）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้าวที่ผัดกับไข่และเนื้อสัตว์",
+    "translations": {
+     "zh": "炒饭",
+     "en": "fried rice"
+    },
+    "examples": [
+     {
+      "text": "ขอข้าวผัดกุ้งหนึ่งจาน",
+      "translations": {
+       "zh": "请给我一盘虾仁炒饭。",
+       "en": "One shrimp fried rice, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ข้าวมันไก่",
+  "phonetic": "khao man kai",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "khâao-man-kài · 降, 中, 低",
+   "classifier": "จาน（盘）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ข้าวหุงกับน้ำมันไก่ กินกับไก่ต้ม",
+    "translations": {
+     "zh": "海南鸡饭",
+     "en": "Hainanese chicken rice"
+    },
+    "examples": [
+     {
+      "text": "ข้าวมันไก่จานละห้าสิบบาท",
+      "translations": {
+       "zh": "海南鸡饭一盘五十泰铢。",
+       "en": "Chicken rice is fifty baht a plate."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผัดไทย",
+  "phonetic": "phat thai",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "phàt-thai · 低, 中",
+   "classifier": "จาน（盘）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เส้นก๋วยเตี๋ยวผัดกับไข่ กุ้ง และถั่วงอก",
+    "translations": {
+     "zh": "泰式炒河粉",
+     "en": "pad thai"
+    },
+    "examples": [
+     {
+      "text": "ผัดไทยร้านนี้อร่อยที่สุด",
+      "translations": {
+       "zh": "这家店的泰式炒河粉最好吃。",
+       "en": "This shop's pad thai is the best."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ก๋วยเตี๋ยว",
+  "phonetic": "kuaitiao",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "kǔay-tǐaw · 升, 升",
+   "classifier": "ชาม（碗）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เส้นที่ทำจากแป้ง กินกับน้ำซุป",
+    "translations": {
+     "zh": "粿条；米粉汤",
+     "en": "noodles, noodle soup"
+    },
+    "examples": [
+     {
+      "text": "ฉันกินก๋วยเตี๋ยวทุกวัน",
+      "translations": {
+       "zh": "我每天都吃粿条。",
+       "en": "I eat noodle soup every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ต้มยำ",
+  "phonetic": "tomyam",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "tôm-yam · 降, 中",
+   "classifier": "ชาม（碗）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แกงรสเปรี้ยวเผ็ด ใส่ตะไคร้และใบมะกรูด",
+    "translations": {
+     "zh": "冬阴汤（酸辣汤）",
+     "en": "tom yum (hot and sour soup)"
+    },
+    "examples": [
+     {
+      "text": "ต้มยำกุ้งเป็นอาหารไทยที่มีชื่อเสียง",
+      "translations": {
+       "zh": "冬阴功是有名的泰国菜。",
+       "en": "Tom yum goong is a famous Thai dish."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส้มตำ",
+  "phonetic": "somtam",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "sôm-tam · 降, 中",
+   "classifier": "จาน（盘）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สลัดมะละกอดิบ รสเปรี้ยวเผ็ด",
+    "translations": {
+     "zh": "青木瓜沙拉",
+     "en": "papaya salad"
+    },
+    "examples": [
+     {
+      "text": "ขอส้มตำไม่เผ็ดค่ะ",
+      "translations": {
+       "zh": "请给我不辣的青木瓜沙拉。",
+       "en": "Papaya salad, not spicy, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไก่",
+  "phonetic": "kai",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "kài · 低",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ปีกที่คนนิยมเลี้ยงและกินเนื้อ",
+    "translations": {
+     "zh": "鸡；鸡肉",
+     "en": "chicken"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบกินไก่ทอด",
+      "translations": {
+       "zh": "我喜欢吃炸鸡。",
+       "en": "I like eating fried chicken."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หมู",
+  "phonetic": "mu",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "toneMarks": "mǔu · 升",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ที่คนเลี้ยงไว้กินเนื้อ",
+    "translations": {
+     "zh": "猪；猪肉",
+     "en": "pig, pork"
+    },
+    "examples": [
+     {
+      "text": "ข้าวผัดหมูหนึ่งจาน",
+      "translations": {
+       "zh": "一盘猪肉炒饭。",
+       "en": "One pork fried rice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เนื้อ",
+  "phonetic": "nuea",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "nʉ́a · 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เนื้อของสัตว์ที่ใช้ทำอาหาร มักหมายถึงเนื้อวัว",
+    "translations": {
+     "zh": "肉；牛肉",
+     "en": "meat, beef"
+    },
+    "examples": [
+     {
+      "text": "ฉันไม่กินเนื้อวัว",
+      "translations": {
+       "zh": "我不吃牛肉。",
+       "en": "I don't eat beef."
+      }
+     }
+    ],
+    "usageNote": "单说 เนื้อ 点菜时通常指牛肉；其他肉要说 เนื้อหมู、เนื้อไก่ 等。"
+   }
+  ]
+ },
+ {
+  "headword": "ปลา",
+  "phonetic": "pla",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "plaa · 中",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ที่อยู่ในน้ำ ว่ายน้ำได้",
+    "translations": {
+     "zh": "鱼",
+     "en": "fish"
+    },
+    "examples": [
+     {
+      "text": "แม่ซื้อปลาที่ตลาด",
+      "translations": {
+       "zh": "妈妈在市场买鱼。",
+       "en": "Mom buys fish at the market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กุ้ง",
+  "phonetic": "kung",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "kûng · 降",
+   "classifier": "ตัว（只，动物）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สัตว์ทะเลตัวเล็ก ตัวงอ",
+    "translations": {
+     "zh": "虾",
+     "en": "shrimp, prawn"
+    },
+    "examples": [
+     {
+      "text": "ฉันแพ้กุ้ง",
+      "translations": {
+       "zh": "我对虾过敏。",
+       "en": "I'm allergic to shrimp."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไข่",
+  "phonetic": "khai",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "khài · 低",
+   "classifier": "ฟอง（个，蛋）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่ไก่หรือนกออกมา ใช้ทำอาหาร",
+    "translations": {
+     "zh": "蛋；鸡蛋",
+     "en": "egg"
+    },
+    "examples": [
+     {
+      "text": "ขอไข่ดาวหนึ่งฟอง",
+      "translations": {
+       "zh": "请给我一个煎蛋。",
+       "en": "One fried egg, please."
+      }
+     }
+    ],
+    "usageNote": "注意声调：ไข่（低调）是蛋，ไข้（降调）是发烧。"
+   }
+  ]
+ },
+ {
+  "headword": "ผัก",
+  "phonetic": "phak",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "toneMarks": "phàk · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พืชที่ใช้ทำอาหาร",
+    "translations": {
+     "zh": "蔬菜",
+     "en": "vegetable"
+    },
+    "examples": [
+     {
+      "text": "เด็กไม่ชอบกินผัก",
+      "translations": {
+       "zh": "孩子不喜欢吃蔬菜。",
+       "en": "Kids don't like eating vegetables."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผลไม้",
+  "phonetic": "phonlamai",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "toneMarks": "phǒn-la-máai · 升, 高, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนของต้นไม้ที่กินได้ มักมีรสหวาน",
+    "translations": {
+     "zh": "水果",
+     "en": "fruit"
+    },
+    "examples": [
+     {
+      "text": "ประเทศไทยมีผลไม้อร่อยมาก",
+      "translations": {
+       "zh": "泰国的水果很好吃。",
+       "en": "Thailand has delicious fruit."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กล้วย",
+  "phonetic": "kluai",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "klûay · 降",
+   "classifier": "ลูก（根），หวี（串）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผลไม้สีเหลือง ยาว ๆ",
+    "translations": {
+     "zh": "香蕉",
+     "en": "banana"
+    },
+    "examples": [
+     {
+      "text": "ลิงชอบกินกล้วย",
+      "translations": {
+       "zh": "猴子喜欢吃香蕉。",
+       "en": "Monkeys like eating bananas."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มะม่วง",
+  "phonetic": "mamuang",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "ma-mûang · 高, 降",
+   "classifier": "ลูก（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผลไม้สีเหลืองหรือเขียว รสหวานหรือเปรี้ยว",
+    "translations": {
+     "zh": "芒果",
+     "en": "mango"
+    },
+    "examples": [
+     {
+      "text": "ข้าวเหนียวมะม่วงอร่อยมาก",
+      "translations": {
+       "zh": "芒果糯米饭很好吃。",
+       "en": "Mango sticky rice is delicious."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ส้ม",
+  "phonetic": "som",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sôm · 降",
+   "classifier": "ลูก（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผลไม้สีส้ม มีรสเปรี้ยวหวาน",
+    "translations": {
+     "zh": "橙子；橘子",
+     "en": "orange"
+    },
+    "examples": [
+     {
+      "text": "ส้มลูกนี้หวานมาก",
+      "translations": {
+       "zh": "这个橘子很甜。",
+       "en": "This orange is very sweet."
+      }
+     }
+    ],
+    "usageNote": "颜色“橙色”是 สีส้ม。"
+   }
+  ]
+ },
+ {
+  "headword": "แตงโม",
+  "phonetic": "taengmo",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "tɛɛng-moo · 中, 中",
+   "classifier": "ลูก（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผลไม้ลูกใหญ่ เปลือกเขียว เนื้อแดง",
+    "translations": {
+     "zh": "西瓜",
+     "en": "watermelon"
+    },
+    "examples": [
+     {
+      "text": "แตงโมลูกนี้ใหญ่มาก",
+      "translations": {
+       "zh": "这个西瓜很大。",
+       "en": "This watermelon is huge."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มะพร้าว",
+  "phonetic": "maphrao",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "ma-phráao · 高, 高",
+   "classifier": "ลูก（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผลไม้เปลือกแข็ง ข้างในมีน้ำหวาน",
+    "translations": {
+     "zh": "椰子",
+     "en": "coconut"
+    },
+    "examples": [
+     {
+      "text": "ฉันอยากดื่มน้ำมะพร้าว",
+      "translations": {
+       "zh": "我想喝椰子水。",
+       "en": "I want to drink coconut water."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ทุเรียน",
+  "phonetic": "thurian",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "thú-rian · 高, 中",
+   "classifier": "ลูก（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผลไม้เปลือกมีหนาม กลิ่นแรง",
+    "translations": {
+     "zh": "榴莲",
+     "en": "durian"
+    },
+    "examples": [
+     {
+      "text": "ทุเรียนมีกลิ่นแรงมาก",
+      "translations": {
+       "zh": "榴莲的气味很重。",
+       "en": "Durian has a very strong smell."
+      }
+     }
+    ],
+    "usageNote": "很多酒店和公共交通禁止携带榴莲。"
+   }
+  ]
+ },
+ {
+  "headword": "กาแฟ",
+  "phonetic": "kafae",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "kaa-fɛɛ · 中, 中",
+   "classifier": "แก้ว（杯）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครื่องดื่มสีน้ำตาลจากเมล็ดกาแฟ",
+    "translations": {
+     "zh": "咖啡",
+     "en": "coffee"
+    },
+    "examples": [
+     {
+      "text": "ขอกาแฟเย็นหนึ่งแก้ว",
+      "translations": {
+       "zh": "请给我一杯冰咖啡。",
+       "en": "One iced coffee, please."
+      }
+     }
+    ],
+    "usageNote": "泰国的冰咖啡通常很甜，要少糖说 หวานน้อย。"
+   }
+  ]
+ },
+ {
+  "headword": "ชา",
+  "phonetic": "cha",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "chaa · 中",
+   "classifier": "แก้ว（杯）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครื่องดื่มที่ทำจากใบชา",
+    "translations": {
+     "zh": "茶",
+     "en": "tea"
+    },
+    "examples": [
+     {
+      "text": "ชาเย็นหวานมาก",
+      "translations": {
+       "zh": "泰式冰奶茶很甜。",
+       "en": "Thai iced tea is very sweet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นม",
+  "phonetic": "nom",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "nom · 中",
+   "classifier": "แก้ว（杯），กล่อง（盒）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครื่องดื่มสีขาวจากวัว",
+    "translations": {
+     "zh": "牛奶；奶",
+     "en": "milk"
+    },
+    "examples": [
+     {
+      "text": "เด็กดื่มนมทุกเช้า",
+      "translations": {
+       "zh": "孩子每天早上喝牛奶。",
+       "en": "Children drink milk every morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น้ำเปล่า",
+  "phonetic": "nam plao",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "náam-plàao · 高, 低",
+   "classifier": "ขวด（瓶），แก้ว（杯）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้ำธรรมดา ไม่มีรส",
+    "translations": {
+     "zh": "白开水；矿泉水",
+     "en": "plain water, drinking water"
+    },
+    "examples": [
+     {
+      "text": "ขอน้ำเปล่าหนึ่งขวด",
+      "translations": {
+       "zh": "请给我一瓶水。",
+       "en": "A bottle of water, please."
+      }
+     }
+    ],
+    "usageNote": "点“水”时说 น้ำเปล่า，只说 น้ำ 可能被理解为饮料。"
+   }
+  ]
+ },
+ {
+  "headword": "น้ำแข็ง",
+  "phonetic": "nam khaeng",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "náam-khɛ̌ng · 高, 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้ำที่เย็นจนแข็ง",
+    "translations": {
+     "zh": "冰；冰块",
+     "en": "ice"
+    },
+    "examples": [
+     {
+      "text": "ไม่ใส่น้ำแข็งครับ",
+      "translations": {
+       "zh": "不要加冰。",
+       "en": "No ice, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น้ำผลไม้",
+  "phonetic": "nam phonlamai",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "náam-phǒn-la-máai · 高, 升, 高, 高",
+   "classifier": "แก้ว（杯）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้ำที่คั้นจากผลไม้",
+    "translations": {
+     "zh": "果汁",
+     "en": "fruit juice"
+    },
+    "examples": [
+     {
+      "text": "ลูกชอบดื่มน้ำผลไม้",
+      "translations": {
+       "zh": "孩子喜欢喝果汁。",
+       "en": "My child likes drinking juice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เบียร์",
+  "phonetic": "bia",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "bia · 中",
+   "classifier": "ขวด（瓶），แก้ว（杯）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครื่องดื่มมีแอลกอฮอล์",
+    "translations": {
+     "zh": "啤酒",
+     "en": "beer"
+    },
+    "examples": [
+     {
+      "text": "ขอเบียร์เย็น ๆ หนึ่งขวด",
+      "translations": {
+       "zh": "请给我一瓶冰啤酒。",
+       "en": "One cold beer, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น้ำตาล",
+  "phonetic": "namtan",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "náam-taan · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่ใส่ในอาหารให้มีรสหวาน",
+    "translations": {
+     "zh": "糖",
+     "en": "sugar"
+    },
+    "examples": [
+     {
+      "text": "กาแฟไม่ใส่น้ำตาล",
+      "translations": {
+       "zh": "咖啡不加糖。",
+       "en": "Coffee without sugar."
+      }
+     }
+    ],
+    "usageNote": "颜色“棕色”是 สีน้ำตาล。"
+   }
+  ]
+ },
+ {
+  "headword": "เกลือ",
+  "phonetic": "kluea",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "klʉa · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งสีขาว มีรสเค็ม",
+    "translations": {
+     "zh": "盐",
+     "en": "salt"
+    },
+    "examples": [
+     {
+      "text": "ใส่เกลือนิดหน่อย",
+      "translations": {
+       "zh": "放一点盐。",
+       "en": "Add a little salt."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พริก",
+  "phonetic": "phrik",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "phrík · 高",
+   "classifier": "เม็ด（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผักเม็ดเล็ก รสเผ็ด",
+    "translations": {
+     "zh": "辣椒",
+     "en": "chilli"
+    },
+    "examples": [
+     {
+      "text": "ฉันกินพริกไม่ได้",
+      "translations": {
+       "zh": "我不能吃辣椒。",
+       "en": "I can't eat chilli."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขนม",
+  "phonetic": "khanom",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "kha-nǒm · 低, 升",
+   "classifier": "ชิ้น（块）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ของกินเล่น มักมีรสหวาน",
+    "translations": {
+     "zh": "点心；零食",
+     "en": "snack, dessert"
+    },
+    "examples": [
+     {
+      "text": "เด็ก ๆ ชอบกินขนม",
+      "translations": {
+       "zh": "孩子们喜欢吃零食。",
+       "en": "Kids love snacks."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ขนมปัง",
+  "phonetic": "khanompang",
+  "cefr": "A1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "kha-nǒm-pang · 低, 升, 中",
+   "classifier": "แผ่น（片），ก้อน（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อาหารที่ทำจากแป้งอบ",
+    "translations": {
+     "zh": "面包",
+     "en": "bread"
+    },
+    "examples": [
+     {
+      "text": "ฉันกินขนมปังตอนเช้า",
+      "translations": {
+       "zh": "我早上吃面包。",
+       "en": "I eat bread in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาหารเช้า",
+  "phonetic": "ahan chao",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "aa-hǎan-cháao · 中, 升, 高"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อาหารที่กินตอนเช้า",
+    "translations": {
+     "zh": "早餐",
+     "en": "breakfast"
+    },
+    "examples": [
+     {
+      "text": "โรงแรมมีอาหารเช้าฟรี",
+      "translations": {
+       "zh": "酒店提供免费早餐。",
+       "en": "The hotel has free breakfast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จาน",
+  "phonetic": "chan",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "jaan · 中",
+   "classifier": "ใบ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาชนะแบน ๆ ใส่อาหาร",
+    "translations": {
+     "zh": "盘子",
+     "en": "plate"
+    },
+    "examples": [
+     {
+      "text": "ช่วยล้างจานหน่อย",
+      "translations": {
+       "zh": "帮忙洗一下盘子。",
+       "en": "Please wash the dishes."
+      }
+     }
+    ],
+    "usageNote": "จาน 也是量词“盘”：ข้าวผัดสองจาน（两盘炒饭）。"
+   }
+  ]
+ },
+ {
+  "headword": "ชาม",
+  "phonetic": "cham",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "chaam · 中",
+   "classifier": "ใบ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาชนะลึก ใส่ข้าวหรือน้ำซุป",
+    "translations": {
+     "zh": "碗",
+     "en": "bowl"
+    },
+    "examples": [
+     {
+      "text": "ขอชามเล็กหนึ่งใบ",
+      "translations": {
+       "zh": "请给我一个小碗。",
+       "en": "A small bowl, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แก้ว",
+  "phonetic": "kaeo",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "kɛ̂ɛw · 降",
+   "classifier": "ใบ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาชนะใส่น้ำดื่ม",
+    "translations": {
+     "zh": "杯子；玻璃",
+     "en": "glass, cup"
+    },
+    "examples": [
+     {
+      "text": "ขอแก้วอีกใบครับ",
+      "translations": {
+       "zh": "请再给我一个杯子。",
+       "en": "Another glass, please."
+      }
+     }
+    ],
+    "usageNote": "แก้ว 也是量词“杯”：กาแฟสองแก้ว（两杯咖啡）。"
+   }
+  ]
+ },
+ {
+  "headword": "ขวด",
+  "phonetic": "khuat",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "khùat · 低",
+   "classifier": "ใบ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาชนะใส่น้ำ ปากแคบ",
+    "translations": {
+     "zh": "瓶子",
+     "en": "bottle"
+    },
+    "examples": [
+     {
+      "text": "ขวดน้ำอยู่ในตู้เย็น",
+      "translations": {
+       "zh": "水瓶在冰箱里。",
+       "en": "The water bottle is in the fridge."
+      }
+     }
+    ],
+    "usageNote": "ขวด 也是量词“瓶”：เบียร์สองขวด（两瓶啤酒）。"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1478 @@
+[
+ {
+  "headword": "ซอย",
+  "phonetic": "soi",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "sɔɔy · 中",
+   "classifier": "ซอย（条）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ถนนเล็ก ๆ ที่แยกจากถนนใหญ่",
+    "translations": {
+     "zh": "巷子；小巷",
+     "en": "lane, side street (soi)"
+    },
+    "examples": [
+     {
+      "text": "บ้านฉันอยู่ในซอยนี้",
+      "translations": {
+       "zh": "我家在这条巷子里。",
+       "en": "My house is in this lane."
+      }
+     }
+    ],
+    "usageNote": "曼谷地址常写成 ซอย + 数字，如 สุขุมวิท ซอย 11。"
+   }
+  ]
+ },
+ {
+  "headword": "ทาง",
+  "phonetic": "thang",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "thaang · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เส้นทางที่ใช้ไปที่ต่าง ๆ",
+    "translations": {
+     "zh": "路；方向",
+     "en": "way, route"
+    },
+    "examples": [
+     {
+      "text": "ไปทางนี้ใกล้กว่า",
+      "translations": {
+       "zh": "走这条路更近。",
+       "en": "This way is shorter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แผนที่",
+  "phonetic": "phaenthi",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "phɛ̌ɛn-thîi · 升, 降",
+   "classifier": "แผ่น（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาพที่แสดงถนนและสถานที่",
+    "translations": {
+     "zh": "地图",
+     "en": "map"
+    },
+    "examples": [
+     {
+      "text": "ดูแผนที่ในมือถือ",
+      "translations": {
+       "zh": "在手机上看地图。",
+       "en": "Look at the map on your phone."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โรงเรียน",
+  "phonetic": "rongrian",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "roong-rian · 中, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ที่เด็กไปเรียนหนังสือ",
+    "translations": {
+     "zh": "学校",
+     "en": "school"
+    },
+    "examples": [
+     {
+      "text": "โรงเรียนของฉันใหญ่มาก",
+      "translations": {
+       "zh": "我的学校很大。",
+       "en": "My school is very big."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มหาวิทยาลัย",
+  "phonetic": "mahawitthayalai",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "ma-hǎa-wít-tha-yaa-lai · 高, 升, 高, 高, 中, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานศึกษาระดับสูง",
+    "translations": {
+     "zh": "大学",
+     "en": "university"
+    },
+    "examples": [
+     {
+      "text": "พี่ชายเรียนที่มหาวิทยาลัย",
+      "translations": {
+       "zh": "哥哥在大学读书。",
+       "en": "My older brother studies at university."
+      }
+     }
+    ],
+    "usageNote": "口语常简称 มหา'ลัย。"
+   }
+  ]
+ },
+ {
+  "headword": "ร้าน",
+  "phonetic": "ran",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "ráan · 高",
+   "classifier": "ร้าน（家，本身也是量词）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ขายของหรืออาหาร",
+    "translations": {
+     "zh": "店；商店",
+     "en": "shop, store"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้ปิดวันจันทร์",
+      "translations": {
+       "zh": "这家店周一不营业。",
+       "en": "This shop is closed on Mondays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ร้านสะดวกซื้อ",
+  "phonetic": "ran saduak sue",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "ráan-sa-dùak-sʉ́ʉ · 高, 低, 低, 高",
+   "classifier": "ร้าน（家）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ร้านเล็ก ๆ ขายของใช้ เปิดตลอดวัน",
+    "translations": {
+     "zh": "便利店",
+     "en": "convenience store"
+    },
+    "examples": [
+     {
+      "text": "ร้านสะดวกซื้อเปิดยี่สิบสี่ชั่วโมง",
+      "translations": {
+       "zh": "便利店二十四小时营业。",
+       "en": "The convenience store is open 24 hours."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตลาด",
+  "phonetic": "talat",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "ta-làat · 低, 低",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ที่มีคนมาขายและซื้อของ",
+    "translations": {
+     "zh": "市场；菜市场",
+     "en": "market"
+    },
+    "examples": [
+     {
+      "text": "ไปซื้อผักที่ตลาด",
+      "translations": {
+       "zh": "去市场买菜。",
+       "en": "Go to the market to buy vegetables."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตลาดนัด",
+  "phonetic": "talat nat",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "ta-làat-nát · 低, 低, 高",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ตลาดที่มีเฉพาะบางวัน",
+    "translations": {
+     "zh": "集市；定期市集",
+     "en": "street market, weekend market"
+    },
+    "examples": [
+     {
+      "text": "ตลาดนัดมีของถูกเยอะ",
+      "translations": {
+       "zh": "集市上有很多便宜货。",
+       "en": "The street market has lots of cheap things."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตลาดน้ำ",
+  "phonetic": "talat nam",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "toneMarks": "ta-làat-náam · 低, 低, 高",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ตลาดที่ขายของบนเรือ",
+    "translations": {
+     "zh": "水上市场",
+     "en": "floating market"
+    },
+    "examples": [
+     {
+      "text": "เราไปเที่ยวตลาดน้ำกัน",
+      "translations": {
+       "zh": "我们去水上市场玩吧。",
+       "en": "Let's visit the floating market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ห้าง",
+  "phonetic": "hang",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "hâang · 降",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อาคารใหญ่ที่มีร้านค้าหลายร้าน",
+    "translations": {
+     "zh": "商场；百货公司",
+     "en": "shopping mall, department store"
+    },
+    "examples": [
+     {
+      "text": "ห้างนี้ใหญ่มาก",
+      "translations": {
+       "zh": "这个商场很大。",
+       "en": "This mall is very big."
+      }
+     }
+    ],
+    "usageNote": "全称是 ห้างสรรพสินค้า。“逛商场”说 เดินห้าง。"
+   }
+  ]
+ },
+ {
+  "headword": "ธนาคาร",
+  "phonetic": "thanakhan",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "tha-naa-khaan · 高, 中, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ฝากและถอนเงิน",
+    "translations": {
+     "zh": "银行",
+     "en": "bank"
+    },
+    "examples": [
+     {
+      "text": "ธนาคารปิดกี่โมง",
+      "translations": {
+       "zh": "银行几点关门？",
+       "en": "What time does the bank close?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ไปรษณีย์",
+  "phonetic": "praisani",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "prai-sa-nii · 中, 低, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ส่งจดหมายและพัสดุ",
+    "translations": {
+     "zh": "邮局",
+     "en": "post office"
+    },
+    "examples": [
+     {
+      "text": "ไปรษณีย์อยู่ข้างธนาคาร",
+      "translations": {
+       "zh": "邮局在银行旁边。",
+       "en": "The post office is next to the bank."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "โรงแรม",
+  "phonetic": "rongraem",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "roong-rɛɛm · 中, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ให้คนมาพักค้างคืน",
+    "translations": {
+     "zh": "酒店；旅馆",
+     "en": "hotel"
+    },
+    "examples": [
+     {
+      "text": "โรงแรมนี้อยู่ใกล้ทะเล",
+      "translations": {
+       "zh": "这家酒店离海边很近。",
+       "en": "This hotel is near the sea."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ห้องพัก",
+  "phonetic": "hong phak",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "hɔ̂ng-phák · 降, 高",
+   "classifier": "ห้อง（间）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ห้องในโรงแรมที่แขกพัก",
+    "translations": {
+     "zh": "客房",
+     "en": "(hotel) room"
+    },
+    "examples": [
+     {
+      "text": "ห้องพักคืนละพันบาท",
+      "translations": {
+       "zh": "房间一晚一千泰铢。",
+       "en": "The room is a thousand baht a night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สนามบิน",
+  "phonetic": "sanambin",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sa-nǎam-bin · 低, 升, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ที่เครื่องบินขึ้นลง",
+    "translations": {
+     "zh": "机场",
+     "en": "airport"
+    },
+    "examples": [
+     {
+      "text": "ไปสนามบินใช้เวลาหนึ่งชั่วโมง",
+      "translations": {
+       "zh": "去机场要一个小时。",
+       "en": "It takes an hour to get to the airport."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สถานี",
+  "phonetic": "sathani",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "sa-thǎa-nii · 低, 升, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ที่รถไฟหรือรถหยุดรับคน",
+    "translations": {
+     "zh": "车站",
+     "en": "station"
+    },
+    "examples": [
+     {
+      "text": "สถานีรถไฟอยู่ไกลไหม",
+      "translations": {
+       "zh": "火车站远吗？",
+       "en": "Is the train station far?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ป้ายรถเมล์",
+  "phonetic": "pai rot me",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "pâai-rót-mee · 降, 高, 中",
+   "classifier": "ป้าย（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ที่รถเมล์จอดรับคน",
+    "translations": {
+     "zh": "公交车站",
+     "en": "bus stop"
+    },
+    "examples": [
+     {
+      "text": "ป้ายรถเมล์อยู่หน้าโรงเรียน",
+      "translations": {
+       "zh": "公交车站在学校前面。",
+       "en": "The bus stop is in front of the school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สวน",
+  "phonetic": "suan",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "sǔan · 升",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ที่มีต้นไม้และดอกไม้",
+    "translations": {
+     "zh": "花园；公园；果园",
+     "en": "garden, park"
+    },
+    "examples": [
+     {
+      "text": "เราไปเดินเล่นในสวน",
+      "translations": {
+       "zh": "我们去公园散步。",
+       "en": "We go for a walk in the park."
+      }
+     }
+    ],
+    "usageNote": "公园也说 สวนสาธารณะ，动物园是 สวนสัตว์。"
+   }
+  ]
+ },
+ {
+  "headword": "โรงหนัง",
+  "phonetic": "rong nang",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "roong-nǎng · 中, 升",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ฉายภาพยนตร์",
+    "translations": {
+     "zh": "电影院",
+     "en": "cinema"
+    },
+    "examples": [
+     {
+      "text": "โรงหนังอยู่ชั้นห้า",
+      "translations": {
+       "zh": "电影院在五楼。",
+       "en": "The cinema is on the fifth floor."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "วัด",
+  "phonetic": "wat",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "wát · 高",
+   "classifier": "วัด（座），แห่ง（处）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สถานที่ทางศาสนาพุทธ มีพระอยู่",
+    "translations": {
+     "zh": "寺庙",
+     "en": "temple"
+    },
+    "examples": [
+     {
+      "text": "ใส่กางเกงขาสั้นเข้าวัดไม่ได้",
+      "translations": {
+       "zh": "穿短裤不能进寺庙。",
+       "en": "You can't enter a temple in shorts."
+      }
+     }
+    ],
+    "usageNote": "参观寺庙要穿遮住肩膀和膝盖的衣服，进殿前脱鞋。"
+   }
+  ]
+ },
+ {
+  "headword": "พระ",
+  "phonetic": "phra",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "phrá · 高",
+   "classifier": "รูป（位）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผู้ชายที่บวชในศาสนาพุทธ",
+    "translations": {
+     "zh": "和尚；僧人",
+     "en": "Buddhist monk"
+    },
+    "examples": [
+     {
+      "text": "ผู้หญิงห้ามจับตัวพระ",
+      "translations": {
+       "zh": "女性不能触碰僧人。",
+       "en": "Women must not touch monks."
+      }
+     }
+    ],
+    "usageNote": "พระ 也用在佛、国王等神圣事物前，如 พระพุทธรูป（佛像）。"
+   }
+  ]
+ },
+ {
+  "headword": "ชายหาด",
+  "phonetic": "chai hat",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "chaai-hàat · 中, 低",
+   "classifier": "แห่ง（处）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ที่เป็นทรายริมทะเล",
+    "translations": {
+     "zh": "海滩",
+     "en": "beach"
+    },
+    "examples": [
+     {
+      "text": "ชายหาดที่ภูเก็ตสวยมาก",
+      "translations": {
+       "zh": "普吉的海滩很美。",
+       "en": "The beaches in Phuket are beautiful."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "รถ",
+  "phonetic": "rot",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "rót · 高",
+   "classifier": "คัน（辆）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ยานพาหนะที่มีล้อ วิ่งบนถนน",
+    "translations": {
+     "zh": "车；汽车",
+     "en": "car, vehicle"
+    },
+    "examples": [
+     {
+      "text": "พ่อขับรถไปทำงาน",
+      "translations": {
+       "zh": "爸爸开车去上班。",
+       "en": "Dad drives to work."
+      }
+     }
+    ],
+    "usageNote": "รถติด 是“堵车”。"
+   }
+  ]
+ },
+ {
+  "headword": "รถเมล์",
+  "phonetic": "rot me",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "rót-mee · 高, 中",
+   "classifier": "คัน（辆），สาย（路）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "รถใหญ่ที่รับส่งคนตามป้าย",
+    "translations": {
+     "zh": "公交车",
+     "en": "bus"
+    },
+    "examples": [
+     {
+      "text": "รถเมล์สายนี้ไปสนามหลวงไหม",
+      "translations": {
+       "zh": "这路公交车去王家田广场吗？",
+       "en": "Does this bus go to Sanam Luang?"
+      }
+     }
+    ],
+    "usageNote": "公交线路用量词 สาย：รถเมล์สาย 8（8路公交）。"
+   }
+  ]
+ },
+ {
+  "headword": "แท็กซี่",
+  "phonetic": "thaeksi",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "thɛ́k-sîi · 高, 降",
+   "classifier": "คัน（辆）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "รถรับจ้างที่คิดเงินตามระยะทาง",
+    "translations": {
+     "zh": "出租车",
+     "en": "taxi"
+    },
+    "examples": [
+     {
+      "text": "เรียกแท็กซี่ไปโรงแรม",
+      "translations": {
+       "zh": "叫出租车去酒店。",
+       "en": "Call a taxi to the hotel."
+      }
+     }
+    ],
+    "usageNote": "上车可以说 เปิดมิเตอร์ด้วยครับ（请打表）。"
+   }
+  ]
+ },
+ {
+  "headword": "รถไฟ",
+  "phonetic": "rot fai",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "rót-fai · 高, 中",
+   "classifier": "ขบวน（列）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "รถที่วิ่งบนราง",
+    "translations": {
+     "zh": "火车",
+     "en": "train"
+    },
+    "examples": [
+     {
+      "text": "นั่งรถไฟไปเชียงใหม่",
+      "translations": {
+       "zh": "坐火车去清迈。",
+       "en": "Take the train to Chiang Mai."
+      }
+     }
+    ],
+    "usageNote": "坐交通工具用动词 นั่ง（坐）。"
+   }
+  ]
+ },
+ {
+  "headword": "รถไฟฟ้า",
+  "phonetic": "rot fai fa",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "rót-fai-fáa · 高, 中, 高",
+   "classifier": "ขบวน（列）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "รถไฟในเมืองที่ใช้ไฟฟ้า",
+    "translations": {
+     "zh": "轻轨；城铁",
+     "en": "skytrain, metro"
+    },
+    "examples": [
+     {
+      "text": "รถไฟฟ้าเร็วกว่ารถเมล์",
+      "translations": {
+       "zh": "轻轨比公交车快。",
+       "en": "The skytrain is faster than the bus."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตุ๊กตุ๊ก",
+  "phonetic": "tuktuk",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "toneMarks": "túk-túk · 高, 高",
+   "classifier": "คัน（辆）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "รถสามล้อเครื่องของไทย",
+    "translations": {
+     "zh": "嘟嘟车（三轮出租车）",
+     "en": "tuk-tuk"
+    },
+    "examples": [
+     {
+      "text": "นั่งตุ๊กตุ๊กไปวัด",
+      "translations": {
+       "zh": "坐嘟嘟车去寺庙。",
+       "en": "Take a tuk-tuk to the temple."
+      }
+     }
+    ],
+    "usageNote": "嘟嘟车不打表，上车前先谈好价钱。"
+   }
+  ]
+ },
+ {
+  "headword": "มอเตอร์ไซค์",
+  "phonetic": "motoesai",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "mɔɔ-tə̂ə-sai · 中, 降, 中",
+   "classifier": "คัน（辆）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "รถสองล้อที่มีเครื่องยนต์",
+    "translations": {
+     "zh": "摩托车",
+     "en": "motorbike"
+    },
+    "examples": [
+     {
+      "text": "นั่งมอเตอร์ไซค์ไปเร็วกว่า",
+      "translations": {
+       "zh": "坐摩托车去更快。",
+       "en": "It's faster to go by motorbike."
+      }
+     }
+    ],
+    "usageNote": "摩托出租车叫 วินมอเตอร์ไซค์，司机穿彩色背心。"
+   }
+  ]
+ },
+ {
+  "headword": "จักรยาน",
+  "phonetic": "chakkrayan",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "toneMarks": "jàk-kra-yaan · 低, 低, 中",
+   "classifier": "คัน（辆）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "รถสองล้อที่ใช้เท้าปั่น",
+    "translations": {
+     "zh": "自行车",
+     "en": "bicycle"
+    },
+    "examples": [
+     {
+      "text": "ฉันขี่จักรยานไปโรงเรียน",
+      "translations": {
+       "zh": "我骑自行车去学校。",
+       "en": "I ride my bike to school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เรือ",
+  "phonetic": "ruea",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "rʉa · 中",
+   "classifier": "ลำ（艘）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พาหนะที่ใช้ในน้ำ",
+    "translations": {
+     "zh": "船",
+     "en": "boat"
+    },
+    "examples": [
+     {
+      "text": "นั่งเรือข้ามแม่น้ำ",
+      "translations": {
+       "zh": "坐船过河。",
+       "en": "Take a boat across the river."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เครื่องบิน",
+  "phonetic": "khrueang bin",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "khrʉ̂ang-bin · 降, 中",
+   "classifier": "ลำ（架）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พาหนะที่บินบนฟ้า",
+    "translations": {
+     "zh": "飞机",
+     "en": "aeroplane"
+    },
+    "examples": [
+     {
+      "text": "ฉันนั่งเครื่องบินไปภูเก็ต",
+      "translations": {
+       "zh": "我坐飞机去普吉。",
+       "en": "I'm flying to Phuket."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตั๋ว",
+  "phonetic": "tua",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "tǔa · 升",
+   "classifier": "ใบ（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "บัตรที่ซื้อเพื่อขึ้นรถหรือเข้าชม",
+    "translations": {
+     "zh": "票",
+     "en": "ticket"
+    },
+    "examples": [
+     {
+      "text": "ซื้อตั๋วรถไฟที่สถานี",
+      "translations": {
+       "zh": "在车站买火车票。",
+       "en": "Buy train tickets at the station."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปากกา",
+  "phonetic": "pakka",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "pàak-kaa · 低, 中",
+   "classifier": "ด้าม（支）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครื่องเขียนที่ใช้หมึก",
+    "translations": {
+     "zh": "笔；钢笔",
+     "en": "pen"
+    },
+    "examples": [
+     {
+      "text": "ขอยืมปากกาหน่อย",
+      "translations": {
+       "zh": "借一下笔。",
+       "en": "Can I borrow a pen?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ดินสอ",
+  "phonetic": "dinso",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "din-sɔ̌ɔ · 中, 升",
+   "classifier": "แท่ง（支）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เครื่องเขียนที่ลบได้",
+    "translations": {
+     "zh": "铅笔",
+     "en": "pencil"
+    },
+    "examples": [
+     {
+      "text": "เด็กเขียนด้วยดินสอ",
+      "translations": {
+       "zh": "孩子用铅笔写字。",
+       "en": "The child writes with a pencil."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สมุด",
+  "phonetic": "samut",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "sa-mùt · 低, 低",
+   "classifier": "เล่ม（本）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กระดาษหลายแผ่นเย็บเป็นเล่ม ใช้เขียน",
+    "translations": {
+     "zh": "本子；笔记本",
+     "en": "notebook, exercise book"
+    },
+    "examples": [
+     {
+      "text": "เขียนคำศัพท์ลงในสมุด",
+      "translations": {
+       "zh": "把单词写在本子上。",
+       "en": "Write the words in your notebook."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กระดาษ",
+  "phonetic": "kradat",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "kra-dàat · 低, 低",
+   "classifier": "แผ่น（张）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แผ่นบาง ๆ ใช้เขียนหรือพิมพ์",
+    "translations": {
+     "zh": "纸",
+     "en": "paper"
+    },
+    "examples": [
+     {
+      "text": "ขอกระดาษหนึ่งแผ่น",
+      "translations": {
+       "zh": "请给我一张纸。",
+       "en": "A sheet of paper, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "การบ้าน",
+  "phonetic": "kanban",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "kaan-bâan · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "งานที่ครูให้นักเรียนทำที่บ้าน",
+    "translations": {
+     "zh": "家庭作业",
+     "en": "homework"
+    },
+    "examples": [
+     {
+      "text": "ทำการบ้านเสร็จหรือยัง",
+      "translations": {
+       "zh": "作业写完了吗？",
+       "en": "Have you finished your homework?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ภาษา",
+  "phonetic": "phasa",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "phaa-sǎa · 中, 升",
+   "classifier": "ภาษา（种）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คำพูดที่คนใช้สื่อสารกัน",
+    "translations": {
+     "zh": "语言",
+     "en": "language"
+    },
+    "examples": [
+     {
+      "text": "ภาษาไทยมีห้าเสียง",
+      "translations": {
+       "zh": "泰语有五个声调。",
+       "en": "Thai has five tones."
+      }
+     }
+    ],
+    "usageNote": "语言名＝ภาษา + 国名：ภาษาจีน 中文，ภาษาอังกฤษ 英语。"
+   }
+  ]
+ },
+ {
+  "headword": "คำ",
+  "phonetic": "kham",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "kham · 中",
+   "classifier": "คำ（个）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เสียงพูดหรือตัวหนังสือที่มีความหมาย",
+    "translations": {
+     "zh": "词；字",
+     "en": "word"
+    },
+    "examples": [
+     {
+      "text": "คำนี้อ่านว่าอะไร",
+      "translations": {
+       "zh": "这个词怎么读？",
+       "en": "How do you read this word?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "งาน",
+  "phonetic": "ngan",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "toneMarks": "ngaan · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งที่ต้องทำ หรืออาชีพที่ได้เงิน",
+    "translations": {
+     "zh": "工作；活儿",
+     "en": "work, job"
+    },
+    "examples": [
+     {
+      "text": "วันนี้งานเยอะมาก",
+      "translations": {
+       "zh": "今天工作很多。",
+       "en": "There's a lot of work today."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "การชุมนุมเพื่อฉลองหรือทำกิจกรรม",
+    "translations": {
+     "zh": "活动；聚会；宴会",
+     "en": "event, party"
+    },
+    "examples": [
+     {
+      "text": "คืนนี้มีงานวันเกิดเพื่อน",
+      "translations": {
+       "zh": "今晚有朋友的生日聚会。",
+       "en": "There's a friend's birthday party tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "อาชีพ",
+  "phonetic": "achip",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "aa-chîip · 中, 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "งานที่ทำเพื่อหาเงิน",
+    "translations": {
+     "zh": "职业",
+     "en": "occupation, profession"
+    },
+    "examples": [
+     {
+      "text": "คุณทำอาชีพอะไร",
+      "translations": {
+       "zh": "你做什么工作？",
+       "en": "What do you do for a living?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "บริษัท",
+  "phonetic": "borisat",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "bɔɔ-ri-sàt · 中, 高, 低",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "องค์กรที่ทำธุรกิจ",
+    "translations": {
+     "zh": "公司",
+     "en": "company"
+    },
+    "examples": [
+     {
+      "text": "พี่สาวทำงานที่บริษัทญี่ปุ่น",
+      "translations": {
+       "zh": "姐姐在日本公司工作。",
+       "en": "My older sister works at a Japanese company."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "สำนักงาน",
+  "phonetic": "samnakngan",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "sǎm-nák-ngaan · 升, 高, 中",
+   "classifier": "แห่ง（处，所）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ที่ทำงานของบริษัทหรือหน่วยงาน",
+    "translations": {
+     "zh": "办公室",
+     "en": "office"
+    },
+    "examples": [
+     {
+      "text": "สำนักงานอยู่ชั้นสาม",
+      "translations": {
+       "zh": "办公室在三楼。",
+       "en": "The office is on the third floor."
+      }
+     }
+    ],
+    "usageNote": "口语也常说 ออฟฟิศ。"
+   }
+  ]
+ },
+ {
+  "headword": "เงินเดือน",
+  "phonetic": "ngoen duean",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "ngən-dʉan · 中, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เงินที่ได้จากการทำงานทุกเดือน",
+    "translations": {
+     "zh": "工资；月薪",
+     "en": "salary"
+    },
+    "examples": [
+     {
+      "text": "เงินเดือนออกทุกสิ้นเดือน",
+      "translations": {
+       "zh": "每个月底发工资。",
+       "en": "Salary is paid at the end of every month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หนัง",
+  "phonetic": "nang",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "nǎng · 升",
+   "classifier": "เรื่อง（部）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ภาพยนตร์",
+    "translations": {
+     "zh": "电影",
+     "en": "film, movie"
+    },
+    "examples": [
+     {
+      "text": "ไปดูหนังกันไหม",
+      "translations": {
+       "zh": "一起去看电影吗？",
+       "en": "Shall we go and see a film?"
+      }
+     }
+    ],
+    "usageNote": "หนัง 本义是“皮”，如 หนังวัว（牛皮）。"
+   }
+  ]
+ },
+ {
+  "headword": "เพลง",
+  "phonetic": "phleng",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "toneMarks": "phleeng · 中",
+   "classifier": "เพลง（首）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เสียงดนตรีที่มีคำร้อง",
+    "translations": {
+     "zh": "歌；歌曲",
+     "en": "song"
+    },
+    "examples": [
+     {
+      "text": "ฉันชอบฟังเพลงไทย",
+      "translations": {
+       "zh": "我喜欢听泰国歌。",
+       "en": "I like listening to Thai songs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "กีฬา",
+  "phonetic": "kila",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "kii-laa · 中, 中",
+   "classifier": "ชนิด（种）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "การเล่นหรือแข่งขันเพื่อออกกำลังกาย",
+    "translations": {
+     "zh": "体育；运动",
+     "en": "sport"
+    },
+    "examples": [
+     {
+      "text": "คุณชอบกีฬาอะไร",
+      "translations": {
+       "zh": "你喜欢什么运动？",
+       "en": "What sports do you like?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฟุตบอล",
+  "phonetic": "futbon",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "fút-bɔɔn · 高, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "กีฬาเตะลูกบอลเข้าประตู",
+    "translations": {
+     "zh": "足球",
+     "en": "football, soccer"
+    },
+    "examples": [
+     {
+      "text": "เด็กผู้ชายเล่นฟุตบอลที่สนาม",
+      "translations": {
+       "zh": "男孩们在球场踢足球。",
+       "en": "The boys are playing football on the field."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

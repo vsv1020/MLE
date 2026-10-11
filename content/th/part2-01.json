@@ -1,0 +1,1500 @@
+[
+ {
+  "headword": "แม่",
+  "phonetic": "mae",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "toneMarks": "mɛ̂ɛ · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผู้หญิงที่ให้กำเนิดลูก",
+    "translations": {
+     "zh": "妈妈；母亲",
+     "en": "mother"
+    },
+    "examples": [
+     {
+      "text": "แม่ทำอาหารอร่อยมาก",
+      "translations": {
+       "zh": "妈妈做的饭很好吃。",
+       "en": "Mom cooks really tasty food."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พ่อ",
+  "phonetic": "pho",
+  "cefr": "A1",
+  "frequencyRank": 170,
+  "grammarNotes": {
+   "toneMarks": "phɔ̂ɔ · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผู้ชายที่เป็นผู้ให้กำเนิดลูก",
+    "translations": {
+     "zh": "爸爸；父亲",
+     "en": "father"
+    },
+    "examples": [
+     {
+      "text": "พ่อไปทำงานทุกวัน",
+      "translations": {
+       "zh": "爸爸每天去上班。",
+       "en": "Dad goes to work every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พี่",
+  "phonetic": "phi",
+  "cefr": "A1",
+  "frequencyRank": 200,
+  "grammarNotes": {
+   "toneMarks": "phîi · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนในครอบครัวที่เกิดก่อนเรา",
+    "translations": {
+     "zh": "哥哥；姐姐",
+     "en": "older sibling"
+    },
+    "examples": [
+     {
+      "text": "พี่ของฉันเรียนที่กรุงเทพ",
+      "translations": {
+       "zh": "我哥哥（姐姐）在曼谷上学。",
+       "en": "My older sibling studies in Bangkok."
+      }
+     }
+    ],
+    "usageNote": "泰语兄弟姐妹按长幼分，不按性别分：พี่ 是哥哥或姐姐。也常用来称呼比自己年长的人，如店员、同事。"
+   }
+  ]
+ },
+ {
+  "headword": "น้อง",
+  "phonetic": "nong",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "toneMarks": "nɔ́ɔng · 高",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนในครอบครัวที่เกิดหลังเรา",
+    "translations": {
+     "zh": "弟弟；妹妹",
+     "en": "younger sibling"
+    },
+    "examples": [
+     {
+      "text": "น้องของฉันอายุสิบขวบ",
+      "translations": {
+       "zh": "我弟弟（妹妹）十岁。",
+       "en": "My younger sibling is ten years old."
+      }
+     }
+    ],
+    "usageNote": "น้อง 是弟弟或妹妹；也可用来客气地称呼比自己年轻的人，如服务员。"
+   }
+  ]
+ },
+ {
+  "headword": "พี่ชาย",
+  "phonetic": "phi chai",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "phîi-chaai · 降, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พี่ที่เป็นผู้ชาย",
+    "translations": {
+     "zh": "哥哥",
+     "en": "older brother"
+    },
+    "examples": [
+     {
+      "text": "พี่ชายของฉันสูงมาก",
+      "translations": {
+       "zh": "我哥哥很高。",
+       "en": "My older brother is very tall."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พี่สาว",
+  "phonetic": "phi sao",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "phîi-sǎaw · 降, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พี่ที่เป็นผู้หญิง",
+    "translations": {
+     "zh": "姐姐",
+     "en": "older sister"
+    },
+    "examples": [
+     {
+      "text": "พี่สาวทำงานที่ธนาคาร",
+      "translations": {
+       "zh": "姐姐在银行工作。",
+       "en": "My older sister works at a bank."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น้องชาย",
+  "phonetic": "nong chai",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "nɔ́ɔng-chaai · 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้องที่เป็นผู้ชาย",
+    "translations": {
+     "zh": "弟弟",
+     "en": "younger brother"
+    },
+    "examples": [
+     {
+      "text": "น้องชายชอบเล่นฟุตบอล",
+      "translations": {
+       "zh": "弟弟喜欢踢足球。",
+       "en": "My younger brother likes playing football."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "น้องสาว",
+  "phonetic": "nong sao",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "toneMarks": "nɔ́ɔng-sǎaw · 高, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "น้องที่เป็นผู้หญิง",
+    "translations": {
+     "zh": "妹妹",
+     "en": "younger sister"
+    },
+    "examples": [
+     {
+      "text": "น้องสาวของฉันน่ารักมาก",
+      "translations": {
+       "zh": "我妹妹很可爱。",
+       "en": "My younger sister is very cute."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลูก",
+  "phonetic": "luk",
+  "cefr": "A1",
+  "frequencyRank": 250,
+  "grammarNotes": {
+   "toneMarks": "lûuk · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เด็กที่พ่อแม่ให้กำเนิด",
+    "translations": {
+     "zh": "孩子（子女）",
+     "en": "child (son or daughter)"
+    },
+    "examples": [
+     {
+      "text": "เขามีลูกสองคน",
+      "translations": {
+       "zh": "他有两个孩子。",
+       "en": "He has two children."
+      }
+     }
+    ],
+    "usageNote": "ลูก 指“某人的子女”；泛指小孩用 เด็ก。ลูก 也是水果、球等圆形物的量词。"
+   }
+  ]
+ },
+ {
+  "headword": "ลูกชาย",
+  "phonetic": "luk chai",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "lûuk-chaai · 降, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ลูกที่เป็นผู้ชาย",
+    "translations": {
+     "zh": "儿子",
+     "en": "son"
+    },
+    "examples": [
+     {
+      "text": "ลูกชายของเขาเป็นหมอ",
+      "translations": {
+       "zh": "他的儿子是医生。",
+       "en": "His son is a doctor."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ลูกสาว",
+  "phonetic": "luk sao",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "lûuk-sǎaw · 降, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ลูกที่เป็นผู้หญิง",
+    "translations": {
+     "zh": "女儿",
+     "en": "daughter"
+    },
+    "examples": [
+     {
+      "text": "ลูกสาวชอบวาดรูป",
+      "translations": {
+       "zh": "女儿喜欢画画。",
+       "en": "My daughter likes drawing."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ครอบครัว",
+  "phonetic": "khropkhrua",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "khrɔ̂ɔp-khrua · 降, 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พ่อ แม่ ลูก และญาติที่อยู่ด้วยกัน",
+    "translations": {
+     "zh": "家庭；家人",
+     "en": "family"
+    },
+    "examples": [
+     {
+      "text": "ครอบครัวของฉันมีห้าคน",
+      "translations": {
+       "zh": "我家有五口人。",
+       "en": "There are five people in my family."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปู่",
+  "phonetic": "pu",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "pùu · 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พ่อของพ่อ",
+    "translations": {
+     "zh": "爷爷（父亲的父亲）",
+     "en": "grandfather (father's father)"
+    },
+    "examples": [
+     {
+      "text": "ปู่อายุแปดสิบปีแล้ว",
+      "translations": {
+       "zh": "爷爷已经八十岁了。",
+       "en": "Grandpa is already eighty."
+      }
+     }
+    ],
+    "usageNote": "泰语区分父系和母系：ปู่、ย่า 是父亲的父母；ตา、ยาย 是母亲的父母。"
+   }
+  ]
+ },
+ {
+  "headword": "ย่า",
+  "phonetic": "ya",
+  "cefr": "A1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "yâa · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แม่ของพ่อ",
+    "translations": {
+     "zh": "奶奶（父亲的母亲）",
+     "en": "grandmother (father's mother)"
+    },
+    "examples": [
+     {
+      "text": "ย่าชอบทำขนมไทย",
+      "translations": {
+       "zh": "奶奶喜欢做泰式点心。",
+       "en": "Grandma likes making Thai desserts."
+      }
+     }
+    ],
+    "usageNote": "注意和 หญ้า（草，降调）同音不同字。"
+   }
+  ]
+ },
+ {
+  "headword": "ยาย",
+  "phonetic": "yai",
+  "cefr": "A1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "toneMarks": "yaai · 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "แม่ของแม่",
+    "translations": {
+     "zh": "外婆（母亲的母亲）",
+     "en": "grandmother (mother's mother)"
+    },
+    "examples": [
+     {
+      "text": "ยายอยู่ที่เชียงใหม่",
+      "translations": {
+       "zh": "外婆住在清迈。",
+       "en": "Grandma lives in Chiang Mai."
+      }
+     }
+    ],
+    "usageNote": "也可用来称呼年老的女性，比较亲切。"
+   }
+  ]
+ },
+ {
+  "headword": "สามี",
+  "phonetic": "sami",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "sǎa-mii · 升, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผู้ชายที่แต่งงานกับผู้หญิง",
+    "translations": {
+     "zh": "丈夫",
+     "en": "husband"
+    },
+    "examples": [
+     {
+      "text": "สามีของเธอเป็นคนจีน",
+      "translations": {
+       "zh": "她的丈夫是中国人。",
+       "en": "Her husband is Chinese."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ภรรยา",
+  "phonetic": "phanraya",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "phan-ra-yaa · 中, 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผู้หญิงที่แต่งงานกับผู้ชาย",
+    "translations": {
+     "zh": "妻子",
+     "en": "wife"
+    },
+    "examples": [
+     {
+      "text": "ภรรยาของเขาเป็นครู",
+      "translations": {
+       "zh": "他的妻子是老师。",
+       "en": "His wife is a teacher."
+      }
+     }
+    ],
+    "usageNote": "拼写特殊：รร 读作 an，整个词读 พัน-ระ-ยา。口语也常说 เมีย，但不够礼貌。"
+   }
+  ]
+ },
+ {
+  "headword": "ลุง",
+  "phonetic": "lung",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "lung · 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พี่ชายของพ่อหรือแม่",
+    "translations": {
+     "zh": "伯伯；舅舅（父母的哥哥）",
+     "en": "uncle (parent's older brother)"
+    },
+    "examples": [
+     {
+      "text": "ลุงของฉันขายผลไม้",
+      "translations": {
+       "zh": "我伯伯卖水果。",
+       "en": "My uncle sells fruit."
+      }
+     }
+    ],
+    "usageNote": "也用来礼貌地称呼年长的男性，如出租车司机：ลุงครับ。"
+   }
+  ]
+ },
+ {
+  "headword": "ป้า",
+  "phonetic": "pa",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "toneMarks": "pâa · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "พี่สาวของพ่อหรือแม่",
+    "translations": {
+     "zh": "姑妈；姨妈（父母的姐姐）",
+     "en": "aunt (parent's older sister)"
+    },
+    "examples": [
+     {
+      "text": "ป้าขายข้าวผัดอร่อยมาก",
+      "translations": {
+       "zh": "阿姨卖的炒饭很好吃。",
+       "en": "Auntie's fried rice is delicious."
+      }
+     }
+    ],
+    "usageNote": "也用来称呼年长的女性，如市场里的摊主。"
+   }
+  ]
+ },
+ {
+  "headword": "แฟน",
+  "phonetic": "faen",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "fɛɛn · 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนรัก",
+    "translations": {
+     "zh": "男朋友；女朋友；恋人",
+     "en": "boyfriend, girlfriend"
+    },
+    "examples": [
+     {
+      "text": "แฟนของเขาเป็นคนไทย",
+      "translations": {
+       "zh": "他的女朋友是泰国人。",
+       "en": "His girlfriend is Thai."
+      }
+     }
+    ],
+    "usageNote": "借自英语 fan，在泰语里指恋人，有时也指配偶。"
+   }
+  ]
+ },
+ {
+  "headword": "เพื่อน",
+  "phonetic": "phuean",
+  "cefr": "A1",
+  "frequencyRank": 220,
+  "grammarNotes": {
+   "toneMarks": "phʉ̂an · 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่รู้จักและสนิทกัน",
+    "translations": {
+     "zh": "朋友",
+     "en": "friend"
+    },
+    "examples": [
+     {
+      "text": "เพื่อนของฉันมาจากจีน",
+      "translations": {
+       "zh": "我的朋友来自中国。",
+       "en": "My friend is from China."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เพื่อนบ้าน",
+  "phonetic": "phuean ban",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "toneMarks": "phʉ̂an-bâan · 降, 降",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่อยู่บ้านใกล้ ๆ กัน",
+    "translations": {
+     "zh": "邻居",
+     "en": "neighbour"
+    },
+    "examples": [
+     {
+      "text": "เพื่อนบ้านของเราใจดีมาก",
+      "translations": {
+       "zh": "我们的邻居人很好。",
+       "en": "Our neighbours are very kind."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คน",
+  "phonetic": "khon",
+  "cefr": "A1",
+  "frequencyRank": 60,
+  "grammarNotes": {
+   "toneMarks": "khon · 中",
+   "classifier": "คน（人，本身也是量词）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "มนุษย์",
+    "translations": {
+     "zh": "人",
+     "en": "person, people"
+    },
+    "examples": [
+     {
+      "text": "ที่นี่มีคนเยอะมาก",
+      "translations": {
+       "zh": "这里人很多。",
+       "en": "There are a lot of people here."
+      }
+     }
+    ],
+    "usageNote": "คน 也是“人”的量词：เด็กสามคน（三个孩子）。"
+   }
+  ]
+ },
+ {
+  "headword": "คนไทย",
+  "phonetic": "khon thai",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "toneMarks": "khon-thai · 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่มีสัญชาติไทย",
+    "translations": {
+     "zh": "泰国人",
+     "en": "Thai person"
+    },
+    "examples": [
+     {
+      "text": "คนไทยชอบกินอาหารเผ็ด",
+      "translations": {
+       "zh": "泰国人喜欢吃辣的。",
+       "en": "Thai people like spicy food."
+      }
+     }
+    ],
+    "usageNote": "国籍＝คน + 国名：คนจีน 中国人，คนญี่ปุ่น 日本人。"
+   }
+  ]
+ },
+ {
+  "headword": "ผู้ชาย",
+  "phonetic": "phuchai",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "toneMarks": "phûu-chaai · 降, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนเพศชาย",
+    "translations": {
+     "zh": "男人；男性",
+     "en": "man, male"
+    },
+    "examples": [
+     {
+      "text": "ผู้ชายคนนั้นเป็นครู",
+      "translations": {
+       "zh": "那个男人是老师。",
+       "en": "That man is a teacher."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้หญิง",
+  "phonetic": "phuying",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "grammarNotes": {
+   "toneMarks": "phûu-yǐng · 降, 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนเพศหญิง",
+    "translations": {
+     "zh": "女人；女性",
+     "en": "woman, female"
+    },
+    "examples": [
+     {
+      "text": "ผู้หญิงคนนั้นสวยมาก",
+      "translations": {
+       "zh": "那个女人很漂亮。",
+       "en": "That woman is very beautiful."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ผู้ใหญ่",
+  "phonetic": "phuyai",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "phûu-yài · 降, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่โตแล้ว ไม่ใช่เด็ก",
+    "translations": {
+     "zh": "大人；成年人",
+     "en": "adult, grown-up"
+    },
+    "examples": [
+     {
+      "text": "ตั๋วผู้ใหญ่ราคาร้อยบาท",
+      "translations": {
+       "zh": "成人票一百泰铢。",
+       "en": "An adult ticket costs 100 baht."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "เด็ก",
+  "phonetic": "dek",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "toneMarks": "dèk · 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ยังอายุน้อย",
+    "translations": {
+     "zh": "小孩；儿童",
+     "en": "child, kid"
+    },
+    "examples": [
+     {
+      "text": "เด็กคนนี้น่ารักมาก",
+      "translations": {
+       "zh": "这个孩子很可爱。",
+       "en": "This child is very cute."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ครู",
+  "phonetic": "khru",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "toneMarks": "khruu · 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่สอนหนังสือ",
+    "translations": {
+     "zh": "老师",
+     "en": "teacher"
+    },
+    "examples": [
+     {
+      "text": "ครูสอนภาษาไทยใจดีมาก",
+      "translations": {
+       "zh": "教泰语的老师人很好。",
+       "en": "The Thai teacher is very kind."
+      }
+     }
+    ],
+    "usageNote": "学生可直接用 ครู 称呼老师，前面也可加 คุณ 表示尊敬：คุณครู。"
+   }
+  ]
+ },
+ {
+  "headword": "นักเรียน",
+  "phonetic": "nakrian",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "nák-rian · 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่เรียนอยู่ในโรงเรียน",
+    "translations": {
+     "zh": "学生",
+     "en": "student, pupil"
+    },
+    "examples": [
+     {
+      "text": "เขาเป็นนักเรียนชั้นประถม",
+      "translations": {
+       "zh": "他是小学生。",
+       "en": "He is a primary-school pupil."
+      }
+     }
+    ],
+    "usageNote": "大学生一般说 นักศึกษา。"
+   }
+  ]
+ },
+ {
+  "headword": "หมอ",
+  "phonetic": "mo",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "toneMarks": "mɔ̌ɔ · 升",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่รักษาคนป่วย",
+    "translations": {
+     "zh": "医生",
+     "en": "doctor"
+    },
+    "examples": [
+     {
+      "text": "ไม่สบายต้องไปหาหมอ",
+      "translations": {
+       "zh": "不舒服要去看医生。",
+       "en": "If you're unwell, you should see a doctor."
+      }
+     }
+    ],
+    "usageNote": "“看医生”说 ไปหาหมอ。正式说法是 แพทย์。"
+   }
+  ]
+ },
+ {
+  "headword": "พยาบาล",
+  "phonetic": "phayaban",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "toneMarks": "pha-yaa-baan · 高, 中, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ดูแลคนป่วยในโรงพยาบาล",
+    "translations": {
+     "zh": "护士",
+     "en": "nurse"
+    },
+    "examples": [
+     {
+      "text": "พยาบาลที่นี่ใจดีมาก",
+      "translations": {
+       "zh": "这里的护士很和善。",
+       "en": "The nurses here are very kind."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ตำรวจ",
+  "phonetic": "tamruat",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "tam-rùat · 中, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "เจ้าหน้าที่ที่ดูแลความปลอดภัย",
+    "translations": {
+     "zh": "警察",
+     "en": "police officer"
+    },
+    "examples": [
+     {
+      "text": "ตำรวจยืนอยู่หน้าธนาคาร",
+      "translations": {
+       "zh": "警察站在银行门口。",
+       "en": "A police officer is standing in front of the bank."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "พนักงาน",
+  "phonetic": "phanakngan",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "pha-nák-ngaan · 高, 高, 中",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่ทำงานในบริษัทหรือร้าน",
+    "translations": {
+     "zh": "职员；员工；店员",
+     "en": "employee, staff"
+    },
+    "examples": [
+     {
+      "text": "พนักงานร้านนี้พูดภาษาจีนได้",
+      "translations": {
+       "zh": "这家店的店员会说中文。",
+       "en": "The staff in this shop can speak Chinese."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "แม่ค้า",
+  "phonetic": "mae kha",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "toneMarks": "mɛ̂ɛ-kháa · 降, 高",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผู้หญิงที่ขายของ",
+    "translations": {
+     "zh": "女摊贩；卖东西的女人",
+     "en": "(female) vendor"
+    },
+    "examples": [
+     {
+      "text": "แม่ค้าขายผลไม้ที่ตลาด",
+      "translations": {
+       "zh": "女摊贩在市场卖水果。",
+       "en": "The vendor sells fruit at the market."
+      }
+     }
+    ],
+    "usageNote": "男性摊贩说 พ่อค้า。"
+   }
+  ]
+ },
+ {
+  "headword": "ลูกค้า",
+  "phonetic": "lukkha",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "lûuk-kháa · 降, 高",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่มาซื้อของหรือใช้บริการ",
+    "translations": {
+     "zh": "顾客；客户",
+     "en": "customer"
+    },
+    "examples": [
+     {
+      "text": "ร้านนี้ลูกค้าเยอะทุกวัน",
+      "translations": {
+       "zh": "这家店每天顾客都很多。",
+       "en": "This shop has lots of customers every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คนขับรถ",
+  "phonetic": "khon khap rot",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "toneMarks": "khon-khàp-rót · 中, 低, 高",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนที่มีหน้าที่ขับรถ",
+    "translations": {
+     "zh": "司机",
+     "en": "driver"
+    },
+    "examples": [
+     {
+      "text": "คนขับรถแท็กซี่ใจดีมาก",
+      "translations": {
+       "zh": "出租车司机人很好。",
+       "en": "The taxi driver is very nice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฝรั่ง",
+  "phonetic": "farang",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "toneMarks": "fa-ràng · 低, 低",
+   "classifier": "คน（人）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คนต่างชาติผิวขาว",
+    "translations": {
+     "zh": "西方人；白人",
+     "en": "Westerner"
+    },
+    "examples": [
+     {
+      "text": "มีฝรั่งมาเที่ยวที่นี่เยอะ",
+      "translations": {
+       "zh": "很多西方人来这里旅游。",
+       "en": "Lots of Westerners visit here."
+      }
+     }
+    ],
+    "usageNote": "口语常用，一般没有恶意。同一个词也指番石榴。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "ผลไม้สีเขียว เนื้อกรอบ",
+    "translations": {
+     "zh": "番石榴",
+     "en": "guava"
+    },
+    "examples": [
+     {
+      "text": "ฝรั่งลูกนี้หวานกรอบ",
+      "translations": {
+       "zh": "这个番石榴又甜又脆。",
+       "en": "This guava is sweet and crunchy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ชื่อ",
+  "phonetic": "chue",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "grammarNotes": {
+   "toneMarks": "chʉ̂ʉ · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "คำที่ใช้เรียกคนหรือสิ่งของ",
+    "translations": {
+     "zh": "名字",
+     "en": "name"
+    },
+    "examples": [
+     {
+      "text": "คุณชื่ออะไรครับ",
+      "translations": {
+       "zh": "您叫什么名字？",
+       "en": "What's your name?"
+      }
+     }
+    ],
+    "usageNote": "问名字直接说 คุณชื่ออะไร，ชื่อ 在这里像动词“叫”。"
+   }
+  ]
+ },
+ {
+  "headword": "หัว",
+  "phonetic": "hua",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "toneMarks": "hǔa · 升"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนบนสุดของร่างกาย",
+    "translations": {
+     "zh": "头",
+     "en": "head"
+    },
+    "examples": [
+     {
+      "text": "วันนี้ฉันปวดหัว",
+      "translations": {
+       "zh": "我今天头疼。",
+       "en": "I have a headache today."
+      }
+     }
+    ],
+    "usageNote": "泰国人认为头很神圣，不要摸别人（尤其成年人）的头。"
+   }
+  ]
+ },
+ {
+  "headword": "หน้า",
+  "phonetic": "na",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "toneMarks": "nâa · 降"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนหน้าของหัว มีตา จมูก ปาก",
+    "translations": {
+     "zh": "脸",
+     "en": "face"
+    },
+    "examples": [
+     {
+      "text": "ล้างหน้าก่อนนอน",
+      "translations": {
+       "zh": "睡前洗脸。",
+       "en": "Wash your face before bed."
+      }
+     }
+    ],
+    "usageNote": "หน้า 还有“前面”“页”等意思，如 หน้าบ้าน（房子前面）。"
+   }
+  ]
+ },
+ {
+  "headword": "ตา",
+  "phonetic": "ta",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "toneMarks": "taa · 中",
+   "classifier": "ข้าง（只，一边）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อวัยวะที่ใช้มองเห็น",
+    "translations": {
+     "zh": "眼睛",
+     "en": "eye"
+    },
+    "examples": [
+     {
+      "text": "เธอมีตาสวยมาก",
+      "translations": {
+       "zh": "她的眼睛很漂亮。",
+       "en": "She has beautiful eyes."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "พ่อของแม่",
+    "translations": {
+     "zh": "外公（母亲的父亲）",
+     "en": "grandfather (mother's father)"
+    },
+    "examples": [
+     {
+      "text": "ตากับยายอยู่ต่างจังหวัด",
+      "translations": {
+       "zh": "外公外婆住在外府。",
+       "en": "Grandpa and Grandma live in the provinces."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "หู",
+  "phonetic": "hu",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "toneMarks": "hǔu · 升",
+   "classifier": "ข้าง（只，一边）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อวัยวะที่ใช้ฟังเสียง",
+    "translations": {
+     "zh": "耳朵",
+     "en": "ear"
+    },
+    "examples": [
+     {
+      "text": "กระต่ายมีหูยาว",
+      "translations": {
+       "zh": "兔子有长耳朵。",
+       "en": "Rabbits have long ears."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "จมูก",
+  "phonetic": "chamuk",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "ja-mùuk · 低, 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อวัยวะที่ใช้ดมกลิ่นและหายใจ",
+    "translations": {
+     "zh": "鼻子",
+     "en": "nose"
+    },
+    "examples": [
+     {
+      "text": "ช้างมีจมูกยาว",
+      "translations": {
+       "zh": "大象有长鼻子。",
+       "en": "Elephants have long noses."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ปาก",
+  "phonetic": "pak",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "toneMarks": "pàak · 低"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "อวัยวะที่ใช้กินและพูด",
+    "translations": {
+     "zh": "嘴",
+     "en": "mouth"
+    },
+    "examples": [
+     {
+      "text": "เด็กเอามือปิดปาก",
+      "translations": {
+       "zh": "孩子用手捂住嘴。",
+       "en": "The child covers his mouth with his hand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ฟัน",
+  "phonetic": "fan",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "toneMarks": "fan · 中",
+   "classifier": "ซี่（颗）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "สิ่งสีขาวในปาก ใช้เคี้ยวอาหาร",
+    "translations": {
+     "zh": "牙齿",
+     "en": "tooth, teeth"
+    },
+    "examples": [
+     {
+      "text": "แปรงฟันวันละสองครั้ง",
+      "translations": {
+       "zh": "每天刷两次牙。",
+       "en": "Brush your teeth twice a day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "คอ",
+  "phonetic": "kho",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "toneMarks": "khɔɔ · 中"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนที่อยู่ระหว่างหัวกับตัว",
+    "translations": {
+     "zh": "脖子；喉咙",
+     "en": "neck, throat"
+    },
+    "examples": [
+     {
+      "text": "ฉันเจ็บคอ",
+      "translations": {
+       "zh": "我嗓子疼。",
+       "en": "I have a sore throat."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "มือ",
+  "phonetic": "mue",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "toneMarks": "mʉʉ · 中",
+   "classifier": "ข้าง（只，一边）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนปลายแขน มีห้านิ้ว",
+    "translations": {
+     "zh": "手",
+     "en": "hand"
+    },
+    "examples": [
+     {
+      "text": "ล้างมือก่อนกินข้าว",
+      "translations": {
+       "zh": "吃饭前洗手。",
+       "en": "Wash your hands before eating."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "นิ้ว",
+  "phonetic": "nio",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "toneMarks": "níw · 高",
+   "classifier": "นิ้ว（根）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนปลายของมือหรือเท้า",
+    "translations": {
+     "zh": "手指；脚趾",
+     "en": "finger, toe"
+    },
+    "examples": [
+     {
+      "text": "เด็กนับนิ้วมือ",
+      "translations": {
+       "zh": "孩子数手指。",
+       "en": "The child counts on his fingers."
+      }
+     }
+    ],
+    "usageNote": "也是长度单位“英寸”：จอสิบนิ้ว（十英寸的屏幕）。"
+   }
+  ]
+ },
+ {
+  "headword": "แขน",
+  "phonetic": "khaen",
+  "cefr": "A1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "toneMarks": "khɛ̌ɛn · 升",
+   "classifier": "ข้าง（只，一边）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ส่วนของร่างกายระหว่างไหล่กับมือ",
+    "translations": {
+     "zh": "手臂；胳膊",
+     "en": "arm"
+    },
+    "examples": [
+     {
+      "text": "แขนของเขาแข็งแรงมาก",
+      "translations": {
+       "zh": "他的胳膊很有力。",
+       "en": "His arms are very strong."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]
