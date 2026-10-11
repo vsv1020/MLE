@@ -671,6 +671,12 @@ async function iapScreenshotStep(iap, L) {
   const data = fs.readFileSync(file);
   const local = { file, fileName: path.basename(file), data, size: data.length, md5: md5(data) };
   const cur = await getOrNull(`/v2/inAppPurchases/${iap.id}/appStoreReviewScreenshot`);
+  // The review screenshot only matters while the purchase is in review. Once Apple approved it,
+  // replacing it (every new screenshot run changes 06-plus.png) would only invite another review.
+  if (cur && iap.attributes?.state === 'APPROVED') {
+    log('purchase approved — review screenshot left as it is');
+    return true;
+  }
   if (cur) {
     const a = cur.attributes ?? {};
     const state = a.assetDeliveryState?.state;
