@@ -99,20 +99,23 @@ enum ShareCopy {
 
     // MARK: Footer and message
 
+    /// The poster footer: the app's name, one line on what it is, and how to get it. No printed
+    /// link — the footer carries a QR code for ``AppLinks/appStoreChina`` instead.
     static let appName = "麻薯背单词"
-    static let invite = "和麻薯一起背单词"
-
-    /// `apps.apple.com/app/id6800027452` — the link as printed on the card.
-    static var appStoreShortLink: String {
-        let raw = AppLinks.appStore.absoluteString
-        return raw.hasPrefix("https://") ? String(raw.dropFirst("https://".count)) : raw
-    }
+    static let slogan = "打开就背，会记住的单词卡"
+    static let qrHint = "长按识别二维码，或在 App Store 搜索「麻薯背单词」"
 
     static let subject = "我的麻薯背单词卡片"
 
-    /// Headline plus the full link, so the link survives targets that drop the image.
+    /// The text that travels with the poster: the headline and the China App Store link, so a
+    /// friend can still find the app when the target drops the image or shows only the text.
+    /// "我在用麻薯背单词背单词：连续打卡 7 天。下载：https://apps.apple.com/cn/app/id6800027452".
     static func message(headline: String) -> String {
-        "\(headline) · \(AppLinks.appStore.absoluteString)"
+        let trimmed = headline.trimmingCharacters(in: .whitespacesAndNewlines)
+        let link = AppLinks.appStoreChina.absoluteString
+        guard let last = trimmed.last else { return "我在用麻薯背单词背单词。下载：\(link)" }
+        let stop = "。！？!?…".contains(last) ? "" : "。"
+        return "我在用麻薯背单词背单词：\(trimmed)\(stop)下载：\(link)"
     }
 
     // MARK: Example emphasis

@@ -75,9 +75,9 @@ final class RecapHeadlineTests: XCTestCase {
         XCTAssertEqual(RecapCopy.weekdayInitial(dayKey: "nonsense", locale: english), "")
     }
 
-    func testShareImageIs1080By1350() {
+    func testShareImageIs1080By1440() {
         XCTAssertEqual(RecapShareMetrics.pixelSize.width, 1080)
-        XCTAssertEqual(RecapShareMetrics.pixelSize.height, 1350)
+        XCTAssertEqual(RecapShareMetrics.pixelSize.height, 1440)
     }
 
     func testRecapChipIsOfferedOncePerWeek() throws {

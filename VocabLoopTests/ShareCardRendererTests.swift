@@ -56,7 +56,7 @@ enum ShareCardFixtures {
     }
 }
 
-/// Every card renders to a 1080×1350 PNG on disk (sharing plan §5).
+/// Every card renders to a 1080×1440 (3:4) poster PNG on disk (sharing plan §5).
 @MainActor
 final class ShareCardRendererTests: XCTestCase {
     /// A fresh directory per test, removed by the caller's `defer`.
@@ -67,7 +67,7 @@ final class ShareCardRendererTests: XCTestCase {
         return directory
     }
 
-    func testEveryCardRendersA1080By1350PNG() throws {
+    func testEveryCardRendersA1080By1440PNG() throws {
         let directory = try makeDirectory()
         defer { try? FileManager.default.removeItem(at: directory) }
         let pngSignature: [UInt8] = [0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A]
@@ -77,7 +77,7 @@ final class ShareCardRendererTests: XCTestCase {
             XCTAssertEqual(Array(data.prefix(8)), pngSignature, "\(card.kind) is not a PNG")
             let image = try XCTUnwrap(UIImage(data: data))
             XCTAssertEqual(image.size.width * image.scale, 1080, "\(card.kind)")
-            XCTAssertEqual(image.size.height * image.scale, 1350, "\(card.kind)")
+            XCTAssertEqual(image.size.height * image.scale, 1440, "\(card.kind)")
             XCTAssertEqual(url.lastPathComponent, card.fileName)
         }
     }
@@ -88,7 +88,7 @@ final class ShareCardRendererTests: XCTestCase {
         let card = ShareCard.streak(ShareCardFixtures.streak)
         let rendered = try XCTUnwrap(ShareCardRenderer.render(card, to: directory))
         XCTAssertEqual(rendered.headline, "连续打卡 7 天")
-        XCTAssertTrue(rendered.message.hasSuffix(AppLinks.appStore.absoluteString))
+        XCTAssertTrue(rendered.message.hasSuffix(AppLinks.appStoreChina.absoluteString))
     }
 
     func testSameCardSameFileName() throws {

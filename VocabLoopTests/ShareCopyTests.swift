@@ -50,13 +50,35 @@ final class ShareCopyTests: XCTestCase {
         XCTAssertEqual(ShareCopy.longestChip(current: 3, longest: 12), "最长：12 天")
     }
 
-    func testMessageCarriesTheAppStoreLink() {
+    func testMessageCarriesTheChinaAppStoreLink() {
         XCTAssertEqual(AppLinks.appStore.absoluteString, "https://apps.apple.com/app/id6800027452")
+        XCTAssertEqual(AppLinks.appStoreChina.absoluteString, "https://apps.apple.com/cn/app/id6800027452")
         XCTAssertEqual(
             ShareCopy.message(headline: "连续打卡 7 天"),
-            "连续打卡 7 天 · https://apps.apple.com/app/id6800027452"
+            "我在用麻薯背单词背单词：连续打卡 7 天。下载：https://apps.apple.com/cn/app/id6800027452"
         )
-        XCTAssertEqual(ShareCopy.appStoreShortLink, "apps.apple.com/app/id6800027452")
+        // A headline that already ends a sentence gets no second full stop.
+        XCTAssertEqual(
+            ShareCopy.message(headline: "今日目标完成！"),
+            "我在用麻薯背单词背单词：今日目标完成！下载：https://apps.apple.com/cn/app/id6800027452"
+        )
+        XCTAssertEqual(
+            ShareCopy.message(headline: "  "),
+            "我在用麻薯背单词背单词。下载：https://apps.apple.com/cn/app/id6800027452"
+        )
+        for card in ShareCardFixtures.all {
+            XCTAssertTrue(card.message.contains(AppLinks.appStoreChina.absoluteString), "\(card.kind)")
+            XCTAssertTrue(card.message.hasPrefix("我在用麻薯背单词背单词："), "\(card.kind)")
+        }
+    }
+
+    func testPosterFooterCopy() {
+        XCTAssertEqual(ShareCopy.appName, "麻薯背单词")
+        XCTAssertEqual(ShareCopy.slogan, "打开就背，会记住的单词卡")
+        XCTAssertEqual(ShareCopy.qrHint, "长按识别二维码，或在 App Store 搜索「麻薯背单词」")
+        // The poster prints no URL: the QR code carries the link.
+        XCTAssertFalse(ShareCopy.slogan.contains("apps.apple.com"))
+        XCTAssertFalse(ShareCopy.qrHint.contains("apps.apple.com"))
     }
 
     func testEmphasisPrefersClozeThenHeadword() {
@@ -89,7 +111,8 @@ final class ShareCopyTests: XCTestCase {
             lines.append(ShareCopy.badgeHeadline(name: achievement.name))
         }
         lines.append(ShareCopy.wordHeadline(headword: "because"))
-        lines.append(ShareCopy.invite)
+        lines.append(ShareCopy.slogan)
+        lines.append(ShareCopy.qrHint)
         lines.append(contentsOf: ShareCard.Kind.allCases.map(ShareCopy.eyebrow))
 
         // The copy is Chinese: the Chinese for "missed | only | failed | 0 left | lost".

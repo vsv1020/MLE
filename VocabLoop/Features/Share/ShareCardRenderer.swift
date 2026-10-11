@@ -12,7 +12,7 @@ struct RenderedShareCard: Equatable {
 /// Turns a ``ShareCard`` into a PNG file a `ShareLink` can hand to other apps (sharing plan §3).
 ///
 /// A file URL rather than an `Image`: `URL` is `Transferable` already, and a PNG on disk is what
-/// every share target expects. 1080×1350, light, fixed text size — see ``ShareCardFrame``.
+/// every share target expects. 1080×1440, always light, fixed text size — see ``ShareCardFrame``.
 @MainActor
 enum ShareCardRenderer {
     /// Render `card` and write it to `directory`. `nil` if rendering or the write fails — the

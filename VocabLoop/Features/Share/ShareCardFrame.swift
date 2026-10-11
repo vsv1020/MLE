@@ -2,12 +2,12 @@ import SwiftUI
 
 /// Size of every share image. Not actor-bound, so layout and tests can read it anywhere.
 ///
-/// 360×450 pt rendered at 3× is 1080×1350 px: 4:5 portrait, the size Messages and Instagram show
-/// uncropped.
+/// 360×480 pt rendered at 3× is 1080×1440 px: a 3:4 portrait poster, the shape 小红书 shows
+/// uncropped and WeChat Moments opens full screen without cutting anything off.
 enum ShareCardMetrics {
     /// Layout size in points.
-    static let pointSize = CGSize(width: 360, height: 450)
-    /// Render scale: 360×450 pt → 1080×1350 px.
+    static let pointSize = CGSize(width: 360, height: 480)
+    /// Render scale: 360×480 pt → 1080×1440 px.
     static let scale: CGFloat = 3
 
     /// The image size every share card is rendered at.
@@ -17,11 +17,16 @@ enum ShareCardMetrics {
 
     /// How far the crayon border sits inside the image edge.
     static let borderInset: CGFloat = 10
+
+    /// The QR code's side in the footer, quiet zone included: 228 px in the image, about six
+    /// pixels per module — comfortably above what WeChat's long-press recogniser needs.
+    static let qrSide: CGFloat = 76
 }
 
-/// The shared layout of every share card (sharing plan §2): paper, a crayon border seeded by the
-/// card's kind, eyebrow, headline, Mochi, the card's own middle, and a fixed footer with the app
-/// name, one invite line and the App Store link.
+/// The shared layout of every share poster (sharing plan §2): paper, a crayon border seeded by
+/// the card's kind, eyebrow and headline at the top, the hero (Mochi) and the card's own middle
+/// centred in the space between, and a footer band at the bottom with the app's mark, name,
+/// slogan, how to find it, and a QR code to the China App Store page.
 ///
 /// Always drawn light and at a fixed text size by ``ShareCardRenderer``: it is an image that
 /// leaves the app and must look the same wherever it lands.
@@ -53,42 +58,51 @@ struct ShareCardFrame<Middle: View>: View {
     private var seed: UInt64 { WobbleShape.seed(for: "share-" + kind.rawValue) }
 
     var body: some View {
-        VStack(spacing: Spacing.sm) {
-            VStack(spacing: Spacing.xxs) {
-                HStack(spacing: Spacing.xxs) {
-                    Image(systemName: "sparkles")
-                    Text(ShareCopy.eyebrow(kind))
-                }
-                .font(Typography.caption)
-                .foregroundStyle(Palette.brandSecondary)
+        VStack(spacing: 0) {
+            header
 
-                headline
-                    .font(Typography.screenTitle)
-                    .foregroundStyle(Palette.textPrimary)
-                    .multilineTextAlignment(.center)
-                    .lineLimit(3)
-                    .minimumScaleFactor(0.7)
+            Spacer(minLength: Spacing.sm)
+
+            VStack(spacing: Spacing.sm) {
+                heroView
+                middle
             }
 
-            heroView
-
-            middle
-
-            Spacer(minLength: Spacing.xs)
+            Spacer(minLength: Spacing.sm)
 
             footer
         }
         .padding(.horizontal, Spacing.lg)
-        .padding(.vertical, Spacing.md + ShareCardMetrics.borderInset / 2)
+        .padding(.top, ShareCardMetrics.borderInset + Spacing.md)
+        .padding(.bottom, ShareCardMetrics.borderInset + Spacing.sm)
         .frame(width: ShareCardMetrics.pointSize.width, height: ShareCardMetrics.pointSize.height)
         .background { paper }
+    }
+
+    private var header: some View {
+        VStack(spacing: Spacing.xxs) {
+            HStack(spacing: Spacing.xxs) {
+                Image(systemName: "sparkles")
+                Text(ShareCopy.eyebrow(kind))
+            }
+            .font(Typography.caption)
+            .foregroundStyle(Palette.brandSecondary)
+
+            headline
+                .font(Typography.screenTitle)
+                .foregroundStyle(Palette.textPrimary)
+                .multilineTextAlignment(.center)
+                .lineLimit(2)
+                .minimumScaleFactor(0.7)
+                .fixedSize(horizontal: false, vertical: true)
+        }
     }
 
     @ViewBuilder
     private var heroView: some View {
         switch hero {
         case let .mochi(look, level, mood, height):
-            WidgetMochiView(look: look, level: level, mood: mood)
+            WidgetMochiView(look: look, level: level, mood: mood, isStill: true)
                 .frame(width: height * 1.05, height: height)
         case .none:
             EmptyView()
@@ -105,25 +119,40 @@ struct ShareCardFrame<Middle: View>: View {
         }
     }
 
+    /// The band that turns a card into an invitation: who made it, what it is, how to get it.
+    /// No printed URL — on Moments and 小红书 nobody can tap or would type one; the QR code is
+    /// what a reader acts on.
     private var footer: some View {
-        VStack(spacing: 2) {
-            HStack(spacing: Spacing.xxs) {
-                Text(ShareCopy.appName)
-                    .font(Typography.sectionHeader)
-                    .foregroundStyle(Palette.brandPrimary)
-                Text("·")
-                    .foregroundStyle(Palette.textTertiary)
-                Text(ShareCopy.invite)
+        HStack(alignment: .center, spacing: Spacing.sm) {
+            VStack(alignment: .leading, spacing: Spacing.xxs) {
+                HStack(spacing: Spacing.xs) {
+                    Mascot(mood: .happy)
+                        .still()
+                        .frame(width: 30, height: 25)
+                    Text(ShareCopy.appName)
+                        .font(Typography.sectionHeader)
+                        .foregroundStyle(Palette.brandPrimary)
+                        .lineLimit(1)
+                }
+                Text(ShareCopy.slogan)
                     .font(Typography.caption)
+                    .foregroundStyle(Palette.textPrimary)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
+                Text(ShareCopy.qrHint)
+                    .font(Typography.chip)
                     .foregroundStyle(Palette.textSecondary)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.85)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .lineLimit(1)
-            .minimumScaleFactor(0.8)
-            Text(ShareCopy.appStoreShortLink)
-                .font(Typography.chip)
-                .foregroundStyle(Palette.textSecondary)
-                .lineLimit(1)
+            .frame(maxWidth: .infinity, alignment: .leading)
+
+            ShareQRCodeView(side: ShareCardMetrics.qrSide)
         }
+        .padding(Spacing.xs)
+        .padding(.leading, Spacing.xxs)
+        .drawnPanel(seed: WobbleShape.seed(for: "share-footer-" + kind.rawValue))
     }
 }
 
