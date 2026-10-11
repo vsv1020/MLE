@@ -199,11 +199,18 @@ def cmd_merge(chunk_dir, lang="en"):
     def pack_for(level):
         return next(n for n, levels in PACKS.items() if level in levels)
 
+    # The app's identity for an entry: headword folded like Entry.normalize (accents and case,
+    # but not Thai tone marks), plus the homograph number — so poste (job, homograph 2) is a
+    # different word from la poste.
+    def key(e):
+        hw = e["headword"]
+        return (hw if lang == "th" else fold(hw), e.get("homograph", 1))
+
     # Existing content always wins: it was reviewed by hand.
     owner = {}
     for name, pack in packs.items():
         for e in pack["entries"]:
-            owner[e["headword"]] = name
+            owner[key(e)] = name
 
     candidates = {}
     rejected = 0
@@ -212,15 +219,15 @@ def cmd_merge(chunk_dir, lang="en"):
             if check_entry(e, lang):
                 rejected += 1
                 continue
-            hw = e["headword"]
-            if hw in owner:
+            k = key(e)
+            if k in owner:
                 continue
-            prev = candidates.get(hw)
+            prev = candidates.get(k)
             if prev is None or LEVEL_ORDER.index(e["cefr"]) < LEVEL_ORDER.index(prev["cefr"]):
-                candidates[hw] = e
+                candidates[k] = e
 
     added = {n: 0 for n in PACKS}
-    for hw, e in candidates.items():
+    for _, e in candidates.items():
         name = pack_for(e["cefr"])
         packs[name]["entries"].append(e)
         added[name] += 1
