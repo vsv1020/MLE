@@ -1,0 +1,1450 @@
+[
+ {
+  "headword": "assiette",
+  "phonetic": "/a.sjɛt/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "assiettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet plat où l'on met la nourriture",
+    "translations": {
+     "zh": "盘子",
+     "en": "plate"
+    },
+    "examples": [
+     {
+      "text": "Cette assiette est sale.",
+      "translations": {
+       "zh": "这个盘子是脏的。",
+       "en": "This plate is dirty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bouteille",
+  "phonetic": "/bu.tɛj/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bouteilles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "récipient en verre ou en plastique, pour les liquides",
+    "translations": {
+     "zh": "瓶子；一瓶",
+     "en": "bottle"
+    },
+    "examples": [
+     {
+      "text": "Une bouteille d'eau, s'il vous plaît.",
+      "translations": {
+       "zh": "请给我一瓶水。",
+       "en": "A bottle of water, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "couteau",
+  "phonetic": "/ku.to/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "couteaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet qui sert à couper",
+    "translations": {
+     "zh": "刀",
+     "en": "knife"
+    },
+    "examples": [
+     {
+      "text": "Attention, ce couteau coupe bien !",
+      "translations": {
+       "zh": "小心，这把刀很锋利！",
+       "en": "Careful, this knife is sharp!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fourchette",
+  "phonetic": "/fuʁ.ʃɛt/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "fourchettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet à dents pour manger",
+    "translations": {
+     "zh": "叉子",
+     "en": "fork"
+    },
+    "examples": [
+     {
+      "text": "Je mange avec une fourchette.",
+      "translations": {
+       "zh": "我用叉子吃饭。",
+       "en": "I eat with a fork."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cuillère",
+  "phonetic": "/kɥi.jɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cuillères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet pour manger la soupe",
+    "translations": {
+     "zh": "勺子",
+     "en": "spoon"
+    },
+    "examples": [
+     {
+      "text": "Donne-moi une cuillère, s'il te plaît.",
+      "translations": {
+       "zh": "请给我一把勺子。",
+       "en": "Give me a spoon, please."
+      }
+     }
+    ],
+    "usageNote": "也写作 cuiller，发音相同。"
+   }
+  ]
+ },
+ {
+  "headword": "menu",
+  "phonetic": "/mə.ny/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "menus"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liste des plats d'un restaurant; repas à prix fixe",
+    "translations": {
+     "zh": "菜单；套餐",
+     "en": "menu; set meal"
+    },
+    "examples": [
+     {
+      "text": "Le menu, s'il vous plaît.",
+      "translations": {
+       "zh": "请给我菜单。",
+       "en": "The menu, please."
+      }
+     }
+    ],
+    "usageNote": "在法国餐馆，le menu 常指“套餐”，菜单本身也叫 la carte。"
+   }
+  ]
+ },
+ {
+  "headword": "faim",
+  "phonetic": "/fɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "envie de manger",
+    "translations": {
+     "zh": "饿；饥饿",
+     "en": "hunger"
+    },
+    "examples": [
+     {
+      "text": "J'ai très faim.",
+      "translations": {
+       "zh": "我很饿。",
+       "en": "I'm very hungry."
+      }
+     }
+    ],
+    "usageNote": "“我饿了”说 J'ai faim（用 avoir），不用 être。"
+   }
+  ]
+ },
+ {
+  "headword": "soif",
+  "phonetic": "/swaf/",
+  "cefr": "A1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "envie de boire",
+    "translations": {
+     "zh": "渴；口渴",
+     "en": "thirst"
+    },
+    "examples": [
+     {
+      "text": "Tu as soif ?",
+      "translations": {
+       "zh": "你渴吗？",
+       "en": "Are you thirsty?"
+      }
+     }
+    ],
+    "usageNote": "同样用 avoir：avoir soif（口渴）。"
+   }
+  ]
+ },
+ {
+  "headword": "chambre",
+  "phonetic": "/ʃɑ̃bʁ/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chambres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce où l'on dort",
+    "translations": {
+     "zh": "卧室；（旅馆）房间",
+     "en": "bedroom; room"
+    },
+    "examples": [
+     {
+      "text": "Ma chambre est petite.",
+      "translations": {
+       "zh": "我的卧室很小。",
+       "en": "My bedroom is small."
+      }
+     }
+    ],
+    "usageNote": "chambre 指卧室或旅馆房间；一般的“房间”说 pièce。"
+   }
+  ]
+ },
+ {
+  "headword": "cuisine",
+  "phonetic": "/kɥi.zin/",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cuisines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce où l'on prépare les repas",
+    "translations": {
+     "zh": "厨房",
+     "en": "kitchen"
+    },
+    "examples": [
+     {
+      "text": "Maman est dans la cuisine.",
+      "translations": {
+       "zh": "妈妈在厨房里。",
+       "en": "Mum is in the kitchen."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "manière de préparer les plats",
+    "translations": {
+     "zh": "烹饪；菜肴",
+     "en": "cooking; cuisine"
+    },
+    "examples": [
+     {
+      "text": "J'adore la cuisine chinoise.",
+      "translations": {
+       "zh": "我很喜欢中国菜。",
+       "en": "I love Chinese food."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "table",
+  "phonetic": "/tabl/",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tables"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "meuble avec un plateau et des pieds",
+    "translations": {
+     "zh": "桌子",
+     "en": "table"
+    },
+    "examples": [
+     {
+      "text": "Les clés sont sur la table.",
+      "translations": {
+       "zh": "钥匙在桌子上。",
+       "en": "The keys are on the table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chaise",
+  "phonetic": "/ʃɛz/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chaises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "siège avec un dossier, pour une personne",
+    "translations": {
+     "zh": "椅子",
+     "en": "chair"
+    },
+    "examples": [
+     {
+      "text": "Prends une chaise et assieds-toi.",
+      "translations": {
+       "zh": "拿把椅子坐下吧。",
+       "en": "Take a chair and sit down."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lit",
+  "phonetic": "/li/",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "meuble pour dormir",
+    "translations": {
+     "zh": "床",
+     "en": "bed"
+    },
+    "examples": [
+     {
+      "text": "Le chat dort sur mon lit.",
+      "translations": {
+       "zh": "猫睡在我的床上。",
+       "en": "The cat sleeps on my bed."
+      }
+     }
+    ],
+    "usageNote": "t 不发音；aller au lit = 去睡觉。"
+   }
+  ]
+ },
+ {
+  "headword": "porte",
+  "phonetic": "/pɔʁt/",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "portes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ouverture pour entrer et sortir",
+    "translations": {
+     "zh": "门",
+     "en": "door"
+    },
+    "examples": [
+     {
+      "text": "Ferme la porte, s'il te plaît.",
+      "translations": {
+       "zh": "请关门。",
+       "en": "Close the door, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fenêtre",
+  "phonetic": "/fə.nɛtʁ/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "fenêtres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ouverture dans un mur pour laisser entrer la lumière",
+    "translations": {
+     "zh": "窗户",
+     "en": "window"
+    },
+    "examples": [
+     {
+      "text": "Ouvre la fenêtre, s'il te plaît.",
+      "translations": {
+       "zh": "请打开窗户。",
+       "en": "Open the window, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "clé",
+  "phonetic": "/kle/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "clés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit objet en métal pour ouvrir une porte",
+    "translations": {
+     "zh": "钥匙",
+     "en": "key"
+    },
+    "examples": [
+     {
+      "text": "J'ai perdu ma clé.",
+      "translations": {
+       "zh": "我把钥匙弄丢了。",
+       "en": "I've lost my key."
+      }
+     }
+    ],
+    "usageNote": "也写作 clef，发音相同。"
+   }
+  ]
+ },
+ {
+  "headword": "téléphone",
+  "phonetic": "/te.le.fɔn/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "téléphones"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil pour parler à quelqu'un qui est loin",
+    "translations": {
+     "zh": "电话；手机",
+     "en": "telephone, phone"
+    },
+    "examples": [
+     {
+      "text": "Mon téléphone ne marche pas.",
+      "translations": {
+       "zh": "我的手机坏了。",
+       "en": "My phone isn't working."
+      }
+     }
+    ],
+    "usageNote": "手机口语常说 un portable。"
+   }
+  ]
+ },
+ {
+  "headword": "ordinateur",
+  "phonetic": "/ɔʁ.di.na.tœʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ordinateurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "machine pour écrire, calculer et aller sur Internet",
+    "translations": {
+     "zh": "电脑",
+     "en": "computer"
+    },
+    "examples": [
+     {
+      "text": "J'ai un nouvel ordinateur.",
+      "translations": {
+       "zh": "我有一台新电脑。",
+       "en": "I have a new computer."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "appartement",
+  "phonetic": "/a.paʁ.tə.mɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "appartements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "logement dans un immeuble",
+    "translations": {
+     "zh": "公寓；单元房",
+     "en": "flat, apartment"
+    },
+    "examples": [
+     {
+      "text": "Notre appartement a trois pièces.",
+      "translations": {
+       "zh": "我们的公寓有三个房间。",
+       "en": "Our flat has three rooms."
+      }
+     }
+    ],
+    "usageNote": "拼写注意：法语 appartement 有两个 p。"
+   }
+  ]
+ },
+ {
+  "headword": "salon",
+  "phonetic": "/sa.lɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "salons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce où l'on reçoit et où l'on se repose",
+    "translations": {
+     "zh": "客厅",
+     "en": "living room"
+    },
+    "examples": [
+     {
+      "text": "Le salon est très grand.",
+      "translations": {
+       "zh": "客厅很大。",
+       "en": "The living room is very big."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salle de bains",
+  "phonetic": "/sal.də.bɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "salles de bains"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce pour se laver",
+    "translations": {
+     "zh": "浴室；洗手间",
+     "en": "bathroom"
+    },
+    "examples": [
+     {
+      "text": "La salle de bains est à gauche.",
+      "cloze": "La {{salle de bains}} est à gauche.",
+      "translations": {
+       "zh": "浴室在左边。",
+       "en": "The bathroom is on the left."
+      }
+     }
+    ],
+    "usageNote": "也写作 salle de bain；厕所一般说 les toilettes。"
+   }
+  ]
+ },
+ {
+  "headword": "jardin",
+  "phonetic": "/ʒaʁ.dɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jardins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "terrain avec des fleurs, des arbres ou des légumes",
+    "translations": {
+     "zh": "花园；园子",
+     "en": "garden"
+    },
+    "examples": [
+     {
+      "text": "Il y a des fleurs dans le jardin.",
+      "translations": {
+       "zh": "花园里有花。",
+       "en": "There are flowers in the garden."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mur",
+  "phonetic": "/myʁ/",
+  "cefr": "A2",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "murs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "construction verticale qui ferme une pièce",
+    "translations": {
+     "zh": "墙",
+     "en": "wall"
+    },
+    "examples": [
+     {
+      "text": "Il y a une photo sur le mur.",
+      "translations": {
+       "zh": "墙上有一张照片。",
+       "en": "There's a photo on the wall."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "escalier",
+  "phonetic": "/ɛs.ka.lje/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "escaliers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "suite de marches pour monter ou descendre",
+    "translations": {
+     "zh": "楼梯",
+     "en": "stairs, staircase"
+    },
+    "examples": [
+     {
+      "text": "Attention, cet escalier est dangereux.",
+      "translations": {
+       "zh": "小心，这个楼梯很危险。",
+       "en": "Careful, these stairs are dangerous."
+      }
+     }
+    ],
+    "usageNote": "法语常用单数 l'escalier，英语用复数 stairs。"
+   }
+  ]
+ },
+ {
+  "headword": "lampe",
+  "phonetic": "/lɑ̃p/",
+  "cefr": "A1",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "lampes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet qui donne de la lumière",
+    "translations": {
+     "zh": "灯",
+     "en": "lamp"
+    },
+    "examples": [
+     {
+      "text": "Allume la lampe, il fait noir.",
+      "translations": {
+       "zh": "开灯吧，天黑了。",
+       "en": "Turn on the lamp, it's dark."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "canapé",
+  "phonetic": "/ka.na.pe/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "canapés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "long siège confortable pour plusieurs personnes",
+    "translations": {
+     "zh": "沙发",
+     "en": "sofa, couch"
+    },
+    "examples": [
+     {
+      "text": "Papa dort sur le canapé.",
+      "translations": {
+       "zh": "爸爸在沙发上睡觉。",
+       "en": "Dad is sleeping on the sofa."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "armoire",
+  "phonetic": "/aʁ.mwaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "armoires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand meuble pour ranger les vêtements",
+    "translations": {
+     "zh": "衣柜；柜子",
+     "en": "wardrobe"
+    },
+    "examples": [
+     {
+      "text": "Cette armoire est trop grande.",
+      "translations": {
+       "zh": "这个衣柜太大了。",
+       "en": "This wardrobe is too big."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "télévision",
+  "phonetic": "/te.le.vi.zjɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "télévisions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui montre des images et des émissions",
+    "translations": {
+     "zh": "电视；电视机",
+     "en": "television"
+    },
+    "examples": [
+     {
+      "text": "Il regarde la télévision le soir.",
+      "translations": {
+       "zh": "他晚上看电视。",
+       "en": "He watches television in the evening."
+      }
+     }
+    ],
+    "usageNote": "口语常缩写为 la télé。"
+   }
+  ]
+ },
+ {
+  "headword": "photo",
+  "phonetic": "/fɔ.to/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "photos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "image prise avec un appareil",
+    "translations": {
+     "zh": "照片",
+     "en": "photo"
+    },
+    "examples": [
+     {
+      "text": "Regarde cette photo de mes parents.",
+      "translations": {
+       "zh": "看看这张我父母的照片。",
+       "en": "Look at this photo of my parents."
+      }
+     }
+    ],
+    "usageNote": "阴性 une photo（来自 la photographie），虽然以 -o 结尾。"
+   }
+  ]
+ },
+ {
+  "headword": "sac",
+  "phonetic": "/sak/",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sacs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet pour porter des choses",
+    "translations": {
+     "zh": "包；袋子",
+     "en": "bag"
+    },
+    "examples": [
+     {
+      "text": "Mon sac est très lourd.",
+      "translations": {
+       "zh": "我的包很重。",
+       "en": "My bag is very heavy."
+      }
+     }
+    ],
+    "usageNote": "双肩包、书包是 un sac à dos。"
+   }
+  ]
+ },
+ {
+  "headword": "boîte",
+  "phonetic": "/bwat/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "boîtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet pour mettre des choses, avec un couvercle",
+    "translations": {
+     "zh": "盒子；罐头",
+     "en": "box; can"
+    },
+    "examples": [
+     {
+      "text": "Il y a des crayons dans cette boîte.",
+      "translations": {
+       "zh": "这个盒子里有铅笔。",
+       "en": "There are pencils in this box."
+      }
+     }
+    ],
+    "usageNote": "boîte aux lettres = 信箱。"
+   }
+  ]
+ },
+ {
+  "headword": "lettre",
+  "phonetic": "/lɛtʁ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "lettres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "message écrit qu'on envoie à quelqu'un",
+    "translations": {
+     "zh": "信",
+     "en": "letter"
+    },
+    "examples": [
+     {
+      "text": "J'écris une lettre à ma grand-mère.",
+      "translations": {
+       "zh": "我在给奶奶写信。",
+       "en": "I'm writing a letter to my grandmother."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "signe de l'alphabet",
+    "translations": {
+     "zh": "字母",
+     "en": "letter (of the alphabet)"
+    },
+    "examples": [
+     {
+      "text": "Le mot « chat » a quatre lettres.",
+      "translations": {
+       "zh": "“chat”这个词有四个字母。",
+       "en": "The word “chat” has four letters."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "papier",
+  "phonetic": "/pa.pje/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "papiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "matière fine pour écrire ou imprimer",
+    "translations": {
+     "zh": "纸",
+     "en": "paper"
+    },
+    "examples": [
+     {
+      "text": "Tu as une feuille de papier ?",
+      "translations": {
+       "zh": "你有一张纸吗？",
+       "en": "Do you have a sheet of paper?"
+      }
+     }
+    ],
+    "usageNote": "复数 les papiers 也指“证件”。"
+   }
+  ]
+ },
+ {
+  "headword": "journal",
+  "phonetic": "/ʒuʁ.nal/",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "journaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "publication qui donne les nouvelles",
+    "translations": {
+     "zh": "报纸；日记",
+     "en": "newspaper; diary"
+    },
+    "examples": [
+     {
+      "text": "Mon grand-père lit le journal.",
+      "translations": {
+       "zh": "我爷爷在看报纸。",
+       "en": "My grandfather is reading the newspaper."
+      }
+     }
+    ],
+    "usageNote": "复数不规则：des journaux；le journal intime = 日记。"
+   }
+  ]
+ },
+ {
+  "headword": "miroir",
+  "phonetic": "/mi.ʁwaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "miroirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "verre où l'on se voit",
+    "translations": {
+     "zh": "镜子",
+     "en": "mirror"
+    },
+    "examples": [
+     {
+      "text": "Elle se regarde dans le miroir.",
+      "translations": {
+       "zh": "她在照镜子。",
+       "en": "She is looking at herself in the mirror."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "frigo",
+  "phonetic": "/fʁi.ɡo/",
+  "cefr": "A2",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "frigos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "appareil qui garde les aliments au froid",
+    "translations": {
+     "zh": "冰箱",
+     "en": "fridge"
+    },
+    "examples": [
+     {
+      "text": "Le lait est dans le frigo.",
+      "translations": {
+       "zh": "牛奶在冰箱里。",
+       "en": "The milk is in the fridge."
+      }
+     }
+    ],
+    "usageNote": "口语词；正式说法是 le réfrigérateur。"
+   }
+  ]
+ },
+ {
+  "headword": "douche",
+  "phonetic": "/duʃ/",
+  "cefr": "A2",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "douches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "eau qui tombe d'en haut pour se laver",
+    "translations": {
+     "zh": "淋浴",
+     "en": "shower"
+    },
+    "examples": [
+     {
+      "text": "Je prends une douche le matin.",
+      "translations": {
+       "zh": "我早上洗淋浴。",
+       "en": "I take a shower in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "étage",
+  "phonetic": "/e.taʒ/",
+  "cefr": "A2",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "étages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "niveau d'un bâtiment",
+    "translations": {
+     "zh": "楼层",
+     "en": "floor, storey"
+    },
+    "examples": [
+     {
+      "text": "J'habite au troisième étage.",
+      "translations": {
+       "zh": "我住在四楼。",
+       "en": "I live on the third floor."
+      }
+     }
+    ],
+    "usageNote": "法国的底层叫 rez-de-chaussée，premier étage 相当于中国的二楼；阳性 un étage。"
+   }
+  ]
+ },
+ {
+  "headword": "chose",
+  "phonetic": "/ʃoz/",
+  "cefr": "A1",
+  "frequencyRank": 130,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "choses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet ou idée qu'on ne nomme pas",
+    "translations": {
+     "zh": "东西；事情",
+     "en": "thing"
+    },
+    "examples": [
+     {
+      "text": "J'ai une chose à te dire.",
+      "translations": {
+       "zh": "我有件事要告诉你。",
+       "en": "I have something to tell you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vêtement",
+  "phonetic": "/vɛt.mɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vêtements"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on porte sur le corps",
+    "translations": {
+     "zh": "衣服；服装",
+     "en": "garment; (pl.) clothes"
+    },
+    "examples": [
+     {
+      "text": "Ce vêtement est trop petit.",
+      "translations": {
+       "zh": "这件衣服太小了。",
+       "en": "This piece of clothing is too small."
+      }
+     }
+    ],
+    "usageNote": "泛指“衣服”时常用复数 les vêtements。"
+   }
+  ]
+ },
+ {
+  "headword": "chemise",
+  "phonetic": "/ʃə.miz/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chemises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement du haut avec des boutons et un col",
+    "translations": {
+     "zh": "衬衫",
+     "en": "shirt"
+    },
+    "examples": [
+     {
+      "text": "Il porte une chemise blanche.",
+      "translations": {
+       "zh": "他穿着一件白衬衫。",
+       "en": "He's wearing a white shirt."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pantalon",
+  "phonetic": "/pɑ̃.ta.lɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pantalons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement qui couvre chaque jambe",
+    "translations": {
+     "zh": "裤子",
+     "en": "trousers, pants"
+    },
+    "examples": [
+     {
+      "text": "Ce pantalon est trop long.",
+      "translations": {
+       "zh": "这条裤子太长了。",
+       "en": "These trousers are too long."
+      }
+     }
+    ],
+    "usageNote": "一条裤子用单数 un pantalon，英语却用复数 trousers。"
+   }
+  ]
+ },
+ {
+  "headword": "robe",
+  "phonetic": "/ʁɔb/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "robes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement de femme d'une seule pièce",
+    "translations": {
+     "zh": "连衣裙",
+     "en": "dress"
+    },
+    "examples": [
+     {
+      "text": "Elle porte une jolie robe.",
+      "translations": {
+       "zh": "她穿着一条漂亮的连衣裙。",
+       "en": "She's wearing a pretty dress."
+      }
+     }
+    ],
+    "usageNote": "假朋友：不是英语的 robe（浴袍）；浴袍是 un peignoir。"
+   }
+  ]
+ },
+ {
+  "headword": "chaussure",
+  "phonetic": "/ʃo.syʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chaussures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on porte aux pieds pour marcher",
+    "translations": {
+     "zh": "鞋",
+     "en": "shoe"
+    },
+    "examples": [
+     {
+      "text": "Cette chaussure est trop petite.",
+      "translations": {
+       "zh": "这只鞋太小了。",
+       "en": "This shoe is too small."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "manteau",
+  "phonetic": "/mɑ̃.to/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "manteaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement chaud qu'on met pour sortir",
+    "translations": {
+     "zh": "大衣；外套",
+     "en": "coat"
+    },
+    "examples": [
+     {
+      "text": "Mets ton manteau, il fait froid.",
+      "translations": {
+       "zh": "穿上大衣，外面冷。",
+       "en": "Put your coat on, it's cold."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "jupe",
+  "phonetic": "/ʒyp/",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "jupes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement de femme qui descend de la taille",
+    "translations": {
+     "zh": "裙子；半身裙",
+     "en": "skirt"
+    },
+    "examples": [
+     {
+      "text": "Elle porte une jupe bleue.",
+      "translations": {
+       "zh": "她穿着一条蓝裙子。",
+       "en": "She's wearing a blue skirt."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chapeau",
+  "phonetic": "/ʃa.po/",
+  "cefr": "A1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chapeaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on porte sur la tête",
+    "translations": {
+     "zh": "帽子",
+     "en": "hat"
+    },
+    "examples": [
+     {
+      "text": "Mon grand-père porte un chapeau.",
+      "translations": {
+       "zh": "我爷爷戴着一顶帽子。",
+       "en": "My grandfather wears a hat."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pull",
+  "phonetic": "/pyl/",
+  "cefr": "A1",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pulls"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement chaud, souvent en laine",
+    "translations": {
+     "zh": "毛衣；套头衫",
+     "en": "jumper, sweater"
+    },
+    "examples": [
+     {
+      "text": "Ce pull est très doux.",
+      "translations": {
+       "zh": "这件毛衣很柔软。",
+       "en": "This jumper is very soft."
+      }
+     }
+    ],
+    "usageNote": "pull-over 的缩写；读 /pyl/。"
+   }
+  ]
+ }
+]

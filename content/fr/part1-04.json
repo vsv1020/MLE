@@ -1,0 +1,1506 @@
+[
+ {
+  "headword": "automne",
+  "phonetic": "/o.tɔn/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "automnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "saison entre l'été et l'hiver",
+    "translations": {
+     "zh": "秋天",
+     "en": "autumn, fall"
+    },
+    "examples": [
+     {
+      "text": "En automne, les feuilles tombent.",
+      "translations": {
+       "zh": "秋天树叶落下。",
+       "en": "In autumn the leaves fall."
+      }
+     }
+    ],
+    "usageNote": "m 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "hiver",
+  "phonetic": "/i.vɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "hivers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "saison la plus froide de l'année",
+    "translations": {
+     "zh": "冬天",
+     "en": "winter"
+    },
+    "examples": [
+     {
+      "text": "En hiver, il fait froid.",
+      "translations": {
+       "zh": "冬天很冷。",
+       "en": "In winter it's cold."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "jour",
+  "phonetic": "/ʒuʁ/",
+  "cefr": "A1",
+  "frequencyRank": 60,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de vingt-quatre heures ; moment où il fait clair",
+    "translations": {
+     "zh": "天；日；白天",
+     "en": "day"
+    },
+    "examples": [
+     {
+      "text": "Je lis un peu chaque jour.",
+      "translations": {
+       "zh": "我每天读一点书。",
+       "en": "I read a little every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "aujourd'hui",
+  "phonetic": "/o.ʒuʁ.dɥi/",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "le jour où l'on est",
+    "translations": {
+     "zh": "今天",
+     "en": "today"
+    },
+    "examples": [
+     {
+      "text": "Aujourd'hui, il fait beau.",
+      "translations": {
+       "zh": "今天天气很好。",
+       "en": "It's nice weather today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "demain",
+  "phonetic": "/də.mɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 360,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "le jour après aujourd'hui",
+    "translations": {
+     "zh": "明天",
+     "en": "tomorrow"
+    },
+    "examples": [
+     {
+      "text": "À demain !",
+      "translations": {
+       "zh": "明天见！",
+       "en": "See you tomorrow!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "hier",
+  "phonetic": "/jɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "le jour avant aujourd'hui",
+    "translations": {
+     "zh": "昨天",
+     "en": "yesterday"
+    },
+    "examples": [
+     {
+      "text": "Hier, je suis allé au parc.",
+      "translations": {
+       "zh": "昨天我去了公园。",
+       "en": "Yesterday I went to the park."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "maintenant",
+  "phonetic": "/mɛ̃t.nɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 92,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en ce moment",
+    "translations": {
+     "zh": "现在",
+     "en": "now"
+    },
+    "examples": [
+     {
+      "text": "Je dois partir maintenant.",
+      "translations": {
+       "zh": "我现在得走了。",
+       "en": "I have to leave now."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "matin",
+  "phonetic": "/ma.tɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 240,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "matins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "début de la journée",
+    "translations": {
+     "zh": "早上；上午",
+     "en": "morning"
+    },
+    "examples": [
+     {
+      "text": "Je bois du lait le matin.",
+      "translations": {
+       "zh": "我早上喝牛奶。",
+       "en": "I drink milk in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "midi",
+  "phonetic": "/mi.di/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "le milieu de la journée, douze heures",
+    "translations": {
+     "zh": "中午；正午",
+     "en": "noon, midday"
+    },
+    "examples": [
+     {
+      "text": "On mange à midi.",
+      "translations": {
+       "zh": "我们中午吃饭。",
+       "en": "We eat at noon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "après-midi",
+  "phonetic": "/a.pʁɛ.mi.di/",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性（也可用阴性）",
+   "plural": "après-midi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie de la journée entre midi et le soir",
+    "translations": {
+     "zh": "下午",
+     "en": "afternoon"
+    },
+    "examples": [
+     {
+      "text": "Je fais du sport l'après-midi.",
+      "cloze": "Je fais du sport l'{{après-midi}}.",
+      "translations": {
+       "zh": "我下午做运动。",
+       "en": "I do sport in the afternoon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "soir",
+  "phonetic": "/swaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 230,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "soirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fin de la journée",
+    "translations": {
+     "zh": "晚上；傍晚",
+     "en": "evening"
+    },
+    "examples": [
+     {
+      "text": "Je regarde la télé le soir.",
+      "translations": {
+       "zh": "我晚上看电视。",
+       "en": "I watch TV in the evening."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nuit",
+  "phonetic": "/nɥi/",
+  "cefr": "A1",
+  "frequencyRank": 140,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "nuits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moment où il fait noir et où l'on dort",
+    "translations": {
+     "zh": "夜里；夜晚",
+     "en": "night"
+    },
+    "examples": [
+     {
+      "text": "La nuit, je dors.",
+      "translations": {
+       "zh": "夜里我睡觉。",
+       "en": "At night I sleep."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "semaine",
+  "phonetic": "/sə.mɛn/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "semaines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de sept jours",
+    "translations": {
+     "zh": "星期；周",
+     "en": "week"
+    },
+    "examples": [
+     {
+      "text": "Je vais à la piscine deux fois par semaine.",
+      "translations": {
+       "zh": "我每周去两次游泳池。",
+       "en": "I go to the pool twice a week."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "week-end",
+  "phonetic": "/wi.kɛnd/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "week-ends"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "le samedi et le dimanche",
+    "translations": {
+     "zh": "周末",
+     "en": "weekend"
+    },
+    "examples": [
+     {
+      "text": "Bon week-end !",
+      "cloze": "Bon {{week-end}} !",
+      "translations": {
+       "zh": "周末愉快！",
+       "en": "Have a nice weekend!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mois",
+  "phonetic": "/mwa/",
+  "cefr": "A1",
+  "frequencyRank": 240,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mois"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "une des douze parties de l'année",
+    "translations": {
+     "zh": "月；月份",
+     "en": "month"
+    },
+    "examples": [
+     {
+      "text": "Je pars dans un mois.",
+      "translations": {
+       "zh": "我一个月后出发。",
+       "en": "I'm leaving in a month."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "an",
+  "phonetic": "/ɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 87,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de douze mois",
+    "translations": {
+     "zh": "年；岁",
+     "en": "year"
+    },
+    "examples": [
+     {
+      "text": "J'ai huit ans.",
+      "cloze": "J'ai huit {{ans}}.",
+      "translations": {
+       "zh": "我八岁。",
+       "en": "I'm eight years old."
+      }
+     }
+    ],
+    "usageNote": "说年龄用 avoir ... ans。an 多和数字连用，année 强调这一年的过程：toute l'année（一整年）。"
+   }
+  ]
+ },
+ {
+  "headword": "année",
+  "phonetic": "/a.ne/",
+  "cefr": "A1",
+  "frequencyRank": 145,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "années"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de douze mois, du premier janvier au trente et un décembre",
+    "translations": {
+     "zh": "年；年份",
+     "en": "year"
+    },
+    "examples": [
+     {
+      "text": "Bonne année !",
+      "translations": {
+       "zh": "新年快乐！",
+       "en": "Happy New Year!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "heure",
+  "phonetic": "/œʁ/",
+  "cefr": "A1",
+  "frequencyRank": 103,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "heures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de soixante minutes ; moment de la journée",
+    "translations": {
+     "zh": "小时；点钟",
+     "en": "hour; o'clock"
+    },
+    "examples": [
+     {
+      "text": "Quelle heure est-il ?",
+      "translations": {
+       "zh": "现在几点？",
+       "en": "What time is it?"
+      }
+     }
+    ],
+    "usageNote": "h 不发音，所以要连读和省音：une heure /y.nœʁ/，l'heure。"
+   }
+  ]
+ },
+ {
+  "headword": "minute",
+  "phonetic": "/mi.nyt/",
+  "cefr": "A1",
+  "frequencyRank": 330,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "minutes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période de soixante secondes",
+    "translations": {
+     "zh": "分钟",
+     "en": "minute"
+    },
+    "examples": [
+     {
+      "text": "Attends une minute !",
+      "translations": {
+       "zh": "等一下！",
+       "en": "Wait a minute!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tôt",
+  "phonetic": "/to/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "avant l'heure habituelle",
+    "translations": {
+     "zh": "早",
+     "en": "early"
+    },
+    "examples": [
+     {
+      "text": "Je me lève tôt.",
+      "translations": {
+       "zh": "我起得早。",
+       "en": "I get up early."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tard",
+  "phonetic": "/taʁ/",
+  "cefr": "A1",
+  "frequencyRank": 330,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "après l'heure habituelle",
+    "translations": {
+     "zh": "晚；迟",
+     "en": "late"
+    },
+    "examples": [
+     {
+      "text": "Il est tard, je vais dormir.",
+      "translations": {
+       "zh": "很晚了，我去睡了。",
+       "en": "It's late, I'm going to bed."
+      }
+     }
+    ],
+    "usageNote": "迟到说 être en retard。"
+   }
+  ]
+ },
+ {
+  "headword": "déjà",
+  "phonetic": "/de.ʒa/",
+  "cefr": "A1",
+  "frequencyRank": 98,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "avant maintenant, plus tôt que prévu",
+    "translations": {
+     "zh": "已经",
+     "en": "already"
+    },
+    "examples": [
+     {
+      "text": "Tu as déjà mangé ?",
+      "translations": {
+       "zh": "你已经吃过了吗？",
+       "en": "Have you already eaten?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "encore",
+  "phonetic": "/ɑ̃.kɔʁ/",
+  "cefr": "A1",
+  "frequencyRank": 80,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "toujours à ce moment ; une fois de plus",
+    "translations": {
+     "zh": "还；又；再",
+     "en": "still; again"
+    },
+    "examples": [
+     {
+      "text": "Il dort encore.",
+      "translations": {
+       "zh": "他还在睡觉。",
+       "en": "He's still asleep."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adverb",
+    "definition": "une fois de plus",
+    "translations": {
+     "zh": "再；又",
+     "en": "again, more"
+    },
+    "examples": [
+     {
+      "text": "Encore un peu de gâteau ?",
+      "translations": {
+       "zh": "再来点蛋糕吗？",
+       "en": "A bit more cake?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "souvent",
+  "phonetic": "/su.vɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 360,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "beaucoup de fois",
+    "translations": {
+     "zh": "经常；常常",
+     "en": "often"
+    },
+    "examples": [
+     {
+      "text": "Je vais souvent au parc.",
+      "translations": {
+       "zh": "我经常去公园。",
+       "en": "I often go to the park."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "parfois",
+  "phonetic": "/paʁ.fwa/",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "quelques fois, pas toujours",
+    "translations": {
+     "zh": "有时",
+     "en": "sometimes"
+    },
+    "examples": [
+     {
+      "text": "Parfois, je mange à la cantine.",
+      "translations": {
+       "zh": "我有时在食堂吃饭。",
+       "en": "Sometimes I eat in the canteen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "jamais",
+  "phonetic": "/ʒa.mɛ/",
+  "cefr": "A1",
+  "frequencyRank": 74,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à aucun moment",
+    "translations": {
+     "zh": "从不；从来没有",
+     "en": "never"
+    },
+    "examples": [
+     {
+      "text": "Je ne mange jamais de viande.",
+      "translations": {
+       "zh": "我从来不吃肉。",
+       "en": "I never eat meat."
+      }
+     }
+    ],
+    "usageNote": "和 ne 一起用：ne ... jamais。"
+   }
+  ]
+ },
+ {
+  "headword": "bientôt",
+  "phonetic": "/bjɛ̃.to/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans peu de temps",
+    "translations": {
+     "zh": "很快；不久",
+     "en": "soon"
+    },
+    "examples": [
+     {
+      "text": "Les vacances arrivent bientôt.",
+      "translations": {
+       "zh": "假期快到了。",
+       "en": "The holidays are coming soon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "qui",
+  "phonetic": "/ki/",
+  "cefr": "A1",
+  "frequencyRank": 24,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "quelle personne",
+    "translations": {
+     "zh": "谁",
+     "en": "who"
+    },
+    "examples": [
+     {
+      "text": "Qui est-ce ?",
+      "translations": {
+       "zh": "这是谁？",
+       "en": "Who is it?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quoi",
+  "phonetic": "/kwa/",
+  "cefr": "A1",
+  "frequencyRank": 78,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "quelle chose",
+    "translations": {
+     "zh": "什么",
+     "en": "what"
+    },
+    "examples": [
+     {
+      "text": "Tu fais quoi ce soir ?",
+      "translations": {
+       "zh": "你今晚干什么？",
+       "en": "What are you doing tonight?"
+      }
+     }
+    ],
+    "usageNote": "口语里放在句尾：Tu fais quoi ? 正式说法：Qu'est-ce que tu fais ?"
+   }
+  ]
+ },
+ {
+  "headword": "où",
+  "phonetic": "/u/",
+  "cefr": "A1",
+  "frequencyRank": 64,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans quel lieu",
+    "translations": {
+     "zh": "哪里；在哪儿",
+     "en": "where"
+    },
+    "examples": [
+     {
+      "text": "Où est la gare ?",
+      "translations": {
+       "zh": "火车站在哪里？",
+       "en": "Where is the station?"
+      }
+     }
+    ],
+    "usageNote": "注意 où（哪里）有重音符，ou（或者）没有。"
+   }
+  ]
+ },
+ {
+  "headword": "quand",
+  "phonetic": "/kɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 66,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à quel moment",
+    "translations": {
+     "zh": "什么时候",
+     "en": "when"
+    },
+    "examples": [
+     {
+      "text": "Quand est-ce que tu pars ?",
+      "translations": {
+       "zh": "你什么时候走？",
+       "en": "When are you leaving?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "au moment où",
+    "translations": {
+     "zh": "当……的时候",
+     "en": "when"
+    },
+    "examples": [
+     {
+      "text": "Quand il pleut, je reste à la maison.",
+      "translations": {
+       "zh": "下雨的时候我待在家里。",
+       "en": "When it rains, I stay at home."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "comment",
+  "phonetic": "/kɔ.mɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 72,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "de quelle manière",
+    "translations": {
+     "zh": "怎么；怎样",
+     "en": "how"
+    },
+    "examples": [
+     {
+      "text": "Comment tu t'appelles ?",
+      "translations": {
+       "zh": "你叫什么名字？",
+       "en": "What's your name?"
+      }
+     }
+    ],
+    "usageNote": "Comment ? 单独用也表示“什么？（没听清）”。"
+   }
+  ]
+ },
+ {
+  "headword": "pourquoi",
+  "phonetic": "/puʁ.kwa/",
+  "cefr": "A1",
+  "frequencyRank": 110,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "pour quelle raison",
+    "translations": {
+     "zh": "为什么",
+     "en": "why"
+    },
+    "examples": [
+     {
+      "text": "Pourquoi tu ris ?",
+      "translations": {
+       "zh": "你为什么笑？",
+       "en": "Why are you laughing?"
+      }
+     }
+    ],
+    "usageNote": "回答用 parce que（因为）。"
+   }
+  ]
+ },
+ {
+  "headword": "combien",
+  "phonetic": "/kɔ̃.bjɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "quelle quantité, quel prix",
+    "translations": {
+     "zh": "多少",
+     "en": "how much, how many"
+    },
+    "examples": [
+     {
+      "text": "C'est combien ?",
+      "translations": {
+       "zh": "这个多少钱？",
+       "en": "How much is it?"
+      }
+     }
+    ],
+    "usageNote": "后面接名词时加 de：combien de frères ?（几个兄弟？）"
+   }
+  ]
+ },
+ {
+  "headword": "quel",
+  "phonetic": "/kɛl/",
+  "cefr": "A1",
+  "frequencyRank": 75,
+  "grammarNotes": {
+   "irregularForms": "阴性 quelle；复数 quels, quelles（读音都是 /kɛl/）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "sert à demander de choisir ou de préciser",
+    "translations": {
+     "zh": "哪个；什么",
+     "en": "which, what"
+    },
+    "examples": [
+     {
+      "text": "Quel âge as-tu ?",
+      "translations": {
+       "zh": "你几岁了？",
+       "en": "How old are you?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "je",
+  "phonetic": "/ʒə/",
+  "cefr": "A1",
+  "frequencyRank": 8,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "la personne qui parle",
+    "translations": {
+     "zh": "我",
+     "en": "I"
+    },
+    "examples": [
+     {
+      "text": "Je parle chinois.",
+      "translations": {
+       "zh": "我说中文。",
+       "en": "I speak Chinese."
+      }
+     }
+    ],
+    "usageNote": "在元音或不发音的 h 前写成 j'：j'aime, j'habite。"
+   }
+  ]
+ },
+ {
+  "headword": "tu",
+  "phonetic": "/ty/",
+  "cefr": "A1",
+  "frequencyRank": 17,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "la personne à qui on parle (familier)",
+    "translations": {
+     "zh": "你",
+     "en": "you (informal)"
+    },
+    "examples": [
+     {
+      "text": "Tu as quel âge ?",
+      "translations": {
+       "zh": "你几岁了？",
+       "en": "How old are you?"
+      }
+     }
+    ],
+    "usageNote": "tu 用于家人、朋友和小孩；对陌生人、长辈或老师用 vous。"
+   }
+  ]
+ },
+ {
+  "headword": "il",
+  "phonetic": "/il/",
+  "cefr": "A1",
+  "frequencyRank": 9,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "un homme ou une chose masculine dont on parle",
+    "translations": {
+     "zh": "他；它",
+     "en": "he, it"
+    },
+    "examples": [
+     {
+      "text": "Il est très gentil.",
+      "translations": {
+       "zh": "他很友善。",
+       "en": "He is very kind."
+      }
+     }
+    ],
+    "usageNote": "il 也用于无人称句：il pleut（下雨）、il faut（必须）。"
+   }
+  ]
+ },
+ {
+  "headword": "elle",
+  "phonetic": "/ɛl/",
+  "cefr": "A1",
+  "frequencyRank": 31,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "une femme ou une chose féminine dont on parle",
+    "translations": {
+     "zh": "她；它",
+     "en": "she, it"
+    },
+    "examples": [
+     {
+      "text": "Elle habite à Lyon.",
+      "translations": {
+       "zh": "她住在里昂。",
+       "en": "She lives in Lyon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nous",
+  "phonetic": "/nu/",
+  "cefr": "A1",
+  "frequencyRank": 21,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "moi et d'autres personnes",
+    "translations": {
+     "zh": "我们",
+     "en": "we, us"
+    },
+    "examples": [
+     {
+      "text": "Nous sommes en classe.",
+      "translations": {
+       "zh": "我们在上课。",
+       "en": "We are in class."
+      }
+     }
+    ],
+    "usageNote": "口语中常用 on 代替 nous。"
+   }
+  ]
+ },
+ {
+  "headword": "vous",
+  "phonetic": "/vu/",
+  "cefr": "A1",
+  "frequencyRank": 14,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "plusieurs personnes à qui on parle ; une personne, poliment",
+    "translations": {
+     "zh": "你们；您",
+     "en": "you (plural or polite)"
+    },
+    "examples": [
+     {
+      "text": "Vous parlez anglais ?",
+      "translations": {
+       "zh": "您会说英语吗？",
+       "en": "Do you speak English?"
+      }
+     }
+    ],
+    "usageNote": "vous 既是“你们”，也是对一个人的尊称“您”。动词总是用复数变位。"
+   }
+  ]
+ },
+ {
+  "headword": "ils",
+  "phonetic": "/il/",
+  "cefr": "A1",
+  "frequencyRank": 47,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "des hommes ou des choses masculines ; un groupe mixte",
+    "translations": {
+     "zh": "他们；它们",
+     "en": "they"
+    },
+    "examples": [
+     {
+      "text": "Ils jouent au foot.",
+      "translations": {
+       "zh": "他们在踢足球。",
+       "en": "They're playing football."
+      }
+     }
+    ],
+    "usageNote": "男女混合的一群人也用 ils。"
+   }
+  ]
+ },
+ {
+  "headword": "elles",
+  "phonetic": "/ɛl/",
+  "cefr": "A1",
+  "frequencyRank": 107,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "des femmes ou des choses féminines",
+    "translations": {
+     "zh": "她们；它们",
+     "en": "they (feminine)"
+    },
+    "examples": [
+     {
+      "text": "Elles sont sœurs.",
+      "translations": {
+       "zh": "她们是姐妹。",
+       "en": "They are sisters."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "on",
+  "phonetic": "/ɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 19,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "nous (familier) ; les gens en général",
+    "translations": {
+     "zh": "我们；人们",
+     "en": "we; one, people"
+    },
+    "examples": [
+     {
+      "text": "On va au parc ?",
+      "translations": {
+       "zh": "我们去公园吗？",
+       "en": "Shall we go to the park?"
+      }
+     }
+    ],
+    "usageNote": "on 的动词按第三人称单数变位：on va, on mange。"
+   }
+  ]
+ },
+ {
+  "headword": "moi",
+  "phonetic": "/mwa/",
+  "cefr": "A1",
+  "frequencyRank": 32,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "forme forte de « je »",
+    "translations": {
+     "zh": "我（重读）",
+     "en": "me"
+    },
+    "examples": [
+     {
+      "text": "C'est pour moi ?",
+      "translations": {
+       "zh": "这是给我的吗？",
+       "en": "Is it for me?"
+      }
+     }
+    ],
+    "usageNote": "用在介词后、c'est 后或强调：Moi, j'aime le chocolat.（我嘛，我喜欢巧克力。）"
+   }
+  ]
+ },
+ {
+  "headword": "toi",
+  "phonetic": "/twa/",
+  "cefr": "A1",
+  "frequencyRank": 62,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "forme forte de « tu »",
+    "translations": {
+     "zh": "你（重读）",
+     "en": "you (informal)"
+    },
+    "examples": [
+     {
+      "text": "Et toi, ça va ?",
+      "translations": {
+       "zh": "你呢，还好吗？",
+       "en": "And you, how are you?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lui",
+  "phonetic": "/lɥi/",
+  "cefr": "A1",
+  "frequencyRank": 42,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "forme forte de « il » ; à lui ou à elle",
+    "translations": {
+     "zh": "他（重读）；给他/她",
+     "en": "him; (to) him, (to) her"
+    },
+    "examples": [
+     {
+      "text": "Je vais chez lui.",
+      "translations": {
+       "zh": "我去他家。",
+       "en": "I'm going to his place."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ça",
+  "phonetic": "/sa/",
+  "cefr": "A1",
+  "frequencyRank": 33,
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "cette chose-là (familier)",
+    "translations": {
+     "zh": "这；那；这个",
+     "en": "that, it"
+    },
+    "examples": [
+     {
+      "text": "Ça, c'est mon vélo.",
+      "translations": {
+       "zh": "这是我的自行车。",
+       "en": "That's my bike."
+      }
+     }
+    ],
+    "usageNote": "Ça va ?（你好吗？）是最常用的问候。"
+   }
+  ]
+ },
+ {
+  "headword": "ce",
+  "phonetic": "/sə/",
+  "cefr": "A1",
+  "frequencyRank": 16,
+  "grammarNotes": {
+   "irregularForms": "阳性元音前 cet；阴性 cette；复数 ces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "sert à montrer une chose ou une personne",
+    "translations": {
+     "zh": "这；那",
+     "en": "this, that"
+    },
+    "examples": [
+     {
+      "text": "Ce chien est gentil.",
+      "translations": {
+       "zh": "这只狗很乖。",
+       "en": "This dog is friendly."
+      }
+     }
+    ],
+    "usageNote": "c'est 里的 c' 也是 ce（代词）。"
+   }
+  ]
+ },
+ {
+  "headword": "mon",
+  "phonetic": "/mɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 39,
+  "grammarNotes": {
+   "irregularForms": "阴性 ma；复数 mes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "determiner",
+    "definition": "qui est à moi",
+    "translations": {
+     "zh": "我的",
+     "en": "my"
+    },
+    "examples": [
+     {
+      "text": "C'est mon livre.",
+      "translations": {
+       "zh": "这是我的书。",
+       "en": "It's my book."
+      }
+     }
+    ],
+    "usageNote": "元音开头的阴性名词前也用 mon：mon amie。同样变化的还有 ton（你的）和 son（他的/她的）。"
+   }
+  ]
+ },
+ {
+  "headword": "à",
+  "phonetic": "/a/",
+  "cefr": "A1",
+  "frequencyRank": 6,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "indique le lieu, le moment ou la personne",
+    "translations": {
+     "zh": "在；到；向",
+     "en": "at, to, in"
+    },
+    "examples": [
+     {
+      "text": "Je suis à la maison.",
+      "translations": {
+       "zh": "我在家。",
+       "en": "I'm at home."
+      }
+     }
+    ],
+    "usageNote": "à + le = au，à + les = aux：Je vais au parc."
+   }
+  ]
+ },
+ {
+  "headword": "de",
+  "phonetic": "/də/",
+  "cefr": "A1",
+  "frequencyRank": 1,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "indique l'origine, l'appartenance ou la matière",
+    "translations": {
+     "zh": "……的；从",
+     "en": "of, from"
+    },
+    "examples": [
+     {
+      "text": "Je viens de Pékin.",
+      "translations": {
+       "zh": "我来自北京。",
+       "en": "I come from Beijing."
+      }
+     }
+    ],
+    "usageNote": "de + le = du，de + les = des。元音前写成 d'。"
+   }
+  ]
+ },
+ {
+  "headword": "en",
+  "phonetic": "/ɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 10,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "indique le lieu, le moment ou la manière",
+    "translations": {
+     "zh": "在；用；乘",
+     "en": "in, by"
+    },
+    "examples": [
+     {
+      "text": "J'habite en Chine.",
+      "translations": {
+       "zh": "我住在中国。",
+       "en": "I live in China."
+      }
+     }
+    ],
+    "usageNote": "阴性国家用 en：en France；阳性国家用 au：au Canada。交通工具：en bus。"
+   }
+  ]
+ },
+ {
+  "headword": "avec",
+  "phonetic": "/a.vɛk/",
+  "cefr": "A1",
+  "frequencyRank": 29,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en compagnie de ; à l'aide de",
+    "translations": {
+     "zh": "和……一起；用",
+     "en": "with"
+    },
+    "examples": [
+     {
+      "text": "Je joue avec mon chien.",
+      "translations": {
+       "zh": "我和我的狗一起玩。",
+       "en": "I play with my dog."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sans",
+  "phonetic": "/sɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 76,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en l'absence de",
+    "translations": {
+     "zh": "没有；不带",
+     "en": "without"
+    },
+    "examples": [
+     {
+      "text": "Un café sans sucre, s'il vous plaît.",
+      "translations": {
+       "zh": "请给我一杯不加糖的咖啡。",
+       "en": "A coffee without sugar, please."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

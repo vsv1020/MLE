@@ -1,0 +1,1433 @@
+[
+ {
+  "headword": "mère",
+  "phonetic": "/mɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "femme qui a des enfants",
+    "translations": {
+     "zh": "母亲；妈妈",
+     "en": "mother"
+    },
+    "examples": [
+     {
+      "text": "Ma mère est professeur.",
+      "translations": {
+       "zh": "我妈妈是老师。",
+       "en": "My mother is a teacher."
+      }
+     }
+    ],
+    "usageNote": "与 mer（大海）、maire（市长）发音相同。"
+   }
+  ]
+ },
+ {
+  "headword": "père",
+  "phonetic": "/pɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 220,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "homme qui a des enfants",
+    "translations": {
+     "zh": "父亲；爸爸",
+     "en": "father"
+    },
+    "examples": [
+     {
+      "text": "Mon père travaille à Paris.",
+      "translations": {
+       "zh": "我爸爸在巴黎工作。",
+       "en": "My father works in Paris."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "frère",
+  "phonetic": "/fʁɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "frères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "garçon ou homme qui a les mêmes parents",
+    "translations": {
+     "zh": "兄弟（哥哥或弟弟）",
+     "en": "brother"
+    },
+    "examples": [
+     {
+      "text": "J'ai un frère et une sœur.",
+      "translations": {
+       "zh": "我有一个兄弟和一个姐妹。",
+       "en": "I have a brother and a sister."
+      }
+     }
+    ],
+    "usageNote": "法语不区分哥哥和弟弟；需要时说 grand frère（哥哥）、petit frère（弟弟）。"
+   }
+  ]
+ },
+ {
+  "headword": "sœur",
+  "phonetic": "/sœʁ/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "sœurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fille ou femme qui a les mêmes parents",
+    "translations": {
+     "zh": "姐妹（姐姐或妹妹）",
+     "en": "sister"
+    },
+    "examples": [
+     {
+      "text": "Ma sœur a dix ans.",
+      "translations": {
+       "zh": "我妹妹十岁了。",
+       "en": "My sister is ten."
+      }
+     }
+    ],
+    "usageNote": "grande sœur 是姐姐，petite sœur 是妹妹。"
+   }
+  ]
+ },
+ {
+  "headword": "enfant",
+  "phonetic": "/ɑ̃.fɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 200,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "enfants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jeune garçon ou jeune fille",
+    "translations": {
+     "zh": "孩子；儿童",
+     "en": "child"
+    },
+    "examples": [
+     {
+      "text": "Cet enfant a six ans.",
+      "translations": {
+       "zh": "这个孩子六岁。",
+       "en": "This child is six."
+      }
+     }
+    ],
+    "usageNote": "可阳可阴：un enfant（男孩）/ une enfant（女孩）。"
+   }
+  ]
+ },
+ {
+  "headword": "ami",
+  "phonetic": "/a.mi/",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "amis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qu'on aime bien et qu'on connaît bien",
+    "translations": {
+     "zh": "朋友",
+     "en": "friend"
+    },
+    "examples": [
+     {
+      "text": "Paul est mon meilleur ami.",
+      "translations": {
+       "zh": "保罗是我最好的朋友。",
+       "en": "Paul is my best friend."
+      }
+     }
+    ],
+    "usageNote": "女性朋友是 amie，发音相同。"
+   }
+  ]
+ },
+ {
+  "headword": "homme",
+  "phonetic": "/ɔm/",
+  "cefr": "A1",
+  "frequencyRank": 100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "hommes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne adulte de sexe masculin",
+    "translations": {
+     "zh": "男人；人类",
+     "en": "man"
+    },
+    "examples": [
+     {
+      "text": "Cet homme est très grand.",
+      "translations": {
+       "zh": "这个男人很高。",
+       "en": "That man is very tall."
+      }
+     }
+    ],
+    "usageNote": "h 不发音：l'homme，un homme 要联诵 /œ̃.nɔm/。"
+   }
+  ]
+ },
+ {
+  "headword": "femme",
+  "phonetic": "/fam/",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "femmes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne adulte de sexe féminin",
+    "translations": {
+     "zh": "女人；妇女",
+     "en": "woman"
+    },
+    "examples": [
+     {
+      "text": "Cette femme parle chinois.",
+      "translations": {
+       "zh": "这位女士会说中文。",
+       "en": "This woman speaks Chinese."
+      }
+     }
+    ],
+    "usageNote": "femme 读 /fam/，不读 /fɛm/。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "épouse, par rapport à son mari",
+    "translations": {
+     "zh": "妻子",
+     "en": "wife"
+    },
+    "examples": [
+     {
+      "text": "Je vous présente ma femme.",
+      "translations": {
+       "zh": "我给您介绍一下我的妻子。",
+       "en": "Let me introduce my wife."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "garçon",
+  "phonetic": "/ɡaʁ.sɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "garçons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "enfant ou jeune homme",
+    "translations": {
+     "zh": "男孩",
+     "en": "boy"
+    },
+    "examples": [
+     {
+      "text": "Le garçon mange une pomme.",
+      "translations": {
+       "zh": "男孩在吃苹果。",
+       "en": "The boy is eating an apple."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fille",
+  "phonetic": "/fij/",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "filles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "enfant ou jeune femme",
+    "translations": {
+     "zh": "女孩",
+     "en": "girl"
+    },
+    "examples": [
+     {
+      "text": "Cette fille chante bien.",
+      "translations": {
+       "zh": "这个女孩唱歌很好听。",
+       "en": "This girl sings well."
+      }
+     }
+    ],
+    "usageNote": "ille 在这里读 /ij/，不读 /il/。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "enfant féminin, par rapport aux parents",
+    "translations": {
+     "zh": "女儿",
+     "en": "daughter"
+    },
+    "examples": [
+     {
+      "text": "Ils ont une fille et un fils.",
+      "translations": {
+       "zh": "他们有一个女儿和一个儿子。",
+       "en": "They have a daughter and a son."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bébé",
+  "phonetic": "/be.be/",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bébés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très jeune enfant",
+    "translations": {
+     "zh": "婴儿；宝宝",
+     "en": "baby"
+    },
+    "examples": [
+     {
+      "text": "Le bébé dort.",
+      "translations": {
+       "zh": "宝宝在睡觉。",
+       "en": "The baby is sleeping."
+      }
+     }
+    ],
+    "usageNote": "永远是阳性 un bébé，即使是女婴。"
+   }
+  ]
+ },
+ {
+  "headword": "parent",
+  "phonetic": "/pa.ʁɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "parents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "le père ou la mère",
+    "translations": {
+     "zh": "父亲或母亲；（复数）父母",
+     "en": "parent"
+    },
+    "examples": [
+     {
+      "text": "Mes parents habitent en Chine.",
+      "cloze": "Mes {{parents}} habitent en Chine.",
+      "translations": {
+       "zh": "我父母住在中国。",
+       "en": "My parents live in China."
+      }
+     }
+    ],
+    "usageNote": "复数 les parents 一般指“父母”，有时也指“亲戚”。"
+   }
+  ]
+ },
+ {
+  "headword": "famille",
+  "phonetic": "/fa.mij/",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "familles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "le père, la mère et les enfants",
+    "translations": {
+     "zh": "家庭；家人",
+     "en": "family"
+    },
+    "examples": [
+     {
+      "text": "Ma famille est grande.",
+      "translations": {
+       "zh": "我家是个大家庭。",
+       "en": "My family is big."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fils",
+  "phonetic": "/fis/",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fils"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "enfant masculin, par rapport aux parents",
+    "translations": {
+     "zh": "儿子",
+     "en": "son"
+    },
+    "examples": [
+     {
+      "text": "Leur fils a cinq ans.",
+      "translations": {
+       "zh": "他们的儿子五岁。",
+       "en": "Their son is five."
+      }
+     }
+    ],
+    "usageNote": "读 /fis/：l 不发音，s 要发音；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "grand-mère",
+  "phonetic": "/ɡʁɑ̃.mɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "grands-mères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "la mère du père ou de la mère",
+    "translations": {
+     "zh": "奶奶；外婆",
+     "en": "grandmother"
+    },
+    "examples": [
+     {
+      "text": "Ma grand-mère fait des gâteaux.",
+      "cloze": "Ma {{grand-mère}} fait des gâteaux.",
+      "translations": {
+       "zh": "我奶奶会做蛋糕。",
+       "en": "My grandmother makes cakes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "grand-père",
+  "phonetic": "/ɡʁɑ̃.pɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "grands-pères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "le père du père ou de la mère",
+    "translations": {
+     "zh": "爷爷；外公",
+     "en": "grandfather"
+    },
+    "examples": [
+     {
+      "text": "Mon grand-père a quatre-vingts ans.",
+      "cloze": "Mon {{grand-père}} a quatre-vingts ans.",
+      "translations": {
+       "zh": "我爷爷八十岁了。",
+       "en": "My grandfather is eighty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "oncle",
+  "phonetic": "/ɔ̃kl/",
+  "cefr": "A1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "oncles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "le frère du père ou de la mère",
+    "translations": {
+     "zh": "叔叔；伯伯；舅舅；姑父；姨父",
+     "en": "uncle"
+    },
+    "examples": [
+     {
+      "text": "Mon oncle habite à Lyon.",
+      "translations": {
+       "zh": "我叔叔住在里昂。",
+       "en": "My uncle lives in Lyon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tante",
+  "phonetic": "/tɑ̃t/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "la sœur du père ou de la mère",
+    "translations": {
+     "zh": "姑姑；姨妈；婶婶；舅妈",
+     "en": "aunt"
+    },
+    "examples": [
+     {
+      "text": "Ma tante est très gentille.",
+      "translations": {
+       "zh": "我姨妈人很好。",
+       "en": "My aunt is very nice."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cousin",
+  "phonetic": "/ku.zɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cousins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "enfant de l'oncle ou de la tante",
+    "translations": {
+     "zh": "堂兄弟；表兄弟",
+     "en": "cousin"
+    },
+    "examples": [
+     {
+      "text": "Mon cousin vient demain.",
+      "translations": {
+       "zh": "我表哥明天来。",
+       "en": "My cousin is coming tomorrow."
+      }
+     }
+    ],
+    "usageNote": "女性为 cousine /ku.zin/（堂姐妹、表姐妹）。"
+   }
+  ]
+ },
+ {
+  "headword": "mari",
+  "phonetic": "/ma.ʁi/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "maris"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "homme marié, par rapport à sa femme",
+    "translations": {
+     "zh": "丈夫",
+     "en": "husband"
+    },
+    "examples": [
+     {
+      "text": "Son mari est médecin.",
+      "translations": {
+       "zh": "她丈夫是医生。",
+       "en": "Her husband is a doctor."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "maman",
+  "phonetic": "/ma.mɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mamans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mot affectueux pour dire « mère »",
+    "translations": {
+     "zh": "妈妈",
+     "en": "mum, mom"
+    },
+    "examples": [
+     {
+      "text": "Maman, j'ai faim !",
+      "translations": {
+       "zh": "妈妈，我饿了！",
+       "en": "Mum, I'm hungry!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "papa",
+  "phonetic": "/pa.pa/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "papas"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mot affectueux pour dire « père »",
+    "translations": {
+     "zh": "爸爸",
+     "en": "dad"
+    },
+    "examples": [
+     {
+      "text": "Papa, tu viens jouer ?",
+      "translations": {
+       "zh": "爸爸，你来玩吗？",
+       "en": "Dad, are you coming to play?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "personne",
+  "phonetic": "/pɛʁ.sɔn/",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "personnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "un homme, une femme ou un enfant",
+    "translations": {
+     "zh": "人",
+     "en": "person"
+    },
+    "examples": [
+     {
+      "text": "C'est une personne très gentille.",
+      "translations": {
+       "zh": "这是一个很和善的人。",
+       "en": "This is a very kind person."
+      }
+     }
+    ],
+    "usageNote": "永远是阴性 une personne，即使指男性；ne … personne 是“没有人”。"
+   }
+  ]
+ },
+ {
+  "headword": "gens",
+  "phonetic": "/ʒɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 280,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "des personnes, en général",
+    "translations": {
+     "zh": "人们",
+     "en": "people"
+    },
+    "examples": [
+     {
+      "text": "Les gens sont gentils ici.",
+      "translations": {
+       "zh": "这里的人很友好。",
+       "en": "People are friendly here."
+      }
+     }
+    ],
+    "usageNote": "只用复数，不能说 un gens；一个人是 une personne。"
+   }
+  ]
+ },
+ {
+  "headword": "voisin",
+  "phonetic": "/vwa.zɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "voisins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui habite à côté",
+    "translations": {
+     "zh": "邻居",
+     "en": "neighbour"
+    },
+    "examples": [
+     {
+      "text": "Notre voisin a un chien.",
+      "translations": {
+       "zh": "我们的邻居有一条狗。",
+       "en": "Our neighbour has a dog."
+      }
+     }
+    ],
+    "usageNote": "女邻居是 voisine。"
+   }
+  ]
+ },
+ {
+  "headword": "nom",
+  "phonetic": "/nɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 250,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "noms"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "mot qui désigne une personne ou une chose",
+    "translations": {
+     "zh": "名字；姓；名词",
+     "en": "name; noun"
+    },
+    "examples": [
+     {
+      "text": "Quel est ton nom ?",
+      "translations": {
+       "zh": "你叫什么名字？",
+       "en": "What's your name?"
+      }
+     }
+    ],
+    "usageNote": "prénom 是名，nom (de famille) 是姓。"
+   }
+  ]
+ },
+ {
+  "headword": "âge",
+  "phonetic": "/ɑʒ/",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "âges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nombre d'années depuis la naissance",
+    "translations": {
+     "zh": "年龄",
+     "en": "age"
+    },
+    "examples": [
+     {
+      "text": "Quel âge as-tu ?",
+      "translations": {
+       "zh": "你几岁？",
+       "en": "How old are you?"
+      }
+     }
+    ],
+    "usageNote": "说年龄用 avoir：J'ai dix ans（我十岁），不用 être。"
+   }
+  ]
+ },
+ {
+  "headword": "corps",
+  "phonetic": "/kɔʁ/",
+  "cefr": "A2",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "corps"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "l'ensemble des parties d'une personne ou d'un animal",
+    "translations": {
+     "zh": "身体",
+     "en": "body"
+    },
+    "examples": [
+     {
+      "text": "Le corps humain a deux cent six os.",
+      "translations": {
+       "zh": "人体有两百零六块骨头。",
+       "en": "The human body has 206 bones."
+      }
+     }
+    ],
+    "usageNote": "ps 不发音；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "tête",
+  "phonetic": "/tɛt/",
+  "cefr": "A1",
+  "frequencyRank": 280,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "têtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps où sont les yeux et la bouche",
+    "translations": {
+     "zh": "头",
+     "en": "head"
+    },
+    "examples": [
+     {
+      "text": "J'ai mal à la tête.",
+      "translations": {
+       "zh": "我头疼。",
+       "en": "I have a headache."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "main",
+  "phonetic": "/mɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 230,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mains"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie au bout du bras qui sert à prendre",
+    "translations": {
+     "zh": "手",
+     "en": "hand"
+    },
+    "examples": [
+     {
+      "text": "Donne-moi la main.",
+      "translations": {
+       "zh": "把手给我。",
+       "en": "Give me your hand."
+      }
+     }
+    ],
+    "usageNote": "阴性 la main。"
+   }
+  ]
+ },
+ {
+  "headword": "œil",
+  "phonetic": "/œj/",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "yeux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "organe qui sert à voir",
+    "translations": {
+     "zh": "眼睛",
+     "en": "eye"
+    },
+    "examples": [
+     {
+      "text": "Il a un œil bleu et un œil vert.",
+      "translations": {
+       "zh": "他一只眼睛是蓝色的，一只是绿色的。",
+       "en": "He has one blue eye and one green eye."
+      }
+     }
+    ],
+    "usageNote": "复数完全不规则：un œil → des yeux /de.zjø/。"
+   }
+  ]
+ },
+ {
+  "headword": "bouche",
+  "phonetic": "/buʃ/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bouches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du visage qui sert à manger et à parler",
+    "translations": {
+     "zh": "嘴",
+     "en": "mouth"
+    },
+    "examples": [
+     {
+      "text": "Ouvre la bouche, s'il te plaît.",
+      "translations": {
+       "zh": "请张开嘴。",
+       "en": "Open your mouth, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nez",
+  "phonetic": "/ne/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "nez"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du visage qui sert à sentir",
+    "translations": {
+     "zh": "鼻子",
+     "en": "nose"
+    },
+    "examples": [
+     {
+      "text": "Le clown a un nez rouge.",
+      "translations": {
+       "zh": "小丑有个红鼻子。",
+       "en": "The clown has a red nose."
+      }
+     }
+    ],
+    "usageNote": "z 不发音；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "oreille",
+  "phonetic": "/ɔ.ʁɛj/",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "oreilles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "organe qui sert à entendre",
+    "translations": {
+     "zh": "耳朵",
+     "en": "ear"
+    },
+    "examples": [
+     {
+      "text": "Mon oreille me fait mal.",
+      "translations": {
+       "zh": "我耳朵疼。",
+       "en": "My ear hurts."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bras",
+  "phonetic": "/bʁa/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bras"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps entre l'épaule et la main",
+    "translations": {
+     "zh": "胳膊；手臂",
+     "en": "arm"
+    },
+    "examples": [
+     {
+      "text": "Il a un bras cassé.",
+      "translations": {
+       "zh": "他一只胳膊骨折了。",
+       "en": "He has a broken arm."
+      }
+     }
+    ],
+    "usageNote": "s 不发音；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "jambe",
+  "phonetic": "/ʒɑ̃b/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "jambes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps qui sert à marcher",
+    "translations": {
+     "zh": "腿",
+     "en": "leg"
+    },
+    "examples": [
+     {
+      "text": "Ma jambe me fait mal.",
+      "translations": {
+       "zh": "我腿疼。",
+       "en": "My leg hurts."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pied",
+  "phonetic": "/pje/",
+  "cefr": "A1",
+  "frequencyRank": 550,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pieds"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps au bout de la jambe",
+    "translations": {
+     "zh": "脚",
+     "en": "foot"
+    },
+    "examples": [
+     {
+      "text": "J'ai mal au pied.",
+      "translations": {
+       "zh": "我脚疼。",
+       "en": "My foot hurts."
+      }
+     }
+    ],
+    "usageNote": "à pied = 步行：Je vais à l'école à pied。"
+   }
+  ]
+ },
+ {
+  "headword": "dent",
+  "phonetic": "/dɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "dents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie dure et blanche dans la bouche",
+    "translations": {
+     "zh": "牙齿",
+     "en": "tooth"
+    },
+    "examples": [
+     {
+      "text": "J'ai mal à une dent.",
+      "translations": {
+       "zh": "我有一颗牙疼。",
+       "en": "I have a toothache."
+      }
+     }
+    ],
+    "usageNote": "阴性 une dent。"
+   }
+  ]
+ },
+ {
+  "headword": "cheveu",
+  "phonetic": "/ʃə.vø/",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cheveux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "poil qui pousse sur la tête",
+    "translations": {
+     "zh": "头发",
+     "en": "hair (one strand)"
+    },
+    "examples": [
+     {
+      "text": "Elle a les cheveux longs.",
+      "cloze": "Elle a les {{cheveux}} longs.",
+      "translations": {
+       "zh": "她留着长发。",
+       "en": "She has long hair."
+      }
+     }
+    ],
+    "usageNote": "指“头发”时几乎总用复数 les cheveux；单数 un cheveu 是“一根头发”。"
+   }
+  ]
+ },
+ {
+  "headword": "ventre",
+  "phonetic": "/vɑ̃tʁ/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ventres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie avant du corps, sous la poitrine",
+    "translations": {
+     "zh": "肚子",
+     "en": "belly, stomach"
+    },
+    "examples": [
+     {
+      "text": "J'ai mal au ventre.",
+      "translations": {
+       "zh": "我肚子疼。",
+       "en": "I have a stomach ache."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dos",
+  "phonetic": "/do/",
+  "cefr": "A2",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie arrière du corps",
+    "translations": {
+     "zh": "背",
+     "en": "back"
+    },
+    "examples": [
+     {
+      "text": "Il porte un sac sur le dos.",
+      "translations": {
+       "zh": "他背着一个包。",
+       "en": "He carries a bag on his back."
+      }
+     }
+    ],
+    "usageNote": "s 不发音；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "doigt",
+  "phonetic": "/dwa/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "doigts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chacune des cinq parties au bout de la main",
+    "translations": {
+     "zh": "手指",
+     "en": "finger"
+    },
+    "examples": [
+     {
+      "text": "Je me suis coupé le doigt.",
+      "translations": {
+       "zh": "我割破了手指。",
+       "en": "I cut my finger."
+      }
+     }
+    ],
+    "usageNote": "gt 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "cœur",
+  "phonetic": "/kœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 330,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cœurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "organe qui envoie le sang dans le corps",
+    "translations": {
+     "zh": "心脏；心",
+     "en": "heart"
+    },
+    "examples": [
+     {
+      "text": "Son cœur bat très vite.",
+      "translations": {
+       "zh": "他的心跳得很快。",
+       "en": "His heart is beating very fast."
+      }
+     }
+    ],
+    "usageNote": "par cœur = 背下来：apprendre par cœur（背诵）。"
+   }
+  ]
+ },
+ {
+  "headword": "médecin",
+  "phonetic": "/med.sɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "médecins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui soigne les malades",
+    "translations": {
+     "zh": "医生",
+     "en": "doctor"
+    },
+    "examples": [
+     {
+      "text": "Je dois aller chez le médecin.",
+      "translations": {
+       "zh": "我得去看医生。",
+       "en": "I have to go to the doctor's."
+      }
+     }
+    ],
+    "usageNote": "女医生也常说 un médecin；称呼医生时用 docteur。"
+   }
+  ]
+ },
+ {
+  "headword": "santé",
+  "phonetic": "/sɑ̃.te/",
+  "cefr": "A2",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "santés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "état du corps, quand on va bien ou mal",
+    "translations": {
+     "zh": "健康",
+     "en": "health"
+    },
+    "examples": [
+     {
+      "text": "Le sport est bon pour la santé.",
+      "translations": {
+       "zh": "运动有益健康。",
+       "en": "Exercise is good for your health."
+      }
+     }
+    ],
+    "usageNote": "干杯时说 « À votre santé ! » 或 « Santé ! »。"
+   }
+  ]
+ },
+ {
+  "headword": "pharmacie",
+  "phonetic": "/faʁ.ma.si/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pharmacies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "magasin où l'on achète des médicaments",
+    "translations": {
+     "zh": "药店",
+     "en": "pharmacy, chemist's"
+    },
+    "examples": [
+     {
+      "text": "La pharmacie est en face de la gare.",
+      "translations": {
+       "zh": "药店在火车站对面。",
+       "en": "The pharmacy is opposite the station."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fièvre",
+  "phonetic": "/fjɛvʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "fièvres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "température du corps trop élevée",
+    "translations": {
+     "zh": "发烧",
+     "en": "fever"
+    },
+    "examples": [
+     {
+      "text": "Mon fils a de la fièvre.",
+      "translations": {
+       "zh": "我儿子发烧了。",
+       "en": "My son has a fever."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

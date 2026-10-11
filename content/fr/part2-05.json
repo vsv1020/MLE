@@ -1,0 +1,1398 @@
+[
+ {
+  "headword": "cahier",
+  "phonetic": "/ka.je/",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cahiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "livre de pages blanches pour écrire",
+    "translations": {
+     "zh": "本子；练习本",
+     "en": "exercise book, notebook"
+    },
+    "examples": [
+     {
+      "text": "Ouvrez votre cahier à la page dix.",
+      "translations": {
+       "zh": "把本子翻到第十页。",
+       "en": "Open your exercise book at page ten."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "classe",
+  "phonetic": "/klas/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "classes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe d'élèves; salle où ils travaillent",
+    "translations": {
+     "zh": "班级；教室；课",
+     "en": "class; classroom"
+    },
+    "examples": [
+     {
+      "text": "Il y a vingt élèves dans ma classe.",
+      "translations": {
+       "zh": "我们班有二十个学生。",
+       "en": "There are twenty pupils in my class."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bureau",
+  "phonetic": "/by.ʁo/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bureaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièce ou lieu où l'on travaille",
+    "translations": {
+     "zh": "办公室",
+     "en": "office"
+    },
+    "examples": [
+     {
+      "text": "Mon père est au bureau.",
+      "translations": {
+       "zh": "我爸爸在办公室。",
+       "en": "My father is at the office."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "table pour écrire ou travailler",
+    "translations": {
+     "zh": "书桌；办公桌",
+     "en": "desk"
+    },
+    "examples": [
+     {
+      "text": "Mon cahier est sur le bureau.",
+      "translations": {
+       "zh": "我的本子在书桌上。",
+       "en": "My exercise book is on the desk."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "travail",
+  "phonetic": "/tʁa.vaj/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "travaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "activité qu'on fait pour gagner de l'argent; effort",
+    "translations": {
+     "zh": "工作；劳动",
+     "en": "work; job"
+    },
+    "examples": [
+     {
+      "text": "Elle aime beaucoup son travail.",
+      "translations": {
+       "zh": "她很喜欢她的工作。",
+       "en": "She really likes her job."
+      }
+     }
+    ],
+    "usageNote": "复数不规则：des travaux（常指“工程、施工”）。"
+   }
+  ]
+ },
+ {
+  "headword": "leçon",
+  "phonetic": "/lə.sɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "leçons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce que le professeur enseigne en une fois",
+    "translations": {
+     "zh": "课；课文",
+     "en": "lesson"
+    },
+    "examples": [
+     {
+      "text": "Cette leçon est facile.",
+      "translations": {
+       "zh": "这一课很简单。",
+       "en": "This lesson is easy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "question",
+  "phonetic": "/kɛs.tjɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 280,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "questions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "phrase qu'on dit pour demander quelque chose",
+    "translations": {
+     "zh": "问题；提问",
+     "en": "question"
+    },
+    "examples": [
+     {
+      "text": "J'ai une question, madame.",
+      "translations": {
+       "zh": "老师，我有一个问题。",
+       "en": "I have a question, Miss."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "réponse",
+  "phonetic": "/ʁe.pɔ̃s/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "réponses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "ce qu'on dit ou écrit après une question",
+    "translations": {
+     "zh": "回答；答案",
+     "en": "answer"
+    },
+    "examples": [
+     {
+      "text": "Quelle est la bonne réponse ?",
+      "translations": {
+       "zh": "正确答案是什么？",
+       "en": "What is the right answer?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mot",
+  "phonetic": "/mo/",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mots"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "groupe de lettres qui a un sens",
+    "translations": {
+     "zh": "词；单词",
+     "en": "word"
+    },
+    "examples": [
+     {
+      "text": "Je ne connais pas ce mot.",
+      "translations": {
+       "zh": "我不认识这个词。",
+       "en": "I don't know this word."
+      }
+     }
+    ],
+    "usageNote": "t 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "phrase",
+  "phonetic": "/fʁaz/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "phrases"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "suite de mots qui a un sens complet",
+    "translations": {
+     "zh": "句子",
+     "en": "sentence"
+    },
+    "examples": [
+     {
+      "text": "Lis cette phrase à voix haute.",
+      "translations": {
+       "zh": "大声读这个句子。",
+       "en": "Read this sentence aloud."
+      }
+     }
+    ],
+    "usageNote": "假朋友：phrase 是“句子”，不是英语的 phrase（词组）。"
+   }
+  ]
+ },
+ {
+  "headword": "examen",
+  "phonetic": "/ɛɡ.za.mɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "examens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "épreuve pour contrôler ce qu'on sait",
+    "translations": {
+     "zh": "考试；检查",
+     "en": "exam"
+    },
+    "examples": [
+     {
+      "text": "Demain, j'ai un examen de maths.",
+      "translations": {
+       "zh": "明天我有数学考试。",
+       "en": "Tomorrow I have a maths exam."
+      }
+     }
+    ],
+    "usageNote": "结尾 en 读 /ɛ̃/。"
+   }
+  ]
+ },
+ {
+  "headword": "université",
+  "phonetic": "/y.ni.vɛʁ.si.te/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "universités"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "établissement d'études supérieures",
+    "translations": {
+     "zh": "大学",
+     "en": "university"
+    },
+    "examples": [
+     {
+      "text": "Cette université est très connue.",
+      "translations": {
+       "zh": "这所大学很有名。",
+       "en": "This university is very well known."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "métier",
+  "phonetic": "/me.tje/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "métiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail qu'on fait pour vivre",
+    "translations": {
+     "zh": "职业；行业",
+     "en": "job, trade"
+    },
+    "examples": [
+     {
+      "text": "Quel est ton métier ?",
+      "translations": {
+       "zh": "你是做什么工作的？",
+       "en": "What do you do for a living?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "entreprise",
+  "phonetic": "/ɑ̃.tʁə.pʁiz/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "entreprises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "société qui produit ou vend quelque chose",
+    "translations": {
+     "zh": "企业；公司",
+     "en": "company, business"
+    },
+    "examples": [
+     {
+      "text": "Il travaille dans une grande entreprise.",
+      "translations": {
+       "zh": "他在一家大公司工作。",
+       "en": "He works for a big company."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "policier",
+  "phonetic": "/pɔ.li.sje/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "policiers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui travaille dans la police",
+    "translations": {
+     "zh": "警察",
+     "en": "police officer"
+    },
+    "examples": [
+     {
+      "text": "Le policier aide les enfants.",
+      "translations": {
+       "zh": "警察在帮助孩子们。",
+       "en": "The police officer is helping the children."
+      }
+     }
+    ],
+    "usageNote": "女警察是 policière。"
+   }
+  ]
+ },
+ {
+  "headword": "vendeur",
+  "phonetic": "/vɑ̃.dœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vendeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui vend dans un magasin",
+    "translations": {
+     "zh": "售货员；销售员",
+     "en": "shop assistant, seller"
+    },
+    "examples": [
+     {
+      "text": "Le vendeur est très gentil.",
+      "translations": {
+       "zh": "这个售货员很和气。",
+       "en": "The shop assistant is very nice."
+      }
+     }
+    ],
+    "usageNote": "女售货员是 vendeuse。"
+   }
+  ]
+ },
+ {
+  "headword": "soleil",
+  "phonetic": "/sɔ.lɛj/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "soleils"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "astre qui donne la lumière du jour",
+    "translations": {
+     "zh": "太阳；阳光",
+     "en": "sun"
+    },
+    "examples": [
+     {
+      "text": "Le soleil brille aujourd'hui.",
+      "translations": {
+       "zh": "今天阳光明媚。",
+       "en": "The sun is shining today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pluie",
+  "phonetic": "/plɥi/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pluies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "eau qui tombe des nuages",
+    "translations": {
+     "zh": "雨",
+     "en": "rain"
+    },
+    "examples": [
+     {
+      "text": "J'aime le bruit de la pluie.",
+      "translations": {
+       "zh": "我喜欢下雨的声音。",
+       "en": "I like the sound of the rain."
+      }
+     }
+    ],
+    "usageNote": "“下雨”说 il pleut。"
+   }
+  ]
+ },
+ {
+  "headword": "neige",
+  "phonetic": "/nɛʒ/",
+  "cefr": "A1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "neiges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "eau gelée qui tombe en flocons blancs",
+    "translations": {
+     "zh": "雪",
+     "en": "snow"
+    },
+    "examples": [
+     {
+      "text": "Les enfants jouent dans la neige.",
+      "translations": {
+       "zh": "孩子们在雪地里玩。",
+       "en": "The children are playing in the snow."
+      }
+     }
+    ],
+    "usageNote": "“下雪”说 il neige。"
+   }
+  ]
+ },
+ {
+  "headword": "mer",
+  "phonetic": "/mɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "mers"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande étendue d'eau salée",
+    "translations": {
+     "zh": "海；大海",
+     "en": "sea"
+    },
+    "examples": [
+     {
+      "text": "La mer est calme aujourd'hui.",
+      "translations": {
+       "zh": "今天海面很平静。",
+       "en": "The sea is calm today."
+      }
+     }
+    ],
+    "usageNote": "与 mère（母亲）发音相同。"
+   }
+  ]
+ },
+ {
+  "headword": "montagne",
+  "phonetic": "/mɔ̃.taɲ/",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "montagnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très haute élévation de terre",
+    "translations": {
+     "zh": "山；山区",
+     "en": "mountain"
+    },
+    "examples": [
+     {
+      "text": "Nous allons à la montagne en hiver.",
+      "translations": {
+       "zh": "我们冬天去山里。",
+       "en": "We go to the mountains in winter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "arbre",
+  "phonetic": "/aʁbʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "arbres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande plante avec un tronc et des branches",
+    "translations": {
+     "zh": "树",
+     "en": "tree"
+    },
+    "examples": [
+     {
+      "text": "Cet arbre est très vieux.",
+      "translations": {
+       "zh": "这棵树很老了。",
+       "en": "This tree is very old."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fleur",
+  "phonetic": "/flœʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "fleurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie colorée d'une plante",
+    "translations": {
+     "zh": "花",
+     "en": "flower"
+    },
+    "examples": [
+     {
+      "text": "Cette fleur sent bon.",
+      "translations": {
+       "zh": "这朵花很香。",
+       "en": "This flower smells nice."
+      }
+     }
+    ],
+    "usageNote": "阴性 une fleur，虽然以 -eur 结尾。"
+   }
+  ]
+ },
+ {
+  "headword": "ciel",
+  "phonetic": "/sjɛl/",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cieux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "espace au-dessus de la terre",
+    "translations": {
+     "zh": "天空",
+     "en": "sky"
+    },
+    "examples": [
+     {
+      "text": "Le ciel est bleu.",
+      "translations": {
+       "zh": "天空是蓝色的。",
+       "en": "The sky is blue."
+      }
+     }
+    ],
+    "usageNote": "复数 les cieux 多用于文学或宗教；说天气时也用 des ciels。"
+   }
+  ]
+ },
+ {
+  "headword": "vent",
+  "phonetic": "/vɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vents"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "air qui bouge",
+    "translations": {
+     "zh": "风",
+     "en": "wind"
+    },
+    "examples": [
+     {
+      "text": "Il y a beaucoup de vent aujourd'hui.",
+      "translations": {
+       "zh": "今天风很大。",
+       "en": "It's very windy today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nuage",
+  "phonetic": "/nɥaʒ/",
+  "cefr": "A1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "nuages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "masse blanche ou grise dans le ciel",
+    "translations": {
+     "zh": "云",
+     "en": "cloud"
+    },
+    "examples": [
+     {
+      "text": "Il n'y a pas un nuage dans le ciel.",
+      "translations": {
+       "zh": "天上一朵云都没有。",
+       "en": "There isn't a cloud in the sky."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lune",
+  "phonetic": "/lyn/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "lunes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "astre qui brille la nuit",
+    "translations": {
+     "zh": "月亮",
+     "en": "moon"
+    },
+    "examples": [
+     {
+      "text": "La lune est pleine ce soir.",
+      "translations": {
+       "zh": "今晚是满月。",
+       "en": "There's a full moon tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "étoile",
+  "phonetic": "/e.twal/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "étoiles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit point brillant dans le ciel la nuit",
+    "translations": {
+     "zh": "星星",
+     "en": "star"
+    },
+    "examples": [
+     {
+      "text": "Regarde cette étoile, elle brille !",
+      "translations": {
+       "zh": "看那颗星星，好亮！",
+       "en": "Look at that star, it's shining!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rivière",
+  "phonetic": "/ʁi.vjɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "rivières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "cours d'eau",
+    "translations": {
+     "zh": "河；小河",
+     "en": "river"
+    },
+    "examples": [
+     {
+      "text": "On se baigne dans la rivière.",
+      "translations": {
+       "zh": "我们在河里游泳。",
+       "en": "We swim in the river."
+      }
+     }
+    ],
+    "usageNote": "流入大海的大河叫 un fleuve。"
+   }
+  ]
+ },
+ {
+  "headword": "lac",
+  "phonetic": "/lak/",
+  "cefr": "A2",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lacs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande étendue d'eau entourée de terre",
+    "translations": {
+     "zh": "湖",
+     "en": "lake"
+    },
+    "examples": [
+     {
+      "text": "Ce lac est très profond.",
+      "translations": {
+       "zh": "这个湖很深。",
+       "en": "This lake is very deep."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "forêt",
+  "phonetic": "/fɔ.ʁɛ/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "forêts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand espace couvert d'arbres",
+    "translations": {
+     "zh": "森林",
+     "en": "forest"
+    },
+    "examples": [
+     {
+      "text": "Nous nous promenons dans la forêt.",
+      "translations": {
+       "zh": "我们在森林里散步。",
+       "en": "We're walking in the forest."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "herbe",
+  "phonetic": "/ɛʁb/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "herbes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite plante verte qui couvre le sol",
+    "translations": {
+     "zh": "草",
+     "en": "grass"
+    },
+    "examples": [
+     {
+      "text": "Le chien court dans l'herbe.",
+      "cloze": "Le chien court dans l'{{herbe}}.",
+      "translations": {
+       "zh": "狗在草地上跑。",
+       "en": "The dog is running in the grass."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "campagne",
+  "phonetic": "/kɑ̃.paɲ/",
+  "cefr": "A2",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "campagnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "région en dehors des villes, avec des champs",
+    "translations": {
+     "zh": "乡村；农村",
+     "en": "countryside"
+    },
+    "examples": [
+     {
+      "text": "Mes grands-parents vivent à la campagne.",
+      "translations": {
+       "zh": "我祖父母住在乡下。",
+       "en": "My grandparents live in the countryside."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chien",
+  "phonetic": "/ʃjɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chiens"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "animal domestique qui aboie",
+    "translations": {
+     "zh": "狗",
+     "en": "dog"
+    },
+    "examples": [
+     {
+      "text": "Mon chien s'appelle Max.",
+      "translations": {
+       "zh": "我的狗叫马克斯。",
+       "en": "My dog is called Max."
+      }
+     }
+    ],
+    "usageNote": "母狗是 chienne。"
+   }
+  ]
+ },
+ {
+  "headword": "chat",
+  "phonetic": "/ʃa/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit animal domestique qui miaule",
+    "translations": {
+     "zh": "猫",
+     "en": "cat"
+    },
+    "examples": [
+     {
+      "text": "Le chat boit du lait.",
+      "translations": {
+       "zh": "猫在喝牛奶。",
+       "en": "The cat is drinking milk."
+      }
+     }
+    ],
+    "usageNote": "t 不发音；母猫是 chatte。"
+   }
+  ]
+ },
+ {
+  "headword": "oiseau",
+  "phonetic": "/wa.zo/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "oiseaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "animal avec des ailes et des plumes",
+    "translations": {
+     "zh": "鸟",
+     "en": "bird"
+    },
+    "examples": [
+     {
+      "text": "Cet oiseau chante très bien.",
+      "translations": {
+       "zh": "这只鸟唱得很好听。",
+       "en": "This bird sings very well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cheval",
+  "phonetic": "/ʃə.val/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chevaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand animal qu'on peut monter",
+    "translations": {
+     "zh": "马",
+     "en": "horse"
+    },
+    "examples": [
+     {
+      "text": "Elle monte à cheval le samedi.",
+      "translations": {
+       "zh": "她每周六骑马。",
+       "en": "She goes horse riding on Saturdays."
+      }
+     }
+    ],
+    "usageNote": "复数不规则：des chevaux。"
+   }
+  ]
+ },
+ {
+  "headword": "vache",
+  "phonetic": "/vaʃ/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vaches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand animal de la ferme qui donne du lait",
+    "translations": {
+     "zh": "奶牛；母牛",
+     "en": "cow"
+    },
+    "examples": [
+     {
+      "text": "La vache mange de l'herbe.",
+      "translations": {
+       "zh": "奶牛在吃草。",
+       "en": "The cow is eating grass."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cochon",
+  "phonetic": "/kɔ.ʃɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cochons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "animal rose de la ferme",
+    "translations": {
+     "zh": "猪",
+     "en": "pig"
+    },
+    "examples": [
+     {
+      "text": "Le cochon est dans la boue.",
+      "translations": {
+       "zh": "猪在泥里。",
+       "en": "The pig is in the mud."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lapin",
+  "phonetic": "/la.pɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lapins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit animal aux longues oreilles",
+    "translations": {
+     "zh": "兔子",
+     "en": "rabbit"
+    },
+    "examples": [
+     {
+      "text": "Le lapin a de longues oreilles.",
+      "translations": {
+       "zh": "兔子有长长的耳朵。",
+       "en": "The rabbit has long ears."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "souris",
+  "phonetic": "/su.ʁi/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "souris"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très petit animal gris",
+    "translations": {
+     "zh": "老鼠",
+     "en": "mouse"
+    },
+    "examples": [
+     {
+      "text": "Le chat court après la souris.",
+      "translations": {
+       "zh": "猫在追老鼠。",
+       "en": "The cat is chasing the mouse."
+      }
+     }
+    ],
+    "usageNote": "单复数同形；也指电脑的“鼠标”。"
+   }
+  ]
+ },
+ {
+  "headword": "lion",
+  "phonetic": "/ljɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand animal sauvage d'Afrique",
+    "translations": {
+     "zh": "狮子",
+     "en": "lion"
+    },
+    "examples": [
+     {
+      "text": "Le lion est le roi des animaux.",
+      "translations": {
+       "zh": "狮子是百兽之王。",
+       "en": "The lion is the king of the animals."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "éléphant",
+  "phonetic": "/e.le.fɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "éléphants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "très gros animal avec une trompe",
+    "translations": {
+     "zh": "大象",
+     "en": "elephant"
+    },
+    "examples": [
+     {
+      "text": "Cet éléphant est énorme.",
+      "translations": {
+       "zh": "这头大象非常大。",
+       "en": "This elephant is huge."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mouton",
+  "phonetic": "/mu.tɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "moutons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "animal de la ferme qui donne de la laine",
+    "translations": {
+     "zh": "绵羊；羊肉",
+     "en": "sheep"
+    },
+    "examples": [
+     {
+      "text": "Il y a un mouton dans le champ.",
+      "translations": {
+       "zh": "田里有一只羊。",
+       "en": "There's a sheep in the field."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "animal",
+  "phonetic": "/a.ni.mal/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "animaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "être vivant qui peut bouger",
+    "translations": {
+     "zh": "动物",
+     "en": "animal"
+    },
+    "examples": [
+     {
+      "text": "Le chien est un animal fidèle.",
+      "translations": {
+       "zh": "狗是一种忠诚的动物。",
+       "en": "The dog is a loyal animal."
+      }
+     }
+    ],
+    "usageNote": "复数不规则：des animaux。"
+   }
+  ]
+ },
+ {
+  "headword": "canard",
+  "phonetic": "/ka.naʁ/",
+  "cefr": "A2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "canards"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "oiseau qui nage",
+    "translations": {
+     "zh": "鸭子",
+     "en": "duck"
+    },
+    "examples": [
+     {
+      "text": "Un canard nage sur le lac.",
+      "translations": {
+       "zh": "一只鸭子在湖上游。",
+       "en": "A duck is swimming on the lake."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rouge",
+  "phonetic": "/ʁuʒ/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "irregularForms": "阴阳性同形；复数 rouges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur du sang",
+    "translations": {
+     "zh": "红色的",
+     "en": "red"
+    },
+    "examples": [
+     {
+      "text": "J'ai un vélo rouge.",
+      "translations": {
+       "zh": "我有一辆红色自行车。",
+       "en": "I have a red bike."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bleu",
+  "phonetic": "/blø/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "irregularForms": "阴性 bleue；复数 bleus, bleues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur du ciel",
+    "translations": {
+     "zh": "蓝色的",
+     "en": "blue"
+    },
+    "examples": [
+     {
+      "text": "Mon sac est bleu.",
+      "translations": {
+       "zh": "我的包是蓝色的。",
+       "en": "My bag is blue."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

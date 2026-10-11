@@ -1,0 +1,1367 @@
+[
+ {
+  "headword": "vert",
+  "phonetic": "/vɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "irregularForms": "阴性 verte /vɛʁt/；复数 verts, vertes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur de l'herbe",
+    "translations": {
+     "zh": "绿色的",
+     "en": "green"
+    },
+    "examples": [
+     {
+      "text": "Le feu est vert, on peut passer.",
+      "translations": {
+       "zh": "绿灯了，我们可以过了。",
+       "en": "The light is green, we can go."
+      }
+     }
+    ],
+    "usageNote": "与 verre（杯子）发音相同。"
+   }
+  ]
+ },
+ {
+  "headword": "jaune",
+  "phonetic": "/ʒon/",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "irregularForms": "阴阳性同形；复数 jaunes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur du citron",
+    "translations": {
+     "zh": "黄色的",
+     "en": "yellow"
+    },
+    "examples": [
+     {
+      "text": "Elle a une robe jaune.",
+      "translations": {
+       "zh": "她有一条黄色的连衣裙。",
+       "en": "She has a yellow dress."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "noir",
+  "phonetic": "/nwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "irregularForms": "阴性 noire；复数 noirs, noires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur de la nuit",
+    "translations": {
+     "zh": "黑色的",
+     "en": "black"
+    },
+    "examples": [
+     {
+      "text": "Mon chat est noir.",
+      "translations": {
+       "zh": "我的猫是黑色的。",
+       "en": "My cat is black."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "blanc",
+  "phonetic": "/blɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "irregularForms": "阴性 blanche /blɑ̃ʃ/；复数 blancs, blanches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur de la neige",
+    "translations": {
+     "zh": "白色的",
+     "en": "white"
+    },
+    "examples": [
+     {
+      "text": "Il porte un pull blanc.",
+      "translations": {
+       "zh": "他穿着一件白毛衣。",
+       "en": "He's wearing a white jumper."
+      }
+     }
+    ],
+    "usageNote": "阴性不规则：une chemise blanche。"
+   }
+  ]
+ },
+ {
+  "headword": "gris",
+  "phonetic": "/ɡʁi/",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "irregularForms": "阴性 grise；复数 gris, grises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "entre le blanc et le noir",
+    "translations": {
+     "zh": "灰色的",
+     "en": "grey"
+    },
+    "examples": [
+     {
+      "text": "Le ciel est gris ce matin.",
+      "translations": {
+       "zh": "今天早上天灰蒙蒙的。",
+       "en": "The sky is grey this morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rose",
+  "phonetic": "/ʁoz/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "irregularForms": "阴阳性同形；复数 roses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "rouge très clair",
+    "translations": {
+     "zh": "粉红色的",
+     "en": "pink"
+    },
+    "examples": [
+     {
+      "text": "Elle a un sac rose.",
+      "translations": {
+       "zh": "她有一个粉色的包。",
+       "en": "She has a pink bag."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "fleur souvent rouge, rose ou blanche, qui sent bon",
+    "translations": {
+     "zh": "玫瑰（阴性 une rose）",
+     "en": "rose"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "marron",
+  "phonetic": "/ma.ʁɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "irregularForms": "不变：des yeux marron"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur du chocolat",
+    "translations": {
+     "zh": "棕色的；褐色的",
+     "en": "brown"
+    },
+    "examples": [
+     {
+      "text": "J'ai les yeux marron.",
+      "translations": {
+       "zh": "我的眼睛是棕色的。",
+       "en": "I have brown eyes."
+      }
+     }
+    ],
+    "usageNote": "颜色 marron 不变性也不变数；说头发棕色常用 brun。"
+   }
+  ]
+ },
+ {
+  "headword": "violet",
+  "phonetic": "/vjɔ.lɛ/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "irregularForms": "阴性 violette；复数 violets, violettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "entre le bleu et le rouge",
+    "translations": {
+     "zh": "紫色的",
+     "en": "purple"
+    },
+    "examples": [
+     {
+      "text": "Il a un pull violet.",
+      "translations": {
+       "zh": "他有一件紫色毛衣。",
+       "en": "He has a purple jumper."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "couleur",
+  "phonetic": "/ku.lœʁ/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "couleurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "le rouge, le bleu, le vert, etc.",
+    "translations": {
+     "zh": "颜色",
+     "en": "colour"
+    },
+    "examples": [
+     {
+      "text": "Quelle est ta couleur préférée ?",
+      "translations": {
+       "zh": "你最喜欢什么颜色？",
+       "en": "What's your favourite colour?"
+      }
+     }
+    ],
+    "usageNote": "阴性 une couleur，虽然以 -eur 结尾。"
+   }
+  ]
+ },
+ {
+  "headword": "musique",
+  "phonetic": "/my.zik/",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "musiques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "art des sons",
+    "translations": {
+     "zh": "音乐",
+     "en": "music"
+    },
+    "examples": [
+     {
+      "text": "J'écoute de la musique.",
+      "translations": {
+       "zh": "我在听音乐。",
+       "en": "I'm listening to music."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "film",
+  "phonetic": "/film/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "films"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "histoire qu'on regarde au cinéma ou à la télé",
+    "translations": {
+     "zh": "电影",
+     "en": "film, movie"
+    },
+    "examples": [
+     {
+      "text": "Ce film est très drôle.",
+      "translations": {
+       "zh": "这部电影很好笑。",
+       "en": "This film is very funny."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sport",
+  "phonetic": "/spɔʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sports"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "activité physique, comme le football ou la natation",
+    "translations": {
+     "zh": "运动；体育",
+     "en": "sport"
+    },
+    "examples": [
+     {
+      "text": "Je fais du sport le week-end.",
+      "translations": {
+       "zh": "我周末做运动。",
+       "en": "I do sport at the weekend."
+      }
+     }
+    ],
+    "usageNote": "“做运动”说 faire du sport。"
+   }
+  ]
+ },
+ {
+  "headword": "jeu",
+  "phonetic": "/ʒø/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jeux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "activité pour s'amuser",
+    "translations": {
+     "zh": "游戏",
+     "en": "game"
+    },
+    "examples": [
+     {
+      "text": "Ce jeu est très amusant.",
+      "translations": {
+       "zh": "这个游戏很好玩。",
+       "en": "This game is great fun."
+      }
+     }
+    ],
+    "usageNote": "复数 des jeux；jeu vidéo = 电子游戏。"
+   }
+  ]
+ },
+ {
+  "headword": "vacances",
+  "phonetic": "/va.kɑ̃s/",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "période où l'on ne travaille pas et ne va pas à l'école",
+    "translations": {
+     "zh": "假期；度假",
+     "en": "holidays, vacation"
+    },
+    "examples": [
+     {
+      "text": "Bonnes vacances !",
+      "translations": {
+       "zh": "假期愉快！",
+       "en": "Have a good holiday!"
+      }
+     }
+    ],
+    "usageNote": "表示“假期”时总用复数 les vacances。"
+   }
+  ]
+ },
+ {
+  "headword": "chanson",
+  "phonetic": "/ʃɑ̃.sɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chansons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "texte qu'on chante avec de la musique",
+    "translations": {
+     "zh": "歌曲",
+     "en": "song"
+    },
+    "examples": [
+     {
+      "text": "C'est ma chanson préférée.",
+      "translations": {
+       "zh": "这是我最喜欢的歌。",
+       "en": "It's my favourite song."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "football",
+  "phonetic": "/fut.bol/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sport où deux équipes jouent au ballon avec les pieds",
+    "translations": {
+     "zh": "足球（运动）",
+     "en": "football, soccer"
+    },
+    "examples": [
+     {
+      "text": "Il joue au football avec ses amis.",
+      "translations": {
+       "zh": "他和朋友们踢足球。",
+       "en": "He plays football with his friends."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 le foot；球本身叫 un ballon。"
+   }
+  ]
+ },
+ {
+  "headword": "fête",
+  "phonetic": "/fɛt/",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "fêtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "moment où l'on s'amuse ensemble; jour spécial",
+    "translations": {
+     "zh": "聚会；节日",
+     "en": "party; festival"
+    },
+    "examples": [
+     {
+      "text": "On fait une fête samedi soir.",
+      "translations": {
+       "zh": "我们星期六晚上开派对。",
+       "en": "We're having a party on Saturday night."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cadeau",
+  "phonetic": "/ka.do/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cadeaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet qu'on offre à quelqu'un",
+    "translations": {
+     "zh": "礼物",
+     "en": "present, gift"
+    },
+    "examples": [
+     {
+      "text": "Merci pour ce beau cadeau !",
+      "translations": {
+       "zh": "谢谢你送的漂亮礼物！",
+       "en": "Thank you for this lovely present!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "anniversaire",
+  "phonetic": "/a.ni.vɛʁ.sɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "anniversaires"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jour où l'on fête sa naissance",
+    "translations": {
+     "zh": "生日；周年纪念",
+     "en": "birthday; anniversary"
+    },
+    "examples": [
+     {
+      "text": "Joyeux anniversaire, maman !",
+      "translations": {
+       "zh": "妈妈，生日快乐！",
+       "en": "Happy birthday, Mum!"
+      }
+     }
+    ],
+    "usageNote": "阳性 un anniversaire，虽然以 -e 结尾。"
+   }
+  ]
+ },
+ {
+  "headword": "voyage",
+  "phonetic": "/vwa.jaʒ/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "voyages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "action d'aller dans un pays ou une ville loin de chez soi",
+    "translations": {
+     "zh": "旅行",
+     "en": "trip, journey"
+    },
+    "examples": [
+     {
+      "text": "Bon voyage !",
+      "translations": {
+       "zh": "一路顺风！",
+       "en": "Have a good trip!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "danse",
+  "phonetic": "/dɑ̃s/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "danses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "suite de mouvements au rythme de la musique",
+    "translations": {
+     "zh": "舞蹈；跳舞",
+     "en": "dance"
+    },
+    "examples": [
+     {
+      "text": "Ma sœur fait de la danse.",
+      "translations": {
+       "zh": "我妹妹在学跳舞。",
+       "en": "My sister does dance."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dessin",
+  "phonetic": "/de.sɛ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dessins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "image faite avec un crayon",
+    "translations": {
+     "zh": "图画；绘画",
+     "en": "drawing"
+    },
+    "examples": [
+     {
+      "text": "Regarde mon dessin, maman !",
+      "translations": {
+       "zh": "妈妈，看我画的画！",
+       "en": "Look at my drawing, Mum!"
+      }
+     }
+    ],
+    "usageNote": "dessin animé = 动画片。"
+   }
+  ]
+ },
+ {
+  "headword": "piano",
+  "phonetic": "/pja.no/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pianos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand instrument de musique à touches",
+    "translations": {
+     "zh": "钢琴",
+     "en": "piano"
+    },
+    "examples": [
+     {
+      "text": "Elle joue du piano depuis cinq ans.",
+      "translations": {
+       "zh": "她弹钢琴五年了。",
+       "en": "She has played the piano for five years."
+      }
+     }
+    ],
+    "usageNote": "演奏乐器用 jouer de；玩球类、游戏用 jouer à。"
+   }
+  ]
+ },
+ {
+  "headword": "guitare",
+  "phonetic": "/ɡi.taʁ/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "guitares"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "instrument de musique à six cordes",
+    "translations": {
+     "zh": "吉他",
+     "en": "guitar"
+    },
+    "examples": [
+     {
+      "text": "Mon frère joue de la guitare.",
+      "translations": {
+       "zh": "我哥哥弹吉他。",
+       "en": "My brother plays the guitar."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "joie",
+  "phonetic": "/ʒwa/",
+  "cefr": "A2",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "joies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sentiment d'être très content",
+    "translations": {
+     "zh": "快乐；喜悦",
+     "en": "joy"
+    },
+    "examples": [
+     {
+      "text": "Elle saute de joie.",
+      "translations": {
+       "zh": "她高兴得跳了起来。",
+       "en": "She's jumping for joy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "peur",
+  "phonetic": "/pœʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "peurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sentiment qu'on a devant un danger",
+    "translations": {
+     "zh": "害怕；恐惧",
+     "en": "fear"
+    },
+    "examples": [
+     {
+      "text": "J'ai peur des chiens.",
+      "translations": {
+       "zh": "我怕狗。",
+       "en": "I'm afraid of dogs."
+      }
+     }
+    ],
+    "usageNote": "avoir peur de … = 害怕……；阴性 la peur。"
+   }
+  ]
+ },
+ {
+  "headword": "amour",
+  "phonetic": "/a.muʁ/",
+  "cefr": "A2",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "amours"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sentiment fort pour quelqu'un",
+    "translations": {
+     "zh": "爱；爱情",
+     "en": "love"
+    },
+    "examples": [
+     {
+      "text": "L'amour rend heureux.",
+      "cloze": "L'{{amour}} rend heureux.",
+      "translations": {
+       "zh": "爱让人幸福。",
+       "en": "Love makes you happy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "argent",
+  "phonetic": "/aʁ.ʒɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pièces et billets pour acheter des choses",
+    "translations": {
+     "zh": "钱",
+     "en": "money"
+    },
+    "examples": [
+     {
+      "text": "Cet argent est pour toi.",
+      "translations": {
+       "zh": "这些钱是给你的。",
+       "en": "This money is for you."
+      }
+     }
+    ],
+    "usageNote": "不可数：de l'argent。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "métal blanc et précieux",
+    "translations": {
+     "zh": "银",
+     "en": "silver"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "prix",
+  "phonetic": "/pʁi/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "prix"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "somme qu'il faut payer",
+    "translations": {
+     "zh": "价格",
+     "en": "price"
+    },
+    "examples": [
+     {
+      "text": "Quel est le prix de ce livre ?",
+      "translations": {
+       "zh": "这本书多少钱？",
+       "en": "What is the price of this book?"
+      }
+     }
+    ],
+    "usageNote": "x 不发音；单复数同形。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "récompense donnée au gagnant",
+    "translations": {
+     "zh": "奖；奖品",
+     "en": "prize"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "euro",
+  "phonetic": "/ø.ʁo/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "euros"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "monnaie de la France et de nombreux pays d'Europe",
+    "translations": {
+     "zh": "欧元",
+     "en": "euro"
+    },
+    "examples": [
+     {
+      "text": "Ce pain coûte un euro.",
+      "translations": {
+       "zh": "这个面包一欧元。",
+       "en": "This bread costs one euro."
+      }
+     }
+    ],
+    "usageNote": "要联诵：deux euros /dø.zø.ʁo/。"
+   }
+  ]
+ },
+ {
+  "headword": "centime",
+  "phonetic": "/sɑ̃.tim/",
+  "cefr": "A2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "centimes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "centième partie d'un euro",
+    "translations": {
+     "zh": "欧分；分",
+     "en": "cent"
+    },
+    "examples": [
+     {
+      "text": "Il me manque un centime.",
+      "translations": {
+       "zh": "我还差一分钱。",
+       "en": "I'm one cent short."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "marché",
+  "phonetic": "/maʁ.ʃe/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "marchés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on vend des fruits, des légumes, etc.",
+    "translations": {
+     "zh": "集市；市场",
+     "en": "market"
+    },
+    "examples": [
+     {
+      "text": "Le samedi, je vais au marché.",
+      "translations": {
+       "zh": "每周六我去集市。",
+       "en": "On Saturdays I go to the market."
+      }
+     }
+    ],
+    "usageNote": "bon marché = 便宜（不变）。"
+   }
+  ]
+ },
+ {
+  "headword": "carte",
+  "phonetic": "/kaʁt/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "cartes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit rectangle de carton ou de plastique",
+    "translations": {
+     "zh": "卡片；卡",
+     "en": "card"
+    },
+    "examples": [
+     {
+      "text": "Je peux payer par carte ?",
+      "translations": {
+       "zh": "我可以刷卡吗？",
+       "en": "Can I pay by card?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "dessin d'un pays ou d'une région",
+    "translations": {
+     "zh": "地图",
+     "en": "map"
+    }
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "liste des plats d'un restaurant",
+    "translations": {
+     "zh": "菜单",
+     "en": "menu"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "caisse",
+  "phonetic": "/kɛs/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "caisses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "endroit où l'on paie dans un magasin",
+    "translations": {
+     "zh": "收银台",
+     "en": "checkout, till"
+    },
+    "examples": [
+     {
+      "text": "Payez à la caisse, s'il vous plaît.",
+      "translations": {
+       "zh": "请到收银台付款。",
+       "en": "Please pay at the checkout."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "grande boîte",
+    "translations": {
+     "zh": "箱子",
+     "en": "crate, box"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "client",
+  "phonetic": "/kli.jɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "clients"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui achète dans un magasin",
+    "translations": {
+     "zh": "顾客；客户",
+     "en": "customer"
+    },
+    "examples": [
+     {
+      "text": "Le client attend à la caisse.",
+      "translations": {
+       "zh": "顾客在收银台等着。",
+       "en": "The customer is waiting at the checkout."
+      }
+     }
+    ],
+    "usageNote": "女顾客是 cliente。"
+   }
+  ]
+ },
+ {
+  "headword": "monnaie",
+  "phonetic": "/mɔ.nɛ/",
+  "cefr": "A2",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "monnaies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petites pièces; argent d'un pays",
+    "translations": {
+     "zh": "零钱；货币",
+     "en": "change; currency"
+    },
+    "examples": [
+     {
+      "text": "Vous avez de la monnaie ?",
+      "translations": {
+       "zh": "您有零钱吗？",
+       "en": "Do you have any change?"
+      }
+     }
+    ],
+    "usageNote": "假朋友：monnaie 是“零钱、货币”，英语 money 是 argent。"
+   }
+  ]
+ },
+ {
+  "headword": "langue",
+  "phonetic": "/lɑ̃ɡ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "langues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "système de mots qu'utilise un peuple",
+    "translations": {
+     "zh": "语言",
+     "en": "language"
+    },
+    "examples": [
+     {
+      "text": "Le chinois est une langue difficile.",
+      "translations": {
+       "zh": "汉语是一门难学的语言。",
+       "en": "Chinese is a difficult language."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "organe dans la bouche",
+    "translations": {
+     "zh": "舌头",
+     "en": "tongue"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "français",
+  "phonetic": "/fʁɑ̃.sɛ/",
+  "cefr": "A1",
+  "frequencyRank": 250,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "langue parlée en France",
+    "translations": {
+     "zh": "法语",
+     "en": "French (language)"
+    },
+    "examples": [
+     {
+      "text": "J'apprends le français.",
+      "translations": {
+       "zh": "我在学法语。",
+       "en": "I'm learning French."
+      }
+     }
+    ],
+    "usageNote": "语言名小写 le français；“法国人”首字母大写 un Français。"
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de France",
+    "translations": {
+     "zh": "法国的",
+     "en": "French"
+    },
+    "examples": [
+     {
+      "text": "Le fromage français est célèbre.",
+      "translations": {
+       "zh": "法国奶酪很有名。",
+       "en": "French cheese is famous."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chinois",
+  "phonetic": "/ʃi.nwa/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "langue parlée en Chine",
+    "translations": {
+     "zh": "汉语；中文",
+     "en": "Chinese (language)"
+    },
+    "examples": [
+     {
+      "text": "Mon ami parle chinois.",
+      "translations": {
+       "zh": "我的朋友会说中文。",
+       "en": "My friend speaks Chinese."
+      }
+     }
+    ],
+    "usageNote": "“中国人”首字母大写 un Chinois。"
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de Chine",
+    "translations": {
+     "zh": "中国的",
+     "en": "Chinese"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "anglais",
+  "phonetic": "/ɑ̃.ɡlɛ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "langue parlée en Angleterre, aux États-Unis, etc.",
+    "translations": {
+     "zh": "英语",
+     "en": "English (language)"
+    },
+    "examples": [
+     {
+      "text": "Tu parles anglais ?",
+      "translations": {
+       "zh": "你会说英语吗？",
+       "en": "Do you speak English?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "d'Angleterre",
+    "translations": {
+     "zh": "英国的；英格兰的",
+     "en": "English"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "espagnol",
+  "phonetic": "/ɛs.pa.ɲɔl/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "langue parlée en Espagne et en Amérique latine",
+    "translations": {
+     "zh": "西班牙语",
+     "en": "Spanish (language)"
+    },
+    "examples": [
+     {
+      "text": "Il parle espagnol et français.",
+      "translations": {
+       "zh": "他会说西班牙语和法语。",
+       "en": "He speaks Spanish and French."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "d'Espagne",
+    "translations": {
+     "zh": "西班牙的",
+     "en": "Spanish"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "allemand",
+  "phonetic": "/al.mɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "langue parlée en Allemagne",
+    "translations": {
+     "zh": "德语",
+     "en": "German (language)"
+    },
+    "examples": [
+     {
+      "text": "Je ne parle pas allemand.",
+      "translations": {
+       "zh": "我不会说德语。",
+       "en": "I don't speak German."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "d'Allemagne",
+    "translations": {
+     "zh": "德国的",
+     "en": "German"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "japonais",
+  "phonetic": "/ʒa.pɔ.nɛ/",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "langue parlée au Japon",
+    "translations": {
+     "zh": "日语",
+     "en": "Japanese (language)"
+    },
+    "examples": [
+     {
+      "text": "Il étudie le japonais.",
+      "translations": {
+       "zh": "他在学日语。",
+       "en": "He is studying Japanese."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "du Japon",
+    "translations": {
+     "zh": "日本的",
+     "en": "Japanese"
+    }
+   }
+  ]
+ }
+]

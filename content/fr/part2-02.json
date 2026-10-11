@@ -1,0 +1,1477 @@
+[
+ {
+  "headword": "rhume",
+  "phonetic": "/ʁym/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "rhumes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite maladie du nez et de la gorge",
+    "translations": {
+     "zh": "感冒",
+     "en": "cold"
+    },
+    "examples": [
+     {
+      "text": "J'ai un gros rhume.",
+      "translations": {
+       "zh": "我得了重感冒。",
+       "en": "I have a bad cold."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "médicament",
+  "phonetic": "/me.di.ka.mɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "médicaments"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "produit qu'on prend pour guérir",
+    "translations": {
+     "zh": "药",
+     "en": "medicine"
+    },
+    "examples": [
+     {
+      "text": "Prends ce médicament après le repas.",
+      "translations": {
+       "zh": "饭后吃这个药。",
+       "en": "Take this medicine after the meal."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dentiste",
+  "phonetic": "/dɑ̃.tist/",
+  "cefr": "A2",
+  "frequencyRank": 5500,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "dentistes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "médecin qui soigne les dents",
+    "translations": {
+     "zh": "牙医",
+     "en": "dentist"
+    },
+    "examples": [
+     {
+      "text": "J'ai rendez-vous chez le dentiste.",
+      "translations": {
+       "zh": "我约了牙医。",
+       "en": "I have an appointment at the dentist's."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pain",
+  "phonetic": "/pɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pains"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "aliment fait avec de la farine et cuit au four",
+    "translations": {
+     "zh": "面包",
+     "en": "bread"
+    },
+    "examples": [
+     {
+      "text": "Je mange du pain le matin.",
+      "translations": {
+       "zh": "我早上吃面包。",
+       "en": "I eat bread in the morning."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fromage",
+  "phonetic": "/fʁɔ.maʒ/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fromages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "aliment fait avec du lait",
+    "translations": {
+     "zh": "奶酪",
+     "en": "cheese"
+    },
+    "examples": [
+     {
+      "text": "J'aime le fromage français.",
+      "translations": {
+       "zh": "我喜欢法国奶酪。",
+       "en": "I like French cheese."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pomme",
+  "phonetic": "/pɔm/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pommes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruit rond, rouge, vert ou jaune",
+    "translations": {
+     "zh": "苹果",
+     "en": "apple"
+    },
+    "examples": [
+     {
+      "text": "Je mange une pomme.",
+      "translations": {
+       "zh": "我在吃苹果。",
+       "en": "I'm eating an apple."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lait",
+  "phonetic": "/lɛ/",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "laits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide blanc donné par la vache",
+    "translations": {
+     "zh": "牛奶；奶",
+     "en": "milk"
+    },
+    "examples": [
+     {
+      "text": "Les enfants boivent du lait.",
+      "translations": {
+       "zh": "孩子们喝牛奶。",
+       "en": "Children drink milk."
+      }
+     }
+    ],
+    "usageNote": "t 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "café",
+  "phonetic": "/ka.fe/",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cafés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "boisson noire et chaude",
+    "translations": {
+     "zh": "咖啡",
+     "en": "coffee"
+    },
+    "examples": [
+     {
+      "text": "Je bois un café le matin.",
+      "translations": {
+       "zh": "我早上喝一杯咖啡。",
+       "en": "I drink a coffee in the morning."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on boit et mange un peu",
+    "translations": {
+     "zh": "咖啡馆",
+     "en": "café"
+    },
+    "examples": [
+     {
+      "text": "On se retrouve au café ?",
+      "translations": {
+       "zh": "我们在咖啡馆见？",
+       "en": "Shall we meet at the café?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "thé",
+  "phonetic": "/te/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "thés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "boisson chaude faite avec des feuilles",
+    "translations": {
+     "zh": "茶",
+     "en": "tea"
+    },
+    "examples": [
+     {
+      "text": "Tu veux du thé ?",
+      "translations": {
+       "zh": "你要喝茶吗？",
+       "en": "Would you like some tea?"
+      }
+     }
+    ],
+    "usageNote": "阳性 le thé。"
+   }
+  ]
+ },
+ {
+  "headword": "viande",
+  "phonetic": "/vjɑ̃d/",
+  "cefr": "A1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "viandes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chair des animaux qu'on mange",
+    "translations": {
+     "zh": "肉",
+     "en": "meat"
+    },
+    "examples": [
+     {
+      "text": "Je ne mange pas de viande.",
+      "translations": {
+       "zh": "我不吃肉。",
+       "en": "I don't eat meat."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "poisson",
+  "phonetic": "/pwa.sɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "poissons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "animal qui vit dans l'eau; sa chair qu'on mange",
+    "translations": {
+     "zh": "鱼；鱼肉",
+     "en": "fish"
+    },
+    "examples": [
+     {
+      "text": "Il y a un poisson dans le lac.",
+      "translations": {
+       "zh": "湖里有一条鱼。",
+       "en": "There's a fish in the lake."
+      }
+     },
+     {
+      "text": "Le vendredi, on mange du poisson.",
+      "translations": {
+       "zh": "我们星期五吃鱼。",
+       "en": "On Fridays we eat fish."
+      }
+     }
+    ],
+    "usageNote": "注意与 poison（毒药，/pwa.zɔ̃/）区分：ss 读 /s/，单个 s 读 /z/。"
+   }
+  ]
+ },
+ {
+  "headword": "riz",
+  "phonetic": "/ʁi/",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petits grains blancs qu'on fait cuire",
+    "translations": {
+     "zh": "米；米饭",
+     "en": "rice"
+    },
+    "examples": [
+     {
+      "text": "En Chine, on mange beaucoup de riz.",
+      "translations": {
+       "zh": "在中国，人们吃很多米饭。",
+       "en": "In China, people eat a lot of rice."
+      }
+     }
+    ],
+    "usageNote": "z 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "œuf",
+  "phonetic": "/œf/",
+  "cefr": "A1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "œufs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "aliment rond pondu par la poule",
+    "translations": {
+     "zh": "蛋；鸡蛋",
+     "en": "egg"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais un œuf, s'il vous plaît.",
+      "translations": {
+       "zh": "我想要一个鸡蛋。",
+       "en": "I'd like an egg, please."
+      }
+     }
+    ],
+    "usageNote": "单数 un œuf 读 /œ̃.nœf/；复数 des œufs 读 /de.zø/，f 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "gâteau",
+  "phonetic": "/ɡɑ.to/",
+  "cefr": "A1",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "gâteaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "dessert sucré cuit au four",
+    "translations": {
+     "zh": "蛋糕；糕点",
+     "en": "cake"
+    },
+    "examples": [
+     {
+      "text": "Ce gâteau au chocolat est délicieux.",
+      "translations": {
+       "zh": "这个巧克力蛋糕很好吃。",
+       "en": "This chocolate cake is delicious."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "petit-déjeuner",
+  "phonetic": "/pə.ti.de.ʒœ.ne/",
+  "cefr": "A1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "petits-déjeuners"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "premier repas du matin",
+    "translations": {
+     "zh": "早餐",
+     "en": "breakfast"
+    },
+    "examples": [
+     {
+      "text": "Le petit-déjeuner est prêt !",
+      "cloze": "Le {{petit-déjeuner}} est prêt !",
+      "translations": {
+       "zh": "早餐准备好了！",
+       "en": "Breakfast is ready!"
+      }
+     }
+    ],
+    "usageNote": "也写作 petit déjeuner（不带连字符）。"
+   }
+  ]
+ },
+ {
+  "headword": "déjeuner",
+  "phonetic": "/de.ʒœ.ne/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "déjeuners"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "repas de midi",
+    "translations": {
+     "zh": "午餐；午饭",
+     "en": "lunch"
+    },
+    "examples": [
+     {
+      "text": "Le déjeuner est prêt.",
+      "translations": {
+       "zh": "午饭做好了。",
+       "en": "Lunch is ready."
+      }
+     }
+    ],
+    "usageNote": "也是动词“吃午饭”；在比利时、瑞士和魁北克，déjeuner 指早餐。"
+   }
+  ]
+ },
+ {
+  "headword": "dîner",
+  "phonetic": "/di.ne/",
+  "cefr": "A1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dîners"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "repas du soir",
+    "translations": {
+     "zh": "晚餐；晚饭",
+     "en": "dinner"
+    },
+    "examples": [
+     {
+      "text": "Le dîner est servi.",
+      "translations": {
+       "zh": "晚饭上桌了。",
+       "en": "Dinner is served."
+      }
+     }
+    ],
+    "usageNote": "也是动词“吃晚饭”。"
+   }
+  ]
+ },
+ {
+  "headword": "repas",
+  "phonetic": "/ʁə.pa/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "repas"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "nourriture qu'on mange à un moment de la journée",
+    "translations": {
+     "zh": "一顿饭；餐",
+     "en": "meal"
+    },
+    "examples": [
+     {
+      "text": "Ce repas est excellent.",
+      "translations": {
+       "zh": "这顿饭棒极了。",
+       "en": "This meal is excellent."
+      }
+     }
+    ],
+    "usageNote": "s 不发音；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "jus",
+  "phonetic": "/ʒy/",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jus"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide qu'on tire des fruits",
+    "translations": {
+     "zh": "果汁；汁",
+     "en": "juice"
+    },
+    "examples": [
+     {
+      "text": "Un jus d'orange, s'il vous plaît.",
+      "translations": {
+       "zh": "请来一杯橙汁。",
+       "en": "An orange juice, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vin",
+  "phonetic": "/vɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "boisson faite avec du raisin",
+    "translations": {
+     "zh": "葡萄酒",
+     "en": "wine"
+    },
+    "examples": [
+     {
+      "text": "Ce vin rouge vient de Bordeaux.",
+      "translations": {
+       "zh": "这瓶红酒来自波尔多。",
+       "en": "This red wine comes from Bordeaux."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bière",
+  "phonetic": "/bjɛʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "boisson faite avec des céréales",
+    "translations": {
+     "zh": "啤酒",
+     "en": "beer"
+    },
+    "examples": [
+     {
+      "text": "Il boit une bière avec ses amis.",
+      "translations": {
+       "zh": "他和朋友们喝啤酒。",
+       "en": "He's having a beer with his friends."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sucre",
+  "phonetic": "/sykʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sucres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "produit qui donne un goût doux",
+    "translations": {
+     "zh": "糖",
+     "en": "sugar"
+    },
+    "examples": [
+     {
+      "text": "Tu prends du sucre dans ton café ?",
+      "translations": {
+       "zh": "你的咖啡要加糖吗？",
+       "en": "Do you take sugar in your coffee?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sel",
+  "phonetic": "/sɛl/",
+  "cefr": "A1",
+  "frequencyRank": 3800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sels"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "produit blanc qui donne un goût salé",
+    "translations": {
+     "zh": "盐",
+     "en": "salt"
+    },
+    "examples": [
+     {
+      "text": "Passe-moi le sel, s'il te plaît.",
+      "translations": {
+       "zh": "请把盐递给我。",
+       "en": "Pass me the salt, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "poulet",
+  "phonetic": "/pu.lɛ/",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "poulets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "jeune poule; sa viande",
+    "translations": {
+     "zh": "鸡；鸡肉",
+     "en": "chicken"
+    },
+    "examples": [
+     {
+      "text": "On mange du poulet ce soir.",
+      "translations": {
+       "zh": "我们今晚吃鸡肉。",
+       "en": "We're having chicken tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "légume",
+  "phonetic": "/le.ɡym/",
+  "cefr": "A1",
+  "frequencyRank": 3700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "légumes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "plante qu'on mange, comme la carotte",
+    "translations": {
+     "zh": "蔬菜",
+     "en": "vegetable"
+    },
+    "examples": [
+     {
+      "text": "La carotte est un légume.",
+      "translations": {
+       "zh": "胡萝卜是一种蔬菜。",
+       "en": "The carrot is a vegetable."
+      }
+     }
+    ],
+    "usageNote": "阳性 un légume，虽然以 -e 结尾。"
+   }
+  ]
+ },
+ {
+  "headword": "fruit",
+  "phonetic": "/fʁɥi/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "fruits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie sucrée d'une plante, comme la pomme",
+    "translations": {
+     "zh": "水果；果实",
+     "en": "fruit"
+    },
+    "examples": [
+     {
+      "text": "Mange un fruit après le repas.",
+      "translations": {
+       "zh": "饭后吃个水果。",
+       "en": "Eat a piece of fruit after the meal."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "banane",
+  "phonetic": "/ba.nan/",
+  "cefr": "A1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bananes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruit long et jaune",
+    "translations": {
+     "zh": "香蕉",
+     "en": "banana"
+    },
+    "examples": [
+     {
+      "text": "Le singe mange une banane.",
+      "translations": {
+       "zh": "猴子在吃香蕉。",
+       "en": "The monkey is eating a banana."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "orange",
+  "phonetic": "/ɔ.ʁɑ̃ʒ/",
+  "cefr": "A1",
+  "frequencyRank": 3200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "oranges"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruit rond de couleur orange",
+    "translations": {
+     "zh": "橙子",
+     "en": "orange"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais une orange.",
+      "translations": {
+       "zh": "我想要一个橙子。",
+       "en": "I'd like an orange."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de la couleur de ce fruit",
+    "translations": {
+     "zh": "橙色的",
+     "en": "orange"
+    },
+    "examples": [
+     {
+      "text": "Elle porte une robe orange.",
+      "translations": {
+       "zh": "她穿着一条橙色的连衣裙。",
+       "en": "She's wearing an orange dress."
+      }
+     }
+    ],
+    "usageNote": "作颜色形容词时不变：des robes orange。"
+   }
+  ]
+ },
+ {
+  "headword": "fraise",
+  "phonetic": "/fʁɛz/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "fraises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit fruit rouge et sucré",
+    "translations": {
+     "zh": "草莓",
+     "en": "strawberry"
+    },
+    "examples": [
+     {
+      "text": "Cette fraise est très sucrée.",
+      "translations": {
+       "zh": "这颗草莓很甜。",
+       "en": "This strawberry is very sweet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "tomate",
+  "phonetic": "/tɔ.mat/",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tomates"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruit rouge et rond qu'on mange comme un légume",
+    "translations": {
+     "zh": "西红柿；番茄",
+     "en": "tomato"
+    },
+    "examples": [
+     {
+      "text": "Coupe la tomate en deux.",
+      "translations": {
+       "zh": "把西红柿切成两半。",
+       "en": "Cut the tomato in half."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pomme de terre",
+  "phonetic": "/pɔm.də.tɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pommes de terre"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "légume qui pousse sous la terre",
+    "translations": {
+     "zh": "土豆；马铃薯",
+     "en": "potato"
+    },
+    "examples": [
+     {
+      "text": "Elle épluche une pomme de terre.",
+      "cloze": "Elle épluche une {{pomme de terre}}.",
+      "translations": {
+       "zh": "她在削一个土豆。",
+       "en": "She's peeling a potato."
+      }
+     }
+    ],
+    "usageNote": "字面意思是“地里的苹果”；复数 des pommes de terre。"
+   }
+  ]
+ },
+ {
+  "headword": "carotte",
+  "phonetic": "/ka.ʁɔt/",
+  "cefr": "A1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "carottes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "légume long et orange",
+    "translations": {
+     "zh": "胡萝卜",
+     "en": "carrot"
+    },
+    "examples": [
+     {
+      "text": "Je mets une carotte dans la soupe.",
+      "translations": {
+       "zh": "我在汤里放了一根胡萝卜。",
+       "en": "I put a carrot in the soup."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salade",
+  "phonetic": "/sa.lad/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "salades"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "plat de légumes crus avec une sauce; laitue",
+    "translations": {
+     "zh": "沙拉；生菜",
+     "en": "salad; lettuce"
+    },
+    "examples": [
+     {
+      "text": "Je prends une salade verte.",
+      "translations": {
+       "zh": "我要一份蔬菜沙拉。",
+       "en": "I'll have a green salad."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "soupe",
+  "phonetic": "/sup/",
+  "cefr": "A1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "soupes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "plat liquide et chaud, souvent fait avec des légumes",
+    "translations": {
+     "zh": "汤",
+     "en": "soup"
+    },
+    "examples": [
+     {
+      "text": "Cette soupe est trop chaude.",
+      "translations": {
+       "zh": "这汤太烫了。",
+       "en": "This soup is too hot."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chocolat",
+  "phonetic": "/ʃɔ.kɔ.la/",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "chocolats"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "aliment sucré fait avec du cacao",
+    "translations": {
+     "zh": "巧克力",
+     "en": "chocolate"
+    },
+    "examples": [
+     {
+      "text": "Les enfants aiment le chocolat.",
+      "translations": {
+       "zh": "孩子们喜欢巧克力。",
+       "en": "Children love chocolate."
+      }
+     }
+    ],
+    "usageNote": "t 不发音；un chocolat chaud 是热巧克力饮料。"
+   }
+  ]
+ },
+ {
+  "headword": "glace",
+  "phonetic": "/ɡlas/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "glaces"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "dessert froid et sucré",
+    "translations": {
+     "zh": "冰淇淋",
+     "en": "ice cream"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais une glace à la vanille.",
+      "translations": {
+       "zh": "我想要一个香草冰淇淋。",
+       "en": "I'd like a vanilla ice cream."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "eau devenue dure à cause du froid",
+    "translations": {
+     "zh": "冰",
+     "en": "ice"
+    }
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "verre où l'on se voit",
+    "translations": {
+     "zh": "镜子",
+     "en": "mirror"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "beurre",
+  "phonetic": "/bœʁ/",
+  "cefr": "A1",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "beurres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "matière grasse faite avec la crème du lait",
+    "translations": {
+     "zh": "黄油",
+     "en": "butter"
+    },
+    "examples": [
+     {
+      "text": "Je mets du beurre sur mon pain.",
+      "translations": {
+       "zh": "我在面包上抹黄油。",
+       "en": "I put butter on my bread."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "confiture",
+  "phonetic": "/kɔ̃.fi.tyʁ/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "confitures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "fruits cuits avec du sucre",
+    "translations": {
+     "zh": "果酱",
+     "en": "jam"
+    },
+    "examples": [
+     {
+      "text": "J'aime la confiture de fraises.",
+      "translations": {
+       "zh": "我喜欢草莓酱。",
+       "en": "I like strawberry jam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pizza",
+  "phonetic": "/pid.za/",
+  "cefr": "A1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "pizzas"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "plat italien rond, avec de la tomate et du fromage",
+    "translations": {
+     "zh": "比萨饼",
+     "en": "pizza"
+    },
+    "examples": [
+     {
+      "text": "On commande une pizza ce soir ?",
+      "translations": {
+       "zh": "今晚我们点个比萨？",
+       "en": "Shall we order a pizza tonight?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sandwich",
+  "phonetic": "/sɑ̃d.witʃ/",
+  "cefr": "A1",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "sandwichs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "deux morceaux de pain avec quelque chose dedans",
+    "translations": {
+     "zh": "三明治",
+     "en": "sandwich"
+    },
+    "examples": [
+     {
+      "text": "Je mange un sandwich au jambon.",
+      "translations": {
+       "zh": "我吃一个火腿三明治。",
+       "en": "I'm eating a ham sandwich."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "croissant",
+  "phonetic": "/kʁwa.sɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "croissants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit pain au beurre en forme de lune",
+    "translations": {
+     "zh": "羊角面包；可颂",
+     "en": "croissant"
+    },
+    "examples": [
+     {
+      "text": "Je prends un croissant avec mon café.",
+      "translations": {
+       "zh": "我点一个可颂配咖啡。",
+       "en": "I'll have a croissant with my coffee."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "baguette",
+  "phonetic": "/ba.ɡɛt/",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "baguettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pain long et fin",
+    "translations": {
+     "zh": "法棍面包",
+     "en": "baguette"
+    },
+    "examples": [
+     {
+      "text": "J'achète une baguette à la boulangerie.",
+      "translations": {
+       "zh": "我在面包店买一根法棍。",
+       "en": "I buy a baguette at the bakery."
+      }
+     }
+    ],
+    "usageNote": "也指“小棍”：des baguettes 也可以是“筷子”。"
+   }
+  ]
+ },
+ {
+  "headword": "bonbon",
+  "phonetic": "/bɔ̃.bɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 7500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bonbons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite sucrerie",
+    "translations": {
+     "zh": "糖果",
+     "en": "sweet, candy"
+    },
+    "examples": [
+     {
+      "text": "Je peux avoir un bonbon ?",
+      "translations": {
+       "zh": "我可以吃一颗糖吗？",
+       "en": "Can I have a sweet?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "biscuit",
+  "phonetic": "/bis.kɥi/",
+  "cefr": "A2",
+  "frequencyRank": 7000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "biscuits"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit gâteau sec",
+    "translations": {
+     "zh": "饼干",
+     "en": "biscuit, cookie"
+    },
+    "examples": [
+     {
+      "text": "Tu veux un biscuit ?",
+      "translations": {
+       "zh": "你要一块饼干吗？",
+       "en": "Do you want a biscuit?"
+      }
+     }
+    ],
+    "usageNote": "t 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "huile",
+  "phonetic": "/ɥil/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "huiles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide gras pour faire la cuisine",
+    "translations": {
+     "zh": "油",
+     "en": "oil"
+    },
+    "examples": [
+     {
+      "text": "Cette huile d'olive est excellente.",
+      "translations": {
+       "zh": "这种橄榄油非常好。",
+       "en": "This olive oil is excellent."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "boisson",
+  "phonetic": "/bwa.sɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 3600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "boissons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "liquide qu'on boit",
+    "translations": {
+     "zh": "饮料",
+     "en": "drink"
+    },
+    "examples": [
+     {
+      "text": "Quelle boisson voulez-vous ?",
+      "translations": {
+       "zh": "您想喝什么饮料？",
+       "en": "What drink would you like?"
+      }
+     }
+    ],
+    "usageNote": "阴性 une boisson，而 poisson（鱼）是阳性。"
+   }
+  ]
+ },
+ {
+  "headword": "verre",
+  "phonetic": "/vɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "verres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "récipient pour boire",
+    "translations": {
+     "zh": "杯子；一杯",
+     "en": "glass"
+    },
+    "examples": [
+     {
+      "text": "Je bois un verre de lait.",
+      "translations": {
+       "zh": "我喝一杯牛奶。",
+       "en": "I drink a glass of milk."
+      }
+     }
+    ],
+    "usageNote": "与 vert（绿色）、vers（朝向）发音相同。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "matière dure et transparente",
+    "translations": {
+     "zh": "玻璃",
+     "en": "glass (material)"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "tasse",
+  "phonetic": "/tas/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tasses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit récipient avec une anse, pour boire chaud",
+    "translations": {
+     "zh": "杯子（带把）；一杯",
+     "en": "cup"
+    },
+    "examples": [
+     {
+      "text": "Une tasse de thé, s'il vous plaît.",
+      "translations": {
+       "zh": "请来一杯茶。",
+       "en": "A cup of tea, please."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

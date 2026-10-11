@@ -1,0 +1,1507 @@
+[
+ {
+  "headword": "intéressant",
+  "phonetic": "/ɛ̃.te.ʁɛ.sɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "irregularForms": "阴性 intéressante；复数 intéressants, intéressantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui attire l'attention",
+    "translations": {
+     "zh": "有意思的；有趣的",
+     "en": "interesting"
+    },
+    "examples": [
+     {
+      "text": "Ce livre est intéressant.",
+      "translations": {
+       "zh": "这本书很有意思。",
+       "en": "This book is interesting."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "malade",
+  "phonetic": "/ma.lad/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas en bonne santé",
+    "translations": {
+     "zh": "生病的",
+     "en": "ill, sick"
+    },
+    "examples": [
+     {
+      "text": "Je suis malade aujourd'hui.",
+      "translations": {
+       "zh": "我今天生病了。",
+       "en": "I'm ill today."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne malade",
+    "translations": {
+     "zh": "病人",
+     "en": "patient, sick person"
+    },
+    "examples": [
+     {
+      "text": "Le médecin soigne les malades.",
+      "translations": {
+       "zh": "医生给病人看病。",
+       "en": "The doctor treats the sick."
+      }
+     }
+    ]
+   }
+  ],
+  "grammarNotes": {
+   "irregularForms": "阴阳性同形 malade；复数 malades"
+  }
+ },
+ {
+  "headword": "prêt",
+  "phonetic": "/pʁɛ/",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "grammarNotes": {
+   "irregularForms": "阴性 prête；复数 prêts, prêtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui peut commencer tout de suite",
+    "translations": {
+     "zh": "准备好的",
+     "en": "ready"
+    },
+    "examples": [
+     {
+      "text": "Tu es prêt ? On y va !",
+      "translations": {
+       "zh": "你准备好了吗？我们走吧！",
+       "en": "Are you ready? Let's go!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "seul",
+  "phonetic": "/sœl/",
+  "cefr": "A1",
+  "frequencyRank": 100,
+  "grammarNotes": {
+   "irregularForms": "阴性 seule；复数 seuls, seules"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "sans personne avec soi",
+    "translations": {
+     "zh": "独自的；唯一的",
+     "en": "alone; only"
+    },
+    "examples": [
+     {
+      "text": "Il habite seul.",
+      "translations": {
+       "zh": "他一个人住。",
+       "en": "He lives alone."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "zéro",
+  "phonetic": "/ze.ʁo/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 0",
+    "translations": {
+     "zh": "零",
+     "en": "zero"
+    },
+    "examples": [
+     {
+      "text": "Il fait zéro degré dehors.",
+      "translations": {
+       "zh": "外面零度。",
+       "en": "It's zero degrees outside."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "deux",
+  "phonetic": "/dø/",
+  "cefr": "A1",
+  "frequencyRank": 39,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 2",
+    "translations": {
+     "zh": "二；两",
+     "en": "two"
+    },
+    "examples": [
+     {
+      "text": "J'ai deux frères.",
+      "translations": {
+       "zh": "我有两个兄弟。",
+       "en": "I have two brothers."
+      }
+     }
+    ],
+    "usageNote": "在元音前要连读：deux amis /dø.za.mi/。"
+   }
+  ]
+ },
+ {
+  "headword": "trois",
+  "phonetic": "/tʁwa/",
+  "cefr": "A1",
+  "frequencyRank": 77,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 3",
+    "translations": {
+     "zh": "三",
+     "en": "three"
+    },
+    "examples": [
+     {
+      "text": "Il est trois heures.",
+      "translations": {
+       "zh": "现在三点。",
+       "en": "It's three o'clock."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quatre",
+  "phonetic": "/katʁ/",
+  "cefr": "A1",
+  "frequencyRank": 160,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 4",
+    "translations": {
+     "zh": "四",
+     "en": "four"
+    },
+    "examples": [
+     {
+      "text": "Le chat a quatre pattes.",
+      "translations": {
+       "zh": "猫有四条腿。",
+       "en": "A cat has four legs."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cinq",
+  "phonetic": "/sɛ̃k/",
+  "cefr": "A1",
+  "frequencyRank": 190,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 5",
+    "translations": {
+     "zh": "五",
+     "en": "five"
+    },
+    "examples": [
+     {
+      "text": "Ma sœur a cinq ans.",
+      "translations": {
+       "zh": "我妹妹五岁。",
+       "en": "My sister is five."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "six",
+  "phonetic": "/sis/",
+  "cefr": "A1",
+  "frequencyRank": 280,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 6",
+    "translations": {
+     "zh": "六",
+     "en": "six"
+    },
+    "examples": [
+     {
+      "text": "Nous sommes six à table.",
+      "translations": {
+       "zh": "我们一桌六个人。",
+       "en": "There are six of us at the table."
+      }
+     }
+    ],
+    "usageNote": "单独说读 /sis/；在辅音前读 /si/（six livres）；在元音前读 /siz/（six ans）。"
+   }
+  ]
+ },
+ {
+  "headword": "sept",
+  "phonetic": "/sɛt/",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 7",
+    "translations": {
+     "zh": "七",
+     "en": "seven"
+    },
+    "examples": [
+     {
+      "text": "Il y a sept jours dans une semaine.",
+      "translations": {
+       "zh": "一周有七天。",
+       "en": "There are seven days in a week."
+      }
+     }
+    ],
+    "usageNote": "p 不发音。"
+   }
+  ]
+ },
+ {
+  "headword": "huit",
+  "phonetic": "/ɥit/",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 8",
+    "translations": {
+     "zh": "八",
+     "en": "eight"
+    },
+    "examples": [
+     {
+      "text": "Le cours commence à huit heures.",
+      "translations": {
+       "zh": "课八点开始。",
+       "en": "Class starts at eight."
+      }
+     }
+    ],
+    "usageNote": "huit 前不省音也不连读：le huit mai（5月8日）。"
+   }
+  ]
+ },
+ {
+  "headword": "neuf",
+  "phonetic": "/nœf/",
+  "cefr": "A1",
+  "frequencyRank": 550,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 9",
+    "translations": {
+     "zh": "九",
+     "en": "nine"
+    },
+    "examples": [
+     {
+      "text": "Mon frère a neuf ans.",
+      "translations": {
+       "zh": "我弟弟九岁。",
+       "en": "My brother is nine."
+      }
+     }
+    ],
+    "usageNote": "在 ans 和 heures 前读 /nœv/：neuf ans。neuf 也是形容词“新的”。"
+   }
+  ]
+ },
+ {
+  "headword": "dix",
+  "phonetic": "/dis/",
+  "cefr": "A1",
+  "frequencyRank": 210,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 10",
+    "translations": {
+     "zh": "十",
+     "en": "ten"
+    },
+    "examples": [
+     {
+      "text": "Je compte jusqu'à dix.",
+      "translations": {
+       "zh": "我数到十。",
+       "en": "I count to ten."
+      }
+     }
+    ],
+    "usageNote": "读法同 six：单独 /dis/，辅音前 /di/，元音前 /diz/。"
+   }
+  ]
+ },
+ {
+  "headword": "onze",
+  "phonetic": "/ɔ̃z/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 11",
+    "translations": {
+     "zh": "十一",
+     "en": "eleven"
+    },
+    "examples": [
+     {
+      "text": "Il y a onze joueurs dans une équipe.",
+      "translations": {
+       "zh": "一个队有十一名球员。",
+       "en": "There are eleven players in a team."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "douze",
+  "phonetic": "/duz/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 12",
+    "translations": {
+     "zh": "十二",
+     "en": "twelve"
+    },
+    "examples": [
+     {
+      "text": "Il y a douze mois dans une année.",
+      "translations": {
+       "zh": "一年有十二个月。",
+       "en": "There are twelve months in a year."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "treize",
+  "phonetic": "/tʁɛz/",
+  "cefr": "A1",
+  "frequencyRank": 2700,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 13",
+    "translations": {
+     "zh": "十三",
+     "en": "thirteen"
+    },
+    "examples": [
+     {
+      "text": "Elle a treize ans.",
+      "translations": {
+       "zh": "她十三岁。",
+       "en": "She is thirteen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quatorze",
+  "phonetic": "/ka.tɔʁz/",
+  "cefr": "A1",
+  "frequencyRank": 2800,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 14",
+    "translations": {
+     "zh": "十四",
+     "en": "fourteen"
+    },
+    "examples": [
+     {
+      "text": "Le quatorze juillet, c'est la fête nationale.",
+      "translations": {
+       "zh": "7月14日是法国国庆节。",
+       "en": "July 14th is the national holiday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quinze",
+  "phonetic": "/kɛ̃z/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 15",
+    "translations": {
+     "zh": "十五",
+     "en": "fifteen"
+    },
+    "examples": [
+     {
+      "text": "Le film commence dans quinze minutes.",
+      "translations": {
+       "zh": "电影十五分钟后开始。",
+       "en": "The film starts in fifteen minutes."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "seize",
+  "phonetic": "/sɛz/",
+  "cefr": "A1",
+  "frequencyRank": 3100,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 16",
+    "translations": {
+     "zh": "十六",
+     "en": "sixteen"
+    },
+    "examples": [
+     {
+      "text": "J'habite au numéro seize.",
+      "translations": {
+       "zh": "我住在16号。",
+       "en": "I live at number sixteen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dix-sept",
+  "phonetic": "/di.sɛt/",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 17",
+    "translations": {
+     "zh": "十七",
+     "en": "seventeen"
+    },
+    "examples": [
+     {
+      "text": "Il est dix-sept heures.",
+      "cloze": "Il est {{dix-sept}} heures.",
+      "translations": {
+       "zh": "现在是下午五点（17点）。",
+       "en": "It's 5 p.m."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dix-huit",
+  "phonetic": "/di.zɥit/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 18",
+    "translations": {
+     "zh": "十八",
+     "en": "eighteen"
+    },
+    "examples": [
+     {
+      "text": "En France, on vote à dix-huit ans.",
+      "cloze": "En France, on vote à {{dix-huit}} ans.",
+      "translations": {
+       "zh": "在法国，十八岁可以投票。",
+       "en": "In France, you vote at eighteen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dix-neuf",
+  "phonetic": "/diz.nœf/",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 19",
+    "translations": {
+     "zh": "十九",
+     "en": "nineteen"
+    },
+    "examples": [
+     {
+      "text": "Ma cousine a dix-neuf ans.",
+      "cloze": "Ma cousine a {{dix-neuf}} ans.",
+      "translations": {
+       "zh": "我表姐十九岁。",
+       "en": "My cousin is nineteen."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vingt",
+  "phonetic": "/vɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 20",
+    "translations": {
+     "zh": "二十",
+     "en": "twenty"
+    },
+    "examples": [
+     {
+      "text": "J'ai vingt euros.",
+      "translations": {
+       "zh": "我有二十欧元。",
+       "en": "I have twenty euros."
+      }
+     }
+    ],
+    "usageNote": "21 是 vingt et un；22 是 vingt-deux。"
+   }
+  ]
+ },
+ {
+  "headword": "trente",
+  "phonetic": "/tʁɑ̃t/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 30",
+    "translations": {
+     "zh": "三十",
+     "en": "thirty"
+    },
+    "examples": [
+     {
+      "text": "Il y a trente élèves dans la classe.",
+      "translations": {
+       "zh": "班上有三十个学生。",
+       "en": "There are thirty pupils in the class."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "quarante",
+  "phonetic": "/ka.ʁɑ̃t/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 40",
+    "translations": {
+     "zh": "四十",
+     "en": "forty"
+    },
+    "examples": [
+     {
+      "text": "Mon père a quarante ans.",
+      "translations": {
+       "zh": "我爸爸四十岁。",
+       "en": "My father is forty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cinquante",
+  "phonetic": "/sɛ̃.kɑ̃t/",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 50",
+    "translations": {
+     "zh": "五十",
+     "en": "fifty"
+    },
+    "examples": [
+     {
+      "text": "Ça coûte cinquante euros.",
+      "translations": {
+       "zh": "这个要五十欧元。",
+       "en": "It costs fifty euros."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "soixante",
+  "phonetic": "/swa.sɑ̃t/",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 60",
+    "translations": {
+     "zh": "六十",
+     "en": "sixty"
+    },
+    "examples": [
+     {
+      "text": "Une heure, c'est soixante minutes.",
+      "translations": {
+       "zh": "一小时是六十分钟。",
+       "en": "An hour is sixty minutes."
+      }
+     }
+    ],
+    "usageNote": "x 读 /s/。"
+   }
+  ]
+ },
+ {
+  "headword": "soixante-dix",
+  "phonetic": "/swa.sɑ̃t.dis/",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 70",
+    "translations": {
+     "zh": "七十",
+     "en": "seventy"
+    },
+    "examples": [
+     {
+      "text": "Ma grand-mère a soixante-dix ans.",
+      "cloze": "Ma grand-mère a {{soixante-dix}} ans.",
+      "translations": {
+       "zh": "我奶奶七十岁。",
+       "en": "My grandmother is seventy."
+      }
+     }
+    ],
+    "usageNote": "70 = 60 + 10；71 是 soixante et onze。比利时和瑞士说 septante。"
+   }
+  ]
+ },
+ {
+  "headword": "quatre-vingts",
+  "phonetic": "/ka.tʁə.vɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 6000,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 80",
+    "translations": {
+     "zh": "八十",
+     "en": "eighty"
+    },
+    "examples": [
+     {
+      "text": "Mon grand-père a quatre-vingts ans.",
+      "cloze": "Mon grand-père a {{quatre-vingts}} ans.",
+      "translations": {
+       "zh": "我爷爷八十岁。",
+       "en": "My grandfather is eighty."
+      }
+     }
+    ],
+    "usageNote": "80 = 4 × 20。后面再跟数字时去掉 s：quatre-vingt-un（81）。"
+   }
+  ]
+ },
+ {
+  "headword": "quatre-vingt-dix",
+  "phonetic": "/ka.tʁə.vɛ̃.dis/",
+  "cefr": "A1",
+  "frequencyRank": 7000,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 90",
+    "translations": {
+     "zh": "九十",
+     "en": "ninety"
+    },
+    "examples": [
+     {
+      "text": "Ce livre coûte quatre-vingt-dix euros.",
+      "cloze": "Ce livre coûte {{quatre-vingt-dix}} euros.",
+      "translations": {
+       "zh": "这本书要九十欧元。",
+       "en": "This book costs ninety euros."
+      }
+     }
+    ],
+    "usageNote": "90 = 4 × 20 + 10。比利时和瑞士说 nonante。"
+   }
+  ]
+ },
+ {
+  "headword": "cent",
+  "phonetic": "/sɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 230,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 100",
+    "translations": {
+     "zh": "一百",
+     "en": "a hundred"
+    },
+    "examples": [
+     {
+      "text": "Ce cahier a cent pages.",
+      "translations": {
+       "zh": "这个本子有一百页。",
+       "en": "This notebook has a hundred pages."
+      }
+     }
+    ],
+    "usageNote": "deux cents（200）有 s，但后面再跟数字就不加：deux cent un（201）。"
+   }
+  ]
+ },
+ {
+  "headword": "mille",
+  "phonetic": "/mil/",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "senses": [
+   {
+    "partOfSpeech": "number",
+    "definition": "le nombre 1000",
+    "translations": {
+     "zh": "一千",
+     "en": "a thousand"
+    },
+    "examples": [
+     {
+      "text": "Ce vélo coûte mille euros.",
+      "translations": {
+       "zh": "这辆自行车要一千欧元。",
+       "en": "This bike costs a thousand euros."
+      }
+     }
+    ],
+    "usageNote": "mille 永远不加 s：deux mille（两千）。"
+   }
+  ]
+ },
+ {
+  "headword": "premier",
+  "phonetic": "/pʁə.mje/",
+  "cefr": "A1",
+  "frequencyRank": 70,
+  "grammarNotes": {
+   "irregularForms": "阴性 première；复数 premiers, premières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vient avant tous les autres",
+    "translations": {
+     "zh": "第一的；最先的",
+     "en": "first"
+    },
+    "examples": [
+     {
+      "text": "C'est mon premier jour à l'école.",
+      "translations": {
+       "zh": "这是我上学的第一天。",
+       "en": "It's my first day at school."
+      }
+     }
+    ],
+    "usageNote": "日期里只有每月一号用 premier：le premier mai（5月1日）；其他日子用基数词：le deux mai。"
+   }
+  ]
+ },
+ {
+  "headword": "lundi",
+  "phonetic": "/lœ̃.di/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "lundis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "premier jour de la semaine",
+    "translations": {
+     "zh": "星期一",
+     "en": "Monday"
+    },
+    "examples": [
+     {
+      "text": "Lundi, je vais à la piscine.",
+      "translations": {
+       "zh": "星期一我去游泳池。",
+       "en": "On Monday I'm going to the pool."
+      }
+     }
+    ],
+    "usageNote": "星期和月份在法语里小写。le lundi 表示“每个星期一”。"
+   }
+  ]
+ },
+ {
+  "headword": "mardi",
+  "phonetic": "/maʁ.di/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mardis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "deuxième jour de la semaine",
+    "translations": {
+     "zh": "星期二",
+     "en": "Tuesday"
+    },
+    "examples": [
+     {
+      "text": "Le mardi, j'ai cours de piano.",
+      "translations": {
+       "zh": "每周二我上钢琴课。",
+       "en": "On Tuesdays I have piano lessons."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mercredi",
+  "phonetic": "/mɛʁ.kʁə.di/",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "mercredis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "troisième jour de la semaine",
+    "translations": {
+     "zh": "星期三",
+     "en": "Wednesday"
+    },
+    "examples": [
+     {
+      "text": "Mercredi, on va au cinéma.",
+      "translations": {
+       "zh": "星期三我们去看电影。",
+       "en": "On Wednesday we're going to the cinema."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "jeudi",
+  "phonetic": "/ʒø.di/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jeudis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "quatrième jour de la semaine",
+    "translations": {
+     "zh": "星期四",
+     "en": "Thursday"
+    },
+    "examples": [
+     {
+      "text": "Je te vois jeudi.",
+      "translations": {
+       "zh": "我们星期四见。",
+       "en": "See you on Thursday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vendredi",
+  "phonetic": "/vɑ̃.dʁə.di/",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vendredis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "cinquième jour de la semaine",
+    "translations": {
+     "zh": "星期五",
+     "en": "Friday"
+    },
+    "examples": [
+     {
+      "text": "Vendredi soir, on mange une pizza.",
+      "translations": {
+       "zh": "星期五晚上我们吃比萨。",
+       "en": "On Friday evening we're having pizza."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "samedi",
+  "phonetic": "/sam.di/",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "samedis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sixième jour de la semaine",
+    "translations": {
+     "zh": "星期六",
+     "en": "Saturday"
+    },
+    "examples": [
+     {
+      "text": "Samedi, je ne travaille pas.",
+      "translations": {
+       "zh": "星期六我不上班。",
+       "en": "I don't work on Saturday."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dimanche",
+  "phonetic": "/di.mɑ̃ʃ/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "dimanches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "septième jour de la semaine",
+    "translations": {
+     "zh": "星期日；星期天",
+     "en": "Sunday"
+    },
+    "examples": [
+     {
+      "text": "Le dimanche, on mange chez mamie.",
+      "translations": {
+       "zh": "每个星期天我们去奶奶家吃饭。",
+       "en": "On Sundays we eat at Grandma's."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "janvier",
+  "phonetic": "/ʒɑ̃.vje/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "premier mois de l'année",
+    "translations": {
+     "zh": "一月",
+     "en": "January"
+    },
+    "examples": [
+     {
+      "text": "Mon anniversaire est en janvier.",
+      "translations": {
+       "zh": "我的生日在一月。",
+       "en": "My birthday is in January."
+      }
+     }
+    ],
+    "usageNote": "月份小写，用 en 或 au mois de 表示“在几月”：en mai。"
+   }
+  ]
+ },
+ {
+  "headword": "février",
+  "phonetic": "/fe.vʁi.je/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "deuxième mois de l'année",
+    "translations": {
+     "zh": "二月",
+     "en": "February"
+    },
+    "examples": [
+     {
+      "text": "Il neige souvent en février.",
+      "translations": {
+       "zh": "二月经常下雪。",
+       "en": "It often snows in February."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mars",
+  "phonetic": "/maʁs/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "troisième mois de l'année",
+    "translations": {
+     "zh": "三月",
+     "en": "March"
+    },
+    "examples": [
+     {
+      "text": "Le printemps commence en mars.",
+      "translations": {
+       "zh": "春天三月开始。",
+       "en": "Spring begins in March."
+      }
+     }
+    ],
+    "usageNote": "s 要发音。"
+   }
+  ]
+ },
+ {
+  "headword": "avril",
+  "phonetic": "/a.vʁil/",
+  "cefr": "A1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "quatrième mois de l'année",
+    "translations": {
+     "zh": "四月",
+     "en": "April"
+    },
+    "examples": [
+     {
+      "text": "Nous partons en avril.",
+      "translations": {
+       "zh": "我们四月出发。",
+       "en": "We're leaving in April."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mai",
+  "phonetic": "/mɛ/",
+  "cefr": "A1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "cinquième mois de l'année",
+    "translations": {
+     "zh": "五月",
+     "en": "May"
+    },
+    "examples": [
+     {
+      "text": "Le premier mai, on ne travaille pas.",
+      "translations": {
+       "zh": "五月一日不上班。",
+       "en": "We don't work on the first of May."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "juin",
+  "phonetic": "/ʒɥɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "sixième mois de l'année",
+    "translations": {
+     "zh": "六月",
+     "en": "June"
+    },
+    "examples": [
+     {
+      "text": "L'école finit en juin.",
+      "translations": {
+       "zh": "学校六月放假。",
+       "en": "School ends in June."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "juillet",
+  "phonetic": "/ʒɥi.jɛ/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "septième mois de l'année",
+    "translations": {
+     "zh": "七月",
+     "en": "July"
+    },
+    "examples": [
+     {
+      "text": "En juillet, il fait chaud.",
+      "translations": {
+       "zh": "七月天气很热。",
+       "en": "In July it's hot."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "août",
+  "phonetic": "/u(t)/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "huitième mois de l'année",
+    "translations": {
+     "zh": "八月",
+     "en": "August"
+    },
+    "examples": [
+     {
+      "text": "Nous allons à la mer en août.",
+      "translations": {
+       "zh": "我们八月去海边。",
+       "en": "We go to the seaside in August."
+      }
+     }
+    ],
+    "usageNote": "读 /u/ 或 /ut/ 都可以。"
+   }
+  ]
+ },
+ {
+  "headword": "septembre",
+  "phonetic": "/sɛp.tɑ̃bʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "neuvième mois de l'année",
+    "translations": {
+     "zh": "九月",
+     "en": "September"
+    },
+    "examples": [
+     {
+      "text": "La rentrée, c'est en septembre.",
+      "translations": {
+       "zh": "九月开学。",
+       "en": "School starts again in September."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "octobre",
+  "phonetic": "/ɔk.tɔbʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "dixième mois de l'année",
+    "translations": {
+     "zh": "十月",
+     "en": "October"
+    },
+    "examples": [
+     {
+      "text": "Il pleut beaucoup en octobre.",
+      "translations": {
+       "zh": "十月经常下雨。",
+       "en": "It rains a lot in October."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "novembre",
+  "phonetic": "/nɔ.vɑ̃bʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2100,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "onzième mois de l'année",
+    "translations": {
+     "zh": "十一月",
+     "en": "November"
+    },
+    "examples": [
+     {
+      "text": "En novembre, les jours sont courts.",
+      "translations": {
+       "zh": "十一月白天很短。",
+       "en": "In November the days are short."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "décembre",
+  "phonetic": "/de.sɑ̃bʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "gender": "阳性"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "douzième mois de l'année",
+    "translations": {
+     "zh": "十二月",
+     "en": "December"
+    },
+    "examples": [
+     {
+      "text": "Noël, c'est le vingt-cinq décembre.",
+      "translations": {
+       "zh": "圣诞节是十二月二十五日。",
+       "en": "Christmas is on the twenty-fifth of December."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "printemps",
+  "phonetic": "/pʁɛ̃.tɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "printemps"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "saison entre l'hiver et l'été",
+    "translations": {
+     "zh": "春天",
+     "en": "spring"
+    },
+    "examples": [
+     {
+      "text": "Au printemps, les fleurs poussent.",
+      "translations": {
+       "zh": "春天，花儿生长。",
+       "en": "In spring, flowers grow."
+      }
+     }
+    ],
+    "usageNote": "注意说 au printemps，而其他季节用 en：en été, en automne, en hiver。"
+   }
+  ]
+ },
+ {
+  "headword": "été",
+  "phonetic": "/e.te/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "étés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "saison la plus chaude de l'année",
+    "translations": {
+     "zh": "夏天",
+     "en": "summer"
+    },
+    "examples": [
+     {
+      "text": "En été, on va à la plage.",
+      "translations": {
+       "zh": "夏天我们去海滩。",
+       "en": "In summer we go to the beach."
+      }
+     }
+    ],
+    "usageNote": "été 也是 être 的过去分词：j'ai été（我曾经是）。"
+   }
+  ]
+ }
+]

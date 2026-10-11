@@ -1,0 +1,1457 @@
+[
+ {
+  "headword": "chaussette",
+  "phonetic": "/ʃo.sɛt/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "chaussettes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement qu'on met au pied, sous la chaussure",
+    "translations": {
+     "zh": "袜子",
+     "en": "sock"
+    },
+    "examples": [
+     {
+      "text": "Il me manque une chaussette.",
+      "translations": {
+       "zh": "我少了一只袜子。",
+       "en": "I'm missing a sock."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "veste",
+  "phonetic": "/vɛst/",
+  "cefr": "A2",
+  "frequencyRank": 2600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "vestes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement court avec des manches, ouvert devant",
+    "translations": {
+     "zh": "夹克；外套；西装上衣",
+     "en": "jacket"
+    },
+    "examples": [
+     {
+      "text": "Prends ta veste, il va pleuvoir.",
+      "translations": {
+       "zh": "带上外套，要下雨了。",
+       "en": "Take your jacket, it's going to rain."
+      }
+     }
+    ],
+    "usageNote": "假朋友：veste 是夹克，不是英语的 vest（背心）。"
+   }
+  ]
+ },
+ {
+  "headword": "t-shirt",
+  "phonetic": "/ti.ʃœʁt/",
+  "cefr": "A1",
+  "frequencyRank": 8000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "t-shirts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement léger à manches courtes",
+    "translations": {
+     "zh": "T恤衫",
+     "en": "T-shirt"
+    },
+    "examples": [
+     {
+      "text": "En été, je porte un t-shirt.",
+      "cloze": "En été, je porte un {{t-shirt}}.",
+      "translations": {
+       "zh": "夏天我穿T恤。",
+       "en": "In summer I wear a T-shirt."
+      }
+     }
+    ],
+    "usageNote": "也写作 tee-shirt。"
+   }
+  ]
+ },
+ {
+  "headword": "jean",
+  "phonetic": "/dʒin/",
+  "cefr": "A2",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "jeans"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "pantalon en toile bleue solide",
+    "translations": {
+     "zh": "牛仔裤",
+     "en": "jeans"
+    },
+    "examples": [
+     {
+      "text": "Elle porte un jean noir.",
+      "translations": {
+       "zh": "她穿着一条黑色牛仔裤。",
+       "en": "She's wearing black jeans."
+      }
+     }
+    ],
+    "usageNote": "单数 un jean 就是“一条牛仔裤”。"
+   }
+  ]
+ },
+ {
+  "headword": "lunettes",
+  "phonetic": "/ly.nɛt/",
+  "cefr": "A2",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "通常只用复数"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "deux verres qu'on met devant les yeux pour mieux voir",
+    "translations": {
+     "zh": "眼镜",
+     "en": "glasses"
+    },
+    "examples": [
+     {
+      "text": "Je ne trouve pas mes lunettes.",
+      "translations": {
+       "zh": "我找不到我的眼镜了。",
+       "en": "I can't find my glasses."
+      }
+     }
+    ],
+    "usageNote": "总是用复数 des lunettes；太阳镜是 des lunettes de soleil。"
+   }
+  ]
+ },
+ {
+  "headword": "montre",
+  "phonetic": "/mɔ̃tʁ/",
+  "cefr": "A2",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "montres"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit objet au poignet qui donne l'heure",
+    "translations": {
+     "zh": "手表",
+     "en": "watch"
+    },
+    "examples": [
+     {
+      "text": "Ma montre ne marche plus.",
+      "translations": {
+       "zh": "我的手表不走了。",
+       "en": "My watch has stopped working."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "écharpe",
+  "phonetic": "/e.ʃaʁp/",
+  "cefr": "A2",
+  "frequencyRank": 6500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "écharpes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "long tissu qu'on porte autour du cou",
+    "translations": {
+     "zh": "围巾",
+     "en": "scarf"
+    },
+    "examples": [
+     {
+      "text": "Cette écharpe est très chaude.",
+      "translations": {
+       "zh": "这条围巾很暖和。",
+       "en": "This scarf is very warm."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gant",
+  "phonetic": "/ɡɑ̃/",
+  "cefr": "A2",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "gants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "vêtement pour la main",
+    "translations": {
+     "zh": "手套",
+     "en": "glove"
+    },
+    "examples": [
+     {
+      "text": "J'ai perdu un gant.",
+      "translations": {
+       "zh": "我丢了一只手套。",
+       "en": "I've lost a glove."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "poche",
+  "phonetic": "/pɔʃ/",
+  "cefr": "A2",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "poches"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petit sac cousu dans un vêtement",
+    "translations": {
+     "zh": "口袋；衣兜",
+     "en": "pocket"
+    },
+    "examples": [
+     {
+      "text": "Mon téléphone est dans ma poche.",
+      "translations": {
+       "zh": "我的手机在口袋里。",
+       "en": "My phone is in my pocket."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "taille",
+  "phonetic": "/taj/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "tailles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grandeur d'un vêtement ou d'une personne",
+    "translations": {
+     "zh": "尺码；身高",
+     "en": "size; height"
+    },
+    "examples": [
+     {
+      "text": "Quelle taille faites-vous ?",
+      "translations": {
+       "zh": "您穿多大号？",
+       "en": "What size are you?"
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "partie du corps au-dessus des hanches",
+    "translations": {
+     "zh": "腰",
+     "en": "waist"
+    }
+   }
+  ]
+ },
+ {
+  "headword": "ville",
+  "phonetic": "/vil/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "villes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand groupe de maisons, de rues et d'habitants",
+    "translations": {
+     "zh": "城市；城镇",
+     "en": "town, city"
+    },
+    "examples": [
+     {
+      "text": "Paris est une belle ville.",
+      "translations": {
+       "zh": "巴黎是一座美丽的城市。",
+       "en": "Paris is a beautiful city."
+      }
+     }
+    ],
+    "usageNote": "ville 读 /vil/（ill 读 /il/），和 fille /fij/ 不同。"
+   }
+  ]
+ },
+ {
+  "headword": "rue",
+  "phonetic": "/ʁy/",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "rues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "chemin dans une ville, entre les maisons",
+    "translations": {
+     "zh": "街道；马路",
+     "en": "street"
+    },
+    "examples": [
+     {
+      "text": "J'habite dans cette rue.",
+      "translations": {
+       "zh": "我住在这条街上。",
+       "en": "I live on this street."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "école",
+  "phonetic": "/e.kɔl/",
+  "cefr": "A1",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "écoles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où les enfants apprennent",
+    "translations": {
+     "zh": "学校",
+     "en": "school"
+    },
+    "examples": [
+     {
+      "text": "Mon école est grande.",
+      "translations": {
+       "zh": "我的学校很大。",
+       "en": "My school is big."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "magasin",
+  "phonetic": "/ma.ɡa.zɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "magasins"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on vend des choses",
+    "translations": {
+     "zh": "商店",
+     "en": "shop, store"
+    },
+    "examples": [
+     {
+      "text": "Ce magasin ferme à sept heures.",
+      "translations": {
+       "zh": "这家商店七点关门。",
+       "en": "This shop closes at seven."
+      }
+     }
+    ],
+    "usageNote": "假朋友：不是“杂志”（杂志是 un magazine）。"
+   }
+  ]
+ },
+ {
+  "headword": "banque",
+  "phonetic": "/bɑ̃k/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "banques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on garde son argent",
+    "translations": {
+     "zh": "银行",
+     "en": "bank"
+    },
+    "examples": [
+     {
+      "text": "La banque est fermée le dimanche.",
+      "translations": {
+       "zh": "银行星期天不开门。",
+       "en": "The bank is closed on Sundays."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gare",
+  "phonetic": "/ɡaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "gares"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où les trains s'arrêtent",
+    "translations": {
+     "zh": "火车站",
+     "en": "railway station"
+    },
+    "examples": [
+     {
+      "text": "Le train arrive à la gare.",
+      "translations": {
+       "zh": "火车进站了。",
+       "en": "The train is arriving at the station."
+      }
+     }
+    ],
+    "usageNote": "公交车站是 un arrêt de bus。"
+   }
+  ]
+ },
+ {
+  "headword": "aéroport",
+  "phonetic": "/a.e.ʁɔ.pɔʁ/",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "aéroports"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où les avions arrivent et partent",
+    "translations": {
+     "zh": "机场",
+     "en": "airport"
+    },
+    "examples": [
+     {
+      "text": "Cet aéroport est très grand.",
+      "translations": {
+       "zh": "这个机场很大。",
+       "en": "This airport is very big."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "hôpital",
+  "phonetic": "/ɔ.pi.tal/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "hôpitaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on soigne les malades",
+    "translations": {
+     "zh": "医院",
+     "en": "hospital"
+    },
+    "examples": [
+     {
+      "text": "Il travaille dans un hôpital.",
+      "translations": {
+       "zh": "他在一家医院工作。",
+       "en": "He works in a hospital."
+      }
+     }
+    ],
+    "usageNote": "复数不规则：des hôpitaux。"
+   }
+  ]
+ },
+ {
+  "headword": "restaurant",
+  "phonetic": "/ʁɛs.tɔ.ʁɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "restaurants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on paie pour manger",
+    "translations": {
+     "zh": "餐馆；饭店",
+     "en": "restaurant"
+    },
+    "examples": [
+     {
+      "text": "On dîne au restaurant ce soir.",
+      "translations": {
+       "zh": "我们今晚去饭店吃晚饭。",
+       "en": "We're having dinner at a restaurant tonight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "voiture",
+  "phonetic": "/vwa.tyʁ/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "voitures"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "véhicule à quatre roues avec un moteur",
+    "translations": {
+     "zh": "汽车；小轿车",
+     "en": "car"
+    },
+    "examples": [
+     {
+      "text": "Mon père a une voiture rouge.",
+      "translations": {
+       "zh": "我爸爸有一辆红色的汽车。",
+       "en": "My father has a red car."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bus",
+  "phonetic": "/bys/",
+  "cefr": "A1",
+  "frequencyRank": 2900,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bus"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand véhicule qui transporte beaucoup de personnes en ville",
+    "translations": {
+     "zh": "公共汽车；公交车",
+     "en": "bus"
+    },
+    "examples": [
+     {
+      "text": "Je prends le bus pour aller au travail.",
+      "translations": {
+       "zh": "我坐公交车去上班。",
+       "en": "I take the bus to work."
+      }
+     }
+    ],
+    "usageNote": "s 要发音 /bys/；城际大巴叫 un car。"
+   }
+  ]
+ },
+ {
+  "headword": "train",
+  "phonetic": "/tʁɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "trains"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "véhicule qui roule sur des rails",
+    "translations": {
+     "zh": "火车",
+     "en": "train"
+    },
+    "examples": [
+     {
+      "text": "Le train part à huit heures.",
+      "translations": {
+       "zh": "火车八点出发。",
+       "en": "The train leaves at eight."
+      }
+     }
+    ],
+    "usageNote": "être en train de + 动词原形 = 正在做某事。"
+   }
+  ]
+ },
+ {
+  "headword": "vélo",
+  "phonetic": "/ve.lo/",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "vélos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "véhicule à deux roues qu'on fait avancer avec les pieds",
+    "translations": {
+     "zh": "自行车",
+     "en": "bicycle, bike"
+    },
+    "examples": [
+     {
+      "text": "Je vais à l'école à vélo.",
+      "translations": {
+       "zh": "我骑自行车上学。",
+       "en": "I cycle to school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "avion",
+  "phonetic": "/a.vjɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "avions"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "véhicule qui vole dans le ciel",
+    "translations": {
+     "zh": "飞机",
+     "en": "plane"
+    },
+    "examples": [
+     {
+      "text": "Nous partons en avion.",
+      "translations": {
+       "zh": "我们坐飞机去。",
+       "en": "We're going by plane."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "métro",
+  "phonetic": "/me.tʁo/",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "métros"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "train qui roule sous la ville",
+    "translations": {
+     "zh": "地铁",
+     "en": "underground, subway"
+    },
+    "examples": [
+     {
+      "text": "Je prends le métro tous les jours.",
+      "translations": {
+       "zh": "我每天坐地铁。",
+       "en": "I take the metro every day."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "taxi",
+  "phonetic": "/tak.si/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "taxis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "voiture avec un chauffeur qu'on paie",
+    "translations": {
+     "zh": "出租车",
+     "en": "taxi"
+    },
+    "examples": [
+     {
+      "text": "Appelle un taxi, s'il te plaît.",
+      "translations": {
+       "zh": "请叫一辆出租车。",
+       "en": "Call a taxi, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bateau",
+  "phonetic": "/ba.to/",
+  "cefr": "A1",
+  "frequencyRank": 1600,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "bateaux"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "véhicule qui va sur l'eau",
+    "translations": {
+     "zh": "船",
+     "en": "boat"
+    },
+    "examples": [
+     {
+      "text": "Le bateau arrive au port.",
+      "translations": {
+       "zh": "船到港了。",
+       "en": "The boat is arriving in port."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "route",
+  "phonetic": "/ʁut/",
+  "cefr": "A2",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "routes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "large chemin pour les voitures, entre deux villes",
+    "translations": {
+     "zh": "公路；道路",
+     "en": "road"
+    },
+    "examples": [
+     {
+      "text": "Cette route va à Lyon.",
+      "translations": {
+       "zh": "这条路通往里昂。",
+       "en": "This road goes to Lyon."
+      }
+     }
+    ],
+    "usageNote": "城里的街道用 rue。"
+   }
+  ]
+ },
+ {
+  "headword": "pays",
+  "phonetic": "/pe.i/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "pays"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "territoire d'une nation",
+    "translations": {
+     "zh": "国家",
+     "en": "country"
+    },
+    "examples": [
+     {
+      "text": "La Chine est un grand pays.",
+      "translations": {
+       "zh": "中国是一个大国。",
+       "en": "China is a big country."
+      }
+     }
+    ],
+    "usageNote": "读 /pe.i/，两个音节；单复数同形。"
+   }
+  ]
+ },
+ {
+  "headword": "village",
+  "phonetic": "/vi.laʒ/",
+  "cefr": "A2",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "villages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "petite ville à la campagne",
+    "translations": {
+     "zh": "村庄；村子",
+     "en": "village"
+    },
+    "examples": [
+     {
+      "text": "Ce petit village est très calme.",
+      "translations": {
+       "zh": "这个小村庄很安静。",
+       "en": "This little village is very quiet."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "parc",
+  "phonetic": "/paʁk/",
+  "cefr": "A1",
+  "frequencyRank": 2200,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "parcs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand jardin public",
+    "translations": {
+     "zh": "公园",
+     "en": "park"
+    },
+    "examples": [
+     {
+      "text": "On joue au parc après l'école.",
+      "translations": {
+       "zh": "放学后我们在公园玩。",
+       "en": "We play in the park after school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "musée",
+  "phonetic": "/my.ze/",
+  "cefr": "A1",
+  "frequencyRank": 2300,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "musées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on montre des œuvres d'art ou des objets anciens",
+    "translations": {
+     "zh": "博物馆；美术馆",
+     "en": "museum"
+    },
+    "examples": [
+     {
+      "text": "Le Louvre est un musée célèbre.",
+      "translations": {
+       "zh": "卢浮宫是一座著名的博物馆。",
+       "en": "The Louvre is a famous museum."
+      }
+     }
+    ],
+    "usageNote": "阳性 un musée，虽然以 -ée 结尾。"
+   }
+  ]
+ },
+ {
+  "headword": "cinéma",
+  "phonetic": "/si.ne.ma/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "cinémas"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on regarde des films",
+    "translations": {
+     "zh": "电影院",
+     "en": "cinema"
+    },
+    "examples": [
+     {
+      "text": "On va au cinéma samedi ?",
+      "translations": {
+       "zh": "我们星期六去看电影吧？",
+       "en": "Shall we go to the cinema on Saturday?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bibliothèque",
+  "phonetic": "/bi.bli.jɔ.tɛk/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "bibliothèques"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on lit et emprunte des livres",
+    "translations": {
+     "zh": "图书馆；书架",
+     "en": "library; bookcase"
+    },
+    "examples": [
+     {
+      "text": "Je travaille à la bibliothèque.",
+      "translations": {
+       "zh": "我在图书馆学习。",
+       "en": "I study at the library."
+      }
+     }
+    ],
+    "usageNote": "假朋友：书店是 la librairie，不是图书馆。"
+   }
+  ]
+ },
+ {
+  "headword": "supermarché",
+  "phonetic": "/sy.pɛʁ.maʁ.ʃe/",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "supermarchés"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "grand magasin où l'on achète à manger",
+    "translations": {
+     "zh": "超市",
+     "en": "supermarket"
+    },
+    "examples": [
+     {
+      "text": "J'achète du lait au supermarché.",
+      "translations": {
+       "zh": "我在超市买牛奶。",
+       "en": "I buy milk at the supermarket."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "boulangerie",
+  "phonetic": "/bu.lɑ̃ʒ.ʁi/",
+  "cefr": "A2",
+  "frequencyRank": 6000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "boulangeries"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "magasin où l'on fait et vend du pain",
+    "translations": {
+     "zh": "面包店",
+     "en": "bakery"
+    },
+    "examples": [
+     {
+      "text": "La boulangerie ouvre à sept heures.",
+      "translations": {
+       "zh": "面包店七点开门。",
+       "en": "The bakery opens at seven."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "hôtel",
+  "phonetic": "/o.tɛl/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "hôtels"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "lieu où l'on paie pour dormir",
+    "translations": {
+     "zh": "酒店；旅馆",
+     "en": "hotel"
+    },
+    "examples": [
+     {
+      "text": "Notre hôtel est près de la plage.",
+      "translations": {
+       "zh": "我们的酒店离海滩很近。",
+       "en": "Our hotel is near the beach."
+      }
+     }
+    ],
+    "usageNote": "hôtel de ville 是“市政厅”，不是旅馆。"
+   }
+  ]
+ },
+ {
+  "headword": "église",
+  "phonetic": "/e.ɡliz/",
+  "cefr": "A2",
+  "frequencyRank": 1200,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "églises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bâtiment où les chrétiens prient",
+    "translations": {
+     "zh": "教堂",
+     "en": "church"
+    },
+    "examples": [
+     {
+      "text": "Cette église est très ancienne.",
+      "translations": {
+       "zh": "这座教堂很古老。",
+       "en": "This church is very old."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plage",
+  "phonetic": "/plaʒ/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "plages"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "bord de la mer, avec du sable",
+    "translations": {
+     "zh": "海滩",
+     "en": "beach"
+    },
+    "examples": [
+     {
+      "text": "On va à la plage cet été ?",
+      "translations": {
+       "zh": "今年夏天我们去海边吗？",
+       "en": "Shall we go to the beach this summer?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "place",
+  "phonetic": "/plas/",
+  "cefr": "A2",
+  "frequencyRank": 500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "places"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "siège; espace libre",
+    "translations": {
+     "zh": "座位；位置；空间",
+     "en": "seat; room, space"
+    },
+    "examples": [
+     {
+      "text": "Cette place est libre ?",
+      "translations": {
+       "zh": "这个座位有人吗？",
+       "en": "Is this seat free?"
+      }
+     }
+    ],
+    "usageNote": "假朋友：place 常指“座位、空间”；泛指“地方”一般说 endroit 或 lieu。"
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "espace ouvert dans une ville",
+    "translations": {
+     "zh": "广场",
+     "en": "square"
+    },
+    "examples": [
+     {
+      "text": "Le marché est sur la place.",
+      "translations": {
+       "zh": "集市在广场上。",
+       "en": "The market is on the square."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "billet",
+  "phonetic": "/bi.jɛ/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "billets"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "papier qui permet de voyager ou d'entrer",
+    "translations": {
+     "zh": "票",
+     "en": "ticket"
+    },
+    "examples": [
+     {
+      "text": "Un billet pour Paris, s'il vous plaît.",
+      "translations": {
+       "zh": "一张去巴黎的票，谢谢。",
+       "en": "A ticket to Paris, please."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "argent en papier",
+    "translations": {
+     "zh": "纸币；钞票",
+     "en": "banknote"
+    },
+    "examples": [
+     {
+      "text": "C'est un billet de dix euros.",
+      "translations": {
+       "zh": "这是一张十欧元的纸币。",
+       "en": "It's a ten-euro note."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "poste",
+  "phonetic": "/pɔst/",
+  "cefr": "A2",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阴性",
+   "plural": "postes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "service qui transporte les lettres; son bureau",
+    "translations": {
+     "zh": "邮局；邮政",
+     "en": "post office; post"
+    },
+    "examples": [
+     {
+      "text": "Je vais à la poste.",
+      "translations": {
+       "zh": "我去邮局。",
+       "en": "I'm going to the post office."
+      }
+     }
+    ],
+    "usageNote": "la poste（阴性）是邮局；le poste（阳性）是“职位；岗位”。"
+   }
+  ]
+ },
+ {
+  "headword": "pont",
+  "phonetic": "/pɔ̃/",
+  "cefr": "A2",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "ponts"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "construction pour passer au-dessus d'une rivière",
+    "translations": {
+     "zh": "桥",
+     "en": "bridge"
+    },
+    "examples": [
+     {
+      "text": "Il y a un pont sur la rivière.",
+      "translations": {
+       "zh": "河上有一座桥。",
+       "en": "There's a bridge over the river."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "professeur",
+  "phonetic": "/pʁɔ.fɛ.sœʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "professeurs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui enseigne",
+    "translations": {
+     "zh": "老师；教授",
+     "en": "teacher; professor"
+    },
+    "examples": [
+     {
+      "text": "Notre professeur est très sympa.",
+      "translations": {
+       "zh": "我们的老师人很好。",
+       "en": "Our teacher is very nice."
+      }
+     }
+    ],
+    "usageNote": "口语缩写 le / la prof；女老师现在也写作 la professeure。"
+   }
+  ]
+ },
+ {
+  "headword": "élève",
+  "phonetic": "/e.lɛv/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "grammarNotes": {
+   "gender": "阳性或阴性",
+   "plural": "élèves"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "enfant qui va à l'école",
+    "translations": {
+     "zh": "学生（中小学）",
+     "en": "pupil, student"
+    },
+    "examples": [
+     {
+      "text": "Cet élève travaille bien.",
+      "translations": {
+       "zh": "这个学生学习很好。",
+       "en": "This pupil works hard."
+      }
+     }
+    ],
+    "usageNote": "un élève / une élève；大学生用 étudiant。"
+   }
+  ]
+ },
+ {
+  "headword": "étudiant",
+  "phonetic": "/e.ty.djɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "étudiants"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "personne qui fait des études à l'université",
+    "translations": {
+     "zh": "大学生",
+     "en": "student"
+    },
+    "examples": [
+     {
+      "text": "Mon frère est étudiant à Paris.",
+      "translations": {
+       "zh": "我哥哥在巴黎上大学。",
+       "en": "My brother is a student in Paris."
+      }
+     }
+    ],
+    "usageNote": "女大学生是 étudiante。"
+   }
+  ]
+ },
+ {
+  "headword": "stylo",
+  "phonetic": "/sti.lo/",
+  "cefr": "A1",
+  "frequencyRank": 5000,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "stylos"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet pour écrire à l'encre",
+    "translations": {
+     "zh": "笔；钢笔；圆珠笔",
+     "en": "pen"
+    },
+    "examples": [
+     {
+      "text": "Tu peux me prêter ton stylo ?",
+      "translations": {
+       "zh": "你能把笔借我吗？",
+       "en": "Can you lend me your pen?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "crayon",
+  "phonetic": "/kʁɛ.jɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 4500,
+  "grammarNotes": {
+   "gender": "阳性",
+   "plural": "crayons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "noun",
+    "definition": "objet en bois pour écrire ou dessiner",
+    "translations": {
+     "zh": "铅笔",
+     "en": "pencil"
+    },
+    "examples": [
+     {
+      "text": "Écris ton nom avec un crayon.",
+      "translations": {
+       "zh": "用铅笔写上你的名字。",
+       "en": "Write your name with a pencil."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,1385 @@
+[
+ {
+  "headword": "pour",
+  "phonetic": "/puʁ/",
+  "cefr": "A1",
+  "frequencyRank": 22,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "indique le but ou la personne qui reçoit",
+    "translations": {
+     "zh": "为了；给",
+     "en": "for; to (in order to)"
+    },
+    "examples": [
+     {
+      "text": "Ce cadeau est pour toi.",
+      "translations": {
+       "zh": "这个礼物是给你的。",
+       "en": "This present is for you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dans",
+  "phonetic": "/dɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 23,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à l'intérieur de ; après un certain temps",
+    "translations": {
+     "zh": "在……里；……之后",
+     "en": "in, inside"
+    },
+    "examples": [
+     {
+      "text": "Le chat est dans la boîte.",
+      "translations": {
+       "zh": "猫在盒子里。",
+       "en": "The cat is in the box."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sur",
+  "phonetic": "/syʁ/",
+  "cefr": "A1",
+  "frequencyRank": 27,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "au-dessus de, en touchant",
+    "translations": {
+     "zh": "在……上面",
+     "en": "on"
+    },
+    "examples": [
+     {
+      "text": "Le livre est sur la table.",
+      "translations": {
+       "zh": "书在桌子上。",
+       "en": "The book is on the table."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sous",
+  "phonetic": "/su/",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "plus bas que, au-dessous de",
+    "translations": {
+     "zh": "在……下面",
+     "en": "under"
+    },
+    "examples": [
+     {
+      "text": "Le chat dort sous le lit.",
+      "translations": {
+       "zh": "猫睡在床底下。",
+       "en": "The cat sleeps under the bed."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "devant",
+  "phonetic": "/də.vɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 280,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en face de, avant dans l'espace",
+    "translations": {
+     "zh": "在……前面",
+     "en": "in front of"
+    },
+    "examples": [
+     {
+      "text": "Je t'attends devant l'école.",
+      "translations": {
+       "zh": "我在学校门口等你。",
+       "en": "I'll wait for you in front of the school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "derrière",
+  "phonetic": "/dɛ.ʁjɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "de l'autre côté, en arrière de",
+    "translations": {
+     "zh": "在……后面",
+     "en": "behind"
+    },
+    "examples": [
+     {
+      "text": "Le jardin est derrière la maison.",
+      "translations": {
+       "zh": "花园在房子后面。",
+       "en": "The garden is behind the house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "entre",
+  "phonetic": "/ɑ̃tʁ/",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "au milieu de deux choses ou personnes",
+    "translations": {
+     "zh": "在……之间",
+     "en": "between"
+    },
+    "examples": [
+     {
+      "text": "Je suis assis entre Paul et Marie.",
+      "translations": {
+       "zh": "我坐在保罗和玛丽中间。",
+       "en": "I'm sitting between Paul and Marie."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chez",
+  "phonetic": "/ʃe/",
+  "cefr": "A1",
+  "frequencyRank": 140,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "dans la maison de",
+    "translations": {
+     "zh": "在……家",
+     "en": "at (someone's home)"
+    },
+    "examples": [
+     {
+      "text": "Je dors chez ma grand-mère.",
+      "translations": {
+       "zh": "我在奶奶家睡。",
+       "en": "I'm sleeping at my grandmother's."
+      }
+     }
+    ],
+    "usageNote": "chez moi = 在我家；chez le médecin = 在医生那里。"
+   }
+  ]
+ },
+ {
+  "headword": "avant",
+  "phonetic": "/a.vɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 118,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "plus tôt que",
+    "translations": {
+     "zh": "在……之前",
+     "en": "before"
+    },
+    "examples": [
+     {
+      "text": "Lave-toi les mains avant le repas.",
+      "translations": {
+       "zh": "饭前要洗手。",
+       "en": "Wash your hands before the meal."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "après",
+  "phonetic": "/a.pʁɛ/",
+  "cefr": "A1",
+  "frequencyRank": 96,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "plus tard que",
+    "translations": {
+     "zh": "在……之后",
+     "en": "after"
+    },
+    "examples": [
+     {
+      "text": "On joue après l'école.",
+      "translations": {
+       "zh": "我们放学后玩。",
+       "en": "We play after school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "par",
+  "phonetic": "/paʁ/",
+  "cefr": "A1",
+  "frequencyRank": 46,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "en passant par ; au moyen de",
+    "translations": {
+     "zh": "通过；经过；每",
+     "en": "by, through, per"
+    },
+    "examples": [
+     {
+      "text": "Regarde par la fenêtre.",
+      "translations": {
+       "zh": "看看窗外。",
+       "en": "Look out of the window."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "près de",
+  "phonetic": "/pʁɛ.də/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à une petite distance de",
+    "translations": {
+     "zh": "在……附近",
+     "en": "near"
+    },
+    "examples": [
+     {
+      "text": "J'habite près de l'école.",
+      "cloze": "J'habite {{près de}} l'école.",
+      "translations": {
+       "zh": "我住在学校附近。",
+       "en": "I live near the school."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "loin de",
+  "phonetic": "/lwɛ̃.də/",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "senses": [
+   {
+    "partOfSpeech": "preposition",
+    "definition": "à une grande distance de",
+    "translations": {
+     "zh": "离……远",
+     "en": "far from"
+    },
+    "examples": [
+     {
+      "text": "La plage est loin de la ville.",
+      "cloze": "La plage est {{loin de}} la ville.",
+      "translations": {
+       "zh": "海滩离城市很远。",
+       "en": "The beach is far from the town."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "et",
+  "phonetic": "/e/",
+  "cefr": "A1",
+  "frequencyRank": 5,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "relie deux mots ou deux phrases",
+    "translations": {
+     "zh": "和；而且",
+     "en": "and"
+    },
+    "examples": [
+     {
+      "text": "J'ai un chat et un chien.",
+      "translations": {
+       "zh": "我有一只猫和一只狗。",
+       "en": "I have a cat and a dog."
+      }
+     }
+    ],
+    "usageNote": "et 的 t 不发音，也从不连读。"
+   }
+  ]
+ },
+ {
+  "headword": "ou",
+  "phonetic": "/u/",
+  "cefr": "A1",
+  "frequencyRank": 44,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "indique un choix",
+    "translations": {
+     "zh": "或者；还是",
+     "en": "or"
+    },
+    "examples": [
+     {
+      "text": "Du thé ou du café ?",
+      "translations": {
+       "zh": "喝茶还是咖啡？",
+       "en": "Tea or coffee?"
+      }
+     }
+    ],
+    "usageNote": "ou（或者）没有重音符；où（哪里）有。"
+   }
+  ]
+ },
+ {
+  "headword": "mais",
+  "phonetic": "/mɛ/",
+  "cefr": "A1",
+  "frequencyRank": 26,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "indique une opposition",
+    "translations": {
+     "zh": "但是；可是",
+     "en": "but"
+    },
+    "examples": [
+     {
+      "text": "C'est petit mais joli.",
+      "translations": {
+       "zh": "它小但很漂亮。",
+       "en": "It's small but pretty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "parce que",
+  "phonetic": "/paʁs.kə/",
+  "cefr": "A1",
+  "frequencyRank": 130,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "pour la raison que",
+    "translations": {
+     "zh": "因为",
+     "en": "because"
+    },
+    "examples": [
+     {
+      "text": "Je reste ici parce que je suis malade.",
+      "cloze": "Je reste ici {{parce que}} je suis malade.",
+      "translations": {
+       "zh": "我待在这里，因为我生病了。",
+       "en": "I'm staying here because I'm ill."
+      }
+     }
+    ],
+    "usageNote": "在元音前写成 parce qu'：parce qu'il pleut。"
+   }
+  ]
+ },
+ {
+  "headword": "donc",
+  "phonetic": "/dɔ̃k/",
+  "cefr": "A1",
+  "frequencyRank": 99,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "indique une conséquence",
+    "translations": {
+     "zh": "所以；因此",
+     "en": "so, therefore"
+    },
+    "examples": [
+     {
+      "text": "Il pleut, donc je prends un parapluie.",
+      "translations": {
+       "zh": "下雨了，所以我带伞。",
+       "en": "It's raining, so I'm taking an umbrella."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "si",
+  "phonetic": "/si/",
+  "cefr": "A1",
+  "frequencyRank": 43,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "à condition que",
+    "translations": {
+     "zh": "如果",
+     "en": "if"
+    },
+    "examples": [
+     {
+      "text": "Si tu veux, on peut jouer.",
+      "translations": {
+       "zh": "如果你愿意，我们可以玩。",
+       "en": "If you want, we can play."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adverb",
+    "definition": "oui, en réponse à une question négative",
+    "translations": {
+     "zh": "是的（反驳否定问句）",
+     "en": "yes (contradicting a negative)"
+    },
+    "examples": [
+     {
+      "text": "Tu n'as pas faim ? — Si !",
+      "translations": {
+       "zh": "你不饿吗？——饿！",
+       "en": "Aren't you hungry? — Yes, I am!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "que",
+  "phonetic": "/kə/",
+  "cefr": "A1",
+  "frequencyRank": 11,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "relie une phrase à un verbe comme penser, dire, savoir",
+    "translations": {
+     "zh": "（引出从句）",
+     "en": "that"
+    },
+    "examples": [
+     {
+      "text": "Je pense que tu as raison.",
+      "translations": {
+       "zh": "我觉得你说得对。",
+       "en": "I think that you're right."
+      }
+     }
+    ],
+    "usageNote": "元音前写成 qu'。Qu'est-ce que ... ? 是“……什么？”的问句。"
+   }
+  ]
+ },
+ {
+  "headword": "comme",
+  "phonetic": "/kɔm/",
+  "cefr": "A1",
+  "frequencyRank": 41,
+  "senses": [
+   {
+    "partOfSpeech": "conjunction",
+    "definition": "de la même manière que ; parce que",
+    "translations": {
+     "zh": "像……一样；因为",
+     "en": "like, as"
+    },
+    "examples": [
+     {
+      "text": "Il est grand comme son père.",
+      "translations": {
+       "zh": "他和他爸爸一样高。",
+       "en": "He's tall like his father."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "très",
+  "phonetic": "/tʁɛ/",
+  "cefr": "A1",
+  "frequencyRank": 58,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à un haut degré",
+    "translations": {
+     "zh": "很；非常",
+     "en": "very"
+    },
+    "examples": [
+     {
+      "text": "Il fait très chaud.",
+      "translations": {
+       "zh": "天气非常热。",
+       "en": "It's very hot."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "beaucoup",
+  "phonetic": "/bo.ku/",
+  "cefr": "A1",
+  "frequencyRank": 102,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en grande quantité",
+    "translations": {
+     "zh": "很多；非常",
+     "en": "a lot, much, many"
+    },
+    "examples": [
+     {
+      "text": "J'aime beaucoup ce film.",
+      "translations": {
+       "zh": "我非常喜欢这部电影。",
+       "en": "I really like this film."
+      }
+     }
+    ],
+    "usageNote": "接名词时加 de：beaucoup de livres（很多书）。不能和 très 连用。"
+   }
+  ]
+ },
+ {
+  "headword": "peu",
+  "phonetic": "/pø/",
+  "cefr": "A1",
+  "frequencyRank": 88,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en petite quantité",
+    "translations": {
+     "zh": "少；不多",
+     "en": "little, not much"
+    },
+    "examples": [
+     {
+      "text": "Je parle un peu français.",
+      "translations": {
+       "zh": "我会说一点法语。",
+       "en": "I speak a little French."
+      }
+     }
+    ],
+    "usageNote": "un peu 是“一点”（偏肯定）；peu 是“很少”（偏否定）。"
+   }
+  ]
+ },
+ {
+  "headword": "bien",
+  "phonetic": "/bjɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 36,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "d'une bonne manière",
+    "translations": {
+     "zh": "好；很好地",
+     "en": "well"
+    },
+    "examples": [
+     {
+      "text": "Tu chantes bien !",
+      "translations": {
+       "zh": "你唱得真好！",
+       "en": "You sing well!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "mal",
+  "phonetic": "/mal/",
+  "cefr": "A1",
+  "frequencyRank": 170,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "d'une mauvaise manière",
+    "translations": {
+     "zh": "不好；差",
+     "en": "badly"
+    },
+    "examples": [
+     {
+      "text": "J'ai mal dormi.",
+      "translations": {
+       "zh": "我没睡好。",
+       "en": "I slept badly."
+      }
+     }
+    ],
+    "usageNote": "avoir mal à 表示“……疼”：j'ai mal à la tête（我头疼）。"
+   }
+  ]
+ },
+ {
+  "headword": "ici",
+  "phonetic": "/i.si/",
+  "cefr": "A1",
+  "frequencyRank": 85,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans ce lieu",
+    "translations": {
+     "zh": "这里",
+     "en": "here"
+    },
+    "examples": [
+     {
+      "text": "Viens ici !",
+      "translations": {
+       "zh": "到这里来！",
+       "en": "Come here!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "là",
+  "phonetic": "/la/",
+  "cefr": "A1",
+  "frequencyRank": 68,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans ce lieu ou dans un autre lieu",
+    "translations": {
+     "zh": "那里；这里",
+     "en": "there; here"
+    },
+    "examples": [
+     {
+      "text": "Je suis là !",
+      "translations": {
+       "zh": "我在这儿！",
+       "en": "I'm here!"
+      }
+     }
+    ],
+    "usageNote": "口语里 là 也常表示“这里”。注意 là 有重音符，la 是冠词。"
+   }
+  ]
+ },
+ {
+  "headword": "là-bas",
+  "phonetic": "/la.ba/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "dans un lieu un peu loin",
+    "translations": {
+     "zh": "那边；那里",
+     "en": "over there"
+    },
+    "examples": [
+     {
+      "text": "Regarde là-bas !",
+      "cloze": "Regarde {{là-bas}} !",
+      "translations": {
+       "zh": "看那边！",
+       "en": "Look over there!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "aussi",
+  "phonetic": "/o.si/",
+  "cefr": "A1",
+  "frequencyRank": 57,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "de la même façon, en plus",
+    "translations": {
+     "zh": "也；同样",
+     "en": "also, too"
+    },
+    "examples": [
+     {
+      "text": "Moi aussi !",
+      "translations": {
+       "zh": "我也是！",
+       "en": "Me too!"
+      }
+     }
+    ],
+    "usageNote": "否定句里的“也不”用 non plus：moi non plus。"
+   }
+  ]
+ },
+ {
+  "headword": "trop",
+  "phonetic": "/tʁo/",
+  "cefr": "A1",
+  "frequencyRank": 115,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "plus qu'il ne faut",
+    "translations": {
+     "zh": "太；过于",
+     "en": "too, too much"
+    },
+    "examples": [
+     {
+      "text": "C'est trop cher.",
+      "translations": {
+       "zh": "太贵了。",
+       "en": "It's too expensive."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plus",
+  "phonetic": "/ply/",
+  "cefr": "A1",
+  "frequencyRank": 34,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en plus grande quantité ; avec « ne », pas davantage",
+    "translations": {
+     "zh": "更；更多；（ne...plus）不再",
+     "en": "more; (no) longer"
+    },
+    "examples": [
+     {
+      "text": "Il est plus grand que moi.",
+      "translations": {
+       "zh": "他比我高。",
+       "en": "He is taller than me."
+      }
+     }
+    ],
+    "usageNote": "ne ... plus 表示“不再”：Je n'ai plus faim.（我不饿了。）表示“更多”时常读 /plys/。"
+   }
+  ]
+ },
+ {
+  "headword": "moins",
+  "phonetic": "/mwɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 145,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "en plus petite quantité",
+    "translations": {
+     "zh": "更少；较不",
+     "en": "less"
+    },
+    "examples": [
+     {
+      "text": "C'est moins cher ici.",
+      "translations": {
+       "zh": "这里便宜一些。",
+       "en": "It's cheaper here."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vite",
+  "phonetic": "/vit/",
+  "cefr": "A1",
+  "frequencyRank": 380,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "à grande vitesse",
+    "translations": {
+     "zh": "快；快速地",
+     "en": "fast, quickly"
+    },
+    "examples": [
+     {
+      "text": "Viens vite !",
+      "translations": {
+       "zh": "快来！",
+       "en": "Come quickly!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ensemble",
+  "phonetic": "/ɑ̃.sɑ̃bl/",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "les uns avec les autres",
+    "translations": {
+     "zh": "一起；共同",
+     "en": "together"
+    },
+    "examples": [
+     {
+      "text": "On joue ensemble ?",
+      "translations": {
+       "zh": "我们一起玩吗？",
+       "en": "Shall we play together?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "peut-être",
+  "phonetic": "/pø.tɛtʁ/",
+  "cefr": "A1",
+  "frequencyRank": 160,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "c'est possible, mais ce n'est pas sûr",
+    "translations": {
+     "zh": "也许；可能",
+     "en": "maybe, perhaps"
+    },
+    "examples": [
+     {
+      "text": "Il va peut-être pleuvoir.",
+      "cloze": "Il va {{peut-être}} pleuvoir.",
+      "translations": {
+       "zh": "也许要下雨了。",
+       "en": "It might rain."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pas",
+  "phonetic": "/pa/",
+  "cefr": "A1",
+  "frequencyRank": 13,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "avec « ne », sert à dire non",
+    "translations": {
+     "zh": "不；没有",
+     "en": "not"
+    },
+    "examples": [
+     {
+      "text": "Je ne sais pas.",
+      "translations": {
+       "zh": "我不知道。",
+       "en": "I don't know."
+      }
+     }
+    ],
+    "usageNote": "否定句结构是 ne + 动词 + pas。口语中常省掉 ne：Je sais pas."
+   }
+  ]
+ },
+ {
+  "headword": "tout",
+  "phonetic": "/tu/",
+  "cefr": "A1",
+  "frequencyRank": 37,
+  "grammarNotes": {
+   "irregularForms": "作形容词时：阴性 toute；复数 tous, toutes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "pronoun",
+    "definition": "l'ensemble des choses",
+    "translations": {
+     "zh": "一切；全部",
+     "en": "everything, all"
+    },
+    "examples": [
+     {
+      "text": "Tout va bien.",
+      "translations": {
+       "zh": "一切都好。",
+       "en": "Everything is fine."
+      }
+     }
+    ],
+    "usageNote": "tout le monde 是“大家”。"
+   }
+  ]
+ },
+ {
+  "headword": "oui",
+  "phonetic": "/wi/",
+  "cefr": "A1",
+  "frequencyRank": 49,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "mot pour répondre de façon positive",
+    "translations": {
+     "zh": "是；对；好",
+     "en": "yes"
+    },
+    "examples": [
+     {
+      "text": "Oui, je veux bien.",
+      "translations": {
+       "zh": "好的，我愿意。",
+       "en": "Yes, I'd like that."
+      }
+     }
+    ],
+    "usageNote": "回答否定问句时用 si，不用 oui。"
+   }
+  ]
+ },
+ {
+  "headword": "non",
+  "phonetic": "/nɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 52,
+  "senses": [
+   {
+    "partOfSpeech": "adverb",
+    "definition": "mot pour répondre de façon négative",
+    "translations": {
+     "zh": "不；不是",
+     "en": "no"
+    },
+    "examples": [
+     {
+      "text": "Non, merci.",
+      "translations": {
+       "zh": "不用了，谢谢。",
+       "en": "No, thank you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "s'il vous plaît",
+  "phonetic": "/sil.vu.plɛ/",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule de politesse pour demander quelque chose",
+    "translations": {
+     "zh": "请",
+     "en": "please"
+    },
+    "examples": [
+     {
+      "text": "Un croissant, s'il vous plaît.",
+      "cloze": "Un croissant, {{s'il vous plaît}}.",
+      "translations": {
+       "zh": "请给我一个羊角面包。",
+       "en": "A croissant, please."
+      }
+     }
+    ],
+    "usageNote": "对陌生人、长辈或多个人说；对朋友和家人说 s'il te plaît。"
+   }
+  ]
+ },
+ {
+  "headword": "s'il te plaît",
+  "phonetic": "/sil.tə.plɛ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule de politesse avec quelqu'un qu'on tutoie",
+    "translations": {
+     "zh": "请（对熟人）",
+     "en": "please (informal)"
+    },
+    "examples": [
+     {
+      "text": "Passe-moi le sel, s'il te plaît.",
+      "cloze": "Passe-moi le sel, {{s'il te plaît}}.",
+      "translations": {
+       "zh": "请把盐递给我。",
+       "en": "Pass me the salt, please."
+      }
+     }
+    ],
+    "usageNote": "对用 tu 称呼的人说，比如朋友、家人、小孩。"
+   }
+  ]
+ },
+ {
+  "headword": "au revoir",
+  "phonetic": "/o.ʁə.vwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule pour dire qu'on part",
+    "translations": {
+     "zh": "再见",
+     "en": "goodbye"
+    },
+    "examples": [
+     {
+      "text": "Au revoir, madame !",
+      "cloze": "{{Au revoir}}, madame !",
+      "translations": {
+       "zh": "再见，女士！",
+       "en": "Goodbye, madam!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "salut",
+  "phonetic": "/sa.ly/",
+  "cefr": "A1",
+  "frequencyRank": 1200,
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "mot familier pour dire bonjour ou au revoir",
+    "translations": {
+     "zh": "嗨；你好；再见",
+     "en": "hi; bye"
+    },
+    "examples": [
+     {
+      "text": "Salut, ça va ?",
+      "translations": {
+       "zh": "嗨，你好吗？",
+       "en": "Hi, how are you?"
+      }
+     }
+    ],
+    "usageNote": "只对朋友、同学和家人说，比 bonjour 随便。"
+   }
+  ]
+ },
+ {
+  "headword": "bonsoir",
+  "phonetic": "/bɔ̃.swaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "salutation utilisée le soir",
+    "translations": {
+     "zh": "晚上好",
+     "en": "good evening"
+    },
+    "examples": [
+     {
+      "text": "Bonsoir, madame.",
+      "translations": {
+       "zh": "晚上好，女士。",
+       "en": "Good evening, madam."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bonne nuit",
+  "phonetic": "/bɔn.nɥi/",
+  "cefr": "A1",
+  "frequencyRank": 3000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "ce qu'on dit avant d'aller dormir",
+    "translations": {
+     "zh": "晚安",
+     "en": "good night"
+    },
+    "examples": [
+     {
+      "text": "Bonne nuit, maman !",
+      "cloze": "{{Bonne nuit}}, maman !",
+      "translations": {
+       "zh": "晚安，妈妈！",
+       "en": "Good night, Mum!"
+      }
+     }
+    ],
+    "usageNote": "bonne nuit 只在睡前说；晚上见面打招呼用 bonsoir。"
+   }
+  ]
+ },
+ {
+  "headword": "à bientôt",
+  "phonetic": "/a.bjɛ̃.to/",
+  "cefr": "A1",
+  "frequencyRank": 3500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule pour dire qu'on va se revoir bientôt",
+    "translations": {
+     "zh": "回头见；再见",
+     "en": "see you soon"
+    },
+    "examples": [
+     {
+      "text": "Merci pour tout, à bientôt !",
+      "cloze": "Merci pour tout, {{à bientôt}} !",
+      "translations": {
+       "zh": "谢谢你所做的一切，回头见！",
+       "en": "Thanks for everything, see you soon!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "excusez-moi",
+  "phonetic": "/ɛk.sky.ze.mwa/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule pour s'excuser ou attirer l'attention poliment",
+    "translations": {
+     "zh": "对不起；打扰一下",
+     "en": "excuse me, sorry"
+    },
+    "examples": [
+     {
+      "text": "Excusez-moi, où sont les toilettes ?",
+      "cloze": "{{Excusez-moi}}, où sont les toilettes ?",
+      "translations": {
+       "zh": "打扰一下，洗手间在哪里？",
+       "en": "Excuse me, where is the toilet?"
+      }
+     }
+    ],
+    "usageNote": "对熟人说 excuse-moi。"
+   }
+  ]
+ },
+ {
+  "headword": "pardon",
+  "phonetic": "/paʁ.dɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "senses": [
+   {
+    "partOfSpeech": "interjection",
+    "definition": "mot pour s'excuser ou demander de répéter",
+    "translations": {
+     "zh": "对不起；请再说一遍",
+     "en": "sorry; pardon?"
+    },
+    "examples": [
+     {
+      "text": "Pardon, je ne vous ai pas vu.",
+      "translations": {
+       "zh": "对不起，我没看见您。",
+       "en": "Sorry, I didn't see you."
+      }
+     }
+    ],
+    "usageNote": "没听清时说 Pardon ?（请再说一遍？）"
+   }
+  ]
+ },
+ {
+  "headword": "de rien",
+  "phonetic": "/də.ʁjɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 2000,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "réponse polie à « merci »",
+    "translations": {
+     "zh": "不客气；没关系",
+     "en": "you're welcome"
+    },
+    "examples": [
+     {
+      "text": "Merci ! — De rien !",
+      "cloze": "Merci ! — {{De rien}} !",
+      "translations": {
+       "zh": "谢谢！——不客气！",
+       "en": "Thank you! — You're welcome!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "d'accord",
+  "phonetic": "/da.kɔʁ/",
+  "cefr": "A1",
+  "frequencyRank": 300,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule pour accepter",
+    "translations": {
+     "zh": "好的；同意",
+     "en": "OK, all right"
+    },
+    "examples": [
+     {
+      "text": "On mange ensemble ? — D'accord !",
+      "translations": {
+       "zh": "我们一起吃饭吗？——好啊！",
+       "en": "Shall we eat together? — OK!"
+      }
+     }
+    ],
+    "usageNote": "être d'accord 表示“同意”：Je suis d'accord avec toi."
+   }
+  ]
+ },
+ {
+  "headword": "ça va",
+  "phonetic": "/sa.va/",
+  "cefr": "A1",
+  "frequencyRank": 200,
+  "senses": [
+   {
+    "partOfSpeech": "phrase",
+    "definition": "formule pour demander ou dire qu'on va bien",
+    "translations": {
+     "zh": "你好吗；还好",
+     "en": "how are you; I'm fine"
+    },
+    "examples": [
+     {
+      "text": "Salut, ça va ?",
+      "cloze": "Salut, {{ça va}} ?",
+      "translations": {
+       "zh": "嗨，你好吗？",
+       "en": "Hi, how are you?"
+      }
+     }
+    ],
+    "usageNote": "问用升调 Ça va ?，答用降调 Ça va.（挺好的。）"
+   }
+  ]
+ },
+ {
+  "headword": "enchanté",
+  "phonetic": "/ɑ̃.ʃɑ̃.te/",
+  "cefr": "A1",
+  "frequencyRank": 4000,
+  "grammarNotes": {
+   "irregularForms": "女性说话者写 enchantée（读音相同）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "formule polie quand on rencontre quelqu'un pour la première fois",
+    "translations": {
+     "zh": "很高兴认识你",
+     "en": "nice to meet you"
+    },
+    "examples": [
+     {
+      "text": "Je m'appelle Marc. — Enchanté !",
+      "translations": {
+       "zh": "我叫马克。——很高兴认识你！",
+       "en": "My name is Marc. — Nice to meet you!"
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

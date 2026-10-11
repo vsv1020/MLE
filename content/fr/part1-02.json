@@ -1,0 +1,1544 @@
+[
+ {
+  "headword": "gagner",
+  "phonetic": "/ɡa.ɲe/",
+  "cefr": "A2",
+  "frequencyRank": 460,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être le meilleur dans un jeu ; recevoir de l'argent",
+    "translations": {
+     "zh": "赢；挣（钱）",
+     "en": "to win; to earn"
+    },
+    "examples": [
+     {
+      "text": "Notre équipe a gagné !",
+      "cloze": "Notre équipe a {{gagné}} !",
+      "translations": {
+       "zh": "我们队赢了！",
+       "en": "Our team won!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "payer",
+  "phonetic": "/pe.je/",
+  "cefr": "A1",
+  "frequencyRank": 480,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je paie 或 je paye；nous payons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner de l'argent pour quelque chose",
+    "translations": {
+     "zh": "付钱；支付",
+     "en": "to pay"
+    },
+    "examples": [
+     {
+      "text": "Je paie par carte.",
+      "cloze": "Je {{paie}} par carte.",
+      "translations": {
+       "zh": "我刷卡付钱。",
+       "en": "I pay by card."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "acheter",
+  "phonetic": "/aʃ.te/",
+  "cefr": "A1",
+  "frequencyRank": 520,
+  "grammarNotes": {
+   "conjugation": "拼写变化：j'achète, nous achetons, ils achètent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "obtenir quelque chose en payant",
+    "translations": {
+     "zh": "买",
+     "en": "to buy"
+    },
+    "examples": [
+     {
+      "text": "J'achète du pain.",
+      "cloze": "J'{{achète}} du pain.",
+      "translations": {
+       "zh": "我买面包。",
+       "en": "I'm buying bread."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "préparer",
+  "phonetic": "/pʁe.pa.ʁe/",
+  "cefr": "A1",
+  "frequencyRank": 600,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre prêt ; faire un repas",
+    "translations": {
+     "zh": "准备；做（饭）",
+     "en": "to prepare"
+    },
+    "examples": [
+     {
+      "text": "Maman prépare le dîner.",
+      "cloze": "Maman {{prépare}} le dîner.",
+      "translations": {
+       "zh": "妈妈在做晚饭。",
+       "en": "Mum is making dinner."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vendre",
+  "phonetic": "/vɑ̃dʁ/",
+  "cefr": "A1",
+  "frequencyRank": 610,
+  "grammarNotes": {
+   "conjugation": "-re 动词：je vends, il vend, nous vendons；过去分词 vendu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner quelque chose contre de l'argent",
+    "translations": {
+     "zh": "卖",
+     "en": "to sell"
+    },
+    "examples": [
+     {
+      "text": "Il vend des fruits au marché.",
+      "cloze": "Il {{vend}} des fruits au marché.",
+      "translations": {
+       "zh": "他在市场上卖水果。",
+       "en": "He sells fruit at the market."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "courir",
+  "phonetic": "/ku.ʁiʁ/",
+  "cefr": "A1",
+  "frequencyRank": 620,
+  "grammarNotes": {
+   "conjugation": "不规则：je cours, nous courons, ils courent；过去分词 couru"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller très vite à pied",
+    "translations": {
+     "zh": "跑",
+     "en": "to run"
+    },
+    "examples": [
+     {
+      "text": "Le chien court dans le parc.",
+      "cloze": "Le chien {{court}} dans le parc.",
+      "translations": {
+       "zh": "狗在公园里跑。",
+       "en": "The dog is running in the park."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "choisir",
+  "phonetic": "/ʃwa.ziʁ/",
+  "cefr": "A1",
+  "frequencyRank": 640,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：je choisis, nous choisissons；过去分词 choisi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre parmi plusieurs choses",
+    "translations": {
+     "zh": "选择；挑选",
+     "en": "to choose"
+    },
+    "examples": [
+     {
+      "text": "Choisis une carte.",
+      "cloze": "{{Choisis}} une carte.",
+      "translations": {
+       "zh": "选一张牌。",
+       "en": "Pick a card."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dormir",
+  "phonetic": "/dɔʁ.miʁ/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "conjugation": "不规则：je dors, nous dormons, ils dorment；过去分词 dormi"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être dans le sommeil",
+    "translations": {
+     "zh": "睡觉",
+     "en": "to sleep"
+    },
+    "examples": [
+     {
+      "text": "Le bébé dort.",
+      "cloze": "Le bébé {{dort}}.",
+      "translations": {
+       "zh": "宝宝在睡觉。",
+       "en": "The baby is sleeping."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "boire",
+  "phonetic": "/bwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 720,
+  "grammarNotes": {
+   "conjugation": "不规则：je bois, nous buvons, ils boivent；过去分词 bu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avaler un liquide",
+    "translations": {
+     "zh": "喝",
+     "en": "to drink"
+    },
+    "examples": [
+     {
+      "text": "Je bois du lait.",
+      "cloze": "Je {{bois}} du lait.",
+      "translations": {
+       "zh": "我喝牛奶。",
+       "en": "I drink milk."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "habiter",
+  "phonetic": "/a.bi.te/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "vivre dans un lieu",
+    "translations": {
+     "zh": "住；居住",
+     "en": "to live (somewhere)"
+    },
+    "examples": [
+     {
+      "text": "J'habite à Paris.",
+      "cloze": "J'{{habite}} à Paris.",
+      "translations": {
+       "zh": "我住在巴黎。",
+       "en": "I live in Paris."
+      }
+     }
+    ],
+    "usageNote": "h 不发音，所以 je 要省音：j'habite。"
+   }
+  ]
+ },
+ {
+  "headword": "s'appeler",
+  "phonetic": "/sa.ple/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "grammarNotes": {
+   "conjugation": "je m'appelle, tu t'appelles, il s'appelle, nous nous appelons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir pour nom",
+    "translations": {
+     "zh": "名叫；叫作",
+     "en": "to be called"
+    },
+    "examples": [
+     {
+      "text": "Je m'appelle Léa.",
+      "cloze": "Je {{m'appelle}} Léa.",
+      "translations": {
+       "zh": "我叫莱娅。",
+       "en": "My name is Léa."
+      }
+     }
+    ],
+    "usageNote": "问名字：Comment tu t'appelles ?（你叫什么名字？）"
+   }
+  ]
+ },
+ {
+  "headword": "chanter",
+  "phonetic": "/ʃɑ̃.te/",
+  "cefr": "A1",
+  "frequencyRank": 950,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire de la musique avec la voix",
+    "translations": {
+     "zh": "唱；唱歌",
+     "en": "to sing"
+    },
+    "examples": [
+     {
+      "text": "Elle chante très bien.",
+      "cloze": "Elle {{chante}} très bien.",
+      "translations": {
+       "zh": "她唱得很好。",
+       "en": "She sings very well."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "préférer",
+  "phonetic": "/pʁe.fe.ʁe/",
+  "cefr": "A1",
+  "frequencyRank": 980,
+  "grammarNotes": {
+   "conjugation": "拼写变化：je préfère, nous préférons, ils préfèrent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aimer mieux",
+    "translations": {
+     "zh": "更喜欢",
+     "en": "to prefer"
+    },
+    "examples": [
+     {
+      "text": "Je préfère le thé.",
+      "cloze": "Je {{préfère}} le thé.",
+      "translations": {
+       "zh": "我更喜欢茶。",
+       "en": "I prefer tea."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "coûter",
+  "phonetic": "/ku.te/",
+  "cefr": "A1",
+  "frequencyRank": 1100,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir un prix",
+    "translations": {
+     "zh": "价钱是；值",
+     "en": "to cost"
+    },
+    "examples": [
+     {
+      "text": "Ça coûte combien ?",
+      "cloze": "Ça {{coûte}} combien ?",
+      "translations": {
+       "zh": "这个多少钱？",
+       "en": "How much does it cost?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "étudier",
+  "phonetic": "/e.ty.dje/",
+  "cefr": "A1",
+  "frequencyRank": 1300,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "travailler pour apprendre",
+    "translations": {
+     "zh": "学习；读书",
+     "en": "to study"
+    },
+    "examples": [
+     {
+      "text": "J'étudie le français.",
+      "cloze": "J'{{étudie}} le français.",
+      "translations": {
+       "zh": "我在学法语。",
+       "en": "I'm studying French."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "danser",
+  "phonetic": "/dɑ̃.se/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "bouger en rythme avec la musique",
+    "translations": {
+     "zh": "跳舞",
+     "en": "to dance"
+    },
+    "examples": [
+     {
+      "text": "Tu veux danser ?",
+      "translations": {
+       "zh": "你想跳舞吗？",
+       "en": "Do you want to dance?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "laver",
+  "phonetic": "/la.ve/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "nettoyer avec de l'eau",
+    "translations": {
+     "zh": "洗",
+     "en": "to wash"
+    },
+    "examples": [
+     {
+      "text": "Je lave la voiture.",
+      "cloze": "Je {{lave}} la voiture.",
+      "translations": {
+       "zh": "我在洗车。",
+       "en": "I'm washing the car."
+      }
+     }
+    ],
+    "usageNote": "洗自己的身体用 se laver：je me lave les mains（我洗手）。"
+   }
+  ]
+ },
+ {
+  "headword": "voyager",
+  "phonetic": "/vwa.ja.ʒe/",
+  "cefr": "A1",
+  "frequencyRank": 1800,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous voyageons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller dans d'autres pays ou d'autres villes",
+    "translations": {
+     "zh": "旅行",
+     "en": "to travel"
+    },
+    "examples": [
+     {
+      "text": "J'aime voyager.",
+      "translations": {
+       "zh": "我喜欢旅行。",
+       "en": "I love travelling."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se lever",
+  "phonetic": "/sə.lə.ve/",
+  "cefr": "A1",
+  "frequencyRank": 1900,
+  "grammarNotes": {
+   "conjugation": "je me lève, nous nous levons, ils se lèvent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "sortir du lit",
+    "translations": {
+     "zh": "起床；站起来",
+     "en": "to get up"
+    },
+    "examples": [
+     {
+      "text": "Je me lève à sept heures.",
+      "cloze": "Je {{me lève}} à sept heures.",
+      "translations": {
+       "zh": "我七点起床。",
+       "en": "I get up at seven."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "se coucher",
+  "phonetic": "/sə.ku.ʃe/",
+  "cefr": "A1",
+  "frequencyRank": 2500,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller au lit",
+    "translations": {
+     "zh": "上床睡觉",
+     "en": "to go to bed"
+    },
+    "examples": [
+     {
+      "text": "Je me couche tôt.",
+      "cloze": "Je {{me couche}} tôt.",
+      "translations": {
+       "zh": "我很早就上床睡觉。",
+       "en": "I go to bed early."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nager",
+  "phonetic": "/na.ʒe/",
+  "cefr": "A1",
+  "frequencyRank": 2800,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous nageons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avancer dans l'eau",
+    "translations": {
+     "zh": "游泳",
+     "en": "to swim"
+    },
+    "examples": [
+     {
+      "text": "Je sais nager.",
+      "translations": {
+       "zh": "我会游泳。",
+       "en": "I can swim."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "pleuvoir",
+  "phonetic": "/plø.vwaʁ/",
+  "cefr": "A2",
+  "frequencyRank": 3000,
+  "grammarNotes": {
+   "conjugation": "无人称动词，只用 il：il pleut, il a plu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "tomber, en parlant de la pluie",
+    "translations": {
+     "zh": "下雨",
+     "en": "to rain"
+    },
+    "examples": [
+     {
+      "text": "Il pleut aujourd'hui.",
+      "cloze": "Il {{pleut}} aujourd'hui.",
+      "translations": {
+       "zh": "今天下雨。",
+       "en": "It's raining today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "grand",
+  "phonetic": "/ɡʁɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 50,
+  "grammarNotes": {
+   "irregularForms": "阴性 grande；复数 grands, grandes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de taille importante",
+    "translations": {
+     "zh": "大；高",
+     "en": "big, tall"
+    },
+    "examples": [
+     {
+      "text": "Mon frère est grand.",
+      "translations": {
+       "zh": "我哥哥个子高。",
+       "en": "My brother is tall."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "petit",
+  "phonetic": "/pə.ti/",
+  "cefr": "A1",
+  "frequencyRank": 63,
+  "grammarNotes": {
+   "irregularForms": "阴性 petite；复数 petits, petites"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "de taille réduite",
+    "translations": {
+     "zh": "小；矮",
+     "en": "small, little"
+    },
+    "examples": [
+     {
+      "text": "J'ai un petit chien.",
+      "translations": {
+       "zh": "我有一只小狗。",
+       "en": "I have a little dog."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "bon",
+  "phonetic": "/bɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 67,
+  "grammarNotes": {
+   "irregularForms": "阴性 bonne；复数 bons, bonnes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a une qualité agréable ou utile",
+    "translations": {
+     "zh": "好；好吃的",
+     "en": "good"
+    },
+    "examples": [
+     {
+      "text": "Ce gâteau est très bon !",
+      "translations": {
+       "zh": "这个蛋糕很好吃！",
+       "en": "This cake is very good!"
+      }
+     }
+    ],
+    "usageNote": "放在名词前：un bon livre（一本好书）。"
+   }
+  ]
+ },
+ {
+  "headword": "mauvais",
+  "phonetic": "/mo.vɛ/",
+  "cefr": "A1",
+  "frequencyRank": 280,
+  "grammarNotes": {
+   "irregularForms": "阴性 mauvaise；复数 mauvais, mauvaises"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas bon",
+    "translations": {
+     "zh": "坏；差；不好的",
+     "en": "bad"
+    },
+    "examples": [
+     {
+      "text": "Il fait mauvais aujourd'hui.",
+      "translations": {
+       "zh": "今天天气不好。",
+       "en": "The weather is bad today."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "beau",
+  "phonetic": "/bo/",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "grammarNotes": {
+   "irregularForms": "阳性元音前 bel；阴性 belle；复数 beaux, belles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "agréable à regarder",
+    "translations": {
+     "zh": "美丽；漂亮；帅",
+     "en": "beautiful, handsome"
+    },
+    "examples": [
+     {
+      "text": "Quel beau jardin !",
+      "translations": {
+       "zh": "多漂亮的花园啊！",
+       "en": "What a beautiful garden!"
+      }
+     }
+    ],
+    "usageNote": "说天气好：Il fait beau.（天气晴朗。）"
+   }
+  ]
+ },
+ {
+  "headword": "joli",
+  "phonetic": "/ʒɔ.li/",
+  "cefr": "A1",
+  "frequencyRank": 700,
+  "grammarNotes": {
+   "irregularForms": "阴性 jolie；复数 jolis, jolies"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "agréable à voir",
+    "translations": {
+     "zh": "好看；漂亮",
+     "en": "pretty"
+    },
+    "examples": [
+     {
+      "text": "Tu as une jolie robe.",
+      "cloze": "Tu as une {{jolie}} robe.",
+      "translations": {
+       "zh": "你的裙子真漂亮。",
+       "en": "You have a pretty dress."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "nouveau",
+  "phonetic": "/nu.vo/",
+  "cefr": "A1",
+  "frequencyRank": 120,
+  "grammarNotes": {
+   "irregularForms": "阳性元音前 nouvel；阴性 nouvelle；复数 nouveaux, nouvelles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui existe depuis peu de temps",
+    "translations": {
+     "zh": "新的",
+     "en": "new"
+    },
+    "examples": [
+     {
+      "text": "J'ai un nouveau vélo.",
+      "translations": {
+       "zh": "我有一辆新自行车。",
+       "en": "I have a new bike."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vieux",
+  "phonetic": "/vjø/",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "irregularForms": "阳性元音前 vieil；阴性 vieille；复数 vieux, vieilles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a beaucoup d'années",
+    "translations": {
+     "zh": "老的；旧的",
+     "en": "old"
+    },
+    "examples": [
+     {
+      "text": "C'est une vieille maison.",
+      "cloze": "C'est une {{vieille}} maison.",
+      "translations": {
+       "zh": "这是一座老房子。",
+       "en": "It's an old house."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "jeune",
+  "phonetic": "/ʒœn/",
+  "cefr": "A1",
+  "frequencyRank": 155,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a peu d'années",
+    "translations": {
+     "zh": "年轻的；小的",
+     "en": "young"
+    },
+    "examples": [
+     {
+      "text": "Ma mère est encore jeune.",
+      "translations": {
+       "zh": "我妈妈还年轻。",
+       "en": "My mother is still young."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chaud",
+  "phonetic": "/ʃo/",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "irregularForms": "阴性 chaude；复数 chauds, chaudes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a une température élevée",
+    "translations": {
+     "zh": "热的；暖和的",
+     "en": "hot, warm"
+    },
+    "examples": [
+     {
+      "text": "Le café est très chaud.",
+      "translations": {
+       "zh": "咖啡很烫。",
+       "en": "The coffee is very hot."
+      }
+     }
+    ],
+    "usageNote": "说天气热用 Il fait chaud；说自己觉得热用 J'ai chaud。"
+   }
+  ]
+ },
+ {
+  "headword": "froid",
+  "phonetic": "/fʁwa/",
+  "cefr": "A1",
+  "frequencyRank": 520,
+  "grammarNotes": {
+   "irregularForms": "阴性 froide；复数 froids, froides"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a une température basse",
+    "translations": {
+     "zh": "冷的；凉的",
+     "en": "cold"
+    },
+    "examples": [
+     {
+      "text": "L'eau est froide.",
+      "cloze": "L'eau est {{froide}}.",
+      "translations": {
+       "zh": "水是凉的。",
+       "en": "The water is cold."
+      }
+     }
+    ],
+    "usageNote": "天气冷：Il fait froid；自己觉得冷：J'ai froid。"
+   }
+  ]
+ },
+ {
+  "headword": "facile",
+  "phonetic": "/fa.sil/",
+  "cefr": "A1",
+  "frequencyRank": 750,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui se fait sans effort",
+    "translations": {
+     "zh": "容易的；简单的",
+     "en": "easy"
+    },
+    "examples": [
+     {
+      "text": "Cet exercice est facile.",
+      "translations": {
+       "zh": "这道练习很简单。",
+       "en": "This exercise is easy."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "content",
+  "phonetic": "/kɔ̃.tɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 800,
+  "grammarNotes": {
+   "irregularForms": "阴性 contente；复数 contents, contentes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a de la joie",
+    "translations": {
+     "zh": "高兴的；满意的",
+     "en": "happy, pleased"
+    },
+    "examples": [
+     {
+      "text": "Je suis content de te voir.",
+      "translations": {
+       "zh": "见到你我很高兴。",
+       "en": "I'm happy to see you."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "triste",
+  "phonetic": "/tʁist/",
+  "cefr": "A1",
+  "frequencyRank": 900,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas joyeux",
+    "translations": {
+     "zh": "难过的；伤心的",
+     "en": "sad"
+    },
+    "examples": [
+     {
+      "text": "Pourquoi tu es triste ?",
+      "translations": {
+       "zh": "你为什么难过？",
+       "en": "Why are you sad?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fatigué",
+  "phonetic": "/fa.ti.ɡe/",
+  "cefr": "A1",
+  "frequencyRank": 1000,
+  "grammarNotes": {
+   "irregularForms": "阴性 fatiguée；复数 fatigués, fatiguées"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a besoin de repos",
+    "translations": {
+     "zh": "累的；疲倦的",
+     "en": "tired"
+    },
+    "examples": [
+     {
+      "text": "Je suis très fatigué.",
+      "translations": {
+       "zh": "我很累。",
+       "en": "I'm very tired."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "cher",
+  "phonetic": "/ʃɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "grammarNotes": {
+   "irregularForms": "阴性 chère；复数 chers, chères"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui coûte beaucoup d'argent",
+    "translations": {
+     "zh": "贵的",
+     "en": "expensive"
+    },
+    "examples": [
+     {
+      "text": "Ce sac est trop cher.",
+      "translations": {
+       "zh": "这个包太贵了。",
+       "en": "This bag is too expensive."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qu'on aime (au début d'une lettre)",
+    "translations": {
+     "zh": "亲爱的",
+     "en": "dear"
+    },
+    "examples": [
+     {
+      "text": "Chère Marie, merci pour ta lettre.",
+      "translations": {
+       "zh": "亲爱的玛丽，谢谢你的来信。",
+       "en": "Dear Marie, thank you for your letter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rapide",
+  "phonetic": "/ʁa.pid/",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui va vite",
+    "translations": {
+     "zh": "快的；迅速的",
+     "en": "fast, quick"
+    },
+    "examples": [
+     {
+      "text": "Ce train est très rapide.",
+      "translations": {
+       "zh": "这列火车很快。",
+       "en": "This train is very fast."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "lent",
+  "phonetic": "/lɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 2400,
+  "grammarNotes": {
+   "irregularForms": "阴性 lente；复数 lents, lentes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne va pas vite",
+    "translations": {
+     "zh": "慢的",
+     "en": "slow"
+    },
+    "examples": [
+     {
+      "text": "Mon ordinateur est lent.",
+      "translations": {
+       "zh": "我的电脑很慢。",
+       "en": "My computer is slow."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "long",
+  "phonetic": "/lɔ̃/",
+  "cefr": "A1",
+  "frequencyRank": 220,
+  "grammarNotes": {
+   "irregularForms": "阴性 longue；复数 longs, longues"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a une grande longueur ou durée",
+    "translations": {
+     "zh": "长的",
+     "en": "long"
+    },
+    "examples": [
+     {
+      "text": "Elle a les cheveux longs.",
+      "cloze": "Elle a les cheveux {{longs}}.",
+      "translations": {
+       "zh": "她留着长头发。",
+       "en": "She has long hair."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "court",
+  "phonetic": "/kuʁ/",
+  "cefr": "A1",
+  "frequencyRank": 1400,
+  "grammarNotes": {
+   "irregularForms": "阴性 courte；复数 courts, courtes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas long",
+    "translations": {
+     "zh": "短的",
+     "en": "short"
+    },
+    "examples": [
+     {
+      "text": "Ce film est court.",
+      "translations": {
+       "zh": "这部电影很短。",
+       "en": "This film is short."
+      }
+     }
+    ],
+    "usageNote": "court 指长度短；说人个子矮用 petit。"
+   }
+  ]
+ },
+ {
+  "headword": "heureux",
+  "phonetic": "/ø.ʁø/",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "grammarNotes": {
+   "irregularForms": "阴性 heureuse；复数 heureux, heureuses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est plein de joie",
+    "translations": {
+     "zh": "幸福的；快乐的",
+     "en": "happy"
+    },
+    "examples": [
+     {
+      "text": "Ils sont heureux ensemble.",
+      "translations": {
+       "zh": "他们在一起很幸福。",
+       "en": "They are happy together."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gentil",
+  "phonetic": "/ʒɑ̃.ti/",
+  "cefr": "A1",
+  "frequencyRank": 950,
+  "grammarNotes": {
+   "irregularForms": "阴性 gentille /ʒɑ̃.tij/；复数 gentils, gentilles"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est aimable avec les autres",
+    "translations": {
+     "zh": "亲切的；友善的；乖的",
+     "en": "kind, nice"
+    },
+    "examples": [
+     {
+      "text": "Merci, tu es très gentil.",
+      "translations": {
+       "zh": "谢谢，你真好。",
+       "en": "Thanks, you're very kind."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "méchant",
+  "phonetic": "/me.ʃɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 1700,
+  "grammarNotes": {
+   "irregularForms": "阴性 méchante；复数 méchants, méchantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui fait du mal aux autres",
+    "translations": {
+     "zh": "凶的；坏心眼的",
+     "en": "mean, nasty"
+    },
+    "examples": [
+     {
+      "text": "Attention, le chien est méchant !",
+      "translations": {
+       "zh": "小心，这条狗很凶！",
+       "en": "Careful, the dog is vicious!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "gros",
+  "phonetic": "/ɡʁo/",
+  "cefr": "A1",
+  "frequencyRank": 380,
+  "grammarNotes": {
+   "irregularForms": "阴性 grosse；复数 gros, grosses"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui est grand et large",
+    "translations": {
+     "zh": "大的；胖的；粗的",
+     "en": "big, fat"
+    },
+    "examples": [
+     {
+      "text": "C'est un gros chat.",
+      "translations": {
+       "zh": "这是一只胖猫。",
+       "en": "It's a big fat cat."
+      }
+     }
+    ],
+    "usageNote": "说人“胖”不太礼貌，可以说 un peu fort。"
+   }
+  ]
+ },
+ {
+  "headword": "fort",
+  "phonetic": "/fɔʁ/",
+  "cefr": "A1",
+  "frequencyRank": 210,
+  "grammarNotes": {
+   "irregularForms": "阴性 forte；复数 forts, fortes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui a beaucoup de force",
+    "translations": {
+     "zh": "强壮的；（声音）大的；厉害的",
+     "en": "strong"
+    },
+    "examples": [
+     {
+      "text": "Mon père est très fort.",
+      "translations": {
+       "zh": "我爸爸力气很大。",
+       "en": "My father is very strong."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "propre",
+  "phonetic": "/pʁɔpʁ/",
+  "cefr": "A1",
+  "frequencyRank": 330,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas sale",
+    "translations": {
+     "zh": "干净的",
+     "en": "clean"
+    },
+    "examples": [
+     {
+      "text": "Mes mains sont propres.",
+      "cloze": "Mes mains sont {{propres}}.",
+      "translations": {
+       "zh": "我的手是干净的。",
+       "en": "My hands are clean."
+      }
+     }
+    ],
+    "usageNote": "放在名词前时意思是“自己的”：ma propre chambre（我自己的房间）。"
+   }
+  ]
+ },
+ {
+  "headword": "sale",
+  "phonetic": "/sal/",
+  "cefr": "A1",
+  "frequencyRank": 1500,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas propre",
+    "translations": {
+     "zh": "脏的",
+     "en": "dirty"
+    },
+    "examples": [
+     {
+      "text": "Ton pantalon est sale.",
+      "translations": {
+       "zh": "你的裤子脏了。",
+       "en": "Your trousers are dirty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "plein",
+  "phonetic": "/plɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "grammarNotes": {
+   "irregularForms": "阴性 pleine；复数 pleins, pleines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui contient tout ce qu'il peut contenir",
+    "translations": {
+     "zh": "满的",
+     "en": "full"
+    },
+    "examples": [
+     {
+      "text": "Le verre est plein.",
+      "translations": {
+       "zh": "杯子是满的。",
+       "en": "The glass is full."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vide",
+  "phonetic": "/vid/",
+  "cefr": "A1",
+  "frequencyRank": 950,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui ne contient rien",
+    "translations": {
+     "zh": "空的",
+     "en": "empty"
+    },
+    "examples": [
+     {
+      "text": "La boîte est vide.",
+      "translations": {
+       "zh": "盒子是空的。",
+       "en": "The box is empty."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "dernier",
+  "phonetic": "/dɛʁ.nje/",
+  "cefr": "A1",
+  "frequencyRank": 90,
+  "grammarNotes": {
+   "irregularForms": "阴性 dernière；复数 derniers, dernières"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vient à la fin ; le plus récent",
+    "translations": {
+     "zh": "最后的；上一个的",
+     "en": "last"
+    },
+    "examples": [
+     {
+      "text": "C'est le dernier bus.",
+      "translations": {
+       "zh": "这是最后一班公交车。",
+       "en": "It's the last bus."
+      }
+     }
+    ],
+    "usageNote": "放在时间词后表示“上一个”：la semaine dernière（上周）。"
+   }
+  ]
+ },
+ {
+  "headword": "prochain",
+  "phonetic": "/pʁɔ.ʃɛ̃/",
+  "cefr": "A1",
+  "frequencyRank": 650,
+  "grammarNotes": {
+   "irregularForms": "阴性 prochaine；复数 prochains, prochaines"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui vient juste après",
+    "translations": {
+     "zh": "下一个的",
+     "en": "next"
+    },
+    "examples": [
+     {
+      "text": "À la semaine prochaine !",
+      "cloze": "À la semaine {{prochaine}} !",
+      "translations": {
+       "zh": "下周见！",
+       "en": "See you next week!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "autre",
+  "phonetic": "/otʁ/",
+  "cefr": "A1",
+  "frequencyRank": 40,
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui n'est pas le même",
+    "translations": {
+     "zh": "别的；另一个",
+     "en": "other"
+    },
+    "examples": [
+     {
+      "text": "Je voudrais une autre couleur.",
+      "translations": {
+       "zh": "我想要另一种颜色。",
+       "en": "I'd like another colour."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "important",
+  "phonetic": "/ɛ̃.pɔʁ.tɑ̃/",
+  "cefr": "A1",
+  "frequencyRank": 240,
+  "grammarNotes": {
+   "irregularForms": "阴性 importante；复数 importants, importantes"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "adjective",
+    "definition": "qui compte beaucoup",
+    "translations": {
+     "zh": "重要的",
+     "en": "important"
+    },
+    "examples": [
+     {
+      "text": "C'est très important.",
+      "translations": {
+       "zh": "这非常重要。",
+       "en": "It's very important."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]

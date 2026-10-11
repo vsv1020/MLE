@@ -1,0 +1,1599 @@
+[
+ {
+  "headword": "être",
+  "phonetic": "/ɛtʁ/",
+  "cefr": "A1",
+  "frequencyRank": 2,
+  "grammarNotes": {
+   "conjugation": "不规则：je suis, tu es, il est, nous sommes, vous êtes, ils sont；过去分词 été"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "exister ; avoir un état ou une qualité",
+    "translations": {
+     "zh": "是；在",
+     "en": "to be"
+    },
+    "examples": [
+     {
+      "text": "Je suis étudiant.",
+      "cloze": "Je {{suis}} étudiant.",
+      "translations": {
+       "zh": "我是学生。",
+       "en": "I am a student."
+      }
+     }
+    ],
+    "usageNote": "être 也是助动词，部分动词的复合过去时用它：je suis allé（我去了）。"
+   }
+  ]
+ },
+ {
+  "headword": "avoir",
+  "phonetic": "/a.vwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 4,
+  "grammarNotes": {
+   "conjugation": "不规则：j'ai, tu as, il a, nous avons, vous avez, ils ont；过去分词 eu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "posséder quelque chose",
+    "translations": {
+     "zh": "有；拥有",
+     "en": "to have"
+    },
+    "examples": [
+     {
+      "text": "J'ai un chat.",
+      "cloze": "J'{{ai}} un chat.",
+      "translations": {
+       "zh": "我有一只猫。",
+       "en": "I have a cat."
+      }
+     }
+    ],
+    "usageNote": "说年龄也用 avoir：J'ai dix ans.（我十岁。）"
+   }
+  ]
+ },
+ {
+  "headword": "aller",
+  "phonetic": "/a.le/",
+  "cefr": "A1",
+  "frequencyRank": 25,
+  "grammarNotes": {
+   "conjugation": "不规则：je vais, tu vas, il va, nous allons, vous allez, ils vont；过去分词 allé（用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se déplacer vers un lieu",
+    "translations": {
+     "zh": "去；（身体、情况）过得",
+     "en": "to go"
+    },
+    "examples": [
+     {
+      "text": "Je vais à l'école.",
+      "cloze": "Je {{vais}} à l'école.",
+      "translations": {
+       "zh": "我去上学。",
+       "en": "I go to school."
+      }
+     }
+    ],
+    "usageNote": "Ça va ?（你好吗？/还好吗？）也用这个动词。"
+   }
+  ]
+ },
+ {
+  "headword": "faire",
+  "phonetic": "/fɛʁ/",
+  "cefr": "A1",
+  "frequencyRank": 15,
+  "grammarNotes": {
+   "conjugation": "不规则：je fais, nous faisons, vous faites, ils font；过去分词 fait"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "réaliser une action",
+    "translations": {
+     "zh": "做；干",
+     "en": "to do, to make"
+    },
+    "examples": [
+     {
+      "text": "Qu'est-ce que tu fais ?",
+      "cloze": "Qu'est-ce que tu {{fais}} ?",
+      "translations": {
+       "zh": "你在做什么？",
+       "en": "What are you doing?"
+      }
+     }
+    ],
+    "usageNote": "谈天气也用 faire：Il fait beau.（天气很好。）nous faisons 读作 /fə.zɔ̃/。"
+   }
+  ]
+ },
+ {
+  "headword": "dire",
+  "phonetic": "/diʁ/",
+  "cefr": "A1",
+  "frequencyRank": 20,
+  "grammarNotes": {
+   "conjugation": "不规则：je dis, nous disons, vous dites, ils disent；过去分词 dit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "exprimer par des mots",
+    "translations": {
+     "zh": "说；告诉",
+     "en": "to say, to tell"
+    },
+    "examples": [
+     {
+      "text": "Il dit bonjour à la dame.",
+      "cloze": "Il {{dit}} bonjour à la dame.",
+      "translations": {
+       "zh": "他向那位女士问好。",
+       "en": "He says hello to the lady."
+      }
+     }
+    ],
+    "usageNote": "dire 后面接说的内容；parler 指说话这个动作或说某种语言。"
+   }
+  ]
+ },
+ {
+  "headword": "pouvoir",
+  "phonetic": "/pu.vwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 18,
+  "grammarNotes": {
+   "conjugation": "不规则：je peux, tu peux, il peut, nous pouvons, ils peuvent；过去分词 pu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "modal verb",
+    "definition": "être capable de ; avoir la permission de",
+    "translations": {
+     "zh": "能；可以",
+     "en": "can, to be able to"
+    },
+    "examples": [
+     {
+      "text": "Je peux entrer ?",
+      "cloze": "Je {{peux}} entrer ?",
+      "translations": {
+       "zh": "我可以进来吗？",
+       "en": "Can I come in?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "vouloir",
+  "phonetic": "/vu.lwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 35,
+  "grammarNotes": {
+   "conjugation": "不规则：je veux, il veut, nous voulons, ils veulent；过去分词 voulu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "modal verb",
+    "definition": "avoir envie de, désirer",
+    "translations": {
+     "zh": "想要",
+     "en": "to want"
+    },
+    "examples": [
+     {
+      "text": "Je veux un gâteau.",
+      "cloze": "Je {{veux}} un gâteau.",
+      "translations": {
+       "zh": "我想要一块蛋糕。",
+       "en": "I want a cake."
+      }
+     }
+    ],
+    "usageNote": "礼貌地提要求时说 je voudrais（我想要……），比 je veux 客气。"
+   }
+  ]
+ },
+ {
+  "headword": "savoir",
+  "phonetic": "/sa.vwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 28,
+  "grammarNotes": {
+   "conjugation": "不规则：je sais, nous savons, ils savent；过去分词 su"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "connaître une information ; être capable de faire",
+    "translations": {
+     "zh": "知道；会（做某事）",
+     "en": "to know; to know how to"
+    },
+    "examples": [
+     {
+      "text": "Je ne sais pas.",
+      "cloze": "Je ne {{sais}} pas.",
+      "translations": {
+       "zh": "我不知道。",
+       "en": "I don't know."
+      }
+     }
+    ],
+    "usageNote": "知道某件事、会做某事用 savoir；认识人或地方用 connaître。"
+   }
+  ]
+ },
+ {
+  "headword": "voir",
+  "phonetic": "/vwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 30,
+  "grammarNotes": {
+   "conjugation": "不规则：je vois, nous voyons, ils voient；过去分词 vu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "percevoir avec les yeux",
+    "translations": {
+     "zh": "看见；见到",
+     "en": "to see"
+    },
+    "examples": [
+     {
+      "text": "Je vois la mer !",
+      "cloze": "Je {{vois}} la mer !",
+      "translations": {
+       "zh": "我看见大海了！",
+       "en": "I can see the sea!"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "venir",
+  "phonetic": "/və.niʁ/",
+  "cefr": "A1",
+  "frequencyRank": 40,
+  "grammarNotes": {
+   "conjugation": "不规则：je viens, nous venons, ils viennent；过去分词 venu（用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "se déplacer vers le lieu où l'on est",
+    "translations": {
+     "zh": "来",
+     "en": "to come"
+    },
+    "examples": [
+     {
+      "text": "Tu viens avec moi ?",
+      "cloze": "Tu {{viens}} avec moi ?",
+      "translations": {
+       "zh": "你跟我一起来吗？",
+       "en": "Are you coming with me?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "devoir",
+  "phonetic": "/də.vwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 38,
+  "grammarNotes": {
+   "conjugation": "不规则：je dois, nous devons, ils doivent；过去分词 dû",
+   "gender": "阳性",
+   "plural": "devoirs"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "modal verb",
+    "definition": "être obligé de faire quelque chose",
+    "translations": {
+     "zh": "必须；得",
+     "en": "must, to have to"
+    },
+    "examples": [
+     {
+      "text": "Je dois partir.",
+      "cloze": "Je {{dois}} partir.",
+      "translations": {
+       "zh": "我得走了。",
+       "en": "I have to leave."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "noun",
+    "definition": "travail à faire à la maison pour l'école",
+    "translations": {
+     "zh": "作业；义务",
+     "en": "homework; duty"
+    },
+    "examples": [
+     {
+      "text": "J'ai fini mes devoirs.",
+      "cloze": "J'ai fini mes {{devoirs}}.",
+      "translations": {
+       "zh": "我做完作业了。",
+       "en": "I've finished my homework."
+      }
+     }
+    ],
+    "usageNote": "作“作业”讲多用复数 les devoirs；devoir 也是动词“必须”。"
+   }
+  ]
+ },
+ {
+  "headword": "prendre",
+  "phonetic": "/pʁɑ̃dʁ/",
+  "cefr": "A1",
+  "frequencyRank": 45,
+  "grammarNotes": {
+   "conjugation": "不规则：je prends, nous prenons, ils prennent；过去分词 pris"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "saisir avec la main ; utiliser un transport ; manger ou boire",
+    "translations": {
+     "zh": "拿；乘坐；吃/喝",
+     "en": "to take"
+    },
+    "examples": [
+     {
+      "text": "Je prends le bus.",
+      "cloze": "Je {{prends}} le bus.",
+      "translations": {
+       "zh": "我坐公交车。",
+       "en": "I take the bus."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "falloir",
+  "phonetic": "/fa.lwaʁ/",
+  "cefr": "A1",
+  "frequencyRank": 50,
+  "grammarNotes": {
+   "conjugation": "无人称动词，只有 il 的形式：il faut, il a fallu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être nécessaire (seulement avec « il »)",
+    "translations": {
+     "zh": "需要；必须",
+     "en": "to be necessary, must"
+    },
+    "examples": [
+     {
+      "text": "Il faut manger des légumes.",
+      "cloze": "Il {{faut}} manger des légumes.",
+      "translations": {
+       "zh": "要多吃蔬菜。",
+       "en": "You have to eat vegetables."
+      }
+     }
+    ],
+    "usageNote": "只说 il faut，后面接动词原形或名词：Il faut partir.（该走了。）"
+   }
+  ]
+ },
+ {
+  "headword": "mettre",
+  "phonetic": "/mɛtʁ/",
+  "cefr": "A1",
+  "frequencyRank": 55,
+  "grammarNotes": {
+   "conjugation": "不规则：je mets, nous mettons, ils mettent；过去分词 mis"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "placer quelque part ; porter un vêtement",
+    "translations": {
+     "zh": "放；穿上",
+     "en": "to put; to put on"
+    },
+    "examples": [
+     {
+      "text": "Je mets mon manteau.",
+      "cloze": "Je {{mets}} mon manteau.",
+      "translations": {
+       "zh": "我穿上大衣。",
+       "en": "I put on my coat."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "passer",
+  "phonetic": "/pa.se/",
+  "cefr": "A1",
+  "frequencyRank": 60,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller par un endroit ; (temps) employer",
+    "translations": {
+     "zh": "经过；度过",
+     "en": "to pass; to spend (time)"
+    },
+    "examples": [
+     {
+      "text": "Nous passons les vacances à la mer.",
+      "cloze": "Nous {{passons}} les vacances à la mer.",
+      "translations": {
+       "zh": "我们在海边度假。",
+       "en": "We spend the holidays by the sea."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "donner",
+  "phonetic": "/dɔ.ne/",
+  "cefr": "A1",
+  "frequencyRank": 65,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "mettre quelque chose dans les mains de quelqu'un",
+    "translations": {
+     "zh": "给",
+     "en": "to give"
+    },
+    "examples": [
+     {
+      "text": "Je donne une pomme à Paul.",
+      "cloze": "Je {{donne}} une pomme à Paul.",
+      "translations": {
+       "zh": "我给保罗一个苹果。",
+       "en": "I give Paul an apple."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "trouver",
+  "phonetic": "/tʁu.ve/",
+  "cefr": "A1",
+  "frequencyRank": 70,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "découvrir ce qu'on cherchait",
+    "translations": {
+     "zh": "找到；发现",
+     "en": "to find"
+    },
+    "examples": [
+     {
+      "text": "J'ai trouvé mes clés.",
+      "cloze": "J'ai {{trouvé}} mes clés.",
+      "translations": {
+       "zh": "我找到钥匙了。",
+       "en": "I found my keys."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir une opinion",
+    "translations": {
+     "zh": "觉得；认为",
+     "en": "to find, to think"
+    },
+    "examples": [
+     {
+      "text": "Je trouve ce film super.",
+      "translations": {
+       "zh": "我觉得这部电影很棒。",
+       "en": "I think this film is great."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "parler",
+  "phonetic": "/paʁ.le/",
+  "cefr": "A1",
+  "frequencyRank": 80,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "s'exprimer avec des mots",
+    "translations": {
+     "zh": "说；讲",
+     "en": "to speak, to talk"
+    },
+    "examples": [
+     {
+      "text": "Je parle un peu français.",
+      "cloze": "Je {{parle}} un peu français.",
+      "translations": {
+       "zh": "我会说一点法语。",
+       "en": "I speak a little French."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "penser",
+  "phonetic": "/pɑ̃.se/",
+  "cefr": "A1",
+  "frequencyRank": 85,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir une idée, une opinion",
+    "translations": {
+     "zh": "想；认为",
+     "en": "to think"
+    },
+    "examples": [
+     {
+      "text": "Je pense à toi.",
+      "cloze": "Je {{pense}} à toi.",
+      "translations": {
+       "zh": "我在想你。",
+       "en": "I'm thinking of you."
+      }
+     }
+    ],
+    "usageNote": "penser à + 人/事：想到、想念；penser que：认为……"
+   }
+  ]
+ },
+ {
+  "headword": "demander",
+  "phonetic": "/də.mɑ̃.de/",
+  "cefr": "A1",
+  "frequencyRank": 90,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "poser une question ; dire ce qu'on veut",
+    "translations": {
+     "zh": "问；请求",
+     "en": "to ask"
+    },
+    "examples": [
+     {
+      "text": "Je demande le chemin.",
+      "cloze": "Je {{demande}} le chemin.",
+      "translations": {
+       "zh": "我问路。",
+       "en": "I ask the way."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "aimer",
+  "phonetic": "/e.me/",
+  "cefr": "A1",
+  "frequencyRank": 95,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir de l'amour ou du plaisir pour",
+    "translations": {
+     "zh": "爱；喜欢",
+     "en": "to love; to like"
+    },
+    "examples": [
+     {
+      "text": "J'aime le chocolat.",
+      "cloze": "J'{{aime}} le chocolat.",
+      "translations": {
+       "zh": "我喜欢巧克力。",
+       "en": "I like chocolate."
+      }
+     }
+    ],
+    "usageNote": "对人说 je t'aime 是“我爱你”；je t'aime bien 只是“我挺喜欢你”。"
+   }
+  ]
+ },
+ {
+  "headword": "arriver",
+  "phonetic": "/a.ʁi.ve/",
+  "cefr": "A1",
+  "frequencyRank": 100,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "atteindre un lieu",
+    "translations": {
+     "zh": "到达；来",
+     "en": "to arrive"
+    },
+    "examples": [
+     {
+      "text": "Le train arrive à midi.",
+      "cloze": "Le train {{arrive}} à midi.",
+      "translations": {
+       "zh": "火车中午到。",
+       "en": "The train arrives at noon."
+      }
+     }
+    ],
+    "usageNote": "复合过去时用 être：je suis arrivé。"
+   }
+  ]
+ },
+ {
+  "headword": "partir",
+  "phonetic": "/paʁ.tiʁ/",
+  "cefr": "A1",
+  "frequencyRank": 110,
+  "grammarNotes": {
+   "conjugation": "不规则：je pars, nous partons, ils partent；过去分词 parti（用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "quitter un lieu",
+    "translations": {
+     "zh": "离开；出发",
+     "en": "to leave"
+    },
+    "examples": [
+     {
+      "text": "Le train part à huit heures.",
+      "cloze": "Le train {{part}} à huit heures.",
+      "translations": {
+       "zh": "火车八点出发。",
+       "en": "The train leaves at eight."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rester",
+  "phonetic": "/ʁɛs.te/",
+  "cefr": "A1",
+  "frequencyRank": 120,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne pas partir",
+    "translations": {
+     "zh": "待；留下",
+     "en": "to stay"
+    },
+    "examples": [
+     {
+      "text": "Je reste à la maison.",
+      "cloze": "Je {{reste}} à la maison.",
+      "translations": {
+       "zh": "我待在家里。",
+       "en": "I'm staying at home."
+      }
+     }
+    ],
+    "usageNote": "rester 不是“休息”，休息是 se reposer。"
+   }
+  ]
+ },
+ {
+  "headword": "connaître",
+  "phonetic": "/kɔ.nɛtʁ/",
+  "cefr": "A1",
+  "frequencyRank": 125,
+  "grammarNotes": {
+   "conjugation": "不规则：je connais, il connaît, nous connaissons；过去分词 connu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "savoir qui est quelqu'un ; avoir déjà vu un lieu",
+    "translations": {
+     "zh": "认识；了解",
+     "en": "to know (a person, a place)"
+    },
+    "examples": [
+     {
+      "text": "Je connais ton frère.",
+      "cloze": "Je {{connais}} ton frère.",
+      "translations": {
+       "zh": "我认识你哥哥。",
+       "en": "I know your brother."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "entendre",
+  "phonetic": "/ɑ̃.tɑ̃dʁ/",
+  "cefr": "A1",
+  "frequencyRank": 135,
+  "grammarNotes": {
+   "conjugation": "-re 动词：j'entends, nous entendons；过去分词 entendu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "percevoir les sons",
+    "translations": {
+     "zh": "听见",
+     "en": "to hear"
+    },
+    "examples": [
+     {
+      "text": "Tu m'entends ?",
+      "cloze": "Tu m'{{entends}} ?",
+      "translations": {
+       "zh": "你听得见我吗？",
+       "en": "Can you hear me?"
+      }
+     }
+    ],
+    "usageNote": "entendre 是“听见”，écouter 是“有意去听”。"
+   }
+  ]
+ },
+ {
+  "headword": "comprendre",
+  "phonetic": "/kɔ̃.pʁɑ̃dʁ/",
+  "cefr": "A1",
+  "frequencyRank": 150,
+  "grammarNotes": {
+   "conjugation": "不规则（同 prendre）：je comprends, nous comprenons, ils comprennent；过去分词 compris"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "saisir le sens de quelque chose",
+    "translations": {
+     "zh": "懂；理解",
+     "en": "to understand"
+    },
+    "examples": [
+     {
+      "text": "Je ne comprends pas.",
+      "cloze": "Je ne {{comprends}} pas.",
+      "translations": {
+       "zh": "我不懂。",
+       "en": "I don't understand."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "attendre",
+  "phonetic": "/a.tɑ̃dʁ/",
+  "cefr": "A1",
+  "frequencyRank": 160,
+  "grammarNotes": {
+   "conjugation": "-re 动词：j'attends, nous attendons；过去分词 attendu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rester jusqu'à l'arrivée de quelqu'un ou de quelque chose",
+    "translations": {
+     "zh": "等；等待",
+     "en": "to wait (for)"
+    },
+    "examples": [
+     {
+      "text": "J'attends le bus.",
+      "cloze": "J'{{attends}} le bus.",
+      "translations": {
+       "zh": "我在等公交车。",
+       "en": "I'm waiting for the bus."
+      }
+     }
+    ],
+    "usageNote": "attendre 后面直接加要等的人或物，不加介词。"
+   }
+  ]
+ },
+ {
+  "headword": "regarder",
+  "phonetic": "/ʁə.ɡaʁ.de/",
+  "cefr": "A1",
+  "frequencyRank": 165,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "diriger les yeux vers",
+    "translations": {
+     "zh": "看；观看",
+     "en": "to look at, to watch"
+    },
+    "examples": [
+     {
+      "text": "Je regarde la télé.",
+      "cloze": "Je {{regarde}} la télé.",
+      "translations": {
+       "zh": "我在看电视。",
+       "en": "I'm watching TV."
+      }
+     }
+    ],
+    "usageNote": "voir 是“看见”，regarder 是“有意去看”。"
+   }
+  ]
+ },
+ {
+  "headword": "porter",
+  "phonetic": "/pɔʁ.te/",
+  "cefr": "A1",
+  "frequencyRank": 170,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "tenir en se déplaçant ; avoir un vêtement sur soi",
+    "translations": {
+     "zh": "拿着；穿着；戴着",
+     "en": "to carry; to wear"
+    },
+    "examples": [
+     {
+      "text": "Elle porte une robe rouge.",
+      "cloze": "Elle {{porte}} une robe rouge.",
+      "translations": {
+       "zh": "她穿着一条红裙子。",
+       "en": "She is wearing a red dress."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "revenir",
+  "phonetic": "/ʁə.və.niʁ/",
+  "cefr": "A1",
+  "frequencyRank": 180,
+  "grammarNotes": {
+   "conjugation": "不规则（同 venir）：je reviens, nous revenons；过去分词 revenu（用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "venir de nouveau là où on était",
+    "translations": {
+     "zh": "回来",
+     "en": "to come back"
+    },
+    "examples": [
+     {
+      "text": "Je reviens tout de suite.",
+      "cloze": "Je {{reviens}} tout de suite.",
+      "translations": {
+       "zh": "我马上回来。",
+       "en": "I'll be right back."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "chercher",
+  "phonetic": "/ʃɛʁ.ʃe/",
+  "cefr": "A1",
+  "frequencyRank": 190,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "essayer de trouver",
+    "translations": {
+     "zh": "找；寻找",
+     "en": "to look for"
+    },
+    "examples": [
+     {
+      "text": "Je cherche mes lunettes.",
+      "cloze": "Je {{cherche}} mes lunettes.",
+      "translations": {
+       "zh": "我在找我的眼镜。",
+       "en": "I'm looking for my glasses."
+      }
+     }
+    ],
+    "usageNote": "chercher 后面直接加要找的东西，不加介词。"
+   }
+  ]
+ },
+ {
+  "headword": "vivre",
+  "phonetic": "/vivʁ/",
+  "cefr": "A1",
+  "frequencyRank": 195,
+  "grammarNotes": {
+   "conjugation": "不规则：je vis, nous vivons, ils vivent；过去分词 vécu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "être en vie ; habiter quelque part",
+    "translations": {
+     "zh": "生活；活着",
+     "en": "to live"
+    },
+    "examples": [
+     {
+      "text": "Ils vivent en France.",
+      "cloze": "Ils {{vivent}} en France.",
+      "translations": {
+       "zh": "他们生活在法国。",
+       "en": "They live in France."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "appeler",
+  "phonetic": "/a.ple/",
+  "cefr": "A1",
+  "frequencyRank": 200,
+  "grammarNotes": {
+   "conjugation": "拼写变化：j'appelle, nous appelons, ils appellent"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "téléphoner à quelqu'un ; dire le nom de quelqu'un pour le faire venir",
+    "translations": {
+     "zh": "打电话；叫",
+     "en": "to call"
+    },
+    "examples": [
+     {
+      "text": "J'appelle ma mère.",
+      "cloze": "J'{{appelle}} ma mère.",
+      "translations": {
+       "zh": "我给妈妈打电话。",
+       "en": "I'm calling my mother."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "perdre",
+  "phonetic": "/pɛʁdʁ/",
+  "cefr": "A1",
+  "frequencyRank": 205,
+  "grammarNotes": {
+   "conjugation": "-re 动词：je perds, nous perdons；过去分词 perdu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne plus avoir ; ne pas gagner",
+    "translations": {
+     "zh": "丢失；输",
+     "en": "to lose"
+    },
+    "examples": [
+     {
+      "text": "J'ai perdu mon sac.",
+      "cloze": "J'ai {{perdu}} mon sac.",
+      "translations": {
+       "zh": "我的包丢了。",
+       "en": "I lost my bag."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "commencer",
+  "phonetic": "/kɔ.mɑ̃.se/",
+  "cefr": "A1",
+  "frequencyRank": 210,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous commençons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire le début de quelque chose",
+    "translations": {
+     "zh": "开始",
+     "en": "to begin, to start"
+    },
+    "examples": [
+     {
+      "text": "Le cours commence à neuf heures.",
+      "cloze": "Le cours {{commence}} à neuf heures.",
+      "translations": {
+       "zh": "课九点开始。",
+       "en": "The class starts at nine."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "sortir",
+  "phonetic": "/sɔʁ.tiʁ/",
+  "cefr": "A1",
+  "frequencyRank": 215,
+  "grammarNotes": {
+   "conjugation": "不规则：je sors, nous sortons, ils sortent；过去分词 sorti（用 être）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller dehors",
+    "translations": {
+     "zh": "出去；外出",
+     "en": "to go out"
+    },
+    "examples": [
+     {
+      "text": "On sort ce soir ?",
+      "cloze": "On {{sort}} ce soir ?",
+      "translations": {
+       "zh": "我们今晚出去玩吗？",
+       "en": "Shall we go out tonight?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "jouer",
+  "phonetic": "/ʒwe/",
+  "cefr": "A1",
+  "frequencyRank": 230,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "s'amuser ; pratiquer un sport ou un instrument",
+    "translations": {
+     "zh": "玩；（球类）打/踢；演奏",
+     "en": "to play"
+    },
+    "examples": [
+     {
+      "text": "Les enfants jouent dans le jardin.",
+      "cloze": "Les enfants {{jouent}} dans le jardin.",
+      "translations": {
+       "zh": "孩子们在花园里玩。",
+       "en": "The children are playing in the garden."
+      }
+     }
+    ],
+    "usageNote": "jouer au + 运动（jouer au foot 踢足球）；jouer du + 乐器（jouer du piano 弹钢琴）。"
+   }
+  ]
+ },
+ {
+  "headword": "tomber",
+  "phonetic": "/tɔ̃.be/",
+  "cefr": "A1",
+  "frequencyRank": 240,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire une chute",
+    "translations": {
+     "zh": "摔倒；掉下",
+     "en": "to fall"
+    },
+    "examples": [
+     {
+      "text": "Attention, tu vas tomber !",
+      "translations": {
+       "zh": "小心，你要摔倒了！",
+       "en": "Careful, you're going to fall!"
+      }
+     }
+    ],
+    "usageNote": "复合过去时用 être：je suis tombé。"
+   }
+  ]
+ },
+ {
+  "headword": "écrire",
+  "phonetic": "/e.kʁiʁ/",
+  "cefr": "A1",
+  "frequencyRank": 250,
+  "grammarNotes": {
+   "conjugation": "不规则：j'écris, nous écrivons, ils écrivent；过去分词 écrit"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "tracer des lettres et des mots",
+    "translations": {
+     "zh": "写",
+     "en": "to write"
+    },
+    "examples": [
+     {
+      "text": "J'écris une lettre.",
+      "cloze": "J'{{écris}} une lettre.",
+      "translations": {
+       "zh": "我在写信。",
+       "en": "I'm writing a letter."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "travailler",
+  "phonetic": "/tʁa.va.je/",
+  "cefr": "A1",
+  "frequencyRank": 260,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "avoir une activité, un emploi",
+    "translations": {
+     "zh": "工作；用功",
+     "en": "to work"
+    },
+    "examples": [
+     {
+      "text": "Mon père travaille à l'hôpital.",
+      "cloze": "Mon père {{travaille}} à l'hôpital.",
+      "translations": {
+       "zh": "我爸爸在医院工作。",
+       "en": "My father works at the hospital."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "finir",
+  "phonetic": "/fi.niʁ/",
+  "cefr": "A1",
+  "frequencyRank": 270,
+  "grammarNotes": {
+   "conjugation": "第二组规则动词：je finis, nous finissons, ils finissent；过去分词 fini"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "arriver au bout de quelque chose",
+    "translations": {
+     "zh": "完成；结束",
+     "en": "to finish"
+    },
+    "examples": [
+     {
+      "text": "J'ai fini mes devoirs.",
+      "cloze": "J'ai {{fini}} mes devoirs.",
+      "translations": {
+       "zh": "我做完作业了。",
+       "en": "I've finished my homework."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "entrer",
+  "phonetic": "/ɑ̃.tʁe/",
+  "cefr": "A1",
+  "frequencyRank": 275,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller à l'intérieur",
+    "translations": {
+     "zh": "进入；进来",
+     "en": "to enter, to come in"
+    },
+    "examples": [
+     {
+      "text": "Entrez, s'il vous plaît.",
+      "cloze": "{{Entrez}}, s'il vous plaît.",
+      "translations": {
+       "zh": "请进。",
+       "en": "Come in, please."
+      }
+     }
+    ],
+    "usageNote": "复合过去时用 être：je suis entré。"
+   }
+  ]
+ },
+ {
+  "headword": "répondre",
+  "phonetic": "/ʁe.pɔ̃dʁ/",
+  "cefr": "A1",
+  "frequencyRank": 285,
+  "grammarNotes": {
+   "conjugation": "-re 动词：je réponds, nous répondons；过去分词 répondu"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "donner une réponse",
+    "translations": {
+     "zh": "回答",
+     "en": "to answer"
+    },
+    "examples": [
+     {
+      "text": "Réponds à la question.",
+      "cloze": "{{Réponds}} à la question.",
+      "translations": {
+       "zh": "回答这个问题。",
+       "en": "Answer the question."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "ouvrir",
+  "phonetic": "/u.vʁiʁ/",
+  "cefr": "A1",
+  "frequencyRank": 290,
+  "grammarNotes": {
+   "conjugation": "不规则：j'ouvre, nous ouvrons（现在时变位像 -er 动词）；过去分词 ouvert"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre ouvert",
+    "translations": {
+     "zh": "打开；开",
+     "en": "to open"
+    },
+    "examples": [
+     {
+      "text": "Ouvre la fenêtre, s'il te plaît.",
+      "cloze": "{{Ouvre}} la fenêtre, s'il te plaît.",
+      "translations": {
+       "zh": "请打开窗户。",
+       "en": "Open the window, please."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "changer",
+  "phonetic": "/ʃɑ̃.ʒe/",
+  "cefr": "A2",
+  "frequencyRank": 300,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous changeons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre ou devenir différent ; remplacer",
+    "translations": {
+     "zh": "改变；换",
+     "en": "to change"
+    },
+    "examples": [
+     {
+      "text": "On doit changer de train.",
+      "translations": {
+       "zh": "我们得换火车。",
+       "en": "We have to change trains."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "aider",
+  "phonetic": "/e.de/",
+  "cefr": "A1",
+  "frequencyRank": 330,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire quelque chose pour quelqu'un qui en a besoin",
+    "translations": {
+     "zh": "帮助",
+     "en": "to help"
+    },
+    "examples": [
+     {
+      "text": "Tu peux m'aider ?",
+      "cloze": "Tu peux m'{{aider}} ?",
+      "translations": {
+       "zh": "你能帮我吗？",
+       "en": "Can you help me?"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "oublier",
+  "phonetic": "/u.bli.je/",
+  "cefr": "A1",
+  "frequencyRank": 335,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "ne plus se souvenir ; ne pas penser à",
+    "translations": {
+     "zh": "忘记",
+     "en": "to forget"
+    },
+    "examples": [
+     {
+      "text": "J'ai oublié son nom.",
+      "cloze": "J'ai {{oublié}} son nom.",
+      "translations": {
+       "zh": "我忘了他的名字。",
+       "en": "I've forgotten his name."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "montrer",
+  "phonetic": "/mɔ̃.tʁe/",
+  "cefr": "A2",
+  "frequencyRank": 340,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire voir",
+    "translations": {
+     "zh": "给……看；出示",
+     "en": "to show"
+    },
+    "examples": [
+     {
+      "text": "Je te montre ma chambre.",
+      "cloze": "Je te {{montre}} ma chambre.",
+      "translations": {
+       "zh": "我带你看看我的房间。",
+       "en": "I'll show you my room."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "rentrer",
+  "phonetic": "/ʁɑ̃.tʁe/",
+  "cefr": "A1",
+  "frequencyRank": 350,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "revenir chez soi",
+    "translations": {
+     "zh": "回家；回来",
+     "en": "to go home, to come back"
+    },
+    "examples": [
+     {
+      "text": "Je rentre à six heures.",
+      "cloze": "Je {{rentre}} à six heures.",
+      "translations": {
+       "zh": "我六点回家。",
+       "en": "I get home at six."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "écouter",
+  "phonetic": "/e.ku.te/",
+  "cefr": "A1",
+  "frequencyRank": 380,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire attention à un son",
+    "translations": {
+     "zh": "听",
+     "en": "to listen (to)"
+    },
+    "examples": [
+     {
+      "text": "J'écoute de la musique.",
+      "cloze": "J'{{écoute}} de la musique.",
+      "translations": {
+       "zh": "我在听音乐。",
+       "en": "I'm listening to music."
+      }
+     }
+    ],
+    "usageNote": "écouter 后面直接加宾语：écouter la radio（听收音机）。"
+   }
+  ]
+ },
+ {
+  "headword": "marcher",
+  "phonetic": "/maʁ.ʃe/",
+  "cefr": "A1",
+  "frequencyRank": 400,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "aller à pied",
+    "translations": {
+     "zh": "走；走路",
+     "en": "to walk"
+    },
+    "examples": [
+     {
+      "text": "Je marche vite.",
+      "cloze": "Je {{marche}} vite.",
+      "translations": {
+       "zh": "我走得很快。",
+       "en": "I walk fast."
+      }
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "verb",
+    "definition": "fonctionner bien",
+    "translations": {
+     "zh": "（机器）运转；行得通",
+     "en": "to work (machine)"
+    },
+    "examples": [
+     {
+      "text": "Mon téléphone ne marche pas.",
+      "translations": {
+       "zh": "我的手机坏了。",
+       "en": "My phone doesn't work."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "essayer",
+  "phonetic": "/e.se.je/",
+  "cefr": "A2",
+  "frequencyRank": 410,
+  "grammarNotes": {
+   "conjugation": "拼写变化：j'essaie 或 j'essaye；nous essayons"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "faire un effort pour faire quelque chose ; tester",
+    "translations": {
+     "zh": "试；尝试",
+     "en": "to try"
+    },
+    "examples": [
+     {
+      "text": "Je vais essayer.",
+      "translations": {
+       "zh": "我试试看。",
+       "en": "I'll try."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "manger",
+  "phonetic": "/mɑ̃.ʒe/",
+  "cefr": "A1",
+  "frequencyRank": 420,
+  "grammarNotes": {
+   "conjugation": "拼写变化：nous mangeons（保留 e）"
+  },
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "prendre de la nourriture",
+    "translations": {
+     "zh": "吃",
+     "en": "to eat"
+    },
+    "examples": [
+     {
+      "text": "On va manger à midi.",
+      "translations": {
+       "zh": "我们中午吃饭。",
+       "en": "We're going to eat at noon."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "headword": "fermer",
+  "phonetic": "/fɛʁ.me/",
+  "cefr": "A1",
+  "frequencyRank": 450,
+  "senses": [
+   {
+    "partOfSpeech": "verb",
+    "definition": "rendre fermé",
+    "translations": {
+     "zh": "关；关闭",
+     "en": "to close, to shut"
+    },
+    "examples": [
+     {
+      "text": "Ferme la porte, s'il te plaît.",
+      "cloze": "{{Ferme}} la porte, s'il te plaît.",
+      "translations": {
+       "zh": "请把门关上。",
+       "en": "Close the door, please."
+      }
+     }
+    ]
+   }
+  ]
+ }
+]
