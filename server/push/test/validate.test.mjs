@@ -34,18 +34,18 @@ test('register: rejects bad environment, language, appVersion, locale', () => {
   assert.equal(validateRegister(registration(1, { locale: 5 })).ok, false);
 });
 
-test('register: rejects unknown fields and non-objects with a clear message', () => {
+test('register: ignores unknown fields (newer apps), rejects non-objects', () => {
   const r = validateRegister({ ...registration(1), admin: true });
-  assert.equal(r.ok, false);
-  assert.match(r.error, /unknown field: admin/);
+  assert.equal(r.ok, true);
+  assert.equal(r.value.admin, undefined);
   assert.equal(validateRegister([registration(1)]).ok, false);
   assert.equal(validateRegister(null).ok, false);
   assert.equal(validateRegister('x').ok, false);
 });
 
-test('unregister: only token', () => {
+test('unregister: needs a token, ignores anything else', () => {
   assert.equal(validateUnregister({ token: tok(3) }).ok, true);
-  assert.equal(validateUnregister({ token: tok(3), x: 1 }).ok, false);
+  assert.deepEqual(validateUnregister({ token: tok(3), x: 1 }).value, { token: tok(3) });
   assert.equal(validateUnregister({}).ok, false);
 });
 

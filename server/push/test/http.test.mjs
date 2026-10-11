@@ -34,15 +34,15 @@ test('register: bad input → 400, wrong method → 405, non-JSON → 415, big b
   t.after(app.close);
   assert.equal((await post(app.base, '/api/push/register', registration(1, { token: 'nothex' }))).status, 400);
   const unk = await post(app.base, '/api/push/register', { ...registration(1), foo: 1 });
-  assert.equal(unk.status, 400);
-  assert.match(unk.json.error, /unknown field/);
+  assert.equal(unk.status, 204, 'a newer app may send fields this server does not know');
   assert.equal((await post(app.base, '/api/push/register', '{not json')).status, 400);
   assert.equal((await post(app.base, '/api/push/register', registration(1), { 'content-type': 'text/plain' })).status, 415);
   assert.equal((await fetch(app.base + '/api/push/register')).status, 405);
   const big = await post(app.base, '/api/push/register', { ...registration(1), locale: 'x'.repeat(5000) });
   assert.equal(big.status, 413);
   assert.equal((await fetch(app.base + '/nope')).status, 404);
-  assert.equal(app.store.size, 0);
+  // Only the registration with an extra (ignored) field was stored.
+  assert.equal(app.store.size, 1);
 });
 
 test('rate limit: 30 requests per minute per IP, then 429', async (t) => {

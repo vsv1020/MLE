@@ -30,9 +30,10 @@ export function normalizeToken(token) {
   return TOKEN_RE.test(t) ? t : null;
 }
 
+// The app's requests ignore fields they don't know, so a newer app adding a field still registers
+// against this server; only the known fields are read and stored. The admin send stays strict.
 export function validateRegister(obj) {
-  const bad = checkFields(obj, ['token', 'environment', 'language', 'appVersion', 'locale']);
-  if (bad) return fail(bad);
+  if (!isPlainObject(obj)) return fail('body must be a JSON object');
   const token = normalizeToken(obj.token);
   if (!token) return fail('token must be 64-200 hex characters');
   if (!ENVIRONMENTS.includes(obj.environment)) return fail('environment must be "sandbox" or "production"');
@@ -51,8 +52,7 @@ export function validateRegister(obj) {
 }
 
 export function validateUnregister(obj) {
-  const bad = checkFields(obj, ['token']);
-  if (bad) return fail(bad);
+  if (!isPlainObject(obj)) return fail('body must be a JSON object');
   const token = normalizeToken(obj.token);
   if (!token) return fail('token must be 64-200 hex characters');
   return { ok: true, value: { token } };
