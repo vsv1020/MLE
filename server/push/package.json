@@ -1,0 +1,12 @@
+{
+  "name": "mashu-push",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Push notification server for 麻薯背单词 (com.vocabloop.app). No dependencies.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
