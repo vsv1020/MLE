@@ -3,8 +3,10 @@
 #
 # Expects in /root/mashu-deploy/:
 #   bundle.tgz   push-server/ and site/
-#   secrets.env  APNS_KEY_ID, APPLE_TEAM_ID, PUSH_ADMIN_PASSWORD  (mode 600)
-#   AuthKey.p8   the APNs key                                     (mode 600)
+#   secrets.env  PUSH_ADMIN_PASSWORD  (mode 600)
+#
+# The APNs key is NOT handled here: the owner pastes it into https://mle.doge6.com/push-admin
+# (推送设置), where the service checks it with Apple and keeps it in /var/lib/mashu-push/apns.json.
 #
 # Idempotent. Never prints secrets. Changes nginx only by adding the two push locations to the
 # mle.doge6.com HTTPS server block (backed up first, restored if `nginx -t` fails).
@@ -15,7 +17,7 @@ say() { printf '\n== %s\n' "$*"; }
 die() { printf '::error::%s\n' "$*"; exit 1; }
 
 cd "$WORK"
-[ -f bundle.tgz ] && [ -f secrets.env ] && [ -f AuthKey.p8 ] || die "upload incomplete"
+[ -f bundle.tgz ] && [ -f secrets.env ] || die "upload incomplete"
 rm -rf src && mkdir src && tar -xzf bundle.tgz -C src
 # shellcheck disable=SC1091
 set -a; . ./secrets.env; set +a
@@ -47,9 +49,6 @@ if ! bash src/push-server/deploy/install.sh > /root/mashu-push-install.log 2>&1;
 fi
 echo "install.sh finished"
 
-install -d -m 750 -o mashu-push -g mashu-push /etc/mashu-push
-install -m 600 -o mashu-push -g mashu-push AuthKey.p8 /etc/mashu-push/AuthKey.p8
-
 ENV_FILE=/etc/mashu-push.env
 setvar() {  # setvar KEY VALUE — replace or append, value never echoed
   local tmp; tmp=$(mktemp)
@@ -57,9 +56,6 @@ setvar() {  # setvar KEY VALUE — replace or append, value never echoed
   printf '%s=%s\n' "$1" "$2" >> "$tmp"
   cat "$tmp" > "$ENV_FILE"; rm -f "$tmp"
 }
-setvar APNS_KEY_PATH /etc/mashu-push/AuthKey.p8
-setvar APNS_KEY_ID "$APNS_KEY_ID"
-setvar APPLE_TEAM_ID "$APPLE_TEAM_ID"
 setvar ADMIN_USER admin
 setvar ADMIN_PASSWORD "$PUSH_ADMIN_PASSWORD"
 chmod 600 "$ENV_FILE"
@@ -103,5 +99,12 @@ echo "https://$DOMAIN/push-admin → $code (401 = asks for the password, as it s
 code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 10 "https://$DOMAIN/" || true)
 echo "https://$DOMAIN/ → $code"
 
-rm -f "$WORK/secrets.env" "$WORK/AuthKey.p8"
-echo "done"
+rm -f "$WORK/secrets.env"
+cat <<'EOF'
+
+done.
+Next: open https://mle.doge6.com/push-admin (user: admin, password: the PUSH_ADMIN_PASSWORD secret)
+and fill in 推送设置: paste the .p8, enter the Key ID and Team ID, press 保存并检查.
+下一步：打开 https://mle.doge6.com/push-admin（用户名 admin，密码就是 PUSH_ADMIN_PASSWORD），
+在“推送设置”里粘贴 .p8、填 Key ID 和 Team ID，点“保存并检查”。
+EOF

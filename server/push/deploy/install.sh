@@ -158,18 +158,7 @@ cat <<EOF
 EOF
 fi
 cat <<EOF
-1) 上传 Apple 推送私钥（.p8）并设置权限：
-     cp AuthKey_XXXXXXXXXX.p8 $CONF_DIR/AuthKey.p8
-     chown $APP_USER:$APP_USER $CONF_DIR/AuthKey.p8
-     chmod 600 $CONF_DIR/AuthKey.p8
-
-2) 编辑配置文件，填入 APNS_KEY_PATH / APNS_KEY_ID / APPLE_TEAM_ID：
-     nano $ENV_FILE
-   然后重启：
-     systemctl restart mashu-push
-     journalctl -u mashu-push -n 20 --no-pager     # 应看到 "apns configured"
-
-3) 在 nginx 里给 mle.doge6.com 加转发（本脚本不会自动改 nginx）：
+1) 在 nginx 里给 mle.doge6.com 加转发（本脚本不会自动改 nginx）：
    找到配置文件：  grep -rl "mle.doge6.com" /etc/nginx/
    把下面的内容粘贴进 listen 443 的那个 server { } 块里（和 location / 同一层）：
 ------------------------------------------------------------------------
@@ -178,9 +167,13 @@ $(sed -n '/^    # App 注册/,$p' "$SRC_DIR/deploy/nginx-snippet.conf")
    然后检查并重载：
      nginx -t && systemctl reload nginx
 
-4) 检查：
+2) 填写 Apple 推送密钥（不用改配置文件，也不用重启）：
+   浏览器打开 https://mle.doge6.com/push-admin → “推送设置” →
+   粘贴 .p8 文件的全部内容、填 Key ID 和 Team ID → 点“保存并检查”。
+
+3) 检查：
      curl https://mle.doge6.com/api/push/health
-   应返回：{"ok":true,"apns":true,"tokens":{"production":0,"sandbox":0}}
+   填好密钥后应返回：{"ok":true,"apns":true,"tokens":{"production":0,"sandbox":0}}
 
 详细说明见 $APP_DIR/README.md
 EOF
