@@ -33,6 +33,7 @@ struct StudySessionView: View {
     /// The celebration on screen now. The rest wait in ``StudyViewModel/events``.
     @State private var toast: ToastItem?
     @State private var isMochiHopping = false
+    @State private var isShowingLanguages = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -120,6 +121,13 @@ struct StudySessionView: View {
             startSession()
         }) {
             MainTabView()
+        }
+        .sheet(isPresented: $isShowingLanguages) {
+            LanguageSwitcherSheet {
+                // The queue on screen was built for the old language. Same rebuild as closing
+                // the library after a switch in Settings: graded reviews are already stored.
+                model.start(dependencies: dependencies, options: sessionOptions)
+            }
         }
         .sheet(isPresented: $isShowingMochi, onDismiss: {
             // A new outfit or colour should be on the Mochi peeking over the card at once.
@@ -228,7 +236,7 @@ struct StudySessionView: View {
     /// Builds the queue, and at the root opens on today's goal screen at rest when the goal is
     /// already met — reopening the app after "Done for today" must not start more cards.
     private func startSession() {
-        model.start(dependencies: dependencies, options: options)
+        model.start(dependencies: dependencies, options: sessionOptions)
         if presentation == .root, model.restIfGoalAlreadyMet() {
             isRestingForToday = true
         }
@@ -246,7 +254,7 @@ struct StudySessionView: View {
         case .startReview:
             isShowingLibrary = false
             if model.phase == .finished {
-                model.start(dependencies: dependencies, options: options)
+                model.start(dependencies: dependencies, options: sessionOptions)
             } else if model.phase == .goalReached {
                 // Asking to review is an answer to "stop or keep going?".
                 model.continueAfterGoal()
@@ -264,6 +272,27 @@ struct StudySessionView: View {
                 isShowingMochi = true
             }
         }
+    }
+
+    /// The options the queue is actually built with.
+    ///
+    /// The root session studies the *active* language only — the one the chip in the top bar
+    /// names. Left unscoped it used to mix in every language ever enrolled, so one accidental
+    /// switch to Thai, which enrols a batch of Thai words, kept Thai cards coming after switching
+    /// back. Read at each `start`, so a switch made in Settings or from the chip applies to the
+    /// next rebuild. A session that names its own language — a deck — keeps it.
+    private var sessionOptions: ReviewQueueBuilder.Options {
+        guard presentation == .root, options.languageCode == nil,
+              let code = dependencies.preferences?.activeLanguageCode else { return options }
+        var scoped = options
+        scoped.languageCode = code
+        return scoped
+    }
+
+    /// The chip naming the language being studied. Root only: a deck session is one deck in one
+    /// language, and switching underneath it would leave it studying nothing.
+    private var activeLanguage: LearningLanguage? {
+        presentation == .root ? dependencies.preferences?.activeLanguage : nil
     }
 
     /// Spoken instead of the raw glyphs, which VoiceOver would read as "12 slash 30".
@@ -504,10 +533,21 @@ struct StudySessionView: View {
                 .accessibilityLabel("学习选项")
             }
 
-            // Under the progress row rather than in it, so the row keeps its one job. Reviewing
-            // only: the goal and summary screens show their own numbers.
-            if model.phase == .reviewing {
-                ComboBanner(combo: model.combo, candy: model.candyTotal)
+            // Under the progress row rather than in it, so the row keeps its one job — and on a
+            // 375pt phone it has no room left. The combo and candy are reviewing only: the goal
+            // and summary screens show their own numbers. The language chip stays on every phase,
+            // because "nothing to study" in the wrong language is exactly when it is needed.
+            if model.phase == .reviewing || activeLanguage != nil {
+                HStack(spacing: Spacing.xs) {
+                    if let activeLanguage {
+                        LanguageChip(language: activeLanguage) { isShowingLanguages = true }
+                    }
+                    if model.phase == .reviewing {
+                        ComboBanner(combo: model.combo, candy: model.candyTotal)
+                    } else {
+                        Spacer(minLength: 0)
+                    }
+                }
             }
 
             if model.deferredCount > 0 {

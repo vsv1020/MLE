@@ -56,6 +56,10 @@ final class VocabLoopUITests: XCTestCase {
             "a fresh install must open onto a word card"
         )
         XCTAssertFalse(app.staticTexts["现在没有要学的"].exists)
+        // Which language the cards are in is on screen, so a switch is never invisible.
+        let language = app.buttons["study.language"]
+        XCTAssertTrue(language.exists, "the study screen must name the language being studied")
+        XCTAssertEqual(language.label, "正在学英语，点按切换")
         libraryButton.tap()
         XCTAssertTrue(
             app.tabBars.buttons["今天"].waitForExistence(timeout: 10),

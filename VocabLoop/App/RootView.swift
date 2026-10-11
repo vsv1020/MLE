@@ -64,10 +64,11 @@ struct RootView: View {
 
     /// Session options for the root session.
     ///
-    /// Deliberately the plain defaults rather than anything read from preferences: the root
-    /// session studies everything, in every enrolled language, and the caps are batch sizes the
-    /// queue tops up from. Narrowing by deck or language is what starting a session *from* a
-    /// deck is for.
+    /// Deliberately the plain defaults rather than anything read from preferences: the caps are
+    /// batch sizes the queue tops up from, and the language is filled in by the session itself
+    /// from the active language at every rebuild (`StudySessionView.sessionOptions`), so a switch
+    /// takes effect without this view having to notice it. Narrowing by deck is what starting a
+    /// session *from* a deck is for.
     private var rootOptions: ReviewQueueBuilder.Options {
         ReviewQueueBuilder.Options()
     }
