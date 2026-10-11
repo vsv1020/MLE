@@ -1,6 +1,7 @@
-1.0.10
+1.0.11
 
-- The app is now called 麻薯背单词 on the Home Screen, matching its App
-  Store name.
-- Privacy policy, terms of use and help are linked from Settings > About
-  and the Plus page (https://mle.doge6.com/).
+- 全新中文界面，释义只显示中文。
+- 新增法语和泰语词库：各 2,000 多词，从入门 A1 到高级 C1。
+- 学习页显示当前语言，点一下就能切换；学习只出当前语言的卡片。
+- 分享海报：3:4 竖版，带 App Store 下载二维码。
+- 完成今日目标后重新打开 App，会停在“明天见”，不再自动继续。

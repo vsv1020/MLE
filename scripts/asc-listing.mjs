@@ -78,6 +78,7 @@ export function validateListing(l) {
     limit(`${locale} promotionalText`, v.promotionalText, LIMITS.promotionalText);
     limit(`${locale} description`, v.description, LIMITS.description);
     limit(`${locale} keywords`, v.keywords, LIMITS.keywords);
+    if (v.whatsNew) limit(`${locale} whatsNew`, v.whatsNew, LIMITS.description);
     for (const f of ['name', 'subtitle', 'keywords']) need(!EMOJI.test(v[f] ?? ''), `${locale} ${f} contains an emoji, which Apple rejects`);
     need(!/,\s/.test(v.keywords ?? ''), `${locale} keywords: no spaces after commas (they count against the limit)`);
     url(`${locale} privacyPolicyUrl`, v.privacyPolicyUrl);
@@ -417,6 +418,8 @@ async function versionLocalizationsStep(version, L) {
   const out = {};
   for (const [locale, v] of Object.entries(L.locales)) {
     const desired = { description: v.description, keywords: v.keywords, promotionalText: v.promotionalText, supportUrl: v.supportUrl, marketingUrl: v.marketingUrl };
+    // "What's New" exists only for updates: Apple rejects it on an app's first version.
+    if (v.whatsNew && !L.firstVersion) desired.whatsNew = v.whatsNew;
     const cur = locs.find((x) => x.attributes.locale === locale);
     try {
       if (cur) {
