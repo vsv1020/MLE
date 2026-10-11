@@ -25,17 +25,22 @@ say "Finding the nginx config for $DOMAIN"
 CONF=$(grep -rlE "server_name[^;]*\b${DOMAIN//./\\.}\b" /etc/nginx/ 2>/dev/null | grep -v '\.bak' | head -n1 || true)
 [ -n "$CONF" ] || die "no nginx config mentions $DOMAIN"
 echo "config: $CONF"
-WEBROOT=$(awk '/listen[ \t]+443/{h=1} h && $1=="root"{gsub(";","",$2); print $2; exit}' "$CONF")
-[ -n "$WEBROOT" ] || WEBROOT=$(awk '$1=="root"{gsub(";","",$2); print $2; exit}' "$CONF")
-[ -n "$WEBROOT" ] && [ -d "$WEBROOT" ] || die "could not find the web root in $CONF"
-echo "web root: $WEBROOT"
+echo "--- $CONF (server blocks, for reference)"
+grep -nE 'server_name|listen|root|alias|location|proxy_pass|index' "$CONF" || true
+# The web root: a `root` (or `alias`) directive anywhere in the file, the first one wins.
+WEBROOT=$(awk '$1=="root" || $1=="alias" {v=$2; gsub(";","",v); print v; exit}' "$CONF")
+STAMP=$(date +%Y%m%d-%H%M%S)
 
 # ---------------------------------------------------------------- website files
 say "Updating the website files"
-STAMP=$(date +%Y%m%d-%H%M%S)
-tar -czf "/root/site-backup-$STAMP.tgz" -C "$WEBROOT" .
-cp -f src/site/* "$WEBROOT"/
-echo "backed up the old site to /root/site-backup-$STAMP.tgz and copied $(ls src/site | wc -l) files"
+if [ -n "$WEBROOT" ] && [ -d "$WEBROOT" ] && [ -f "$WEBROOT/index.html" ]; then
+  echo "web root: $WEBROOT"
+  tar -czf "/root/site-backup-$STAMP.tgz" -C "$WEBROOT" .
+  cp -f src/site/* "$WEBROOT"/
+  echo "backed up the old site to /root/site-backup-$STAMP.tgz and copied $(ls src/site | wc -l) files"
+else
+  echo "::warning::no clear web root with an index.html in $CONF (found: '${WEBROOT:-none}') — website files NOT updated; the push service is still deployed"
+fi
 
 # ---------------------------------------------------------------- push service
 say "Installing the push service"
