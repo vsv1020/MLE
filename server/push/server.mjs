@@ -5,7 +5,7 @@
 import http from 'node:http';
 import { loadConfig } from './lib/config.mjs';
 import { TokenStore, HistoryStore } from './lib/storage.mjs';
-import { ProviderToken } from './lib/jwt.mjs';
+import { ApnsSettingsStore, ApnsCredentials } from './lib/apns-settings.mjs';
 import { Http2Transport } from './lib/apns.mjs';
 import { createApp } from './lib/app.mjs';
 
@@ -28,8 +28,10 @@ if (errors.length) {
 const store = await new TokenStore(config.dataDir).load();
 const history = await new HistoryStore(config.dataDir).load();
 const transport = new Http2Transport({ log });
-const providerToken = config.apns ? new ProviderToken(config.apns) : null;
-if (providerToken) providerToken.get(); // fail fast if the key cannot sign
+// APNs credentials saved on /push-admin (DATA_DIR/apns.json) win over the environment variables.
+const settings = await new ApnsSettingsStore(config.dataDir).load();
+const apns = new ApnsCredentials({ settings, env: config.apns, transport, log });
+apns.providerToken?.get(); // fail fast if the key cannot sign
 
 const handler = createApp({
   adminUser: config.adminUser,
@@ -37,7 +39,7 @@ const handler = createApp({
   store,
   history,
   transport,
-  providerToken,
+  apns,
   log,
 });
 
@@ -47,7 +49,7 @@ server.headersTimeout = 10_000;
 server.keepAliveTimeout = 5_000;
 server.listen(config.port, '127.0.0.1', () => {
   const c = store.counts();
-  log(`mashu-push listening on http://127.0.0.1:${config.port} (data ${config.dataDir}; tokens production=${c.production} sandbox=${c.sandbox}; apns ${providerToken ? 'configured' : 'NOT configured'})`);
+  log(`mashu-push listening on http://127.0.0.1:${config.port} (data ${config.dataDir}; tokens production=${c.production} sandbox=${c.sandbox}; apns ${apns.configured ? `configured from ${apns.source === 'admin' ? 'the admin page' : 'the environment'}` : 'NOT configured — set it on /push-admin → 推送设置'})`);
 });
 
 function shutdown(sig) {

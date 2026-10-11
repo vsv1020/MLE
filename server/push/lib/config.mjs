@@ -19,6 +19,7 @@ export function loadConfig(env = process.env) {
 
   const dataDir = env.DATA_DIR || '/var/lib/mashu-push';
 
+  // Optional: APNs credentials from the environment. Settings saved on /push-admin override these.
   // APNs key: APNS_KEY_PATH (file) wins over APNS_KEY_P8 (contents; "\n" escapes allowed).
   let apnsKey = null;
   const keyId = (env.APNS_KEY_ID || '').trim();
@@ -43,7 +44,7 @@ export function loadConfig(env = process.env) {
     if (!/^[A-Z0-9]{10}$/.test(keyId) || keyId === 'XXXXXXXXXX') errors.push('APNS_KEY_ID must be the 10-character key ID (e.g. ABC123DEFG)');
     if (!/^[A-Z0-9]{10}$/.test(teamId) || teamId === 'XXXXXXXXXX') errors.push('APPLE_TEAM_ID must be the 10-character team ID');
   } else {
-    warnings.push('APNs is not configured: devices can register, but sending is disabled');
+    warnings.push('APNs is not configured in the environment (it can be set on /push-admin → 推送设置; until then devices can register, but sending is disabled)');
   }
 
   return {

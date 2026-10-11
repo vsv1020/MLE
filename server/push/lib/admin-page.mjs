@@ -12,8 +12,8 @@ export function adminPage(nonce) {
 <meta name="robots" content="noindex, nofollow">
 <title>麻薯背单词 · 推送</title>
 <style nonce="${nonce}">
-:root { --bg:#f6f5f2; --card:#fff; --text:#1f1d1a; --muted:#6e6a63; --line:#e4e1da; --accent:#c2552d; --accent-text:#fff; --ok:#2f7d4f; --err:#b3261e; }
-@media (prefers-color-scheme: dark) { :root { --bg:#171614; --card:#211f1c; --text:#efece6; --muted:#a39e95; --line:#34312c; --accent:#e07a50; --accent-text:#1a1310; --ok:#6cc08f; --err:#f2827a; } }
+:root { --bg:#f6f5f2; --card:#fff; --text:#1f1d1a; --muted:#6e6a63; --line:#e4e1da; --accent:#c2552d; --accent-text:#fff; --ok:#2f7d4f; --err:#b3261e; --warn:#b85c00; }
+@media (prefers-color-scheme: dark) { :root { --bg:#171614; --card:#211f1c; --text:#efece6; --muted:#a39e95; --line:#34312c; --accent:#e07a50; --accent-text:#1a1310; --ok:#6cc08f; --err:#f2827a; --warn:#f0a35a; } }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
 main { max-width:720px; margin:0 auto; padding:24px 16px 48px; }
@@ -23,7 +23,7 @@ h2 { font-size:16px; margin:0 0 12px; }
 .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px; margin-bottom:16px; }
 label { display:block; font-weight:600; margin:14px 0 6px; }
 label:first-child { margin-top:0; }
-input[type=text], textarea, select { width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--text); font:inherit; }
+input[type=text], input[type=password], textarea, select { width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--text); font:inherit; }
 textarea { min-height:96px; resize:vertical; }
 .count { float:right; font-weight:400; color:var(--muted); font-size:12px; }
 .count.over { color:var(--err); }
@@ -47,12 +47,61 @@ button:disabled { opacity:.5; cursor:default; }
 .h-body { color:var(--text); margin:2px 0; overflow-wrap:anywhere; }
 .h-meta { color:var(--muted); font-size:12px; }
 .empty { color:var(--muted); }
+.status { font-weight:600; margin:0 0 6px; overflow-wrap:anywhere; }
+.status.ok { color:var(--ok); }
+.status.warn { color:var(--warn); }
+.status.err { color:var(--err); }
+.help { color:var(--muted); font-size:13px; margin:0 0 4px; }
+.help ol { margin:6px 0 0; padding-left:20px; }
+.row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+@media (max-width: 480px) { .row { grid-template-columns:1fr; } }
+textarea.mono, input.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:13px; }
+.hint { color:var(--warn); font-size:13px; margin-top:10px; display:none; }
+.hint.show { display:block; }
+.msg { margin-top:14px; padding:12px; border-radius:8px; background:var(--bg); display:none; white-space:pre-wrap; overflow-wrap:anywhere; }
+.msg.ok { display:block; border-left:3px solid var(--ok); }
+.msg.err { display:block; border-left:3px solid var(--err); }
 </style>
 </head>
 <body>
 <main>
   <h1>麻薯背单词 · 推送通知</h1>
   <p class="sub">给已开启通知的用户发送一条推送。建议先选“测试 sandbox”发给自己的测试机看看效果。</p>
+
+  <section class="card" id="apnsCard">
+    <h2>推送设置（Apple 推送密钥）</h2>
+    <p class="status" id="apnsStatus">加载中…</p>
+    <div class="help">
+      没有这三项就不能发送。在 <b>developer.apple.com → Certificates, IDs &amp; Profiles → Keys</b> 里找到（或点 + 新建）勾选了
+      <b>Apple Push Notifications service (APNs)</b> 的 Key：
+      <ol>
+        <li>.p8 文件只能下载一次（文件名 AuthKey_XXXXXXXXXX.p8），用文本编辑器打开，全部复制粘贴到下面；</li>
+        <li>Key ID 就是文件名 AuthKey_ 后面那 10 位；</li>
+        <li>Team ID 在 developer.apple.com 的 Membership 页面（10 位）。</li>
+      </ol>
+      保存前会先让 Apple 试验一次，Apple 认可才会保存。保存后密钥只存在服务器上，这个页面不会再显示它。
+    </div>
+    <form id="apnsForm" autocomplete="off">
+      <label for="keyP8">.p8 密钥</label>
+      <textarea id="keyP8" class="mono" maxlength="4096" spellcheck="false" autocapitalize="off" autocorrect="off" placeholder="粘贴 .p8 文件的全部内容（包括 BEGIN/END 两行）"></textarea>
+      <div class="row">
+        <div>
+          <label for="keyId">Key ID</label>
+          <input type="text" id="keyId" class="mono" maxlength="10" spellcheck="false" autocapitalize="characters" placeholder="例如 ABC123DEFG">
+        </div>
+        <div>
+          <label for="teamId">Team ID</label>
+          <input type="text" id="teamId" class="mono" maxlength="10" spellcheck="false" autocapitalize="characters" placeholder="例如 TEAM123456">
+        </div>
+      </div>
+      <div class="actions">
+        <button type="button" id="apnsSave" class="primary">保存并检查</button>
+        <button type="button" id="apnsCheck">重新检查</button>
+        <button type="button" id="apnsDelete" hidden>删除后台保存的密钥</button>
+      </div>
+      <div id="apnsResult" class="msg" role="status"></div>
+    </form>
+  </section>
 
   <section class="card">
     <h2>已登记的设备</h2>
@@ -80,8 +129,9 @@ button:disabled { opacity:.5; cursor:default; }
       </div>
       <div class="actions">
         <button type="button" id="preview">先预览人数</button>
-        <button type="button" id="send" class="primary">发送</button>
+        <button type="button" id="send" class="primary" disabled>发送</button>
       </div>
+      <div class="hint" id="sendHint">还没有配置 Apple 推送密钥，暂时不能发送（可以先预览人数）。请先在上面的“推送设置”里填写。</div>
       <div id="result" role="status"></div>
     </form>
   </section>
@@ -150,7 +200,8 @@ button:disabled { opacity:.5; cursor:default; }
     return true;
   }
 
-  function busy(on) { $('preview').disabled = on; $('send').disabled = on; }
+  var apnsReady = false, isBusy = false;
+  function busy(on) { isBusy = on; $('preview').disabled = on; $('send').disabled = on || !apnsReady; }
 
   function describe(d) { return ENV[d.environment] + ' · ' + LANG[d.language || '']; }
 
@@ -219,6 +270,107 @@ button:disabled { opacity:.5; cursor:default; }
     }
   }
   load();
+
+  // ---------------------------------------------------------------- 推送设置
+  var SOURCE = { admin: '后台设置', env: '服务器环境变量' };
+  function mark(r) { return r && r.ok ? '✓' : '✗'; }
+  function fmtTime(iso) { return iso ? new Date(iso).toLocaleString('zh-CN', { hour12: false }) : ''; }
+
+  function showApns(kind, text) {
+    var r = $('apnsResult');
+    r.className = 'msg ' + kind;
+    r.textContent = text;
+  }
+
+  function renderApns(s) {
+    apnsReady = Boolean(s && s.configured);
+    var st = $('apnsStatus');
+    if (!apnsReady) {
+      st.className = 'status warn';
+      st.textContent = '未配置 —— 现在还不能发送推送';
+    } else {
+      var parts = ['已配置', 'Key ID ' + s.keyId, 'Team ID ' + s.teamId, '来源：' + (SOURCE[s.source] || s.source)];
+      if (s.updatedAt) parts.push('保存于 ' + fmtTime(s.updatedAt));
+      var c = s.lastCheck, bad = false;
+      if (c && c.production && c.sandbox) {
+        parts.push('上次检查 ' + fmtTime(c.at) + ' 正式环境 ' + mark(c.production) + ' 测试环境 ' + mark(c.sandbox));
+        bad = !(c.production.ok && c.sandbox.ok);
+      } else {
+        parts.push('还没检查过');
+      }
+      st.className = 'status ' + (bad ? 'err' : 'ok');
+      st.textContent = parts.join(' · ');
+      if (!$('keyId').value) $('keyId').value = s.keyId || '';
+      if (!$('teamId').value) $('teamId').value = s.teamId || '';
+    }
+    $('apnsCheck').disabled = !apnsReady;
+    $('apnsDelete').hidden = !(s && s.source === 'admin');
+    $('sendHint').classList.toggle('show', !apnsReady);
+    busy(isBusy);
+  }
+
+  async function loadApns() {
+    try { renderApns(await api('GET', '/api/push/admin/apns')); }
+    catch (e) { $('apnsStatus').className = 'status err'; $('apnsStatus').textContent = '读取推送设置失败：' + e.message; }
+  }
+
+  function apnsBusy(on) {
+    $('apnsSave').disabled = on;
+    $('apnsCheck').disabled = on || !apnsReady;
+    $('apnsDelete').disabled = on;
+  }
+
+  function upper(input) {
+    input.addEventListener('input', function () {
+      var v = input.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+      if (v !== input.value) input.value = v;
+    });
+  }
+  upper($('keyId'));
+  upper($('teamId'));
+
+  var ID_RE = /^[A-Z0-9]{10}$/;
+  $('apnsSave').addEventListener('click', async function () {
+    var keyP8 = $('keyP8').value.trim(), keyId = $('keyId').value.trim(), teamId = $('teamId').value.trim();
+    if (!keyP8) { showApns('err', '请粘贴 .p8 文件的全部内容（包括 BEGIN/END 两行）。'); return; }
+    if (keyP8.indexOf('-----BEGIN') !== 0 || keyP8.indexOf('-----END') < 0) { showApns('err', '.p8 内容要包括 -----BEGIN PRIVATE KEY----- 和 -----END PRIVATE KEY----- 两行。'); return; }
+    if (!ID_RE.test(keyId)) { showApns('err', 'Key ID 必须正好是 10 位大写字母或数字。'); return; }
+    if (!ID_RE.test(teamId)) { showApns('err', 'Team ID 必须正好是 10 位大写字母或数字。'); return; }
+    apnsBusy(true);
+    showApns('ok', '正在让 Apple 检查这把密钥…');
+    try {
+      var r = await api('POST', '/api/push/admin/apns', { keyP8: keyP8, keyId: keyId, teamId: teamId });
+      $('keyP8').value = '';
+      showApns('ok', '已保存，马上生效。' + (r.message || ''));
+      renderApns(r);
+    } catch (e) { showApns('err', e.message); }
+    apnsBusy(false);
+  });
+
+  $('apnsCheck').addEventListener('click', async function () {
+    apnsBusy(true);
+    showApns('ok', '正在检查…');
+    try {
+      var r = await api('POST', '/api/push/admin/apns/check', {});
+      showApns(r.ok ? 'ok' : 'err', r.message || (r.ok ? '检查通过。' : '检查没有通过。'));
+      renderApns(r);
+    } catch (e) { showApns('err', '检查失败：' + e.message); }
+    apnsBusy(false);
+  });
+
+  $('apnsDelete').addEventListener('click', async function () {
+    if (!window.confirm('删除后台保存的 Apple 推送密钥吗？\\n\\n删除后如果服务器环境变量里也没有配置，就不能发送推送了。')) return;
+    apnsBusy(true);
+    try {
+      var r = await api('DELETE', '/api/push/admin/apns', {});
+      $('keyId').value = ''; $('teamId').value = '';
+      showApns('ok', r.configured ? '已删除，现在使用服务器环境变量里的密钥。' : '已删除，现在没有配置 Apple 推送密钥。');
+      renderApns(r);
+    } catch (e) { showApns('err', '删除失败：' + e.message); }
+    apnsBusy(false);
+  });
+
+  loadApns();
 })();
 </script>
 </body>

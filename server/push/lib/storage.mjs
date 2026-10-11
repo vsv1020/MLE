@@ -27,7 +27,7 @@ export async function atomicWriteJSON(file, data) {
   } catch { /* directory fsync is best effort (not supported everywhere) */ }
 }
 
-async function readJSON(file) {
+export async function readJSONFile(file) {
   let text;
   try {
     text = await fs.readFile(file, 'utf8');
@@ -75,7 +75,7 @@ export class TokenStore {
 
   async load() {
     await fs.mkdir(path.dirname(this.file), { recursive: true, mode: 0o700 });
-    const data = await readJSON(this.file);
+    const data = await readJSONFile(this.file);
     this.tokens = new Map(Object.entries(data?.tokens ?? {}));
     return this;
   }
@@ -149,7 +149,7 @@ export class HistoryStore {
 
   async load() {
     await fs.mkdir(path.dirname(this.file), { recursive: true, mode: 0o700 });
-    const data = await readJSON(this.file);
+    const data = await readJSONFile(this.file);
     this.sends = Array.isArray(data?.sends) ? data.sends.slice(0, HISTORY_MAX) : [];
     return this;
   }

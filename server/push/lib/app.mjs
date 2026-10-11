@@ -1,12 +1,15 @@
 // HTTP routing. createApp() takes all collaborators as arguments (store, history, APNs transport,
-// provider token) so the tests can run it without network access or real Apple credentials.
+// APNs credentials, the Apple key check) so the tests can run it without network access or real
+// Apple credentials.
 import crypto from 'node:crypto';
 import { validateRegister, validateUnregister, validateSend, tokenTail } from './validate.mjs';
 import { checkBasicAuth, RateLimiter } from './security.mjs';
 import { sendToAll } from './apns.mjs';
 import { adminPage } from './admin-page.mjs';
+import { ApnsCredentials, validateApnsSettings, checkWithApple, normalizeCheck, checkOutcome, explainCheck, describeCheckForLog, keyTail } from './apns-settings.mjs';
 
 export const BODY_LIMIT = 4096;
+export const APNS_BODY_LIMIT = 8192; // the .p8 is ~250 bytes; capped at 4 KB by the validator
 
 class HttpError extends Error {
   constructor(status, message) { super(message); this.status = status; }
@@ -29,10 +32,14 @@ function readBody(req, limit = BODY_LIMIT) {
   });
 }
 
-async function readJSON(req) {
+function requireJsonType(req) {
   const type = String(req.headers['content-type'] || '').split(';')[0].trim().toLowerCase();
   if (type !== 'application/json') throw new HttpError(415, 'Content-Type must be application/json');
-  const text = await readBody(req);
+}
+
+async function readJSON(req, limit = BODY_LIMIT) {
+  requireJsonType(req);
+  const text = await readBody(req, limit);
   try {
     return JSON.parse(text);
   } catch {
@@ -72,13 +79,16 @@ export function createApp({
   store,
   history,
   transport,
-  providerToken,   // null when APNs credentials are not configured → sending is refused
+  apns,            // ApnsCredentials; apns.providerToken is null when not configured → sending is refused
+  apnsCheck = checkWithApple, // ({ key, keyId, teamId }) → { production, sandbox }; injected by tests
   log = () => {},
   rateLimit = new RateLimiter({ limit: 30, windowMs: 60_000 }),
   authFailLimit = new RateLimiter({ limit: 10, windowMs: 60_000 }),
   clock = () => new Date(),
 }) {
   let sending = false;
+  let configuring = false;
+  apns ??= new ApnsCredentials({ log }); // nothing configured
 
   function requireAdmin(req, ip) {
     if (checkBasicAuth(req.headers.authorization, adminUser, adminPassword)) return;
@@ -107,8 +117,10 @@ export function createApp({
     const { title, body, language, environment, dryRun } = v.value;
     const targets = store.select({ environment, language });
     if (dryRun) return { targeted: targets.length, sent: 0, failed: 0, removed: 0, dryRun: true };
-    if (!providerToken) throw new HttpError(503, 'APNs is not configured (APNS_KEY_PATH / APNS_KEY_ID / APPLE_TEAM_ID)');
+    const providerToken = apns.providerToken;
+    if (!providerToken) throw new HttpError(503, '还没有配置 Apple 推送密钥：请先在后台“推送设置”里填写');
     if (sending) throw new HttpError(409, 'another send is in progress');
+    if (configuring) throw new HttpError(409, '推送设置正在保存或检查，请稍后再发');
     sending = true;
     try {
       log(`send start: ${environment} language=${language || 'all'} targets=${targets.length}`);
@@ -123,6 +135,74 @@ export function createApp({
     }
   }
 
+  /** Empty body or {} only; the JSON content type is still required (CSRF: no simple form posts). */
+  async function readEmptyJSON(req) {
+    requireJsonType(req);
+    const text = (await readBody(req)).trim();
+    if (text === '' || text === '{}') return;
+    throw new HttpError(400, 'body must be empty or {}');
+  }
+
+  async function runCheck(creds) {
+    let raw;
+    try {
+      raw = await apnsCheck(creds);
+    } catch (e) {
+      raw = { production: { status: 0, reason: `network: ${e.message}` }, sandbox: { status: 0, reason: `network: ${e.message}` } };
+    }
+    return normalizeCheck(raw, clock().toISOString());
+  }
+
+  async function exclusive(fn) {
+    if (configuring) throw new HttpError(409, '另一个设置操作正在进行，请稍后再试');
+    if (sending) throw new HttpError(409, '正在发送推送，请等发送完成后再改设置');
+    configuring = true;
+    try { return await fn(); } finally { configuring = false; }
+  }
+
+  async function handleApnsSave(req) {
+    requireSameOrigin(req);
+    const v = validateApnsSettings(await readJSON(req, APNS_BODY_LIMIT));
+    if (!v.ok) throw new HttpError(400, v.error);
+    const { keyP8, keyId, teamId, key } = v.value;
+    return exclusive(async () => {
+      const check = await runCheck({ key, keyId, teamId });
+      const outcome = checkOutcome(check);
+      log(`apns settings check (key ${keyTail(keyId)}): ${describeCheckForLog(check)} → ${outcome}`);
+      if (outcome !== 'ok') {
+        const e = new HttpError(outcome === 'network' ? 502 : 400, `${explainCheck(check)}设置没有保存。`);
+        e.extra = { check };
+        throw e;
+      }
+      await apns.save({ keyP8, keyId, teamId }, check, clock());
+      return { ...apns.status(), message: explainCheck(check) };
+    });
+  }
+
+  async function handleApnsCheck(req) {
+    requireSameOrigin(req);
+    await readEmptyJSON(req);
+    return exclusive(async () => {
+      const creds = apns.current();
+      if (!creds) throw new HttpError(409, '还没有配置 Apple 推送密钥');
+      const check = await runCheck(creds);
+      const outcome = checkOutcome(check);
+      log(`apns check (${apns.source}, key ${keyTail(creds.keyId)}): ${describeCheckForLog(check)} → ${outcome}`);
+      await apns.recordCheck(check);
+      return { ...apns.status(), ok: outcome === 'ok', outcome, check, message: explainCheck(check) };
+    });
+  }
+
+  async function handleApnsDelete(req) {
+    requireSameOrigin(req);
+    await readEmptyJSON(req);
+    return exclusive(async () => {
+      if (!apns.settings) throw new HttpError(503, 'settings store not available');
+      await apns.clear();
+      return apns.status();
+    });
+  }
+
   async function route(req, res) {
     const url = new URL(req.url, 'http://localhost');
     const path = url.pathname;
@@ -130,10 +210,11 @@ export function createApp({
 
     if (path === '/api/push/health') {
       if (req.method !== 'GET' && req.method !== 'HEAD') throw new HttpError(405, 'method not allowed');
-      return send(res, 200, { ok: true, apns: Boolean(providerToken), tokens: store.counts() });
+      return send(res, 200, { ok: true, apns: Boolean(apns.providerToken), tokens: store.counts() });
     }
 
-    const known = ['/api/push/register', '/api/push/unregister', '/api/push/send', '/api/push/admin/overview', '/push-admin'];
+    const known = ['/api/push/register', '/api/push/unregister', '/api/push/send', '/api/push/admin/overview',
+      '/api/push/admin/apns', '/api/push/admin/apns/check', '/push-admin'];
     if (!known.includes(path)) throw new HttpError(404, 'not found');
     if (!rateLimit.hit(ip)) throw Object.assign(new HttpError(429, 'too many requests'), { headers: { 'Retry-After': '60' } });
 
@@ -169,7 +250,19 @@ export function createApp({
 
     if (path === '/api/push/admin/overview') {
       if (req.method !== 'GET') throw new HttpError(405, 'method not allowed');
-      return send(res, 200, { breakdown: store.breakdown(), apns: Boolean(providerToken), history: history.list(30) });
+      return send(res, 200, { breakdown: store.breakdown(), apns: Boolean(apns.providerToken), history: history.list(30) });
+    }
+
+    if (path === '/api/push/admin/apns') {
+      if (req.method === 'GET') return send(res, 200, apns.status());
+      if (req.method === 'POST') return send(res, 200, await handleApnsSave(req));
+      if (req.method === 'DELETE') return send(res, 200, await handleApnsDelete(req));
+      throw new HttpError(405, 'method not allowed');
+    }
+
+    if (path === '/api/push/admin/apns/check') {
+      if (req.method !== 'POST') throw new HttpError(405, 'method not allowed');
+      return send(res, 200, await handleApnsCheck(req));
     }
 
     if (path === '/api/push/send') {
@@ -185,7 +278,7 @@ export function createApp({
       const status = e instanceof HttpError ? e.status : 500;
       if (status === 500) log(`error: ${e.stack || e.message}`);
       const headers = status === 413 ? { ...e.headers, Connection: 'close' } : e.headers;
-      send(res, status, { error: status === 500 ? 'internal error' : e.message }, headers);
+      send(res, status, { ...(status === 500 ? {} : e.extra), error: status === 500 ? 'internal error' : e.message }, headers);
     }
   };
 }

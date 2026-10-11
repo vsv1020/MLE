@@ -3,13 +3,14 @@ name: Deploy push service
 # Installs the push server (server/push) on the owner's server and updates the website files,
 # over SSH from this runner (the development environment cannot reach the server).
 #
-# Secrets needed:
+# Secrets needed (only these two):
 #   DEPLOY_SSH_KEY       private key whose public half is in root's ~/.ssh/authorized_keys
-#   APNS_KEY_P8          contents of the APNs .p8 key
-#   APNS_KEY_ID          its 10-character Key ID
-#   APPLE_TEAM_ID        10-character Team ID
 #   PUSH_ADMIN_PASSWORD  password for https://mle.doge6.com/push-admin (user: admin), 12+ chars,
 #                        letters and digits only
+#
+# The APNs key is not part of the deploy. After the first deploy, open
+# https://mle.doge6.com/push-admin → 推送设置, paste the .p8, fill in Key ID and Team ID and press
+# 保存并检查: the service checks the key with Apple and uses it at once (no redeploy, no restart).
 #
 # Run: Actions ▸ Deploy push service ▸ Run workflow, or change the PUSHDEPLOY file on main.
 on:
@@ -36,26 +37,16 @@ jobs:
       - name: Check the secrets are present
         env:
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
-          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
           PUSH_ADMIN_PASSWORD: ${{ secrets.PUSH_ADMIN_PASSWORD }}
         run: |
           missing=0
-          for n in DEPLOY_SSH_KEY APNS_KEY_P8 APNS_KEY_ID APPLE_TEAM_ID PUSH_ADMIN_PASSWORD; do
+          for n in DEPLOY_SSH_KEY PUSH_ADMIN_PASSWORD; do
             v="${!n}"
             if [ -z "$v" ]; then echo "::error::secret $n is missing"; missing=1; else echo "$n: set"; fi
           done
           if [ ${#PUSH_ADMIN_PASSWORD} -lt 12 ]; then echo "::error::PUSH_ADMIN_PASSWORD must be at least 12 characters"; missing=1; fi
           if ! printf '%s' "$PUSH_ADMIN_PASSWORD" | grep -Eq '^[A-Za-z0-9]+$'; then echo "::error::PUSH_ADMIN_PASSWORD: letters and digits only"; missing=1; fi
           exit $missing
-
-      - name: Check the APNs key first
-        env:
-          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
-          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
-        run: node scripts/apns-check.mjs
 
       - name: Run the push server's tests
         working-directory: server/push
@@ -73,9 +64,6 @@ jobs:
 
       - name: Upload
         env:
-          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
-          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
           PUSH_ADMIN_PASSWORD: ${{ secrets.PUSH_ADMIN_PASSWORD }}
         run: |
           set -euo pipefail
@@ -84,13 +72,11 @@ jobs:
           cp -r server/push/. "$RUNNER_TEMP/up/push-server/"
           cp -r site "$RUNNER_TEMP/up/site"
           tar -czf "$RUNNER_TEMP/bundle.tgz" -C "$RUNNER_TEMP/up" push-server site
-          printf '%s\n' "$APNS_KEY_P8" > "$RUNNER_TEMP/AuthKey.p8"
-          printf 'APNS_KEY_ID=%s\nAPPLE_TEAM_ID=%s\nPUSH_ADMIN_PASSWORD=%s\n' \
-            "$APNS_KEY_ID" "$APPLE_TEAM_ID" "$PUSH_ADMIN_PASSWORD" > "$RUNNER_TEMP/secrets.env"
+          printf 'PUSH_ADMIN_PASSWORD=%s\n' "$PUSH_ADMIN_PASSWORD" > "$RUNNER_TEMP/secrets.env"
           $SSH 'mkdir -p /root/mashu-deploy && chmod 700 /root/mashu-deploy'
-          $SCP "$RUNNER_TEMP/bundle.tgz" "$RUNNER_TEMP/secrets.env" "$RUNNER_TEMP/AuthKey.p8" \
+          $SCP "$RUNNER_TEMP/bundle.tgz" "$RUNNER_TEMP/secrets.env" \
             scripts/server-deploy-push.sh "root@$HOST:/root/mashu-deploy/"
-          rm -f "$RUNNER_TEMP/AuthKey.p8" "$RUNNER_TEMP/secrets.env"
+          rm -f "$RUNNER_TEMP/secrets.env"
 
       - name: Deploy on the server
         run: $SSH 'bash /root/mashu-deploy/server-deploy-push.sh'
@@ -100,3 +86,9 @@ jobs:
           curl -sS --max-time 15 https://mle.doge6.com/api/push/health; echo
           curl -s -o /dev/null -w "push-admin: %{http_code}\n" --max-time 15 https://mle.doge6.com/push-admin
           curl -s --max-time 15 https://mle.doge6.com/privacy.html | grep -q "麻薯背单词" && echo "privacy page updated"
+          {
+            echo "### Push service deployed"
+            echo ""
+            echo "Next: open https://mle.doge6.com/push-admin (user: admin) → **推送设置**: paste the .p8, fill in Key ID and Team ID, press **保存并检查**."
+            echo "If the health check above shows \"apns\":true, it is already configured."
+          } >> "$GITHUB_STEP_SUMMARY"
