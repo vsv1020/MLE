@@ -79,7 +79,7 @@ struct StudySessionView: View {
         .onChange(of: model.reviewedCount) { _, _ in
             if model.lastComboMilestone != nil { hopMochi() }
         }
-        .task { model.start(dependencies: dependencies, options: options) }
+        .task { startSession() }
         // "Hey Siri, start reviewing" used to be consumed by Today, which was the app's entry
         // point. It no longer is — at launch this screen is what exists — so the note would have
         // sat unread and the intent would have done nothing at all.
@@ -117,7 +117,7 @@ struct StudySessionView: View {
             // Words may have been added, enrolled or suspended in there, so the queue is
             // rebuilt rather than resumed. Reviews already graded are in the store, not in
             // this queue, so nothing is lost by starting again.
-            model.start(dependencies: dependencies, options: options)
+            startSession()
         }) {
             MainTabView()
         }
@@ -218,10 +218,19 @@ struct StudySessionView: View {
                     // there is still nothing, open the library — re-rendering the same
                     // summary made the button look broken, which is exactly how it was
                     // reported.
-                    model.start(dependencies: dependencies, options: options)
+                    startSession()
                     if model.phase == .finished { isShowingLibrary = true }
                 }
             }
+        }
+    }
+
+    /// Builds the queue, and at the root opens on today's goal screen at rest when the goal is
+    /// already met — reopening the app after "Done for today" must not start more cards.
+    private func startSession() {
+        model.start(dependencies: dependencies, options: options)
+        if presentation == .root, model.restIfGoalAlreadyMet() {
+            isRestingForToday = true
         }
     }
 

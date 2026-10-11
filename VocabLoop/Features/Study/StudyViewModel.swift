@@ -196,6 +196,7 @@ final class StudyViewModel {
         liveActivity = dependencies.liveActivity
         policy = dependencies.questionPolicy(for: preferences)
         goalTarget = preferences.dailyGoalTarget
+        dayKey = StudyCalendar(preferences: preferences).dayKey(for: now)
         // `try?` flattens the nested optional (SE-0230), so this is `StudyDay?`, not
         // `StudyDay??`. `createIfMissing: false` because merely opening the study screen is
         // not activity — writing a row here would make an abandoned session look like a
@@ -294,9 +295,33 @@ final class StudyViewModel {
         questionShownAt = now
     }
 
+    /// The study day this session belongs to, set by ``start(dependencies:options:now:)``.
+    private var dayKey: String?
+
+    /// UserDefaults key for the last study day on which the learner chose to keep going past
+    /// the goal.
+    static let keptGoingDayKey = "study.keptGoingDay"
+
+    /// Re-opening the root session after today's goal is met.
+    ///
+    /// The resting state used to live only in the goal screen's view state, so quitting the app
+    /// (or signing out and in) after "Done for today" opened straight onto more cards — which
+    /// read as the app forgetting the day was done. Now the day itself decides: once the goal is
+    /// met, the root opens on the goal screen at rest, unless the learner chose "keep going"
+    /// today. Returns `true` when it switched to the goal screen.
+    @discardableResult
+    func restIfGoalAlreadyMet(defaults: UserDefaults = .standard) -> Bool {
+        guard isGoalMet, phase == .reviewing || phase == .finished,
+              let dayKey, defaults.string(forKey: Self.keptGoingDayKey) != dayKey else { return false }
+        phase = .goalReached
+        return true
+    }
+
     /// "Keep going" from the goal screen.
-    func continueAfterGoal(now: Date = Date()) {
+    func continueAfterGoal(now: Date = Date(), defaults: UserDefaults = .standard) {
         guard phase == .goalReached else { return }
+        // Remembered for the day, so reopening the app keeps going rather than resting again.
+        if let dayKey { defaults.set(dayKey, forKey: Self.keptGoingDayKey) }
         phase = queue.isEmpty ? .finished : .reviewing
         // The next question was built while the goal screen was up. Time spent celebrating is
         // not time spent recalling, so its clock starts now — otherwise every quiz right after
