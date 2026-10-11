@@ -17,9 +17,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # Which of the likely names are set (lengths only — never the values).
+      - name: Which names are set
+        env:
+          S_APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
+          V_APNS_KEY_P8: ${{ vars.APNS_KEY_P8 }}
+          S_APNS_KEY: ${{ secrets.APNS_KEY }}
+          S_APNS_P8: ${{ secrets.APNS_P8 }}
+          S_APNS_AUTH_KEY: ${{ secrets.APNS_AUTH_KEY }}
+          S_APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
+          V_APNS_KEY_ID: ${{ vars.APNS_KEY_ID }}
+          S_APNS_KEYID: ${{ secrets.APNS_KEYID }}
+          S_APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          V_APPLE_TEAM_ID: ${{ vars.APPLE_TEAM_ID }}
+        run: |
+          for n in S_APNS_KEY_P8 V_APNS_KEY_P8 S_APNS_KEY S_APNS_P8 S_APNS_AUTH_KEY S_APNS_KEY_ID V_APNS_KEY_ID S_APNS_KEYID S_APPLE_TEAM_ID V_APPLE_TEAM_ID; do
+            v="${!n}"; echo "$n: ${#v} characters"
+          done
       - name: Check the APNs key
         env:
-          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
-          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 || vars.APNS_KEY_P8 || secrets.APNS_KEY || secrets.APNS_P8 || secrets.APNS_AUTH_KEY }}
+          APNS_KEY_ID: ${{ secrets.APNS_KEY_ID || vars.APNS_KEY_ID || secrets.APNS_KEYID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID || vars.APPLE_TEAM_ID }}
         run: node scripts/apns-check.mjs
