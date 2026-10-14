@@ -6,6 +6,19 @@ import Foundation
 /// "missed", "failed" or "lost" — `ShareCopyTests.testNeverMentionsFailure` checks every headline
 /// over a grid of inputs.
 enum ShareCopy {
+    // MARK: Sharer
+
+    /// The name printed at the top of a poster, or `nil` to print none: guests and placeholder
+    /// names ("游客", "我") stay anonymous. Trimmed and capped so a long name cannot crowd the card.
+    static func sharerName(displayName: String?, isGuest: Bool) -> String? {
+        guard !isGuest, let raw = displayName else { return nil }
+        let name = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !name.isEmpty, !placeholderNames.contains(name.lowercased()) else { return nil }
+        return name.count > 16 ? String(name.prefix(15)) + "…" : name
+    }
+
+    static let placeholderNames: Set<String> = ["游客", "我", "guest", "?"]
+
     // MARK: Headlines
 
     /// "Daily goal done — 30 words today".

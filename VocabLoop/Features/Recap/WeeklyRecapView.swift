@@ -164,6 +164,6 @@ struct WeeklyRecapView: View {
         }
         didLoad = true
         guard let recap, rendered == nil else { return }
-        rendered = ShareCardRenderer.render(.week(recap))
+        rendered = ShareCardRenderer.render(.week(recap), sharer: ShareCard.sharer(for: dependencies.auth.current))
     }
 }

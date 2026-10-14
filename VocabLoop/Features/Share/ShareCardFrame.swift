@@ -55,6 +55,9 @@ struct ShareCardFrame<Middle: View>: View {
         self.init(kind: kind, headline: Text(headline), hero: hero, middle: middle)
     }
 
+    /// Who is sharing, set by ``ShareCardRenderer``; `nil` prints no name.
+    @Environment(\.shareSharerName) private var sharerName
+
     private var seed: UInt64 { WobbleShape.seed(for: "share-" + kind.rawValue) }
 
     var body: some View {
@@ -81,6 +84,9 @@ struct ShareCardFrame<Middle: View>: View {
 
     private var header: some View {
         VStack(spacing: Spacing.xxs) {
+            if let sharerName {
+                sharerBadge(sharerName)
+            }
             HStack(spacing: Spacing.xxs) {
                 Image(systemName: "sparkles")
                 Text(ShareCopy.eyebrow(kind))
@@ -96,6 +102,24 @@ struct ShareCardFrame<Middle: View>: View {
                 .minimumScaleFactor(0.7)
                 .fixedSize(horizontal: false, vertical: true)
         }
+    }
+
+    /// The sharer's initial in a brand circle, then their name.
+    private func sharerBadge(_ name: String) -> some View {
+        HStack(spacing: Spacing.xs) {
+            Text(String(name.prefix(1)).uppercased())
+                .font(.system(size: 13, weight: .bold, design: .rounded))
+                .foregroundStyle(Palette.onBrand)
+                .frame(width: 24, height: 24)
+                .background(Circle().fill(Palette.brandPrimary))
+            Text(name)
+                .font(Typography.sectionHeader)
+                .foregroundStyle(Palette.textPrimary)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+        }
+        .padding(.bottom, Spacing.xxs)
+        .accessibilityElement(children: .combine)
     }
 
     @ViewBuilder
@@ -126,9 +150,12 @@ struct ShareCardFrame<Middle: View>: View {
         HStack(alignment: .center, spacing: Spacing.sm) {
             VStack(alignment: .leading, spacing: Spacing.xxs) {
                 HStack(spacing: Spacing.xs) {
-                    Mascot(mood: .happy)
-                        .still()
-                        .frame(width: 30, height: 25)
+                    Image("AppLogo")
+                        .resizable()
+                        .interpolation(.high)
+                        .frame(width: 30, height: 30)
+                        .clipShape(RoundedRectangle(cornerRadius: 7, style: .continuous))
+                        .accessibilityHidden(true)
                     Text(ShareCopy.appName)
                         .font(Typography.sectionHeader)
                         .foregroundStyle(Palette.brandPrimary)
@@ -175,5 +202,18 @@ struct ShareStatChip: View {
         .padding(.vertical, Spacing.xxs + 2)
         .background(Capsule().fill(Palette.surfaceRaised))
         .overlay(Capsule().strokeBorder(Palette.separator.opacity(0.5), lineWidth: 1.5))
+    }
+}
+
+/// The name of the person sharing a poster. ``ShareCardRenderer`` sets it; ``ShareCardFrame``
+/// prints it at the top when it is not `nil`.
+private struct ShareSharerNameKey: EnvironmentKey {
+    static let defaultValue: String? = nil
+}
+
+extension EnvironmentValues {
+    var shareSharerName: String? {
+        get { self[ShareSharerNameKey.self] }
+        set { self[ShareSharerNameKey.self] = newValue }
     }
 }

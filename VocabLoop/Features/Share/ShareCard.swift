@@ -225,3 +225,10 @@ struct AlbumCard: Equatable, Sendable {
     /// Mochi's level, for the hero.
     var level: Int
 }
+
+extension ShareCard {
+    /// The name printed at the top of a poster for `session`, or `nil` for a guest.
+    static func sharer(for session: Session?) -> String? {
+        ShareCopy.sharerName(displayName: session?.displayName, isGuest: session?.isGuest ?? true)
+    }
+}
