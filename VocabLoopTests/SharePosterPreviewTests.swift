@@ -18,7 +18,7 @@ final class SharePosterPreviewTests: XCTestCase {
         defer { try? FileManager.default.removeItem(at: directory) }
 
         for card in ShareCardFixtures.all {
-            let url = try XCTUnwrap(ShareCardRenderer.writePNG(card, to: directory), "\(card.kind) did not render")
+            let url = try XCTUnwrap(ShareCardRenderer.writePNG(card, sharer: "小雨", to: directory), "\(card.kind) did not render")
             let attachment = XCTAttachment(contentsOfFile: url)
             attachment.name = "poster-\(card.kind.rawValue)"
             attachment.lifetime = .keepAlways

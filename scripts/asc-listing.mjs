@@ -761,7 +761,7 @@ async function main() {
 function finish(L, state) {
   const r = state?.review ?? {};
   const todo = [
-    'App Privacy (App Store Connect > VocabLoop > App Privacy): "No, we do not collect data from this app" > Publish. Not available in the public API.',
+    'App Privacy (App Store Connect > App Privacy): Identifiers > Device ID, used for App Functionality, not linked to the user, not used for tracking (the opt-in push token) > Publish. Not available in the public API.',
   ];
   const contact = ['contactFirstName', 'contactLastName', 'contactEmail', 'contactPhone'].filter((f) => !r[f]);
   if (contact.length) {

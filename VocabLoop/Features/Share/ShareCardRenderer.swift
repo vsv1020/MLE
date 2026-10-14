@@ -11,25 +11,28 @@ struct RenderedShareCard: Equatable {
 
 /// Turns a ``ShareCard`` into a PNG file a `ShareLink` can hand to other apps (sharing plan §3).
 ///
-/// A file URL rather than an `Image`: `URL` is `Transferable` already, and a PNG on disk is what
-/// every share target expects. 1080×1440, always light, fixed text size — see ``ShareCardFrame``.
+/// The PNG on disk is kept for tests and previews; the share sheet hands over the image itself
+/// (see ``ShareCardLink``) so WeChat and Photos treat it as a picture, not a file.
+/// 1080×1440, always light, fixed text size — see ``ShareCardFrame``.
 @MainActor
 enum ShareCardRenderer {
     /// Render `card` and write it to `directory`. `nil` if rendering or the write fails — the
     /// share button is simply not offered then. Never throws.
     static func writePNG(
         _ card: ShareCard,
+        sharer: String? = nil,
         to directory: URL = FileManager.default.temporaryDirectory
     ) -> URL? {
-        render(card, to: directory)?.url
+        render(card, sharer: sharer, to: directory)?.url
     }
 
     /// Render and write, keeping the image for an on-screen preview and the share sheet.
     static func render(
         _ card: ShareCard,
+        sharer: String? = nil,
         to directory: URL = FileManager.default.temporaryDirectory
     ) -> RenderedShareCard? {
-        guard let data = pngData(for: card), let image = UIImage(data: data) else { return nil }
+        guard let data = pngData(for: card, sharer: sharer), let image = UIImage(data: data) else { return nil }
         let url = directory.appendingPathComponent(card.fileName)
         do {
             try data.write(to: url, options: .atomic)
@@ -40,16 +43,17 @@ enum ShareCardRenderer {
     }
 
     /// The PNG bytes of `card` at ``ShareCardMetrics/pixelSize``, without touching the disk.
-    static func pngData(for card: ShareCard) -> Data? {
-        let renderer = ImageRenderer(content: content(for: card))
+    static func pngData(for card: ShareCard, sharer: String? = nil) -> Data? {
+        let renderer = ImageRenderer(content: content(for: card, sharer: sharer))
         renderer.scale = ShareCardMetrics.scale
         renderer.proposedSize = ProposedViewSize(ShareCardMetrics.pointSize)
         return renderer.uiImage?.pngData()
     }
 
     /// The card exactly as it is rendered.
-    static func content(for card: ShareCard) -> some View {
+    static func content(for card: ShareCard, sharer: String? = nil) -> some View {
         ShareCardView(card: card)
+            .environment(\.shareSharerName, sharer)
             .environment(\.colorScheme, .light)
             .dynamicTypeSize(.large)
     }

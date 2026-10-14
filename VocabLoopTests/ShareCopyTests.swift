@@ -128,4 +128,23 @@ final class ShareCopyTests: XCTestCase {
             XCTAssertNil(forbidden.firstMatch(in: line, range: range), "“\(line)” mentions what did not happen")
         }
     }
+
+    func testSharerNameHidesGuestsAndPlaceholders() {
+        XCTAssertEqual(ShareCopy.sharerName(displayName: " 小雨 ", isGuest: false), "小雨")
+        XCTAssertNil(ShareCopy.sharerName(displayName: "小雨", isGuest: true))
+        XCTAssertNil(ShareCopy.sharerName(displayName: "游客", isGuest: false))
+        XCTAssertNil(ShareCopy.sharerName(displayName: "我", isGuest: false))
+        XCTAssertNil(ShareCopy.sharerName(displayName: "Guest", isGuest: false))
+        XCTAssertNil(ShareCopy.sharerName(displayName: "  ", isGuest: false))
+        XCTAssertNil(ShareCopy.sharerName(displayName: nil, isGuest: false))
+        let long = ShareCopy.sharerName(displayName: String(repeating: "长", count: 30), isGuest: false)
+        XCTAssertEqual(long?.count, 16)
+        XCTAssertEqual(long?.last, "…")
+    }
+
+    func testSharerForSession() {
+        XCTAssertNil(ShareCard.sharer(for: nil))
+        XCTAssertNil(ShareCard.sharer(for: .guest(userID: "g")))
+        XCTAssertEqual(ShareCard.sharer(for: Session(userID: "u", provider: .local, displayName: "Lily")), "Lily")
+    }
 }
